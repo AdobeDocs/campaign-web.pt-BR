@@ -2,13 +2,13 @@
 audience: end-user
 title: Criar a versão de texto de um email
 description: Saiba como criar a versão de texto de um email
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
 
 ---
-
 
 # Criar a versão de texto de um email {#text-version-email}
 

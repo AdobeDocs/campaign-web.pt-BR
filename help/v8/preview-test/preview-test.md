@@ -1,37 +1,30 @@
 ---
 audience: end-user
-title: Visualizar e testar seu email
+title: Sobre visualização e provas
 description: Documentação da Web do Campaign v8
-source-git-commit: fa7baaa7cc75fdb20d4c21f1391edb9aa5dd268c
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
-# Visualizar e testar seu email {#preview-test-send}
+# Sobre visualização e provas {#about-preview-proofs}
 
 >[!NOTE]
 >
 >Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
-## Visualizar seu conteúdo
+Após definir o conteúdo do email, é possível verificar como ele será exibido antes de enviá-lo. Isso permite testar o email para detectar possíveis erros nas configurações de conteúdo ou personalização.
 
-<!--
-Diff from AJO: 
-preview: more features than AJO: preview using target population, test profiles or audience
--->
+Para fazer isso, o Adobe Campaign permite:
 
-![](assets/preview.png)
+* [Visualizar o conteúdo e a personalização do email](#preview) uso de dados de perfil,
 
-1. selecione perfis para testar (perfis direcionados/perfis de teste/público-alvo)
-1. visualizar conteúdo
+<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Enviar provas](#send-proofs) para recipients específicos a fim de testar e validar o email.
 
-## Enviar provas
+Essas ações são executadas a partir da variável **[!UICONTROL Simular conteúdo]** botão que é acessível ao criar o conteúdo do seu email a partir do Designer de email:
 
-etapas detalhadas para enviar uma prova
-
-<!--
-Diff from AJO: 
-substitution, test profile
--->
+![](assets/simulate.png)

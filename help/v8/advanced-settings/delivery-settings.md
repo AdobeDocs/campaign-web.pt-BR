@@ -2,10 +2,11 @@
 audience: end-user
 title: Configurações avançadas
 description: Documentação da Web do Campaign v8
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
+source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 34%
+source-wordcount: '899'
+ht-degree: 53%
 
 ---
 
@@ -40,24 +41,47 @@ De acordo com permissões, os profissionais não devem modificar isso, tenha cui
 >title="Tipologia"
 >abstract="A tipologia permite controlar, filtrar e monitorar o envio de deliveries."
 
-### Parâmetro de pressão {#pressure-parameter}
+Tipologias são conjuntos de regras de tipologia, que são executadas durante a fase de análise da mensagem. Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
+
+Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras de tipologia incluídas na tipologia serão executadas para verificar a validade da mensagem.
+
+### Parâmetros de pressão {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Peso da entrega"
 >abstract="Os pesos do delivery permitem identificar deliveries de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
 
+Nesta seção, os parâmetros de pressão permitem definir um limite. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um determinado período. Depois que esse limite for atingido, não poderá ocorrer mais deliveries até o final do período considerado. Esse processo permite excluir automaticamente um perfil de um delivery, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
+
+Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
+
+No **Tipo de peso** , três opções estão disponíveis:
+
+O **Peso do delivery** permite
+
+O **Modo de entrega** campo..
+
 ### Configurações de capacidade {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="Importância do destinatário"
->abstract="TBC"
+>abstract="A importância do recipient é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas."
 
+Nesta seção, você pode selecionar uma regra de capacidade definida no Console do Adobe Campaign v8. Essa regra está associada ao canal de email.
+
+O **importância do destinatário** é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas.
 
 ## Público-alvo {#audience}
 
+Nesta seção, você pode escolher um target mapping definido no console Adobe Campaign v8. A criação do target mapping é necessária no caso de usar uma tabela de recipients diferente da fornecida pelo Adobe Campaign.
+
 ## Entrega {#delivery}
+
+Teste da entrega de SMTP: use essa opção para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+
+Cco de email: use essa opção para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem.
 
 ### Tentativas {#retries}
 
@@ -66,16 +90,22 @@ De acordo com permissões, os profissionais não devem modificar isso, tenha cui
 >title="Número máximo de tentativas"
 >abstract="Se uma mensagem falhar devido a um erro temporário, novas tentativas serão executadas durante a duração do delivery."
 
+As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia do delivery, com um intervalo mínimo de uma hora distribuído pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido na guia Validity .
+
 ## Aprovação {#approval}
+
+**Manual**
+
+**Semiautomático**
+
+**Automático**
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Aprovação modo"
+>title="Modo de aprovação"
 >abstract="Cada etapa de um delivery pode ser sujeita a aprovação para garantir o monitoramento e o controle totais dos vários processos."
 
 ## Validade {#validity}
-
-### Período de validade {#validity-period}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
@@ -88,6 +118,16 @@ De acordo com permissões, os profissionais não devem modificar isso, tenha cui
 >abstract="O campo Validity limit é usado para recursos carregados, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado."
 
 
+O campo Delivery duration permite inserir o limite de novas tentativas de delivery globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
+
+Você também poderá optar por especificar datas. Para fazer isso, selecione Explicitly set validity dates. Nesse caso, as datas de delivery e limite de validade também permitem especificar o tempo. O tempo atual é usado por padrão, mas você poderá modificar isso diretamente no campo de entrada.
+
+Validity limit of resources: o campo Validity limit é usado para recursos carregados, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+
+### Gerenciamento de mirror page {#mirror}
+
+**Gerenciamento de mirror page**
+
 ### Rastreamento {#tracking}
 
 >[!CONTEXTUALHELP]
@@ -95,16 +135,19 @@ De acordo com permissões, os profissionais não devem modificar isso, tenha cui
 >title="Período de validade"
 >abstract="Essa opção define a duração para a qual o rastreamento será ativado nos URLs."
 
+**Limite de validade do rastreamento**: Essa opção define a duração para a qual o rastreamento será ativado nos URLs.
+
+**URL de substituição para URLs expirados**: TBC
 
 
+## Configurações de teste{#test-setttings}
 
+**Manter duplo**
 
+**Manter endereços incluídos na lista de bloqueios**
 
+**Manter endereços em quarentena**
 
+**Manter o código de entrega para a prova**
 
-
-
-
-
-
-
+**Prefixo do rótulo**

@@ -2,10 +2,11 @@
 audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 7%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -18,15 +19,13 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Interface"
->abstract="TBC"
-
-## Visão geral da interface
-
-![](assets/home.png)
+>abstract="A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente."
 
 A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente.
 
-Os principais conceitos ao navegar na interface do usuário são comuns ao Adobe Experience Platform. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) para obter mais detalhes.
+<!--
+Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
+-->
 
 >[!NOTE]
 >
@@ -38,34 +37,24 @@ Os principais conceitos ao navegar na interface do usuário são comuns ao Adobe
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Shell Unificado
-
-acesso aos aprendizados da comunidade, centro de ajuda, alternador de organizações, alternador de soluções
-
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## Ajuda contextual?
-
-Ajuda do contexto e Gainsight: guia de integração/no produto
-
-## Home page
-
-## Geral
-
-guia modelo de lista de telas
-
 ## Menu de navegação esquerdo
 
-Navegue pelos links à esquerda para acessar os recursos da Web do Campaign v8.
+Navegue pelos links à esquerda para acessar os recursos da Web do Campaign v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Todas as telas de lista são somente leitura, exceto a lista de delivery de email. Clicar em qualquer item de lista para edição/visualização não está disponível em Alfa.
+
+![](assets/home.png)
 
 ### Página inicial
 
+Esta tela inclui links e recursos importantes para um acesso rápido aos principais recursos da Web do Campaign v8. O **Recentes** fornece atalhos para os deliveries criados recentemente. Esta lista mostra as datas de criação e modificação e o status.
+
+<!--
 * Banner
-* KPIs no canal de email (deliveries cruzados): taxa de abertura, taxa de delivery etc
-* Itens recentes
-* Cartões de aprendizado
+* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
+* Recent items
+* Learning cards
+-->
+
+Acesse as páginas de ajuda da chave da Web do Campaign v8 na seção inferior da página inicial.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -78,78 +67,115 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="TBC"
+>abstract="O **Explorer** exibe a mesma hierarquia de pastas que a existente no console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são somente leitura, exceto a lista de delivery de email."
 
-Menu do Explorer na interface do usuário da Web para navegar pelo conteúdo do console: segunda visualização da navtree do console, além das listas de menu à esquerda com filtros. O Explorer fornece a hierarquia de pasta real do console. Certifique-se de encontrar seus deliveries em subpastas. Todas as listas podem ser acessadas somente leitura. Sem Criar/Editar. É possível configurar listas (colunas). Todos os campos de esquema, tabelas vinculadas estão disponíveis.
+O **Explorer** exibe a mesma hierarquia de pastas que a existente no console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são somente leitura, exceto a lista de delivery de email.
 
-Somente deliveries podem ser abertos.
+Os itens exibidos no Explorer dependem das permissões do usuário.
 
-Se você precisar exibir suas listas de recipients (idade, gênero), transações ou mensagens transacionais ao vivo. Para exibir cada/editar -> console.
+Como em qualquer tela de lista, você pode configurar colunas para personalizar a exibição para exibir todas as informações necessárias. Consulte esta [seção](#list-screens).
 
-A exibição do Navtree depende de permissões (mesma do console).
+Para obter mais informações sobre o explorador do Campaign, consulte esta seção [documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+
+If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
+
+Navtree view depends on permissions (same as console).
+-->
 
 ### Gerenciamento de campanhas
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campanhas"
->abstract="TBC"
+>abstract="Esta é a lista de suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação, bem como seu status. Você pode filtrar a lista por status ou datas de início/término. Os templates de campanha também estão disponíveis. Essas listas são somente leitura."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="TBC"
+>abstract="Navegue pela lista de deliveries. Você pode visualizar seu estado, a última data de modificação, bem como os KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique em um delivery de email para abrir seu painel. Outros itens são somente leitura. Os templates de delivery também estão disponíveis."
 
-* **Campanhas** - Sua lista de campanhas. Nenhuma edição/criação.
-* **Deliveries** - Sua lista de deliveries. Criação/edição.
+* **Campanhas** - Esta é a lista de suas campanhas. Por padrão, você pode exibir suas datas de início/término/última modificação, bem como seu status. Você pode filtrar a lista por status ou datas de início/término. Os templates de campanha também estão disponíveis. Essas listas são somente leitura.
+
+* **Deliveries** - Navegue pela lista de deliveries. Por padrão, você pode visualizar seu estado, a última data de modificação, bem como os KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique em um delivery de email para abrir seu painel e obter uma visão geral dos detalhes do delivery. Os deliveries em outros canais são somente leitura. Os templates de delivery também estão disponíveis no modo somente leitura. Você pode usar o Console do cliente para editá-los. Veja isso [documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=pt-BR).
 
 ### Gerenciamento de clientes
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Recipients"
->abstract="TBC"
+>abstract="Acesse o banco de dados do recipient. Você pode exibir informações úteis, como endereço de email, nome e sobrenome. Esta lista é somente leitura."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos"
->abstract="TBC"
+>abstract="Esta é a sua lista de públicos-alvo. Você pode exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. Você pode filtrar a lista por origem. Esta lista é somente leitura."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Listas de assinaturas"
->abstract="TBC"
+>abstract="Navegue pelas listas de assinaturas. Você pode exibir seu tipo, modo e rótulo. Esta lista é somente leitura."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Fluxos de trabalho para construção do target"
->abstract="TBC"
+>abstract="Acesse a lista de workflows do Campaign. Você pode visualizar o estado, as datas e o ambiente do último/próximo processamento. Você pode filtrar a lista por estado, data do último processamento e tipo de workflow. Os templates de workflow também estão disponíveis. Essas listas são somente leitura."
 
-* **Recipients** - Sua lista de recipients. Nenhuma edição/criação.
-* **Públicos-alvo** - Sua lista de públicos-alvo. Nenhuma edição/criação.
-* **Listas de assinaturas** - Sua lista de Subscriptions lists. Nenhuma edição/criação.
-* **Workflows para construção do target** - Sua lista de workflows para construção do target. Nenhuma edição/criação.
+* **Recipients** - Acesse o banco de dados do recipient. Por padrão, você pode exibir o endereço de email, o nome e o sobrenome. Esta lista é somente leitura.
+* **Públicos-alvo** - Esta é a sua lista de públicos-alvo. Por padrão, é possível exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. Você pode filtrar a lista por origem. Esta lista é somente leitura.
+* **Listas de assinaturas** - Navegue pelas listas de assinaturas. Por padrão, é possível exibir o tipo, o modo e o rótulo. Esta lista é somente leitura.
+* **Workflows para construção do target** - Acesse a lista de workflows do Campaign. Por padrão, você pode visualizar o estado, as datas e o ambiente do último/próximo processamento. Você pode filtrar a lista por estado, data do último processamento e tipo de workflow. Os templates de workflow também estão disponíveis. Essas listas são somente leitura.
 
 ### Gestão de decisões
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="TBC"
+>abstract="Navegue pela lista de ofertas de interação. Por padrão, você pode exibir o status, as datas de início/término e o ambiente. Você pode filtrar a lista por estado e datas de início/término. Os templates de oferta também estão disponíveis. Essas listas são somente leitura."
 
-* **Ofertas** - Sua lista de ofertas. Nenhuma edição/criação.
+* **Ofertas** - Navegue pela lista de ofertas do Interaction. Por padrão, você pode exibir o status, as datas de início/término e o ambiente. Você pode filtrar a lista por estado e datas de início/término. Os templates de oferta também estão disponíveis. Essas listas são somente leitura.
 
-## Listas de filtros{#filter-lists}
+## Barra superior
 
-Telas de lista
+A barra superior da interface permite:
 
-## Buscar ajuda e suporte {#find-help}
+* compartilhar seu feedback como um cliente Alfa
+* alternar entre organizações IMS
+* alternar entre seus aplicativos Adobe Experience Cloud
+* acesse páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
-Acesse as principais páginas de ajuda do Adobe Journey Optimizer na seção inferior da página inicial.
+![](assets/unified-shell.png){width="70%" align="left"}
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
 
-Use o **Ajuda** para acessar páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
+## Ajuda contextual e guia de integração
 
-## Navegadores compatíveis {#browsers}
+Uma ajuda contextual está disponível na interface do . Quando disponível, clique no botão **?** ícone para exibir informações de ajuda e links de documentação relacionados.
 
-Adobe [!DNL Journey Optimizer] A interface do foi projetada para funcionar de maneira ideal na versão mais recente do Google Chrome. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou outros navegadores.
+![](assets/context-help.png){width="70%" align="left"}
 
+Um guia de integração também está disponível para ajudar você a começar a usar a Web do Campaign v8. Clique no ícone no canto inferior direito, escolha um dos cenários passo a passo disponíveis e siga as instruções.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Configurar telas de lista {#list-screens}
+
+Vários links no menu de navegação esquerdo, por exemplo **Deliveries** ou **Campanhas**, exibir listas de objetos. Essas telas de lista são somente leitura, exceto a lista de delivery de email.
+
+Para localizar itens mais rapidamente, você pode usar a barra de pesquisa ou filtrar a lista com base em critérios contextuais.
+
+![](assets/filter.png){width="70%" align="left"}
+
+As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no ícone no canto superior direito da lista. Você pode adicionar ou remover colunas e alterar a ordem em que são exibidas.
+
+![](assets/columns.png){width="70%" align="left"}
+
+Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo) indicando que a lista está classificada nessa coluna. Para colunas numéricas ou de datas, a seta para cima indica que a lista é classificada em ordem crescente, enquanto a seta para baixo indica uma ordem decrescente. Para colunas de sequência ou alfanuméricas, os valores são listados em ordem alfabética.
+
+<!--
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->

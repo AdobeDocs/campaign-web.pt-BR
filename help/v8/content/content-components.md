@@ -2,13 +2,13 @@
 audience: end-user
 title: Usar componentes de conteúdo do designer de email
 description: Saiba como usar componentes de conteúdo em seus emails
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
+source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
-
 
 # Usar os componentes de conteúdo do Designer de email {#content-components}
 
@@ -36,24 +36,52 @@ ht-degree: 0%
 >title="Sobre componentes de conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados para o conteúdo vazio que podem ser usados para criar o layout de um modelo."
 
+## Adicionar componentes de conteúdo {#add-content-components}
 
+Para adicionar componentes de conteúdo ao seu email e ajustá-los às suas necessidades, siga as etapas abaixo.
+
+1. No Designer de email, use um conteúdo existente ou arraste e solte **[!UICONTROL Componentes da estrutura]** no conteúdo vazio para definir o layout do email. [Saiba como](create-email-content.md)
+
+1. Para acessar o **[!UICONTROL Componentes de conteúdo]** selecione o botão correspondente no painel esquerdo do Designer de email.
+
+   ![](assets/email_designer_content_components.png)
+
+1. Arraste e solte os componentes de conteúdo de sua escolha dentro dos componentes de estrutura relevantes.
+
+   ![](assets/email_designer_add_content_components.png)
+
+   >[!NOTE]
+   >
+   >É possível adicionar vários componentes em um único componente de estrutura e em cada coluna de um componente de estrutura.
+
+1. Ajuste os atributos de estilo para cada componente usando o **[!UICONTROL Configurações do componente]** painel à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
+
+   ![](assets/email_designer_content_components_settings.png)
 
 Ao criar seu conteúdo de email do zero, **[!UICONTROL Componentes de conteúdo]** O permite personalizar ainda mais seu email com componentes brutos e vazios que podem ser usados depois de colocados no email.
 Você pode adicionar quantos **[!UICONTROL Componentes de conteúdo]** conforme necessário dentro de um **[!UICONTROL Componente Estrutura]** que define o layout do email.
 
+## Container {#container}
+
+Você pode adicionar um contêiner simples dentro do qual poderá adicionar outro componente de conteúdo. Isso permite aplicar um estilo específico ao contêiner, que será diferente do componente usado no .
+
+Por exemplo, adicione uma **[!UICONTROL Contêiner]** e, em seguida, adicione um [Botão](#button) componente dentro desse contêiner. Você pode usar um plano de fundo específico para o contêiner e outro para o botão .
+
+![](assets/email_designer_container_component.png)
+
 ## Botão {#buttons}
 
-Use o **[!UICONTROL Botão]** para inserir vários botões no email e redirecionar o público de email para outra página.
+Use o **[!UICONTROL Botão]** para inserir um ou vários botões no email e redirecionar o público do email para outra página.
 
-1. De **[!UICONTROL Componentes de conteúdo]**, arrastar e soltar **[!UICONTROL Botão]** em **[!UICONTROL Componente Estrutura]**.
+1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Botão]** em um **[!UICONTROL Componente Estrutura]**.
 
    ![](assets/email_designer_13.png)
 
-1. Clique no botão recém-adicionado para personalizar o texto e ter acesso ao **[!UICONTROL Configurações de componentes]** no painel direito do designer de email.
+1. Clique no botão recém-adicionado para personalizar o texto e ter acesso ao **[!UICONTROL Configurações de componentes]** no painel direito do Email Designer.
 
    ![](assets/email_designer_14.png)
 
-1. No **[!UICONTROL Link]** do **[!UICONTROL Configurações de componentes]**, adicione o URL para o qual você deseja que o público-alvo seja redirecionado ao clicar no botão .
+1. No **[!UICONTROL Link]** adicione o URL para o qual deseja redirecionar ao clicar no botão .
 
 1. Escolha como seu público será redirecionado com o **[!UICONTROL Target]** lista suspensa:
 
@@ -65,13 +93,13 @@ Use o **[!UICONTROL Botão]** para inserir vários botões no email e redirecion
 
    ![](assets/email_designer_15.png)
 
-1. Agora você pode personalizar ainda mais seu botão, alterando o **[!UICONTROL Estilo]**, **[!UICONTROL Margem]** e **[!UICONTROL Borda]** por exemplo.
+1. Você pode personalizar ainda mais seu botão alterando atributos de estilo como **[!UICONTROL Borda]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Margem]**, etc. do **[!UICONTROL Configurações do componente]** painel.
 
 ## Texto {#text}
 
-Use o **[!UICONTROL Texto]** componente para inserir texto no email. É possível ajustar a cor, o estilo e o tamanho do texto em **[!UICONTROL Configurações do componente]**.
+Use o **[!UICONTROL Texto]** componente para inserir texto no email e ajustar o estilo (borda, tamanho, preenchimento etc.) usando o **[!UICONTROL Configurações do componente]** painel.
 
-1. Em **[!UICONTROL Componentes de conteúdo]**, arrastar e soltar **[!UICONTROL Texto]** em **[!UICONTROL Componente Estrutura]**.
+1. De **[!UICONTROL Componentes de conteúdo]**, arrastar e soltar **[!UICONTROL Texto]** em **[!UICONTROL Componente Estrutura]**.
 
    ![](assets/email_designer_11.png)
 
@@ -93,34 +121,33 @@ Use o **[!UICONTROL Texto]** componente para inserir texto no email. É possíve
    * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis.
    * **[!UICONTROL Habilitar conteúdo condicional]**: adicione conteúdo condicional para adaptar o conteúdo do componente aos perfis segmentados.
 
-1. Ajuste o **[!UICONTROL Cor do texto]**, **[!UICONTROL Família de fontes]** e **[!UICONTROL Tamanho]** no **[!UICONTROL Configurações de componentes]**.
+1. Ajuste os outros atributos de estilo, como cor do texto, família da fonte, borda, preenchimento, margem etc. do **[!UICONTROL Configurações do componente]** painel.
 
    ![](assets/email_designer_12.png)
 
 ## Divisor {#divider}
 
 Use o **[!UICONTROL Divisor]** para inserir uma linha divisória para organizar o layout e o conteúdo do seu email.
-Você pode selecionar a cor, o estilo e o tamanho da linha de quebra em **[!UICONTROL Configurações do componente]**.
+
+É possível ajustar atributos de estilo, como cor da linha, estilo e altura da **[!UICONTROL Configurações do componente]** painel.
 
 ![](assets/email_designer_16.png)
 
 ## HTML {#HTML}
 
-Use o **[!UICONTROL HTML]** para copiar e colar as diferentes partes do HTML existente. Isso permite criar componentes HTML modulares gratuitos.
+Use o **[!UICONTROL HTML]** componente para copiar e colar as diferentes partes do HTML existente. Isso permite que você crie componentes de HTML modulares gratuitos para reutilizar algum conteúdo externo.
 
-Para simplesmente tornar um conteúdo externo compatível com o Designer de email, o Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do email existente para componentes.
-
-1. Em **[!UICONTROL Componentes de conteúdo]**, arrastar e soltar **[!UICONTROL HTML]** em **[!UICONTROL Componente Estrutura]**.
+1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL HTML]** em um **[!UICONTROL Componente Estrutura]**.
 
    ![](assets/email_designer_22.png)
 
-1. Clique no componente recém-adicionado e **[!UICONTROL Mostrar o código-fonte]** para adicionar o HTML.
+1. Clique no componente recém-adicionado e selecione **[!UICONTROL Mostrar o código-fonte]** na barra de ferramentas contextual para adicionar o HTML.
 
    ![](assets/email_designer_23.png)
 
-1. Copie e cole o código do HTML que deseja adicionar ao seu email e clique em **[!UICONTROL Salvar]**.
-
-1. Agora você pode personalizar ainda mais seu HTML alterando o **[!UICONTROL Estilo]**, **[!UICONTROL Margem]** e **[!UICONTROL Borda]** por exemplo, ou adicionar um link para redirecionar seu público para outro conteúdo.
+>[!NOTE]
+>
+>Para simplesmente tornar um conteúdo externo compatível com o Designer de email, o Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do email existente para componentes.
 
 ## Imagem {#image}
 
@@ -132,70 +159,24 @@ Use o **[!UICONTROL Imagem]** componente para inserir um arquivo de imagem de se
 
 1. Clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos.
 
-   Para saber mais sobre [!DNL Assets Essentials], consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
-
-1. Clique no componente recém-adicionado para começar a configurar **[!UICONTROL Componentes de conteúdo]** e ter acesso ao **[!UICONTROL Configurações de componentes]** no painel direito do designer de email.
-
-1. Configure suas propriedades da imagem:
+1. Clique no componente recém-adicionado e configure as propriedades da imagem usando o **[!UICONTROL Configurações de componentes]** painel:
 
    * **[!UICONTROL Título da imagem]** permite definir um título para a imagem.
    * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo HTML alt.
 
    ![](assets/email_designer_10.png)
 
-1. Agora você pode personalizar ainda mais sua imagem, alterando o **[!UICONTROL Estilo]**, **[!UICONTROL Margem]** e **[!UICONTROL Borda]** por exemplo, ou adicionar um link para redirecionar seu público para outro conteúdo.
-
-## Vídeo {#Video}
-
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo no seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem de fallback."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo na página de aterrissagem. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo no fragmento. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo no modelo. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
-
-
-Use o **[!UICONTROL Vídeo]** para inserir um vídeo no seu email por meio de um link de URL.
-
-1. Em **[!UICONTROL Componentes de conteúdo]**, arrastar e soltar **[!UICONTROL Vídeo]** em **[!UICONTROL Componente Estrutura]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Clique no componente recém-adicionado para começar a configurar **[!UICONTROL Componentes de conteúdo]** e ter acesso ao **[!UICONTROL Configurações de componentes]** no painel direito do designer de email.
-
-1. No **[!UICONTROL Link de vídeo]** do **[!UICONTROL Configurações de componentes]**, adicione o URL do vídeo.
-
-   ![](assets/email_designer_18.png)
-
-1. Você pode adicionar uma **[!UICONTROL Imagem do cartaz]** ao vídeo para especificar uma imagem a ser exibida até o público clicar no botão Reproduzir.
-
-1. Agora você pode personalizar ainda mais sua imagem, alterando o **[!UICONTROL Estilo]**, **[!UICONTROL Margem]** e **[!UICONTROL Borda]** por exemplo.
+1. Ajuste os outros atributos de estilo, como margem, borda etc. ou adicionar um link para redirecionar seu público para outro conteúdo do **[!UICONTROL Configurações do componente]** painel.
 
 ## Social {#social}
 
-Use o **[!UICONTROL Social]** para inserir links às páginas de mídia social no seu email.
+Use o **[!UICONTROL Social]** componente para inserir links às páginas de mídia social no seu conteúdo de email.
 
-1. Em **[!UICONTROL Componentes de conteúdo]**, arrastar e soltar **[!UICONTROL Social]** em **[!UICONTROL Componente Estrutura]**.
+1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Social]** em um **[!UICONTROL Componente Estrutura]**.
 
-   ![](assets/email_designer_19.png)
+1. Clique no componente recém-adicionado.
 
-1. Clique no componente recém-adicionado para começar a configurar **[!UICONTROL Componentes de conteúdo]** e ter acesso ao **[!UICONTROL Configurações de componentes]** no painel direito do designer de email.
-
-1. No **[!UICONTROL Social]** do **[!UICONTROL Configurações de componentes]**, escolha que mídia social deseja adicionar ou remover.
+1. No **[!UICONTROL Social]** do **[!UICONTROL Configurações de componentes]** escolha que mídia social deseja adicionar ou remover.
 
    ![](assets/email_designer_20.png)
 
@@ -207,8 +188,4 @@ Use o **[!UICONTROL Social]** para inserir links às páginas de mídia social n
 
 1. Você também pode alterar os ícones de cada uma das redes sociais, se necessário, na variável **[!UICONTROL Imagem]** campo.
 
-1. Agora você pode personalizar ainda mais seus ícones de redes sociais alterando o **[!UICONTROL Estilo]**, **[!UICONTROL Margem]** e **[!UICONTROL Borda]**.
-
-## Decisão da oferta {#offer-decision}
-
-Use o **[!UICONTROL Decisão da oferta]** componente para inserir decisões (anteriormente conhecido como atividades de oferta) em suas mensagens. As decisões aproveitarão o Gerenciamento de decisões para escolher a melhor oferta a ser entregue aos clientes.
+1. Ajuste os outros atributos de estilo, como estilo, margem, borda etc. do **[!UICONTROL Configurações do componente]** painel.

@@ -2,49 +2,47 @@
 audience: end-user
 title: Adicionar um público-alvo
 description: Documentação da Web do Campaign v8
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
+exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '234'
+ht-degree: 5%
 
 ---
 
-# Adicionar um público-alvo {#add-audience}
+# Selecionar um público-alvo {#add-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Introdução à campanha de marketing"
->abstract="Saiba como gerenciar o público-alvo do seu conteúdo de email."
+>id="acw_deliveries_email_audience_select"
+>title="Selecionar um público-alvo existente"
+>abstract="Os públicos-alvo são definidos no Console do Adobe Campaign v8. Se tiver uma integração do Adobe Experience Platform disponível, você também poderá ver públicos-alvo definidos pela plataforma."
 
 >[!NOTE]
 >
 >Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
-<!--
-Audience only created for the delivery, not available later-->
+Esta seção explica como selecionar um público-alvo existente ao definir o público-alvo de um delivery de email. Para criar um novo público-alvo, consulte esta seção [seção](segment-builder.md).
 
-## Selecionar um público-alvo existente {#audience-select}
+1. No **Público** seção do assistente de criação de delivery, clique no link **[!UICONTROL Seleção do público-alvo]** botão.
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience_select"
->title="Selecionar um público-alvo existente"
->abstract="TBC"
+   ![](assets/create-audience.png)
 
-Três maneiras:
-* público-alvo existente
+1. Choose **[!UICONTROL Seleção do público-alvo]** para usar um público-alvo existente. Para criar um novo público-alvo a ser usado neste email, escolha **Crie seu próprio**. Consulte esta [seção](segment-builder.md).
 
-<!--
-Campaign or AEP Audiences
--->
-* criar novos em tempo real
+   Essa tela exibe todos os públicos-alvo existentes definidos no console Adobe Campaign ou no Adobe Experience Platform.
 
-<!--
-query like AEP segment builder (same component with campaign data)
--->
-* importar do arquivo
+   ![](assets/create-audience2.png)
 
-mostrar caso de uso com uma nova criação de público-alvo (ou importar do arquivo?)
+1. Escolha um público-alvo e clique em **Selecionar**.
 
-<!--
-control groups like acc: exract, random, based on attribute
--->
+1. Clique em **Editar regras** se quiser refinar seu público-alvo.
+
+   ![](assets/create-audience3.png)
+
+1. Usando o construtor de segmentos, você pode enriquecer seu público-alvo com filtros adicionais ou combinando públicos-alvo diferentes. Consulte esta [seção](segment-builder.md).
+
+   ![](assets/create-audience4.png)
+
+1. Clique em **Save**.
+
+Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não receberá a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos, o que não aconteceu. Consulte [seção](control-group.md).

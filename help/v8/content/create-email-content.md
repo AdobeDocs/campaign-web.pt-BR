@@ -1,14 +1,14 @@
 ---
 audience: end-user
-title: Criar emails no Journey Optimizer
+title: Criar emails no Email Designer
 description: Saiba como criar seu conteúdo de e-mails do zero
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 23e71da3-434d-4619-a48a-334281592d85
+source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 3%
+source-wordcount: '527'
+ht-degree: 0%
 
 ---
-
 
 # Iniciar do zero {#create-email-content}
 
@@ -59,23 +59,23 @@ ht-degree: 3%
 
 O Designer de email permite que você defina facilmente a estrutura do seu email. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu email em segundos.
 
-Para começar a criar seu conteúdo de email com o designer de email, siga as etapas abaixo:
+Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
 1. Na página inicial do Designer de email, selecione o **[!UICONTROL Design do zero]** opção.
 
    ![](assets/email_designer.png)
 
-1. Comece a criar o conteúdo de email arrastando e soltando **[!UICONTROL Componentes da estrutura]** para definir o layout do email.
+1. Comece a criar o conteúdo de email arrastando e soltando **[!UICONTROL Componentes da estrutura]** na tela para definir o layout do email.
 
    >[!NOTE]
    >
-   >Observe que a pilha de colunas não é compatível com todos os programas de email. Quando não houver suporte, as colunas não serão empilhadas.
-   >
-   >Depois de colocado no email, não é possível mover nem remover seus componentes, a menos que já exista um componente de conteúdo ou um fragmento inserido dentro dele.
+   >O empilhamento de colunas não é compatível com todos os programas de email. Quando não houver suporte, as colunas não serão empilhadas.
+
+   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
    ![](assets/email_designer_2.png)
 
-1. Adicionar quantos **[!UICONTROL Componentes da estrutura]** conforme necessário.
+1. Adicionar quantos **[!UICONTROL Componentes da estrutura]** conforme necessário, e edite suas configurações no painel dedicado à direita.
 
    Selecione o **[!UICONTROL coluna n:n]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna, movendo as setas na parte inferior de cada coluna.
 
@@ -83,47 +83,27 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
    >
    >Cada tamanho de coluna não pode estar abaixo de 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
 
-1. No **[!UICONTROL Componentes de conteúdo]** , é possível adicionar quantos **[!UICONTROL Componentes de conteúdo]** conforme necessário no componente de estrutura. [Saiba mais sobre componentes de conteúdo](content-components.md).
+1. Expanda o **[!UICONTROL Componentes de conteúdo]** e adicione quantos elementos forem necessários em um ou mais componentes de estrutura. [Saiba mais sobre componentes de conteúdo](content-components.md)
 
-   ![](assets/email_designer_3.png)
-
-1. Cada componente pode ser personalizado ainda mais com a variável **[!UICONTROL Configurações do componente]** seção. Por exemplo, você pode alterar o estilo do texto, o preenchimento ou a margem do componente. [Saiba mais sobre alinhamento e preenchimento](adjusting-vertical-alignment-and-padding.md).
-
-   ![](assets/email_designer_4.png)
-
-1. No **[!UICONTROL Seletor de ativos]**, é possível adicionar diretamente ativos armazenados no **[!UICONTROL Biblioteca de ativos]** ao seu email.
-
-   Clique duas vezes na pasta que continha seus ativos e arraste e solte o ativo que deseja adicionar ao seu email.
+1. Cada componente pode ser personalizado ainda mais usando o **[!UICONTROL Configurações do componente]** painel à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
 
    ![](assets/email_designer_5.png)
 
-1. Adicione campos de personalização para personalizar o conteúdo dos dados de perfis.
+1. Insira campos de personalização para personalizar seu conteúdo de email a partir de dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
-   ![](assets/email_designer_6.png)
-
-1. Adicione conteúdo dinâmico para adaptar o conteúdo aos perfis segmentados com base em regras condicionais.
-
-   ![](assets/email_designer_dynamic-content.png)
-
-1. No **[!UICONTROL Links]** no painel esquerdo, verifique a lista de todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]**, **[!UICONTROL Rótulo]** e **[!UICONTROL Tags]** se necessário.
+1. Clique no botão **[!UICONTROL Links]** no painel esquerdo para exibir todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Tags]** se necessário. [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
-   >[!NOTE]
+1. Se necessário, você pode personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado. [Saiba mais sobre o editor de código](code-content.md)
+
+   >[!CAUTION]
    >
-   >Saiba mais sobre links e rastreamento de mensagens em [esta página](message-tracking.md).
+   >Não será possível reverter para o designer visual desse email após alternar para o editor de códigos.
 
-1. Se necessário, você pode alternar para o editor de código para personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado. Para obter mais informações sobre o editor de códigos, consulte [esta página](code-content.md#).
+1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar a renderização de email. Você pode escolher a área de trabalho ou exibição móvel. [Saiba mais sobre como visualizar seu email](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >Não será possível usar o designer visual para esse email após alternar para o editor de código.
+   ![](assets/email_designer_28.png)
 
-   ![](assets/email_designer_26.png)
-
-1. Clique em **[!UICONTROL Mostrar visualização]** para verificar a renderização de email. Você pode escolher a área de trabalho ou exibição móvel.
-
-   ![](assets/email_designer_8.png)
-
-1. Quando o email estiver pronto, clique em **[!UICONTROL Salvar e fechar]**.
+1. Quando o email estiver pronto, clique em **[!UICONTROL Salvar]**.
 

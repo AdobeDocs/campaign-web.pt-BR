@@ -2,13 +2,13 @@
 audience: end-user
 product: campaign
 title: Trabalhar com modelos de email
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 6%
 
 ---
-
 
 # Trabalhar com modelos de conteúdo de email {#email-content-templates}
 
@@ -19,10 +19,6 @@ ht-degree: 7%
 Use o **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo de um template.
 
 ![](assets/email_designer-templates.png)
-
-Você pode escolher:
-* 20 templates de email prontos para uso.
-* Modelos salvos. [Saiba mais](#save-as-template)
 
 ## Save as template {#save-as-template}
 

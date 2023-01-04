@@ -2,13 +2,13 @@
 audience: end-user
 title: Personalize o plano de fundo do email
 description: Saiba como personalizar o plano de fundo do email
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Personalize o plano de fundo do email {#backgrounds}
 
@@ -29,7 +29,7 @@ Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomen
 
 Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
-* Defina um **[!UICONTROL Cor do plano de fundo]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
+* Defina um **[!UICONTROL Cor do plano de fundo]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível no painel esquerdo.
 
    ![](assets/background_1.png)
 
@@ -37,26 +37,28 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
    ![](assets/background_2.png)
 
-* Defina uma cor de plano de fundo diferente para cada componente de estrutura. Selecione uma estrutura na árvore de navegação acessível na paleta esquerda para aplicar uma cor de plano de fundo específica somente a essa estrutura.
-
-   Certifique-se de não definir uma cor de plano de fundo da janela de visualização, pois ela pode ocultar as cores de plano de fundo da estrutura.
+* Defina uma cor de plano de fundo diferente para cada componente de estrutura. Selecione uma estrutura na árvore de navegação no painel esquerdo para aplicar uma cor de plano de fundo específica somente a essa estrutura.
 
    ![](assets/background_3.png)
 
+   >[!NOTE]
+   >
+   >Certifique-se de não definir uma cor de plano de fundo da janela de visualização, pois ela pode ocultar as cores de plano de fundo da estrutura.
+
 * Defina um **[!UICONTROL Imagem de plano de fundo]** para o conteúdo de um componente de estrutura.
+
+   ![](assets/background_4.png)
 
    >[!NOTE]
    >
    >Alguns programas de email não suportam imagens de fundo. Quando não houver suporte, a cor de plano de fundo da linha será usada. Certifique-se de selecionar uma cor de plano de fundo de fallback apropriada caso a imagem não possa ser exibida.
 
-   ![](assets/background_4.png)
-
 * Defina uma cor de plano de fundo no nível da coluna.
+
+   ![](assets/background_5.png)
 
    >[!NOTE]
    >
    >Esse é o caso de uso mais comum. O Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo de email.
 
    Você também pode definir uma imagem de plano de fundo no nível da coluna, mas isso raramente é usado.
-
-   ![](assets/background_5.png)

@@ -2,13 +2,13 @@
 audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '525'
 ht-degree: 3%
 
 ---
-
 
 # Adicionar links e rastrear mensagens {#tracking}
 
@@ -16,22 +16,7 @@ ht-degree: 3%
 >
 >Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
-Use [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as mensagens enviadas para monitorar o comportamento dos recipients.
-
-## Ativar rastreamento {#enable-tracking}
-
-Você pode ativar o rastreamento no nível da mensagem de email marcando a variável **[!UICONTROL Aberturas de email]** e/ou **[!UICONTROL Clique no email]** ao criar a mensagem.
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->Ambas as opções são ativadas por padrão.
-
-Isso permitirá rastrear o comportamento dos recipients por meio de:
-
-* **[!UICONTROL Aberturas de email]**: Mensagens que foram abertas.
-* **[!UICONTROL Clique no email]**: Cliques em links em um email.
+Use o Designer de email para adicionar links ao seu conteúdo e rastrear as mensagens enviadas para monitorar o comportamento dos recipients.
 
 ## Inserir links {#insert-links}
 
@@ -39,7 +24,7 @@ Ao criar uma mensagem, você pode adicionar links ao seu conteúdo.
 
 >[!NOTE]
 >
->When [o rastreamento está ativado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
+>Quando o rastreamento é ativado, todos os links incluídos no conteúdo da mensagem são rastreados.
 
 Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
@@ -47,29 +32,13 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/message-tracking-insert-link.png)
 
-1. Escolha o tipo de link que deseja criar:
-
-   * **[!UICONTROL Link externo]**: Insira um link para um URL externo.
-
-   * **[!UICONTROL Página de aterrissagem]**: Insira um link para uma landing page.
-
-   * **[!UICONTROL Um clique para recusar]**: Insira um link para permitir que os usuários cancelem rapidamente a assinatura de suas comunicações, sem a necessidade de confirmar a recusa.
-
-   * **[!UICONTROL Aceitação/assinatura externa]**: Insira um link para aceitar as comunicações de recebimento da sua marca.
-
-   * **[!UICONTROL Cancelamento/cancelamento de subscrição externo]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca.
-
-   * **[!UICONTROL Mirror page]**: Insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
-
-   ![](assets/message-tracking-links.png)
-
-1. Você pode personalizar seus links.
+1. Adicione um **[!UICONTROL Rótulo]** e **[!UICONTROL Link]**.
 
 1. Salve as alterações.
 
 1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Configurações do componente]** painel à direita.
 
-   * Você pode editar o link e alterar seu tipo.
+   * Você pode editar o link e alterar seu **[!UICONTROL Target]**.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
 
    ![](assets/message-tracking-link-settings.png)
@@ -82,9 +51,19 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email.
 
-Para adicionar um link a uma mirror page no seu email, [inserir um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
+Para adicionar um link a uma mirror page no seu email:
 
-![](assets/message-tracking-mirror-page.png)
+1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. Selecione o **[!UICONTROL Inserir link]** para acessar o menu de personalização.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. No **[!UICONTROL Bloco de conteúdo]** selecione **[!UICONTROL Mirror page URL]** e clique em **[!UICONTROL Adicionar]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
 
 A mirror page é criada automaticamente.
 
@@ -123,4 +102,3 @@ O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados
    * **[!UICONTROL Mirror page]**: Considera esse URL como sendo de mirror page.
    * **[!UICONTROL Nunca]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Os relatórios sobre aberturas e cliques estão disponíveis no relatório Ao vivo e no relatório Global .

@@ -2,7 +2,8 @@
 audience: end-user
 title: Relatórios
 description: Documentação da Web do Campaign v8
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 39%
@@ -54,6 +55,3 @@ Não entregues e rejeitados: Este relatório mostra o detalhamento de não entre
 **Cliques**
 
 Este relatório mostra o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques nos links, em cada link. Links de unsubscription de blocos de personalização, links de mirror pages e links de ofertas são considerados no total de cliques acumulados, mas não são exibidos no relatório.
-
-
-

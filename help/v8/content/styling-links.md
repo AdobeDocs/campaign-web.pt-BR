@@ -2,13 +2,13 @@
 audience: end-user
 title: Definir um estilo para links
 description: Saiba como definir um estilo para links
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
-
 
 # Definir um estilo para links {#styling-links}
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 É possível sublinhar um link e selecionar sua cor e seu destino no Designer de email.
 
-1. Em um texto **[!UICONTROL Componente de conteúdo]** onde um link é inserido, selecione seu link.
+1. Em um **[!UICONTROL Texto]** , onde um link é inserido, selecione seu link.
 
-1. No **[!UICONTROL Configurações do componente]** menu, verifique **[!UICONTROL Link Sublinhado]** para sublinhar o texto do rótulo de seu link.
+1. No **[!UICONTROL Configurações do componente]** menu, verifique **[!UICONTROL Link Sublinhado]** para que o rótulo fique sublinhado.
 
    ![](assets/link_1.png)
 
@@ -34,10 +34,8 @@ ht-degree: 1%
 
    ![](assets/link_2.png)
 
-1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]**.
+1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** no painel direito.
 
    ![](assets/link_3.png)
-
-1. Escolha a cor que você precisa.
 
 1. Salve as alterações.
