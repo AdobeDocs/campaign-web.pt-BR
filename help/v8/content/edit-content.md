@@ -3,9 +3,9 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Documentação da Web do Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Criar o conteúdo do email"
->abstract="TBC"
+>abstract="Com esta seção, você pode criar o conteúdo do seu email e usar o Designer de email para dar a ele uma aparência polida."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"

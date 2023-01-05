@@ -143,7 +143,7 @@ A barra superior da interface permite:
 * compartilhar seu feedback como um cliente Alfa
 * alternar entre organizações IMS
 * alternar entre seus aplicativos Adobe Experience Cloud
-* acesse páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
+* acesse as páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
