@@ -3,10 +3,10 @@ audience: end-user
 title: Configurações avançadas
 description: Documentação da Web do Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
+source-git-commit: 66a1a324d671bd8ef2847005a3ab75d113110117
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 53%
+source-wordcount: '1077'
+ht-degree: 47%
 
 ---
 
@@ -31,8 +31,14 @@ Documentation on this part is targeted for december 2022
 -->
 
 Todos os parâmetros técnicos de delivery do template.
-Somente altere parâmetros, sem criação aqui.
-De acordo com permissões, os profissionais não devem modificar isso, tenha cuidado. Verifique e altere somente a regra de tipologia -> rest definido no modelo
+
+>[!NOTE]
+>
+> Somente altere parâmetros, sem criação aqui. De acordo com permissões.
+
+>[!NOTE]
+>
+> Os profissionais não devem modificar isso, com cautela. Verifique e altere somente a regra de tipologia.
 
 ## Tipologia {#typology}
 
@@ -56,11 +62,11 @@ Nesta seção, os parâmetros de pressão permitem definir um limite. Esse é o 
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
 
-No **Tipo de peso** , três opções estão disponíveis:
+No **Tipo de peso** , três opções estão disponíveis: (fórmula ausente, dependendo da opção..)
 
-O **Peso do delivery** permite
+O **Peso do delivery** campo : Cada delivery tem um peso que representa seu nível de prioridade. Por padrão, o peso de um delivery é definido como 5. As regras de pressão permitem definir o peso dos deliveries aos quais serão aplicados.Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de um delivery com base nos interesses do recipient.
 
-O **Modo de entrega** campo..
+O **Modo de entrega** campo.. ??
 
 ### Configurações de capacidade {#capacity-settings}
 
@@ -75,13 +81,15 @@ O **importância do destinatário** é uma fórmula usada para determinar quais 
 
 ## Público-alvo {#audience}
 
-Nesta seção, você pode escolher um target mapping definido no console Adobe Campaign v8. A criação do target mapping é necessária no caso de usar uma tabela de recipients diferente da fornecida pelo Adobe Campaign.
+Nesta seção, você pode escolher uma **target mapping** definido no console do Adobe Campaign v8. A criação do target mapping é necessária no caso de usar uma tabela de recipients diferente da fornecida pelo Adobe Campaign.
 
 ## Entrega {#delivery}
 
-Teste da entrega de SMTP: use essa opção para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+**Roteamento** seleção: selecione a conta externa....
 
-Cco de email: use essa opção para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem.
+**Teste do delivery SMTP**: use essa opção para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+
+**Email Cco**: use essa opção para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem.
 
 ### Tentativas {#retries}
 
@@ -94,16 +102,17 @@ As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado e
 
 ## Aprovação {#approval}
 
-**Manual**
-
-**Semiautomático**
-
-**Automático**
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprovação"
+>title="Aprovação modo"
 >abstract="Cada etapa de um delivery pode ser sujeita a aprovação para garantir o monitoramento e o controle totais dos vários processos."
+
+**Manual**: no final da fase de análise, o usuário deverá confirmar o delivery para começar a enviar.
+
+**Semiautomático**: O envio começa automaticamente se a fase de análise não gerar mensagens de aviso.
+
+**Automatic**: o envio começa automaticamente no fim da fase de análise, independentemente do resultado.
+
 
 ## Validade {#validity}
 
@@ -118,15 +127,16 @@ As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado e
 >abstract="O campo Validity limit é usado para recursos carregados, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado."
 
 
-O campo Delivery duration permite inserir o limite de novas tentativas de delivery globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
+O campo **Delivery duration** permite inserir o limite de novas tentativas de delivery globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
 
-Você também poderá optar por especificar datas. Para fazer isso, selecione Explicitly set validity dates. Nesse caso, as datas de delivery e limite de validade também permitem especificar o tempo. O tempo atual é usado por padrão, mas você poderá modificar isso diretamente no campo de entrada.
+Você também poderá optar por especificar datas. Para fazer isso, selecione **Explicitly set validity dates**. Nesse caso, as datas de delivery e limite de validade também permitem especificar o tempo. O tempo atual é usado por padrão, mas você poderá modificar isso diretamente no campo de entrada.
 
-Validity limit of resources: o campo Validity limit é usado para recursos carregados, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+**Limite da validade dos recursos** é usada para recursos carregados, principalmente para mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 
 ### Gerenciamento de mirror page {#mirror}
 
-**Gerenciamento de mirror page**
+**Gerenciamento de mirror pages** contém quatro opções :
+
 
 ### Rastreamento {#tracking}
 
@@ -140,14 +150,14 @@ Validity limit of resources: o campo Validity limit é usado para recursos carre
 **URL de substituição para URLs expirados**: TBC
 
 
-## Configurações de teste{#test-setttings}
+## Configurações de teste {#test-setttings}
 
-**Manter duplo**
+**Manter duplo** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
 
 **Manter endereços incluídos na lista de bloqueios**
 
-**Manter endereços em quarentena**
+**Manter endereços em quarentena** permite manter do target qualquer perfil que não responda.
 
-**Manter o código de entrega para a prova**
+**Manter o código de delivery da prova** permite que você forneça o mesmo código de delivery que o definido para o delivery com o qual ele está relacionado.
 
-**Prefixo do rótulo**
+Por padrão, o assunto da prova tem o prefixo &quot;Proof #&quot;, onde # é o número da prova. É possível alterar esse prefixo no campo **Label prefix**.
