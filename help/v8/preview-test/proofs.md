@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar provas
 description: Documentação da Web do Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 2%
 >
 >Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
-O envio de provas permite validar seu email e verificar vários elementos, como links, links para opção de não participação e mirror pages, imagens e detectar possíveis erros.
+O envio de emails de teste permite validar seu email e verificar vários elementos, como links, links para opção de não participação e mirror pages, imagens e detectar possíveis erros.
 
 Provas podem ser enviadas para dois tipos de recipients:
 
-* **Testar perfis / públicos-alvo**: enviar provas para seed addresses, que são recipients adicionais no banco de dados que não fazem parte do público-alvo do email,
-
+* **Testar perfis**: enviar provas para seed addresses, que são recipients adicionais e fictícios no banco de dados,
 * **Perfis de substituição**: envie provas para um endereço de email específico usando um perfil existente. Isso permite que você se posicione como os perfis e obtenha uma representação exata da mensagem que o perfil receberá.
 
 ## Selecionar os recipients das provas {#recipients}
@@ -38,7 +37,7 @@ Provas podem ser enviadas para dois tipos de recipients:
 
 1. Adicione os perfis de teste que receberão os emails de teste.
 
-   Você também pode criar um público-alvo para selecionar perfis de teste com base em seus próprios critérios usando o **[!UICONTROL Adicionar público-alvo de teste]** botão.
+   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
    ![](assets/test-profiles-audience.png)
 
@@ -68,8 +67,14 @@ Para enviar as provas para os destinatários selecionados, clique em **[!UICONTR
 
 ![](assets/send-proof.png)
 
-Depois que as provas forem enviadas, você poderá acessar logs dedicados do **[!UICONTROL Exibir log de email de teste]** botão. Esses logs permitem acessar as provas enviadas e estatísticas específicas relacionadas ao envio da prova.
+Envie quantas provas forem necessárias até concluir o conteúdo do seu delivery. Feito isso, você pode enviar o email para o público-alvo principal. [Saiba como preparar e enviar seu email](../monitor/prepare-send.md)
+
+## Acessar provas enviadas {#access-proofs}
+
+Depois que as provas forem enviadas, você poderá acessar logs dedicados do **[!UICONTROL Exibir log de email de teste]** botão. Esses logs permitem acessar todas as provas enviadas para o delivery selecionado e visualizar estatísticas específicas relacionadas ao envio.
 
 ![](assets/proof-log.png)
 
-Envie quantas provas forem necessárias até concluir o conteúdo do seu delivery. Feito isso, você pode enviar o email para o público-alvo principal. [Saiba como preparar e enviar seu email](../monitor/prepare-send.md)
+Você também pode acessar provas da lista de deliveries, como qualquer delivery.
+
+![](assets/delivery-list.png)

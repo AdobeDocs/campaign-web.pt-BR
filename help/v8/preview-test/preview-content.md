@@ -3,9 +3,9 @@ audience: end-user
 title: Visualizar conteúdo de email
 description: Documentação da Web do Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ O Adobe Campaign permite usar perfis para visualizar o conteúdo do email antes 
 
 As mensagens podem ser visualizadas usando:
 
-* **Testar perfis**: visualizar o email usando seed addresses, que são recipients adicionais no banco de dados que não fazem parte do público-alvo do email,
+* **Testar perfis**: visualizar o email usando seed addresses, que são recipients adicionais e fictícios no banco de dados,
 * **Perfis**: visualize o email usando um perfil existente.
 
 Para visualizar o conteúdo do email, siga estas etapas:
@@ -36,5 +36,7 @@ Para visualizar o conteúdo do email, siga estas etapas:
 1. Depois que os perfis forem selecionados, uma visualização do email será exibida no painel direito. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo.
 
    Se você tiver adicionado vários perfis, é possível alternar entre eles na lista para visualizar o email correspondente.
+
+   Você também pode visualizar a renderização do seu conteúdo em diferentes dispositivos (desktop, dispositivos móveis, tablet...).
 
    ![](assets/preview.png)
