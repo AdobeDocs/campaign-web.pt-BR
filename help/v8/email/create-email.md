@@ -3,9 +3,9 @@ audience: end-user
 title: Criar seu primeiro email
 description: Documentação da Web do Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1174'
 ht-degree: 1%
 
 ---
@@ -116,9 +116,11 @@ Nesse caso de uso, enviaremos o email para um público existente. Informações 
 
    >[!NOTE]
    >
-   >Os públicos-alvo disponíveis na lista são originários da instância do Campaign V8 ou do Adobe Experience Platform, se a integração de Destino/Fontes tiver sido implementada em sua instância.
+   >Os públicos-alvo disponíveis na lista são originários da instância do Campaign V8 ou do Adobe Experience Platform, se a integração de Destino/Fontes tiver sido configurada em sua instância.
+   >
+   >A integração de Destino/Fontes permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar o delivery do Campaign e os logs de rastreamento para o Adobe Experience Platform. [Saiba como trabalhar com o Campaign e o Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. Após selecionar seu público-alvo, é possível editar sua regra, se necessário.
+1. Após selecionar o público-alvo, é possível refinar o público-alvo usando regras adicionais.
 
    Você também pode definir um grupo de controle para analisar o comportamento dos destinatários de email em comparação ao comportamento dos perfis que não foram direcionados. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ Nesse caso de uso, enviaremos o email para um público existente. Informações 
 
 Para agendar o envio do email, clique em **[!UICONTROL Habilitar]** em seguida, especifique a data e a hora desejadas para o envio.
 
-Por padrão, a variável **[!UICONTROL Confirmar antes de enviar]** estiver ativada, o que significa que será necessário confirmar o envio na data e hora especificadas para enviar o email. Desative essa opção para permitir que o email seja enviado na data e hora agendadas, sem nenhuma confirmação necessária.
+Por padrão, a variável **[!UICONTROL Confirmar antes de enviar]** estiver ativada, o que significa que será necessário confirmar o envio para permitir que o email seja enviado na data e hora especificadas. Desative essa opção para permitir que o email seja enviado na data e hora agendadas, sem nenhuma confirmação necessária.
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ Por padrão, a variável **[!UICONTROL Confirmar antes de enviar]** estiver ativ
 
 Quando o email estiver pronto, você poderá pré-visualizá-lo e testá-lo antes de iniciar seu envio.
 
-Nesse caso de uso, vamos visualizar o email usando perfis existentes e enviar uma prova para um perfil de teste que não faça parte do público-alvo.
+Nesse caso de uso, vamos pré-visualizar o email e enviar uma prova usando perfis existentes.
 
 Informações adicionais sobre como visualizar e testar emails estão disponíveis em [esta seção](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
 1. Para enviar provas do seu email, clique no link **[!UICONTROL Teste]** em seguida, selecione os perfis que receberão a prova.
 
-   Neste exemplo, queremos enviar as provas para um perfil de teste específico, que é um seed address que não faz parte do target. [Saiba como trabalhar com seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
