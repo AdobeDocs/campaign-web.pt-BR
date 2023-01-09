@@ -3,9 +3,9 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Documentação da Web do Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
+source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 >
 >Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
-Para começar a criar o conteúdo de um email, clique no link **[!UICONTROL Editar conteúdo]** botão. Essa tela permite definir o conteúdo do email e acessar o Designer de email para projetá-lo.
+Para começar a criar o conteúdo de um email, clique no link **[!UICONTROL Editar conteúdo]** na tela de criação de email.
+
+![](assets/edit-content.png)
+
+Essa tela permite definir o conteúdo do email e acessar o Designer de email para projetá-lo.
 
 ![](assets/content-dashboard.png)
 
@@ -44,7 +48,7 @@ As etapas para definir o conteúdo do email são as seguintes:
 
 1. Verifique a **[!UICONTROL Nome de origem]** e **[!UICONTROL Do email]** informações. Esses campos são somente leitura e são configurados no template de email selecionado ao criar o email.
 
-1. Definir o email **[!UICONTROL Linha de assunto]**. Para fazer isso, abra o Editor de expressão para definir seu conteúdo e adicionar personalização usando vários atributos e blocos de conteúdo ou ofertas. [Saiba como personalizar conteúdo](../personalization/personalize.md)
+1. Definir o email **[!UICONTROL Linha de assunto]**. Para fazer isso, digite o assunto diretamente no campo dedicado ou abra o Editor de expressão para definir a fim de adicionar personalização usando vários atributos e blocos de conteúdo ou ofertas. [Saiba como personalizar conteúdo](../personalization/personalize.md)
 
 1. Se desejar enviar ofertas com seu email, selecione-as usando a variável **[!UICONTROL Ofertas]** botão. É possível inseri-los no email usando campos de personalização. [Saiba como enviar ofertas](offers.md)
 
