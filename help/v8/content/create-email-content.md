@@ -3,7 +3,7 @@ audience: end-user
 title: Criar emails no Email Designer
 description: Saiba como criar seu conteúdo de e-mails do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="Definição de colunas de modelo"
 >abstract="O Designer de email permite definir facilmente o layout do modelo definindo a estrutura da coluna."
 
-O Designer de email permite que você defina facilmente a estrutura do seu email. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu email em segundos.
+O Designer de email permite que você defina facilmente a estrutura do seu email. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar o corpo do seu email em segundos.
 
 Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
@@ -91,7 +91,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
 1. Insira campos de personalização para personalizar seu conteúdo de email a partir de dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
-1. Clique no botão **[!UICONTROL Links]** no painel esquerdo para exibir todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Tags]** se necessário. [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
+1. Clique no botão **[!UICONTROL Links]** no painel esquerdo para exibir todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Categorias]** se necessário. [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
