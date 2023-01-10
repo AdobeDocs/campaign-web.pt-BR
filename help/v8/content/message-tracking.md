@@ -3,9 +3,9 @@ audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -102,3 +102,8 @@ O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados
    * **[!UICONTROL Mirror page]**: Considera esse URL como sendo de mirror page.
    * **[!UICONTROL Nunca]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Adicione um **[!UICONTROL Categoria]** ao link para agrupar links rastreados e clicar em **[!UICONTROL Salvar]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. Após enviar o delivery, acesse o relatório do delivery. Em **[!UICONTROL Rastreamento]** , o **[!UICONTROL Fluxos de clique e URLs]** exibe quais URLs do seu delivery são os mais visitados. [Saiba mais](../reporting/reports.md)
