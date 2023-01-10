@@ -3,10 +3,10 @@ audience: end-user
 title: Configurações avançadas
 description: Documentação da Web do Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 47%
+source-wordcount: '1241'
+ht-degree: 49%
 
 ---
 
@@ -16,29 +16,13 @@ ht-degree: 47%
 >
 >Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
-Essas configurações são parâmetros técnicos de delivery definidos no template de email. Se quiser modificar qualquer um deles para um delivery específico, continue com cautela.
+Essas configurações são **parâmetros técnicos do delivery** que são definidas no template de email. Se quiser modificar qualquer um deles para um delivery específico, continue com cautela.
 
 ## Configurações de delivery de email {#email-delivery-settings}
 
-<!--
-October 2022 
-
-Note that this page is for now a placeholder to host Contextualhelp blocks
-
-Do not delete these blocks 
-
-Documentation on this part is targeted for december 2022
--->
-
-Todos os parâmetros técnicos de delivery do template.
-
 >[!NOTE]
 >
-> Somente altere parâmetros, sem criação aqui. De acordo com permissões.
-
->[!NOTE]
->
-> Os profissionais não devem modificar isso, com cautela. Verifique e altere somente a regra de tipologia.
+> Modificar somente configurações, nenhuma nova criação é permitida. Sujeito a direitos de acesso.
 
 ## Tipologia {#typology}
 
@@ -47,7 +31,7 @@ Todos os parâmetros técnicos de delivery do template.
 >title="Tipologia"
 >abstract="A tipologia permite controlar, filtrar e monitorar o envio de deliveries."
 
-Tipologias são conjuntos de regras de tipologia, que são executadas durante a fase de análise da mensagem. Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
+Tipologias são conjuntos de **regras de tipologia**, que são executadas durante a fase de análise da mensagem. Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
 
 Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras de tipologia incluídas na tipologia serão executadas para verificar a validade da mensagem.
 
@@ -58,15 +42,23 @@ Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras
 >title="Peso da entrega"
 >abstract="Os pesos do delivery permitem identificar deliveries de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
 
-Nesta seção, os parâmetros de pressão permitem definir um limite. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um determinado período. Depois que esse limite for atingido, não poderá ocorrer mais deliveries até o final do período considerado. Esse processo permite excluir automaticamente um perfil de um delivery, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
+Nesta seção, os parâmetros de pressão permitem definir uma **limite**. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um determinado período. Depois que esse limite for atingido, não poderá ocorrer mais deliveries até o final do período considerado. Esse processo permite excluir automaticamente um perfil de um delivery, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
 
 No **Tipo de peso** , três opções estão disponíveis: (fórmula ausente, dependendo da opção..)
 
+* **Constante**
+* **Depende do recipient**
+* **Definido em cada regra**
+
 O **Peso do delivery** campo : Cada delivery tem um peso que representa seu nível de prioridade. Por padrão, o peso de um delivery é definido como 5. As regras de pressão permitem definir o peso dos deliveries aos quais serão aplicados.Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de um delivery com base nos interesses do recipient.
 
 O **Modo de entrega** campo.. ??
+
+* **Estimativa do público-alvo e personalização de mensagens**
+* **Estimativa e aprovação do público alvo provisório**
+* **Avaliação de público alvo**
 
 ### Configurações de capacidade {#capacity-settings}
 
@@ -85,7 +77,7 @@ Nesta seção, você pode escolher uma **target mapping** definido no console do
 
 ## Entrega {#delivery}
 
-**Roteamento** seleção: selecione a conta externa....
+**Roteamento** seleção: A conta externa de roteamento de email integrado é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 
 **Teste do delivery SMTP**: use essa opção para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
 
@@ -137,6 +129,11 @@ Você também poderá optar por especificar datas. Para fazer isso, selecione **
 
 **Gerenciamento de mirror pages** contém quatro opções :
 
+* **Gerar a mirror page se um link for exibido no conteúdo do email**: a mirror page é gerada se o link for inserido no conteúdo do email.
+* **Forçar a geração da mirror page**: mesmo se nenhum link para a mirror page for inserido nas mensagens, a mirror page será criada.
+* **Não gerar a mirror page**: nenhuma mirror page é gerada, mesmo se o link estiver presente nas mensagens.
+* **Generates a mirror page accessible using only the message identifier**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log do delivery.
+
 
 ### Rastreamento {#tracking}
 
@@ -147,14 +144,14 @@ Você também poderá optar por especificar datas. Para fazer isso, selecione **
 
 **Limite de validade do rastreamento**: Essa opção define a duração para a qual o rastreamento será ativado nos URLs.
 
-**URL de substituição para URLs expirados**: TBC
+**URL de substituição para URLs expirados**: use esta opção para inserir um URL para uma página da Web de fallback: é exibido assim que o rastreamento expira.
 
 
 ## Configurações de teste {#test-setttings}
 
 **Manter duplo** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
 
-**Manter endereços incluídos na lista de bloqueios**
+**Manter endereços incluir na lista de bloqueios** permite manter do target os perfis que não estão mais sendo direcionados pelo delivery, como após um cancelamento de subscrição (opt-out).
 
 **Manter endereços em quarentena** permite manter do target qualquer perfil que não responda.
 
