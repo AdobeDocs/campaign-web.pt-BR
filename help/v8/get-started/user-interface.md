@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="Interface"
 >abstract="A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente."
 
-A nova interface da Web do Campaign v8 oferece uma experiência do usuário moderna, integrada e intuitiva para simplificar workflows, design e delivery de campanhas de marketing e consistente com a experiência de aplicativos nativos do Adobe Experience Platform.
+A nova interface da Web do Campaign v8 oferece uma experiência do usuário moderna e intuitiva para simplificar o design e o delivery da campanha de marketing. Essa nova interface é integrada ao Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Menu de navegação esquerdo
 
-Navegue pelos links à esquerda para acessar os recursos da Web do Campaign v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Todas as telas de lista são somente leitura, exceto a lista de delivery de email. Clicar em qualquer item de lista para edição/visualização não está disponível em Alfa.
+Navegue pelos links à esquerda para acessar os recursos da Web do Campaign v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Todas as telas de lista são somente leitura, exceto a lista de delivery de email. Clicar em qualquer item de lista para edição/visualização não está disponível em Alfa. Todas as listas serão editáveis nas versões Beta e GA. Os itens exibidos no menu de navegação esquerdo dependem das permissões do usuário.
 
 ![](assets/home.png)
 
 ### Página inicial
 
-Esta tela inclui links e recursos importantes para um acesso rápido aos principais recursos da Web do Campaign v8. O **Recentes** fornece atalhos para os deliveries criados recentemente. Esta lista mostra as datas de criação e modificação e o status.
+Esta tela inclui links e recursos importantes para um acesso rápido aos principais recursos da Web do Campaign v8. O **Recentes** fornece atalhos para os deliveries criados e modificados recentemente. Esta lista mostra as datas de criação e modificação e o status.
 
 <!--
 * Banner
@@ -140,10 +140,10 @@ Navtree view depends on permissions (same as console).
 
 A barra superior da interface permite:
 
-* compartilhar seu feedback como um cliente Alfa
-* alternar entre organizações IMS
+* compartilhar seu feedback como um testador Alfa
+* alternar entre organizações e instâncias
 * alternar entre seus aplicativos Adobe Experience Cloud
-* acesse páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
+* acesse as páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--

@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução
 description: Documentação da Web do Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 15%
+source-wordcount: '332'
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ only existing customers
 
 O Adobe Campaign fornece uma plataforma para projetar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o gerenciamento de interação em tempo real e a execução entre canais.
 
-Além de todos os recursos existentes disponíveis com o console, criamos uma nova interface de usuário moderna baseada na Web para simplificar o design e o delivery da campanha de marketing, além de ser consistente com a experiência de aplicativos nativos do Adobe Experience Platform.
+Além de todos os recursos existentes disponíveis com o console, criamos uma nova interface moderna baseada na Web para simplificar o design e o delivery da campanha de marketing, além de ser consistente com o Adobe Experience Platform.
 
 ## Recursos alfa
 
@@ -49,8 +49,8 @@ No search and pulse notifications in Alpha
 
 **Criar, iniciar e medir sua campanha de email**
 
-* Criar conteúdo de email personalizado com o editor de email
-* Definir públicos-alvo com o construtor de segmentos
+* Projetar conteúdo de email personalizado com o designer de email
+* Definir públicos-alvo com o construtor de regras
 * Pré-visualizar, testar e enviar suas mensagens de email
 * Monitore o envio e meça os resultados com relatórios internos
 
@@ -59,6 +59,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>Observe que campanhas entre canais e recursos de gerenciamento de workflow estarão disponíveis no programa beta.
 
 ## O console do cliente
 
@@ -71,7 +75,7 @@ Os dados são compartilhados entre o console e a interface do usuário da Web. P
 ![](assets/connect.png)
 
 1. Conectar-se a [Adobe Experience Cloud](http://experience.adobe.com).
-1. Faça logon com as credenciais do Adobe IMS.
+1. Faça logon com as credenciais do Adobe.
 1. No **Acesso rápido** seção , clique em **Campanha**.
 
 <!--
