@@ -3,10 +3,10 @@ audience: end-user
 title: Adicionar um público-alvo
 description: Documentação da Web do Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 5%
+source-wordcount: '259'
+ht-degree: 6%
 
 ---
 
@@ -32,6 +32,10 @@ Esta seção explica como selecionar um público-alvo existente ao definir o pú
    Essa tela exibe todos os públicos-alvo existentes definidos no console Adobe Campaign ou no Adobe Experience Platform.
 
    ![](assets/create-audience2.png)
+
+   >[!NOTE]
+   >
+   >Para aproveitar os públicos-alvo do Adobe Experience Platform, é necessário configurar a integração com Destinos. Consulte a [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR).
 
 1. Escolha um público-alvo e clique em **Selecionar**.
 

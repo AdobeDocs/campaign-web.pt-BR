@@ -3,9 +3,9 @@ audience: end-user
 title: Definir um grupo de controle
 description: Documentação da Web do Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '463'
 ht-degree: 47%
 
 ---
@@ -50,7 +50,7 @@ Em **Extrair do destino** escolha uma **Tipo de exclusão**:
 
    ![](assets/control-group.png)
 
-* **Classificado por atributo(s)**: essa opção permite definir uma limitação baseada em uma ou mais ordens de classificação.
+* **Classificado por atributo(s)**: essa opção permite excluir um conjunto de perfis com base em atributos específicos em uma ordem de classificação específica.
 
    ![](assets/control-group2.png)
 

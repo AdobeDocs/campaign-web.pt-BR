@@ -3,14 +3,14 @@ audience: end-user
 title: Trabalhar com o Construtor de segmentos
 description: Documentação da Web do Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# Trabalhar com o Construtor de segmentos {#segment-builder}
+# Definir um público-alvo com o construtor de regras {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta seção descreve como criar um público-alvo ao criar um novo email. O público-alvo criado só pode ser usado neste email.
 
-O construtor de segmentos permite definir a população direcionada pela mensagem filtrando os dados contidos no banco de dados do Adobe Campaign. Se desejar selecionar um público-alvo existente, consulte esta [seção](add-audience.md).
+O construtor de regras permite definir a população direcionada pela mensagem filtrando os dados contidos no banco de dados. Se desejar selecionar um público-alvo existente, consulte esta [seção](add-audience.md).
 
-Para obter mais informações sobre o Construtor de segmentos, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Para obter mais informações sobre o construtor de regras, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Para criar um novo público-alvo ao criar um email, siga estas etapas:
 
@@ -28,7 +28,7 @@ Para criar um novo público-alvo ao criar um email, siga estas etapas:
 
    ![](assets/segment-builder0.png)
 
-1. Selecionar **Crie seu próprio**. O Construtor de segmentos é exibido.
+1. Selecionar **Crie seu próprio**. O construtor de regras é exibido.
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser 
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Públicos-alvo**: essa guia permite filtrar usando um dos públicos-alvo existentes definidos no console Campaign Classic.
+* **Públicos-alvo**: essa guia permite filtrar usando um dos públicos-alvo existentes definidos no console do Campaign Classic ou do Adobe Experience Platform.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Para aproveitar os públicos-alvo do Adobe Experience Platform, é necessário configurar a integração com Destinos. Consulte a [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR).
 
 Você pode usar a barra de pesquisa para localizar elementos rapidamente.
 
@@ -87,7 +91,7 @@ Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que 
 
    ![](assets/segment-builder10.png)
 
-1. Clique em **Exibir resultados** para exibir a lista e o número de recipients correspondentes ao query.
+1. Clique em **Exibir resultados** para exibir a lista e o número de recipients correspondentes ao query. Também é possível adicionar colunas para visualizar e verificar os dados. No nosso exemplo, adicione a variável **Cidade** e devem ver Atlanta e Seattle.
 
    ![](assets/segment-builder11.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Sobre públicos
 description: Sobre públicos
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 14%
+source-wordcount: '128'
+ht-degree: 12%
 
 ---
 
@@ -42,11 +42,11 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Depois que o conteúdo é criado, é necessário definir o público do email. Esse é o target do seu delivery, os recipients que receberão o email. O tipo de público-alvo depende do target mapping.
+Nesta seção, você aprenderá a definir o público-alvo do email. Esse é o target do seu delivery, os recipients que receberão o email. O tipo de público-alvo depende do target mapping.
 
 Para definir o público-alvo, você pode:
 
-* usar um público-alvo existente definido no console Adobe Campaign. Consulte esta [seção](add-audience.md).
+* usar um público-alvo existente, consulte esta [seção](add-audience.md).
 * crie um novo público-alvo que será usado para o email. Consulte esta [seção](segment-builder.md).
 
 Você também pode definir grupos de controle para evitar o envio de mensagens a uma parte do público-alvo para medir o impacto das campanhas. Consulte esta [seção](control-group.md).
