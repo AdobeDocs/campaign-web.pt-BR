@@ -3,7 +3,7 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -143,7 +143,7 @@ A barra superior da interface permite:
 * compartilhar seu feedback como um testador Alfa
 * alternar entre organizações e instâncias
 * alternar entre seus aplicativos Adobe Experience Cloud
-* acesse as páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
+* acesse páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
@@ -156,7 +156,7 @@ Uma ajuda contextual está disponível na interface do . Quando disponível, cli
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Um guia de integração também está disponível para ajudar você a começar a usar a Web do Campaign v8. Clique no ícone no canto inferior direito, escolha um dos cenários passo a passo disponíveis e siga as instruções.
+Um guia de integração também está disponível para ajudar você a começar a usar o Campaign v8 Web. Clique no ícone no canto inferior direito, escolha um dos cenários passo a passo disponíveis e siga as instruções.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
