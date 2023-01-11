@@ -3,18 +3,16 @@ audience: end-user
 title: Adicionar um precabeçalho no Designer de email
 description: Saiba como criar o conteúdo de seus emails
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Adicionar um precabeçalho {#preheader}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

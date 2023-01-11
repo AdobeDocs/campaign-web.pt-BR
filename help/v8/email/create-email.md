@@ -3,18 +3,16 @@ audience: end-user
 title: Criar seu primeiro email
 description: Documentação da Web do Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
 
 # Enviar seu primeiro email {#first-email}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Este caso de uso apresenta como criar seu primeiro email. Vamos agendar o envio de um email em uma data específica para clientes de fidelidade prata e ouro. Esse email será projetado usando um template predefinido e incluirá a personalização usando atributos do perfil.
 

@@ -3,23 +3,21 @@ audience: end-user
 title: Adicionar um público-alvo
 description: Documentação da Web do Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 7%
 
 ---
 
 # Selecionar um público-alvo {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selecionar um público-alvo existente"
 >abstract="Os públicos-alvo são definidos no Console do Adobe Campaign v8. Se tiver uma integração do Adobe Experience Platform disponível, você também poderá ver públicos-alvo definidos pela plataforma."
-
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
 Esta seção explica como selecionar um público-alvo existente ao definir o público-alvo de um delivery de email. Para criar um novo público-alvo, consulte esta seção [seção](segment-builder.md).
 

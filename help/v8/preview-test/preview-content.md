@@ -3,23 +3,21 @@ audience: end-user
 title: Visualizar conteúdo de email
 description: Documentação da Web do Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
 # Visualizar conteúdo de email {#preview}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Visualização inteligente do seu conteúdo"
 >abstract="O Adobe Campaign permite usar perfis para visualizar o conteúdo do email antes de enviá-lo, a fim de verificar a personalização e como os recipients os verão."
-
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
 O Adobe Campaign permite usar perfis para visualizar o conteúdo do email antes de enviá-lo, a fim de verificar a personalização e como os recipients os verão.
 

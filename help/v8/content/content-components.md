@@ -3,18 +3,16 @@ audience: end-user
 title: Usar componentes de conteúdo do designer de email
 description: Saiba como usar componentes de conteúdo em seus emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
 
 # Usar os componentes de conteúdo do Designer de email {#content-components}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

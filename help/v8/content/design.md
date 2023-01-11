@@ -2,18 +2,16 @@
 audience: end-user
 title: Trabalhar com o Email Designer
 description: Documentação da Web do Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '14'
 ht-degree: 0%
 
 ---
 
 # Trabalhar com o Email Designer {#email-designer}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 
 

@@ -3,18 +3,14 @@ audience: end-user
 title: Definir um grupo de controle
 description: Documentação da Web do Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 40%
+source-wordcount: '526'
+ht-degree: 41%
 
 ---
 
 # Definir um grupo de controle {#control-group}
-
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
 Você pode usar grupos de controle para evitar o envio de mensagens para uma parte do público para medir o impacto das campanhas.
 

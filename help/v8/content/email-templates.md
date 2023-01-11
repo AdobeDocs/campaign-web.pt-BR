@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: Trabalhar com modelos de email
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '178'
 ht-degree: 6%
 
 ---
 
 # Trabalhar com modelos de conteúdo de email {#email-content-templates}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Use o **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo de um template.
 

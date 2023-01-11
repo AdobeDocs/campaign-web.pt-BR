@@ -3,18 +3,16 @@ audience: end-user
 title: Definir um estilo para links
 description: Saiba como definir um estilo para links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
 # Definir um estilo para links {#styling-links}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 É possível sublinhar um link e selecionar sua cor e seu destino no Designer de email.
 

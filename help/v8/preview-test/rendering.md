@@ -3,18 +3,16 @@ audience: end-user
 title: Testar renderização de email
 description: Documentação da Web do Campaign v8
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # Testar a renderização de email {#rendering}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Antes de enviar seu email, verifique se a sua mensagem será exibida aos recipients de forma ideal em uma variedade de clientes Web, Webmails e dispositivos.
 

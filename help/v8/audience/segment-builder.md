@@ -3,18 +3,16 @@ audience: end-user
 title: Trabalhar com o Construtor de segmentos
 description: Documentação da Web do Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
 
 # Definir um público-alvo com o construtor de regras {#segment-builder}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Esta seção descreve como criar um público-alvo ao criar um novo email. O público-alvo criado só pode ser usado neste email.
 

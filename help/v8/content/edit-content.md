@@ -3,14 +3,16 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Documentação da Web do Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # Editar o conteúdo do email {#configure-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -31,10 +33,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Opções de rastreamento"
 >abstract="TBC"
-
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
 Para começar a criar o conteúdo de um email, clique no link **[!UICONTROL Editar conteúdo]** na tela de criação de email.
 

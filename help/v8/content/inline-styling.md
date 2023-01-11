@@ -3,18 +3,16 @@ audience: end-user
 title: Adicionar atributos de estilo em linha
 description: Saiba como adicionar atributos de estilo em linha
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: aef03e727f751c25df48c29fcbc9bd553af08357
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
 # Adicionar atributos de estilo em linha {#adding-inline-styling-attributes}
 
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Na interface do Designer de email, ao selecionar um elemento e exibir suas configurações no painel direito, você pode personalizar os atributos em linha e seu valor para esse elemento específico.
 

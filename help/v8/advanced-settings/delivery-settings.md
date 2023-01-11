@@ -3,20 +3,16 @@ audience: end-user
 title: Configurações avançadas
 description: Documentação da Web do Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 49%
+source-wordcount: '1222'
+ht-degree: 50%
 
 ---
 
 # Configurações avançadas {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->Esta documentação está em construção e é atualizada com frequência. A versão final desse conteúdo estará pronta em janeiro de 2023.
 
 Essas configurações são **parâmetros técnicos do delivery** que são definidas no template de email. Se quiser modificar qualquer um deles para um delivery específico, continue com cautela.
 
