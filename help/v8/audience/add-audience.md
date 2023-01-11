@@ -3,7 +3,7 @@ audience: end-user
 title: Adicionar um público-alvo
 description: Documentação da Web do Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 6%
@@ -43,7 +43,7 @@ Esta seção explica como selecionar um público-alvo existente ao definir o pú
 
    ![](assets/create-audience3.png)
 
-1. Usando o construtor de segmentos, você pode enriquecer seu público-alvo com filtros adicionais ou combinando públicos-alvo diferentes. Consulte esta [seção](segment-builder.md).
+1. Usando o construtor de regras, você pode enriquecer seu público-alvo com filtros adicionais ou combinando públicos-alvo diferentes. Consulte esta [seção](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Criar seu primeiro email
 description: Documentação da Web do Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 1%
@@ -104,7 +104,7 @@ Nesse caso de uso, vamos projetar o email usando um template predefinido. Inform
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definir a audiência"
->abstract="Selecione o melhor público-alvo para sua mensagem de marketing. Você pode escolher um público-alvo existente já definido em uma instância do Campaign v8 ou no Adobe Experience Platform, ou pode optar por criar um novo público-alvo com o construtor de segmentos."
+>abstract="Selecione o melhor público-alvo para sua mensagem de marketing. Você pode escolher um público-alvo existente já definido em uma instância do Campaign v8 ou no Adobe Experience Platform, ou pode optar por criar um novo público-alvo com o construtor de regras."
 
 Nesse caso de uso, enviaremos o email para um público existente. Informações adicionais sobre como trabalhar com públicos-alvo estão disponíveis em [esta seção](../audience/about-audiences.md).
 

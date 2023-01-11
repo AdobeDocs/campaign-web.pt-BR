@@ -3,10 +3,10 @@ audience: end-user
 title: Definir um grupo de controle
 description: Documentação da Web do Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 47%
+source-wordcount: '545'
+ht-degree: 40%
 
 ---
 
@@ -56,6 +56,28 @@ Em **Extrair do destino** escolha uma **Tipo de exclusão**:
 
 Em seguida, defina a variável **Limite de tamanho**: você deve definir como limitar o número de perfis extraídos do público-alvo principal.
 
+**Exemplo**
+
+Você pode visualizar os logs para verificar e identificar os perfis excluídos. Vejamos o exemplo de uma exclusão aleatória em cinco perfis.
+
+![](assets/control-group4.png)
+
+Após a preparação do delivery, é possível exibir as exclusões nas seguintes telas:
+
+* O **Para excluir** KPI no painel do delivery, antes do envio.
+
+   ![](assets/control-group5.png)
+
+* O **Logs de exclusão** exibir cada perfil e a execução relacionada **Motivo**.
+
+   ![](assets/control-group6.png)
+
+* O **Causas da exclusão** exibir o número de perfis excluídos para cada regra de tipologia.
+
+   ![](assets/control-group7.png)
+
+Para obter mais informações sobre logs do delivery, consulte esta seção [seção](../monitor/delivery-logs.md).
+
 ## População extra {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ No **População extra** da seção **Grupo de controle** na tela de definição
 
 * Para usar um público-alvo existente, clique em **Seleção do público-alvo**. Consulte esta [seção](add-audience.md).
 
-* Para definir uma nova consulta, selecione **Crie seu próprio** e defina os critérios de exclusão usando o construtor de segmentos. Consulte esta [seção](segment-builder.md).
+* Para definir uma nova consulta, selecione **Crie seu próprio** e defina os critérios de exclusão usando o construtor de regras. Consulte esta [seção](segment-builder.md).
 
 Os perfis incluídos no público-alvo ou que correspondem ao resultado do query serão excluídos do público-alvo.
