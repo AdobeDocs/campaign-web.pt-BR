@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 3%
+source-wordcount: '1148'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >title="Interface"
 >abstract="A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente."
 
-A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente.
+A nova interface da Web do Campaign v8 oferece uma experiência do usuário moderna, integrada e intuitiva para simplificar workflows, design e delivery de campanhas de marketing e consistente com a experiência de aplicativos nativos do Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -143,7 +143,7 @@ A barra superior da interface permite:
 * compartilhar seu feedback como um cliente Alfa
 * alternar entre organizações IMS
 * alternar entre seus aplicativos Adobe Experience Cloud
-* acesse as páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
+* acesse páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--

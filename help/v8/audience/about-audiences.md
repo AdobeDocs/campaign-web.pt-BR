@@ -3,10 +3,10 @@ audience: end-user
 title: Sobre públicos
 description: Sobre públicos
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 15%
+source-wordcount: '134'
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Depois que o conteúdo é criado, é necessário definir o público do email. Esse é o público-alvo do seu delivery, os perfis que receberão o email.
+Depois que o conteúdo é criado, é necessário definir o público do email. Esse é o target do seu delivery, os recipients que receberão o email. O tipo de público-alvo depende do target mapping.
 
 Para definir o público-alvo, você pode:
 
