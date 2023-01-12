@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução
 description: Documentação da Web do Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 12%
@@ -30,7 +30,7 @@ only existing customers
 
 O Adobe Campaign fornece uma plataforma para projetar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o gerenciamento de interação em tempo real e a execução entre canais.
 
-Inicialmente, disponível somente por meio de um rich [console do cliente](#ac-client), o Campaign agora oferece uma nova interface de usuário da Web com utilização aprimorada, acessibilidade e um novo design para melhorar significativamente sua experiência de usuário. Essa nova interface do usuário moderna simplifica o design e o delivery da campanha de marketing e oferece consistência com outras soluções de Adobe, incluindo o Adobe Experience Platform.
+Inicialmente, disponível somente por meio de um rich [console do cliente](#ac-client), o Campaign agora oferece uma nova interface de usuário da Web com utilização aprimorada, acessibilidade e um novo design para melhorar significativamente sua experiência de usuário. Essa nova interface do usuário moderna simplifica o design e o delivery da campanha de marketing e oferece consistência, além de outras soluções de Adobe, incluindo o Adobe Experience Platform.
 
 
 ![](assets/home.png)
