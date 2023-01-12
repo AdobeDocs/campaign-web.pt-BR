@@ -3,10 +3,10 @@ audience: end-user
 title: Criar seu primeiro email
 description: Documentação da Web do Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 1%
+source-wordcount: '1153'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Este caso de uso apresenta como criar seu primeiro email. Vamos agendar o envio 
 
    >[!NOTE]
    >
-   >Um template é uma configuração de delivery específica que foi salva como um template para ser reutilizada. Os templates de delivery são configurados pelos usuários administradores no console Adobe Campaign. [Saiba como trabalhar com templates do delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=pt-BR){target=&quot;_blank&quot;}
+   >Um template é uma configuração de delivery específica que foi salva como um template para ser reutilizada. Os templates de delivery são configurados pelos usuários administradores no console Adobe Campaign. [Saiba como trabalhar com templates do delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ Nesse caso de uso, enviaremos o email para um público existente. Informações 
    >
    >Os públicos-alvo disponíveis na lista são originários da instância do Campaign V8 ou do Adobe Experience Platform, se a integração de Destino/Fontes tiver sido configurada em sua instância.
    >
-   >A integração de Destino/Fontes permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar o delivery do Campaign e os logs de rastreamento para o Adobe Experience Platform. [Saiba como trabalhar com o Campaign e o Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >A integração de Destino/Fontes permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar o delivery do Campaign e os logs de rastreamento para o Adobe Experience Platform. [Saiba como trabalhar com o Campaign e o Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Após selecionar o público-alvo, é possível refinar o público-alvo usando regras adicionais.
 
@@ -161,7 +161,7 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
 1. Para enviar provas do seu email, clique no link **[!UICONTROL Teste]** em seguida, selecione os perfis que receberão a prova.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -73,7 +73,7 @@ Os itens exibidos no Explorer dependem das permissões do usuário.
 
 Como em qualquer tela de lista, você pode configurar colunas para personalizar a exibição para exibir todas as informações necessárias. Consulte esta [seção](#list-screens).
 
-Para obter mais informações sobre o explorador do Campaign, consulte esta seção [documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+Para obter mais informações sobre o explorador do Campaign, consulte esta seção [documentação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **Campanhas** - Esta é a lista de suas campanhas. Por padrão, você pode exibir suas datas de início/término/última modificação, bem como seu status. Você pode filtrar a lista por status ou datas de início/término. Os templates de campanha também estão disponíveis. Essas listas são somente leitura.
 
-* **Deliveries** - Navegue pela lista de deliveries. Por padrão, você pode visualizar seu estado, a última data de modificação, bem como os KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique em um delivery de email para abrir seu painel e obter uma visão geral dos detalhes do delivery. Os deliveries em outros canais são somente leitura. Os templates de delivery também estão disponíveis no modo somente leitura. Você pode usar o Console do cliente para editá-los. Veja isso [documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=pt-BR).
+* **Deliveries** - Navegue pela lista de deliveries. Por padrão, você pode visualizar seu estado, a última data de modificação, bem como os KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique em um delivery de email para abrir seu painel e obter uma visão geral dos detalhes do delivery. Os deliveries em outros canais são somente leitura. Os templates de delivery também estão disponíveis no modo somente leitura. Você pode usar o Console do cliente para editá-los. Veja isso [documentação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
 ### Gerenciamento de clientes
 
@@ -141,7 +141,7 @@ A barra superior da interface permite:
 * compartilhar seu feedback como um testador Alfa
 * alternar entre organizações e instâncias
 * alternar entre seus aplicativos Adobe Experience Cloud
-* acesse páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
+* acesse as páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--

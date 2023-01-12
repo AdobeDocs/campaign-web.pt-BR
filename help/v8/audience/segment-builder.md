@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com o Construtor de segmentos
 description: Documentação da Web do Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 1%
@@ -44,7 +44,7 @@ A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser 
 
    >[!NOTE]
    >
-   >Para aproveitar os públicos-alvo do Adobe Experience Platform, é necessário configurar a integração com Destinos. Consulte a [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR).
+   >Para aproveitar os públicos-alvo do Adobe Experience Platform, é necessário configurar a integração com Destinos. Consulte a [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
 
 Você pode usar a barra de pesquisa para localizar elementos rapidamente.
 
