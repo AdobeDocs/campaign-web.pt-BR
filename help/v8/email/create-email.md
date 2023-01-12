@@ -3,9 +3,9 @@ audience: end-user
 title: Criar seu primeiro email
 description: Documentação da Web do Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,9 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
 1. Para enviar provas do seu email, clique no link **[!UICONTROL Teste]** em seguida, selecione os perfis que receberão a prova.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   Neste exemplo, queremos enviar as provas para um perfil de teste específico, que é um seed address que não faz parte do target. Saiba como trabalhar com seed addresses em [Documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 
