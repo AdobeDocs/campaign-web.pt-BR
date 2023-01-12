@@ -1,26 +1,26 @@
 ---
 audience: end-user
-title: Configurações avançadas
+title: Configurações de entrega de email
 description: Documentação da Web do Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 50%
+source-wordcount: '1445'
+ht-degree: 45%
 
 ---
 
-# Configurações avançadas {#advanced-settings}
+# Configurações de delivery de email {#email-del-settings}
 
 ![](../assets/do-not-localize/badge.png)
 
-Essas configurações são **parâmetros técnicos do delivery** que são definidas no template de email. Se quiser modificar qualquer um deles para um delivery específico, continue com cautela.
+Essas configurações são **parâmetros técnicos do delivery** que são definidas no template de email.
 
 ## Configurações de delivery de email {#email-delivery-settings}
 
->[!NOTE]
+>[!CAUTION]
 >
-> Modificar somente configurações, nenhuma nova criação é permitida. Sujeito a direitos de acesso.
+> Essas configurações são descritas somente para suas informações. Alguns deles dependem da sua configuração e permissões. Eles não devem ser modificados nesta versão do produto.
 
 ## Tipologia {#typology}
 
@@ -31,7 +31,10 @@ Essas configurações são **parâmetros técnicos do delivery** que são defini
 
 Tipologias são conjuntos de **regras de tipologia**, que são executadas durante a fase de análise da mensagem. Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
 
-Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras de tipologia incluídas na tipologia serão executadas para verificar a validade da mensagem.
+Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras de tipologia incluídas na tipologia são executadas para verificar a validade da mensagem durante a preparação da mensagem.
+
+![](assets/delivery-settings-1.png)
+
 
 ### Parâmetros de pressão {#pressure-parameters}
 
@@ -44,19 +47,22 @@ Nesta seção, os parâmetros de pressão permitem definir uma **limite**. Esse 
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
 
-No **Tipo de peso** , três opções estão disponíveis: (fórmula ausente, dependendo da opção..)
+No **Tipo de peso** , três opções estão disponíveis:
 
 * **Constante**
 * **Depende do recipient**
 * **Definido em cada regra**
 
-O **Peso do delivery** campo : Cada delivery tem um peso que representa seu nível de prioridade. Por padrão, o peso de um delivery é definido como 5. As regras de pressão permitem definir o peso dos deliveries aos quais serão aplicados.Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de um delivery com base nos interesses do recipient.
+Use o **Peso do delivery** para definir a prioridade do delivery. Cada delivery tem um peso que representa seu nível de prioridade. Por padrão, o peso de um delivery é definido como 5. As regras de pressão permitem definir o peso dos deliveries aos quais serão aplicados.Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de um delivery com base nos interesses do recipient.
 
-O **Modo de entrega** campo.. ??
+
+Use o **Modo de entrega** para selecionar o modo de avaliação do target. Três modos estão disponíveis:
 
 * **Estimativa do público-alvo e personalização de mensagens**
 * **Estimativa e aprovação do público alvo provisório**
 * **Avaliação de público alvo**
+
+O gerenciamento de fadiga vem com o **Otimização de campanha** complemento. Saiba mais sobre as regras de pressão e como configurar o gerenciamento de fadiga no [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
 
 ### Configurações de capacidade {#capacity-settings}
 
@@ -69,17 +75,26 @@ Nesta seção, você pode selecionar uma regra de capacidade definida no Console
 
 O **importância do destinatário** é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas.
 
+Saiba mais sobre regras de consistência e capacidade e como configurá-las em [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+
+
 ## Público-alvo {#audience}
 
-Nesta seção, você pode escolher uma **target mapping** definido no console do Adobe Campaign v8. A criação do target mapping é necessária no caso de usar uma tabela de recipients diferente da fornecida pelo Adobe Campaign.
+Nesta seção, você pode selecionar uma **target mapping** entre as disponíveis. Os mapeamentos do Target são definidos no console do Adobe Campaign v8.
+
+Saiba mais sobre target mappings no [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Entrega {#delivery}
 
-**Roteamento** seleção: A conta externa de roteamento de email integrado é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
+Os parâmetros de delivery são configurações técnicas que se aplicam ao seu delivery.
 
-**Teste do delivery SMTP**: use essa opção para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+* **Roteamento**: a conta externa integrada de roteamento de email é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 
-**Email Cco**: use essa opção para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem.
+* **Teste do delivery SMTP**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada destinatário do delivery, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+
+* **Email Cco**: essa opção é usada para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem. Saiba mais sobre email Cco em [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+
 
 ### Tentativas {#retries}
 
@@ -88,7 +103,9 @@ Nesta seção, você pode escolher uma **target mapping** definido no console do
 >title="Número máximo de tentativas"
 >abstract="Se uma mensagem falhar devido a um erro temporário, novas tentativas serão executadas durante a duração do delivery."
 
-As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia do delivery, com um intervalo mínimo de uma hora distribuído pelas 24 horas do dia. Uma nova tentativa por dia é programada depois disso e até o prazo do delivery, que é definido na guia Validity .
+<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+
+Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Aprovação {#approval}
 
@@ -97,11 +114,15 @@ As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado e
 >title="Aprovação modo"
 >abstract="Cada etapa de um delivery pode ser sujeita a aprovação para garantir o monitoramento e o controle totais dos vários processos."
 
-**Manual**: no final da fase de análise, o usuário deverá confirmar o delivery para começar a enviar.
+Se os avisos forem gerados durante a preparação do delivery, você poderá configurar o delivery para definir se ele ainda deverá ou não ser executado. Por padrão, o usuário deverá confirmar o envio de mensagens no final da fase de análise: essa é a validação **manual**.
 
-**Semiautomático**: O envio começa automaticamente se a fase de análise não gerar mensagens de aviso.
+Você pode selecionar outro modo de aprovação no campo apropriado. Os modos disponíveis são:
 
-**Automatic**: o envio começa automaticamente no fim da fase de análise, independentemente do resultado.
+* **Manual**: no final da fase de análise, o usuário deverá confirmar o delivery para começar a enviar.
+
+* **Semiautomático**: O envio começa automaticamente se a fase de análise não gerar mensagens de aviso.
+
+* **Automático**: O envio começa automaticamente no final da fase de análise, independentemente do resultado.
 
 
 ## Validade {#validity}
@@ -123,14 +144,20 @@ Você também poderá optar por especificar datas. Para fazer isso, selecione **
 
 **Limite da validade dos recursos** é usada para recursos carregados, principalmente para mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
 
+![](assets/delivery-settings-2.png)
+
+
+Saiba mais sobre o período de validade do delivery em [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+
 ### Gerenciamento de mirror page {#mirror}
 
-**Gerenciamento de mirror pages** contém quatro opções :
+A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao email. Por padrão, a mirror page é gerada se o link for inserido no conteúdo do email.
 
-* **Gerar a mirror page se um link for exibido no conteúdo do email**: a mirror page é gerada se o link for inserido no conteúdo do email.
-* **Forçar a geração da mirror page**: mesmo se nenhum link para a mirror page for inserido nas mensagens, a mirror page será criada.
-* **Não gerar a mirror page**: nenhuma mirror page é gerada, mesmo se o link estiver presente nas mensagens.
-* **Generates a mirror page accessible using only the message identifier**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log do delivery.
+Além do modo padrão, as seguintes opções também estão disponíveis:
+
+* **[!UICONTROL Force the generation of the mirror page]**: mesmo se nenhum link para a mirror page for inserido no delivery, ela será criada.
+* **[!UICONTROL Do not generate the mirror page]**: nenhuma mirror page é gerada, mesmo se o link estiver presente no delivery.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log do delivery. Para fazer isso, após o fim do delivery, clique na guia **[!UICONTROL Delivery]** e selecione a linha do recipient cuja mirror page você deseja exibir. Clique no link **[!UICONTROL Display the mirror page for this message...]**.
 
 
 ### Rastreamento {#tracking}
@@ -140,19 +167,24 @@ Você também poderá optar por especificar datas. Para fazer isso, selecione **
 >title="Período de validade"
 >abstract="Essa opção define a duração para a qual o rastreamento será ativado nos URLs."
 
-**Limite de validade do rastreamento**: Essa opção define a duração para a qual o rastreamento será ativado nos URLs.
+Os parâmetros de rastreamento são definidos na seção relacionada. As opções possíveis são:
+
+**Limite de validade do rastreamento**: use esta opção para alterar a duração para a qual o rastreamento será ativado nos URLs.
 
 **URL de substituição para URLs expirados**: use esta opção para inserir um URL para uma página da Web de fallback: é exibido assim que o rastreamento expira.
 
-
 ## Configurações de teste {#test-setttings}
 
-**Manter duplo** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
+Você pode definir os parâmetros de exclusão nesta seção. As opções disponíveis são:
 
-**Manter endereços incluir na lista de bloqueios** permite manter do target os perfis que não estão mais sendo direcionados pelo delivery, como após um cancelamento de subscrição (opt-out).
+* **Manter duplo** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
 
-**Manter endereços em quarentena** permite manter do target qualquer perfil que não responda.
+* **Manter endereços incluir na lista de bloqueios** permite manter do target os perfis que não estão mais sendo direcionados pelo delivery, como após um cancelamento de subscrição (opt-out).
 
-**Manter o código de delivery da prova** permite que você forneça o mesmo código de delivery que o definido para o delivery com o qual ele está relacionado.
+* **Manter endereços em quarentena** permite manter do target qualquer perfil que não responda.
 
-Por padrão, o assunto da prova tem o prefixo &quot;Proof #&quot;, onde # é o número da prova. É possível alterar esse prefixo no campo **Label prefix**.
+Você também pode personalizar o nome das provas.
+
+Use o **Manter o código de delivery da prova** para associar à prova o mesmo código de delivery que o definido para o delivery com o qual ele está relacionado.
+
+Por padrão, o assunto da prova tem o prefixo &quot;PROOF #&quot;, onde # é o número da prova. É possível alterar esse prefixo no campo **Label prefix**.
