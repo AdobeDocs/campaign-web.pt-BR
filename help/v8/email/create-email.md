@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do usuário da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Este caso de uso apresenta como criar seu primeiro email. Vamos agendar o envio 
 
 1. Crie um novo delivery a partir do **[!UICONTROL Deliveries]** menu.
 
-1. Selecione o **[!UICONTROL Email]** e o modelo a ser usado e clique em **[!UICONTROL Criar]**.
+1. Selecione o **[!UICONTROL Email]** e o modelo a ser usado e clique em **[!UICONTROL Criar delivery]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ Este caso de uso apresenta como criar seu primeiro email. Vamos agendar o envio 
    * **[!UICONTROL Código de delivery]**: use esse campo para organizar seus deliveries com base em sua própria convenção de nomenclatura,
    * **[!UICONTROL Descrição]**: especifique uma descrição para o delivery,
    * **[!UICONTROL Natureza]**: especifique a natureza do email para fins de classificação.<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >Se você tiver estendido seu esquema com campos personalizados específicos, poderá acessá-los a partir do **[!UICONTROL Opções personalizadas]** seção.
@@ -79,7 +78,7 @@ Nesse caso de uso, vamos projetar o email usando um template predefinido. Inform
 
    Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, queremos usar um modelo de design existente.
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ Nesse caso de uso, vamos projetar o email usando um template predefinido. Inform
 
    ![](assets/add-perso.png)
 
-1. Quando o conteúdo estiver pronto, salve-o e clique na seta para voltar à tela de criação de email.
+1. Quando o conteúdo estiver pronto, salve e feche o design e clique em **[!UICONTROL Salvar]** para retornar à tela de criação de email.
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ Nesse caso de uso, enviaremos o email para um público existente. Informações 
 
    Você também pode definir um grupo de controle para analisar o comportamento dos destinatários de email em comparação ao comportamento dos perfis que não foram direcionados. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## Programar o envio {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ Por padrão, a variável **[!UICONTROL Confirmar antes de enviar]** estiver ativ
 
 Quando o email estiver pronto, você poderá pré-visualizá-lo e testá-lo antes de iniciar seu envio.
 
-Nesse caso de uso, vamos pré-visualizar o email e enviar uma prova usando perfis existentes.
+Nesse caso de uso, vamos visualizar o email e enviar provas para endereços de email específicos enquanto representamos alguns dos perfis direcionados.
 
 Informações adicionais sobre como visualizar e testar emails estão disponíveis em [esta seção](../preview-test/preview-test.md).
 
-1. Clique em **[!UICONTROL Revisar para enviar]**. É exibida uma visualização do email, juntamente com todas as propriedades, público-alvo e programação configurados. Você pode editar qualquer um desses elementos usando o botão modificar .
+1. Clique em **[!UICONTROL Revisar e enviar]**. É exibida uma visualização do email, juntamente com todas as propriedades, público-alvo e programação configurados. Você pode editar qualquer um desses elementos usando o botão modificar .
 
 1. Clique no botão **[!UICONTROL Simular conteúdo]** para visualizar o email e enviar provas.
 
@@ -159,21 +160,25 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Para enviar provas do seu email, clique no link **[!UICONTROL Teste]** em seguida, selecione os perfis que receberão a prova.
+1. Para enviar provas do seu email, clique no link **[!UICONTROL Teste]** em seguida, escolha o modo a ser usado para enviar suas provas.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   Neste exemplo, vamos usar o modo Substituir do target principal, o que significa que enviaremos provas para endereços de email específicos enquanto representamos alguns dos perfis direcionados pelo delivery.
 
-   Neste exemplo, queremos enviar as provas para um perfil de teste específico, que é um seed address que não faz parte do target. Saiba como trabalhar com seed addresses em [Documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. Clique em Adicionar endereço e especifique os endereços de email que receberão as provas.
+
+   Para cada endereço de email, selecione o perfil no público-alvo a ser representado. Você também pode permitir que o Adobe Campaign selecione um perfil aleatório no target.
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >Você também pode testar suas mensagens representando alguns dos perfis segmentados e enviando a mensagem de prova para o endereço de email de sua escolha. [Saiba como enviar provas](../preview-test/preview-test.md)
-
 1. Clique em **[!UICONTROL Enviar email de teste]** em seguida, confirme o envio.
 
-   Depois que as provas forem enviadas, você poderá verificar seu status clicando no botão **[!UICONTROL Exibir log de email de teste]** botão.
+   As provas são enviadas para os endereços de email especificados usando o perfil selecionado, com o **[Prova x]** prefixo.
+
+   ![](assets/proof-sent.png)
+
+   Você pode verificar o status do envio e acessar as provas enviadas a qualquer momento clicando no link **[!UICONTROL Exibir log de email de teste]** na tela simular conteúdo.
 
 ## Enviar e monitorar o email {#prepare-send}
 
@@ -183,11 +188,15 @@ Depois de revisar e testar seu email, você pode iniciar a preparação e enviá
 
    ![](assets/preparation.png)
 
-1. Depois que o email estiver pronto para ser enviado, clique em **[!UICONTROL Enviar]** em seguida, confirme o envio.
+1. Depois que o email estiver pronto para ser enviado, clique em **[!UICONTROL Enviar]** ou **[!UICONTROL Enviar conforme agendado]** em seguida, confirme o envio.
 
-   Você pode rastrear o envio em tempo real, juntamente com as estatísticas. Além disso, a variável **[!UICONTROL Logs]** permite acessar informações detalhadas sobre o envio do email. [Saiba como monitorar logs do delivery](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. Assim que o envio do email começar, imediatamente ou na data agendada, você poderá acompanhar o envio em tempo real nessa tela, juntamente com as estatísticas.
 
-1. Depois que o email tiver sido enviado, você poderá acessar os [relatórios](../reporting/reports.md) para efeitos de análise complementar.
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >Além disso, a variável **[!UICONTROL Logs]** permite acessar informações detalhadas sobre o envio do email. [Saiba como monitorar logs do delivery](../monitor/delivery-logs.md)
+
+1. Depois que o email tiver sido enviado, você poderá acessar relatórios dedicados para fins de análise adicional. [Saiba como trabalhar com relatórios](../reporting/reports.md)
    ![](assets/reports.png)
