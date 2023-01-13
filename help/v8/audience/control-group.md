@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Definir um grupo de controle
-description: Documentação da Web do Campaign v8
+description: Saiba como definir um grupo de controle para suas mensagens na interface do usuário da Web do Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 41%
 
 ---

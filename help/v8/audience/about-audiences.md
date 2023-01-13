@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Sobre públicos
-description: Sobre públicos
+title: Introdução aos públicos
+description: Saiba como usar públicos-alvo na interface do usuário da Web do Campaign
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '128'
 ht-degree: 16%
 
 ---
 
-# Sobre públicos {#about-audiences}
+# Introdução aos públicos {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 

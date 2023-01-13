@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Relatórios
-description: Documentação da Web do Campaign v8
+title: Relatórios de entrega
+description: Saiba como acessar e usar relatórios do delivery
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '387'
 ht-degree: 41%
 
 ---
 
-# Relatórios {#reports}
+# Relatórios de entrega {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 

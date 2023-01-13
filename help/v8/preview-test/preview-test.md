@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Sobre visualização e provas
-description: Documentação da Web do Campaign v8
+description: Saiba como visualizar mensagens e enviar provas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
