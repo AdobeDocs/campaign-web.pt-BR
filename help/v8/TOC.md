@@ -5,10 +5,10 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 12%
+source-wordcount: '165'
+ht-degree: 13%
 
 ---
 
@@ -39,11 +39,10 @@ ht-degree: 12%
       + [Ajustar o alinhamento vertical e o preenchimento](content/alignment-and-padding.md)
       + [Definir um estilo para links](content/styling-links.md)
       + [Adicionar atributos de estilo em linha](content/inline-styling.md)
-   + Personalizar seu conteúdo {#personalize}
-      + [Adicionar personalização](personalization/personalize.md)
+   + [Adicionar personalização](personalization/personalize.md)
    + [Enviar ofertas](content/offers.md)
 + Selecionar o público-alvo do email {#audience}
-   + [Sobre públicos](audience/about-audiences.md)
+   + [Introdução aos públicos](audience/about-audiences.md)
    + [Selecionar um público-alvo](audience/add-audience.md)
    + [Definir um grupo de controle](audience/control-group.md)
    + [Definir um público-alvo com o construtor de regras](audience/segment-builder.md)
