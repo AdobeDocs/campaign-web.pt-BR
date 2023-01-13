@@ -3,10 +3,10 @@ audience: end-user
 title: Notas de versão do Campaign Web v8
 description: Notas de versão do Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,13 +14,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-Esta página lista todos os novos recursos e melhorias do Campaign Web v8. Você também pode consultar o [atualizações mais recentes da documentação](documentation-updates.md) para obter mais alterações.
+Esta página lista todos os recursos e melhorias mais recentes do Campaign Web v8.
 
+## Versão alfa{#alpha-release}
 
-
-## Recursos alfa
-
-No momento, essa interface da Web está disponível somente para profissionais Alfa com os seguintes recursos:
+No momento, essa nova interface da Web do Campaign está disponível somente para **Médicos alfa** com os seguintes recursos:
 
 **Experiência moderna, intuitiva e unificada**
 
@@ -31,12 +29,14 @@ No search and pulse notifications in Alpha
 -->
 * Experimente a nova navegação com menus e pastas à esquerda
 
+Saiba mais sobre a nova interface do usuário no [esta página](../get-started/user-interface.md).
+
 **Criar, iniciar e medir sua campanha de email**
 
-* Projetar conteúdo de email personalizado com o designer de email
-* Definir públicos-alvo com o construtor de regras
-* Pré-visualizar, testar e enviar suas mensagens de email
-* Monitore o envio e meça os resultados com relatórios internos
+* Projetar conteúdo de email personalizado com o designer de email - [Saiba mais](../content/edit-content.md)
+* Definir públicos-alvo com o construtor de regras - [Saiba mais](../audience/about-audiences.md)
+* Visualizar, testar e enviar suas mensagens de email - [Saiba mais](../monitor/prepare-send.md)
+* Monitore o envio e meça os resultados com relatórios internos - [Saiba mais](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
