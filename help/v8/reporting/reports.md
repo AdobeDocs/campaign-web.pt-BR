@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega
 description: Saiba como acessar e usar relatórios do delivery
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 41%
 
 ---
@@ -44,9 +44,9 @@ Não entregues e rejeitados: Este relatório mostra o detalhamento de não entre
 
 * **Fluxos de clique e URLs**: Este relatório mostra a lista de páginas visitadas após um delivery.
 
-* **Atividades do usuário**: Este relatório mostra o detalhamento de aberturas, cliques e transações por meia hora, hora ou dia, no formato de um gráfico.
+* **Atividades do usuário**: Este relatório mostra o detalhamento de aberturas e cliques por meia hora, hora ou dia, no formato de um gráfico.
 
-* **Estatísticas de rastreamento**: Este relatório fornece estatísticas sobre aberturas, cliques e transações.
+* **Estatísticas de rastreamento**: Este relatório fornece estatísticas sobre aberturas e cliques.
 
 * **Detalhamento de aberturas**: Este relatório mostra o detalhamento de aberturas por sistema operacional, dispositivo e navegador para o período relacionado. Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis.
 
