@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Sobre visualização e provas
-description: Saiba como visualizar mensagens e enviar provas
+title: Sobre pré-visualização e teste
+description: Saiba como visualizar mensagens e testar emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Sobre visualização e provas {#about-preview-proofs}
+# Sobre pré-visualização e email de teste {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ Para fazer isso, o Adobe Campaign permite:
 * [Visualizar o conteúdo e a personalização do email](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Enviar provas](#send-proofs) para destinatários específicos para teste e validação.
+* [Enviar emails de teste](#send-proofs) para destinatários específicos para teste e validação.
 
 Essas ações podem ser executadas na variável **[!UICONTROL Simular conteúdo]** botão que é acessível ao criar o conteúdo do seu email a partir do Designer de email:
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar emails de teste
 description: Saiba como definir e enviar emails de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 2%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -19,60 +19,61 @@ O envio de emails de teste é uma etapa importante na validação da campanha de
 Os emails de teste podem ser enviados para dois tipos de recipients:
 
 * **Testar perfis**: enviar emails de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados,
-* **Perfis de substituição**: envie emails de teste para um endereço de email específico ao representar um perfil existente. Isso permite que você experimente o email como os recipients, fornecendo uma representação precisa da mensagem que o perfil receberá.
 
-## Selecionar os recipients das provas {#recipients}
+* **Substituição do target principal**: envie emails de teste para um endereço de email específico ao representar um perfil existente. Isso permite que você experimente o email como os recipients, fornecendo uma representação precisa da mensagem que o perfil receberá.
 
-1. Acesse a tela de criação de conteúdo de email e clique em **[!UICONTROL Simular conteúdo]**.
+## Selecione os recipients do teste {#recipients}
 
-1. Clique no botão **[!UICONTROL Teste]** em seguida, use o **[!UICONTROL Modo]** lista suspensa para escolher o tipo de recipients que receberá as provas:
+1. Acesse a tela de simulação de conteúdo de email e clique no botão **[!UICONTROL Teste]** botão.
 
-<!-- to check: by default, profiles selected in previous screen are pre-selected for proofs. Can add addtitional profiles + remove preselected?-->
+   ![](assets/test-button.png)
 
-### Enviar provas para perfis de teste
+1. Use o **[!UICONTROL Modo]** lista suspensa para escolher o tipo de recipients que receberá o email de teste:
 
-1. Escolha a **[!UICONTROL Usar perfis de teste]** modo.
+   * **Testar perfis**: enviar o email de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados,
 
-1. Adicione os perfis de teste que receberão os emails de teste.
+   * **Substituição do target principal**: envie o email de teste para um endereço de email específico ao representar um perfil existente. Isso permite que você experimente o email como os recipients, fornecendo uma representação precisa da mensagem que o perfil receberá.
 
-   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
-
-   ![](assets/test-profiles-audience.png)
-
-### Enviar provas para perfis de substituição
-
-1. Escolha a **[!UICONTROL Substituição do target]** modo.
-
-1. Adicione os endereços de email que receberão as provas.
+   ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >Você pode especificar qualquer endereço de email. Isso permite enviar provas para qualquer usuário, mesmo que ele não seja usuário do Adobe Campaign V8.
+   >Por padrão, a variável **[!UICONTROL Testar perfis]** está selecionado. Se você já tiver selecionado perfis para visualizar o email na tela de simulação de conteúdo, esses perfis serão pré-selecionados como recipients de teste. Você pode limpar a seleção e/ou adicionar outros recipients.
 
-1. Para cada endereço de email, selecione o perfil no público-alvo a ser usado. Você também pode permitir que o Adobe Campaign selecione um perfil aleatório no target.
+1. Para enviar emails de teste para perfis de substituição, escolha **[!UICONTROL Substituição do target]** em seguida, siga estas etapas:
 
-   ![](assets/substitution.png)
+   1. Clique no botão **[!UICONTROL Adicionar endereço]** e especifique o endereço de email que receberá o email de teste.
 
-Depois que os recipients de prova forem selecionados, você poderá enviar o email de teste. [Saiba como enviar provas](#send)
+      Você pode inserir qualquer endereço de email. Isso permite enviar emails de teste para qualquer usuário, mesmo que ele não seja usuário do Adobe Campaign V8.
 
->[!NOTE]
->
->Se desejar enviar a mensagem de email final para os recipients das provas, habilite a opção **[!UICONTROL Incluir população de teste no target principal]** ativada.
+   1. Selecione o perfil no público-alvo a ser usado para enviar o email de teste. Você também pode permitir que o Adobe Campaign selecione um perfil aleatório no target.
 
-## Enviar as provas {#send}
+   1. Confirme o recipient e repita a operação para adicionar quantos endereços forem necessários.
 
-Para enviar as provas para os destinatários selecionados, clique em **[!UICONTROL Enviar email de teste]** em seguida, confirme o envio.
+      ![](assets/substitution.png)
+
+1. Após selecionar os recipients do teste, você pode enviar o email de teste. [Saiba como enviar emails de teste](#send)
+
+   >[!NOTE]
+   >
+   >Se desejar enviar a mensagem de email final para os recipients do email de teste, ative a opção **[!UICONTROL Incluir população de teste no target principal]** ativada.
+
+## Envie o email de teste {#send}
+
+Para enviar o email de teste para os recipients selecionados, clique em **[!UICONTROL Enviar email de teste]** em seguida, confirme o envio.
 
 ![](assets/send-proof.png)
 
-Envie quantas provas forem necessárias até concluir o conteúdo do seu delivery. Feito isso, você pode enviar o email para o público-alvo principal. [Saiba como preparar e enviar seu email](../monitor/prepare-send.md)
+Envie quantos emails de teste forem necessários até concluir o conteúdo do seu delivery. Feito isso, você pode enviar o email para o público-alvo principal. [Saiba como preparar e enviar seu email](../monitor/prepare-send.md)
 
-## Acessar provas enviadas {#access-proofs}
+## Acessar emails de teste enviados {#access-proofs}
 
-Depois que as provas forem enviadas, você poderá acessar logs dedicados do **[!UICONTROL Exibir log de email de teste]** botão. Esses logs permitem acessar todas as provas enviadas para o delivery selecionado e visualizar estatísticas específicas relacionadas ao envio.
+Depois que os emails de teste forem enviados, você poderá acessar logs dedicados do **[!UICONTROL Exibir log de email de teste]** botão.
+
+Esses logs permitem acessar todos os emails de teste enviados para o delivery selecionado e visualizar estatísticas específicas relacionadas ao envio. [Saiba como monitorar logs do delivery](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-Você também pode acessar provas da lista de deliveries, como qualquer delivery.
+Você também pode acessar emails de teste enviados da lista de deliveries, como qualquer delivery.
 
 ![](assets/delivery-list.png)

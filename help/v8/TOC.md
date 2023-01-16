@@ -5,10 +5,10 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 14%
+source-wordcount: '165'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 14%
    + [Definir um grupo de controle](audience/control-group.md)
    + [Definir um público-alvo com o construtor de regras](audience/segment-builder.md)
 + Visualizar e testar seu email {#preview-test}
-   + [Sobre visualização e provas](preview-test/preview-test.md)
+   + [Sobre pré-visualização e teste](preview-test/preview-test.md)
    + [Visualizar conteúdo de email](preview-test/preview-content.md)
-   + [Enviar provas](preview-test/proofs.md)
+   + [Enviar emails de teste](preview-test/proofs.md)
 + Enviar e monitorar o email {#monitor}
    + [Preparar e enviar um email](monitor/prepare-send.md)
    + [Monitorar logs do delivery](monitor/delivery-logs.md)

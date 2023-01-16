@@ -3,9 +3,9 @@ audience: end-user
 title: Monitorar logs do delivery
 description: Saiba como monitorar logs do delivery
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 49%
 
 ---
@@ -39,7 +39,7 @@ Todas as etapas de validação, avisos e erros são listados. Os ícones colorid
 
 ## Entregas
 
-O **Deliveries** oferece um histórico de todas as ocorrências do delivery. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status do delivery para cada recipient.
+O **Envio de logs** oferece um histórico de todas as ocorrências do delivery. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status do delivery para cada recipient.
 
 ![](assets/logs2.png)
 

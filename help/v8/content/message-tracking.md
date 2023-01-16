@@ -3,9 +3,9 @@ audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -73,7 +73,7 @@ Depois que o email for enviado, quando os recipients clicarem no link da mirror 
 
 >[!NOTE]
 >
->Na prova enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
+>No email de teste enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
 
 O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
 

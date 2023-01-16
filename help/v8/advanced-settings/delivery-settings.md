@@ -3,10 +3,10 @@ audience: end-user
 title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de delivery de email na interface do usuário da Web do Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 45%
+source-wordcount: '1472'
+ht-degree: 44%
 
 ---
 
@@ -183,8 +183,8 @@ Você pode definir os parâmetros de exclusão nesta seção. As opções dispon
 
 * **Manter endereços em quarentena** permite manter do target qualquer perfil que não responda.
 
-Você também pode personalizar o nome das provas.
+Você também pode personalizar o nome dos emails de teste.
 
-Use o **Manter o código de delivery da prova** para associar à prova o mesmo código de delivery que o definido para o delivery com o qual ele está relacionado.
+Use o **Manter o código de delivery da prova** para associar ao email de teste o mesmo código de delivery que o definido para o delivery com o qual ele está relacionado.
 
-Por padrão, o assunto da prova tem o prefixo &quot;PROOF #&quot;, onde # é o número da prova. É possível alterar esse prefixo no campo **Label prefix**.
+Por padrão, o assunto do email de teste é prefixado em &quot;PROOF #&quot;, onde # é o número do email de teste. É possível alterar esse prefixo no campo **Label prefix**.

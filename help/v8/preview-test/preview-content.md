@@ -3,9 +3,9 @@ audience: end-user
 title: Visualizar conteúdo de email
 description: Saiba como visualizar seu conteúdo de email com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Para visualizar o conteúdo do email, siga estas etapas:
 
 1. Acesse a tela de criação de conteúdo de email e clique no botão **[!UICONTROL Simular conteúdo]** botão.
 
+   ![](assets/simulate.png)
+
 1. Selecione um ou vários perfis clicando no botão **[!UICONTROL Selecionar perfil(s)]** , em seguida, use o **[!UICONTROL Testar perfis]** e **[!UICONTROL Perfis]** guias para escolher.
 
    Você pode combinar perfis de teste e perfis para visualizar seu email.
@@ -40,6 +42,10 @@ Para visualizar o conteúdo do email, siga estas etapas:
 
    Se você tiver adicionado vários perfis, é possível alternar entre eles na lista para visualizar o email correspondente.
 
-   Você também pode visualizar a renderização do seu conteúdo em diferentes dispositivos (desktop, dispositivos móveis, tablet), clicando no ícone dedicado no canto superior direito.
+   >[!NOTE]
+   >
+   >Você pode visualizar a renderização do seu conteúdo em diferentes dispositivos (desktop, dispositivos móveis, tablet), clicando no ícone dedicado no canto superior direito.
 
    ![](assets/preview.png)
+
+
