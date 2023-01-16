@@ -3,9 +3,9 @@ audience: end-user
 title: Monitorar logs do delivery
 description: Saiba como monitorar logs do delivery
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 49%
 
 ---
@@ -45,13 +45,13 @@ O **Deliveries** oferece um histórico de todas as ocorrências do delivery. A l
 
 ## Exclusões
 
-O **Logs de exclusão** lista todas as mensagens que foram excluídas do público-alvo enviado e especifica o motivo da falha de envio.
+O **Logs de exclusão** lista todas as mensagens que foram excluídas do público-alvo e especifica o motivo da falha de envio.
 
 ![](assets/logs3.png)
 
 ## Causas de exclusão
 
-O **Causas da exclusão** exibe o volume (em número) das mensagens que foram excluídas do público-alvo enviado.
+O **Causas da exclusão** exibe o volume (em número) das mensagens que foram excluídas do público-alvo.
 
 ![](assets/logs4.png)
 

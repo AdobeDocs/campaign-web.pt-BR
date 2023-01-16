@@ -3,7 +3,7 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do usuário da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 7%
@@ -34,7 +34,7 @@ send also KPIs
 
 ## Preparar o envio{#prepare}
 
-Após definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua mensagem. Durante a preparação, a população do target é calculada e o conteúdo da mensagem gerado para cada perfil é incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas. As regras de validação usadas durante a análise são descritas nesta [Documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+Após definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua mensagem. Durante a preparação, a população do target é calculada e o conteúdo da mensagem gerado para cada perfil é incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas. As regras de validação usadas durante a análise são descritas na seção [Documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 Siga as etapas abaixo:
 

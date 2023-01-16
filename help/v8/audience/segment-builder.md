@@ -3,7 +3,7 @@ audience: end-user
 title: Definir um público-alvo com o construtor de regras
 description: Saiba como trabalhar com o Construtor de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -60,7 +60,7 @@ No lado direito, a variável **Propriedades da regra** permite executar as segui
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Ver resultados:** exibe a lista de recipients direcionados pelo público-alvo
+* **Ver resultados:** exibe a lista de recipients alvos do público-alvo.
 * **Visualização de código**: exibe uma versão baseada em código do público-alvo no SQL.
 * **Exibir atributos avançados**: marque esta opção se quiser exibir a lista completa de atributos na paleta esquerda: nós, agrupamentos, links 1-1, links 1-N.
 * **Atributos**: exibe uma descrição do público-alvo criado.

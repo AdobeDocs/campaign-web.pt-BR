@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1166'
 ht-degree: 2%
 
 ---
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **Campanhas** - Esta é a lista de suas campanhas. Por padrão, você pode exibir suas datas de início/término/última modificação, bem como seu status. Você pode filtrar a lista por status ou datas de início/término. Os templates de campanha também estão disponíveis. Essas listas são somente leitura.
 
 * **Deliveries** - Navegue pela lista de deliveries. Por padrão, você pode visualizar seu estado, a última data de modificação, bem como os KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique em um delivery de email para abrir seu painel e obter uma visão geral dos detalhes do delivery. Os deliveries em outros canais são somente leitura. Os templates de delivery também estão disponíveis no modo somente leitura. Você pode usar o Console do cliente para editá-los. Veja isso [documentação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   Use o **Mais ações** para excluir ou duplicar um delivery.
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### Gerenciamento de clientes
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Definir um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do usuário da Web do Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 41%
@@ -64,7 +64,7 @@ Após a preparação do delivery, é possível exibir as exclusões nas seguinte
 
    ![](assets/control-group5.png)
 
-* O **Logs de exclusão** exibir cada perfil e a execução relacionada **Motivo**.
+* O **Logs de exclusão** exibir cada perfil e a exclusão relacionada **Motivo**.
 
    ![](assets/control-group6.png)
 
