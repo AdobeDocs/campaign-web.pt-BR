@@ -3,10 +3,10 @@ audience: end-user
 title: Notas de versão do Campaign Web v8
 description: Notas de versão do Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
@@ -52,3 +52,12 @@ add info somewhere to remind users that
 >[!NOTE]
 >
 >Observe que campanhas entre canais e recursos de gerenciamento de workflow estarão disponíveis com a versão beta.
+
+## Atualizações de terminologia
+
+Como um usuário existente do Campaign, observe que alguns conceitos foram renomeados para alinhar-se aos padrões de terminologia mais recentes no setor. Essas alterações se aplicam somente à interface do usuário da Web e não são refletidas no Console do cliente. Elas estão resumidas abaixo.
+
+* Agora, as provas são **Testar emails**. Para enviar uma prova, use o **Teste** na interface do usuário do delivery de email
+* A análise de delivery agora é o **preparação do delivery**. Quando precisar iniciar a análise, clique no botão **Preparar** botão
+* A Visualização de email agora está disponível através do **Simular conteúdo** botão
+* As listas agora são **Públicos-alvo**
