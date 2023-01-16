@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="Interface"
+>title="Descubra a interface"
 >abstract="A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente."
 
 A nova interface da Web do Campaign v8 oferece uma experiência do usuário moderna e intuitiva para simplificar o design e o delivery da campanha de marketing. Essa nova interface é integrada ao Adobe Experience Platform.

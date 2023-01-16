@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do usuário da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Usando um modelo de design predefinido, o email também terá conteúdo personal
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Saiba como criar seu conteúdo de email usando o Designer de email."
->abstract="Saiba como criar seu conteúdo"
+>title="Saiba como criar o conteúdo de email"
+>abstract="Saiba como usar o Designer de email."
 
 Nesse caso de uso, usaremos um template predefinido para projetar nosso email.
 
