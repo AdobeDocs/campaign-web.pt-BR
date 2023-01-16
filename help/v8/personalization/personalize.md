@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 22%
+source-wordcount: '653'
+ht-degree: 18%
 
 ---
 
@@ -80,17 +80,17 @@ Os blocos de conteúdo incorporados são:
 * **[!UICONTROL Ativado pela Adobe Campaign]** : insere o logotipo &quot;Ativado pela Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
 * **[!UICONTROL Greetings]**: insere saudações com o nome do destinatário. Exemplo: &quot;Olá, John Doe&quot;.
-* **[!UICONTROL Insert logo]**: insere um logotipo pronto para uso que foi definido ao configurar a instância.
+* **[!UICONTROL Inserir logotipo]** : insere um logotipo que é definido nas configurações de instância.
 * **[!UICONTROL Link to mirror page]**: insere um link para a mirror page (&quot;Se você não conseguir visualizar esta mensagem corretamente, clique aqui&quot;).
 * **[!UICONTROL Mirror page URL]**: insere o URL da mirror page, permitindo que os designers de delivery verifiquem o link.
-* **[!UICONTROL Oferecer o URL de aceitação no modo unitário]** : insere um URL que permite definir uma oferta de Interação para **[!UICONTROL Aceite]**.
+* **[!UICONTROL Oferecer o URL de aceitação no modo unitário]** : insere um URL que permite definir uma oferta para **[!UICONTROL Aceite]**.
 * **[!UICONTROL URL da página de registro]** : insere um URL de subscrição.
-* **[!UICONTROL Registration link]**: insere um link de subscrição. Esse link deve ser definido ao configurar a instância. O conteúdo padrão é: &quot;Para registrar, clique aqui.&quot;
-* **[!UICONTROL Registration link (with referrer)]**: insere um link de subscrição, permitindo identificar o visitante e o delivery. O link foi definido ao configurar a instância.
+* **[!UICONTROL Registration link]**: insere um link de subscrição. Esse link é definido nas configurações da instância. O conteúdo padrão é: &quot;Para registrar, clique aqui.&quot;
+* **[!UICONTROL Registration link (with referrer)]**: insere um link de subscrição, permitindo identificar o visitante e o delivery. Esse link é definido nas configurações da instância.
 * **[!UICONTROL Registration confirmation]**: insere um link que permite confirmar a subscrição.
 * **[!UICONTROL Links de compartilhamento em rede social]** : insere botões que permitem que o recipient compartilhe um link para o conteúdo da mirror page.
 * **[!UICONTROL Style of content emails]** e **[!UICONTROL Notification style]**: geram um código que formata um email com estilos HTML predefinidos.
-* **[!UICONTROL Link de cancelamento de assinatura]** : insere um link que permite cancelar a inscrição de todos os deliveries ( lista de bloqueios). O conteúdo associado padrão é: &quot;Você está recebendo esta mensagem porque esteve em contato com `<your rganization name>` ou um afiliado. Para não receber mais mensagens de `<your rganization name>` clique aqui.&quot;
+* **[!UICONTROL Link de cancelamento de assinatura]** : insere um link que permite cancelar a inscrição de todos os deliveries ( lista de bloqueios). O conteúdo associado padrão é: &quot;Você está recebendo esta mensagem porque esteve em contato com ***nome da organização*** ou um afiliado. Para não receber mais mensagens de ***nome da organização*** clique aqui.&quot;
 
 
 ## Personalizar links em seus emails {#personalize-links}
