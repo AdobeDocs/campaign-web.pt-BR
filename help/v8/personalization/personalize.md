@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 2%
+source-wordcount: '651'
+ht-degree: 22%
 
 ---
 
@@ -67,17 +67,49 @@ Para personalizar o conteúdo do email, abra a mensagem no Designer de email e:
 
    ![](assets/perso-rendering.png)
 
+Para adicionar um bloco de conteúdo ao seu email, aplique as mesmas etapas e selecione um bloco de conteúdo do último ícone:
+
+![](assets/perso-insert-block.png)
+
+Depois de inserido, o bloco de conteúdo é adicionado ao conteúdo do email, conforme mostrado abaixo. Ele é adaptado automaticamente ao perfil do recipient quando a personalização é gerada, na etapa de preparação do delivery.
+
+![](assets/perso-content-block-in-email.png)
+
+
+Os blocos de conteúdo incorporados são:
+* **[!UICONTROL Ativado pela Adobe Campaign]** : insere o logotipo &quot;Ativado pela Adobe Campaign&quot;.
+* **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
+* **[!UICONTROL Greetings]**: insere saudações com o nome do destinatário. Exemplo: &quot;Olá, John Doe&quot;.
+* **[!UICONTROL Insert logo]**: insere um logotipo pronto para uso que foi definido ao configurar a instância.
+* **[!UICONTROL Link to mirror page]**: insere um link para a mirror page (&quot;Se você não conseguir visualizar esta mensagem corretamente, clique aqui&quot;).
+* **[!UICONTROL Mirror page URL]**: insere o URL da mirror page, permitindo que os designers de delivery verifiquem o link.
+* **[!UICONTROL Oferecer o URL de aceitação no modo unitário]** : insere um URL que permite definir uma oferta de Interação para **[!UICONTROL Aceite]**.
+* **[!UICONTROL URL da página de registro]** : insere um URL de subscrição.
+* **[!UICONTROL Registration link]**: insere um link de subscrição. Esse link deve ser definido ao configurar a instância. O conteúdo padrão é: &quot;Para registrar, clique aqui.&quot;
+* **[!UICONTROL Registration link (with referrer)]**: insere um link de subscrição, permitindo identificar o visitante e o delivery. O link foi definido ao configurar a instância.
+* **[!UICONTROL Registration confirmation]**: insere um link que permite confirmar a subscrição.
+* **[!UICONTROL Links de compartilhamento em rede social]** : insere botões que permitem que o recipient compartilhe um link para o conteúdo da mirror page.
+* **[!UICONTROL Style of content emails]** e **[!UICONTROL Notification style]**: geram um código que formata um email com estilos HTML predefinidos.
+* **[!UICONTROL Link de cancelamento de assinatura]** : insere um link que permite cancelar a inscrição de todos os deliveries ( lista de bloqueios). O conteúdo associado padrão é: &quot;Você está recebendo esta mensagem porque esteve em contato com `<your rganization name>` ou um afiliado. Para não receber mais mensagens de `<your rganization name>` clique aqui.&quot;
+
 
 ## Personalizar links em seus emails {#personalize-links}
 
 Para personalizar um **link**:
 
 1. Selecione um bloco de texto ou uma imagem.
-1. Na barra de ferramentas contextual, selecione **Adicionar personalização**.
+1. Na barra de ferramentas contextual, selecione **Inserir link**.
 
    ![](assets/perso-link.png)
 
-1. Use o editor de personalização para definir e personalizar o link.
+1. Insira o rótulo do link e use o **Inserir link** para personalizar o link.
+
+   ![](assets/perso-link-insert-icon.png)
+
+1. Use o editor de personalização para definir e personalizar o link e confirme.
+
+   ![](assets/perso-link-edit.png)
+
 
 ## Personalize suas ofertas {#personalize-offers}
 

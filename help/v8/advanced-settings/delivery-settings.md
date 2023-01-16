@@ -3,9 +3,9 @@ audience: end-user
 title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de delivery de email na interface do usuário da Web do Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1468'
 ht-degree: 45%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 45%
 
 ![Versão alfa](../assets/do-not-localize/badge.png)
 
-Essas configurações são **parâmetros técnicos do delivery** que são definidas no template de email.
+Essas configurações são **parâmetros técnicos do delivery** que são definidas no template de email. Eles estão disponíveis no **Definir configurações de delivery** ícone disponível ao editar um delivery de email.
 
 ## Configurações de delivery de email {#email-delivery-settings}
 
