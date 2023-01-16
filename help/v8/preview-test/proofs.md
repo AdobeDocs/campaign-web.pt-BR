@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Enviar provas
-description: Saiba como definir e enviar mensagens de prova
+title: Enviar emails de teste
+description: Saiba como definir e enviar emails de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '402'
 ht-degree: 2%
 
 ---
 
-# Enviar provas {#send-proofs}
+# Enviar emails de teste {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-O envio de emails de teste permite validar seu email e verificar vários elementos, como links, links para opção de não participação e mirror pages, imagens e detectar possíveis erros.
+O envio de emails de teste é uma etapa importante na validação da campanha de email e na identificação de possíveis problemas. Ao enviar emails de teste, você pode verificar vários elementos, como links, links para opção de não participação, imagens e mirror pages, bem como detectar quaisquer erros.
 
-Provas podem ser enviadas para dois tipos de recipients:
+Os emails de teste podem ser enviados para dois tipos de recipients:
 
-* **Testar perfis**: enviar provas para seed addresses, que são recipients adicionais e fictícios no banco de dados,
-* **Perfis de substituição**: envie provas para um endereço de email específico usando um perfil existente. Isso permite que você se posicione como os perfis e obtenha uma representação exata da mensagem que o perfil receberá.
+* **Testar perfis**: enviar emails de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados,
+* **Perfis de substituição**: envie emails de teste para um endereço de email específico ao representar um perfil existente. Isso permite que você experimente o email como os recipients, fornecendo uma representação precisa da mensagem que o perfil receberá.
 
 ## Selecionar os recipients das provas {#recipients}
 
