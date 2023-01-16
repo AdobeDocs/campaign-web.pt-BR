@@ -3,7 +3,7 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -175,5 +175,5 @@ Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna.
 <!--
 ## Supported browsers {#browsers}
 
-Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 -->
