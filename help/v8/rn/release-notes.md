@@ -3,10 +3,10 @@ audience: end-user
 title: Notas de versão do Campaign Web v8
 description: Notas de versão do Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
@@ -22,16 +22,21 @@ No momento, essa nova interface da Web do Campaign está disponível somente par
 
 **Experiência moderna, intuitiva e unificada**
 
+A nova interface do usuário da Web do Campaign oferece uma nova experiência de usuário, alinhada a todas as soluções e aplicativos da Adobe Experience Cloud. Ele oferece:
+
 * Acesso à nova interface e a outras soluções do Adobe com uma sessão de usuário única e compartilhada
-* Integração Unificada do Shell: acesso aos aprendizados da comunidade, centro de ajuda, alternador de soluções
+* Nova experiência de navegação, com todos os menus e pastas disponíveis no painel esquerdo
+* Alternadores de soluções e organizações da barra superior
+* Integração Unificada do Shell, com acesso direto à comunidade, centro de ajuda e suporte
 <!--
 No search and pulse notifications in Alpha
 -->
-* Experimente a nova navegação com menus e pastas à esquerda
 
 Saiba mais sobre a nova interface do usuário no [esta página](../get-started/user-interface.md).
 
 **Criar, iniciar e medir sua campanha de email**
+
+Use a nova interface do usuário do Campaign Web para:
 
 * Projetar conteúdo de email personalizado com o designer de email - [Saiba mais](../content/edit-content.md)
 * Definir públicos-alvo com o construtor de regras - [Saiba mais](../audience/about-audiences.md)
@@ -46,4 +51,4 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Observe que campanhas entre canais e recursos de gerenciamento de workflow estarão disponíveis no programa beta.
+>Observe que campanhas entre canais e recursos de gerenciamento de workflow estarão disponíveis com a versão beta.
