@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '513'
 ht-degree: 5%
 
 ---
@@ -33,11 +33,13 @@ As etapas para enviar ofertas com um email são as seguintes:
 
 ## Configurar as ofertas a serem propostas {#configure}
 
-Para selecionar as ofertas a serem propostas no seu email, clique no link **[!UICONTROL Ofertas]** na tela de edição de conteúdo de email, configure as ofertas a serem propostas.
+1. Para selecionar as ofertas a serem propostas no seu email, clique no link **[!UICONTROL Ofertas]** na tela de edição de conteúdo de email.
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Selecione o **[!UICONTROL Espaço de ofertas]** que corresponde ao seu ambiente de oferta.
+1. Configure quais ofertas devem ser propostas para os recipients. Primeiro selecione o **[!UICONTROL Espaço de ofertas]** que corresponde ao seu ambiente de oferta.
+
+   ![](assets/create-content-offers.png)
 
 1. Para refinar a escolha de ofertas do mecanismo, selecione um **[!UICONTROL Categoria de oferta]** em que as ofertas são classificadas.
 
@@ -67,10 +69,10 @@ Depois de configurar as ofertas para propor no seu email, você pode inseri-las 
 
 ## Inserir ofertas no email {#insert}
 
-As ofertas são adicionadas a um email usando o Editor de expressão. Podem ser inseridos:
+As ofertas podem ser adicionadas ao email usando o Editor de expressão. Podem ser inseridos:
 
-* na linha de assunto do email,
-* no corpo do email, permitindo a personalização em qualquer componente de conteúdo. [Saiba como adicionar componentes de conteúdo](content-components.md)
+* Na linha de assunto do email,
+* No corpo do email, permitindo a personalização em qualquer componente de conteúdo. [Saiba como adicionar componentes de conteúdo](content-components.md)
 
 >[!NOTE]
 >
