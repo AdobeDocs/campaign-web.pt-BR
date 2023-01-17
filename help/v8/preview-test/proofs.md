@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar emails de teste
 description: Saiba como definir e enviar emails de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ O envio de emails de teste é uma etapa importante na validação da campanha de
 
 Os emails de teste podem ser enviados para dois tipos de recipients:
 
-* **Testar perfis**: enviar emails de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados,
+* **Testar perfis**: envie emails de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados. Eles podem ser criados no console do Adobe Campaign na **[!UICONTROL Recursos]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** pasta.
 
 * **Substituição do target principal**: envie emails de teste para um endereço de email específico ao representar um perfil existente. Isso permite que você experimente o email como os recipients, fornecendo uma representação precisa da mensagem que o perfil receberá.
 

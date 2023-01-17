@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Sobre pré-visualização e teste
-description: Saiba como visualizar mensagens e testar emails
+title: Sobre pré-visualização e teste de email
+description: Saiba como visualizar e testar emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Sobre pré-visualização e email de teste {#about-preview-proofs}
+# Sobre pré-visualização e teste de email {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 

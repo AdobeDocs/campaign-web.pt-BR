@@ -3,9 +3,9 @@ audience: end-user
 title: Visualizar conteúdo de email
 description: Saiba como visualizar seu conteúdo de email com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,16 @@ ht-degree: 0%
 
 O Adobe Campaign permite visualizar o conteúdo do email antes de enviá-lo para verificar a personalização e como ele será exibido para os recipients.
 
-É possível visualizar um email usando:
-
-* **Testar perfis**: Visualizar o email usando seed addresses, que são recipients adicionais e fictícios no banco de dados,
-* **Perfis**: Visualize o email usando um perfil existente.
-
 Para visualizar o conteúdo do email, siga estas etapas:
 
 1. Acesse a tela de criação de conteúdo de email e clique no botão **[!UICONTROL Simular conteúdo]** botão.
 
    ![](assets/simulate.png)
 
-1. Selecione um ou vários perfis clicando no botão **[!UICONTROL Selecionar perfil(s)]** , em seguida, use o **[!UICONTROL Testar perfis]** e **[!UICONTROL Perfis]** guias para escolher.
+1. Selecione um ou vários perfis clicando no botão **[!UICONTROL Selecionar perfil(s)]** , em seguida, use o **[!UICONTROL Testar perfis]** e **[!UICONTROL Perfis]** guias para escolher:
+
+   * O **Testar perfis** contém seed addresses, que são recipients adicionais e fictícios no banco de dados. Eles podem ser criados no console do Adobe Campaign na **[!UICONTROL Recursos]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** pasta.
+   * O **Perfis** lista todos os destinatários armazenados no **[!UICONTROL Perfis e metas]** no console Campaign.
 
    Você pode combinar perfis de teste e perfis para visualizar seu email.
 
