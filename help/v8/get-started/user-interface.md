@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
+source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -188,43 +188,19 @@ O Campaign v8 Web está disponível atualmente nos seguintes idiomas:
 <tr>
 <td>
 <p>Inglês (EUA) - EN-US</p>
-</td>
-<td>
-<p>Espanhol - ES</p>
-</td>
-<td>
-<p>Coreano - KR</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>Francês - FR</p>
-</td>
-<td>
-<p>Português (Brasil) - PTBR</p>
-</td>
-<td>
-<p>Chinês simplificado - CHS</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>Alemão - DE</p>
-</td>
-<td>
-<p>Japonês - JP</p>
-</td>
-<td>
-<p>Chinês tradicional - CHT</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>Italiano - IT</p>
 </td>
 <td>
+<p>Espanhol - ES</p>
+<p>Português (Brasil) - PTBR</p>
+<p>Japonês - JP</p>
 </td>
 <td>
+<p>Coreano - KR</p>
+<p>Chinês simplificado - CHS</p>
+<p>Chinês tradicional - CHT</p>
 </td>
 </tr>
 </table>
