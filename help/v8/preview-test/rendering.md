@@ -3,9 +3,9 @@ audience: end-user
 title: Testar renderização de email
 description: Saiba como testar a renderização de email na interface do usuário da Web do Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Antes de enviar seu email, verifique se a sua mensagem será exibida aos recipients de forma ideal em uma variedade de clientes Web, Webmails e dispositivos.
+Antes de enviar seu email, verifique se a sua mensagem é exibida aos recipients de forma ideal em uma variedade de clientes Web, Webmails e dispositivos.
 
 Para fazer isso, o Adobe Campaign permite visualizar a mensagem enviada nos diferentes contextos em que ela pode ser recebida e verificar a compatibilidade nos principais desktops e aplicativos (webmail, serviço de mensagens, celular etc.).
 

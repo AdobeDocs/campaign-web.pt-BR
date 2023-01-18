@@ -3,10 +3,10 @@ audience: end-user
 title: Definir um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do usuário da Web do Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 41%
+source-wordcount: '525'
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 41%
 
 Você pode usar grupos de controle para evitar o envio de mensagens para uma parte do público para medir o impacto das campanhas.
 
-Para fazer isso, crie um grupo de controle ao definir o público do delivery. Perfis são adicionados ao grupo de controle aleatoriamente, filtrados ou não, ou baseados em critérios. Portanto você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não atingidos.
+Para fazer isso, crie um grupo de controle ao definir o público do delivery. Perfis são adicionados ao grupo de controle aleatoriamente, filtrados ou não, ou baseados em critérios. Você pode então comparar o comportamento da população do target que recebeu a mensagem com o comportamento dos contatos que não foram direcionados.
 
 O grupo de controle pode ser extraído do público-alvo principal e/ou vir de uma população específica. Consequentemente, há duas maneiras principais de definir um grupo de controle:
 
@@ -23,7 +23,7 @@ O grupo de controle pode ser extraído do público-alvo principal e/ou vir de um
 
 Você pode usar ambos os métodos ao definir um grupo de controle.
 
-Todos os perfis que fazem parte do grupo de controle na etapa de preparação do delivery serão removidos do público-alvo principal. Eles não receberão a mensagem depois que ela for enviada.
+Todos os perfis que fazem parte do grupo de controle na etapa de preparação do delivery são removidos do público-alvo principal. Eles não recebem a mensagem.
 
 Para criar um grupo de controle, clique no botão **[!UICONTROL Definir Grupo de Controle]** botão , do **Público** seção do assistente de criação de delivery.
 
@@ -38,11 +38,11 @@ Para criar um grupo de controle, clique no botão **[!UICONTROL Definir Grupo de
 
 Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis da população do público-alvo.
 
-Primeiro, defina como os perfis serão extraídos do público-alvo: aleatoriamente ou com base em uma classificação.
+Primeiro, defina como os perfis são extraídos do público-alvo: aleatoriamente ou com base em uma classificação.
 
 Em **Extrair do destino** escolha uma **Tipo de exclusão**:
 
-* **Random**: ao preparar o delivery, o Adobe Campaign extrairá aleatoriamente um número de perfis correspondente à porcentagem ou ao número máximo que você definirá como o limite de tamanho.
+* **Random**: ao preparar o delivery, o Adobe Campaign extrai aleatoriamente um número de perfis correspondente à porcentagem ou ao número máximo definido como o limite de tamanho.
 
    ![](assets/control-group.png)
 
@@ -91,4 +91,4 @@ No **População extra** da seção **Grupo de controle** na tela de definição
 
 * Para definir uma nova consulta, selecione **Crie seu próprio** e defina os critérios de exclusão usando o construtor de regras. Consulte esta [seção](segment-builder.md).
 
-Os perfis incluídos no público-alvo ou que correspondem ao resultado do query serão excluídos do público-alvo.
+Os perfis incluídos no público-alvo ou que correspondem ao resultado do query são excluídos do público-alvo.

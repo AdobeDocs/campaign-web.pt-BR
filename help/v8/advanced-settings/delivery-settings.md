@@ -3,9 +3,9 @@ audience: end-user
 title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de delivery de email na interface do usuário da Web do Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 44%
 
 ---
@@ -53,7 +53,7 @@ No **Tipo de peso** , três opções estão disponíveis:
 * **Depende do recipient**
 * **Definido em cada regra**
 
-Use o **Peso do delivery** para definir a prioridade do delivery. Cada delivery tem um peso que representa seu nível de prioridade. Por padrão, o peso de um delivery é definido como 5. As regras de pressão permitem definir o peso dos deliveries aos quais serão aplicados.Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de um delivery com base nos interesses do recipient.
+Use o **Peso do delivery** para definir a prioridade do delivery. Cada delivery tem um peso que representa seu nível de prioridade. Por padrão, o peso de um delivery é definido como 5. As regras de pressão permitem definir o peso dos deliveries aos quais são aplicados. Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de um delivery com base nos interesses do recipient.
 
 
 Use o **Modo de entrega** para selecionar o modo de avaliação do target. Três modos estão disponíveis:
@@ -101,7 +101,7 @@ Os parâmetros de delivery são configurações técnicas que se aplicam ao seu 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Número máximo de tentativas"
->abstract="Se uma mensagem falhar devido a um erro temporário, novas tentativas serão executadas durante a duração do delivery."
+>abstract="Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas até o fim da duração do delivery."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -155,7 +155,7 @@ A mirror page é uma página HTML acessível online através de um navegador da 
 
 Além do modo padrão, as seguintes opções também estão disponíveis:
 
-* **[!UICONTROL Force the generation of the mirror page]**: mesmo se nenhum link para a mirror page for inserido no delivery, ela será criada.
+* **[!UICONTROL Forçar a geração da mirror page]**: mesmo se nenhum link para a mirror page for inserido no delivery, ela será criada.
 * **[!UICONTROL Do not generate the mirror page]**: nenhuma mirror page é gerada, mesmo se o link estiver presente no delivery.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log do delivery. Para fazer isso, após o fim do delivery, clique na guia **[!UICONTROL Delivery]** e selecione a linha do recipient cuja mirror page você deseja exibir. Clique no link **[!UICONTROL Display the mirror page for this message...]**.
 
@@ -165,11 +165,11 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Período de validade"
->abstract="Essa opção define a duração para a qual o rastreamento será ativado nos URLs."
+>abstract="Essa opção define a duração para a qual o rastreamento é ativado nos URLs."
 
 Os parâmetros de rastreamento são definidos na seção relacionada. As opções possíveis são:
 
-**Limite de validade do rastreamento**: use esta opção para alterar a duração para a qual o rastreamento será ativado nos URLs.
+**Limite de validade do rastreamento**: use esta opção para alterar a duração para a qual o rastreamento é ativado nos URLs.
 
 **URL de substituição para URLs expirados**: use esta opção para inserir um URL para uma página da Web de fallback: é exibido assim que o rastreamento expira.
 

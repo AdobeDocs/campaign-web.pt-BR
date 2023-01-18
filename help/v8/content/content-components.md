@@ -3,9 +3,9 @@ audience: end-user
 title: Usar componentes de conteúdo do designer de email
 description: Saiba como usar componentes de conteúdo em seus emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Você pode adicionar quantos **[!UICONTROL Componentes de conteúdo]** conforme 
 
 ## Container {#container}
 
-Você pode adicionar um contêiner simples dentro do qual poderá adicionar outro componente de conteúdo. Isso permite aplicar um estilo específico ao contêiner, que será diferente do componente usado no .
+É possível adicionar um contêiner simples dentro do qual você adiciona outro componente de conteúdo. Isso permite aplicar um estilo específico ao contêiner, que é diferente do componente usado no.
 
 Por exemplo, adicione uma **[!UICONTROL Contêiner]** e, em seguida, adicione um [Botão](#button) componente dentro desse contêiner. Você pode usar um plano de fundo específico para o contêiner e outro para o botão .
 
@@ -81,7 +81,7 @@ Use o **[!UICONTROL Botão]** para inserir um ou vários botões no email e redi
 
 1. No **[!UICONTROL Link]** adicione o URL para o qual deseja redirecionar ao clicar no botão .
 
-1. Escolha como seu público será redirecionado com o **[!UICONTROL Target]** lista suspensa:
+1. Escolha como o conteúdo será exibido com o **[!UICONTROL Target]** lista suspensa:
 
    * **[!UICONTROL Nenhum]**: abre o link no mesmo quadro em que foi clicado (padrão).
    * **[!UICONTROL Em branco]**: abre o link em uma nova janela ou guia.
@@ -180,7 +180,7 @@ Use o **[!UICONTROL Social]** componente para inserir links às páginas de míd
 
 1. Escolha o tamanho dos ícones no **[!UICONTROL Tamanho das imagens]** campo.
 
-1. Clique em cada um dos ícones de redes sociais para configurar o **[!UICONTROL URL]** para o qual o público-alvo será redirecionado.
+1. Clique em cada um dos ícones de redes sociais para configurar o **[!UICONTROL URL]** para o qual o público-alvo é redirecionado.
 
    ![](assets/email_designer_21.png)
 

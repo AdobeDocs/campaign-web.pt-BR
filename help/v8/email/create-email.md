@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do usuário da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Saiba como criar seu primeiro email direcionado neste caso de uso. Programaremos o envio de um email para clientes de fidelidade prata e ouro em uma data específica.
+Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agenda o envio de um email para membros de fidelidade Silver e Gold em uma data específica.
 
-Usando um modelo de design predefinido, o email também terá conteúdo personalizado com base nos atributos do perfil do cliente.
+Com base em um modelo de design predefinido, o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ Usando um modelo de design predefinido, o email também terá conteúdo personal
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Selecionar um template de email"
->abstract="Um modelo é definido no console do Adobe Campaign v8. Essa é uma configuração de delivery específica que contém parâmetros predefinidos, como regras de tipologia, personalização ou parâmetros de roteamento."
+>abstract="Um template de email é uma configuração de delivery específica que contém configurações predefinidas, como regras de tipologia, personalização ou parâmetros de roteamento. Os modelos são definidos no console do cliente Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -65,23 +65,23 @@ Usando um modelo de design predefinido, o email também terá conteúdo personal
 >title="Saiba como criar o conteúdo de email"
 >abstract="Saiba como usar o Designer de email."
 
-Nesse caso de uso, usaremos um template predefinido para projetar nosso email.
+Nesse caso de uso, você usa um modelo predefinido para projetar nosso email.
 
-O design do email será realizado usando um template predefinido. Instruções detalhadas sobre a configuração de conteúdo de email estão disponíveis em [esta seção](../content/edit-content.md).
+Instruções detalhadas sobre como configurar o conteúdo de email estão disponíveis em [esta seção](../content/edit-content.md).
 
 1. Para começar a criar o conteúdo do email, clique no link **[!UICONTROL Editar conteúdo]** botão.
 
-   Isso o levará a uma interface dedicada, onde é possível configurar o conteúdo do email e projetá-lo usando o Designer de email.
+   Isso leva você a uma interface dedicada, onde é possível configurar o conteúdo do email e projetá-lo usando o Designer de email.
 
    ![](assets/edit-content.png)
 
-1. Digite a linha de assunto do email e personalize-a usando o Editor de expressão. [Saiba como personalizar seu conteúdo](../personalization/personalize.md)
+1. Insira a linha de assunto do email e personalize-a usando o Editor de expressão. [Saiba como personalizar seu conteúdo](../personalization/personalize.md)
 
    ![](assets/subject-line.png)
 
 1. Para projetar o corpo do email, clique no link **[!UICONTROL Editar corpo do email]** botão.
 
-   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, usaremos um modelo de design predefinido.
+   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um modelo de design predefinido.
 
    ![](assets/select-template.png)
 
@@ -91,7 +91,7 @@ O design do email será realizado usando um template predefinido. Instruções d
 
     ![](assets/import-folder.png)-->
 
-1. Após selecionar o modelo, ele será exibido no Designer de email, onde você pode fazer as edições necessárias e adicionar personalização.
+1. Após selecionar o modelo, ele é exibido no Designer de email, onde é possível fazer as edições necessárias e adicionar a personalização.
 
    Por exemplo, para adicionar personalização ao título do email, selecione o bloco de componentes e clique em **[!UICONTROL Adicionar personalização]**.
 
@@ -106,9 +106,9 @@ O design do email será realizado usando um template predefinido. Instruções d
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definir a audiência"
->abstract="Selecione o melhor público-alvo para sua mensagem de marketing. Você pode escolher um público-alvo existente já definido em uma instância do Campaign v8 ou no Adobe Experience Platform, ou pode optar por criar um novo público-alvo com o construtor de regras."
+>abstract="Selecione o melhor público-alvo para sua mensagem de marketing. Você pode escolher um público-alvo existente já definido em uma instância do Campaign v8 ou no Adobe Experience Platform, ou criar um novo público-alvo com o construtor de regras."
 
-Nesse caso de uso, enviaremos o email para um público existente. Instruções adicionais sobre como trabalhar com públicos-alvo estão disponíveis em [esta seção](../audience/about-audiences.md).
+Nesse caso de uso, você envia o email para um público existente. Instruções adicionais sobre como trabalhar com públicos-alvo estão disponíveis em [esta seção](../audience/about-audiences.md).
 
 1. Para selecionar o público do email, clique no link **[!UICONTROL Seleção do público-alvo]** e escolha um público-alvo existente na lista.
 
@@ -118,7 +118,7 @@ Nesse caso de uso, enviaremos o email para um público existente. Instruções a
 
    >[!NOTE]
    >
-   >Os públicos-alvo disponíveis na lista são originários da instância do Campaign V8 ou do Adobe Experience Platform, se a integração de Destino/Fontes tiver sido configurada em sua instância.
+   >Os públicos-alvo disponíveis na lista são originários da instância do Campaign v8 ou do Adobe Experience Platform, se a integração de Destino/Fontes tiver sido configurada em sua instância.
    >
    >A integração de Destino/Fontes permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar o delivery do Campaign e os logs de rastreamento para o Adobe Experience Platform. [Saiba como trabalhar com o Campaign e o Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -133,7 +133,7 @@ Nesse caso de uso, enviaremos o email para um público existente. Instruções a
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Programar o envio"
->abstract="Defina a data e a hora exata para seu envio. Ao escolher o horário mais apropriado para sua mensagem de marketing, você maximizará as taxas de abertura."
+>abstract="Defina a data e a hora exata para seu envio. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
 
 Para agendar o envio do email, clique em **[!UICONTROL Habilitar]** e defina a data e a hora desejadas para o envio.
 
@@ -145,19 +145,19 @@ Por padrão, a variável **[!UICONTROL Confirmar antes de enviar]** estiver ativ
 
 Antes de enviar seu email, você pode pré-visualizá-lo e testá-lo para garantir que ele atenda às suas expectativas.
 
-Nesse caso de uso, pré-visualizaremos o email e enviaremos versões de teste para endereços de email específicos enquanto representamos alguns dos perfis direcionados.
+Nesse caso de uso, você visualiza o email e envia versões de teste para endereços de email específicos enquanto representa alguns dos perfis direcionados.
 
 Informações adicionais sobre como visualizar e testar emails estão disponíveis em [esta seção](../preview-test/preview-test.md).
 
-1. Para revisar e enviar o email, clique em **[!UICONTROL Revisar e enviar]**. Isso exibirá uma pré-visualização do email, juntamente com todas as propriedades, público-alvo e cronograma configurados. Você pode editar qualquer um desses elementos clicando no botão modificar .
+1. Para revisar e enviar o email, clique em **[!UICONTROL Revisar e enviar]**. Isso exibe uma pré-visualização do email, juntamente com todas as propriedades, público-alvo e programação configurados. Você pode editar qualquer um desses elementos clicando no botão modificar .
 
-1. Para visualizar o email e enviar versões de teste, clique no link **[!UICONTROL Simular conteúdo]** botão. Isso abrirá a interface de visualização.
+1. Para visualizar o email e enviar versões de teste, clique no link **[!UICONTROL Simular conteúdo]** botão.
 
    ![](assets/review-email.png)
 
 1. No lado esquerdo, selecione os perfis que deseja usar para visualizar o email.
 
-   O painel direito exibirá uma visualização do email com base no perfil selecionado. Se você tiver adicionado vários perfis, é possível alternar entre eles para visualizar o email correspondente.
+   O painel direito exibe uma visualização do email com base no perfil selecionado. Se você tiver adicionado vários perfis, é possível alternar entre eles para visualizar o email correspondente.
 
    ![](assets/preview.png)
 
@@ -167,11 +167,11 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
 1. Para enviar versões de teste do seu email, clique no link **[!UICONTROL Teste]** em seguida, escolha o modo que deseja usar.
 
-   Neste exemplo, usaremos a variável **[!UICONTROL Substituir do target principal]** , que envia versões de teste para endereços de email específicos enquanto representa alguns dos perfis direcionados pelo email.
+   Neste exemplo, use o **[!UICONTROL Substituir do target principal]** , que envia versões de teste para endereços de email específicos enquanto representa alguns dos perfis direcionados pelo email.
 
    ![](assets/proof-mode.png)
 
-1. Clique em **[!UICONTROL Adicionar endereço]** e especifique os endereços de email que receberão as versões de teste.
+1. Clique em **[!UICONTROL Adicionar endereço]** e especifique os endereços de email que recebem as versões de teste.
 
    Para cada endereço de email, selecione o perfil a ser representado. Você também pode permitir que o Adobe Campaign selecione um perfil aleatório no target.
 
@@ -179,7 +179,7 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
 1. Clique em **[!UICONTROL Enviar email de teste]** e confirme o envio.
 
-   As versões de teste serão enviadas para os endereços de email especificados usando o perfil selecionado com o **[Prova x]** prefixo.
+   As versões de teste são enviadas para os endereços de email especificados usando o perfil selecionado com o **[Prova x]** prefixo.
 
    ![](assets/proof-sent.png)
 

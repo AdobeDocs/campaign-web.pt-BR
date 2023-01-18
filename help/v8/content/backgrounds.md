@@ -3,9 +3,9 @@ audience: end-user
 title: Personalize o plano de fundo do email
 description: Saiba como personalizar o plano de fundo do email
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
    >[!NOTE]
    >
-   >Alguns programas de email não suportam imagens de fundo. Quando não houver suporte, a cor de plano de fundo da linha será usada. Certifique-se de selecionar uma cor de plano de fundo de fallback apropriada caso a imagem não possa ser exibida.
+   >Alguns programas de email não suportam imagens de fundo. Quando não há suporte, a cor de plano de fundo da linha é usada. Certifique-se de selecionar uma cor de plano de fundo de fallback apropriada caso a imagem não possa ser exibida.
 
 * Defina uma cor de plano de fundo no nível da coluna.
 

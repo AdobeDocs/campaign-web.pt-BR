@@ -3,9 +3,9 @@ audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '548'
 ht-degree: 3%
 
 ---
@@ -81,7 +81,7 @@ O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a 
 
 O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados, como editar o tipo de rastreamento para cada link.
 
-1. Clique no botão **[!UICONTROL Links]** ícone do painel esquerdo para exibir a lista de todos os URLs do seu conteúdo que serão rastreados.
+1. Clique no botão **[!UICONTROL Links]** ícone do painel esquerdo para exibir a lista de todos os URLs do seu conteúdo a ser rastreado.
 
    Essa lista permite que você tenha uma visualização centralizada e localize cada URL no conteúdo do email.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Selecionar um público-alvo
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 8%
@@ -47,4 +47,4 @@ Esta seção explica como selecionar um público-alvo existente ao definir o pú
 
 1. Clique em **Save**.
 
-Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não receberá a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos, o que não aconteceu. Consulte [seção](control-group.md).
+Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos, o que não aconteceu. Consulte [seção](control-group.md).

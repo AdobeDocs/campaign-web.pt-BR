@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar emails de teste
 description: Saiba como definir e enviar emails de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Os emails de teste podem ser enviados para dois tipos de recipients:
 
 * **Testar perfis**: envie emails de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados. Eles podem ser criados no console do Adobe Campaign na **[!UICONTROL Recursos]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** pasta.
 
-* **Substituição do target principal**: envie emails de teste para um endereço de email específico ao representar um perfil existente. Isso permite que você experimente o email como os recipients, fornecendo uma representação precisa da mensagem que o perfil receberá.
+* **Substituição do target principal**: envie emails de teste para um endereço de email específico ao representar um perfil existente. Isso permite que você experimente o email como os recipients, fornecendo uma representação precisa da mensagem que o perfil recebe.
 
 ## Selecione os recipients do teste {#recipients}
 
@@ -28,7 +28,7 @@ Os emails de teste podem ser enviados para dois tipos de recipients:
 
    ![](assets/test-button.png)
 
-1. Use o **[!UICONTROL Modo]** lista suspensa para escolher o tipo de recipients que receberá o email de teste:
+1. Use o **[!UICONTROL Modo]** lista suspensa para escolher o tipo de recipients que recebem o email de teste:
 
    * **Testar perfis**: enviar o email de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados,
 
@@ -42,7 +42,7 @@ Os emails de teste podem ser enviados para dois tipos de recipients:
 
 1. Para enviar emails de teste para perfis de substituição, escolha **[!UICONTROL Substituição do target]** em seguida, siga estas etapas:
 
-   1. Clique no botão **[!UICONTROL Adicionar endereço]** e especifique o endereço de email que receberá o email de teste.
+   1. Clique no botão **[!UICONTROL Adicionar endereço]** e especifique o endereço de email que recebe o email de teste.
 
       Você pode inserir qualquer endereço de email. Isso permite enviar emails de teste para qualquer usuário, mesmo que ele não seja usuário do Adobe Campaign V8.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a versão de texto de um email
 description: Saiba como criar a versão de texto de um email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 >
 >* Alterações feitas em **[!UICONTROL Texto sem formatação]** não são refletidas na exibição HTML.
 >
->* Se você reativar o **[!UICONTROL Sincronizar com o HTML]** após atualizar o conteúdo de texto sem formatação, as alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão HTML.
+>* Se você reativar o **[!UICONTROL Sincronizar com o HTML]** após atualizar o conteúdo de texto sem formatação, as alterações são perdidas e substituídas pelo conteúdo de texto gerado pela versão do HTML.
 

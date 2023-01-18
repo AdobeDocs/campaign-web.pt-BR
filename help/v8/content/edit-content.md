@@ -3,9 +3,9 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do usuário da Web do Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 4%
 
 ---
@@ -63,4 +63,4 @@ As etapas para definir o conteúdo do email são as seguintes:
 
 1. Por padrão, o rastreamento é ativado para o delivery. Você pode desativar essa opção do **[!UICONTROL Recursos opcionais]** seção. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
 
-Depois que o conteúdo do email tiver sido definido, use a variável **[!UICONTROL Simular conteúdo]** para verificar como será exibido antes de enviá-lo. [Saiba como visualizar e testar seu email](../preview-test/preview-test.md)
+Depois que o conteúdo do email tiver sido definido, use a variável **[!UICONTROL Simular conteúdo]** para verificar como é exibido antes de enviá-lo. [Saiba como visualizar e testar seu email](../preview-test/preview-test.md)

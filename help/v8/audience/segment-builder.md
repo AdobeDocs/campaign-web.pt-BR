@@ -3,9 +3,9 @@ audience: end-user
 title: Definir um público-alvo com o construtor de regras
 description: Saiba como trabalhar com o Construtor de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Você pode usar a barra de pesquisa para localizar elementos rapidamente.
 
 ## A tela
 
-A tela é a zona central na qual você pode configurar e combinar regras com base nos elementos adicionados da paleta. Para adicionar uma nova regra, arraste um bloco da paleta e solte-o na tela. Em seguida, você verá opções específicas do contexto de acordo com o tipo de dados que está sendo adicionado.
+A tela é a zona central na qual você pode configurar e combinar regras com base nos elementos adicionados da paleta. Para adicionar uma nova regra, arraste um bloco da paleta e solte-o na tela. Em seguida, você pode receber opções específicas do contexto de acordo com o tipo de dados que está sendo adicionado.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -67,7 +67,7 @@ No lado direito, a variável **Propriedades da regra** permite executar as segui
 
 ## Exemplo
 
-Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que moram em Atlanta ou Seattle e nascem depois de 1980.
+Neste exemplo, criamos um público-alvo para direcionar todos os clientes que moram em Atlanta ou Seattle e nasceram depois de 1980.
 
 1. No **Atributos** da paleta, procure pela guia **Data de nascimento** campo. Arraste o bloco e solte-o na tela.
 

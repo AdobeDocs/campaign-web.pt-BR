@@ -3,10 +3,10 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do usuário da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 7%
+source-wordcount: '546'
+ht-degree: 8%
 
 ---
 
@@ -92,6 +92,6 @@ Siga estas etapas:
 
    >[!NOTE]
    >
-   >O **Abre** e **Cliques** os indicadores serão atualizados após 5 minutos.
+   >O **Abre** e **Cliques** os indicadores são atualizados após 5 minutos.
 
    Você pode pausar o envio a qualquer momento e, em seguida, retomar. Se você interromper o delivery enquanto ele estiver sendo enviado, não será possível retomar.

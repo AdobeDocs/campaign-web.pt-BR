@@ -3,9 +3,9 @@ audience: end-user
 title: Criar emails no Email Designer
 description: Saiba como criar seu conteúdo de e-mails do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >O empilhamento de colunas não é compatível com todos os programas de email. Quando não houver suporte, as colunas não serão empilhadas.
+   >O empilhamento de colunas não é compatível com todos os programas de email. Quando não há suporte, as colunas não são empilhadas.
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
@@ -89,7 +89,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
 1. Insira campos de personalização para personalizar seu conteúdo de email a partir de dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
-1. Clique no botão **[!UICONTROL Links]** no painel esquerdo para exibir todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Categorias]** se necessário. [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
+1. Clique no botão **[!UICONTROL Links]** no painel esquerdo para exibir todos os URLs do seu conteúdo que devem ser rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Categorias]** se necessário. [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
@@ -97,7 +97,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
    >[!CAUTION]
    >
-   >Não será possível reverter para o designer visual desse email após alternar para o editor de códigos.
+   >Não é possível reverter para o designer visual desse email após alternar para o editor de código.
 
 1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar a renderização de email. Você pode escolher a área de trabalho ou exibição móvel. [Saiba mais sobre como visualizar seu email](../preview-test/preview-test.md)
 

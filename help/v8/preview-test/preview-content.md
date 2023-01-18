@@ -3,9 +3,9 @@ audience: end-user
 title: Visualizar conteúdo de email
 description: Saiba como visualizar seu conteúdo de email com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Visualização inteligente do seu conteúdo"
->abstract="O Adobe Campaign permite usar perfis para visualizar o conteúdo do email antes de enviá-lo, a fim de verificar a personalização e como os recipients os verão."
+>abstract="O Adobe Campaign permite usar perfis para visualizar o conteúdo do email antes de enviá-lo, verificar a personalização e como os recipients o verão."
 
-O Adobe Campaign permite visualizar o conteúdo do email antes de enviá-lo para verificar a personalização e como ele será exibido para os recipients.
+O Adobe Campaign permite visualizar o conteúdo do email antes de enviá-lo, verificar a personalização e como ele é exibido aos recipients.
 
 Para visualizar o conteúdo do email, siga estas etapas:
 
@@ -36,7 +36,7 @@ Para visualizar o conteúdo do email, siga estas etapas:
 
    ![](assets/preview-profile.png)
 
-1. Depois que os perfis forem selecionados, uma visualização do email será exibida no painel direito. Os elementos personalizados serão substituídos pelos dados do perfil selecionado no painel esquerdo.
+1. Depois que os perfis forem selecionados, uma visualização do email será exibida no painel direito. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo.
 
    Se você tiver adicionado vários perfis, é possível alternar entre eles na lista para visualizar o email correspondente.
 
