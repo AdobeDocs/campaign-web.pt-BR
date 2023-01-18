@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -152,16 +152,6 @@ A barra superior da interface permite:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Ajuda contextual e guia de integração
-
-Uma ajuda contextual está disponível na interface do . Quando disponível, clique no botão **?** ícone para exibir informações de ajuda e links de documentação relacionados.
-
-![](assets/context-help.png){width="70%" align="left"}
-
-Um guia de integração também está disponível para ajudar você a começar a usar o Campaign v8 Web. Clique no ícone no canto inferior direito, escolha um dos cenários passo a passo disponíveis e siga as instruções.
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## Configurar telas de lista {#list-screens}
 
 Vários links no menu de navegação esquerdo, por exemplo **Deliveries** ou **Campanhas**, exibir listas de objetos. Essas telas de lista são somente leitura, exceto a lista de delivery de email.
@@ -175,6 +165,43 @@ As listas são exibidas em colunas. É possível exibir informações adicionais
 ![](assets/columns.png){width="70%" align="left"}
 
 Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo) indicando que a lista está classificada nessa coluna. Para colunas numéricas ou de datas, a seta para cima indica que a lista é classificada em ordem crescente, enquanto a seta para baixo indica uma ordem decrescente. Para colunas de sequência ou alfanuméricas, os valores são listados em ordem alfabética.
+
+## Ajuda contextual e guia de integração
+
+Uma ajuda contextual está disponível na interface do . Quando disponível, clique no botão **?** ícone para exibir informações de ajuda e links de documentação relacionados.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+Um guia de integração também está disponível para ajudar você a começar a usar o Campaign v8 Web. Clique no ícone no canto inferior direito, escolha um dos cenários passo a passo disponíveis e siga as instruções.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Navegadores compatíveis {#browsers}
+
+O Campaign v8 Web foi projetado para funcionar de maneira ideal na versão mais recente do Google Chrome, Safari e Microsoft Edge. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou outros navegadores.
+
+## Preferências de idioma {#language-pref}
+
+A interface do usuário está disponível atualmente nos seguintes idiomas:
+
+* Inglês
+* Francês
+* Alemão
+* Italiano
+* Espanhol
+* Português (Brasil)
+* Japonês
+* Coreano
+
+O idioma padrão da interface é determinado pelo idioma preferencial especificado no perfil do usuário.
+
+Para alterar seu idioma:
+
+* Clique em **Preferências** do seu avatar, no canto superior direito.
+   ![](assets/preferences.png)
+* Em seguida, clique no idioma exibido sob seu endereço de email
+* Selecione o idioma preferido e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
