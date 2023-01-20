@@ -1,43 +1,37 @@
 ---
 audience: end-user
-title: Ajustar o alinhamento vertical e o preenchimento no Email Designer
-description: Saiba como ajustar o alinhamento vertical e o preenchimento
+title: Adjust vertical alignment and padding in Email Designer
+description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
-
 ---
-
-# Ajustar o alinhamento vertical e o preenchimento {#alignment-and-padding}
+# Adjust vertical alignment and padding {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-Neste exemplo, ajustamos o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas.
+In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
 
-1. Selecione o componente de estrutura diretamente no email ou usando o **[!UICONTROL Árvore de navegação]** disponível no painel esquerdo.
+1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
    ![](assets/alignment_1.png)
 
-1. Na barra de ferramentas contextual, clique em **[!UICONTROL Selecionar uma coluna]** e escolha aquele que deseja editar. Também é possível selecioná-lo na árvore de estrutura à esquerda.
+1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
 
    ![](assets/alignment_2.png)
 
-1. Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Configurações de coluna]** à direita. Ajuste o **[!UICONTROL Alinhamento vertical]** usando a seção dedicada.
+1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
 
    ![](assets/alignment_3.png)
 
-   Por exemplo, selecione **[!UICONTROL Inferior]**. O componente de conteúdo é movido para a parte inferior da coluna.
+   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
 
-1. Em **[!UICONTROL Preenchimento]**, defina o preenchimento superior dentro da coluna e defina o preenchimento esquerdo e direito para essa coluna.
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
 
    >[!NOTE]
    >
-   >Clique no ícone de cadeado para interromper a sincronização entre o preenchimento superior/inferior ou esquerdo/direito.
+   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
 
    ![](assets/alignment_4.png)
 
-1. Continue de forma semelhante para ajustar o alinhamento e o preenchimento das outras colunas.
+1. Proceed similarly to adjust the other columns' alignment and padding.
 
-1. Salve as alterações.
+1. Save your changes.

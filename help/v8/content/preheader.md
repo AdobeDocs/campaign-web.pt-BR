@@ -1,52 +1,46 @@
 ---
 audience: end-user
-title: Adicionar um precabeçalho no Designer de email
-description: Saiba como criar o conteúdo de seus emails
+title: Add a preheader in the Email Designer
+description: Learn how to design your emails content
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
-
 ---
-
-# Adicionar um precabeçalho {#preheader}
+# Add a preheader {#preheader}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adição de um precabeçalho"
->abstract="Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem uma frase de duração."
+>title="Adding a preheader"
+>abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
 
-Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email.
+A preheader is a short summary text that follows the subject line when viewing an email from your email client. 
 
-Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem uma frase de duração.
+In many cases, it provides a short summary of the email, and is typically one sentence long. 
 
 >[!NOTE]
 >
->Os pré-cabeçalhos não são suportados por todos os clientes de email. Quando não é suportado, o precabeçalho não é exibido.
+>Preheaders are not supported by all email clients. When not supported, the preheader does not display.
 
-Para definir o pré-cabeçalho de email, siga as etapas abaixo:
+To define the email preheader, follow the steps below:
 
-1. No Designer de email, adicione pelo menos um **[!UICONTROL Componentes da estrutura]** para começar a criar seu email.
+1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
 
-1. Clique no botão **[!UICONTROL Árvore de navegação]** ícone no painel esquerdo e selecione **[!UICONTROL Corpo]**.
+1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
 
-   ![](assets/preheader_body.png)
+    ![](assets/preheader_body.png)
 
-1. No **[!UICONTROL Configurações de corpo]** no painel direito, clique no ícone de edição ao lado do **[!UICONTROL Preheader]** para adicionar conteúdo.
+1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
 
-   ![](assets/preheader_body_settings.png)
+    ![](assets/preheader_body_settings.png)
 
-1. Adicione o pré-cabeçalho. Você pode personalizá-la ainda mais clicando no botão **[!UICONTROL Adicionar personalização]** ícone .
+1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
 
-   ![](assets/preheader_3.png)
+    ![](assets/preheader_3.png)
 
-1. No **[!UICONTROL Editar personalização]** , é possível adicionar **[!UICONTROL Bloco de conteúdo]**, **[!UICONTROL Conteúdo dinâmico]** ou **[!UICONTROL Campos de personalização]**.
+1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
 
-1. Clique em **[!UICONTROL Validar]** para verificar a sintaxe de personalização.
+1. Click **[!UICONTROL Validate]** to check your personalization syntax.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
-O pré-cabeçalho agora está configurado para o email.
+Your preheader is now configured for your email.

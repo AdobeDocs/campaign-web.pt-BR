@@ -1,116 +1,110 @@
 ---
-title: Personalizar seu conteúdo no Campaign
-description: Saiba como personalizar seu conteúdo na interface do usuário da Web do Adobe Campaign
+title: Personalize your content in Campaign
+description: Learn how to personalize your content in Adobe Campaign web UI
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
-workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 18%
-
 ---
-
-# Personalizar seu conteúdo{#add-personalization}
+# Personalize your content{#add-personalization}
 
 ![](../assets/do-not-localize/badge.png)
 
-Você pode personalizar o conteúdo da mensagem ao:
+You can personalize the message content by:
 
-* Inserção dinâmica **campos de personalização**
+* Inserting dynamic **personalization fields**
 
-   Os campos de personalização são usados para personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para um delivery, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou ao delivery. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo de suas mensagens.
+    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages.
 
-   ![](assets/perso-subject-line.png)
+    ![](assets/perso-subject-line.png)
 
-   A sintaxe a seguir insere a cidade do recipient no conteúdo: &lt;%= recipient.location.city %>.
+    The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
+    
+* Inserting pre-defined **content blocks**
+    
+    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor.
 
-* Inserção de predefinido **blocos de conteúdo**
-
-   O Campaign vem com um conjunto de blocos de personalização que contêm uma renderização específica que você pode inserir nos deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
-
-   ![](assets/perso-content-blocks.png)
+    ![](assets/perso-content-blocks.png)
 <!--
 * Create **conditional content**
 
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalizar a linha de assunto do email {#personalize-subject-line}
+## Personalize the email subject line {#personalize-subject-line}
 
-Para adicionar personalização na **[!UICONTROL Linha de assunto]** siga as etapas abaixo:
+To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
 
-1. Clique no botão **Abrir caixa de diálogo de personalização** ícone à direita do **Linha de assunto** campo.
-1. Insira o conteúdo da linha de assunto e selecione os atributos de personalização a serem adicionados.
-1. Clique em **Confirmar** para validar. Os atributos de personalização são adicionados à linha de assunto.
+1. Click the **Open personalization dialog** icon on the right of the **Subject line** field.
+1. Enter the subject line content and select the personalization attributes to add.
+1. Click **Confirm** to validate. The personalization attributes are added to the subject line.
 
 ![](assets/perso-subject.png)
 
-## Personalizar seu conteúdo de email {#personalize-emails}
+## Personalize your email content {#personalize-emails}
 
-Para personalizar o conteúdo do email, abra a mensagem no Designer de email e:
+To personalize the email content, open the message in the Email designer and:
 
-1. Clique dentro de um bloco de texto.
-1. Na barra de ferramentas contextual, selecione **Adicionar personalização**.
+1. Click inside a text block.
+1. In the contextual toolbar, select **Add personalization**.
 
-   ![](assets/perso-add-to-content.png)
+    ![](assets/perso-add-to-content.png)
 
-1. Insira o nome do recipient no editor de personalização e confirme.
+1. Insert the name of the recipient in the personalization editor and confirm.
 
-   ![](assets/perso-add-name.png)
+    ![](assets/perso-add-name.png)
 
-   O atributo de personalização é adicionado ao conteúdo do email.
+    The personalization attribute is added to the email content. 
+    
+    You can simulate the content to check rendering. [Learn more](../preview-test/preview-content.md)
 
-   Você pode simular o conteúdo para verificar a renderização. [Saiba mais](../preview-test/preview-content.md)
+    ![](assets/perso-rendering.png)
 
-   ![](assets/perso-rendering.png)
-
-Para adicionar um bloco de conteúdo ao seu email, aplique as mesmas etapas e selecione um bloco de conteúdo do último ícone:
+To add a content block to your email, apply the same steps and select a content block from the last icon:
 
 ![](assets/perso-insert-block.png)
 
-Depois de inserido, o bloco de conteúdo é adicionado ao conteúdo do email, conforme mostrado abaixo. Ele é adaptado automaticamente ao perfil do recipient quando a personalização é gerada, na etapa de preparação do delivery.
+Once inserted, the content block is added to the email content, as shown below. It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
 
 ![](assets/perso-content-block-in-email.png)
 
 
-Os blocos de conteúdo incorporados são:
-* **[!UICONTROL Ativado pela Adobe Campaign]** : insere o logotipo &quot;Ativado pela Adobe Campaign&quot;.
-* **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
-* **[!UICONTROL Greetings]**: insere saudações com o nome do destinatário. Exemplo: &quot;Olá, John Doe&quot;.
-* **[!UICONTROL Inserir logotipo]** : insere um logotipo que é definido nas configurações de instância.
-* **[!UICONTROL Link to mirror page]**: insere um link para a mirror page (&quot;Se você não conseguir visualizar esta mensagem corretamente, clique aqui&quot;).
-* **[!UICONTROL Mirror page URL]**: insere o URL da mirror page, permitindo que os designers de delivery verifiquem o link.
-* **[!UICONTROL Oferecer o URL de aceitação no modo unitário]** : insere um URL que permite definir uma oferta para **[!UICONTROL Aceite]**.
-* **[!UICONTROL URL da página de registro]** : insere um URL de subscrição.
-* **[!UICONTROL Registration link]**: insere um link de subscrição. Esse link é definido nas configurações da instância. O conteúdo padrão é: &quot;Para registrar, clique aqui.&quot;
-* **[!UICONTROL Registration link (with referrer)]**: insere um link de subscrição, permitindo identificar o visitante e o delivery. Esse link é definido nas configurações da instância.
-* **[!UICONTROL Registration confirmation]**: insere um link que permite confirmar a subscrição.
-* **[!UICONTROL Links de compartilhamento em rede social]** : insere botões que permitem que o recipient compartilhe um link para o conteúdo da mirror page.
-* **[!UICONTROL Style of content emails]** e **[!UICONTROL Notification style]**: geram um código que formata um email com estilos HTML predefinidos.
-* **[!UICONTROL Link de cancelamento de assinatura]** : insere um link que permite cancelar a inscrição de todos os deliveries ( lista de bloqueios). O conteúdo associado padrão é: &quot;Você está recebendo esta mensagem porque esteve em contato com ***nome da organização*** ou um afiliado. Para não receber mais mensagens de ***nome da organização*** clique aqui.&quot;
+Built-in content blocks are:
+* **[!UICONTROL Enabled by Adobe Campaign]** : inserts the "Enabled by Adobe Campaign" logo.
+* **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
+* **[!UICONTROL Greetings]** : inserts greetings with the recipient's name. Example: "Hello John Doe,".
+* **[!UICONTROL Insert logo]** : inserts a logo which is is defined in the instance settings.
+* **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
+* **[!UICONTROL Mirror page URL]** : inserts the mirror page URL, enabling Delivery Designers to check the link.
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an offer to **[!UICONTROL Accepted]**.
+* **[!UICONTROL Registration page URL]** : inserts a subscription URL.
+* **[!UICONTROL Registration link]** : inserts a subscription link. This link is defined in the instance settings. The default content is: "To register click here."
+* **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. This link is defined in the instance settings.
+* **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
+* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content.
+* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. 
+* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist). The default associated content is: "You are receiving this message because you have been in contact with ***your organization name*** or an affiliate. To no longer receive messages from ***your organization name*** click here."
 
 
-## Personalizar links em seus emails {#personalize-links}
+## Personalize links in your emails {#personalize-links}
 
-Para personalizar um **link**:
+To personalize a **link**:
 
-1. Selecione um bloco de texto ou uma imagem.
-1. Na barra de ferramentas contextual, selecione **Inserir link**.
+1. Select a text block or an image.
+1. In the contextual toolbar, select **Insert link**.
 
-   ![](assets/perso-link.png)
+    ![](assets/perso-link.png)
 
-1. Insira o rótulo do link e use o **Inserir link** para personalizar o link.
+1. Enter the link label and use the **Insert link** button to personalize the link.
 
-   ![](assets/perso-link-insert-icon.png)
+    ![](assets/perso-link-insert-icon.png)
 
-1. Use o editor de personalização para definir e personalizar o link e confirme.
+1. Use the personalization editor to define and personalize the link, and confirm.
 
-   ![](assets/perso-link-edit.png)
+    ![](assets/perso-link-edit.png)
 
 
-## Personalize suas ofertas {#personalize-offers}
+## Personalize your offers {#personalize-offers}
 
-Também é possível acessar o editor de personalização ao adicionar conteúdo do tipo texto às representações das ofertas. Saiba mais [nesta seção](../content/offers.md).
+You can also access the personalization editor when adding text-type content to your offers' representations. Learn more in [this section](../content/offers.md).

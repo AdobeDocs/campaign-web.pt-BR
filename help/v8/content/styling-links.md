@@ -1,39 +1,33 @@
 ---
 audience: end-user
-title: Definir um estilo para links
-description: Saiba como definir um estilo para links
+title: Define a style for links
+description: Learn how to define a style for links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
-
 ---
-
-# Definir um estilo para links {#styling-links}
+# Define a style for links {#styling-links}
 
 ![](../assets/do-not-localize/badge.png)
 
-É possível sublinhar um link e selecionar sua cor e seu destino no Designer de email.
+You can underline a link and select its color and target in the Email Designer.
 
-1. Em um **[!UICONTROL Texto]** , onde um link é inserido, selecione seu link.
+1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
 
-1. No **[!UICONTROL Configurações do componente]** menu, verifique **[!UICONTROL Link Sublinhado]** para que o rótulo fique sublinhado.
+1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
 
    ![](assets/link_1.png)
 
-1. Escolha como seu público-alvo será redirecionado com o **[!UICONTROL Target]** lista suspensa:
+1. Choose how your audience is redirected with the **[!UICONTROL Target]** drop-down:
 
-   * **[!UICONTROL Nenhum]**: abre o link no mesmo quadro em que foi clicado (padrão).
-   * **[!UICONTROL Em branco]**: abre o link em uma nova janela ou guia.
-   * **[!UICONTROL Auto]**: abre o link no mesmo quadro em que foi clicado.
-   * **[!UICONTROL Pai]**: abre o link no quadro principal.
-   * **[!UICONTROL Topo]**: abre o link no corpo completo da janela.
+    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
+    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
+    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
+    * **[!UICONTROL Parent]**: opens the link in the parent frame.
+    * **[!UICONTROL Top]**: opens the link in the full body of the window.
 
    ![](assets/link_2.png)
 
-1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** no painel direito.
+1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
 
    ![](assets/link_3.png)
 
-1. Salve as alterações.
+1. Save your changes.
