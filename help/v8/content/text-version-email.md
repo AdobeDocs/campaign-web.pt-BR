@@ -1,35 +1,42 @@
 ---
 audience: end-user
-title: Create the text version of an email
-description: Learn how to create the text version of an email
+title: Criar a versão de texto de um email
+description: Saiba como criar a versão de texto de um email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 0%
+
 ---
-# Create the text version of an email {#text-version-email}
+
+# Criar a versão de texto de um email {#text-version-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
+É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
 
-By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
+Por padrão, o Designer de email cria um **[!UICONTROL Texto sem formatação]** versão do email, incluindo campos de personalização. Esta versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
 
-If you prefer using a different content for the plain text version, follow the steps below:
+Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
 
-1. From your email, select the **[!UICONTROL Plain text]** tab.
+1. Em seu email, selecione o **[!UICONTROL Texto sem formatação]** guia .
 
-    ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png)
 
-1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
+1. Use o **[!UICONTROL Sincronizar com o HTML]** alternar para desativar a sincronização.
 
-    ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png)
 
-1. Click the check mark to confirm your choice.
+1. Clique na marca de seleção para confirmar sua escolha.
 
-    ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png)
 
-1. You can then edit the plain text version as desired.
+1. Em seguida, você pode editar a versão de texto simples, conforme desejado.
 
 >[!CAUTION]
 >
->* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
+>* Alterações feitas em **[!UICONTROL Texto sem formatação]** não são refletidas na exibição HTML.
 >
->*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes are lost, and replaced with text content generated from the HTML version.
+>* Se você reativar o **[!UICONTROL Sincronizar com o HTML]** após atualizar o conteúdo de texto sem formatação, as alterações são perdidas e substituídas pelo conteúdo de texto gerado pela versão do HTML.
+

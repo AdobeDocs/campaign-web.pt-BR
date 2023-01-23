@@ -1,17 +1,23 @@
 ---
 audience: end-user
-title: Get started with audiences
-description: Learn how to use audiences in Campaign Web UI
+title: Introdução aos públicos
+description: Saiba como usar públicos-alvo na interface do usuário da Web do Campaign
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 17%
+
 ---
-# Get started with audiences {#about-audiences}
+
+# Introdução aos públicos {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Get started with audiences"
->abstract="Learn how to manage audience for your email content."
+>title="Introdução aos públicos"
+>abstract="Saiba como gerenciar o público-alvo do seu conteúdo de email."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -34,13 +40,13 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-In this section, learn how to define the audience of email. The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
+Nesta seção, saiba como definir o público-alvo do email. O público-alvo é o principal público-alvo do seu delivery: os recipients que recebem o email. O tipo de público-alvo depende do target mapping definido no template do delivery. Consulte esta [seção](../email/create-email.md).
 
-To define the audience, you can:
+Para definir o público-alvo, você pode:
 
-* use an existing audience, see this [section](add-audience.md).
-* create a new audience. See this [section](segment-builder.md).
+* usar um público-alvo existente, consulte esta [seção](add-audience.md).
+* criar um novo público-alvo. Consulte esta [seção](segment-builder.md).
 
-You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
+Você também pode definir grupos de controle para evitar o envio de mensagens a uma parte do público-alvo para medir o impacto das campanhas. Consulte esta [seção](control-group.md).
 
 ![](assets/about-audience.png)

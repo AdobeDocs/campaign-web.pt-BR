@@ -1,44 +1,50 @@
 ---
 audience: end-user
-title: Select an audience
-description: Learn how to select an audience
+title: Selecionar um público-alvo
+description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 8%
+
 ---
-# Select an audience {#add-audience}
+
+# Selecionar um público-alvo {#add-audience}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="The audiences are defined in the Adobe Campaign v8 Console. If you have an Adobe Experience Platform integration available, you should be able to see Platform defined audiences too."
+>title="Selecionar um público-alvo existente"
+>abstract="Os públicos-alvo são definidos no Console do Adobe Campaign v8. Se tiver uma integração do Adobe Experience Platform disponível, você também poderá ver públicos-alvo definidos pela plataforma."
 
-This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
+Esta seção explica como selecionar um público-alvo existente ao definir o público-alvo de um delivery de email. Para criar um novo público-alvo, consulte esta seção [seção](segment-builder.md).
 
-1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
+1. No **Público** seção do assistente de criação de delivery, clique no link **[!UICONTROL Seleção do público-alvo]** botão.
 
    ![](assets/create-audience.png)
 
-1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
+1. Choose **[!UICONTROL Seleção do público-alvo]** para usar um público-alvo existente. Para criar um novo público-alvo a ser usado neste email, escolha **Crie seu próprio**. Consulte esta [seção](segment-builder.md).
 
-    This screen displays all existing audiences defined in the Adobe Campaign console or from Adobe Experience Platform.
+   Essa tela exibe todos os públicos-alvo existentes definidos no console Adobe Campaign ou no Adobe Experience Platform.
 
-    ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png)
 
-    >[!NOTE]
-    >
-    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >Para aproveitar os públicos-alvo do Adobe Experience Platform, é necessário configurar a integração com Destinos. Consulte a [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
 
-1. Choose an audience and click **Select**.
+1. Escolha um público-alvo e clique em **Selecionar**.
 
-1. Click **Edit rules** if you want to refine your audience.
+1. Clique em **Editar regras** se quiser refinar seu público-alvo.
 
    ![](assets/create-audience3.png)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+1. Usando o construtor de regras, você pode enriquecer seu público-alvo com filtros adicionais ou combinando públicos-alvo diferentes. Consulte esta [seção](segment-builder.md).
 
    ![](assets/create-audience4.png)
 
-1. Click **Save**. 
+1. Clique em **Save**.
 
-You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).
+Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos, o que não aconteceu. Consulte [seção](control-group.md).

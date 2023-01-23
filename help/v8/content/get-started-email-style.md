@@ -1,22 +1,28 @@
 ---
 audience: end-user
-title: Get started with email style
-description: Discover the different ways you can adjust your email content style
+title: Introdução ao estilo de email
+description: Descubra as diferentes maneiras de ajustar o estilo do conteúdo do email
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 0%
+
 ---
-# Get started with email style {#get-started-email-style}
+
+# Introdução ao estilo de email {#get-started-email-style}
 
 ![](../assets/do-not-localize/badge.png)
 
-Once you started creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
+Depois de começar a criar o conteúdo de email em [!DNL Adobe Campaign], é possível ajustar diversos parâmetros e atributos de estilo do painel de configurações do Designer de email.
 
-You can either apply your changes to the email body, to a structure component or to a content component.
+Você pode aplicar as alterações ao corpo do email, a um componente de estrutura ou a um componente de conteúdo.
 
 ![](assets/email_designer_content_components_settings.png)
 
-Follow the links below to discover how to adjust some of the style settings in your email.
+Siga os links abaixo para descobrir como ajustar algumas das configurações de estilo no seu email.
 
-* Learn how to [personalize your email background](backgrounds.md)
-* Learn how to [manage vertical alignment and padding](alignment-and-padding.md)
-* Learn how to [define a style for the links in your email](styling-links.md)
-* Learn how to [customize inline styling attributes](inline-styling.md)
+* Saiba como [personalizar o plano de fundo do email](backgrounds.md)
+* Saiba como [gerenciar alinhamento vertical e preenchimento](alignment-and-padding.md)
+* Saiba como [definir um estilo para os links no seu email](styling-links.md)
+* Saiba como [personalizar atributos de estilo em linha](inline-styling.md)

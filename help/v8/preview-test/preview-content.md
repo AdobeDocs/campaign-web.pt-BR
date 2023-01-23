@@ -1,43 +1,49 @@
 ---
 audience: end-user
-title: Preview email content
-description: Learn how to preview your email content with Campaign Web UI
+title: Visualizar conteúdo de email
+description: Saiba como visualizar seu conteúdo de email com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 0%
+
 ---
-# Preview email content {#preview}
+
+# Visualizar conteúdo de email {#preview}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Smart preview of your content"
->abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending, check personalization and how your recipients will see it."
+>title="Visualização inteligente do seu conteúdo"
+>abstract="O Adobe Campaign permite usar perfis para visualizar o conteúdo do email antes de enviá-lo, verificar a personalização e como os recipients o verão."
 
-Adobe Campaign allows you to preview the content of your email before sending it, to check personalization, and how it is displayed to your recipients.
+O Adobe Campaign permite visualizar o conteúdo do email antes de enviá-lo, verificar a personalização e como ele é exibido aos recipients.
 
-To preview the content of your email, follow these steps:
+Para visualizar o conteúdo do email, siga estas etapas:
 
-1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
+1. Acesse a tela de criação de conteúdo de email e clique no botão **[!UICONTROL Simular conteúdo]** botão.
 
-    ![](assets/simulate.png)
+   ![](assets/simulate.png)
 
-1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from:
+1. Selecione um ou vários perfis clicando no botão **[!UICONTROL Selecionar perfil(s)]** , em seguida, use o **[!UICONTROL Testar perfis]** e **[!UICONTROL Perfis]** guias para escolher:
 
-    * The **Test profiles** tab contains seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
-    * The **Profiles** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the Campaign console.
+   * O **Testar perfis** contém seed addresses, que são recipients adicionais e fictícios no banco de dados. Eles podem ser criados no console do Adobe Campaign na **[!UICONTROL Recursos]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** pasta.
+   * O **Perfis** lista todos os destinatários armazenados no **[!UICONTROL Perfis e metas]** no console Campaign.
 
-    You can combine both test profiles and profiles to preview your email.
+   Você pode combinar perfis de teste e perfis para visualizar seu email.
 
-    ![](assets/preview-profile.png)
+   ![](assets/preview-profile.png)
 
-1. Once profiles have been selected, a preview of the email is displayed in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
+1. Depois que os perfis forem selecionados, uma visualização do email será exibida no painel direito. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo.
 
-    If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
+   Se você tiver adicionado vários perfis, é possível alternar entre eles na lista para visualizar o email correspondente.
 
-    >[!NOTE]
-    >
-    >You can preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
+   >[!NOTE]
+   >
+   >Você pode visualizar a renderização do seu conteúdo em diferentes dispositivos (desktop, dispositivos móveis, tablet), clicando no ícone dedicado no canto superior direito.
 
-    ![](assets/preview.png)
+   ![](assets/preview.png)
 
 

@@ -1,53 +1,46 @@
-# Contributing
+---
+source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 22%
 
-Thanks for choosing to contribute!
+---
+# Contribuição
 
-The following are a set of guidelines to follow when contributing to this project.
+Obrigado por contribuir!
 
-## Code Of Conduct
+A seguir, um conjunto de orientações a serem seguidas ao contribuir para esse projeto.
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
-you are expected to uphold this code. Please report unacceptable behavior to
+## Código de conduta
+
+Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar, é necessário manter este código. Informe qualquer comportamento inaceitável para
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Contributor Guide Documentation
+## Documentação do Guia do colaborador
 
-See the [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consulte a [Guia do colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-## Have A Question?
+## Tem Dúvidas?
 
-Start by filing an issue. The existing committers on this project work to reach
-consensus around project direction and issue solutions within issue threads
-(when appropriate).
+Comece registrando um problema. Os autores atuais do commit trabalham para chegar a um consenso sobre a direção do projeto e para gerar soluções dentro dos processos de problemas (quando apropriado).
 
-## Contributor License Agreement
+## Contrato de Licença de Colaborador
 
-All third-party contributions to this project must be accompanied by a signed contributor
-license agreement. This gives Adobe permission to redistribute your contributions
-as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
-only need to submit an Adobe CLA one time, so if you have submitted one previously,
-you are good to go!
+Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um contrato de licença do contribuidor assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). Você só precisa enviar um Adobe CLA uma vez, portanto, se já tiver enviado um anteriormente, fique tranquilo!
 
-## Code Reviews
+## Revisões do código
 
-All submissions should come in the form of pull requests and need to be reviewed
-by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Todos os envios devem vir na forma de solicitações de envio e precisam ser revisados pelos confirmadores do projeto. Leia a [documentação de solicitação de envio do GitHub](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests) para obter mais informações sobre envio de pull requests.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## From Contributor To Committer
+## Do contribuidor para o autor do commit
 
-We love contributions from our community! If you'd like to go a step beyond contributor
-and become a committer with full write access and a say in the project, you must
-be invited to the project. The existing committers employ an internal nomination
-process that must reach lazy consensus (silence is approval) before invitations
-are issued. If you feel you are qualified and want to get more deeply involved,
-feel free to reach out to existing committers to have a conversation about that.
+Adoramos contribuições de nossa comunidade! Se você quiser ir além do contribuidor e se tornar autor do commit com acesso total à gravação e direito a dar opiniões, você deve ser convidado para o projeto. Os autores atuais do commit usam um processo de nomeação interna que deve chegar a um consenso lento (silêncio é aprovação) antes de os convites serem emitidos. Se você se sentir qualificado e quiser aprofundar seu envolvimento, fique à vontade para contatar os autores atuais do commit e conversar sobre isso.
 
-## Security Issues
+## Problemas de segurança
 
-Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [envie um problema para nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
