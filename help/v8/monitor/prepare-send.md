@@ -3,10 +3,10 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do usuário da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 8%
+source-wordcount: '648'
+ht-degree: 7%
 
 ---
 
@@ -72,6 +72,22 @@ Quando a preparação estiver concluída sem erro, sua mensagem estará pronta p
 
 ## Enviar a mensagem{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Entregue"
+>abstract="O número de mensagens entregues com êxito. Este indicador é atualizado a cada 5 minutos. A porcentagem exibida se baseia no número total de mensagens enviadas."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Aberturas"
+>abstract="O número de mensagens abertas. Este indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de aberturas distintas em comparação ao número de mensagens entregues."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Cliques"
+>abstract="O número de recipients que clicaram pelo menos uma vez no email. Este indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de cliques distintos em comparação ao número de mensagens entregues."
+
+
 Depois que a preparação for concluída, você poderá enviar a mensagem. Essa etapa só é necessária para mensagens enviadas imediatamente. Se a mensagem estiver programada, ela será enviada na data definida.
 
 Siga estas etapas:
@@ -92,6 +108,6 @@ Siga estas etapas:
 
    >[!NOTE]
    >
-   >O **Abre** e **Cliques** os indicadores são atualizados após 5 minutos.
+   >Todos os indicadores são atualizados a cada 5 minutos após o início do delivery. Os indicadores de preparação do delivery são em tempo real.
 
    Você pode pausar o envio a qualquer momento e, em seguida, retomar. Se você interromper o delivery enquanto ele estiver sendo enviado, não será possível retomar.
