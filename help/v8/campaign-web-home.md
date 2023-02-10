@@ -3,7 +3,7 @@ keywords: Campaign Web; home; tópicos populares
 description: Centro de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 9%
@@ -41,7 +41,7 @@ O Campaign agora oferece uma nova interface de usuário da Web com utilização 
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="Públicos" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="Públicos" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
 <a href="audience/about-audiences.md"><strong>Selecionar um público-alvo</strong></a>
@@ -50,7 +50,7 @@ O Campaign agora oferece uma nova interface de usuário da Web com utilização 
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validação" src="assets/do-not-localize/email-config.jpg">
+<img alt="Validação" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Visualizar e testar um email</strong></a>
