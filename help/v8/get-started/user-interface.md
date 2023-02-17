@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: d063c6757881b7793c8d399de42fde8423f44cdc
+source-git-commit: 948dff92b8b98a97d760158f126d8f2262d934fb
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1322'
 ht-degree: 2%
 
 ---
@@ -238,10 +238,24 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Resumo do relatório SMS"
->abstract="TBC"
+>abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Enviar resumo do relatório"
->abstract="TBC"
+>abstract="TBD"
 
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file"
+>title="Importar um público-alvo de um arquivo"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_formatting"
+>title="Configurações de formato"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_columns"
+>title="Configurações de colunas"
+>abstract="TBD"
