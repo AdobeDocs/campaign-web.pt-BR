@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução ao Campaign v8 Web
 description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: d3cbac2dfe1f5a0a6f1d79b2671e6c0a07efa156
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ only existing customers
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Introdução"
->abstract="Conheça os principais recursos, a interface do usuário e as diretrizes globais."
+>abstract="Descubra os principais recursos, a interface do usuário e as diretrizes globais."
 
 >[!NOTE]
 >
