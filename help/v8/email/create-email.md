@@ -63,7 +63,7 @@ Com base em um modelo de design predefinido, o email também apresenta conteúdo
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Saiba como criar conteúdo de email"
->abstract="Saiba como usar o Designer de email."
+>abstract="Criar conteúdo de email."
 
 Nesse caso de uso, você usa um modelo predefinido para criar nosso email.
 
