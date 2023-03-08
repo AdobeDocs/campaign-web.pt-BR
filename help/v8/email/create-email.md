@@ -3,9 +3,9 @@ audience: end-user
 title: Envie seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
+source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1292'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Com base em um modelo de design predefinido, o email também apresenta conteúdo
 >title="Propriedades de email"
 >abstract="As propriedades são os parâmetros comuns do delivery que ajudam a nomear e classificar o delivery. Se o seu delivery for baseado em um schema estendido definido no console do Adobe Campaign v8, alguns **Opções personalizadas** campos estão disponíveis."
 
-1. Para criar um novo delivery, vá para a **[!UICONTROL Entregas]** e selecione **[!UICONTROL E-mail]** como canal.
+1. Para criar um novo delivery, navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
 
-1. Selecione o template que deseja usar e clique em **[!UICONTROL Criar entrega]**.
+1. Selecionar **[!UICONTROL E-mail]** como canal e escolha um modelo.
 
    >[!NOTE]
    >
@@ -42,7 +42,8 @@ Com base em um modelo de design predefinido, o email também apresenta conteúdo
 
    ![](assets/channel-template.png)
 
-1. Forneça um rótulo para o email e configure opções adicionais com base nas suas necessidades:
+1. Clique em **[!UICONTROL Criar entrega]** botão para confirmar.
+1. Insira um rótulo para o delivery e configure opções adicionais com base nas suas necessidades:
 
    * **[!UICONTROL Nome interno]**: atribuir um identificador exclusivo ao delivery,
    * **[!UICONTROL Pasta]**: armazene o delivery em uma pasta específica,
@@ -65,11 +66,11 @@ Com base em um modelo de design predefinido, o email também apresenta conteúdo
 >title="Saiba como criar conteúdo de email"
 >abstract="Criar conteúdo de email."
 
-Nesse caso de uso, você usa um modelo predefinido para criar nosso email.
-
 Instruções detalhadas sobre como configurar o conteúdo de email estão disponíveis em [nesta seção](../content/edit-content.md).
 
-1. Para começar a criar o conteúdo de email, clique no link **[!UICONTROL Editar conteúdo]** botão.
+Nesse caso de uso, você usa um modelo predefinido para criar nosso email.
+
+1. Para começar a criar o conteúdo de email, abra o delivery de email e clique no link **[!UICONTROL Editar conteúdo]** botão.
 
    Isso leva você a uma interface dedicada, onde é possível configurar o conteúdo de email e projetá-lo usando o Designer de email.
 
@@ -79,7 +80,7 @@ Instruções detalhadas sobre como configurar o conteúdo de email estão dispon
 
    ![](assets/subject-line.png)
 
-1. Para projetar o corpo do email, clique no link **[!UICONTROL Editar corpo do email]** botão.
+1. Para criar o conteúdo do email, clique no link **[!UICONTROL Editar corpo do email]** botão.
 
    Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um modelo de design predefinido.
 
@@ -135,9 +136,9 @@ Nesse caso de uso, você envia o email para um público-alvo existente. Instruç
 >title="Agendar o envio"
 >abstract="Defina a data e a hora exata do envio. Ao escolher a hora mais apropriada para sua mensagem de marketing, você pode maximizar as taxas de abertura."
 
-Para agendar o envio do email, clique em **[!UICONTROL Ativar]** e defina a data e a hora desejadas para o envio.
+Para agendar o envio do email, abra o delivery de email e navegue até o **Agendar** seção. Use o **[!UICONTROL Ativar agendamento]** para ativá-la e definir a data e hora desejadas para envio. Após enviar o delivery, o envio real começará na data de contato definida.
 
-Por padrão, a variável **[!UICONTROL Confirmar antes de enviar]** estiver ativada, exigindo que você confirme o envio antes que o email seja enviado na data e hora agendadas. Se desejar enviar o email automaticamente na data e hora agendadas, você pode desativar essa opção.
+Por padrão, a variável **[!UICONTROL Ativar confirmação antes de enviar]** está ativada. Essa opção exige que você confirme o envio antes que o email seja enviado na data e hora agendadas. Se você precisar enviar o email automaticamente na data e hora agendadas, desabilite essa opção.
 
 ![](assets/schedule.png)
 
@@ -149,7 +150,7 @@ Nesse caso de uso, você pré-visualiza o email e envia versões de teste para e
 
 Informações adicionais sobre como pré-visualizar e testar emails estão disponíveis em [nesta seção](../preview-test/preview-test.md).
 
-1. Para revisar e enviar o email, clique em **[!UICONTROL Revisar e enviar]**. Isso exibirá uma pré-visualização do email, juntamente com todas as propriedades, o público-alvo e o agendamento configurados. Você pode editar qualquer um desses elementos clicando no botão modify.
+1. Para revisar seu email, clique em **[!UICONTROL Revisar e enviar]**. Isso exibirá uma pré-visualização do email, juntamente com todas as propriedades, o público-alvo e o agendamento configurados. Você pode editar qualquer um desses elementos clicando no botão modify.
 
 1. Para visualizar o email e enviar versões de teste, clique no link **[!UICONTROL Simular conteúdo]** botão.
 
