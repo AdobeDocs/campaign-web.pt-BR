@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Com base em um modelo de design predefinido, o email também apresenta conteúdo
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="Propriedades de email"
->abstract="As propriedades são os parâmetros comuns do delivery que ajudam a nomear e classificar o delivery. Se o seu delivery for baseado em um schema estendido definido no console do Adobe Campaign v8, alguns **Opções personalizadas** campos estão disponíveis."
+>abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. Se o seu delivery for baseado em um schema estendido definido no console do Adobe Campaign v8, alguns **Opções personalizadas** campos estão disponíveis."
 
 1. Para criar um novo delivery, navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
 
