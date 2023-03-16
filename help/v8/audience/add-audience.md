@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Selecionar um público-alvo
+title: Selecionar um público
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
@@ -10,7 +10,7 @@ ht-degree: 8%
 
 ---
 
-# Selecionar um público-alvo {#add-audience}
+# Selecionar um público {#add-audience}
 
 ![](../assets/do-not-localize/badge.png)
 
