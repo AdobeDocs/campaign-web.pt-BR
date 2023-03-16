@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -102,12 +102,12 @@ Nesse caso de uso, você usa um modelo predefinido para projetar nosso email.
 
    ![](assets/save-content.png)
 
-## Definir a audiência {#define-audience}
+## Definir o público {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Definir a audiência"
->abstract="Selecione o melhor público-alvo para sua mensagem de marketing. Você pode escolher um público-alvo existente já definido em uma instância do Campaign v8 ou no Adobe Experience Platform, ou criar um novo público-alvo com o construtor de regras."
+>title="Definir o público"
+>abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público existente já definido em uma instância do Campaign v8 ou na Adobe Experience Platform. Também pode criar um novo público com o criador de regras."
 
 Nesse caso de uso, você envia o email para um público existente. Instruções adicionais sobre como trabalhar com públicos-alvo estão disponíveis em [esta seção](../audience/about-audiences.md).
 
