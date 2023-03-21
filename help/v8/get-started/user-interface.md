@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a61b1322ef277ab1707ef8f81009e3d344b1fd5a
+source-git-commit: b51059b7fc5166dcd0218ae2b227ea9c703a65a5
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1345'
 ht-degree: 37%
 
 ---
@@ -145,7 +145,7 @@ A barra superior da interface permite:
 * compartilhar seu feedback como um testador Alfa
 * alternar entre organizações e instâncias
 * alternar entre seus aplicativos Adobe Experience Cloud
-* acesse páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
+* acesse as páginas de ajuda, entre em contato com o suporte e compartilhe comentários. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
@@ -278,4 +278,14 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avançados do Construtor de regras"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Métricas enviadas"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Métricas de erros"
 >abstract="TBD"
