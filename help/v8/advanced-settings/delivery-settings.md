@@ -41,7 +41,7 @@ Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Peso da entrega"
->abstract="Os pesos do delivery permitem identificar deliveries de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
+>abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
 
 Nesta seção, os parâmetros de pressão permitem definir uma **limite**. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um determinado período. Depois que esse limite for atingido, não poderá ocorrer mais deliveries até o final do período considerado. Esse processo permite excluir automaticamente um perfil de um delivery, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
