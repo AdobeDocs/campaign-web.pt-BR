@@ -3,10 +3,10 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do usuário da Web do Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 6%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Cabeçalho de email"
->abstract="TBC"
+>abstract="Nesta seção, você pode controlar os valores Do nome e De email que estão definidos no modelo de email. O campo Linha de assunto pode ser personalizado usando o editor de expressão."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Anexo de email"
->abstract="TBC"
+>abstract="Selecione um ou vários arquivos para inserir na mensagem."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Opções de rastreamento"
->abstract="TBC"
+>abstract="Por padrão, o rastreamento é ativado para o delivery. Você pode desativar esta opção aqui."
 
 Para começar a criar o conteúdo de um email, clique no link **[!UICONTROL Editar conteúdo]** na tela de criação de email.
 
@@ -61,6 +61,6 @@ As etapas para definir o conteúdo do email são as seguintes:
 
    <!--limitation on size + number of files?-->
 
-1. Por padrão, o rastreamento é ativado para o delivery. Você pode desativar essa opção do **[!UICONTROL Recursos opcionais]** seção. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
+1. Por padrão, o rastreamento é ativado para o delivery. Você pode desativar essa opção no **[!UICONTROL Recursos opcionais]** seção. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
 
 Depois que o conteúdo do email tiver sido definido, use a variável **[!UICONTROL Simular conteúdo]** para verificar como é exibido antes de enviá-lo. [Saiba como visualizar e testar seu email](../preview-test/preview-test.md)

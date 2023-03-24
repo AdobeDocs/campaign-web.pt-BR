@@ -3,10 +3,10 @@ audience: end-user
 title: Definir um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do usuário da Web do Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 27%
+source-wordcount: '576'
+ht-degree: 30%
 
 ---
 
@@ -34,7 +34,7 @@ Para criar um grupo de controle, clique no botão **[!UICONTROL Definir Grupo de
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extrair do público-alvo"
->abstract="TBC"
+>abstract="Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis da população do público-alvo."
 
 Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis da população do público-alvo.
 
@@ -79,7 +79,7 @@ Para obter mais informações sobre logs do delivery, consulte esta seção [se�
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="População extra"
->abstract="TBC"
+>abstract="Outra maneira de definir um grupo de controle é excluir uma população específica do público-alvo usando um público-alvo existente ou definindo um query."
 
 Outra maneira de definir um grupo de controle é excluir uma população específica do público-alvo usando um público-alvo existente ou definindo um query.
 

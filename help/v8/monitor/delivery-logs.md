@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorar logs do delivery
 description: Saiba como monitorar logs do delivery
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 49%
+source-wordcount: '306'
+ht-degree: 47%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Logs do delivery"
->abstract="TBC"
+>abstract="Os logs do delivery permitem verificar se não há erro."
 
 Após preparar e enviar um email, os logs do delivery permitem verificar se não há erro. Esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -13,16 +13,6 @@ ht-degree: 5%
 # Enviar ofertas {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="Configurações de ofertas"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="Configurações avançadas de ofertas"
->abstract="TBC"
 
 O Adobe Campaign v8 Web permite enviar com suas ofertas de email que foram criadas no console usando o **[!UICONTROL Interação]** módulo. Para obter mais informações sobre Interação e como gerenciar um catálogo de ofertas no console, consulte o [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
@@ -32,6 +22,16 @@ As etapas para enviar ofertas com um email são as seguintes:
 1. [Insira as ofertas no email](#insert).
 
 ## Configurar as ofertas a serem propostas {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="Configurações de ofertas"
+>abstract="Configure quais ofertas devem ser propostas para os recipients."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="Configurações avançadas de ofertas"
+>abstract="Configure opções avançadas em ofertas."
 
 1. Para selecionar as ofertas a serem propostas no seu email, clique no link **[!UICONTROL Ofertas]** na tela de edição de conteúdo de email.
 
