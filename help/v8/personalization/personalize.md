@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 11%
@@ -82,7 +82,7 @@ Os blocos de conteúdo incorporados são:
 * **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
 * **[!UICONTROL Saudações]**: insere saudações com o nome completo do recipient, seguido de uma vírgula. Exemplo: “Olá, John Doe”.
 * **[!UICONTROL Inserir logotipo]**: insere um logotipo que é definido nas configurações de instância.
-* **[!UICONTROL Link para mirror page]**: insere um link para o [mirror page](mirror-page.md). O formato padrão é: &quot;Se não conseguir exibir esta mensagem corretamente, clique aqui&quot;.
+* **[!UICONTROL Link para mirror page]**: insere um link para o [mirror page](../content/mirror-page.md). O formato padrão é: &quot;Se não conseguir exibir esta mensagem corretamente, clique aqui&quot;.
 * **[!UICONTROL Mirror page URL]**: insere o URL da mirror page, permitindo que os designers de delivery verifiquem o link.
 * **[!UICONTROL Oferecer o URL de aceitação no modo unitário]**: insere um URL que permite definir uma oferta para **[!UICONTROL Aceite]**. (Este bloco estará disponível se o módulo Interaction estiver habilitado)
 * **[!UICONTROL Registration confirmation]**: insere um link que permite confirmar a subscrição.

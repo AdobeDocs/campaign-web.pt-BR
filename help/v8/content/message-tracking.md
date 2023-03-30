@@ -3,10 +3,10 @@ audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 3%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
@@ -45,37 +45,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 >
 >As mensagens de email de tipo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível da superfície do canal (ou seja, predefinição de mensagem) e ao criar a mensagem.
 
-## Link para uma mirror page {#mirror-page}
-
-A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email.
-
-Para adicionar um link a uma mirror page no seu email:
-
-1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. Selecione o **[!UICONTROL Inserir link]** para acessar o menu de personalização.
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. No **[!UICONTROL Bloco de conteúdo]** selecione **[!UICONTROL Mirror page URL]** e clique em **[!UICONTROL Adicionar]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-A mirror page é criada automaticamente.
-
->[!IMPORTANT]
->
->Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longas, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
-
-Depois que o email for enviado, quando os recipients clicarem no link da mirror page, o conteúdo do email será exibido no navegador padrão.
-
->[!NOTE]
->
->No email de teste enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
-
-O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
+Um link específico para a mirror page deve ser adicionado em todas as suas mensagens de email. Saiba mais sobre a mirror page em [esta seção](mirror-page.md).
 
 ## Gerenciar rastreamento {#manage-tracking}
 

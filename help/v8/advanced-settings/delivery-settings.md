@@ -3,10 +3,10 @@ audience: end-user
 title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de delivery de email na interface do usuário da Web do Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 49%
+ht-degree: 41%
 
 ---
 
@@ -135,14 +135,14 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Limite da validade de recursos"
->abstract="O campo Limite da validade é usado para recursos carregados, principalmente para a mirror page e imagens. Os recursos desta página são válidos por um tempo limitado."
+>abstract="O campo Validity limit é usado para recursos carregados, como mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
 
 
 O campo **Delivery duration** permite inserir o limite de novas tentativas de delivery globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
 
 Você também poderá optar por especificar datas. Para fazer isso, selecione **Explicitly set validity dates**. Nesse caso, as datas de delivery e limite de validade também permitem especificar o tempo. O tempo atual é usado por padrão, mas você poderá modificar isso diretamente no campo de entrada.
 
-**Limite da validade dos recursos** é usada para recursos carregados, principalmente para mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco).
+**Limite da validade dos recursos** é usada para recursos carregados, principalmente para mirror page e imagens. Os recursos desta página são válidos por um tempo limitado (para economizar espaço em disco). Após esse limite, esses recursos não estarão mais disponíveis.
 
 ![](assets/delivery-settings-2.png)
 
@@ -155,9 +155,10 @@ A mirror page é uma página HTML acessível online através de um navegador da 
 
 Além do modo padrão, as seguintes opções também estão disponíveis:
 
-* **[!UICONTROL Forçar a geração da mirror page]**: mesmo se nenhum link para a mirror page for inserido no delivery, ela será criada.
-* **[!UICONTROL Do not generate the mirror page]**: nenhuma mirror page é gerada, mesmo se o link estiver presente no delivery.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: essa opção permite acessar o conteúdo da mirror page, com informações de personalização, na janela de log do delivery. Para fazer isso, após o fim do delivery, clique na guia **[!UICONTROL Delivery]** e selecione a linha do recipient cuja mirror page você deseja exibir. Clique no link **[!UICONTROL Display the mirror page for this message...]**.
+
+* **[!UICONTROL Forçar a geração da mirror page]**: use esse modo para gerar a mirror page, mesmo se nenhum link para a mirror page for inserido no delivery.
+* **[!UICONTROL Não gerar a mirror page]**: use esse modo para evitar a geração de uma mirror page, mesmo se o link estiver presente no delivery.
+* **[!UICONTROL Gera uma mirror page acessível usando somente o identificador de mensagem]**: quando o link da mirror page não estiver presente no conteúdo do email, use essa opção para habilitar o acesso ao conteúdo da mirror page, na janela de log do delivery, no console do cliente.
 
 
 ### Rastreamento {#tracking}

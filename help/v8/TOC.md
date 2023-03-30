@@ -5,10 +5,10 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 15%
+source-wordcount: '172'
+ht-degree: 16%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 15%
          + [Programe seu próprio conteúdo](content/code-content.md)
       + [Usar componentes de conteúdo](content/content-components.md)
       + [Gerar a versão de texto](content/text-version-email.md)
+      + [Adicionar um link à mirror page](content/mirror-page.md)
       + [Adicionar um precabeçalho](content/preheader.md)
       + [Adicionar links e rastrear mensagens](content/message-tracking.md)
    + Estilo do conteúdo {#style}
@@ -43,7 +44,7 @@ ht-degree: 15%
    + [Enviar ofertas](content/offers.md)
 + Selecionar o público-alvo do email {#audience}
    + [Introdução aos públicos](audience/about-audiences.md)
-   + [Selecionar um público-alvo](audience/add-audience.md)
+   + [Selecionar um público](audience/add-audience.md)
    + [Definir um grupo de controle](audience/control-group.md)
    + [Definir um público-alvo com o construtor de regras](audience/segment-builder.md)
 + Visualizar e testar seu email {#preview-test}

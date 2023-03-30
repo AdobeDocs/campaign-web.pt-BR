@@ -3,9 +3,9 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do usuário da Web do Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '376'
 ht-degree: 5%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Cabeçalho de email"
->abstract="Nesta seção, você pode controlar os valores Do nome e De email que estão definidos no modelo de email. O campo Linha de assunto pode ser personalizado usando o editor de expressão."
+>title="Parâmetros de email"
+>abstract="Os valores De Nome e De Email são definidos no modelo de email. A Linha de assunto pode ser personalizada usando o editor de expressão."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
