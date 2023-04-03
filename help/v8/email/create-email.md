@@ -3,16 +3,16 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do usuário da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1296'
 ht-degree: 7%
 
 ---
 
-# Enviar seu primeiro email {#first-email}
 
-![](../assets/do-not-localize/badge.png)
+# Enviar seu primeiro email {#first-email}
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agenda o envio de um email para membros de fidelidade Silver e Gold em uma data específica.
 

@@ -3,16 +3,15 @@ audience: end-user
 title: Criar a versão de texto de um email
 description: Saiba como criar a versão de texto de um email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Criar a versão de texto de um email {#text-version-email}
-
-![](../assets/do-not-localize/badge.png)
 
 É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
 

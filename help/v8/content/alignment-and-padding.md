@@ -3,16 +3,16 @@ audience: end-user
 title: Ajustar o alinhamento vertical e o preenchimento no Email Designer
 description: Saiba como ajustar o alinhamento vertical e o preenchimento
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
 
-# Ajustar o alinhamento vertical e o preenchimento {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# Ajustar o alinhamento vertical e o preenchimento {#alignment-and-padding}
 
 Neste exemplo, ajustamos o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas.
 

@@ -3,59 +3,60 @@ audience: end-user
 product: campaign
 title: Trabalhar com modelos de email
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
-# Trabalhar com modelos de conteúdo de email {#email-content-templates}
+# Trabalhar com modelos de email {#email-content-templates}
 
-![](../assets/do-not-localize/badge.png)
-
-Use o **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo de um template.
+Ao acessar o conteúdo do email, use o **[!UICONTROL Selecionar modelo de design]** seção da interface para começar a criar o conteúdo a partir de um template.
 
 ![](assets/email_designer-templates.png)
 
+O Campaign vem com um conjunto de templates incorporados, disponíveis no **Modelos de exemplo** guia . Você pode adicionar seus próprios modelos e usá-los para criar seu conteúdo de email. Os modelos personalizados são armazenados no **Modelos salvos** guia . Saiba como salvar um email como modelo e como usá-lo nas seções abaixo.
+
 ## Save as template {#save-as-template}
 
-Depois de criar seu conteúdo de email, você pode salvá-lo para reutilização futura. Para fazer isso, siga as etapas abaixo.
+Depois de criar seu conteúdo de email, você pode salvá-lo como modelo para futura reutilização. Os modelos salvos estão disponíveis para todos os usuários do seu ambiente Adobe Campaign.
 
-1. Clique nas reticências no canto superior direito da tela.
+Para salvar um conteúdo de email como template, siga as etapas abaixo:
+
+1. No Designer de email, clique nas reticências na parte superior direita da tela.
 
 1. Selecionar **[!UICONTROL Salvar modelo de design]** no menu suspenso.
 
    ![](assets/email_designer-save-template.png)
 
-1. Adicione um nome para este modelo.
+1. Insira um nome para este modelo e salve
 
    ![](assets/email_designer-template-name.png)
 
-1. Clique em **[!UICONTROL Save]**.
-
-Na próxima vez que você criar um email, poderá usar esse modelo para criar o conteúdo. [Saiba como](#use-saved-template)
+Agora você pode [usar este modelo](#use-saved-template) para criar um novo conteúdo: ele está disponível na guia Modelos salvos do Designer de email.
 
 ![](assets/email_designer-saved-template.png)
 
 ## Usar um modelo salvo {#use-saved-template}
 
+Os modelos salvos são agrupados em uma tabela específica no Designer de email. Para criar um conteúdo de email a partir de um modelo personalizado existente, siga as etapas abaixo:
+
 1. Abra o [designer de email](create-email-content.md).
 
-1. No **[!UICONTROL Criar a tela de email]**, o **[!UICONTROL Modelos de exemplo]** é selecionada por padrão. Selecione o **[!UICONTROL Modelos salvos]** guia .
+1. No **[!UICONTROL Criar seu email]** , a **[!UICONTROL Modelos de exemplo]** é selecionada por padrão. Navegue até o **[!UICONTROL Modelos salvos]** para acessar os modelos personalizados.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. A lista de todos os [modelos salvos](#save-as-template) será exibido. Você pode classificá-las **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
+1. A lista de todos [modelos salvos](#save-as-template) será exibido. Você pode classificá-las **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
 
    ![](assets/email_designer-saved-templates.png)
 
-1. Selecione o template de sua escolha na lista.
-
-1. Depois de selecionado, você pode navegar entre todos os modelos salvos usando as setas para a direita e para a esquerda.
+1. Selecione um modelo na lista para ver seu conteúdo. Use as setas para a direita e para a esquerda para navegar pelos modelos.
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Clique em **[!UICONTROL Usar este email]** na parte superior direita da tela.
+1. Clique em **[!UICONTROL Usar este email]** na parte superior direita da tela para selecionar um modelo.
 
-1. Edite seu conteúdo conforme desejado usando o designer de email.
+1. Edite seu conteúdo conforme desejado usando o designer de email. [Saiba mais](create-email-content.md)

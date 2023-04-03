@@ -2,7 +2,8 @@
 audience: end-user
 title: Adicionar um link à mirror page
 description: Saiba como adicionar e gerenciar o link para a mirror page
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -11,8 +12,6 @@ ht-degree: 0%
 
 
 # Adicionar um link à mirror page{#mirror-page}
-
-## Sobre a mirror page{#about-mirror-page}
 
 A mirror page é uma versão online do seu email.
 
@@ -27,7 +26,6 @@ A mirror page gerada pelo Adobe Campaign contém todos os dados de personalizaç
 Inserir um link para a mirror page é uma boa prática. Esse link pode ser, por exemplo, &quot;Exibir este email em seu navegador&quot; ou &quot;Leia online&quot;. Geralmente, ela está localizada no cabeçalho ou no rodapé do email.
 
 No Adobe Campaign, você pode inserir um link para a mirror page no conteúdo do email usando o **bloco de personalização**. O **Link para mirror page** o bloco de personalização insere o seguinte código no conteúdo do email: `<%@ include view='MirrorPage' %>`.
-
 
 Para adicionar um link a uma mirror page no seu email:
 

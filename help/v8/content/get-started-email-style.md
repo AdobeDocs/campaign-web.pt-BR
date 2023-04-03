@@ -3,16 +3,15 @@ audience: end-user
 title: Introdução ao estilo de email
 description: Descubra as diferentes maneiras de ajustar o estilo do conteúdo do email
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # Introdução ao estilo de email {#get-started-email-style}
-
-![](../assets/do-not-localize/badge.png)
 
 Depois de começar a criar o conteúdo de email em [!DNL Adobe Campaign], é possível ajustar diversos parâmetros e atributos de estilo do painel de configurações do Designer de email.
 

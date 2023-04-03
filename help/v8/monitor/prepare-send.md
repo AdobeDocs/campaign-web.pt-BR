@@ -3,16 +3,16 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do usuário da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '652'
 ht-degree: 9%
 
 ---
 
-# Preparar e enviar seu email {#prepare-send}
 
-![](../assets/do-not-localize/badge.png)
+# Preparar e enviar seu email {#prepare-send}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"

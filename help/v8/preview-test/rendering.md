@@ -3,16 +3,17 @@ audience: end-user
 title: Testar renderização de email
 description: Saiba como testar a renderização de email na interface do usuário da Web do Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
+
 # Testar a renderização de email {#rendering}
 
-![](../assets/do-not-localize/badge.png)
 
 Antes de enviar seu email, verifique se a sua mensagem é exibida aos recipients de forma ideal em uma variedade de clientes Web, Webmails e dispositivos.
 
