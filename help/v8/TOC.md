@@ -5,10 +5,10 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 22%
+source-wordcount: '229'
+ht-degree: 20%
 
 ---
 
@@ -61,9 +61,10 @@ ht-degree: 22%
       + [Introdução a deliveries de SMS](sms/gs-sms.md)
 + Públicos-alvo e recipients {#audiences}
    + [Introdução aos públicos](audience/about-audiences.md)
-   + [Selecionar um público](audience/add-audience.md)
+   + [Selecionar um público-alvo existente](audience/add-audience.md)
    + [Criar um público-alvo com o construtor de regras](audience/segment-builder.md)
    + [Importar um público-alvo](audience/import-audience.md)
+   + [Usar um público-alvo da Adobe Experience Platform](audience/aep-audience.md)
    + [Definir um grupo de controle](audience/control-group.md)
 + Campanhas entre canais {#campaigns}
    + [Introdução às campanhas](campaigns/gs-campaigns.md)

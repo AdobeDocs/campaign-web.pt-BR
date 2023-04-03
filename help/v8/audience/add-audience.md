@@ -4,22 +4,31 @@ title: Selecionar um público
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 8%
+source-wordcount: '272'
+ht-degree: 12%
 
 ---
 
 
-# Selecionar um público {#add-audience}
+# Selecionar um público-alvo existente {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selecionar um público-alvo existente"
 >abstract="Os públicos-alvo são definidos no Console do Adobe Campaign v8. Se tiver uma integração do Adobe Experience Platform disponível, você também poderá ver públicos-alvo definidos pela plataforma."
 
-Esta seção explica como selecionar um público-alvo existente ao definir o público-alvo de um delivery de email. Para criar um novo público-alvo, consulte esta seção [seção](segment-builder.md).
+Esta seção explica como selecionar um público-alvo existente ao definir o público-alvo de um delivery de email.
+
+Você também pode:
+
+* Crie um novo público-alvo. [Saiba mais](segment-builder.md)
+* Importar um público de um arquivo. [Saiba mais](import-audience.md)
+* Usar um público-alvo da Adobe Experience Platform. [Saiba mais](aep-audience.md).
+
+
+Para selecionar um público-alvo existente para sua mensagem, siga as etapas abaixo:
 
 1. No **Público** seção do assistente de criação de delivery, clique no link **[!UICONTROL Seleção do público-alvo]** botão.
 
