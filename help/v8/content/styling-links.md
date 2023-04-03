@@ -3,8 +3,8 @@ audience: end-user
 title: Definir um estilo para links
 description: Saiba como definir um estilo para links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="Alpha" type="Informative"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
