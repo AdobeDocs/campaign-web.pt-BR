@@ -5,9 +5,9 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 22%
 
 ---
@@ -62,8 +62,9 @@ ht-degree: 22%
 + Públicos-alvo e recipients {#audiences}
    + [Introdução aos públicos](audience/about-audiences.md)
    + [Selecionar um público](audience/add-audience.md)
+   + [Criar um público-alvo com o construtor de regras](audience/segment-builder.md)
+   + [Importar um público-alvo](audience/import-audience.md)
    + [Definir um grupo de controle](audience/control-group.md)
-   + [Definir um público-alvo com o construtor de regras](audience/segment-builder.md)
 + Campanhas entre canais {#campaigns}
    + [Introdução às campanhas](campaigns/gs-campaigns.md)
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
