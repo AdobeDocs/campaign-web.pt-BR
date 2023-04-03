@@ -5,9 +5,9 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+source-git-commit: 82c7abb4fe8cd7ecc68748ca59f2e5c7b5336d34
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '175'
 ht-degree: 16%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 16%
          + [Iniciar do zero ](content/create-email-content.md)
          + [Importe o conteúdo do email](content/existing-content.md)
          + [Programe seu próprio conteúdo](content/code-content.md)
+         + [Usar modelos de email](content/email-templates.md)
       + [Usar componentes de conteúdo](content/content-components.md)
       + [Gerar a versão de texto](content/text-version-email.md)
       + [Adicionar um link à mirror page](content/mirror-page.md)
