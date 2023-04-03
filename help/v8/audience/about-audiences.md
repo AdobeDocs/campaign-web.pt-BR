@@ -4,10 +4,10 @@ title: Introdução aos públicos
 description: Saiba como usar públicos-alvo na interface do usuário da Web do Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 16%
+source-wordcount: '137'
+ht-degree: 22%
 
 ---
 
@@ -44,9 +44,11 @@ Nesta seção, saiba como definir o público-alvo do email. O público-alvo é o
 
 Para definir o público-alvo, você pode:
 
-* usar um público-alvo existente, consulte esta [seção](add-audience.md).
-* criar um novo público-alvo. Consulte esta [seção](segment-builder.md).
+* Usar um público-alvo existente. [Saiba mais](add-audience.md)
+* Crie um novo público-alvo. [Saiba mais](segment-builder.md)
+* Importar um público de um arquivo. [Saiba mais](import-audience.md)
+* Usar um público-alvo da Adobe Experience Platform. [Saiba mais](aep-audience.md)
 
-Você também pode definir grupos de controle para evitar o envio de mensagens a uma parte do público-alvo para medir o impacto das campanhas. Consulte esta [seção](control-group.md).
+Além disso, é possível definir grupos de controle para evitar o envio de mensagens para uma parte do público-alvo e medir o impacto das campanhas. [Saiba mais](control-group.md)
 
 ![](assets/about-audience.png)
