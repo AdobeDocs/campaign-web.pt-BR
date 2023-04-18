@@ -5,10 +5,10 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: f77b5a483f7276ecade687f9fd9e9028ec750dbf
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 20%
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
    + Criar seu primeiro workflow {#create-workflow}
-      + [Introdução à criação de workflow](workflows/gs-workflow-creation.md)
+      + [Visão geral da criação de workflow](workflows/gs-workflow-creation.md)
       + [Criar um fluxo de trabalho](workflows/create-workflow.md)
       + [Iniciar e monitorar a execução do fluxo de trabalho](workflows/start-monitor-workflows.md)
    + Fluxos de trabalho de design {#design-workflows}
