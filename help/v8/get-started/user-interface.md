@@ -4,10 +4,10 @@ title: Descubra a interface
 description: Interface do usuário da Web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 36%
+source-wordcount: '1319'
+ht-degree: 34%
 
 ---
 
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="Listas de assinaturas"
 >abstract="Navegar pelas listas de assinaturas. É possível visualizar o tipo, o modo e o rótulo. Esta lista é somente leitura."
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="Fluxos de trabalho para construção do target"
->abstract="Acesse a lista de workflows do Campaign. É possível visualizar o estado, as datas do último/próximo processamento e o ambiente. É possível filtrar a lista por estado, data do último processamento e tipo de fluxo de trabalho. Os modelos de fluxo de trabalho também estão disponíveis. Essas listas são somente leitura."
 
 * **Recipients** - Acesse o banco de dados do recipient. Por padrão, você pode exibir o endereço de email, o nome e o sobrenome. Esta lista é somente leitura.
 * **Públicos-alvo** - Esta é a sua lista de públicos-alvo. Por padrão, é possível exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Esta lista é somente leitura.

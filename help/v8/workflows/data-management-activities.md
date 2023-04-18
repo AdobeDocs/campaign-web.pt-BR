@@ -3,9 +3,10 @@ audience: end-user
 title: Trabalhar com atividades de gestão de dados de fluxos de trabalho
 description: Saiba como usar atividades de gestão de dados em workflows da Web do Adobe Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,12 @@ listar atividades disponíveis + descrição curta + referência para a seção
 
 ## Enriquecimento {#enrichment}
 
-A atividade Enrichment é comumente usada em um workflow após atividades de direcionamento. Ela permite aprimorar os dados direcionados com informações adicionais do banco de dados.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Enriquecimento Atividade de "
+>abstract="A atividade Enrichment permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente é usado em um workflow após atividades de direcionamento.<br/>Depois que os dados de enriquecimento tiverem sido adicionados ao workflow, eles poderão ser usados nas atividades adicionadas após a atividade de Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ressoar com seu público-alvo."
+
+A atividade Enrichment permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente é usado em um workflow após atividades de direcionamento.
 
 Os dados de enriquecimento podem vir de:
 
