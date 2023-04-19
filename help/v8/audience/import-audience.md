@@ -3,10 +3,11 @@ audience: end-user
 title: Importar destinatários de um arquivo
 description: Saiba como importar destinatários de um arquivo externo
 badge: label="Alpha" type="Positive"
-source-git-commit: c44518e6e760fd7afcb90d3aec86e229ae1e2daf
+exl-id: e6e0dd01-5573-4261-aace-fd173827c383
+source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
@@ -28,3 +29,21 @@ Para adicionar perfis de um arquivo local diretamente da interface, siga estas e
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
 Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada no Editor de personalização.
+
+## Arquivo de amostra {#sample-file}
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Arquivo de amostra"
+>abstract="Formatos de arquivo compatíveis: txt, csv, xls. Usar a primeira linha como cabeçalho da coluna."
+
+
+```json
+{
+lastname,firstname,birthdate,email,crmID
+Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
+Mars,Daniel,17/11/1987,dannymars@example.com,123545
+Smith,Clara,08/02/1989,clara.smith@example.com,124567
+Durance,Allison,15/12/1978,allison.durance@example.com,120987
+}
+```
