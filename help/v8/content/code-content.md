@@ -4,9 +4,9 @@ title: Codifique seu próprio conteúdo de email
 description: Saiba como codificar seu próprio conteúdo de email
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ Use o **[!UICONTROL Codifique seu próprio]** modo para importar HTML bruto e/ou
 
 1. Use o painel esquerdo para aproveitar os recursos de personalização.
 
-1. Para abrir o Designer de email para iniciar seu email a partir de um novo design, selecione **[!UICONTROL Alterar o design]** no menu de opções.
+1. Se quiser limpar o conteúdo de email e iniciar o email a partir de um novo design, selecione **[!UICONTROL Alterar o design]** no menu de opções.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Essa ação abre o modelo selecionado no Designer de email. A partir daí, você pode concluir o design do seu email ou voltar para o editor de códigos usando o **[!UICONTROL Alternar para editor de código]** opção.
 
 1. Clique no botão **[!UICONTROL Simular conteúdo]** para verificar o design e a personalização da mensagem usando perfis de teste.
 

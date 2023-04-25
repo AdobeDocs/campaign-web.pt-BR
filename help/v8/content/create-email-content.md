@@ -4,10 +4,10 @@ title: Criar emails no Email Designer
 description: Saiba como criar seu conteúdo de e-mails do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 24%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Sobre componentes da estrutura"
->abstract="Os componentes da estrutura definem o layout do email."
+>title="Sobre os componentes de estrutura"
+>abstract="Os componentes de estrutura definem o layout do email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Sobre componentes da estrutura"
->abstract="Componentes da estrutura definem o layout da landing page."
+>title="Sobre os componentes de estrutura"
+>abstract="Os componentes de estrutura definem o layout da página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Sobre componentes da estrutura"
->abstract="Componentes da estrutura definem o layout do fragmento."
+>title="Sobre os componentes de estrutura"
+>abstract="Os componentes de estrutura definem o layout do fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Sobre componentes da estrutura"
->abstract="Componentes da estrutura definem o layout do modelo."
+>title="Sobre os componentes de estrutura"
+>abstract="Os componentes de estrutura definem o layout do modelo."
 
 
 >[!CONTEXTUALHELP]
@@ -41,12 +41,12 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definição de colunas de página de aterrissagem"
->abstract="O Designer de email permite definir facilmente o layout da página de aterrissagem definindo a estrutura da coluna."
+>title="Definir as colunas da página de destino"
+>abstract="O Designer de email permite definir facilmente o layout da página de destino definindo a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definição das colunas do fragmento"
+>title="Definição de colunas do fragmento"
 >abstract="O Designer de email permite definir facilmente o layout do fragmento definindo a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
@@ -92,7 +92,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/email_designer_7.png)
 
-1. Se necessário, você pode personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado. [Saiba mais sobre o editor de código](code-content.md)
+1. Se necessário, você pode personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado, para trabalhar diretamente no código-fonte do email. [Saiba mais sobre o editor de código](code-content.md)
 
    >[!CAUTION]
    >
