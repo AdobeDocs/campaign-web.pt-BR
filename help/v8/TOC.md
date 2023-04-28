@@ -5,10 +5,10 @@ description: Documentação da Web do Campaign v8
 breadcrumb-title: Visão geral do Campaign
 title: Campaign v8 Documentos da Web
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 20%
       + [Introdução a deliveries de SMS](sms/gs-sms.md)
 + Públicos-alvo e recipients {#audiences}
    + [Introdução aos públicos](audience/about-audiences.md)
-   + [Selecionar um público-alvo existente](audience/add-audience.md)
+   + [Selecione um público existente](audience/add-audience.md)
    + [Criar um público-alvo com o construtor de regras](audience/segment-builder.md)
    + [Importar um público-alvo](audience/import-audience.md)
    + [Usar um público-alvo da Adobe Experience Platform](audience/aep-audience.md)
@@ -74,12 +74,13 @@ ht-degree: 20%
    + Criar seu primeiro workflow {#create-workflow}
       + [Princípios básicos da criação de workflow](workflows/gs-workflow-creation.md)
       + [Criar um fluxo de trabalho](workflows/create-workflow.md)
-      + [Iniciar e monitorar a execução do fluxo de trabalho](workflows/start-monitor-workflows.md)
-   + Fluxos de trabalho de design {#design-workflows}
-      + [Introdução à tela de fluxo de trabalho](workflows/gs-canvas.md)
+      + [Orquestrar atividades de fluxo de trabalho](workflows/build-workflow.md)
+      + [Definir configurações do fluxo de trabalho](workflows/workflow-settings.md)
+      + [Iniciar e monitorar um fluxo de trabalho](workflows/start-monitor-workflows.md)
+   + [Acessar e gerenciar seus fluxos de trabalho](workflows/access-monitor.md)
+   + Trabalhar com atividades de fluxo de trabalho {#design-workflows}
       + [Atividades de direcionamento](workflows/targeting-activities.md)
       + [Atividades de canal](workflows/channel-activities.md)
       + [Atividades de gerenciamento de dados](workflows/data-management-activities.md)
-   + [Fluxos de trabalho de acesso e monitoramento](workflows/access-monitor.md)
 + [Relatórios](reporting/reports.md)
 
