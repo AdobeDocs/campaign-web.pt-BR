@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Visualização inteligente do seu conteúdo"
+>title="Visualização inteligente do conteúdo"
 >abstract="Use os dados do perfil para visualizar o conteúdo do email antes de enviá-lo, controlar os atributos de personalização e verificar como os recipients podem ver o conteúdo da mensagem."
 
 Use o recurso de simulação de conteúdo no Adobe Campaign para visualizar o conteúdo do email antes de enviá-lo, controlar a personalização e verificar como ele é exibido aos recipients.

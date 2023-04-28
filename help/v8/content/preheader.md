@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adição de um precabeçalho"
->abstract="Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem uma frase de duração."
+>title="Adição de um pré-cabeçalho"
+>abstract="Pré-cabeçalho é um texto resumido e curto que sucede ao assunto quando visualizamos o email no cliente de email. Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem a extensão de uma frase."
 
-Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email.
+Pré-cabeçalho é um texto resumido e curto que sucede ao assunto quando visualizamos o email no cliente de email.
 
-Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem uma frase de duração.
+Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem a extensão de uma frase.
 
 >[!NOTE]
 >

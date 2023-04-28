@@ -7,7 +7,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 22%
+ht-degree: 29%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Introdução aos públicos"
->abstract="Saiba como gerenciar o público-alvo do seu conteúdo de email."
+>abstract="Saiba como gerenciar o público do seu conteúdo de email."
 
 <!--
 Audience only created for the delivery, not available later-->

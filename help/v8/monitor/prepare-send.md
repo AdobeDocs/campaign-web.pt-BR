@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 9%
+ht-degree: 31%
 
 ---
 
@@ -75,17 +75,17 @@ Quando a preparação estiver concluída sem erro, sua mensagem estará pronta p
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
 >title="Entregue"
->abstract="O número de mensagens entregues com êxito. Este indicador é atualizado a cada 5 minutos. A porcentagem exibida se baseia no número total de mensagens enviadas."
+>abstract="O número de mensagens entregues com sucesso. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida se baseia no número total de mensagens enviadas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Aberturas"
->abstract="O número de mensagens abertas. Este indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de aberturas distintas em comparação ao número de mensagens entregues."
+>abstract="O número de mensagens abertas. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de aberturas distintas em comparação com o número de mensagens entregues."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Cliques"
->abstract="O número de recipients que clicaram pelo menos uma vez no email. Este indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de cliques distintos em comparação ao número de mensagens entregues."
+>abstract="O número de recipients que clicaram pelo menos uma vez no email. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de cliques distintos em comparação com o número de mensagens entregues."
 
 
 Depois que a preparação for concluída, você poderá enviar a mensagem. Essa etapa só é necessária para mensagens enviadas imediatamente. Se a mensagem estiver programada, ela será enviada na data definida.
@@ -103,8 +103,8 @@ Siga estas etapas:
    Estes são os diferentes KPIs exibidos:
 
    * **Entregue**: o número de mensagens entregues com êxito. A porcentagem exibida se baseia no número total de mensagens enviadas.
-   * **Abre**: o número de mensagens abertas. A porcentagem exibida é a proporção do número de aberturas distintas em comparação ao número de mensagens entregues.
-   * **Cliques**: o número de recipients que clicaram pelo menos uma vez no email. A porcentagem exibida é a proporção do número de cliques distintos em comparação ao número de mensagens entregues.
+   * **Abre**: o número de mensagens abertas. A porcentagem exibida é a proporção do número de aberturas distintas em comparação com o número de mensagens entregues.
+   * **Cliques**: o número de recipients que clicaram pelo menos uma vez no email. A porcentagem exibida é a proporção do número de cliques distintos em comparação com o número de mensagens entregues.
 
    >[!NOTE]
    >

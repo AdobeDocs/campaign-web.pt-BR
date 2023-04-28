@@ -16,7 +16,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Fluxos de trabalho"
->abstract="Acesse a lista de workflows do Campaign. É possível visualizar o estado, as datas do último/próximo processamento e o ambiente. É possível filtrar a lista por estado, data do último processamento e tipo de fluxo de trabalho. Os modelos de fluxo de trabalho também estão disponíveis. Essas listas são somente leitura."
+>abstract="Acesse a lista de fluxos de trabalho da campanha. É possível exibir o estado, as datas do último/próximo processamento e o ambiente. É possível filtrar a lista por estado, data do último processamento e tipo de fluxo de trabalho. Os modelos de fluxo de trabalho também estão disponíveis. Essas listas são do tipo somente leitura."
 
 TBD de conteúdo
 

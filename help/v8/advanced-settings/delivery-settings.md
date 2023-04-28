@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 41%
+ht-degree: 44%
 
 ---
 
@@ -166,7 +166,7 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Período de validade"
->abstract="Essa opção define a duração para a qual o rastreamento é ativado nos URLs."
+>abstract="Essa opção define a duração do rastreamento ativado nos URLs."
 
 Os parâmetros de rastreamento são definidos na seção relacionada. As opções possíveis são:
 

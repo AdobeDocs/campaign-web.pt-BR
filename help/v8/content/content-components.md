@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1083'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="Sobre componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados para o conteúdo vazio que podem ser usados para criar o layout de um email."
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="Sobre componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar o layout de uma página de aterrissagem."
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="Sobre componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar o layout de um fragmento."
+>title="Sobre os componentes de conteúdo"
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="Sobre componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados para o conteúdo vazio que podem ser usados para criar o layout de um modelo."
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
 
 ## Adicionar componentes de conteúdo {#add-content-components}
 

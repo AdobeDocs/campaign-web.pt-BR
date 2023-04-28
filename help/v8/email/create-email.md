@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -24,8 +24,8 @@ Com base em um modelo de design predefinido, o email também apresenta conteúdo
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Selecionar um template de email"
->abstract="Um template de email é uma configuração de delivery específica que contém configurações predefinidas, como regras de tipologia, personalização ou parâmetros de roteamento. Os modelos são definidos no console do cliente Campaign."
+>title="Selecionar um modelo de email"
+>abstract="Um modelo de email é uma configuração específica de entrega que contém configurações predefinidas, como regras de tipologia, personalização ou parâmetros de roteamento. Os modelos são definidos no console do cliente do Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -129,12 +129,12 @@ Nesse caso de uso, você envia o email para um público existente. Instruções 
 
    ![](assets/audience-selected.png)
 
-## Programar o envio {#schedule}
+## Agendar o envio {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Programar o envio"
->abstract="Defina a data e a hora exata para seu envio. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
+>title="Agendar o envio"
+>abstract="Defina a data e a hora exata do envio. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
 
 Para agendar o envio do email, abra o delivery do email e navegue até o **Agendar** seção. Use o **[!UICONTROL Ativar programação]** alterne para ativá-la e defina a data e a hora desejadas para o envio. Depois de enviar o delivery, o envio real será iniciado na data de contato definida.
 

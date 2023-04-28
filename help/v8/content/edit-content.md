@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Criar conteúdo de email"
->abstract="Com esta seção, você pode criar o conteúdo do seu email e usar o Designer de email para dar a ele uma aparência polida."
+>abstract="Com esta seção, você pode criar o conteúdo do seu email e usar o Designer de email para dar a ele uma aparência refinada."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"

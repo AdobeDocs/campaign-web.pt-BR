@@ -36,7 +36,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Menu de navegação esquerdo
 
-Navegue pelos links à esquerda para acessar os recursos da Web do Campaign v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Todas as telas de lista são somente leitura, exceto a lista de entrega de email. Clicar em qualquer item de lista para edição/visualização não está disponível em Alfa. Todas as listas serão editáveis em versões futuras. Os itens exibidos no menu de navegação esquerdo dependem das permissões do usuário.
+Navegue pelos links à esquerda para acessar os recursos da Web do Campaign v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Todas as telas de lista são do tipo somente leitura, exceto a lista de entrega de email. Clicar em qualquer item de lista para edição/visualização não está disponível em Alfa. Todas as listas serão editáveis em versões futuras. Os itens exibidos no menu de navegação esquerdo dependem das permissões do usuário.
 
 ![](assets/home.png)
 
@@ -64,9 +64,9 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="O menu **Explorer** exibe a mesma hierarquia de pastas do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são somente leitura, exceto a lista de entrega de email."
+>abstract="O menu **Explorer** exibe a mesma hierarquia de pastas do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são do tipo somente leitura, exceto a lista de entrega de email."
 
-O menu **Explorer** exibe a mesma hierarquia de pastas do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são somente leitura, exceto a lista de entrega de email.
+O menu **Explorer** exibe a mesma hierarquia de pastas do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são do tipo somente leitura, exceto a lista de entrega de email.
 
 Os itens exibidos no Explorer dependem das permissões do usuário.
 
@@ -86,14 +86,14 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campanhas"
->abstract="Esta é a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas de início/término. Os modelos do Campaign também estão disponíveis. Essas listas são somente leitura."
+>abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Os modelos de campanha também estão disponíveis. Essas listas são do tipo somente leitura."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
 >abstract="Navegue pela lista de entregas. Você pode visualizar estado, última data de modificação e principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique numa entrega de email para abrir seu painel. Outros itens são somente leitura. Os templates de entrega também estão disponíveis."
 
-* **Campanhas** - Esta é a lista de suas campanhas. Por padrão, você pode exibir suas datas de início/término/última modificação, bem como seu status. Você pode filtrar a lista por status ou datas de início/término. Os modelos do Campaign também estão disponíveis. Essas listas são somente leitura.
+* **Campanhas** - Esta é a lista de suas campanhas. Por padrão, você pode exibir suas datas de início/término/última modificação, bem como seu status. Você pode filtrar a lista por status ou datas iniciais/finais. Os modelos de campanha também estão disponíveis. Essas listas são do tipo somente leitura.
 
 * **Deliveries** - Navegue pela lista de deliveries. Por padrão, você pode visualizar seu estado, a última data de modificação, bem como os KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique em um delivery de email para abrir seu painel e obter uma visão geral dos detalhes do delivery. Os deliveries em outros canais são somente leitura. Os templates de delivery também estão disponíveis no modo somente leitura. Você pode usar o Console do cliente para editá-los. Veja isso [documentação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
@@ -106,31 +106,31 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Recipients"
->abstract="Acessar o banco de dados de recipients. É possível visualizar informações úteis, como endereço de email, nome e sobrenome. Esta lista é somente leitura."
+>abstract="Acesse o banco de dados de recipients. É possível visualizar informações úteis, como endereço de email, nome e sobrenome. Essa lista é do tipo somente leitura."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos"
->abstract="Esta é a sua lista de públicos. É possível visualizar o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Esta lista é somente leitura."
+>abstract="É a sua lista de públicos. É possível exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Essa lista é do tipo somente leitura."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Listas de assinaturas"
->abstract="Navegar pelas listas de assinaturas. É possível visualizar o tipo, o modo e o rótulo. Esta lista é somente leitura."
+>abstract="Navegar pelas listas de assinaturas. É possível exibir o tipo, o modo e o rótulo. Essa lista é do tipo somente leitura."
 
-* **Recipients** - Acesse o banco de dados do recipient. Por padrão, você pode exibir o endereço de email, o nome e o sobrenome. Esta lista é somente leitura.
-* **Públicos-alvo** - Esta é a sua lista de públicos-alvo. Por padrão, é possível exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Esta lista é somente leitura.
-* **Listas de assinaturas** - Navegue pelas listas de assinaturas. Por padrão, é possível exibir o tipo, o modo e o rótulo. Esta lista é somente leitura.
-* **Workflows para construção do target** - Acesse a lista de workflows do Campaign. Por padrão, você pode visualizar o estado, as datas e o ambiente do último/próximo processamento. É possível filtrar a lista por estado, data do último processamento e tipo de fluxo de trabalho. Os modelos de fluxo de trabalho também estão disponíveis. Essas listas são somente leitura.
+* **Recipients** - Acesse o banco de dados do recipient. Por padrão, você pode exibir o endereço de email, o nome e o sobrenome. Essa lista é do tipo somente leitura.
+* **Públicos-alvo** - Esta é a sua lista de públicos-alvo. Por padrão, é possível exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Essa lista é do tipo somente leitura.
+* **Listas de assinaturas** - Navegue pelas listas de assinaturas. Por padrão, é possível exibir o tipo, o modo e o rótulo. Essa lista é do tipo somente leitura.
+* **Workflows para construção do target** - Acesse a lista de workflows do Campaign. Por padrão, você pode visualizar o estado, as datas e o ambiente do último/próximo processamento. É possível filtrar a lista por estado, data do último processamento e tipo de fluxo de trabalho. Os modelos de fluxo de trabalho também estão disponíveis. Essas listas são do tipo somente leitura.
 
 ### Gestão de decisões
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Navegar pela lista de ofertas de interação. Por padrão, é possível visualizar o status, as datas de início/término e o ambiente. É possível filtrar a lista por estado e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são somente leitura."
+>abstract="Você pode navegar pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por estado e data inicial/final. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura."
 
-* **Ofertas** - Navegue pela lista de ofertas do Interaction. Por padrão, é possível visualizar o status, as datas de início/término e o ambiente. É possível filtrar a lista por estado e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são somente leitura.
+* **Ofertas** - Navegue pela lista de ofertas do Interaction. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por estado e data inicial/final. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
 
 ## Barra superior
 
@@ -234,150 +234,150 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Resumo do relatório de SMS"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Resumo do relatório de push"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Modelo de notificação por push"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Propriedades de criação de campanha"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Cronograma de criação de campanha"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avançados do Construtor de regras"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Métricas enviadas"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Métricas de erros"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Encaminhar conteúdo do Android"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Encaminhar conteúdo do iOS"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Conteúdo do SMS"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Assinantes do aplicativo"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="População de ensaio"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modo de visualização"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalização"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
 >title="Seleção de arquivo"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definição de colunas"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parâmetros de formatação"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Envio de relatórios"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Rastreamento de relatórios"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Visão geral dos relatórios"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Relatório de estatísticas do target"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Geração de relatórios agregada selecionar um delivery"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Propriedades da campanha"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de fluxos de trabalho"
->abstract="TBD"
+>abstract="A confirmar"
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Campos de desduplicação"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Configurações de desduplicação"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Complemento de desduplicação"
->abstract="TBD"
+>abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Complemento Dimension"
->abstract="TBD"
+>abstract="A confirmar"
