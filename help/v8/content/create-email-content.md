@@ -4,9 +4,9 @@ title: Criar emails no Email Designer
 description: Saiba como criar seu conteúdo de e-mails do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 24%
 
 ---
@@ -92,7 +92,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/email_designer_7.png)
 
-1. Se necessário, você pode personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado, para trabalhar diretamente no código-fonte do email. [Saiba mais sobre o editor de código](code-content.md)
+1. Se necessário, você pode personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado. Isso permite editar o código-fonte do email, por exemplo, para adicionar rastreamento ou tags de HTML personalizadas. [Saiba mais sobre o editor de código](code-content.md)
 
    >[!CAUTION]
    >
