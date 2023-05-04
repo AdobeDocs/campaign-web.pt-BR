@@ -4,41 +4,35 @@ title: Criar workflows com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com a Web Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 32%
+source-wordcount: '286'
+ht-degree: 11%
 
 ---
 
 
 # Princípios básicos da criação de workflow {#gs-workflow-creation}
 
-TBD de conteúdo
+Com o Campaign v8 Web, você pode criar fluxos de trabalho em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha, processamento de arquivos.
 
-Um workflow é uma definição de processo: o diagrama do workflow, que é uma representação do que deveria acontecer. Um workflow também é uma instância desse processo: uma instância de workflow, que é uma representação do que está realmente acontecendo.
+Os workflows podem ser criados como workflows independentes, no menu Workflows , ou de dentro de uma campanha, no menu Campaigns .
 
-O template de workflow descreve as várias tarefas a serem executadas e como elas são vinculadas. Os templates de tarefa são chamados de atividades e são representados por ícones. Eles são vinculados por transições.
-
-captura de tela TBD
+TBD: detalhes específicos entre workflows independentes e de campanha.
 
 ## O que há dentro de um fluxo de trabalho?
 
+O diagrama do workflow é uma representação do que deve acontecer. Ele descreve as várias tarefas a serem executadas e como elas são vinculadas.
+
 Cada workflow contém:
 
-* **Activities**: Uma atividade descreve um template de tarefa. As várias atividades disponíveis são representadas no diagrama por ícones. Cada tipo tem propriedades comuns e específicas.
+* **Activities**: Uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades comuns a todas as atividades.
 
    Em um diagrama de workflow, uma determinada atividade pode produzir várias tarefas, principalmente quando há ações de loop ou recorrentes.
 
-* **Transições**: As transições permitem vincular atividades e definir sua sequência. Uma transição vincula uma atividade de origem a uma atividade de destino.
+* **Transições**: As transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência.
 
 * **Worktables**: O worktable contém todas as informações transportadas pela transição. Cada fluxo de trabalho usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser acelerados e usados no ciclo de vida do workflow, desde que não sejam apagados. De fato, tabelas desnecessárias são removidas toda vez que o workflow se torna passivo e possivelmente durante a execução dos maiores workflows para evitar sobrecarga no servidor.
-
-## Workflows autônomos e de campanha
-
-Os workflows podem ser criados como workflows independentes ou de dentro de uma campanha.
-
-TBD: detalhes específicos entre workflows independentes e de campanha.
 
 ## Etapas principais para criar um workflow
 

@@ -4,7 +4,7 @@ title: Introdução a workflows
 description: Saiba como começar com workflows
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Estes são alguns exemplos de como você pode usar workflows com o Adobe Campaig
 
 ## Vamos mergulhar mais fundo
 
-Agora que você tem uma compreensão do que são workflows e do que pode fazer com eles no Adobe Campaign, é hora de aprofundar as seções de documentação para começar a trabalhar com o recurso.
+Agora que você tem uma compreensão do que são workflows e do que pode fazer com eles no Adobe Campaign, é hora de aprofundar essas seções de documentação para começar a trabalhar com o recurso.
 
 * Criar seu primeiro workflow
 * Fluxos de trabalho de design
