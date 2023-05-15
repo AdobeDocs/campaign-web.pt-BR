@@ -4,9 +4,9 @@ title: Definir um estilo para links
 description: Saiba como definir um estilo para links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 1. Em um **[!UICONTROL Texto]** , onde um link é inserido, selecione seu link.
 
-1. No **[!UICONTROL Configurações do componente]** menu, verifique **[!UICONTROL Link Sublinhado]** para que o rótulo fique sublinhado.
+1. No **[!UICONTROL Configurações]** guia , verifique **[!UICONTROL Link Sublinhado]** para que o rótulo fique sublinhado.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
    ![](assets/link_2.png)
 
-1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** no painel direito.
+1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** do **[!UICONTROL Estilos]** guia .
 
    ![](assets/link_3.png)
 

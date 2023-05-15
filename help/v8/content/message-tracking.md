@@ -4,9 +4,9 @@ title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 1. Salve as alterações.
 
-1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Configurações do componente]** painel à direita.
+1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Configurações]** guia .
 
    * Você pode editar o link e alterar seu **[!UICONTROL Target]**.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.

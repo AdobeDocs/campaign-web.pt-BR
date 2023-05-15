@@ -4,10 +4,10 @@ title: Adicionar um precabeçalho no Designer de email
 description: Saiba como criar o conteúdo de seus emails
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 36%
+source-wordcount: '203'
+ht-degree: 38%
 
 ---
 
@@ -34,13 +34,9 @@ Para definir o pré-cabeçalho de email, siga as etapas abaixo:
 
    ![](assets/preheader_body.png)
 
-1. No **[!UICONTROL Configurações de corpo]** no painel direito, clique no ícone de edição ao lado do **[!UICONTROL Preheader]** para adicionar conteúdo.
+1. No **[!UICONTROL Configurações]** adicione o precabeçalho . Você pode personalizá-la ainda mais clicando no botão **[!UICONTROL Adicionar personalização]** ícone .
 
    ![](assets/preheader_body_settings.png)
-
-1. Adicione o pré-cabeçalho. Você pode personalizá-la ainda mais clicando no botão **[!UICONTROL Adicionar personalização]** ícone .
-
-   ![](assets/preheader_3.png)
 
 1. No **[!UICONTROL Editar personalização]** , é possível adicionar **[!UICONTROL Bloco de conteúdo]**, **[!UICONTROL Conteúdo dinâmico]** ou **[!UICONTROL Campos de personalização]**.
 

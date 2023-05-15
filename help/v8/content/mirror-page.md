@@ -3,13 +3,13 @@ audience: end-user
 title: Adicionar um link à mirror page
 description: Saiba como adicionar e gerenciar o link para a mirror page
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar um link à mirror page{#mirror-page}
 
@@ -33,7 +33,7 @@ Para adicionar um link a uma mirror page no seu email:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Selecione o **[!UICONTROL Inserir link]** para acessar o menu de personalização.
+1. Selecione o **[!UICONTROL Adicionar personalização]** para acessar o menu de personalização.
 
    ![](assets/message-tracking-mirror-page_2.png)
 
