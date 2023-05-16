@@ -1,30 +1,30 @@
 ---
 audience: end-user
-title: Importar destinatários de um arquivo
-description: Saiba como importar destinatários de um arquivo externo
+title: Importar recipients de um arquivo
+description: Saiba como importar recipients de um arquivo externo
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 10%
+ht-degree: 97%
 
 ---
 
-# Importar destinatários de um arquivo {#audience-from-file}
+# Importar recipients de um arquivo {#audience-from-file}
 
-Você pode adicionar ou atualizar contatos da interface do delivery, carregando um arquivo de texto (TXT) ou um arquivo de valor separado por vírgulas (CSV). Eles serão adicionados ao banco de dados.
+Você pode adicionar ou atualizar contatos da interface de entrega, carregando um arquivo de texto (TXT) ou um arquivo de valores separados por vírgulas (CSV). Eles serão adicionados ao banco de dados.
 
 >[!NOTE]
 >
->Você também pode criar um workflow de importação para adicionar ou atualizar vários perfis.
+>Você também pode criar um fluxo de trabalho de importação para adicionar ou atualizar vários perfis.
 
 
 Para adicionar perfis de um arquivo local diretamente da interface, siga estas etapas:
 
-1. Na janela de criação do delivery, clique em **Seleção do público-alvo** e selecione o **Selecionar do arquivo** opção.
-1. Selecione o arquivo local para fazer upload.
-1. Defina as configurações da coluna e como formatar dados. É possível ignorar uma coluna usando o **Ignorar coluna** alternar.
+1. Na janela de criação da entrega, clique no botão **Selecionar público** e escolha a opção **Selecionar do arquivo**.
+1. Selecione o arquivo a ser carregado.
+1. Defina as configurações da coluna e como formatar dados. É possível ignorar uma coluna usando o botão de alternância **Ignorar coluna**.
 1. Visualize como os dados são mapeados na seção central da tela.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 

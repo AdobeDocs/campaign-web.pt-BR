@@ -1,6 +1,6 @@
 ---
 title: Personalizar seu conteúdo no Campaign
-description: Saiba como personalizar seu conteúdo na interface do usuário da Web do Adobe Campaign
+description: Saiba como personalizar seu conteúdo na interface do Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,26 +10,26 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 11%
+ht-degree: 95%
 
 ---
 
 
-# Personalizar seu conteúdo{#add-personalization}
+# Personalize seu conteúdo{#add-personalization}
 
 Você pode personalizar o conteúdo da mensagem ao:
 
-* Inserção dinâmica **campos de personalização**
+* Inserir **campos de personalização** dinâmicos
 
-   Os campos de personalização são usados para personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para um delivery, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou ao delivery. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo de suas mensagens.
+   Os campos de personalização são usados na personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo de suas mensagens.
 
    ![](assets/perso-subject-line.png)
 
    A sintaxe a seguir insere a cidade do recipient no conteúdo: &lt;%= recipient.location.city %>.
 
-* Inserção de predefinido **blocos de conteúdo**
+* Inserção de **blocos de conteúdo** predefinidos
 
-   O Campaign vem com um conjunto de blocos de personalização que contêm uma renderização específica que você pode inserir nos deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
+   O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
 
    ![](assets/perso-content-blocks.png)
 <!--
@@ -41,25 +41,25 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 Os blocos de conteúdo incorporados são:
 
-* **[!UICONTROL Ativado pela Adobe Campaign]**: insere o logotipo &quot;Ativado pela Adobe Campaign&quot;.
+* **[!UICONTROL Habilitado pelo Adobe Campaign]**: insere o logotipo &quot;Habilitado pelo Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
-* **[!UICONTROL Saudações]**: insere saudações com o nome completo do recipient, seguido de uma vírgula. Exemplo: “Olá, John Doe”.
-* **[!UICONTROL Inserir logotipo]**: insere um logotipo que é definido nas configurações de instância.
-* **[!UICONTROL Link para mirror page]**: insere um link para o [mirror page](../content/mirror-page.md). O formato padrão é: &quot;Se não conseguir exibir esta mensagem corretamente, clique aqui&quot;.
-* **[!UICONTROL Mirror page URL]**: insere o URL da mirror page, permitindo que os designers de delivery verifiquem o link.
-* **[!UICONTROL Oferecer o URL de aceitação no modo unitário]**: insere um URL que permite definir uma oferta para **[!UICONTROL Aceite]**. (Este bloco estará disponível se o módulo Interaction estiver habilitado)
-* **[!UICONTROL Registration confirmation]**: insere um link que permite confirmar a subscrição.
-* **[!UICONTROL Registration link]**: insere um link de subscrição. Esse link é definido nas configurações da instância. O conteúdo padrão é: &quot;Para registrar, clique aqui.&quot;
-* **[!UICONTROL Registration link (with referrer)]**: insere um link de subscrição, permitindo identificar o visitante e o delivery. Esse link é definido nas configurações da instância.
-* **[!UICONTROL URL da página de registro]**: insere um URL de subscrição
-* **[!UICONTROL Estilo de emails de conteúdo]** e **[!UICONTROL Estilo de notificação]**: gere um código que formate um email com estilos de HTML predefinidos.
-* **[!UICONTROL Link de cancelamento de assinatura]**: insere um link que permite cancelar a inscrição de todos os deliveries ( lista de bloqueios). O conteúdo associado padrão é: &quot;Você está recebendo esta mensagem porque esteve em contato com ***nome da organização*** ou um afiliado. Para não receber mais mensagens de ***nome da organização*** clique aqui.&quot;
+* **[!UICONTROL Saudações]**: insere saudações com o nome completo do recipient, seguido de vírgula. Exemplo: “Olá, fulano,”.
+* **[!UICONTROL Inserir logotipo]**: insere um logotipo, que é definido nas configurações de instância.
+* **[!UICONTROL Link para mirror page]**: insere um link para a [mirror page](../content/mirror-page.md). O formato padrão é: &quot;Caso não consiga visualizar esta mensagem corretamente, clique aqui.&quot;
+* **[!UICONTROL URL de mirror page]**: insere o URL da mirror page, permitindo que os criadores da entrega verifiquem o link.
+* **[!UICONTROL Oferecer URL de aceitação no modo unitário]**: insere um URL que permite definir uma oferta como **[!UICONTROL Aceita]**. (Este bloco estará disponível se o módulo Interação estiver habilitado)
+* **[!UICONTROL Registration confirmation]**: insere um link que permite confirmar a assinatura.
+* **[!UICONTROL Registration link]**: insere um link de assinatura. Esse link é definido nas configurações da instância. O conteúdo padrão é: &quot;Para se registrar, clique aqui&quot;.
+* **[!UICONTROL Registration link (with referrer)]**: insere um link de assinatura, permitindo identificar o visitante e a entrega. Esse link é definido nas configurações da instância.
+* **[!UICONTROL URL da página de registro]**: insere um URL para assinatura
+* **[!UICONTROL Estilo de emails de conteúdo]** e **[!UICONTROL Estilo de notificação]**: geram um código que formata um email com estilos HTML predefinidos.
+* **[!UICONTROL Link para cancelar assinatura]**: insere um link que permite cancelar a inscrição de todas as entregas (lista de bloqueios). O conteúdo padrão associado é: &quot;Você está recebendo esta mensagem porque esteve em contato com ***nome da organização*** ou um afiliado. Para não receber mais mensagens de ***nome da organização*** clique aqui.&quot;
 
 ## Personalizar a linha de assunto do email {#personalize-subject-line}
 
-Para adicionar personalização na **[!UICONTROL Linha de assunto]** siga as etapas abaixo:
+Para adicionar personalização ao campo **[!UICONTROL Linha de assunto]** da mensagem, siga as etapas abaixo:
 
-1. Clique no botão **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone à direita do **[!UICONTROL Linha de assunto]** campo.
+1. Clique no ícone **[!UICONTROL Abrir caixa de diálogo de personalização]** à direita do campo **[!UICONTROL Linha de assunto]**.
 
    ![](assets/perso-subject.png){width="600"}
 
@@ -103,7 +103,7 @@ Para personalizar um **link**:
 
    ![](assets/perso-link.png)
 
-1. Insira o rótulo do link e use o **Inserir link** para personalizar o link.
+1. Insira o rótulo do link e use o botão **Inserir link** para personalizar o link.
 
    ![](assets/perso-link-insert-icon.png)
 

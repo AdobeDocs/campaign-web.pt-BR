@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Criar workflows com o Adobe Campaign Web
-description: Saiba como criar fluxos de trabalho com a Web Adobe Campaign
+title: Criar fluxos de trabalho com o Adobe Campaign Web
+description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 51%
 >title="Fluxos de trabalho"
 >abstract="Acesse a lista de fluxos de trabalho da campanha. É possível exibir o estado, as datas do último/próximo processamento e o ambiente. É possível filtrar a lista por estado, data do último processamento e tipo de fluxo de trabalho. Os modelos de fluxo de trabalho também estão disponíveis. Essas listas são do tipo somente leitura."
 
-TBD de conteúdo
+Conteúdo a ser definido
 
-## Acessar workflows criados
+## Acessar fluxos de trabalho criados
 
-Guia Procurar, filtragem
+Filtragem e guia Procurar
 
 ## Status dos fluxos de trabalho
 

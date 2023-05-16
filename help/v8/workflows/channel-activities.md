@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Trabalhar com atividades de canal de workflows
-description: Saiba como usar atividades de canal em workflows da Web do Adobe Campaign
+title: Trabalhar com atividades de canal de fluxos de trabalho
+description: Saiba como usar as atividades de canal nos fluxos de trabalho do Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 6f9be348-6138-470c-8c40-750dc0311424
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 1%
+ht-degree: 26%
 
 ---
 
@@ -23,11 +23,11 @@ As atividades de Canal estão disponíveis na paleta, no lado esquerdo da tela, 
 
 ## Email {#email}
 
-descrição, qual caso de uso você pode executar (comum a outras atividades que você pode vincular antes de depois da atividade)
+descrição, que caso de uso você pode executar (comum a outras atividades que você pode vincular antes ou depois da atividade)
 
 como adicionar e configurar a atividade
 
-exemplo de uma atividade configurada em um workflow
+exemplo de uma atividade configurada em um fluxo de trabalho
 
 
 A atividade Email delivery permite configurar o envio de um email em um workflow.

@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Usar componentes de conteúdo do designer de email
+title: Usar componentes de conteúdo do Designer de email
 description: Saiba como usar componentes de conteúdo em seus emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 8%
+ht-degree: 70%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="Sobre componentes de conteúdo"
->abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma landing page."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
@@ -56,15 +56,15 @@ Você pode adicionar quantos **[!UICONTROL Conteúdo]** componentes conforme voc
 
 ## Container {#container}
 
-É possível adicionar um contêiner simples dentro do qual você adiciona outro componente de conteúdo. Isso permite aplicar um estilo específico ao contêiner, que é diferente do componente usado no.
+É possível adicionar um container simples dentro do qual você adiciona outro componente de conteúdo. Isso permite aplicar um estilo específico ao container, que é diferente do componente usado internamente.
 
-Por exemplo, adicione uma **[!UICONTROL Contêiner]** e, em seguida, adicione um [Botão](#button) componente dentro desse contêiner. Você pode usar um plano de fundo específico para o contêiner e outro para o botão .
+Por exemplo, adicione um componente **[!UICONTROL Container]** e, em seguida, adicione um componente [Botão](#button) dentro desse container. Você pode usar um plano de fundo específico para o container e outro para o botão.
 
 ![](assets/email_designer_container_component.png)
 
 ## Botão {#buttons}
 
-Use o **[!UICONTROL Botão]** para inserir um ou vários botões no email e redirecionar o público do email para outra página.
+Use o componente **[!UICONTROL Botão]** para inserir um ou vários botões no email e redirecionar o público do email para outra página.
 
 1. No **[!UICONTROL Conteúdo]** arraste e solte a **[!UICONTROL Botão]** em um **[!UICONTROL Estrutura]** componente.
 
@@ -76,21 +76,21 @@ Use o **[!UICONTROL Botão]** para inserir um ou vários botões no email e redi
 
 1. No **[!UICONTROL Configurações]** nas guias, no **[!UICONTROL URL]** adicione o URL para o qual deseja redirecionar ao clicar no botão .
 
-1. Escolha como o conteúdo será exibido com o **[!UICONTROL Target]** lista suspensa:
+1. Escolha como o conteúdo será exibido com a lista suspensa do **[!UICONTROL Público-alvo]**:
 
    * **[!UICONTROL Nenhum]**: abre o link no mesmo quadro em que foi clicado (padrão).
-   * **[!UICONTROL Em branco]**: abre o link em uma nova janela ou guia.
+   * **[!UICONTROL Branco]**: abre o link em uma nova janela ou guia.
    * **[!UICONTROL Auto]**: abre o link no mesmo quadro em que foi clicado.
-   * **[!UICONTROL Pai]**: abre o link no quadro principal.
-   * **[!UICONTROL Topo]**: abre o link no corpo completo da janela.
+   * **[!UICONTROL Principal]**: abre o link no quadro principal.
+   * **[!UICONTROL Superior]**: abre o link no corpo completo da janela.
 
    ![](assets/email_designer_15.png)
 
-1. Você pode personalizar ainda mais seu botão alterando atributos de estilo como **[!UICONTROL Borda]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Margem]**, etc. from **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
+1. Você pode personalizar ainda mais seu botão alterando atributos de estilo como **[!UICONTROL Borda]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Margem]** etc., from **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
 
 ## Texto {#text}
 
-Use o **[!UICONTROL Texto]** componente para inserir texto no email e ajustar o estilo (borda, tamanho, preenchimento etc.) usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
+Use o componente de **[!UICONTROL Texto]** para inserir texto no email e ajustar o estilo (borda, tamanho, preenchimento etc.) usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
 
 1. No **[!UICONTROL Conteúdo]** menu, arrastar e soltar **[!UICONTROL Texto]** em **[!UICONTROL Estrutura]** componente.
 
@@ -114,13 +114,13 @@ Use o **[!UICONTROL Texto]** componente para inserir texto no email e ajustar o 
    * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis.
    * **[!UICONTROL Habilitar conteúdo condicional]**: adicione conteúdo condicional para adaptar o conteúdo do componente aos perfis segmentados.
 
-1. Ajuste os outros atributos de estilo, como cor do texto, família da fonte, borda, preenchimento, margem etc. do **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
+1. Ajuste os outros atributos de estilo, como cor do texto, família da fonte, borda, preenchimento, margem etc., do **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
 
    ![](assets/email_designer_12.png)
 
 ## Divisor {#divider}
 
-Use o **[!UICONTROL Divisor]** para inserir uma linha divisória para organizar o layout e o conteúdo do seu email.
+Use o componente **[!UICONTROL Divisor]** para inserir uma linha divisória para organizar o layout e o conteúdo do email.
 
 É possível ajustar atributos de estilo, como cor da linha, estilo e altura da **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
 
@@ -128,7 +128,7 @@ Use o **[!UICONTROL Divisor]** para inserir uma linha divisória para organizar 
 
 ## HTML {#HTML}
 
-Use o **[!UICONTROL HTML]** componente para copiar e colar as diferentes partes do HTML existente. Isso permite que você crie componentes de HTML modulares gratuitos para reutilizar algum conteúdo externo.
+Use o componente **[!UICONTROL HTML]** para copiar e colar as diferentes partes do HTML existente. Isso permite que você crie componentes de HTML modulares gratuitos para reutilizar algum conteúdo externo.
 
 1. De **[!UICONTROL Componentes]**, arraste e solte a **[!UICONTROL HTML]** em um **[!UICONTROL Estrutura]** componente.
 
@@ -140,11 +140,11 @@ Use o **[!UICONTROL HTML]** componente para copiar e colar as diferentes partes 
 
 >[!NOTE]
 >
->Para simplesmente tornar um conteúdo externo compatível com o Designer de email, o Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do email existente para componentes.
+>Para tornar de forma simples um conteúdo externo compatível com o Designer de email, a Adobe recomenda criar uma mensagem do zero e copiar o conteúdo do email existente para os componentes.
 
 ## Imagem {#image}
 
-Use o **[!UICONTROL Imagem]** componente para inserir um arquivo de imagem de seu computador no email.
+Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem de seu computador no email.
 
 1. No **[!UICONTROL Conteúdo]** menu, arrastar e soltar **[!UICONTROL Imagem]** em **[!UICONTROL Estrutura]** componente.
 
@@ -155,15 +155,15 @@ Use o **[!UICONTROL Imagem]** componente para inserir um arquivo de imagem de se
 1. Clique no componente recém-adicionado e configure as propriedades da imagem usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias:
 
    * **[!UICONTROL Título da imagem]** permite definir um título para a imagem.
-   * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo HTML alt.
+   * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo HTML alternativo.
 
    ![](assets/email_designer_10.png)
 
-1. Ajuste os outros atributos de estilo, como margem, borda etc. ou adicionar um link para redirecionar seu público para outro conteúdo.
+1. Ajuste os outros atributos de estilo, como margem, borda etc., ou adicionar um link para redirecionar seu público para outro conteúdo.
 
 ## Social {#social}
 
-Use o **[!UICONTROL Social]** componente para inserir links às páginas de mídia social no seu conteúdo de email.
+Use o componente **[!UICONTROL Social]** para inserir links às páginas de redes sociais no seu conteúdo de email.
 
 1. No **[!UICONTROL Componentes]** arraste e solte o menu **[!UICONTROL Social]** em um **[!UICONTROL Estrutura]** componente.
 
@@ -173,12 +173,12 @@ Use o **[!UICONTROL Social]** componente para inserir links às páginas de míd
 
    ![](assets/email_designer_20.png)
 
-1. Escolha o tamanho dos ícones no **[!UICONTROL Tamanho das imagens]** campo.
+1. Escolha o tamanho dos ícones no campo **[!UICONTROL Tamanho das imagens]**.
 
-1. Clique em cada um dos ícones de redes sociais para configurar o **[!UICONTROL URL]** para o qual o público-alvo é redirecionado.
+1. Clique em cada um dos ícones de redes sociais para configurar o **[!UICONTROL URL]** para o qual o público é redirecionado.
 
    ![](assets/email_designer_21.png)
 
-1. Você também pode alterar os ícones de cada uma das redes sociais, se necessário, na variável **[!UICONTROL Imagem]** campo.
+1. Você também pode alterar os ícones de cada uma das redes sociais, se necessário, no campo **[!UICONTROL Imagem]**.
 
-1. Ajuste os outros atributos de estilo, como estilo, margem, borda etc. do **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
+1. Ajuste os outros atributos de estilo, como estilo, margem, borda etc., do **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
