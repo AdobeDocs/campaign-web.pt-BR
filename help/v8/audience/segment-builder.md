@@ -1,86 +1,86 @@
 ---
 audience: end-user
-title: Definir um público-alvo com o construtor de regras
+title: Definir um público com o construtor de regras
 description: Saiba como trabalhar com o Construtor de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Definir um público-alvo com o construtor de regras {#segment-builder}
+# Definir um público com o construtor de regras {#segment-builder}
 
-Esta seção descreve como criar um público-alvo ao criar um novo email. O público-alvo criado só pode ser usado neste email.
+Esta seção descreve como criar um público ao elaborar um novo email. O público criado só pode ser usado nesse email.
 
-O construtor de regras permite definir a população direcionada pela mensagem filtrando os dados contidos no banco de dados. Se desejar selecionar um público-alvo existente, consulte esta [seção](add-audience.md).
+O construtor de regras permite definir a população direcionada pela mensagem por meio da filtragem dos dados contidos no banco de dados. Se desejar selecionar um público existente, consulte esta [seção](add-audience.md).
 
-Para obter mais informações sobre o construtor de regras, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Para obter mais informações sobre o construtor de regras, consulte [Documentação do serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-br).
 
-Para criar um novo público-alvo ao criar um email, siga estas etapas:
+Para criar um novo público ao elaborar um email, siga estas etapas:
 
-1. No **Público** seção do assistente de criação de delivery, clique no link **[!UICONTROL Seleção do público-alvo]** botão.
+1. Na seção **Público** do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público]**.
 
    ![](assets/segment-builder0.png)
 
-1. Selecionar **Crie seu próprio**. O construtor de regras é exibido.
+1. Selecione **Criar o seu**. O construtor de regras é exibido.
 
    ![](assets/segment-builder.png)
 
 ## A paleta
 
-A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser filtrados para criar o público-alvo. Os blocos contidos na paleta devem ser movidos para a tela central para serem configurados e considerados. A paleta é dividida em duas guias:
+A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser filtrados para criar o público. Os blocos contidos na paleta devem ser movidos para a tela central para serem configurados e considerados. A paleta é dividida em duas guias:
 
 * **Atributos**: essa guia permite acessar todos os campos disponíveis no schema. A lista de campos depende do schema de direcionamento definido no template de email.
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Públicos-alvo**: essa guia permite filtrar usando um dos públicos-alvo existentes definidos no console do Campaign Classic ou do Adobe Experience Platform.
+* **Públicos**: essa guia permite filtrar usando um dos públicos existentes que foram definidos no console do Campaign Classic ou na Adobe Experience Platform.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
 
    >[!NOTE]
    >
-   >Para aproveitar os públicos-alvo do Adobe Experience Platform, é necessário configurar a integração com Destinos. Consulte a [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
+   >Para aproveitar os públicos da Adobe Experience Platform, é necessário configurar a integração com o serviço de Destinos. Consulte a [Documentação do serviço de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
 
 Você pode usar a barra de pesquisa para localizar elementos rapidamente.
 
 ## A tela
 
-A tela é a zona central na qual você pode configurar e combinar regras com base nos elementos adicionados da paleta. Para adicionar uma nova regra, arraste um bloco da paleta e solte-o na tela. Em seguida, você pode receber opções específicas do contexto de acordo com o tipo de dados que está sendo adicionado.
+A tela é a área central onde você pode configurar e combinar regras com base nos elementos adicionados da paleta. Para adicionar uma nova regra, arraste um bloco da paleta e solte-o na tela. Você pode receber opções específicas do contexto, de acordo com o tipo de dado que está sendo adicionado.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
 ## O painel de propriedades da regra
 
-No lado direito, a variável **Propriedades da regra** permite executar as seguintes ações:
+No lado direito, o painel **Propriedades da regra** permite executar as seguintes ações:
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Ver resultados:** exibe a lista de recipients alvos do público-alvo.
-* **Visualização de código**: exibe uma versão baseada em código do público-alvo no SQL.
+* **Exibir resultados:** exibe a lista de recipients direcionados pelo público.
+* **Visualização de código**: exibe uma versão baseada em código do público em SQL.
 * **Exibir atributos avançados**: marque esta opção se quiser exibir a lista completa de atributos na paleta esquerda: nós, agrupamentos, links 1-1, links 1-N.
-* **Atributos**: exibe uma descrição do público-alvo criado.
+* **Atributos**: exibe uma descrição do público criado.
 
 ## Exemplo
 
-Neste exemplo, criamos um público-alvo para direcionar todos os clientes que moram em Atlanta ou Seattle e nasceram depois de 1980.
+Neste exemplo, criamos um público para direcionar todos os clientes que moram em Atlanta ou Seattle e nasceram depois de 1980.
 
-1. No **Atributos** da paleta, procure pela guia **Data de nascimento** campo. Arraste o bloco e solte-o na tela.
+1. Na guia **Atributos** da paleta, procure pelo campo **Data de nascimento**. Arraste o bloco e solte-o na tela.
 
    ![](assets/segment-builder6.png)
 
-1. Na tela, escolha a **Depois** e insira a data desejada.
+1. Na tela, escolha o operador **Após** e insira a data desejada.
 
    ![](assets/segment-builder7.png)
 
-1. Na paleta, procure a variável **Cidade** e adicione-o à tela abaixo da primeira regra.
+1. Na paleta, procure o campo **Cidade** e adicione-o na tela abaixo da primeira regra.
 
    ![](assets/segment-builder8.png)
 
-1. No campo de texto, digite o nome da cidade e pressione enter.
+1. No campo de texto, digite o nome da cidade e pressione Enter.
 
    ![](assets/segment-builder9.png)
 
@@ -88,10 +88,10 @@ Neste exemplo, criamos um público-alvo para direcionar todos os clientes que mo
 
    ![](assets/segment-builder10.png)
 
-1. Clique em **Exibir resultados** para exibir a lista e o número de recipients correspondentes ao query. Também é possível adicionar colunas para visualizar e verificar os dados. No nosso exemplo, adicione a variável **Cidade** e devem ver Atlanta e Seattle.
+1. Clique em **Exibir resultados** para exibir a lista e o número de recipients correspondentes à consulta. Também é possível adicionar colunas para visualizar e verificar os dados. No nosso exemplo, adicione a coluna **Cidade** e as opções Atlanta e Seattle deverão ser exibidas.
 
    ![](assets/segment-builder11.png)
 
-1. Clique em **Confirm**.
+1. Clique em **Confirmar**.
 
-Seu público-alvo está definido e pronto para ser usado em seu email.
+Seu público está definido e pronto para ser usado no email.
