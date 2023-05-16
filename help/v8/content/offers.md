@@ -5,82 +5,82 @@ description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
 # Enviar ofertas {#offers-content}
 
-O Adobe Campaign v8 Web permite enviar com suas ofertas de email que foram criadas no console usando o **[!UICONTROL Interação]** módulo. Para obter mais informações sobre Interação e como gerenciar um catálogo de ofertas no console, consulte o [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+O Adobe Campaign v8 Web permite enviar com suas ofertas de email que foram criadas no console usando o módulo **[!UICONTROL Interação]**. Para obter mais informações sobre o módulo Interação e como gerenciar um catálogo de ofertas no console, consulte a [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
 As etapas para enviar ofertas com um email são as seguintes:
 
 1. [Configurar as ofertas a serem propostas](#configure),
-1. [Insira as ofertas no email](#insert).
+1. [Inserir as ofertas no email](#insert).
 
 ## Configurar as ofertas a serem propostas {#configure}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
 >title="Configurações de ofertas"
->abstract="Configure quais ofertas devem ser propostas para os recipients."
+>abstract="Configurar quais ofertas devem ser propostas para os recipients."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="Configurações avançadas de ofertas"
->abstract="Configure opções avançadas em ofertas."
+>abstract="Configurar as opções avançadas em ofertas."
 
-1. Para selecionar as ofertas a serem propostas no seu email, clique no link **[!UICONTROL Ofertas]** na tela de edição de conteúdo de email.
+1. Para selecionar as ofertas a serem propostas no seu email, clique no botão **[!UICONTROL Ofertas]** na tela de edição de conteúdo de email.
 
    ![](assets/setup-offers.png)
 
-1. Configure quais ofertas devem ser propostas para os recipients. Primeiro selecione o **[!UICONTROL Espaço de ofertas]** que corresponde ao seu ambiente de oferta.
+1. Configurar quais ofertas devem ser propostas para os recipients. Primeiro, selecione o **[!UICONTROL Espaço de ofertas]** que corresponda ao seu ambiente de oferta.
 
    ![](assets/create-content-offers.png)
 
-1. Para refinar a escolha de ofertas do mecanismo, selecione um **[!UICONTROL Categoria de oferta]** em que as ofertas são classificadas.
+1. Para refinar a escolha de ofertas do mecanismo, selecione uma **[!UICONTROL Categoria de oferta]** específica em que as ofertas são classificadas.
 
-   Se nenhuma categoria for especificada, todas as ofertas contidas no ambiente serão consideradas pelo Mecanismo de oferta, a menos que uma **[!UICONTROL Tema da oferta]** está selecionada.
+   Se nenhuma categoria for especificada, todas as ofertas contidas no ambiente serão consideradas pelo Mecanismo de oferta, a menos que um **[!UICONTROL Tema de oferta]** seja selecionado.
 
    >[!NOTE]
    >
-   >Temas são palavras-chave definidas upstream nas categorias. Eles atuam como um filtro e permitem refinar o número de ofertas a serem apresentadas ao selecioná-las em um conjunto de categorias.
+   >Os temas são palavras-chave definidas de forma ascendente nas categorias. Elas funcionam como um filtro e permitem refinar o número de ofertas que serão apresentadas ao selecioná-las em um conjunto de categorias.
 
-1. Use o **[!UICONTROL Propostas]** para especificar o número de ofertas que deseja inserir no email.
+1. Use o campo **[!UICONTROL Proposições]** para especificar o número de ofertas que deseja inserir no email.
 
-1. Selecione a opção **[!UICONTROL Exclude non-eligible recipients]** se necessário.
+1. Selecione a opção **[!UICONTROL Excluir recipients não qualificados]** se necessário.
 
    Essa opção permite ativar ou desativar a exclusão de recipients para os quais não há ofertas elegíveis suficientes.
 
-   * Se a opção estiver ativada, os recipients que não têm apresentações suficientes serão excluídos do delivery.
-   * Se a opção estiver desativada, esses recipients não serão excluídos, mas não poderão ter o número solicitado de apresentações.
+   * Se a opção estiver ativada, os recipients que não tiverem proposições suficientes serão excluídos da entrega.
+   * Se a opção estiver desativada, esses recipients não serão excluídos, mas não poderão ter o número solicitado de proposições.
 
-1. Se necessário, selecione o **[!UICONTROL Ocultar tudo se nenhuma oferta estiver selecionada]** opção.
+1. Se necessário, selecione a opção **[!UICONTROL Ocultar tudo se nenhuma oferta estiver selecionada]**.
 
    Essa opção permite escolher como a mensagem será processada caso uma das proposições não exista.
 
-   * Se a opção estiver habilitada, a representação da proposta ausente não será exibida e nenhum conteúdo será exibido na mensagem para essa proposta.
-   * Se a opção estiver desativada, a mensagem propriamente dita será cancelada durante o envio e os recipients não poderão mais receber mensagens.
+   * Quando a opção estiver habilitada, a representação da proposição ausente não é exibida e nenhum conteúdo aparece na mensagem para essa proposição.
+   * Se a opção estiver desabilitada, a mensagem propriamente dita será cancelada durante o envio e os receipients não receberão nenhuma mensagem.
 
-Depois de configurar as ofertas para propor no seu email, você pode inseri-las no email usando o Editor de expressão. [Saiba como inserir ofertas no email](#insert)
+Após configurar as ofertas para propor no seu email, você pode inseri-las no email usando o Editor de expressão. [Saiba como inserir ofertas no email](#insert)
 
 ## Inserir ofertas no email {#insert}
 
-As ofertas podem ser adicionadas ao email usando o Editor de expressão. Podem ser inseridos:
+As ofertas podem ser adicionadas ao email usando o Editor de expressão. Também podem ser inseridos:
 
 * Na linha de assunto do email,
-* No corpo do email, permitindo a personalização em qualquer componente de conteúdo. [Saiba como adicionar componentes de conteúdo](content-components.md)
+* no corpo do email, permitindo a personalização em qualquer componente de conteúdo. [Saiba como adicionar componentes de conteúdo](content-components.md)
 
 >[!NOTE]
 >
->Antes de inserir uma oferta, verifique se você [configurado quais ofertas propor com o email](#configure).
+>Antes de inserir uma oferta, verifique se você [configurou quais ofertas apresentará com o email](#configure).
 
 Para inserir uma oferta usando o Editor de expressão, siga estas etapas:
 
-1. Abra o Editor de expressão e selecione o **[!UICONTROL Propostas]** menu.
+1. Abra o Editor de expressão e selecione o menu **[!UICONTROL Proposições]**.
 
    As apresentações disponíveis são exibidas na lista. O número de apresentações é definido ao configurar as ofertas a serem propostas.
 
