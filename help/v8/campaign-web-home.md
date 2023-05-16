@@ -1,23 +1,23 @@
 ---
-keywords: Campaign Web; home; tópicos populares
-description: Centro de ajuda do Campaign Web v8
+keywords: Campaign Web;página inicial;tópicos populares
+description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# Documentação da Web do Adobe Campaign v8 {#campaign-documentation}
+# Documentação do Adobe Campaign Web v8 {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
-O Campaign agora oferece uma nova interface de usuário da Web com utilização aprimorada, acessibilidade e um novo design para melhorar significativamente sua experiência de usuário. Essa nova interface do usuário moderna simplifica o design e o delivery da campanha de marketing e oferece consistência, além de outras soluções de Adobe, incluindo o Adobe Experience Platform. [Saiba mais](get-started/get-started.md)
+O Campaign agora oferece uma nova interface da Web com usabilidade e acessibilidade aprimoradas e um novo design para melhorar significativamente sua experiência de usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform. [Saiba mais](get-started/get-started.md)
 
->A Web do Campaign v8 está atualmente na versão Alfa. O acesso é restrito a um pequeno conjunto de clientes Alfa. Esteja ciente de que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio. [Saiba mais](rn/release-notes.md)
+>O Campaign v8 Web está atualmente na versão Alfa. O acesso é restrito a um pequeno conjunto de clientes Alfa. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio. [Saiba mais](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -25,16 +25,16 @@ O Campaign agora oferece uma nova interface de usuário da Web com utilização 
 <a href="get-started/user-interface.md">
 <img alt="nova interface" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Nova interface do usuário do Campaign</strong>
+<div><a href="get-started/user-interface.md"><strong>Nova interface do Campaign</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="Pouco frequentes" src="assets/do-not-localize/email-design.jpg">
+<img alt="Pouco frequente" src="assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Criar um e-mail</strong></a>
+<a href="content/create-email-content.md"><strong>Criar um email</strong></a>
 </div>
 <p></td>
 <td>
