@@ -1,12 +1,13 @@
 ---
 audience: end-user
-title: Introdução a mensagens e deliveries no Campaign v8 Web
-description: Saiba como trabalhar com deliveries e enviar mensagens com o Campaign Web
+title: Introdução a mensagens e entregas no Campaign Web v8
+description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
