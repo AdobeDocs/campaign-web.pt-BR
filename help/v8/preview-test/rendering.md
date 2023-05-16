@@ -1,31 +1,31 @@
 ---
 audience: end-user
-title: Testar renderização de email
-description: Saiba como testar a renderização de email na interface do usuário da Web do Campaign
+title: Testar a renderização do email
+description: Saiba como testar a renderização do email na interface do Campaign Web
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Testar a renderização de email {#rendering}
+# Testar a renderização do email {#rendering}
 
 
-Antes de enviar seu email, verifique se a sua mensagem é exibida aos recipients de forma ideal em uma variedade de clientes Web, Webmails e dispositivos.
+Antes de enviar o email, certifique-se de que a sua mensagem será exibida aos recipients de forma eficaz em uma variedade de clientes web, webmails e dispositivos.
 
-Para fazer isso, o Adobe Campaign permite visualizar a mensagem enviada nos diferentes contextos em que ela pode ser recebida e verificar a compatibilidade nos principais desktops e aplicativos (webmail, serviço de mensagens, celular etc.).
+Para isso, o Adobe Campaign permite visualizar a mensagem enviada nos diferentes contextos nos quais ela pode ser recebida e verificar a compatibilidade nos principais desktops e aplicativos (webmail, serviço de mensagens, dispositivos móveis etc.).
 
 Para testar a renderização do email, siga estas etapas:
 
 1. Acesse a tela de criação de conteúdo de email e clique em **[!UICONTROL Simular conteúdo]**.
 
-1. Clique no botão **[!UICONTROL Renderizar email]** botão.
+1. Clique no botão **[!UICONTROL Renderizar email]**.
 
-   O painel esquerdo fornece vários clientes de email desktop, dispositivos móveis e baseados na Web. Selecione o cliente de email desejado para exibir uma pré-visualização do email no painel direito.
+   O painel esquerdo fornece vários clientes de email para a Web, desktop e dispositivos móveis. Selecione o cliente de email desejado para exibir uma visualização do email no painel direito.
 
    ![](assets/render-context.png)
 
