@@ -5,7 +5,7 @@ description: Saiba como usar atividades de gerenciamento de dados em fluxos de t
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
