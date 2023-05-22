@@ -4,10 +4,10 @@ title: Descubra a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Resumo do relatório de SMS"
->abstract="A confirmar"
+>abstract="Descubra as métricas de relatórios para o seu delivery de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Resumo do relatório de push"
->abstract="A confirmar"
+>abstract="Descubra as métricas de relatório para sua entrega por push."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avançados do Construtor de regras"
->abstract="A confirmar"
+>abstract="Use atributos avançados para definir sua regra."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Conteúdo de push para Android"
->abstract="A confirmar"
+>abstract="Defina o conteúdo do push Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Conteúdo de push para iOS"
->abstract="A confirmar"
+>abstract="Defina o conteúdo do iOS de push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Envio de relatórios"
->abstract="A confirmar"
+>abstract="Consulte os indicadores de envio para os relatórios da campanha."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Rastreamento de relatórios"
->abstract="A confirmar"
+>abstract="Consulte os indicadores de rastreamento para os relatórios da campanha."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Visão geral dos relatórios"
->abstract="A confirmar"
+>abstract="Métricas principais para o seu delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Relatório de estatísticas do público alvo"
->abstract="A confirmar"
+>abstract="Esta seção exibe métricas específicas de acordo com os públicos-alvo."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Relatório agregado de seleção de entregas"
->abstract="A confirmar"
+>title="Relatórios agregados para deliveries"
+>abstract="Selecione pelo menos dois deliveries para exibir um relatório de dados agregado."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de fluxos de trabalho"
->abstract="A confirmar"
+>abstract="Lista de fluxos de trabalho disponíveis para sua campanha."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permissão necessária"
->abstract="A confirmar"
+>abstract="Seu administrador deve conceder permissão a você antes de criar um segmento."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Permissão necessária"
->abstract="A confirmar"
+>abstract="Seu administrador deve conceder permissão a você antes de criar um segmento."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Nova métrica de quarentena"
 >abstract="Nova métrica de quarentena."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Seleção de modelo de SMS"
+>abstract="Selecione um template predefinido para iniciar o delivery de SMS."
