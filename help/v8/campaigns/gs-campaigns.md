@@ -4,9 +4,9 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 21%
 
 ---
@@ -28,6 +28,11 @@ Em uma campanha entre canais, uma única comunicação de marketing usa canais d
 >id="acw_campaign_creation_properties"
 >title="Propriedades de criação de campanha"
 >abstract="Defina as propriedades e os metadados da campanha."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Propriedades da campanha"
+>abstract="Defina as configurações e os metadados da campanha."
 
 As propriedades da campanha são exibidas ao criar uma nova campanha.
 
