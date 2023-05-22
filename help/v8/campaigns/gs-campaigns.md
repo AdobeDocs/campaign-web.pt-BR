@@ -4,10 +4,10 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 21%
+source-wordcount: '303'
+ht-degree: 20%
 
 ---
 
@@ -19,6 +19,14 @@ Projete e execute campanhas de email de alto volume para entregar mensagens pers
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Com os recursos de segmentação do Adobe Campaign, você pode executar consultas em um banco de dados de alto volume e definir facilmente segmentos de marketing dinâmicos que direcionam perfeitamente suas campanhas.
 
 ## Criar uma campanha entre canais {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Lista de fluxos de trabalho"
+>abstract="Lista de fluxos de trabalho disponíveis para sua campanha. Use o botão &quot;Criar workflow&quot; para adicionar um workflow à sua campanha."
+
+
 
 Em uma campanha entre canais, uma única comunicação de marketing usa canais diferentes. Os dados são transmitidos entre os canais. O cliente recebe a comunicação por meio de vários canais com base, por exemplo, na interação com a comunicação anterior.
 
