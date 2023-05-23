@@ -5,7 +5,7 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 95%
@@ -63,7 +63,7 @@ ht-degree: 95%
    + [Introdução aos públicos](audience/about-audiences.md)
    + [Selecione um público existente](audience/add-audience.md)
    + [Criar um público com o construtor de regras](audience/segment-builder.md)
-   + [Importar um público](audience/import-audience.md)
+   + [Importar um público](audience/file-audience.md)
    + [Usar um público da Adobe Experience Platform](audience/aep-audience.md)
    + [Configurar um grupo de controle](audience/control-group.md)
 + Campanhas entre canais {#campaigns}
@@ -71,8 +71,8 @@ ht-degree: 95%
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
-   + [Acessar e gerenciar fluxos de trabalho](workflows/access-monitor.md)
-   + Criar e executar seu primeiro fluxo de trabalho {#create-workflow}
+   + [Acessar e gerenciar workflows](workflows/access-monitor.md)
+   + Criar e executar o primeiro fluxo de trabalho {#create-workflow}
       + [Princípios básicos da criação de fluxos de trabalho](workflows/gs-workflow-creation.md)
       + [Criar o workflow](workflows/create-workflow.md)
       + [Adicionar e orquestrar atividades de fluxo de trabalho](workflows/build-workflow.md)
