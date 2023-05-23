@@ -1,34 +1,40 @@
 ---
 audience: end-user
-title: Importar recipients de um arquivo
-description: Saiba como importar recipients de um arquivo externo
+title: Direcionar recipients de um arquivo
+description: Saiba como usar recipients de um arquivo externo para criar seu público-alvo de email
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: a6c85aeed30726532ab6060fec5cb4b5e398d9ec
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 97%
+source-wordcount: '193'
+ht-degree: 34%
 
 ---
 
-# Importar recipients de um arquivo {#audience-from-file}
+# Direcionar recipients de um arquivo {#audience-from-file}
 
-Você pode adicionar ou atualizar contatos da interface de entrega, carregando um arquivo de texto (TXT) ou um arquivo de valores separados por vírgulas (CSV). Eles serão adicionados ao banco de dados.
+Você pode carregar contatos de um arquivo externo. Esse recurso só está disponível para deliveries de email. Os formatos compatíveis são: arquivo de texto (TXT) ou arquivo de valores separados por vírgula (CSV). Eles serão adicionados ao banco de dados.
 
 >[!NOTE]
 >
->Você também pode criar um fluxo de trabalho de importação para adicionar ou atualizar vários perfis.
+>Você pode criar um workflow de importação para adicionar ou atualizar vários perfis.  Saiba mais
 
 
-Para adicionar perfis de um arquivo local diretamente da interface, siga estas etapas:
+Para direcionar perfis de um arquivo local diretamente da interface do, siga estas etapas:
 
-1. Na janela de criação da entrega, clique no botão **Selecionar público** e escolha a opção **Selecionar do arquivo**.
+1. Na janela de criação de delivery de email, clique no link **Selecionar público** e selecione o botão **Selecionar do arquivo** opção.
+
+   ![](assets/select-from-file.png)
+
 1. Selecione o arquivo a ser carregado.
-1. Defina as configurações da coluna e como formatar dados. É possível ignorar uma coluna usando o botão de alternância **Ignorar coluna**.
 1. Visualize como os dados são mapeados na seção central da tela.
+1. Escolha a coluna que contém o endereço de email da **Campo de endereço** menu suspenso.
+1. Ajuste as configurações de coluna e como formatar dados a partir das opções disponíveis.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
 Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada no Editor de personalização.
+
+![](assets/select-external-perso.png)
 
 ## Arquivo de amostra {#sample-file}
 
@@ -40,10 +46,10 @@ Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do
 
 ```json
 {
-lastname,firstname,birthdate,email,crmID
-Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
-Mars,Daniel,17/11/1987,dannymars@example.com,123545
-Smith,Clara,08/02/1989,clara.smith@example.com,124567
-Durance,Allison,15/12/1978,allison.durance@example.com,120987
+lastname,firstname,city,birthdate,email,denylist
+Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
