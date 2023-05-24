@@ -4,10 +4,10 @@ title: Descubra a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 87%
+source-wordcount: '1535'
+ht-degree: 83%
 
 ---
 
@@ -86,12 +86,12 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campanhas"
->abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Os modelos de campanha também estão disponíveis. Essas listas são do tipo somente leitura."
+>abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Clique no botão &quot;Criar campanha&quot; para adicionar uma nova campanha. Selecione uma campanha para exibir seu conteúdo, deliveries e detalhes. Navegue até a guia &quot;Modelos&quot; para exibir e criar modelos."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="Navegue pela lista de entregas. Você pode visualizar o estado, a última data de modificação e as principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique numa entrega de email para abrir seu painel. Os outros itens são do tipo somente leitura. Os templates de entrega também estão disponíveis."
+>abstract="Navegue pela lista de entregas. Você pode visualizar o status, contato e datas de modificação, KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique no botão &quot;Criar delivery&quot; para adicionar um novo delivery. Selecione um delivery para exibir seu conteúdo, público-alvo e detalhes."
 
 * **Campanhas**: é a lista das suas campanhas. Por padrão, você pode ver suas datas de início/término/última modificação, bem como o status. Você pode filtrar a lista por status ou datas iniciais/finais. Os modelos de campanha também estão disponíveis. Essas listas são do tipo somente leitura.
 
