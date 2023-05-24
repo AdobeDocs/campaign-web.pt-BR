@@ -13,7 +13,7 @@ ht-degree: 81%
 
 # Iniciar e monitorar a execução do fluxo de trabalho {#start-monitor}
 
-Depois de criar seu workflow e projetar as tarefas a serem executadas na tela de workflow, é possível iniciar sua execução e monitorar como ele está sendo executado.
+Depois de criar o fluxo de trabalho e projetar as tarefas a serem executadas na tela do fluxo de trabalho, você poderá iniciar a execução e monitorar como ele está sendo executado.
 
 * como executar o fluxo de trabalho
 

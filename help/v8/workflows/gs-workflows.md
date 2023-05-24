@@ -34,7 +34,7 @@ Estes são alguns exemplos de como você pode usar os workflows com o Adobe Camp
 
 ## Vamos nos aprofundar um pouco mais
 
-Agora que você tem uma compreensão do que são workflows e do que pode fazer com eles no Adobe Campaign, é hora de aprofundar essas seções de documentação para começar a trabalhar com o recurso.
+Agora que você entende o que são fluxos de trabalho e o que pode fazer com eles no Adobe Campaign, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
 
 * Crie seu primeiro fluxo de trabalho
 * Criação de workflows

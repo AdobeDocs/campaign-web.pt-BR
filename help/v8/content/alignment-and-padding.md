@@ -24,7 +24,7 @@ Neste exemplo, ajustamos o preenchimento e o alinhamento vertical em um componen
 
    ![](assets/alignment_2.png)
 
-1. Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Estilos]** guia . Ajuste o **[!UICONTROL Alinhamento]** usando a seção dedicada.
+1. Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Estilos]** guia. Ajuste a variável **[!UICONTROL Alinhamento]** usando a seção dedicada.
 
    ![](assets/alignment_3.png)
 

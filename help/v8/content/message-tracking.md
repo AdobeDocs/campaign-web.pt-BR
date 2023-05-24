@@ -33,7 +33,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Salve as alterações.
 
-1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Configurações]** guia .
+1. Depois que o link for criado, você ainda poderá modificá-lo no **[!UICONTROL Configurações]** guia.
 
    * Você pode editar o link e alterar seu **[!UICONTROL Público-alvo]**.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.

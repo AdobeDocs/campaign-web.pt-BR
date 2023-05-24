@@ -13,13 +13,13 @@ ht-degree: 26%
 
 # Atividades de canal {#channel}
 
-O Adobe Campaign Web permite que você automatize e execute campanhas de marketing em vários canais, como email, SMS ou push. Com os fluxos de trabalho do Adobe Campaign, é possível combinar atividades de canal na tela para criar fluxos de trabalho entre canais que podem acionar ações com base no comportamento do cliente.
+A Adobe Campaign Web permite automatizar e executar campanhas de marketing em vários canais, como email, SMS ou push. Com workflows do Adobe Campaign, você pode combinar atividades de canal na tela para criar workflows entre canais que podem acionar ações com base no comportamento do cliente.
 
 Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui uma série de mensagens em diferentes canais, como email, SMS e push. Você também pode enviar um email de acompanhamento depois que um cliente concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
 
-Ao usar atividades de canal, você pode criar campanhas abrangentes e personalizadas que envolvam clientes em vários pontos de contato e gerar conversões.
+Usando atividades de canal, você pode criar campanhas abrangentes e personalizadas que envolvem clientes em vários pontos de contato e geram conversões.
 
-As atividades de Canal estão disponíveis na paleta, no lado esquerdo da tela, na seção Canais .
+As atividades de canal estão disponíveis na paleta, no lado esquerdo da tela, na seção Canais.
 
 ## Email {#email}
 
@@ -40,6 +40,6 @@ This can be a single send email and sent just once, or it can be a recurring ema
 
 When linked to a scheduler, you can define recurring emails.-->
 
-Os recipients do email são definidos no sentido upstream da atividade, no mesmo workflow, por meio de uma atividade de direcionamento de público-alvo.
+Os destinatários de email são definidos no sentido upstream da atividade, no mesmo fluxo de trabalho, por meio de uma atividade de direcionamento de Público-alvo.
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->

@@ -65,7 +65,7 @@ Para adicionar personalização ao campo **[!UICONTROL Linha de assunto]** da me
 
 1. Insira o conteúdo da linha de assunto e selecione os atributos de personalização a serem adicionados.
 
-1. Clique em **[!UICONTROL Confirmar]**** para validar. Os atributos de personalização são adicionados à linha de assunto.
+1. Clique em **[!UICONTROL Confirmar o]**** para validar. Os atributos de personalização são adicionados à linha de assunto.
 
 ## Personalizar seu conteúdo de email {#personalize-emails}
 

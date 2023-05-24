@@ -33,7 +33,7 @@ Para adicionar um link a uma mirror page no seu email:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Selecione o **[!UICONTROL Adicionar personalização]** para acessar o menu de personalização.
+1. Selecione o **[!UICONTROL Adicionar personalização]** ícone para acessar o menu de personalização.
 
    ![](assets/message-tracking-mirror-page_2.png)
 

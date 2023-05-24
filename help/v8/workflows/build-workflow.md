@@ -18,11 +18,11 @@ TBC de conteúdo
 Princípio e visão geral da tela do fluxo de trabalho
 
 
-Uma vez que você [criar um workflow](create-workflow.md), no menu de workflow ou em uma campanha, você pode iniciar a orquestração das diferentes tarefas que ela executará.
+Depois que você tiver [criou um workflow](create-workflow.md), no menu workflow ou em uma campanha, você pode começar a orquestrar as diferentes tarefas que ela executará.
 
-Para fazer isso, uma tela visual permite criar um diagrama de workflow, no qual você pode adicionar várias atividades e vinculá-las em uma ordem sequencial.
+Para fazer isso, uma tela visual permite criar um diagrama de workflow, no qual é possível adicionar várias atividades e vinculá-las em ordem sequencial.
 
-* [Saiba como trabalhar com a tela de fluxo de trabalho](#canvas)
+* [Saiba como trabalhar com a tela de workflow](#canvas)
 * [Saiba como adicionar e conectar atividades de workflow](#activities)
 
 ## Trabalhar com a tela do fluxo de trabalho {#canvas}
@@ -40,4 +40,4 @@ Para fazer isso, uma tela visual permite criar um diagrama de workflow, no qual 
 * Trabalhar com transições: visualizar resultados, adicionar rótulos às transições
 * Relação entre atividades: quais atividades é possível ou não adicionar dependendo da atividade anterior
 
-Depois de criar o diagrama de workflow com sucesso, você pode executar o workflow e acompanhar como suas várias tarefas estão sendo executadas. [Saiba como iniciar um workflow e monitorar sua execução](start-monitor-workflows.md)
+Depois de criar com êxito o diagrama de workflow, você poderá executá-lo e controlar como suas várias tarefas estão sendo executadas. [Saiba como iniciar e monitorar a execução de um workflow](start-monitor-workflows.md)

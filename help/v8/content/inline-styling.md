@@ -18,7 +18,7 @@ Na interface do Designer de email, ao selecionar um elemento e exibir suas confi
 
 1. Selecione um componente diretamente no conteúdo ou usando a **[!UICONTROL Árvore de navegação]** disponível no painel esquerdo.
 
-1. No **[!UICONTROL Estilos]** clique no botão **[!UICONTROL Avançado]** lista suspensa.
+1. No **[!UICONTROL Estilos]** clique na guia **[!UICONTROL Avançado]** menu suspenso.
 
    ![](assets/styles_1.png)
 

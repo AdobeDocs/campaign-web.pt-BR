@@ -19,7 +19,7 @@ ht-degree: 27%
 >title="Propriedades do fluxo de trabalho"
 >abstract="A confirmar"
 
-A primeira etapa para criar seu workflow no Campaign v8 Web é criar o workflow como um workflow independente ou criá-lo diretamente em uma campanha e definir suas propriedades.
+A primeira etapa para criar o workflow na Web do Campaign v8 é criá-lo como um workflow independente ou diretamente em uma campanha, e definir suas propriedades.
 
 Para fazer isso, siga estas etapas:
 
@@ -29,4 +29,4 @@ Para fazer isso, siga estas etapas:
 
 Conteúdo a ser definido:
 
-Agora que seu fluxo de trabalho foi criado, você pode começar a orquestrar as diferentes tarefas que ele executará em uma tela visual dedicada. [Saiba como organizar atividades de workflow](build-workflow.md)
+Agora que seu fluxo de trabalho foi criado, você pode começar a orquestrar as diferentes tarefas que ele executará em uma tela visual dedicada. [Saiba como orquestrar atividades de workflow](build-workflow.md)

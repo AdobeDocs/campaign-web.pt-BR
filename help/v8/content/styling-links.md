@@ -18,7 +18,7 @@ ht-degree: 81%
 
 1. Em um componente **[!UICONTROL Texto]**, no qual um link é inserido, selecione seu link.
 
-1. No **[!UICONTROL Configurações]** guia , verifique **[!UICONTROL Link Sublinhado]** para que o rótulo fique sublinhado.
+1. No **[!UICONTROL Configurações]** , marque **[!UICONTROL Sublinhar link]** para que o rótulo seja sublinhado.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ ht-degree: 81%
 
    ![](assets/link_2.png)
 
-1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** do **[!UICONTROL Estilos]** guia .
+1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** do **[!UICONTROL Estilos]** guia.
 
    ![](assets/link_3.png)
 
