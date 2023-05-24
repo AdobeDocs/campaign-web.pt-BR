@@ -34,7 +34,7 @@ Para definir o pré-cabeçalho de email, siga as etapas abaixo:
 
    ![](assets/preheader_body.png)
 
-1. No **[!UICONTROL Configurações]** adicione o precabeçalho . Você pode personalizá-lo ainda mais clicando no ícone **[!UICONTROL Adicionar personalização]**.
+1. No **[!UICONTROL Configurações]** adicione seu pré-cabeçalho. Você pode personalizá-lo ainda mais clicando no ícone **[!UICONTROL Adicionar personalização]**.
 
    ![](assets/preheader_body_settings.png)
 
