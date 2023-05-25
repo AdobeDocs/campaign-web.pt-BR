@@ -4,10 +4,10 @@ title: Direcionar recipients de um arquivo
 description: Saiba como usar recipients de um arquivo externo para criar seu público-alvo de email
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 21%
+source-wordcount: '288'
+ht-degree: 20%
 
 ---
 
@@ -50,6 +50,10 @@ Para direcionar perfis de um arquivo local diretamente da interface do, siga est
 Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada no Editor de personalização.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>Você não pode usar [grupos de controle](control-group.md) ao carregar a população do target de um arquivo externo.
 
 ## Arquivo de amostra {#sample-file}
 

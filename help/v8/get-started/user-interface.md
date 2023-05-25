@@ -4,10 +4,10 @@ title: Descubra a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 83%
+source-wordcount: '1624'
+ht-degree: 75%
 
 ---
 
@@ -66,7 +66,7 @@ Global report not alpha
 >title="Explorer"
 >abstract="O menu **Explorer** exibe a mesma hierarquia de pastas do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são do tipo somente leitura, exceto a lista de entrega de email."
 
-O menu **Explorer** exibe a mesma hierarquia de pastas do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8. Todas as telas de lista são do tipo somente leitura, exceto a lista de entrega de email.
+O menu **Explorer** exibe a mesma hierarquia de pastas do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8.
 
 Os itens exibidos no explorador dependem das permissões do usuário.
 
@@ -93,13 +93,18 @@ Navtree view depends on permissions (same as console).
 >title="Entregas"
 >abstract="Navegue pela lista de entregas. Você pode visualizar o status, contato e datas de modificação, KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique no botão &quot;Criar delivery&quot; para adicionar um novo delivery. Selecione um delivery para exibir seu conteúdo, público-alvo e detalhes."
 
-* **Campanhas**: é a lista das suas campanhas. Por padrão, você pode ver suas datas de início/término/última modificação, bem como o status. Você pode filtrar a lista por status ou datas iniciais/finais. Os modelos de campanha também estão disponíveis. Essas listas são do tipo somente leitura.
+Na seção CAMPAIGN MANAGEMENT, é possível acessar campanhas de marketing, deliveries e workflows.
+
+* **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador da campanha que a criou. Você pode filtrar a lista por status, datas de início/término e pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem.
 
 * **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Os templates de entrega também estão disponíveis no modo somente leitura. Você pode usar o Console do cliente para editá-los. Consulte esta [documentação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=pt-BR){target="_blank"}.
 
    Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
    ![](assets/more-actions.png){width="70%" align="left"}
+
+* **Fluxos de trabalho** - Nessa tela, é possível acessar a lista completa de fluxos de trabalho e modelos de fluxo de trabalho. Você pode verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo template de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, você pode filtrar ou não os workflows que pertencem a uma campanha.
+
 
 ### Gerenciamento de clientes
 
