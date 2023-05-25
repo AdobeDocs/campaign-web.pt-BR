@@ -4,10 +4,10 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 34%
+source-wordcount: '959'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,9 @@ Você pode criar deliveries independentes a partir do **[!UICONTROL Entregas]** 
 Para criar um delivery independente, siga estas etapas:
 
 1. Navegue até o **[!UICONTROL Entregas]** no menu de navegação esquerdo e clique no botão **[!UICONTROL Criar entrega]** botão.
+
+   ![](assets/create-a-delivery.png)
+
 1. Escolha um canal para a entrega. Saiba mais sobre canais de entrega e como definir um conteúdo de entrega nestas seções:
 
    * [Canal de email](../email/create-email.md)
@@ -108,3 +111,21 @@ Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-l
 ## Logs de rastreamento e entrega{#gs-tracking-logs}
 
 O monitoramento de entregas após serem enviados é uma etapa essencial para garantir que as campanhas de marketing sejam eficientes e atinjam os clientes. Você pode monitorar após enviar uma entrega, bem como entender como as falhas de entrega e as quarentenas são gerenciadas.
+
+## Duplicar um delivery{#delivery-duplicate}
+
+Você pode criar uma cópia de um delivery existente, na lista de delivery ou no painel de delivery.
+
+Para duplicar um delivery da lista de deliveries, siga estas etapas:
+
+1. Clique no botão de três pontos à direita, ao lado do nome do delivery a ser duplicado.
+1. Selecionar  **[!UICONTROL Duplicar]**.
+1. Confirme a duplicação: o novo painel de delivery é aberto na tela central.
+
+
+Para duplicar um delivery do painel, siga estas etapas:
+
+1. Abra o delivery e clique no link  **[!UICONTROL ...Mais]** na seção superior da tela.
+1. Selecionar  **[!UICONTROL Duplicar]**.
+1. Confirme a duplicação: o novo delivery substitui o delivery atual na tela central.
+
