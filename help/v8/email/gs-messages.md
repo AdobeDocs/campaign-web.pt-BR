@@ -4,7 +4,7 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 34%
@@ -102,7 +102,7 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 ## Pré-visualizar e testar seus deliveries
 
-Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-lo para controlar a renderização das mensagens e verificar as configurações de personalização com perfis de teste. [Saiba mais](preview.md)
+Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-lo para controlar a renderização das mensagens e verificar as configurações de personalização com perfis de teste. [Saiba mais](../preview-test/preview-test.md)
 
 
 ## Logs de rastreamento e entrega{#gs-tracking-logs}
