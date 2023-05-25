@@ -4,10 +4,10 @@ title: Descubra a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a1e515b1a70e8959755cace78a6999e973564153
+source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 74%
+source-wordcount: '1598'
+ht-degree: 72%
 
 ---
 
@@ -95,15 +95,15 @@ Navtree view depends on permissions (same as console).
 
 Na seção CAMPAIGN MANAGEMENT, é possível acessar campanhas de marketing, deliveries e workflows.
 
-* **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador da campanha que a criou. Você pode filtrar a lista por status, datas de início/término e pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem.
+* **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador da campanha que a criou. Você pode filtrar a lista por status, datas de início/término e pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem. Saiba mais sobre campanhas de [nesta seção](../campaigns/gs-campaigns.md).
 
-* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Os templates de entrega também estão disponíveis no modo somente leitura. Você pode usar o Console do cliente para editá-los. Consulte esta [documentação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=pt-BR){target="_blank"}.
+* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre deliveries [nesta seção](../email/gs-messages.md).
 
    Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Fluxos de trabalho** - Nessa tela, é possível acessar a lista completa de fluxos de trabalho e modelos de fluxo de trabalho. Você pode verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo template de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, você pode filtrar ou não os workflows que pertencem a uma campanha.
+* **Fluxos de trabalho** - Nessa tela, é possível acessar a lista completa de fluxos de trabalho e modelos de fluxo de trabalho. Você pode verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo template de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, você pode filtrar ou não os workflows que pertencem a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 
 
 ### Gerenciamento de clientes
@@ -126,7 +126,6 @@ Na seção CAMPAIGN MANAGEMENT, é possível acessar campanhas de marketing, del
 * **Recipients**: acessa o banco de dados de recipients. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Essa lista é do tipo somente leitura.
 * **Públicos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Essa lista é do tipo somente leitura.
 * **Listas de assinaturas**: navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Essa lista é do tipo somente leitura.
-* **Workflows para direcionamento** acessa a lista de fluxos de trabalho da campanha. Por padrão, é possível ver o estado, as datas do último/próximo processamento e o ambiente. É possível filtrar a lista por estado, data do último processamento e tipo de fluxo de trabalho. Os modelos de fluxo de trabalho também estão disponíveis. Essas listas são do tipo somente leitura.
 
 ### Gestão de decisões
 
