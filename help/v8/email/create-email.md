@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Nesse caso de uso, você usará um template predefinido para criar o email.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definir o público"
->abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público existente já definido em uma instância do Campaign v8 ou na Adobe Experience Platform. Também é possível criar um novo público com o construtor de regras."
+>abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público existente já definido em uma instância do Campaign v8 ou na Adobe Experience Platform. Também é possível criar um novo público com o construtor de regras. Os grupos de controle não estão habilitados para &#39;Selecionar do arquivo&#39; e vice-versa."
 
 Nesse caso de uso, você enviará o email para um público existente. Instruções adicionais sobre como trabalhar com públicos estão disponíveis [nesta seção](../audience/about-audiences.md).
 
