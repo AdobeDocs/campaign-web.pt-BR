@@ -4,10 +4,10 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 38%
+source-wordcount: '604'
+ht-degree: 35%
 
 ---
 
@@ -25,7 +25,7 @@ O Adobe Campaign v8 vem com os seguintes canais de entrega:
 
 ## Criar um delivery
 
-Você pode criar deliveries independentes a partir do **Entrega** ou crie deliveries no contexto de uma campanha de marketing.
+Você pode criar deliveries independentes a partir do **Entregas** menu à esquerda, ou crie deliveries no contexto de uma campanha de marketing, no **Campanhas** menu esquerdo.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Para criar um delivery independente, siga estas etapas:
 Para criar um delivery em uma campanha, siga estas etapas:
 
 1. Crie uma campanha ou abra uma campanha existente.
+1. Crie um workflow ou abra um workflow existente.
+1. Adicionar e configurar um **Criar público-alvo** e clique no link `+`botão.
+   ![](assets/add-delivery-in-wf.png)
+1. Selecione uma atividade de delivery: email, SMS, notificação por push (Android) ou notificação por push (iOS). Saiba mais sobre canais de entrega e como definir um conteúdo de entrega nestas seções:
+
+   * [Canal de email](../email/create-email.md)
+   * [Canal de notificação por push](../push/gs-push.md)
+   * [Canal de SMS](../sms/create-sms.md)
+
+1. Inicie o fluxo de trabalho e verifique os logs.
 
 Para obter mais informações sobre como configurar uma campanha,
 
