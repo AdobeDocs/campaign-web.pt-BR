@@ -4,9 +4,9 @@ title: Visualizar conteúdo de email
 description: Saiba como visualizar o conteúdo de email com a interface do Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # Visualizar conteúdo de email {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Visualização inteligente do conteúdo"
->abstract="Use os dados do perfil para visualizar o conteúdo do email antes de enviá-lo, controlar os atributos de personalização e verificar como os recipients podem ver o conteúdo da mensagem."
 
 Use o recurso de simulação de conteúdo do Adobe Campaign para visualizar o conteúdo do email antes de enviá-lo, a fim de controlar a personalização e verificar como ele é exibido para os recipients.
 

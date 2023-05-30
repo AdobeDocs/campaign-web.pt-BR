@@ -4,7 +4,7 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 30%
@@ -50,7 +50,7 @@ Para criar um delivery independente, siga estas etapas:
 1. Use o  **[!UICONTROL Simular conteúdo]** botão para testar o delivery e as configurações de personalização. Saiba mais sobre a simulação de mensagens em [nesta seção](../preview-test/preview-test.md).
 1. Clique em  **[!UICONTROL Preparar]** botão para calcular a população do target e gerar as mensagens. A etapa de preparação pode levar alguns minutos. Quando a preparação estiver concluída, as mensagens estarão prontas para envio. Em caso de erro, navegue até a janela **Logs** para verificar alertas e avisos.
 1. Verifique os resultados e clique no botão  **[!UICONTROL Enviar]** botão para iniciar o envio de mensagens.
-1. Depois que as mensagens forem enviadas, navegue até o **Relatórios** para acessar as métricas principais. Saiba mais sobre relatórios de entrega em [nesta seção](../reporting/reports.md).
+1. Depois que as mensagens forem enviadas, navegue até o **Relatórios** para acessar as métricas principais. Saiba mais sobre relatórios de entrega em [nesta seção](../reporting/delivery-reports.md).
 
 >[!TAB Criar um delivery em uma campanha]
 

@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: b75c5a86f18d3750de203ea1a24b51d697946d94
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 92%
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
@@ -86,5 +86,7 @@ ht-degree: 92%
       + [Atividades de direcionamento](workflows/targeting-activities.md)
       + [Atividades de canal](workflows/channel-activities.md)
       + [Atividades de gerenciamento de dados](workflows/data-management-activities.md)
-+ [Relatórios](reporting/reports.md)
++ Relatórios {#reports}
+   + [Introdução aos relatórios](reporting/gs-reports.md)
+   + [Acessar relatórios de delivery](reporting/delivery-reports.md)
 

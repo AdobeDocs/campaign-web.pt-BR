@@ -4,14 +4,20 @@ title: Introdução a workflows
 description: Saiba como começar a usar os workflows
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 90%
+source-wordcount: '381'
+ht-degree: 85%
 
 ---
 
 # Introdução a workflows {#workflows}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Interface de tela de workflow reformulada"
+>abstract="Nossa tela gráfica abrangente facilita a criação de processos como segmentação, execução de campanha e muito mais."
+
 
 ## O que é um fluxo de trabalho?
 
