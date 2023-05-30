@@ -4,15 +4,20 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 94%
 
 ---
 
 
 # Enviar seu primeiro email {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Envie seu primeiro email com o Adobe Campaign"
+>abstract="Saiba como usar o Designer de email para criar seu conteúdo, pré-visualizá-lo e testá-lo, além de enviar um email para um público-alvo existente em um caso de uso completo."
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
@@ -20,7 +25,7 @@ Baseado em um template de design predefinido, o email também apresenta conteúd
 
 ![](assets/delivery-list.png)
 
-## Criar o email {#create-email}
+## Criar o email entrega {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ Baseado em um template de design predefinido, o email também apresenta conteúd
 >title="Propriedades de email"
 >abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. Se a entrega for baseada em um schema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
 
-1. Para criar uma nova entrega, navegue até o menu **[!UICONTROL Entregas]** no painel à esquerda e clique no botão **[!UICONTROL Criar entrega]**.
+Para criar um novo delivery, siga estas etapas:
+
+1. Navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
 
 1. Selecione o canal de **[!UICONTROL Email]** e escolha um template.
 
@@ -60,11 +67,6 @@ Baseado em um template de design predefinido, o email também apresenta conteúd
    Além disso, as configurações avançadas, como regras de tipologia e mapeamentos de público alvo, podem ser acessadas clicando no botão ao lado do nome da entrega. Essas definições são pré-configuradas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico.
 
 ## Criar conteúdo de email {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Saiba como criar conteúdo de email"
->abstract="Salba como usar o Designer de email."
 
 As instruções detalhadas sobre como configurar o conteúdo de email estão disponíveis [nesta seção](../content/edit-content.md).
 

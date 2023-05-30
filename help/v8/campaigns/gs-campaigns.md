@@ -4,16 +4,21 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 20%
+source-wordcount: '340'
+ht-degree: 18%
 
 ---
 
 # Introdução às campanhas {#campaigns}
 
-Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente para criar experiências personalizadas em diferentes canais. Os canais de email, push e SMS estão disponíveis.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Projetar e enviar campanhas entre canais"
+>abstract="Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Os canais de email, push e SMS estão disponíveis."
+
+Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Os canais de email, push e SMS estão disponíveis.
 
 Projete e execute campanhas de email de alto volume para entregar mensagens personalizadas para todas as plataformas e telas.
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Com os recursos de segmentação do Adobe Campaign, você pode executar consultas em um banco de dados de alto volume e definir facilmente segmentos de marketing dinâmicos que direcionam perfeitamente suas campanhas.
@@ -25,8 +30,6 @@ Projete e execute campanhas de email de alto volume para entregar mensagens pers
 >id="acw_campaign_creation_workflow"
 >title="Lista de fluxos de trabalho"
 >abstract="Lista de fluxos de trabalho disponíveis para sua campanha. Use o botão &quot;Criar workflow&quot; para adicionar um workflow à sua campanha."
-
-
 
 Em uma campanha entre canais, uma única comunicação de marketing usa canais diferentes. Os dados são transmitidos entre os canais. O cliente recebe a comunicação por meio de vários canais com base, por exemplo, na interação com a comunicação anterior.
 
