@@ -4,10 +4,10 @@ title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
+source-git-commit: 38db8be3319c348d3afc6af02a65dce582e3cc97
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 62%
+source-wordcount: '1122'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,9 @@ Essas atividades permitem construir um ou mais públicos alvos definindo conjunt
 
 Esta atividade permite definir um público-alvo. Você pode selecionar um público existente do Campaign ou usar o construtor de regras para definir sua própria consulta.
 
-A variável **Criar público-alvo** A atividade pode ser colocada no início do workflow ou após qualquer outra atividade. Qualquer atividade pode ser colocada após a variável **Criar público-alvo**.
+<!--
+The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+-->
 
 Para criar sua própria consulta:
 
@@ -39,13 +41,53 @@ Para selecionar um público existente,
 
 ### Combinar {#combine}
 
-A variável **Combinar** A atividade pode ser colocada após qualquer outra atividade, mas não no início do workflow. Qualquer atividade pode ser colocada após a variável **Combinar**.
+Essa atividade permite processar conjuntos em dados de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets. Estes são os tipos de segmentação disponíveis:
 
-União: permite agrupar o resultado de várias atividades em um único target. Consulte a seção Union.
+<!--
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
 
-Intersecção: permite extrair apenas o público com os mesmos resultados de atividade de entrada
+* A variável **União** permite reagrupar o resultado de várias atividades em um único público-alvo.
+* A variável **Interseção** O permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade.
+* A variável **Exclusão** O permite excluir elementos de uma população de acordo com determinados critérios.
 
-Exclusão: permite criar um target com base em um target principal do qual um ou mais targets são extraídos.
+Siga estas etapas para configurar o **Combinar** atividade:
+
+1. Adicione **Combinar** para qualquer uma das transições de segmentação anteriores.
+1. Selecione o tipo de segmentação: união, interseção ou exclusão.
+1. Clique em **Continue**.
+1. No **Conjuntos para ingressar** marque todas as atividades anteriores nas quais deseja participar.
+
+Para o **União**, siga estas etapas:
+
+1. Selecione o tipo Reconciliation para definir como as duplicatas são tratadas:
+   * Keys only: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
+   * A selection of columns: selecione esta opção para definir a lista de colunas em que a reconciliação de dados será aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a junção.
+
+Para o **Interseção** siga estas etapas:
+
+1. Selecione o tipo Reconciliation para definir como as duplicatas são tratadas. Consulte a **União** acima.
+1. Marque a opção Generate completement.
+
+Para o **Exclusão**, siga estas etapas:
+
+1. No **Conjuntos para ingressar** , selecione a **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
+1. Marque a opção Generate completement.
+
+
+
+
+
+
+
+
+
+
+
+
+Interseção: permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade.
+
+Exclusão: permite excluir elementos de uma população de acordo com determinados critérios.
 
 ### Enriquecimento {#enrichment}
 
