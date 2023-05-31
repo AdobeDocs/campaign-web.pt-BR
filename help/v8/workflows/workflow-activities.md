@@ -4,10 +4,10 @@ title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 60%
+source-wordcount: '904'
+ht-degree: 62%
 
 ---
 
@@ -40,6 +40,12 @@ Para selecionar um público existente,
 ### Combinar {#combine}
 
 A variável **Combinar** A atividade pode ser colocada após qualquer outra atividade, mas não no início do workflow. Qualquer atividade pode ser colocada após a variável **Combinar**.
+
+União: permite agrupar o resultado de várias atividades em um único target. Consulte a seção Union.
+
+Intersecção: permite extrair apenas o público com os mesmos resultados de atividade de entrada
+
+Exclusão: permite criar um target com base em um target principal do qual um ou mais targets são extraídos.
 
 ### Enriquecimento {#enrichment}
 
