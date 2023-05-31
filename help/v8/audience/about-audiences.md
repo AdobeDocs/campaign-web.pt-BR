@@ -4,10 +4,10 @@ title: Introdução aos públicos
 description: Saiba como usar públicos na interface do Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 83%
+source-wordcount: '162'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Introdução aos públicos"
->abstract="Saiba como usar o construtor de regras do Campaign e definir critérios de filtragem para criar públicos-alvo para suas mensagens."
+>abstract="Saiba como usar o construtor de regras do Campaign e definir critérios de filtragem para criar públicos-alvo para suas mensagens. Você também pode usar facilmente dados de um arquivo externo ou direcionar públicos-alvo da Adobe Experience Platform."
 
 <!--
 Audience only created for the delivery, not available later-->
