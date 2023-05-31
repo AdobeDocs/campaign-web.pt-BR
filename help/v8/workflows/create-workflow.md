@@ -4,9 +4,9 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,15 @@ A primeira etapa para criar o workflow na Web do Campaign v8 é criá-lo como um
    * **Fluxo de trabalho independente**: Navegue até o menu Workflows e clique no botão Create workflow no canto superior direito.
    * **Fluxo de trabalho de campanha:** Navegue até o menu Campanhas e abra a campanha em que deseja criar um novo fluxo de trabalho. Clique no botão Create workflow no canto superior direito da guia Workflows.
 
-1. A caixa de diálogo Propriedades do workflow é exibida. Selecione o template a ser usado para criar o workflow e forneça um nome para ele.
-
-   Os templates de workflow contêm atividades pré-configuradas e configurações gerais de propriedade que podem ser reutilizadas para criar novos workflows. Eles são criados no console do cliente. [Saiba como trabalhar com modelos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   A caixa de diálogo Propriedades do workflow é exibida.
 
    ![](assets/workflow-create.png)
 
-1. Na seção Additional options, defina configurações específicas para o workflow, como a pasta de armazenamento e o fuso horário. [Saiba como configurar propriedades de fluxo de trabalho](workflow-settings.md)
+1. Selecione o template a ser usado para criar o workflow e fornecer um rótulo para o workflow.
+
+   Os templates de workflow contêm atividades pré-configuradas e configurações gerais de propriedade que podem ser reutilizadas para criar novos workflows. Eles são criados no console do cliente. [Saiba como trabalhar com modelos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. Expanda a seção Opções adicionais se desejar definir configurações específicas para o workflow, como a pasta de armazenamento e o fuso horário. [Saiba como configurar propriedades de fluxo de trabalho](workflow-settings.md)
 
 1. Clique no botão Create workflow para confirmar a criação do workflow.
 
