@@ -4,7 +4,7 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
+source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 4%
@@ -71,7 +71,7 @@ Nessa etapa da configuração, o diagrama é exibido com um ícone de início, r
 
 Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama de workflow. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar seu workflow direcionando um público-alvo, dividindo o caminho do workflow ou definindo uma atividade Wait para atrasar a execução do workflow. Por outro lado, se ao adicionar uma atividade após uma atividade Criar público-alvo, você puder refinar seu público-alvo com atividades de direcionamento, enviar um delivery para seu público com atividades de canal ou organizar o processo de fluxo de trabalho com atividades de controle de fluxo.
 
-Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido, permitindo configurar a atividade recém-adicionada com configurações específicas. Informações detalhadas sobre como configurar cada atividade estão disponíveis em [nesta seção](get-started-activities.md).
+Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido, permitindo configurar a atividade recém-adicionada com configurações específicas. Informações detalhadas sobre como configurar cada atividade estão disponíveis em [nesta seção](workflow-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
