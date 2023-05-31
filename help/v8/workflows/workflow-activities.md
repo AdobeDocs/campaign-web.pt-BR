@@ -4,10 +4,10 @@ title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 74%
+source-wordcount: '853'
+ht-degree: 60%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 74%
 
 ## Atividades de direcionamento {#targeting}
 
-Conteúdo a ser definido
+Essas atividades permitem construir um ou mais públicos alvos definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de intersecção, união ou exclusão.
 
-<!--à reformuler-->Essas atividades permitem construir um ou mais públicos alvos definindo conjuntos e dividindo ou combinando esses conjuntos usando operações de intersecção, união ou exclusão.
+### Criar público-alvo {#build-audience}
 
-### Criar público {#build-audience}
+Esta atividade permite definir um público-alvo. Você pode selecionar um público existente do Campaign ou usar o construtor de regras para definir sua própria consulta.
+
+A variável **Criar público-alvo** A atividade pode ser colocada no início do workflow ou após qualquer outra atividade. Qualquer atividade pode ser colocada após a variável **Criar público-alvo**.
+
+Para criar sua própria consulta:
+
+1. Selecionar **Crie o seu próprio (consulta)**.
+1. Escolha o **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação: recipients, beneficiários de contrato, operadores, assinantes etc. Por padrão, o target é selecionado dos recipients. Consulte a [Documentação do v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Clique em **Continue**.
+1. Use o construtor de regras para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. Consulte esta [seção](../audience/segment-builder.md).
+
+Para selecionar um público existente,
+
+1. Selecionar **Ler público**.
+1. Clique em **Continue**.
+1. Selecione seu público, da mesma forma que você usa um público ao criar um novo email. Consulte esta [seção](../audience/add-audience.md).
 
 ### Combinar {#combine}
+
+A variável **Combinar** A atividade pode ser colocada após qualquer outra atividade, mas não no início do workflow. Qualquer atividade pode ser colocada após a variável **Combinar**.
 
 ### Enriquecimento {#enrichment}
 
