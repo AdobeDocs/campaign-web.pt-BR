@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 0105bb268e807b568f2d1c465f4636419fc070b6
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 91%
+source-wordcount: '275'
+ht-degree: 90%
 
 ---
 
@@ -82,10 +82,7 @@ ht-degree: 91%
       + [Adicionar e orquestrar atividades de fluxo de trabalho](workflows/build-workflow.md)
       + [Definir as configurações do fluxo de trabalho](workflows/workflow-settings.md)
       + [Iniciar e monitorar um fluxo de trabalho](workflows/start-monitor-workflows.md)
-   + Trabalhar com atividades de fluxo de trabalho {#design-workflows}
-      + [Atividades de direcionamento](workflows/targeting-activities.md)
-      + [Atividades de canal](workflows/channel-activities.md)
-      + [Atividades de gerenciamento de dados](workflows/data-management-activities.md)
+   + [Atividades de fluxos de trabalho](workflows/workflow-activities.md)
 + Relatórios {#reports}
    + [Introdução aos relatórios](reporting/gs-reports.md)
    + [Acessar relatórios de delivery](reporting/delivery-reports.md)

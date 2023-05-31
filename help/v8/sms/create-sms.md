@@ -3,7 +3,8 @@ audience: end-user
 title: Criar uma entrega de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 12%
@@ -42,4 +43,3 @@ ht-degree: 12%
 1. Clique em **[!UICONTROL Editar conteúdo]** para começar a projetar o conteúdo da mensagem SMS.
 
 1. Para agendar seu delivery para uma data e hora específicas, ative a opção **[!UICONTROL Ativar agendamento]** opção. Depois de iniciar o delivery, a mensagem será enviada automaticamente na data e hora exatas definidas para o recipient.
-

@@ -5,7 +5,8 @@ description: Saiba como criar e usar modelos de entrega no Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 4%
@@ -70,5 +71,3 @@ Para configurar um template do delivery do zero, siga as etapas abaixo:
 1. Defina o nome e as configurações do template.
 1. Clique em **[!UICONTROL Revisão]** botão para definir o conteúdo do template e alterar suas propriedades.
 1. Salve o novo template.
-
-
