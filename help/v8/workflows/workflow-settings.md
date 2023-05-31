@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,9 @@ defina as configurações disponíveis no botão na tela do fluxo de trabalho
 * Nome interno
 * Pasta
 * Campanha vinculada > pode alterá-la. Nesse caso, o fluxo de trabalho desaparecerá da campanha atual e aparecerá no novo vinculado
+
+   Ao criar um workflow em uma campanha, você encontrará um campo Campaign adicional, que permite identificar e acessar facilmente a campanha associada ao workflow.
+
 * Fuso horário: por padrão, é possível definir um fuso horário específico para usar em todas as atividades do fluxo de trabalho. Por padrão, o fuso horário do fluxo de trabalho é aquele definido para o operador atual do Campaign.
 * Supervisor: quando um fluxo de trabalho está com erro, o(s) operador(es) pertencente(s) ao grupo de supervisão do fluxo de trabalho recebe(m) notificação por email, desde que o endereço de email esteja listado em seu respectivo perfil. Esse grupo é selecionado no campo **[!UICONTROL Supervisor(es)]** das propriedades do fluxo de trabalho.
 * descrição
