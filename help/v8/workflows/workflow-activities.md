@@ -4,9 +4,9 @@ title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 38db8be3319c348d3afc6af02a65dce582e3cc97
+source-git-commit: ebd119a38129f8576ad9b4e4b9301b116a255c9b
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1140'
 ht-degree: 52%
 
 ---
@@ -26,14 +26,20 @@ Esta atividade permite definir um público-alvo. Você pode selecionar um públi
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-Para criar sua própria consulta:
+Siga estas etapas para configurar o **Criar público-alvo** atividade:
+
+1. Adicione uma atividade Build audience.
+1. Defina um rótulo.
+1. Defina o tipo de público-alvo: **Crie o seu próprio** ou **Ler público**.
+
+Para criar sua própria query, siga estas etapas adicionais:
 
 1. Selecionar **Crie o seu próprio (consulta)**.
 1. Escolha o **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação: recipients, beneficiários de contrato, operadores, assinantes etc. Por padrão, o target é selecionado dos recipients. Consulte a [Documentação do v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
 1. Clique em **Continue**.
 1. Use o construtor de regras para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. Consulte esta [seção](../audience/segment-builder.md).
 
-Para selecionar um público existente,
+Para selecionar um público existente, siga estas etapas:
 
 1. Selecionar **Ler público**.
 1. Clique em **Continue**.
@@ -58,36 +64,14 @@ Siga estas etapas para configurar o **Combinar** atividade:
 1. Clique em **Continue**.
 1. No **Conjuntos para ingressar** marque todas as atividades anteriores nas quais deseja participar.
 
-Para o **União**, siga estas etapas:
+Para o **União** e **Interseção**, é necessário selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
 
-1. Selecione o tipo Reconciliation para definir como as duplicatas são tratadas:
-   * Keys only: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
-   * A selection of columns: selecione esta opção para definir a lista de colunas em que a reconciliação de dados será aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a junção.
+    * Keys only: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
+    * A selection of columns: selecione esta opção para definir a lista de colunas em que a reconciliação de dados será aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a junção.
 
-Para o **Interseção** siga estas etapas:
+Para o **Interseção** e **Exclusão**, você pode verificar o **Gerar conclusão** opção se desejar processar o público restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Uma transição de saída adicional será adicionada à atividade.
 
-1. Selecione o tipo Reconciliation para definir como as duplicatas são tratadas. Consulte a **União** acima.
-1. Marque a opção Generate completement.
-
-Para o **Exclusão**, siga estas etapas:
-
-1. No **Conjuntos para ingressar** , selecione a **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
-1. Marque a opção Generate completement.
-
-
-
-
-
-
-
-
-
-
-
-
-Interseção: permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade.
-
-Exclusão: permite excluir elementos de uma população de acordo com determinados critérios.
+Para o **Exclusão**, selecione o **Conjunto principal** das transições de entrada, no **Conjuntos para ingressar** seção. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
 
 ### Enriquecimento {#enrichment}
 
@@ -135,7 +119,6 @@ exiba os resultados do filtro visualmente ou na visualização de código
 usar os dados de enriquecimento na campanha
 
 onde podemos usar os dados de enriquecimento: personalizar email, outros casos de uso?
-
 
 ## Atividades de canal {#channel}
 
