@@ -4,10 +4,10 @@ title: Notas de versão do Campaign Web v8
 description: Notas de versão do Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 81%
+source-wordcount: '447'
+ht-degree: 80%
 
 ---
 
@@ -70,6 +70,7 @@ Como um usuário existente do Campaign, observe que alguns conceitos foram renom
 As limitações abaixo se aplicam a esta versão Alfa:
 
 * Os únicos objetos editáveis são Entregas, Campanhas, Fluxos de trabalho, Públicos-alvo e Modelos. Os outros são para somente leitura. Use os filtros para navegar por todos eles.
+* Os públicos-alvo não podem ser salvos para uso futuro.
 * A interface de Administração não está disponível.
 * As métricas de relatório (como aberturas e dados de rastreamento) são atualizadas a cada hora.
 * Os KPIs do painel de entrega são atualizados a cada 5 minutos. - mas a preparação da Entrega é em tempo real.
