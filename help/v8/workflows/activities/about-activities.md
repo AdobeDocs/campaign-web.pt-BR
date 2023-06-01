@@ -4,10 +4,10 @@ title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 8%
 
 ---
 
@@ -21,6 +21,8 @@ Todas as atividades estão detalhadas nas seções abaixo:
 * [Atividades de direcionamento](#targeting)
 * [Atividades de canal](#channel)
 * [Atividades de controle de fluxo](#flow-control)
+
+![](../assets/wokflow-activities.png)
 
 ## Atividades de direcionamento {#targeting}
 

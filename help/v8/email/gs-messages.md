@@ -4,7 +4,7 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 30%
@@ -63,9 +63,9 @@ Para criar um delivery em uma campanha, siga estas etapas:
 
    ![](assets/add-delivery-in-wf.png)
 
-   A variável **[!UICONTROL Criar público-alvo]** A atividade está detalhada em [nesta seção](../workflows/workflow-activities.md#targeting).
+   A variável **[!UICONTROL Criar público-alvo]** A atividade está detalhada em [nesta seção](../workflows/activities/build-audience.md).
 
-1. Selecione uma atividade de delivery: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades de canal de delivery em um workflow e como definir um conteúdo de delivery neste [seção](../workflows/workflow-activities.md#channel).
+1. Selecione uma atividade de delivery: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades de canal de delivery em um workflow e como definir um conteúdo de delivery neste [seção](../workflows/activities/about-activities.md#channel).
 1. Inicie o fluxo de trabalho e verifique os logs.
 
 Você também pode adicionar deliveries em uma campanha sem criar um fluxo de trabalho. Para fazer isso, navegue até o **[!UICONTROL Entregas]** da campanha e clique no link **[!UICONTROL Criar entrega]** botão.
