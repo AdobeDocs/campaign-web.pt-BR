@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow Aguardar
 description: Saiba como usar a atividade de workflow Aguardar
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
+source-wordcount: '181'
+ht-degree: 39%
 
 ---
 
@@ -29,4 +29,6 @@ Siga estas etapas para configurar o **Aguardar** atividade:
 
 ## Exemplo
 
+O exemplo a seguir ilustra a **Aguardar** em um caso de uso típico. Um convite é enviado por email para um evento. 24 horas após o envio, um delivery de SMS é enviado para a mesma população.
 
+![](../assets/workflow-wait-example.png)
