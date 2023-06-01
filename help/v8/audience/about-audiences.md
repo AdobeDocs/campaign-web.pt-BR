@@ -4,20 +4,15 @@ title: Introdução aos públicos
 description: Saiba como usar públicos na interface do Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 75%
+source-wordcount: '147'
+ht-degree: 72%
 
 ---
 
 
 # Introdução aos públicos {#about-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Introdução aos públicos"
->abstract="Saiba como usar o construtor de regras do Campaign e definir critérios de filtragem para criar públicos-alvo para suas mensagens. Você também pode usar facilmente dados de um arquivo externo ou direcionar públicos-alvo da Adobe Experience Platform."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,7 +35,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Nesta seção, saiba como definir o público do email. O público alvo é o principal direcionamento da sua entrega: os recipients que recebem o email. O tipo de público depende do target mapping definido no template de entrega. Consulte esta [seção](../email/create-email.md).
+Saiba como usar o construtor de regras do Campaign e definir critérios de filtragem para criar públicos-alvo para suas mensagens. Você também pode usar facilmente dados de um arquivo externo ou direcionar públicos-alvo da Adobe Experience Platform. O público alvo é o principal direcionamento da sua entrega: os recipients que recebem o email. O tipo de público depende do target mapping definido no template de entrega. Consulte esta [seção](../email/create-email.md).
 
 Para definir o público, você pode:
 
