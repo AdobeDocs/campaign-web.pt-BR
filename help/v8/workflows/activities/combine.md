@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade Combinar workflow
 description: Saiba como usar a atividade Combinar workflow
 badge: label="Alpha" type="Positive"
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 21%
@@ -35,8 +35,8 @@ Siga estas etapas para configurar o **Combinar** atividade:
 
 Para o **União** e **Interseção**, é necessário selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
 
-    * Keys only: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
-    * A selection of columns: selecione esta opção para definir a lista de colunas em que a reconciliação de dados será aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a junção.
+* Keys only: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
+* A selection of columns: selecione esta opção para definir a lista de colunas em que a reconciliação de dados será aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a junção.
 
 Para o **Interseção** e **Exclusão**, você pode verificar o **Gerar conclusão** opção se desejar processar o público restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Uma transição de saída adicional será adicionada à atividade.
 
