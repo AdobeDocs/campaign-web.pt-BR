@@ -4,10 +4,10 @@ title: Introdução a workflows
 description: Saiba como começar a usar os workflows
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 83%
+source-wordcount: '387'
+ht-degree: 82%
 
 ---
 
@@ -41,12 +41,6 @@ Estes são alguns exemplos de como você pode usar os workflows com o Adobe Camp
 ## Vamos nos aprofundar um pouco mais
 
 Agora que você entende o que são fluxos de trabalho e o que pode fazer com eles no Adobe Campaign, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
-
-* Crie seu primeiro fluxo de trabalho
-* Criação de workflows
-* Acessar e monitorar
-
-(link para a subseção a ser definida)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
