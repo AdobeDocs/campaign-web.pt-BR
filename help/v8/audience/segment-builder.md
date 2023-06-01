@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Definir um público com o construtor de regras
+title: Criar um público-alvo com o construtor de regras
 description: Saiba como trabalhar com o Construtor de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Definir um público com o construtor de regras {#segment-builder}
+# Criar um público-alvo com o construtor de regras {#segment-builder}
 
 Esta seção descreve como criar um público ao elaborar um novo email. O público criado só pode ser usado nesse email.
 
