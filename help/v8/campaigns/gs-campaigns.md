@@ -4,10 +4,10 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 18%
+source-wordcount: '353'
+ht-degree: 17%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Projetar e enviar campanhas entre canais"
->abstract="Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Os canais de email, push e SMS estão disponíveis."
+>abstract="Os recursos do Adobe Campaign ajudam você a gerenciar dados centralizados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais: Email, Push e SMS."
 
-Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Os canais de email, push e SMS estão disponíveis.
+Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Nesta versão, os canais de email, push e SMS estão disponíveis.
 
 Projete e execute campanhas de email de alto volume para entregar mensagens personalizadas para todas as plataformas e telas.
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Com os recursos de segmentação do Adobe Campaign, você pode executar consultas em um banco de dados de alto volume e definir facilmente segmentos de marketing dinâmicos que direcionam perfeitamente suas campanhas.
+Meça a eficácia dos deliveries com relatórios detalhados, incluindo a contagem de aberturas, cliques, encaminhamentos e muito mais. Com os recursos de segmentação do Adobe Campaign, você pode executar consultas em um banco de dados de alto volume e definir facilmente segmentos de marketing dinâmicos que direcionam perfeitamente suas campanhas.
 
 ## Criar uma campanha entre canais {#cross-channel-campaign}
 

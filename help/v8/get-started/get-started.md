@@ -4,9 +4,9 @@ title: Introdução ao Campaign v8 Web
 description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 90%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Novidades"
->abstract="Descubra a nova interface do Campaign Web, as melhorias mais recentes, os principais recursos e como usá-los para criar campanhas entre canais para seus públicos. Com seus recursos amigáveis, o Campaign ajuda a simplificar o processo de criação de campanhas personalizadas entre canais, impulsionar resultados e obter uma vantagem competitiva. "
+>abstract="Descubra a nova interface do Campaign Web, as melhorias mais recentes, os principais recursos e saiba como usá-los para criar campanhas entre canais para seus públicos. Com seus recursos amigáveis, o Campaign ajuda a simplificar o processo de criação de campanhas personalizadas entre canais, impulsionar resultados e obter uma vantagem competitiva. "
 
 
 
