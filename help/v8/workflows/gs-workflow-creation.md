@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
+source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 59%
+source-wordcount: '251'
+ht-degree: 35%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 59%
 
 Com o Campaign v8 Web, você pode criar fluxos de trabalho em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 
-Os workflows podem ser criados como workflows independentes, no menu Workflows, ou em uma campanha, no menu Campanhas.
-
-A ser definido: detalhes específicos entre workflows da campanha e workflows independentes.
+Os workflows podem ser criados como workflows independentes, no menu Workflows, ou diretamente em uma campanha. Nesse caso, o workflow será vinculado à campanha e executado junto com todos os outros workflows da campanha.
 
 ## O que há dentro de um fluxo de trabalho?
 
 O diagrama de workflow é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas são vinculadas.
+
+![](assets/workflow-example.png)
 
 Cada workflow contém:
 
@@ -32,12 +32,45 @@ Cada workflow contém:
 
 * **Transições**: as transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência.
 
-* **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada fluxo de trabalho usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser acelerados e usados durante o ciclo de vida do fluxo de trabalho, desde que não sejam eliminados. De fato, tabelas desnecessárias são removidas toda vez que o fluxo de trabalho se torna passivo e possivelmente durante a execução dos maiores workflows para evitar sobrecarga no servidor.
+* **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada fluxo de trabalho usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante o ciclo de vida do workflow.
 
 ## Etapas principais para criar um fluxo de trabalho
 
 As principais etapas para criar workflows são as seguintes:
 
-A ser definido: gráfico mostrando todo o processo com explicação e referências para páginas doc
-
-criar e definir propriedades > orquestrar atividades na tela > definir configurações, se necessário > iniciar a execução e monitorar
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-workflow.md#create">
+<img alt="Lead" src="assets/do-not-localize/workflow-process-1 .jpeg">
+</a>
+<div><a href="create-workflow.md#create"><strong>Criar o workflow</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md#build">
+<img alt="Pouco frequente" src="assets/do-not-localize/workflow-process-2.jpeg">
+</a>
+<div>
+<a href="create-workflow.md#build"><strong>Orquestrar atividades</strong></a>
+</div>
+<p></td>
+<td>
+<a href="workflow-settings.md">
+<img alt="Validação" src="assets/do-not-localize/workflow-process-3.jpeg">
+</a>
+<div>
+<a href="workflow-settings.md"><strong>Definir configurações avançadas (opcional)</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start-monitor-workflows.md">
+<img alt="iniciar e monitorar workflows" src="assets/do-not-localize/workflow-process-4.jpeg">
+</a>
+<div>
+<a href="start-monitor-workflows.md"><strong>Iniciar e monitorar a execução do fluxo de trabalho</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
