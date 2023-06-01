@@ -4,9 +4,9 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1353'
 ht-degree: 93%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Envie seu primeiro email com o Adobe Campaign"
+>title="Introdução a emails"
 >abstract="Comece com base em um modelo ou use o novo Email Designer do Adobe Campaign para criar emails sem precisar gravar uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, pré-visualizá-lo e testá-lo, além de enviar um email para um público-alvo existente em um caso de uso completo."
 
 
