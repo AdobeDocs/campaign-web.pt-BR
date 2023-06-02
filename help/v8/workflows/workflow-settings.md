@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 25%
+source-wordcount: '884'
+ht-degree: 21%
 
 ---
 
@@ -26,7 +26,7 @@ Para fazer isso, clique no link **[!UICONTROL Configurações do fluxo de trabal
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="Propriedades do fluxo de trabalho"
->abstract="A confirmar"
+>abstract="Esta seção fornece propriedades genéricas de workflow que também podem ser acessadas ao criar o workflow. Você pode escolher o template a ser usado para criar o workflow e especificar um rótulo. Expanda a seção Opções adicionais para definir configurações específicas, como a pasta de armazenamento do fluxo de trabalho ou o fuso horário."
 
 A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que também podem ser acessadas ao criar o workflow.
 
@@ -43,7 +43,7 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Configurações de segmentação"
->abstract="A confirmar"
+>abstract="Nesta seção, você pode selecionar o targeting dimension para direcionar perfis no fluxo de trabalho e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser ativada em um workflow de produção.
 
 * **[!UICONTROL Dimensão de direcionamento]**: selecione a targeting dimension a ser usada para direcionar perfis: recipients, beneficiários de contrato, operadores, assinantes, etc.
 * **[!UICONTROL Manter o resultado de públicos provisórios entre duas execuções]**: por padrão, somente as tabelas de trabalho da última execução do workflow são mantidas. As tabelas de trabalho das execuções anteriores são removidas por um workflow técnico, executado diariamente.
@@ -55,7 +55,7 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Configurações de execução"
->abstract="A confirmar"
+>abstract="Nesta seção, você pode definir configurações relacionadas à execução do fluxo de trabalho, como o número de dias em que o histórico do fluxo de trabalho é mantido."
 
 * **[!UICONTROL Histórico em dias]**: especifica o número de dias após os quais o histórico deve ser limpo. O histórico contém elementos relacionados ao workflow: logs, tarefas, eventos (objetos técnicos vinculados à operação do workflow). O valor padrão é de 30 dias para modelos de fluxo de trabalho prontos para uso. A limpeza do histórico é executada pelo fluxo de trabalho técnico de limpeza do banco de dados, que é executado todos os dias por padrão
 
@@ -74,7 +74,7 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Configurações de gerenciamento de erros"
->abstract="A confirmar"
+>abstract="Nesta seção, é possível gerenciar como o workflow deve se comportar quando ocorre um erro durante sua execução (pausar/parar a execução ou ignorar erros).
 
 * **[!UICONTROL Gerenciamento de erros]**: este campo permite que você defina as ações a serem tomadas se uma tarefa de workflow tiver erros. Há duas opções possíveis:
 
