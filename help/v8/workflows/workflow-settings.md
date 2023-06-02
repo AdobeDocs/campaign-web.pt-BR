@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Configurações de segmentação"
->abstract="Nesta seção, você pode selecionar o targeting dimension para direcionar perfis no fluxo de trabalho e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser ativada em um workflow de produção.
+>abstract="Nesta seção, você pode selecionar o targeting dimension para direcionar perfis no fluxo de trabalho e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser ativada em um workflow de produção."
 
 * **[!UICONTROL Dimensão de direcionamento]**: selecione a targeting dimension a ser usada para direcionar perfis: recipients, beneficiários de contrato, operadores, assinantes, etc.
 * **[!UICONTROL Manter o resultado de públicos provisórios entre duas execuções]**: por padrão, somente as tabelas de trabalho da última execução do workflow são mantidas. As tabelas de trabalho das execuções anteriores são removidas por um workflow técnico, executado diariamente.
@@ -74,7 +74,7 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Configurações de gerenciamento de erros"
->abstract="Nesta seção, é possível gerenciar como o workflow deve se comportar quando ocorre um erro durante sua execução (pausar/parar a execução ou ignorar erros).
+>abstract="Nesta seção, é possível gerenciar como o workflow deve se comportar quando ocorre um erro durante sua execução (pausar/parar a execução ou ignorar erros)."
 
 * **[!UICONTROL Gerenciamento de erros]**: este campo permite que você defina as ações a serem tomadas se uma tarefa de workflow tiver erros. Há duas opções possíveis:
 
