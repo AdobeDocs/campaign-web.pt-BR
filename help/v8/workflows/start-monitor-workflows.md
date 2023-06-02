@@ -4,14 +4,14 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 7%
 
 ---
 
-# Iniciar e monitorar a execução do fluxo de trabalho {#start-monitor}
+# Iniciar e monitorar o fluxo de trabalho {#start-monitor}
 
 Depois de criar o fluxo de trabalho e projetar as tarefas a serem executadas na tela, é possível iniciá-lo e monitorar como ele está sendo executado.
 
@@ -40,7 +40,7 @@ Os indicadores visuais no canto superior direito de cada caixa de atividade perm
 | ![](assets/activity-status-red.png) | A atividade encontrou um erro. Para resolver o problema, abra os logs do fluxo de trabalho para obter mais informações. |
 | ![](assets/activity-status-green.png) | A atividade foi executada com sucesso. |
 
-## Monitorar logs e tarefas
+## Monitorar logs e tarefas {#logs-tasks}
 
 O monitoramento de logs e tarefas de fluxos de trabalho é uma etapa essencial para analisar seus fluxos de trabalho e verificar se eles estão sendo executados corretamente. Elas podem ser acessados pelo **[!UICONTROL Logs]** ícone que está disponível na barra de ferramentas da ação e no painel de propriedades de cada atividade.
 
