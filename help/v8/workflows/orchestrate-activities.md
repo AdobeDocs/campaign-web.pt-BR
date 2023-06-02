@@ -3,10 +3,10 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 
 ---
 
@@ -33,6 +33,23 @@ Para remover uma atividade, selecione-a na tela e clique no ícone Excluir nas p
 >
 >Você tem a opção de personalizar o nome das transições entre cada atividade. Para fazer isso, selecione a transição e altere seu rótulo no painel direito.
 
-Após concluir o workflow, adicione a atividade en End no final do diagrama. Essa atividade permite marcar visualmente o final de um fluxo de trabalho e não tem impacto funcional.
+Este é um exemplo de fluxo de trabalho criado para enviar um email a todos os clientes (exceto clientes do VIP) com um email interessados em máquinas de café.
+
+![](assets/workflow-example.png)
+
+Para isso, as atividades abaixo foram adicionadas:
+
+* A **[!UICONTROL Bifurcar]** atividade que divide o fluxo de trabalho em três caminhos (um para cada conjunto de clientes),
+* **[!UICONTROL Criar público-alvo]** atividades para direcionar os três conjuntos de clientes:
+
+   * Clientes com um email,
+   * Clientes pertencentes ao público-alvo pré-existente &quot;Interessado em máquina(s) de café&quot;,
+   * Clientes pertencentes ao público &quot;VIP ou recompensa&quot; pré-existente.
+
+* A **[!UICONTROL Combinar]** atividade que agrupa clientes com um email e aqueles interessados em máquinas de café,
+* A **[!UICONTROL Combinar]** atividade que exclui clientes VIP,
+* Um **[!UICONTROL Entrega de email]** atividade que envia um email para os clientes resultantes.
+
+Após concluir o workflow, adicione en **[!UICONTROL Fim]** atividade no final do diagrama. Essa atividade permite marcar visualmente o final de um fluxo de trabalho e não tem impacto funcional.
 
 Depois de criar o diagrama de workflow com êxito, você pode executá-lo e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar e monitorar a execução de um workflow](start-monitor-workflows.md)

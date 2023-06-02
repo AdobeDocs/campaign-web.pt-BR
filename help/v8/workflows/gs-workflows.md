@@ -4,10 +4,10 @@ title: Introdução a workflows
 description: Saiba como começar a usar os workflows
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 79%
+source-wordcount: '390'
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 79%
 >id="acw_homepage_card4"
 >title="Interface de tela de workflow reformulada"
 >abstract="Nossa tela gráfica abrangente facilita a criação de processos como segmentação, execução de campanha e muito mais. Com essa ferramenta avançada na ponta dos dedos, você pode simplificar seu fluxo de trabalho e elevar suas campanhas."
-
 
 ## O que é um fluxo de trabalho?
 
@@ -35,8 +34,9 @@ Com o ambiente gráfico abrangente do Adobe Campaign, é possível criar process
 
 Estes são alguns exemplos de como você pode usar os workflows com o Adobe Campaign:
 
-* Baixe um arquivo de um servidor, descompacte-o e importe os registros contidos no banco de dados do Adobe Campaign.
-* Crie uma ação de entrega, atribua uma tarefa a um ou mais operadores para trabalhar no conteúdo, especifique os públicos-alvo e aprove as provas antes de iniciar a entrega.
+* Iniciar uma campanha de acompanhamento para clientes inativos,
+* Enviar um email de boas-vindas a todos os assinantes novos de um serviço,
+* Personalize deliveries entre canais com base no status do programa de fidelidade dos clientes ou nos pontos de interesse.
 
 ## Vamos nos aprofundar um pouco mais
 
