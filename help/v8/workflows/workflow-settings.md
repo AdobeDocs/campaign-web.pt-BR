@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 21%
+source-wordcount: '858'
+ht-degree: 18%
 
 ---
 
@@ -65,9 +65,7 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 
 * **[!UICONTROL Afinidade padrão]**: se a instalação incluir vários servidores de workflow, use esse campo para escolher a máquina em que o workflow será executado. Se o valor definido nesse campo não existir em nenhum servidor, o workflow permanecerá pendente.
 
-* **[!UICONTROL Salvar consultas SQL no log]**: permite salvar as consultas SQL do workflow nos logs. Essa operação é reservada para usuários avançados. Aplica-se a workflows que contêm atividades de direcionamento como **[!UICONTROL Criar público-alvo]**. Quando essa opção está habilitada, as consultas SQL enviadas ao banco de dados durante a execução do workflow são exibidas no Adobe Campaign, permitindo analisá-las para otimizar as consultas ou diagnosticar problemas.
-
-   Os queries são exibidos em uma guia **[!UICONTROL SQL logs]** adicionada ao workflow (exceto workflows da campanha) e à atividade **[!UICONTROL Properties]** quando a opção está habilitada.<!-- where?-->
+* **[!UICONTROL Salvar consultas SQL no log]**: permite salvar as consultas SQL do workflow nos logs. Essa operação é reservada para usuários avançados. Aplica-se a workflows que contêm atividades de direcionamento como **[!UICONTROL Criar público-alvo]**. Quando essa opção está habilitada, as consultas SQL enviadas ao banco de dados durante a execução do workflow são exibidas nos logs do workflow, permitindo analisá-las para otimizar as consultas ou diagnosticar problemas.
 
 ## Configurações de gerenciamento de erros
 
