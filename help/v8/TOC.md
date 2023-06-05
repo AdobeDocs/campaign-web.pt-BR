@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 84%
+source-wordcount: '316'
+ht-degree: 81%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 84%
             + [Ajustar o alinhamento vertical e o preenchimento](content/alignment-and-padding.md)
             + [Definir o estilo dos links](content/styling-links.md)
             + [Adicionar atributos de estilo em linha](content/inline-styling.md)
-         + [Adicionar personalização](personalization/personalize.md)
-         + [Adicionar conteúdo condicional](personalization/conditions.md)
          + [Enviar ofertas](content/offers.md)
       + Visualizar e testar o email {#preview-test}
          + [Sobre a visualização e o teste](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 84%
       + [Criar uma entrega de SMS](sms/create-sms.md)
       + [Criar um delivery de SMS ](sms/content-sms.md)
       + [Enviar uma entrega de SMS ](sms/send-sms.md)
+   + Tornar seu conteúdo dinâmico {#dynamic-content}
+      + [Introdução ao conteúdo dinâmico](personalization/gs-personalization.md)
+      + [Adicionar personalização](personalization/personalize.md)
+      + [Adicionar conteúdo condicional](personalization/conditions.md)
 + Públicos e recipients {#audiences}
    + [Introdução aos públicos](audience/about-audiences.md)
    + [Selecione um público existente](audience/add-audience.md)
