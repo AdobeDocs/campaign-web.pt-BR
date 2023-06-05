@@ -4,9 +4,9 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1329'
 ht-degree: 93%
 
 ---
@@ -46,7 +46,7 @@ Para criar um novo delivery, siga estas etapas:
 
    >[!NOTE]
    >
-   >Os templates são configurações de entrega predefinidas salvas para uso futuro. Eles podem ser criados por usuários administradores no console do Adobe Campaign. [Saiba como trabalhar com templates de entrega](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=pt-BR){target="_blank"}.
+   >Os templates são configurações de entrega predefinidas salvas para uso futuro. [Saiba mais](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ Nesse caso de uso, você usará um template predefinido para criar o email.
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
