@@ -4,10 +4,10 @@ product: campaign
 title: Trabalho com modelos de email
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 38%
+ht-degree: 29%
 
 ---
 
@@ -29,7 +29,7 @@ Saiba como usar modelos e como salvar um conteúdo de email como modelo nas seç
 
 Para começar a criar o conteúdo com um dos modelos de amostra ou salvos, siga as etapas abaixo.
 
-1. Abra o [Designer de email](create-email-content.md).
+1. Abra o [Email Designer](create-email-content.md).
 
 1. Na tela **[!UICONTROL Criar seu email]**, a guia **[!UICONTROL Modelos de exemplo]** é selecionada por padrão.
 
@@ -67,6 +67,6 @@ Para salvar um conteúdo de email como modelo, siga as etapas a seguir:
 
    ![](assets/email_designer-template-name.png)
 
-Agora você pode [usar este modelo](#use-templates) para criar um novo conteúdo: ele está disponível na guia Modelos salvos do Designer de email.****
+Agora você pode [usar este modelo](#use-templates) para criar um novo conteúdo: ele está disponível na **[!UICONTROL Modelos salvos]** do Designer de email.
 
 ![](assets/email_designer-saved-template.png)
