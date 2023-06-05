@@ -4,83 +4,87 @@ title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 97%
+source-wordcount: '633'
+ht-degree: 56%
 
 ---
 
 # Configurar um grupo de controle {#control-group}
 
-Você pode usar grupos de controle para evitar o envio de mensagens para uma parte do público para medir o impacto das campanhas.
+Um grupo de controle é uma subpopulação excluída da entrega. Você pode definir um grupo de controle para evitar o envio de mensagens para uma parte do público-alvo e comparar o comportamento após o delivery com o público-alvo principal. Essa opção ajuda a medir o impacto da campanha.
 
-Para fazer isso, crie um grupo de controle ao definir o público da sua entrega. Perfis são adicionados ao grupo de controle aleatoriamente, filtrados ou não, ou baseados em critérios. Você poderá comparar o comportamento do público-alvo que recebeu a mensagem com o comportamento dos contatos não direcionados.
-
-O grupo de controle pode ser extraído do público-alvo principal e/ou vir de uma população específica. Consequentemente, há duas maneiras principais de definir um grupo de controle:
+Para adicionar um grupo de controle, habilite a opção ao definir o público do seu delivery. O grupo de controle pode ser extraído do público-alvo principal e/ou vir de uma população específica. Consequentemente, há duas maneiras principais de definir um grupo de controle:
 
 * Extrair vários perfis do público-alvo principal.
-* Excluir alguns perfis com base em critérios definidos em uma consulta.
+* Excluir alguns perfis de uma lista ou com base nos critérios definidos em uma query.
 
-Você pode usar ambos os métodos ao definir um grupo de controle.
+Você pode combinar ambos os métodos ao definir um grupo de controle.
 
 Todos os perfis que fazem parte do grupo de controle na etapa de preparação da entrega serão removidos do público-alvo principal. Eles não recebem a mensagem.
-
-Para criar um grupo de controle, clique no botão **[!UICONTROL Definir grupo de controle]**, da seção **Público** do assistente de criação de entrega.
-
-![](assets/control-group1.png)
 
 >[!CAUTION]
 >
 >Não é possível usar grupos de controle ao carregar a população do público-alvo [de um arquivo externo](file-audience.md).
+
+Para adicionar um grupo de controle a um delivery, ative a variável **[!UICONTROL Ativar grupo de controle]** alternar, no campo **Público** seção da tela de criação do delivery.
+
+![Opção Habilitar grupo de controle](assets/control-group1.png)
 
 
 ## Extrair do público-alvo {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extrair do público-alvo"
+>title="Modo de extração"
 >abstract="Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo."
 
-Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo.
 
-Primeiro, defina como os perfis serão extraídos do público-alvo: aleatoriamente ou com base em uma classificação.
+### Criar um grupo de controle {#build-extract-target}
 
-Na seção **Extrair do público-alvo**, escolha um **Tipo de exclusão**:
+Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo. Se preferir adicionar uma população extra, escolha a opção **Sem extração** e selecione a população extra [conforme detalhado aqui](#extra-population).
+
+Primeiro, defina como os perfis são extraídos do público-alvo: aleatoriamente ou com base em uma classificação.
+
+No **Grupo de controle** escolha uma **Modo de extração**:
 
 * **Aleatório**: ao preparar a entrega, o Adobe Campaign extrairá aleatoriamente um número de perfis correspondente à porcentagem ou ao número máximo que você definirá como o limite de tamanho.
-
-   ![](assets/control-group.png)
 
 * **Classificado por atributo(s)**: essa opção permite excluir um conjunto de perfis com base em atributo(s) específico(s) em uma ordem de classificação específica.
 
    ![](assets/control-group2.png)
 
-Em seguida, defina o **Tamanho limite**: você deve definir como limitar o número de perfis extraídos do público-alvo principal.
+Em seguida, use o **Limite de tamanho** para definir o número de perfis que precisam ser extraídos do público-alvo principal. Pode ser um número bruto ou uma porcentagem do público inicial.
 
-**Exemplo**
+### Verifique seu grupo de controle {#check-extract-target}
 
 Você pode visualizar os logs para verificar e identificar os perfis excluídos. Vejamos o exemplo de uma exclusão aleatória em cinco perfis.
 
 ![](assets/control-group4.png)
 
-Após a preparação da entrega, é possível exibir as exclusões nas seguintes telas:
+Após a preparação do delivery, é possível revisar como as exclusões foram aplicadas:
 
-* O KPI **Para excluir**, no painel da entrega, antes do envio.
+* No painel de delivery, antes do envio, marque a opção **Para excluir** KPI.
 
    ![](assets/control-group5.png)
 
-* Os **Logs de exclusão** exibem cada perfil e o **Motivo** da exclusão relacionada. 
+* Nos logs do delivery, a guia Logs mostra a etapa de exclusão.
+
+   ![](assets/control-group-sample-logs.png)
+
+
+* A variável **Logs de exclusão** exibe cada perfil e a exclusão relacionada **Motivo**.
 
    ![](assets/control-group6.png)
 
-* As **Causas da exclusão** exibem o número de perfis excluídos para cada regra de tipologia.
+* A variável **Causas de exclusão** exibe o número de perfis excluídos para cada regra de tipologia.
 
    ![](assets/control-group7.png)
 
 Para obter mais informações sobre logs de entrega, consulte esta [seção](../monitor/delivery-logs.md).
 
-## População extra {#extra-population}
+## Adicionar uma população extra {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
