@@ -4,7 +4,7 @@ title: Descubra a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 73%
@@ -97,7 +97,7 @@ Na seção CAMPAIGN MANAGEMENT, é possível acessar campanhas de marketing, del
 
 * **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador da campanha que a criou. Você pode filtrar a lista por status, datas de início/término e pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem. Saiba mais sobre campanhas de [nesta seção](../campaigns/gs-campaigns.md).
 
-* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre deliveries [nesta seção](../email/gs-messages.md).
+* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre deliveries [nesta seção](../msg/gs-messages.md).
 
    Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
