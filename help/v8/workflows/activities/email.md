@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Email
 description: Saiba como usar a atividade de workflow de email
 badge: label="Alpha" type="Positive"
-source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
+source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 7%
@@ -29,7 +29,7 @@ Estas são as etapas para adicionar um **Canal** atividade em um workflow:
 
 1. Selecione um **Modelo**. Os templates são configurações de entrega predefinidas salvas para uso futuro. [Saiba mais](../../msg/delivery-template.md)
 
-1. Clique em **Criar entrega** e definir sua mensagem da mesma maneira que cria um delivery independente. [Saiba mais](../../msg/gs-message.md)
+1. Clique em **Criar entrega** e definir sua mensagem da mesma maneira que cria um delivery independente. [Saiba mais](../../msg/gs-messages.md)
 
 
 1. Inicie o fluxo de trabalho e verifique os logs.
