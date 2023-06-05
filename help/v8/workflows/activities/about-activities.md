@@ -4,10 +4,10 @@ title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 8%
+source-wordcount: '366'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,7 @@ Essas atividades são específicas para direcionar, manipular e enriquecer dados
 
 ## Atividades de canal {#channel}
 
-A Adobe Campaign Web permite automatizar e executar campanhas de marketing em vários canais, como email, SMS ou push. Com workflows do Adobe Campaign, você pode combinar atividades de canal na tela para criar workflows entre canais que podem acionar ações com base no comportamento do cliente.
+O Adobe Campaign Web permite automatizar e executar campanhas de marketing em vários canais, como email, SMS ou push. Você pode combinar atividades de canal na tela para criar workflows entre canais que podem acionar ações com base no comportamento do cliente.
 
 Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui uma série de mensagens em diferentes canais, como email, SMS e push. Você também pode enviar um email de acompanhamento depois que um cliente concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
 
@@ -49,7 +49,7 @@ Usando atividades de canal, você pode criar campanhas abrangentes e personaliza
 As atividades a seguir são específicas para organizar e executar workflows. Sua principal tarefa é coordenar as outras atividades:
 
 * A variável [Associação AND](and-join.md) A atividade permite sincronizar várias ramificações de execução de um fluxo de trabalho.
-* A variável [Fim](end.md) permite marcar graficamente o final de um workflow. Essas atividades não têm impacto funcional e, portanto, são opcionais.
+* A variável [Fim](end.md) permite marcar graficamente o final de um workflow. Essa atividade não tem impacto funcional e, portanto, é opcional.
 * A variável [Bifurcar](fork.md) permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
 * A variável [Aguardar](wait.md) A atividade suspende temporariamente a execução de uma parte do fluxo de trabalho.
 

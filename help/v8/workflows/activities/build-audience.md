@@ -3,17 +3,27 @@ audience: end-user
 title: Usar a atividade de workflow Criar público
 description: Saiba como usar a atividade de workflow Criar público
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 12%
+source-wordcount: '314'
+ht-degree: 9%
 
 ---
 
 
 # Criar público-alvo {#build-audience}
 
-Esta atividade permite definir um público-alvo. Você pode selecionar um público existente ou usar o construtor de regras para definir sua própria consulta.
+A variável **Criar público-alvo** a atividade é um **Direcionamento** atividade. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas no **Criar público-alvo** atividade.
+
+Para definir a população do público-alvo, é possível:
+
+* Selecione um público existente, criado como uma lista no Console do cliente.
+* Selecione um público-alvo do Adobe Experience Platform.
+* Crie um novo público-alvo com o construtor de regras definindo e combinando critérios de filtragem.
+
+>[!NOTE]
+>
+>Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar um delivery independente. [Saiba mais](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Siga estas etapas para configurar o **Criar público-alvo** atividade:
 
-1. Adicione uma atividade Build audience.
+1. Adicionar um **Criar público-alvo** atividade.
 1. Defina um rótulo.
 1. Defina o tipo de público-alvo: **Crie o seu próprio** ou **Ler público**.
 
