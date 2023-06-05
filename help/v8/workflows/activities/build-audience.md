@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow Criar público
 description: Saiba como usar a atividade de workflow Criar público
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 9%
@@ -23,7 +23,7 @@ Para definir a população do público-alvo, é possível:
 
 >[!NOTE]
 >
->Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar um delivery independente. [Saiba mais](../../audience/about-audience.md)
+>Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar um delivery independente. [Saiba mais](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

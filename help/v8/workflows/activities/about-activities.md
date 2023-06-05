@@ -4,10 +4,10 @@ title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 9%
+source-wordcount: '303'
+ht-degree: 10%
 
 ---
 
@@ -36,9 +36,7 @@ Essas atividades são específicas para direcionar, manipular e enriquecer dados
 
 O Adobe Campaign Web permite automatizar e executar campanhas de marketing em vários canais, como email, SMS ou push. Você pode combinar atividades de canal na tela para criar workflows entre canais que podem acionar ações com base no comportamento do cliente.
 
-Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui uma série de mensagens em diferentes canais, como email, SMS e push. Você também pode enviar um email de acompanhamento depois que um cliente concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
-
-Usando atividades de canal, você pode criar campanhas abrangentes e personalizadas que envolvem clientes em vários pontos de contato e geram conversões.
+As seguintes **Canal** As atividades do estão disponíveis:
 
 * [Email](email.md)
 * [Push](push.md)
