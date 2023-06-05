@@ -4,10 +4,10 @@ title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '743'
+ht-degree: 44%
 
 ---
 
@@ -53,9 +53,21 @@ No **Grupo de controle** escolha uma **Modo de extração**:
 
 * **Classificado por atributo(s)**: essa opção permite excluir um conjunto de perfis com base em atributo(s) específico(s) em uma ordem de classificação específica.
 
+
+Em seguida, use o **Limite de tamanho** para definir o número de perfis que precisam ser extraídos do público-alvo principal. Pode ser um número bruto (por exemplo, 50 perfis a serem excluídos) ou uma porcentagem do público inicial (por exemplo, 5% do público-alvo principal).
+
+
+### Amostra do grupo de controle
+
+Por exemplo, para criar um grupo de controle com os 100 novos recipients mais jovens, siga estas etapas:
+
+1. Selecione o **Idade** como um critério de classificação. Deixe a **Crescente** opção de classificação.
+1. Adicione o **Data de criação** campo. Altere para a variável **Decrescente** opção de classificação.
+1. Defina 100 como o limite no **Limite de tamanho** seção.
+
    ![](assets/control-group2.png)
 
-Em seguida, use o **Limite de tamanho** para definir o número de perfis que precisam ser extraídos do público-alvo principal. Pode ser um número bruto ou uma porcentagem do público inicial.
+Esses 100 novos recipients mais jovens são excluídos do target principal.
 
 ### Verifique seu grupo de controle {#check-extract-target}
 
@@ -89,7 +101,7 @@ Para obter mais informações sobre logs de entrega, consulte esta [seção](../
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="População extra"
->abstract="Outra forma de definir um grupo de controle é excluir uma população específica do direcionamento usando um público alvo ou definindo uma consulta."
+>abstract="Você pode excluir uma população específica do target selecionando um público existente ou definindo um query."
 
 Outra forma de definir um grupo de controle é excluir uma população específica do direcionamento usando um público alvo ou definindo uma consulta.
 
@@ -102,3 +114,8 @@ Na seção **População extra** do **Grupo de controle** na tela de definição
 * Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o Construtor de regras. Consulte esta [seção](segment-builder.md).
 
 Os perfis incluídos no público ou que correspondem ao resultado da consulta são excluídos do público-alvo.
+
+## Comparar os resultados{#control-group-results}
+
+Depois que o delivery for enviado, você poderá extrair os logs de envio para comparar o comportamento entre os perfis que não receberam a comunicação e o público-alvo efetivo. Você também pode usar os logs do delivery para criar um novo direcionamento.
+
