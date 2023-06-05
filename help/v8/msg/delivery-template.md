@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 4%
 
 ---
@@ -19,14 +19,13 @@ Para um processo de design acelerado e aprimorado, você pode criar templates do
 
 Um template pode incluir:
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [Tipologias](../advanced-settings/delivery-settings.md#typology)
+* O endereço do remetente
 * Um [público](../audience/about-audiences.md), incluindo [grupos de controle](../audience/control-group.md)
-* Personalizado [conteúdo](../content/edit-content.md)<!--company logo, or signature-->
-* [Campos personalizados](../personalization/personalize.md) e [conteúdo condicional](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Personalizado [conteúdo](../content/edit-content.md)
+* [Campos personalizados](../personalization/personalize.md) e [conteúdo condicional](../personalization/conditions.md)
 * Links para [mirror page](../content/mirror-page.md) e cancelar assinatura [links](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* Outras propriedades de entrega, como validade de recurso, parâmetros de nova tentativa ou configurações de quarentena.
 
 ## Acessar e gerenciar modelos {#access-manage-templates}
 

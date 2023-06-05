@@ -4,10 +4,10 @@ title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,4 +188,4 @@ Você também pode personalizar o nome dos emails de teste.
 
 A opção **Guardar o código de entrega como prova** permite associar ao email de teste o mesmo código de entrega definido para a entrega ao qual está selecionado.
 
-Por padrão, o título do email de teste da prova tem o prefixo &#39;PROOF #&#39;, onde # é o número do email de teste. É possível alterar esse prefixo no campo **Rotular prefixo**.
+Por padrão, o assunto do email de teste tem o prefixo &#39;PROOF #&#39;, onde # é o número do email de teste. É possível alterar esse prefixo no campo **Rotular prefixo**.

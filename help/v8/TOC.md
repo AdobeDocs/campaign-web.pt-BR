@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 81%
+source-wordcount: '322'
+ht-degree: 77%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 81%
    + [Trabalho com modelos de entrega](msg/delivery-template.md)
    + Emails {#email}
       + [Criar seu primeiro email](email/create-email.md)
-      + Criar conteúdo de email {#content}
-         + [Editar o conteúdo do email](content/edit-content.md)
-         + Montar o design do email {#design-content}
-            + Começar a criar o conteúdo {#start-design}
-               + [Iniciar do zero ](content/create-email-content.md)
-               + [Importar o conteúdo do email](content/existing-content.md)
-               + [Desenvolver o seu próprio conteúdo](content/code-content.md)
-               + [Usar templates de conteúdo de email](content/email-sample-templates.md)
+      + Definir conteúdo do email {#content}
+         + [Configurar conteúdo de email](content/edit-content.md)
+         + Comece a modelar seu email {#start-design}
+            + [Introdução ao Designer de email](content/get-started-email-designer.md)
+            + [Iniciar do zero ](content/create-email-content.md)
+            + [Importar o conteúdo do email](content/existing-content.md)
+            + [Desenvolver o seu próprio conteúdo](content/code-content.md)
+            + [Usar templates de conteúdo de email](content/email-templates.md)
+         + Projetar o conteúdo {#design-content}
             + [Usar componentes de conteúdo](content/content-components.md)
             + [Gerar a versão de texto](content/text-version-email.md)
             + [Adicionar um link para a mirror page](content/mirror-page.md)

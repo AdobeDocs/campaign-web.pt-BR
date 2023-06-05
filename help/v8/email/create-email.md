@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 93%
+source-wordcount: '1326'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ Para criar um novo delivery, siga estas etapas:
 
 1. Navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
 
-1. Selecione o canal de **[!UICONTROL Email]** e escolha um template.
+1. Selecionar **[!UICONTROL E-mail]** como canal e escolha um template do delivery de email na lista.
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ Para criar um novo delivery, siga estas etapas:
 
    Além disso, as configurações avançadas, como regras de tipologia e mapeamentos de público alvo, podem ser acessadas clicando no botão ao lado do nome da entrega. Essas definições são pré-configuradas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico.
 
-## Criar conteúdo de email {#create-content}
+## Definir o conteúdo do email {#create-content}
 
-As instruções detalhadas sobre como configurar o conteúdo de email estão disponíveis [nesta seção](../content/edit-content.md).
+Para começar a criar seu conteúdo de email, siga as etapas abaixo.
 
-Nesse caso de uso, você usará um template predefinido para criar o email.
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. Para começar a criar o conteúdo do email, abra a entrega de email e clique no botão **[!UICONTROL Editar conteúdo]**.
+Nesse caso de uso, você usa um email predefinido [template do delivery](../msg/delivery-template.md) para criar seu email.
 
-   Isso o direciona a uma interface dedicada, onde é possível configurar o conteúdo do email e criá-lo usando o Designer de email.
+1. No painel de delivery de email, clique no link **[!UICONTROL Editar conteúdo]** botão.
+
+   ![](assets/email-edit-content.png)
+
+   Isso leva você a uma interface dedicada, onde é possível configurar o conteúdo de email e acessar o Designer de email. [Saiba mais](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ Nesse caso de uso, você usará um template predefinido para criar o email.
 
 1. Para criar o conteúdo do email, clique no botão **[!UICONTROL Editar corpo do email]**.
 
-   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um template com um design predefinido.
+   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ Nesse caso de uso, você usará um template predefinido para criar o email.
 
     ![](assets/import-folder.png)-->
 
-1. Após selecionar o template, ele será exibido no Designer de email, onde é possível fazer as edições necessárias e adicionar a personalização.
+1. Depois de selecionar o modelo, ele será exibido no [Email Designer](../content/create-email-content.md), em que você pode fazer as edições necessárias e adicionar personalização.
 
    Por exemplo, para personalizar o título do email, selecione o bloco de componentes e clique em **[!UICONTROL Adicionar personalização]**.
 
