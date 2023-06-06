@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Email
 description: Saiba como usar a atividade de workflow de email
 badge: label="Alpha" type="Positive"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '365'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,9 @@ Estas são as etapas para adicionar um **Canal** atividade em um workflow:
 
 ## Exemplo
 
+Este é um exemplo de fluxo de trabalho entre canais com uma segmentação e duas entregas. O fluxo de trabalho é direcionado a todos os clientes que têm um endereço de email e estão interessados em máquinas de café. Entre essa população, um email é enviado aos clientes regulares e um SMS é enviado aos clientes VIP.
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
