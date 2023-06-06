@@ -4,9 +4,9 @@ title: Direcionar recipients de um arquivo
 description: Saiba como usar recipients de um arquivo externo para criar seu público-alvo de email
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '328'
 ht-degree: 11%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 11%
 >title="Parâmetros de formatação"
 >abstract="Verifique os parâmetros de formatação do arquivo."
 
-Você pode carregar contatos de um arquivo externo. Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md).
+Você pode carregar contatos de um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Para direcionar perfis de um arquivo local diretamente da interface de email, si
 
    ![](assets/select-from-file.png)
 
-1. Selecione o arquivo a ser carregado.
+1. Selecione o arquivo a ser carregado. O formato deve estar alinhado com o [arquivo de amostra](#sample-file).
 1. Visualize e verifique como os dados são mapeados na seção central da tela.
 1. Escolha a coluna que contém o endereço de email da **Campo de endereço** menu suspenso. Você também pode selecionar a coluna incluir na lista de bloqueios se tiver essas informações no arquivo de entrada.
 1. Ajuste as configurações de coluna e como formatar dados a partir das opções disponíveis.
