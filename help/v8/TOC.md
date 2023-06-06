@@ -8,7 +8,7 @@ hide: true
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 77%
    + [Atualizações de documentação](rn/documentation-updates.md)
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
-   + [Descubra a interface](get-started/user-interface.md)
+   + [Conheça a interface](get-started/user-interface.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
    + [Trabalho com modelos de entrega](msg/delivery-template.md)
@@ -72,7 +72,7 @@ ht-degree: 77%
       + [Adicionar conteúdo condicional](personalization/conditions.md)
 + Públicos e recipients {#audiences}
    + [Introdução aos públicos](audience/about-audiences.md)
-   + [Selecione um público existente](audience/add-audience.md)
+   + [Selecione um público-alvo já existente](audience/add-audience.md)
    + [Definir um público com o construtor de regras](audience/segment-builder.md)
    + [Carregar um público-alvo de email de um arquivo](audience/file-audience.md)
    + [Usar um público da Adobe Experience Platform](audience/aep-audience.md)
@@ -83,8 +83,8 @@ ht-degree: 77%
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
    + [Acessar e gerenciar workflows](workflows/access-monitor.md)
-   + Criar e executar o primeiro fluxo de trabalho {#create-workflow}
-      + [Princípios básicos da criação de fluxos de trabalho](workflows/gs-workflow-creation.md)
+   + Crie e execute seu primeiro workflow {#create-workflow}
+      + [Princípios básicos da criação de workflows](workflows/gs-workflow-creation.md)
       + [Criar o workflow](workflows/create-workflow.md)
       + [Orquestrar atividades](workflows/orchestrate-activities.md)
       + [Definir as configurações do fluxo de trabalho](workflows/workflow-settings.md)

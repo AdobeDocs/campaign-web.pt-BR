@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 67%
+ht-degree: 77%
 
 ---
 
@@ -25,7 +25,7 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 * Inserir **campos de personalização** dinâmicos
 
-   Os campos de personalização são usados na personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo de suas mensagens.
+   Os campos de personalização são usados na personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens.
 
    ![](assets/perso-subject-line.png)
 
@@ -37,9 +37,9 @@ Você pode personalizar o conteúdo da mensagem ao:
 
    ![](assets/perso-content-blocks.png)
 
-* Criar **conteúdo condicional**
+* Criação de **conteúdo condicional**
 
-   Configure o conteúdo condicional para adicionar personalização dinâmica com base no perfil do recipient, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição é verdadeira. Você pode definir a versão alternativa do conteúdo quando a condição não for verdadeira.
+   Configure o conteúdo condicional para adicionar personalização dinâmica com base no perfil do destinatário, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. Você pode definir a versão alternativa do conteúdo quando a condição não for verdadeira.
 
 
 ## Personalizar a linha de assunto de uma mensagem {#personalize-subject-line}
@@ -78,7 +78,7 @@ Para personalizar o conteúdo do email, abra a mensagem no Designer de email e:
 
    ![](assets/perso-insert-block.png)
 
-1. Depois de inserido, o bloco de conteúdo é adicionado ao conteúdo do email. Ele é adaptado automaticamente ao perfil do recipient quando a personalização é gerada, na etapa de preparação do delivery.
+1. Depois de inserido, o bloco de conteúdo é adicionado ao conteúdo do email. Ele é adaptado automaticamente ao perfil do destinatário quando a personalização é gerada na etapa de preparação da entrega.
 
    ![](assets/perso-content-block-in-email.png)
 

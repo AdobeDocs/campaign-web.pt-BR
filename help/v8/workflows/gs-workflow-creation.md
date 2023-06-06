@@ -7,28 +7,28 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 36%
+ht-degree: 77%
 
 ---
 
 
-# Princípios básicos da criação de fluxos de trabalho {#gs-workflow-creation}
+# Princípios básicos da criação de workflows {#gs-workflow-creation}
 
-Com o Campaign v8 Web, você pode criar fluxos de trabalho em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
+Com o Campaign v8 Web, é possível criar workflows em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 
 Os workflows podem ser criados como workflows independentes, no menu Workflows, ou diretamente em uma campanha. Nesse caso, o workflow será vinculado à campanha e executado junto com todos os outros workflows da campanha.
 
-## O que há dentro de um fluxo de trabalho?
+## O que há dentro de um workflow?
 
-O diagrama de workflow é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas são vinculadas.
+O diagrama de workflow é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
 ![](assets/workflow-example.png)
 
 Cada workflow contém:
 
-* **Activities**: Uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
+* **Activities**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
-   Em um diagrama de fluxo de trabalho, uma dada atividade pode produzir várias tarefas, principalmente quando houver as ações de loop ou recorrentes (periódicas).
+   Em um diagrama de workflow, uma dada atividade pode produzir várias tarefas, principalmente quando houver ações de loop ou recorrentes.
 
 * **Transições**: as transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência.
 

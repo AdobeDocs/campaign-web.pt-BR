@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 44%
+ht-degree: 46%
 
 ---
 
@@ -28,7 +28,7 @@ Todos os perfis que fazem parte do grupo de controle na etapa de preparação da
 
 >[!CAUTION]
 >
->Não é possível usar grupos de controle ao carregar a população do público-alvo [de um arquivo externo](file-audience.md).
+>Não é possível usar grupos de controle ao carregar a população alvo [a partir de um arquivo externo](file-audience.md).
 
 Para adicionar um grupo de controle a um delivery, ative a variável **[!UICONTROL Ativar grupo de controle]** alternar, no campo **Público** seção da tela de criação do delivery.
 
@@ -107,11 +107,11 @@ Para obter mais informações sobre logs de entrega, consulte esta [seção](../
 
 Outra forma de definir um grupo de controle é excluir uma população específica do direcionamento usando um público alvo ou definindo uma consulta.
 
-Na seção **População extra** do **Grupo de controle** na tela de definição, clique no botão **[!UICONTROL Selecionar público]**.
+Na seção **População extra** do **Grupo de controle** na tela de definição, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
 ![](assets/control-group3.png)
 
-* Para usar um público existente, clique em **Selecionar público**. Consulte esta [seção](add-audience.md).
+* Para usar um público existente, clique em **Selecionar público-alvo**. Consulte esta [seção](add-audience.md).
 
 * Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o Construtor de regras. Consulte esta [seção](segment-builder.md).
 

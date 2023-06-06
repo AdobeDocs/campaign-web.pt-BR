@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Descubra a interface
+title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 73%
+ht-degree: 99%
 
 ---
 
-# Descubra a interface {#user-interface}
+# Conheça a interface {#user-interface}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="Descubra a interface"
+>title="Conheça a interface"
 >abstract="A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente."
 
 A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. Essa nova interface é integrada à Adobe Experience Platform.
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campanhas"
->abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Clique no botão &quot;Criar campanha&quot; para adicionar uma nova campanha. Selecione uma campanha para exibir seu conteúdo, deliveries e detalhes. Navegue até a guia &quot;Modelos&quot; para exibir e criar modelos."
+>abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Clique no botão “Criar campanha” para adicionar uma nova campanha. Selecione uma campanha para exibir seu conteúdo, entregas e detalhes. Navegue até a guia “Modelos” para exibir e criar modelos."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="Navegue pela lista de entregas. Você pode visualizar o status, contato e datas de modificação, KPIs principais. Você pode filtrar a lista por estado, data de contato ou canal. Clique no botão &quot;Criar delivery&quot; para adicionar um novo delivery. Selecione um delivery para exibir seu conteúdo, público-alvo e detalhes."
+>abstract="Navegue pela lista de entregas. É possível visualizar seu status, principais KPIs e datas de contato e modificação. É possível filtrar a lista por estado, data de contato ou canal. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione uma entrega para visualizar seu conteúdo, público-alvo e detalhes."
 
-Na seção CAMPAIGN MANAGEMENT, é possível acessar campanhas de marketing, deliveries e workflows.
+Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketing, entregas e workflows.
 
-* **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador da campanha que a criou. Você pode filtrar a lista por status, datas de início/término e pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem. Saiba mais sobre campanhas de [nesta seção](../campaigns/gs-campaigns.md).
+* **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador de campanha que a criou. É possível filtrar a lista por status, datas de início/término, pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem. Saiba mais sobre campanhas [nesta seção](../campaigns/gs-campaigns.md).
 
-* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. Você pode filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre deliveries [nesta seção](../msg/gs-messages.md).
+* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. É possível filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre entregas [nesta seção](../msg/gs-messages.md).
 
    Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Fluxos de trabalho** - Nessa tela, é possível acessar a lista completa de fluxos de trabalho e modelos de fluxo de trabalho. Você pode verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo template de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, você pode filtrar ou não os workflows que pertencem a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
+* **Workflows** - Nessa tela, é possível acessar a lista completa de workflows e modelos de workflows. É possível verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo modelo de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar os workflows que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 
 
 ### Gerenciamento de clientes
@@ -237,18 +237,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="Definir o público-alvo do SMS"
->abstract="Selecione o melhor público-alvo para sua mensagem SMS."
+>title="Defina o público-alvo do SMS"
+>abstract="Selecione o melhor público-alvo para a sua mensagem de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Resumo do relatório de SMS"
->abstract="Descubra as métricas de relatórios para o seu delivery de SMS."
+>abstract="Conheça as métricas de relatório para a entrega de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Resumo do relatório de push"
->abstract="Descubra as métricas de relatório para sua entrega por push."
+>abstract="Conheça as métricas de relatório para a entrega por push."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -268,27 +268,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Conteúdo de push para Android"
->abstract="Defina o conteúdo do push Android."
+>abstract="Defina o conteúdo de push para Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Conteúdo de push para iOS"
->abstract="Defina o conteúdo do iOS de push."
+>abstract="Defina o conteúdo de push para iOS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Assinantes do aplicativo"
->abstract="Pré-visualize e teste a mensagem adicionando assinantes de aplicativos ao público-alvo principal. "
+>abstract="Visualize e teste a mensagem adicionando assinantes do aplicativo ao público-alvo principal. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="População de teste"
->abstract="Selecione um modo de preenchimento de teste."
+>abstract="Selecione um modo de população de teste."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modo de visualização"
->abstract="Pré-visualize e teste a mensagem incluindo a população de teste no público-alvo principal."
+>abstract="Visualize e teste a mensagem incluindo a população de teste ao público-alvo principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -314,7 +314,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Visão geral dos relatórios"
->abstract="Métricas principais para o seu delivery."
+>abstract="Métricas principais para a sua entrega."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
@@ -323,8 +323,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Relatórios agregados para deliveries"
->abstract="Selecione pelo menos dois deliveries para exibir um relatório de dados agregado."
+>title="Relatórios agregados para entregas"
+>abstract="Selecione pelo menos duas entregas para exibir um relatório de dados agregado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -349,12 +349,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permissão necessária"
->abstract="Seu administrador deve conceder permissão a você antes de criar um segmento."
+>abstract="Seu administrador precisa lhe conceder permissão para que você possa criar um segmento."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Permissão necessária"
->abstract="Seu administrador deve conceder permissão a você antes de criar um segmento."
+>abstract="Seu administrador precisa lhe conceder permissão para que você possa criar um segmento."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -368,18 +368,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="Propriedades do delivery por push"
->abstract="Gerencie as propriedades do delivery de push."
+>title="Propriedades da entrega por push"
+>abstract="Gerencie as propriedades da entrega por push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="Nova métrica de quarentena"
+>title="Nova métrica de quarentenas"
 >abstract="Nova métrica de quarentena."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Seleção de modelo de SMS"
->abstract="Selecione um template predefinido para iniciar o delivery de SMS."
+>abstract="Selecione um modelo predefinido para iniciar a entrega de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

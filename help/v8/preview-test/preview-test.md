@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -25,7 +25,7 @@ Antes de enviar um email, é importante revisá-lo e testá-lo para garantir que
 Para fazer isso, o Adobe Campaign permite:
 
 * [Visualizar o conteúdo e a personalização do email](preview-content.md),
-* [Verificar a renderização de email](#rendering) em clientes populares de desktop, móveis e baseados na Web,
+* [Verifique a renderização de email](#rendering) em clientes populares de desktop, dispositivos móveis e baseados na Web,
 * [Enviar emails de teste](proofs.md) para recipients específicos para teste e validação.
 
 Essas ações podem ser executadas a partir do botão **[!UICONTROL Simular conteúdo]**, que é acessível ao criar o conteúdo do email a partir do Designer de email:

@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Criar um delivery de SMS
-description: Saiba como projetar sua entrega de SMS
+title: Criação de uma entrega de SMS
+description: Saiba como criar uma entrega de SMS
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 6%
+ht-degree: 98%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Conteúdo de SMS"
->abstract="Crie o conteúdo de seus deliveries de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico."
+>abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico."
 
-1. Na página do delivery, clique no link **[!UICONTROL Editar conteúdo]** botão para criar o conteúdo de SMS.
+1. Na página da entrega, clique no botão **[!UICONTROL Editar conteúdo]** para criar o conteúdo de SMS.
 
-1. No **[!UICONTROL Editar conteúdo]** você pode alterar o nome do remetente de **[!UICONTROL Campo Remetente]**. Insira o nome que deseja usar. Você também pode clicar no link **[!UICONTROL Abrir caixa de diálogo de personalização]** para adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico.
+1. Na página **[!UICONTROL Editar conteúdo]**, é possível alterar o nome do remetente do **[!UICONTROL campo Remetente]**. Insira o nome que deseja usar. Também é possível clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]** para adicionar campos de personalização, blocos de conteúdo e conteúdo dinâmico.
 
-1. No **[!UICONTROL Editar conteúdo]** você pode personalizar o nome do remetente acessando o campo **[!UICONTROL Campo Remetente]** e digitando o nome preferencial.
+1. Na página **[!UICONTROL Editar conteúdo]**, você pode personalizar o nome do remetente acessando o **[!UICONTROL campo Remetente]** e digitando o nome desejado.
 
-   Além disso, ao clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]**, você pode incluir campos de personalização, blocos de conteúdo e conteúdo dinâmico na mensagem.
+   Além disso, ao clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]**, é possível incluir campos de personalização, blocos de conteúdo e conteúdo dinâmico na mensagem.
 
-1. Digite sua mensagem de texto no **[!UICONTROL Mensagem]** ou clique no botão **[!UICONTROL Abrir caixa de diálogo de personalização]** opção para definir o conteúdo e adicionar conteúdo dinâmico.
+1. Digite sua mensagem de texto no campo **[!UICONTROL Mensagem]** ou clique na opção **[!UICONTROL Abrir caixa de diálogo de personalização]** para definir o conteúdo e adicionar conteúdo dinâmico.
 
-1. Por padrão, o rastreamento é ativado para deliveries. Você pode desativar essa opção na seção **[!UICONTROL Recursos opcionais]**.
+1. Por padrão, o rastreamento está habilitado para entregas. Você pode desativar essa opção na **[!UICONTROL seção Recursos opcionais]**.
 
-1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na pré-visualização.
+1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização.
 
-1. Você pode usar **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
+1. É possível usar a opção **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
 
-1. Clique em **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar um ou vários perfis de teste.
+1. Clique em **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar um ou vários perfis de teste ou perfis.
 
 1. Após selecionar os perfis de teste, clique em **[!UICONTROL Selecionar]**.
 
 1. No painel direito, você encontrará uma pré-visualização do email, onde os elementos personalizados são substituídos dinamicamente por dados do perfil selecionado.
 
-Agora você pode revisar e enviar sua mensagem SMS para o público-alvo.
+Agora é possível revisar e enviar uma mensagem de SMS para o público-alvo.

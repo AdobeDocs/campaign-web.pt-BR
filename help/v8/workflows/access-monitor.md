@@ -7,7 +7,7 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Fluxos de trabalho"
->abstract="Nesta tela, você pode acessar a lista completa de workflows independentes e da campanha, verificar o status atual, as datas de última/próxima execução e criar um novo workflow. Navegue até a guia &quot;Modelo&quot; para acessar os modelos de fluxo de trabalho disponíveis."
+>abstract="Nesta tela, você pode acessar a lista completa de workflows independentes e da campanha, verificar o status atual, as datas de última/próxima execução e criar um novo workflow. Navegue até a guia “Modelo” para acessar os modelos de workflows disponíveis."
 
 A variável **[!UICONTROL Fluxos de trabalho]** permite acessar a lista completa de workflows. Esta lista inclui **workflows independentes** que foram criados nessa tela, e **workflows da campanha**, que foram criados em uma campanha.
 

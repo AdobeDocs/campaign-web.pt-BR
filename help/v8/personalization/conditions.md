@@ -1,6 +1,6 @@
 ---
-title: Criar conteúdo condicional
-description: Saiba como definir condições para personalizar seu conteúdo na interface do usuário da Web do Adobe Campaign
+title: Criação de conteúdo condicional
+description: Saiba como definir condições para personalizar seu conteúdo na interface do Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,7 +10,7 @@ exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 source-git-commit: 5598a82bf745659b8c1db8cb51b1a82cfd184093
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Criar conteúdo condicional"
+>title="Criação de conteúdo condicional"
 >abstract="Crie conteúdo condicional para definir a personalização dinâmica com base no perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições forem atendidas. Esse recurso pode levar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo."
 
 
