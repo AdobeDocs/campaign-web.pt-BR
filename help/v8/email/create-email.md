@@ -6,8 +6,8 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
 source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -114,11 +114,11 @@ Nesse caso de uso, você usa um email predefinido [template do delivery](../msg/
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definir o público"
->abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público existente já definido em uma instância do Campaign v8 ou na Adobe Experience Platform. Também é possível criar um novo público com o construtor de regras. Os grupos de controle não estão habilitados para &#39;Selecionar do arquivo&#39; e vice-versa."
+>abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público-alvo existente já definido em uma instância do Campaign v8 ou na Adobe Experience Platform. Também é possível criar um novo público-alvo com o construtor de regras. Os grupos de controle não estão habilitados para “Selecionar do arquivo” e vice-versa."
 
 Nesse caso de uso, você enviará o email para um público existente. Instruções adicionais sobre como trabalhar com públicos estão disponíveis [nesta seção](../audience/about-audiences.md).
 
-1. Para selecionar o público do email, clique no botão **[!UICONTROL Selecionar público]** e escolha um público existente na lista.
+1. Para selecionar o público do email, clique no botão **[!UICONTROL Selecionar público-alvo]** e escolha um público existente na lista.
 
    Neste exemplo, queremos usar um público existente direcionado a clientes que pertencem aos níveis prata e ouro do programa de fidelidade.
 

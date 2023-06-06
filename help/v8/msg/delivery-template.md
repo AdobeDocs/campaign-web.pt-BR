@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo personalizado em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas.
 
-Um template pode incluir:
+Um modelo pode incluir:
 
 * [Tipologias](../advanced-settings/delivery-settings.md#typology)
 * O endereço do remetente
@@ -33,7 +33,7 @@ Um template pode incluir:
 >id="acw_delivery_templates"
 >title="Trabalho com modelos de entrega"
 >abstract="Use modelos de delivery para criar e salvar facilmente seus deliveries existentes para uso futuro."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicação de um template existente"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicação de um modelo já existente"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Conversão de um delivery em um template"
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Campaign Management]** > **[!UICONTROL Entregas]** no menu esquerdo e navegue até a janela **Modelos** guia.
@@ -68,17 +68,17 @@ Para criar um template do delivery, você pode:
 * Converter um delivery existente em um template - [Saiba mais](#convert-an-existing-delivery)
 * Criar um template do delivery do zero - [Saiba mais](#create-a-new-template)
 
-### Duplicação de um template existente {#copy-an-existing-template}
+### Duplicação de um modelo já existente {#copy-an-existing-template}
 
-O Campaign vem com um conjunto de modelos integrados para cada canal: email, push, SMS. A maneira mais fácil de criar um template do delivery é duplicar e personalizar um template incorporado.
+O Campaign vem com um conjunto de modelos integrados para cada canal: email, push, SMS. A maneira mais fácil de criar um modelo de entrega é duplicar e personalizar um modelo integrado.
 
 >[!NOTE]
 >
 >Você também pode duplicar qualquer modelo personalizado.
 
-Para duplicar um template de delivery, siga as etapas abaixo:
+Para duplicar um modelo de entrega, siga as etapas abaixo:
 
-1. Navegue até o **Modelos** , no menu **Entregas** menu esquerdo. [Saiba mais](#access-manage-templates)
+1. Navegue até a guia **Modelos** no menu esquerdo **Entregas.** [Saiba mais](#access-manage-templates)
 1. Clique em **[!UICONTROL Mais ações]** à direita do nome do modelo desejado e selecione  **[!UICONTROL Duplicar]**.
 
    Você também pode selecionar um modelo na lista e selecionar essa opção na tela de edição do modelo.
@@ -97,7 +97,7 @@ Para duplicar um template de delivery, siga as etapas abaixo:
 
 1. Teste a renderização do template, se necessário. [Saiba mais](#test-template)
 
-O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar um novo delivery.
+O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar uma nova entrega.
 
 ### Conversão de um delivery em um template {#convert-an-existing-delivery}
 
@@ -118,18 +118,18 @@ Para salvar um delivery como template, siga as etapas abaixo:
 
 1. Teste a renderização do template, se necessário. [Saiba mais](#test-template)
 
-O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar um novo delivery.
+O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar uma nova entrega.
 
-### Criar um novo modelo {#create-a-new-template}
+### Criação de um novo modelo {#create-a-new-template}
 
 >[!NOTE]
 >
->Para evitar erros de configuração, o Adobe recomenda que você [duplicar um modelo incorporado](#copy-an-existing-template) e personalize suas propriedades em vez de criar um novo template.
+>Para evitar erros de configuração, a Adobe recomenda que você [duplique um modelo integrado](#copy-an-existing-template) e personalize suas propriedades ao invés de criar um novo modelo.
 
-Para configurar um template do delivery do zero, siga as etapas abaixo:
+Para configurar um modelo de entrega do zero, siga as etapas abaixo:
 
-1. Navegue até o **Modelos** , no menu **Entregas** menu esquerdo. [Saiba mais](#access-manage-templates)
-1. Clique em **[!UICONTROL Criar modelo]** botão.
+1. Navegue até a guia **Modelos** no menu esquerdo **Entregas.** [Saiba mais](#access-manage-templates)
+1. Clique no botão **[!UICONTROL Criar modelo]**.
 
    ![](assets/templates-create-button.png)
 
@@ -155,7 +155,7 @@ Para configurar um template do delivery do zero, siga as etapas abaixo:
 
 1. Teste a renderização do template, se necessário. [Saiba mais](#test-template)
 
-O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar um novo delivery.
+O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar uma nova entrega.
 
 ## Testar um template de delivery {#test-template}
 
