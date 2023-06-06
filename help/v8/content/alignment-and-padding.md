@@ -5,9 +5,9 @@ description: Saiba como ajustar o alinhamento vertical e o preenchimento
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Neste exemplo, ajustamos o preenchimento e o alinhamento vertical em um componen
 
    ![](assets/alignment_2.png)
 
-1. Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Estilos]** guia. Ajuste a variável **[!UICONTROL Alinhamento]** usando a seção dedicada.
+1. Os parâmetros editáveis para essa coluna são exibidos na guia **[!UICONTROL Estilos]**. Ajuste o **[!UICONTROL Alinhamento]** usando a seção dedicada.
 
    ![](assets/alignment_3.png)
 
