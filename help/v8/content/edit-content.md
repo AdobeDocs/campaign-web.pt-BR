@@ -4,10 +4,10 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 46f2f42f724232b15f826f01c5957c0295c61f26
+source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 54%
+source-wordcount: '495'
+ht-degree: 48%
 
 ---
 
@@ -33,21 +33,28 @@ ht-degree: 54%
 >title="Opções de rastreamento"
 >abstract="Por padrão, o rastreamento é ativado para a entrega. Você pode desativar esta opção aqui."
 
-Para começar a criar o conteúdo de um email, clique no link **[!UICONTROL Editar conteúdo]** botão no [painel de delivery de email](../email/create-email.md) tela.
+O email **[!UICONTROL Editar conteúdo]** permite:
+* Definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto
+* Executar ações adicionais, como adicionar anexos ou configurar ofertas
+* Acesse o [Email Designer](get-started-email-designer.md) para começar a criar o conteúdo adequado do seu email
 
-![](assets/email-edit-content.png)
+Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
-A tela que é aberta permite definir detalhes básicos, executar algumas ações adicionais, como adicionar anexos ou configurar ofertas, e acessar a [Email Designer](#start-authoring) para criar o conteúdo.
+1. Clique em **[!UICONTROL Editar conteúdo]** botão no [painel de delivery de email](../email/create-email.md) tela.
 
-![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content.png)
 
-As etapas para editar o conteúdo do seu email são as seguintes:
+1. A tela de edição de conteúdo de email é aberta. Se estiver configurando um novo email, a variável **[!UICONTROL Do nome]** e **[!UICONTROL Do email]** já estão preenchidos.
 
-1. No **[!UICONTROL Do nome]** use um nome facilmente identificável pelos recipients, como o nome da sua marca, para aumentar a taxa de abertura dos deliveries.
+   ![](assets/email-edit-content-dashboard.png)
 
-   Para melhorar ainda mais a experiência do recipient, você pode adicionar o nome de uma pessoa, por exemplo “Emma da Megastore”.
+1. A variável **[!UICONTROL Do nome]** é definido no template de email. Se quiser modificá-lo, use um nome facilmente identificável pelos recipients, como o nome da sua marca, para aumentar a taxa de abertura dos deliveries.
 
-1. No **[!UICONTROL Do email]** address, verifique se o domínio de endereço é o mesmo que o subdomínio que você delegou ao Adobe.
+   >[!NOTE]
+   >
+   >    Para melhorar ainda mais a experiência do recipient, você pode adicionar o nome de uma pessoa, por exemplo “Emma da Megastore”.
+
+1. A variável **[!UICONTROL Do email]** O campo de endereço também é definido no template de email. Verifique se o domínio de endereço é o mesmo que o subdomínio que você delegou ao Adobe.
 
    >[!NOTE]
    >
@@ -71,7 +78,7 @@ As etapas para editar o conteúdo do seu email são as seguintes:
 
 1. Clique em **[!UICONTROL Editar corpo do email]** botão para estruturar e projetar o conteúdo do email usando o [Email Designer](#start-authoring). Informações adicionais sobre como criar conteúdo de email estão disponíveis nessas seções:
 
-   * [Saiba como criar emails](create-email-content.md)
+   * [Criar emails do zero](create-email-content.md)
    * [Estilo do conteúdo](get-started-email-style.md)
 
 1. Por padrão, o rastreamento é ativado para a entrega. Você pode desativar essa opção na seção **[!UICONTROL Recursos opcionais]**. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
