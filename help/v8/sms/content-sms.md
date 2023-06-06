@@ -4,9 +4,9 @@ title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '264'
 ht-degree: 98%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 98%
 >id="acw_deliveries_sms_content"
 >title="Conteúdo de SMS"
 >abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico."
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Assinantes do aplicativo"
+>abstract="Visualize e teste a mensagem adicionando assinantes do aplicativo ao público-alvo principal."
 
 1. Na página da entrega, clique no botão **[!UICONTROL Editar conteúdo]** para criar o conteúdo de SMS.
 
