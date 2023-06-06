@@ -4,14 +4,14 @@ title: Direcionar recipients de um arquivo
 description: Saiba como usar recipients de um arquivo externo para criar seu público-alvo de email
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 20%
+source-wordcount: '320'
+ht-degree: 11%
 
 ---
 
-# Carregar destinatários de um arquivo {#audience-from-file}
+# Carregar um público-alvo de email de um arquivo {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
@@ -28,15 +28,19 @@ ht-degree: 20%
 >title="Parâmetros de formatação"
 >abstract="Verifique os parâmetros de formatação do arquivo."
 
-Você pode carregar contatos de um arquivo externo. Esse recurso só está disponível para deliveries por email. Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para personalização.
+Você pode carregar contatos de um arquivo externo. Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md).
 
->[!NOTE]
+>[!CAUTION]
 >
->Você pode criar um workflow de importação para adicionar ou atualizar vários perfis no banco de dados. Saiba mais
+>* Esse recurso só está disponível para **deliveries de email independentes**. Ele não pode ser usado em workflows nem com deliveries SMS ou Push.
+>
+>* Você não pode usar [grupos de controle](control-group.md) ao carregar a população do target de um arquivo externo.
 
 
-Para direcionar perfis de um arquivo local diretamente da interface do, siga estas etapas:
 
+Para direcionar perfis de um arquivo local diretamente da interface de email, siga estas etapas:
+
+1. Abrir um delivery de email existente, ou [criar um novo delivery de email](../email/create-email.md).
 1. Na janela de criação de delivery de email, no **Público** clique na guia **Selecionar público** e escolha o botão **Selecionar do arquivo** opção.
 
    ![](assets/select-from-file.png)
@@ -47,13 +51,10 @@ Para direcionar perfis de um arquivo local diretamente da interface do, siga est
 1. Ajuste as configurações de coluna e como formatar dados a partir das opções disponíveis.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
-Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada no Editor de personalização.
+Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada na [Editor de personalização](../personalization/gs-personalization.md).
 
 ![](assets/select-external-perso.png)
 
->[!CAUTION]
->
->Você não pode usar [grupos de controle](control-group.md) ao carregar a população do target de um arquivo externo.
 
 ## Arquivo de amostra {#sample-file}
 
@@ -62,12 +63,15 @@ Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do
 >title="Arquivo de amostra"
 >abstract="Formatos de arquivo compatíveis: txt, csv. Usar a primeira linha como cabeçalho da coluna."
 
+Os formatos compatíveis são TXT e CSV. A primeira linha é o cabeçalho da coluna.
 
-```json
+Alinhe o formato de arquivo com o arquivo de amostra abaixo:
+
+```javascript
 {
 lastname,firstname,city,birthdate,email,denylist
 Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
 Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }

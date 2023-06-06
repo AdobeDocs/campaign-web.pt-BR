@@ -4,9 +4,9 @@ title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '764'
 ht-degree: 44%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 44%
 # Configurar um grupo de controle {#control-group}
 
 Um grupo de controle é uma subpopulação excluída da entrega. Você pode definir um grupo de controle para evitar o envio de mensagens para uma parte do público-alvo e comparar o comportamento após o delivery com o público-alvo principal. Essa opção ajuda a medir o impacto da campanha.
+
+## Habilitar grupo de controle{#add-a-control-group}
 
 Para adicionar um grupo de controle, habilite a opção ao definir o público do seu delivery. O grupo de controle pode ser extraído do público-alvo principal e/ou vir de uma população específica. Consequentemente, há duas maneiras principais de definir um grupo de controle:
 
@@ -57,7 +59,7 @@ No **Grupo de controle** escolha uma **Modo de extração**:
 Em seguida, use o **Limite de tamanho** para definir o número de perfis que precisam ser extraídos do público-alvo principal. Pode ser um número bruto (por exemplo, 50 perfis a serem excluídos) ou uma porcentagem do público inicial (por exemplo, 5% do público-alvo principal).
 
 
-### Amostra do grupo de controle
+### Amostra do grupo de controle{#control-group-sample}
 
 Por exemplo, para criar um grupo de controle com os 100 novos recipients mais jovens, siga estas etapas:
 
@@ -69,7 +71,7 @@ Por exemplo, para criar um grupo de controle com os 100 novos recipients mais jo
 
 Esses 100 novos recipients mais jovens são excluídos do target principal.
 
-### Verifique seu grupo de controle {#check-extract-target}
+### Verifique seu grupo de controle {#check-control-group}
 
 Você pode visualizar os logs para verificar e identificar os perfis excluídos. Vejamos o exemplo de uma exclusão aleatória em cinco perfis.
 
@@ -118,4 +120,7 @@ Os perfis incluídos no público ou que correspondem ao resultado da consulta s�
 ## Comparar os resultados{#control-group-results}
 
 Depois que o delivery for enviado, você poderá extrair os logs de envio para comparar o comportamento entre os perfis que não receberam a comunicação e o público-alvo efetivo. Você também pode usar os logs do delivery para criar um novo direcionamento.
+
+Para ver quais perfis foram removidos do público-alvo, verifique a **Logs de entrega**. Saiba mais [nesta seção](#check-control-group).
+
 
