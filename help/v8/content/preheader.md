@@ -5,9 +5,9 @@ description: Saiba como criar conteúdo de email
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Adição de um pré-cabeçalho"
->abstract="Pré-cabeçalho é um texto resumido e curto que sucede ao assunto quando visualizamos o email no cliente de email. Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem a extensão de uma frase."
+>abstract="Um pré-cabeçalho é um resumo curto que sucede à linha de assunto quando visualizamos o email no cliente de email. Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem a extensão de uma frase."
 
-Pré-cabeçalho é um texto resumido e curto que sucede ao assunto quando visualizamos o email no cliente de email.
+Um pré-cabeçalho é um resumo curto que sucede à linha de assunto quando visualizamos o email no cliente de email.
 
 Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem a extensão de uma frase.
 
@@ -34,7 +34,7 @@ Para definir o pré-cabeçalho de email, siga as etapas abaixo:
 
    ![](assets/preheader_body.png)
 
-1. No **[!UICONTROL Configurações]** adicione seu pré-cabeçalho. Você pode personalizá-lo ainda mais clicando no ícone **[!UICONTROL Adicionar personalização]**.
+1. Na guia **[!UICONTROL Configurações]**, adicione o pré-cabeçalho. Você pode personalizá-lo ainda mais clicando no ícone **[!UICONTROL Adicionar personalização]**.
 
    ![](assets/preheader_body_settings.png)
 
