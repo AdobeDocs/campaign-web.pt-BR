@@ -4,14 +4,14 @@ title: Sobre a visualização e o teste de emails
 description: Saiba como visualizar e testar emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
+source-git-commit: 7bbc0ddec7792c270d47f6d3e8a39e75f74c1451
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 87%
+source-wordcount: '186'
+ht-degree: 40%
 
 ---
 
-# Sobre a visualização e o teste de emails {#about-preview-proofs}
+# Sobre a visualização e o teste de emails {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
@@ -20,18 +20,20 @@ ht-degree: 87%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Visualizar conteúdo de email"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Enviar emails de teste"
 
-Antes de enviar um email, é importante revisá-lo e testá-lo para garantir que ele seja preciso e esteja livre de erros no conteúdo ou nas configurações de personalização.
+Depois que o conteúdo de email for definido, você poderá usar perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem.
 
-Para fazer isso, o Adobe Campaign permite:
+Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
 
-* [Visualizar o conteúdo e a personalização do email](preview-content.md),
-* [Verifique a renderização de email](#rendering) em clientes populares de desktop, dispositivos móveis e baseados na Web,
-* [Enviar emails de teste](proofs.md) para recipients específicos para teste e validação.
+Para fazer isso, [!DNL Adobe Campaign] O permite:
 
-Essas ações podem ser executadas a partir do botão **[!UICONTROL Simular conteúdo]**, que é acessível ao criar o conteúdo do email a partir do Designer de email:
+* [Visualizar o conteúdo e a personalização do email](preview-content.md)
+* [Verifique a renderização de email](email-rendering.md) em clientes populares de desktop, dispositivos móveis e baseados na Web
+* [Enviar emails de teste](proofs.md) para recipients específicos para teste e validação
 
-![](assets/simulate.png)
+Essas ações podem ser executadas a partir do **[!UICONTROL Simular conteúdo]** que pode ser acessado no [Editar conteúdo](../content/edit-content.md) ou na tela [Email Designer](../content/get-started-email-designer.md).
+
+![](assets/simulate-button.png)
 
 >[!NOTE]
 >
->A simulação de conteúdo também está disponível no resumo da entrega, que é exibido após clicar no botão **[!UICONTROL Revisar e enviar]**.
+>A simulação de conteúdo também está disponível no [resumo da entrega](../monitor/prepare-send.md) depois de clicar no link **[!UICONTROL Revisar e enviar]** botão.
