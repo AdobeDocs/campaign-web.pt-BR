@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 5598a82bf745659b8c1db8cb51b1a82cfd184093
+source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 8%
@@ -21,14 +21,11 @@ ht-degree: 8%
 >title="Criação de conteúdo condicional"
 >abstract="Crie conteúdo condicional para definir a personalização dinâmica com base no perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições forem atendidas. Esse recurso pode levar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo."
 
-
 O conteúdo condicional é um recurso poderoso que permite criar personalização dinâmica com base no perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições são atendidas. Esse recurso pode levar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo.
 
 Ao configurar campos de conteúdo condicional, você pode criar personalização dinâmica avançada com base no perfil do recipient, por exemplo. Blocos de texto, links, linha de assunto e/ou imagens são substituídos no conteúdo da mensagem quando uma determinada condição é atendida. Por exemplo, você pode exibir &quot;Sr.&quot; ou &quot;Sra.&quot; de acordo com o valor do campo Gênero no banco de dados do Adobe Campaign ou incluir um link diferente com base no idioma preferencial do recipient.
 
 ## Sintaxe de personalização{#perso-syntax}
-
-
 
 ## Trabalhar com condições no editor de personalização{#condition-perso-editor}
 
@@ -44,9 +41,6 @@ Para definir um conteúdo condicional para um delivery:
    `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 1. Substituir `<FIELD>` por um campo de personalização Por exemplo, a empresa do recipient: `recipient.company`.
 1. Substituir `<VALUE>` por um valor a ser satisfeito. Por exemplo, `ADOBE`.
-
-
-
 
 ## Amostra: linha de assunto condicional de SMS{#condition-subject-line}
 
