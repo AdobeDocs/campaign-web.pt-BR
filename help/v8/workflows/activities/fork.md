@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow Fork
 description: Saiba como usar a atividade de workflow Fork
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 5%
 
 # Bifurcação {#fork}
 
-A variável **Bifurcar** permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
-
-A variável **Bifurcar** A atividade de permite realizar várias atividades diferentes de maneira independente no mesmo fluxo de trabalho.
+A variável **Bifurcar** a atividade é um **Controle de fluxo** atividade. Ele permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
 
 ## Configuração
 
