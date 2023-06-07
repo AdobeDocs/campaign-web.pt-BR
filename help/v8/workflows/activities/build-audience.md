@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow Criar público
 description: Saiba como usar a atividade de workflow Criar público
 badge: label="Alpha" type="Positive"
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 9%
@@ -52,6 +52,6 @@ Para selecionar um público existente, siga estas etapas:
 
 ## Exemplo
 
-Este é um exemplo de fluxo de trabalho com dois **Criar público-alvo** atividades. O primeiro é direcionado ao público-alvo dos jogadores de pôquer, seguido de um delivery por email. O segundo é direcionado ao público-alvo de clientes VIP, seguido de um delivery de SMS.
+Este é um exemplo de um fluxo de trabalho com dois **Criar público-alvo** atividades. O primeiro é direcionado ao público-alvo dos jogadores de pôquer, seguido de um delivery por email. O segundo é direcionado ao público-alvo de clientes VIP, seguido de um delivery de SMS.
 
 ![](../assets/workflow-audience-example.png)

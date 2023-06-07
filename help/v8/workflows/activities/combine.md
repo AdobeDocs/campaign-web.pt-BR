@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade Combinar workflow
 description: Saiba como usar a atividade Combinar workflow
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 22%
 
 ---
@@ -65,11 +65,8 @@ O exemplo a seguir mostra o **interseção** entre duas atividades de query. Ela
 
 ![](../assets/workflow-intersection-example.png)
 
-As seguintes **exclusão** O exemplo mostra dois queries configurados para filtrar perfis com idade entre 18 e 27 anos e que têm um domínio de email da adobe. Os perfis com um domínio de email da Adobe são excluídos do primeiro conjunto.
+As seguintes **exclusão** O exemplo mostra dois queries configurados para filtrar perfis com idade entre 18 e 27 anos e domínio de email Adobe. Os perfis com um domínio de email Adobe são excluídos do primeiro conjunto.
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
