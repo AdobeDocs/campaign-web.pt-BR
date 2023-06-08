@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 22%
@@ -56,7 +56,8 @@ O Adobe Campaign V8 Web fornece um editor de expressão onde você pode selecion
 
 *Acesso ao editor de expressão por meio de um link em um email*
 
-![](assets/perso-link-insert-icon.png)
+![](assets/perso-link-insert-icon.png){width="500" align="center"}
+
 
 ## Vamos nos aprofundar um pouco mais
 
