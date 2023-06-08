@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
@@ -37,6 +37,7 @@ O editor de expressão é exibido. Os campos de personalização são organizado
 
 | Menu | Descrição |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | A variável **[!UICONTROL Aplicativo de assinantes]** lista todos os campos relacionados aos assinantes de um aplicativo, como o terminal ou o sistema operacional usado. *Esse menu está disponível somente para notificações por push* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | A variável **[!UICONTROL Recipient]** lista todos os campos definidos na tabela de recipients, como nome, idade ou endereço dos recipients. |
 | ![](assets/do-not-localize/perso-message-menu.png) | A variável **[!UICONTROL Mensagem]** lista todos os campos relacionados aos logs do delivery, ou seja, todas as mensagens enviadas aos recipients ou dispositivos em todos os canais, como a data do último evento com um determinado recipient |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | A variável **[!UICONTROL Entrega]** O menu lista todos os campos relacionados aos parâmetros necessários para executar deliveries, como canal de delivery, rótulo, etc. |
