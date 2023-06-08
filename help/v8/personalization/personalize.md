@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 36%
+source-wordcount: '298'
+ht-degree: 8%
 
 ---
 
@@ -42,36 +42,3 @@ O editor de expressão é exibido. Os campos de personalização são organizado
 Para adicionar um campo de personalização, coloque o cursor no local desejado no conteúdo e clique no botão + para inseri-lo.
 
 ![](assets/perso-insert-field.png)
-
-## Personalizar seu conteúdo de email {#personalize-emails}
-
-Para personalizar o conteúdo do email, abra a mensagem no Designer de email e:
-
-1. Clique dentro de um bloco de texto.
-1. Na barra de ferramentas contextual, selecione **[!UICONTROL Adicionar personalização]**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Insira o nome do recipient no editor de personalização e confirme.
-
-   ![](assets/perso-add-name.png)
-
-   O atributo de personalização é adicionado ao conteúdo do email.
-
-   Você pode simular o conteúdo para verificar a renderização. [Saiba mais](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-1. Para adicionar um bloco de conteúdo ao seu email, aplique as mesmas etapas e selecione um bloco de conteúdo do último ícone:
-
-   ![](assets/perso-insert-block.png)
-
-1. Depois de inserido, o bloco de conteúdo é adicionado ao conteúdo do email. Ele é adaptado automaticamente ao perfil do destinatário quando a personalização é gerada na etapa de preparação da entrega.
-
-   ![](assets/perso-content-block-in-email.png)
-
-
-## Personalize suas ofertas {#personalize-offers}
-
-Também é possível acessar o editor de personalização ao adicionar conteúdo do tipo texto às representações das ofertas. Saiba mais [nesta seção](../content/offers.md).
-
