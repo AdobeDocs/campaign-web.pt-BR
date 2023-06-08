@@ -7,27 +7,33 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 8%
+source-wordcount: '400'
+ht-degree: 6%
 
 ---
 
 
-# Personalize seu conteúdo{#add-personalization}
+# Personalize seu conteúdo {#add-personalization}
 
-A personalização pode ser adicionada a qualquer delivery usando o editor de expressão.
+A personalização pode ser adicionada a qualquer delivery usando o editor de expressão, que é acessível em todos os campos com o **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone, como o campo da linha de assunto ou links de email e componentes de conteúdo de texto/botão. [Saiba onde adicionar conteúdo dinâmico](gs-personalization.md/#access)
 
-Uma tag de personalização sempre usa a seguinte sintaxe: `<%=table.field%>`Por exemplo, para inserir o nome do recipient, armazenado na tabela de recipients, a tag de personalização usa a sintaxe &lt;%= recipient.lastName %>.
+## Sintaxe de personalização {#syntax}
+
+Uma tag de personalização sempre usa a seguinte sintaxe: `<%=table.field%>`. Por exemplo, para inserir o nome do recipient, armazenado na tabela de recipients, a tag de personalização usa a sintaxe &lt;%= recipient.lastName %>.
 
 Quando um delivery é preparado, essas tags são interpretadas automaticamente pelo Adobe Campaign e substituídas pelo valor do campo para um determinado recipient. A substituição física pode ser exibida ao simular o conteúdo.
 
-Para adicionar tags de personalização a um delivery, clique no ícone Open personalization dialog que é acessível a partir de campos de edição de tipo de texto, como a linha de assunto ou o corpo do SMS.
+## Adicionar tags de personalização {#add}
+
+Para adicionar tags de personalização em um delivery, abra o editor de expressão usando o **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone acessível a partir de campos de edição de tipo de texto, como a linha de assunto ou o corpo do SMS. [Saiba onde adicionar conteúdo dinâmico](gs-personalization.md/#access)
 
 ![](assets/perso-access.png)
 
 O editor de expressão é exibido. Os campos de personalização são organizados em três menus, localizados à esquerda da tela. Esses menus dão acesso a todos os campos disponíveis no banco de dados do Adobe Campaign.
+
+![](assets/perso-insert-field.png)
 
 | Menu | Descrição |
 |-----|------------|
@@ -37,8 +43,16 @@ O editor de expressão é exibido. Os campos de personalização são organizado
 
 >[!NOTE]
 >
->Por padrão, a lista mostra todos os campos na tabela selecionada (Recipients, / Message / Delivery). Se quiser incluir campos de tabelas vinculadas à tabela selecionada, ative a opção **[!UICONTROL Exibir atributos avançados]** opção localizada abaixo da lista.
+>Por padrão, cada menu mostra todos os campos dentro da tabela selecionada (Recipients, / Message / Delivery). Se quiser incluir campos de tabelas vinculadas à tabela selecionada, ative a opção **[!UICONTROL Exibir atributos avançados]** opção localizada abaixo da lista.
 
 Para adicionar um campo de personalização, coloque o cursor no local desejado no conteúdo e clique no botão + para inseri-lo.
 
-![](assets/perso-insert-field.png)
+Quando o conteúdo estiver pronto, você poderá salvá-lo e testar a renderização da personalização simulando o conteúdo. No exemplo abaixo, estamos personalizando uma mensagem SMS com os nomes dos perfis direcionados.
+
+*Adicionar a tag de personalização ao conteúdo da mensagem*
+
+![](assets/perso-preview1.png)
+
+*Simular a renderização da personalização para um determinado perfil de teste*
+
+![](assets/perso-preview2.png)
