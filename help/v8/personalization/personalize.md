@@ -7,28 +7,41 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 79%
+source-wordcount: '430'
+ht-degree: 36%
 
 ---
 
 
 # Personalize seu conteúdo{#add-personalization}
 
-## Personalizar a linha de assunto de uma mensagem {#personalize-subject-line}
+A personalização pode ser adicionada a qualquer delivery usando o editor de expressão.
 
-Para adicionar personalização ao campo **[!UICONTROL Linha de assunto]** da mensagem, siga as etapas abaixo:
+Uma tag de personalização sempre usa a seguinte sintaxe: `<%=table.field%>`Por exemplo, para inserir o nome do recipient, armazenado na tabela de recipients, a tag de personalização usa a sintaxe &lt;%= recipient.lastName %>.
 
-1. Abra um delivery e clique em **[!UICONTROL Editar conteúdo]**.
-1. Clique em **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone à direita do **[!UICONTROL Linha de assunto]** para emails ou o campo **[!UICONTROL Título]** campos para deliveries por push/SMS.
+Quando um delivery é preparado, essas tags são interpretadas automaticamente pelo Adobe Campaign e substituídas pelo valor do campo para um determinado recipient. A substituição física pode ser exibida ao simular o conteúdo.
 
-   ![](assets/perso-subject.png){width="600"}
+Para adicionar tags de personalização a um delivery, clique no ícone Open personalization dialog que é acessível a partir de campos de edição de tipo de texto, como a linha de assunto ou o corpo do SMS.
 
-1. Insira a linha de assunto ou o título e selecione os atributos de personalização a serem adicionados.
+![](assets/perso-access.png)
 
-1. Clique em **[!UICONTROL Confirmar]** para validar. Os atributos de personalização são adicionados ao conteúdo.
+O editor de expressão é exibido. Os campos de personalização são organizados em três menus, localizados à esquerda da tela. Esses menus dão acesso a todos os campos disponíveis no banco de dados do Adobe Campaign.
+
+| Menu | Descrição |
+|-----|------------|
+| ![](assets/do-not-localize/perso-recipients-menu.png) | A variável **[!UICONTROL Recipient]** lista todos os campos definidos na tabela de recipients, como nome, idade ou endereço dos recipients. |
+| ![](assets/do-not-localize/perso-message-menu.png) | A variável **[!UICONTROL Mensagem]** lista todos os campos relacionados aos logs do delivery, ou seja, todas as mensagens enviadas aos recipients ou dispositivos em todos os canais, como a data do último evento com um determinado recipient |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | A variável **[!UICONTROL Entrega]** O menu lista todos os campos relacionados aos parâmetros necessários para executar deliveries, como canal de delivery, rótulo, etc. |
+
+>[!NOTE]
+>
+>Por padrão, a lista mostra todos os campos na tabela selecionada (Recipients, / Message / Delivery). Se quiser incluir campos de tabelas vinculadas à tabela selecionada, ative a opção **[!UICONTROL Exibir atributos avançados]** opção localizada abaixo da lista.
+
+Para adicionar um campo de personalização, coloque o cursor no local desejado no conteúdo e clique no botão + para inseri-lo.
+
+![](assets/perso-insert-field.png)
 
 ## Personalizar seu conteúdo de email {#personalize-emails}
 
@@ -56,23 +69,6 @@ Para personalizar o conteúdo do email, abra a mensagem no Designer de email e:
 1. Depois de inserido, o bloco de conteúdo é adicionado ao conteúdo do email. Ele é adaptado automaticamente ao perfil do destinatário quando a personalização é gerada na etapa de preparação da entrega.
 
    ![](assets/perso-content-block-in-email.png)
-
-## Personalizar links em seus emails {#personalize-links}
-
-Para personalizar um **link**:
-
-1. Selecione um bloco de texto ou uma imagem.
-1. Na barra de ferramentas contextual, selecione **Inserir link**.
-
-   ![](assets/perso-link.png)
-
-1. Insira o rótulo do link e use o botão **Inserir link** para personalizar o link.
-
-   ![](assets/perso-link-insert-icon.png)
-
-1. Use o editor de personalização para definir e personalizar o link e confirme.
-
-   ![](assets/perso-link-edit.png)
 
 
 ## Personalize suas ofertas {#personalize-offers}

@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 36%
+source-wordcount: '437'
+ht-degree: 33%
 
 ---
 
@@ -34,7 +34,7 @@ Use o Campaign para criar conteúdo dinâmico e enviar mensagens personalizadas.
 
 * **Conteúdo condicional**
 
-   Configure o conteúdo condicional para adicionar personalização dinâmica com base no perfil do destinatário, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. Você pode definir a versão alternativa do conteúdo quando a condição não for verdadeira.
+   Configure o conteúdo condicional para adicionar conteúdo com base no perfil do recipient, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. Você pode definir a versão alternativa do conteúdo quando a condição não for verdadeira.
 
 * **Blocos de conteúdo incorporados**
 
@@ -46,11 +46,13 @@ Use o Campaign para criar conteúdo dinâmico e enviar mensagens personalizadas.
 
 O Adobe Campaign V8 Web fornece um editor de expressão onde você pode selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo.
 
-O editor de expressão está disponível para todos os canais, em todos os campos com o ícone Abrir caixa de diálogo de personalização, como o campo de linha de assunto ou componentes de conteúdo de texto e botão em emails.
+O editor de expressão está disponível para todos os canais, em todos os campos com o ícone Abrir caixa de diálogo de personalização, como o campo de linha de assunto, ou links de email e componentes de conteúdo de texto/botão.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 Além disso, um construtor de conteúdo condicional dedicado pode ser acessado ao projetar um email. [Saiba como criar conteúdo condicional em emails](conditions.md)
 
