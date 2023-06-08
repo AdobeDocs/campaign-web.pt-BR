@@ -3,14 +3,30 @@ audience: end-user
 title: Enviar uma entrega de SMS
 description: Saiba como enviar SMS com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 24%
 
 ---
 
-# Enviar uma entrega de SMS {#send-sms}
+# Pré-visualizar e enviar um delivery de SMS {#send-sms}
+
+## Pré-visualizar seu delivery de SMS{#preview-push}
+
+Depois de definir o conteúdo da mensagem, você pode utilizar perfis de teste para pré-visualizá-la e testá-la. Se você incluiu conteúdo personalizado, poderá examinar como esse conteúdo é exibido na mensagem utilizando os dados do perfil de teste. Isso permite garantir que a mensagem apareça conforme esperado e que qualquer informação personalizada seja apresentada corretamente.
+
+1. Na página de conteúdo do delivery, é possível usar **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
+
+1. Clique em **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar um ou vários perfis de teste ou perfis.
+
+1. Após selecionar os perfis de teste, clique em **[!UICONTROL Selecionar]**.
+
+1. No painel direito, você encontrará uma pré-visualização do email, onde os elementos personalizados são substituídos dinamicamente por dados do perfil selecionado.
+
+Agora é possível revisar e enviar uma mensagem de SMS para o público-alvo.
+
+## Enviar a entrega de SMS {#preview-send-push}
 
 1. Após personalizar o conteúdo de SMS, clique em **[!UICONTROL Revisar e enviar]** do seu **[!UICONTROL Entrega]** página.
 

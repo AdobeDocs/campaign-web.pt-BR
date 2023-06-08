@@ -4,10 +4,10 @@ title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 98%
+source-wordcount: '218'
+ht-degree: 93%
 
 ---
 
@@ -35,14 +35,8 @@ ht-degree: 98%
 
 1. Por padrão, o rastreamento está habilitado para entregas. Você pode desativar essa opção na **[!UICONTROL seção Recursos opcionais]**.
 
+1. Acesse o **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
+
 1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização.
-
-1. É possível usar a opção **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
-
-1. Clique em **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar um ou vários perfis de teste ou perfis.
-
-1. Após selecionar os perfis de teste, clique em **[!UICONTROL Selecionar]**.
-
-1. No painel direito, você encontrará uma pré-visualização do email, onde os elementos personalizados são substituídos dinamicamente por dados do perfil selecionado.
 
 Agora é possível revisar e enviar uma mensagem de SMS para o público-alvo.

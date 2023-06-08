@@ -3,14 +3,30 @@ audience: end-user
 title: Enviar uma entrega de notificação por push
 description: Saiba como enviar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '269'
+ht-degree: 23%
 
 ---
 
-# Enviar uma entrega de notificação por push {#send-push}
+# Pré-visualizar e enviar um delivery de notificação por push {#send-push}
+
+## Pré-visualizar o delivery de notificação por push {#preview-push}
+
+Depois de definir o conteúdo da mensagem, você pode utilizar perfis de teste para visualizar e testar a mensagem. Se você incluiu conteúdo personalizado, poderá examinar como esse conteúdo é exibido na mensagem utilizando os dados do perfil de teste. Isso permite garantir que a mensagem esteja sendo renderizada corretamente e que os elementos personalizados estejam sendo incorporados adequadamente.
+
+1. Na página de conteúdo do delivery, é possível usar **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
+
+1. Clique em **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar um ou vários perfis de teste ou perfis.
+
+1. Após selecionar os perfis de teste, clique em **[!UICONTROL Selecionar]**.
+
+1. No painel direito, você encontrará uma pré-visualização do email, onde os elementos personalizados são substituídos dinamicamente por dados do perfil selecionado.
+
+Agora é possível revisar e enviar uma mensagem de SMS para o público-alvo.
+
+## Enviar a entrega de notificação por push {#preview-send-push}
 
 1. Após personalizar o conteúdo da notificação por push, clique em **[!UICONTROL Revisar e enviar]** do seu **[!UICONTROL Entrega]** página.
 
