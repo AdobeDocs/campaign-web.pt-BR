@@ -4,10 +4,10 @@ title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 46%
+source-wordcount: '752'
+ht-degree: 47%
 
 ---
 
@@ -86,11 +86,12 @@ Após a preparação do delivery, é possível revisar como as exclusões foram 
 * Nos logs do delivery, a guia Logs mostra a etapa de exclusão.
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* A variável **Logs de exclusão** exibe cada perfil e a exclusão relacionada **Motivo**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * A variável **Causas de exclusão** exibe o número de perfis excluídos para cada regra de tipologia.
 
