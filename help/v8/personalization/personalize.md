@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
@@ -31,7 +31,7 @@ Para adicionar tags de personalização em um delivery, abra o editor de express
 
 ![](assets/perso-access.png)
 
-O editor de expressão é exibido. Os campos de personalização são organizados em três menus, localizados à esquerda da tela. Esses menus dão acesso a todos os campos disponíveis no banco de dados do Adobe Campaign.
+O editor de expressão é exibido. Os campos de personalização são organizados em vários menus, localizados à esquerda da tela. Esses menus dão acesso a todos os campos disponíveis no banco de dados do Adobe Campaign.
 
 ![](assets/perso-insert-field.png)
 
