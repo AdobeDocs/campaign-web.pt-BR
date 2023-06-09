@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -59,11 +59,11 @@ Para definir o conteúdo condicional para um delivery usando o editor de express
 
    1. Substituir `Ìnsert content here` com o conteúdo que você deseja exibir para os perfis que não atendem à condição da função if.
 
-      ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){width="800" align="center"}
 
-      Você também pode usar a variável **else if** função auxiliar para criar condições com várias variantes de conteúdo. Por exemplo, a expressão abaixo exibe três variantes de uma mensagem dependendo do idioma dos recipients:
+   Você também pode usar a variável **else if** função auxiliar para criar condições com várias variantes de conteúdo. Por exemplo, a expressão abaixo exibe três variantes de uma mensagem dependendo do idioma dos recipients:
 
-      ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){width="800" align="center"}
 
    >[!NOTE]
    >

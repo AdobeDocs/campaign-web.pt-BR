@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 21%
@@ -40,7 +40,7 @@ Use o Campaign para criar conteúdo dinâmico e enviar mensagens personalizadas.
 
 O Adobe Campaign V8 Web fornece um editor de expressão onde você pode selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. O editor de expressão está disponível para todos os canais, em todos os campos com o **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone, como o campo da linha de assunto ou links de email e componentes de conteúdo de texto/botão.
 
-Estes são alguns exemplos de como acessar o editor de expressão, dependendo do conteúdo que você deseja tornar dinâmico
+Estes são alguns exemplos de como acessar o editor de expressão dependendo do conteúdo que você deseja tornar dinâmico:
 
 * *Acessando o editor de expressão no campo Nome do remetente*
 
