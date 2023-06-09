@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Alpha" type="Positive"
-source-git-commit: d44cbd6b9bd417f79b07b735ac571a9bcf7a04f4
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '337'
 ht-degree: 95%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 95%
 ## Envio
 
 * **Resumo da entrega**: esse relatório fornece todas as informações principais sobre a entrega. População do público-alvo, causas de exclusão, estatísticas da entrega.
-
-  +++Defina as seguintes configurações com base nos seus requisitos.
-Teste
-+++
 
   ![](assets/reporting3.png)
 
