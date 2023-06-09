@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -18,8 +18,6 @@ ht-degree: 9%
 >abstract="Conheça as métricas de relatório para a entrega de SMS."
 
 ## Resumo da entrega {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com suas mensagens SMS.
 
