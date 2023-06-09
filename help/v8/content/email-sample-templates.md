@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Trabalho com modelos de email
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Trabalho com modelos de email {#email-saved-content-templates}
 
-Quando [criação de um email](#create-email), use o **[!UICONTROL Selecionar modelo de design]** seção do **[!UICONTROL Criar seu email]** para começar a criar o conteúdo a partir de um modelo.
+Quando [criação de um email](../email/create-email.md), use o **[!UICONTROL Selecionar modelo de design]** seção do **[!UICONTROL Criar seu email]** para começar a criar o conteúdo a partir de um modelo.
 
 ![](assets/email_designer-sample-templates.png)
 

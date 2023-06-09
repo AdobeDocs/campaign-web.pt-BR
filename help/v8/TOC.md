@@ -5,7 +5,7 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 75%
@@ -28,19 +28,19 @@ ht-degree: 75%
    + Emails {#email}
       + [Criar seu primeiro email](email/create-email.md)
       + Definir conteúdo do email {#content}
-         + [Configurar conteúdo de email](content/edit-content.md)
+         + [Configurar o conteúdo do email](content/edit-content.md)
          + Comece a modelar seu email {#start-design}
             + [Introdução ao Designer de email](content/get-started-email-designer.md)
-            + [Iniciar do zero ](content/create-email-content.md)
+            + [Iniciar do zero](content/create-email-content.md)
             + [Importar o conteúdo do email](content/existing-content.md)
             + [Desenvolver o seu próprio conteúdo](content/code-content.md)
             + [Usar templates de conteúdo de email](content/email-templates.md)
          + Projetar o conteúdo {#design-content}
             + [Usar componentes de conteúdo](content/content-components.md)
-            + [Gerar a versão de texto](content/text-version-email.md)
+            + [Adicionar links e rastrear mensagens](content/message-tracking.md)
             + [Adicionar um link para a mirror page](content/mirror-page.md)
             + [Adicionar um pré-cabeçalho](content/preheader.md)
-            + [Adicionar links e rastrear mensagens](content/message-tracking.md)
+            + [Gerar a versão de texto](content/text-version-email.md)
          + Estilizar o conteúdo {#style}
             + [Introdução ao estilo de email](content/get-started-email-style.md)
             + [Editar configurações de fundo](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 75%
    + SMS {#sms}
       + [Introdução às entregas de SMS](sms/gs-sms.md)
       + [Criar uma entrega de SMS](sms/create-sms.md)
-      + [Criar um delivery de SMS ](sms/content-sms.md)
-      + [Enviar uma entrega de SMS ](sms/send-sms.md)
+      + [Criar um delivery de SMS](sms/content-sms.md)
+      + [Enviar uma entrega de SMS](sms/send-sms.md)
    + Tornar seu conteúdo dinâmico {#dynamic-content}
       + [Introdução ao conteúdo dinâmico](personalization/gs-personalization.md)
       + [Adicionar personalização](personalization/personalize.md)
