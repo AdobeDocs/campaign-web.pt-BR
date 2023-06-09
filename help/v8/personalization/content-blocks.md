@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 64%
@@ -24,13 +24,13 @@ Para adicionar um bloco de conteúdo em um delivery, siga estas etapas:
 
 1. Localize o campo onde deseja adicionar um bloco de conteúdo e clique no **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone para abrir o editor de expressão.
 
-   ![](assets/content-block-access.png)
+   ![](assets/content-block-access.png){width="800" align="center"}
 
 1. No editor de expressão, navegue até o campo **[!UICONTROL Blocos de conteúdo]** menu esquerdo.
 
 1. Para adicionar um bloco de conteúdo, coloque o cursor no local desejado no conteúdo e clique no botão &quot;+&quot; para inseri-lo.
 
-   ![](assets/content-blocks.png)
+   ![](assets/content-blocks.png){width="800" align="center"}
 
 Os blocos de conteúdo incorporados são:
 

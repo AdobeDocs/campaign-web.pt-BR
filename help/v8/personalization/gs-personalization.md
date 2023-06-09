@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 22%
+source-wordcount: '495'
+ht-degree: 21%
 
 ---
 
@@ -26,38 +26,37 @@ Use o Campaign para criar conteúdo dinâmico e enviar mensagens personalizadas.
 
 É possível tornar o conteúdo da mensagem dinâmico inserindo:
 
-* **Campos de personalização**: os campos de personalização são usados para a personalização de primeiro nível de suas mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens.
+* **Campos de personalização**: os campos de personalização são usados para a personalização de primeiro nível de suas mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. A sintaxe a seguir insere a cidade do recipient no conteúdo: &lt;%= recipient.location.city %>.
 
-   A sintaxe a seguir insere a cidade do recipient no conteúdo: &lt;%= recipient.location.city %>.
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **Conteúdo condicional**: configure o conteúdo condicional para adicionar conteúdo com base no perfil do recipient, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. Você pode definir a versão alternativa do conteúdo quando a condição não for verdadeira.
 
 * **Blocos de conteúdo incorporados**: o Campaign vem com um conjunto de blocos de personalização que contêm uma renderização específica que pode ser inserida em seus deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page de uma mensagem de email. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## Acessar o editor de expressão {#access}
 
 O Adobe Campaign V8 Web fornece um editor de expressão onde você pode selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. O editor de expressão está disponível para todos os canais, em todos os campos com o **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone, como o campo da linha de assunto ou links de email e componentes de conteúdo de texto/botão.
 
+Estes são alguns exemplos de como acessar o editor de expressão, dependendo do conteúdo que você deseja tornar dinâmico
+
+* *Acessando o editor de expressão no campo Nome do remetente*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *Acesso ao editor de expressão por meio de um componente de texto de email*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *Acesso ao editor de expressão por meio de um link em um email*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >Além do editor de expressão, você também pode aproveitar um construtor de conteúdo condicional dedicado ao criar um email. [Saiba como criar conteúdo condicional em emails](conditions.md)
-
-*Acessando o editor de expressão no campo Nome do remetente*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*Acesso ao editor de expressão por meio de um componente de texto de email*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*Acesso ao editor de expressão por meio de um link em um email*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## Vamos nos aprofundar um pouco mais
 
