@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Enrichment
 description: Saiba como usar a atividade de workflow de enriquecimento
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 28%
+source-wordcount: '628'
+ht-degree: 27%
 
 ---
 
@@ -24,17 +24,17 @@ Os dados de Enriquecimento podem vir de:
 
 * **Da mesma tabela de trabalho** como o direcionado para o seu fluxo de trabalho:
 
-   *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*
+  *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*
 
 * **De outra tabela de trabalho**:
 
-   *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
+  *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
 
 Após adicionar os dados de enriquecimento ao workflow, eles poderão ser usados nas atividades adicionadas após o **Enriquecimento** atividade para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir com seu público-alvo.
 
 Por exemplo, você pode adicionar à tabela de trabalho do fluxo de trabalho as informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou a quantidade gasta nessas compras.
 
-## Configuração geral
+## Configuração geral {#general}
 
 Siga estas etapas para configurar o **Enriquecimento** atividade:
 
@@ -44,9 +44,9 @@ Siga estas etapas para configurar o **Enriquecimento** atividade:
 
 ![](../assets/workflow-enrichment1.png)
 
-Você pode selecionar dois tipos de dados: um único atributo da target dimension ou um link de coleção.
+É possível selecionar dois tipos de dados de enriquecimento: um [atributo de enriquecimento único](#single-attribute) da dimensão do target ou um [link da coleção](#collection-link).
 
-## Atributo único
+## Atributo de enriquecimento único {#single-attribute}
 
 Aqui, estamos apenas adicionando um único atributo de enriquecimento, por exemplo, a data de nascimento. Siga estas etapas:
 
@@ -56,16 +56,14 @@ Aqui, estamos apenas adicionando um único atributo de enriquecimento, por exemp
 
 ![](../assets/workflow-enrichment2.png)
 
-## Link da coleção
+## Link da coleção {#collection-link}
 
 Neste caso de uso mais complexo, selecionaremos um link de coleção que é um link com uma cardinalidade 1-N entre as tabelas. Vamos recuperar as três compras mais recentes que custam menos de US$ 100. Para isso, é necessário definir:
 
-* um atributo: o **Valor total** campo
+* um atributo de enriquecimento: o **Valor total** campo
 * o número de linhas a serem recuperadas: 3
 * um filtro: filtrar itens maiores que 100$
 * uma classificação: classificação descendente no **Data do pedido** campo.
-
-Siga estas etapas:
 
 ### Adicionar o atributo
 
@@ -92,7 +90,7 @@ Se quiser, por exemplo, obter o valor médio de compras de um cliente, selecione
 
 ### Definir os filtros
 
-Aqui, definimos o valor máximo do atributo. Filtramos itens maiores que US$ 100.
+Aqui, definimos o valor máximo do atributo de enriquecimento. Filtramos itens maiores que US$ 100.
 
 1. Clique em **Editar filtros**.
 1. Adicione os dois filtros a seguir: **Valor total** existe E **Valor total** é inferior a 100. O primeiro filtra os valores NULL como eles seriam exibidos como o maior valor.
@@ -113,6 +111,11 @@ Agora precisamos aplicar a classificação para recuperar os três **mais recent
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
