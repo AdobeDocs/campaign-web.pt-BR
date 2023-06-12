@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 83%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ Use a barra superior da interface para:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Configurar telas de lista {#list-screens}
+## Procurar e filtrar listas {#list-screens}
 
-Vários links no menu de navegação esquerdo (por exemplo, **Entregas** ou **Campanhas**) exibem listas de objetos. Essas telas de lista são do tipo somente leitura, exceto a lista de entrega de email.
+A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são somente leitura. Você pode personalizar a exibição da lista e filtrar essas listas, conforme detalhado abaixo.
+
+Para remover um filtro, clique no link **Limpar tudo** botão.
+
+### Personalizar telas de lista {#custom-lists}
+
+As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no link **Configurar coluna para layout personalizado** no canto superior direito da lista.
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+No **Configurar colunas** , adicionar ou remover colunas e alterar a ordem na qual elas são exibidas.
+
+Por exemplo, para estas configurações:
+
+![](assets/columns.png){width="70%" align="left"}
+
+A lista mostra as seguintes colunas:
+
+![](assets/column-sample.png){width="70%" align="left"}
+
+Use o **Exibir atributos avançados** alternar para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
+
+### Classificar dados {#sort-lists}
+
+Também é possível classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo) indicando que a lista está classificada nessa coluna.
+
+Para colunas numéricas ou de data, a variável **Para cima** indica que a lista é classificada em ordem crescente enquanto a variável **Para baixo** indica uma ordem descendente. Para strings ou colunas alfanuméricas, os valores são listados em ordem alfabética.
+
+### Filtros embutidos {#list-built-in-filters}
 
 Para localizar itens mais rapidamente, você pode usar a barra de pesquisa ou filtrar a lista com base em critérios contextuais.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no ícone no canto superior direito da lista. Você pode adicionar ou remover colunas e alterar a ordem em que são exibidas.
+Por exemplo, você pode filtrar deliveries em seu status, canal, data de contato ou pasta. Você também pode ocultar testes.
 
-![](assets/columns.png){width="70%" align="left"}
+### Filtros personalizados{#list-custom-filters}
 
-Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo) indicando que a lista está classificada nessa coluna. Para colunas numéricas ou de datas, a seta para cima indica que a lista está classificada em ordem crescente, enquanto a seta para baixo indica uma ordem decrescente. Para strings ou colunas alfanuméricas, os valores são listados em ordem alfabética.
+Para criar filtros personalizados nos dados, navegue até a parte inferior dos filtros e clique no **Adicionar regras** botão.
 
-## Ajuda contextual e guia de integração {#contextual-help}
+Arraste e solte atributos para criar seus critérios de filtro no **Filtros avançados** tela.
 
-Uma ajuda contextual está disponível na interface. Quando disponível, clique no botão **?Ícone** para exibir informações de ajuda e links de documentação relacionados.
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Use o **Exibir atributos avançados** alternar para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
+
+### Usar atributos avançados {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Exibir atributos avançados"
+>abstract="Somente os atributos mais comuns são exibidos por padrão na lista de atributos. Use esse botão para criar um filtro com atributos avançados."
+
+Somente os atributos mais comuns são exibidos por padrão nas telas de configuração de filtro e lista de atributos.
+
+Use o **Exibir atributos avançados** alterne na lista para ver todos os atributos disponíveis para a lista atual.
+
+
+## Ajuda contextual {#contextual-help}
+
+Uma ajuda contextual está disponível na interface. Quando disponível, clique no link `?` ícone para exibir informações de ajuda e links de documentação relacionados.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Um guia de integração também está disponível para ajudá-lo a começar a usar o Campaign Web v8. Clique no ícone no canto inferior direito, escolha um dos cenários passo a passo disponíveis e siga as instruções.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Navegadores compatíveis {#browsers}
 
@@ -187,17 +233,8 @@ O idioma padrão da interface é determinado pelo idioma preferencial especifica
 Para alterar o idioma:
 
 1. Clique no ícone do perfil, na parte superior direita, e selecione **Preferências**.
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. Em seguida, clique no idioma exibido sob o seu endereço de email.
-
-   ![](assets/preferences2.png)
-
+1. Em seguida, clique no link do idioma exibido sob seu endereço de email.
 1. Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Campos avançados do construtor de regras"
+>abstract="Configure colunas com campos avançados."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permissão necessária"
 >abstract="Seu administrador precisa lhe conceder permissão para que você possa criar um segmento."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Campos avançados do seletor de atributos"
->abstract="Configure colunas com campos avançados."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Campos avançados do construtor de regras"
->abstract="Configure colunas com campos avançados."
+
 
 
 
