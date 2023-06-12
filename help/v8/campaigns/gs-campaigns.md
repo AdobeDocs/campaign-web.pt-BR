@@ -4,9 +4,9 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 15%
 
 ---
@@ -56,7 +56,7 @@ No **Procurar** clique em uma campanha para exibir seu painel. Duas guias estão
 
 A variável **Definir configurações da campanha** O ícone permite modificar as propriedades da campanha que foram definidas ao criar a campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
 
-## Monitoramento e rastreamento de longos{#campaign-monitoring}
+## Logs de monitoramento e rastreamento{#campaign-monitoring}
 
 O monitoramento de campanhas é uma etapa essencial para analisar suas campanhas. Elas podem ser acessados pelo **Logs** botão.
 
