@@ -3,7 +3,7 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Saiba como começar a criar conteúdo usando o Designer de email na interface do usuário da Web do Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
+source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 9%
@@ -42,7 +42,7 @@ No painel de delivery de email, passe pelo link [Editar conteúdo](edit-content.
 
 * **Importar conteúdo de HTML existente** de um arquivo ou de uma pasta .zip. Saiba como importar um conteúdo de email no [nesta seção](existing-content.md).
 
-* **Selecionar um conteúdo existente** de uma lista de modelos incorporados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](email-templates.md).
+* **Selecionar um conteúdo existente** de uma lista de modelos incorporados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
 
