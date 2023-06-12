@@ -4,25 +4,52 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 98%
+source-wordcount: '1072'
+ht-degree: 83%
 
 ---
 
 # Introdução a mensagens{#gs-messages}
 
+Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
 
-Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados. Essas mensagens são projetadas e enviadas através de entregas, além disso podem ser personalizadas para cada destinatário. Essas entregas podem ser independentes ou incluídas no contexto de uma campanha de marketing.
+Essas mensagens são projetadas e enviadas através de entregas, além disso podem ser personalizadas para cada destinatário. Essas entregas podem ser independentes ou incluídas no contexto de uma campanha de marketing.
 
-O Adobe Campaign v8 vem com os seguintes canais de entrega:
+O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS e aplicativos móveis.
 
-* **Canal de email**: entregas de email permitem enviar emails personalizados para a população do target. Saiba como criar e enviar um email [nesta página](../email/create-email.md).
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="Email" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>Criar emails</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Push" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>Criar notificações por push</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="SMS" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>Criar mensagens SMS</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **Canal de SMS**: entregas em canais móveis permitem enviar um SMS personalizado para a população alvo.  Saiba como criar e enviar um SMS [nesta página](../sms/create-sms.md).
-
-* **Canal de aplicativo móvel**: as entregas por aplicativo móvel permitem enviar as notificações para sistemas iOS e Android.  Saiba como criar e enviar notificações por push [nesta página](../push/gs-push.md).
 
 ## Criação de uma entrega {#create-delivery}
 
@@ -83,7 +110,7 @@ Para obter mais informações sobre como configurar uma campanha e gerenciar ent
 
 ## Adicionar personalização{#personalization}
 
-As mensagens entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras. [Saiba mais sobre os recursos de personalização](../personalization/personalize.md).
+As mensagens entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras. [Saiba mais sobre os recursos de personalização](../personalization/gs-personalization.md).
 
 Use o Campaign para criar conteúdo dinâmico e enviar mensagens personalizadas. Os recursos de personalização podem ser combinados para melhorar suas mensagens e criar uma experiência do usuário personalizada.
 
@@ -91,19 +118,19 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 * Inserir **campos de personalização** dinâmicos
 
-   Os campos de personalização são usados na personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. [Saiba mais](../personalization/personalize.md)
+  Os campos de personalização são usados na personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. [Saiba mais](../personalization/personalize.md)
 
 * Inserção de **blocos de conteúdo** predefinidos
 
-   O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização. [Saiba mais](../personalization/personalize.md#ootb-content-blocks)
+  O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização. [Saiba mais](../personalization/personalize.md#ootb-content-blocks)
 
 * Criação de **conteúdo condicional**
 
-   Configure o conteúdo condicional para adicionar personalização dinâmica com base no perfil do destinatário, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. [Saiba mais](../personalization/conditions.md)
+  Configure o conteúdo condicional para adicionar personalização dinâmica com base no perfil do destinatário, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. [Saiba mais](../personalization/conditions.md)
 
 * Adição de **ofertas personalizadas**
 
-   Insira ofertas personalizadas no conteúdo da mensagem, dependendo do local do destinatário, do clima atual ou da última compra.
+  Insira ofertas personalizadas no conteúdo da mensagem, dependendo do local do destinatário, do clima atual ou da última compra.
 
 
 ## Visualização e teste de suas entregas
@@ -111,9 +138,13 @@ Você pode personalizar o conteúdo da mensagem ao:
 Depois que o conteúdo da mensagem for definido, você poderá visualizá-lo para controlar a renderização das mensagens e verificar as configurações de personalização com perfis de teste. [Saiba mais](../preview-test/preview-test.md)
 
 
-## Logs de rastreamento e entrega{#gs-tracking-logs}
+## Logs de monitoramento e rastreamento{#gs-tracking-logs}
 
-O monitoramento de entregas após serem enviados é uma etapa essencial para garantir que as campanhas de marketing sejam eficientes e atinjam os clientes. Você pode monitorar após enviar uma entrega, bem como entender como as falhas de entrega e as quarentenas são gerenciadas.
+O monitoramento de deliveries após serem enviados é uma etapa essencial para garantir que as campanhas de marketing sejam eficientes e atinjam os clientes.
+
+Você pode monitorar após enviar uma entrega, bem como entender como as falhas de entrega e as quarentenas são gerenciadas.
+
+Saiba mais sobre os recursos de monitoramento e rastreamento no [nesta seção](../reporting/gs-reports.md).
 
 ## Duplicação de uma entrega {#delivery-duplicate}
 
@@ -125,12 +156,30 @@ Para duplicar uma entrega da lista de entregas, siga estas etapas:
 1. Selecione  **[!UICONTROL Duplicar]**.
 1. Confirme a duplicação: o novo painel de entrega será aberto na tela central.
 
-
 Para duplicar uma entrega do painel, siga estas etapas:
 
 1. Abra a entrega e clique no botão **[!UICONTROL ...Mais]** na seção superior da tela.
 1. Selecione **[!UICONTROL Duplicar]**.
 1. Confirme a duplicação: a nova entrega substituirá a entrega atual na tela central.
 
+## Excluir um delivery {#delivery-delete}
 
+Os deliveries são excluídos da lista de delivery - da entrada de delivery principal no painel à esquerda ou da lista de delivery de uma campanha.
 
+Para deletar um delivery da lista de deliveries, siga estas etapas:
+
+1. Clique no botão de três pontos à direita, ao lado do nome da entrega a ser duplicada.
+1. Selecione **[!UICONTROL Delete]**.
+1. Confirmar exclusão.
+
+![Excluir um delivery da lista de delivery](assets/delete-delivery-from-list.png)
+
+Todos os deliveries estão disponíveis nessas listas, mas os deliveries criados em um workflow não podem ser excluídos daí. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow.
+
+Para excluir um delivery de um workflow, siga estas etapas:
+
+1. Selecione a atividade de delivery.
+1. Clique em  **[!UICONTROL Excluir]** no painel direito.
+1. Confirmar exclusão. Se o delivery tiver nós filhos, você poderá optar por excluí-los também ou mantê-los.
+
+![Excluir um delivery em um workflow](assets/delete-delivery-from-wf.png)

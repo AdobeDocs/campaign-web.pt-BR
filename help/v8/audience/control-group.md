@@ -4,10 +4,10 @@ title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 47%
+source-wordcount: '759'
+ht-degree: 41%
 
 ---
 
@@ -81,11 +81,11 @@ Após a preparação do delivery, é possível revisar como as exclusões foram 
 
 * No painel de delivery, antes do envio, marque a opção **Para excluir** KPI.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * Nos logs do delivery, a guia Logs mostra a etapa de exclusão.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ Após a preparação do delivery, é possível revisar como as exclusões foram 
 
 * A variável **Causas de exclusão** exibe o número de perfis excluídos para cada regra de tipologia.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 Para obter mais informações sobre logs de entrega, consulte esta [seção](../monitor/delivery-logs.md).
 
@@ -104,19 +104,19 @@ Para obter mais informações sobre logs de entrega, consulte esta [seção](../
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="População extra"
->abstract="Você pode excluir uma população específica do target selecionando um público existente ou definindo um query."
+>abstract="Você pode excluir uma população específica do público-alvo do delivery selecionando um público-alvo existente ou definindo um query."
 
-Outra forma de definir um grupo de controle é excluir uma população específica do direcionamento usando um público alvo ou definindo uma consulta.
+Outra maneira de definir um grupo de controle é selecionar uma população específica em um público-alvo existente ou definir um query.
 
 Na seção **População extra** do **Grupo de controle** na tela de definição, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
 ![](assets/control-group3.png)
 
-* Para usar um público existente, clique em **Selecionar público-alvo**. Consulte esta [seção](add-audience.md).
+* Para usar um público existente, clique em **Selecionar público-alvo**. Saiba mais [nesta seção](add-audience.md).
 
-* Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o Construtor de regras. Consulte esta [seção](segment-builder.md).
+* Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o Construtor de regras. Saiba mais [nesta seção](segment-builder.md).
 
-Os perfis incluídos no público ou que correspondem ao resultado da consulta são excluídos do público-alvo.
+Os perfis incluídos no público ou que correspondem ao resultado do query são **excluído** do target do delivery: eles não recebem nenhuma mensagem.
 
 ## Comparar os resultados{#control-group-results}
 
