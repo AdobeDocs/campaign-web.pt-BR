@@ -4,10 +4,10 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+source-git-commit: 39b4ec268ba7b1383ad887ab35e66b67d1d4a2ef
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 81%
+source-wordcount: '310'
+ht-degree: 30%
 
 ---
 
@@ -19,40 +19,76 @@ O Campaign agora oferece uma nova interface da Web com usabilidade, acessibilida
 
 >O Campaign v8 Web está atualmente na versão Alfa. O acesso é restrito a um pequeno conjunto de clientes Alfa. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio. [Saiba mais](rn/release-notes.md)
 
-
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
-<img alt="nova interface" src="assets/do-not-localize/email-create.jpeg">
+<img alt="new UI" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Nova interface do Campaign</strong>
+<div><a href="get-started/user-interface.md"><strong>Discover the new user interface</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="Pouco frequente" src="assets/do-not-localize/email-design.jpg">
+<img alt="Infrequent" src="assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Criar um email</strong></a>
+<a href="content/create-email-content.md"><strong>Meet the Email Designer</strong></a>
 </div>
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="Públicos" src="assets/do-not-localize/email-audience.jpg">
+<img alt="Audiences" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Selecionar um público</strong></a>
+<a href="audience/about-audiences.md"><strong>Make your content dynamic</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validação" src="assets/do-not-localize/email-preview.jpg">
+<img alt="Validation" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Visualizar e testar um email</strong></a>
+<a href="preview-test/proofs.md"><strong>Send cross-channel deliveries</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validation" src="assets/do-not-localize/email-preview.jpg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Reimagined workflow canvas interface</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
+-->
+
+<table style="table-layout:fixed">
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nova interface" src="assets/do-not-localize/menu-ui.jpeg">
+</a></td><td>Descubra a nova interface do Campaign Web, as melhorias mais recentes e os principais recursos. Saiba como usá-los para criar campanhas entre canais para seus públicos. Com seus recursos amigáveis, o Campaign ajuda a simplificar o processo de criação de campanhas personalizadas entre canais, impulsionar resultados e obter uma vantagem competitiva.</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nova interface" src="assets/do-not-localize/menu-workflows.jpeg">
+</a></td><td>Nossa tela gráfica abrangente facilita a criação de processos como segmentação, execução de campanha e muito mais. Com essa ferramenta avançada na ponta dos dedos, você pode simplificar seu fluxo de trabalho e elevar suas campanhas.</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nova interface" src="assets/do-not-localize/menu-design.jpg">
+</a></td><td>Comece com base em um modelo ou use o novo Email Designer do Adobe Campaign para criar emails sem precisar gravar uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, pré-visualizá-lo e testá-lo, além de enviar um email para um público-alvo existente em um caso de uso completo.</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nova interface" src="assets/do-not-localize/menu-dynamic.jpg">
+</a></td><td>Crie conteúdo condicional para definir a personalização dinâmica com base no perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições forem atendidas. Esse recurso pode levar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nova interface" src="assets/do-not-localize/menu-campaign.jpeg">
+</a></td><td>Os recursos do Adobe Campaign ajudam você a gerenciar dados centralizados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais: Email, Push e SMS.</td></tr>
+</table>
+
+
+
+
+
+
+
+
