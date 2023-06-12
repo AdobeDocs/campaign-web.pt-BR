@@ -4,7 +4,7 @@ title: Introdução às notificações por push
 description: Saiba como criar e enviar notificações por push com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 14%
@@ -23,7 +23,7 @@ Para criar notificações por push, você tem três opções:
 
 * Deliveries independentes: envolva os clientes direta e instantaneamente com delivery de notificação por push individual, sem a necessidade de workflows ou campanhas.
 
-![](../assets/do-not-localize/book.png) Saiba como configurar o canal de notificação por push neste [página](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html).
+![](../assets/do-not-localize/book.png) Saiba como configurar o canal de notificação por push neste [página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
