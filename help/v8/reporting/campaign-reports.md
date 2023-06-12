@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 28%
+source-wordcount: '1520'
+ht-degree: 22%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 28%
 ### Resumo da entrega {#delivery-summary-email}
 
 * **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de email.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -32,9 +34,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos seus destinatários:
 
-* **[!UICONTROL Estatísticas iniciais do público-alvo]**
+  ![](assets/campaign_report_email_2.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -46,9 +48,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery.
 
-* **[!UICONTROL Estatísticas de execução]**
+  ![](assets/campaign_report_email_3.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -62,9 +64,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL Estatísticas de reação]** A tabela contém os dados disponíveis para a atividade do recipient para o seu delivery.
 
-* **[!UICONTROL Estatísticas de reação]**
+  ![](assets/campaign_report_email_4.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -77,11 +79,9 @@ ht-degree: 28%
    * **[!UICONTROL Mirror page]**: Número de recipients que clicaram no link da mirror page.
 
    * **[!UICONTROL Encaminhamentos]**: Número de recipients que clicaram para encaminhar o email.
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL Fluxos de cliques gerados]**
+* **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 28%
 
 ### Não entregues {#non-deliverables-email}
 
-* **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento por navegadores]**
+* **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento de erros por domínio]** tabelas e gráficos contêm os dados disponíveis para possíveis erros encontrados com cada domínio.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -109,11 +111,11 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### Indicadores de rastreamento {#tracking-indicators-email}
 
-* **[!UICONTROL Estatísticas de delivery]**
+* **[!UICONTROL Estatísticas de entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -130,9 +132,9 @@ ht-degree: 28%
    * **[!UICONTROL Estimation of forwards]**: Estimativa do número de emails encaminhados pelos recipients alvos.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients.
 
-* **[!UICONTROL Índice de abertura e click-through]**
+  ![](assets/campaign_report_email_8.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -147,11 +149,11 @@ ht-degree: 28%
    * **[!UICONTROL Raw reactivity]**: Porcentagem do número de recipients que clicaram em um delivery pelo menos uma vez em comparação ao número de recipients que abriram um delivery pelo menos uma vez.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### Fluxos de clique e URLs {#url-email}
 
-* **[!UICONTROL Fluxos de clique e URLs]**
+* **[!UICONTROL Fluxos de clique e URLs]** O fornece indicadores chave de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -163,9 +165,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
 
-* **[!UICONTROL Os 10 links mais visitados]**
+  ![](assets/campaign_report_email_10.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -175,23 +177,23 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Detalhamento dos cliques ao longo do tempo]**, número de cliques
+* **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Atividades do usuário {#user-activities-email}
 
-* **[!UICONTROL Atividades do usuário]**
+* **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formulário de um gráfico.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++Saiba mais sobre Métricas de relatório da campanha de email.
 
    * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
 
    * **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## Canal de SMS {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estatísticas iniciais do público-alvo]**
+* **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos seus destinatários:
 
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
@@ -223,7 +225,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estatísticas de execução]**
+* **[!UICONTROL Estatísticas de execução]** a tabela detalha o sucesso do seu delivery:
 
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
@@ -237,7 +239,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Fluxos de cliques gerados]**
+* **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery:
 
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
@@ -267,7 +269,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estatísticas iniciais do público-alvo]**
+* **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos seus destinatários:
 
   +++Saiba mais sobre métricas de relatório de campanha por push.
 
@@ -279,7 +281,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estatísticas de execução]**
+* **[!UICONTROL Estatísticas de execução]** a tabela detalha o sucesso do seu delivery:
 
   +++Saiba mais sobre métricas de relatório de campanha por push.
 
@@ -293,7 +295,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Fluxos de cliques gerados]**
+* **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery:
 
   +++Saiba mais sobre métricas de relatório de campanha por push.
 
