@@ -4,10 +4,10 @@ title: Enviar emails de teste
 description: Saiba como definir e enviar emails de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 44%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Os recipients de um teste podem verificar vários elementos, como links, links p
 
 Os emails de teste podem ser enviados para dois tipos de recipients:
 
-* **Perfis de teste** - enviar emails de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados. Eles podem ser criados na variável [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **Perfis de teste** - enviar emails de teste para seed addresses, que são recipients adicionais e fictícios no banco de dados. Eles podem ser criados na variável [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **Substituir do público alvo principal** - enviar emails de teste para um endereço de email específico representando um perfil existente. Isso permite visualizar a experiência de email dos recipients, fornecendo uma representação precisa da mensagem que o perfil recebe.
 
