@@ -4,10 +4,10 @@ title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha" type="Positive"
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,9 @@ send also KPIs
 
 ## Preparar o envio{#prepare}
 
-Após definir o conteúdo, público e programação, você estará pronto para preparar sua mensagem. Durante a preparação, a população do público-alvo é calculada, e o conteúdo da mensagem gerado para cada perfil é incluído no público-alvo. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas. As regras de validação usadas durante a análise são descritas na seção [Documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=pt-BR#validation-process-with-typologies){target="_blank"}.
+Após definir o conteúdo, público e programação, você estará pronto para preparar sua mensagem. Durante a preparação, a população do público-alvo é calculada, e o conteúdo da mensagem gerado para cada perfil é incluído no público-alvo. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas.
+
+As regras de validação usadas durante a preparação do delivery estão descritas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 Siga as etapas abaixo:
 
