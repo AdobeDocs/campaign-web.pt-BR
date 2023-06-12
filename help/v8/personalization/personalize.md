@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '433'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,11 @@ Você pode personalizar qualquer delivery usando o editor de expressão, que é 
 
 ## Sintaxe de personalização {#syntax}
 
-As tags de personalização seguem uma sintaxe específica: `<%=table.field%>`. Por exemplo, para inserir o sobrenome do recipient na tabela de recipients, use o `<%= recipient.lastName %>` sintaxe.
+As tags de personalização seguem uma sintaxe específica: `<%= table.field %>`. Por exemplo, para inserir o sobrenome do recipient na tabela de recipients, use o `<%= recipient.lastName %>` sintaxe.
 
 Durante o processo de preparação do delivery, o Adobe Campaign interpreta automaticamente essas tags e as substitui pelos valores de campo correspondentes para cada recipient. Você pode visualizar a substituição real simulando seu conteúdo.
+
+Ao fazer upload de contatos de um arquivo externo para um delivery de email independente, todos os campos no arquivo de entrada estão disponíveis para personalização. A sintaxe é a seguinte: `<%= dataSource.field %>`.
 
 ## Adicionar tags de personalização {#add}
 
@@ -40,7 +42,7 @@ Para adicionar tags de personalização em um delivery, siga estas etapas:
    | Menu | Descrição |
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png) | A variável **[!UICONTROL Aplicativo de assinantes]** lista os campos relacionados aos assinantes de um aplicativo, como o terminal usado ou o sistema operacional. *Esse menu está disponível somente para notificações por push* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | A variável **[!UICONTROL Recipient]** lista os campos definidos na tabela de recipients, como nomes, idades ou endereços dos recipients. |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | A variável **[!UICONTROL Recipient]** lista os campos definidos na tabela de recipients, como nomes, idades ou endereços dos recipients. Quando [fazer upload de contatos de um arquivo externo](../audience/file-audience.md) para um delivery de email independente, esse menu lista todos os campos disponíveis no arquivo de entrada. |
    | ![](assets/do-not-localize/perso-message-menu.png) | A variável **[!UICONTROL Mensagem]** lista os campos relacionados aos logs do delivery, incluindo todas as mensagens enviadas aos recipients ou dispositivos em todos os canais, como a data do último evento com um determinado recipient |
    | ![](assets/do-not-localize/perso-delivery-menu.png) | A variável **[!UICONTROL Entrega]** O menu lista os campos relacionados aos parâmetros necessários para executar deliveries, como canal de delivery ou rótulo. |
 

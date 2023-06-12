@@ -8,33 +8,33 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 21%
+source-wordcount: '486'
+ht-degree: 12%
 
 ---
 
 
 # Introdução ao conteúdo dinâmico
 
-Para aproveitar ao máximo cada campanha de marketing, o Adobe Campaign oferece uma maneira de fornecer conteúdo dinâmico personalizado que fala com os clientes em seu nível. Com base nos dados do perfil, use os recursos de personalização para criar uma experiência personalizada para diferentes grupos e indivíduos: você pode adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que tem sobre eles. Pode ser seu nome, interesses, onde vivem, o que compraram e muito mais.
+Fornecer conteúdo relevante para seus clientes é fundamental para garantir que você atraia uma variedade de clientes e jogue o interesse deles para que o conteúdo de marketing seja lido.
 
-Use o Campaign para criar conteúdo dinâmico e enviar mensagens personalizadas. Os recursos de personalização podem ser combinados para melhorar suas mensagens e criar uma experiência do usuário personalizada.
+Para aproveitar ao máximo cada campanha de marketing, o Adobe Campaign oferece uma maneira de criar uma experiência personalizada para diferentes grupos e indivíduos, fornecendo conteúdo dinâmico personalizado que fala com os clientes em seu nível, aproveitando as informações coletadas sobre eles.
 
-## Como tornar seu conteúdo dinâmico?
+* **Personalizar suas mensagens** para cada recipient específico aproveitando dados de perfil, como nome, interesses, onde vivem, o que compraram e muito mais.
 
-É possível tornar o conteúdo da mensagem dinâmico inserindo:
-
-* **Campos de personalização**: os campos de personalização são usados para a personalização de primeiro nível de suas mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. A sintaxe a seguir insere a cidade do recipient no conteúdo: &lt;%= recipient.location.city %>.
+  Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização relacionado ao recipient, à mensagem ou ao delivery. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. A sintaxe a seguir insere a cidade do recipient no conteúdo: &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
-* **Conteúdo condicional**: configure o conteúdo condicional para adicionar conteúdo com base no perfil do recipient, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. Você pode definir a versão alternativa do conteúdo quando a condição não for verdadeira.
+* **Criar conteúdo condicional** para adaptar seus deliveries a cada recipient e mostrar apenas o conteúdo relevante para um determinado cliente com base nas informações que você tem sobre eles. Isso permite exibir blocos de texto e/ou imagens específicos com base em condições. Por exemplo, adapte um banner de email com base na assinatura dos recipients a um serviço específico.
 
-* **Blocos de conteúdo incorporados**: o Campaign vem com um conjunto de blocos de personalização que contêm uma renderização específica que pode ser inserida em seus deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page de uma mensagem de email. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
+  ![](assets/condition-sample.png){width="800" align="center"}
 
-  ![](assets/perso-content-blocks.png){width="800" align="center"}
+* **Usar blocos de personalização** para economizar tempo e aproveitar o conteúdo personalizado facilmente reutilizável em suas mensagens. O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page de uma mensagem de email. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
+
+  ![](assets/content-blocks.png){width="800" align="center"}
 
 ## Acessar o editor de expressão {#access}
 
