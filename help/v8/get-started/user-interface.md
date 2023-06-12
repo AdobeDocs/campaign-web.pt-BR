@@ -4,7 +4,7 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 98%
@@ -72,7 +72,7 @@ Os itens exibidos no explorador dependem das permissões do usuário.
 
 Como em qualquer tela de lista, você pode configurar as colunas para personalizar a exibição e mostrar todas as informações necessárias. Consulte esta [seção](#list-screens).
 
-Para obter mais informações sobre o explorador do Campaign, consulte [Documentação do console do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=pt-BR#ac-explorer-ui){target="_blank"}.
+Para obter mais informações sobre o explorador do Campaign, consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=pt-BR#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -99,9 +99,9 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 
 * **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. É possível filtrar a lista por estado, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre entregas [nesta seção](../msg/gs-messages.md).
 
-   Use o botão **Mais ações** para excluir ou duplicar uma entrega.
+  Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){width="70%" align="left"}
 
 * **Workflows** - Nessa tela, é possível acessar a lista completa de workflows e modelos de workflows. É possível verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo modelo de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar os workflows que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 
@@ -164,7 +164,7 @@ As listas são exibidas em colunas. É possível exibir informações adicionais
 
 Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo) indicando que a lista está classificada nessa coluna. Para colunas numéricas ou de datas, a seta para cima indica que a lista está classificada em ordem crescente, enquanto a seta para baixo indica uma ordem decrescente. Para strings ou colunas alfanuméricas, os valores são listados em ordem alfabética.
 
-## Ajuda contextual e guia de integração
+## Ajuda contextual e guia de integração {#contextual-help}
 
 Uma ajuda contextual está disponível na interface. Quando disponível, clique no botão **?Ícone** para exibir informações de ajuda e links de documentação relacionados.
 
@@ -218,12 +218,6 @@ Para alterar o idioma:
 1. Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
 
    ![](assets/select-language.png)
-
-<!--
-## Supported browsers {#browsers}
-
-Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
--->
 
 
 

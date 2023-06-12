@@ -4,10 +4,10 @@ title: Introdução ao Campaign v8 Web
 description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 72%
+source-wordcount: '469'
+ht-degree: 71%
 
 ---
 
@@ -34,19 +34,6 @@ Se você precisar acessar os recursos do Campaign v8 que não estão disponívei
 >
 >O Campaign v8 Web está atualmente na versão Alfa. O acesso é restrito a um pequeno conjunto de clientes Alfa. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio.
 
-## Sobre o console do cliente do Campaign{#ac-client}
-
-O console do cliente do Campaign é um aplicativo baseado na Web instalado no seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
-
-Saiba como baixar e instalar o console do cliente [nesta seção](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=pt-BR){target="_blank"}.
-
-Para obter mais informações sobre como usar o Campaign v8, consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"}.
-
-Os dados da campanha são armazenados no servidor de aplicativos. Os dados estão disponíveis tanto no console do cliente quanto na interface da Web. Por exemplo, se você criar um template de entrega usando o console do cliente, ele também estará disponível na interface da Web. E se você criar uma entrega de email na interface da Web, essa entrega também está acessível no console do cliente.
-
-
-Alguns objetos só podem ser criados e gerenciados no console do cliente. Eles podem ser visíveis e usados na interface do usuário da Web do Campaign, mas não podem ser criados nem modificados neste ambiente. Todos os objetos e componentes do Campaign estão disponíveis na visualização do Explorer, disponível na navegação à esquerda.
-
 ## Conectar-se ao Campaign
 
 
@@ -63,3 +50,13 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 -> or Campaign v8 web if direct URL
 -->
 
+
+## Sobre o console do cliente do Campaign{#ac-client}
+
+O console do cliente do Campaign é um aplicativo baseado na Web instalado no seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
+
+Os dados da campanha são armazenados no servidor de aplicativos. Os dados estão disponíveis tanto no console do cliente quanto na interface da Web. Por exemplo, se você criar um template de entrega usando o console do cliente, ele também estará disponível na interface da Web. E se você criar uma entrega de email na interface da Web, essa entrega também está acessível no console do cliente.
+
+Alguns objetos só podem ser criados e gerenciados no console do cliente. Eles podem ser visíveis e usados na interface do usuário da Web do Campaign, mas não podem ser criados nem modificados neste ambiente. Todos os objetos e componentes do Campaign estão disponíveis na visualização do Explorer, disponível na navegação à esquerda.
+
+Para obter mais informações sobre como usar o Campaign v8, consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"}.
