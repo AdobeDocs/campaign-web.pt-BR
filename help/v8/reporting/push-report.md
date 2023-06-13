@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios do delivery por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 9%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 9%
 >id="acw_push_report_overview"
 >title="Resumo do relatório de push"
 >abstract="Conheça as métricas de relatório para a entrega por push."
+
+A variável **Relatório de entrega por push** O fornece uma visão geral completa do canal de push, oferecendo insights abrangentes e dados específicos. Ele oferece informações abrangentes sobre o desempenho, a eficácia e os resultados de cada delivery.
 
 ## Resumo por push {#push-summary}
 
