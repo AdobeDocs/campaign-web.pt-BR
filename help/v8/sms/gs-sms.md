@@ -4,10 +4,10 @@ title: Introdução às entregas de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 80%
+ht-degree: 45%
 
 ---
 
@@ -17,11 +17,11 @@ As entregas de SMS fornecem uma maneira prática e eficiente de enviar mensagens
 
 O canal de SMS oferece três métodos para criar entregas de SMS:
 
-* Workflows: adicione uma atividade de SMS, defina as configurações básicas e componha seu conteúdo de SMS em uma sequência de automação maior.
+* **[!UICONTROL Fluxos de trabalho]**: adicione uma atividade de SMS, defina configurações básicas e componha seu conteúdo de SMS em uma sequência de automação maior.
 
-* Campanhas: incorpore entregas de SMS em campanhas dedicadas, definindo parâmetros como público-alvo e programação de entrega.
+* **[!UICONTROL Campanhas]**: incorpore deliveries de SMS em campanhas dedicadas, definindo parâmetros como público-alvo e programação de delivery.
 
-* Entregas independentes: crie entregas de SMS individuais para uma comunicação rápida e direta com os clientes, sem a necessidade de fluxos de trabalho ou campanhas.
+* **Entregas independentes**: crie deliveries de SMS individuais para comunicação rápida e direta com seus clientes, sem a necessidade de workflows ou campanhas.
 
 ![](../assets/do-not-localize/book.png) Saiba como configurar o canal de SMS neste [página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -21,6 +21,8 @@ ht-degree: 9%
 
 * **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com suas mensagens SMS.
 
+  ![](assets/reporting_sms_3.png)
+
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
    * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a análise de delivery.
@@ -32,9 +34,9 @@ ht-degree: 9%
    * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo.
+
+  ![](assets/reporting_sms_4.png)
 
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -43,9 +45,10 @@ ht-degree: 9%
    * **[!UICONTROL Exclusões]**: Número de perfis que foram excluídos da análise.
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **Estatísticas gerais** apresenta dados para as mensagens SMS enviadas, incluindo:
+
+  ![](assets/reporting_sms_5.png)
 
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -55,8 +58,6 @@ ht-degree: 9%
 
    * **[!UICONTROL Nova quarentena]**: Número de perfis que foram excluídos e adicionados à quarentena.
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
 

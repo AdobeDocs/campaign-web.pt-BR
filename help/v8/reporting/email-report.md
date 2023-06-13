@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 34%
@@ -16,6 +16,8 @@ ht-degree: 34%
 
 * **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos seus destinatários:
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
    * **[!UICONTROL Público inicial]**: Número total de recipients alvos.
@@ -26,6 +28,8 @@ ht-degree: 34%
 +++
 
 * **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso do delivery.
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -41,6 +45,8 @@ ht-degree: 34%
 
 * **[!UICONTROL Causas de exclusão]** o gráfico e a tabela mostram o detalhamento por regra de mensagens rejeitadas durante a análise.
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## Taxa de transferência de delivery {#delivery-throughtput}
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
@@ -48,6 +54,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 ## Estatísticas de transmissão {#broadcast-statistics}
 
 * **[!UICONTROL Estatísticas de transmissão]** A tabela contém os dados disponíveis para possíveis erros encontrados com cada domínio.
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -84,6 +92,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Estatísticas de entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados.
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
    * **[!UICONTROL Sucesso]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
@@ -100,6 +110,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 +++
 
 * **[!UICONTROL Índice de click-through e aberturas]** A tabela exibe dados relativos aos recipients.
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -118,6 +130,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Fluxos de clique e URLs]** O fornece indicadores chave de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery.
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
    * **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
@@ -130,6 +144,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
    * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
@@ -140,9 +156,13 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## Atividades do usuário {#user-activities-email}
 
 * **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formulário de um gráfico.
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -156,6 +176,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Estatísticas de rastreamento]** O gráfico fornece estatísticas sobre aberturas e cliques.
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
    * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
@@ -167,6 +189,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 ## Detalhamento de aberturas {#breakdown-opens}
 
 Este relatório mostra o detalhamento de aberturas por sistema operacional, dispositivo e navegador para o período relacionado. Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis.
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks
 
