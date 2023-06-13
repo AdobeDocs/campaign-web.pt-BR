@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# Introdução ao conteúdo dinâmico
+# Introdução ao conteúdo dinâmico {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ Como profissional de marketing, é fundamental direcionar os clientes que estão
 
 Os recursos de conteúdo dinâmico da Web do Adobe Campaign permitem personalizar o conteúdo com base nas informações coletadas sobre os recipients. Ao utilizar o conteúdo dinâmico, você garante que seus esforços de marketing sejam mais relevantes, evitando produtos ou serviços indesejados ou desnecessários. Essa abordagem torna o conteúdo mais atraente e aumenta a probabilidade de ele ser lido. Além disso, permite personalizar o conteúdo, fazendo com que os recipients sintam que estão recebendo informações de uma pessoa em vez de uma máquina.
 
-## Como tornar seu conteúdo dinâmico?
+## Como tornar seu conteúdo dinâmico? {#make-content-dyn}
 
 Você pode tornar o conteúdo da mensagem dinâmico inserindo construções JavaScript no editor de expressão da Web do Campaign. No envio da mensagem, essas expressões são interpretadas pelo Adobe Campaign para fornecer o conteúdo correto a cada um dos recipients:
 
@@ -65,7 +65,7 @@ Estes são alguns exemplos de como acessar o editor de expressão dependendo do 
 >
 >Além do editor de expressão, você também pode aproveitar um construtor de conteúdo condicional dedicado ao criar um email. [Saiba como criar conteúdo condicional em emails](conditions.md)
 
-## Vamos nos aprofundar um pouco mais
+## Vamos nos aprofundar um pouco mais {#dive-deeper}
 
 Agora que você entende como tornar seu conteúdo dinâmico, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
 
