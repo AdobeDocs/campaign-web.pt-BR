@@ -3,10 +3,10 @@ audience: end-user
 title: Procurar, pesquisar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Para remover um filtro, clique no link **Limpar tudo** botão.
 
 As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no link **Configurar coluna para layout personalizado** no canto superior direito da lista.
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 No **Configurar colunas** , adicionar ou remover colunas e alterar a ordem na qual elas são exibidas.
 
