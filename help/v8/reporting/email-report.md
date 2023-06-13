@@ -3,20 +3,22 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 38%
+source-wordcount: '1407'
+ht-degree: 39%
 
 ---
 
 # Relatório de entrega de email {#email-report}
 
+A variável **Relatório de entrega de email** O oferece insights e dados abrangentes específicos para o canal de email. Ele fornece informações detalhadas sobre o desempenho, a eficácia e os resultados de seus deliveries individuais, fornecendo uma visão geral abrangente.
+
 ## Resumo da entrega {#delivery-summary-email}
 
 * **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos seus destinatários:
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -96,6 +98,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento de erros por domínio]** tabelas e gráficos contêm os dados disponíveis para possíveis erros encontrados com cada domínio.
 
+  Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre a gestão de quarentena, consulte [Gestão de Quarentena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR)
+
   ![](assets/campaign_report_email_6.png)
 
   +++Saiba mais sobre Métricas de relatório de delivery de email.
@@ -168,6 +172,8 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
    * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
 
+   * **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para deliveries enviados nos seis meses anteriores. Somente os deliveries com a mesma tipologia e no mesmo canal são considerados. Provas são excluídas.
+
 +++
 
 * **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
@@ -188,7 +194,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 ## Atividades do usuário {#user-activities-email}
 
-* **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formulário de um gráfico.
+* **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formulário de um gráfico. Você pode escolher o período para direcionar dados: último dia ou hora ou 30 minutos.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 ## Estatísticas de rastreamento {#tracking-statistics}
 
-* **[!UICONTROL Estatísticas de rastreamento]** O gráfico fornece estatísticas sobre aberturas e cliques.
+* **[!UICONTROL Estatísticas de rastreamento]** O gráfico fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar dados.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 ## Detalhamento de aberturas {#breakdown-opens}
 
 Este relatório mostra o detalhamento de aberturas por sistema operacional, dispositivo e navegador para o período relacionado. Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis.
+Você tem flexibilidade para mudar de **[!UICONTROL Fixo e dispositivos móveis]** para direcionar exclusivamente **[!UICONTROL Somente dispositivos móveis]** para direcionamento mais preciso.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## Hotclicks
+## Hotclicks {#hotclicks}
 
 Este relatório mostra o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques nos links, em cada link. Links de unsubscription de blocos de personalização, links de mirror pages e links de ofertas são considerados no total de cliques acumulados, mas não são exibidos no relatório.
 
