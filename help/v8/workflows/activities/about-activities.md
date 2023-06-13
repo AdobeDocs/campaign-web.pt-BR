@@ -2,12 +2,12 @@
 audience: end-user
 title: Trabalhar com atividades de fluxos de trabalho
 description: Saiba como executar atividades de workflow
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 12%
+source-wordcount: '305'
+ht-degree: 10%
 
 ---
 
@@ -49,7 +49,7 @@ Consulte esta [seção](enrichment.md).
 As atividades a seguir são específicas para organizar e executar workflows. Sua principal tarefa é coordenar as outras atividades:
 
 * A variável [Associação AND](and-join.md) A atividade permite sincronizar várias ramificações de execução de um fluxo de trabalho.
-* A variável [Fim](end.md) permite marcar graficamente o final de um workflow. Essa atividade não tem impacto funcional e, portanto, é opcional.
+* A variável **Fim** permite marcar graficamente o final de um workflow. Essa atividade não tem impacto funcional e, portanto, é opcional.
 * A variável [Bifurcar](fork.md) permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
 * A variável [Aguardar](wait.md) A atividade suspende temporariamente a execução de uma parte do fluxo de trabalho.
 
