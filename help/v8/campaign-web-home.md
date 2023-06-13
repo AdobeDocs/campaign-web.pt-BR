@@ -4,10 +4,10 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,11 +55,11 @@ Agora que você entende o que pode fazer na Web do Adobe Campaign, é hora de se
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="Validação" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Interface de tela de workflow reformulada</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Interface de tela de workflow reformulada</strong></a>
 </div>
 <p>
 </td>
@@ -72,20 +72,20 @@ Agora que você entende o que pode fazer na Web do Adobe Campaign, é hora de se
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="Públicos" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Tornar seu conteúdo dinâmico</strong></a>
+<a href="personalization/gs-personalization.md"><strong>Tornar seu conteúdo dinâmico</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="Validação" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Enviar deliveries entre canais</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Enviar deliveries entre canais</strong></a>
 </div>
 <p>
 </td>
