@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 25%
+source-wordcount: '1753'
+ht-degree: 28%
 
 ---
 
@@ -111,6 +111,8 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
 * **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento de erros por domínio]** tabelas e gráficos contêm os dados disponíveis para possíveis erros encontrados com cada domínio.
 
+  Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre a gestão de quarentena, consulte [Gestão de Quarentena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR).
+
   ![](assets/campaign_report_email_6.png)
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
@@ -183,6 +185,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
    * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
 
+   * **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para deliveries enviados nos seis meses anteriores. Somente os deliveries com a mesma tipologia e no mesmo canal são considerados. Provas são excluídas.
 +++
 
 * **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
