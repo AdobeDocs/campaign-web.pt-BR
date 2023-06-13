@@ -4,10 +4,10 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
+source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 34%
+source-wordcount: '484'
+ht-degree: 38%
 
 ---
 
@@ -27,7 +27,7 @@ A nova interface da Web do Campaign v8 oferece uma experiência de usuário mode
 
 **Interface de tela de workflow reformulada**
 
-Nossa tela gráfica abrangente facilita a criação de processos como segmentação, execução de campanha e muito mais. Com essa ferramenta avançada na ponta dos dedos, você pode simplificar seu fluxo de trabalho e elevar suas campanhas.
+Nosso ambiente gráfico abrangente permite que você crie processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade. Com os workflows, é possível orquestrar a gama completa de processos e tarefas, melhorar a velocidade e a escala de cada aspecto de suas campanhas de marketing, desde a criação de segmentos e a preparação de mensagens até a entrega. Além disso, você pode sincronizar seus canais com uma interface única e fácil de usar para a orquestração de campanhas.
 
 **Conheça o Designer de email**
 
@@ -35,11 +35,11 @@ Comece com base em um modelo ou use o novo Email Designer do Adobe Campaign para
 
 **Tornar seu conteúdo dinâmico**
 
-Crie conteúdo condicional para definir a personalização dinâmica com base no perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições forem atendidas. Esse recurso pode levar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo
+Personalize o conteúdo com base nas informações coletadas sobre os recipients. Usar conteúdo dinâmico torna seu conteúdo mais atraente e aumenta a probabilidade de sua leitura. Personalize suas mensagens para cada recipient específico aproveitando os dados do perfil, como nome, interesses, onde vivem, o que compraram e muito mais. Crie conteúdo condicional para adaptar seus deliveries a cada recipient e mostrar apenas o conteúdo relevante para um determinado cliente com base nas informações que você tem sobre ele.
 
 **Enviar deliveries entre canais**
 
-Os recursos do Adobe Campaign ajudam você a gerenciar dados centralizados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais: Email, Push e SMS.
+Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Nesta versão, os canais de email, push e SMS estão disponíveis. Meça a eficácia dos deliveries com relatórios detalhados, incluindo a contagem de aberturas, cliques, encaminhamentos e muito mais.
 
 ## Vamos nos aprofundar um pouco mais
 
