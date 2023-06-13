@@ -3,10 +3,10 @@ audience: end-user
 title: Procurar, pesquisar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '396'
+ht-degree: 13%
 
 ---
 
@@ -69,3 +69,6 @@ Use o **Exibir atributos avançados** alternar para ver todos os atributos da li
 Somente os atributos mais comuns são exibidos por padrão nas telas de configuração de filtro e lista de atributos. Atributos que foram definidos como `advanced` os atributos no schema de dados estão ocultos nas telas de configuração.
 
 Ativar o **Exibir atributos avançados** alternar para ver todos os atributos disponíveis para a lista atual: a lista de atributos é atualizada instantaneamente.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
