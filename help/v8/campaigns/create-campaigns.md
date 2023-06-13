@@ -4,15 +4,15 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: bc23e51edf5b499ae6af783e3b0d3b991dc7a3a0
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '289'
 ht-degree: 22%
 
 ---
 
 
-# Criar sua primeira campanha {#create-campaigns}
+# Criar sua primeira campanha {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 22%
 >title="Propriedades da campanha"
 >abstract="Defina as configurações e os metadados da campanha."
 
-As campanhas podem incluir workflows e deliveries independentes. Propriedades, cronograma, trabalho, delivery, além de uma programação familiar
+Para criar uma nova campanha, você precisa definir suas propriedades, agendar e incluir workflows e deliveries.
 
-## Criar a campanha
+## Criar a campanha{#campaign-create}
 
 Para criar uma nova campanha, siga estas etapas:
 
@@ -56,9 +56,11 @@ O monitoramento de campanhas é uma etapa essencial para analisar suas campanhas
 
 Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
 
-+++WORKF ++tela
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 

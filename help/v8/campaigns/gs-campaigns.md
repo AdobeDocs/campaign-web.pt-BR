@@ -4,10 +4,10 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: bc23e51edf5b499ae6af783e3b0d3b991dc7a3a0
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ Ao adicionar vários workflows e deliveries específicos à campanha, você pode
 As campanhas oferecem métricas de relatórios dedicadas para obter insights abrangentes sobre o desempenho de toda a campanha, permitindo avaliar sua eficácia, identificar tendências e tomar decisões orientadas por dados para otimizar esforços futuros.
 
 ![Fluxo de campanha](assets/campaign-flow.png)
+
+Consulte as seguintes seções:
+
+* [Acessar e gerenciar suas campanhas](manage-campaigns.md).
+* [Criar sua primeira campanha](create-campaigns.md).
+
 
 
 <!--
