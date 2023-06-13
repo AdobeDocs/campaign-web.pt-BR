@@ -4,7 +4,7 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 9%
@@ -49,13 +49,13 @@ Duas guias estão disponíveis:
 
 * A variável **Procurar** A guia lista todas as campanhas existentes. Você pode clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no **Criar campanha** botão. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A variável **Modelos** A guia lista todos os templates de campanha disponíveis. Os templates de campanha são pré-configurados para que possam ser reutilizados para criar novas campanhas. Eles são criados no console do cliente. [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR)
+* A variável **Modelos** A guia lista todos os templates de campanha disponíveis. Os templates de campanha são pré-configurados para que possam ser reutilizados ao criar novas campanhas. Eles são criados no console do cliente. [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR)
 
 Cada campanha na lista exibe informações sobre seu status atual, data de criação, última vez que foi modificada, etc.
 
 Você pode personalizar as colunas exibidas clicando no ícone **Configurar coluna para layout personalizado** ícone localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista. Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens)
 
-Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel Filtros e use o **Data de início - término** seção:
+Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use o **Data de início - término** seção:
 
 ![Filtro de campanha](assets/campaign-filter-on-dates.png)
 
@@ -70,5 +70,6 @@ O status e o agendamento da campanha são exibidos na parte superior da tela. Vo
 Duas guias estão disponíveis:
 
 * A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
+
 * A variável **Entregas** A guia lista todos os deliveries vinculados à campanha. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
 
