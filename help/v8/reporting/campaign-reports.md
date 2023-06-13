@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 22%
+source-wordcount: '1682'
+ht-degree: 25%
 
 ---
 
@@ -115,11 +115,19 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
-   * **[!UICONTROL Erros]**: Número total de erros acumulados durante os deliveries e o processamento automático de reassociação, em relação ao número de mensagens a serem entregues.
+   * **[!UICONTROL User unknown]** : Tipo de erro gerado durante o delivery para indicar que o endereço de email é inválido.
 
-   * **[!UICONTROL Contribuição]**:
+   * **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar um delivery para indicar que o domínio do endereço de email está errado ou não existe.
 
-   * **[!UICONTROL Detalhamento]**:
+   * **[!UICONTROL Caixa de entrada cheia]**: Tipo de erro gerado após cinco tentativas de delivery para indicar que a caixa de entrada dos recipients contém muitas mensagens.
+
+   * **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar um delivery para indicar que o endereço não existe mais.
+
+   * **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
+
+   * **[!UICONTROL Unreachable]** : Tipo de erro que ocorre na string de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
+
+   * **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
 
 +++
 
@@ -213,6 +221,8 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
 * **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de SMS.
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
    * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a análise de delivery.
@@ -227,6 +237,8 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
 * **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos seus destinatários:
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
    * **[!UICONTROL Público inicial]**: Número total de recipients alvos.
@@ -238,6 +250,8 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 +++
 
 * **[!UICONTROL Estatísticas de execução]** a tabela detalha o sucesso do seu delivery:
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
@@ -252,6 +266,8 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 +++
 
 * **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery:
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 

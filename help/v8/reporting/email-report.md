@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 34%
+source-wordcount: '1256'
+ht-degree: 38%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 * **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos seus destinatários:
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -29,7 +29,7 @@ ht-degree: 34%
 
 * **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso do delivery.
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -46,6 +46,24 @@ ht-degree: 34%
 * **[!UICONTROL Causas de exclusão]** o gráfico e a tabela mostram o detalhamento por regra de mensagens rejeitadas durante a análise.
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++Saiba mais sobre Métricas de relatório de delivery de email.
+
+   * **[!UICONTROL User unknown]** : Tipo de erro gerado durante o delivery para indicar que o endereço de email é inválido.
+
+   * **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar um delivery para indicar que o domínio do endereço de email está errado ou não existe.
+
+   * **[!UICONTROL Caixa de entrada cheia]**: Tipo de erro gerado após cinco tentativas de delivery para indicar que a caixa de entrada dos recipients contém muitas mensagens.
+
+   * **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar um delivery para indicar que o endereço não existe mais.
+
+   * **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
+
+   * **[!UICONTROL Unreachable]** : Tipo de erro que ocorre na string de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
+
+   * **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
+
++++
 
 ## Taxa de transferência de delivery {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento de erros por domínio]** tabelas e gráficos contêm os dados disponíveis para possíveis erros encontrados com cada domínio.
 
+  ![](assets/campaign_report_email_6.png)
+
   +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-   * **[!UICONTROL Erros]**: Número total de erros acumulados durante os deliveries e o processamento automático de reassociação, em relação ao número de mensagens a serem entregues.
+   * **[!UICONTROL User unknown]** : Tipo de erro gerado durante o delivery para indicar que o endereço de email é inválido.
 
-   * **[!UICONTROL Contribuição]**:
+   * **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar um delivery para indicar que o domínio do endereço de email está errado ou não existe.
 
-   * **[!UICONTROL Detalhamento]**:
+   * **[!UICONTROL Caixa de entrada cheia]**: Tipo de erro gerado após cinco tentativas de delivery para indicar que a caixa de entrada dos recipients contém muitas mensagens.
+
+   * **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar um delivery para indicar que o endereço não existe mais.
+
+   * **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
+
+   * **[!UICONTROL Unreachable]** : Tipo de erro que ocorre na string de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
+
+   * **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
 
 +++
 

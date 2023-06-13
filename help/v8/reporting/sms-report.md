@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -60,6 +60,8 @@ ht-degree: 9%
 +++
 
 * **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
+
+  ![](assets/reporting_sms_6.png)
 
 ## Taxa de transferência de delivery {#delivery-throughput}
 
