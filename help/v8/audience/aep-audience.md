@@ -4,10 +4,10 @@ title: Usar um público da Adobe Experience Platform
 description: Saiba como usar um público da Adobe Experience Platform
 badge: label="Alpha" type="Positive"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 50%
+source-wordcount: '291'
+ht-degree: 40%
 
 ---
 
@@ -22,13 +22,13 @@ Depois de criar um público-alvo do Adobe Experience Platform e disponibilizá-l
 >Para usar os públicos da Adobe Experience Platform no Campaign, você precisa configurar a integração com Fontes e Destinos do Adobe. Consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR){target="_blank"}.
 
 
-Você também pode:
+Para selecionar o público de um delivery, você também pode:
 
 * Crie um novo público-alvo. [Saiba mais](segment-builder.md)
 * Carregar um público-alvo de um arquivo externo. [Saiba mais](file-audience.md)
 * Use um público existente do Campaign. [Saiba mais](add-audience.md).
 
-Para selecionar um público-alvo da Adobe Experience Platform para sua mensagem, siga as etapas abaixo:
+Para selecionar um público-alvo da Adobe Experience Platform para o seu delivery, siga as etapas abaixo:
 
 1. Na seção **Público**, do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
@@ -54,5 +54,4 @@ Para selecionar um público-alvo da Adobe Experience Platform para sua mensagem,
 
 1. Clique em **Salvar**.
 
-Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não a receberam. Consulte esta [seção](control-group.md).
 
