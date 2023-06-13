@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Descubra o novo recurso que acompanha o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 66%
+ht-degree: 63%
 
 ---
 
@@ -56,7 +56,7 @@ Além disso, todos os seus dados e configurações já disponíveis no console d
 
 ## Atualizações de terminologia {#terminology-updates}
 
-Como um usuário existente do Campaign, observe que alguns conceitos foram renomeados para alinhar-se aos padrões de terminologia mais recentes. Essas alterações se aplicam somente à interface do Campaign Web e não são refletidas no Console do cliente. Elas estão detalhadas abaixo.
+Como um usuário existente do Campaign, observe que alguns conceitos foram renomeados para alinhar-se aos padrões de terminologia mais recentes. Essas alterações se aplicam somente à interface da Web do Campaign e não são refletidas no console do cliente. Elas estão detalhadas abaixo.
 
 * Agora, as provas são **Testar emails**: para enviar uma prova, use o botão **Teste** na interface da entrega de email. O público-alvo do direcionamento das provas agora é referenciado como **Perfis de teste**
 * Agora os seed addresses são usados para **Perfis de teste**: envie o email de teste para os seed addresses, que são os recipients adicionais e fictícios no banco de dados

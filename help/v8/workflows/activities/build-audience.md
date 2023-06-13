@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow Criar público
 description: Saiba como usar a atividade de workflow Criar público
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 9%
@@ -17,7 +17,7 @@ A variável **Criar público-alvo** a atividade é um **Direcionamento** ativida
 
 Para definir a população do público-alvo, é possível:
 
-* Selecione um público existente, criado como uma lista no Console do cliente.
+* Selecione um público existente, criado como uma lista no console do cliente.
 * Selecione um público-alvo do Adobe Experience Platform.
 * Crie um novo público-alvo com o construtor de regras definindo e combinando critérios de filtragem.
 

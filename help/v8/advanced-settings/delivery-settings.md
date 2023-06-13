@@ -4,10 +4,10 @@ title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1473'
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 
 * **[!UICONTROL Forçar a geração da mirror page]**: use esse modo para gerar a mirror page, mesmo que nenhum link para a mirror page for inserida na entrega,
 * **[!UICONTROL Não gerar a mirror page]**: use esse modo para evitar a geração de uma mirror page, mesmo se o link estiver presente na entrega.
-* **[!UICONTROL Gera uma mirror page acessível usando somente o identificador de mensagem]**: quando o link da mirror page não estiver presente no conteúdo do email, use essa opção para habilitar o acesso ao conteúdo da mirror page, na janela de log da entrega, no console do cliente.
+* **[!UICONTROL Gera uma mirror page acessível somente por meio do identificador de mensagem]**: quando o link da mirror page não estiver presente no conteúdo do email, use essa opção para ativar o acesso ao conteúdo da mirror page, na janela de log do delivery, no console do cliente.
 
 
 ### Rastreamento {#tracking}

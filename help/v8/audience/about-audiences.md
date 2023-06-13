@@ -4,7 +4,7 @@ title: Introdução aos públicos
 description: Saiba como usar públicos na interface do Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 31%
@@ -40,7 +40,7 @@ O público-alvo é o principal alvo do delivery: os recipients que recebem as me
 
 Para definir a população do público-alvo, é possível:
 
-* Selecione um público existente, criado como uma lista no Console do cliente. [Saiba mais](add-audience.md)
+* Selecione um público existente, criado como uma lista no console do cliente. [Saiba mais](add-audience.md)
 * Selecione um público-alvo do Adobe Experience Platform. [Saiba mais](aep-audience.md)
 * Crie um novo público-alvo com o construtor de regras definindo e combinando critérios de filtragem. [Saiba mais](segment-builder.md)
 * Use an audience from an external file: esta opção está disponível apenas para deliveries de email independentes e não pode ser usada em deliveries de campanha. [Saiba mais](file-audience.md)
