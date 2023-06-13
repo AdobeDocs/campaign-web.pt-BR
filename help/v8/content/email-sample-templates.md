@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: Trabalho com modelos de email
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ O Campaign vem com um conjunto de modelos integrados que você pode escolher.
 
 Para começar a criar o conteúdo com um dos modelos de amostra, siga as etapas abaixo.
 
-1. Abra o [Email Designer](create-email-content.md).
+1. Abra o [Email Designer](get-started-email-designer.md).
 
 1. No **[!UICONTROL Criar seu email]** tela, a lista de **[!UICONTROL Modelos de amostra]**  é exibido.
 
