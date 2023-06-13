@@ -3,11 +3,11 @@ audience: end-user
 title: Visualizar conteúdo de email
 description: Saiba como visualizar o conteúdo de email com a interface do Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha" type="Positive"
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 28%
+source-wordcount: '311'
+ht-degree: 27%
 
 ---
 

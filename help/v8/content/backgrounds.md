@@ -3,11 +3,11 @@ audience: end-user
 title: Personalizar o plano de fundo do email
 description: Saiba como personalizar o plano de fundo do email
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 99%
 
 ---
 
@@ -28,34 +28,34 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
 * Defina uma **[!UICONTROL cor de fundo]** para todo o email. Certifique-se de selecionar as configurações de corpo na árvore de navegação, que pode ser acessada no painel esquerdo.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
 * Defina a mesma cor de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Cor de fundo do visor]**. Essa opção permite selecionar uma configuração de cor de fundo diferente.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
 * Defina uma cor de fundo diferente para cada componente da estrutura. Selecione uma estrutura na árvore de navegação no painel esquerdo para aplicar uma cor de fundo específica somente a essa estrutura.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >Certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
+  >[!NOTE]
+  >
+  >Certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
 
 * Defina uma **[!UICONTROL imagem de fundo]** para o conteúdo de um componente da estrutura.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver compatibilidade, a cor de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
+  >[!NOTE]
+  >
+  >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver compatibilidade, a cor de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
 
 * Definir uma cor de fundo no nível da coluna.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
+  >[!NOTE]
+  >
+  >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
 
-   Também é possível definir uma imagem de fundo no nível da coluna, mas isso raramente é usado.
+  Também é possível definir uma imagem de fundo no nível da coluna, mas isso raramente é usado.

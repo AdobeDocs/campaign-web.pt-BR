@@ -2,11 +2,11 @@
 audience: end-user
 title: Usar a atividade Combinar workflow
 description: Saiba como usar a atividade Combinar workflow
-badge: label="Alpha" type="Positive"
-source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 21%
+source-wordcount: '688'
+ht-degree: 20%
 
 ---
 

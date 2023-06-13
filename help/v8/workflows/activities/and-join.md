@@ -2,11 +2,11 @@
 audience: end-user
 title: Usar a atividade de workflow AND-join
 description: Saiba como usar a atividade de workflow AND-join
-badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 19%
+source-wordcount: '187'
+ht-degree: 17%
 
 ---
 

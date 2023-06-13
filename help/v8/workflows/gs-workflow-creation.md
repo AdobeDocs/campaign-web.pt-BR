@@ -2,12 +2,12 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 77%
+source-wordcount: '228'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Cada workflow contém:
 
 * **Activities**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
-   Em um diagrama de workflow, uma dada atividade pode produzir várias tarefas, principalmente quando houver ações de loop ou recorrentes.
+  Em um diagrama de workflow, uma dada atividade pode produzir várias tarefas, principalmente quando houver ações de loop ou recorrentes.
 
 * **Transições**: as transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência.
 

@@ -2,11 +2,11 @@
 audience: end-user
 title: Usar a atividade de workflow Aguardar
 description: Saiba como usar a atividade de workflow Aguardar
-badge: label="Alpha" type="Positive"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 31%
+source-wordcount: '147'
+ht-degree: 29%
 
 ---
 

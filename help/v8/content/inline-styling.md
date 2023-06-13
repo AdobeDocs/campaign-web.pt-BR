@@ -3,11 +3,11 @@ audience: end-user
 title: Adicionar atributos de estilo em linha
 description: Saiba como adicionar atributos de estilo em linha
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: ht
-source-wordcount: '127'
-ht-degree: 100%
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 98%
 
 ---
 

@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de workflow de SMS
 description: Saiba como usar a atividade de workflow de SMS
-badge: label="Alpha" type="Positive"
-source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '204'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Para definir os recipients do SMS, você pode configurá-los antes da atividade 
     * Recurring delivery: Choose this option if you want the SMS to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the SMS to be sent at regular intervals.
 -->
 
-1. Selecione a atividade. No menu do delivery, selecione os Templates que deseja usar para esse delivery. Saiba mais sobre modelos
+1. Selecione a atividade. No menu do delivery, selecione os Templates que deseja usar para esse delivery. Saiba mais sobre templates
 
 1. Clique em Criar entrega para configurar a entrega de SMS. Para obter mais informações sobre delivery de SMS, consulte esta página.
 

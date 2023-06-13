@@ -2,11 +2,11 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Alpha" type="Positive"
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -52,4 +52,4 @@ Para isso, as atividades abaixo foram adicionadas:
 
 Após concluir o workflow, adicione en **[!UICONTROL Fim]** atividade no final do diagrama. Essa atividade permite marcar visualmente o final de um fluxo de trabalho e não tem impacto funcional.
 
-Depois de criar o diagrama de workflow com êxito, você pode executá-lo e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar e monitorar a execução de um workflow](start-monitor-workflows.md)
+Depois de criar o diagrama de workflow com êxito, você pode executá-lo e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar um workflow e monitorar sua execução](start-monitor-workflows.md)

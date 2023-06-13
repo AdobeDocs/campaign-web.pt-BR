@@ -3,11 +3,11 @@ audience: end-user
 title: Enviar emails de teste
 description: Saiba como definir e enviar emails de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha" type="Positive"
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 43%
+source-wordcount: '561'
+ht-degree: 42%
 
 ---
 

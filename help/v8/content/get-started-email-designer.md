@@ -2,11 +2,11 @@
 audience: end-user
 title: Editar o conteúdo do email
 description: Saiba como começar a criar conteúdo usando o Designer de email na interface do usuário da Web do Campaign
-badge: label="Alpha" type="Positive"
-source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 9%
+source-wordcount: '380'
+ht-degree: 8%
 
 ---
 

@@ -2,17 +2,17 @@
 audience: end-user
 title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '290'
+ht-degree: 22%
 
 ---
 
 
-# Criar campanhas entre canais {#create-campaigns}
+# Criar sua primeira campanha {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 18%
 >title="Propriedades da campanha"
 >abstract="Defina as configurações e os metadados da campanha."
 
-As campanhas podem incluir workflows e deliveries independentes.
+As campanhas podem incluir workflows e deliveries independentes. Propriedades, cronograma, trabalho, delivery, além de uma programação familiar
+
+## Criar a campanha
 
 Para criar uma nova campanha, siga estas etapas:
 
@@ -32,7 +34,7 @@ Para criar uma nova campanha, siga estas etapas:
 1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. Os templates de campanha são pré-configurados para que possam ser reutilizados para criar novas campanhas. Eles são criados no console do cliente.
    [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR).
 1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
-1. Defina o **Agendar** da sua campanha. A campanha começa quando a data de início é atingida. As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](gs-campaigns.md#access-campaigns).
+1. Defina o **Agendar** da sua campanha. A campanha começa quando a data de início é atingida. As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
 
    ![Definir as propriedades da campanha](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ Para criar uma nova campanha, siga estas etapas:
 
 1. Use o **Logs** e **Relatórios** para analisar o desempenho da sua campanha.
 
-## Logs de monitoramento e rastreamento{#campaign-monitoring}
+## Monitorar e rastrear sua campanha{#campaign-monitoring}
 
 O monitoramento de campanhas é uma etapa essencial para analisar suas campanhas. Abra a campanha e clique no link **Logs** botão.
 
 Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
 
-## Duplicar e excluir uma campanha
-
-É possível duplicar ou excluir uma campanha:
-
-* na lista de campanhas, clique no botão de reticências e selecione **Duplicar** ou **Excluir**.
-* na própria campanha, clique no link **Mais** e selecione **Duplicar** ou **Excluir**.
-
->[!NOTE]
->
->A variável **Entregas** exibe todos os deliveries vinculados à campanha. No entanto, os deliveries criados em um workflow não podem ser excluídos dali. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow.
-
++++WORKF ++tela
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

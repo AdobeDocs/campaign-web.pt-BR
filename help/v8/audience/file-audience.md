@@ -2,11 +2,11 @@
 audience: end-user
 title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 64%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 64%
 >* Esse recurso só está disponível para **deliveries de email independentes**. Ele não pode ser usado em workflows nem com deliveries SMS ou Push.
 >
 >* Não é possível usar [grupos de controle](control-group.md) ao carregar a população alvo a partir de um arquivo externo.
-
 
 
 Para direcionar perfis de um arquivo local diretamente da interface de email, siga estas etapas:

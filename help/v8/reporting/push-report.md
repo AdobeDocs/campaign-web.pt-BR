@@ -2,11 +2,11 @@
 audience: end-user
 title: Relatórios do delivery por push
 description: Saiba como acessar e usar relatórios do delivery por push
-badge: label="Alpha" type="Positive"
-source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 8%
+source-wordcount: '298'
+ht-degree: 7%
 
 ---
 

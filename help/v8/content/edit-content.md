@@ -3,11 +3,11 @@ audience: end-user
 title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Alpha" type="Positive"
-source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 43%
+source-wordcount: '506'
+ht-degree: 42%
 
 ---
 

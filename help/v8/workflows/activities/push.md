@@ -2,11 +2,11 @@
 audience: end-user
 title: Usar a atividade de workflow de notificação por push
 description: Saiba como usar a atividade de workflow de notificação por push
-badge: label="Alpha" type="Positive"
-source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ A variável **Notificação por push** a atividade de delivery permite configura
     * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
 -->
 
-1. Selecione a atividade. No menu do delivery, selecione os Templates que deseja usar para esse delivery. Saiba mais sobre modelos
+1. Selecione a atividade. No menu do delivery, selecione os Templates que deseja usar para esse delivery. Saiba mais sobre templates
 
 1. Clique em Criar entrega para configurar a entrega de notificação por push. Para obter mais informações sobre delivery de notificação por push (Android), consulte esta página.
 
@@ -57,7 +57,7 @@ A variável **Notificação por push** a atividade de delivery permite configura
     * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
 -->
 
-1. Selecione a atividade. No menu do delivery, selecione os Templates que deseja usar para esse delivery. Saiba mais sobre modelos
+1. Selecione a atividade. No menu do delivery, selecione os Templates que deseja usar para esse delivery. Saiba mais sobre templates
 
 1. Clique em Criar entrega para configurar a entrega de notificação por push. Para obter mais informações sobre delivery de notificação por push (iOS), consulte esta página.
 

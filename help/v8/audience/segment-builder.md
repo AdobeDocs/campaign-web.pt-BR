@@ -3,11 +3,11 @@ audience: end-user
 title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 97%
+source-wordcount: '547'
+ht-degree: 96%
 
 ---
 
@@ -35,15 +35,15 @@ A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser 
 
 * **Atributos**: essa guia permite acessar todos os campos disponíveis no schema. A lista de campos depende do schema de direcionamento definido no template de email.
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+  ![](assets/segment-builder2.png){width="70%" align="left"}
 
 * **Públicos**: essa guia permite filtrar usando um dos públicos existentes que foram definidos no console do Campaign Classic ou na Adobe Experience Platform.
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+  ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >Para aproveitar os públicos da Adobe Experience Platform, é necessário configurar a integração com o serviço de Destinos. Consulte a [Documentação do serviço de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
+  >[!NOTE]
+  >
+  >Para aproveitar os públicos da Adobe Experience Platform, é necessário configurar a integração com o serviço de Destinos. Consulte a [Documentação do serviço de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
 
 Você pode usar a barra de pesquisa para localizar elementos rapidamente.
 
