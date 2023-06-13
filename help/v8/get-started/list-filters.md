@@ -3,7 +3,7 @@ audience: end-user
 title: Procurar, pesquisar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -27,11 +27,11 @@ No **Configurar colunas** , adicionar ou remover colunas e alterar a ordem na qu
 
 Por exemplo, para estas configurações:
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 A lista mostra as seguintes colunas:
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 Use o **Exibir atributos avançados** alternar para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
 
@@ -45,7 +45,7 @@ Para colunas numéricas ou de data, a variável **Para cima** indica que a lista
 
 Para localizar itens mais rapidamente, você pode usar a barra de pesquisa ou filtrar a lista com base em critérios contextuais.
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 Por exemplo, você pode filtrar deliveries em seu status, canal, data de contato ou pasta. Você também pode ocultar testes.
 
@@ -55,7 +55,7 @@ Para criar filtros personalizados nos dados, navegue até a parte inferior dos f
 
 Arraste e solte atributos para criar seus critérios de filtro no **Filtros avançados** tela.
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Use o **Exibir atributos avançados** alternar para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
 
