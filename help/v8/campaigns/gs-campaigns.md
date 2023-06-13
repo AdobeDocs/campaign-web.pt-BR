@@ -4,7 +4,7 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: bc23e51edf5b499ae6af783e3b0d3b991dc7a3a0
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 11%
@@ -29,8 +29,8 @@ As campanhas oferecem métricas de relatórios dedicadas para obter insights abr
 
 Consulte as seguintes seções:
 
-* [Acessar e gerenciar suas campanhas](manage-campaigns.md).
-* [Criar sua primeira campanha](create-campaigns.md).
+* [Acessar e gerenciar suas campanhas](manage-campaigns.md)
+* [Criar sua primeira campanha](create-campaigns.md)
 
 
 

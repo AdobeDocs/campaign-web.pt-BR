@@ -4,9 +4,9 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: bc23e51edf5b499ae6af783e3b0d3b991dc7a3a0
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '290'
 ht-degree: 22%
 
 ---
@@ -40,19 +40,19 @@ Para criar uma nova campanha, siga estas etapas:
 
    >[!NOTE]
    >
-   >Você sempre pode modificar essas propriedades posteriormente, no **Definir configurações da campanha** ícone, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard)
+   >Você sempre pode modificar essas propriedades posteriormente, no **Definir configurações da campanha** ícone, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard).
 
 1. Clique em **Create**.
 1. Adicione workflows e deliveries à sua campanha:
 
-   * No **Fluxos de trabalho** clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md)
+   * No **Fluxos de trabalho** clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md).
    * No **Entregas** clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
 
 1. Use o **Logs** e **Relatórios** para analisar o desempenho da sua campanha.
 
 ## Monitorar e rastrear sua campanha{#campaign-monitoring}
 
-O monitoramento de campanhas é uma etapa essencial para analisar suas campanhas. Abra a campanha e clique no link **Logs** botão.
+O monitoramento da campanha é uma etapa essencial para analisar a eficácia da campanha. Abra a campanha e clique no link **Logs** botão.
 
 Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
 
