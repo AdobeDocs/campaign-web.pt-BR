@@ -4,10 +4,10 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 27%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
@@ -45,6 +45,25 @@ Para criar uma nova campanha, siga estas etapas:
 
    * No **Fluxos de trabalho** clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md)
    * No **Entregas** clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
+1. Use o **Logs** e **Relatórios** botões para analisar sua campanha.
+
+## Logs de monitoramento e rastreamento{#campaign-monitoring}
+
+O monitoramento de campanhas é uma etapa essencial para analisar suas campanhas. Abra a campanha e clique no link **Logs** botão.
+
+Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
+
+## Duplicar e excluir uma campanha
+
+É possível duplicar ou excluir uma campanha:
+
+* na lista de campanhas, clique no botão de reticências e selecione **Duplicar** ou **Excluir**.
+* na própria campanha, clique no link **Mais** e selecione **Duplicar** ou **Excluir**.
+
+>[!NOTE]
+>
+>A variável **Entrega** A guia exibe todos os deliveries vinculados à campanha, mas os deliveries criados em um fluxo de trabalho não podem ser excluídos. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow.
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

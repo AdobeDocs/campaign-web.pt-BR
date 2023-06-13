@@ -4,10 +4,10 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 10%
 
 ---
 
@@ -57,27 +57,10 @@ Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel Filtr
 
 ## O painel de campanha{#campaign-dashboard}
 
-No **Procurar** clique em uma campanha para exibir seu painel. Duas guias estão disponíveis:
+No **Procurar** da lista de campanhas, clique em uma campanha para exibir seu painel. Duas guias estão disponíveis:
 
 * A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
-* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha. Essa guia também permite criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
+* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
 
 A variável **Definir configurações da campanha** O ícone permite modificar as propriedades da campanha que foram definidas ao criar a campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
-
-## Logs de monitoramento e rastreamento{#campaign-monitoring}
-
-O monitoramento de campanhas é uma etapa essencial para analisar suas campanhas. Abra a campanha e clique no link **Logs** botão.
-
-Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
-
-## Duplicar e excluir
-
-É possível duplicar ou excluir uma campanha:
-
-* na lista de campanhas, clique no botão de reticências e selecione **Duplicar** ou **Excluir**.
-* na própria campanha, clique no link **Mais** e selecione **Duplicar** ou **Excluir**.
-
->[!NOTE]
->
->A variável **Entrega** A guia exibe todos os deliveries vinculados à campanha, mas os deliveries criados em um fluxo de trabalho não podem ser excluídos. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow.
 
