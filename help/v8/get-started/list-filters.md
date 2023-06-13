@@ -2,11 +2,11 @@
 audience: end-user
 title: Procurar, pesquisar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
-badge: label="Alpha" type="Positive"
-source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '415'
+ht-degree: 17%
 
 ---
 
@@ -65,6 +65,17 @@ Use o **Exibir atributos avançados** alternar para ver todos os atributos da li
 >id="acw_attributepicker_advancedfields"
 >title="Exibir atributos avançados"
 >abstract="Somente os atributos mais comuns são exibidos por padrão na lista de atributos. Use esse botão para criar um filtro com atributos avançados."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Campos avançados do construtor de regras"
+>abstract="Configure colunas com campos avançados."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Atributos avançados do Construtor de regras"
+>abstract="Use atributos avançados para definir sua regra."
+
 
 Somente os atributos mais comuns são exibidos por padrão nas telas de configuração de filtro e lista de atributos. Atributos que foram definidos como `advanced` os atributos no schema de dados estão ocultos nas telas de configuração.
 
