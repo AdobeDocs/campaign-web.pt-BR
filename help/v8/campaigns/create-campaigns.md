@@ -4,7 +4,7 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -45,6 +45,7 @@ Para criar uma nova campanha, siga estas etapas:
 
    * No **Fluxos de trabalho** clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md)
    * No **Entregas** clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
+
 1. Use o **Logs** e **Relatórios** botões para analisar sua campanha.
 
 ## Logs de monitoramento e rastreamento{#campaign-monitoring}
@@ -62,7 +63,7 @@ Também é possível exibir os relatórios dedicados clicando no link **Relatór
 
 >[!NOTE]
 >
->A variável **Entrega** A guia exibe todos os deliveries vinculados à campanha, mas os deliveries criados em um fluxo de trabalho não podem ser excluídos. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow.
+>A variável **Entrega** exibe todos os deliveries vinculados à campanha. No entanto, os deliveries criados em um workflow não podem ser excluídos dali. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow.
 
 
 <!--
