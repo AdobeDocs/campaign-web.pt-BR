@@ -5,8 +5,8 @@ description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Alpha" type="Positive"
 source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '390'
+ht-degree: 13%
 
 ---
 

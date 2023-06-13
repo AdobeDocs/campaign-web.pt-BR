@@ -4,10 +4,10 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '484'
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Comece com base em um modelo ou use o novo Email Designer do Adobe Campaign para
 
 Personalize o conteúdo com base nas informações coletadas sobre os recipients. Usar conteúdo dinâmico torna seu conteúdo mais atraente e aumenta a probabilidade de sua leitura. Personalize suas mensagens para cada recipient específico aproveitando os dados do perfil, como nome, interesses, onde vivem, o que compraram e muito mais. Crie conteúdo condicional para adaptar seus deliveries a cada recipient e mostrar apenas o conteúdo relevante para um determinado cliente com base nas informações que você tem sobre ele.
 
-**Enviar deliveries entre canais**
+**Criar campanhas entre canais**
 
 Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Nesta versão, os canais de email, push e SMS estão disponíveis. Meça a eficácia dos deliveries com relatórios detalhados, incluindo a contagem de aberturas, cliques, encaminhamentos e muito mais.
 
@@ -64,11 +64,11 @@ Agora que você entende o que pode fazer na Web do Adobe Campaign, é hora de se
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Pouco frequente" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Conheça o Designer de email</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Conheça o Designer de email</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Agora que você entende o que pode fazer na Web do Adobe Campaign, é hora de se
 <img alt="Validação" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>Enviar deliveries entre canais</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Criar campanhas entre canais</strong></a>
 </div>
 <p>
 </td>
