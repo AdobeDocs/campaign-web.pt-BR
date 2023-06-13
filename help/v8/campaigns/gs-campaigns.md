@@ -2,11 +2,11 @@
 audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '151'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,9 @@ Ao adicionar vários workflows e deliveries específicos à campanha, você pode
 
 As campanhas oferecem métricas de relatórios dedicadas para obter insights abrangentes sobre o desempenho de toda a campanha, permitindo avaliar sua eficácia, identificar tendências e tomar decisões orientadas por dados para otimizar esforços futuros.
 
+![Fluxo de campanha](assets/campaign-flow.png)
+
+
 <!--
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
 
@@ -38,38 +41,3 @@ Adobe Campaign offers a set of solutions that help you personalize and deliver c
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 -->
-
-## Acessar e gerenciar suas campanhas{#access-campaigns}
-
-Para criar uma nova campanha ou gerenciar suas campanhas existentes, clique no link **[!UICONTROL Campanhas]** menu.
-
-![Lista de campanhas](assets/campaign-list.png)
-
-Duas guias estão disponíveis:
-
-* A variável **Procurar** A guia lista todas as campanhas existentes. Você pode clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no **Criar campanha** botão. Consulte esta [seção](create-campaigns.md#create-campaigns).
-
-* A variável **Modelos** A guia lista todos os templates de campanha disponíveis. Os templates de campanha são pré-configurados para que possam ser reutilizados ao criar novas campanhas. Eles são criados no console do cliente. [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR)
-
-Cada campanha na lista exibe informações sobre seu status atual, data de criação, última vez que foi modificada, etc.
-
-Você pode personalizar as colunas exibidas clicando no ícone **Configurar coluna para layout personalizado** ícone localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista. Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens)
-
-Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use o **Data de início - término** seção:
-
-![Filtro de campanha](assets/campaign-filter-on-dates.png)
-
-## O painel de campanha{#campaign-dashboard}
-
-No **Procurar** da lista de campanhas, clique em uma campanha para exibir seu painel.
-
-![Painel de campanha](assets/campaign-dashboard.png)
-
-O status e o agendamento da campanha são exibidos na parte superior da tela. Você pode usar o **Definir configurações da campanha** ícone para modificar as propriedades da campanha que foram definidas ao criar a campanha. Há três botões disponíveis que permitem visualizar logs, criar relatórios, duplicar ou excluir a campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
-
-Duas guias estão disponíveis:
-
-* A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
-
-* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
-

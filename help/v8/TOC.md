@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 72%
+source-wordcount: '351'
+ht-degree: 71%
 
 ---
 
@@ -81,6 +81,7 @@ ht-degree: 72%
    + [Configurar um grupo de controle](audience/control-group.md)
 + Campanhas entre canais {#campaigns}
    + [Introdução às campanhas](campaigns/gs-campaigns.md)
+   + [Gerenciar suas campanhas](campaigns/manage-campaigns.md)
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
@@ -97,7 +98,6 @@ ht-degree: 72%
       + [Criar público-alvo](workflows/activities/build-audience.md)
       + [Combinar](workflows/activities/combine.md)
       + [Email, SMS, Push](workflows/activities/email.md)
-      + [End](workflows/activities/end.md)
       + [Enriquecimento](workflows/activities/enrichment.md)
       + [Bifurcação](workflows/activities/fork.md)
       + [Aguardar](workflows/activities/wait.md)
