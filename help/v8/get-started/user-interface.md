@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 53a834f7a00e1119ecbaaa0d2ad39102bd7c0e83
+source-git-commit: e7ca27215434be94d5db252afb9e4fe0b04f0139
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 66%
+source-wordcount: '1413'
+ht-degree: 79%
 
 ---
 
@@ -129,65 +129,6 @@ Use a barra superior da interface para:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Procurar e filtrar listas {#list-screens}
-
-A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são somente leitura. Você pode personalizar a exibição da lista e filtrar essas listas, conforme detalhado abaixo.
-
-Para remover um filtro, clique no link **Limpar tudo** botão.
-
-### Personalizar telas de lista {#custom-lists}
-
-As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no link **Configurar coluna para layout personalizado** no canto superior direito da lista.
-
-![](assets/config-columns.png){width="70%" align="left"}
-
-No **Configurar colunas** , adicionar ou remover colunas e alterar a ordem na qual elas são exibidas.
-
-Por exemplo, para estas configurações:
-
-![](assets/columns.png){width="70%" align="left"}
-
-A lista mostra as seguintes colunas:
-
-![](assets/column-sample.png){width="70%" align="left"}
-
-Use o **Exibir atributos avançados** alternar para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
-
-### Classificar dados {#sort-lists}
-
-Também é possível classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo) indicando que a lista está classificada nessa coluna.
-
-Para colunas numéricas ou de data, a variável **Para cima** indica que a lista é classificada em ordem crescente enquanto a variável **Para baixo** indica uma ordem descendente. Para strings ou colunas alfanuméricas, os valores são listados em ordem alfabética.
-
-### Filtros embutidos {#list-built-in-filters}
-
-Para localizar itens mais rapidamente, você pode usar a barra de pesquisa ou filtrar a lista com base em critérios contextuais.
-
-![](assets/filter.png){width="70%" align="left"}
-
-Por exemplo, você pode filtrar deliveries em seu status, canal, data de contato ou pasta. Você também pode ocultar testes.
-
-### Filtros personalizados{#list-custom-filters}
-
-Para criar filtros personalizados nos dados, navegue até a parte inferior dos filtros e clique no **Adicionar regras** botão.
-
-Arraste e solte atributos para criar seus critérios de filtro no **Filtros avançados** tela.
-
-![](assets/custom-filter.png){width="70%" align="left"}
-
-Use o **Exibir atributos avançados** alternar para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
-
-### Usar atributos avançados {#adv-attributes}
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Exibir atributos avançados"
->abstract="Somente os atributos mais comuns são exibidos por padrão na lista de atributos. Use esse botão para criar um filtro com atributos avançados."
-
-Somente os atributos mais comuns são exibidos por padrão nas telas de configuração de filtro e lista de atributos.
-
-Use o **Exibir atributos avançados** alternar para ver todos os atributos disponíveis para a lista atual.
-
 ## Ajuda contextual {#contextual-help}
 
 Uma ajuda contextual está disponível na interface. Quando disponível, clique no link `?` ícone para exibir informações de ajuda e links de documentação relacionados.
@@ -279,12 +220,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
 >abstract="A confirmar"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_dashboard"
->title="Personalização"
->abstract="A confirmar"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
