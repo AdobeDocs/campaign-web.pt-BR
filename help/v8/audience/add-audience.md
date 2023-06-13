@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Selecione um público existente
+title: Selecione um público-alvo já existente
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
 
-# Selecione um público existente {#add-audience}
+# Selecione um público-alvo já existente {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Selecione um público existente"
+>title="Selecione um público-alvo já existente"
 >abstract="Os públicos são definidos no Console do Adobe Campaign v8. Se tiver uma integração da Adobe Experience Platform disponível, você também poderá ver públicos definidos pela Platform."
 
 Esta seção explica como selecionar um público existente ao definir o público-alvo de uma entrega de email.
@@ -30,13 +30,13 @@ Você também pode:
 
 Para selecionar um público existente para sua mensagem, siga as etapas abaixo:
 
-1. Na seção **Público**, do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público]**.
+1. Na seção **Público**, do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
    ![](assets/create-audience.png)
 
-1. Escolha a **[!UICONTROL Selecionar público]** para usar um público existente. Para criar um novo público a ser usado neste email, escolha **Criar seu próprio**. Consulte esta [seção](segment-builder.md).
+1. Escolha a **[!UICONTROL Selecionar público-alvo]** para usar um público existente. Para criar um novo público a ser usado neste email, escolha **Criar seu próprio**. Consulte esta [seção](segment-builder.md).
 
-   Essa tela exibe todos os públicos existentes definidos no console do Adobe Campaign ou na Adobe Experience Platform.
+   Essa tela exibe todos os públicos-alvo existentes definidos no console do cliente Adobe Campaign para a pasta atual.
 
    ![](assets/create-audience2.png)
 
