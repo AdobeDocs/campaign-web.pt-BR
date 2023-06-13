@@ -4,10 +4,10 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 34%
+source-wordcount: '229'
+ht-degree: 27%
 
 ---
 
@@ -24,36 +24,27 @@ ht-degree: 34%
 >title="Propriedades da campanha"
 >abstract="Defina as configurações e os metadados da campanha."
 
+As campanhas podem incluir workflows e deliveries independentes.
+
 Para criar uma nova campanha, siga estas etapas:
 
 1. Clique em **[!UICONTROL Campanhas]** e clique no botão **[!UICONTROL Criar campanha]** botão.
 1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. Os templates de campanha são pré-configurados para que possam ser reutilizados para criar novas campanhas. Eles são criados no console do cliente.
    [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR).
-1. Se necessário, você pode alterar a variável **Opções adicionais**. Consulte esta [seção](#campaign-options).
+1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
 1. Defina o **Agendar** da sua campanha. A campanha começa quando a data de início é atingida. As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](gs-campaigns.md#access-campaigns).
 
    ![Definir as propriedades da campanha](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >Também é possível acessar as propriedades da campanha no ícone de **Definir configurações da campanha**, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard)
+   >Você sempre pode modificar essas propriedades posteriormente, no **Definir configurações da campanha** ícone, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard)
 
 1. Clique em **Create**.
-1. Adicione um workflow ou um delivery independente à sua campanha.
+1. Adicione workflows e deliveries à sua campanha.
+
    * No **Fluxos de trabalho** clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md)
    * No **Entregas** clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
-
-## Opções adicionais {#campaign-options}
-
-As propriedades da campanha são exibidas ao criar uma nova campanha.
-
-Em **Opções adicionais**, você pode definir as seguintes configurações:
-
-* Nome interno:
-* Folder: selecione a pasta onde a campanha será armazenada
-* Atribuído a:
-* Descrição:
-* Natureza: especifique a natureza da campanha para fins de classificação
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
