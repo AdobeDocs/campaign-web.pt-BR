@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 8%
@@ -19,11 +19,11 @@ Para criar uma nova campanha ou gerenciar suas campanhas existentes, clique no l
 
 Na lista da campanha, duas guias estão disponíveis:
 
-![Lista de campanhas](assets/campaign-list.png)
-
 * A variável **Procurar** A guia lista todas as campanhas existentes. Você pode clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no **Criar campanha** botão. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
 * A variável **Modelos** A guia lista todos os templates de campanha disponíveis. Os templates de campanha são pré-configurados para que possam ser reutilizados ao criar novas campanhas. Eles são criados no console do cliente. [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR)
+
+![Lista de campanhas](assets/campaign-list.png)
 
 Cada campanha na lista exibe informações sobre seu status atual, data de criação, última vez que foi modificada, etc.
 
@@ -43,9 +43,9 @@ O status e o agendamento da campanha são exibidos na parte superior da tela. Vo
 
 Duas guias estão disponíveis:
 
-* A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
+* A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
+* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
 ## Duplicar e excluir uma campanha
 
