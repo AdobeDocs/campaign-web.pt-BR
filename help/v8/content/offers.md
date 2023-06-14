@@ -4,10 +4,10 @@ title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '545'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ As etapas para enviar ofertas com um email são as seguintes:
 
    ![](assets/create-content-offers.png)
 
-1. Para refinar a escolha de ofertas do mecanismo, selecione uma **[!UICONTROL Categoria de oferta]** específica em que as ofertas são classificadas.
+1. Para refinar a escolha de ofertas do mecanismo, selecione uma **[!UICONTROL Categoria de oferta]** específica em que as ofertas são classificadas. Ao selecionar uma pasta, todas as subpastas são incluídas automaticamente e não podem ser removidas. Observe que a interface do usuário não reflete esse comportamento.
 
    Se nenhuma categoria for especificada, todas as ofertas contidas no ambiente serão consideradas pelo Mecanismo de oferta, a menos que um **[!UICONTROL Tema de oferta]** seja selecionado.
 
