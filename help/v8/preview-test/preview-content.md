@@ -1,32 +1,38 @@
 ---
 audience: end-user
-title: Visualizar conteúdo de email
-description: Saiba como visualizar o conteúdo de email com a interface do Campaign Web
+title: Visualizar conteúdo do delivery
+description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 27%
+source-wordcount: '336'
+ht-degree: 10%
 
 ---
 
 
-# Visualizar conteúdo de email {#preview-content}
+# Visualizar conteúdo do delivery {#preview-content}
 
-Use o [!DNL Campaign] recurso de simulação de conteúdo para visualizar o conteúdo do seu email antes de enviá-lo. Isso permite controlar a personalização e verificar como ela é exibida aos recipients.
+Use o [!DNL Campaign] recurso de simulação de conteúdo para pré-visualizar o conteúdo da mensagem antes de enviá-la. Isso permite controlar a personalização e verificar como ela é exibida aos recipients.
 
-Para pré-visualizar o conteúdo do seu email, siga as etapas abaixo.
+Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
-1. Navegue até o email [Editar conteúdo](../content/edit-content.md) ou para o [Email Designer](../content/get-started-email-designer.md).
+1. Navegue até a tela de edição de conteúdo do seu delivery.
+
+   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
 
 1. Clique em **[!UICONTROL Simular conteúdo]** botão.
 
    ![](assets/simulate-button.png)
 
-1. Use o **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar os perfis que serão usados para visualizar seu conteúdo personalizado.
+1. Para selecionar os perfis que serão usados para visualizar seu conteúdo personalizado, use:
 
-1. Você pode combinar perfis de teste e perfis tradicionais para visualizar o email.
+   * **[!UICONTROL Adicionar perfil(s) de teste]** para pré-visualização de mensagens de email e SMS
+
+   * **[!UICONTROL Adicionar assinantes]** para visualizar deliveries por push
+
+1. Você pode combinar perfis de teste e perfis para visualizar sua mensagem de email ou SMS.
 
    * A guia **[!UICONTROL Perfis de teste]** lista todos os seed addresses, que são recipients adicionais e fictícios no banco de dados.
 
@@ -38,19 +44,20 @@ Para pré-visualizar o conteúdo do seu email, siga as etapas abaixo.
 
    ![](assets/simulate-select-profiles.png)
 
-1. Clique em **[!UICONTROL Selecionar]** para confirmar a seleção em ambas as guias.
+1. Clique em **[!UICONTROL Selecionar]** para confirmar a seleção.
 
-   Uma pré-visualização do email é exibida no painel direito do **[!UICONTROL Simular]** tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo.
+   Uma pré-visualização do conteúdo do delivery é exibida no painel direito do **[!UICONTROL Simular]** tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo.
 
    ![](assets/simulate-preview.png)
 
-1. Se você tiver adicionado vários perfis, é possível alternar entre eles na lista para visualizar o conteúdo do email correspondente. Você também pode adicionar mais perfis de teste e limpar a seleção usando os botões correspondentes no painel esquerdo.
+1. Se você tiver adicionado vários perfis, é possível alternar entre eles na lista para visualizar o conteúdo do delivery correspondente. Você também pode adicionar mais perfis de teste e limpar a seleção usando os botões correspondentes no painel esquerdo.
 
-1. Você pode ajustar a variável **[!UICONTROL Nível de zoom]** e visualize seu conteúdo no desktop ou dispositivo móvel usando o ícone dedicado no canto superior direito.
+1. Para deliveries de email, você pode ajustar a variável **[!UICONTROL Nível de zoom]** e visualize seu conteúdo no desktop ou dispositivo móvel usando o ícone dedicado no canto superior direito.
 
 1. No **[!UICONTROL Simular]** também é possível:
-   * Verificar a renderização de email em clientes de email populares - [Saiba mais](email-rendering.md)
-   * Enviar emails de teste para recipients específicos para validação - [Saiba mais](proofs.md)
+   * Enviar deliveries de teste para recipients específicos para validação - [Saiba mais](proofs.md)
+   * Acessar os logs dos deliveries de teste enviados - [Saiba mais](proofs.md#access-proofs)
+   * Somente para email, verifique a renderização do conteúdo da mensagem em clientes de email populares - [Saiba mais](email-rendering.md)
 
 
 

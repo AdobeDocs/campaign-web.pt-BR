@@ -3,43 +3,47 @@ audience: end-user
 title: Enviar uma entrega de notificação por push
 description: Saiba como enviar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 13%
+source-wordcount: '371'
+ht-degree: 0%
 
 ---
 
-# Pré-visualizar e enviar um delivery de notificação por push {#send-push}
+# Pré-visualizar e enviar um delivery de notificação por push {#send-push-delivery}
 
 ## Pré-visualizar o delivery de notificação por push {#preview-push}
 
-Depois de definir o conteúdo da mensagem, você pode utilizar perfis de teste para visualizar e testar a mensagem. Se você incluiu conteúdo personalizado, poderá examinar como esse conteúdo é exibido na mensagem utilizando os dados do perfil de teste. Isso permite garantir que a mensagem esteja sendo renderizada corretamente e que os elementos personalizados estejam sendo incorporados adequadamente.
+Depois de definir o conteúdo da mensagem, você pode utilizar assinantes de teste para visualizar e testar a mensagem. Se você incluiu conteúdo personalizado, poderá examinar como esse conteúdo é exibido na mensagem usando os dados do perfil de teste. Isso permite garantir que a mensagem esteja sendo renderizada corretamente e que os elementos personalizados estejam sendo incorporados adequadamente.
 
-1. Na página de conteúdo do delivery, é possível usar **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
+As principais etapas para visualizar seu delivery de SMS são as seguintes. Mais detalhes sobre como visualizar deliveries estão disponíveis em [nesta seção](../preview-test/preview-content.md).
+
+1. Na página de conteúdo do delivery, use **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
 
    ![](assets/push_send_1.png)
 
-1. Clique em **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar um ou vários perfis de teste ou perfis.
+1. Clique em **[!UICONTROL Adicionar assinante(s)]** para selecionar um ou vários perfis para visualizar seus dados no conteúdo da notificação por push.
 
-1. Após selecionar os perfis de teste, clique em **[!UICONTROL Selecionar]**.
 
-   ![](assets/push_send_5.png)
+   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png)-->
 
-1. No painel direito, você encontrará uma pré-visualização do email, onde os elementos personalizados são substituídos dinamicamente por dados do perfil selecionado.
+1. No painel direito, você encontrará uma pré-visualização da notificação por push, em que os elementos personalizados são substituídos dinamicamente por dados do perfil selecionado.
+
+   ![](assets/push_send_7.png)
 
 Agora você pode revisar e enviar a notificação por push para o público-alvo.
 
-## Testar sua entrega de notificação por push {#test-send-sms}
+## Testar sua entrega de notificação por push {#test-push}
 
 Usar **Adobe Campaign**, você terá a capacidade de testar notificações por push antes de enviá-las para o público-alvo principal. Essa etapa é importante para validar o delivery e identificar quaisquer problemas.
 Os recipients de teste podem revisar elementos como links, imagens e configurações de personalização, garantindo o desempenho ideal e detectando erros. Esse processo ajuda a refinar e otimizar as notificações por push antes de atingir o público principal.
 
-![](../assets/do-not-localize/book.png) Saiba como enviar notificação por push de teste nesta [página](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) Saiba como enviar notificações por push de teste no [nesta seção](../preview-test/proofs.md#subscribers).
 
 ![](assets/push_send_6.png)
 
-## Enviar a entrega de notificação por push {#preview-send-push}
+## Enviar a entrega de notificação por push {#send-push}
 
 1. Após personalizar o conteúdo da notificação por push, clique em **[!UICONTROL Revisar e enviar]** do seu **[!UICONTROL Entrega]** página.
 
@@ -57,6 +61,6 @@ Os recipients de teste podem revisar elementos como links, imagens e configuraç
 
    ![](assets/push_send_4.png)
 
-Depois que o delivery for enviado, você poderá rastrear os KPIs (indicadores principais de desempenho) na página do delivery e os dados no menu Logs.
+Depois que o delivery for enviado, você poderá rastrear os KPIs (indicadores principais de desempenho) na página do delivery e os dados na **[!UICONTROL Logs]** menu.
 
 Agora você pode começar a medir o impacto de sua mensagem com relatórios integrados. [Saiba mais](../reporting/push-report.md)

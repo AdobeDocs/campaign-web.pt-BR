@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 71%
+source-wordcount: '352'
+ht-degree: 68%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 71%
             + [Definir o estilo dos links](content/styling-links.md)
             + [Adicionar atributos de estilo em linha](content/inline-styling.md)
          + [Enviar ofertas](content/offers.md)
-      + Visualizar e testar o email {#preview-test}
-         + [Sobre a visualização e o teste](preview-test/preview-test.md)
-         + [Visualizar conteúdo de email](preview-test/preview-content.md)
-         + [Renderize seu email](preview-test/email-rendering.md)
-         + [Enviar emails de teste](preview-test/proofs.md)
       + Enviar e monitorar o email {#monitor}
          + [Preparar e enviar um email](monitor/prepare-send.md)
          + [Monitorar logs de entrega](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 71%
       + [Adicionar personalização](personalization/personalize.md)
       + [Adicionar conteúdo condicional](personalization/conditions.md)
       + [Adicionar blocos de conteúdo incorporados](personalization/content-blocks.md)
+   + Pré-visualizar e testar o delivery {#preview-test}
+      + [Sobre a visualização e o teste](preview-test/preview-test.md)
+      + [Pré-visualizar o conteúdo da mensagem](preview-test/preview-content.md)
+      + [Enviar deliveries de teste](preview-test/proofs.md)
+      + [Renderize seu email](preview-test/email-rendering.md)
 + Públicos e recipients {#audiences}
    + [Introdução aos públicos](audience/about-audiences.md)
    + [Selecione um público-alvo já existente](audience/add-audience.md)
