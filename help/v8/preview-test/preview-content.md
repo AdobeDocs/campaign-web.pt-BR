@@ -4,9 +4,9 @@ title: Visualizar conteúdo do delivery
 description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
 1. Para selecionar os perfis que serão usados para visualizar seu conteúdo personalizado, use:
 
-   * **[!UICONTROL Adicionar perfil(s) de teste]** para pré-visualização de mensagens de email e SMS
+   * **[!UICONTROL Adicionar perfil(s) de teste]** para pré-visualização de deliveries de email e SMS
 
-   * **[!UICONTROL Adicionar assinantes]** para visualizar deliveries por push
+   * **[!UICONTROL Adicionar assinante(s)]** para visualizar notificações por push
 
 1. Você pode combinar perfis de teste e perfis para visualizar sua mensagem de email ou SMS.
 
