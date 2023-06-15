@@ -3,9 +3,9 @@ audience: end-user
 title: Usar uma atividade de workflow de delivery
 description: Saiba como adicionar uma atividade de workflow de delivery (Email, Push, SMS)
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '425'
 ht-degree: 12%
 
 ---
@@ -34,9 +34,7 @@ Estas são as etapas para adicionar um **Canal** atividade em um workflow:
 
    Você pode selecionar outro modelo no painel esquerdo da configuração de atividade de canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize o **Criar público-alvo** atividade para selecionar um público-alvo com o target mapping correto. Saiba mais sobre target mappings em [Documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
-1. Clique em **Criar entrega**. Seu delivery agora está disponível na lista de delivery.
-
-1. Defina as configurações e o conteúdo da mensagem da mesma maneira que cria uma entrega independente. Também é possível agendar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md)
+1. Clique em **Criar entrega**. Defina as configurações e o conteúdo da mensagem da mesma maneira que cria uma entrega independente. Também é possível agendar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md).
 
 1. Volte para o workflow e salve as alterações.
 
