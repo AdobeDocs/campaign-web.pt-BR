@@ -4,9 +4,9 @@ title: Enviar deliveries de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 
    ![](assets/simulate-test-button-email.png)
 
-1. Use o **[!UICONTROL Modo]** para escolher o tipo de recipients que recebem o email de teste ou o delivery de SMS:
+1. No **[!UICONTROL Modo]** selecione **Perfis de teste** para direcionar recipients fictícios que receberão o email de teste ou a delivery de SMS.
 
-   * **Perfis de teste** para direcionar destinatários fictícios
-
-   Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de teste. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
-
-   * **Substituir do público alvo principal** para enviar um teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente. [Saiba mais](#substitution-profiles)
+1. Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de teste. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 
 ### Perfis de substituição {#substitution-profiles}
 
-Para enviar um email ou SMS de teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente do banco de dados do Campaign, use perfis de substituição.
+Para enviar um email ou SMS de teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente do [!DNL Campaign] banco de dados, use perfis de substituição.
 
-Para fazer isso, as primeiras etapas são as mesmas que ao selecionar [perfis de teste](#test-profiles), mas escolha o **[!UICONTROL Substituir do público alvo]** e siga as etapas abaixo.
+1. Antes de enviar um teste, defina um público-alvo para seu delivery. [Saiba mais](../audience/about-audiences.md)
+
+1. Navegue até a tela de edição de conteúdo do seu delivery de email ou SMS e clique no link **[!UICONTROL Simular conteúdo]** botão.
+
+1. Clique em **[!UICONTROL Teste]** botão.
+
+   >[!NOTE]
+   >
+   >Se você já tiver selecionado perfis para [visualizar seu delivery](preview-content.md), elas serão listadas no painel esquerdo.
+
+   ![](assets/simulate-test-button-email.png)
+
+1. No **[!UICONTROL Modo]** selecione **Substituir do público alvo principal** para enviar um teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente.
 
 1. Clique em **[!UICONTROL Adicionar endereço]** e especifique o endereço de email ou número de telefone que receberá o delivery de teste.
 
