@@ -5,7 +5,7 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 34bed4f276fd0eeb54ad23ddd02e833a0547f707
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 68%
@@ -97,7 +97,7 @@ ht-degree: 68%
       + [Associação AND](workflows/activities/and-join.md)
       + [Criar público-alvo](workflows/activities/build-audience.md)
       + [Combinar](workflows/activities/combine.md)
-      + [Email, SMS, Push](workflows/activities/email.md)
+      + [Email, SMS, Push](workflows/activities/channels.md)
       + [Enriquecimento](workflows/activities/enrichment.md)
       + [Bifurcação](workflows/activities/fork.md)
       + [Aguardar](workflows/activities/wait.md)

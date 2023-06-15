@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 39%
+source-wordcount: '1407'
+ht-degree: 38%
 
 ---
 
@@ -98,7 +98,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 * **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento de erros por domínio]** tabelas e gráficos contêm os dados disponíveis para possíveis erros encontrados com cada domínio.
 
-  Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre a gestão de quarentena, consulte [Gestão de Quarentena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR)
+  Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre gestão de quarentena, consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 

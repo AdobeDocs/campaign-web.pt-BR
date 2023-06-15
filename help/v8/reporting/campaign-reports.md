@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1753'
 ht-degree: 27%
 
 ---
@@ -111,7 +111,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
 * **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento de erros por domínio]** tabelas e gráficos contêm os dados disponíveis para possíveis erros encontrados com cada domínio.
 
-  Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre a gestão de quarentena, consulte [Gestão de Quarentena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR).
+  Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre gestão de quarentena, consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 

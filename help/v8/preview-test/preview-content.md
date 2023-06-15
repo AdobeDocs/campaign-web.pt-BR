@@ -4,10 +4,10 @@ title: Visualizar conteúdo do delivery
 description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 10%
+source-wordcount: '342'
+ht-degree: 9%
 
 ---
 
@@ -38,9 +38,9 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
      >[!NOTE]
      >
-     >Perfis de teste podem ser criados no [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+     >Perfis de teste podem ser criados no [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-   * A guia **[!UICONTROL Perfis]** lista todos os recipients armazenados na pasta **[!UICONTROL Perfis e públicos alvo]** do console do [!DNL Campaign] [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
+   * A guia **[!UICONTROL Perfis]** lista todos os recipients armazenados na pasta **[!UICONTROL Perfis e públicos alvo]** do console do [!DNL Campaign] Saiba mais em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
    ![](assets/simulate-select-profiles.png)
 

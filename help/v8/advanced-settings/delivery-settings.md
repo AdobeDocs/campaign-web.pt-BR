@@ -4,10 +4,10 @@ title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 95%
+source-wordcount: '1475'
+ht-degree: 92%
 
 ---
 
@@ -82,7 +82,7 @@ Saiba mais sobre regras de consistência e capacidade e como configurá-las em [
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8.
 
-Saiba mais sobre mapeamentos de públicos-alvo na [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre target mappings em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
 ## Entrega {#delivery}
 
@@ -92,7 +92,7 @@ Os parâmetros de entrega são configurações técnicas que se aplicam à sua e
 
 * **Teste da entrega SMTP**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
 
-* **Email CCO**: essa opção permite armazenar emails em um sistema externo por meio do CCO, simplesmente adicionando um endereço de email CCO ao publico alvo da mensagem. Saiba mais sobre modelos de email COO na [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+* **Email CCO**: essa opção permite armazenar emails em um sistema externo por meio do CCO, simplesmente adicionando um endereço de email CCO ao publico alvo da mensagem. Saiba mais sobre Email Cco em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
 
 
@@ -105,7 +105,7 @@ Os parâmetros de entrega são configurações técnicas que se aplicam à sua e
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Saiba mais sobre o gerenciamento de tentativas na [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
 ## Aprovação {#approval}
 
@@ -147,7 +147,7 @@ O **Limite da validade de recursos** é usado para recursos carregados, principa
 ![](assets/delivery-settings-2.png)
 
 
-Saiba mais sobre o período de validade da entrega na [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR#validity-period){target="_blank"}.
+Saiba mais sobre o período de validade do delivery em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR#validity-period){target="_blank"}.
 
 ### Gerenciamento da mirror page {#mirror}
 

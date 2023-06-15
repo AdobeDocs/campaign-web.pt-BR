@@ -4,17 +4,17 @@ title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 9203d2bcfbe75b584ecab65637b5ded202435d29
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 50%
+source-wordcount: '640'
+ht-degree: 47%
 
 ---
 
 
 # Enviar ofertas {#offers-content}
 
-O Adobe Campaign v8 Web permite enviar com seus deliveries ofertas que foram criadas no console usando o **[!UICONTROL Interação]** módulo. Para obter mais informações sobre o módulo Interação e como gerenciar um catálogo de ofertas no console, consulte a [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
+O Adobe Campaign v8 Web permite enviar com seus deliveries ofertas que foram criadas no console usando o **[!UICONTROL Interação]** módulo. Para obter mais informações sobre interação e como gerenciar um catálogo de ofertas no console, consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
 As etapas para enviar ofertas com um delivery são as seguintes:
 
@@ -39,7 +39,7 @@ As etapas para enviar ofertas com um delivery são as seguintes:
 
 1. Configurar quais ofertas devem ser propostas para os recipients.
 
-   Primeiro, selecione o **[!UICONTROL Espaço de ofertas]** que corresponda ao seu ambiente de oferta. Saiba como criar um espaço de ofertas no [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Primeiro, selecione o **[!UICONTROL Espaço de ofertas]** que corresponda ao seu ambiente de oferta. Saiba como criar um espaço de ofertas no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 
