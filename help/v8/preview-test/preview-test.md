@@ -4,10 +4,10 @@ title: Sobre a visualização e o teste de emails
 description: Saiba como visualizar e testar emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 24%
+source-wordcount: '179'
+ht-degree: 25%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 24%
 >id="acw_deliveries_simulate"
 >title="Visualizar e testar suas mensagens"
 >abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html" text="Pré-visualizar o conteúdo do delivery"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html" text="Enviar mensagens de teste"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Pré-visualizar o conteúdo do delivery"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Enviar mensagens de teste"
 
 Depois que o conteúdo do delivery for definido, você poderá usar perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem.
 
