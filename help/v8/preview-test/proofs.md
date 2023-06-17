@@ -4,9 +4,9 @@ title: Enviar deliveries de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 
    ![](assets/simulate-test-button-email.png)
 
-1. No **[!UICONTROL Modo]** selecione **Perfis de teste** para direcionar recipients fictícios que receberão o email de teste ou a delivery de SMS.
-
-1. Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de teste. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
+1. No **[!UICONTROL Modo]** selecione **[!UICONTROL Perfis de teste]** para direcionar recipients fictícios que receberão o email de teste ou a delivery de SMS.
 
    ![](assets/simulate-profile-mode.png)
+
+1. Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de teste. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ Para enviar um email ou SMS de teste para um endereço de email ou número de te
 
 1. Clique em **[!UICONTROL Teste]** botão.
 
-   >[!NOTE]
-   >
-   >Se você já tiver selecionado perfis para [visualizar seu delivery](preview-content.md), elas serão listadas no painel esquerdo.
-
    ![](assets/simulate-test-button-email.png)
 
-1. No **[!UICONTROL Modo]** selecione **Substituir do público alvo principal** para enviar um teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente.
+1. No **[!UICONTROL Modo]** selecione **[!UICONTROL Substituir do público alvo principal]** para enviar um teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente.
+
+   >[!CAUTION]
+   >
+   >Se você não selecionou um [público](../audience/about-audiences.md) para o seu delivery, a variável **[!UICONTROL Substituir do público alvo principal]** estará acinzentada e não será possível selecionar perfis de substituição.
 
 1. Clique em **[!UICONTROL Adicionar endereço]** e especifique o endereço de email ou número de telefone que receberá o delivery de teste.
 
-   Você pode inserir qualquer endereço de email ou número de telefone. Isso permite enviar deliveries de teste para qualquer recipient, mesmo que não sejam usuários do [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >Você pode inserir qualquer endereço de email ou número de telefone. Isso permite enviar deliveries de teste para qualquer recipient, mesmo que não sejam usuários do [!DNL Adobe Campaign].
 
 1. Selecione o perfil do banco de dados a ser usado como substituto. Você também pode permitir [!DNL Adobe Campaign] selecione um perfil aleatório. Os dados do perfil selecionado serão exibidos no delivery de teste.
 
@@ -105,7 +109,9 @@ Ao trabalhar com notificações por push, os deliveries de teste só podem ser e
 
    ![](assets/simulate-test-button-push.png)
 
-1. Se você já tiver selecionado assinantes para [pré-visualizar o delivery](preview-content.md) na tela content simulation, esses perfis são pré-selecionados como assinantes de teste. Você pode limpar sua seleção e/ou adicionar mais assinantes usando o botão dedicado.
+1. Se você já tiver selecionado assinantes para [pré-visualizar o delivery](preview-content.md) na tela content simulation, esses perfis são pré-selecionados como assinantes de teste.
+
+   Você pode limpar sua seleção e/ou adicionar mais assinantes usando o botão dedicado.
 
    ![](assets/simulate-test-subscribers.png)
 
