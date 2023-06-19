@@ -4,10 +4,10 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 10%
 
 ---
 
@@ -23,11 +23,11 @@ O Adobe Campaign permite que você orquestre facilmente suas iniciativas de mark
 
 Ao adicionar vários workflows e deliveries específicos à campanha, você pode criar experiências personalizadas em vários canais, garantindo que cada ponto de contato corresponda ao público desejado.
 
-As campanhas oferecem métricas de relatórios dedicadas para obter insights abrangentes sobre o desempenho de toda a campanha, permitindo avaliar sua eficácia, identificar tendências e tomar decisões orientadas por dados para otimizar esforços futuros.
+As campanhas oferecem métricas de relatórios dedicadas para obter insights abrangentes sobre o desempenho de toda a campanha, permitindo avaliar sua eficácia, identificar tendências e tomar decisões orientadas por dados para otimizar esforços futuros. Saiba como acessar e entender relatórios de campanha no [nesta seção](../reporting/campaign-reports.md).
 
 ![Fluxo de campanha](assets/campaign-flow.png)
 
-Consulte as seguintes seções:
+Saiba como criar e gerenciar campanhas nas seguintes seções:
 
 * [Acessar e gerenciar suas campanhas](manage-campaigns.md)
 * [Criar sua primeira campanha](create-campaigns.md)

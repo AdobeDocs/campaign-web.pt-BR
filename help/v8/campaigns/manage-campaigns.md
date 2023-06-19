@@ -3,17 +3,17 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 9%
+source-wordcount: '423'
+ht-degree: 8%
 
 ---
 
 
 # Acessar e gerenciar suas campanhas{#manage-campaigns}
 
-Para criar uma nova campanha ou gerenciar suas campanhas existentes, clique no link **[!UICONTROL Campanhas]** menu.
+Para criar uma nova campanha ou gerenciar suas campanhas existentes, clique no link **[!UICONTROL Campanhas]** no menu de navegação esquerdo.
 
 ## A lista de campanhas{#access-campaigns}
 
@@ -25,9 +25,9 @@ Na lista da campanha, duas guias estão disponíveis:
 
 ![Lista de campanhas](assets/campaign-list.png)
 
-Cada campanha na lista exibe informações sobre seu status atual, data de criação, última vez que foi modificada, etc.
+Por padrão, cada campanha na lista exibe informações sobre seu status atual, data de criação, última vez que foi modificada, etc.
 
-Você pode personalizar as colunas exibidas clicando no ícone **Configurar coluna para layout personalizado** ícone localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista. Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens)
+Você pode personalizar as colunas exibidas clicando no ícone **Configurar coluna para layout personalizado** ícone localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista. Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens).
 
 Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use o **Data de início - término** seção:
 
@@ -45,7 +45,7 @@ Duas guias estão disponíveis:
 
 * A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha atual. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
 ## Duplicar e excluir uma campanha
 
