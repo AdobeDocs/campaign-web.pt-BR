@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 78%
+source-wordcount: '1318'
+ht-degree: 77%
 
 ---
 
@@ -62,10 +62,7 @@ Para obter mais informações sobre o explorador do Campaign, a hierarquia de pa
 >title="Campanhas"
 >abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Clique no botão “Criar campanha” para adicionar uma nova campanha. Selecione uma campanha para exibir seu conteúdo, entregas e detalhes. Navegue até a guia “Modelos” para exibir e criar modelos."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="Entregas"
->abstract="Navegue pela lista de entregas. É possível visualizar seu status, principais KPIs e datas de contato e modificação. É possível filtrar a lista por estado, data de contato ou canal. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione uma entrega para visualizar seu conteúdo, público-alvo e detalhes."
+
 
 Na seção CAMPAIGN MANAGEMENT, você pode acessar campanhas de marketing, deliveries e workflows.
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Métricas de erros"
 >abstract="Número de emails com o status de erro."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="População de teste"
->abstract="Selecione um modo de população de teste."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="Modo de visualização"
->abstract="Visualize e teste a mensagem incluindo a população de teste ao público-alvo principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"

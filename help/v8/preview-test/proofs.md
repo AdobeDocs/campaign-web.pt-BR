@@ -4,14 +4,19 @@ title: Enviar deliveries de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 4%
 
 ---
 
 # Enviar deliveries de teste {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Modo de visualização"
+>abstract="Visualize e teste a mensagem incluindo a população de teste ao público-alvo principal."
 
 **[!UICONTROL Adobe Campaign]** permite testar uma mensagem antes de enviá-la para o público principal.
 
@@ -20,6 +25,15 @@ O envio de deliveries de teste é uma etapa importante para validar sua campanha
 Os recipients de um teste podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
 
 ## Selecione os recipients de teste {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="População de teste"
+>abstract="Selecione um modo de população de teste."
+
+
 
 De acordo com o canal que você está usando, as mensagens de teste podem ser enviadas para três tipos de recipients:
 
@@ -38,6 +52,7 @@ De acordo com o canal que você está usando, as mensagens de teste podem ser en
 Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de acordo com o tipo de perfis que deseja usar.
 
 ### Perfis de teste {#test-profiles}
+
 
 1. Navegue até a tela de edição de conteúdo do seu delivery de email ou SMS e clique no link **[!UICONTROL Simular conteúdo]** botão.
 
