@@ -1,6 +1,6 @@
 ---
-title: Introdução ao conteúdo dinâmico
-description: Saiba como tornar seu conteúdo dinâmico usando personalização, conteúdo condicional e blocos de conteúdo incorporados.
+title: Introdução a conteúdo dinâmico
+description: Saiba como tornar seu conteúdo dinâmico utilizando personalização, conteúdo condicional e blocos de conteúdo integrados.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,65 +9,65 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# Introdução ao conteúdo dinâmico {#gs-dynamic-content}
+# Introdução a conteúdo dinâmico {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalização"
->abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. Você pode personalizar suas mensagens para cada recipient aproveitando os dados do perfil e criar conteúdo condicional para adaptar sua mensagem a cada recipient e mostrar apenas o conteúdo relevante. Além disso, os blocos de personalização estão disponíveis para adicionar conteúdo personalizado predefinido em seus deliveries."
+>abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. É possível personalizar suas mensagens para cada destinatário aproveitando os dados do perfil e criar conteúdo condicional para adaptar sua mensagem a cada um deles, mostrando apenas conteúdo que lhes seja relevante. Além disso, os blocos de personalização estão disponíveis para adicionar conteúdo personalizado predefinido em suas entregas."
 
-Como profissional de marketing, é fundamental direcionar os clientes que estão genuinamente interessados em suas ofertas e engajá-los no fornecimento de conteúdo eficaz e relevante. Dada a variedade diversificada de recipients que você encontra, criar várias partes de conteúdo de marketing para atrair pessoas diferentes pode ser demorado e desperdiçador. É aqui que o conteúdo dinâmico entra em cena.
+Como profissional de marketing, é fundamental direcionar o público-alvo que está genuinamente interessado em suas ofertas e engajá-lo com fornecimento de conteúdo eficaz e relevante. Dada a variedade diversificada de destinatários que você encontra, criar vários conteúdos de marketing para atrair pessoas diferentes, pode ser demorado e dispendioso. É aqui que o conteúdo dinâmico entra em cena.
 
-Os recursos de conteúdo dinâmico da Web do Adobe Campaign permitem personalizar o conteúdo com base nas informações coletadas sobre os recipients. Ao utilizar o conteúdo dinâmico, você garante que seus esforços de marketing sejam mais relevantes, evitando produtos ou serviços indesejados ou desnecessários. Essa abordagem torna o conteúdo mais atraente e aumenta a probabilidade de ele ser lido. Além disso, permite personalizar o conteúdo, fazendo com que os recipients sintam que estão recebendo informações de uma pessoa em vez de uma máquina.
+Os recursos de conteúdo dinâmico do Adobe Campaign Web permitem personalizar o conteúdo com base nas informações coletadas sobre os destinatários. Ao utilizar o conteúdo dinâmico, você garante que seus esforços de marketing sejam mais relevantes, evitando o anúncio de produtos ou serviços indesejados ou desnecessários. Essa abordagem torna o conteúdo mais atraente e aumenta a probabilidade de ele ser lido. Além disso, permite personalizar o conteúdo, fazendo com que os destinatários sintam que estão recebendo informações de uma pessoa em vez de uma máquina.
 
 ## Como tornar seu conteúdo dinâmico? {#make-content-dyn}
 
-Você pode tornar o conteúdo da mensagem dinâmico inserindo construções JavaScript no editor de expressão da Web do Campaign. No envio da mensagem, essas expressões são interpretadas pelo Adobe Campaign para fornecer o conteúdo correto a cada um dos recipients:
+Você pode tornar o conteúdo da mensagem dinâmico inserindo construções JavaScript no editor de expressão do Campaign Web. No envio da mensagem, essas expressões são interpretadas pelo Adobe Campaign para fornecer o conteúdo correto a cada um dos destinatários:
 
-* **Personalizar suas mensagens** para cada recipient específico aproveitando dados de perfil, como nome, interesses, onde vivem, o que compraram e muito mais. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização relacionado ao recipient, à mensagem ou ao delivery. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. A sintaxe a seguir insere a cidade do recipient no conteúdo: &lt;%= recipient.location.city %>.
+* **Personalizar suas mensagens** para cada destinatário específico aproveitando dados de perfil, como nome, interesses, onde vive, o que comprou e muito mais. É possível selecionar qualquer campo disponível no banco de dados do editor de personalização relacionado ao destinatário, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. A sintaxe a seguir insere a cidade do destinatário no conteúdo: &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
-* **Criar conteúdo condicional** para adaptar seus deliveries a cada recipient e mostrar apenas o conteúdo relevante para um determinado cliente com base nas informações que você tem sobre eles. Isso permite exibir blocos de texto e/ou imagens específicos com base em condições. Por exemplo, adapte um banner de email com base na assinatura dos recipients a um serviço específico.
+* **Criar conteúdo condicional** para adaptar suas entregas a cada destinatário e mostrar apenas conteúdo relevante para um determinado cliente, com base nas informações que você tem sobre ele. Isso permite exibir imagens e/ou blocos de texto específicos com base em condições. Por exemplo, adapte um banner de email com base na assinatura do destinatário de um serviço específico.
 
   ![](assets/condition-sample.png){width="800" align="center"}
 
-* **Usar blocos de personalização** para economizar tempo e aproveitar o conteúdo personalizado facilmente reutilizável em suas mensagens. O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page de uma mensagem de email. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
+* **Usar blocos de personalização** para economizar tempo e aproveitar o conteúdo personalizado facilmente reutilizável em suas mensagens. O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, é possível adicionar um logotipo, uma saudação ou um link para a mirror page de uma mensagem de email. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
 
   ![](assets/content-blocks.png){width="800" align="center"}
 
-## Acessar o editor de expressão {#access}
+## Acesso ao editor de expressão {#access}
 
-O Adobe Campaign V8 Web fornece um editor de expressão onde você pode selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. O editor de expressão está disponível para todos os canais, em todos os campos com o **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone, como o campo da linha de assunto ou links de email e componentes de conteúdo de texto/botão.
+O Adobe Campaign V8 Web fornece um editor de expressão onde é possível selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. O editor de expressão está disponível para todos os canais, em todos os campos com o ícone de **[!UICONTROL Abrir caixa de diálogo de personalização]**, como o campo da linha de assunto ou links de email e componentes de conteúdo de texto/botão.
 
-Estes são alguns exemplos de como acessar o editor de expressão dependendo do conteúdo que você deseja tornar dinâmico:
+Estes são alguns exemplos de como acessar o editor de expressão, dependendo do conteúdo que deseja tornar dinâmico:
 
-* *Acessando o editor de expressão no campo Nome do remetente*
+* *Acesso ao editor de expressão a partir do campo Nome do remetente*
 
   ![](assets/expression-editor-access.png){width="800" align="center"}
 
-* *Acesso ao editor de expressão por meio de um componente de texto de email*
+* *Acesso ao editor de expressão a partir de um componente de texto de email*
 
   ![](assets/expression-editor-access-email.png){width="800" align="center"}
 
-* *Acesso ao editor de expressão por meio de um link em um email*
+* *Acesso ao editor de expressão a partir de um link em um email*
 
   ![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 >[!NOTE]
 >
->Além do editor de expressão, você também pode aproveitar um construtor de conteúdo condicional dedicado ao criar um email. [Saiba como criar conteúdo condicional em emails](conditions.md)
+>Além do editor de expressão, ao criar um email, você também pode aproveitar um construtor de conteúdo condicional dedicado. [Saiba como criar conteúdo condicional em emails](conditions.md)
 
 ## Vamos nos aprofundar um pouco mais {#dive-deeper}
 
-Agora que você entende como tornar seu conteúdo dinâmico, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
+Agora que você entende como tornar seu conteúdo dinâmico, é hora de se aprofundar nestas seções de documentação para começar a trabalhar com o recurso.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -92,7 +92,7 @@ Agora que você entende como tornar seu conteúdo dinâmico, é hora de se aprof
 <img alt="Pouco frequente" src="assets/do-not-localize/dynamic-content-blocks.jpg">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Adicionar blocos de conteúdo incorporados</strong></a>
+<a href="content-blocks.md"><strong>Adicionar blocos de conteúdo integrados</strong></a>
 </div>
 <p></td>
 </tr></table>
