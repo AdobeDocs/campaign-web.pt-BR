@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 >abstract="Navegue pela lista de entregas. É possível visualizar seu status, principais KPIs e datas de contato e modificação. É possível filtrar a lista por estado, data de contato ou canal. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione uma entrega para visualizar seu conteúdo, público-alvo e detalhes."
 
 
-Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
+Com o Adobe Campaign, e possível enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
 
 Essas mensagens são projetadas e enviadas através de entregas, além disso podem ser personalizadas para cada destinatário. Essas entregas podem ser independentes ou incluídas no contexto de uma campanha de marketing.
 
@@ -62,7 +62,7 @@ O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS e aplicat
 
 É possível criar entregas independentes a partir do menu esquerdo **[!UICONTROL Entregas]**, ou criar entregas no contexto de uma campanha de marketing, no menu esquerdo **[!UICONTROL Campanhas]**.
 
-Navegue pelas guias abaixo para saber como criar um delivery:
+Navegue pelas guias abaixo para saber como criar uma entrega:
 
 >[!BEGINTABS]
 
@@ -145,13 +145,13 @@ Você pode personalizar o conteúdo da mensagem ao:
 Depois que o conteúdo da mensagem for definido, você poderá visualizá-lo para controlar a renderização das mensagens e verificar as configurações de personalização com perfis de teste. [Saiba mais](../preview-test/preview-test.md)
 
 
-## Logs de monitoramento e rastreamento{#gs-tracking-logs}
+## Logs de rastreamento e monitoramento{#gs-tracking-logs}
 
-O monitoramento de deliveries após serem enviados é uma etapa essencial para garantir que as campanhas de marketing sejam eficientes e atinjam os clientes.
+O monitoramento de entregas após o envio é uma etapa essencial para garantir que as campanhas de marketing sejam eficientes e atinjam os clientes.
 
 Você pode monitorar após enviar uma entrega, bem como entender como as falhas de entrega e as quarentenas são gerenciadas.
 
-Saiba mais sobre os recursos de monitoramento e rastreamento no [nesta seção](../reporting/gs-reports.md).
+Saiba mais sobre os recursos de rastreamento e monitoramento [nesta seção](../reporting/gs-reports.md).
 
 ## Duplicação de uma entrega {#delivery-duplicate}
 
@@ -169,24 +169,24 @@ Para duplicar uma entrega do painel, siga estas etapas:
 1. Selecione **[!UICONTROL Duplicar]**.
 1. Confirme a duplicação: a nova entrega substituirá a entrega atual na tela central.
 
-## Excluir um delivery {#delivery-delete}
+## Excluir uma entrega {#delivery-delete}
 
-Os deliveries são excluídos da lista de delivery - da entrada de delivery principal no painel à esquerda ou da lista de delivery de uma campanha.
+As entregas são excluídas na lista de entregas - seja da entrada da entrega principal no painel esquerdo ou da lista de entregas de uma campanha.
 
-Para deletar um delivery da lista de deliveries, siga estas etapas:
+Para excluir uma entrega da lista de entregas, siga estas etapas:
 
 1. Clique no botão de três pontos à direita, ao lado do nome da entrega a ser duplicada.
-1. Selecione **[!UICONTROL Delete]**.
+1. Selecione **[!UICONTROL Excluir]**.
 1. Confirmar exclusão.
 
-![Excluir um delivery da lista de delivery](assets/delete-delivery-from-list.png)
+![Excluir uma entrega da lista de entregas](assets/delete-delivery-from-list.png)
 
-Todos os deliveries estão disponíveis nessas listas, mas os deliveries criados em um workflow não podem ser excluídos daí. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow.
+Todas as entregas estão disponíveis nessas listas, mas as entregas criadas em um workflow não podem ser excluídas nelas. Para excluir uma entrega criada no contexto de um workflow, será necessário excluir a atividade de entrega do workflow.
 
-Para excluir um delivery de um workflow, siga estas etapas:
+Para excluir uma entrega de um workflow, siga estas etapas:
 
-1. Selecione a atividade de delivery.
-1. Clique em  **[!UICONTROL Excluir]** no painel direito.
-1. Confirmar exclusão. Se o delivery tiver nós filhos, você poderá optar por excluí-los também ou mantê-los.
+1. Selecionar a atividade de entrega.
+1. Clique no ícone de **[!UICONTROL Excluir]** no painel direito.
+1. Confirmar exclusão. Se a entrega tiver nós derivados, você poderá optar por excluí-los também ou mantê-los.
 
-![Excluir um delivery em um workflow](assets/delete-delivery-from-wf.png)
+![Excluir uma entrega em um workflow](assets/delete-delivery-from-wf.png)

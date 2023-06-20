@@ -7,30 +7,30 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 12%
+ht-degree: 93%
 
 ---
 
 # Introdução às notificações por push {#push}
 
-As notificações por push são essenciais para contatar os usuários de aplicativos móveis, mesmo que eles não estejam usando ativamente seu aplicativo. Elas atendem a vários propósitos, como fornecer atualizações, orientar ações específicas e notificar sobre ofertas. Observe que os usuários devem aceitar o recebimento dessa notificação.
+As notificações por push são essenciais para se comunicar com os usuários de aplicativos móveis, mesmo que eles não estejam usando ativamente seu aplicativo. Elas atendem a vários propósitos, como fornecer atualizações, promover ações específicas e notificar sobre ofertas. Observe que os usuários devem aceitar o recebimento dessas notificações.
 
-Para criar notificações por push, você tem três opções:
+Para criar notificações por push, existem três opções:
 
-* Fluxos de trabalho: depois de adicionar uma atividade de canal de push ao seu fluxo de trabalho e definir as configurações básicas, você pode criar o conteúdo de suas notificações de push no menu do painel direito. Para obter instruções detalhadas sobre como configurar o workflow, consulte esta página.
+* Workflows: depois de adicionar uma atividade de canal de push ao seu workflow e definir as configurações básicas, você pode criar o conteúdo de suas notificações por push no menu do painel direito. Para obter instruções detalhadas sobre como configurar o workflow, consulte esta página.
 
-* Campanhas: depois de criar uma campanha, você pode criar um delivery de notificação por push. Para obter mais informações sobre como configurar sua campanha, consulte esta página.
+* Campanhas: após criar uma campanha, é possível criar uma entrega de notificação por push. Para obter mais informações sobre como configurar sua campanha, consulte esta página.
 
-* Deliveries independentes: envolva os clientes direta e instantaneamente com delivery de notificação por push individual, sem a necessidade de workflows ou campanhas.
+* Entregas independentes: engaje os clientes de forma direta e instantânea com a entrega individual de notificação por push, sem a necessidade de criar workflows ou campanhas.
 
-![](../assets/do-not-localize/book.png) Saiba como configurar o canal de notificação por push no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Saiba como configurar o canal de notificação por push no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=pt-BR){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
 <img alt="Lead" src="assets/do-not-localize/push_create.jpeg">
 </a>
-<div><a href="create-push.md"><strong>Criar uma entrega por push</strong>
+<div><a href="create-push.md"><strong>Criação de uma entrega por push</strong>
 </div>
 <p>
 </td>

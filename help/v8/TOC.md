@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 68%
+ht-degree: 93%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 68%
    + Emails {#email}
       + [Criar seu primeiro email](email/create-email.md)
       + Definir conteúdo do email {#content}
-         + [Configurar o conteúdo do email](content/edit-content.md)
-         + Comece a modelar seu email {#start-design}
+         + [Configurar conteúdo de email](content/edit-content.md)
+         + Começar a definir seu email {#start-design}
             + [Introdução ao Designer de email](content/get-started-email-designer.md)
             + [Iniciar do zero](content/create-email-content.md)
             + [Importar o conteúdo do email](content/existing-content.md)
@@ -53,30 +53,30 @@ ht-degree: 68%
          + [Configurações de entrega de email](advanced-settings/delivery-settings.md)
    + Notificações por push {#push}
       + [Introdução às notificações por push](push/gs-push.md)
-      + [Criar um delivery de notificação por push](push/create-push.md)
+      + [Criar uma entrega de notificação por push](push/create-push.md)
       + [Criar uma entrega por push](push/content-push.md)
-      + [Pré-visualizar e enviar um delivery de notificação por push](push/send-push.md)
+      + [Visualizar e enviar uma entrega de notificação por push](push/send-push.md)
    + SMS {#sms}
       + [Introdução às entregas de SMS](sms/gs-sms.md)
       + [Criar uma entrega de SMS](sms/create-sms.md)
-      + [Criar um delivery de SMS](sms/content-sms.md)
-      + [Pré-visualizar e enviar um delivery de SMS](sms/send-sms.md)
+      + [Criar uma entrega de SMS](sms/content-sms.md)
+      + [Visualizar e enviar uma entrega de SMS](sms/send-sms.md)
    + Tornar seu conteúdo dinâmico {#dynamic-content}
-      + [Introdução ao conteúdo dinâmico](personalization/gs-personalization.md)
+      + [Introdução a conteúdo dinâmico](personalization/gs-personalization.md)
       + [Adicionar personalização](personalization/personalize.md)
       + [Adicionar conteúdo condicional](personalization/conditions.md)
-      + [Adicionar blocos de conteúdo incorporados](personalization/content-blocks.md)
+      + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
    + [Enviar ofertas](content/offers.md)
    + Pré-visualizar e testar o delivery {#preview-test}
       + [Sobre a visualização e o teste](preview-test/preview-test.md)
       + [Pré-visualizar o conteúdo da mensagem](preview-test/preview-content.md)
       + [Enviar deliveries de teste](preview-test/proofs.md)
-      + [Renderize seu email](preview-test/email-rendering.md)
+      + [Renderizar seu email](preview-test/email-rendering.md)
 + Públicos e recipients {#audiences}
    + [Introdução aos públicos](audience/about-audiences.md)
    + [Selecione um público-alvo já existente](audience/add-audience.md)
    + [Definir um público com o construtor de regras](audience/segment-builder.md)
-   + [Carregar um público-alvo de email de um arquivo](audience/file-audience.md)
+   + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
    + [Usar um público da Adobe Experience Platform](audience/aep-audience.md)
    + [Configurar um grupo de controle](audience/control-group.md)
 + Campanhas entre canais {#campaigns}
@@ -90,22 +90,22 @@ ht-degree: 68%
       + [Princípios básicos da criação de workflows](workflows/gs-workflow-creation.md)
       + [Criar o workflow](workflows/create-workflow.md)
       + [Orquestrar atividades](workflows/orchestrate-activities.md)
-      + [Definir as configurações do fluxo de trabalho](workflows/workflow-settings.md)
-      + [Iniciar e monitorar o fluxo de trabalho](workflows/start-monitor-workflows.md)
-   + Trabalhar com atividades de fluxo de trabalho {#design-workflows}
-      + [Sobre atividades de workflow](workflows/activities/about-activities.md)
-      + [Associação AND](workflows/activities/and-join.md)
+      + [Definir as configurações do workflow](workflows/workflow-settings.md)
+      + [Iniciar e monitorar o workflow](workflows/start-monitor-workflows.md)
+   + Trabalhar com atividades de workflow {#design-workflows}
+      + [Sobre as atividades de workflow](workflows/activities/about-activities.md)
+      + [And-join](workflows/activities/and-join.md)
       + [Criar público-alvo](workflows/activities/build-audience.md)
       + [Combinar](workflows/activities/combine.md)
-      + [Email, SMS, Push](workflows/activities/channels.md)
+      + [Email, SMS, push](workflows/activities/channels.md)
       + [Enriquecimento](workflows/activities/enrichment.md)
       + [Bifurcação](workflows/activities/fork.md)
       + [Aguardar](workflows/activities/wait.md)
 + Relatórios {#reports}
    + [Introdução aos relatórios](reporting/gs-reports.md)
-   + Relatórios de delivery {#delivery-report}
-      + [Acessar relatórios de delivery](reporting/delivery-reports.md)
-      + [Relatório de entrega de email](reporting/email-report.md)
+   + Relatórios de entrega {#delivery-report}
+      + [Acessar relatórios de entrega](reporting/delivery-reports.md)
+      + [Relatório de entrega de emails](reporting/email-report.md)
       + [Relatório de entrega por push](reporting/push-report.md)
       + [Relatório de entrega de SMS](reporting/sms-report.md)
    + [Relatórios de campanha](reporting/campaign-reports.md)

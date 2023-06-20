@@ -7,7 +7,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 10%
+ht-degree: 85%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Projetar e enviar campanhas entre canais"
->abstract="Os recursos do Adobe Campaign ajudam você a gerenciar dados centralizados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais: Email, Push e SMS."
+>title="Design e envie de campanhas entre canais"
+>abstract="Os recursos do Adobe Campaign ajudam você a gerenciar dados centralizados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais: email, push e SMS."
 
-O Adobe Campaign permite que você orquestre facilmente suas iniciativas de marketing direcionadas, usando o recurso integrado de gerenciamento de campanhas. Com a capacidade de definir um agendamento, você pode planejar a duração e o tempo de suas campanhas para se alinharem a objetivos estratégicos e maximizar o engajamento do público-alvo.
+O Adobe Campaign permite orquestrar facilmente suas iniciativas de marketing direcionadas, usando o recurso integrado de gerenciamento de campanhas. Com a capacidade de definir um cronograma, é possível planejar a duração e o tempo de suas campanhas para se alinharem aos objetivos estratégicos e maximizar o engajamento do público-alvo.
 
-Ao adicionar vários workflows e deliveries específicos à campanha, você pode criar experiências personalizadas em vários canais, garantindo que cada ponto de contato corresponda ao público desejado.
+Ao adicionar vários fluxos de trabalho e entregas específicos à campanha, você pode criar experiências personalizadas em vários canais, garantindo que cada touchpoint corresponda ao público-alvo desejado.
 
 As campanhas oferecem métricas de relatórios dedicadas para obter insights abrangentes sobre o desempenho de toda a campanha, permitindo avaliar sua eficácia, identificar tendências e tomar decisões orientadas por dados para otimizar esforços futuros. Saiba como acessar e entender relatórios de campanha no [nesta seção](../reporting/campaign-reports.md).
 
@@ -29,7 +29,7 @@ As campanhas oferecem métricas de relatórios dedicadas para obter insights abr
 
 Saiba como criar e gerenciar campanhas nas seguintes seções:
 
-* [Acessar e gerenciar suas campanhas](manage-campaigns.md)
+* [Acesso e gerenciamento de suas campanhas](manage-campaigns.md)
 * [Criar sua primeira campanha](create-campaigns.md)
 
 

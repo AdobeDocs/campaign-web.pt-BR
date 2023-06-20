@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Conheça a interface"
->abstract="A nova interface da Web do Campaign v8 oferece uma experiência do usuário integrada, intuitiva e consistente."
+>abstract="A nova interface da Campaign Web v8 oferece ao usuário uma experiência integrada, intuitiva e consistente."
 
 A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. Essa nova interface é integrada à Adobe Experience Platform.
 
@@ -34,26 +34,26 @@ Navegue pelos links à esquerda para acessar os recursos do Campaign Web v8. Vá
 
 ### Página inicial {#user-interface-home}
 
-Esta tela inclui links e elementos importantes para um acesso rápido aos principais recursos do Campaign Web v8.
+Esta tela inclui links e recursos importantes para um acesso rápido aos principais recursos do Campaign Web v8.
 
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação.
 
-Acesse as páginas de ajuda principais da Web do Campaign v8 na **Aprendizado** seção da página inicial.
+Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
 
 ### Explorer {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="A variável **Explorer** O menu exibe todos os componentes e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, fluxos de trabalho e campanhas. Todas as outras listas são somente leitura."
+>abstract="O menu **Explorer** exibe todos os componentes e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, workflows e campanhas. Todas as outras listas são de somente leitura."
 
-A variável **Explorer** O menu exibe todos os recursos e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, fluxos de trabalho e campanhas. Todas as outras listas são somente leitura.
+O menu **Explorer** exibe todos os recursos e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, workflows e campanhas. Todas as outras listas são de somente leitura.
 
 Os itens exibidos no explorador dependem das permissões do usuário.
 
 Como em qualquer tela de lista, você pode configurar as colunas para personalizar a exibição e mostrar todas as informações necessárias. Consulte esta [seção](#list-screens).
 
-Para obter mais informações sobre o explorador do Campaign, a hierarquia de pastas e os recursos, consulte [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=pt-BR#ac-explorer-ui){target="_blank"}.
+Para obter mais informações sobre o Explorer do Campaign, a hierarquia de pastas e os recursos, consulte a [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=pt-BR#ac-explorer-ui){target="_blank"}.
 
 ### Gerenciamento de campanhas {#user-interface-campaign-management}
 
@@ -64,7 +64,7 @@ Para obter mais informações sobre o explorador do Campaign, a hierarquia de pa
 
 
 
-Na seção CAMPAIGN MANAGEMENT, você pode acessar campanhas de marketing, deliveries e workflows.
+Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketing, entregas e workflows.
 
 * **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador de campanha que a criou. É possível filtrar a lista por status, datas de início/término, pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem. Saiba mais sobre campanhas [nesta seção](../campaigns/gs-campaigns.md).
 
@@ -86,7 +86,7 @@ Na seção CAMPAIGN MANAGEMENT, você pode acessar campanhas de marketing, deliv
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="Públicos"
+>title="Públicos-alvo"
 >abstract="É a sua lista de públicos. É possível exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Essa lista é do tipo somente leitura."
 
 >[!CONTEXTUALHELP]
@@ -95,11 +95,11 @@ Na seção CAMPAIGN MANAGEMENT, você pode acessar campanhas de marketing, deliv
 >abstract="Navegar pelas listas de assinaturas. É possível exibir o tipo, o modo e o rótulo. Essa lista é do tipo somente leitura."
 
 
-Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os recipients, públicos-alvo e assinaturas. Essas listas são somente leitura.
+Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, públicos-alvo e assinaturas. Essas listas são de somente leitura.
 
-* **Recipients**: acessa o banco de dados de recipients. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre recipients em [Documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **Públicos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Saiba mais sobre públicos-alvo e listas em [Documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
-* **Assinaturas** - Navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba como gerenciar assinaturas e cancelamentos de assinaturas no [Documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
+* **Recipients**: acessa o banco de dados de recipients. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre destinatários em [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html?lang=pt-BR){target="_blank"}.
+* **Públicos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Saiba mais sobre públicos-alvo e listas na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=pt-BR){target="_blank"}.
+* **Assinaturas**: navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba mais sobre como gerenciar assinaturas e seus cancelamentos na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=pt-BR){target="_blank"}.
 
 ### Gestão de decisões
 
@@ -110,7 +110,7 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os recipients, públ
 
 * **Ofertas**: navegue pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por estado e data inicial/final. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
 
-Saiba como criar e gerenciar ofertas no [Documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
+Saiba como criar e gerenciar ofertas na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
 ## Barra superior
 
@@ -128,7 +128,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## Ajuda contextual {#contextual-help}
 
-Uma ajuda contextual está disponível na interface. Quando disponível, clique no link `?` ícone para exibir informações de ajuda e links de documentação relacionados.
+Uma ajuda contextual está disponível na interface. Quando disponível, clique no ícone `?` para exibir informações de ajuda e links de documentações relacionadas.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
@@ -170,7 +170,7 @@ O idioma padrão da interface é determinado pelo idioma preferencial especifica
 Para alterar o idioma:
 
 1. Clique no ícone do perfil, na parte superior direita, e selecione **Preferências**.
-1. Em seguida, clique no link do idioma exibido sob seu endereço de email.
+1. Em seguida, clique no link de idioma exibido sob o seu endereço de email.
 1. Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
 
 
@@ -284,7 +284,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="Cancelamentos de assinatura"
->abstract="KPI de Cancelamentos de Assinatura"
+>abstract="KPI de cancelamentos de assinatura"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"

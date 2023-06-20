@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 38%
+ht-degree: 99%
 
 ---
 
@@ -15,42 +15,42 @@ ht-degree: 38%
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
-O Campaign agora oferece uma nova interface da Web com usabilidade, acessibilidade e um novo design para melhorar significativamente sua experiência de usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform. [Saiba mais](get-started/get-started.md)
+O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform. [Saiba mais](get-started/get-started.md)
 
 >O Campaign v8 Web está atualmente na versão Alfa. O acesso é restrito a um pequeno conjunto de clientes Alfa. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio. [Saiba mais](rn/whats-new.md)
 
 ## Novos recursos do Campaign Web
 
-**Conheça a nova interface de usuário da Web do Campaign v8**
+**Conheça a nova interface do Campaign Web v8**
 
 A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. Essa nova interface é integrada à Adobe Experience Platform.
 
 **Interface de tela de workflow reformulada**
 
-Nosso ambiente gráfico abrangente permite que você crie processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade. Com os workflows, é possível orquestrar a gama completa de processos e tarefas, melhorar a velocidade e a escala de cada aspecto de suas campanhas de marketing, desde a criação de segmentos e a preparação de mensagens até a entrega. Além disso, você pode sincronizar seus canais com uma interface única e fácil de usar para a orquestração de campanhas.
+Nosso ambiente gráfico abrangente que permite criar processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade. Com os workflows, é possível orquestrar a gama completa de processos e tarefas, melhorar a velocidade e a escala de cada aspecto de suas campanhas de marketing, desde a criação de segmentos e a preparação de mensagens até a entrega. Além disso, você pode sincronizar seus canais com uma interface única e fácil de usar para a orquestração de campanhas.
 
 **Conheça o Designer de email**
 
-Comece com base em um modelo ou use o novo Email Designer do Adobe Campaign para criar emails sem precisar gravar uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, pré-visualizá-lo e testá-lo, além de enviar um email para um público-alvo existente em um caso de uso completo.
+Comece a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, visualizá-lo e testá-lo, além de enviar um email para um público-alvo já existente no caso de uso completo.
 
 **Tornar seu conteúdo dinâmico**
 
-Personalize o conteúdo com base nas informações coletadas sobre os recipients. Usar conteúdo dinâmico torna seu conteúdo mais atraente e aumenta a probabilidade de sua leitura. Personalize suas mensagens para cada recipient específico aproveitando os dados do perfil, como nome, interesses, onde vivem, o que compraram e muito mais. Crie conteúdo condicional para adaptar seus deliveries a cada recipient e mostrar apenas o conteúdo relevante para um determinado cliente com base nas informações que você tem sobre ele.
+Personalize o conteúdo com base nas informações coletadas sobre os destinatários. A utilização do conteúdo dinâmico torna seu conteúdo mais atraente e aumenta sua probabilidade de leitura. Personalize suas mensagens para cada destinatário específico, aproveitando os dados do perfil como nome, interesses, onde vive, o que comprou e muito mais. Crie conteúdo condicional para adaptar suas entregas a cada destinatário e mostrar apenas o conteúdo relevante para um determinado cliente, com base nas informações que você tem sobre ele.
 
 **Criar campanhas entre canais**
 
-Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, você pode gerenciar e centralizar dados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais. Nesta versão, os canais de email, push e SMS estão disponíveis. Meça a eficácia dos deliveries com relatórios detalhados, incluindo a contagem de aberturas, cliques, encaminhamentos e muito mais.
+Use o Adobe Campaign para criar campanhas entre canais. Com seus recursos de orquestração de campanhas de marketing, é possível gerenciar e centralizar os dados do cliente e elaborar comunicações e campanhas do cliente para criar experiências personalizadas em diferentes canais. Nesta versão, os canais de email, push e SMS estão disponíveis. Meça a eficácia das entregas com relatórios detalhados, incluindo a contagem de aberturas, cliques, encaminhamentos e muito mais.
 
 ## Vamos nos aprofundar um pouco mais
 
-Agora que você entende o que pode fazer na Web do Adobe Campaign, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com ele.
+Agora que você entende o que pode fazer no Adobe Campaign Web, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com ele.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
 <img alt="nova interface" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Conheça a nova interface de usuário</strong>
+<div><a href="get-started/user-interface.md"><strong>Conheça a nova interface</strong>
 </div>
 <p>
 </td>
@@ -73,7 +73,7 @@ Agora que você entende o que pode fazer na Web do Adobe Campaign, é hora de se
 <p></td>
 <td>
 <a href="personalization/gs-personalization.md">
-<img alt="Públicos" src="assets/do-not-localize/menu-dynamic.jpg">
+<img alt="Públicos-alvo" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
 <a href="personalization/gs-personalization.md"><strong>Tornar seu conteúdo dinâmico</strong></a>

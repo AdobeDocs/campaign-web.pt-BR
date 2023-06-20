@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Interface de tela de workflow reformulada"
->abstract="Nossa tela gráfica abrangente facilita a criação de processos como segmentação, execução de campanha e muito mais. Com essa ferramenta avançada na ponta dos dedos, você pode simplificar seu fluxo de trabalho e elevar suas campanhas."
+>abstract="Nossa tela gráfica detalhada facilita a criação de processos como segmentação, execução de campanha e muito mais. Com essa ferramenta avançada ao seu alcance, e possível simplificar seu workflow e elevar as suas campanhas."
 
 ## O que é um fluxo de trabalho?
 
@@ -35,8 +35,8 @@ Com o ambiente gráfico abrangente do Adobe Campaign, é possível criar process
 Estes são alguns exemplos de como você pode usar os workflows com o Adobe Campaign:
 
 * Iniciar uma campanha de acompanhamento para clientes inativos,
-* Enviar um email de boas-vindas a todos os assinantes novos de um serviço,
-* Personalize deliveries entre canais com base no status do programa de fidelidade dos clientes ou nos pontos de interesse.
+* Enviar um email de boas-vindas a todos os novos assinantes de um serviço,
+* Personalize entregas entre canais com base no status do programa de fidelidade ou no interesse dos clientes.
 
 ## Vamos nos aprofundar um pouco mais
 
@@ -56,7 +56,7 @@ Agora que você tem uma compreensão do que são os workflows e do que pode faze
 <a href="create-workflow.md">
 <img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>Crie e execute seu primeiro workflow</strong>
+<div><a href="create-workflow.md"><strong>Criar e executar seu primeiro workflow</strong>
 </div>
 <p>
 </td>
@@ -65,7 +65,7 @@ Agora que você tem uma compreensão do que são os workflows e do que pode faze
 <img alt="Pouco frequente" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
-<a href="activities/about-activities.md"><strong>Trabalhar com atividades de fluxo de trabalho</strong></a>
+<a href="activities/about-activities.md"><strong>Trabalhar com atividades de workflow</strong></a>
 </div>
 <p></td>
 </tr></table>

@@ -7,7 +7,7 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 43%
+ht-degree: 86%
 
 ---
 
@@ -17,11 +17,11 @@ As entregas de SMS fornecem uma maneira prática e eficiente de enviar mensagens
 
 O canal de SMS oferece três métodos para criar entregas de SMS:
 
-* **[!UICONTROL Fluxos de trabalho]**: adicione uma atividade de SMS, defina configurações básicas e componha seu conteúdo de SMS em uma sequência de automação maior.
+* **[!UICONTROL Workflows]**: adicione uma atividade de SMS, defina as configurações básicas e componha seu conteúdo de SMS em uma sequência de automação maior.
 
-* **[!UICONTROL Campanhas]**: incorpore deliveries de SMS em campanhas dedicadas, definindo parâmetros como público-alvo e programação de delivery.
+* **[!UICONTROL Campanhas]**: incorpore entregas de SMS em campanhas dedicadas, definindo parâmetros como público-alvo e programação de entrega.
 
-* **Entregas independentes**: crie deliveries de SMS individuais para comunicação rápida e direta com seus clientes, sem a necessidade de workflows ou campanhas.
+* **Entregas independentes**: crie entregas de SMS individuais para uma comunicação rápida e direta com os clientes, sem a necessidade de workflows ou campanhas.
 
 ![](../assets/do-not-localize/book.png) Saiba como configurar o canal de SMS no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
@@ -39,7 +39,7 @@ O canal de SMS oferece três métodos para criar entregas de SMS:
 <img alt="Pouco frequente" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md"><strong>Criar um delivery de SMS<strong></strong></a>
+<a href="content-sms.md"><strong>Criar uma entrega de SMS<strong></strong></a>
 </div>
 <p></td>
 <td>
