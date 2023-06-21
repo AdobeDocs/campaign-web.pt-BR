@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Introdução a emails"
->abstract="Comece com base em um modelo ou use o novo Email Designer do Adobe Campaign para criar emails sem precisar gravar uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, pré-visualizá-lo e testá-lo, além de enviar um email para um público-alvo existente em um caso de uso completo."
+>abstract="Comece a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, visualizá-lo e testá-lo, além de enviar um email para um público-alvo já existente no caso de uso completo."
 
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
