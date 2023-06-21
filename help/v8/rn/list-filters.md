@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 99%
+source-wordcount: '507'
+ht-degree: 95%
 
 ---
 
@@ -59,7 +59,7 @@ Além disso, todos os seus dados e configurações já disponíveis no console d
 Como um usuário existente do Campaign, observe que alguns conceitos foram renomeados para alinhar-se aos padrões de terminologia mais recentes. Essas alterações se aplicam somente à interface do Campaign Web e não se refletem no console do cliente. Elas estão detalhadas abaixo.
 
 * Agora, as provas são **Testar emails**: para enviar uma prova, use o botão **Teste** na interface da entrega de email. O público-alvo do direcionamento das provas agora é referenciado como **Perfis de teste**
-* Agora os seed addresses são usados para **Perfis de teste**: envie o email de teste para os seed addresses, que são os recipients adicionais e fictícios no banco de dados
+* Os seed addresses agora são usados como **Perfis de teste**: enviar o email de teste para seed addresses, que são recipients adicionais no banco de dados
 * A análise da entrega agora é a **preparação da entrega**. Quando precisar iniciar a análise, clique no botão **Preparar**
 * A Visualização de email agora está disponível através do botão **Simular conteúdo**
 * As listas agora são **Públicos**
