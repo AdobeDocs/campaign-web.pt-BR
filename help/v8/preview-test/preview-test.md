@@ -4,9 +4,9 @@ title: Sobre a visualização e o teste de emails
 description: Saiba como visualizar e testar emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 25%
 
 ---
@@ -27,7 +27,7 @@ Essa é uma etapa essencial para garantir que ela seja precisa, mas também este
 Para fazer isso, [!DNL Adobe Campaign] O permite:
 
 * [Pré-visualização do conteúdo e da personalização da mensagem](preview-content.md)
-* [Enviar deliveries de teste](proofs.md) para recipients ou assinantes específicos para teste e validação
+* [Enviar deliveries de teste](test-deliveries.md) (provas) para recipients ou assinantes específicos para teste e validação
 * [Verifique a renderização de email](email-rendering.md) em clientes populares de desktop, dispositivos móveis e baseados na Web
 
 Essas ações podem ser executadas usando o **[!UICONTROL Simular conteúdo]** que pode ser acessado na tela editar conteúdo do delivery.

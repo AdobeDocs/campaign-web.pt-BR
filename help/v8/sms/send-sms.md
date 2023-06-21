@@ -3,14 +3,14 @@ audience: end-user
 title: Enviar uma entrega de SMS
 description: Saiba como enviar SMS com o Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# Pré-visualizar e enviar um delivery de SMS {#send-sms-delivery}
+# Visualizar e enviar uma entrega de SMS {#send-sms-delivery}
 
 ## Pré-visualizar seu delivery de SMS{#preview-sms}
 
@@ -41,7 +41,7 @@ Com **Adobe Campaign** Além disso, você pode testar uma mensagem antes de envi
 
 O envio de SMS de teste é uma etapa importante para garantir a qualidade e a eficácia do delivery. Os recipients de teste podem revisar vários elementos, como links, links para opção de não participação e imagens, bem como identificar erros na renderização, conteúdo, configurações de personalização e configuração de SMS. Esse processo ajuda a avaliar e otimizar completamente o SMS antes de alcançar seu público principal.
 
-![](../assets/do-not-localize/book.png) Saiba como enviar SMS de teste no [nesta seção](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) Saiba como enviar SMS de teste no [nesta seção](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 

@@ -4,7 +4,7 @@ title: Visualizar conteúdo do delivery
 description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 9%
@@ -55,8 +55,8 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 1. Para deliveries de email, você pode ajustar a variável **[!UICONTROL Nível de zoom]** e visualize seu conteúdo no desktop ou dispositivo móvel usando o ícone dedicado no canto superior direito.
 
 1. No **[!UICONTROL Simular]** também é possível:
-   * Enviar deliveries de teste para recipients específicos para validação - [Saiba mais](proofs.md)
-   * Acessar os logs dos deliveries de teste enviados - [Saiba mais](proofs.md#access-proofs)
+   * Enviar deliveries de teste para recipients específicos para validação - [Saiba mais](test-deliveries.md)
+   * Acessar os logs dos deliveries de teste enviados - [Saiba mais](test-deliveries.md#access-proofs)
    * Somente para email, verifique a renderização do conteúdo da mensagem em clientes de email populares - [Saiba mais](email-rendering.md)
 
 
