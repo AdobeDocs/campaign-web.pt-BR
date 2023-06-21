@@ -4,71 +4,71 @@ title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '840'
+ht-degree: 48%
 
 ---
 
 
 # Preparar e enviar seu email {#prepare-send}
 
+## Preparar o envio {#prepare}
 
-<!--
+Quando tiver definido sua [conteúdo](../content/edit-content.md), [público](../audience/add-audience.md) e agendar, você estará pronto para preparar sua entrega de email.
 
-	show how to prepare and send the email + the live kpis in the dashboard
-
-like acc when preparation, target calculated then send
-real time KPIs, not in AJO. similar to ACS.
-exclusion logs, causes
--->
-
-<!--
-send also KPIs
--->
-
-## Preparar o envio{#prepare}
-
-Após definir o conteúdo, público e programação, você estará pronto para preparar sua mensagem. Durante a preparação, a população do público-alvo é calculada, e o conteúdo da mensagem gerado para cada perfil é incluído no público-alvo. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas.
+Durante a preparação, a população do público-alvo é calculada, e o conteúdo da mensagem gerado para cada perfil é incluído no público-alvo. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas.
 
 As regras de validação usadas durante a preparação do delivery estão descritas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
-Siga as etapas abaixo:
+As principais etapas para preparar o envio estão listadas abaixo.
 
-1. No painel de entrega, clique no botão **Preparar** localizado no canto superior direito e confirme.
+1. No painel de delivery, clique em **[!UICONTROL Revisar e enviar]**.
 
-   ![](assets/prepare.png)
+   ![](assets/email-review-and-send.png)
 
-   O progresso da preparação é exibido. Dependendo do tamanho do público-alvo, essa operação pode levar algum tempo.
+
+1. Clique em **[!UICONTROL Preparar]** localizado no canto superior direito e confirme.
+
+   ![](assets/email-prepare.png)
 
    >[!NOTE]
    >
-   >Você pode interromper a preparação a qualquer momento usando o botão **Parar preparação**. Durante a fase de preparação, nenhuma mensagem é enviada. Portanto, você pode iniciar ou parar isso sem o risco de afetar nada.
+   >Se você tiver programado o delivery e desativado a variável **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../email/create-email.md#schedule)
+
+1. O progresso da preparação é exibido. Dependendo do tamanho do público-alvo, essa operação pode levar algum tempo.
+
+   Você pode interromper a preparação a qualquer momento usando o botão **[!UICONTROL Parar preparação.]**
+
+   ![](assets/email-stop-preparation.png)
+
+   >[!NOTE]
+   >Durante a fase de preparação, nenhuma mensagem é enviada. Portanto, você pode iniciar ou parar isso sem o risco de afetar nada.
 
 1. Quando a preparação for concluída, verifique os KPIs. Se o número de mensagens para enviar não corresponder às suas expectativas, modifique o público e reinicie a preparação.
 
-   ![](assets/prepare2.png)
+   ![](assets/email-preparation-complete.png)
 
    Estes são os diferentes KPIs exibidos:
 
-   * **Direcionado**: o número de recipients visados
-   * **Para entregar**: o número de mensagens que serão enviadas
-   * **Para excluir**: o número de mensagens excluídas por uma regra de tipologia
+   * **[!UICONTROL Direcionado]**: o número de recipients visados.
+   * **[!UICONTROL Para entregar]**: o número de mensagens que serão enviadas.
+   * **[!UICONTROL Para excluir]**[: o número de mensagens excluídas por uma regra de tipologia](../advanced-settings/delivery-settings.md#typology).
 
-1. Clique no botão **Logs** e verifique se não há erro. A última mensagem de log exibe mensagens de erro e o número de erros. Para obter mais informações, consulte esta [seção](delivery-logs.md).
+1. Clique no botão **[!UICONTROL Logs]** e verifique se não há erro. A última mensagem de log exibe mensagens de erro e o número de erros. [Saiba mais](delivery-logs.md)
 
-   ![](assets/prepare-logs.png)
+   ![](assets/email-prepare-logs.png)
 
-Se a preparação detectar um erro crítico que impede o envio da entrega, o status da preparação aparece como falha no painel de entrega.
+1. Se a preparação detectar um erro crítico que impede o envio da entrega, o status da preparação aparece como falha no painel de entrega.
 
-![](assets/prepare-error.png)
+   ![](assets/email-prepare-error.png)
 
-Se precisar fazer alterações na entrega após a preparação, será necessário reiniciar a preparação para que essas alterações sejam consideradas.
+1. Se você fizer alterações no delivery após a preparação, deverá reiniciar a preparação para que essas alterações sejam consideradas.
 
-Assim que a preparação estiver concluída sem erros, sua mensagem estará pronta para ser enviada. Para obter mais informações, consulte esta [seção](#send).
+Assim que a preparação estiver concluída sem erros, sua mensagem estará pronta para ser enviada.
 
-## Enviar a mensagem{#send}
+## Enviar a mensagem {#send}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
@@ -85,27 +85,66 @@ Assim que a preparação estiver concluída sem erros, sua mensagem estará pron
 >title="Cliques"
 >abstract="O número de recipients que clicaram pelo menos uma vez no email. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de cliques distintos em comparação com o número de mensagens entregues."
 
+Quando a variável [preparação](#prepare) estiver concluído, agora você pode enviar seu email.
 
-Depois que a preparação for concluída, você poderá enviar a mensagem. Essa etapa é necessária apenas para mensagens enviadas imediatamente. Se a mensagem estiver programada, ela será enviada na data definida.
+Se a mensagem estiver programada, ela será enviada na data e hora definidas. [Saiba mais](#schedule-the-send)
 
-Siga estas etapas:
+### Enviar imediatamente {#send-immediately}
 
-1. No painel de entrega, clique no botão **Enviar** no canto superior direito e confirme.
+Para enviar um email imediatamente, siga as etapas abaixo.
 
-   ![](assets/send.png)
+1. No painel de delivery, clique no link **[!UICONTROL Enviar]** no canto superior direito.
 
-1. O progresso do envio é exibido. Verifique os KPIs exibidos. Você também pode verificar os logs. Para obter mais informações, consulte esta [seção](delivery-logs.md).
+   ![](assets/email-send.png)
 
-   ![](assets/send2.png)
+1. Confirme essa ação para enviar imediatamente a mensagem ao público-alvo principal.
 
-   Estes são os diferentes KPIs exibidos:
+1. O progresso do envio é exibido.
 
-   * **Entregues**: o número de mensagens entregues com sucesso. A porcentagem exibida se baseia no número total de mensagens enviadas.
-   * **Aberturas**: o número de mensagens abertas. A porcentagem exibida é a proporção do número de aberturas distintas em comparação com o número de mensagens entregues.
-   * **Cliques**: o número de recipients que clicaram pelo menos uma vez no email. A porcentagem exibida é a proporção do número de cliques distintos em comparação com o número de mensagens entregues.
+### Agendar o envio {#schedule-the-send}
+
+Se você programou seu email para enviá-lo em data e hora posteriores, siga as etapas abaixo.
+
+1. Antes de clicar em **[!UICONTROL Revisar e enviar]** , certifique-se de ter definido uma agenda para o seu email. [Saiba mais](../email/create-email.md#schedule)
+
+1. No painel de delivery, clique no link **[!UICONTROL Botão Enviar como agendado]** no canto superior direito.
+
+   ![](assets/email-send-as-scheduled.png)
+
+1. Clique em **[!UICONTROL Confirmar envio]**. O delivery será enviado na data agendada para o target principal.
 
    >[!NOTE]
    >
-   >Todos os indicadores são atualizados a cada 5 minutos após o início da entrega. Os indicadores de preparação da entrega estão em tempo real.
+   >Se você desativou o **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../email/create-email.md#schedule)
 
-   Você pode pausar o envio a qualquer momento e, em seguida, retomar. Se você interromper a entrega enquanto estiver sendo enviada, não será possível retomar.
+## Pausar ou parar o envio {#pause-stop-sending}
+
+Se o delivery estiver agendado ou não, duas ações podem ser executadas a qualquer momento durante o processo de envio:
+
+* Clique em **[!UICONTROL Pausar envio]** para interromper o envio das mensagens. Você pode retomar o envio a qualquer momento.
+
+* Clique em **[!UICONTROL Parar envio]** para interromper imediatamente o envio. Nem a preparação nem o envio podem ser retomados depois de interrompidos.
+
+![](assets/email-send-pause-or-stop.png)
+
+## Verifique os KPIs {#check-kpis}
+
+Quando o envio estiver concluído, você poderá verificar os KPIs exibidos:
+
+![](assets/email-send-kpis.png)
+
+* **[!UICONTROL Enviado]**: o número de mensagens entregues. A porcentagem exibida tem como base o número total de mensagens a serem entregues.
+
+* **[!UICONTROL Entregues]**: o número de mensagens entregues com sucesso. A porcentagem exibida se baseia no número total de mensagens enviadas.
+
+* **[!UICONTROL Aberturas]**: o número de mensagens abertas. A porcentagem exibida é o número de aberturas distintas em comparação ao número de mensagens entregues.
+
+* **[!UICONTROL Cliques]**: o número de recipients que clicaram pelo menos uma vez no email. A porcentagem exibida é o número de cliques distintos em comparação ao número de mensagens entregues.
+
+* **[!UICONTROL Erros]**: o número de emails com o status de erro. A porcentagem exibida se baseia no número total de mensagens enviadas.
+
+>[!NOTE]
+>
+>Todos os indicadores são atualizados a cada 5 minutos após o início da entrega. Os indicadores de preparação do delivery são em tempo real.
+
+Você também pode verificar os logs. [Saiba mais](delivery-logs.md)
