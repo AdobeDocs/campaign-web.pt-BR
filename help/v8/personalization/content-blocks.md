@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 62%
+source-wordcount: '437'
+ht-degree: 63%
 
 ---
 
@@ -34,10 +34,8 @@ Para adicionar um bloco de conteúdo em um delivery, siga estas etapas:
 
 Os blocos de conteúdo incorporados são:
 
-* **[!UICONTROL Aprovação da personalização Purl]**
 * **[!UICONTROL Banner de recusa padrão]**
 * **[!UICONTROL Habilitado pelo Adobe Campaign]**: insere o logotipo &quot;Habilitado pelo Adobe Campaign&quot;.
-* **[!UICONTROL Pré-inserção do facebook]**
 * **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
 * **[!UICONTROL Saudações]**: insere saudações com o nome completo do recipient, seguido de vírgula. Exemplo: “Olá, fulano,”.
 * **[!UICONTROL Inserir logotipo]**: insere um logotipo definido nas configurações de instância.

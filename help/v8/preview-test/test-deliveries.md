@@ -4,9 +4,9 @@ title: Enviar deliveries de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '941'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 
 Para enviar um email ou SMS de teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente do [!DNL Campaign] banco de dados, use perfis de substituição.
 
-1. Antes de enviar um teste, defina um público-alvo para seu delivery. [Saiba mais](../audience/about-audiences.md)
+1. Antes de enviar um teste, defina um público-alvo de direcionamento para sua entrega. [Saiba mais](../audience/about-audiences.md)
 
 1. Navegue até a tela de edição de conteúdo do seu delivery de email ou SMS e clique no link **[!UICONTROL Simular conteúdo]** botão.
 
@@ -104,7 +104,7 @@ Para enviar um email ou SMS de teste para um endereço de email ou número de te
    >
    >Você pode inserir qualquer endereço de email ou número de telefone. Isso permite enviar deliveries de teste para qualquer recipient, mesmo que não sejam usuários do [!DNL Adobe Campaign].
 
-1. Selecione o perfil do banco de dados a ser usado como substituto. Você também pode permitir [!DNL Adobe Campaign] selecione um perfil aleatório. Os dados do perfil selecionado serão exibidos no delivery de teste.
+1. Selecione o perfil do target definido para o delivery a ser usado como substituto. Você também pode permitir [!DNL Adobe Campaign] selecione um perfil aleatório no target. Os dados do perfil selecionado serão exibidos no delivery de teste.
 
 1. Confirme o recipient e repita a operação para adicionar quantos endereços de email ou números de telefone forem necessários.
 
