@@ -3,10 +3,10 @@ audience: end-user
 title: Listas de busca, pesquisa e filtro
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ Use o botão **Exibir atributos avançados** para ver todos os atributos da list
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campos avançados do construtor de regras"
->abstract="Configure colunas com campos avançados."
+>abstract="Configure filtros avançados com campos avançados."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
