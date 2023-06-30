@@ -6,9 +6,9 @@ description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
    + [Conheça a interface](get-started/user-interface.md)
-   + [Procurar, pesquisar e filtrar listas](get-started/list-filters.md)
+   + [Listas de busca, pesquisa e filtro](get-started/list-filters.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
    + [Trabalho com modelos de entrega](msg/delivery-template.md)
@@ -67,13 +67,13 @@ ht-degree: 93%
       + [Adicionar conteúdo condicional](personalization/conditions.md)
       + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
    + [Enviar ofertas](content/offers.md)
-   + Pré-visualizar e testar o delivery {#preview-test}
-      + [Sobre a visualização e o teste](preview-test/preview-test.md)
-      + [Pré-visualizar o conteúdo da mensagem](preview-test/preview-content.md)
-      + [Enviar deliveries de teste](preview-test/test-deliveries.md)
+   + Visualizar e testar a entrega {#preview-test}
+      + [Sobre visualização e teste](preview-test/preview-test.md)
+      + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
+      + [Enviar entregas de teste](preview-test/test-deliveries.md)
       + [Renderizar seu email](preview-test/email-rendering.md)
 + Públicos e recipients {#audiences}
-   + [Introdução aos públicos](audience/about-audiences.md)
+   + [Introdução aos públicos-alvo](audience/about-audiences.md)
    + [Selecione um público-alvo já existente](audience/add-audience.md)
    + [Definir um público com o construtor de regras](audience/segment-builder.md)
    + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
