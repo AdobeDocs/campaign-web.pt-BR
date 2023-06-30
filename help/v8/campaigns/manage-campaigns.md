@@ -4,56 +4,56 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha"
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 
-# Acessar e gerenciar suas campanhas{#manage-campaigns}
+# Acesso e gerenciamento de suas campanhas{#manage-campaigns}
 
-Para criar uma nova campanha ou gerenciar suas campanhas existentes, clique no link **[!UICONTROL Campanhas]** no menu de navegação esquerdo.
+Para criar uma nova campanha ou gerenciar suas campanhas já existentes, clique no menu **[!UICONTROL Campanhas]** no painel de navegação esquerdo.
 
 ## A lista de campanhas{#access-campaigns}
 
-Na lista da campanha, duas guias estão disponíveis:
+Na lista de campanhas, duas guias estão disponíveis:
 
-* A variável **Procurar** A guia lista todas as campanhas existentes. Você pode clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no **Criar campanha** botão. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A guia **Procurar** lista todas as campanhas existentes. É possível clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no botão **Criar campanha**. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A variável **Modelos** A guia lista todos os templates de campanha disponíveis. Os templates de campanha são pré-configurados para que possam ser reutilizados ao criar novas campanhas. Eles são criados no console do cliente. [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR)
+* A guia **Modelos** lista todos os modelos de campanha disponíveis. Os modelos de campanha são pré-configurados para que possam ser reutilizados ao criar novas campanhas. Eles são criados no console cliente. [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR)
 
 ![Lista de campanhas](assets/campaign-list.png)
 
-Por padrão, cada campanha na lista exibe informações sobre seu status atual, data de criação, última vez que foi modificada, etc.
+Por padrão, cada campanha da lista exibe informações sobre seu status atual, data de criação, última modificação etc.
 
-Você pode personalizar as colunas exibidas clicando no ícone **Configurar coluna para layout personalizado** ícone localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista. Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens).
+É possível personalizar as colunas exibidas clicando no ícone **Configurar coluna para um layout personalizado** localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista. Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens).
 
-Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use o **Data de início - término** seção:
+Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use a seção **Data de início - término**:
 
 ![Filtro de campanha](assets/campaign-filter-on-dates.png)
 
 ## O painel de campanha{#campaign-dashboard}
 
-No **Procurar** da lista da campanha, clique em uma campanha para exibir seus detalhes.
+Na guia **Procurar** da lista de campanhas, clique em uma campanha para exibir seus detalhes.
 
 ![Painel de campanha](assets/campaign-dashboard.png)
 
-O status e o agendamento da campanha são exibidos na parte superior da tela. Você pode usar o **Definir configurações da campanha** ícone para modificar as propriedades da campanha que foram definidas ao criar a campanha. Há três botões disponíveis que permitem visualizar logs, criar relatórios, duplicar ou excluir a campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
+O status e o cronograma da campanha são exibidos na parte superior da tela. Você pode usar o ícone **Definir configurações da campanha** para modificar as propriedades da campanha que foram definidas ao criá-la. Há três botões disponíveis que permitem visualizar logs, relatórios, duplicar ou excluir a campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
 
-Duas guias estão disponíveis:
+Duas guias estarão disponíveis:
 
-* A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A guia **Workflows** lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A variável **Entregas** A guia lista todos os deliveries vinculados à campanha atual. Você também pode criar um novo delivery dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A guia **Entregas** lista todas as entregas vinculadas à campanha atual. Você também pode criar uma nova entrega dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
 ## Duplicar e excluir uma campanha
 
 É possível duplicar ou excluir uma campanha:
 
-* na lista de campanhas, clique no botão de reticências e selecione **Duplicar** ou **Excluir**.
-* na própria campanha, clique no link **Mais** e selecione **Duplicar** ou **Excluir**.
+* na lista de campanhas, clique no botão de reticências e clique em **Duplicar** ou **Excluir**.
+* na própria campanha, clique no botão **Mais** e selecione **Duplicar** ou **Excluir**.
 
 >[!NOTE]
 >
->A variável **Entregas** exibe todos os deliveries vinculados à campanha. No entanto, os deliveries criados em um workflow não podem ser excluídos dali. Para excluir um delivery criado no contexto de um workflow, você deve excluir a atividade de delivery do workflow. [Saiba mais](../msg/gs-messages.md#delivery-delete).
+>A guia **Envíos** exibe todas as envíos vinculadas à campanha. No entanto, as entregas criadas em um fluxo de trabalho não podem ser excluídas dali. Para excluir uma entrega criada no contexto de um workflow, será necessário excluir a atividade de entrega do workflow. [Saiba mais](../msg/gs-messages.md#delivery-delete).
