@@ -5,9 +5,9 @@ description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Se você precisar acessar os recursos do Campaign v8 que não estão disponívei
 
 Para se conectar ao Adobe Campaign Web, siga estas etapas:
 
-1. Navegue até [Adobe Experience Cloud](https://experience.adobe.com/pt_BR){target="_blank"}.
+1. Navegue até [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Faça logon com as credenciais da Adobe.
 1. Na seção **Acesso rápido**, clique em **Campaign**.
 
