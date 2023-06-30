@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Introdução aos públicos
+title: Introdução aos públicos-alvo
 description: Saiba como usar públicos na interface do Campaign Web
 badge: label="Alpha"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Introdução aos públicos {#about-audiences}
+# Introdução aos públicos-alvo {#about-audiences}
 
 <!--
 Audience only created for the delivery, not available later-->
