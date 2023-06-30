@@ -6,12 +6,12 @@ badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Procurar, pesquisar e filtrar listas {#list-screens}
+# Listas de busca, pesquisa e filtro {#list-screens}
 
 A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. É possível personalizar a exibição das listas e filtrá-las, conforme especificado abaixo.
 
@@ -79,7 +79,7 @@ Use o botão **Exibir atributos avançados** para ver todos os atributos da list
 
 Por padrão, somente os atributos mais comuns são exibidos nas telas de configuração de filtro e lista de atributos. Os atributos que foram definidos como atributos `advanced` no esquema de dados, estão ocultos nas telas de configuração.
 
-Ativar o **Exibir atributos avançados** alternar para ver todos os atributos disponíveis para a lista atual: a lista de atributos é atualizada instantaneamente.
+Ative a opção **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual: a lista de atributos será atualizada instantaneamente.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
