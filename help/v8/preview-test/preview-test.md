@@ -7,18 +7,18 @@ badge: label="Alpha"
 source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 20%
+ht-degree: 25%
 
 ---
 
-# Sobre a visualização e o teste {#about-preview-test}
+# Sobre visualização e teste {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Visualizar e testar suas mensagens"
 >abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Pré-visualizar o conteúdo da mensagem"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Enviar deliveries de teste"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Visualizar o conteúdo da mensagem"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Enviar entregas de teste"
 
 Depois que o conteúdo do delivery for definido, você poderá usar perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem.
 
