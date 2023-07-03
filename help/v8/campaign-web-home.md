@@ -5,7 +5,7 @@ title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Nosso ambiente gráfico abrangente que permite criar processos complexos que pod
 
 **Conheça o Designer de email**
 
-Comece a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, visualizá-lo e testá-lo, além de enviar um email para um público-alvo já existente no caso de uso completo.
+Comece a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, visualizá-lo e testá-lo. Você ainda pode enviar um email para um público-alvo já existente no caso de uso completo.
 
 **Tornar seu conteúdo dinâmico**
 

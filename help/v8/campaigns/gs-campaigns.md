@@ -5,7 +5,7 @@ description: Saiba como começar com as campanhas entre canais
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Design e envie de campanhas entre canais"
->abstract="Os recursos do Adobe Campaign ajudam você a gerenciar dados centralizados do cliente, projetar comunicações e campanhas do cliente e criar experiências personalizadas em diferentes canais: email, push e SMS."
+>title="Design e envio de campanhas entre canais"
+>abstract="Os recursos do Adobe Campaign ajudam você a gerenciar dados centralizados do cliente, criar comunicações e campanhas para clientes e criar experiências personalizadas em diferentes canais: email, push e SMS."
 
 O Adobe Campaign permite orquestrar facilmente suas iniciativas de marketing direcionadas, usando o recurso integrado de gerenciamento de campanhas. Com a capacidade de definir um cronograma, é possível planejar a duração e o tempo de suas campanhas para se alinharem aos objetivos estratégicos e maximizar o engajamento do público-alvo.
 
