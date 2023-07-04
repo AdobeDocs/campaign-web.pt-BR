@@ -4,10 +4,10 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 22%
+source-wordcount: '299'
+ht-degree: 25%
 
 ---
 
@@ -28,10 +28,15 @@ Para criar uma nova campanha, você precisa definir suas propriedades, agendar e
 
 ## Criar a campanha{#campaign-create}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Programação de campanha"
+>abstract="Defina o agendamento da campanha durante a criação da campanha."
+
 Para criar uma nova campanha, siga estas etapas:
 
 1. Clique em **[!UICONTROL Campanhas]** e clique no botão **[!UICONTROL Criar campanha]** botão.
-1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. Os templates de campanha são pré-configurados para que possam ser reutilizados para criar novas campanhas. Eles são criados no console do cliente.
+1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. Os templates de campanha são pré-configurados para que possam ser reutilizados para criar novas campanhas. Eles são criados no console cliente.
    [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR).
 1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
 1. Defina o **Agendar** da sua campanha. A campanha começa quando a data de início é atingida. As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
@@ -59,7 +64,7 @@ Também é possível exibir os relatórios dedicados clicando no link **Relatór
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
