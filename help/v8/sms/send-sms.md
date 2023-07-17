@@ -2,15 +2,20 @@
 audience: end-user
 title: Enviar uma entrega de SMS
 description: Saiba como enviar SMS com o Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+badge: label="Alfa"
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '400'
 ht-degree: 10%
 
 ---
 
 # Visualizar e enviar uma entrega de SMS {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="Nova métrica de quarentenas"
+>abstract="Número total de endereços colocados em quarentena após um delivery com falha (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues."
 
 ## Pré-visualizar seu delivery de SMS{#preview-sms}
 
