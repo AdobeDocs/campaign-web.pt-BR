@@ -3,11 +3,11 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
+badge: label="Alfa"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 48%
+source-wordcount: '871'
+ht-degree: 47%
 
 ---
 
@@ -128,6 +128,16 @@ Se o delivery estiver agendado ou não, duas ações podem ser executadas a qual
 ![](assets/email-send-pause-or-stop.png)
 
 ## Verifique os KPIs {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Métricas enviadas"
+>abstract="Número total de mensagens processadas durante a análise de delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Métricas de erros"
+>abstract="Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas."
 
 Quando o envio estiver concluído, você poderá verificar os KPIs exibidos:
 
