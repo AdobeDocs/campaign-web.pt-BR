@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Usar a atividade de workflow Aguardar
-description: Saiba como usar a atividade de workflow Aguardar
+title: Usar a atividade de fluxo de trabalho Aguardar
+description: Saiba como usar a atividade de fluxo de trabalho Aguardar
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 
 # Aguardar {#wait}
 
-A variável **Aguardar** a atividade é um **Controle de fluxo** atividade. É usado para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de delivery de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de uma público-alvo etc.).
+A atividade **Aguardar** é uma atividade de **Controle de fluxo**. Ela é usada para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de entrega de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de público-alvo, etc.).
 
 ## Configuração
 
-Siga estas etapas para configurar o **Aguardar** atividade:
+Siga estas etapas para configurar a atividade **Aguardar**:
 
-1. Adicionar um **Aguardar** atividade no seu workflow.
+1. Adicione uma atividade **Aguardar** ao seu fluxo de trabalho.
 
 1. Especifique a **Duração** da espera entre as transições de entrada e saída.
 
-1. Selecione a unidade de tempo na variável **Períodos** campo: segundos, minutos, horas.
+1. Selecione a unidade de tempo no campo **Períodos**: segundos, minutos, horas.
 
 ## Exemplo
 
-O exemplo a seguir ilustra a **Aguardar** em um caso de uso típico. Um convite é enviado por email para um evento. 24 horas após o envio, um delivery de SMS é enviado para a mesma população.
+O exemplo a seguir ilustra a atividade **Aguardar** em um caso de uso comum. Um convite é enviado por email para um evento. 24 horas após o envio, é feita uma entrega de SMS para a mesma população.
 
 ![](../assets/workflow-wait-example.png)
