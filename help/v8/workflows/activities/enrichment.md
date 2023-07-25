@@ -11,11 +11,11 @@ ht-degree: 100%
 ---
 
 
-# Enriquecimento {#enrichment}
+# Atividade de  {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
->title="Atividade de  enriquecimento"
+>title="Atividade de enriquecimento"
 >abstract="A atividade Enriquecimento permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de direcionamento.<br/>Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade de Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ser relevante para seu público-alvo."
 
 A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ela permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação.
