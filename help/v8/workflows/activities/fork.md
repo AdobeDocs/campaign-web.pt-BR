@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Bifurcação
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Siga estas etapas para configurar a atividade de **Bifurcação**:
 
 ## Exemplo
 
-No exemplo a seguir, estamos usando duas atividades de **Bifurcação**:
+No exemplo a seguir, estamos usando dois **Bifurcar** atividades:
 
 * Uma antes das duas consultas, para executá-las ao mesmo tempo.
 * Uma após a interseção, para enviar um email e um SMS simultaneamente à população direcionada.
