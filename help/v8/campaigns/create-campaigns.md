@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -31,7 +31,7 @@ Para criar uma nova campanha, você precisa definir suas propriedades, agendar e
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Programação de campanha"
->abstract="Defina o agendamento da campanha durante a criação da campanha."
+>abstract="Defina a programação da campanha durante sua criação."
 
 Para criar uma nova campanha, siga estas etapas:
 

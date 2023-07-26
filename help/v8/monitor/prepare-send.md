@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 47%
+ht-degree: 50%
 
 ---
 
@@ -137,7 +137,7 @@ Se o delivery estiver agendado ou não, duas ações podem ser executadas a qual
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Métricas de erros"
->abstract="Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas."
+>abstract="Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas."
 
 Quando o envio estiver concluído, você poderá verificar os KPIs exibidos:
 

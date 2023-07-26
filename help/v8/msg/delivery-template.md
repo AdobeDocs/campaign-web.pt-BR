@@ -9,7 +9,7 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -32,9 +32,9 @@ Um modelo pode incluir:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Trabalho com modelos de entrega"
->abstract="Use modelos de delivery para criar e salvar facilmente seus deliveries existentes para uso futuro."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicação de um modelo já existente"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Conversão de um delivery em um template"
+>abstract="Use modelos de entrega para criar e salvar facilmente suas entregas existentes para uso futuro."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR#copy-an-existing-template" text="Duplicação de um modelo já existente"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR#convert-an-existing-delivery" text="Conversão de uma entrega em um modelo"
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Campaign Management]** > **[!UICONTROL Entregas]** no menu esquerdo e navegue até a janela **Modelos** guia.
 
@@ -99,7 +99,7 @@ Para duplicar um modelo de entrega, siga as etapas abaixo:
 
 O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar uma nova entrega.
 
-### Conversão de um delivery em um template {#convert-an-existing-delivery}
+### Conversão de uma entrega em um modelo {#convert-an-existing-delivery}
 
 Qualquer entrega pode ser convertida em um modelo para ações futuras de entrega repetida.
 

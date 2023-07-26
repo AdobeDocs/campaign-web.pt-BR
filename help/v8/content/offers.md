@@ -3,11 +3,11 @@ audience: end-user
 title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 47%
+source-wordcount: '639'
+ht-degree: 48%
 
 ---
 
@@ -30,7 +30,7 @@ As etapas para enviar ofertas com um delivery são as seguintes:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Oferece configurações avançadas"
+>title="Configurações avançadas de ofertas"
 >abstract="Configurar as opções avançadas em ofertas."
 
 1. Para selecionar as ofertas a serem propostas no delivery, clique no link **[!UICONTROL Configurar ofertas]** na tela de edição de conteúdo de delivery.

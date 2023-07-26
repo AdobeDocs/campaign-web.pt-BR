@@ -284,8 +284,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
->title="Transição de saída para salvar público"
->abstract="tbc"
+>title="Transição de saída para salvar o público-alvo"
+>abstract="a confirmar"
 
 
 <!-- delivery template settings-->

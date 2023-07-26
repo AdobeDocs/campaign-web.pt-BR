@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1328'
 ht-degree: 89%
 
 ---

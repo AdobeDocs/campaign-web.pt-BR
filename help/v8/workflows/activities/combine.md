@@ -67,7 +67,7 @@ Para a **Interseção**, é necessário seguir estas etapas adicionais:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
 >title="Regras de  exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido à mesma dimensão de direcionamento como o público-alvo principal. Para fazer isso, clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido à mesma dimensão de direcionamento como público-alvo principal. Para fazer isso, clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
 
 Para a **Exclusão**, é necessário seguir estas etapas adicionais:
 

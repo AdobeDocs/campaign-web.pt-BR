@@ -3,11 +3,11 @@ audience: end-user
 title: Criar emails usando o Designer de email
 description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 61%
+source-wordcount: '583'
+ht-degree: 76%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Adicionar estruturas"
->abstract="As estruturas definem o layout do email. Arraste e solte um componente de **Estrutura** na tela para iniciar a criação do conteúdo de email."
+>abstract="As estruturas definem o layout do email. Arraste e solte um componente **Estrutura** na tela para iniciar a criação do conteúdo de email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Adicionar estruturas"
->abstract="As estruturas definem o layout da landing page. Arraste e solte uma **Estrutura** componente na tela para começar a projetar a página de aterrissagem."
+>abstract="As estruturas definem o layout da página de destino. Arraste e solte um componente **Estrutura** na tela para iniciar a criação da página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Adicionar estruturas"
->abstract="As estruturas definem o layout do fragmento. Arraste e solte uma **Estrutura** componente na tela para começar a projetar o conteúdo do fragmento."
+>abstract="As estruturas definem o layout do fragmento. Arraste e solte um componente **Estrutura** na tela para iniciar a criação do conteúdo do fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="Adicionar estruturas"
->abstract="As estruturas definem o layout do modelo. Arraste e solte uma **Estrutura** componente na tela para começar a projetar o conteúdo do modelo."
+>abstract="As estruturas definem o layout do modelo. Arraste e solte um componente **Estrutura** na tela para iniciar a criação do conteúdo do modelo."
 
 
 >[!CONTEXTUALHELP]

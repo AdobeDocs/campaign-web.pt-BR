@@ -3,11 +3,11 @@ audience: end-user
 title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 40%
+source-wordcount: '756'
+ht-degree: 43%
 
 ---
 
@@ -104,7 +104,7 @@ Para obter mais informações sobre logs de entrega, consulte esta [seção](../
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="População extra"
->abstract="Você pode excluir uma população específica do público-alvo do delivery selecionando um público-alvo existente ou definindo um query."
+>abstract="Você pode excluir uma população específica do público-alvo da entrega selecionando um público-alvo já existente ou definindo uma consulta."
 
 Outra maneira de definir um grupo de controle é selecionar uma população específica em um público-alvo existente ou definir um query.
 

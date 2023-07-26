@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 72%
+ht-degree: 74%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Logs de entrega"
->abstract="Os logs do delivery mostram os detalhes do envio. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques."
+>abstract="Os logs de entrega mostram os detalhes do envio. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques."
 
 Depois que o delivery estiver preparado e você clicar em **Enviar** e navegue até os logs do delivery para verificar os dados de avisos, erros, status, exclusões e rastreamento. Esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques.
 

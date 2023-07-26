@@ -2,16 +2,16 @@
 audience: end-user
 title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 64%
+source-wordcount: '325'
+ht-degree: 66%
 
 ---
 
-# Carregar um público-alvo de email de um arquivo {#audience-from-file}
+# Carregar um público-alvo de email a partir de um arquivo {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"

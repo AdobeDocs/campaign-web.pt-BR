@@ -3,11 +3,11 @@ audience: end-user
 title: Usar componentes de conteúdo do Designer de email
 description: Saiba como usar componentes de conteúdo em seus emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 69%
+source-wordcount: '1105'
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="Sobre conteúdos"
->abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar o layout de um email."
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
@@ -26,7 +26,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="Sobre conteúdos"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um fragmento."
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

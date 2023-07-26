@@ -6,7 +6,7 @@ badge: label="Alfa"
 source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nova métrica de quarentenas"
->abstract="Número total de endereços colocados em quarentena após um delivery com falha (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues."
+>abstract="Número total de endereços colocados em quarentena após falha em uma entrega (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues."
 
 ## Pré-visualizar seu delivery de SMS{#preview-sms}
 
