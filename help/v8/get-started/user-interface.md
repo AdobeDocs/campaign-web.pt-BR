@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 23104c91c01575ad393ef3702819ad2dc6a5fe23
+source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1541'
 ht-degree: 97%
 
 ---
@@ -286,6 +286,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_saveaudience_outbound"
 >title="Transição de saída para salvar o público-alvo"
 >abstract="a confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_activity"
+>title="Salvar um público"
+>abstract="Use esta atividade para salvar o público-alvo do fluxo de trabalho."
 
 
 <!-- delivery template settings-->
