@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Alfa"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c977f8e3567a478fa46dc8914c329ca4e8dd3274
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '953'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,13 @@ ht-degree: 9%
 >id="acw_homepage_card3"
 >title="Criação de conteúdo condicional"
 >abstract="Crie conteúdo condicional para definir uma personalização dinâmica com base no perfil do destinatário, substituindo automaticamente blocos de texto e imagens quando determinadas condições forem atendidas. Esse recurso pode elevar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditional_content"
+>title="Adicionar conteúdo condicional"
+>abstract="Configure campos de conteúdo condicional para criar personalização dinâmica avançada com base nos dados de perfil do recipient. Blocos de texto, links, linha de assunto e/ou imagens são substituídos no conteúdo da mensagem quando uma determinada condição é atendida."
 
 O conteúdo condicional é um recurso poderoso que permite criar personalização dinâmica com base no perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições são atendidas. Esse recurso pode elevar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo.
 
