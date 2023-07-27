@@ -2,11 +2,11 @@
 audience: end-user
 title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Alfa"
+source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 19%
+source-wordcount: '1285'
+ht-degree: 22%
 
 ---
 
@@ -22,7 +22,19 @@ ht-degree: 19%
 >title="Conteúdo de push para iOS"
 >abstract="Defina o conteúdo de push para iOS."
 
-## Mensagem {#push-message}
+## Definir o conteúdo da notificação {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="Mensagem por push do iOS"
+>abstract="Defina o título e o conteúdo da mensagem de push do iOS. Use a caixa de diálogo de personalização para personalizar o conteúdo e adicionar condições."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="Notificação silenciosa para o iOS"
+>abstract="O modo Push silencioso permite que uma notificação &quot;silenciosa&quot; seja enviada a um aplicativo móvel. O usuário não está ciente da chegada da notificação. Ele é transferido diretamente para o aplicativo."
+
+
 
 >[!BEGINTABS]
 
@@ -30,9 +42,10 @@ ht-degree: 19%
 
 Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagens:
 
-* A variável **[!UICONTROL Mensagem de dados]e** é manipulada pelo aplicativo do cliente. Essas mensagens são enviadas diretamente para o aplicativo móvel, que gera e exibe uma notificação do Android no dispositivo. As mensagens de dados contêm somente as variáveis personalizadas do aplicativo.
+* A variável **[!UICONTROL Mensagem de dados]** é manipulada pelo aplicativo do cliente. Essas mensagens são enviadas diretamente para o aplicativo móvel, que gera e exibe uma notificação do Android no dispositivo. As mensagens de dados contêm somente as variáveis personalizadas do aplicativo.
 
-  Para definir o conteúdo, personalizar dados e adicionar conteúdo dinâmico, clique no link **[!UICONTROL Mensagem]** e use o Editor de expressão. Você pode acessar esse editor para personalizar suas mensagens na **[!UICONTROL Variáveis do aplicativo]** , suas Variáveis de aplicativo são adicionadas automaticamente. Essas variáveis permitem definir o comportamento da notificação. Por exemplo, você pode configurar uma tela de aplicativo específica para ser exibida quando o usuário ativar a notificação.
+  Para definir o conteúdo, personalizar dados e adicionar conteúdo dinâmico, clique no link **[!UICONTROL Mensagem]** e use o Editor de expressão. Você pode acessar esse editor para personalizar suas mensagens.
+No **[!UICONTROL Variáveis do aplicativo]** , suas Variáveis de aplicativo são adicionadas automaticamente. Essas variáveis permitem definir o comportamento da notificação. Por exemplo, você pode configurar uma tela de aplicativo específica para ser exibida quando o usuário ativar a notificação.
 
   ![](assets/push_content_4.png)
 
@@ -56,7 +69,37 @@ O modo Push silencioso permite que uma notificação &quot;silenciosa&quot; seja
 
 >[!ENDTABS]
 
-## Configurações avançadas {#push-advanced}
+## Configurações avançadas de notificação por push {#push-advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="Modo de alerta crítico do iOS"
+>abstract="Ative essa opção para adicionar som à sua notificação, mesmo quando o telefone do usuário estiver configurado para o modo de foco ou se o dispositivo estiver sem áudio. Isso garante que os usuários sejam notificados de alertas importantes em qualquer caso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="Número de medalha do iOS"
+>abstract="Use esta opção para definir o número de novas informações não lidas a serem exibidas diretamente no ícone do aplicativo. Isso permite que o usuário veja rapidamente o número de notificações pendentes."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="Conteúdo mutável para o iOS"
+>abstract="Use essa opção para permitir que o aplicativo móvel baixe conteúdo de mídia associado à notificação."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="Pontuação de relevância para o iOS"
+>abstract="Defina uma pontuação de relevância de 0 a 100 para priorizar a ordem das notificações no resumo de notificação. Pontuações mais altas indicam notificações mais importantes."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="Variáveis de aplicativo do iOS"
+>abstract="Use variáveis de aplicativo para definir o comportamento de notificação. Essas variáveis são totalmente personalizáveis e incluídas como parte da carga da mensagem enviada ao dispositivo móvel."
+
+
 
 >[!BEGINTABS]
 
@@ -82,7 +125,7 @@ O modo Push silencioso permite que uma notificação &quot;silenciosa&quot; seja
 
 | Parâmetro | Descrição |
 |---------|---------|
-| **[!UICONTROL Modo de alerta crítico]** | Ative essa opção para adicionar som à sua notificação, mesmo quando o telefone do usuário estiver configurado para o modo de foco ou se o iPhone estiver sem áudio. Isso garante que alertas importantes sejam notados pelo usuário. |
+| **[!UICONTROL Modo de alerta crítico]** | Ative essa opção para adicionar som à sua notificação, mesmo quando o telefone do usuário estiver configurado para o modo de foco ou se o dispositivo estiver sem áudio. Isso garante que alertas importantes sejam notados pelo usuário. |
 | **[!UICONTROL Limpar selo]** | Ative essa opção para atualizar o valor do selo exibido no ícone do aplicativo. Isso garante que o selo reflita com precisão o número de novas informações não lidas. |
 | **[!UICONTROL Contagem de notificações]** | Defina um número que será exibido diretamente no ícone do aplicativo, indicando o número de novas informações não lidas. Isso fornece uma referência visual rápida para o usuário. |
 | **[!UICONTROL Volume]** | Volume do som, de 0 a 100. |
