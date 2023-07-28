@@ -3,14 +3,14 @@ audience: end-user
 title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
+source-git-commit: c6cbb60086d159103a7a28f10eb2874a6dd20a9c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1347'
 ht-degree: 21%
 
 ---
 
-# Criar uma entrega por push {#content-push}
+# Criar um delivery de mensagens por push {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -106,6 +106,11 @@ O modo Push silencioso permite que uma notificação &quot;silenciosa&quot; seja
 >title="Variáveis de aplicativo do iOS"
 >abstract="Use variáveis de aplicativo para definir o comportamento de notificação. Essas variáveis são totalmente personalizáveis e incluídas como parte da carga da mensagem enviada ao dispositivo móvel."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="ID de categoria para o iOS"
+>abstract="Especifique o nome da ID de categoria associada à notificação. Isso permite a exibição de botões de ação, permitindo que o usuário execute várias tarefas diretamente da notificação, sem abrir o aplicativo."
 
 
 >[!BEGINTABS]
