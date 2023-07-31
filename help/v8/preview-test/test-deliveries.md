@@ -4,9 +4,9 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '1000'
 ht-degree: 4%
 
 ---
@@ -26,14 +26,10 @@ Os recipients de um teste podem verificar vários elementos, como links, links p
 
 ## Selecione os recipients de teste {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="População de teste"
 >abstract="Selecione um modo de população de teste."
-
-
 
 De acordo com o canal que você está usando, as mensagens de teste podem ser enviadas para três tipos de recipients:
 
@@ -53,6 +49,15 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 
 ### Perfis de teste {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Público alvo da prova"
+>abstract="É possível carregar um segundo arquivo como &quot;target da prova&quot; se desejar testar o delivery antes de enviar para o target principal."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Fazer upload de perfis"
+>abstract="Você pode fazer upload de um segundo arquivo com perfis adicionais se quiser testar seu delivery com um conjunto diferente do conjunto usado para o target principal."
 
 1. Navegue até a tela de edição de conteúdo do seu delivery de email ou SMS e clique no link **[!UICONTROL Simular conteúdo]** botão.
 
