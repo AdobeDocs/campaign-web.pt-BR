@@ -2,16 +2,16 @@
 audience: end-user
 title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 91%
+source-wordcount: '179'
+ht-degree: 94%
 
 ---
 
-# Criar um delivery de SMS {#design-sms}
+# Criar uma entrega de SMS {#design-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"

@@ -2,16 +2,16 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 6%
+source-wordcount: '519'
+ht-degree: 7%
 
 ---
 
-# Iniciar e monitorar o fluxo de trabalho {#start-monitor}
+# Iniciar e monitorar o workflow {#start-monitor}
 
 Depois de criar o fluxo de trabalho e projetar as tarefas a serem executadas na tela, é possível iniciá-lo e monitorar como ele está sendo executado.
 
@@ -55,7 +55,7 @@ Dois tipos de informações estão disponíveis:
 
 Em ambas as guias, você pode escolher as colunas exibidas e sua ordem, aplicar filtros e usar o campo de pesquisa para localizar rapidamente as informações desejadas.
 
-## Comandos de execução do workflow {#execution-commands}
+## Comandos de execução de workflow {#execution-commands}
 
 A barra de ação no canto superior direito fornece comandos que permitem gerenciar a execução do workflow. Você pode:
 

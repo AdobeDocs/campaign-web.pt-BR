@@ -3,11 +3,11 @@ audience: end-user
 title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 92%
+source-wordcount: '1474'
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Saiba mais sobre regras de consistência e capacidade e como configurá-las em [
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8.
 
-Saiba mais sobre target mappings em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre os target mappings na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
 ## Entrega {#delivery}
 

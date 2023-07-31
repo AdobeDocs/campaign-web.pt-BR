@@ -5,10 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 63%
 
 ---

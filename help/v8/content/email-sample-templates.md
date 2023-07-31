@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: Trabalho com modelos de email
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 8%
+source-wordcount: '119'
+ht-degree: 9%
 
 ---
 

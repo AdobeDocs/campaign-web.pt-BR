@@ -2,10 +2,10 @@
 audience: end-user
 title: Listas de busca, pesquisa e filtro
 description: Saiba como procurar e filtrar listas no Campaign Web v8
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---

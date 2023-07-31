@@ -3,11 +3,11 @@ audience: end-user
 title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 96%
+source-wordcount: '546'
+ht-degree: 97%
 
 ---
 

@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de workflow de SMS
 description: Saiba como usar a atividade de workflow de SMS
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---

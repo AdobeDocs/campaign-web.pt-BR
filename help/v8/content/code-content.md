@@ -3,11 +3,11 @@ audience: end-user
 title: Desenvolva seu próprio conteúdo de email
 description: Saiba como desenvolver seu próprio conteúdo de email
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 60%
+source-wordcount: '108'
+ht-degree: 62%
 
 ---
 

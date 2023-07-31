@@ -2,17 +2,17 @@
 audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 38%
+source-wordcount: '1406'
+ht-degree: 40%
 
 ---
 
-# Relatório de entrega de email {#email-report}
+# Relatório de entrega de emails {#email-report}
 
-A variável **Relatório de entrega de email** O oferece insights e dados abrangentes específicos para o canal de email. Ele fornece informações detalhadas sobre o desempenho, a eficácia e os resultados de seus deliveries individuais, fornecendo uma visão geral abrangente.
+A variável **Relatório de entrega de email** O oferece insights e dados abrangentes específicos para o canal de email. Ele fornece informações detalhadas sobre o desempenho, a eficácia e os resultados de suas entregas individuais, fornecendo uma visão geral abrangente.
 
 ## Resumo da entrega {#delivery-summary-email}
 

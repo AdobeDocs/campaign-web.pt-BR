@@ -2,11 +2,11 @@
 audience: end-user
 title: Introdução às entregas de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '157'
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---

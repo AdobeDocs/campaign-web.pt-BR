@@ -2,10 +2,10 @@
 audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1752'
 ht-degree: 27%
 
 ---

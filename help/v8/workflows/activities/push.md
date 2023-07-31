@@ -2,11 +2,11 @@
 audience: end-user
 title: Usar a atividade de workflow de notificação por push
 description: Saiba como usar a atividade de workflow de notificação por push
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: '323'
+ht-degree: 5%
 
 ---
 

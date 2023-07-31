@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de fluxo de trabalho AND-join
 description: Saiba como usar a atividade de fluxo de trabalho AND-join
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '187'
+workflow-type: tm+mt
+source-wordcount: '186'
 ht-degree: 100%
 
 ---

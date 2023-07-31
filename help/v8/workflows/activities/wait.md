@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de fluxo de trabalho Aguardar
 description: Saiba como usar a atividade de fluxo de trabalho Aguardar
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '147'
+workflow-type: tm+mt
+source-wordcount: '146'
 ht-degree: 100%
 
 ---

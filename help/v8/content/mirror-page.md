@@ -2,12 +2,12 @@
 audience: end-user
 title: Adicionar um link para a mirror page
 description: Saiba como adicionar e gerenciar o link para a mirror page
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 99%
+source-wordcount: '440'
+ht-degree: 100%
 
 ---
 

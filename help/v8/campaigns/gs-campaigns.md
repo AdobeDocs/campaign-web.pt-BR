@@ -2,11 +2,11 @@
 audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 100%
 
 ---

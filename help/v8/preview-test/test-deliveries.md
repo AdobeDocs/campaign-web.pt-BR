@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Enviar deliveries de teste
+title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 4%
 
 ---
 
-# Enviar deliveries de teste {#send-test-deliveries}
+# Enviar entregas de teste {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"

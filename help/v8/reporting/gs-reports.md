@@ -2,10 +2,10 @@
 audience: end-user
 title: Introdução aos relatórios
 description: Saiba como acessar e gerenciar relatórios no Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '173'
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
