@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -106,9 +106,9 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Você pode navegar pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. Você pode filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura."
+>abstract="Você pode navegar pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e por datas iniciais/finais. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura."
 
-* **Ofertas**: navegue pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. Você pode filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
+* **Ofertas**: navegue pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e por datas iniciais/finais. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
 
 Saiba como criar e gerenciar ofertas na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
