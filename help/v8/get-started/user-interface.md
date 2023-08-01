@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
+source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 93%
+source-wordcount: '1667'
+ht-degree: 91%
 
 ---
 
@@ -288,6 +288,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Este delivery é somente leitura"
 >abstract="Você não tem permissão para editar esta entrega. Se necessário, entre em contato com o administrador para conceder acesso."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Este serviço é somente leitura"
+>abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com o administrador para conceder acesso."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -310,6 +315,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="Este fluxo de trabalho é somente leitura"
 >abstract="Você não tem permissões para editar este fluxo de trabalho. Se necessário, entre em contato com o administrador para conceder acesso."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Este fluxo de trabalho é somente leitura"
+>abstract="Não é possível editar esse fluxo de trabalho devido a uma tela sem suporte ou incompatível."
 
 <!-- delivery template settings-->
 
