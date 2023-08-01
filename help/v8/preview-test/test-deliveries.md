@@ -4,10 +4,10 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,11 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 >id="acw_deliveries_simulate_test_upload"
 >title="Fazer upload de perfis"
 >abstract="Você pode fazer upload de um segundo arquivo com perfis adicionais se quiser testar seu delivery com um conjunto diferente do conjunto usado para o target principal."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="Arquivo de modelo"
+>abstract="A formatação do arquivo deve ser igual ao arquivo original.<br/>Formatos de arquivo compatíveis: txt, csv. Tamanho máximo do arquivo: 15 MB. Usar a primeira linha como cabeçalho da coluna."
 
 1. Navegue até a tela de edição de conteúdo do seu delivery de email ou SMS e clique no link **[!UICONTROL Simular conteúdo]** botão.
 
