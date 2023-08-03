@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -68,7 +68,7 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 
 * **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador de campanha que a criou. É possível filtrar a lista por status, datas de início/término, pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem. Saiba mais sobre campanhas [nesta seção](../campaigns/gs-campaigns.md).
 
-* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. Você pode filtrar a lista por status, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre entregas [nesta seção](../msg/gs-messages.md).
+* **Entregas**: navegue pela lista de entregas. Você pode visualizar o estado, a data da última modificação, bem como os principais KPIs. É possível filtrar a lista por status, data de contato ou canal. Clique em uma entrega de email para abrir o painel e obter uma visão geral dos detalhes da entrega. As entregas em outros canais são do tipo somente leitura. Saiba mais sobre entregas [nesta seção](../msg/gs-messages.md).
 
   Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
@@ -106,9 +106,9 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Você pode navegar pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e por datas iniciais/finais. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura."
+>abstract="Você pode navegar pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura."
 
-* **Ofertas**: navegue pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e por datas iniciais/finais. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
+* **Ofertas**: navegue pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
 
 Saiba como criar e gerenciar ofertas na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
@@ -307,7 +307,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_activity"
->title="Salvar um público"
+>title="Salvar um público-alvo"
 >abstract="Use esta atividade para salvar o público-alvo do fluxo de trabalho."
 
 

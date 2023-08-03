@@ -6,7 +6,7 @@ badge: label="Alfa"
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Atividade de   Bifurcação"
+>title="Bifurcação Bifurcação"
 >abstract="A atividade Bifurcação permite criar transições de saída para iniciar várias atividades ao mesmo tempo."
 
 ## Configuração
@@ -28,7 +28,7 @@ Siga estas etapas para configurar a atividade de **Bifurcação**:
 
 ## Exemplo
 
-No exemplo a seguir, estamos usando dois **Bifurcar** atividades:
+No exemplo a seguir, estaremos usando duas atividades de **Bifurcação**:
 
 * Uma antes das duas consultas, para executá-las ao mesmo tempo.
 * Uma após a interseção, para enviar um email e um SMS simultaneamente à população direcionada.
