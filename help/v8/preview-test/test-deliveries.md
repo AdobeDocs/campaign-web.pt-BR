@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -51,13 +51,13 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="Público alvo da prova"
->abstract="É possível carregar um segundo arquivo como &quot;target da prova&quot; se desejar testar o delivery antes de enviar para o target principal."
+>title="Público-alvo da prova"
+>abstract="É possível fazer upload de um segundo arquivo como “público-alvo de prova” se desejar testar a entrega antes de enviar para o público-alvo principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
 >title="Fazer upload de perfis"
->abstract="Você pode fazer upload de um segundo arquivo com perfis adicionais se quiser testar seu delivery com um conjunto diferente do conjunto usado para o target principal."
+>abstract="É possível fazer upload de um segundo arquivo com perfis adicionais se quiser testar a entrega com um conjunto diferente do conjunto usado como o público-alvo principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"

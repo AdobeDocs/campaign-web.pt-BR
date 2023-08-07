@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 56%
+ht-degree: 85%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 56%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
->title="Usar um conteúdo de email existente"
->abstract="O Designer de email permite importar conteúdo de HTML existente. Esse conteúdo pode ser um arquivo HTML com uma folha de estilos incorporada ou uma pasta .zip com o arquivo HTML, a folha de estilos (.css) e as imagens."
+>title="Usar um conteúdo de email já existente"
+>abstract="O Designer de email permite importar conteúdo HTML já existente. Esse conteúdo pode ser um arquivo HTML com uma folha de estilos incorporada ou uma pasta .zip com o arquivo HTML, a folha de estilos (.css) e imagens."
 
-O Designer de email permite importar conteúdo de HTML existente. Esse conteúdo pode ser:
+O Designer de email permite importar conteúdo HTML já existente. Esse conteúdo pode ser:
 
 * Um **arquivo HTML** com uma folha de estilos incorporada.
 * Uma **pasta .zip** com o arquivo HTML, a folha de estilos (.css) e as imagens.
