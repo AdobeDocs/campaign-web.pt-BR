@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -280,17 +280,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
->title="Esta campanha é somente leitura"
+>title="Esta campanha é somente de leitura"
 >abstract="Você não tem permissões para editar esta campanha. Se necessário, entre em contato com o administrador para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
->title="Este delivery é somente leitura"
->abstract="Você não tem permissão para editar esta entrega. Se necessário, entre em contato com o administrador para obter acesso."
+>title="Esta entrega é somente de leitura"
+>abstract="Você não tem permissões para editar esta entrega. Se necessário, entre em contato com o administrador para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
->title="Este serviço é somente leitura"
+>title="Este serviço é somente de leitura"
 >abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com o administrador para obter acesso."
 
 <!-- Workflows-->
@@ -318,8 +318,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
->title="Este fluxo de trabalho é de somente leitura"
->abstract="Não é possível editar esse fluxo de trabalho devido a uma tela sem suporte ou incompatível."
+>title="Este fluxo de trabalho é somente de leitura"
+>abstract="Não é possível editar esse fluxo de trabalho devido a uma tela incompatível."
 
 <!-- delivery template settings-->
 
