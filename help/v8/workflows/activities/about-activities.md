@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Essas atividades são específicas para direcionar, manipular e enriquecer dados
 * A atividade [Criar público-alvo](build-audience.md) permite definir a população de público-alvo. Você pode selecionar um público-alvo existente ou usar o criador de regras para definir sua própria consulta.
 * A atividade [Combinar](combine.md) permite executar a segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
 * A atividade [Enriquecimento](enrichment.md) permite definir dados adicionais a serem processados no fluxo de trabalho. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
-* A variável [Split](split.md) A atividade permite segmentar a população recebida em vários subconjuntos.
+* A atividade de [Divisão](split.md) permite segmentar a população recebida em vários subconjuntos.
 
 ## Atividades do canal {#channel}
 

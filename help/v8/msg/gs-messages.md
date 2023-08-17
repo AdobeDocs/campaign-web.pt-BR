@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="Navegue pela lista de entregas. É possível visualizar seu status, principais KPIs e datas de contato e modificação. É possível filtrar a lista por status, por data de contato ou por canal. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione uma entrega para visualizar seu conteúdo, público-alvo e detalhes."
+>abstract="Navegue pela lista de entregas. É possível visualizar seu status, principais KPIs e datas de contato e modificação. É possível filtrar a lista por status, data de contato ou canal. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione uma entrega para visualizar seu conteúdo, público-alvo e detalhes."
 
 
 Com o Adobe Campaign, e possível enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
@@ -85,7 +85,7 @@ Para criar uma entrega independente, siga estas etapas:
 1. (opcional) Defina a programação da entrega. Se nenhuma programação for definida, as mensagens serão enviadas imediatamente após clicar no botão **[!UICONTROL Enviar]**.
 1. Clique no botão  **[!UICONTROL Revisar e enviar]** para verificar suas configurações.
 1. Use o botão **[!UICONTROL Simular conteúdo]** para testar a entrega e as configurações de personalização. Saiba mais simulação de mensagens [nesta seção](../preview-test/preview-test.md).
-1. Clique no botão **[!UICONTROL Preparar]** para calcular a população alvo e gerar as mensagens. A etapa de preparação pode levar alguns minutos. Quando a preparação estiver concluída, as mensagens estarão prontas para envio. Em caso de erro, navegue até os **Logs** para verificar os alertas e avisos.
+1. Clique no botão **[!UICONTROL Preparar]** para calcular o público-alvo e gerar as mensagens. A etapa de preparação pode levar alguns minutos. Quando a preparação estiver concluída, as mensagens estarão prontas para envio. Em caso de erro, navegue até os **Logs** para verificar os alertas e avisos.
 1. Verifique os resultados e clique no botão **[!UICONTROL Enviar]** para iniciar o envio das mensagens.
 1. Depois que as mensagens forem enviadas, navegue até a seção **Relatórios** para acessar as métricas principais. Saiba mais sobre relatórios de entrega [nesta seção](../reporting/delivery-reports.md).
 
@@ -133,7 +133,7 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 * Criação de **conteúdo condicional**
 
-  Configure o conteúdo condicional para adicionar personalização dinâmica com base no perfil do recipient, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. [Saiba mais](../personalization/conditions.md)
+  Configure o conteúdo condicional para adicionar personalização dinâmica com base no perfil do destinatário, por exemplo. Blocos de texto e/ou imagens são inseridos quando uma determinada condição for satisfeita. [Saiba mais](../personalization/conditions.md)
 
 * Adição de **ofertas personalizadas**
 

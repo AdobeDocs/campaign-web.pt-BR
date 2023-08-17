@@ -52,7 +52,7 @@ Para definir o conteúdo condicional para um delivery usando o editor de express
 
 1. No editor de personalização, navegue até o **[!UICONTROL Funções auxiliares]** à esquerda.
 
-1. Para começar a criar sua condição, clique no ícone &quot;+&quot; ao lado da variável **Se** função. A seguinte linha é adicionada à tela central:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+1. Para começar a criar sua condição, clique no ícone &quot;+&quot; ao lado da **Se** função. A seguinte linha é adicionada à tela central:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
    * Substituir `<FIELD>` com um campo de personalização, como o idioma do recipient: `recipient.language`.
    * Substituir `<VALUE>` com o valor a satisfazer. Por exemplo, `'French'`.
