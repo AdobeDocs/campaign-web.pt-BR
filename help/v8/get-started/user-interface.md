@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 78%
+source-wordcount: '2286'
+ht-degree: 77%
 
 ---
 
@@ -38,10 +38,12 @@ Esta tela inclui links e recursos importantes para um acesso rápido aos princip
 
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação.
 
+A variável **Indicadores-chave de desempenho** permite verificar a eficácia da plataforma por meio de KPIs comuns.
+
 Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
 
 
-#### Indicadores-chave de desempenho {#user-interface-key-indicators}
+### Indicadores-chave de desempenho {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ A variável **Cancelamentos de assinatura** O indicador mostra os seguintes KPIs
 >id="acw_keyindicators_errors"
 >title="Erros"
 >abstract="Número total de erros acumulados durante os deliveries e processamento automático de devolução. A taxa associada é a relação do número de mensagens a serem entregues."
+
+A variável **Erros** O indicador mostra os seguintes KPIs para cada canal:
 
 * Porcentagem do número de erros em comparação ao número total de mensagens a serem entregues.
 
