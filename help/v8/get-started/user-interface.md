@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 99%
+source-wordcount: '2263'
+ht-degree: 78%
 
 ---
 
@@ -39,6 +39,98 @@ Esta tela inclui links e recursos importantes para um acesso rápido aos princip
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação.
 
 Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
+
+
+#### Indicadores-chave de desempenho {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="KPI de spam"
+
+Navegue até a home page para verificar os indicadores-chave de desempenho da sua plataforma. Esses indicadores mostram o número e a porcentagem de mensagens entregues, abertas, clicadas, com cancelamento de subscrição e taxas de erro.
+
+As métricas são calculadas para deliveries enviados nos 7 dias anteriores por padrão. É possível alterar o período na lista suspensa na seção superior direita do cartão. As mensagens enviadas para perfis de teste são excluídas.
+
+Você pode selecionar o canal a ser exibido. Por padrão, esses indicadores refletem as métricas do canal de email.
+
+![](assets/kpi.png)
+
+#### Mensagem entregue {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Entregue"
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens processadas com êxito e a porcentagem de mensagens entregues com êxito em comparação ao número total de mensagens enviadas."
+
+
+A variável **Entregue** O indicador mostra os seguintes KPIs para cada canal:
+
+* Porcentagem do número de mensagens entregues com êxito em comparação ao número total de mensagens a serem enviadas.
+
+* Soma de todas as mensagens processadas com êxito.
+
+No Adobe Campaign, a regra para marcar uma mensagem como &quot;Entregue&quot; é:
+
+Contagem de mensagens para as quais o campo &quot;seed address&quot; é igual a &quot;Não&quot; e com um status igual a &quot;Considerado pelo provedor de serviços&quot; (para SMS) ou &quot;Enviado&quot; (para Emails) ou &quot;Recebido no celular&quot; (para notificações por push).
+
+
+#### Total de aberturas {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Aberturas"
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens abertas e a porcentagem de mensagens abertas em comparação ao número total de mensagens entregues com êxito."
+
+A variável **Aberturas** O indicador mostra os seguintes KPIs para cada canal:
+
+* Porcentagem do número de mensagens abertas em comparação ao número total de mensagens entregues com êxito.
+
+* Soma de todas as mensagens abertas por canal.
+
+O Adobe Campaign detecta a abertura da mensagem quando o recipient baixa as imagens no email. Os emails em HTML e Multipart/alternative incluem uma imagem de 0 pixel, que permite detectar mensagens que foram abertas. Como as mensagens em formato de texto não incluem imagens, é impossível detectar se foram abertas ou não. Os valores calculados com base na abertura de mensagem são sempre estimativas, devido à margem de erro vinculada à exibição de imagem.
+
+#### Taxas de cliques {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Cliques"
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os URLs clicados nas mensagens e a porcentagem de cliques em comparação ao número total de mensagens entregues com êxito."
+
+A variável **Cliques** O indicador mostra os seguintes KPIs para cada canal:
+
+* Porcentagem do número de cliques em comparação ao número total de mensagens entregues com êxito.
+
+* Número de pessoas distintas que clicaram pelo menos uma vez em um delivery. Os links de unsubscription e links para mirror page são excluídos.
+
+Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingStats`). Essa tabela de agregação é usada por motivos de desempenho ao exibir relatórios em vez da tabela Recipient tracking logs (`nms:trackingLogRcp`) e não é calculada em tempo real. A tabela é gerada alguns minutos após os logs de rastreamento serem recuperados.
+
+
+#### Taxas de cancelamento de subscrições {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Cancelamentos de assinatura"
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as cancelamentos de subscrições de um serviço e a porcentagem de cancelamentos de subscrições em comparação ao número total de mensagens entregues com êxito."
+
+A variável **Cancelamentos de assinatura** O indicador mostra os seguintes KPIs para cada canal:
+
+* Porcentagem do número de cancelamentos de assinatura em comparação ao número total de mensagens entregues com êxito.
+
+* Soma de todos os cliques em um link de cancelamento de subscrição, ou seja, com uma categoria de URL é igual a &quot;Opt out&quot;.
+
+
+#### Taxas de erro {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Erros"
+>abstract="Número total de erros acumulados durante os deliveries e processamento automático de devolução. A taxa associada é a relação do número de mensagens a serem entregues."
+
+* Porcentagem do número de erros em comparação ao número total de mensagens a serem entregues.
+
+* Número total de erros acumulados durante os deliveries e o processamento automático de reassociação.
+
 
 ### Explorer {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permissão necessária"
 >abstract="Seu administrador precisa lhe conceder permissão para que você possa criar um segmento."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Entregue"
->abstract="KPI Entregue"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Aberturas"
->abstract="Abre o KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Cliques"
->abstract="KPI de Cliques"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Cancelamentos de assinatura"
->abstract="KPI de cancelamentos de assinatura"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="KPI de spam"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Erros"
->abstract="KPI de erros"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
