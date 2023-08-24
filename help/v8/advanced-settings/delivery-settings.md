@@ -4,10 +4,10 @@ title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alfa"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 93%
+source-wordcount: '1392'
+ht-degree: 88%
 
 ---
 
@@ -37,12 +37,12 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 
 
 ### Parâmetros de pressão {#pressure-parameters}
-
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="Peso da entrega"
->abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
-
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+-->
 Nesta seção, os parâmetros de pressão permitem definir um **limite**. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um dado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
@@ -67,9 +67,9 @@ O gerenciamento de fadiga vem com o complemento **Otimização de campanha**. Sa
 ### Configurações de capacidade {#capacity-settings}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_recipient_importance"
->title="Importância do recipient"
->abstract="A importância do recipient é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas."
+>id="acw_email_settings_capacity_settings"
+>title="Configurações de capacidade"
+>abstract="Selecione uma regra de capacidade definida no Console do Adobe Campaign v8. Essa regra está associada ao canal de email."
 
 Nesta seção, você pode selecionar uma regra de capacidade definida no Console do Adobe Campaign v8. Essa regra está associada ao canal de email.
 
@@ -84,7 +84,12 @@ Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre a
 
 Saiba mais sobre os target mappings na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
-## Entrega {#delivery}
+## Delivery {#delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_delivery"
+>title="Delivery configurações"
+>abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega."
 
 Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega.
 
@@ -98,21 +103,18 @@ Os parâmetros de entrega são configurações técnicas que se aplicam à sua e
 
 ### Tentativas {#retries}
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_retries"
->title="Número máximo de tentativas"
->abstract="Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas até o fim da duração da entrega."
-
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
 Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
 ## Aprovação {#approval}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprovação"
->abstract="Cada etapa de uma entrega pode estar sujeita à aprovação para garantir o monitoramento e o controle totais dos vários processos."
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+-->
 
 Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada. Por padrão, o usuário deverá confirmar o envio de mensagens no final da fase de análise: essa é a validação **manual**.
 
@@ -128,15 +130,16 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 ## Validade {#validity}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_duration"
->title="Duração da entrega"
->abstract="O campo Duração da entrega permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido."
+>id="acw_email_settings_validity"
+>title="Validade das configurações"
+>abstract="O campo Delivery duration permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido. O campo Validity limit é usado para recursos carregados, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="Limite da validade de recursos"
->abstract="O campo Limite da validade é usado para recursos carregados, principalmente para a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
-
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
+-->
 
 O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
 
@@ -163,10 +166,12 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 
 ### Rastreamento {#tracking}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="Período de validade"
->abstract="Essa opção define a duração do rastreamento ativado nos URLs."
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
+-->
 
 Os parâmetros de rastreamento são definidos na seção relacionada. As opções possíveis são:
 
