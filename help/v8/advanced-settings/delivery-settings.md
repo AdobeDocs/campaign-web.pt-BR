@@ -4,7 +4,7 @@ title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alfa"
-source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
+source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 88%
@@ -37,12 +37,14 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 
 
 ### Parâmetros de pressão {#pressure-parameters}
+
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 -->
+
 Nesta seção, os parâmetros de pressão permitem definir um **limite**. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um dado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
