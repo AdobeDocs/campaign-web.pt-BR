@@ -4,7 +4,7 @@ title: Introdução aos relatórios
 description: Saiba como acessar e gerenciar relatórios no Campaign Web
 badge: label="Alfa"
 source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ O Adobe Campaign oferece dois relatórios diferentes:
 
 * **Relatório de entrega**: o **Relatório de entrega** oferece insights abrangentes e dados específicos para cada canal. Ele fornece informações detalhadas sobre o desempenho, a eficácia e os resultados de suas entregas individuais, fornecendo uma visão geral abrangente.
 
-* **Relatório de campanha**: a **Relatório de campanha** fornece uma visão geral abrangente da campanha, incorporando todas as informações pertinentes sobre as diferentes entregas incluídas. Este relatório oferece uma análise completa do desempenho de cada entrega, das taxas de sucesso, do engajamento do público-alvo e de outras métricas essenciais, permitindo avaliar a eficácia e o impacto gerais da campanha.
+* **Relatório de campanha**: o **Relatório de campanha** fornece uma visão geral abrangente da campanha, incorporando todas as informações pertinentes sobre as diferentes entregas incluídas. Este relatório oferece uma análise completa do desempenho de cada entrega, das taxas de sucesso, do engajamento do público-alvo e de outras métricas essenciais, permitindo avaliar a eficácia e o impacto gerais da campanha.
 
 
 
