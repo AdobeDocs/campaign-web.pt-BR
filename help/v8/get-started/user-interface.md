@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: cc3209d8aba62ff4492e71eaaa641e77f5a27e93
 workflow-type: tm+mt
 source-wordcount: '2577'
-ht-degree: 69%
+ht-degree: 99%
 
 ---
 
@@ -38,23 +38,23 @@ Esta tela inclui links e recursos importantes para um acesso rápido aos princip
 
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação.
 
-A variável **Indicadores-chave de desempenho** permite verificar a eficácia da plataforma por meio de KPIs comuns.
+Os **Indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns.
 
 Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
 
 
-### Indicadores-chave de desempenho {#user-interface-key-indicators}
+### Indicadores principais de desempenho {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="KPI de spam"
 
-Navegue até a home page para verificar os indicadores-chave de desempenho da sua plataforma. Esses indicadores mostram o número e a porcentagem de mensagens entregues, abertas, clicadas, com cancelamento de subscrição e taxas de erro.
+Navegue até a página inicial para verificar os indicadores principais de desempenho da sua plataforma. Esses indicadores mostram o número e a porcentagem de mensagens entregues, abertas, clicadas, com unsubscription e taxas de erro.
 
-As métricas são calculadas para deliveries enviados nos 7 dias anteriores por padrão. É possível alterar o período na lista suspensa na seção superior direita do cartão. As mensagens enviadas para perfis de teste são excluídas.
+As métricas são calculadas para entregas enviadas nos 7 dias anteriores por padrão. É possível alterar o período na lista suspensa na seção superior direita do cartão. As mensagens enviadas para perfis de teste são excluídas.
 
-Você pode selecionar o canal a ser exibido. Por padrão, esses indicadores refletem as métricas do canal de email.
+É possível selecionar o canal a ser exibido. Por padrão, esses indicadores refletem as métricas do canal de email.
 
 ![](assets/kpi.png)
 
@@ -63,19 +63,19 @@ Você pode selecionar o canal a ser exibido. Por padrão, esses indicadores refl
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Entregue"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens processadas com êxito e a porcentagem de mensagens entregues com êxito em comparação ao número total de mensagens enviadas."
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens processadas com sucesso e a porcentagem de mensagens entregues com sucesso em comparação ao número total de mensagens enviadas."
 
-O número de mensagens entregues reflete a taxa de entrega. Nunca pode ser 100% pelos seguintes motivos: alguns endereços ou números de telefone podem estar errados, os bloqueadores de spam em provedores de email podem rejeitar suas mensagens ou podem ocorrer problemas de entrega.
+O número de mensagens entregues reflete a taxa de capacidade de entrega. Essa métrica nunca pode ser de 100% pelos seguintes motivos: alguns endereços ou números de telefone podem estar errados, os bloqueadores de spam em provedores de email podem rejeitar mensagens ou podem ocorrer problemas na capacidade de entrega.
 
-A variável **Entregue** O indicador mostra os seguintes KPIs para cada canal:
+O indicador **Entregue** mostra os seguintes KPIs para cada canal:
 
-* Porcentagem do número de mensagens entregues com êxito em comparação ao número total de mensagens enviadas.
+* Porcentagem do número de mensagens entregues com sucesso em comparação ao número total de mensagens enviadas.
 
-* Soma de todas as mensagens processadas com êxito.
+* Soma de todas as mensagens processadas com sucesso.
 
-No Adobe Campaign, a regra para marcar uma mensagem como &quot;Entregue&quot; é:
+No Adobe Campaign, a regra para marcar uma mensagem como “Entregue” é:
 
-Contagem de mensagens para as quais o campo &quot;seed address&quot; é igual a &quot;Não&quot; e com um status igual a &quot;Considerado pelo provedor de serviços&quot; (para SMS) ou &quot;Enviado&quot; (para Emails) ou &quot;Recebido no celular&quot; (para notificações por push).
+Contagem de mensagens para as quais o campo “seed address” é igual a “Não” e com um status igual a “Levada em consideração pelo provedor de serviços” (para SMS) ou “Enviada” (para Email) ou “Recebida no celular” (para notificações por Push).
 
 
 #### Total de aberturas {#ui-open-kpi}
@@ -83,17 +83,17 @@ Contagem de mensagens para as quais o campo &quot;seed address&quot; é igual a 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Aberturas"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens abertas e a porcentagem de mensagens abertas em comparação ao número total de mensagens entregues com êxito."
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens abertas e a porcentagem de mensagens abertas em comparação ao número total de mensagens entregues com sucesso."
 
-O total de aberturas é calculado rastreando o número total de vezes que uma mensagem é aberta, independentemente de quantos recipients individuais essas aberturas são geradas por. Esse indicador só está disponível para emails.
+O total de aberturas é calculado rastreando o número total de vezes que uma mensagem é aberta, independentemente de quantos recipients individuais geram essas aberturas. Esse indicador só está disponível para emails.
 
-A variável **Aberturas** O indicador mostra os seguintes KPIs para cada canal:
+O indicador **Aberturas** mostra os seguintes KPIs para cada canal:
 
-* Porcentagem do número de mensagens abertas em comparação ao número total de mensagens entregues com êxito.
+* Porcentagem do número de mensagens abertas em comparação ao número total de mensagens entregues com sucesso.
 
 * Soma de todas as mensagens abertas por canal.
 
-O Adobe Campaign detecta a abertura da mensagem quando o recipient baixa as imagens no email. Os emails em HTML e Multipart/alternative incluem uma imagem de 0 pixel, que permite detectar mensagens que foram abertas. Como as mensagens em formato de texto não incluem imagens, é impossível detectar se foram abertas ou não. Os valores calculados com base na abertura de mensagem são sempre estimativas, devido à margem de erro vinculada à exibição de imagem.
+O Adobe Campaign detecta a abertura da mensagem quando o recipient faz o download das imagens do email. Os emails em HTML e Multipart/alternative incluem uma imagem de 0 pixel, que permite detectar mensagens que foram abertas. Como as mensagens em formato de texto não incluem imagens, é impossível detectar se foram abertas ou não. Os valores calculados com base na abertura de mensagem são sempre estimativas, devido à margem de erro vinculada à exibição de imagem.
 
 
 
@@ -102,33 +102,33 @@ O Adobe Campaign detecta a abertura da mensagem quando o recipient baixa as imag
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Cliques"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os URLs clicados nas mensagens e a porcentagem de cliques em comparação ao número total de mensagens entregues com êxito."
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os URLs clicados nas mensagens e a porcentagem de cliques em comparação ao número total de mensagens entregues com sucesso."
 
-É possível adicionar URLs no conteúdo da mensagem, que redireciona os recipients para uma página específica. A taxa de cliques mede o número e a porcentagem de recipients que clicaram em um link na mensagem.
+É possível adicionar URLs no conteúdo da mensagem, o que redireciona os recipients para uma página específica. O Índice de click-through mede o número e a porcentagem de recipients que clicaram em um link na mensagem.
 
-A variável **Cliques** O indicador mostra os seguintes KPIs para cada canal:
+O indicador **Cliques** mostra os seguintes KPIs para cada canal:
 
-* Porcentagem do número de cliques em comparação ao número total de mensagens entregues com êxito.
+* Porcentagem do número de cliques em comparação ao número total de mensagens entregues com sucesso.
 
-* Número de pessoas distintas que clicaram pelo menos uma vez em um delivery. Os links de unsubscription e links para mirror pages de email são excluídos.
+* Número de pessoas distintas que clicaram pelo menos uma vez em uma entrega. Os links de unsubscription e os links para mirror pages de email são excluídos.
 
-Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingStats`). Essa tabela de agregação é usada por motivos de desempenho ao exibir relatórios em vez da tabela Recipient tracking logs (`nms:trackingLogRcp`) e não é calculada em tempo real. A tabela é gerada alguns minutos após os logs de rastreamento serem recuperados.
+Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingStats`). Essa tabela agregada é usada por motivos de desempenho ao exibir relatórios, em vez da tabela Logs de rastreamento de recipients (`nms:trackingLogRcp`), e não é calculada em tempo real. A tabela é gerada alguns minutos após os logs de rastreamento serem recuperados.
 
 
-#### Taxas de cancelamento de subscrições {#ui-unsub-kpi}
+#### Taxas de unsubscription {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="Cancelamentos de assinatura"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as cancelamentos de subscrições de um serviço e a porcentagem de cancelamentos de subscrições em comparação ao número total de mensagens entregues com êxito."
+>title="Unsubscriptions"
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os unsubscriptions de um serviço e a porcentagem de unsubscriptions em comparação ao número total de mensagens entregues com sucesso."
 
-Os recipients devem poder recusar o email e o SMS por meio de um link de cancelamento de subscrição dedicado no conteúdo do email ou respondendo PARAR a um SMS.
+Os recipients devem poder se desvincular de emails e SMS por meio de um link de unsubscription dedicado no conteúdo do email ou respondendo PARAR a um SMS.
 
-A variável **Cancelamentos de assinatura** O indicador mostra os seguintes KPIs para cada canal:
+O indicador **Unsubscriptions** mostra os seguintes KPIs para cada canal:
 
-* Porcentagem do número de cancelamentos de assinatura em comparação ao número total de mensagens entregues com êxito.
+* Porcentagem do número de unsubscriptions em comparação ao número total de mensagens entregues com sucesso.
 
-* Soma de todos os cliques em um link de cancelamento de subscrição, ou seja, com uma categoria de URL é igual a &quot;Opt out&quot;.
+* Soma de todos os cliques em um link de unsubscription, ou seja, com uma categoria de URL correspondente a “Recusar”.
 
 
 #### Taxas de erro {#ui-error-kpi}
@@ -136,17 +136,17 @@ A variável **Cancelamentos de assinatura** O indicador mostra os seguintes KPIs
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Erros"
->abstract="Número total de erros acumulados durante os deliveries e processamento automático de devolução. A taxa associada é a relação do número de mensagens a serem entregues."
+>abstract="Número total de erros acumulados durante entregas e processamentos automáticos de rejeição. A taxa associada é a relação com o número de mensagens a serem entregues."
 
-Algumas mensagens enviadas pela plataforma Adobe Campaign podem não chegar ao destino. Isso pode acontecer quando o endereço do usuário ou o telefone tem erros de digitação, se o recipient alterou seu endereço de email ou se a caixa de correio está cheia. Se uma mensagem não puder ser enviada a um perfil, o servidor remoto enviará automaticamente uma mensagem de erro ao Adobe Campaign. Esse erro é qualificado para determinar se o endereço de email, o número de telefone ou o dispositivo deve ir para a quarentena.
+Algumas mensagens enviadas pela plataforma do Adobe Campaign podem não chegar ao destino. Isso pode acontecer quando o endereço ou telefone do usuário ou usuária tem erros de digitação, quando o endereço de email foi alterado ou quando a caixa de entrada está cheia. Se uma mensagem não puder ser enviada a um perfil, o servidor remoto enviará automaticamente uma mensagem de erro ao Adobe Campaign. Esse erro é analisado para determinar se o endereço de email, o número de telefone ou o dispositivo deve ser colocado em quarentena.
 
-Como consequência, você sempre deve verificar e atualizar seu banco de dados e verificar se todos os perfis estão ativos e reais. Os erros de delivery podem ser temporários ou permanentes - rejeição temporária ou permanente - dependendo do motivo pela qual a mensagem não foi entregue.
+Por isso é recomendado sempre verificar e atualizar o banco de dados e certificar-se de que todos os perfis estão ativos e são reais. Os erros de entrega podem ser temporários ou permanentes (rejeição temporária ou permanente) dependendo do motivo pelo qual a mensagem não foi entregue.
 
-A variável **Erros** O indicador mostra os seguintes KPIs para cada canal:
+O indicador **Erros** mostra os seguintes KPIs para cada canal:
 
 * Porcentagem do número de erros em comparação ao número total de mensagens a serem entregues.
 
-* Número total de erros acumulados durante os deliveries e o processamento automático de reassociação.
+* Número total de erros acumulados durante as entregas e o processamento automático de reassociação.
 
 
 ### Explorer {#user-interface-explorer}
@@ -446,7 +446,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportação"
->abstract="Você só pode exportar a página selecionada."
+>abstract="É possível exportar apenas a página selecionada."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
@@ -455,8 +455,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
->title="Lista de fluxos de trabalho em uma campanha"
->abstract="Lista de fluxos de trabalho em uma campanha"
+>title="Lista de workflows em uma campanha"
+>abstract="Lista de workflows em uma campanha"
 
 <!-- delivery settings-->
 
