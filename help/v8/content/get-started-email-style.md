@@ -3,8 +3,8 @@ audience: end-user
 title: Introdução ao estilo de email
 description: Descubra as diferentes maneiras de ajustar o estilo do conteúdo do email
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%

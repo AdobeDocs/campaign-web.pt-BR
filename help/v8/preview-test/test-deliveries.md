@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alfa"
-source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1032'
 ht-degree: 13%
 
 ---
@@ -35,7 +35,7 @@ De acordo com o canal que você está usando, as mensagens de teste podem ser en
 
 * [Perfis de teste](#test-profiles) - Enviar **testar emails e SMS** para seed addresses, que são recipients adicionais no banco de dados.
 
-  Eles podem ser criados na variável [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  Eles podem ser criados na variável [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * [Substituir do público alvo principal](#substitution-profiles) - Enviar **testar emails e SMS** para um endereço de email ou número de telefone específico ao representar um perfil existente.
 
@@ -43,7 +43,7 @@ De acordo com o canal que você está usando, as mensagens de teste podem ser en
 
 * [Assinantes](#subscribers) - Enviar **testar notificações por push** aos assinantes fictícios adicionados ao banco de dados.
 
-  Assim como perfis de teste, eles podem ser criados no [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  Assim como perfis de teste, eles podem ser criados no [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de acordo com o tipo de perfis que deseja usar.
 

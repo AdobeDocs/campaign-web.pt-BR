@@ -2,11 +2,11 @@
 audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
-badge: label="Alfa"
-source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '425'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Estas são as etapas para adicionar uma atividade do **Canal** em um fluxo de tr
    ![](../assets/delivery-activity-in-wf.png)
 
 
-   Você pode selecionar outro modelo no painel esquerdo de configuração das atividades do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto. Saiba mais sobre os target mappings na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+   Você pode selecionar outro modelo no painel esquerdo de configuração das atividades do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto. Saiba mais sobre target mappings em [Documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
 1. Clique em **Criar entrega**. Defina as configurações e o conteúdo da mensagem da mesma maneira que você cria uma entrega independente. Também é possível agendar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md).
 

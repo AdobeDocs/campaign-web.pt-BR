@@ -3,20 +3,20 @@ audience: end-user
 title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alfa"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
 
 # Novidades {#new}
 
-## Versão Alfa 2.0{#alpha-release}
+## Versão Beta{#beta-release}
 
-No momento, essa nova interface do Campaign Web está disponível somente para os **Profissionais alfa** com os seguintes recursos:
+No momento, essa nova interface da Web do Campaign está disponível apenas para **Profissionais beta** com os seguintes recursos:
 
 **Experiência moderna, intuitiva e unificada**
 
@@ -53,6 +53,7 @@ Como usuário do Campaign, você ainda pode acessar o console do cliente para cr
 
 Além disso, todos os seus dados e configurações já disponíveis no console do cliente, estarão visíveis na interface do Campaign Web, no painel de navegação Explorer, à esquerda. Saiba mais sobre a visualização do Explorer [nesta seção](../get-started/user-interface.md#explorer-user-interface-explorer).
 
+Com a versão Campaign Web Beta, a interface reflete as permissões do usuário. Saiba mais sobre permissões no [esta página](../get-started/permissions.md)
 
 ## Atualizações de terminologia {#terminology-updates}
 
@@ -68,7 +69,7 @@ Como um usuário existente do Campaign, observe que alguns conceitos foram renom
 
 As limitações abaixo se aplicam a esta versão Alfa:
 
-* Os únicos objetos editáveis são Entregas, Campanhas, Workflows, Públicos-alvo e Modelos. Os outros são para somente leitura. Use os filtros para navegar por todos eles.
+* Os objetos editáveis são: Deliveries, Campanhas, Workflows, Públicos-alvo, Serviços de assinatura, Filtros predefinidos e Modelos. Os outros são para somente leitura. Use os filtros para navegar por todos eles.
 * Os públicos-alvo não podem ser salvos para uso futuro.
 * A interface de Administração não está disponível.
 * As métricas de relatório (como aberturas e dados de rastreamento) são atualizadas a cada hora.

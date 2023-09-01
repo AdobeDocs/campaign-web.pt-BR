@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alfa"
-source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1329'
 ht-degree: 89%
 
 ---
@@ -121,7 +121,7 @@ Nesse caso de uso, você enviará o email para um público existente. Instruçõ
    >
    >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform, se a integração do serviço de Destino/Origens tiver sido configurada em sua instância.
    >
-   >A integração do serviço de Destino/Origens permite enviar segmentos da Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para a Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR){target="_blank"}.
+   >A integração do serviço de Destino/Origens permite enviar segmentos da Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para a Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR){target="_blank"}.
 
 1. Depois que o público é selecionado, você pode refinar o público alvo aplicando regras adicionais.
 

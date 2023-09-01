@@ -3,11 +3,11 @@ audience: end-user
 title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 43%
+source-wordcount: '780'
+ht-degree: 42%
 
 ---
 
@@ -40,7 +40,7 @@ Para adicionar um grupo de controle a um delivery, ative a variável **[!UICONTR
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Modo de extração"
->abstract="Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo."
+>abstract="Um grupo de controle é um conjunto de perfis excluídos do delivery. Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo."
 
 
 ### Criar um grupo de controle {#build-extract-target}
@@ -104,7 +104,7 @@ Para obter mais informações sobre logs de entrega, consulte esta [seção](../
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="População extra"
->abstract="Você pode excluir uma população específica do público-alvo da entrega selecionando um público-alvo já existente ou definindo uma consulta."
+>abstract="Um grupo de controle é um conjunto de perfis excluídos do delivery. Você pode excluir uma população específica do público-alvo da entrega selecionando um público-alvo já existente ou definindo uma consulta."
 
 Outra maneira de definir um grupo de controle é selecionar uma população específica em um público-alvo existente ou definir um query.
 

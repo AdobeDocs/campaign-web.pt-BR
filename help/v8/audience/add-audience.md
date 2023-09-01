@@ -3,11 +3,11 @@ audience: end-user
 title: Selecione um público-alvo já existente
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 89%
+source-wordcount: '294'
+ht-degree: 57%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selecione um público-alvo já existente"
->abstract="Os públicos são definidos no Console do Adobe Campaign v8. Se tiver uma integração da Adobe Experience Platform disponível, você também poderá ver públicos definidos pela Platform."
+>abstract="Navegue pela lista para selecionar um público existente. Use o ícone &quot;Mostrar filtros&quot; para filtrar a lista ou selecione uma pasta específica."
 
 Esta seção explica como selecionar um público existente ao definir o público-alvo de uma entrega de email.
 
 Você também pode:
 
 * Crie um novo público-alvo. [Saiba mais](segment-builder.md)
-* Carregar um público-alvo de um arquivo externo. [Saiba mais](file-audience.md)
+* Carregar um público-alvo de um arquivo externo (somente para emails). [Saiba mais](file-audience.md)
 * Usar um público da Adobe Experience Platform. [Saiba mais](aep-audience.md).
 
 
@@ -36,21 +36,16 @@ Para selecionar um público existente para sua mensagem, siga as etapas abaixo:
 
 1. Escolha a **[!UICONTROL Selecionar público-alvo]** para usar um público existente. Para criar um novo público a ser usado neste email, escolha **Criar seu próprio**. Consulte esta [seção](segment-builder.md).
 
-   Essa tela exibe todos os públicos-alvo existentes definidos no console do cliente Adobe Campaign para a pasta atual.
+   Esta tela exibe todos os públicos-alvo existentes para a pasta atual.
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >Para aproveitar os públicos da Adobe Experience Platform, é necessário configurar a integração com o serviço de Destinos. Consulte a [Documentação de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
+   Os públicos-alvo são criados no **Público** menu esquerdo. Eles também podem ser criados no Console do cliente.
+
+   Para usar os públicos da Adobe Experience Platform, é necessário configurar a integração com o Destinations. Consulte a [Documentação de destinos do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
 
 1. Escolha um público e clique em **Selecionar**.
-
-1. Clique em **Editar regras** se quiser refinar seu público.
-
-   ![](assets/create-audience3.png)
-
-1. Usando o construtor de regras, você pode enriquecer seu público com filtros adicionais ou combinar públicos diferentes. Consulte esta [seção](segment-builder.md).
+1. Use o **Mostrar filtros** ícone para exibir opções de filtragem. Clique em **Adicionar regras** para acessar o construtor de regras: o uso do construtor de regras permite que você crie filtros avançados para a lista de públicos-alvo. Saiba como usar o construtor de regras neste [seção](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

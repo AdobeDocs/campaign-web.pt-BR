@@ -2,8 +2,8 @@
 audience: end-user
 title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
-badge: label="Alfa"
-source-git-commit: c6cbb60086d159103a7a28f10eb2874a6dd20a9c
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 48%

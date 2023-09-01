@@ -3,11 +3,11 @@ audience: end-user
 title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alfa"
-source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
+badge: label="Beta"
+source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 88%
+source-wordcount: '1494'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,7 @@ Essas configurações são **parâmetros técnicos da entrega** definidas no mod
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="A tipologia permite controlar, filtrar e monitorar o envio de entregas."
+>abstract="Tipologias são conjuntos de regras que são executadas durante a preparação da mensagem. Eles permitem controlar, filtrar e monitorar o envio de deliveries."
 
 Tipologias são conjuntos de **regras de tipologia**, que são executadas durante a fase de análise da mensagem. Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
 
@@ -38,12 +38,12 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 
 ### Parâmetros de pressão {#pressure-parameters}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
--->
+>id="acw_email_settings_pressure_parameters"
+>title="Parâmetros de pressão"
+>abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
+
 
 Nesta seção, os parâmetros de pressão permitem definir um **limite**. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um dado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
@@ -64,34 +64,34 @@ Use o campo **Modo de entrega** para selecionar o modo de avaliação do públic
 * **Estimativa e aprovação do público-alvo provisório**
 * **Avaliação de público-alvo**
 
-O gerenciamento de fadiga vem com o complemento **Otimização de campanha**. Saiba mais sobre as regras de pressão e como configurar o gerenciamento de fadiga na [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
+O gerenciamento de fadiga vem com o complemento **Otimização de campanha**. Saiba mais sobre regras de pressão e como configurar o gerenciamento de fadiga no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
 
 ### Configurações de capacidade {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Configurações de capacidade"
->abstract="Selecione uma regra de capacidade definida no Console do Adobe Campaign v8. Essa regra está associada ao canal de email."
+>abstract="Antes de enviar mensagens, use as regras de capacidade para garantir que sua organização possa processar o delivery, as mensagens de entrada que o delivery pode gerar e o número de chamadas a serem feitas para entrar em contato com os assinantes, por exemplo. As regras de capacidade são definidas no Console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
 
 Nesta seção, você pode selecionar uma regra de capacidade definida no Console do Adobe Campaign v8. Essa regra está associada ao canal de email.
 
 O campo **importância do recipient** é uma fórmula usada para determinar quais destinatários são mantidos quando as regras de tipologia de capacidade são excedidas.
 
-Saiba mais sobre regras de consistência e capacidade e como configurá-las em [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre as regras de consistência e capacidade e como configurá-las em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=pt-BR){target="_blank"}.
 
 
 ## Público {#audience}
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8.
 
-Saiba mais sobre os target mappings na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre target mappings em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
 ## Delivery {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Delivery configurações"
->abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega."
+>abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. Você pode ativar o CCO para o delivery e alterar os modos de delivery e de rotina. Essas opções estão restritas somente a usuários especialistas."
 
 Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega.
 
@@ -99,7 +99,7 @@ Os parâmetros de entrega são configurações técnicas que se aplicam à sua e
 
 * **Teste da entrega SMTP**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
 
-* **Email CCO**: essa opção permite armazenar emails em um sistema externo por meio do CCO, simplesmente adicionando um endereço de email CCO ao publico alvo da mensagem. Saiba mais sobre Email Cco em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+* **Email CCO**: essa opção permite armazenar emails em um sistema externo por meio do CCO, simplesmente adicionando um endereço de email CCO ao publico alvo da mensagem. Saiba mais sobre Email Cco em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
 
 
@@ -107,7 +107,7 @@ Os parâmetros de entrega são configurações técnicas que se aplicam à sua e
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
 ## Aprovação {#approval}
 
@@ -134,7 +134,7 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validade das configurações"
->abstract="O campo Delivery duration permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido. O campo Validity limit é usado para recursos carregados, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
+>abstract="O campo Delivery duration permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign começa a enviar as mensagens na data de início e, em seguida, somente para mensagens que retornam um erro, novas tentativas normais e configuráveis são executadas até que o limite da validade seja atingido. O campo Limite da validade é usado para recursos enviados, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
 
 <!--
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ O **Limite da validade de recursos** é usado para recursos carregados, principa
 ![](assets/delivery-settings-2.png)
 
 
-Saiba mais sobre o período de validade do delivery em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR#validity-period){target="_blank"}.
+Saiba mais sobre o período de validade do delivery em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR#validity-period){target="_blank"}.
 
 ### Gerenciamento da mirror page {#mirror}
 

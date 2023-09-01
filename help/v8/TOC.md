@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '359'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 100%
    + [Introdução](get-started/get-started.md)
    + [Conheça a interface](get-started/user-interface.md)
    + [Listas de busca, pesquisa e filtro](get-started/list-filters.md)
+   + [Acesso e permissões](get-started/permissions.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
    + [Trabalho com modelos de entrega](msg/delivery-template.md)
@@ -104,6 +105,7 @@ ht-degree: 100%
       + [Aguardar](workflows/activities/wait.md)
 + Relatórios {#reports}
    + [Introdução aos relatórios](reporting/gs-reports.md)
+   + [Indicadores principais de desempenho](reporting/kpis.md)
    + Relatórios de entrega {#delivery-report}
       + [Acessar relatórios de entrega](reporting/delivery-reports.md)
       + [Relatório de entrega de emails](reporting/email-report.md)

@@ -2,8 +2,8 @@
 audience: end-user
 title: Enviar uma entrega de notificação por push
 description: Saiba como enviar um delivery de notificação por push com o Adobe Campaign Web
-badge: label="Alfa"
-source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%
