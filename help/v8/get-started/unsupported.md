@@ -5,10 +5,10 @@ description: Lista de recursos não compatíveis com a interface do usuário da 
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 10%
+source-wordcount: '346'
+ht-degree: 11%
 
 ---
 
@@ -66,16 +66,16 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 
 * Conteúdo de recursos públicos
 * Loops/gerenciamento de coleções
-* Salvar um conteúdo de HTML como modelo (não disponível no console do cliente)
+* Salvar um conteúdo de HTML como modelo `*`
 * Sincronização de modelo de email do Adobe Experience Manager
 * Ativos do Adobe Experience Manager 6.5 em um conteúdo de email
 * Criação de bloco de conteúdo
 * Conteúdo de formulários personalizados
-* Conteúdo de um URL (não disponível no console do cliente)
+* Conteúdo de um URL `*`
 * Fragmentos de email
 * AMP para emails
-* Fragmentos de email (não disponível no console do cliente)
-* Caso de uso multivariante/multilíngue (não disponível no console do cliente)
+* Fragmentos de email `*`
+* Caso de uso multivariante/multilíngue `*`
 
 **Regras de tipologia**
 
@@ -125,3 +125,4 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 * Aprovação de público-alvo
 
 
+`*` Não disponível no console do cliente
