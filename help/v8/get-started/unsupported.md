@@ -5,15 +5,15 @@ description: Lista de recursos não compatíveis com a interface do usuário da 
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 11%
+source-wordcount: '350'
+ht-degree: 10%
 
 ---
 
 
-# Recursos não compatíveis com a interface do Campaign Web {#unsupported-capabilities}
+# Recursos não suportados no Campaign Web {#unsupported-capabilities}
 
 Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas ainda não estão disponíveis na Interface do usuário da Web. Alguns estarão disponíveis em uma versão posterior, mas outros não.
 
@@ -22,17 +22,13 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 * Painel da página inicial
 * Personalização da página inicial
 
-
 **Gerenciamento de campanhas**
 
 * Calendário/linha do tempo de marketing
 * Gerenciamento de orçamento e custos
 * Gerenciamento de tarefas
-* Marketing distribuído
+* Marketing distribuído (marketing central/local)
 * Gestor de resposta
-
-**Otimização de campanha**
-
 * Teste AB
 * Gerenciamento dos recursos de marketing (MRM), metas, simulações, orçamento e custos
 
@@ -46,6 +42,7 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 **Conteúdo da Web**
 
 * Criação e publicação de uma landing page
+* aplicativos Web, formulários Web
 * Gestão de pesquisas
 
 **Perfis e recipients**
@@ -66,16 +63,16 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 
 * Conteúdo de recursos públicos
 * Loops/gerenciamento de coleções
-* Salvar um conteúdo de HTML como modelo `*`
+* Salvar um conteúdo de HTML como modelo`*`
 * Sincronização de modelo de email do Adobe Experience Manager
 * Ativos do Adobe Experience Manager 6.5 em um conteúdo de email
 * Criação de bloco de conteúdo
 * Conteúdo de formulários personalizados
-* Conteúdo de um URL `*`
+* Conteúdo de um URL`*`
 * Fragmentos de email
 * AMP para emails
-* Fragmentos de email `*`
-* Caso de uso multivariante/multilíngue `*`
+* Fragmentos de email`*`
+* Caso de uso multivariante/multilíngue`*`
 
 **Regras de tipologia**
 
