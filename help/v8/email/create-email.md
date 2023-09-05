@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 89%
+source-wordcount: '1324'
+ht-degree: 85%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Introdução a emails"
->abstract="Comece a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código. Saiba como usar o Designer de email para criar seu conteúdo, visualizá-lo e testá-lo. Você ainda pode enviar um email para um público-alvo já existente no caso de uso completo."
+>title="Gerar IA para conteúdo de email"
+>abstract="Nossa tecnologia Gen AI utiliza algoritmos avançados para gerar conteúdo altamente envolvente e personalizado. Impulsione taxas de abertura, taxas de click-through e conversões mais altas com a geração de conteúdo inteligente da Gen AI. Mantenha-se à frente da concorrência e eleve seu jogo de marketing por email com a Gen AI sobre conteúdo de email."
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 

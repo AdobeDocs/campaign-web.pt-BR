@@ -7,21 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 15%
+source-wordcount: '909'
+ht-degree: 10%
 
 ---
 
 # Criar conteúdo condicional{#add-conditions}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Criação de conteúdo condicional"
->abstract="Crie conteúdo condicional para definir uma personalização dinâmica com base no perfil do destinatário, substituindo automaticamente blocos de texto e imagens quando determinadas condições forem atendidas. Esse recurso pode elevar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"

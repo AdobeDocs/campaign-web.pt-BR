@@ -4,10 +4,10 @@ title: Introdução a workflows
 description: Saiba como começar a usar os workflows
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 89%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Interface de tela de workflow reformulada"
->abstract="Nossa tela gráfica detalhada facilita a criação de processos como segmentação, execução de campanha e muito mais. Com essa ferramenta avançada ao seu alcance, e possível simplificar seu workflow e aperfeiçoar suas campanhas."
+>title="Mais atividades de fluxo de trabalho de campanha"
+>abstract="Descubra novas possibilidades de automação e otimização, permitindo que você crie jornadas do cliente mais dinâmicas e personalizadas. Desde a segmentação avançada até acionadores condicionais, nossas atividades adicionais de fluxo de trabalho capacitam você a fornecer mensagens direcionadas e a impulsionar um melhor desempenho da campanha."
 
 ## O que é um fluxo de trabalho?
 

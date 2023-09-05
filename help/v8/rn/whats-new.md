@@ -4,15 +4,18 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 90%
+source-wordcount: '960'
+ht-degree: 50%
 
 ---
 
 
 # Novidades {#new}
+
+
+Temos o prazer de apresentar a versão BETA da interface do usuário da Web do Adobe Campaign. Nossa versão mais recente contém recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais, gerar resultados excepcionais e oferecer uma vantagem competitiva em todos os canais.
 
 ## Versão Beta{#beta-release}
 
@@ -46,6 +49,54 @@ Use a nova interface do Campaign Web para:
 * Visualizar, testar e enviar suas mensagens de email - [Saiba mais](../monitor/prepare-send.md)
 * Monitore o envio e meça os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 
+
+## Atualizações mais recentes
+
+
+**Resumo da versão beta**
+
+* Habilitar composição de dados (federada) para Públicos-alvo e Personalização.
+* Utilizar a tecnologia de IA para aprimorar a geração de conteúdo de email.
+* Sincronizar ativos e modelos de HTML completo com perfeição.
+* Organize e gerencie com eficiência suas pastas e recursos.
+* Crie páginas de aterrissagem envolventes e eficientes.
+* Mais atividades de workflow: acesse atividades adicionais, como dimensão de alteração, desduplicação e deliveries recorrentes para aprimorar os workflows da campanha.
+
+**Principais novos recursos**
+
+* Mais atividades de workflow do Campaign
+
+  Turbine suas campanhas de marketing com nosso conjunto expandido de atividades de workflow. Descubra novas possibilidades de automação e otimização, permitindo que você crie jornadas do cliente mais dinâmicas e personalizadas.
+
+  Desde a segmentação avançada até acionadores condicionais, nossas atividades adicionais de fluxo de trabalho capacitam você a fornecer mensagens direcionadas e a impulsionar um melhor desempenho da campanha.
+
+* Gerar IA para conteúdo de email
+
+  Diga adeus à criação manual de conteúdo e olá para campanhas eficientes orientadas por dados com o poder da Gen AI.  Nossa tecnologia Gen AI utiliza algoritmos avançados para gerar conteúdo altamente envolvente e personalizado. Impulsione taxas de abertura, taxas de click-through e conversões mais altas com a geração de conteúdo inteligente da Gen AI.
+
+  Mantenha-se à frente da concorrência e eleve seu jogo de marketing por email com a Gen AI sobre conteúdo de email.
+
+
+* Gerenciamento de filtro predefinido
+
+  Introdução Ao Gerenciamento De Filtros Predefinidos. A interface da Web do Campaign agora oferece uma interface fácil de usar para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro.
+
+
+* Público-alvo
+
+  Criar um público-alvo de entrega nunca foi tão fácil! Com o construtor de regras mais recente, agora é possível definir critérios de filtragem para recipients ou qualquer outro targeting dimension do banco de dados. Além disso, você pode aproveitar seu público-alvo da AEP (Adobe Experience Platform) para refinar ainda mais seu público-alvo e maximizar o impacto da campanha.
+
+* Ofertas com SMS e Push
+
+  A nova interface da Web agora permite integrar ofertas com SMS e notificações por push, além de email. Alcance seu público em seus dispositivos móveis, fornecendo promoções e notificações oportunas.
+
+  Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS e notificações por push em nossa plataforma avançada de Web.
+
+* Integração do Adobe Experience Manager (AEM)
+
+  Com nossa integração com o AEM estendida para a interface da Web, você pode gerenciar ativos facilmente e sincronizar modelos completos de HTML, permitindo criar experiências digitais envolventes sem qualquer problema.
+
+  Elevar e simplificar seus recursos de gerenciamento de conteúdo na interface da Web com essa integração para aumentar a produtividade.
 
 ## Transição para a interface do Campaign Web
 

@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 98%
+source-wordcount: '366'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,7 @@ ht-degree: 98%
       + [Adicionar personalização](personalization/personalize.md)
       + [Adicionar conteúdo condicional](personalization/conditions.md)
       + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
+      + [Criar e usar filtros predefinidos](personalization/predefined-filters.md)
    + [Enviar ofertas](content/offers.md)
    + Visualizar e testar a entrega {#preview-test}
       + [Sobre visualização e teste](preview-test/preview-test.md)
