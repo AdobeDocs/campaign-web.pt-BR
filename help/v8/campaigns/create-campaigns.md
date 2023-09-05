@@ -4,10 +4,10 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 27%
+source-wordcount: '478'
+ht-degree: 12%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Propriedades de criação de campanha"
->abstract="Defina as propriedades e os metadados da campanha."
+>abstract="Nesta tela, defina as configurações da campanha: selecione um template e insira um rótulo para a campanha. Navegue até as configurações adicionais para alterar o nome interno padrão, a pasta, adicionar uma descrição e selecionar o responsável."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Propriedades da campanha"
->abstract="Defina as configurações e os metadados da campanha."
+>abstract="Nesta tela, você pode verificar e atualizar as configurações da campanha: rótulo, nome interno, pasta e descrição. Você também pode visualizar a qual usuário ele está atribuído."
 
 Para criar uma nova campanha, você precisa definir suas propriedades, agendar e incluir workflows e deliveries.
 
 ## Criar a campanha{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Programação de campanha"
->abstract="Defina a programação da campanha durante sua criação."
 
 Para criar uma nova campanha, siga estas etapas:
 
@@ -39,14 +34,7 @@ Para criar uma nova campanha, siga estas etapas:
 1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. Os templates de campanha são pré-configurados para que possam ser reutilizados para criar novas campanhas. Eles são criados no console cliente.
    [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR).
 1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
-1. Defina o **Agendar** da sua campanha. A campanha começa quando a data de início é atingida. As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
-
-   ![Definir as propriedades da campanha](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >Você sempre pode modificar essas propriedades posteriormente, no **Definir configurações da campanha** ícone, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard).
-
+1. Defina o **Agendar** da sua campanha. Saiba como definir a programação da campanha no [nesta seção](#campaign-schedule)
 1. Clique em **Create**.
 1. Adicione workflows e deliveries à sua campanha:
 
@@ -61,6 +49,29 @@ O monitoramento da campanha é uma etapa essencial para analisar a eficácia da 
 
 Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
 
+
+## Definir o agendamento da campanha {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Programação de campanha"
+>abstract="Selecione o cronograma da campanha. Você pode criar a campanha, que começa quando a data de início é atingida. Por padrão, a data de início da campanha é a data de criação e dura 5 dias. As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro."
+
+
+A campanha começa quando a data de início é atingida. Desde que a data de início não seja atingida, a campanha tem o **[!UICONTROL Rascunho]** status. Em seguida, quando a data de início é atingida, ela se transforma em **[!UICONTROL Em andamento]**. Quando a data final é atingida, a campanha é definida como **[!UICONTROL Concluído]**.
+
+As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
+
+![Definir as propriedades da campanha](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>Você sempre pode modificar essas propriedades posteriormente, no **Definir configurações da campanha** ícone, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard).
+
+
+
+Quando a data é atingida, os deliveries criados nessa campanha no contexto de um workflow que estão prontos para serem enviados são realmente enviados. Para isso, o workflow deve ter sido iniciado.
 
 
 <!--

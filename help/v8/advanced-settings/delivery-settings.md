@@ -4,10 +4,10 @@ title: Configurações de entrega de email
 description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 83%
+source-wordcount: '1643'
+ht-degree: 73%
 
 ---
 
@@ -27,13 +27,24 @@ Essas configurações são **parâmetros técnicos da entrega** definidas no mod
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Tipologias são conjuntos de regras que são executadas durante a preparação da mensagem. Eles permitem controlar, filtrar e monitorar o envio de deliveries."
+>abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todos os deliveries. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de deliveries. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo de entrega na fase de preparação."
 
-Tipologias são conjuntos de **regras de tipologia**, que são executadas durante a fase de análise da mensagem. Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Tipologia"
+>abstract="Tipologia As regras do permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de deliveries. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo de entrega na fase de preparação."
+
+
+Tipologias são conjuntos de **regras de tipologia**, que são executados durante a fase de preparação. As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todos os deliveries. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de deliveries. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação da entrega.  Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
+
+As regras de tipologia são agrupadas em uma tipologia para aplicar facilmente várias regras de filtragem a uma entrega de uma vez.
 
 Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras de tipologia incluídas na tipologia serão executadas para verificar a validade da mensagem durante a preparação da mensagem.
 
 ![](assets/delivery-settings-1.png)
+
+
 
 
 ### Parâmetros de pressão {#pressure-parameters}
@@ -42,10 +53,10 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Parâmetros de pressão"
->abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
+>abstract="Os pesos do delivery permitem identificar deliveries de alta prioridade na estrutura do gerenciamento de fadiga. As mensagens com o peso mais alto têm prioridade."
 
 
-Nesta seção, os parâmetros de pressão permitem definir um **limite**. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um dado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
+Nesta seção, os parâmetros de pressão permitem definir um **limite** para configurar regras de gerenciamento de fadiga. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um dado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
 

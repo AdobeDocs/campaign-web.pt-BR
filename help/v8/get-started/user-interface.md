@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1724'
 ht-degree: 98%
 
 ---
@@ -38,7 +38,7 @@ Esta tela inclui links e recursos importantes para um acesso rápido aos princip
 
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação.
 
-Os **Indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns.
+Os **Indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns. Saiba mais sobre esses KPIs em [esta página](../reporting/kpis.md).
 
 Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
 
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Período de validade"
->abstract="Essa opção define a duração do rastreamento ativado nos URLs."
+>abstract="O período de validade define a duração para a qual o rastreamento é ativado nos URLs da mensagem."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -332,11 +332,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="Tipologia"
->abstract="A tipologia permite controlar, filtrar e monitorar o envio de entregas."
-
->[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportação"
 >abstract="É possível exportar apenas a página selecionada."
@@ -359,13 +354,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Lista de workflows em uma campanha"
->abstract="Lista de fluxos de trabalho em uma campanha"
+>abstract="Lista de workflows em uma campanha"
 
 <!-- delivery settings-->
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="Público-alvo de configurações de entrega"
+>title="Público-alvo das configurações de entrega"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
@@ -375,17 +370,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Configurações de teste das configurações de entrega"
+>title="Definições de teste das configurações de entrega"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="Análise da Web de configurações de entrega"
+>title="Análise da Web das configurações de entrega"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
->title="Modelo de entrega no Campaign"
+>title="Template de entrega no Campaign"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
