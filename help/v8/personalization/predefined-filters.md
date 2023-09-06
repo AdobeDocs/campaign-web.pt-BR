@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >title="Filtros predefinidos"
 >abstract="O Campaign Web agora oferece uma interface simples para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro."
 
-Os filtros predefinidos são filtros personalizados que estão disponíveis para uso futuro. Eles podem ser usados como atalhos durante operações de filtragem com o construtor de regras.
+Os filtros predefinidos são filtros personalizados que estão disponíveis para uso futuro. Eles podem ser usados como atalhos durante operações de filtragem com o construtor de regras. Você pode usar filtros incorporados existentes para acessar um subconjunto específico de seus dados ou criar seu próprio filtro predefinido.
 
 
 ## Criar um filtro predefinido {#create-predefined-filter}
@@ -65,3 +65,5 @@ Seu filtro personalizado agora está disponível no **Filtros predefinidos** e a
 
 ## Gerenciar filtros predefinidos {#manage-predefined-filter}
 
+
+## Filtros predefinidos embutidos {#ootb-predefined-filter}
