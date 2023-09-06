@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 96f383e31953ef56e5a78a701bb34fcc30a65670
+source-git-commit: 00296b2a540f6e04c805e8bd1a057d9d127c6104
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="Criar um filtro predefinido"
->abstract="Insira um rótulo para o filtro predefinido e selecione a tabela à qual ele se aplica. Abra as opções adicionais para adicionar uma descrição e definir este filtro como um favorito.Em seguida, use o botão &quot;Criar regra&quot; para definir as condições de filtragem. "
+>abstract="Insira um rótulo para o filtro predefinido e selecione a tabela à qual ele se aplica. Abra as opções adicionais para adicionar uma descrição e definir este filtro como favorito. Em seguida, use o botão &quot;Criar regra&quot; para definir as condições de filtragem. "
 
 ## Usar um filtro predefinido {#use-predefined-filter}
 
