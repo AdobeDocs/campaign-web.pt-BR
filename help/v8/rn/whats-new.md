@@ -4,9 +4,9 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '962'
 ht-degree: 50%
 
 ---
@@ -79,7 +79,7 @@ Use a nova interface do Campaign Web para:
 
 * Gerenciamento de filtro predefinido
 
-  Introdução Ao Gerenciamento De Filtros Predefinidos. A interface da Web do Campaign agora oferece uma interface fácil de usar para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro.
+  Introdução Ao Gerenciamento De Filtros Predefinidos. A interface da Web do Campaign agora oferece uma interface fácil de usar para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro. [Saiba mais](../personalization/predefined-filters.md)
 
 
 * Público-alvo
