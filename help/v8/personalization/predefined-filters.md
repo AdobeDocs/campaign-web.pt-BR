@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 00296b2a540f6e04c805e8bd1a057d9d127c6104
+source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 2%
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,39 @@ ht-degree: 2%
 >title="Filtros predefinidos"
 >abstract="O Campaign Web agora oferece uma interface simples para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro."
 
-## Criar um filtro predefinido {#create-predefined-filter}
+Os filtros predefinidos são filtros personalizados que estão disponíveis para uso futuro. Eles podem ser usados como atalhos durante operações de filtragem com o construtor de regras.
 
+
+## Criar um filtro predefinido {#create-predefined-filter}
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="Criar um filtro predefinido"
->abstract="Insira um rótulo para o filtro predefinido e selecione a tabela à qual ele se aplica. Abra as opções adicionais para adicionar uma descrição e definir este filtro como favorito. Em seguida, use o botão &quot;Criar regra&quot; para definir as condições de filtragem. "
+>abstract="Insira um rótulo para o filtro predefinido e selecione a tabela à qual ele se aplica. Abra as opções adicionais para adicionar uma descrição e definir este filtro como favorito. Em seguida, use o botão &quot;Criar regra&quot; para definir as condições de filtragem."
+
+Ao criar um filtro com o construtor de regras, você pode salvá-lo para uso futuro. Quando salvo como um filtro personalizado, ele estará disponível para uso futuro. Você também pode criar e editar um filtro predefinido no menu dedicado na navegação à esquerda.
+
+![](assets/predefined-filters-menu.png)
+
+Para salvar um filtro personalizado no construtor de regras, siga as etapas abaixo:
+
+1. Abra o construtor de regras e defina as condições de filtragem. No exemplo abaixo, você filtra os recipients que vivem em Madri.
+1. Clique em **Selecionar ou salvar filtro** e selecione **Salvar como filtro**.
+
+   ![](assets/predefined-filters-save.png)
+
+1. Selecionar **Criar um novo filtro** e insira um nome e uma descrição para esse filtro.
+
+   ![](assets/predefined-filters-save-filter.png)
+
+1. (opcional) Ativar a variável **Salvar como favorito** se quiser ver esse filtro predefinido nos favoritos.
+
+   ![](assets/predefined-filters-favorite.png)
+
+1. Clique em **Confirmar o** para salvar as alterações.
+
+Seu filtro personalizado agora está disponível no **Filtros predefinidos** e acessível a todos os usuários do Campaign.
+
 
 ## Usar um filtro predefinido {#use-predefined-filter}
 
