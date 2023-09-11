@@ -4,14 +4,14 @@ description: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
 
-# Uso do assistente de conhecimento habilitado para IA no Campaign Web {#using-ai}
+# Usar o assistente de conhecimento habilitado para IA {#using-ai}
 
 Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do produto, com o assistente de conhecimento habilitado por IA disponível nas caixas de ajuda contextual do produto.
 
