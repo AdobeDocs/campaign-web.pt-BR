@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
+source-git-commit: 52b41f27da9c43c935c5a33c3f836b0030941dbd
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
@@ -39,14 +39,14 @@ Você pode usar filtros incorporados existentes para acessar um subconjunto espe
 >title="Criar um filtro predefinido"
 >abstract="Insira um rótulo para o filtro predefinido e selecione a tabela à qual ele se aplica. Abra as opções adicionais para adicionar uma descrição e definir este filtro como favorito. Em seguida, use o botão &quot;Criar regra&quot; para definir as condições de filtragem."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Criar as regras de filtro predefinidas"
 >abstract="Para definir as condições de filtragem do filtro personalizado, clique no botão &quot;Criar regra&quot;."
 
+### Criar um filtro no construtor de regras {#create-from-rule-builder}
 
-Para salvar um filtro personalizado no construtor de regras, siga as etapas abaixo:
+É possível salvar um filtro personalizado no construtor de regras para disponibilizá-lo para uso futuro. Siga estas etapas:
 
 1. Abra o construtor de regras e defina as condições de filtragem. No exemplo abaixo, você filtra os recipients que vivem em Madri.
 1. Clique em **Selecionar ou salvar filtro** e selecione **Salvar como filtro**.
@@ -57,28 +57,40 @@ Para salvar um filtro personalizado no construtor de regras, siga as etapas abai
 
    ![](assets/predefined-filters-save-filter.png)
 
-1. (opcional) Ativar a variável **Salvar como favorito** se quiser ver esse filtro predefinido nos favoritos.
-
-
-   Quando um filtro é salvo como favorito, ele fica disponível para todos os usuários na **Filtros favoritos** da lista de criação de filtros, conforme mostrado abaixo:
-
-   ![](assets/predefined-filters-favorite.png)
-
+   Você pode salvar o filtro como um favorito, se necessário. Saiba mais [nesta seção](#fav-filter).
 
 1. Clique em **Confirmar o** para salvar as alterações.
 
 Seu filtro personalizado agora está disponível no **Filtros predefinidos** e acessível a todos os usuários do Campaign.
 
-Também é possível criar um filtro na variável **Filtros predefinidos** no menu esquerdo. Para fazer isso, siga as etapas abaixo:
+
+### Criar um filtro na lista de filtros {#create-filter-from-list}
+
+
+Você pode criar um filtro nas **Filtros predefinidos** no menu esquerdo. Para fazer isso, siga as etapas abaixo:
 
 1. Navegue pelo **Filtros predefinidos** no menu esquerdo.
 1. Clique em **Criar filtro** botão.
 1. Insira o nome do filtro e, no campo **Tipo de documento** selecione o schema ao qual se aplica. O esquema padrão é `Recipients(nms)`.
+
+   Você pode salvar o filtro como um favorito, se necessário. Saiba mais [nesta seção](#fav-filter).
+
 1. Defina a regra para o filtro. Por exemplo, perfis com mais de 30 anos.
 
    ![](assets/filter-30+.png)
 
 1. Salve as alterações. O filtro é adicionado à lista de filtros predefinidos.
+
+
+## Salvar seu filtro como favorito {#fav-filter}
+
+Ao criar um filtro predefinido, você pode ativar a variável **Salvar como favorito** se quiser ver esse filtro predefinido nos favoritos.
+
+
+Quando um filtro é salvo como favorito, ele fica disponível para todos os usuários na **Filtros favoritos** da lista de criação de filtros, conforme mostrado abaixo:
+
+![](assets/predefined-filters-favorite.png)
+
 
 ## Usar um filtro predefinido {#use-predefined-filter}
 
@@ -86,7 +98,7 @@ Filtros predefinidos estão disponíveis ao definir propriedades de regra. Para 
 
 Em seguida, você pode acessar a lista completa de filtros predefinidos disponíveis para o contexto atual.
 
-Também é possível usar os atalhos de filtro disponíveis no **Filtros favoritos** seção do menu suspenso.
+Também é possível usar os atalhos de filtro disponíveis no **Filtros favoritos** seção do menu suspenso. Saiba mais sobre favoritos em [nesta seção](#fav-filter).
 
 Por exemplo, para criar um público-alvo a partir de um filtro predefinido, siga estas etapas:
 
@@ -125,7 +137,7 @@ Nessa lista, é possível criar um novo filtro conforme detalhado acima e:
 * duplicar um filtro predefinido
 * excluir um filtro predefinido
 
-Você pode adicionar um filtro predefinido como um favorito para obter acesso rápido ao criar suas regras. Esse recurso está descrito na seção [nesta seção](#create-predefined-filter).
+Você pode adicionar um filtro predefinido como um favorito para obter acesso rápido ao criar suas regras. Saiba mais [nesta seção](#fav-filter).
 
 ## Filtros predefinidos embutidos {#ootb-predefined-filter}
 
