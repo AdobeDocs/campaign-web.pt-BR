@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ Filtros predefinidos são filtros personalizados que são criados e salvos para 
 
 Você pode usar filtros incorporados existentes para acessar um subconjunto específico de seus dados ou criar seus próprios filtros predefinidos e salvá-los.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Criar um filtro predefinido {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ Você pode usar filtros incorporados existentes para acessar um subconjunto espe
 >title="Criar um filtro predefinido"
 >abstract="Insira um rótulo para o filtro predefinido e selecione a tabela à qual ele se aplica. Abra as opções adicionais para adicionar uma descrição e definir este filtro como favorito. Em seguida, use o botão &quot;Criar regra&quot; para definir as condições de filtragem."
 
-Ao criar um filtro com o construtor de regras, você pode salvá-lo para uso futuro. Quando salvo como um filtro personalizado, ele estará disponível para uso futuro. Você também pode criar e editar um filtro predefinido no menu dedicado na navegação à esquerda.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Criar as regras de filtro predefinidas"
+>abstract="Para definir as condições de filtragem do filtro personalizado, clique no botão &quot;Criar regra&quot;."
+
 
 Para salvar um filtro personalizado no construtor de regras, siga as etapas abaixo:
 
@@ -83,7 +88,6 @@ Em seguida, você pode acessar a lista completa de filtros predefinidos disponí
 
 Também é possível usar os atalhos de filtro disponíveis no **Filtros favoritos** seção do menu suspenso.
 
-
 Por exemplo, para criar um público-alvo a partir de um filtro predefinido, siga estas etapas:
 
 1. Navegue pelo **Públicos-alvo** no menu esquerdo.
@@ -120,6 +124,8 @@ Nessa lista, é possível criar um novo filtro conforme detalhado acima e:
 * editar um filtro existente e alterar suas regras e propriedades
 * duplicar um filtro predefinido
 * excluir um filtro predefinido
+
+Você pode adicionar um filtro predefinido como um favorito para obter acesso rápido ao criar suas regras. Esse recurso está descrito na seção [nesta seção](#create-predefined-filter).
 
 ## Filtros predefinidos embutidos {#ootb-predefined-filter}
 
