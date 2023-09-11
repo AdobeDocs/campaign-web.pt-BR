@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
+source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 0%
+source-wordcount: '712'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,9 @@ ht-degree: 0%
 >title="Filtros predefinidos"
 >abstract="O Campaign Web agora oferece uma interface simples para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro."
 
-Os filtros predefinidos são filtros personalizados que estão disponíveis para uso futuro. Eles podem ser usados como atalhos durante operações de filtragem com o construtor de regras. Você pode usar filtros incorporados existentes para acessar um subconjunto específico de seus dados ou criar seu próprio filtro predefinido.
+Filtros predefinidos são filtros personalizados que são criados e salvos para estarem disponíveis para uso futuro. Eles podem ser usados como atalhos durante qualquer operação de filtragem com o construtor de regras, por exemplo, ao filtrar uma lista de dados ou criar o público-alvo de um delivery.
+
+Você pode usar filtros incorporados existentes para acessar um subconjunto específico de seus dados ou criar seus próprios filtros predefinidos e salvá-los.
 
 
 ## Criar um filtro predefinido {#create-predefined-filter}
@@ -52,18 +54,73 @@ Para salvar um filtro personalizado no construtor de regras, siga as etapas abai
 
 1. (opcional) Ativar a variável **Salvar como favorito** se quiser ver esse filtro predefinido nos favoritos.
 
+
+   Quando um filtro é salvo como favorito, ele fica disponível para todos os usuários na **Filtros favoritos** da lista de criação de filtros, conforme mostrado abaixo:
+
    ![](assets/predefined-filters-favorite.png)
+
 
 1. Clique em **Confirmar o** para salvar as alterações.
 
 Seu filtro personalizado agora está disponível no **Filtros predefinidos** e acessível a todos os usuários do Campaign.
 
+Também é possível criar um filtro na variável **Filtros predefinidos** no menu esquerdo. Para fazer isso, siga as etapas abaixo:
+
+1. Navegue pelo **Filtros predefinidos** no menu esquerdo.
+1. Clique em **Criar filtro** botão.
+1. Insira o nome do filtro e, no campo **Tipo de documento** selecione o schema ao qual se aplica. O esquema padrão é `Recipients(nms)`.
+1. Defina a regra para o filtro. Por exemplo, perfis com mais de 30 anos.
+
+   ![](assets/filter-30+.png)
+
+1. Salve as alterações. O filtro é adicionado à lista de filtros predefinidos.
 
 ## Usar um filtro predefinido {#use-predefined-filter}
 
+Filtros predefinidos estão disponíveis ao definir propriedades de regra. Para acessar filtros predefinidos, escolha a **Selecionar filtro personalizado** opção na lista suspensa do construtor de regras.
 
+Em seguida, você pode acessar a lista completa de filtros predefinidos disponíveis para o contexto atual.
+
+Também é possível usar os atalhos de filtro disponíveis no **Filtros favoritos** seção do menu suspenso.
+
+
+Por exemplo, para criar um público-alvo a partir de um filtro predefinido, siga estas etapas:
+
+1. Navegue pelo **Públicos-alvo** no menu esquerdo.
+1. Clique em **Criar público-alvo** botão.
+1. Insira o nome do público-alvo e clique no ícone **Criar público-alvo** botão.
+1. Selecione o **Query** atividade e, no painel direito, clique em **Criar público** botão.
+
+   ![](assets//build-audience-from-filter.png)
+
+1. No **Botão Selecionar ou salvar filtro**, escolha o **Selecionar filtro personalizado** opção.
+
+   ![](assets/build-audience-select-custom-filter.png)
+
+1. Navegue até o filtro predefinido que será usado para criar o público-alvo, selecione-o e confirme.
+
+   ![](assets/build-audience-filter-list.png)
+
+1. Verifique as propriedades da regra desse filtro e confirme.
+
+   ![](assets/build-audience-check.png)
+
+   Agora o filtro é usado como uma consulta no **Query** atividade.
+
+   ![](assets/build-audience-confirm.png)
+
+1. Salve as alterações e clique no link **Início** botão para criar o público-alvo e disponibilizá-lo na lista de públicos-alvo.
 
 ## Gerenciar filtros predefinidos {#manage-predefined-filter}
 
+Filtros predefinidos são todos agrupados na entrada dedicada do menu de navegação esquerdo.
+
+Nessa lista, é possível criar um novo filtro conforme detalhado acima e:
+
+* editar um filtro existente e alterar suas regras e propriedades
+* duplicar um filtro predefinido
+* excluir um filtro predefinido
 
 ## Filtros predefinidos embutidos {#ootb-predefined-filter}
+
+O Campaign vem com um conjunto de filtros predefinidos, criados no console do cliente. Esses filtros podem ser usados para definir públicos e regras. Eles não devem ser modificados.
