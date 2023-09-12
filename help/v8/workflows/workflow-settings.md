@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 34%
+source-wordcount: '907'
+ht-degree: 32%
 
 ---
 
@@ -35,7 +35,13 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 * **[!UICONTROL Pasta]**: a pasta onde o fluxo de trabalho deve ser salvo.
 * **[!UICONTROL Campanha vinculada]**: este campo é exibido se o workflow foi criado em uma campanha. Ele permite abrir a campanha associada.
 * **[!UICONTROL Fuso horário]**: defina um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do fluxo de trabalho é aquele definido para o operador atual do Campaign.
-* **[!UICONTROL Supervisor(es)]**: quando um workflow está com erro, os operadores pertencentes ao grupo de supervisão do workflow são notificados por email, desde que seu endereço de email esteja listado em seu perfil.
+Outros valores possíveis são:
+   * **Fuso horário do servidor** para usar o fuso horário do servidor de aplicativos Adobe Campaign
+   * **Fuso horário do operador** para usa o fuso horário do operador do Adobe Campaign que executa o fluxo de trabalho, conforme definido no perfil do operador, no console do cliente
+   * **Fuso horário do banco de dados** para usar o fuso horário do servidor de banco de dados
+   * Um fuso horário específico
+
+* **[!UICONTROL Supervisor(es)]**: quando um workflow falha, os operadores pertencentes ao grupo de operadores selecionado neste campo são notificados por email.
 * **[!UICONTROL Descrição]**: use esse campo para fornecer uma descrição do fluxo de trabalho.
 
 ## Configurações de segmentação
