@@ -4,10 +4,10 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 62%
+source-wordcount: '442'
+ht-degree: 50%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 62%
 >
 >* Não é possível usar [grupos de controle](control-group.md) ao carregar a população alvo a partir de um arquivo externo.
 
+## Fazer upload do arquivo {#upload}
 
 Para direcionar perfis de um arquivo local diretamente da interface de email, siga estas etapas:
 
@@ -54,6 +55,22 @@ Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do
 
 ![](assets/select-external-perso.png)
 
+## Pré-visualizar e testar seu email {#test}
+
+O Campaign Web permite visualizar e enviar emails de teste ao usar um público-alvo carregado de um arquivo. Para fazer isso, siga estes passos:
+
+1. Simular conteúdo
+1. Abre a visualização. Clique em selecionar perfil(is): selecione os perfis no arquivo a ser usado
+1. para enviar email de teste, clique em testar
+1. modo de teste: definir o target das provas
+1. Fazer upload do target do email de teste de um segundo arquivo (ou usar o mesmo). a formatação do arquivo segue a mesma do arquivo carregado
+1. Verificações realizadas no formato de arquivo
+1. clique em enviar
+
++ link para visualizar e testar a seção
+
+**perguntas:**
+* nenhuma substituição do arquivo disponível?
 
 ## Arquivo de amostra {#sample-file}
 
