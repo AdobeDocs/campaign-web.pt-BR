@@ -4,10 +4,10 @@ title: Relatórios de entrega
 description: Saiba como acessar e usar relatórios de entrega
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 9c8677038dcf91a7476da4c09ba5ae22c26f2822
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,8 @@ Para exibir os relatórios, siga estas etapas:
 
    ![](assets/reporting.png)
 
+1. Se o delivery for recorrente, é possível selecionar um delivery específico para relatar clicando em **[!UICONTROL Selecionar deliveries]**.
 
+   Você também pode aplicar um período de tempo ao seu relatório selecionando o **[!UICONTROL Data de contato]**.
+
+   ![](assets/delivery-recurring.png)
