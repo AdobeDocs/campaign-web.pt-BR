@@ -4,7 +4,7 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 12%
@@ -68,8 +68,6 @@ As datas de início e término são exibidas na lista de campanhas e podem ser u
 >[!NOTE]
 >
 >Você sempre pode modificar essas propriedades posteriormente, no **Definir configurações da campanha** ícone, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard).
-
-
 
 Quando a data é atingida, os deliveries criados nessa campanha no contexto de um workflow que estão prontos para serem enviados são realmente enviados. Para isso, o workflow deve ter sido iniciado.
 
