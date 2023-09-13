@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
@@ -24,7 +24,7 @@ A variável **[!UICONTROL Fluxos de trabalho]** permite acessar a lista completa
 
 Cada workflow na lista exibe informações sobre seu workflow atual [status](#status), a última vez que foi executada ou modificada e a data e hora da próxima execução programada.
 
-É possível personalizar as colunas exibidas clicando no ícone **[!UICONTROL Configurar coluna para layout personalizado]** ícone localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista, como a última atividade com erro para cada workflow ou o targeting dimension aplicado.
+É possível personalizar as colunas exibidas clicando no ícone **[!UICONTROL Configurar coluna para um layout personalizado]** localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista, como a última atividade com erro para cada workflow ou o targeting dimension aplicado.
 
 Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. Por exemplo, você pode filtrar os workflows para exibir apenas aqueles pertencentes a uma campanha ou aqueles processados durante um intervalo de datas específico.
 
