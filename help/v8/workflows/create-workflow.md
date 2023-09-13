@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar um fluxo de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: a3cc0a65d6016c28cfe65b025bb971245720b181
+source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 6%
+source-wordcount: '693'
+ht-degree: 7%
 
 ---
 
@@ -64,6 +64,12 @@ Para criar um template de workflow a partir de um workflow existente, siga estas
 1. Na janela pop-up, confirme a criação do template.
 1. Na tela do modelo de fluxo de trabalho, marque, adicione e configure as atividades conforme necessário.
 1. Navegue até as configurações para alterar o nome do modelo de fluxo de trabalho e insira uma descrição.
+1. Selecione a pasta e a pasta de execução do modelo. A pasta é o local onde o modelo de fluxo de trabalho é salvo. A pasta de execução é a pasta onde os workflows criados com base nesse template são salvos.
+
+   ![](assets/wf-settings-template.png)
+
+   As outras propriedades são comuns a workflows. Saiba mais [nesta página](workflow-settings.md#properties)
+
 1. Salve as alterações.
 
 O template de workflow agora está disponível na lista de templates. Você pode criar um workflow com base nesse template. Esse workflow será pré-configurado com as configurações e atividades definidas no template.
@@ -79,9 +85,9 @@ Para criar um template de workflow do zero, siga estas etapas:
 1. Insira o rótulo e abra as opções adicionais para inserir uma descrição do template de workflow.
 1. Selecione a pasta e a pasta de execução do modelo. A pasta é o local onde o modelo de fluxo de trabalho é salvo. A pasta de execução é a pasta onde os workflows criados com base nesse template são salvos.
 
-   As outras propriedades são comuns a workflows. Saiba mais [nesta página](workflow-settings.md#properties)
-
    ![](assets/new-wf-template.png)
+
+   As outras propriedades são comuns a workflows. Saiba mais [nesta página](workflow-settings.md#properties)
 
 1. Clique em **Criar** botão para confirmar as configurações.
 1. Na tela do modelo de fluxo de trabalho, adicione e configure as atividades conforme necessário.
