@@ -3,11 +3,11 @@ audience: end-user
 title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alfa"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 90%
+source-wordcount: '1758'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >title="Conheça a interface"
 >abstract="A nova interface da Campaign Web v8 oferece ao usuário uma experiência integrada, intuitiva e consistente."
 
-A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. Essa nova interface é integrada à Adobe Experience Platform.
+A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. Essa nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 
 * **Ofertas**: navegue pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
 
-Saiba como criar e gerenciar ofertas na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
+Saiba como criar e enviar ofertas por email e SMS no [nesta seção](../content/offers.md).
 
 ## Barra superior
 
 Use a barra superior da interface para:
 
-* compartilhar seu feedback como um testador Alfa
+* compartilhar seu feedback como testador beta
 * alternar entre organizações e instâncias
 * alternar entre os aplicativos da Adobe Experience Cloud
 * acessar páginas de ajuda, entrar em contato com o suporte e compartilhar feedback. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.

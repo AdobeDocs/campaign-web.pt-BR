@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 70%
+source-wordcount: '895'
+ht-degree: 71%
 
 ---
 
@@ -77,18 +77,18 @@ Use a nova interface do Campaign Web para:
 
 * Gerenciamento de filtro predefinido
 
-  Introdução Ao Gerenciamento De Filtros Predefinidos. A interface da Web do Campaign agora oferece uma interface fácil de usar para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro. [Saiba mais](../personalization/predefined-filters.md)
+  Introdução Ao Gerenciamento De Filtros Predefinidos. A interface da Web do Campaign agora oferece uma interface fácil de usar para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro. [Saiba mais](predefined-filters.md)
 
 
 * Público-alvo
 
   Criar um público-alvo de entrega nunca foi tão fácil. Com nosso construtor de regras mais recente, agora é possível definir critérios de filtragem para destinatários ou qualquer outro targeting dimension do banco de dados. Além disso, você pode aproveitar seu público-alvo da AEP (Adobe Experience Platform) para refinar ainda mais seu público-alvo e maximizar o impacto da campanha.
 
-* Ofertas com SMS e Push
+* Ofertas com SMS
 
-  A nova interface da Web agora permite integrar ofertas com SMS e notificações por push, além de email. Alcance seu público em seus dispositivos móveis, fornecendo promoções e notificações oportunas.
+  A nova interface da Web agora permite integrar ofertas com SMS, além de email. Alcance seu público em seus dispositivos móveis, fornecendo promoções e notificações oportunas.
 
-  Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS e notificações por push em nossa plataforma avançada de Web.
+  Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada de Web.
 
 <!--
 * Adobe Experience Manager (AEM) Integration
