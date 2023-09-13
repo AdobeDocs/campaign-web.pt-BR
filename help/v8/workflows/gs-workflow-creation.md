@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 62%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 Com o Campaign v8 Web, é possível criar workflows em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 
-Os workflows podem ser criados como workflows independentes, no menu Workflows, ou diretamente em uma campanha. Nesse último caso, o workflow será vinculado à campanha e executado junto com todos os outros workflows da campanha.
+Os workflows podem ser criados como workflows independentes, a partir do **Fluxos de trabalho** ou diretamente em uma campanha, nesse caso, o workflow será vinculado à campanha e executado junto com todos os workflows da outra campanha.
 
-## O que há dentro de um workflow?
+## O que há dentro de um workflow? {#gs-workflow-inside}
 
 O diagrama de workflow é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
@@ -34,8 +34,16 @@ Cada workflow contém:
 
 * **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada fluxo de trabalho usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante o ciclo de vida do workflow.
 
-## Etapas principais para criar um fluxo de trabalho
+## Etapas principais para criar um fluxo de trabalho {#gs-workflow-steps}
 
 As principais etapas para criar workflows são as seguintes:
 
 ![](assets/workflow-creation-process.png)
+
+Essas etapas estão detalhadas na seguinte seção:
+
+1. [Criar o fluxo de trabalho e definir suas propriedades](create-workflow.md)
+1. [Orquestrar e configurar atividades](orchestrate-activities.md)
+1. [Definir as configurações avançadas de fluxo de trabalho](workflow-settings.md)
+1. [Inicie o fluxo de trabalho e monitore sua execução](start-monitor-workflows.md)
+

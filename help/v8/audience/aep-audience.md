@@ -4,10 +4,10 @@ title: Usar um público da Adobe Experience Platform
 description: Saiba como usar um público da Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 39%
+source-wordcount: '290'
+ht-degree: 37%
 
 ---
 
@@ -19,8 +19,7 @@ Depois de criar um público-alvo do Adobe Experience Platform e disponibilizá-l
 
 >[!NOTE]
 >
->Para usar os públicos da Adobe Experience Platform no Campaign, você precisa configurar a integração com Fontes e Destinos do Adobe. Consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR){target="_blank"}.
-
+>Para usar os públicos da Adobe Experience Platform no Campaign, você precisa configurar a integração com Fontes e Destinos do Adobe. Consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 Para selecionar o público de um delivery, você também pode:
 
