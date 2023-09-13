@@ -4,10 +4,10 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 95%
+source-wordcount: '1300'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="Uma entrega é uma comunicação de marketing enviada para um público em um canal específico: email, SMS ou Notificação por push. Na sua lista de deliveries, você pode editar deliveries existentes e verificar o status, as datas de contato e de modificação, os KPIs. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione um delivery para visualizar seu conteúdo, cronograma, público-alvo e detalhes."
+>abstract="Uma entrega é uma comunicação de marketing enviada para um público-alvo por meio de um canal específico: email, SMS ou notificação por push. Na lista de entregas, é possível editar as entregas existentes e verificar seu status, datas de contato e modificação e KPIs. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione uma entrega para visualizar seu conteúdo, programação, público-alvo e detalhes."
 
 
 Com o Adobe Campaign, e possível enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
@@ -82,7 +82,7 @@ Para criar uma entrega independente, siga estas etapas:
 
 1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. Saiba mais sobre públicos-alvo [nesta seção](../audience/about-audiences.md).
 1. Definir o conteúdo da mensagem.
-1. (opcional) Defina a programação da entrega. Se nenhuma programação for definida, as mensagens serão enviadas imediatamente após clicar no botão **[!UICONTROL Enviar]**.
+1. (opcional) Definir o delivery [programação](#gs-schedule). Se nenhuma programação for definida, as mensagens serão enviadas imediatamente após clicar no botão **[!UICONTROL Enviar]**.
 1. Clique no botão  **[!UICONTROL Revisar e enviar]** para verificar suas configurações.
 1. Use o botão **[!UICONTROL Simular conteúdo]** para testar a entrega e as configurações de personalização. Saiba mais simulação de mensagens [nesta seção](../preview-test/preview-test.md).
 1. Clique no botão **[!UICONTROL Preparar]** para calcular o público-alvo e gerar as mensagens. A etapa de preparação pode levar alguns minutos. Quando a preparação estiver concluída, as mensagens estarão prontas para envio. Em caso de erro, navegue até os **Logs** para verificar os alertas e avisos.
@@ -144,8 +144,24 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 Depois que o conteúdo da mensagem for definido, você poderá visualizá-lo para controlar a renderização das mensagens e verificar as configurações de personalização com perfis de teste. [Saiba mais](../preview-test/preview-test.md)
 
+## Agendar o envio do delivery {#gs-schedule}
 
-## Logs de rastreamento e monitoramento{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Agendar o envio"
+>abstract="Defina a data e a hora exata para enviar mensagens. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
+
+Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura.
+
+Para agendar o envio de um delivery, abra o delivery e navegue até o **Agendar** seção. Use o **[!UICONTROL Ativar agendamento]** para ativá-la, e defina a data e a hora desejadas para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
+
+![](assets/schedule.png)
+
+Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Essa opção exige que você confirme o envio antes que o delivery seja enviado na data e hora programadas. Se você precisar enviar o delivery automaticamente na data e hora agendadas, desabilite essa opção.
+
+Saiba mais sobre as etapas para enviar um delivery agendado no [nesta seção](../monitor/prepare-send.md#schedule-the-send).
+
+## Logs de rastreamento e monitoramento {#gs-tracking-logs}
 
 O monitoramento de entregas após o envio é uma etapa essencial para garantir que as campanhas de marketing sejam eficientes e atinjam os clientes.
 

@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 85%
+source-wordcount: '1224'
+ht-degree: 87%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Gerar IA para conteúdo de email"
->abstract="Nossa tecnologia Gen AI utiliza algoritmos avançados para gerar conteúdo altamente envolvente e personalizado. Impulsione taxas de abertura, taxas de click-through e conversões mais altas com a geração de conteúdo inteligente da Gen AI. Mantenha-se à frente da concorrência e eleve seu jogo de marketing por email com a Gen AI sobre conteúdo de email."
+>title="IA generativa para conteúdo de email"
+>abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email."
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
@@ -131,16 +131,11 @@ Nesse caso de uso, você enviará o email para um público existente. Instruçõ
 
 ## Agendar o envio {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Agendar o envio"
->abstract="Defina a data e a hora exata do envio. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
-
-Para agendar o envio do email, abra a entrega do email e navegue até a seção **Agendar**. Use o botão de alternância **[!UICONTROL Habilitar programação]** para ativá-la e defina a data e a hora desejada para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
-
-Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Essa opção exige que você confirme o envio antes que o email seja enviado na data e hora programadas. Se precisar enviar o email automaticamente na data e hora programadas, desabilite essa opção.
+Para agendar o envio do email, abra a entrega do email e navegue até a seção **Agendar.**
 
 ![](assets/schedule.png)
+
+Saiba como agendar o envio do delivery [nesta seção](../msg/gs-messages.md#gs-schedule)
 
 ## Visualizar e testar o email {#preview-test}
 

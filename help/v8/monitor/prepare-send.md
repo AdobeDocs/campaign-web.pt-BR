@@ -4,7 +4,7 @@ title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 50%
@@ -35,7 +35,7 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
    >[!NOTE]
    >
-   >Se você tiver programado o delivery e desativado a variável **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../email/create-email.md#schedule)
+   >Se você tiver programado o delivery e desativado a variável **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-messages.md#gs-schedule)
 
 1. O progresso da preparação é exibido. Dependendo do tamanho do público-alvo, essa operação pode levar algum tempo.
 
@@ -87,7 +87,7 @@ Assim que a preparação estiver concluída sem erros, sua mensagem estará pron
 
 Quando a variável [preparação](#prepare) estiver concluído, agora você pode enviar seu email.
 
-Se a mensagem estiver programada, ela será enviada na data e hora definidas. [Saiba mais](#schedule-the-send)
+Se a mensagem estiver programada, ela será enviada na data e hora definidas. [Saiba mais](../msg/gs-messages.md#gs-schedule)
 
 ### Enviar imediatamente {#send-immediately}
 
@@ -105,7 +105,7 @@ Para enviar um email imediatamente, siga as etapas abaixo.
 
 Se você programou seu email para enviá-lo em data e hora posteriores, siga as etapas abaixo.
 
-1. Antes de clicar em **[!UICONTROL Revisar e enviar]** , certifique-se de ter definido uma agenda para o seu email. [Saiba mais](../email/create-email.md#schedule)
+1. Antes de clicar em **[!UICONTROL Revisar e enviar]** , certifique-se de ter definido uma agenda para o seu email. [Saiba mais](../msg/gs-messages.md#gs-schedule)
 
 1. No painel de delivery, clique no link **[!UICONTROL Botão Enviar como agendado]** no canto superior direito.
 
@@ -115,7 +115,7 @@ Se você programou seu email para enviá-lo em data e hora posteriores, siga as 
 
    >[!NOTE]
    >
-   >Se você desativou o **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../email/create-email.md#schedule)
+   >Se você desativou o **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-messages.md#gs-schedule)
 
 ## Pausar ou parar o envio {#pause-stop-sending}
 
