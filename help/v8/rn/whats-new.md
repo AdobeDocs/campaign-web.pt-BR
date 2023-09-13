@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 50%
+source-wordcount: '903'
+ht-degree: 70%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 # Novidades {#new}
 
 
-Temos o prazer de apresentar a versão BETA da interface do usuário da Web do Adobe Campaign. Nossa versão mais recente contém recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais, gerar resultados excepcionais e oferecer uma vantagem competitiva em todos os canais.
+Temos o prazer de apresentar a versão BETA da interface do usuário da Web do Adobe Campaign. Nossa versão mais recente contém recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais.
 
 ## Versão Beta{#beta-release}
 
@@ -52,29 +52,27 @@ Use a nova interface do Campaign Web para:
 
 ## Atualizações mais recentes
 
-
 **Resumo da versão beta**
 
-* Habilitar composição de dados (federada) para Públicos-alvo e Personalização.
-* Utilizar a tecnologia de IA para aprimorar a geração de conteúdo de email.
-* Sincronizar ativos e modelos de HTML completo com perfeição.
-* Organize e gerencie com eficiência suas pastas e recursos.
-* Crie páginas de aterrissagem envolventes e eficientes.
-* Mais atividades de workflow: acesse atividades adicionais, como dimensão de alteração, desduplicação e deliveries recorrentes para aprimorar os workflows da campanha.
+* Habilitar composição de dados (federada) para Públicos-alvo e Personalização
+* Utilizar a tecnologia de IA para aprimorar a geração de conteúdo de e-mail
+* Sincronizar ativos e modelos completos de HTML
+* Organize e gerencie com eficiência suas pastas e seus recursos
+* Acesse atividades adicionais, como dimensão de alteração, desduplicação e deliveries recorrentes para aprimorar os workflows da campanha
 
 **Principais novos recursos**
 
 * Mais atividades de workflow do Campaign
 
-  Turbine suas campanhas de marketing com nosso conjunto expandido de atividades de workflow. Descubra novas possibilidades de automação e otimização, permitindo que você crie jornadas do cliente mais dinâmicas e personalizadas.
+  Turbine suas campanhas de marketing com nosso conjunto expandido de atividades de workflow. Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas.
 
-  Desde a segmentação avançada até acionadores condicionais, nossas atividades adicionais de fluxo de trabalho capacitam você a fornecer mensagens direcionadas e a impulsionar um melhor desempenho da campanha.
+  Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha.
 
 * Gerar IA para conteúdo de email
 
-  Diga adeus à criação manual de conteúdo e olá para campanhas eficientes orientadas por dados com o poder da Gen AI.  Nossa tecnologia Gen AI utiliza algoritmos avançados para gerar conteúdo altamente envolvente e personalizado. Impulsione taxas de abertura, taxas de click-through e conversões mais altas com a geração de conteúdo inteligente da Gen AI.
+  Diga adeus à criação manual de conteúdo e olá para campanhas eficientes orientadas por dados com o poder da Gen AI.  Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa.
 
-  Mantenha-se à frente da concorrência e eleve seu jogo de marketing por email com a Gen AI sobre conteúdo de email.
+  Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email.
 
 
 * Gerenciamento de filtro predefinido
@@ -84,7 +82,7 @@ Use a nova interface do Campaign Web para:
 
 * Público-alvo
 
-  Criar um público-alvo de entrega nunca foi tão fácil! Com o construtor de regras mais recente, agora é possível definir critérios de filtragem para recipients ou qualquer outro targeting dimension do banco de dados. Além disso, você pode aproveitar seu público-alvo da AEP (Adobe Experience Platform) para refinar ainda mais seu público-alvo e maximizar o impacto da campanha.
+  Criar um público-alvo de entrega nunca foi tão fácil. Com nosso construtor de regras mais recente, agora é possível definir critérios de filtragem para destinatários ou qualquer outro targeting dimension do banco de dados. Além disso, você pode aproveitar seu público-alvo da AEP (Adobe Experience Platform) para refinar ainda mais seu público-alvo e maximizar o impacto da campanha.
 
 * Ofertas com SMS e Push
 
@@ -92,11 +90,14 @@ Use a nova interface do Campaign Web para:
 
   Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS e notificações por push em nossa plataforma avançada de Web.
 
-* Integração do Adobe Experience Manager (AEM)
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  Com nossa integração com o AEM estendida para a interface da Web, você pode gerenciar ativos facilmente e sincronizar modelos completos de HTML, permitindo criar experiências digitais envolventes sem qualquer problema.
-
-  Elevar e simplificar seus recursos de gerenciamento de conteúdo na interface da Web com essa integração para aumentar a produtividade.
 
 ## Transição para a interface do Campaign Web
 
