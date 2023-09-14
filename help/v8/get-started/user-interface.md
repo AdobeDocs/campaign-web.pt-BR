@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 88%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Selecione pelo menos duas entregas para exibir um relatório de dados agregado."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="Configurações de desduplicação"
->abstract="A confirmar"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="Complemento de desduplicação"
->abstract="A confirmar"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permissão necessária"
 >abstract="Seu administrador precisa lhe conceder permissão para que você possa criar um segmento."
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Permissão necessária"
 >abstract="Seu administrador precisa lhe conceder permissão para que você possa criar um segmento."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Esta entrega é somente de leitura"
 >abstract="Você não tem permissões para editar esta entrega. Se necessário, entre em contato com o administrador para obter acesso."
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Este serviço é somente de leitura."
->abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com o administrador para obter acesso."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Este público-alvo é somente leitura"
->abstract="Você não tem permissão para editar este público-alvo. Se necessário, entre em contato com o administrador para obter acesso."
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de workflow"
 >abstract="Lista de workflows disponíveis para sua campanha. Use o botão “Criar workflow” para adicionar um workflow à campanha."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Transição de saída para salvar o público-alvo"
->abstract="a confirmar"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Salvar um público-alvo"
->abstract="Use esta atividade para salvar o público-alvo do fluxo de trabalho."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"

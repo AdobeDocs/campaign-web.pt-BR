@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Salvar público
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 13%
+source-wordcount: '17'
+ht-degree: 64%
 
 ---
 
@@ -15,41 +15,60 @@ ht-degree: 13%
 
 <!--
 >[!CONTEXTUALHELP]
->id="???"
->title="Save audience activity"
->abstract="The Save audience activity allows you to..."
--->
+>id="acw_orchestration_saveaudience_activity"
+>title="Save an audience"
+>abstract="Use this activity to save the workflow audience."
 
-A variável **Salvar público-alvo** a atividade é um **Direcionamento** atividade. Esta atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados por meio do **Públicos-alvo** menu.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Outbound transition for save audience"
+>abstract="tbc"
 
-Essa atividade é usada essencialmente para manter os grupos de populações computados no mesmo fluxo de trabalho, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma **Criar público-alvo** ou um **Combinar** atividade.
+Mode
+Audience label
+Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
+Update method
 
-## Configuração
+Replace audience with new data
 
-Siga estas etapas para configurar o **Salvar público-alvo** atividade:
+Complete audience with new data
+Folder
+Lists (/Profiles and Targets/Lists/)
 
-1. Adicionar um **Salvar público-alvo** atividade ao seu fluxo de trabalho.
+Generate an outbound transition
+
+
+The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
+
+This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
+
+## Configuration
+
+Follow these steps to configure the **Save audience** activity:
+
+1. Add a **Save audience** activity to your workflow.
 
    ![](../assets/workflow-save-audience.png)
 
-1. No **Modo** selecione a ação que deseja executar:
+1. In the **Mode** drop-down, select the action that you would like to carry out:
 
-   * **Criar ou atualizar um público existente**: definir um **Rótulo de público**. Se o público-alvo já existir, ele será atualizado, caso contrário, um novo público-alvo será criado.
+    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
 
-   * **Atualizar um público existente**: escolha a variável **Público** você deseja atualizar na lista de públicos-alvo existentes.
+    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
 
-1. Selecione o **Modo de atualização** que se aplicarão aos públicos-alvo existentes:
+1. Select the **Update mode** which will apply for existing audiences:
 
-   * **Substituir o conteúdo do público-alvo por novos dados**: todo o conteúdo do público-alvo é substituído. Os dados antigos são perdidos. Somente os dados da transição de entrada da atividade Save audience são mantidos. Essa opção apaga o tipo de público-alvo e o targeting dimension do público-alvo atualizado.
+    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
 
-   * **Público-alvo completo com novos dados**: o conteúdo antigo do público-alvo é mantido e os dados da transição de entrada da atividade Save audience são adicionados a ele.
+    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
 
-1. Marque a opção **Generate complement** se desejar explorar a população restante. Uma transição adicional será adicionada à atividade.
+1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
 
-O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no **Públicos-alvo** menu. As colunas disponíveis nessa visualização correspondem às da transição de entrada do fluxo de trabalho **Salvar público** atividade.
-
-
-## Exemplo
+The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
 
 
+## Example
 
+
+
+-->
