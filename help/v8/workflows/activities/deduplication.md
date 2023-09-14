@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 26%
@@ -26,7 +26,7 @@ Siga estas etapas para configurar o **Scheduler** atividade:
 
 1. Adicionar um **Desduplicação** atividade ao seu fluxo de trabalho.
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro.
 

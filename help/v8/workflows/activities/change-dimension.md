@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Alterar dimensão
 description: Saiba como usar a atividade de workflow de alteração de dimensão
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 13%
@@ -28,7 +28,7 @@ Siga estas etapas para configurar o **Alterar dimensão** atividade:
 
 1. Adicionar um **Alterar dimensão** atividade ao seu fluxo de trabalho.
 
-       &lt;!—![](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. Selecione a nova dimensão do target por meio do campo Change dimension.
 

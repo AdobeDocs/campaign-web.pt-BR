@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 22%
@@ -30,7 +30,7 @@ Siga estas etapas para configurar o **Scheduler** atividade:
 
 1. Adicionar um **Scheduler** atividade ao seu fluxo de trabalho.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Configure o **Frequência de execução**:
 
@@ -58,7 +58,7 @@ Siga estas etapas para configurar o **Scheduler** atividade:
 
 No exemplo a seguir, a atividade é configurada para iniciar o workflow várias vezes por dia às 9h e 12h, todos os dias da semana de 1º de outubro de 2023 a 1º de janeiro de 2024.
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 
