@@ -4,10 +4,10 @@ title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 34%
+source-wordcount: '201'
+ht-degree: 30%
 
 ---
 
@@ -39,3 +39,5 @@ Essas ações podem ser executadas usando o **[!UICONTROL Simular conteúdo]** q
 >[!NOTE]
 >
 >A simulação de conteúdo também está disponível no [resumo da entrega](../monitor/prepare-send.md) depois de clicar no link **[!UICONTROL Revisar e enviar]** botão.
+>
+>Se estiver direcionando um público-alvo carregado de um arquivo, consulte [nesta seção](../audience/file-audience.md#preview--test-your-email-test) para saber como visualizar e testar seu delivery.
