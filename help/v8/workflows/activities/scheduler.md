@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 22%
+source-wordcount: '367'
+ht-degree: 21%
 
 ---
 
@@ -55,6 +55,13 @@ Siga estas etapas para configurar o **Scheduler** atividade:
    * **Permanente (nunca expira)**: o fluxo de trabalho é executado de acordo com a frequência especificada, sem limites para o intervalo de tempo ou o número de iterações.
 
    * **Período de validade**: o fluxo de trabalho é executado de acordo com a frequência especificada, até uma data específica. É necessário especificar datas de início e término.
+
+>[!NOTE]
+>
+>Se quiser iniciar o workflow imediatamente, clique no link **Executar tarefa pendente** na barra de ação superior do scheduler. Esse botão só estará disponível quando você tiver iniciado o workflow.
+
+Observações:
+
 
 ## Exemplo
 
