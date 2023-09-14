@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 95%
+source-wordcount: '410'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 95%
             + [Adicionar um link para a mirror page](content/mirror-page.md)
             + [Adicionar um pré-cabeçalho](content/preheader.md)
             + [Gerar a versão de texto](content/text-version-email.md)
+         + Assistente de conteúdo {#content-assistant}
+            + [Geração de texto com o assistente de Conteúdo](content/generative-content.md)
+            + [Geração de imagem com o assistente de Conteúdo](content/generative-image.md)
+            + [Gerar um email com o assistente de Conteúdo](content/generative-email.md)
          + Estilizar o conteúdo {#style}
             + [Introdução ao estilo de email](content/get-started-email-style.md)
             + [Editar configurações de fundo](content/backgrounds.md)
