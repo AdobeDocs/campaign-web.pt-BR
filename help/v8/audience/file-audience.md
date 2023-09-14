@@ -4,10 +4,10 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 50%
+source-wordcount: '548'
+ht-degree: 40%
 
 ---
 
@@ -55,23 +55,6 @@ Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do
 
 ![](assets/select-external-perso.png)
 
-## Pré-visualizar e testar seu email {#test}
-
-O Campaign Web permite visualizar e enviar emails de teste ao usar um público-alvo carregado de um arquivo. Para fazer isso, siga estes passos:
-
-1. Simular conteúdo
-1. Abre a visualização. Clique em selecionar perfil(is): selecione os perfis no arquivo a ser usado
-1. para enviar email de teste, clique em testar
-1. modo de teste: definir o target das provas
-1. Fazer upload do target do email de teste de um segundo arquivo (ou usar o mesmo). a formatação do arquivo segue a mesma do arquivo carregado
-1. Verificações realizadas no formato de arquivo
-1. clique em enviar
-
-adicionar link à seção de visualização e teste
-
-**perguntas:**
-* nenhuma substituição do arquivo disponível?
-
 ## Arquivo de amostra {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Pré-visualizar e testar seu email {#test}
+
+O Campaign Web permite visualizar e enviar emails de teste ao usar um público-alvo carregado de um arquivo. Para fazer isso, siga estes passos:
+
+1. Clique em **[!UICONTROL Botão Simular conteúdo]** na tela de edição de conteúdo do delivery e clique no link **[!UICONTROL Adicionar perfil(s) de teste]** botão.
+
+1. Os perfis contidos no arquivo carregado são exibidos. Selecione os perfis que deseja usar para visualizar o conteúdo e clique em **[!UICONTROL Selecionar]**.
+
+1. Uma pré-visualização do conteúdo do delivery é exibida no painel direito da tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo. [Saiba mais sobre pré-visualização de conteúdo de delivery](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. Para enviar emails de teste, clique no link **[!UICONTROL Teste]** botão.
+
+1. Clique em **[!UICONTROL Carregar perfis de prova]** e selecione o arquivo .txt ou .csv que contém os recipients de prova.
+
+   >[!CAUTION]
+   >
+   >Verifique se o formato do arquivo corresponde ao usado para fazer upload do seu público-alvo. Quaisquer erros de formato exibirão um alerta.
+
+1. Quando os recipients da prova forem adicionados e você estiver pronto para enviar as provas, clique no link **[!UICONTROL Enviar email de teste]** e confirme o envio.
+
+   ![](assets/file-upload-test.png)
+
+1. É possível monitorar o envio do email de teste usando o botão Exibir log de email de teste a qualquer momento. [Saiba mais sobre o monitoramento de emails de teste](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
