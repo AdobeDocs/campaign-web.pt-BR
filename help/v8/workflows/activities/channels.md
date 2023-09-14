@@ -3,15 +3,15 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 97%
+source-wordcount: '495'
+ht-degree: 78%
 
 ---
 
 
-# Email, SMS, push {#channel}
+# Atividades de email, SMS, push {#channel}
 
 O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente.
 
@@ -19,7 +19,17 @@ Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui um
 
 Usando atividades do canal, você pode criar campanhas abrangentes e personalizadas que envolvem clientes em vários pontos de contato e impulsionam conversões.
 
-Estas são as etapas para adicionar uma atividade do **Canal** em um fluxo de trabalho:
+>[!NOTE]
+>
+>Também é possível criar um delivery de uma só vez, fora do contexto de um fluxo de trabalho da campanha. Saiba mais nestas seções:
+>* [Criar entrega de email independente](../../email/create-email.md
+>* [Criar entrega de SMS independente](../../sms/create-sms.md)
+>* [Criar entrega por push autônoma](../../push/create-push.md)
+>
+
+## Criar um delivery em um fluxo de trabalho de campanha{#create-a-delivery-in-a-workflow}
+
+Para criar um email, um SMS ou um delivery por push no contexto de um fluxo de trabalho da campanha, siga as etapas abaixo:
 
 1. Verifique se você adicionou uma atividade **Criar público-alvo**. O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
 
@@ -36,7 +46,7 @@ Estas são as etapas para adicionar uma atividade do **Canal** em um fluxo de tr
 
 1. Clique em **Criar entrega**. Defina as configurações e o conteúdo da mensagem da mesma maneira que você cria uma entrega independente. Também é possível agendar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md).
 
-1. Volte para o fluxo de trabalho e salve as alterações.
+1. Volte para o fluxo de trabalho. Escolha se deseja continuar o fluxo de trabalho **Gerar uma transição de saída** se quiser adicionar uma transição após a atividade de canal.
 
 1. Clique em **Iniciar** para iniciar o fluxo de trabalho.
 
@@ -46,7 +56,7 @@ Estas são as etapas para adicionar uma atividade do **Canal** em um fluxo de tr
 
 1. No painel de entrega, clique em **Enviar**.
 
-## Exemplo
+## Exemplo{#cross-channel-workflow-sample}
 
 Este é um exemplo de fluxo de trabalho entre canais com uma segmentação e duas entregas. O fluxo de trabalho tem como público-alvo todos os clientes que vivem em Paris e que estão interessados em máquinas de café. Entre essa população, um email é enviado aos clientes regulares e um SMS é enviado aos clientes VIP.
 

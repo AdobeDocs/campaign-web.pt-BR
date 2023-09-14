@@ -4,10 +4,10 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 91%
+source-wordcount: '1303'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 Com o Adobe Campaign, e possível enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
 
-Essas mensagens são projetadas e enviadas através de entregas, além disso podem ser personalizadas para cada destinatário. Essas entregas podem ser independentes ou incluídas no contexto de uma campanha de marketing.
+Essas mensagens são projetadas e enviadas através de entregas, além disso podem ser personalizadas para cada destinatário. Esses deliveries podem ser independentes ou incluídos em workflows no contexto de uma campanha de marketing.
 
 O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS e aplicativos móveis.
 
@@ -59,7 +59,6 @@ O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS e aplicat
 
 ## Criação de uma entrega {#create-delivery}
 
-
 É possível criar entregas independentes a partir do menu esquerdo **[!UICONTROL Entregas]**, ou criar entregas no contexto de uma campanha de marketing, no menu esquerdo **[!UICONTROL Campanhas]**.
 
 Navegue pelas guias abaixo para saber como criar uma entrega:
@@ -89,7 +88,7 @@ Para criar uma entrega independente, siga estas etapas:
 1. Verifique os resultados e clique no botão **[!UICONTROL Enviar]** para iniciar o envio das mensagens.
 1. Depois que as mensagens forem enviadas, navegue até a seção **Relatórios** para acessar as métricas principais. Saiba mais sobre relatórios de entrega [nesta seção](../reporting/delivery-reports.md).
 
->[!TAB Criação de uma entrega em uma campanha]
+>[!TAB Criar um delivery em um fluxo de trabalho de campanha]
 
 Para criar uma entrega em uma campanha, siga estas etapas:
 

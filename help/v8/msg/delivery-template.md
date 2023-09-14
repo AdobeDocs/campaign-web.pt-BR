@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 26%
+source-wordcount: '941'
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ Um modelo pode incluir:
 * Links para [mirror page](../content/mirror-page.md) e cancelar assinatura [links](../content/message-tracking.md)
 * Outras propriedades de entrega, como validade de recurso, parâmetros de nova tentativa ou configurações de quarentena.
 
-## Acessar e gerenciar modelos {#access-manage-templates}
+## Acessar e gerenciar modelos do delivery {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ Para excluir ou [duplicado](#copy-an-existing-template) um modelo, selecione a a
 >
 >Quando um template é editado ou excluído, os deliveries criados usando esse template não são afetados.
 
-## Criar um modelo {#create-a-delivery-template}
+## Criar um modelo da entrega {#create-a-delivery-template}
 
 Para criar um template do delivery, você pode:
 * Duplicação de um template existente - [Saiba mais](#copy-an-existing-template)
 * Converter um delivery existente em um template - [Saiba mais](#convert-an-existing-delivery)
 * Criar um template do delivery do zero - [Saiba mais](#create-a-new-template)
 
-### Duplicação de um modelo já existente {#copy-an-existing-template}
+### Duplicação de um template de delivery existente {#copy-an-existing-template}
 
 O Campaign vem com um conjunto de modelos integrados para cada canal: email, push, SMS. A maneira mais fácil de criar um modelo de entrega é duplicar e personalizar um modelo integrado.
 
@@ -120,7 +120,7 @@ Para salvar um delivery como template, siga as etapas abaixo:
 
 O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-templates). Agora você pode selecioná-lo ao criar uma nova entrega.
 
-### Criação de um novo modelo {#create-a-new-template}
+### Criar um novo modelo de entrega {#create-a-new-template}
 
 >[!NOTE]
 >
