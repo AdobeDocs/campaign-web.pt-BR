@@ -2,10 +2,10 @@
 title: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 description: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,48 @@ No console do cliente do Campaign, a variável **Enriquecimento** A atividade de
 
 ## Filtros predefinidos {#filters-guardrails-limitations}
 
-
 Ao selecionar o público de uma entrega ou ao criar um público em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis. Uma mensagem de erro específica é exibida. Você ainda pode usar a consulta e ver: a condição de filtragem e os resultados, mas não pode visualizar a consulta exata no construtor de regras e não pode editar o filtro.
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### Tipos de dados incompatíveis {#unsupported-data-type}
+
+Os seguintes tipos de dados disponíveis no console do cliente não são compatíveis ao exibir um filtro ou uma regra na interface da Web:
+
+* datetime
+* tempo
+* timespan
+* duplo
+* flutuante
+
+### Recursos de filtragem não compatíveis {#unsupported-filtering-capabilities}
+
+Quando um filtro é criado com expressões complexas e funções no console do cliente, ele não pode ser editado na interface da Web.
+
+Além disso, os seguintes operadores não são compatíveis:
+
+* Tipo numérico
+   * está incluído em
+   * não em
+
+* Tipo de string
+   * maior que
+   * menor que
+   * maior que ou igual a
+   * menor que ou igual a
+   * curtir
+   * não é como
+
+* Tipo de data
+   * em ou depois de
+   * em ou antes de
+   * não é igual
+   * está vazio
+   * não está vazio
+   * está incluído em
+   * não está em
+   * no(s) último(s)
+
+* Links 1-N
+   * CONTAGEM, SOMA, MÉDIA, MÍN, MAX

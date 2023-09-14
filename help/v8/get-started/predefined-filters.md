@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: ccae13b0105b0c662cb513bb12d7bc43a3881819
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 17%
@@ -89,7 +89,7 @@ Ao criar um filtro predefinido, você pode ativar a variável **Salvar como favo
 
 Quando um filtro é salvo como favorito, ele fica disponível para todos os usuários na **Filtros favoritos** da lista de criação de filtros, conforme mostrado abaixo:
 
-![](assets/predefined-filters-favorite.png)
+![](assets/predefined-filters-favorite.png){width="70%" align="left"}
 
 
 ## Usar um filtro predefinido {#use-predefined-filter}
