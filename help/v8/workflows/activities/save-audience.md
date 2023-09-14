@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Salvar público
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 14%
+source-wordcount: '333'
+ht-degree: 13%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 14%
 >title="Salvar atividade do público"
 >abstract="A atividade Save audience permite..."
 
-O rótulo do Público-alvo do modo Adobe Campaign vai compará-lo com os públicos-alvo existentes. Se encontrar uma correspondência, ela atualizará esse público-alvo; caso contrário, criará um novo público-alvo.
-Método de atualização
-
-Substituir público-alvo por novos dados
-
-Público-alvo completo com novos dados Listas da pasta (/Profiles and Targets/Lists/)
-
-Generate an outbound transition
-
-
 A variável **Salvar público-alvo** a atividade é um **Direcionamento** atividade. Esta atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados por meio do **Públicos-alvo** menu.
 
 Essa atividade é usada essencialmente para manter os grupos de populações computados no mesmo fluxo de trabalho, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma **Criar público-alvo** ou um **Combinar** atividade.
@@ -38,7 +28,7 @@ Siga estas etapas para configurar o **Salvar público-alvo** atividade:
 
 1. Adicionar um **Salvar público-alvo** atividade ao seu fluxo de trabalho.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. No **Modo** selecione a ação que deseja executar:
 
