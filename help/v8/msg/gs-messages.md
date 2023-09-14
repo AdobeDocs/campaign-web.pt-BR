@@ -4,10 +4,10 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 89%
+source-wordcount: '1289'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,10 @@ Para criar uma entrega independente, siga estas etapas:
 1. Verifique os resultados e clique no botão **[!UICONTROL Enviar]** para iniciar o envio das mensagens.
 1. Depois que as mensagens forem enviadas, navegue até a seção **Relatórios** para acessar as métricas principais. Saiba mais sobre relatórios de entrega [nesta seção](../reporting/delivery-reports.md).
 
->[!TAB Criar um delivery em um fluxo de trabalho de campanha]
+>[!TAB Criar um delivery em um workflow]
 
-Para criar uma entrega em uma campanha, siga estas etapas:
+Para criar um delivery em um workflow, siga estas etapas:
 
-1. Crie uma campanha ou abra uma já existente. Saiba mais sobre [campanhas de marketing](../campaigns/gs-campaigns.md).
 1. Crie um workflow ou abra um já existente.
 1. Adicione e configure uma atividade **[!UICONTROL Criar público-alvo]** e clique no botão `+`.
 
@@ -100,7 +99,7 @@ Para criar uma entrega em uma campanha, siga estas etapas:
 
    A atividade **[!UICONTROL Criar público-alvo]** está detalhada [nesta seção](../workflows/activities/build-audience.md).
 
-1. Selecione uma atividade de entrega: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades do canal de entrega em um workflow e como definir um conteúdo de entrega nesta [seção](../workflows/activities/about-activities.md#channel).
+1. Selecione uma atividade de entrega: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades do canal de entrega em um workflow e como definir um conteúdo de entrega nesta [seção](../workflows/activities/channels.md).
 1. Inicie o workflow e verifique os logs.
 
 Também é possível adicionar entregas em uma campanha sem criar um workflow. Para fazer isso, navegue até a guia **[!UICONTROL Entregas]** da campanha e clique no botão **[!UICONTROL Criar entrega]**.
