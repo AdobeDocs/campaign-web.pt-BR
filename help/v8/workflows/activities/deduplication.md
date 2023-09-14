@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 32%
+source-wordcount: '281'
+ht-degree: 26%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 32%
 >title="Bifurcação Bifurcação"
 >abstract="A atividade de desduplicação permite..."
 
-A atividade de Desduplicação permite excluir duplicados no(s) resultado(s) das atividades de entrada.
-
-A atividade de desduplicação é geralmente usada após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados.
+A variável **Desduplicação** a atividade é um **Direcionamento** atividade. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada. A variável **Desduplicação** A atividade é geralmente usada após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados.
 
 ## Configuração
 
 Siga estas etapas para configurar o **Scheduler** atividade:
 
 1. Adicionar um **Desduplicação** atividade ao seu fluxo de trabalho.
+
+   <!--![](../assets/workflow-deduplication.png)-->
 
 1. No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro.
 
@@ -48,3 +48,6 @@ Siga estas etapas para configurar o **Scheduler** atividade:
    * **Following a list of values**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão Add localizado acima da lista de valores. ++ Classificar
 
 1. Marque a opção **Generate complement** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
+
+## Exemplo
+

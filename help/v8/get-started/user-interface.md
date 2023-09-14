@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1752'
 ht-degree: 88%
 
 ---
@@ -223,11 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Selecione pelo menos duas entregas para exibir um relatório de dados agregado."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_fields"
->title="Campos de desduplicação"
->abstract="A confirmar"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Configurações de desduplicação"
 >abstract="A confirmar"
@@ -235,11 +230,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Complemento de desduplicação"
->abstract="A confirmar"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_dimension_complement"
->title="Complemento de dimensão"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
