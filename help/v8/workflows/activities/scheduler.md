@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 22%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 22%
 
 # Scheduler {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Atividade Scheduler"
->abstract="A atividade Scheduler permite..."
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow.
 

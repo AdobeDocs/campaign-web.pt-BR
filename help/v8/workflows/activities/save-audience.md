@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Salvar público
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '323'
 ht-degree: 13%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 13%
 
 # Salvar público {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="Salvar atividade do público"
->abstract="A atividade Save audience permite..."
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 A variável **Salvar público-alvo** a atividade é um **Direcionamento** atividade. Esta atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados por meio do **Públicos-alvo** menu.
 
