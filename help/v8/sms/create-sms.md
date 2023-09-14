@@ -4,7 +4,7 @@ title: Criar uma entrega de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 72%
@@ -28,7 +28,7 @@ ht-degree: 72%
 >title="Seleção de modelo de SMS"
 >abstract="Selecione um modelo predefinido para iniciar a entrega de SMS."
 
-Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de SMS independente (único). Se estiver trabalhando no contexto de um workflow de campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de SMS independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 Para criar um novo delivery de SMS independente, siga estas etapas:
