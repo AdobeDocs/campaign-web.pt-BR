@@ -3,9 +3,9 @@ audience: end-user
 title: Criar públicos
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
+source-git-commit: 1b17dcbdaadcbf45b2c26d9099e6d139143d253c
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 1%
 O Campaign Web permite criar fluxos de trabalho em que você pode combinar públicos existentes em uma tela visual. Ao incorporar várias atividades de fluxo de trabalho, como Dividir ou Excluir, você pode gerar públicos-alvo novos e refinados.
 
 Depois de criar o fluxo de trabalho, os públicos resultantes são automaticamente armazenados no Campaign Web junto com os existentes. Esses públicos-alvo podem ser direcionados em campanhas ou deliveries independentes.
-
-## Criar seu primeiro público-alvo {#create}
 
 Para criar um público-alvo, siga estas etapas:
 
