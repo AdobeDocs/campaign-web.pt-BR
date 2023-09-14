@@ -3,10 +3,10 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 79%
 
 ---
 
@@ -27,9 +27,9 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >* [Criar entrega por push autônoma](../../push/create-push.md)
 >
 
-## Criar um delivery em um fluxo de trabalho de campanha{#create-a-delivery-in-a-workflow}
+## Criar um delivery em um workflow{#create-a-delivery-in-a-workflow}
 
-Para criar um email, um SMS ou um delivery por push no contexto de um fluxo de trabalho da campanha, siga as etapas abaixo:
+Para criar um email, um SMS ou um delivery por push no contexto de um workflow, siga as etapas abaixo:
 
 1. Verifique se você adicionou uma atividade **Criar público-alvo**. O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
 
@@ -56,7 +56,7 @@ Para criar um email, um SMS ou um delivery por push no contexto de um fluxo de t
 
 1. No painel de entrega, clique em **Enviar**.
 
-## Exemplo{#cross-channel-workflow-sample}
+## Exemplo {#cross-channel-workflow-sample}
 
 Este é um exemplo de fluxo de trabalho entre canais com uma segmentação e duas entregas. O fluxo de trabalho tem como público-alvo todos os clientes que vivem em Paris e que estão interessados em máquinas de café. Entre essa população, um email é enviado aos clientes regulares e um SMS é enviado aos clientes VIP.
 
