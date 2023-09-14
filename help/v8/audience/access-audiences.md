@@ -3,7 +3,7 @@ audience: end-user
 title: Monitorar e gerenciar públicos
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Os públicos-alvo podem se originar de várias fontes. A variável **[!UICONTROL
 
 * **[!UICONTROL Adobe Experience Platform:]** Esses públicos-alvo foram criados no Adobe Experience Platform e disponibilizados no Campaign Web usando a integração com Fontes e Destinos do Adobe. Saiba como configurar essa integração no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: esses públicos-alvo foram criados usando um fluxo de trabalho da Web do Campaign. [Saiba como criar públicos](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**: esses públicos-alvo foram criados usando um fluxo de trabalho da Web do Campaign. [Saiba como criar públicos](create-audience.md)
 
 *quais são as outras origens? Eles são personalizados? Onde as definimos?*
 
