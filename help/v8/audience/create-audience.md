@@ -3,9 +3,9 @@ audience: end-user
 title: Criar públicos
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -46,4 +46,4 @@ Para criar um público-alvo, siga estas etapas:
 
 1. Quando o workflow estiver pronto, clique em **[!UICONTROL Início]** para executá-lo.
 
-1. O workflow é salvo na variável **[!UICONTROL Fluxos de trabalho]** e o(s) público(s) resultante(s) na **[!UICONTROL Públicos-alvo]** lista. [Saiba como acessar públicos](access-audiences.md)
+1. O workflow é salvo na variável **[!UICONTROL Fluxos de trabalho]** e o(s) público(s) resultante(s) na **[!UICONTROL Públicos-alvo]** lista. [Saiba como monitorar e gerenciar públicos](access-audiences.md)

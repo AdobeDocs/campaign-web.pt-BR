@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Acessar públicos
-description: Saiba como acessar públicos-alvo na Web do Adobe Campaign
+title: Monitorar e gerenciar públicos
+description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# Acessar públicos {#create-audiences}
+# Monitorar e gerenciar públicos {#create-audiences}
 
 A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no **[!UICONTROL Públicos-alvo]** menu.
 
