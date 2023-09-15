@@ -4,10 +4,10 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
+source-git-commit: ef459ca97bbe327128d790f77029521ed12cc6c9
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 12%
+ht-degree: 40%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Propriedades de criação de campanha"
->abstract="Nesta tela, defina as configurações da campanha: selecione um template e insira um rótulo para a campanha. Navegue até as configurações adicionais para alterar o nome interno padrão, a pasta, adicionar uma descrição e selecionar o responsável."
+>abstract="Nesta tela, defina as configurações da campanha: selecione um modelo e insira um rótulo para a campanha. Navegue até as configurações adicionais para alterar o nome interno padrão, a pasta, adicionar uma descrição e selecionar o responsável."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Propriedades da campanha"
->abstract="Nesta tela, você pode verificar e atualizar as configurações da campanha: rótulo, nome interno, pasta e descrição. Você também pode visualizar a qual usuário ele está atribuído."
+>abstract="Nesta tela, é possível verificar e atualizar as configurações da campanha: rótulo, nome interno, pasta e descrição. Você também pode visualizar a quem ela está atribuída."
 
 Para criar uma nova campanha, você precisa definir suas propriedades, agendar e incluir workflows e deliveries.
 
@@ -56,12 +56,12 @@ Também é possível exibir os relatórios dedicados clicando no link **Relatór
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Programação de campanha"
->abstract="Selecione o cronograma da campanha. Você pode criar a campanha, que começa quando a data de início é atingida. Por padrão, a data de início da campanha é a data de criação e dura 5 dias. As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro."
+>abstract="Selecione a programação de campanha. É possível criar a campanha para que ela comece na data inicial. Por padrão, a data inicial da campanha é a data de criação, e ela dura 5 dias. As datas inicial e final são exibidas na lista de campanhas e podem ser usadas como um filtro."
 
 
 A campanha começa quando a data de início é atingida. Desde que a data de início não seja atingida, a campanha tem o **[!UICONTROL Rascunho]** status. Em seguida, quando a data de início é atingida, ela se transforma em **[!UICONTROL Em andamento]**. Quando a data final é atingida, a campanha é definida como **[!UICONTROL Concluído]**.
 
-As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
+As datas inicial e final são exibidas na lista de campanhas e podem ser usadas como um filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
 
 ![Definir as propriedades da campanha](assets/campaign-properties.png)
 
@@ -77,11 +77,6 @@ Quando a data é atingida, os deliveries criados nessa campanha no contexto de u
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Workflow list"
->abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
 
 In a cross-channel campaign, a single marketing communication uses different channels. Data is passed between the channels. The customer receives communication through multiple channels based on, for example, their interaction with the previous communication.
 
