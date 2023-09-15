@@ -3,15 +3,38 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '786'
+ht-degree: 59%
 
 ---
 
 
 # Atividades de email, SMS, push {#channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="Atividade de email"
+>abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="Atividade de email"
+>abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="Atividade de email"
+>abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="Atividade de email"
+>abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente. "
 
 O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente.
 
