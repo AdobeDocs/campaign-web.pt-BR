@@ -4,9 +4,9 @@ title: Selecione um público-alvo já existente
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '334'
 ht-degree: 57%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selecione um público-alvo já existente"
->abstract="Navegue pela lista para selecionar um público existente. Use o ícone &quot;Mostrar filtros&quot; para filtrar a lista ou selecione uma pasta específica."
+>abstract="Navegue pela lista para selecionar um público-alvo já existente. Use o ícone “Mostrar filtros” para filtrar a lista ou selecione uma pasta específica."
 
 Esta seção explica como selecionar um público existente ao definir o público-alvo de uma entrega de email.
 
@@ -43,6 +43,10 @@ Para selecionar um público existente para sua mensagem, siga as etapas abaixo:
    Os públicos-alvo são criados no **Público** menu esquerdo. Eles também podem ser criados no Console do cliente.
 
    Para usar os públicos da Adobe Experience Platform, é necessário configurar a integração com o Destinations. Consulte a [Documentação de destinos do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >Nessa versão do produto, ao criar regras, selecionar o público-alvo de um delivery ou ao criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-las. [Saiba mais](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Escolha um público e clique em **Selecionar**.
 1. Use o **Mostrar filtros** ícone para exibir opções de filtragem. Clique em **Adicionar regras** para acessar o construtor de regras: o uso do construtor de regras permite que você crie filtros avançados para a lista de públicos-alvo. Saiba como usar o construtor de regras neste [seção](segment-builder.md).

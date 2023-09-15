@@ -2,10 +2,10 @@
 title: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 description: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -60,10 +60,21 @@ O posicionamento dos nós é atualizado sempre que uma atividade é adicionada o
 
 Ao selecionar o público de um delivery ou ao criar um público em um workflow, alguns filtros predefinidos não estão disponíveis na interface, nessa versão do produto.
 
-Uma mensagem de erro específica é exibida. Mesmo que não seja possível exibir a representação gráfica da consulta no construtor de regras e editar o filtro, você ainda poderá usá-lo, ver as condições de filtragem e os resultados. Você também pode acessar a consulta SQL para verificar as configurações exatas.
+Uma mensagem de erro específica é exibida.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+Mesmo que não seja possível exibir a representação gráfica da consulta no construtor de regras e editar o filtro, você ainda poderá usá-lo e ver as condições de filtragem no **Atributos** seção da tela.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+Você também pode acessar a consulta SQL para verificar as configurações exatas. Para fazer isso, clique no link **Visualização de código** botão.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Clique em **Calcular** botão para verificar quantos itens atendem aos critérios do filtro. Use o **Exibir resultados** botão para exibir esses itens.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Observe que, se você criar um filtro na interface da Web e modificá-lo no console com atributos não suportados, a representação gráfica não poderá mais estar disponível na interface da Web. Em qualquer caso, ainda é possível usar o filtro.
 
