@@ -2,9 +2,9 @@
 title: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 description: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,13 @@ Ao trabalhar na interface da Web do Campaign com componentes criados ou modifica
 
 ## Fluxos de trabalho {#wf-guardrails-limitations}
 
-O mesmo workflow pode ser acessado no console e na interface do usuário da Web. No entanto, esteja ciente de que determinadas limitações se aplicam.
-
 **Edição de atividade**
 
-* Ao acessar um workflow de console na interface do usuário da Web, você só pode modificar atividades compatíveis.
+* As atividades de fluxo de trabalho que ainda não são compatíveis na interface do usuário da Web são somente leitura. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc.
+
+| Console | Interface do usuário da Web |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **Edição da tela de desenho**
 
@@ -41,17 +43,6 @@ O mesmo workflow pode ser acessado no console e na interface do usuário da Web.
 | Console | Interface do usuário da Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>Console</th>
-<th>Interface do usuário da Web</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **Reconciliação e enriquecimento**
 
