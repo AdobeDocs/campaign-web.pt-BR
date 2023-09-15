@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar um fluxo de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 7%
+source-wordcount: '736'
+ht-degree: 6%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 7%
 >id="acw_workflow_creation_properties"
 >title="Propriedades do fluxo de trabalho"
 >abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a seção OPTIONS ADICIONAIS para definir mais configurações, como o nome interno do workflow, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor para que os operadores sejam alertados se ocorrer um erro."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Lista de fluxos de trabalho na campanha"
+>abstract="A variável **Entregas** A guia lista todos os workflows vinculados à campanha atual. Clique no nome de um workflow para editá-lo. Use o botão Create workflow para adicionar um novo workflow a esta campanha."
+
 
 Você pode criar workflows independentes ou dentro de uma campanha. A primeira etapa é selecionar um template e definir suas propriedades gerais. Em seguida, você pode definir configurações adicionais, conforme necessário.
 
@@ -63,8 +70,8 @@ Para criar um template de workflow a partir de um workflow existente, siga estas
 
 1. Na janela pop-up, confirme a criação do template.
 1. Na tela do modelo de fluxo de trabalho, marque, adicione e configure as atividades conforme necessário.
-1. Navegue até as configurações para alterar o nome do modelo de fluxo de trabalho e insira uma descrição.
-1. Selecione a pasta e a pasta de execução do modelo. A pasta é o local onde o modelo de fluxo de trabalho é salvo. A pasta de execução é a pasta onde os workflows criados com base nesse template são salvos.
+1. Navegue até as configurações, no **Configurações** para alterar o nome do template de workflow e insira uma descrição.
+1. Selecione o **pasta** e **pasta de execução** do modelo. A pasta é o local onde o modelo de fluxo de trabalho é salvo. A pasta de execução é a pasta onde os workflows criados com base nesse template são salvos.
 
    ![](assets/wf-settings-template.png)
 

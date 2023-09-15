@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 Para criar uma nova campanha ou gerenciar suas campanhas já existentes, clique no menu **[!UICONTROL Campanhas]** no painel de navegação esquerdo.
 
-## A lista de campanhas{#access-campaigns}
+## Lista de campanhas {#access-campaigns}
+
 
 Na lista de campanhas, duas guias estão disponíveis:
 
@@ -38,7 +39,13 @@ Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de fi
 
 ![Filtro de campanha](assets/campaign-filter-on-dates.png)
 
-## O painel de campanha{#campaign-dashboard}
+## Painel de campanha{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Lista de deliveries na campanha"
+>abstract="A guia **Entregas** lista todas as entregas vinculadas à campanha atual. Clique no nome de um delivery para editá-lo. Use o botão Create delivery para adicionar um novo delivery para esta campanha."
 
 Na guia **Procurar** da lista de campanhas, clique em uma campanha para exibir seus detalhes.
 
