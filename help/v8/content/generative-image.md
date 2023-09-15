@@ -3,9 +3,9 @@ audience: end-user
 title: Geração de imagem com o assistente de Conteúdo
 description: Introdução ao assistente de Conteúdo
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Depois de criar e personalizar seus emails, você pode aprimorar seu conteúdo usando o Assistente de conteúdo. Esse recurso simplifica o processo de personalização e melhoria de conteúdo.
 
-No exemplo abaixo, veja como aproveitar o Assistente de conteúdo para otimizar e melhorar o conteúdo, garantindo uma experiência mais simples. Siga estas etapas:
+No exemplo abaixo, saiba como usar o Assistente de conteúdo para otimizar e melhorar o conteúdo, garantindo uma experiência mais amigável. Siga estas etapas:
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Editar conteúdo]**.
 
