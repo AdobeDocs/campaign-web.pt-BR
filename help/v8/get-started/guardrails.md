@@ -2,9 +2,9 @@
 title: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 description: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 badge: label="Beta"
-source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
+source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
@@ -16,17 +16,29 @@ Ao trabalhar na interface da Web do Campaign com componentes criados ou modifica
 
 ## Fluxos de trabalho {#wf-guardrails-limitations}
 
-**Edição de atividade**
+**Activities**
 
-* As atividades de fluxo de trabalho que ainda não são compatíveis na interface do usuário da Web são somente leitura. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc.
+* As atividades de fluxo de trabalho que ainda não são compatíveis na interface do usuário da Web são somente leitura. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc. As atividades de fluxo de trabalho disponíveis na interface da Web e no console do cliente são editáveis.
 
 | Console | Interface do usuário da Web |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**Edição da tela de desenho**
+**Tela**
 
-* Se um workflow de console tiver vários nós/ramificações iniciais ou atividades flutuantes, será necessário adicionar uma atividade inicial e uma bifurcação para conectar os nós iniciais ao nó principal. Você também precisa remover as atividades flutuantes.
+* Ao criar um novo fluxo de trabalho na interface da Web, a tela de desenho suporta apenas um ponto de entrada. No entanto, se você criou um workflow no console com vários pontos de entrada,
+
+No entanto, mesmo que o fluxo de trabalho tenha sido criado na tela do console do cliente com vários pontos de entrada, ele também será editável na interface do usuário da Web. Ainda é possível abrir e editar
+
+
+
+Para experimentar este cenário, crie um fluxo de trabalho no console do cliente com vários pontos de entrada e abra-o na interface do usuário da Web para ver o resultado.
+
+
+
+É claro que você pode editar as atividades e iniciar e executar o workflow como de costume.
+
+
 
 **Posicionamento da atividade**
 
@@ -38,11 +50,11 @@ Ao trabalhar na interface da Web do Campaign com componentes criados ou modifica
 
 **Loops**
 
-* Os loops ainda não estão disponíveis na interface da Web. Se você tiver criado um workflow incluindo um loop usando o console, ele não estará acessível na interface do usuário da Web. Uma mensagem de erro é exibida.
+* Os loops ainda não estão disponíveis na interface da Web. Se você criou um workflow incluindo um loop usando o console, não é possível acessá-lo a partir da interface do usuário da Web. Uma mensagem de erro é exibida.
 
 | Console | Interface do usuário da Web |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **Reconciliação e enriquecimento**
 
@@ -53,12 +65,11 @@ No console do cliente do Campaign, a variável **Enriquecimento** A atividade de
 
 ## Filtros predefinidos {#filters-guardrails-limitations}
 
-Ao selecionar o público de um delivery ou ao criar um público em um workflow, alguns filtros predefinidos não estão disponíveis na interface, nessa versão do produto.
+Nessa versão do produto, ao selecionar o público de um delivery ou ao criar um público em um workflow, alguns filtros predefinidos não estão disponíveis na interface do usuário.
 
 Uma mensagem de erro específica é exibida. Mesmo que não seja possível exibir a representação gráfica da consulta no construtor de regras e editar o filtro, você ainda poderá usá-lo, ver as condições de filtragem e os resultados. Você também pode acessar a consulta SQL para verificar as configurações exatas.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
-
 
 Observe que, se você criar um filtro na interface da Web e modificá-lo no console com atributos não suportados, a representação gráfica não poderá mais estar disponível na interface da Web. Em qualquer caso, ainda é possível usar o filtro.
 

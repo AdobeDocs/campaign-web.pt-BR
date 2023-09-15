@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 17%
+source-wordcount: '786'
+ht-degree: 16%
 
 ---
 
@@ -30,6 +30,10 @@ Filtros predefinidos são filtros personalizados que são criados e salvos para 
 Você pode usar filtros incorporados existentes para acessar um subconjunto específico de seus dados ou criar seus próprios filtros predefinidos e salvá-los.
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>Nessa versão do produto, ao criar regras, selecionar o público-alvo de um delivery ou ao criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-las. [Saiba mais](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## Criar um filtro predefinido {#create-predefined-filter}
@@ -55,7 +59,7 @@ Você pode usar filtros incorporados existentes para acessar um subconjunto espe
 
 1. Selecionar **Criar um novo filtro** e insira um nome e uma descrição para esse filtro.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    Você pode salvar o filtro como um favorito, se necessário. Saiba mais [nesta seção](#fav-filter).
 
@@ -89,7 +93,7 @@ Ao criar um filtro predefinido, você pode ativar a variável **Salvar como favo
 
 Quando um filtro é salvo como favorito, ele fica disponível para todos os usuários na **Filtros favoritos** da lista de criação de filtros, conforme mostrado abaixo:
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## Usar um filtro predefinido {#use-predefined-filter}
@@ -139,6 +143,8 @@ Nessa lista, é possível criar um novo filtro conforme detalhado acima e:
 
 Você pode adicionar um filtro predefinido como um favorito para obter acesso rápido ao criar suas regras. Saiba mais [nesta seção](#fav-filter).
 
-## Filtros predefinidos embutidos {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-O Campaign vem com um conjunto de filtros predefinidos, criados no console do cliente. Esses filtros podem ser usados para definir públicos e regras. Eles não devem ser modificados.
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->
