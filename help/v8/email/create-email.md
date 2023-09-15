@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 84%
+source-wordcount: '1350'
+ht-degree: 68%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 84%
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
-Baseado em um template de design predefinido, o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
+Com base em uma configuração [modelo de design](../content/email-templates.md), o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
 
-![](assets/delivery-list.png)
-
-## Criar o email entrega {#create-email}
+## Criar o delivery de email {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -34,14 +32,16 @@ Baseado em um template de design predefinido, o email também apresenta conteúd
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Propriedades de email"
->abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. Se a entrega for baseada em um schema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
+>title="Definir suas propriedades de email"
+>abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. As configurações adicionais são opcionais. Se a entrega for baseada em um schema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
 
 Você pode criar um delivery de email independente ou criar um email no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de email independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-Para criar um novo delivery de email independente, siga estas etapas:
+Para criar um novo delivery de email independente, siga as etapas abaixo.
 
 1. Navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
+
+   ![](assets/delivery-list.png)
 
 1. Selecionar **[!UICONTROL E-mail]** como canal e escolha um template do delivery de email na lista.
 
@@ -54,10 +54,10 @@ Para criar um novo delivery de email independente, siga estas etapas:
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 1. Insira um rótulo para a entrega e configure as opções adicionais com base em suas necessidades:
 
-   * **[!UICONTROL Nome interno]**: atribui um identificador exclusivo à entrega,
-   * **[!UICONTROL Pasta]**: armazena a entrega em uma pasta específica,
-   * **[!UICONTROL Código de entrega]**: use esse campo para organizar suas entregas com base em sua própria convenção de nomeação,
-   * **[!UICONTROL Descrição]**: especifica uma descrição da entrega,
+   * **[!UICONTROL Nome interno]**: atribui um identificador exclusivo à entrega.
+   * **[!UICONTROL Pasta]**: armazena a entrega em uma pasta específica.
+   * **[!UICONTROL Código de entrega]**: use esse campo para organizar suas entregas com base em sua própria convenção de nomeação.
+   * **[!UICONTROL Descrição]**: especifica uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifica a natureza do email para fins de classificação.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,15 +66,42 @@ Para criar um novo delivery de email independente, siga estas etapas:
 
    ![](assets/email-properties.png)
 
-   Além disso, as configurações avançadas, como regras de tipologia e mapeamentos de público alvo, podem ser acessadas clicando no botão ao lado do nome da entrega. Essas definições são pré-configuradas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico.
+5. Além disso, as configurações avançadas, como regras de tipologia e target mappings, podem ser acessadas por meio do **[!UICONTROL Configurações]** localizado na parte superior direita da tela. Essas definições são pré-configuradas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico.
+
+## Definir o público {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="Selecionar um público-alvo para a entrega"
+>abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou no Adobe Experience Platform), criar um novo público-alvo usando o construtor de regras ou fazer upload de um arquivo contendo seu público-alvo. Os grupos de controle não estão habilitados para o **Selecionar do arquivo** e vice-versa."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Públicos-alvo"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Configurar um grupo de controle"
+
+Nesse caso de uso, você enviará o email para um público existente.
+
+Instruções adicionais sobre como trabalhar com públicos estão disponíveis [nesta seção](../audience/about-audiences.md).
+
+1. Para selecionar o público do email, clique no botão **[!UICONTROL Selecionar público-alvo]** e escolha um público existente na lista.
+
+   Neste exemplo, queremos usar um público existente direcionado a clientes que pertencem aos níveis prata e ouro do programa de fidelidade.
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Origem tiver sido configurada na instância. Essa integração permite enviar segmentos de Experience Platform para o Adobe Campaign e enviar o delivery do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. Depois que o público é selecionado, você pode refinar o público alvo aplicando regras adicionais.
+
+   ![](assets/audience-selected.png)
+
+1. Você também pode definir um grupo de controle para analisar o comportamento dos recipients de email, em comparação com aqueles que não foram direcionados. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
 
 ## Definir o conteúdo do email {#create-content}
 
-Para começar a criar seu conteúdo de email, siga as etapas abaixo.
+Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso de uso, você usa um email predefinido [template do delivery](../msg/delivery-template.md) para criar seu email.<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-Nesse caso de uso, você usa um email predefinido [template do delivery](../msg/delivery-template.md) para criar seu email.
 
 1. No painel de delivery de email, clique no link **[!UICONTROL Editar conteúdo]** botão.
 
@@ -104,40 +131,21 @@ Nesse caso de uso, você usa um email predefinido [template do delivery](../msg/
 
    ![](assets/save-content.png)
 
-## Definir o público {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="Definir o público"
->abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público-alvo existente já definido em uma instância do Campaign v8 ou na Adobe Experience Platform. Também é possível criar um novo público-alvo com o construtor de regras. Os grupos de controle não estão habilitados para “Selecionar do arquivo” e vice-versa."
-
-Nesse caso de uso, você enviará o email para um público existente. Instruções adicionais sobre como trabalhar com públicos estão disponíveis [nesta seção](../audience/about-audiences.md).
-
-1. Para selecionar o público do email, clique no botão **[!UICONTROL Selecionar público-alvo]** e escolha um público existente na lista.
-
-   Neste exemplo, queremos usar um público existente direcionado a clientes que pertencem aos níveis prata e ouro do programa de fidelidade.
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform, se a integração do serviço de Destino/Origens tiver sido configurada em sua instância.
-   >
-   >A integração do serviço de Destino/Origens permite enviar segmentos da Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para a Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR){target="_blank"}.
-
-1. Depois que o público é selecionado, você pode refinar o público alvo aplicando regras adicionais.
-
-   Você também pode definir um grupo de controle para analisar o comportamento dos recipients de email, em comparação com aqueles que não foram direcionados. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## Agendar o envio {#schedule}
 
-Para agendar o envio do email, abra a entrega do email e navegue até a seção **Agendar.**
+Para agendar o envio do email, siga as etapas abaixo.
 
-![](assets/schedule.png)
+Instruções adicionais sobre como agendar o envio do delivery são detalhadas em [nesta seção](../msg/gs-messages.md#gs-schedule).
 
-Saiba como agendar o envio do delivery [nesta seção](../msg/gs-messages.md#gs-schedule)
+1. Navegue até o **[!UICONTROL Agendar]** seção.
+
+1. Use o **[!UICONTROL Ativar agendamento]** para ativá-la.
+
+1. Defina a data e a hora desejadas para envio.
+
+   ![](assets/schedule.png)
+
+Após enviar a entrega, o envio só será realizado na data de contato definida.
 
 ## Visualizar e testar o email {#preview-test}
 

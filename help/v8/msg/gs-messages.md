@@ -4,9 +4,9 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1302'
 ht-degree: 86%
 
 ---
@@ -113,7 +113,7 @@ Para obter mais informações sobre como configurar uma campanha e gerenciar ent
 >[!ENDTABS]
 
 
-## Adicionar personalização{#personalization}
+## Adicionar personalização {#personalization}
 
 As mensagens entregues pelo Adobe Campaign podem ser personalizadas de várias maneiras. [Saiba mais sobre os recursos de personalização](../personalization/gs-personalization.md).
 
@@ -135,8 +135,7 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 * Adição de **ofertas personalizadas**
 
-  Insira ofertas personalizadas no conteúdo da mensagem, dependendo do local do destinatário, do clima atual ou da última compra.
-
+  Insira ofertas personalizadas no conteúdo da mensagem, dependendo do local do destinatário, do clima atual ou da última compra. [Saiba mais](../content/offers.md)
 
 ## Visualização e teste de suas entregas
 
@@ -146,12 +145,12 @@ Depois que o conteúdo da mensagem for definido, você poderá visualizá-lo par
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Agendar o envio"
->abstract="Defina a data e a hora exata para enviar mensagens. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
+>title="Definir uma data e hora de contato"
+>abstract="Defina a data e a hora exata para enviar o delivery. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
 
 Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura.
 
-Para agendar o envio de um delivery, abra o delivery e navegue até o **Agendar** seção. Use o **[!UICONTROL Ativar agendamento]** para ativá-la, e defina a data e a hora desejadas para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
+Para agendar o envio de um delivery, abra o delivery e navegue até o **[!UICONTROL Agendar]** seção. Use o **[!UICONTROL Ativar agendamento]** para ativá-la, e defina a data e a hora desejadas para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
 
 ![](assets/schedule.png)
 

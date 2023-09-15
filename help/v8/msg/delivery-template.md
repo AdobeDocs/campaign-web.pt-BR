@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '962'
 ht-degree: 25%
 
 ---
 
 # Trabalho com modelos de entrega {#work-with-delivery-templates}
 
-Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo personalizado em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas.
+Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas.
 
 Um modelo pode incluir:
 
@@ -26,6 +26,10 @@ Um modelo pode incluir:
 * [Campos personalizados](../personalization/personalize.md) e [conteúdo condicional](../personalization/conditions.md)
 * Links para [mirror page](../content/mirror-page.md) e cancelar assinatura [links](../content/message-tracking.md)
 * Outras propriedades de entrega, como validade de recurso, parâmetros de nova tentativa ou configurações de quarentena.
+
+>[!NOTE]
+>
+>Os modelos de entrega são diferentes de [modelos de conteúdo de email](../content/email-templates.md), que permitem reutilizar somente o conteúdo de suas mensagens.
 
 ## Acessar e gerenciar modelos do delivery {#access-manage-templates}
 
@@ -170,7 +174,7 @@ Você pode testar a renderização de qualquer template do delivery, seja criado
 
 1. Alterne entre os diferentes perfis para obter uma representação personalizada da mensagem de acordo com o perfil selecionado.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Você também pode ajustar o nível de zoom e escolher a exibição da área de trabalho ou móvel.
 

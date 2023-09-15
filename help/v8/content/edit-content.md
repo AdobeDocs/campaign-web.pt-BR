@@ -4,10 +4,10 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 50%
+source-wordcount: '570'
+ht-degree: 46%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Criar conteúdo de email"
->abstract="Com esta seção, você pode criar o conteúdo do seu email e usar o Designer de email para dar a ele uma aparência refinada."
+>title="Definir o conteúdo do email"
+>abstract="A variável **Editar conteúdo** permite definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto, executar ações adicionais, como adicionar anexos ou ofertas, e acessar o Designer de email para dar à mensagem uma aparência elegante."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
    >
    >Você pode alterar a parte anterior a &#39;@&#39;, mas não o endereço do domínio.
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Expanda a **[!UICONTROL Campos de resposta]** seção. O endereço do remetente é usado por padrão para respostas. No entanto, a Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de expressão para adicionar personalização usando vários atributos e blocos de conteúdo ou ofertas. [Saiba como personalizar conteúdo](../personalization/personalize.md)
 

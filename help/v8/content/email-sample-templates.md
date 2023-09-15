@@ -3,9 +3,9 @@ audience: end-user
 product: campaign
 title: Trabalho com modelos de email
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ Quando [criação de um email](../email/create-email.md), use o **[!UICONTROL Se
 
 ![](assets/email_designer-sample-templates.png)
 
-O Campaign vem com um conjunto de modelos integrados que você pode escolher.
+O Campaign vem com um conjunto de modelos de conteúdo de email incorporados que você pode escolher.
 
 Para começar a criar o conteúdo com um dos modelos de amostra, siga as etapas abaixo.
 
