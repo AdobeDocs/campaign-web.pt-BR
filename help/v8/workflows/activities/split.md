@@ -3,19 +3,36 @@ audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '599'
+ht-degree: 98%
 
 ---
 
 
-# Divisão {#split}
+# Split {#split}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="Split enriquecimento"
+>abstract="A atividade de **Divisão** é uma atividade de **Direcionamento** que permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população."
+
 
 A atividade de **Divisão** é uma atividade de **Direcionamento** que permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população.
 
 ## Configuração {#general}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="Dividir filtro de atividade"
+>abstract="Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada. Por exemplo, inclua perfis da população recebida cujo endereço de email já exista no banco de dados."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="Dividir limite de atividade"
+>abstract="Para limitar o número de perfis selecionados pelo subconjunto, ative a opção **[!UICONTROL Habilitar limite]**, e especifique o número ou as porcentagens da população a serem incluídas."
+
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 

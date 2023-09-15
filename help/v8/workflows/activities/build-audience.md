@@ -3,15 +3,21 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 97%
 
 ---
 
 
 # Criar público-alvo {#build-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience"
+>title="Criar público-alvo"
+>abstract="A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho."
+
 
 A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**.
 
@@ -29,7 +35,13 @@ Para definir o público-alvo, você pode:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configuração
+## Configurar a atividade Criar público
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="Selecionar a targeting dimension"
+>abstract="A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários."
+
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 

@@ -3,15 +3,22 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Aguardar
 description: Saiba como usar a atividade de fluxo de trabalho Aguardar
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
 
 
 # Aguardar {#wait}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_wait"
+>title="Aguardar"
+>abstract="A atividade **Aguardar** é uma atividade de **Controle de fluxo**. Ela é usada para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas."
+
 
 A atividade **Aguardar** é uma atividade de **Controle de fluxo**. Ela é usada para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de entrega de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de público-alvo, etc.).
 

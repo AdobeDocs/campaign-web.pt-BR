@@ -3,22 +3,22 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 17%
+source-wordcount: '476'
+ht-degree: 16%
 
 ---
 
 
 # Scheduler {#scheduler}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler activity"
->abstract="The Scheduler activity allows you..."
--->
+>title="Atividade Scheduler"
+>abstract="A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow."
+
 
 A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow.
 
@@ -29,6 +29,7 @@ A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele
 * Para enviar um delivery recorrente no workflow, é necessário usar um **Scheduler** e defina a frequência de execução. A atividade recorrente do delivery não permite definir um agendamento.
 
 ## Configuração
+
 
 Siga estas etapas para configurar o **Scheduler** atividade:
 
