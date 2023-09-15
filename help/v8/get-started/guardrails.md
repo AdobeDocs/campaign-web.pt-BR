@@ -2,9 +2,9 @@
 title: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 description: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,18 @@ O mesmo workflow pode ser acessado no console e na interface do usuário da Web.
 
 **Loops**
 
-* Os fluxos de trabalho que incluem loops não são exibidos na interface do usuário da Web. Uma mensagem de erro é exibida.
+* Os loops ainda não estão disponíveis na interface da Web. Se você tiver criado um workflow incluindo um loop usando o console, ele não estará acessível na interface do usuário da Web. Uma mensagem de erro é exibida.
+
+<table>
+<tr>
+<th>Console</th>
+<th>Interface do usuário da Web</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **Reconciliação e enriquecimento**
 
