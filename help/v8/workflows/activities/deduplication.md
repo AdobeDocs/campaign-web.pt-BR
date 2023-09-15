@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 27%
@@ -34,7 +34,7 @@ A variável **Desduplicação** a atividade é um **Direcionamento** atividade. 
 
 ## Configuração
 
-Siga estas etapas para configurar o **Scheduler** atividade:
+Siga estas etapas para configurar o **Desduplicação** atividade:
 
 1. Adicionar um **Desduplicação** atividade ao seu fluxo de trabalho.
 
