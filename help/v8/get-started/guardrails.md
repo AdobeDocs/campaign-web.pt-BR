@@ -2,10 +2,10 @@
 title: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 description: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -47,10 +47,16 @@ No console do cliente do Campaign, a variável **Enriquecimento** A atividade de
 
 ## Filtros predefinidos {#filters-guardrails-limitations}
 
-Ao selecionar o público de uma entrega ou ao criar um público em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis. Uma mensagem de erro específica é exibida. Você ainda pode usar a consulta e ver: a condição de filtragem e os resultados, mas não pode visualizar a consulta exata no construtor de regras e não pode editar o filtro.
+Ao selecionar o público de um delivery ou ao criar um público em um workflow, alguns filtros predefinidos não estão disponíveis na interface, nessa versão do produto.
+
+Uma mensagem de erro específica é exibida. Mesmo que não seja possível exibir a representação gráfica da consulta no construtor de regras e editar o filtro, você ainda poderá usá-lo, ver as condições de filtragem e os resultados. Você também pode acessar a consulta SQL para verificar as configurações exatas.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+Observe que, se você criar um filtro na interface da Web e modificá-lo no console com atributos não suportados, a representação gráfica não poderá mais estar disponível na interface da Web. Em qualquer caso, ainda é possível usar o filtro.
+
+Os atributos não compatíveis estão listados abaixo.
 
 ### Tipos de dados incompatíveis {#unsupported-data-type}
 
