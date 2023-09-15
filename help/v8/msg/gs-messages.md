@@ -4,10 +4,10 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 88%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS e aplicat
 
 ## Criação de uma entrega {#create-delivery}
 
-É possível criar entregas independentes a partir do menu esquerdo **[!UICONTROL Entregas]**, ou criar entregas no contexto de uma campanha de marketing, no menu esquerdo **[!UICONTROL Campanhas]**.
+Você pode criar deliveries independentes a partir do **[!UICONTROL Entregas]** ou crie deliveries no contexto de um workflow, incluído ou não em uma campanha.
 
 Navegue pelas guias abaixo para saber como criar uma entrega:
 
@@ -92,7 +92,7 @@ Para criar uma entrega independente, siga estas etapas:
 
 Para criar um delivery em um workflow, siga estas etapas:
 
-1. Crie um workflow ou abra um já existente.
+1. Crie um workflow ou abra um já existente. Saiba mais sobre fluxos de trabalho no [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Adicione e configure uma atividade **[!UICONTROL Criar público-alvo]** e clique no botão `+`.
 
    ![](assets/add-delivery-in-wf.png)
