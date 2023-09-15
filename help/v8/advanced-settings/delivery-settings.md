@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: Configurações de entrega de email
-description: Saiba mais sobre as configurações de entrega de email na interface do Campaign Web
+title: Configurações de entrega
+description: Saiba mais sobre as configurações de entrega no Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2094'
 ht-degree: 79%
 
 ---
 
 
-# Configurações de entrega de email {#email-del-settings}
+# Configurações de entrega {#email-del-settings}
 
-Essas configurações são **parâmetros técnicos da entrega** definidas no modelo de email. Eles estão disponíveis no ícone **Definir configurações de entrega** disponível ao editar uma entrega de email.
+As configurações de delivery de email são **parâmetros técnicos de entrega** que são definidas no template de email. Eles podem ser sobrecarregados para cada delivery.
+
+Essas configurações estão disponíveis no **Definir configurações de entrega** ícone disponível ao editar um delivery de email ou um template do delivery de email.
+
 
 ## Configurações de entrega de email {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Essas configurações estão descritas somente para suas informações. Algumas delas dependem de sua configuração e permissões. Elas não devem ser modificadas nesta versão do produto.
+>Essas configurações estão descritas somente para suas informações. Algumas delas dependem de sua configuração e permissões. Elas não devem ser modificadas nesta versão do produto.
 
 ## Tipologia configurações {#typology}
 
@@ -56,6 +59,11 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 >abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de fadiga. As mensagens com o peso mais alto têm prioridade."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Peso da entrega"
+>abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
+
 Nesta seção, os parâmetros de pressão permitem definir um **limite** para configurar regras de gerenciamento de fadiga. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um dado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
@@ -83,6 +91,13 @@ O gerenciamento de fadiga vem com o complemento **Otimização de campanha**. Sa
 >id="acw_email_settings_capacity_settings"
 >title="Configurações de capacidade para a entrega"
 >abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega possa gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no Console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Importância do recipient"
+>abstract="A importância do recipient é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas."
+
 
 Nesta seção, você pode selecionar uma regra de capacidade definida no Console do Adobe Campaign v8. Essa regra está associada ao canal de email.
 
@@ -136,7 +151,12 @@ Saiba mais sobre o Web Analytics e o Campaign em [Documentação do Campaign v8 
 
 ### Tentativas {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Número máximo de tentativas"
+>abstract="Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas até o fim da duração da entrega."
+
+As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia do delivery, com um intervalo mínimo de uma hora distribuído pelas 24 horas do dia.
 
 Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
@@ -145,7 +165,13 @@ Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Modo de aprovação para a entrega"
->abstract="Selecione o modo de aprovação. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada. "
+>abstract="Selecione o modo de aprovação. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Modo de aprovação para as entregas"
+>abstract="Selecione o modo de aprovação para deliveries com base neste modelo. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
 
 Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada. Por padrão, o usuário deverá confirmar o envio de mensagens no final da fase de análise: essa é a validação **manual**.
 
@@ -165,6 +191,18 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >title="Validade das configurações"
 >abstract="O campo Delivery duration permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign começa a enviar as mensagens na data de início e, em seguida, somente para mensagens que retornam um erro, novas tentativas normais e configuráveis são executadas até que o limite da validade seja atingido. O campo Limite da validade é usado para recursos enviados, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Limite da validade de recursos"
+>abstract="O campo Limite da validade é usado para recursos carregados, principalmente para a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Duração da entrega"
+>abstract="O campo Duração da entrega permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido."
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -203,6 +241,15 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Período de validade"
+>abstract="O período de validade define a duração para a qual o rastreamento estará ativado nos URLs da mensagem."
+
 
 Os parâmetros de rastreamento são definidos na seção relacionada. As opções possíveis são:
 

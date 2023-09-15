@@ -1,40 +1,42 @@
 ---
 audience: end-user
-title: Criar serviços
+title: Trabalhar com serviços de assinatura
 description: Saiba como criar serviços no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 29%
+source-wordcount: '219'
+ht-degree: 10%
 
 ---
 
 
-# Criar serviços {#create-services}
+# Trabalhar com serviços de assinatura {#create-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Este serviço é somente de leitura."
 >abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com o administrador para obter acesso."
 
-Use o Adobe Campaign para criar e monitorar seus serviços de informações, como boletins informativos e para verificar as assinaturas/cancelamentos de assinaturas desses serviços.
+Use o Adobe Campaign para criar e monitorar seus serviços, como boletins informativos, e verificar as assinaturas/cancelamentos de assinaturas desses serviços. As assinaturas se aplicam somente ao email e à entrega de SMS.
 
-Vários serviços podem ser definidos em paralelo, por exemplo: boletins informativos especializados para determinadas categorias de produtos, temas ou áreas de um site, subscrições a vários tipos de mensagens de alerta e notificações em tempo real.
+Vários serviços podem ser definidos em paralelo, por exemplo: boletins informativos para categorias de produtos específicas, temas ou áreas de um site, assinaturas para vários tipos de mensagens de alerta e notificações em tempo real.
 
 Para saber mais sobre como gerenciar assinaturas e cancelamentos de assinaturas, consulte o [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Acessar serviços de assinatura {#access-services}
 
-1. Ir para **[!UICONTROL Gerenciamento de acesso]** > **[!UICONTROL Serviços de assinatura]** menu.
+Para acessar os serviços de assinatura disponíveis para sua plataforma, navegue até o **[!UICONTROL Serviços de assinatura]** no painel de navegação esquerdo.
 
-   ![](assets/service-list.png)
+![](assets/service-list.png)
 
-1. A lista de todos os serviços criados até o momento é exibida. Você pode pesquisar os serviços e filtrar o canal, a pasta ou usar filtros avançados.
+A lista de todos os serviços de assinatura existentes é exibida. Você pode pesquisar os serviços e filtrar o canal, a pasta ou usar filtros avançados.
 
-   ![](assets/service-filters.png)
+![](assets/service-filters.png)
 
-## Criar o primeiro serviço {#create-service}
+## Criar seu primeiro serviço de assinatura {#create-service}
+
+Para criar um serviço de assinatura, siga estas etapas:
 
 1. Selecione o **[!UICONTROL Criar serviço de assinatura]** botão.
 

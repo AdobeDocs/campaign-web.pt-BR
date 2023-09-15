@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -63,7 +63,7 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 
    * **[!UICONTROL Unreachable]** : Tipo de erro que ocorre na string de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
 
-   * **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
+   * **[!UICONTROL Not connected]** : Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
 
 +++
 
@@ -116,11 +116,13 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
    * **[!UICONTROL Unreachable]** : Tipo de erro que ocorre na string de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
 
-   * **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
+   * **[!UICONTROL Not connected]** : Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
 
 +++
 
 ## Indicadores de rastreamento {#tracking-indicators-email}
+
+
 
 * **[!UICONTROL Estatísticas de entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados.
 
@@ -207,6 +209,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 +++
 
 ## Estatísticas de rastreamento {#tracking-statistics}
+
 
 * **[!UICONTROL Estatísticas de rastreamento]** O gráfico fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar dados.
 

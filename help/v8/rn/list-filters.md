@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Como um usuário existente do Campaign, observe que alguns conceitos foram renom
 * A Visualização de email agora está disponível através do botão **Simular conteúdo**
 * As listas agora são **Públicos**
 
-## Limitações{#limitations-alpha}
+## Limitações{#limitations-beta}
 
-As limitações abaixo se aplicam a esta versão Alfa:
+As limitações abaixo se aplicam a esta versão Beta:
 
 * Os únicos objetos editáveis são Entregas, Campanhas, Workflows, Públicos-alvo e Modelos. Os outros são para somente leitura. Use os filtros para navegar por todos eles.
 * Os públicos-alvo não podem ser salvos para uso futuro.

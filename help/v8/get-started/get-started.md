@@ -4,10 +4,10 @@ title: Introdução ao Campaign v8 Web
 description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Novidades"
->abstract="Nossa versão mais recente contém recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais, gerar resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. "
+>abstract="Nossa versão mais recente contém recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. "
 
 
 O Adobe Campaign fornece uma plataforma para criar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o real-time interaction management e a execução entre canais.
@@ -32,7 +32,7 @@ Se você precisar acessar os recursos do Campaign v8 que não estão disponívei
 
 >[!NOTE]
 >
->O Campaign v8 Web está atualmente na versão Alfa. O acesso é restrito a um pequeno conjunto de clientes Alfa. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio.
+>A Web do Campaign v8 está atualmente na versão Beta. O acesso é restrito a um pequeno conjunto de clientes Beta. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio.
 
 ## Conexão com o Campaign
 
@@ -58,4 +58,4 @@ Os dados da campanha são armazenados no servidor de aplicativos. Os dados estã
 
 Alguns objetos só podem ser criados e gerenciados no console do cliente. Eles podem ser vistos e usados na interface do Campaign Web, mas não podem ser criados nem modificados neste ambiente. Todos os objetos e componentes do Campaign estão disponíveis na visualização do Explorer, disponível na navegação à esquerda.
 
-Para obter mais informações sobre como usar o Campaign v8, consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como usar o Campaign v8, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"}.
