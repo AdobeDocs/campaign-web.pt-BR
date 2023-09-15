@@ -4,22 +4,21 @@ title: Importar o conteúdo do email
 description: Saiba como importar conteúdo de email
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 52%
+ht-degree: 48%
 
 ---
 
 # Importar o conteúdo do email {#existing-content}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Usar um conteúdo de email já existente"
 >abstract="O Designer de email permite importar conteúdo HTML já existente. Esse conteúdo pode ser um arquivo HTML com uma folha de estilos incorporada ou uma pasta .zip com o arquivo HTML, a folha de estilos (.css) e imagens."
 
-O Designer de email permite importar conteúdo HTML já existente. Esse conteúdo pode ser:
+Você pode importar conteúdo de HTML existente no Designer de email. Esse conteúdo pode ser:
 
 * Um **arquivo HTML** com uma folha de estilos incorporada.
 * Uma **pasta .zip** com o arquivo HTML, a folha de estilos (.css) e as imagens.
