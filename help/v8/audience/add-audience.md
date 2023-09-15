@@ -4,7 +4,7 @@ title: Selecione um público-alvo já existente
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 57%
@@ -46,7 +46,7 @@ Para selecionar um público existente para sua mensagem, siga as etapas abaixo:
 
    >[!IMPORTANT]
    >
-   >Nessa versão do produto, ao criar regras, selecionar o público-alvo de um delivery ou ao criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-las. [Saiba mais](guardrails.md#predefined-filters-filters-guardrails-limitations)
+   >Nessa versão do produto, ao criar regras, selecionar o público-alvo de um delivery ou ao criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-las. [Saiba mais](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Escolha um público e clique em **Selecionar**.
 1. Use o **Mostrar filtros** ícone para exibir opções de filtragem. Clique em **Adicionar regras** para acessar o construtor de regras: o uso do construtor de regras permite que você crie filtros avançados para a lista de públicos-alvo. Saiba como usar o construtor de regras neste [seção](segment-builder.md).
