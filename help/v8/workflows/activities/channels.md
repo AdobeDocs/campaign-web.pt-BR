@@ -3,10 +3,10 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 79%
+source-wordcount: '642'
+ht-degree: 58%
 
 ---
 
@@ -25,17 +25,27 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >* [Criar entrega de email independente](../../email/create-email.md)
 >* [Criar entrega de SMS independente](../../sms/create-sms.md)
 >* [Criar entrega por push autônoma](../../push/create-push.md)
->
 
-## Criar um delivery em um workflow{#create-a-delivery-in-a-workflow}
+## Crie seu fluxo de trabalho{#build-your-workflow}
 
-Para criar um email, um SMS ou um delivery por push no contexto de um workflow, siga as etapas abaixo:
+Comece a criar seu workflow com as atividades relevantes antes de fazer o delivery:
 
-1. Verifique se você adicionou uma atividade **Criar público-alvo**. O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
+* Se quiser enviar um delivery recorrente, inicie o workflow com um **Scheduler** atividade. Se quiser enviar um delivery de uma só vez, defina a data de contato usando um **Scheduler** ou defina o cronograma nas configurações do delivery. Consulte [esta seção](scheduler.md).
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* Adicione uma atividade **Criar público-alvo.** O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
 
-1. Selecione uma atividade de entrega: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**.
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## Configurar a entrega {#create-a-delivery-in-a-workflow}
+
+Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
+
+1. Adicionar uma atividade de canal: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**.
+
+1. Selecione o **Tipo de entrega**: único ou recorrente.
+
+   * **Entrega única**: é um delivery de uma só vez, enviado apenas uma vez, por exemplo, um email Black Friday.
+   * **Entrega recorrente**: para esse tipo de delivery, você configura a frequência de execução usando um [atividade do scheduler](scheduler.md). Cada vez que o workflow é executado, o público-alvo é recalculado e o delivery é enviado com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente.
 
 1. Selecione um **Modelo** da entrega. Os modelos são configurações de entrega pré-definidas, específicas para um canal. Um modelo integrado está disponível para cada canal e é preenchido previamente por padrão. [Saiba mais](../../msg/delivery-template.md)
 
@@ -56,7 +66,7 @@ Para criar um email, um SMS ou um delivery por push no contexto de um workflow, 
 
 1. No painel de entrega, clique em **Enviar**.
 
-## Exemplo {#cross-channel-workflow-sample}
+## Exemplos {#cross-channel-workflow-sample}
 
 Este é um exemplo de fluxo de trabalho entre canais com uma segmentação e duas entregas. O fluxo de trabalho tem como público-alvo todos os clientes que vivem em Paris e que estão interessados em máquinas de café. Entre essa população, um email é enviado aos clientes regulares e um SMS é enviado aos clientes VIP.
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+Você também pode criar um fluxo de trabalho recorrente para enviar uma notificação por push personalizada todos os primeiros dias do mês, às 20h, aos assinantes do aplicativo móvel, dependendo de seus fusos horários.
 
 <!-- Scheduled emails available?
 

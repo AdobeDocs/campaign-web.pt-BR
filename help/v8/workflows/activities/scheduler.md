@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 21%
+source-wordcount: '435'
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,9 @@ A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele
 
 ## Práticas recomendadas
 
-É recomendável não agendar um workflow para execução por mais de 15 minutos, pois pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
+* É recomendável não agendar um workflow para execução por mais de 15 minutos, pois pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
+* Se quiser enviar um delivery instantâneo no fluxo de trabalho, adicione uma atividade de scheduler e defina-a para executar **Uma vez**. Você também pode definir a variável **Agendar** nas configurações do delivery.
+* Para enviar um delivery recorrente no workflow, é necessário usar um **Scheduler** e defina a frequência de execução. A atividade recorrente do delivery não permite definir um agendamento.
 
 ## Configuração
 
@@ -65,7 +67,7 @@ Observações:
 
 ## Exemplo
 
-No exemplo a seguir, a atividade é configurada para iniciar o workflow várias vezes por dia às 9h e 12h, todos os dias da semana de 1º de outubro de 2023 a 1º de janeiro de 2024.
+No exemplo a seguir, a atividade é configurada para que o workflow seja executado várias vezes por dia às 9h e às 12h, todos os dias da semana de 1º de outubro de 2023 a 1º de janeiro de 2024.
 
 ![](../assets/workflow-scheduler2.png)
 
