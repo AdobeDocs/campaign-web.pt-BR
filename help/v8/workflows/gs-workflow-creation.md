@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 Com o Campaign v8 Web, é possível criar workflows em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 
-Os workflows podem ser criados como workflows independentes, a partir do **Fluxos de trabalho** ou diretamente em uma campanha, nesse caso, o workflow será vinculado à campanha e executado junto com todos os workflows da outra campanha.
 
 ## O que há dentro de um workflow? {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ Cada workflow contém:
 * **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada fluxo de trabalho usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante o ciclo de vida do workflow.
 
 ## Etapas principais para criar um fluxo de trabalho {#gs-workflow-steps}
+
+
+Campanhas oferecem duas maneiras de criar um fluxo de trabalho:
+
+1. Os workflows podem ser criados como workflows independentes, a partir do **Fluxos de trabalho** menu.
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. Os workflows podem ser criados diretamente em uma campanha, a partir da **Fluxo de trabalho** da campanha. Quando incluído em uma campanha, o fluxo de trabalho é executado junto com todos os outros fluxos de trabalho da campanha e as métricas de relatório são agrupadas no nível da campanha.
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 As principais etapas para criar workflows são as seguintes:
 
