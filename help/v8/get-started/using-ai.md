@@ -2,7 +2,7 @@
 title: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 description: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 badge: label="Beta"
-source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
+source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 1%
@@ -16,6 +16,9 @@ Obtenha respostas rápidas e geradas por IA com base na documentação do produt
 A variável **Assistente de conhecimento com Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
 
 Graças aos recursos do Campaign Gen AI, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Quer você esteja buscando orientação em uma tarefa complexa ou navegando em documentos extensos, nosso Assistente de conhecimento com Gen AI é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+
+![](assets/ask-a-question.png)
+
 
 ## Consentimento {#consent-ai}
 
