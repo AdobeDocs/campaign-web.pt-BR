@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 80%
+source-wordcount: '1321'
+ht-degree: 77%
 
 ---
 
@@ -61,13 +61,6 @@ Para obter mais informações sobre o Explorer do Campaign, a hierarquia de past
 
 ### Gerenciamento de campanhas {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="Campanhas"
->abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Clique no botão “Criar campanha” para adicionar uma nova campanha. Selecione uma campanha para exibir seu conteúdo, entregas e detalhes. Navegue até a guia “Modelos” para exibir e criar modelos."
-
-
-
 Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketing, entregas e workflows.
 
 * **Campanhas** - Esta é a lista de suas campanhas e modelos de campanha. Por padrão, para cada campanha, é possível visualizar as datas de início/término/criação/última modificação, o status atual e o nome do operador de campanha que a criou. É possível filtrar a lista por status, datas de início/término, pasta ou criar um filtro avançado para definir seus próprios critérios de filtragem. Saiba mais sobre campanhas [nesta seção](../campaigns/gs-campaigns.md).
@@ -83,13 +76,6 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 
 ### Gerenciamento de clientes {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="Públicos-alvo"
->abstract="É a sua lista de públicos. É possível exibir o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Essa lista é do tipo somente leitura."
-
-
 Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, públicos-alvo e assinaturas. Essas listas são de somente leitura.
 
 * **Recipients**: acessa o banco de dados de recipients. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre recipients em [nesta seção](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 >id="acw_offers_list"
 >title="Ofertas"
 >abstract="Você pode navegar pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Adicionar uma oferta em uma entrega"
 
 * **Ofertas**: navegue pela lista de ofertas de interação. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis. Essas listas são do tipo somente leitura.
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### Ajuda contextual {#user-interface-help}
+## Ajuda contextual {#user-interface-help}
 
 Uma ajuda contextual está disponível na interface. Quando disponível, clique no ícone `?` para exibir informações de ajuda e links de documentações relacionadas.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 Com a nova versão Beta, o **Assistente de conhecimento com Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
-
-![](assets/ask-a-question.png)
-
 
 Graças aos recursos do Campaign Gen AI, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Quer você esteja buscando orientação em uma tarefa complexa ou navegando em documentos extensos, nosso Assistente de conhecimento com Gen AI é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permissão necessária"
 >abstract="Seu administrador precisa lhe conceder permissão para que você possa criar um segmento."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="Esta campanha é somente de leitura"
->abstract="Você não tem permissões para editar esta campanha. Se necessário, entre em contato com o administrador para obter acesso."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="Esta entrega é somente de leitura"
->abstract="Você não tem permissões para editar esta entrega. Se necessário, entre em contato com o administrador para obter acesso."
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="Este workflow é de somente leitura"
->abstract="Você não tem permissões para editar este fluxo de trabalho. Se necessário, entre em contato com o administrador para obter acesso."
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Este workflow é de somente leitura"
->abstract="Não é possível editar esse workflow devido a uma tela incompatível."
 
 <!-- delivery template settings-->
 
