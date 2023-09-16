@@ -3,20 +3,15 @@ audience: end-user
 title: Monitorar e gerenciar públicos
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 6%
+source-wordcount: '239'
+ht-degree: 3%
 
 ---
 
 
 # Monitorar e gerenciar públicos {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Este público-alvo é somente leitura"
->abstract="Você não tem permissão para editar este público-alvo. Se necessário, entre em contato com o administrador para obter acesso."
 
 A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no **[!UICONTROL Públicos-alvo]** menu.
 

@@ -3,16 +3,15 @@ audience: end-user
 title: Gerenciamento de permissões na Web do Campaign
 description: Saiba mais sobre permissões no Campaign web v8
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: '604'
+ht-degree: 20%
 
 ---
 
 
 # Acesso e permissões {#access-and-permissions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
@@ -20,6 +19,38 @@ ht-degree: 1%
 >abstract="Seu administrador deve conceder permissão a você antes que você possa criar esse objeto."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Este público-alvo é somente leitura"
+>abstract="Você não tem permissão para editar este público-alvo. Se necessário, entre em contato com o administrador para obter acesso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Este serviço é somente de leitura."
+>abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com o administrador para obter acesso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Esta campanha é somente de leitura"
+>abstract="Você não tem permissões para editar esta campanha. Se necessário, entre em contato com o administrador para obter acesso."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Esta entrega é somente de leitura"
+>abstract="Você não tem permissões para editar esta entrega. Se necessário, entre em contato com o administrador para obter acesso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Este workflow é de somente leitura"
+>abstract="Você não tem permissões para editar este fluxo de trabalho. Se necessário, entre em contato com o administrador para obter acesso."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Este workflow é de somente leitura"
+>abstract="Não é possível editar esse workflow devido a uma tela incompatível."
 
 O controle de acesso pode restringir o acesso a objetos e dados de listas principais, como deliveries, recipients ou workflows. Essas restrições também se aplicam à árvore de navegação do Explorer. Além disso, você precisa de permissões para criar, excluir, duplicar e editar objetos na interface do usuário.
 
@@ -30,7 +61,6 @@ Ao navegar pela interface do usuário da Web do Campaign, você pode acessar dad
 ## Exibir permissões {#view-permissions}
 
 No **Explorer**, você pode procurar permissões para cada pasta. Essas permissões são definidas no console do cliente e usadas para organizar e controlar o acesso aos dados do Campaign.
-
 
 Para exibir permissões de uma pasta, siga estas etapas:
 
