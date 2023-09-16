@@ -4,10 +4,10 @@ title: Introdução aos públicos-alvo
 description: Saiba como usar públicos na interface do Campaign Web
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ O público-alvo é o principal foco da sua entrega: os destinatários que recebe
 
 Para definir o público, você pode:
 
+* Criar e combinar públicos. [Saiba mais](create-audience.md)
 * Selecionar um público-alvo já existente, criado como uma lista no console do cliente. [Saiba mais](add-audience.md)
 * Selecionar um público-alvo da Adobe Experience Platform. [Saiba mais](aep-audience.md)
 * Criar um público-alvo novo com o criador de regras definindo e combinando critérios de filtro. [Saiba mais](segment-builder.md)
