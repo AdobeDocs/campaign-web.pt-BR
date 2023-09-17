@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 78%
+source-wordcount: '389'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Criar público-alvo"
+>title="Criar atividade de público"
 >abstract="A variável **Criar público-alvo** A atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um workflow, o público-alvo da mensagem não é definido na atividade de canal, mas no **Criar público-alvo** atividade."
 
 

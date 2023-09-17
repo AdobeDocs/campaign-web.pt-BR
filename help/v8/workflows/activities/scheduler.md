@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 16%
+source-wordcount: '519'
+ht-degree: 15%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 16%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
+>id="acw_orchestration_scheduler"
 >title="Atividade Scheduler"
->abstract="A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow."
+>abstract="A variável **Scheduler** A atividade permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow."
 
 
 A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow.
@@ -33,7 +33,13 @@ A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Validade do agendador"
->abstract="Você pode definir um período de validade para o scheduler. Pode ser permanente ou pode ser válido até uma data específica."
+>abstract="Você pode definir um período de validade para o scheduler. Pode ser permanente (padrão) ou pode ser válido até uma data específica."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Opções do agendador"
+>abstract="Defina a frequência do scheduler. Ele pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
 
 Siga estas etapas para configurar o **Scheduler** atividade:
 

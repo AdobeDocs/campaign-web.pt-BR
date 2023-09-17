@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Bifurcação
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 71%
+source-wordcount: '162'
+ht-degree: 68%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
 >title="Bifurcação Bifurcação"
->abstract="A variável **Bifurcar** a atividade é um **Controle de fluxo** atividade. Ele permite criar transições de saída para iniciar várias atividades ao mesmo tempo."
+>abstract="A atividade **Bifurcação** permite criar transições de saída para iniciar várias atividades ao mesmo tempo."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Bifurcação Bifurcação"
->abstract="A atividade Bifurcação permite criar transições de saída para iniciar várias atividades ao mesmo tempo."
+>title="Transições de atividade de bifurcação"
+>abstract="Por padrão, duas transições são criadas com um **Bifurcar** atividade. Clique em **Adicionar transição** para definir uma transição de saída adicional e insira seu rótulo."
 
 A variável **Bifurcar** a atividade é um **Controle de fluxo** atividade. Ele permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
 
