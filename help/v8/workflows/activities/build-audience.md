@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 97%
+source-wordcount: '388'
+ht-degree: 78%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="Criar público-alvo"
->abstract="A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho."
+>abstract="A variável **Criar público-alvo** A atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um workflow, o público-alvo da mensagem não é definido na atividade de canal, mas no **Criar público-alvo** atividade."
 
 
-A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**.
+A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um workflow, o público-alvo da mensagem não é definido na atividade de canal, mas no **Criar público-alvo** atividade.
 
 Para definir o público-alvo, você pode:
 
@@ -29,7 +29,7 @@ Para definir o público-alvo, você pode:
 
 >[!NOTE]
 >
->Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar uma entrega independente. [Saiba mais](../../audience/about-audiences.md)
+>Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar um delivery de email independente. [Saiba mais](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

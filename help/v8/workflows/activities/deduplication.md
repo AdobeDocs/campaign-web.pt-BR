@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 23%
+source-wordcount: '387'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 23%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication"
+>title="Atividade de desduplicação"
+>abstract="A variável **Desduplicação** A atividade de permite excluir duplicados nos resultados das atividades de entrada. Ele é usado principalmente após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
