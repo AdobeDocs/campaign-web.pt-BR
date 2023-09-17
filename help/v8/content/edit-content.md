@@ -4,9 +4,9 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 46%
 
 ---
@@ -64,7 +64,7 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
    >
    >Você pode alterar a parte anterior a &#39;@&#39;, mas não o endereço do domínio.
 
-1. Expanda a **[!UICONTROL Campos de resposta]** seção. O endereço do remetente é usado por padrão para respostas. No entanto, a Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
+1. Expanda a **[!UICONTROL Campos de resposta]** seção. O nome e os endereços do remetente são usados por padrão para respostas. No entanto, a Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
 
    ![](assets/email-edit-content-reply-to.png)
 

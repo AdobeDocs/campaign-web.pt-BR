@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 27%
+source-wordcount: '1014'
+ht-degree: 26%
 
 ---
 
@@ -25,12 +25,12 @@ Para um processo de design acelerado e aprimorado, você pode criar templates do
 
 Um modelo pode incluir:
 
-* [Tipologias](../advanced-settings/delivery-settings.md#typology)
-* O endereço do remetente
-* Um [público](../audience/about-audiences.md), incluindo [grupos de controle](../audience/control-group.md)
-* Personalizado [conteúdo](../content/edit-content.md)
-* [Campos personalizados](../personalization/personalize.md) e [conteúdo condicional](../personalization/conditions.md)
-* Links para [mirror page](../content/mirror-page.md) e cancelar assinatura [links](../content/message-tracking.md)
+* [Tipologias](../advanced-settings/delivery-settings.md#typology),
+* O endereço do remetente,
+* Um [público](../audience/about-audiences.md), incluindo [grupos de controle](../audience/control-group.md),
+* Personalizado [conteúdo](../content/edit-content.md),
+* [Campos personalizados](../personalization/personalize.md) e [conteúdo condicional](../personalization/conditions.md),
+* Links para [mirror page](../content/mirror-page.md) e cancelar assinatura [links](../content/message-tracking.md),
 * Outras propriedades de entrega, como validade de recurso, parâmetros de nova tentativa ou configurações de quarentena.
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Para configurar um modelo de entrega do zero, siga as etapas abaixo:
    > * [Canal de email](../email/create-email.md)
    > * [Canal de notificação por push](../push/gs-push.md)
    > * [Canal de SMS](../sms/create-sms.md)
+
+1. Além disso, para modelos de email, as configurações avançadas, como regras de tipologia e mapeamentos de público alvo, podem ser acessadas por meio da **[!UICONTROL Configurações]** localizado na parte superior direita da tela. [Saiba mais](../advanced-settings/delivery-settings.md)
 
 1. Clique em **[!UICONTROL Revisão]** botão para salvar e revisar o modelo. Você ainda pode editar todas as configurações, excluí-las e duplicá-las.
 

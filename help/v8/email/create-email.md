@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 68%
+source-wordcount: '1354'
+ht-degree: 67%
 
 ---
 
@@ -66,7 +66,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 
    ![](assets/email-properties.png)
 
-1. Além disso, as configurações avançadas, como regras de tipologia e target mappings, podem ser acessadas por meio do **[!UICONTROL Configurações]** localizado na parte superior direita da tela. Essas definições são pré-configuradas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico.
+1. Além disso, as configurações avançadas, como regras de tipologia e target mappings, podem ser acessadas por meio do **[!UICONTROL Configurações]** localizado na parte superior direita da tela. Essas definições são pré-configuradas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico. [Saiba mais](../advanced-settings/delivery-settings.md)
 
 ## Definir o público {#define-audience}
 
@@ -157,7 +157,7 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
 1. Para revisar seu email, clique em **[!UICONTROL Revisar e enviar]**. Isso exibe uma visualização do email, juntamente com todas as propriedades, o público e o agendamento configurados. Você pode editar qualquer um desses elementos clicando no botão Modificar.
 
-1. Para visualizar o email e enviar versões de teste, clique no botão **[!UICONTROL Simular conteúdo]**.
+1. Para visualizar o email e enviar versões de teste, clique no link **[!UICONTROL Simular conteúdo]** botão.
 
    ![](assets/review-email.png)
 
