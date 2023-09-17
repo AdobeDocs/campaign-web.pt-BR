@@ -4,20 +4,19 @@ title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # Definir um público com o construtor de regras {#segment-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Públicos-alvo"
->abstract="Criar um público-alvo de entrega nunca foi tão fácil! Com o construtor de regras mais recente, agora é possível definir critérios de filtragem para recipients ou qualquer outro targeting dimension do banco de dados. Aproveite o público-alvo da Adobe Experience Platform para refinar ainda mais o público-alvo e maximizar o impacto da campanha."
+>abstract="Criar um público-alvo de entrega nunca foi tão fácil. Com nosso construtor de regras mais recente, agora é possível definir critérios de filtragem para destinatários ou qualquer outro targeting dimension do banco de dados. Aproveite seus públicos-alvo da Adobe Experience Platform para refinar ainda mais o público-alvo e maximizar o impacto da campanha."
 
 Esta seção descreve como criar um público ao elaborar um novo email. O público criado só pode ser usado nesse email.
 
