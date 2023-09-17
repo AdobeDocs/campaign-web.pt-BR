@@ -4,10 +4,10 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 46%
+source-wordcount: '593'
+ht-degree: 40%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Parâmetros de email"
->abstract="Os valores De nome e De email são definidos no modelo de email. A Linha de assunto pode ser personalizada usando o Editor de expressão."
+>title="Definir as propriedades básicas do email"
+>abstract="A variável **Detalhes básicos** permite atualizar o endereço do remetente e o endereço de resposta e definir a linha de assunto usando o Editor de expressão."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Anexo de email"
+>title="Anexar arquivos ao seu email"
 >abstract="Selecione um ou vários arquivos para inserir na mensagem."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Opções de rastreamento"
+>title="Editar rastreamento"
 >abstract="Por padrão, o rastreamento é ativado para a entrega. Você pode desativar esta opção aqui."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Adicionar links e rastrear mensagens"
 
 O email **[!UICONTROL Editar conteúdo]** permite:
 * Definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto
