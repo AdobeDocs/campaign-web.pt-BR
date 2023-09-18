@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 6%
 
 ---
 
@@ -29,16 +29,27 @@ Você pode acompanhar o progresso de perfis direcionados em tempo real usando um
 >
 >Você pode desativar o fluxo visual usando a variável **[!UICONTROL Ocultar progressão]** na barra de ação superior da tela.
 
+## Transições de fluxo de trabalho {#transitions}
+
+Nos workflows, os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária.
+
+Esses dados podem ser exibidos para cada transição. Para fazer isso, selecione uma transição para abrir as propriedades no lado direito da tela.
+
+* Clique em **[!UICONTROL Visualizar esquema]** para exibir o schema da tabela de trabalho.
+* Clique em **[!UICONTROL Visualizar resultados]** para visualizar os dados transportados na transição selecionada.
+
+![](assets/transition.png)
+
 ## Monitorar execução da atividade {#activities}
 
 Os indicadores visuais no canto superior direito de cada caixa de atividade permitem verificar a execução:
 
 | Indicador visual | Descrição |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | A atividade está sendo executada no momento. |
-| ![](assets/activity-status-orange.png) | A atividade requer sua atenção. Isso pode envolver a confirmação do envio de um delivery ou a tomada de uma ação necessária. |
-| ![](assets/activity-status-red.png) | A atividade encontrou um erro. Para resolver o problema, abra os logs do fluxo de trabalho para obter mais informações. |
-| ![](assets/activity-status-green.png) | A atividade foi executada com sucesso. |
+| ![](assets/activity-status-pending.png){width="70%"} | A atividade está sendo executada no momento. |
+| ![](assets/activity-status-orange.png){width="70%"} | A atividade requer sua atenção. Isso pode envolver a confirmação do envio de um delivery ou a tomada de uma ação necessária. |
+| ![](assets/activity-status-red.png){width="70%"} | A atividade encontrou um erro. Para resolver o problema, abra os logs do fluxo de trabalho para obter mais informações. |
+| ![](assets/activity-status-green.png){width="70%"} | A atividade foi executada com sucesso. |
 
 ## Monitorar logs e tarefas {#logs-tasks}
 
