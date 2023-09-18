@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Trabalho com modelos de entrega
-description: Saiba como criar e usar modelos de entrega no Campaign
+description: Saiba como criar e usar modelos de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 26%
 >id="acw_delivery_template_for_campaign"
 >title="Modelos de entrega"
 >abstract="Use modelos de entrega para padronizar a aparência criativa e ter maior rapidez na execução e na inicialização de campanhas"
-
 
 Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas.
 

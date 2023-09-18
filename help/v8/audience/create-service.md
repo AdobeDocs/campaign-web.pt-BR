@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Trabalhar com serviços de assinatura
-description: Saiba como criar serviços no Adobe Campaign Web
+description: Saiba como criar e gerenciar serviços no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
@@ -44,14 +44,13 @@ Para editar um serviço existente, clique em seu respectivo nome.
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Propriedades do serviço de assinaturas"
->abstract="Insira o rótulo do serviço de assinatura e defina opções adicionais."
+>title="Definir as propriedades do serviço"
+>abstract="Insira o rótulo do serviço de assinatura e defina opções adicionais, como um período de validade para seu serviço."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Mensagens de confirmação do serviço de assinaturas"
->abstract="Quando um usuário assina um serviço ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados nessas mensagens."
-
+>title="Selecionar uma mensagem de confirmação"
+>abstract="Quando um usuário assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados para essa mensagem."
 
 Para criar um serviço de assinatura, siga estas etapas:
 
