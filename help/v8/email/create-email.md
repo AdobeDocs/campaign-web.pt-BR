@@ -4,7 +4,7 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 67%
@@ -21,7 +21,7 @@ ht-degree: 67%
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
-Com base em uma configuração [modelo de design](../content/email-templates.md), o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
+Com base em uma configuração [modelo de design](../content/email-sample-templates.md), o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
 
 ## Criar o delivery de email {#create-email}
 
