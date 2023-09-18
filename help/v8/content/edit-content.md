@@ -4,10 +4,10 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 40%
+source-wordcount: '633'
+ht-degree: 39%
 
 ---
 
@@ -39,6 +39,10 @@ O email **[!UICONTROL Editar conteúdo]** permite:
 * Executar ações adicionais, como adicionar anexos ou configurar ofertas
 * Acesse o [Email Designer](get-started-email-designer.md#start-authoring) para começar a criar o conteúdo adequado do seu email
 
+>[!NOTE]
+>
+>Todos os campos de texto editáveis dessa tela podem ser preenchidos usando campos de personalização. [Saiba como personalizar conteúdo](../personalization/personalize.md)
+
 Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Editar conteúdo]** botão no [painel de delivery de email](../email/create-email.md) tela.
@@ -69,7 +73,7 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de expressão para adicionar personalização usando vários atributos e blocos de conteúdo ou ofertas. [Saiba como personalizar conteúdo](../personalization/personalize.md)
+1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de expressão para adicionar [personalização](../personalization/personalize.md) usando vários atributos e blocos de conteúdo ou ofertas.
 
 1. Se quiser anexar um arquivo ao email, clique no botão **[!UICONTROL Adicionar anexo]** e, em seguida, selecione um ou vários arquivos.
 
