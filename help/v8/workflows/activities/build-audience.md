@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 77%
+source-wordcount: '481'
+ht-degree: 62%
 
 ---
 
@@ -62,8 +62,16 @@ Para selecionar um público-alvo existente, siga estas etapas:
 1. Clique em **Continuar**.
 1. Selecione seu público-alvo, da mesma forma que você usa um público-alvo ao criar um novo email. Consulte esta [seção](../../audience/add-audience.md).
 
-## Exemplo
+>[!IMPORTANT]
+>
+>Se você quiser combinar vários **[!UICONTROL Criar público-alvo]** em um workflow que inclua um público-alvo Experience Platform, é necessário adicionar um **[!UICONTROL Alterar dimensão]** atividade após, para garantir que todos os públicos-alvo pertençam à targeting dimension &quot;Recipient&quot;. Um exemplo de workflow está disponível na parte inferior desta página.
+
+## Exemplos
 
 Este é um exemplo de um fluxo de trabalho com duas atividades de **Criar público-alvo**. A primeira é direcionada ao público-alvo dos jogadores de pôquer, seguida de uma entrega por email. A segunda é direcionada ao público-alvo de clientes VIP, seguida de uma entrega de SMS.
 
 ![](../assets/workflow-audience-example.png)
+
+Este é outro exemplo de onde um público-alvo do Adobe Experience Platform é combinado com um público-alvo do Adobe Campaign. Para permitir que esses públicos sejam combinados, uma variável **[Dimensão de alteração do iUICONTROL]** A atividade com a dimensão de direcionamento &quot;Recipient&quot; é adicionada após o público-alvo da Adobe Experience Platform.
+
+![](../assets/workflow-audience-aep.png)
