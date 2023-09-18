@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ Para selecionar um público-alvo existente, siga estas etapas:
 
 >[!IMPORTANT]
 >
->Se você quiser combinar vários **[!UICONTROL Criar público-alvo]** em um workflow que inclua um público-alvo Experience Platform, é necessário adicionar um **[!UICONTROL Alterar dimensão]** atividade após, para garantir que todos os públicos-alvo pertençam à targeting dimension &quot;Recipient&quot;. Um exemplo de workflow está disponível na parte inferior desta página.
+>Se quiser usar um **[!UICONTROL Criar público-alvo]** atividade direcionada a um público-alvo Experience Platform, é necessário adicionar um **[!UICONTROL Alterar dimensão]** atividade após, para garantir que o targeting dimension do público-alvo seja definido como &quot;Recipient&quot;. Um exemplo de workflow está disponível na parte inferior desta página.
 
 ## Exemplos
 
