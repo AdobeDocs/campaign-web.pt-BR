@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como criar e gerenciar serviços no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '931'
 ht-degree: 5%
 
 ---
@@ -158,7 +158,15 @@ Uma vez que [criou um serviço de assinatura](#create-service), o pode direciona
 
    ![](assets/service-audience-subscribers.png)
 
-1. Crie uma campanha e direcione ao público-alvo criado.
+1. [Criar um delivery](../msg/gs-messages.md) e selecione o público criado acima.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Edite o conteúdo da mensagem conforme desejado e envie o delivery.
+
+   ![](assets/service-delivery-ready.png)
+
+Seu delivery é enviado somente aos assinantes desse serviço.
 
 
 
