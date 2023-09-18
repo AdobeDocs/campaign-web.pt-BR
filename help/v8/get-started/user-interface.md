@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 74%
+source-wordcount: '1278'
+ht-degree: 73%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Dados de enriquecimento"
 >abstract="A confirmar"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Envio de relatórios"
->abstract="Consulte os indicadores de envio para os relatórios da campanha."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Rastreamento de relatórios"
->abstract="Consulte os indicadores de rastreamento para os relatórios da campanha."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Visão geral dos relatórios"
->abstract="Métricas principais para a sua entrega."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Relatório de estatísticas do público alvo"
->abstract="Esta seção exibe métricas específicas de acordo com os públicos-alvo."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Relatórios agregados para entregas"
->abstract="Selecione pelo menos duas entregas para exibir um relatório de dados agregado."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Rastreamento de relatórios globais"
 >abstract="As métricas de relatórios de rastreamento estão visíveis nesta tela"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

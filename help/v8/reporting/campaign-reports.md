@@ -3,14 +3,34 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 27%
+source-wordcount: '1853'
+ht-degree: 26%
 
 ---
 
 # Relatórios de campanha {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Envio de relatórios"
+>abstract="A guia Sending no relatório fornece informações detalhadas sobre as interações dos visitantes com os deliveries e os possíveis erros que podem ter encontrado."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Rastreamento de relatórios"
+>abstract="A guia Sending no relatório oferece dados valiosos, incluindo o comportamento do recipient por link, o detalhamento de aberturas e cliques, bem como informações detalhadas sobre os URLs clicados com mais frequência durante um delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Visão geral da entrega"
+>abstract="A Visão geral da entrega fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de email."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Estatísticas iniciais do público-alvo"
+>abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos recipients"
 
 O relatório Campanha é dividido em diferentes widgets detalhando o sucesso e os erros da campanha.
 
