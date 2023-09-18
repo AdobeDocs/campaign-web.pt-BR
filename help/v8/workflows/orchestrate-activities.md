@@ -3,7 +3,7 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 4%
