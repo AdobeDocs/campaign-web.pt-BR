@@ -4,7 +4,7 @@ product: campaign
 title: Trabalho com modelos de email
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 25%
@@ -28,7 +28,6 @@ Saiba como usar modelos e como salvar um conteúdo de email como modelo nas seç
 >[!NOTE]
 >
 >Os modelos de conteúdo de email são diferentes dos [templates do delivery](../msg/delivery-template.md). Eles permitem reutilizar apenas conteúdo de email, enquanto modelos de entrega permitem usar para reutilizar conteúdo de entrega, mas também todas as configurações e propriedades de entrega, como tipologias, endereço do remetente, públicos-alvo etc.
-
 
 ## Usar um modelo {#use-templates}
 
