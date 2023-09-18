@@ -4,7 +4,7 @@ title: Usar um público da Adobe Experience Platform
 description: Saiba como usar um público da Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 37%
@@ -52,5 +52,3 @@ Para selecionar um público-alvo da Adobe Experience Platform para o seu deliver
 1. Usando o construtor de regras, você pode enriquecer seu público com filtros adicionais ou combinar públicos diferentes. Consulte esta [seção](segment-builder.md).
 
 1. Clique em **Salvar**.
-
-
