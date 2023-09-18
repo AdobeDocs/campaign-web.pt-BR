@@ -3,9 +3,9 @@ audience: end-user
 title: Geração de imagem com o assistente de Conteúdo
 description: Introdução ao assistente de Conteúdo
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ No exemplo abaixo, saiba como usar o Assistente de conteúdo para otimizar e mel
 
    ![](assets/image-genai-2.png)
 
-1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar um Resumo de marketing para contextualizar o Assistente de conteúdo.
+1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao assistente de Conteúdo.
 
-   Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente.
+   Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente. Observe que o conteúdo carregado está disponível exclusivamente para reutilização pelo usuário atual.
 
 1. Selecione o **[!UICONTROL Taxa de proporção]** do seu ativo. Isso determina a largura e a altura do ativo.
 

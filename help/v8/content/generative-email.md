@@ -3,9 +3,9 @@ audience: end-user
 title: Geração de email com o assistente de Conteúdo
 description: Introdução ao assistente de Conteúdo
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,17 @@ Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente 
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar.
 
-   Ativar o **[!UICONTROL Aprimorar com conteúdo atual]** opção do assistente de Conteúdo para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
+   Estes são alguns exemplos de prompts:
+
+   * Para um boletim informativo: gere um boletim informativo mensal com artigos de viagem, destaques do destino e ofertas exclusivas de assinantes.
+   * Para Feedbacks e Pesquisas: crie um email convidando os clientes a fornecer feedback sobre sua experiência recente com software e a participar de uma pesquisa de melhoria de produtos.
+   * Para emails de aniversário: gere um email de aniversário, comemorando o dia especial do cliente e oferecendo a ele um desconto de aniversário.
 
    ![](assets/email-genai-2.png)
 
-1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar um Resumo de marketing para contextualizar o Assistente de conteúdo.
+1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao assistente de Conteúdo.
 
-   Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente.
+   Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente. Observe que o conteúdo carregado está disponível exclusivamente para reutilização pelo usuário atual.
 
 1. Selecione o **[!UICONTROL Estratégia de comunicação]** que melhor atenda às suas necessidades. Isso afetará o tom e o estilo do email gerado.
 
@@ -46,7 +50,7 @@ Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente 
 
    ![](assets/email-genai-3.png)
 
-1. Personalize o **[!UICONTROL Tipo de conteúdo]** para corresponder às características desejadas do ativo.
+1. Personalize o **[!UICONTROL Tipo de conteúdo]** configurações de ativos para corresponder às características desejadas do ativo.
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
