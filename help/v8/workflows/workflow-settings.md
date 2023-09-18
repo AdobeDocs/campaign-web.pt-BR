@@ -4,9 +4,9 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '903'
 ht-degree: 32%
 
 ---
@@ -17,7 +17,7 @@ Ao orquestrar atividades de workflow na tela, você pode acessar configurações
 
 Essas configurações são pré-definidas no template selecionado ao criar o workflow, mas podem ser editadas conforme necessário para esse workflow específico.
 
-Para fazer isso, clique no link **[!UICONTROL Configurações do fluxo de trabalho]** no canto superior esquerdo da tela, ao lado do rótulo do workflow.
+Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponível na barra de ações acima da tela do fluxo de trabalho.
 
 ![](assets/workflow-settings.png)
 
