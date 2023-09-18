@@ -4,7 +4,7 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 67%
@@ -117,7 +117,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso 
 
 1. Para criar o conteúdo do email, clique no botão **[!UICONTROL Editar corpo do email]**.
 
-   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](../msg/delivery-template.md).
+   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](../content/email-sample-templates.md).
 
    ![](assets/select-template.png)
 
@@ -202,7 +202,10 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 1. Durante o processo de envio, você pode acompanhar seu progresso e exibir estatísticas em tempo real diretamente nessa tela.
 
-   ![](assets/sent-mail.png)
+   ![](assets/sending-email.png)
+
+   <!--
+    ![](assets/sent-email.png)-->
 
    Você também pode acessar informações detalhadas sobre o envio clicando no botão **[!UICONTROL Logs]**. [Saiba como monitorar os logs de entrega](../monitor/delivery-logs.md)
 
