@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
+source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 62%
+source-wordcount: '488'
+ht-degree: 61%
 
 ---
 
@@ -72,6 +72,6 @@ Este é um exemplo de um fluxo de trabalho com duas atividades de **Criar públi
 
 ![](../assets/workflow-audience-example.png)
 
-Este é outro exemplo de onde um público-alvo do Adobe Experience Platform é combinado com um público-alvo do Adobe Campaign. Para permitir que esses públicos sejam combinados, uma variável **[Dimensão de alteração do iUICONTROL]** A atividade com a dimensão de direcionamento &quot;Recipient&quot; é adicionada após o público-alvo da Adobe Experience Platform.
+Este é outro exemplo de fluxo de trabalho em que um público-alvo do Adobe Experience Platform é combinado com um público-alvo do Adobe Campaign. Para permitir que esses públicos sejam combinados, uma variável **[!UICONTROL Alterar dimensão]** A atividade com a dimensão de direcionamento &quot;Recipient&quot; é adicionada após o público-alvo da Adobe Experience Platform. [Saiba como configurar uma atividade de Change dimension](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
