@@ -3,10 +3,10 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 5%
+source-wordcount: '625'
+ht-degree: 4%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 5%
 # Orquestrar atividades {#orchestrate}
 
 Depois que você tiver [criou um workflow](create-workflow.md), seja no menu de workflow ou em uma campanha, você pode começar a orquestrar as diferentes tarefas que ele executará. Para fazer isso, uma tela visual é fornecida, permitindo que você crie um diagrama de workflow. Neste diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial.
+
+## Adicionar atividades {#add}
 
 Nessa etapa da configuração, o diagrama é exibido com um ícone de início, representando o início do workflow. Para adicionar sua primeira atividade, clique no botão + conectado ao ícone de início.
 
@@ -32,6 +34,20 @@ Para remover uma atividade, selecione-a na tela e clique no ícone Excluir nas p
 >[!TIP]
 >
 >Você tem a opção de personalizar o nome das transições entre cada atividade. Para fazer isso, selecione a transição e altere seu rótulo no painel direito.
+
+## Gerenciar atividades {#manage}
+
+Ao adicionar atividades, os botões de ação ficam disponíveis no painel de propriedades, permitindo que você execute várias operações. Você pode:
+
+* **Excluir** a atividade da tela.
+* **Desativar/Ativar** a atividade. Quando o fluxo de trabalho for executado, as atividades desabilitadas não serão executadas e o fluxo de trabalho será pausado?
+* **Copiar** a atividade. É possível colá-la em qualquer workflow clicando no botão &quot;+&quot; em uma transição e selecionando &quot;Colar 1 atividade&quot;.
+* Acessar o da atividade **Logs e tarefas**.
+* **Pausar/Retomar** a atividade. Quando o workflow é executado, ele é pausado na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
+
+![](assets/activity-action.png){width="70%"}
+
+## Exemplo {#example}
 
 Este é um exemplo de fluxo de trabalho criado para enviar um email a todos os clientes (exceto clientes do VIP) com um email interessados em máquinas de café.
 
