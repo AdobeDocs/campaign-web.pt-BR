@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ Na lista de campanhas, duas guias estão disponíveis:
 
 * A guia **Procurar** lista todas as campanhas existentes. É possível clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no botão **Criar campanha**. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A guia **Modelos** lista todos os modelos de campanha disponíveis. Os modelos de campanha são pré-configurados para que possam ser reutilizados ao criar novas campanhas. Eles são criados no console cliente. [Leia mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=pt-BR)
+* A guia **Modelos** lista todos os modelos de campanha disponíveis. É possível exibir um modelo existente ou criar um novo. [Leia mais](manage-campaign-templates.md).
 
 ![Lista de campanhas](assets/campaign-list.png)
 

@@ -3,23 +3,20 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 21%
+source-wordcount: '427'
+ht-degree: 20%
 
 ---
 
 
-# Desduplicação {#deduplication}
+# Eliminação de duplicação {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="Eliminação de duplicação atributos"
+>abstract="Isso permite especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
