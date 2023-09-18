@@ -4,10 +4,10 @@ title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 48%
+source-wordcount: '771'
+ht-degree: 37%
 
 ---
 
@@ -25,15 +25,19 @@ As etapas para enviar ofertas com um delivery são as seguintes:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Configurações de ofertas"
->abstract="Configurar quais ofertas devem ser propostas para os recipients."
+>title="Definir os parâmetros de ofertas"
+>abstract="Configure quais ofertas devem ser propostas aos recipients definindo um espaço de ofertas, opcionalmente uma categoria e um tema, e especifique o número de ofertas que deseja inserir no delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Configurações avançadas de ofertas"
->abstract="Configurar as opções avançadas em ofertas."
+>title="Definir as configurações avançadas de ofertas"
+>abstract="Você pode ativar a exclusão de recipients para os quais não há ofertas elegíveis suficientes e escolher como a mensagem será processada caso uma das proposições não exista."
 
-1. Para selecionar as ofertas a serem propostas no delivery, clique no link **[!UICONTROL Configurar ofertas]** na tela de edição de conteúdo de delivery.
+O Adobe Campaign permite propor uma ou várias ofertas específicas para um determinado contato. Módulo de interação que permite responder em tempo real durante uma interação com um determinado contato, propondo a ele uma ou várias ofertas específicas. Essas ofertas podem ser mensagens de comunicação simples, ofertas especiais de um ou vários produtos ou um serviço.
+
+Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaixo.
+
+1. Clique em **[!UICONTROL Configurar ofertas]** na tela de edição de conteúdo de delivery.
 
    ![](assets/setup-offers.png)
 
@@ -99,7 +103,7 @@ Para inserir uma oferta usando o Editor de expressão, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >O número de apresentações disponíveis depende da forma como a chamada do motor é configurada e sua ordem depende da prioridade das ofertas.
+   >O número de apresentações disponíveis depende da forma como a chamada do motor é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Salve as alterações.
 
