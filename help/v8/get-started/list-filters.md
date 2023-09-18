@@ -3,10 +3,10 @@ audience: end-user
 title: Listas de busca, pesquisa e filtro
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '448'
+ht-degree: 86%
 
 ---
 
@@ -51,13 +51,15 @@ Por exemplo, você pode filtrar as entregas por seu status, canal, data de conta
 
 ## Filtros personalizados{#list-custom-filters}
 
-Para criar filtros personalizados nos dados, navegue até a parte inferior dos filtros e clique no botão **Adicionar regras**
+Para criar filtros personalizados nos dados, navegue até a parte inferior dos filtros e clique no **Adicionar regras** botão para acessar o construtor de regras.
 
 Arraste e solte atributos para criar seus critérios de filtro na tela **Filtros avançados**.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Use o botão **Exibir atributos avançados** para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
+
+O princípio operacional do construtor de regras para filtros personalizados é semelhante ao construtor de regras usado para criar públicos. Informações detalhadas sobre como usá-lo estão disponíveis no [Documentação de públicos](../audience/segment-builder.md).
 
 ## Usar atributos avançados {#adv-attributes}
 
