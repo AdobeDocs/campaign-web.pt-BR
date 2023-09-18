@@ -4,7 +4,7 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar um fluxo de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 6%
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de fluxos de trabalho na campanha"
->abstract="A variável **Entregas** A guia lista todos os workflows vinculados à campanha atual. Clique no nome de um workflow para editá-lo. Use o botão Create workflow para adicionar um novo workflow a esta campanha."
+>abstract="A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha atual. Clique no nome de um workflow para editá-lo. Use o **Criar fluxo de trabalho** botão para adicionar um novo workflow a esta campanha."
 
 
 Você pode criar workflows independentes ou dentro de uma campanha. A primeira etapa é selecionar um template e definir suas propriedades gerais. Em seguida, você pode definir configurações adicionais, conforme necessário.
