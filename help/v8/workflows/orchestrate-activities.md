@@ -3,9 +3,9 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ Para remover uma atividade, selecione-a na tela e clique no ícone Excluir nas p
 Ao adicionar atividades, os botões de ação ficam disponíveis no painel de propriedades, permitindo que você execute várias operações. Você pode:
 
 * **Excluir** a atividade da tela.
-* **Desativar/Ativar** a atividade. Quando o fluxo de trabalho for executado, as atividades desabilitadas não serão executadas e o fluxo de trabalho será pausado?
+* **Desativar/Ativar** a atividade. Quando o workflow é executado, as atividades desativadas e as atividades a seguir no mesmo caminho não são executadas e o workflow é interrompido.
 * **Copiar** a atividade. É possível colá-la em qualquer workflow clicando no botão &quot;+&quot; em uma transição e selecionando &quot;Colar 1 atividade&quot;.
 * Acessar o da atividade **Logs e tarefas**.
 * **Pausar/Retomar** a atividade. Quando o workflow é executado, ele é pausado na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
