@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como criar e gerenciar serviços no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1019'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,9 @@ Para saber mais sobre como gerenciar assinaturas e cancelamentos de assinaturas,
 
 ## Acessar serviços de assinatura {#access-services}
 
-1. Para acessar os serviços de assinatura disponíveis para sua plataforma, navegue até o **[!UICONTROL Serviços de assinatura]** no painel de navegação esquerdo.
+Para acessar os serviços de assinatura disponíveis para sua plataforma, siga as etapas abaixo.
+
+1. Navegue até o **[!UICONTROL Serviços de assinatura]** no painel de navegação esquerdo.
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ Para saber mais sobre como gerenciar assinaturas e cancelamentos de assinaturas,
 >title="Selecionar uma mensagem de confirmação"
 >abstract="Quando um usuário assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados para essa mensagem."
 
-Para criar um serviço de assinatura, siga estas etapas:
+Para criar um serviço de assinatura, siga as etapas abaixo.
 
 1. Selecione o **[!UICONTROL Criar serviço de assinatura]** botão.
 
@@ -66,7 +68,7 @@ Para criar um serviço de assinatura, siga estas etapas:
 
    ![](assets/service-create-properties.png)
 
-1. Por padrão, as subscrições são ilimitadas. Você pode desativar o **[!UICONTROL Período de validade ilimitado]** opção para definir uma duração de validade do serviço. No exemplo abaixo, após 20 dias, ninguém poderá assinar mais esse serviço.
+1. Por padrão, as subscrições são ilimitadas. Você pode desativar o **[!UICONTROL Período de validade ilimitado]** opção para definir uma duração de validade do serviço. No exemplo abaixo, após 20 dias, nenhum usuário poderá assinar mais esse serviço.
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ Para criar um serviço de assinatura, siga estas etapas:
 
 1. Clique em **[!UICONTROL Salvar e revisar]**. O novo serviço é adicionado à variável **[!UICONTROL Serviços de assinatura]** lista.
 
-### Criar uma mensagem de confirmação {#create-confirmation-message}
+## Criar uma mensagem de confirmação {#create-confirmation-message}
 
 Para enviar uma mensagem de confirmação aos usuários que assinam ou cancelam a assinatura do seu serviço, você deve criar um template do delivery com o **[!UICONTROL Assinaturas]** target mapping, sem um destino definido. Para isso, siga as etapas abaixo.
 
 1. Crie um template do delivery para a confirmação da assinatura. [Saiba como](../msg/delivery-template.md)
 
-1. Não selecione um público para esta entrega. Em vez disso, acesse o **[!UICONTROL Configurações de entrega]**, vá para a [Público](../advanced-settings/delivery-settings.md#audience) e selecione a guia **[!UICONTROL Assinaturas]** target mapping.
+1. Não selecione um público para esta entrega. Em vez disso, acesse o **[!UICONTROL Configurações de entrega]**, vá para a [Público](../advanced-settings/delivery-settings.md#audience) e selecione a guia **[!UICONTROL Assinaturas]** target mapping da lista.
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -102,7 +104,7 @@ Para enviar uma mensagem de confirmação aos usuários que assinam ou cancelam 
 
 Agora você pode selecionar essas mensagens quando [criação de um serviço de assinatura](#create-service). Os usuários que assinarem ou cancelarem a assinatura desse serviço receberão a mensagem de confirmação selecionada.
 
-## Adicionar assinantes ao seu serviço
+## Adicionar assinantes ao seu serviço {#add-subscribers}
 
 Depois de criar um serviço, é possível adicionar assinantes manualmente. Siga as etapas abaixo.
 
@@ -116,11 +118,27 @@ Depois de criar um serviço, é possível adicionar assinantes manualmente. Siga
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Os destinatários selecionados receberão a assinatura [mensagem de confirmação](#create-confirmation-message) que você selecionou quando [criação do serviço](#create-service). Clique em **[!UICONTROL Enviar]**.
+1. Clique em **[!UICONTROL Enviar]**. Os destinatários selecionados receberão a assinatura [mensagem de confirmação](#create-confirmation-message) que você selecionou quando [criação do serviço](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 Os perfis adicionados são exibidos no **[!UICONTROL Assinantes]** lista. Agora eles estão subscritos no seu serviço.
+
+## Remover assinantes do seu serviço {#remove-subscribers}
+
+Depois de adicionar assinantes ao serviço, você pode removê-los. Siga as etapas abaixo.
+
+1. Selecione um serviço existente na **[!UICONTROL Serviços de assinatura]** lista.
+
+1. Clique no ícone de três pontos ao lado do nome do recipient desejado e selecione **[!UICONTROL Excluir]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. Confirme a exclusão e clique **[!UICONTROL Enviar]**. Os destinatários selecionados receberão o cancelamento de subscrição [mensagem de confirmação](#create-confirmation-message) que você selecionou quando [criação do serviço](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+O recipient é removido do **[!UICONTROL Assinantes]** e não está mais inscrito no seu serviço.
 
 ## Logs e relatórios do serviço de assinatura {#logs-and-reports}
 
@@ -142,7 +160,7 @@ Para medir a eficácia de seus serviços de assinatura para canais de SMS e emai
 
      ![](assets/service-reports.png)
 
-   * A variável **[!UICONTROL Evolução geral das assinaturas]** o gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução dos números e a porcentagem de fidelidade.
+   * A variável **[!UICONTROL Evolução geral das assinaturas]** o gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução dos números e a porcentagem de fidelidade.<!--what is Registered?-->
 
    * Use o **[!UICONTROL Recarregar]** botão para recuperar os últimos valores da execução e da programação do workflow de rastreamento.
 
