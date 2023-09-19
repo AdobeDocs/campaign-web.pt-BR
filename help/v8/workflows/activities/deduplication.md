@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 20%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
@@ -60,10 +60,13 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 1. Selecione o **Método de desduplicação** para usar:
 
    * **Seleção aleatória**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
-   * **Usar uma expressão**: permite manter os registros nos quais o valor da expressão inserida é o menor ou o maior. ++ Expressão ++ Classificação
-   * **Following a list of values**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão Add localizado acima da lista de valores. ++ Classificar
+   * **Usar uma expressão**: permite manter os registros nos quais o valor da expressão inserida é o menor ou o maior.
+   * **Following a list of values**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão Add localizado acima da lista de valores.
 
 1. Marque a opção **Generate complement** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
 
 ## Exemplo{#example}
 
+No exemplo a seguir, usamos uma atividade de desduplicação para excluir duplicatas do target antes de enviar um delivery. As duplicatas identificadas são adicionadas a um público-alvo dedicado de duplicatas que podem ser reutilizadas se necessário. Usamos o **E-mail** para identificar as duplicatas. Escolhemos manter 1 entrada e selecionar a variável **Aleatório** método de desduplicação.
+
+![](../assets/workflow-deduplication-example.png)
