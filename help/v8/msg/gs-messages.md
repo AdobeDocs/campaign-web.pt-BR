@@ -4,10 +4,10 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 86%
+source-wordcount: '1289'
+ht-degree: 82%
 
 ---
 
@@ -16,8 +16,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="Uma entrega é uma comunicação de marketing enviada para um público-alvo por meio de um canal específico: email, SMS ou notificação por push. Na lista de entregas, é possível editar as entregas existentes e verificar seu status, datas de contato e modificação e KPIs. Clique no botão “Criar entrega” para adicionar uma nova entrega. Selecione uma entrega para visualizar seu conteúdo, programação, público-alvo e detalhes."
-
+>abstract="Uma entrega é uma comunicação enviada a um público-alvo em um canal específico: email, SMS ou Push. Nesta tela, você pode editar, duplicar e excluir deliveries existentes. Você também pode exibir relatórios de deliveries concluídos. Clique em **Criar entrega** para adicionar um novo delivery."
 
 Com o Adobe Campaign, e possível enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
 

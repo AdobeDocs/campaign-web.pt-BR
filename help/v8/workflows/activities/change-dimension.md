@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Alterar dimensão
 description: Saiba como usar a atividade de workflow de alteração de dimensão
 badge: label="Beta"
-source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
+source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 4%
@@ -46,7 +46,5 @@ Neste exemplo, queremos enviar um delivery de SMS para todos os perfis que fizer
 
 Em seguida, usamos um **[!UICONTROL Alterar dimensão]** atividade para alternar a targeting dimension do workflow para &quot;Recipients&quot;. Isso nos permite direcionar os recipients que correspondem ao query.
 
-<!--
-![](assets/workflow-change-dimension-example.png)
--->
+![](../assets/workflow-change-dimension-example.png)
 
