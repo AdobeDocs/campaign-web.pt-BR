@@ -2,17 +2,17 @@
 title: Trabalhar com recipients e públicos
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
-source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 31%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
 
 # Trabalhar com recipients e públicos {#about-recipients}
 
-## Recipients {#recipients}
+## O que são recipients? {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -47,7 +47,7 @@ Você também pode acessar recipients do **Explorer** exibir, procurar e criar p
 
 Além disso, é possível gerenciar a subscrição e unsubscription de recipients para serviços como boletins informativos. [Saiba como trabalhar com serviços de assinatura](create-service.md)
 
-## Públicos-alvo {#audiences}
+## O que são públicos-alvo? {#audiences}
 
 O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens O tipo de público-alvo depende do target mapping definido no modelo de entrega. [Saiba o que é um modelo de entrega](../msg/delivery-template.md).
 
@@ -64,3 +64,27 @@ Ao direcionar um público-alvo, você também pode definir **grupos de controle*
 >[!NOTE]
 >
 >Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo é definido em um **Criar público-alvo** atividade de workflow. Nesse contexto, não é possível carregar um público-alvo de um arquivo para uma entrega de email, e o público-alvo é definido somente nessa atividade dedicada. Saiba como definir o público-alvo da sua entrega em um workflow de campanha [nesta seção](../workflows/activities/build-audience.md)
+
+## Dimensões de direcionamento {#targeting-dimensions}
+
+O targeting dimension é o tipo de dados que uma operação está manipulando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
+
+O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos recipients do banco de dados, a transição de saída conterá dados do tipo recipient e será transmitida para a próxima atividade.
+
+Observe que é possível alternar o targeting dimension em um workflow usando um **[!UICONTROL Alterar dimensão]** atividade. [Saiba mais](../workflows/activities/change-dimension.md)
+
+Por padrão, templates de delivery de email e SMS têm como target **[!UICONTROL Destinatários]**. O target dimension, portanto, usa os campos da variável **nms:recipient** tabela. Para notificações por push, a dimensão de destino padrão é **Aplicativos de assinante nms:appSubscriptionRcp**, que está vinculado à tabela de recipients.
+
+Você também pode usar outros target mappings integrados para seus deliveries, listados abaixo:
+
+| Nome | Uso para | Schema |
+|---|---|---|
+| Recipients | Entregar aos destinatários (tabela de destinatários integrada) | nms:recipient |
+| Visitantes | Enviar delivery aos visitantes cujos perfis foram coletados por meio de referência (marketing viral), por exemplo. | mns:visitor |
+| Subscrições | Enviar delivery aos recipients que assinam um serviço de informações, como um boletim informativo | nms:subscription |
+| Assinaturas do visitante | Enviar delivery aos visitantes que são inscritos em um serviço de informações | nms:visitorSub |
+| Operadores | Enviar delivery aos operadores do Adobe Campaign | nms:operator |
+| Arquivo externo | Enviar delivery por meio de um arquivo que contenha todas as informações necessárias para o delivery | Nenhum schema vinculado, nenhum target inserido |
+| Aplicativos de assinante | Enviar delivery aos recipients que assinaram um aplicativo | nms:appSubscriptionRcp |
+
+Além disso, você pode criar um novo target mapping dependendo das suas necessidades. Isso é executado no console do cliente. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
