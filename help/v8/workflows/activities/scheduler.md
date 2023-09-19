@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 15%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 15%
 
 A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow.
 
-## Práticas recomendadas
+## Práticas recomendadas{#scheduler-best-practices}
 
 * É recomendável não agendar um workflow para execução por mais de 15 minutos, pois pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
 * Se quiser enviar um delivery instantâneo no fluxo de trabalho, adicione uma atividade de scheduler e defina-a para executar **Uma vez**. Você também pode definir a variável **Agendar** nas configurações do delivery.
-* Para enviar um delivery recorrente no workflow, é necessário usar um **Scheduler** e defina a frequência de execução. A atividade recorrente do delivery não permite definir um agendamento.
+* Para enviar um delivery recorrente no workflow, é necessário usar um **Scheduler** e defina a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
 
-## Configuração
+## Configuração{#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
@@ -43,9 +43,9 @@ A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele
 
 Siga estas etapas para configurar o **Scheduler** atividade:
 
-1. Adicionar um **Scheduler** atividade ao seu fluxo de trabalho.
+![](../assets/workflow-scheduler.png)
 
-   ![](../assets/workflow-scheduler.png)
+1. Adicionar um **Scheduler** atividade ao seu fluxo de trabalho.
 
 1. Configure o **Frequência de execução**:
 
@@ -73,9 +73,7 @@ Siga estas etapas para configurar o **Scheduler** atividade:
 >
 >Se quiser iniciar o workflow imediatamente, clique no link **Executar tarefa pendente** na barra de ação superior do scheduler. Esse botão só estará disponível quando você tiver iniciado o workflow.
 
-Observações:
-
-## Exemplo
+## Exemplo{#scheduler-example}
 
 No exemplo a seguir, a atividade é configurada para que o workflow seja executado várias vezes por dia às 9h e às 12h, todos os dias da semana de 1º de outubro de 2023 a 1º de janeiro de 2024.
 
