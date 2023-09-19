@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 7%
+source-wordcount: '398'
+ht-degree: 2%
 
 ---
 
@@ -14,31 +14,31 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="Resumo do relatório de SMS"
->abstract="Conheça as métricas de relatório para a entrega de SMS."
+>title="Visão geral da entrega de SMS"
+>abstract="A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrangente do delivery de SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Envio de relatório"
->abstract="A guia Sending no relatório fornece informações detalhadas sobre as interações dos visitantes com os deliveries e os possíveis erros que podem ter encontrado."
+>abstract="A variável **Enviando** A guia no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e quaisquer erros em potencial que possam ter encontrado."
 
-A variável **Relatório de entrega de SMS** O oferece uma visão geral abrangente do canal SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados de cada delivery.
+A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrangente do delivery de SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery.
 
 ## Resumo da entrega {#delivery-summary}
 
-* **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com suas mensagens SMS.
+* **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre taxas de sucesso e erro e como seus visitantes se envolvem com mensagens SMS.
 
   ![](assets/reporting_sms_3.png)
 
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
+   * **[!UICONTROL Total enviado]**: porcentagem e número total de mensagens processadas durante a preparação do delivery.
 
-   * **[!UICONTROL Sucesso]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+   * **[!UICONTROL Sucesso]**: Porcentagem e número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-   * **[!UICONTROL Taxa de cliques]**: Porcentagem de usuários que interagiram com links incluídos no delivery do SMS.
+   * **[!UICONTROL Taxa de cliques]**: porcentagem e número de usuários que interagiram com os links incluídos no delivery do SMS.
 
-   * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+   * **[!UICONTROL Erros]**: Porcentagem e número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 +++
 
 * **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo.
@@ -47,9 +47,9 @@ A variável **Relatório de entrega de SMS** O oferece uma visão geral abrangen
 
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
-   * **[!UICONTROL Para entregar]**: Número total de mensagens processadas durante a preparação do delivery.
+   * **[!UICONTROL Para entregar]**: Número total e taxa percentual de mensagens processadas durante a preparação do delivery.
 
-   * **[!UICONTROL Exclusões]**: Número de perfis que foram excluídos da análise.
+   * **[!UICONTROL Exclusões]**: número e taxa de porcentagem de perfis que foram excluídos da análise.
 +++
 
 
@@ -59,14 +59,14 @@ A variável **Relatório de entrega de SMS** O oferece uma visão geral abrangen
 
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
-   * **[!UICONTROL Success]**: Número de mensagens processadas com êxito.
+   * **[!UICONTROL Sucesso]**: Número e taxa percentual de mensagens processadas com êxito.
 
-   * **[!UICONTROL Erros]**: número total de erros que ocorreram durante o delivery, impedindo que as mensagens sejam enviadas para determinados perfis.
+   * **[!UICONTROL Erros]**: número total e taxa percentual de erros que ocorreram durante o delivery, impedindo que as mensagens sejam enviadas para determinados perfis.
 
-   * **[!UICONTROL Nova quarentena]**: Número de perfis que foram excluídos e adicionados à quarentena.
+   * **[!UICONTROL Nova quarentena]**: número e taxa percentual de perfis que foram excluídos e adicionados à quarentena.
 +++
 
-* **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
+* **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
 
   ![](assets/reporting_sms_6.png)
 
