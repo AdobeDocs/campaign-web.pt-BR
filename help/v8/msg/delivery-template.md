@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 26%
@@ -26,7 +26,7 @@ Um modelo pode incluir:
 
 * [Tipologias](../advanced-settings/delivery-settings.md#typology),
 * O endereço do remetente,
-* Um [público](../audience/about-audiences.md), incluindo [grupos de controle](../audience/control-group.md),
+* Um [público](../audience/about-recipients.md), incluindo [grupos de controle](../audience/control-group.md),
 * Personalizado [conteúdo](../content/edit-content.md),
 * [Campos personalizados](../personalization/personalize.md) e [conteúdo condicional](../personalization/conditions.md),
 * Links para [mirror page](../content/mirror-page.md) e cancelar assinatura [links](../content/message-tracking.md),

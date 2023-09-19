@@ -4,7 +4,7 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 62%
@@ -44,7 +44,7 @@ Use a nova interface do Campaign Web para:
 
 * Criar conteúdo de email personalizado com o Designer de email - [Saiba mais](../content/edit-content.md)
 * Enviar campanhas entre canais, incluindo SMS e notificações por push - [Saiba mais](../workflows/activities/channels.md)
-* Definir os públicos-alvo com o construtor de regras - [Saiba mais](../audience/about-audiences.md)
+* Definir os públicos-alvo com o construtor de regras - [Saiba mais](../audience/about-recipients.md)
 * Visualizar, testar e enviar suas mensagens de  - [Saiba mais](../monitor/prepare-send.md)
 * Monitore o envio e meça os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Como um usuário existente do Campaign, observe que alguns conceitos foram renom
 * Agora, os seed addresses são usados como **Perfis de teste**: envie o email de teste para os seed addresses, que são destinatários adicionais no banco de dados. [Saiba mais](../preview-test/test-deliveries.md).
 * A análise da entrega agora é a **preparação da entrega**. Quando precisar iniciar a preparação da mensagem, clique no link **Preparar** botão. [Saiba mais](../monitor/prepare-send.md).
 * A Visualização de email agora está disponível através do botão **Simular conteúdo**. [Saiba mais](../preview-test/preview-test.md)
-* As listas agora são **Públicos-alvo**. [Saiba mais](../audience/about-audiences.md).
+* As listas agora são **Públicos-alvo**. [Saiba mais](../audience/about-recipients.md).
 
 ## Limitações{#limitations-beta}
 

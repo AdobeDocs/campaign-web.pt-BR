@@ -4,7 +4,7 @@ title: Introdução a mensagens e entregas no Campaign Web v8
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 86%
@@ -79,7 +79,7 @@ Para criar uma entrega independente, siga estas etapas:
    * [Canal de notificação por push](../push/gs-push.md)
    * [Canal de SMS](../sms/create-sms.md)
 
-1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. Saiba mais sobre públicos-alvo [nesta seção](../audience/about-audiences.md).
+1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. Saiba mais sobre públicos-alvo [nesta seção](../audience/about-recipients.md).
 1. Definir o conteúdo da mensagem.
 1. (opcional) Definir o delivery [programação](#gs-schedule). Se nenhuma programação for definida, as mensagens serão enviadas imediatamente após clicar no botão **[!UICONTROL Enviar]**.
 1. Clique no botão  **[!UICONTROL Revisar e enviar]** para verificar suas configurações.

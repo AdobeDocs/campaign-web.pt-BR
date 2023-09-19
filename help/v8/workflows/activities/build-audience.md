@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -29,7 +29,7 @@ Para definir o público-alvo, você pode:
 
 >[!NOTE]
 >
->Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar um delivery de email independente. [Saiba mais](../../audience/about-audiences.md)
+>Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar um delivery de email independente. [Saiba mais](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

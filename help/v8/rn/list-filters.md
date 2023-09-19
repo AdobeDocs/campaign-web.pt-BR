@@ -4,7 +4,7 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 98%
@@ -42,7 +42,7 @@ Use a nova interface do Campaign Web para:
 
 * Criar conteúdo de email personalizado com o Designer de email - [Saiba mais](../content/edit-content.md)
 * Enviar campanhas entre canais, incluindo SMS e notificações por push.
-* Definir os públicos-alvo com o construtor de regras - [Saiba mais](../audience/about-audiences.md)
+* Definir os públicos-alvo com o construtor de regras - [Saiba mais](../audience/about-recipients.md)
 * Visualizar, testar e enviar suas mensagens de email - [Saiba mais](../monitor/prepare-send.md)
 * Monitore o envio e meça os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 
