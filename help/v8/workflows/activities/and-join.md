@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho AND-join
 description: Saiba como usar a atividade de fluxo de trabalho AND-join
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 84%
+source-wordcount: '257'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ela permite 
 
 Essa atividade só acionará a transição de saída depois que todas as transições de entrada estiverem ativadas, ou seja, depois que todas as atividades anteriores estiverem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar o fluxo de trabalho.
 
-## Configuração
+## Configure a atividade And-join{#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
@@ -32,12 +32,14 @@ Essa atividade só acionará a transição de saída depois que todas as transi�
 
 Siga estas etapas para configurar a atividade **AND-join**:
 
+![](../assets/workflow-andjoin.png)
+
 1. Adicione várias atividades, como atividades de canal, para formar pelo menos duas ramificações de execução diferentes.
 1. Adicione uma atividade **AND-join** a qualquer uma das ramificações.
 1. Na seção **Opções de mesclagem**, marque todas as atividades anteriores que você deseja mesclar.
 1. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter. A transição de saída só pode conter uma das populações de transição de entrada.
 
-## Exemplo
+## Exemplo{#and-join-example}
 
 O exemplo a seguir mostra duas ramificações de fluxo de trabalho com uma entrega de SMS e email. A AND-join será acionada quando ambas as transições de entrada estiverem habilitadas. As notificações por push serão enviadas somente após a conclusão de ambas as entregas.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 59%
 
 ---
@@ -36,7 +36,7 @@ Comece a criar seu workflow com as atividades relevantes antes de fazer o delive
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Configurar a entrega {#create-a-delivery-in-a-workflow}
+## Configurar a atividade de canal {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    Você pode selecionar outro modelo no painel esquerdo de configuração das atividades do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto. Saiba mais sobre target mappings em [Documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
 1. Clique em **Criar entrega**. Defina as configurações e o conteúdo da mensagem da mesma maneira que você cria uma entrega independente. Também é possível agendar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md).
@@ -95,6 +94,7 @@ Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 Este é um exemplo de fluxo de trabalho entre canais com uma segmentação e duas entregas. O fluxo de trabalho tem como público-alvo todos os clientes que vivem em Paris e que estão interessados em máquinas de café. Entre essa população, um email é enviado aos clientes regulares e um SMS é enviado aos clientes VIP.
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Você também pode criar um fluxo de trabalho recorrente para enviar uma notificação por push personalizada todos os primeiros dias do mês, às 20h, aos assinantes do aplicativo móvel, dependendo de seus fusos horários.
+Você também pode criar um fluxo de trabalho recorrente para enviar um SMS personalizado todos os primeiros dias do mês às 20h para todos os clientes que moram em Paris.
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

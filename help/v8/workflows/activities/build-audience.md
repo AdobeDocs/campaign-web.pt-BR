@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Para definir o público-alvo, você pode:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configurar a atividade Criar público
+## Configurar a atividade Criar público{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
+
+![](../assets/workflow-audience.png)
 
 1. Adicione uma atividade **Criar público-alvo**.
 1. Defina um rótulo.
@@ -66,7 +68,7 @@ Para selecionar um público-alvo existente, siga estas etapas:
 >
 >Se quiser usar um **[!UICONTROL Criar público-alvo]** atividade direcionada a um público-alvo Experience Platform, é necessário adicionar um **[!UICONTROL Alterar dimensão]** atividade após, para garantir que o targeting dimension do público-alvo seja definido como &quot;Recipient&quot;. Um exemplo de workflow está disponível na parte inferior desta página.
 
-## Exemplos
+## Exemplos{#build-audience-examples}
 
 Este é um exemplo de um fluxo de trabalho com duas atividades de **Criar público-alvo**. A primeira é direcionada ao público-alvo dos jogadores de pôquer, seguida de uma entrega por email. A segunda é direcionada ao público-alvo de clientes VIP, seguida de uma entrega de SMS.
 
