@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios do delivery por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 8%
+source-wordcount: '345'
+ht-degree: 7%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 8%
 >id="acw_push_report_overview"
 >title="Resumo do relatório de push"
 >abstract="Conheça as métricas de relatório para a entrega por push."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="Envio de relatório"
+>abstract="A guia Sending no relatório fornece informações detalhadas sobre as interações dos visitantes com os deliveries e os possíveis erros que podem ter encontrado."
 
 A variável **Relatório de entrega por push** O fornece uma visão geral completa do canal de push, oferecendo insights abrangentes e dados específicos. Ele oferece informações abrangentes sobre o desempenho, a eficácia e os resultados de cada delivery.
 
@@ -68,6 +73,11 @@ A variável **Relatório de entrega por push** O fornece uma visão geral comple
   ![](assets/reporting_push_6.png)
 
 ## Taxa de transferência de delivery {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="Relatório de taxa de transferência de entrega"
+>abstract="O relatório Delivery throughput apresenta informações detalhadas sobre a taxa de transferência de delivery da plataforma inteira em um período especificado."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 

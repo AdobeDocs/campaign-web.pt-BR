@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 8%
+source-wordcount: '348'
+ht-degree: 7%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 8%
 >id="acw_sms_report_overview"
 >title="Resumo do relatório de SMS"
 >abstract="Conheça as métricas de relatório para a entrega de SMS."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_sms"
+>title="Envio de relatório"
+>abstract="A guia Sending no relatório fornece informações detalhadas sobre as interações dos visitantes com os deliveries e os possíveis erros que podem ter encontrado."
 
 A variável **Relatório de entrega de SMS** O oferece uma visão geral abrangente do canal SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados de cada delivery.
 
@@ -66,6 +71,11 @@ A variável **Relatório de entrega de SMS** O oferece uma visão geral abrangen
   ![](assets/reporting_sms_6.png)
 
 ## Taxa de transferência de delivery {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_sms"
+>title="Menu de taxa de transferência de entrega"
+>abstract="O relatório Delivery throughput apresenta informações detalhadas sobre a taxa de transferência de delivery da plataforma inteira em um período especificado."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 

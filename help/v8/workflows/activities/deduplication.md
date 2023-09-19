@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 20%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 20%
 
 A variável **Desduplicação** a atividade é um **Direcionamento** atividade. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada. A variável **Desduplicação** A atividade é geralmente usada após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados.
 
-## Configuração
+## Configurar a atividade de desduplicação{#deduplication-configuration}
 
 Siga estas etapas para configurar o **Desduplicação** atividade:
 
-1. Adicionar um **Desduplicação** atividade ao seu fluxo de trabalho.
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. Adicionar um **Desduplicação** atividade ao seu fluxo de trabalho.
 
 1. No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro.
 
@@ -65,5 +65,5 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 
 1. Marque a opção **Generate complement** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
 
-## Exemplo
+## Exemplo{#example}
 
