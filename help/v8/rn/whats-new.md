@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 64%
+source-wordcount: '1006'
+ht-degree: 63%
 
 ---
 
@@ -45,7 +45,7 @@ Use a nova interface do Campaign Web para:
 * Criar conteúdo de email personalizado com o Designer de email - [Saiba mais](../content/edit-content.md)
 * Enviar campanhas entre canais, incluindo SMS e notificações por push - [Saiba mais](../workflows/activities/channels.md)
 * Definir os públicos-alvo com o construtor de regras - [Saiba mais](../audience/about-audiences.md)
-* Visualizar, testar e enviar suas mensagens de email - [Saiba mais](../monitor/prepare-send.md)
+* Visualizar, testar e enviar suas mensagens de  - [Saiba mais](../monitor/prepare-send.md)
 * Monitore o envio e meça os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ Os principais recursos do Campaign Web Beta estão listados abaixo.
 
 * **Gerar IA para conteúdo de email**
 
-  Diga adeus à criação manual de conteúdo e olá para campanhas eficientes orientadas por dados com o poder da Gen AI.  Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa.
-
-  Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email.
+  Diga adeus à criação manual de conteúdo e olá para campanhas eficientes orientadas por dados com o poder da Gen AI.  Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email. Esse recurso estará disponível a partir do início de outubro.
 
   Saiba mais [nesta seção](../content/generative-gs.md).
 
@@ -99,7 +97,7 @@ Os principais recursos do Campaign Web Beta estão listados abaixo.
 
 * **Assistente de conhecimento com Gen AI**
 
-  Faça perguntas e encontre orientações diretamente na interface do usuário do produto. O novo assistente de conhecimento alimentado por IA, incorporado ao pop-over de ajuda contextual, ajuda você a aprender e aumentar sua experiência com novos recursos do Campaign. Com base na documentação mais recente do produto, ele ajuda você a encontrar ajuda e obter orientação passo a passo instantaneamente, à medida que você cria seus casos de uso.
+  Faça perguntas e encontre orientações diretamente na interface do usuário do produto. O novo assistente de conhecimento alimentado por IA, incorporado ao pop-over de ajuda contextual, ajuda você a aprender e aumentar sua experiência com novos recursos do Campaign. Com base na documentação mais recente do produto, ele ajuda você a encontrar ajuda e obter orientação passo a passo instantaneamente, à medida que você cria seus casos de uso. Esse recurso estará disponível a partir do início de outubro.
 
   Saiba mais [nesta seção](../get-started/using-ai.md).
 
