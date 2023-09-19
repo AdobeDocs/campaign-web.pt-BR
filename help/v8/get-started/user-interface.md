@@ -4,7 +4,7 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -51,7 +51,7 @@ Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendiza
 
 O menu **Explorer** exibe todos os recursos e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, workflows e campanhas.
 
-Os itens exibidos no **Explorer** depende das suas permissões de usuário.  Também é possível adicionar pastas e subpastas, se você tiver as permissões adequadas. Saiba mais sobre permissões no [nesta seção](permissions.md).
+Os itens exibidos no **Explorer** depende das suas permissões de usuário. Também é possível adicionar pastas e subpastas, se você tiver os direitos apropriados. Saiba mais sobre permissões no [nesta seção](permissions.md).
 
 Como em qualquer tela de lista, você pode configurar as colunas para personalizar a exibição e mostrar todas as informações necessárias. Consulte esta [seção](#list-screens).
 
@@ -88,7 +88,7 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 >abstract="Navegue pelas listas de ofertas e modelos de ofertas que foram criados no console usando o **Interação** módulo. Essas listas são do tipo somente leitura."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Adicionar ofertas a um delivery"
 
-Na seção GERENCIAMENTO DE CLIENTES, você pode exibir as ofertas e os templates de oferta. Essas listas são do tipo somente leitura.
+Na seção GERENCIAMENTO DE DECISÃO, é possível exibir as ofertas e os templates de oferta. Essas listas são do tipo somente leitura.
 
 * **Ofertas** - Navegue pela lista de ofertas e modelos de ofertas que foram criados no console usando o **Interação** módulo. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis.
 
