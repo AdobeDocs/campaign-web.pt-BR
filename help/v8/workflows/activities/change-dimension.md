@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Alterar dimensão
 description: Saiba como usar a atividade de workflow de alteração de dimensão
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 4%

@@ -3,7 +3,7 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Beta"
-source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 59%

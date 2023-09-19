@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%

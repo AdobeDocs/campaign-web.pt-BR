@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Salvar público
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 8%
@@ -46,7 +46,7 @@ Siga estas etapas para configurar o **Salvar público-alvo** atividade:
 
 1. Verifique a **Gerar uma transição de saída** se desejar adicionar uma transição após a variável **Salvar público-alvo** atividade.
 
-O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no **Públicos-alvo** menu. As colunas disponíveis nessa visualização correspondem às da transição de entrada do fluxo de trabalho **Salvar público** atividade.
+O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no **Públicos-alvo** menu. As colunas disponíveis nessa visualização correspondem às da transição de entrada do fluxo de trabalho **Salvar público-alvo** atividade.
 
 
 ## Exemplo{#save-audience-example}

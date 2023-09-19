@@ -3,10 +3,10 @@ audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
    >
    > Antes de configurar os subconjuntos, verifique se eles foram adicionados na ordem correta, pois sua posição não pode ser alterada.
 
-1. Após a adição dos subconjuntos, a atividade mostrará tantas transições de saída quanto houver subconjuntos. Recomendamos alterar o rótulo de cada subconjunto para identificá-los facilmente na tela de workflow.
+1. Após a adição dos subconjuntos, a atividade mostrará tantas transições de saída quanto houver subconjuntos. É altamente recomendável alterar o rótulo de cada subconjunto para identificá-los facilmente na tela do workflow.
 
 1. Configure como cada subconjunto deve filtrar a população recebida. Para fazer isso, siga estes passos:
 
