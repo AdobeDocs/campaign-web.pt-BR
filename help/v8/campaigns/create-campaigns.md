@@ -4,7 +4,7 @@ title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 39%
@@ -31,7 +31,7 @@ Para criar uma nova campanha, você precisa definir suas propriedades, agendar e
 Para criar uma nova campanha, siga estas etapas:
 
 1. Clique em **[!UICONTROL Campanhas]** e clique no botão **[!UICONTROL Criar campanha]** botão.
-1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. [Leia mais](manage-campaign-templates.md).
+1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. [Leia mais](manage-campaigns.md#manage-campaign-templates).
 1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
 1. Defina o **Agendar** da sua campanha. Saiba como definir a programação da campanha no [nesta seção](#campaign-schedule)
 1. Clique em **Create**.
