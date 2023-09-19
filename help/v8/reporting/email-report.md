@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 43%
@@ -24,7 +24,7 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 
    * **[!UICONTROL Público inicial]**: Número total de recipients alvos.
 
-   * **[!UICONTROL Para entregar]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Para entregar]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Exclusão]**: Número total de mensagens excluídas do público-alvo enviado.
 +++
@@ -35,7 +35,7 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
-   * **[!UICONTROL Mensagem enviada]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Mensagem enviada]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Sucesso]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 

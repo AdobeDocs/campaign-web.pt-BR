@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 8%
@@ -27,7 +27,7 @@ A variável **Relatório de entrega de SMS** O oferece uma visão geral abrangen
 
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a análise de delivery.
+   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
 
    * **[!UICONTROL Sucesso]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -42,7 +42,7 @@ A variável **Relatório de entrega de SMS** O oferece uma visão geral abrangen
 
   +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
-   * **[!UICONTROL Para entregar]**: Número total de mensagens processadas durante a análise de delivery.
+   * **[!UICONTROL Para entregar]**: Número total de mensagens processadas durante a preparação do delivery.
 
    * **[!UICONTROL Exclusões]**: Número de perfis que foram excluídos da análise.
 +++

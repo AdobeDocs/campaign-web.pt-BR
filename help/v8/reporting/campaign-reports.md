@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 26%
@@ -54,7 +54,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a análise de delivery.
+   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
 
    * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -74,7 +74,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
    * **[!UICONTROL Público inicial]**: Número total de recipients alvos.
 
-   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Rejeitado por regras]**: Número total de endereços ignorados durante a análise ao aplicar as regras: endereço em falta, em quarentena, na inclui na lista de bloqueios, etc.
 
@@ -86,7 +86,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
   +++Saiba mais sobre Métricas de relatório da campanha de email.
 
-   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Sucesso]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
@@ -248,7 +248,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a análise de delivery.
+   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
 
    * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -266,7 +266,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
    * **[!UICONTROL Público inicial]**: Número total de recipients alvos.
 
-   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Rejeitado por regras]**: Número total de endereços ignorados durante a análise ao aplicar as regras: endereço em falta, em quarentena, na inclui na lista de bloqueios, etc.
 
@@ -278,7 +278,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
   +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
-   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Sucesso]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
@@ -310,7 +310,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
   +++Saiba mais sobre métricas de relatório de campanha por push.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a análise de delivery.
+   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
 
    * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -326,7 +326,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
    * **[!UICONTROL Público inicial]**: Número total de recipients alvos.
 
-   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Rejeitado por regras]**: Número total de endereços ignorados durante a análise ao aplicar as regras: endereço em falta, em quarentena, na inclui na lista de bloqueios, etc.
 
@@ -336,7 +336,7 @@ Para acessar o relatório de Campanha, clique em Reports no painel da campanha.
 
   +++Saiba mais sobre métricas de relatório de campanha por push.
 
-   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a análise de delivery.
+   * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
 
    * **[!UICONTROL Sucesso]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
