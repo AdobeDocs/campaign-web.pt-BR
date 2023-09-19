@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
+source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 63%
+source-wordcount: '1007'
+ht-degree: 62%
 
 ---
 
@@ -122,7 +122,7 @@ Como um usuário existente do Campaign, observe que alguns conceitos foram renom
 
 * Agora, as provas são **Testar emails**: para enviar uma prova, use o botão **Teste** na interface da entrega de email. O público-alvo das provas agora é referenciado como **Perfis de teste**. [Saiba mais](../preview-test/test-deliveries.md).
 * Agora, os seed addresses são usados como **Perfis de teste**: envie o email de teste para os seed addresses, que são destinatários adicionais no banco de dados. [Saiba mais](../preview-test/test-deliveries.md).
-* A análise da entrega agora é a **preparação da entrega**. Quando precisar iniciar a análise, clique no botão **Preparar**. [Saiba mais](../monitor/prepare-send.md).
+* A análise da entrega agora é a **preparação da entrega**. Quando precisar iniciar a preparação da mensagem, clique no link **Preparar** botão. [Saiba mais](../monitor/prepare-send.md).
 * A Visualização de email agora está disponível através do botão **Simular conteúdo**. [Saiba mais](../preview-test/preview-test.md)
 * As listas agora são **Públicos-alvo**. [Saiba mais](../audience/about-audiences.md).
 

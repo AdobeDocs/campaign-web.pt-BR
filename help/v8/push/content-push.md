@@ -3,7 +3,7 @@ audience: end-user
 title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 48%
@@ -51,7 +51,7 @@ No **[!UICONTROL Variáveis do aplicativo]** , suas Variáveis de aplicativo sã
 
 * A variável **[!UICONTROL Mensagem de notificação]**, manipulada automaticamente pelo SDK do FCM. O FCM exibe automaticamente a mensagem nos dispositivos dos usuários em nome do aplicativo do cliente. As mensagens de notificação contêm um conjunto predefinido de parâmetros e opções, mas ainda podem ser personalizadas com variáveis de aplicativo personalizadas.
 
-  Para redigir a mensagem, clique no link **[!UICONTROL Título]** e **[!UICONTROL Corpo]** campos. Use o Editor de expressão para definir o conteúdo, personalizar os dados e adicionar conteúdo dinâmico.
+  Para redigir a mensagem, clique no link **[!UICONTROL Título]** e **[!UICONTROL Mensagem]** campos. Use o Editor de expressão para definir o conteúdo, personalizar os dados e adicionar conteúdo dinâmico.
 
   Para personalizar ainda mais sua notificação por push, você pode escolher uma imagem para adicionar à notificação por push, o ícone da notificação a ser exibido nos dispositivos dos perfis e sua cor.
 
@@ -59,7 +59,7 @@ No **[!UICONTROL Variáveis do aplicativo]** , suas Variáveis de aplicativo sã
 
 >[!TAB iOS]
 
-Para redigir a mensagem, clique no link **[!UICONTROL Título]** e **[!UICONTROL Corpo]** campos. Use o Editor de expressão para definir o conteúdo, personalizar os dados e adicionar conteúdo dinâmico.
+Para redigir a mensagem, clique no link **[!UICONTROL Título]** e **[!UICONTROL Mensagem]** campos. Use o Editor de expressão para definir o conteúdo, personalizar os dados e adicionar conteúdo dinâmico.
 
 Você pode adicionar um **[!UICONTROL Legenda]**, valor do parâmetro de subtítulo da carga de notificação do iOS. Consulte esta seção.
 
