@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 15%
@@ -74,7 +74,6 @@ Siga estas etapas para configurar o **Scheduler** atividade:
 >Se quiser iniciar o workflow imediatamente, clique no link **Executar tarefa pendente** na barra de ação superior do scheduler. Esse botão só estará disponível quando você tiver iniciado o workflow.
 
 Observações:
-
 
 ## Exemplo
 

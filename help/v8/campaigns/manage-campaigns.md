@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 90%
+source-wordcount: '604'
+ht-degree: 72%
 
 ---
 
@@ -69,3 +69,22 @@ Duas guias estarão disponíveis:
 >[!NOTE]
 >
 >A guia **Entrega** exibe todas as entregas vinculadas à campanha. No entanto, as entregas criadas em um fluxo de trabalho não podem ser excluídas dali. Para excluir uma entrega criada no contexto de um workflow, será necessário excluir a atividade de entrega do workflow. [Saiba mais](../msg/gs-messages.md#delivery-delete).
+
+## Trabalhar com modelos de campanha{#manage-campaign-templates}
+
+Os templates de campanha contêm configurações pré-definidas que podem ser reutilizadas para criar novos workflows. Um conjunto de modelos integrados está disponível para ajudar você a começar. Você pode criar e configurar seus modelos de campanha e, em seguida, criar campanhas com base nesses modelos.
+
+Um template de campanha pode armazenar as seguintes informações:
+
+* a campanha **Propriedades** e **Agendar** configurações
+* modelos de fluxo de trabalho
+* templates do delivery
+
+Para criar um template de campanha, siga as etapas abaixo:
+
+1. Clique em **[!UICONTROL Campanhas]** , navegue até o menu **Modelos** e clique na guia **[!UICONTROL Criar modelo]** botão.
+1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. Isso permite que você baseie seu novo modelo em um modelo já criado.
+1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
+1. Defina o **Agendar** da sua campanha. Saiba como definir a programação da campanha no [nesta seção](create-campaigns.md#campaign-schedule)
+1. Clique em **Create**.
+1. Adicione workflows e templates de delivery à sua campanha.
