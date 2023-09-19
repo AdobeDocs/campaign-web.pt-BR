@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Beta"
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 72%
 
 ---
@@ -70,7 +70,7 @@ Duas guias estarão disponíveis:
 
 ## Trabalhar com modelos de campanha{#manage-campaign-templates}
 
-Os templates de campanha contêm configurações pré-definidas que podem ser reutilizadas para criar novos workflows. Um conjunto de modelos integrados está disponível para ajudar você a começar. Você pode criar e configurar seus modelos de campanha e, em seguida, criar campanhas com base nesses modelos.
+Os templates de campanha contêm configurações pré-definidas que podem ser reutilizadas para criar novas campanhas. Um conjunto de modelos integrados está disponível para ajudar você a começar. Você pode criar e configurar seus modelos de campanha e, em seguida, criar campanhas com base nesses modelos.
 
 Um template de campanha pode armazenar as seguintes informações:
 
@@ -81,7 +81,8 @@ Um template de campanha pode armazenar as seguintes informações:
 Para criar um template de campanha, siga as etapas abaixo:
 
 1. Clique em **[!UICONTROL Campanhas]** , navegue até o menu **Modelos** e clique na guia **[!UICONTROL Criar modelo]** botão.
-1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. Isso permite que você baseie seu novo modelo em um modelo já criado.
+1. Selecione o **Modelo** para usar. Isso permite basear o novo modelo em um modelo criado anteriormente.
+1. Forneça um rótulo para o modelo.
 1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
 1. Defina o **Agendar** da sua campanha. Saiba como definir a programação da campanha no [nesta seção](create-campaigns.md#campaign-schedule)
 1. Clique em **Create**.
