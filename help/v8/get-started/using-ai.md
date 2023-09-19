@@ -2,16 +2,16 @@
 title: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 description: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Usar o assistente de conhecimento habilitado para IA {#using-ai}
+# Usar o Assistente de conhecimento habilitado para IA {#using-ai}
 
-Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do produto, com o assistente de conhecimento habilitado por IA disponível nas caixas de ajuda contextual do produto.
+Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do produto, com o Assistente de conhecimento alimentado por IA disponível nas caixas de ajuda contextual do produto.
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ Os modelos de inteligência artificial e aprendizado de máquina melhoram com o 
 
 ## Recomendações  {#recommendations-ai}
 
-Ao fazer uma pergunta na ajuda contextual, o contexto atual do produto é levado em conta.
+Ao fazer uma pergunta no Assistente de conhecimento alimentado por IA, o contexto atual do produto, ou seja, a tela do Campaign em que você está, é levado em conta.
 
-Para tirar o melhor proveito do assistente, ao fazer uma pergunta, recomendamos que você:
+Para aproveitar ao máximo o Assistente de conhecimento alimentado por IA, ao fazer uma pergunta, recomendamos que você:
 
 * Ser tão preciso e específico quanto possível e evitar ambiguidades. A resposta será mais precisa e útil.
-* Para ajudar o assistente de conhecimento a encontrar as informações corretas, adicione o máximo de detalhes possível sobre o que você está tentando aprender.
+* Para ajudar o Assistente de conhecimento alimentado por IA a encontrar as informações corretas, adicione o máximo de detalhes possível sobre o que você está tentando aprender.
 * Reescreva suas perguntas e refine-as para obter respostas melhores. Se a resposta não for precisa ou útil, tente abordagens diferentes e adicione contexto para obter melhores resultados.
 * Use termos e textos apropriados, com um tom neutro.
 * Classifique as respostas e forneça feedback para que nossos engenheiros possam aprender com a sua experiência e melhorar os resultados.

@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 62%
+source-wordcount: '1016'
+ht-degree: 58%
 
 ---
 
@@ -55,35 +55,31 @@ Os principais recursos do Campaign Web Beta estão listados abaixo.
 
 * **Mais atividades de workflow do Campaign**
 
-  Turbine suas campanhas de marketing com nosso conjunto expandido de atividades de workflow. Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas.
-
-  Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha.
+  Turbine suas campanhas de marketing com os nossos **conjunto expandido de atividades de workflow**. Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha.
 
   Saiba mais [nesta seção](../workflows/gs-workflows.md).
 
 * **Gerar IA para conteúdo de email**
 
-  Diga adeus à criação manual de conteúdo e olá para campanhas eficientes orientadas por dados com o poder da Gen AI.  Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email. Esse recurso estará disponível a partir do início de outubro.
+  Diga adeus à criação manual de conteúdo e olá para campanhas eficientes orientadas por dados com o poder da Gen AI.  Nossa tecnologia Gen AI utiliza algoritmos avançados para **gerar conteúdo altamente envolvente e personalizado**. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email. Esse recurso estará disponível a partir do início de outubro.
 
   Saiba mais [nesta seção](../content/generative-gs.md).
 
 * **Filtros predefinidos**
 
-  Introdução Ao Gerenciamento De Filtros Predefinidos. A interface da Web do Campaign agora oferece uma interface fácil de usar para gerenciar e personalizar facilmente filtros predefinidos para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro.
+  Introdução Ao Gerenciamento De Filtros Predefinidos. A interface da Web do Campaign agora oferece uma interface fácil de usar para **gerenciar e personalizar filtros predefinidos** para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro.
 
   Saiba mais [nesta seção](../get-started/predefined-filters.md).
 
 * **Público-alvo com o construtor de regras**
 
-  Criar um público-alvo de entrega nunca foi tão fácil. Com nosso construtor de regras mais recente, agora é possível definir critérios de filtragem para destinatários ou qualquer outro targeting dimension do banco de dados. Além disso, você pode aproveitar seu público-alvo da AEP (Adobe Experience Platform) para refinar ainda mais seu público-alvo e maximizar o impacto da campanha.
+  Criar um público-alvo de entrega nunca foi tão fácil. Com o nosso **construtor de regras mais recente**, agora é possível definir critérios de filtragem para recipients ou qualquer outro targeting dimension pelo banco de dados. Além disso, você pode aproveitar seu público-alvo da AEP (Adobe Experience Platform) para refinar ainda mais seu público-alvo e maximizar o impacto da campanha.
 
   Saiba mais [nesta seção](../audience/segment-builder.md).
 
 * **SMS com ofertas**
 
-  A nova interface da Web agora permite integrar ofertas com SMS, além de email. Alcance seu público em seus dispositivos móveis, fornecendo promoções e notificações oportunas.
-
-  Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada de Web.
+  A nova interface do usuário da Web agora permite **integrar ofertas com SMS** além de Email. Alcance seu público em seus dispositivos móveis, fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada de Web.
 
   Saiba mais [nesta seção](../content/offers.md).
 
@@ -97,13 +93,13 @@ Os principais recursos do Campaign Web Beta estão listados abaixo.
 
 * **Assistente de conhecimento com Gen AI**
 
-  Faça perguntas e encontre orientações diretamente na interface do usuário do produto. O novo assistente de conhecimento alimentado por IA, incorporado ao pop-over de ajuda contextual, ajuda você a aprender e aumentar sua experiência com novos recursos do Campaign. Com base na documentação mais recente do produto, ele ajuda você a encontrar ajuda e obter orientação passo a passo instantaneamente, à medida que você cria seus casos de uso. Esse recurso estará disponível a partir do início de outubro.
+  Faça perguntas e encontre orientações diretamente na interface do usuário do produto. O novo **Assistente de conhecimento habilitado para IA** O, incorporado aos popovers de ajuda contextual, ajuda você a aprender e aumentar sua experiência com novos recursos do Campaign. Com base na documentação mais recente do produto, ele ajuda você a encontrar ajuda e obter orientação passo a passo instantaneamente, à medida que você cria seus casos de uso. Esse recurso estará disponível a partir do início de outubro.
 
   Saiba mais [nesta seção](../get-started/using-ai.md).
 
 * **Conversor de HTML para design de email**
 
-  Agora você pode importar e converter qualquer conteúdo de HTML no editor de email do Campaign. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email: use seus poderosos recursos de design para atualizá-los e personalizá-los!
+  Agora você pode **importar e converter qualquer conteúdo de HTML** no editor de email do Campaign. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email: use seus poderosos recursos de design para atualizá-los e personalizá-los!
 
   Saiba mais [nesta seção](../content/existing-content.md).
 
@@ -136,3 +132,4 @@ As limitações abaixo se aplicam a esta versão Beta:
 * Os KPIs do painel de entrega são atualizados a cada 5 minutos. - mas a preparação da Entrega é em tempo real.
 * As Notificações da Adobe Experience Cloud e a Ajuda unificada disponíveis na barra superior ainda não estão integradas.
 
+Mais medidas de proteção e limitações estão disponíveis em [esta página](../get-started/guardrails.md).
