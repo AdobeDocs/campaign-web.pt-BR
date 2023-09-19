@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como criar e gerenciar serviços no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

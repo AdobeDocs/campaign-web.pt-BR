@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +80,7 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 * **Públicos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Saiba mais sobre públicos-alvo e listas em [nesta seção](../audience/about-audiences.md).
 * **Assinaturas**: navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba mais sobre como gerenciar assinaturas e seus cancelamentos na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=pt-BR){target="_blank"}.
 
-### Gestão de decisões
+### Gestão de decisões {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
@@ -94,7 +94,7 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode exibir as ofertas e os template
 
 Saiba como criar e enviar ofertas por email e SMS no [nesta seção](../content/offers.md).
 
-## Barra superior
+## Barra superior {#top-bar}
 
 Use a barra superior da interface para:
 
