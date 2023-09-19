@@ -2,7 +2,7 @@
 title: Trabalhar com recipients e públicos
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 29%
@@ -45,7 +45,7 @@ Você também pode acessar recipients do **Explorer** exibir, procurar e criar p
 >
 >Dependendo das suas permissões, talvez você não tenha acesso à lista completa de recipients armazenados no banco de dados. Saiba mais sobre permissões no [nesta seção](../get-started/permissions.md).
 
-Além disso, é possível gerenciar a subscrição e unsubscription de recipients para serviços como boletins informativos. [Saiba como trabalhar com serviços de assinatura](create-service.md)
+Além disso, é possível gerenciar a subscrição e unsubscription de recipients para serviços como boletins informativos. [Saiba como trabalhar com serviços de assinatura](manage-services.md)
 
 ## O que são públicos-alvo? {#audiences}
 
