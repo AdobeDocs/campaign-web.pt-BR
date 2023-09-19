@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 17%
 
 ---
@@ -65,8 +65,8 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 
 1. Marque a opção **Generate complement** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
 
-## Exemplo{#example}
+## Exemplo{#deduplication-example}
 
-No exemplo a seguir, usamos uma atividade de desduplicação para excluir duplicatas do target antes de enviar um delivery. As duplicatas identificadas são adicionadas a um público-alvo dedicado de duplicatas que podem ser reutilizadas se necessário. Usamos o **E-mail** para identificar as duplicatas. Escolhemos manter 1 entrada e selecionar a variável **Aleatório** método de desduplicação.
+No exemplo a seguir, usamos uma atividade de desduplicação para excluir duplicatas do target antes de enviar um delivery. As duplicatas identificadas são adicionadas a um público dedicado que pode ser reutilizado se necessário. Usamos o **E-mail** para identificar as duplicatas. Escolhemos manter 1 entrada e selecionar a variável **Aleatório** método de desduplicação.
 
 ![](../assets/workflow-deduplication-example.png)

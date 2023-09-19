@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de traba
 
 Por exemplo, você pode adicionar à tabela de trabalho do fluxo de trabalho as informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou a quantidade gasta nessas compras.
 
-## Configuração geral {#general}
+## Configurar a atividade de enriquecimento {#enrichment-configuration}
 
 Siga estas etapas para configurar a atividade **Enriquecimento**:
 
@@ -76,7 +76,7 @@ Neste caso de uso mais complexo, selecionaremos um link de coleção, que é um 
 * um filtro: filtrar itens que custam mais de US$ 100
 * uma classificação: classificação decrescente no campo **Data do pedido**.
 
-### Adicionar o atributo
+### Adicionar o atributo {#add-attribute}
 
 É aqui que você seleciona o link de coleção para usar como dados de enriquecimento.
 
@@ -86,7 +86,7 @@ Neste caso de uso mais complexo, selecionaremos um link de coleção, que é um 
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definir as configurações de coleção
+### Definir as configurações de coleção{#collection-settings}
 
 Em seguida, defina como os dados são coletados e o número de registros a serem recuperados.
 
@@ -99,7 +99,7 @@ Se quiser, por exemplo, obter o valor médio das compras de um cliente, selecion
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definir os filtros
+### Definir os filtros{#collection-filters}
 
 Aqui, definimos o valor máximo do atributo de enriquecimento. Filtramos itens que custam mais de US$ 100.
 
@@ -109,7 +109,7 @@ Aqui, definimos o valor máximo do atributo de enriquecimento. Filtramos itens q
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definir a classificação
+### Definir a classificação{#collection-sorting}
 
 Agora precisamos aplicar a classificação para recuperar as três compras **mais recentes**.
 

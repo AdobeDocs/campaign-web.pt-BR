@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Salvar público
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 10%
+source-wordcount: '385'
+ht-degree: 8%
 
 ---
 
@@ -24,13 +24,13 @@ A variável **Salvar público-alvo** a atividade é um **Direcionamento** ativid
 
 Essa atividade é usada essencialmente para manter os grupos de populações computados no mesmo fluxo de trabalho, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma **Criar público-alvo** ou um **Combinar** atividade.
 
-## Configuração
+## Configurar a atividade Save audience{#save-audience-configuration}
 
 Siga estas etapas para configurar o **Salvar público-alvo** atividade:
 
-1. Adicionar um **Salvar público-alvo** atividade ao seu fluxo de trabalho.
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. Adicionar um **Salvar público-alvo** atividade ao seu fluxo de trabalho.
 
 1. No **Modo** selecione a ação que deseja executar:
 
@@ -49,6 +49,8 @@ Siga estas etapas para configurar o **Salvar público-alvo** atividade:
 O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no **Públicos-alvo** menu. As colunas disponíveis nessa visualização correspondem às da transição de entrada do fluxo de trabalho **Salvar público** atividade.
 
 
-## Exemplo
+## Exemplo{#save-audience-example}
+
+O exemplo a seguir ilustra uma simples atualização de público-alvo do direcionamento. Um scheduler é adicionado para executar o workflow uma vez por mês. Uma consulta recupera todos os perfis que fizeram assinatura nos diferentes serviços de aplicativo disponíveis. A variável **Salvar público-alvo** A atividade atualiza o público-alvo excluindo os perfis que cancelaram a assinatura do serviço desde a última execução do fluxo de trabalho e adicionando os perfis que fizeram assinatura recentemente.
 
 
