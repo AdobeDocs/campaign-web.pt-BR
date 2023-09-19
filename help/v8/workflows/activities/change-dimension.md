@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Alterar dimensão
 description: Saiba como usar a atividade de workflow de alteração de dimensão
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,10 @@ ht-degree: 6%
 >title="Alterar atividade da dimensão"
 >abstract="Essa atividade permite alterar o targeting dimension à medida que você constrói um público-alvo. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada. Por exemplo, você pode alternar da dimensão &quot;contratos&quot; para a dimensão &quot;clientes&quot;."
 
-A variável **Alterar dimensão** a atividade é um **Direcionamento** atividade. Essa atividade permite alterar o targeting dimension à medida que você constrói um público-alvo. Essa atividade altera o eixo dependendo do template de dados e da dimensão de entrada. Por exemplo, você pode alternar da dimensão &quot;contratos&quot; para a dimensão &quot;clientes&quot;.
+A variável **Alterar dimensão** a atividade é um **Direcionamento** atividade. Essa atividade permite alterar o targeting dimension à medida que você constrói seu fluxo de trabalho.
+Essa atividade altera o eixo dependendo do template de dados e da dimensão de entrada.
+
+Por exemplo, você pode alternar o targeting dimension de um workflow de &quot;Recipients&quot; para &quot;Aplicativo de assinantes&quot; para enviar notificações por push aos recipients direcionados.
 
 ## Configurar a atividade Change dimension {#configure}
 
@@ -39,4 +42,8 @@ Siga estas etapas para configurar o **Alterar dimensão** atividade:
 
 ## Exemplo {#example}
 
+Neste exemplo, queremos enviar um delivery de SMS para todos os perfis que fizeram uma compra. Para fazer isso, primeiro usamos um **[!UICONTROL Criar público-alvo]** atividade vinculada a uma dimensão de direcionamento &quot;Compra&quot; personalizada para direcionar todas as compras que ocorreram.
 
+Em seguida, usamos um **[!UICONTROL Alterar dimensão]** atividade para alternar a targeting dimension do workflow para &quot;Recipients&quot;. Isso nos permite direcionar os recipients que correspondem ao query.
+
+![](assets/workflow-change-dimension-example.png)
