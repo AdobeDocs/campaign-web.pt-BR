@@ -4,9 +4,9 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 67%
 
 ---
@@ -75,7 +75,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 >title="Selecionar um público-alvo para a entrega"
 >abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou no Adobe Experience Platform), criar um novo público-alvo usando o construtor de regras ou fazer upload de um arquivo contendo seu público-alvo. Os grupos de controle não estão habilitados para o **Selecionar do arquivo** e vice-versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Selecionar os públicos principais"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Configurar um grupo de controle"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Configurar um grupo de controle"
 
 Nesse caso de uso, você enviará o email para um público existente.
 
