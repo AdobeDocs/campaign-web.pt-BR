@@ -2,9 +2,9 @@
 title: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 description: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Os modelos de inteligência artificial e aprendizado de máquina melhoram com o 
 
 ## Recomendações  {#recommendations-ai}
 
-Ao fazer uma pergunta no Assistente de conhecimento alimentado por IA, o contexto atual do produto, ou seja, a tela do Campaign em que você está, é levado em conta.
+Ao fazer uma pergunta no Assistente de conhecimento alimentado por IA, o contexto atual do produto, ou seja, a tela do Campaign em que você está e o conteúdo da caixa de ajuda atual, é levado em conta.
 
 Para aproveitar ao máximo o Assistente de conhecimento alimentado por IA, ao fazer uma pergunta, recomendamos que você:
 
