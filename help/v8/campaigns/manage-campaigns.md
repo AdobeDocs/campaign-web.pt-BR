@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Beta"
-source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 72%
@@ -26,7 +26,7 @@ Na lista de campanhas, duas guias estão disponíveis:
 
 * A guia **Procurar** lista todas as campanhas existentes. É possível clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no botão **Criar campanha**. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A guia **Modelos** lista todos os modelos de campanha disponíveis. É possível exibir um modelo existente ou criar um novo. [Leia mais](manage-campaign-templates.md).
+* A guia **Modelos** lista todos os modelos de campanha disponíveis. É possível exibir um modelo existente ou criar um novo. [Leia mais](#manage-campaign-templates).
 
 ![Lista de campanhas](assets/campaign-list.png)
 
