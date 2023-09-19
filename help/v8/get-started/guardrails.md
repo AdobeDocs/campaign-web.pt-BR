@@ -2,7 +2,7 @@
 title: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 description: Medidas de proteção e limitações na interface do usuário da Web do Campaign
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -66,13 +66,17 @@ Uma mensagem de erro específica é exibida.
 
 Mesmo que não seja possível exibir a representação gráfica da consulta no construtor de regras e editar o filtro, você ainda poderá usá-lo e ver as condições de filtragem no **Atributos** seção da tela.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 Você também pode acessar a consulta SQL para verificar as configurações exatas. Para fazer isso, clique no link **Visualização de código** botão.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Clique em **Calcular** botão para verificar quantos itens atendem aos critérios do filtro. Use o **Exibir resultados** botão para exibir esses itens.
+Clique em **Calcular** botão para verificar quantos itens atendem aos critérios do filtro.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+Use o **Exibir resultados** botão para exibir esses itens.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
