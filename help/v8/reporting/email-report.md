@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 34%
+source-wordcount: '1890'
+ht-degree: 32%
 
 ---
 
@@ -19,17 +19,17 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Envio de relatório"
->abstract="O menu Sending no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e possíveis erros que possam ter encontrado."
+>abstract="he **Enviando** A guia no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e quaisquer erros em potencial que possam ter encontrado."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Widget da população de público alvo inicial"
->abstract="O gráfico de população do público-alvo inicial exibe os dados relativos aos recipients e o sucesso do delivery."
+>abstract="A variável **População inicial do público-alvo** O gráfico exibe dados relativos aos recipients e ao sucesso do delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Widget de estatísticas de entrega"
->abstract="O gráfico Delivery statistics detalha o sucesso do delivery e os erros que ocorreram."
+>abstract="A variável **Estatísticas de entrega** O gráfico detalha o sucesso do delivery e os erros que ocorreram."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
@@ -92,7 +92,7 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Widget de taxa de transferência de entrega"
->abstract="O relatório Delivery throughput apresenta informações detalhadas sobre a taxa de transferência de delivery da plataforma inteira em um período especificado."
+>abstract="A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
@@ -101,7 +101,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Widget de estatísticas de transmissão"
->abstract="A tabela de estatísticas de Difusão contém os dados disponíveis para possíveis erros encontrados com cada domínio."
+>abstract="A variável **Estatísticas de transmissão** A tabela contém os dados disponíveis para possíveis erros encontrados com cada domínio."
 
 * **[!UICONTROL Estatísticas de transmissão]** A tabela contém os dados disponíveis para possíveis erros encontrados com cada domínio.
 
@@ -129,12 +129,12 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Detalhamento do widget de erros por tipo"
->abstract="A tabela e o gráfico Breakdown of errors per type contêm os dados disponíveis para cada tipo de erro encontrado."
+>abstract="A variável **Detalhamento de erros por tipo** A tabela e o gráfico contêm os dados disponíveis para cada tipo de erro encontrado."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Detalhamento do widget de erros por domínio"
->abstract="A tabela e o gráfico Breakdown of errors per type contêm os dados disponíveis para cada tipo de erro encontrado, dependendo de cada domínio."
+>abstract="A variável **Detalhamento de erros por domínio** A tabela e o gráfico contêm os dados disponíveis para cada tipo de erro encontrado, dependendo de cada domínio."
 
 * **[!UICONTROL Detalhamento de erros por tipo]** e **[!UICONTROL Detalhamento de erros por domínio]** tabelas e gráficos contêm os dados disponíveis para possíveis erros encontrados com cada domínio.
 
@@ -165,17 +165,17 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Rastreamento de relatórios"
->abstract="A guia Tracking no seu relatório oferece dados valiosos, incluindo comportamento de recipient por link, detalhamento de aberturas e cliques, bem como informações detalhadas sobre os URLs clicados com mais frequência durante um delivery."
+>abstract="A variável **Rastreamento** A guia no relatório oferece dados valiosos, incluindo o comportamento do recipient por link, o detalhamento de aberturas e cliques, bem como informações detalhadas sobre os URLs clicados com mais frequência durante um delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Widget de estatísticas de entrega"
->abstract="O widget Estatísticas de delivery fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados."
+>abstract="A variável **Estatísticas de entrega** O widget fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Widget de taxa de abertura e click-through"
->abstract="A tabela de taxas de abertura e de click-through exibe dados relativos ao envolvimento dos recipients com o delivery."
+>abstract="A variável **Índice de click-through e aberturas** A tabela exibe dados relativos ao envolvimento dos recipients com a entrega."
 
 * **[!UICONTROL Estatísticas de entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados.
 
@@ -218,7 +218,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="Widget de fluxos de clique e URLs"
->abstract="Os URLs e fluxos de clique fornecem KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery."
+>abstract="A variável **Fluxos de clique e URLs** O fornece indicadores chave de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery."
 
 * **[!UICONTROL Fluxos de clique e URLs]** O fornece indicadores chave de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery.
 
@@ -257,7 +257,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="Widget de atividades do usuário"
->abstract="O gráfico de atividades do usuário mostra o detalhamento de aberturas e cliques no formulário de um gráfico. Você pode escolher o período para direcionar dados: último dia ou hora ou 30 minutos."
+>abstract="A variável **Atividades do usuário** o gráfico mostra o detalhamento de aberturas e cliques no formulário de um gráfico. Você pode escolher o período para direcionar dados: último dia ou hora ou 30 minutos."
 
 * **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formulário de um gráfico. Você pode escolher o período para direcionar dados: último dia ou hora ou 30 minutos.
 
@@ -276,7 +276,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Widget de Estatísticas de rastreamento"
->abstract="O gráfico Estatísticas de rastreamento fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar dados."
+>abstract="A variável **Estatísticas de rastreamento** O gráfico fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar dados."
 
 * **[!UICONTROL Estatísticas de rastreamento]** O gráfico fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar dados.
 
@@ -295,14 +295,15 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Detalhamento por dispositivo"
->abstract="O Detalhamento por dispositivo"
+>abstract="A variável **Detalhamento por dispositivo** mostra o detalhamento de aberturas por tipo de dispositivo para o período relacionado. O primeiro gráfico exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Detalhamento por widget de SO"
->abstract="O detalhamento por SO"
+>title="Detalhamento por SO"
+>abstract="A variável **Detalhamento por SO** mostra a divisão de aberturas por sistema operacional para o período relacionado. O primeiro gráfico exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis."
 
 Este relatório mostra o detalhamento de aberturas por sistema operacional, dispositivo e navegador para o período relacionado. Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis.
+
 Você tem flexibilidade para mudar de **[!UICONTROL Fixo e dispositivos móveis]** para direcionar exclusivamente **[!UICONTROL Somente dispositivos móveis]** para direcionamento mais preciso.
 
 ![](assets/reporting_email_13.png){align="center"}
@@ -312,8 +313,8 @@ Você tem flexibilidade para mudar de **[!UICONTROL Fixo e dispositivos móveis]
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Relatório de hotclicks"
->abstract="O relatório Hotclicks apresenta o conteúdo da mensagem com a porcentagem de cliques em cada link."
+>abstract="A variável **Hotclicks** report apresenta o conteúdo de email (HTML e/ou texto) com a porcentagem de cliques nos links, em cada link. Blocos de personalização, links de unsubscription, links de mirror pages e links de ofertas são considerados no total de cliques acumulados, mas não são exibidos no relatório."
 
-Este relatório mostra o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques nos links, em cada link. Links de unsubscription de blocos de personalização, links de mirror pages e links de ofertas são considerados no total de cliques acumulados, mas não são exibidos no relatório.
+Este relatório mostra o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques nos links, em cada link. Blocos de personalização, links de unsubscription, links de mirror pages e links de ofertas são considerados no total de cliques acumulados, mas não são exibidos no relatório.
 
 ![](assets/reporting11.png)
