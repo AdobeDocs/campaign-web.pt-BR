@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
+source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 17%
+source-wordcount: '585'
+ht-degree: 29%
 
 ---
 
@@ -48,14 +48,11 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 
 1. Selecione o número de **Duplicatas a serem mantidas**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
 
-<!--
-    For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
+   Por exemplo, se os registros A e B forem considerados duplicatas do registro Y, e um registro C for considerado uma duplicata do registro Z:
 
-    * If the value of the field is 1: only the Y and Z records are kept.
-    * If the value of the field is 0: all the records are kept.
-    * If the value of the field is 2: records C and Z are kept and two records from A, B, and Y are kept, by chance or depending on the deduplication method selected thereafter.
-
--->
+   * Se o valor do campo for 1: somente os registros Y e Z são mantidos.
+   * Se o valor do campo for 0: todos os registros são mantidos.
+   * Se o valor do campo for 2: os registros C e Z são mantidos. Os dois registros de A, B e Y são mantidos por acaso ou dependendo do método de desduplicação selecionado posteriormente.
 
 1. Selecione o **Método de desduplicação** para usar:
 

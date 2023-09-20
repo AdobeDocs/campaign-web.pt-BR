@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Combinar
 description: Saiba como usar a atividade de fluxo de trabalho Combinar
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 81%
+source-wordcount: '886'
+ht-degree: 78%
 
 ---
 
@@ -71,7 +71,7 @@ Siga estas etapas comuns para começar a configurar a atividade **Combinar**:
 No **Combinar** atividade, você pode configurar um **União**. Para isso, é necessário selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
 
 * **Somente chaves**: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
-* **Uma seleção de colunas**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados será aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a união.
+* **Uma seleção de colunas**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados é aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a união.
 
 ## Interseção {#combine-intersection}
 
