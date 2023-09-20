@@ -2,10 +2,10 @@
 title: Trabalhar com recipients e públicos
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 29%
+source-wordcount: '919'
+ht-degree: 28%
 
 ---
 
@@ -71,11 +71,11 @@ O targeting dimension é o tipo de dados que uma operação está manipulando. E
 
 O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos recipients do banco de dados, a transição de saída conterá dados do tipo recipient e será transmitida para a próxima atividade.
 
-Observe que é possível alternar o targeting dimension em um workflow usando um **[!UICONTROL Alterar dimensão]** atividade. [Saiba mais](../workflows/activities/change-dimension.md)
+Observe que é possível alternar o targeting dimension em um workflow usando um **[!UICONTROL Alterar dimensão]** atividade. [Saiba mais](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos recipients correspondentes.
 
 Por padrão, templates de delivery de email e SMS têm como target **[!UICONTROL Destinatários]**. O target dimension, portanto, usa os campos da variável **nms:recipient** tabela. Para notificações por push, a dimensão de destino padrão é **Aplicativos de assinante nms:appSubscriptionRcp**, que está vinculado à tabela de recipients.
 
-Você também pode usar outros target mappings integrados para seus deliveries, listados abaixo:
+Você também pode usar outros target mappings integrados nos workflows e deliveries listados abaixo:
 
 | Nome | Uso para | Schema |
 |---|---|---|
