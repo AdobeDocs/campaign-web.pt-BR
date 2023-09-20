@@ -2,10 +2,10 @@
 title: Trabalhar com recipients e públicos
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 28%
+source-wordcount: '946'
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 28%
 
 Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de deliveries (emails, SMS etc.). Os dados do recipient armazenados no banco de dados permitem criar públicos-alvo que receberão qualquer entrega e adicionar dados de personalização ao conteúdo de entrega. Outros tipos de perfis são armazenados no banco de dados. Eles foram projetados para diferentes usos: por exemplo, perfis iniciais são feitos para testar suas entregas antes que elas sejam enviadas ao público final.
 
-Os recipients só podem ser adicionados do console do cliente do Campaign. No entanto, elas estão visíveis na Web do Campaign, no **Destinatários** entrada do painel de navegação esquerdo.
+Os recipients só podem ser adicionados do console do cliente do Campaign. No entanto, elas estão visíveis na Web do Campaign, no **Destinatários** entrada do painel de navegação esquerdo. Também é possível editar os atributos do recipient nessa tela.
 
 Para editar os dados do destinatário, clique nos três pontos ao lado do respectivo nome e escolha **Editar...**.
 
@@ -46,6 +46,8 @@ Você também pode acessar recipients do **Explorer** exibir, procurar e criar p
 >Dependendo das suas permissões, talvez você não tenha acesso à lista completa de recipients armazenados no banco de dados. Saiba mais sobre permissões no [nesta seção](../get-started/permissions.md).
 
 Além disso, é possível gerenciar a subscrição e unsubscription de recipients para serviços como boletins informativos. [Saiba como trabalhar com serviços de assinatura](manage-services.md)
+
+Você pode criar workflows para desduplicar, enriquecer, combinar perfis e criar públicos. Saiba mais [nesta seção](../workflows/gs-workflows.md).
 
 ## O que são públicos-alvo? {#audiences}
 
