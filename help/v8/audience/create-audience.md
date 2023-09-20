@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Criar públicos
-description: Saiba como criar públicos-alvo no Adobe Campaign Web
+title: Criar e gerenciar públicos
+description: Saiba como criar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 3de56ccc5f96c4a13ba5d1211b3d5320a01e979d
+source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Para criar um público-alvo, siga estas etapas:
 
 1. Quando o workflow estiver pronto, clique em **[!UICONTROL Início]** para executá-lo.
 
-O workflow é salvo na variável **[!UICONTROL Fluxos de trabalho]** lista, enquanto os públicos resultantes estão acessíveis na **[!UICONTROL Públicos-alvo]** lista. [Saiba como monitorar e gerenciar públicos](access-audiences.md)
+O workflow é salvo na variável **[!UICONTROL Fluxos de trabalho]** lista, enquanto os públicos resultantes estão acessíveis na **[!UICONTROL Públicos-alvo]** lista.
 
 ## Exemplo de fluxo de trabalho de público {#example}
 
@@ -71,3 +71,25 @@ O exemplo abaixo mostra um fluxo de trabalho de público-alvo configurado para d
 1. A variável **[!UICONTROL Enriquecimento]** A atividade de enriquece o público-alvo com informações da tabela Purchases para identificar o tipo de produto que os clientes compraram.
 1. A variável **[!UICONTROL Split]** A atividade divide o fluxo de trabalho em dois caminhos com base na compra mais recente dos clientes.
 1. A variável **[!UICONTROL Salvar público-alvo]** as atividades no final de cada caminho criam dois novos públicos-alvo no banco de dados, incluindo a população calculada em cada caminho.
+
+## Monitorar e gerenciar públicos {#monitor}
+
+A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no **[!UICONTROL Públicos-alvo]** menu.
+
+![](assets/audiences-list.png)
+
+Os públicos-alvo podem se originar de várias fontes. A variável **[!UICONTROL Origem]** indica onde um determinado público-alvo foi criado:
+
+* **[!UICONTROL Adobe Campaign]**: esses públicos-alvo são criados no console do Adobe Campaign V8. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=pt-BR){target="_blank"}.
+
+* **[!UICONTROL Adobe Experience Platform:]** Esses públicos-alvo são criados no Adobe Experience Platform e integrados ao Campaign Web usando a integração Adobe Fontes e Destinos. Saiba como configurar essa integração no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+
+* **[!UICONTROL WebUI do Adobe Campaign]**: esses públicos são criados usando workflows de público-alvo da Web do Campaign. [Saiba como criar públicos](create-audience.md)
+
+Para obter mais informações sobre um público, abra-o na lista. As propriedades do público são exibidas junto com o número de perfis incluídos no público. É possível atualizar a contagem de públicos-alvo a qualquer momento usando o **[!UICONTROL Calcular]** botão.
+
+A variável **[!UICONTROL Dados]** permite visualizar os perfis que fazem parte do público-alvo. Você pode personalizar essa visualização adicionando mais colunas ou utilizando filtros avançados para refinar os dados exibidos.
+
+![](assets/audiences-details.png)
+
+Para duplicar ou excluir um público-alvo, clique no **[!UICONTROL Mais ações]** botão disponível na lista públicos-alvo ao lado do nome do público-alvo ou dentro de uma tela de detalhes do público-alvo.
