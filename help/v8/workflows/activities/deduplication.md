@@ -3,20 +3,20 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '500'
 ht-degree: 17%
 
 ---
 
 
-# Eliminação de duplicação {#deduplication}
+# Desduplicação {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Eliminação de duplicação atributos"
->abstract="Isso permite especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro."
+>title="Campos para identificar duplicatas"
+>abstract="No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
@@ -34,7 +34,7 @@ ht-degree: 17%
 >title="Configurações de desduplicação"
 >abstract="Para excluir duplicatas nos dados recebidos, defina o método de desduplicação nos campos abaixo. Por padrão, somente um registro é mantido. Você também deve selecionar o modo de desduplicação com base em uma expressão ou um atributo. Por padrão, o registro a ser mantido fora das duplicatas é selecionado aleatoriamente."
 
-A variável **Desduplicação** a atividade é um **Direcionamento** atividade. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada. A variável **Desduplicação** A atividade é geralmente usada após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados.
+A variável **Desduplicação** a atividade é um **Direcionamento** atividade. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada, por exemplo, perfis duplicados na lista de recipients. A variável **Desduplicação** A atividade é geralmente usada após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados.
 
 ## Configurar a atividade de desduplicação{#deduplication-configuration}
 
@@ -44,7 +44,7 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 
 1. Adicionar um **Desduplicação** atividade ao seu fluxo de trabalho.
 
-1. No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro.
+1. No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro.
 
 1. Selecione o número de **Duplicatas a serem mantidas**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
 
@@ -67,6 +67,6 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 
 ## Exemplo{#deduplication-example}
 
-No exemplo a seguir, usamos uma atividade de desduplicação para excluir duplicatas do target antes de enviar um delivery. As duplicatas identificadas são adicionadas a um público dedicado que pode ser reutilizado se necessário. Usamos o **E-mail** para identificar as duplicatas. Escolhemos manter 1 entrada e selecionar a variável **Aleatório** método de desduplicação.
+No exemplo a seguir, use uma atividade de desduplicação para excluir duplicatas do target antes de enviar um delivery. Os recipients duplicados identificados são adicionados a um público dedicado que pode ser reutilizado se necessário. Escolha o **E-mail** para identificar as duplicatas. Mantenha 1 entrada e selecione a variável **Aleatório** método de desduplicação.
 
 ![](../assets/workflow-deduplication-example.png)
