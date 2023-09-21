@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar mensagens aos assinantes de um serviço
 description: Saiba como enviar mensagens aos assinantes de um serviço
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '185'
 ht-degree: 5%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Você pode criar serviços de assinatura no Adobe Campaign e enviar mensagens aos assinantes. Saiba como criar serviços de subscrições no [esta página](../audience//manage-services.md#create-service).
 
-Para enviar mensagens aos assinantes, crie um público-alvo específico para identificá-los e, em seguida, crie o delivery conforme detalhado abaixo. Para fazer isso, siga estas etapas:
+Para enviar mensagens aos assinantes, crie um público-alvo específico para identificá-los e, em seguida, crie o delivery conforme detalhado abaixo.
 
 1. Criar um público-alvo. Saiba mais sobre públicos-alvo na [esta página](../audience/create-audience.md).
 
@@ -27,7 +27,11 @@ Para enviar mensagens aos assinantes, crie um público-alvo específico para ide
 
 1. Salve o público.
 1. Criação de uma entrega. As etapas para criar um delivery estão detalhadas em [esta página](../msg/gs-messages.md#create-delivery).
-1. Selecione o público-alvo criado acima.
+1. Navegue até as configurações de entrega e altere o target mapping padrão para **Assinaturas (nms:subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. Na seção principal do target do delivery, selecione o público-alvo criado acima.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
