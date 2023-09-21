@@ -2,9 +2,9 @@
 title: Trabalhar com recipients e públicos
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 27%
 
 ---
@@ -69,7 +69,7 @@ Ao direcionar um público-alvo, você também pode definir **grupos de controle*
 
 ## Dimensões de direcionamento {#targeting-dimensions}
 
-O targeting dimension é o tipo de dados que uma operação está manipulando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
+Targeting dimension, também conhecido como. target mapping, é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
 
 O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos recipients do banco de dados, a transição de saída conterá dados do tipo recipient e será transmitida para a próxima atividade.
 
