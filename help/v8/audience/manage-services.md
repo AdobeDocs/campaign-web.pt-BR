@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,7 @@ Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a a
 
 Agora você pode selecionar essas mensagens quando [criação de um serviço de assinatura](#create-service). Os usuários que assinarem ou cancelarem a assinatura desse serviço receberão as mensagens de confirmação selecionadas.
 
-## Logs e relatórios do serviço de assinatura {#logs-and-reports}
+## Monitore seus serviços de assinatura {#logs-and-reports}
 
 Para medir a eficácia de seus serviços de assinatura para canais de SMS e email, você pode acessar os logs e relatórios de um determinado serviço.
 

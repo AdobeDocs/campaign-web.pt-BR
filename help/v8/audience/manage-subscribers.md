@@ -3,17 +3,19 @@ audience: end-user
 title: Gerenciar os assinantes de um serviço
 description: Saiba como gerenciar e fornecer aos assinantes de um serviço no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 2%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
 
 # Gerenciar os assinantes de um serviço {#manage-subscribers}
 
-Uma vez que [criou um serviço](manage-services.md#create-service), você pode adicionar assinantes, cancelar a assinatura de destinatários e entregar aos assinantes desse serviço.
+Uma vez que [criou um serviço](manage-services.md#create-service), você pode adicionar assinantes, cancelar a assinatura de destinatários e enviar mensagens aos assinantes desse serviço.
+
+O gerenciamento de assinantes é detalhado nesta página. Para saber como enviar mensagens para seus assinantes, consulte [nesta seção](../content/send-to-subscribers.md).
 
 ## Adicionar assinantes ao seu serviço {#add-subscribers}
 
@@ -62,25 +64,3 @@ Este período é especificado quando [criação do serviço](manage-services.md#
 ![](assets/service-create-validity-period.png)
 
 Após a expiração da duração especificada, todos os assinantes terão a subscrição cancelada automaticamente desse serviço.
-
-## Entregar aos assinantes de um serviço
-
-Uma vez que [criou um serviço de assinatura](manage-services.md#create-service), o pode direcionar os assinantes em um delivery. Siga as etapas abaixo.
-
-1. [Criar um público](../audience/create-audience.md) incluindo os assinantes do serviço criado:
-
-   * No **[!UICONTROL Criar público-alvo]** atividade, exibir os atributos avançados e selecionar **[!UICONTROL Recipient]** > **[!UICONTROL Assinaturas]** > **[!UICONTROL Serviço]**.
-
-   * Neste exemplo, selecione os usuários que assinaram o serviço que tem a **Informativo da Luma** rótulo.
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [Criar um delivery](../msg/gs-messages.md#create-delivery) e selecione o público criado acima.
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Edite o conteúdo da mensagem conforme desejado e envie o delivery.
-
-   ![](assets/service-delivery-ready.png)
-
-Seu delivery é enviado somente aos assinantes desse serviço.
