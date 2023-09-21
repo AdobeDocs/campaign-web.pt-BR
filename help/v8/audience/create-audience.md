@@ -3,9 +3,9 @@ audience: end-user
 title: Criar e gerenciar públicos
 description: Saiba como criar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos-alvo"
->abstract="Nessa tela, você pode criar e combinar públicos-alvo em uma tela visual. Adicione várias atividades de workflow, como **Split** ou **Excluir** para gerar públicos novos e refinados."
+>abstract="Nessa tela, você pode acessar a lista de todos os públicos-alvo que podem ser direcionados em seus deliveries. Clique em **Criar** para criar novos públicos em uma tela visual usando várias atividades de fluxo de trabalho, como **Split** ou **Excluir**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

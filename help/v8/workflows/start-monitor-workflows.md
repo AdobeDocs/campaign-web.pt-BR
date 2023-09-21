@@ -4,9 +4,9 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '569'
 ht-degree: 6%
 
 ---
@@ -24,10 +24,6 @@ Quando o fluxo de trabalho estiver em execução, cada atividade na tela será e
 Você pode acompanhar o progresso de perfis direcionados em tempo real usando um fluxo visual. Isso permite identificar rapidamente o status de cada atividade e o número de perfis em transição entre elas.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->Você pode desativar o fluxo visual usando a variável **[!UICONTROL Ocultar progressão]** na barra de ação superior da tela.
 
 ## Transições de fluxo de trabalho {#transitions}
 

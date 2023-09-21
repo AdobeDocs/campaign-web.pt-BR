@@ -4,10 +4,10 @@ title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campanhas"
->abstract="É a lista das suas campanhas. É possível exibir informações úteis, como datas de início/término/última modificação e status. Você pode filtrar a lista por status ou datas iniciais/finais. Clique no botão “Criar campanha” para adicionar uma nova campanha. Selecione uma campanha para exibir seu conteúdo, entregas e detalhes. Navegue até a guia “Modelos” para exibir e criar modelos."
+>abstract="Navegue pela lista de campanhas. Selecione uma campanha para exibir seu conteúdo, entregas e detalhes. Você pode filtrar por status, datas de início/término ou com regras personalizadas. Você também pode exibir relatórios de campanhas concluídas. Clique em **Criar campanha** botão para adicionar uma nova campanha. Navegue até o **Modelos** para exibir e criar modelos."
 
 
 O Adobe Campaign permite orquestrar facilmente suas iniciativas de marketing direcionadas, usando o recurso integrado de gerenciamento de campanhas. Com a capacidade de definir um cronograma, é possível planejar a duração e o tempo de suas campanhas para se alinharem aos objetivos estratégicos e maximizar o engajamento do público-alvo.

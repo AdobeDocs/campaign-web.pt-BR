@@ -4,10 +4,10 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 40%
+source-wordcount: '580'
+ht-degree: 39%
 
 ---
 
@@ -28,15 +28,17 @@ ht-degree: 40%
 >title="Parâmetros de formatação"
 >abstract="Verifique os parâmetros de formatação do arquivo."
 
-É possível fazer upload de contatos de um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).
+Não é possível fazer upload de perfis diretamente no Campaign a partir da interface, mas você pode direcionar perfis armazenados em um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).
 
 >[!CAUTION]
 >
 >* Esse recurso só está disponível para **deliveries de email independentes**. Ele não pode ser usado em workflows nem com deliveries SMS ou Push.
 >
 >* Não é possível usar [grupos de controle](control-group.md) ao carregar a população alvo a partir de um arquivo externo.
+>
+>* Os perfis não são adicionados ao banco de dados e apenas são carregados e disponibilizados para esse delivery de email independente específico.
 
-## Fazer upload do arquivo {#upload}
+## Selecionar e configurar seu arquivo {#upload}
 
 Para direcionar perfis de um arquivo local diretamente da interface de email, siga estas etapas:
 
@@ -45,7 +47,7 @@ Para direcionar perfis de um arquivo local diretamente da interface de email, si
 
    ![](assets/select-from-file.png)
 
-1. Selecione o arquivo local a ser enviado. O formato deve estar alinhado com o [arquivo de amostra](#sample-file).
+1. Selecione o arquivo local a ser usado. O formato deve estar alinhado com o [arquivo de amostra](#sample-file).
 1. Visualize e verifique como os dados estão mapeados na seção central da tela.
 1. Escolha a coluna que contém o endereço de email do menu suspenso **Campo de endereço**. Também é possível selecionar a coluna lista de bloqueios se tiver essas informações no arquivo de entrada.
 1. Ajuste as configurações da coluna e como formatar os dados a partir das opções disponíveis.
