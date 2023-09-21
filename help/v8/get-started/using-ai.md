@@ -2,7 +2,7 @@
 title: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 description: Uso do assistente de conhecimento habilitado por IA no Campaign Web
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Para aproveitar ao máximo o Assistente de conhecimento alimentado por IA, ao fa
 * Use termos e textos apropriados, com um tom neutro.
 * Classifique as respostas e forneça feedback para que nossos engenheiros possam aprender com a sua experiência e melhorar os resultados.
 
+<img src="assets/AI_CH.gif"/>
