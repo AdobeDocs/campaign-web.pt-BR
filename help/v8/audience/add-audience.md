@@ -4,10 +4,10 @@ title: Selecione um público-alvo já existente
 description: Saiba como selecionar um público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 57%
+source-wordcount: '308'
+ht-degree: 34%
 
 ---
 
@@ -19,40 +19,33 @@ ht-degree: 57%
 >title="Selecione um público-alvo já existente"
 >abstract="Navegue pela lista para selecionar um público-alvo já existente. Use o ícone “Mostrar filtros” para filtrar a lista ou selecione uma pasta específica."
 
-Esta seção explica como selecionar um público existente ao definir o público-alvo de uma entrega de email.
+Esta seção explica como selecionar um público-alvo ao definir a população do target de um delivery. Ao definir o target principal de um delivery, você também pode:
 
-Você também pode:
+* [Criar um público-alvo único](one-time-audience.md) usando o construtor de regras.
+* [Carregar um público-alvo de um arquivo externo](file-audience.md) (somente para emails).
 
-* Crie um novo público-alvo. [Saiba mais](segment-builder.md)
-* Carregar um público-alvo de um arquivo externo (somente para emails). [Saiba mais](file-audience.md)
-* Usar um público da Adobe Experience Platform. [Saiba mais](aep-audience.md).
-
+Os públicos-alvo que podem ser direcionados em deliveries podem ser acessados no **Público** menu esquerdo. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba como monitorar e gerenciar públicos](manage-audience.md)
 
 Para selecionar um público existente para sua mensagem, siga as etapas abaixo:
 
-1. Na seção **Público**, do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público-alvo]**.
+1. No **Público** do assistente de criação de delivery, clique no link **[!UICONTROL Selecionar público]** e escolha
 
    ![](assets/create-audience.png)
 
-1. Escolha a **[!UICONTROL Selecionar público-alvo]** para usar um público existente. Para criar um novo público a ser usado neste email, escolha **Criar seu próprio**. Consulte esta [seção](segment-builder.md).
-
-   Esta tela exibe todos os públicos-alvo existentes para a pasta atual.
+1. Escolha a **[!UICONTROL Selecionar público-alvo]** para usar um público existente. Esta tela exibe todos os públicos-alvo existentes para a pasta atual.
 
    ![](assets/create-audience2.png)
 
-   Os públicos-alvo são criados no **Público** menu esquerdo. Eles também podem ser criados no Console do cliente.
+   Para escolher um público-alvo do Adobe Experience Platform, navegue até o `AEP Audiences folder` na seção de filtro da tela.
 
-   Para usar os públicos da Adobe Experience Platform, é necessário configurar a integração com o Destinations. Consulte a [Documentação de destinos do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
+   ![](assets/select-audience-folder.png)
 
-   >[!IMPORTANT]
-   >
-   >Nessa versão do produto, ao criar regras, selecionar o público-alvo de um delivery ou ao criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-las. [Saiba mais](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
-
-1. Escolha um público e clique em **Selecionar**.
-1. Use o **Mostrar filtros** ícone para exibir opções de filtragem. Clique em **Adicionar regras** para acessar o construtor de regras: o uso do construtor de regras permite que você crie filtros avançados para a lista de públicos-alvo. Saiba como usar o construtor de regras neste [seção](segment-builder.md).
+1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o construtor de regras, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o construtor de regras](segment-builder.md)
 
    ![](assets/create-audience4.png)
 
-1. Clique em **Salvar**.
+1. Clique em **Confirmar o** para adicionar seu público-alvo como o target principal do delivery. Depois de concluído, ainda é possível refinar o público-alvo usando o construtor de regras, clicando no **Editar regras** botão.
 
-Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não a receberam. Saiba mais [nesta seção](control-group.md).
+   ![](assets/refine-audience.png)
+
+   Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não a receberam. [Saiba mais](control-group.md)

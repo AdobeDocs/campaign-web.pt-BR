@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 85%
+source-wordcount: '422'
+ht-degree: 82%
 
 ---
 
@@ -85,13 +85,14 @@ ht-degree: 85%
       + [Renderizar seu email](preview-test/email-rendering.md)
 + Públicos e recipients {#audiences}
    + [Trabalhar com recipients e públicos](audience/about-recipients.md)
-   + [Criar e gerenciar públicos](audience/create-audience.md)
-   + Públicos-alvo {#target-audiences}
+   + [Criar públicos](audience/create-audience.md)
+   + Selecione os recipients do delivery {#target-audiences}
       + [Selecione um público-alvo já existente](audience/add-audience.md)
-      + [Definir um público com o construtor de regras](audience/segment-builder.md)
-      + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
-      + [Usar um público da Adobe Experience Platform](audience/aep-audience.md)
+      + [Criar um público-alvo único](audience/one-time-audience.md)
+      + [Carregar um público-alvo de um arquivo](audience/file-audience.md)
       + [Configurar um grupo de controle](audience/control-group.md)
+   + [Trabalhar com o construtor de regras](audience/segment-builder.md)
+   + [Monitorar e gerenciar públicos](audience/manage-audience.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
       + [Gerenciar serviços](audience/manage-services.md)
       + [Gerenciar assinantes](audience/manage-subscribers.md)

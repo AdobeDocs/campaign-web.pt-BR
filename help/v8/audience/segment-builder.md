@@ -4,53 +4,40 @@ title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 96%
+source-wordcount: '614'
+ht-degree: 71%
 
 ---
 
-# Definir um público com o construtor de regras {#segment-builder}
+# Trabalhar com o construtor de regras {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Públicos-alvo"
 >abstract="Criar um público-alvo de entrega nunca foi tão fácil. Com nosso construtor de regras mais recente, agora é possível definir critérios de filtragem para destinatários ou qualquer outro targeting dimension do banco de dados. Aproveite seus públicos-alvo da Adobe Experience Platform para refinar ainda mais o público-alvo e maximizar o impacto da campanha."
 
-Esta seção descreve como criar um público ao elaborar um novo email. O público criado só pode ser usado nesse email.
+O construtor de regras permite definir a população direcionada pelo delivery filtrando os dados contidos no banco de dados. É possível usá-lo para criar um público-alvo a partir de um fluxo de trabalho usando um **[!UICONTROL Criar público-alvo]** ou diretamente ao criar um delivery para criar um público-alvo único.
 
-O construtor de regras permite definir a população direcionada pela mensagem por meio da filtragem dos dados contidos no banco de dados. Se desejar selecionar um público existente, consulte esta [seção](add-audience.md).
-
-Para obter mais informações sobre o construtor de regras, consulte [Documentação do serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-br).
-
-Para criar um novo público ao elaborar um email, siga estas etapas:
-
-1. Na seção **Público** do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público]**.
-
-   ![](assets/segment-builder0.png)
-
-1. Selecione **Criar o seu**. O construtor de regras é exibido.
-
-   ![](assets/segment-builder.png)
+* [Saiba como criar um público-alvo](create-audience.md)
+* [Saiba como criar um público-alvo único para uma entrega](one-time-audience.md)
 
 ## A paleta
 
-A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser filtrados para criar o público. Os blocos contidos na paleta devem ser movidos para a tela central para serem configurados e considerados. A paleta é dividida em duas guias:
+A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser filtrados para criar o público. Você pode usar a barra de pesquisa para localizar elementos rapidamente. Os blocos contidos na paleta devem ser movidos para a tela central para serem configurados e considerados.
+
+![](assets/segment-builder2.png){width="70%" align="left"}
+
+A paleta é dividida em duas guias:
 
 * **Atributos**: essa guia permite acessar todos os campos disponíveis no schema. A lista de campos depende do schema de direcionamento definido no template de email.
 
-  ![](assets/segment-builder2.png){width="70%" align="left"}
-
-* **Públicos**: essa guia permite filtrar usando um dos públicos existentes que foram definidos no console do Campaign Classic ou na Adobe Experience Platform.
-
-  ![](assets/segment-builder3.png){width="70%" align="left"}
+* **Públicos**: essa guia permite filtrar usando um dos públicos existentes que foram definidos no console do Campaign Classic ou na Adobe Experience Platform. [Saiba como monitorar e gerenciar públicos](manage-audience.md)
 
   >[!NOTE]
   >
   >Para aproveitar os públicos da Adobe Experience Platform, é necessário configurar a integração com o serviço de Destinos. Consulte a [Documentação de destinos do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
-
-Você pode usar a barra de pesquisa para localizar elementos rapidamente.
 
 ## A tela
 
@@ -60,13 +47,20 @@ A tela é a área central onde você pode configurar e combinar regras com base 
 
 ## O painel de propriedades da regra
 
-No lado direito, o painel **Propriedades da regra** permite executar as seguintes ações:
+No lado direito, a variável **Propriedades da regra** permite executar as ações listadas abaixo.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **Exibir resultados:** exibe a lista de recipients direcionados pelo público.
 * **Visualização de código**: exibe uma versão baseada em código do público em SQL.
 * **Exibir atributos avançados**: marque esta opção se quiser exibir a lista completa de atributos na paleta esquerda: nós, agrupamentos, links 1-1, links 1-N.
+* **Calcular**: atualiza e exibe o número de perfis segmentados pelo seu query.
+* **Selecionar ou salvar filtro**: use um filtro predefinido para filtrar sua consulta ou salve a consulta como um novo filtro para reutilização futura. [Saiba como trabalhar com filtros predefinidos](../get-started/predefined-filters.md)
+
+  >[!IMPORTANT]
+  >
+  >Nessa versão do produto, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-las. [Saiba mais](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 * **Atributos**: exibe uma descrição do público criado.
 
 ## Exemplo
@@ -98,5 +92,3 @@ Neste exemplo, criamos um público para direcionar todos os clientes que moram e
    ![](assets/segment-builder11.png)
 
 1. Clique em **Confirmar**.
-
-Seu público está definido e pronto para ser usado no email.

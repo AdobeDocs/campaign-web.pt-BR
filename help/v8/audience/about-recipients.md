@@ -2,17 +2,17 @@
 title: Trabalhar com recipients e públicos
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1022'
+ht-degree: 24%
 
 ---
 
 
 # Trabalhar com recipients e públicos {#about-recipients}
 
-No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um conjunto de públicos-alvo de pessoas que compartilham comportamentos e/ou características semelhantes. Esta coleção de pessoas pode ser gerada, selecionada ou carregada [conforme detalhado abaixo](#audiences). Na maioria dos casos comuns, o público-alvo é composto de perfis, que são armazenados como [recipients](#recipients) no Adobe Campaign. Também é possível trabalhar com outros target mappings alterando a dimensão conforme explicado [nesta seção](#targeting-dimensions).
+No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Esta coleção de pessoas pode ser gerada, selecionada ou carregada [conforme detalhado abaixo](#audiences). Na maioria dos casos comuns, o público-alvo é composto de perfis, que são armazenados como [recipients](#recipients) no Adobe Campaign. Também é possível trabalhar com outros target mappings alterando a dimensão conforme explicado [nesta seção](#targeting-dimensions).
 
 ## O que são recipients? {#recipients}
 
@@ -58,8 +58,7 @@ O público-alvo é o principal foco da sua entrega: os destinatários que recebe
 Para definir a população de um público-alvo, é possível:
 
 * [Criar novos públicos](create-audience.md) do **[!UICONTROL Públicos-alvo]** menu,
-* [Selecionar um público existente](add-audience.md) criado como uma lista no console do cliente,
-* [Selecionar um público-alvo da Adobe Experience Platform](aep-audience.md),
+* [Selecionar um público existente](add-audience.md) criado como uma lista no console do cliente ou proveniente da Adobe Experience Platform,
 * [Criar um público-alvo novo com o criador de regras definindo e combinando critérios de filtro,](segment-builder.md)
 * [Usar um público-alvo de um arquivo externo](file-audience.md). Essa opção só está disponível para deliveries de email independentes e não pode ser usada em deliveries de campanha.
 
@@ -75,7 +74,7 @@ Targeting dimension, também conhecido como. target mapping, é o tipo de dados 
 
 O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos recipients do banco de dados, a transição de saída conterá dados do tipo recipient e será transmitida para a próxima atividade.
 
-Observe que é possível alternar o targeting dimension em um workflow usando um **[!UICONTROL Alterar dimensão]** atividade. [Saiba mais](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos recipients correspondentes.
+Observe que é possível alternar o targeting dimension em um workflow usando um [Alterar atividade da dimensão](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos recipients correspondentes.
 
 Por padrão, templates de delivery de email e SMS têm como target **[!UICONTROL Destinatários]**. O target dimension, portanto, usa os campos da variável **nms:recipient** tabela. Para notificações por push, a dimensão de destino padrão é **Aplicativos de assinante nms:appSubscriptionRcp**, que está vinculado à tabela de recipients.
 
