@@ -3,9 +3,9 @@ audience: end-user
 title: Criar e gerenciar públicos
 description: Saiba como criar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,11 @@ O exemplo abaixo mostra um fluxo de trabalho de público-alvo configurado para d
 1. A variável **[!UICONTROL Salvar público-alvo]** as atividades no final de cada caminho criam dois novos públicos-alvo no banco de dados, incluindo a população calculada em cada caminho.
 
 ## Monitorar e gerenciar públicos {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Erro de público"
+>abstract="Os dados do público-alvo não estão disponíveis. Aguarde o fim da execução do fluxo de trabalho."
 
 A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no **[!UICONTROL Públicos-alvo]** menu.
 
