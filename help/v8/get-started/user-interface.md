@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 73%
+source-wordcount: '1263'
+ht-degree: 75%
 
 ---
 
@@ -86,7 +86,7 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 >id="acw_offers_list"
 >title="Ofertas"
 >abstract="Navegue pelas listas de ofertas e modelos de ofertas que foram criados no console usando o **Interação** módulo. Essas listas são do tipo somente leitura."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Adicionar ofertas a um delivery"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=pt-BR" text="Adicionar ofertas a um delivery"
 
 Na seção GERENCIAMENTO DE DECISÃO, é possível exibir as ofertas e os templates de oferta. Essas listas são do tipo somente leitura.
 
@@ -115,9 +115,9 @@ Uma ajuda contextual está disponível na interface. Quando disponível, clique 
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Com a nova versão Beta, o **Assistente de conhecimento com Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
+Com a nova versão Beta, o **Assistente de conhecimento habilitado para IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
 
-Graças aos recursos do Campaign Gen AI, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Quer você esteja buscando orientação em uma tarefa complexa ou navegando em documentos extensos, nosso Assistente de conhecimento com Gen AI é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+Graças aos recursos do Campaign Gen AI, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Quer você esteja buscando orientação em uma tarefa complexa ou ao navegar por documentos extensos, nosso Assistente de conhecimento alimentado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
 Saiba mais [nesta seção](using-ai.md).
 
@@ -184,19 +184,14 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Exportação"
->abstract="É possível exportar apenas a página selecionada."
-
->[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Envio de relatórios globais"
->abstract="As métricas de relatórios de rastreamento estão visíveis nesta tela"
+>abstract="As métricas de relatórios de rastreamento são visíveis nesta tela"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Rastreamento de relatórios globais"
->abstract="As métricas de relatórios de rastreamento estão visíveis nesta tela"
+>abstract="As métricas de relatórios de rastreamento são visíveis nesta tela"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
