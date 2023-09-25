@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1932'
 ht-degree: 32%
 
 ---
@@ -301,6 +301,12 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >id="acw_delivery_reporting_breakdown_os"
 >title="Detalhamento por SO"
 >abstract="A variável **Detalhamento por SO** mostra a divisão de aberturas por sistema operacional para o período relacionado. O primeiro gráfico exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Detalhamento por navegador"
+>abstract="A variável **Detalhamento por navegador** mostra o detalhamento de aberturas por navegador para o período relacionado. O primeiro gráfico exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis."
+
 
 Este relatório mostra o detalhamento de aberturas por sistema operacional, dispositivo e navegador para o período relacionado. Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe estatísticas relacionadas apenas a aberturas em dispositivos móveis.
 
