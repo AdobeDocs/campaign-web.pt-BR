@@ -3,18 +3,18 @@ audience: end-user
 title: Relatórios do delivery por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 4%
+source-wordcount: '467'
+ht-degree: 3%
 
 ---
 
-# Relatório de entrega por push {#push-report}
+# Relatórios do delivery por push {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Resumo do relatório de push"
+>title="Resumo do relatório de entrega por push"
 >abstract="A variável **Visão geral da entrega por push** O oferece uma visão geral abrangente da entrega por push, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
 
 >[!CONTEXTUALHELP]
@@ -26,51 +26,77 @@ A variável **Relatório de entrega por push** O fornece uma visão geral comple
 
 ## Resumo por push {#push-summary}
 
-* **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com suas mensagens de push.
+### Visão geral da entrega {#push-delivery-overview}
 
-  ![](assets/reporting_push_3.png)
+A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com as mensagens de push.
 
-  +++Saiba mais sobre métricas de relatório de delivery por push.
+![](assets/reporting_push_3.png)
 
-   * **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
++++Saiba mais sobre métricas de relatório de delivery por push.
 
-   * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
 
-   * **[!UICONTROL Cliques]**: número total de recipients que interagiram com a mensagem de push.
+* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-   * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Cliques]**: número total de recipients que interagiram com a mensagem de push.
 
-+++
-
-* **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo:
-
-  ![](assets/reporting_push_4.png)
-
-  +++Saiba mais sobre métricas de relatório de delivery por push.
-
-   * **[!UICONTROL Para entregar]**: Número total de mensagens processadas durante a preparação do delivery.
-
-   * **[!UICONTROL Exclusões]**: Número de perfis que foram excluídos da análise.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
 
 +++
 
-* **Estatísticas gerais** apresenta dados para as notificações por push enviadas, incluindo:
+### População direcionada {#push-delivery-targeted-population}
 
-  ![](assets/reporting_push_5.png)
 
-  +++Saiba mais sobre métricas de relatório de delivery por push.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_targeted_population"
+>title="População direcionada de push"
+>abstract="A variável **População direcionada** o gráfico e a tabela exibem os dados relativos ao público-alvo de mensagens de push: mensagens a serem entregues e exclusões."
 
-   * **[!UICONTROL Success]**: Número de mensagens processadas com êxito.
+A variável **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo: mensagens a serem entregues e exclusões. As métricas estão detalhadas abaixo.
 
-   * **[!UICONTROL Erros]**: número total de erros que ocorreram durante o delivery, impedindo que as mensagens sejam enviadas para determinados perfis.
+![](assets/reporting_push_4.png)
 
-   * **[!UICONTROL Nova quarentena]**: Número de perfis que foram excluídos e adicionados à quarentena.
++++Saiba mais sobre métricas de relatório de delivery por push.
+
+* **[!UICONTROL Para entregar]**: Número total de mensagens processadas durante a preparação do delivery.
+
+* **[!UICONTROL Exclusões]**: Número de perfis que foram excluídos da análise.
 
 +++
 
-* **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
+### Estatísticas gerais {#push-delivery-overall}
 
-  ![](assets/reporting_push_6.png)
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_overall_stats"
+>title="Enviar estatísticas gerais"
+>abstract="A variável **Estatísticas gerais** o relatório apresenta dados para as notificações por push enviadas: sucesso, erros e quarentenas."
+
+A variável **Estatísticas gerais** o relatório apresenta dados para as notificações por push enviadas: sucesso, erros e quarentenas. As métricas estão detalhadas abaixo.
+
+![](assets/reporting_push_5.png)
+
++++Saiba mais sobre métricas de relatório de delivery por push.
+
+* **[!UICONTROL Success]**: Número de mensagens processadas com êxito.
+
+* **[!UICONTROL Erros]**: número total de erros que ocorreram durante o delivery, impedindo que as mensagens sejam enviadas para determinados perfis.
+
+* **[!UICONTROL Nova quarentena]**: Número de perfis que foram excluídos e adicionados à quarentena.
+
++++
+
+### Exclusões {#push-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_exclusions"
+>title="Enviar estatísticas gerais"
+>abstract="A variável **Exclusões** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem."
+
+A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
+
+![](assets/reporting_push_6.png)
 
 ## Taxa de transferência de delivery {#delivery-throughput}
 
@@ -79,6 +105,6 @@ A variável **Relatório de entrega por push** O fornece uma visão geral comple
 >title="Relatório de taxa de transferência de entrega"
 >abstract="O relatório Delivery throughput apresenta informações detalhadas sobre a taxa de transferência de delivery da plataforma inteira em um período especificado."
 
-Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
+A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
 ![](assets/reporting_push_2.png)

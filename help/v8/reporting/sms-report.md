@@ -3,14 +3,14 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
-source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
 
-# Relatório de entrega de SMS {#report}
+# Relatórios de entrega de SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -26,49 +26,78 @@ A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrang
 
 ## Resumo da entrega {#delivery-summary}
 
-* **[!UICONTROL Visão geral da entrega]** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre taxas de sucesso e erro e como seus visitantes se envolvem com mensagens SMS.
+### Visão geral da entrega {#sms-delivery-overview}
 
-  ![](assets/reporting_sms_3.png)
+A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre taxas de sucesso e erro e como seus visitantes se envolvem com mensagens SMS.
 
-  +++Saiba mais sobre métricas de relatório de delivery de SMS.
+![](assets/reporting_sms_3.png)
 
-   * **[!UICONTROL Total enviado]**: porcentagem e número total de mensagens processadas durante a preparação do delivery.
++++Saiba mais sobre métricas de relatório de delivery de SMS.
 
-   * **[!UICONTROL Sucesso]**: Porcentagem e número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Total enviado]**: porcentagem e número total de mensagens processadas durante a preparação do delivery.
 
-   * **[!UICONTROL Taxa de cliques]**: porcentagem e número de usuários que interagiram com os links incluídos no delivery do SMS.
+* **[!UICONTROL Sucesso]**: Porcentagem e número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-   * **[!UICONTROL Erros]**: Porcentagem e número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
-+++
+* **[!UICONTROL Taxa de cliques]**: porcentagem e número de usuários que interagiram com os links incluídos no delivery do SMS.
 
-* **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo.
+* **[!UICONTROL Erros]**: Porcentagem e número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
-  ![](assets/reporting_sms_4.png)
-
-  +++Saiba mais sobre métricas de relatório de delivery de SMS.
-
-   * **[!UICONTROL Para entregar]**: Número total e taxa percentual de mensagens processadas durante a preparação do delivery.
-
-   * **[!UICONTROL Exclusões]**: número e taxa de porcentagem de perfis que foram excluídos da análise.
 +++
 
 
-* **Estatísticas gerais** apresenta dados para as mensagens SMS enviadas, incluindo:
+### População direcionada {#sms-delivery-targeted-population}
 
-  ![](assets/reporting_sms_5.png)
 
-  +++Saiba mais sobre métricas de relatório de delivery de SMS.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_targeted_population"
+>title="População direcionada por SMS"
+>abstract="A variável **População direcionada** gráfico e tabela exibem dados relativos ao público-alvo do SMS: mensagens a serem entregues e exclusões."
 
-   * **[!UICONTROL Sucesso]**: Número e taxa percentual de mensagens processadas com êxito.
+A variável **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo. As métricas estão detalhadas abaixo.
 
-   * **[!UICONTROL Erros]**: número total e taxa percentual de erros que ocorreram durante o delivery, impedindo que as mensagens sejam enviadas para determinados perfis.
+![](assets/reporting_sms_4.png)
 
-   * **[!UICONTROL Nova quarentena]**: número e taxa percentual de perfis que foram excluídos e adicionados à quarentena.
++++Saiba mais sobre métricas de relatório de delivery de SMS.
+
+* **[!UICONTROL Para entregar]**: Número total e taxa percentual de mensagens processadas durante a preparação do delivery.
+
+* **[!UICONTROL Exclusões]**: número e taxa de porcentagem de perfis que foram excluídos da análise.
 +++
+
+
+### Estatísticas gerais {#sms-delivery-overall}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="Enviar estatísticas gerais"
+>abstract="A variável **Estatísticas gerais** O relatório apresenta dados para o SMS enviado: sucesso, erros e quarentenas."
+
+A variável **Estatísticas gerais** O relatório apresenta dados para as mensagens SMS enviadas. As métricas estão detalhadas abaixo.
+
+![](assets/reporting_sms_5.png)
+
++++Saiba mais sobre métricas de relatório de delivery de SMS.
+
+* **[!UICONTROL Sucesso]**: Número e taxa percentual de mensagens processadas com êxito.
+
+* **[!UICONTROL Erros]**: número total e taxa percentual de erros que ocorreram durante o delivery, impedindo que as mensagens sejam enviadas para determinados perfis.
+
+* **[!UICONTROL Nova quarentena]**: número e taxa percentual de perfis que foram excluídos e adicionados à quarentena.
++++
+
+### Exclusões {#sms-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_exclusions"
+>title="Estatísticas gerais de SMS"
+>abstract="A variável **Exclusões** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem."
+
 
 * **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
 
-  ![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png)
 
 ## Taxa de transferência de delivery {#delivery-throughput}
 
