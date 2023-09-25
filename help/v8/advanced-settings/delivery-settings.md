@@ -4,10 +4,10 @@ title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 79%
+source-wordcount: '2112'
+ht-degree: 84%
 
 ---
 
@@ -35,7 +35,7 @@ Essas configurações estão disponíveis no **Definir configurações de entreg
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Tipologia configurações para a entrega"
+>title="Tipologia configurações da entrega"
 >abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
 
 
@@ -55,7 +55,7 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Parâmetros de pressão para a entrega"
+>title="Parâmetros de pressão da entrega"
 >abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de fadiga. As mensagens com o peso mais alto têm prioridade."
 
 
@@ -89,7 +89,7 @@ O gerenciamento de fadiga vem com o complemento **Otimização de campanha**. Sa
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Configurações de capacidade para a entrega"
+>title="Configurações de capacidade da entrega"
 >abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega possa gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no Console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
 
 
@@ -106,24 +106,23 @@ O campo **importância do recipient** é uma fórmula usada para determinar quai
 Saiba mais sobre as regras de consistência e capacidade e como configurá-las em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=pt-BR){target="_blank"}.
 
 
-## Configurações do público-alvo {#audience}
-
+## Configurações de público-alvo {#audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="Configurações de público-alvo da entrega"
->abstract="Selecione um **target mapping** entre os disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. Você também pode definir os parâmetros de exclusão para o delivery. "
+>title="Configurações do público-alvo da entrega"
+>abstract="Selecione um **target mapping** entre os disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. Também é possível definir os parâmetros de exclusão da entrega. "
+
+Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. O targeting dimension ou target mapping é o tipo de dados que uma operação está manipulando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
 
 
-Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8.
-
-Saiba mais sobre target mappings em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre target mappings em [nesta seção](../audience/about-recipients.md#targeting-dimensions).
 
 ## Entrega {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Configurações de entrega para a entrega"
+>title="Configurações da entrega"
 >abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. É possível ativar CCO para a entrega e alterar os modos de entrega e de rotina. Essas opções são restritas apenas a usuários e usuárias especialistas."
 
 Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega.
@@ -139,12 +138,12 @@ Os parâmetros de entrega são configurações técnicas que se aplicam à sua e
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="Configurações de análise da Web para a entrega"
->abstract="Selecione uma conta do Web Analytics. Essa conta é configurada no console do cliente do Campaign. Você também pode definir as tags compartilhadas com a ferramenta de análise que está usando."
+>title="Configurações de análise da web da entrega"
+>abstract="Selecione uma conta de análise da web. Essa conta é configurada no console do cliente do Campaign. Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada."
 
 Nesta seção, você pode selecionar uma conta do Web Analytics. Essa conta é configurada no console do cliente do Campaign.
 
-Você também pode definir as tags compartilhadas com a ferramenta de análise que está usando.
+Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada.
 
 Saiba mais sobre o Web Analytics e o Campaign em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
@@ -164,14 +163,14 @@ Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprovação para a entrega"
+>title="Modo de aprovação da entrega"
 >abstract="Selecione o modo de aprovação. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
->title="Modo de aprovação para as entregas"
->abstract="Selecione o modo de aprovação para deliveries com base neste modelo. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
+>title="Modo de aprovação das entregas"
+>abstract="Selecione o modo de aprovação para entregas com base neste modelo. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
 
 Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada. Por padrão, o usuário deverá confirmar o envio de mensagens no final da fase de análise: essa é a validação **manual**.
 
@@ -261,7 +260,7 @@ Os parâmetros de rastreamento são definidos na seção relacionada. As opçõe
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Testar configurações para a entrega"
+>title="Testar configurações da entrega"
 >abstract="Selecione os parâmetros de exclusão e personalize o rótulo dos emails de teste."
 
 Você pode definir os parâmetros de exclusão nesta seção. As opções disponíveis são:
