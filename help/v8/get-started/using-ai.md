@@ -2,20 +2,14 @@
 title: Uso do assistente de conhecimento habilitado para IA no Campaign Web
 description: Uso do assistente de conhecimento habilitado para IA no Campaign Web
 badge: label="Beta"
-source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 5%
 
 ---
 
 # Usar o Assistente de conhecimento habilitado para IA {#using-ai}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card6"
->title="Assistente de conhecimento habilitado para IA"
->abstract="Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do produto, com o Assistente de conhecimento habilitado por IA. Disponível nas caixas de ajuda contextual do produto, ele revoluciona a pesquisa de documentação e responde a perguntas &quot;como&quot; com uma fácil verificação através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa."
-
 
 Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do produto, com o Assistente de conhecimento alimentado por IA disponível nas caixas de ajuda contextual do produto.
 
@@ -25,7 +19,7 @@ Obtenha respostas rápidas e geradas por IA com base na documentação do produt
 
 A variável **Assistente de conhecimento com Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
 
-Graças aos recursos do Campaign Gen AI, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Esteja você procurando orientação em uma tarefa complexa ou ao navegar por documentos extensos, o Assistente de conhecimento alimentado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Esteja você procurando orientação em uma tarefa complexa ou ao navegar por documentos extensos, o Assistente de conhecimento alimentado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -45,9 +39,9 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Respostas {#answers-ai}
 
-As respostas podem ser imprecisas ou enganosas. Como consequência, o Assistente de conhecimento alimentado por IA do Adobe Campaign pode produzir informações incorretas. Verifique a documentação do produto que está vinculada em cada caixa de ajuda.
+O Assistente de conhecimento alimentado por IA do Adobe Campaign oferece assistência, mas você deve verificar os fatos. Pode produzir informações incorretas, respostas imprecisas ou enganosas. Verifique a documentação do produto que está vinculada em cada caixa de ajuda.
 
-Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para lidar melhor com casos de uso específicos. O assistente de conhecimento alimentado por IA do Campaign continuará melhorando nos próximos meses. Recomendamos que você use a ?? ?? sempre que ler uma resposta, para sinalizar quaisquer respostas inadequadas aos nossos engenheiros.
+Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para lidar melhor com casos de uso específicos. O Assistente de conhecimento alimentado por IA do Campaign continuará melhorando nos próximos meses. Recomendamos que você use a ?? ?? sempre que ler uma resposta, para sinalizar quaisquer respostas inadequadas aos nossos engenheiros.
 
 ## Recomendações  {#recommendations-ai}
 

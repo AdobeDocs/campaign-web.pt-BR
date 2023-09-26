@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 75%
+source-wordcount: '1270'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 75%
 >title="Conheça a interface"
 >abstract="A nova interface da Campaign Web v8 oferece ao usuário uma experiência integrada, intuitiva e consistente."
 
-A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. Essa nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
+A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. A nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
 
 
 >[!NOTE]
@@ -28,7 +28,7 @@ A nova interface da Web do Campaign v8 oferece uma experiência de usuário mode
 
 ## Menu de navegação esquerdo {#user-interface-left-nav}
 
-Navegue pelos links à esquerda para acessar os recursos do Campaign Web v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Algumas telas de lista são somente leitura. Os itens exibidos no menu de navegação esquerdo e nas listas dependem das permissões do usuário. Saiba mais sobre permissões no [nesta seção](permissions.md).
+Navegue pelos links à esquerda para acessar os recursos do Campaign Web v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Algumas telas de lista são do tipo somente leitura. Os itens exibidos no menu de navegação esquerdo e nas listas dependem das permissões de usuário. Saiba mais sobre permissões [nesta seção](permissions.md).
 
 ![](assets/home.png)
 
@@ -38,7 +38,7 @@ Esta tela inclui links e recursos importantes para um acesso rápido aos princip
 
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação.
 
-Os **Indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns. Saiba mais sobre esses KPIs em [esta página](../reporting/kpis.md).
+Os **indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns. Saiba mais sobre esses KPIs [nesta página](../reporting/kpis.md).
 
 Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
 
@@ -49,11 +49,11 @@ Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendiza
 >title="Explorer"
 >abstract="O menu **Explorer** exibe todos os componentes e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8, verifique as permissões associadas e crie pastas e subpastas neste menu."
 
-O menu **Explorer** exibe todos os recursos e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, workflows e campanhas.
+O menu **Explorer** exibe todos os recursos e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, fluxos de trabalhos e campanhas.
 
-Os itens exibidos no **Explorer** depende das suas permissões de usuário. Também é possível adicionar pastas e subpastas, se você tiver os direitos apropriados. Saiba mais sobre permissões no [nesta seção](permissions.md).
+Os itens exibidos no **Explorer** dependem das permissões de usuário. Também é possível adicionar pastas e subpastas, caso você tenha os direitos adequados. Saiba mais sobre permissões [nesta seção](permissions.md).
 
-Como em qualquer tela de lista, você pode configurar as colunas para personalizar a exibição e mostrar todas as informações necessárias. Consulte esta [seção](#list-screens).
+Você pode configurar colunas para personalizar a exibição e exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Também é possível adicionar pastas e subpastas, conforme detalhado em [nesta seção](permissions.md#folders).
 
 Para obter mais informações sobre o Explorer do Campaign, a hierarquia de pastas e os recursos, consulte a [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=pt-BR#ac-explorer-ui){target="_blank"}.
 
@@ -76,8 +76,8 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 
 Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, públicos-alvo e assinaturas. Essas listas são do tipo somente leitura.
 
-* **Recipients**: acessa o banco de dados de recipients. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre recipients em [nesta seção](../audience/about-recipients.md).
-* **Públicos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Saiba mais sobre públicos-alvo e listas em [nesta seção](../audience/about-recipients.md).
+* **Recipients**: acessa o banco de dados de recipients. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre destinatários [nesta seção](../audience/about-recipients.md).
+* **Públicos-alvos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Saiba mais sobre públicos-alvo e listas [nesta seção](../audience/about-recipients.md).
 * **Assinaturas**: navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba mais sobre como gerenciar assinaturas e seus cancelamentos na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=pt-BR){target="_blank"}.
 
 ### Gestão de decisões {#decision-management}
@@ -85,14 +85,14 @@ Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, p
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Navegue pelas listas de ofertas e modelos de ofertas que foram criados no console usando o **Interação** módulo. Essas listas são do tipo somente leitura."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=pt-BR" text="Adicionar ofertas a um delivery"
+>abstract="Navegue pelas listas de ofertas e modelos de ofertas que foram criados no console usando o módulo **Interação**. Essas listas são do tipo somente leitura."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=pt-BR" text="Adicionar ofertas à uma entrega"
 
-Na seção GERENCIAMENTO DE DECISÃO, é possível exibir as ofertas e os templates de oferta. Essas listas são do tipo somente leitura.
+Na seção GESTÃO DE DECISÕES, é possível visualizar as ofertas e os modelos de oferta. Essas listas são do tipo somente leitura.
 
-* **Ofertas** - Navegue pela lista de ofertas e modelos de ofertas que foram criados no console usando o **Interação** módulo. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis.
+* **Ofertas**: navegue pela lista de ofertas e modelos de ofertas que foram criados no console usando o módulo **Interação**. Por padrão, é possível exibir o status, a data inicial/final e o ambiente. É possível filtrar a lista por status e datas de início/término. Os modelos de oferta também estão disponíveis.
 
-Saiba como criar e enviar ofertas por email e SMS no [nesta seção](../content/offers.md).
+Saiba como criar e enviar ofertas por email e SMS [nesta seção](../content/offers.md).
 
 ## Barra superior {#top-bar}
 
@@ -117,7 +117,7 @@ Uma ajuda contextual está disponível na interface. Quando disponível, clique 
 
 Com a nova versão Beta, o **Assistente de conhecimento habilitado para IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
 
-Graças aos recursos do Campaign Gen AI, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Quer você esteja buscando orientação em uma tarefa complexa ou ao navegar por documentos extensos, nosso Assistente de conhecimento alimentado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Quer você esteja buscando orientação em uma tarefa complexa ou ao navegar por documentos extensos, nosso Assistente de conhecimento alimentado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
 Saiba mais [nesta seção](using-ai.md).
 
@@ -141,7 +141,7 @@ Atualmente, o Campaign Web v8 está disponível nos seguintes idiomas:
 * Chinês tradicional - CHT
 
 
-O idioma padrão do Campaign Web é determinado pelo idioma preferencial especificado no perfil do usuário. Não está relacionado ao idioma do servidor do Campaign e do console do cliente.
+O idioma padrão do Campaign Web é determinado pelo idioma preferencial especificado no perfil de usuário. Ele não está relacionado ao idioma do servidor do Campaign e do console do cliente.
 
 Para alterar o idioma:
 
@@ -151,7 +151,7 @@ Para alterar o idioma:
 
 ## Tema escuro {#dark-theme}
 
-Você pode alternar para o tema escuro a partir do ícone do perfil. Use o **Tema escuro** para ativá-la/desativá-la.
+Você pode alternar para o tema escuro a partir do ícone do perfil. Use o botão de alternância **Tema escuro** para habilitá-lo/desabilitá-lo.
 
 ## Saiba mais {#learn-more}
 
@@ -186,12 +186,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Envio de relatórios globais"
->abstract="As métricas de relatórios de rastreamento são visíveis nesta tela"
+>abstract="As métricas dos relatórios de rastreamento podem ser vistas nesta tela"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Rastreamento de relatórios globais"
->abstract="As métricas de relatórios de rastreamento são visíveis nesta tela"
+>abstract="As métricas dos relatórios de rastreamento podem ser vistas nesta tela"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

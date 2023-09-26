@@ -4,19 +4,14 @@ title: Introdução ao Campaign v8 Web
 description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
 # Introdução ao Campaign Web {#get-started}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Novidades"
->abstract="Nossa versão mais recente contém recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. "
 
 
 O Adobe Campaign fornece uma plataforma para criar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o real-time interaction management e a execução entre canais.
@@ -32,7 +27,7 @@ Se você precisar acessar os recursos do Campaign v8 que não estão disponívei
 
 >[!NOTE]
 >
->A Web do Campaign v8 está atualmente na versão Beta. O acesso é restrito a um pequeno conjunto de clientes Beta. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio.
+>O Campaign Web v8 está atualmente na versão beta. O acesso é restrito a um pequeno conjunto de clientes beta. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
 
 ## Conexão com o Campaign
 
