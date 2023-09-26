@@ -4,10 +4,10 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 13%
+source-wordcount: '1145'
+ht-degree: 11%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 13%
 >title="Modo de visualização"
 >abstract="Visualize e teste a mensagem incluindo a população de teste ao público-alvo principal."
 
-**[!UICONTROL Adobe Campaign]** permite testar uma mensagem antes de enviá-la para o público principal.
+Após definir o conteúdo da mensagem, é possível pré-visualizá-lo e testá-lo enviando deliveries de teste (também conhecido como. &quot;provas&quot;) para testar perfis. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-O envio de deliveries de teste (anteriormente conhecidos como &quot;provas&quot;) é uma etapa importante para validar sua campanha e identificar possíveis problemas.
-
-Os recipients de um teste podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
+Para detectar possíveis erros nas configurações de conteúdo ou personalização da mensagem, envie mensagens de teste para perfis de teste antes de enviá-la para o público-alvo de destino. Uma mensagem de teste deve ser enviada sempre que uma alteração for feita, para validar o conteúdo mais recente. O envio de deliveries de teste (anteriormente conhecidos como &quot;provas&quot;) é uma etapa importante para validar sua campanha e identificar possíveis problemas. Os recipients de uma mensagem de teste podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
 
 ## Selecione os recipients de teste {#test-recipients}
 
@@ -58,6 +56,10 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 >title="Arquivo de modelo"
 >abstract="A formatação do arquivo precisa ser igual à do arquivo original.<br/>Formatos de arquivo compatíveis: txt, csv. Tamanho máximo do arquivo: 15 MB. Usar a primeira linha como cabeçalho da coluna."
 
+
+Os perfis de teste são seed addresses, que são recipients adicionais no banco de dados. Eles podem ser criados na variável [!DNL Adobe Campaign] console do cliente na **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. As etapas para enviar mensagens de teste para seed addresses são detalhadas abaixo.
+
+
 1. Navegue até a tela de edição de conteúdo do seu delivery de email ou SMS e clique no link **[!UICONTROL Simular conteúdo]** botão.
 
 1. Clique em **[!UICONTROL Teste]** botão.
@@ -84,7 +86,7 @@ Para selecionar os recipients de um delivery de teste, siga as etapas abaixo, de
 
 ### Perfis de substituição {#substitution-profiles}
 
-Para enviar um email ou SMS de teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente do [!DNL Campaign] banco de dados, use perfis de substituição.
+Para enviar um email ou SMS de teste para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente do [!DNL Adobe Campaign] banco de dados, use perfis de substituição, conforme detalhado abaixo:
 
 1. Antes de enviar um teste, defina um público-alvo de direcionamento para sua entrega. [Saiba mais](../audience/about-recipients.md)
 
@@ -120,7 +122,7 @@ Para enviar um email ou SMS de teste para um endereço de email ou número de te
 
 ### Assinantes {#subscribers}
 
-Ao trabalhar com notificações por push, os deliveries de teste só podem ser enviados aos assinantes. Para selecioná-los, siga as etapas abaixo.
+Ao trabalhar com notificações por push, os deliveries de teste só podem ser enviados aos assinantes do aplicativo. Para selecioná-los, siga as etapas abaixo.
 
 1. Navegue até a tela de edição de conteúdo do seu delivery e clique no link **[!UICONTROL Simular conteúdo]** botão.
 
