@@ -4,9 +4,9 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ Os principais recursos do Campaign Web beta estão listados abaixo.
 
 * **IA generativa para conteúdo de email**
 
-  Diga adeus à criação manual de conteúdo e crie campanhas eficientes e orientadas por dados com o poder da IA generativa.  Nossa tecnologia de IA generativa utiliza algoritmos avançados para **gerar um conteúdo personalizado e altamente envolvente**. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email. Esse recurso estará disponível a partir do início de outubro.
+  Diga adeus à criação manual de conteúdo e crie campanhas eficientes e orientadas por dados com o poder da IA generativa.  Nossa tecnologia de IA generativa utiliza algoritmos avançados para **gerar um conteúdo personalizado e altamente envolvente**. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email.
 
   Saiba mais [nesta seção](../content/generative-gs.md).
 
@@ -99,7 +99,7 @@ Os principais recursos do Campaign Web beta estão listados abaixo.
 
 * **Assistente de conhecimento com IA generativa**
 
-  Faça perguntas e encontre orientações diretamente na interface do produto. O novo **Assistente de conhecimento habilitado por IA**, incorporado aos popovers de ajuda contextual, ajuda você a aprender e aumentar sua experiência com novos recursos do Campaign. Com base na documentação mais recente do produto, o assistente fornece a ajuda necessária e orientações passo a passo instantaneamente, à medida que você cria seus casos de uso. Esse recurso estará disponível a partir do início de outubro.
+  Faça perguntas e encontre orientações diretamente na interface do produto. O novo **Assistente de conhecimento habilitado por IA**, incorporado aos popovers de ajuda contextual, ajuda você a aprender e aumentar sua experiência com novos recursos do Campaign. Com base na documentação mais recente do produto, o assistente fornece a ajuda necessária e orientações passo a passo instantaneamente, à medida que você cria seus casos de uso.
 
   Saiba mais [nesta seção](../get-started/using-ai.md).
 

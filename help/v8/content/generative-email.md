@@ -3,9 +3,9 @@ audience: end-user
 title: Geração de email com o Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
@@ -14,15 +14,10 @@ ht-degree: 2%
 
 O Assistente de conteúdo aumenta o impacto da sua comunicação, gerando automaticamente conteúdo completo do e-mail, economizando tempo e garantindo qualidade consistente. Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente no seu público, tornando sua comunicação mais eficaz e eficiente.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Esse recurso estará disponível no início de outubro.
+>Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## Gerar o conteúdo HTML com IA {#generative-email-generate}
 
 Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas abaixo. Você também pode melhorar um conteúdo existente com o Assistente de conteúdo, conforme detalhado em [esta página](generative-content.md).
 

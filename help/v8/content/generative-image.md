@@ -3,9 +3,9 @@ audience: end-user
 title: Geração de imagens com o Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 2%
 
 Depois de criar e personalizar seus emails, você pode aprimorar seu conteúdo usando o Assistente de conteúdo, viabilizado pela IA gerativa. Esse recurso simplifica o processo de personalização e melhoria de conteúdo.
 
->[!AVAILABILITY]
+Para gerar e melhorar imagens em seus emails com o Assistente de conteúdo, siga as etapas abaixo. Você também pode criar o conteúdo de HTML completo com o Assistente de conteúdo, conforme detalhado em [esta página](generative-email.md), ou gerar um conteúdo de texto, conforme explicado em [esta página](generative-content.md).
+
+>[!NOTE]
 >
->Esse recurso estará disponível no início de outubro.
+>Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
 
 No exemplo abaixo, saiba como usar o Assistente de conteúdo para otimizar e melhorar o conteúdo, garantindo uma experiência mais amigável. Siga estas etapas:
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Texto com o Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,9 @@ Depois de criar e personalizar seus emails, use o Assistente de conteúdo habili
 
 O Assistente de conteúdo pode ajudá-lo a otimizar o impacto de suas entregas, sugerindo conteúdo diferente que tenha mais probabilidade de repercutir com seu público-alvo.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Esse recurso estará disponível no início de outubro.
+>Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
 
 Para gerar e melhorar um conteúdo de email com o Assistente de conteúdo, siga as etapas abaixo. Você também pode criar o conteúdo de HTML completo com o Assistente de conteúdo, conforme detalhado em [esta página](generative-email.md).
 
@@ -42,7 +41,7 @@ Para gerar e melhorar um conteúdo de email com o Assistente de conteúdo, siga 
 
    ![](assets/text-genai-3.png)
 
-1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
+1. Selecionar **[!UICONTROL Carregar arquivo]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
 
    Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente. Observe que o conteúdo carregado está disponível exclusivamente para reutilização pelo usuário atual.
 
