@@ -1,26 +1,30 @@
 ---
 audience: end-user
-title: Geração de email com o assistente de Conteúdo
-description: Introdução ao assistente de Conteúdo
+title: Geração de email com o Assistente de conteúdo
+description: Introdução ao Assistente de conteúdo
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-# Gerar um email com o assistente de Conteúdo {#generative-email}
+# Gerar um email com o Assistente de conteúdo {#generative-email}
 
-O Assistente de conteúdo aumenta o impacto da sua comunicação, gerando automaticamente conteúdo completo do e-mail, economizando tempo e garantindo qualidade consistente.
-
-Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente no seu público, tornando sua comunicação mais eficaz e eficiente.
+O Assistente de conteúdo aumenta o impacto da sua comunicação, gerando automaticamente conteúdo completo do e-mail, economizando tempo e garantindo qualidade consistente. Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente no seu público, tornando sua comunicação mais eficaz e eficiente.
 
 
 >[!AVAILABILITY]
 >
 >Esse recurso estará disponível no início de outubro.
 
+
+
+
+## Gerar o conteúdo HTML com IA {#generative-email-generate}
+
+Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas abaixo. Você também pode melhorar um conteúdo existente com o Assistente de conteúdo, conforme detalhado em [esta página](generative-content.md).
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Criar conteúdo]**.
 
@@ -46,7 +50,7 @@ Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente 
 
    ![](assets/email-genai-2.png)
 
-1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao assistente de Conteúdo.
+1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
 
    Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente. Observe que o conteúdo carregado está disponível exclusivamente para reutilização pelo usuário atual.
 
@@ -75,4 +79,5 @@ Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente 
    ![](assets/email-genai-6.png)
 
 1. Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)
+
 

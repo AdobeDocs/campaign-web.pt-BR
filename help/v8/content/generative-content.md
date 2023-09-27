@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Texto com o assistente de Conteúdo
-description: Introdução ao assistente de Conteúdo
+title: Texto com o Assistente de conteúdo
+description: Introdução ao Assistente de conteúdo
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
 
 
-# Geração de texto com o assistente de Conteúdo {#generative-content}
+# Geração de texto com o Assistente de conteúdo {#generative-content}
 
 Depois de criar e personalizar seus emails, use o Assistente de conteúdo habilitado pela IA gerativa para elevar seu conteúdo ao próximo nível.
 
@@ -21,6 +21,8 @@ O Assistente de conteúdo pode ajudá-lo a otimizar o impacto de suas entregas, 
 >[!AVAILABILITY]
 >
 >Esse recurso estará disponível no início de outubro.
+
+Para gerar e melhorar um conteúdo de email com o Assistente de conteúdo, siga as etapas abaixo. Você também pode criar o conteúdo de HTML completo com o Assistente de conteúdo, conforme detalhado em [esta página](generative-email.md).
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -36,11 +38,11 @@ O Assistente de conteúdo pode ajudá-lo a otimizar o impacto de suas entregas, 
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar.
 
-   Ativar o **[!UICONTROL Aprimorar com o contexto atual]** opção do assistente de Conteúdo para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
+   Ativar o **[!UICONTROL Aprimorar com o contexto atual]** opção do Assistente de conteúdo para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
 
    ![](assets/text-genai-3.png)
 
-1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao assistente de Conteúdo.
+1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
 
    Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente. Observe que o conteúdo carregado está disponível exclusivamente para reutilização pelo usuário atual.
 

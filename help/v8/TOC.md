@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 82%
             + [Adicionar um pré-cabeçalho](content/preheader.md)
             + [Gerar a versão de texto](content/text-version-email.md)
          + Assistente de conteúdo {#content-assistant}
-            + [Introdução ao assistente de Conteúdo](content/generative-gs.md)
-            + [Geração de texto com o assistente de Conteúdo](content/generative-content.md)
-            + [Geração de imagem com o assistente de Conteúdo](content/generative-image.md)
-            + [Geração de email com o assistente de Conteúdo](content/generative-email.md)
+            + [Introdução ao Assistente de conteúdo](content/generative-gs.md)
+            + [Geração de texto com o Assistente de conteúdo](content/generative-content.md)
+            + [Geração de imagens com o Assistente de conteúdo](content/generative-image.md)
+            + [Geração de email com o Assistente de conteúdo](content/generative-email.md)
          + Estilizar o conteúdo {#style}
             + [Introdução ao estilo de email](content/get-started-email-style.md)
             + [Editar configurações de fundo](content/backgrounds.md)
@@ -83,8 +83,8 @@ ht-degree: 82%
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
       + [Enviar entregas de teste](preview-test/test-deliveries.md)
       + [Renderizar seu email](preview-test/email-rendering.md)
-+ Públicos e recipients {#audiences}
-   + [Trabalhar com recipients e públicos](audience/about-recipients.md)
++ Públicos-alvo e destinatários {#audiences}
+   + [Trabalhar com destinatários e públicos-alvo](audience/about-recipients.md)
    + [Criar públicos](audience/create-audience.md)
    + Selecione os recipients do delivery {#target-audiences}
       + [Selecione um público-alvo já existente](audience/add-audience.md)
@@ -119,7 +119,7 @@ ht-degree: 82%
       + [Email, SMS, push](workflows/activities/channels.md)
       + [Enriquecimento](workflows/activities/enrichment.md)
       + [Bifurcação](workflows/activities/fork.md)
-      + [Salvar público](workflows/activities/save-audience.md)
+      + [Salvar público-alvo](workflows/activities/save-audience.md)
       + [Scheduler](workflows/activities/scheduler.md)
       + [Divisão](workflows/activities/split.md)
       + [Aguardar](workflows/activities/wait.md)

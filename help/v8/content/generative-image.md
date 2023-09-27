@@ -1,9 +1,9 @@
 ---
 audience: end-user
-title: Geração de imagem com o assistente de Conteúdo
-description: Introdução ao assistente de Conteúdo
+title: Geração de imagens com o Assistente de conteúdo
+description: Introdução ao Assistente de conteúdo
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -11,7 +11,7 @@ ht-degree: 2%
 ---
 
 
-# Geração de imagem com o assistente de Conteúdo {#generative-image}
+# Geração de imagens com o Assistente de conteúdo {#generative-image}
 
 Depois de criar e personalizar seus emails, você pode aprimorar seu conteúdo usando o Assistente de conteúdo, viabilizado pela IA gerativa. Esse recurso simplifica o processo de personalização e melhoria de conteúdo.
 
@@ -27,7 +27,7 @@ No exemplo abaixo, saiba como usar o Assistente de conteúdo para otimizar e mel
 
 1. Preencha o **[!UICONTROL Detalhes básicos]** para o seu delivery. Depois de concluído, clique em **[!UICONTROL Editar conteúdo de email]**.
 
-1. Selecione o ativo que deseja alterar com o assistente de Conteúdo.
+1. Selecione o ativo que deseja alterar com o Assistente de conteúdo.
 
 1. No menu à direita, selecione **[!UICONTROL Geração de experiência]**.
 
@@ -37,7 +37,7 @@ No exemplo abaixo, saiba como usar o Assistente de conteúdo para otimizar e mel
 
    ![](assets/image-genai-2.png)
 
-1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao assistente de Conteúdo.
+1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
 
    Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente. Observe que o conteúdo carregado está disponível exclusivamente para reutilização pelo usuário atual.
 
