@@ -3,22 +3,24 @@ audience: end-user
 title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 33%
+source-wordcount: '1546'
+ht-degree: 32%
 
 ---
 
 
 # Relatórios de campanha para o canal de email {#campaign-reports-email-channel}
 
+Cada relatório de campanha é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Para o canal de email, os relatórios e as métricas são detalhados abaixo. Saiba como acessar os relatórios de campanha no [esta página](campaign-reports.md).
+
 ## Resumo da entrega {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Visão geral da entrega"
->abstract="A Visão geral da entrega fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de email."
+>abstract="A variável **Visão geral da entrega** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de email."
 
 ### Visão geral da entrega {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 +++
 
 ### Estatísticas de reação {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ A variável **[!UICONTROL Detalhamento de erros por domínio]** A tabela e o gr�
 
 ### Estatísticas de entrega {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Estatísticas de entrega"
+>abstract="A variável **Estatísticas de entrega** O gráfico detalha o sucesso do delivery e os erros que ocorreram."
+
 A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem i
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Widget de taxa de abertura e click-through"
+>title="Índice de abertura e click-through"
 >abstract="A variável **Índice de click-through e aberturas** A tabela exibe dados relativos ao envolvimento dos recipients com a entrega."
 
 
@@ -253,8 +260,6 @@ A variável **[!UICONTROL Fluxos de clique e URLs]** O relatório de fornece ind
 
 ### Os 10 links mais visitados {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Os 10 links mais visitados"
@@ -286,13 +291,19 @@ o **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## Atividades do usuário {#user-activities-email}
 
-A variável  **[!UICONTROL Atividades do usuário]** O relatório mostra o detalhamento de aberturas e cliques no formulário de um gráfico. As métricas estão detalhadas abaixo.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="Atividades do usuário"
+>abstract="A variável **Atividades do usuário** o gráfico mostra o detalhamento de aberturas e cliques no formulário de um gráfico."
 
-![](assets/campaign_report_email_12.png)
+A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalhamento de aberturas e cliques no formulário de um gráfico. As métricas para esse relatório são detalhadas abaixo.
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++Saiba mais sobre Métricas de relatório de delivery de email.
 
 * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
 
