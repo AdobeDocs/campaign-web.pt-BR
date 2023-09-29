@@ -2,9 +2,9 @@
 title: Uso do assistente de conhecimento habilitado para IA no Campaign Web
 description: Uso do assistente de conhecimento habilitado para IA no Campaign Web
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -41,9 +41,12 @@ Os modelos de inteligência artificial e aprendizado de máquina melhoram com o 
 
 ## Recomendações  {#recommendations-ai}
 
-Ao fazer uma pergunta no Assistente de conhecimento alimentado por IA, o contexto atual do produto, ou seja, a tela do Campaign em que você está e o conteúdo da caixa de ajuda atual, é levado em conta.
+Ao fazer uma pergunta no Assistente de conhecimento habilitado para IA, o contexto atual do produto, ou seja, a tela em que você está e o conteúdo da caixa de ajuda atual, são considerados.
 
-Para aproveitar ao máximo o Assistente de conhecimento alimentado por IA, ao fazer uma pergunta, recomendamos que você:
+Como consequência, a prática recomendada é fazer perguntas relacionadas ao contexto da interface do usuário. Por exemplo, se precisar saber como enviar um delivery por push em um workflow, navegue até o **Fluxo de trabalho** e use uma caixa de ajuda contextual nesse contexto específico. Para saber mais sobre métricas de relatórios, navegue até os relatórios da campanha ou do delivery e comece a partir daí.
+
+
+Além disso, para aproveitar ao máximo o Assistente de conhecimento alimentado por IA, ao fazer uma pergunta, recomendamos que você:
 
 * Ser tão preciso e específico quanto possível e evitar ambiguidades. A resposta será mais precisa e útil.
 * Para ajudar o Assistente de conhecimento alimentado por IA a encontrar as informações corretas, adicione o máximo de detalhes possível sobre o que você está tentando aprender.
