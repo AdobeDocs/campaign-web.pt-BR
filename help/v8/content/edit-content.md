@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 39%
+ht-degree: 52%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definir o conteúdo do email"
->abstract="A variável **Editar conteúdo** permite definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto, executar ações adicionais, como adicionar anexos ou ofertas, e acessar o Designer de email para dar à mensagem uma aparência elegante."
+>abstract="A tela **Editar conteúdo** permite definir os elementos básicos da mensagem, como o endereço do remetente e a linha de assunto, executar ações adicionais, como adicionar anexos ou ofertas, e acessar o Designer de email para deixar a mensagem com uma aparência elegante."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Definir as propriedades do email"
->abstract="A variável **Detalhes básicos** permite atualizar o endereço do remetente e o endereço de resposta e definir a linha de assunto usando o Editor de expressão."
+>abstract="A seção **Detalhes básicos** permite atualizar o endereço do remetente e o endereço de resposta, bem como definir a linha de assunto, usando o Editor de expressões."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Anexar arquivos ao seu email"
+>title="Anexar arquivos a um email"
 >abstract="Selecione um ou vários arquivos para inserir na mensagem. Para evitar problemas de desempenho, é recomendável não incluir mais de um anexo por email."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Editar rastreamento"
+>title="Rastreamento de edições"
 >abstract="Por padrão, o rastreamento é ativado para o delivery, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desativar esta opção aqui."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Adicionar links e rastrear mensagens"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=pt-BR" text="Adicionar links e rastrear mensagens"
 
 O email **[!UICONTROL Editar conteúdo]** permite:
 * Definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto

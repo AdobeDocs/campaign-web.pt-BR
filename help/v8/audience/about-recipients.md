@@ -1,16 +1,16 @@
 ---
-title: Trabalhar com recipients e públicos
+title: Trabalhar com destinatários e públicos-alvo
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
 
-# Trabalhar com recipients e públicos {#about-recipients}
+# Trabalhar com destinatários e públicos-alvo {#about-recipients}
 
 No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Esta coleção de pessoas pode ser gerada, selecionada ou carregada [conforme detalhado abaixo](#audiences). Na maioria dos casos comuns, o público-alvo é composto de perfis, que são armazenados como [recipients](#recipients) no Adobe Campaign. Também é possível trabalhar com outros target mappings alterando a dimensão conforme explicado [nesta seção](#targeting-dimensions).
 
@@ -45,7 +45,7 @@ Você também pode acessar recipients do **Explorer** exibir, procurar e criar p
 
 >[!NOTE]
 >
->Dependendo das suas permissões, talvez você não tenha acesso à lista completa de recipients armazenados no banco de dados. Saiba mais sobre permissões no [nesta seção](../get-started/permissions.md).
+>Dependendo das suas permissões, talvez você não tenha acesso à lista completa de recipients armazenados no banco de dados. Saiba mais sobre permissões [nesta seção](../get-started/permissions.md).
 
 Além disso, é possível gerenciar a subscrição e unsubscription de recipients para serviços como boletins informativos. [Saiba como trabalhar com serviços de assinatura](manage-services.md)
 

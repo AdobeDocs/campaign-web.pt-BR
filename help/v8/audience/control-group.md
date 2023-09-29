@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 42%
+ht-degree: 45%
 
 ---
 
@@ -40,7 +40,7 @@ Para adicionar um grupo de controle a um delivery, ative a variável **[!UICONTR
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Modo de extração"
->abstract="Um grupo de controle é um conjunto de perfis excluídos do delivery. Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo."
+>abstract="Um grupo de controle é um conjunto de perfis excluídos da entrega. Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo."
 
 
 ### Criar um grupo de controle {#build-extract-target}
@@ -104,7 +104,7 @@ Para obter mais informações sobre logs de entrega, consulte esta [seção](../
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="População extra"
->abstract="Um grupo de controle é um conjunto de perfis excluídos do delivery. Você pode excluir uma população específica do público-alvo da entrega selecionando um público-alvo já existente ou definindo uma consulta."
+>abstract="Um grupo de controle é um conjunto de perfis excluídos da entrega. É possível excluir uma população específica do público-alvo da entrega selecionando um público-alvo já existente ou definindo uma consulta."
 
 Outra maneira de definir um grupo de controle é selecionar uma população específica em um público-alvo existente ou definir um query.
 

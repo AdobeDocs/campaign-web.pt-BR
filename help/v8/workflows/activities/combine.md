@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 85%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
->title="Combinar atividade"
->abstract="A variável **Combinar** A atividade de permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets."
+>title="Atividade de combinar"
+>abstract="A atividade **Combinar** permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir uma parte delas ou manter apenas dados comuns a vários públicos-alvo."
 
 
 A variável **Combinar** a atividade é um **Direcionamento** atividade. Essa atividade permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários públicos-alvo. Estes são os tipos de segmentação disponíveis:
@@ -43,8 +43,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
->title="Selecionar o tipo de segmentação"
->abstract="Selecione como combinar públicos: união, interseção ou exclusão."
+>title="Selecione o tipo de segmentação"
+>abstract="Selecione como combinar públicos-alvo: união, intersecção ou exclusão."
 
 Siga estas etapas comuns para começar a configurar a atividade **Combinar**:
 
@@ -89,7 +89,7 @@ No **Combinar** atividade, você pode configurar um **Interseção**. Para isso,
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
->title="Selecionar conjuntos para combinar"
+>title="Selecionar conjuntos a serem combinados"
 >abstract="Na seção **Conjuntos para unir**, selecione o **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal."
 
 >[!CONTEXTUALHELP]

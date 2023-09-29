@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
->title="Alterar atividade da dimensão"
+>title="Atividade Mudar dimensão"
 >abstract="Essa atividade permite alterar o targeting dimension à medida que você constrói um público-alvo. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada. Por exemplo, você pode alternar da dimensão &quot;contratos&quot; para a dimensão &quot;clientes&quot;."
 
 A variável **Alterar dimensão** a atividade é um **Direcionamento** atividade. Essa atividade permite alterar o targeting dimension à medida que você constrói seu fluxo de trabalho. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)

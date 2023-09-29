@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 66%
+ht-degree: 80%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 66%
 >title="Transições de atividade de bifurcação"
 >abstract="Por padrão, duas transições são criadas com um **Bifurcar** atividade. Clique em **Adicionar transição** para definir uma transição de saída adicional e insira seu rótulo."
 
-A variável **Bifurcar** a atividade é um **Controle de fluxo** atividade. Ele permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
+A atividade **Bifurcação** é uma atividade de **Controle de fluxo**. Ela permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
 
 ## Configurar a atividade de bifurcação{#fork-configuration}
 

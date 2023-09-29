@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 83%
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Essa atividade só acionará a transição de saída depois que todas as transi�
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="Configure a atividade AND-join"
->abstract="Selecione em quais atividades você deseja participar. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter."
+>abstract="Selecione de quais atividades deseja juntar. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter."
 
 Siga estas etapas para configurar a atividade **AND-join**:
 

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 67%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="IA generativa para conteúdo de email"
->abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email."
+>abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado e altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email."
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
@@ -32,7 +32,7 @@ Com base em uma configuração [modelo de design](../content/email-sample-templa
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Definir suas propriedades de email"
+>title="Defina as propriedades do email"
 >abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. As configurações adicionais são opcionais. Se a entrega for baseada em um schema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
 
 Você pode criar um delivery de email independente ou criar um email no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de email independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
@@ -72,9 +72,9 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Selecionar um público-alvo para a entrega"
->abstract="Selecione o melhor público para a sua mensagem de marketing. Você pode escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou no Adobe Experience Platform), criar um novo público-alvo usando o construtor de regras ou fazer upload de um arquivo contendo seu público-alvo. Os grupos de controle não estão habilitados para o **Selecionar do arquivo** e vice-versa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Selecionar os públicos principais"
+>title="Selecione um público-alvo para a entrega"
+>abstract="Selecione o melhor público para a sua mensagem de marketing. É possível escolher um público-alvo já existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o construtor de regras, ou fazer upload de um arquivo contendo um. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecione os públicos-alvo principais"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Configurar um grupo de controle"
 
 Nesse caso de uso, você enviará o email para um público existente.

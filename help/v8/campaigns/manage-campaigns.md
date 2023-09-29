@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 72%
+ht-degree: 76%
 
 ---
 
@@ -42,8 +42,8 @@ Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de fi
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
->title="Lista de deliveries na campanha"
->abstract="A guia **Entregas** lista todas as entregas vinculadas à campanha atual. Clique no nome de um delivery para editá-lo. Use o botão Create delivery para adicionar um novo delivery para esta campanha."
+>title="Lista de entregas na campanha"
+>abstract="A guia **Entregas** lista todas as entregas vinculadas à campanha atual. Clique no nome de uma entrega para editar. Use o botão Criar entrega para adicionar uma nova entrega a esta campanha."
 
 Na guia **Procurar** da lista de campanhas, clique em uma campanha para exibir seus detalhes.
 

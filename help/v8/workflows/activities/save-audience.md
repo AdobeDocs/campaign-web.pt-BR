@@ -11,7 +11,7 @@ ht-degree: 8%
 ---
 
 
-# Salvar público {#save-audience}
+# Salvar público-alvo {#save-audience}
 
 <!--
 >[!CONTEXTUALHELP]

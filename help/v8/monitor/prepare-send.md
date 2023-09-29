@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 45%
+ht-degree: 49%
 
 ---
 
@@ -119,34 +119,34 @@ Se o delivery estiver agendado ou não, duas ações podem ser executadas a qual
 >id="acw_deliveries_email_metrics_delivered"
 >title="Entregue"
 >abstract="O número de mensagens entregues com sucesso. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida se baseia no número total de mensagens enviadas."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Entender KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=pt-BR" text="Entenda os KPIs"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Aberturas"
 >abstract="O número de mensagens abertas. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de aberturas distintas em comparação com o número de mensagens entregues."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Entender KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=pt-BR" text="Entenda os KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Cliques"
 >abstract="O número de recipients que clicaram pelo menos uma vez no email. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de cliques distintos em comparação com o número de mensagens entregues."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Entender KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=pt-BR" text="Entenda os KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Métricas enviadas"
 >abstract="Número total de mensagens processadas durante a análise de delivery."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Entender KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=pt-BR" text="Entenda os KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Métricas de erros"
 >abstract="Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Entender KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=pt-BR" text="Entenda os KPIs"
 
 
 Quando o envio estiver concluído, você poderá verificar os KPIs exibidos:

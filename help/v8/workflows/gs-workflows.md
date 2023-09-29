@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Mais atividades de fluxo de trabalho de campanha"
->abstract="Descubra novas possibilidades de automação e otimização, permitindo que você crie jornadas do cliente mais dinâmicas e personalizadas. Desde a segmentação avançada até acionadores condicionais, nossas atividades adicionais de fluxo de trabalho capacitam você a fornecer mensagens direcionadas e a impulsionar um melhor desempenho da campanha."
+>abstract="Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha."
 
 ## O que é um fluxo de trabalho?
 
@@ -28,7 +28,7 @@ Uma das vantagens mais importantes do uso de workflows é a facilidade para se f
 
 ## Uso prático dos workflows
 
-Os workflows são incrivelmente versáteis e podem ser usados em vários contextos, incluindo o direcionamento para gerenciar públicos ou enviar mensagens, a gestão de dados (ETL) para manipular dados e importá-los para o banco de dados do Adobe Campaign.
+Os workflows são incrivelmente versáteis e podem ser usados em vários contextos, incluindo o direcionamento para gerenciar públicos-alvos ou enviar mensagens, a gestão de dados (ETL) para manipular dados e importá-los para o banco de dados do Adobe Campaign.
 
 Com o ambiente gráfico abrangente do Adobe Campaign, é possível criar processos, como segmentação, execução de campanha e processamento de arquivos. Os workflows também podem envolver usuários, atribuindo a eles tarefas ou fazendo com que aprovem tarefas realizadas, facilitando o gerenciamento do trabalho da equipe e garantindo que tudo seja feito corretamente.
 

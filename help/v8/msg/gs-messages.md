@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
 workflow-type: tm+mt
 source-wordcount: '1289'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="Uma entrega é uma comunicação enviada a um público-alvo em um canal específico: email, SMS ou Push. Nesta tela, você pode editar, duplicar e excluir deliveries existentes. Você também pode exibir relatórios de deliveries concluídos. Clique em **Criar entrega** para adicionar um novo delivery."
+>abstract="Uma entrega é uma comunicação enviada para um público-alvo em um canal específico: email, SMS ou notificação por push. Nesta tela, você pode editar, duplicar e excluir as entregas existentes. Também é possível exibir relatórios de entregas concluídas. Clique no botão **Criar entrega** para adicionar uma nova entrega."
 
 Com o Adobe Campaign, e possível enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados.
 
-Essas mensagens são projetadas e enviadas através de entregas, além disso podem ser personalizadas para cada destinatário. Esses deliveries podem ser independentes ou incluídos em workflows no contexto de uma campanha de marketing.
+Essas mensagens são criadas e enviadas através de entregas e podem ser personalizadas para cada destinatário. Essas entregas podem ser independentes ou incluídas em fluxos de trabalho no contexto de uma campanha de marketing.
 
 O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS e aplicativos móveis.
 
@@ -58,7 +58,7 @@ O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS e aplicat
 
 ## Criação de uma entrega {#create-delivery}
 
-Você pode criar deliveries independentes a partir do **[!UICONTROL Entregas]** ou crie deliveries no contexto de um workflow, incluído ou não em uma campanha.
+Você pode criar entregas independentes a partir do menu **[!UICONTROL Entregas]** à esquerda ou criar entregas no contexto de um fluxo de trabalho, incluído ou não em uma campanha.
 
 Navegue pelas guias abaixo para saber como criar uma entrega:
 
@@ -80,18 +80,18 @@ Para criar uma entrega independente, siga estas etapas:
 
 1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. Saiba mais sobre públicos-alvo [nesta seção](../audience/about-recipients.md).
 1. Definir o conteúdo da mensagem.
-1. (opcional) Definir o delivery [programação](#gs-schedule). Se nenhuma programação for definida, as mensagens serão enviadas imediatamente após clicar no botão **[!UICONTROL Enviar]**.
+1. (opcional) Defina a [programação](#gs-schedule) da entrega. Se nenhuma programação for definida, as mensagens serão enviadas imediatamente após clicar no botão **[!UICONTROL Enviar]**.
 1. Clique no botão  **[!UICONTROL Revisar e enviar]** para verificar suas configurações.
 1. Use o botão **[!UICONTROL Simular conteúdo]** para testar a entrega e as configurações de personalização. Saiba mais simulação de mensagens [nesta seção](../preview-test/preview-test.md).
 1. Clique no botão **[!UICONTROL Preparar]** para calcular o público-alvo e gerar as mensagens. A etapa de preparação pode levar alguns minutos. Quando a preparação estiver concluída, as mensagens estarão prontas para envio. Em caso de erro, navegue até os **Logs** para verificar os alertas e avisos.
 1. Verifique os resultados e clique no botão **[!UICONTROL Enviar]** para iniciar o envio das mensagens.
 1. Depois que as mensagens forem enviadas, navegue até a seção **Relatórios** para acessar as métricas principais. Saiba mais sobre relatórios de entrega [nesta seção](../reporting/delivery-reports.md).
 
->[!TAB Criar um delivery em um workflow]
+>[!TAB Criação de uma entrega em um fluxo de trabalho]
 
-Para criar um delivery em um workflow, siga estas etapas:
+Para criar uma entrega em um fluxo de trabalho, siga estas etapas:
 
-1. Crie um workflow ou abra um já existente. Saiba mais sobre fluxos de trabalho no [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Crie um fluxo de trabalho ou abra um já existente. Saiba mais sobre fluxos de trabalho [nesta página](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Adicione e configure uma atividade **[!UICONTROL Criar público-alvo]** e clique no botão `+`.
 
    ![](assets/add-delivery-in-wf.png)
@@ -140,22 +140,22 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 Depois que o conteúdo da mensagem for definido, você poderá visualizá-lo para controlar a renderização das mensagens e verificar as configurações de personalização com perfis de teste. [Saiba mais](../preview-test/preview-test.md)
 
-## Agendar o envio do delivery {#gs-schedule}
+## Agendar o envio da entrega {#gs-schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Definir uma data e hora de contato"
->abstract="Defina a data e a hora exata para enviar o delivery. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
+>abstract="Defina a data e a hora exata do envio da sua entrega. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura."
 
 Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher o horário mais apropriado para sua mensagem de marketing, você pode maximizar as taxas de abertura.
 
-Para agendar o envio de um delivery, abra o delivery e navegue até o **[!UICONTROL Agendar]** seção. Use o **[!UICONTROL Ativar agendamento]** para ativá-la, e defina a data e a hora desejadas para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
+Para agendar o envio de uma entrega, abra a entrega e navegue até a seção **[!UICONTROL Agendar]**. Use o botão de alternância **[!UICONTROL Habilitar agendamento]** para ativá-lo e defina a data e a hora desejada para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
 
 ![](assets/schedule.png)
 
-Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Essa opção exige que você confirme o envio antes que o delivery seja enviado na data e hora programadas. Se você precisar enviar o delivery automaticamente na data e hora agendadas, desabilite essa opção.
+Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Essa opção exige que você confirme o envio antes que a entrega seja enviada na data e hora programadas. Se precisar enviar a entrega automaticamente na data e hora programadas, desabilite essa opção.
 
-Saiba mais sobre as etapas para enviar um delivery agendado no [nesta seção](../monitor/prepare-send.md#schedule-the-send).
+Saiba mais sobre as etapas para enviar uma entrega programada [nesta seção](../monitor/prepare-send.md#schedule-the-send).
 
 ## Logs de rastreamento e monitoramento {#gs-tracking-logs}
 

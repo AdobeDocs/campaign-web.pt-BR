@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="Criar e gerenciar seus serviços"
->abstract="Use o Adobe Campaign para criar e monitorar seus serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços. As assinaturas se aplicam somente ao email e à entrega de SMS."
+>title="Crie e gerencie os seus serviços"
+>abstract="Use o Adobe Campaign para criar e monitorar seus serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços. As assinaturas aplicam-se somente a entregas por email e SMS."
 
 Use a Web do Adobe Campaign para gerenciar e criar serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços.
 
 >[!NOTE]
 >
->As assinaturas se aplicam somente ao email e à entrega de SMS.
+>As assinaturas aplicam-se somente a entregas por email e SMS.
 
 Vários serviços podem ser definidos em paralelo, por exemplo: boletins informativos para categorias de produtos específicas, temas ou áreas de um site, assinaturas para vários tipos de mensagens de alerta e notificações em tempo real.
 

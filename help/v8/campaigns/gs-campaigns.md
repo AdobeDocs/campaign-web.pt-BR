@@ -7,7 +7,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campanhas"
->abstract="Navegue pela lista de campanhas. Selecione uma campanha para exibir seu conteúdo, entregas e detalhes. Você pode filtrar por status, datas de início/término ou com regras personalizadas. Você também pode exibir relatórios de campanhas concluídas. Clique em **Criar campanha** botão para adicionar uma nova campanha. Navegue até o **Modelos** para exibir e criar modelos."
+>abstract="Navegue pela lista de campanhas. Selecione uma campanha para exibir seu conteúdo, entregas e detalhes. Você pode filtrar por status, datas de início/término ou com regras personalizadas. Você também pode exibir relatórios de campanhas concluídas. Clique no botão **Criar campanha** para adicionar uma nova campanha. Navegue até a guia **Modelos** para exibir e criar modelos."
 
 
 O Adobe Campaign permite orquestrar facilmente suas iniciativas de marketing direcionadas, usando o recurso integrado de gerenciamento de campanhas. Com a capacidade de definir um cronograma, é possível planejar a duração e o tempo de suas campanhas para se alinharem aos objetivos estratégicos e maximizar o engajamento do público-alvo.

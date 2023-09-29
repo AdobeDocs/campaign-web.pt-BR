@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 59%
+ht-degree: 65%
 
 ---
 
@@ -42,25 +42,25 @@ Comece a criar seu workflow com as atividades relevantes antes de fazer o delive
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Atividade de email"
->abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>abstract="Automatize e execute campanhas de marketing pelos canais de email, SMS e notificações por push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Atividade de SMS"
->abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>abstract="Automatize e execute campanhas de marketing pelos canais de email, SMS e notificações por push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Atividade push do iOS"
->abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>abstract="Automatize e execute campanhas de marketing pelos canais de email, SMS e notificações por push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Atividade push do Android"
->abstract="Automatize e execute campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>abstract="Automatize e execute campanhas de marketing pelos canais de email, SMS e notificações por push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 

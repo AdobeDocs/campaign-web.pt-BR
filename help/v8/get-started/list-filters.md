@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Por exemplo, você pode filtrar as entregas por seu status, canal, data de conta
 
 ## Filtros personalizados{#list-custom-filters}
 
-Para criar filtros personalizados nos dados, navegue até a parte inferior dos filtros e clique no **Adicionar regras** botão para acessar o construtor de regras.
+Para criar filtros personalizados de dados, navegue até a parte inferior dos filtros e clique em **Adicionar regras** para acessar o criador de regras.
 
 Arraste e solte atributos para criar seus critérios de filtro na tela **Filtros avançados**.
 
@@ -59,7 +59,7 @@ Arraste e solte atributos para criar seus critérios de filtro na tela **Filtros
 
 Use o botão **Exibir atributos avançados** para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
 
-O princípio operacional do construtor de regras para filtros personalizados é semelhante ao construtor de regras usado para criar públicos. Informações detalhadas sobre como usá-lo estão disponíveis no [Documentação de públicos](../audience/segment-builder.md).
+O princípio operacional do criador de regras para filtros personalizados é semelhante ao usado para criar públicos-alvo. Informações detalhadas sobre como usá-lo estão disponíveis na [documentação de públicos-alvo](../audience/segment-builder.md).
 
 ## Usar atributos avançados {#adv-attributes}
 

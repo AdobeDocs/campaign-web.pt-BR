@@ -9,7 +9,7 @@ badge: label="Beta"
 source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -46,7 +46,7 @@ Você pode usar filtros incorporados existentes para acessar um subconjunto espe
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Criar as regras de filtro predefinidas"
->abstract="Para definir as condições de filtragem do filtro personalizado, clique no botão &quot;Criar regra&quot;."
+>abstract="Para definir as condições de filtragem do filtro personalizado, clique no botão “Criar regra”."
 
 ### Criar um filtro no construtor de regras {#create-from-rule-builder}
 

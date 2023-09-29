@@ -7,7 +7,7 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Propriedades do fluxo de trabalho"
->abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a seção OPTIONS ADICIONAIS para definir mais configurações, como o nome interno do workflow, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor para que os operadores sejam alertados se ocorrer um erro."
+>abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a seção OPÇÕES ADICIONAIS para definir mais configurações, como o nome interno do fluxo de trabalho, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor, para que, se ocorrer um erro, os(as) operadores(as) sejam alertados(as)."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de fluxos de trabalho na campanha"
->abstract="A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha atual. Clique no nome de um workflow para editá-lo. Use o **Criar fluxo de trabalho** botão para adicionar um novo workflow a esta campanha."
+>abstract="A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha atual. Clique no nome de um fluxo de trabalho para editar. Use o **Criar fluxo de trabalho** botão para adicionar um novo workflow a esta campanha."
 
 
 Você pode criar workflows independentes ou dentro de uma campanha. A primeira etapa é selecionar um template e definir suas propriedades gerais. Em seguida, você pode definir configurações adicionais, conforme necessário.
@@ -56,9 +56,9 @@ Seu workflow agora é criado e está disponível na lista de workflows. Agora é
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
 >title="Templates de workflow"
->abstract="Os templates de workflow contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos workflows."
+>abstract="Os modelos de fluxo de trabalho contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos fluxos de trabalho."
 
-Os templates de workflow contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos workflows. É possível selecionar o template do workflow nas propriedades do workflow, ao criar um workflow. Um template vazio é fornecido por padrão.
+Os modelos de fluxo de trabalho contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos fluxos de trabalho. É possível selecionar o template do workflow nas propriedades do workflow, ao criar um workflow. Um template vazio é fornecido por padrão.
 
 Você pode criar um modelo a partir de um fluxo de trabalho existente ou criar um novo modelo do zero. Ambos os métodos são detalhados abaixo.
 

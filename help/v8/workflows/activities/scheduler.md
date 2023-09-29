@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 15%
+ht-degree: 28%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Atividade Scheduler"
->abstract="A variável **Scheduler** A atividade permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow."
+>title="Scheduler  enriquecimento"
+>abstract="A variável **Scheduler** A atividade permite programar quando o workflow será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
 
 
-A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele permite programar quando o workflow será iniciado. Essa atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do workflow.
+A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho.
 
 ## Práticas recomendadas{#scheduler-best-practices}
 
@@ -32,8 +32,8 @@ A variável **Scheduler** a atividade é um **Controle de fluxo** atividade. Ele
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
->title="Validade do agendador"
->abstract="Você pode definir um período de validade para o scheduler. Pode ser permanente (padrão) ou pode ser válido até uma data específica."
+>title="Validade do Scheduler"
+>abstract="É possível definir um período de validade para o Scheduler. Pode ser permanente (padrão) ou pode ser válido até uma data específica."
 
 
 >[!CONTEXTUALHELP]

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Gerenciamento de permissões na Web do Campaign
-description: Saiba mais sobre permissões no Campaign web v8
+title: Gerenciamento de permissões no Campaign Web
+description: Saiba mais sobre permissões no Campaign Web v8
 badge: label="Beta"
 source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -52,20 +52,20 @@ ht-degree: 24%
 >title="Este workflow é de somente leitura"
 >abstract="Não é possível editar esse workflow devido a uma tela incompatível."
 
-O controle de acesso pode restringir o acesso a objetos e dados de listas principais, como deliveries, recipients ou workflows. Estas restrições aplicam-se igualmente no **Explorer** árvore de navegação. Além disso, você precisa de permissões para criar, excluir, duplicar e editar objetos na interface do usuário.
+O controle de acesso pode restringir o acesso a objetos e dados de listas principais, como entregas, destinatários ou fluxos de trabalho. Estas restrições aplicam-se também à árvore de navegação do **Explorer**. Além disso, você precisa de permissões para criar, excluir, duplicar e editar objetos na interface.
 
-O controle de acesso é gerenciado no Console do cliente do Campaign. Todas as permissões na Web do Campaign são sincronizadas com as permissões do Console do cliente do Campaign. Somente administradores do Campaign podem definir e modificar permissões de usuário. Saiba mais sobre permissões de usuário no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+O controle de acesso é gerenciado no console do cliente do Campaign. Todas as permissões no Campaign Web são sincronizadas com as permissões do console do cliente do Campaign. Somente admins do Campaign podem definir e modificar permissões de usuário. Saiba mais sobre permissões de usuário na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=pt-BR){target="_blank"}.
 
-Ao navegar pela interface do usuário da Web do Campaign, você pode acessar dados, objetos e recursos dependendo das suas permissões. Por exemplo, se você não tiver permissões de acesso a uma pasta, não poderá vê-la. Suas permissões também afetam objetos e o gerenciamento de dados. Sem permissões de Gravação para uma pasta específica, não é possível criar um delivery nessa pasta, mesmo que você possa vê-lo na interface do usuário.
+Ao navegar pela interface do Campaign Web, você pode acessar dados, objetos e recursos, dependendo das suas permissões. Por exemplo, caso não possua permissões de acesso a uma pasta, você não poderá vê-la. Suas permissões também afetam objetos e o gerenciamento de dados. Sem permissões de gravação para uma pasta específica, não é possível criar uma entrega nessa pasta, mesmo que você possa vê-la na interface.
 
 ## Exibir permissões {#view-permissions}
 
-No **Explorer**, você pode procurar permissões para cada pasta. Essas permissões são definidas no console do cliente e usadas para organizar e controlar o acesso aos dados do Campaign.
+No **Explorer**, você pode procurar as permissões para cada pasta. Essas permissões são definidas no console do cliente e usadas para organizar e controlar o acesso aos dados do Campaign.
 
-Para exibir permissões de uma pasta, siga estas etapas:
+Para exibir as permissões de uma pasta, siga estas etapas:
 
-1. No **Explorer** selecione uma pasta no menu de navegação esquerdo.
-1. Clique nos três pontos no canto superior direito e selecione **Permissões de pasta**.
+1. No menu de navegação esquerdo do **Explorer**, selecione uma pasta.
+1. Clique nos três pontos no canto superior direito e selecione **Permissões da pasta**.
 
    ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
 
@@ -73,18 +73,18 @@ Para exibir permissões de uma pasta, siga estas etapas:
 
    ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
 
-   Um grupo ou operador pode ter permissões de Leitura, Gravação e/ou Exclusão nos dados armazenados na pasta selecionada.
+   Um grupo ou operador(a) pode ter permissões de Leitura, Gravação e/ou Exclusão para dados armazenados na pasta selecionada.
 
-   Se a variável **Propagar** estiver ativada, todas as permissões definidas para uma pasta serão aplicadas a todas as suas subpastas. Essas permissões podem ser sobrecarregadas para cada subpasta.
+   Se a opção **Propagar** estiver habilitada, todas as permissões definidas para uma pasta serão aplicadas às suas subpastas. Essas permissões podem ser sobrecarregadas para cada subpasta.
 
-   Se a variável **Pasta do sistema** estiver ativada, o acesso será permitido a todos os operadores, independentemente das permissões.
+   Se a opção **Pasta do sistema** estiver habilitada, o acesso será permitido a todos os operadores, independentemente das permissões.
 
-Saiba mais sobre permissões de pasta em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
+Saiba mais sobre permissões de pasta na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html?lang=pt-BR){target="_blank"}.
 
 
 ## Trabalhar com pastas {#folders}
 
-Você pode criar, renomear, reordenar e mover pastas para organizar seus componentes e dados. Também é possível excluir pastas do mesmo menu.
+Você pode criar, renomear, reordenar e mover pastas para organizar seus componentes e dados. Também é possível excluir pastas no mesmo menu.
 
 >[!CAUTION]
 >
@@ -92,13 +92,13 @@ Você pode criar, renomear, reordenar e mover pastas para organizar seus compone
 
 Para criar uma pasta, siga estas etapas:
 
-1. No **Explorer** selecione uma pasta no menu de navegação esquerdo.
+1. No menu de navegação esquerdo do **Explorer**, selecione uma pasta.
 1. Clique nos três pontos no canto superior direito e escolha **Criar nova subpasta**.
 1. Insira o nome da pasta e salve.
 
    ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
 
-   A pasta é adicionada como uma subpasta da pasta atual. Navegue até essa nova pasta para criar componentes diretamente nela. Você também pode criar um componente de qualquer pasta e salvá-lo nessa nova pasta, na **Opções adicionais** das propriedades, conforme mostrado abaixo para um delivery:
+   A pasta é adicionada como uma subpasta da pasta atual. Navegue até essa nova pasta para criar componentes diretamente a partir dela. Você também pode criar um componente a partir de qualquer pasta e salvá-lo nessa nova pasta, por meio da seção **Opções adicionais** das propriedades, conforme o exemplo de entrega abaixo:
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
 
