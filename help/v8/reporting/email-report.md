@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2257'
 ht-degree: 29%
 
 ---
@@ -202,10 +202,6 @@ As métricas disponíveis são as mesmas que para o [Detalhamento por tipo de er
 >title="Rastreamento de relatórios"
 >abstract="A variável **Rastreamento** A guia no relatório oferece dados valiosos, incluindo o comportamento do recipient por link, o detalhamento de aberturas e cliques, bem como informações detalhadas sobre os URLs clicados com mais frequência durante um delivery."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Widget de taxa de abertura e click-through"
->abstract="A variável **Índice de click-through e aberturas** A tabela exibe dados relativos ao envolvimento dos recipients com a entrega."
 
 ### Estatísticas de entrega  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ A variável **[!UICONTROL Estatísticas de entrega]** O relatório do fornece in
 
 ### Índice de abertura e click-through {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget de taxa de abertura e click-through"
+>abstract="A variável **Índice de click-through e aberturas** A tabela exibe dados relativos ao envolvimento dos recipients com a entrega."
+
+
+
 A variável **[!UICONTROL Índice de click-through e aberturas]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ A variável **[!UICONTROL Índice de click-through e aberturas]** A tabela exibe
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="Widget de fluxos de clique e URLs"
+>title="Fluxos de clique e URLs"
 >abstract="A variável **Fluxos de clique e URLs** O relatório de fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery."
 
-* A variável **[!UICONTROL Fluxos de clique e URLs]** O relatório de fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery.
 
-  ![](assets/reporting_email_7.png){align="center"}
+A variável **[!UICONTROL Fluxos de clique e URLs]** O relatório de fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery.
 
-  +++Saiba mais sobre Métricas de relatório de delivery de email.
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
++++Saiba mais sobre Métricas de relatório de delivery de email.
 
-   * **[!UICONTROL Cliques distintos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
+* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
 
-   * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
+* **[!UICONTROL Cliques distintos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
-   * **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para deliveries enviados nos seis meses anteriores. Somente os deliveries com a mesma tipologia e no mesmo canal são considerados. Provas são excluídas.
+* **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
 
-+++
-
-* **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++Saiba mais sobre Métricas de relatório de delivery de email.
-
-   * **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
-
-   * **[!UICONTROL Porcentagem]**: Porcentagem de usuários que interagiram com o delivery.
+* **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para deliveries enviados nos seis meses anteriores. Somente os deliveries com a mesma tipologia e no mesmo canal são considerados. Provas são excluídas.
 
 +++
 
-* **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.
+### Os 10 links mais visitados {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="Os 10 links mais visitados"
+>abstract="A variável **Os 10 links mais visitados** gráfico e tabela contêm os dados disponíveis para o comportamento do recipient por link."
+
+
+A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++Saiba mais sobre Métricas de relatório de delivery de email.
+
+* **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
+
+* **[!UICONTROL Porcentagem]**: Porcentagem de usuários que interagiram com o delivery.
+
++++
+
+### Detalhamento de cliques ao longo do tempo {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Detalhamento de cliques ao longo do tempo"
+>abstract="A variável **Detalhamento dos cliques ao longo do tempo** o gráfico mostra os dados disponíveis para o comportamento do recipient por link."
+
+
+A variável **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## Atividades do usuário {#user-activities-email}
 
@@ -332,7 +354,6 @@ A variável **[!UICONTROL Estatísticas de rastreamento]** O gráfico fornece es
 +++
 
 ## Detalhamento de aberturas {#breakdown-opens}
-
 
 ### Detalhamento de aberturas por dispositivo {#breakdown-opens-devices}
 
