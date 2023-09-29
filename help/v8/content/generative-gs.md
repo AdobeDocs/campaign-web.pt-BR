@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução ao Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 13%
+source-wordcount: '402'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 13%
 >id="acw_generation_settings"
 >title="Assistente de conteúdo"
 >abstract="Depois de criar e personalizar a entrega, você pode usar o Assistente de conteúdo para aprimorar o conteúdo. Esse recurso simplifica o processo de personalização e aprimoramento de conteúdo, permitindo ajustar o conteúdo, descrevendo o que deseja gerar."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="Definir contexto para geração de conteúdo"
+>abstract="Para usar o conteúdo selecionado como uma entrada para a geração de conteúdo, ative o **Aprimorar com conteúdo atual** alternar. Você também pode fazer upload dos ativos da sua marca para usá-los como uma fonte. Se você não usar o conteúdo selecionado, o upload e a seleção de ativos de uma marca serão obrigatórios."
 
 O Assistente de conteúdo, viabilizado pela IA gerativa, é uma ferramenta valiosa para melhorar o conteúdo de emails. Ele simplifica a personalização e o aprimoramento de conteúdo, otimizando suas entregas de email para melhor repercutir com seu público.
 
