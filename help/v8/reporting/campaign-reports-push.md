@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de campanha para o canal push
 description: Entender os relatórios de campanha do canal push
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 12%
@@ -23,6 +23,9 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >abstract="A variável **Visão geral da entrega** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de notificação por push."
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de notificação por push. As métricas estão detalhadas abaixo.
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
@@ -46,6 +49,9 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
 * **[!UICONTROL Público inicial]**: Número total de recipients alvos.
@@ -64,6 +70,9 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 >abstract="A variável **Estatísticas de execução** a tabela detalha o sucesso do delivery: mensagens a serem entregues, sucesso, erros e novas quarentenas."
 
 A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery. As métricas estão detalhadas abaixo.
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
@@ -85,6 +94,8 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 >abstract="A variável **Fluxos de clique gerados** A tabela mostra os dados disponíveis relativos a como seus recipients interagiram com seu delivery."
 
 A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery. As métricas estão detalhadas abaixo.
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
