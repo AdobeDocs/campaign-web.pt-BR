@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal push
 description: Entender os relatórios de campanha do canal push
 badge: label="Beta"
-source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
+source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 12%
+source-wordcount: '507'
+ht-degree: 9%
 
 ---
 
@@ -35,7 +35,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 * **[!UICONTROL Erros]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Cliques distintos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
+* **[!UICONTROL Total de cliques]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
 +++
 
@@ -82,7 +82,9 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 
 * **[!UICONTROL Erros]**: Número total de erros acumulados durante os deliveries e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Novos em quarentena]**: Número total de endereços colocados em quarentena após um delivery com falha (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Novos em quarentena]**: Número total de endereços colocados em quarentena após um delivery com falha (registro inválido, rejeição de mensagem, erro de carga, por exemplo). em relação ao número de mensagens a serem entregues.
+
+  Os tipos de erro de notificações por push estão listados na variável [Documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -99,9 +101,9 @@ A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relat
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
-* **[!UICONTROL Cliques distintos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
+* **[!UICONTROL Cliques únicos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
+* **[!UICONTROL Total de cliques]**: Número total de cliques nos links nos deliveries.
 
 * **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
 
