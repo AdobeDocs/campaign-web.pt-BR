@@ -4,10 +4,10 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 39%
+source-wordcount: '596'
+ht-degree: 38%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 39%
 >id="acw_audience_fromfile_formatting"
 >title="Parâmetros de formatação"
 >abstract="Verifique os parâmetros de formatação do arquivo."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Pré-visualizar seu arquivo"
+>abstract="Verifique a visualização do arquivo. Essa tela só mostra até 30 registros."
+
+
 
 Não é possível fazer upload de perfis diretamente no Campaign a partir da interface, mas você pode direcionar perfis armazenados em um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).
 
