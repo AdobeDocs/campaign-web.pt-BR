@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução aos relatórios
 description: Saiba como acessar e gerenciar relatórios no Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 44%
 
 ---
 
@@ -16,10 +16,9 @@ Nosso abrangente conjunto de ferramentas de relatórios fornece insights valioso
 
 O Adobe Campaign oferece dois relatórios diferentes:
 
-* **Relatório de entrega**: o **Relatório de entrega** oferece insights abrangentes e dados específicos para cada canal. Ele fornece informações detalhadas sobre o desempenho, a eficácia e os resultados de suas entregas individuais, fornecendo uma visão geral abrangente.
+* **Relatórios de entrega**: A variável **Relatórios de entrega** oferecer insights abrangentes e dados específicos para cada canal. Esses relatórios fornecem informações detalhadas sobre o desempenho, a eficácia e os resultados de seus deliveries individuais, fornecendo uma visão geral abrangente.
 
-* **Relatório de campanha**: o **Relatório de campanha** fornece uma visão geral abrangente da campanha, incorporando todas as informações pertinentes sobre as diferentes entregas incluídas. Este relatório oferece uma análise completa do desempenho de cada entrega, das taxas de sucesso, do engajamento do público-alvo e de outras métricas essenciais, permitindo avaliar a eficácia e o impacto gerais da campanha.
-
+* **Relatórios de campanha**: A variável **Relatórios de campanha** forneça uma visão geral abrangente de sua campanha, incorporando todas as informações pertinentes sobre os diferentes deliveries incluídos. Esses relatórios oferecem uma análise completa do desempenho de cada delivery, por canal: taxas de sucesso, envolvimento do público-alvo e outras métricas essenciais. Eles permitem avaliar a eficácia e o impacto gerais da campanha.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -27,7 +26,7 @@ O Adobe Campaign oferece dois relatórios diferentes:
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Relatório de entrega de emails</strong>
+<div><a href="email-report.md"><strong>Relatórios de entrega de email</strong>
 </div>
 <p>
 </td>
@@ -36,7 +35,7 @@ O Adobe Campaign oferece dois relatórios diferentes:
 <img alt="Pouco frequente" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Relatório entregas por push<strong></strong></a>
+<a href="push-report.md"><strong> Relatórios do delivery por push<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +43,7 @@ O Adobe Campaign oferece dois relatórios diferentes:
 <img alt="Validação" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> Relatório de entrega de SMS</strong></a>
+<a href="sms-report.md"><strong> Relatórios de entrega de SMS</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +52,7 @@ O Adobe Campaign oferece dois relatórios diferentes:
 <img alt="Validação" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Relatório de campanha</strong></a>
+<a href="campaign-reports.md"><strong>Relatórios de campanha</strong></a>
 </div>
 <p>
 </td>
