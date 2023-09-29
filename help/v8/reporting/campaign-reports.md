@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 19%
+source-wordcount: '85'
+ht-degree: 12%
 
 ---
 
@@ -28,10 +28,13 @@ Para acessar os relatórios da campanha, clique no link **Relatórios** no paine
 
 ![](assets/campaign_report_email_13.png)
 
+Como alternativa, você pode usar os três pontos **Mais ações** ao lado do nome da campanha na lista, conforme mostrado abaixo:
 
-O relatório Campanha é dividido em diferentes widgets detalhando o sucesso e os erros da campanha.
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-A página do relatório Campanha será exibida com as seguintes guias:
+O relatório de campanha é dividido em widgets diferentes detalhando o sucesso e os erros da campanha.
+
+A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 
 * [Canal de email](campaign-reports-email.md)
 * [Canal de SMS](campaign-reports-sms.md)
