@@ -2,11 +2,11 @@
 audience: end-user
 title: Introdução ao Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
-badge: label="Beta"
-source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
+badge: label="Alfa"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 11%
+source-wordcount: '379'
+ht-degree: 12%
 
 ---
 
@@ -28,8 +28,12 @@ O Assistente de conteúdo, viabilizado pela IA gerativa, é uma ferramenta valio
 
 Esse recurso economiza tempo e garante qualidade consistente, gerando automaticamente conteúdo completo do email. Com a IA gerativa, você pode criar emails atraentes sem esforço, melhorando a eficácia e a eficiência da sua comunicação.
 
-Você pode usar o Assistente de conteúdo do Campaign em seus emails para: [gerar imagens](generative-image.md), [gerar conteúdo de texto](generative-content.md), [gerar o conteúdo de HTML completo](generative-email.md).
+<!--
+You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
 
+>[!NOTE]
+>
+>Esse recurso está disponível na versão Alpha e está sujeito a alterações sem aviso prévio. Ela será ativada no início de outubro.
 
 ## Medidas de proteção e limitações {#generative-guardrails}
 
@@ -48,31 +52,34 @@ As seguintes limitações se aplicam ao Assistente de conteúdo do Campaign:
 * O conteúdo da GenAI pode nem sempre ser preciso: compartilhe seu feedback para que nossos engenheiros possam refinar os modelos
 * Você pode fazer upload de vários ativos de marca, mas pode aproveitar apenas um para uma geração específica
 
+
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="Geração de texto" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Geração de texto com o Assistente de conteúdo</strong></a>
+<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="Geração de imagem" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Geração de imagens com o Assistente de conteúdo</strong>
+<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="Geração de email" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Geração de email com o Assistente de conteúdo</strong></a>
+<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
 </div>
 <p></td>
 </tr></table>
+-->
 
