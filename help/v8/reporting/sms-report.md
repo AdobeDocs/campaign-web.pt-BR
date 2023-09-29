@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 2%
@@ -13,11 +13,6 @@ ht-degree: 2%
 # Relatórios de entrega de SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Visão geral da entrega de SMS"
->abstract="A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrangente do delivery de SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Envio de relatório"
 >abstract="A variável **Enviando** A guia no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e quaisquer erros em potencial que possam ter encontrado."
@@ -25,6 +20,11 @@ ht-degree: 2%
 A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrangente do delivery de SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery.
 
 ## Resumo da entrega {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="Visão geral da entrega de SMS"
+>abstract="A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrangente do delivery de SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
 
 ### Visão geral da entrega {#sms-delivery-overview}
 

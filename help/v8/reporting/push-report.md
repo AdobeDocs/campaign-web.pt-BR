@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios do delivery por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 3%
@@ -11,11 +11,6 @@ ht-degree: 3%
 ---
 
 # Relatórios do delivery por push {#push-report}
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Resumo do relatório de entrega por push"
->abstract="A variável **Visão geral da entrega por push** O oferece uma visão geral abrangente da entrega por push, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -27,6 +22,11 @@ A variável **Relatório de entrega por push** O fornece uma visão geral comple
 ## Resumo por push {#push-summary}
 
 ### Visão geral da entrega {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Resumo do relatório de entrega por push"
+>abstract="A variável **Visão geral da entrega por push** O oferece uma visão geral abrangente da entrega por push, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com as mensagens de push.
 
@@ -45,7 +45,6 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 +++
 
 ### População direcionada {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
-ht-degree: 29%
+source-wordcount: '2254'
+ht-degree: 30%
 
 ---
 
@@ -19,7 +19,7 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Envio de relatório"
->abstract="he **Enviando** A guia no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e quaisquer erros em potencial que possam ter encontrado."
+>abstract="A variável **Enviando** A guia no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e quaisquer erros em potencial que possam ter encontrado."
 
 ### População do público-alvo inicial  {#email-delivery-targeted-population}
 
@@ -106,7 +106,7 @@ A variável **[!UICONTROL Causas de exclusão]** o gráfico e a tabela mostram o
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Widget de taxa de transferência de entrega"
+>title="Taxa de transferência de delivery"
 >abstract="A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
@@ -118,7 +118,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget de estatísticas de transmissão"
+>title="Estatísticas de transmissão"
 >abstract="A variável **Estatísticas de transmissão** O relatório de contém os dados disponíveis para possíveis erros encontrados com cada domínio."
 
 A variável **[!UICONTROL Estatísticas de transmissão]** A tabela contém os dados disponíveis para possíveis erros encontrados com cada domínio. As métricas estão detalhadas abaixo.
@@ -235,7 +235,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O relatório do fornece in
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widget de taxa de abertura e click-through"
+>title="Índice de abertura e click-through"
 >abstract="A variável **Índice de click-through e aberturas** A tabela exibe dados relativos ao envolvimento dos recipients com a entrega."
 
 
@@ -306,7 +306,7 @@ A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela co
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Detalhamento de cliques ao longo do tempo"
 >abstract="A variável **Detalhamento dos cliques ao longo do tempo** o gráfico mostra os dados disponíveis para o comportamento do recipient por link."
 
