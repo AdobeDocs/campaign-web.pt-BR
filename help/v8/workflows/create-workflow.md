@@ -7,7 +7,7 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de fluxos de trabalho na campanha"
->abstract="A variável **Fluxos de trabalho** A guia lista todos os workflows vinculados à campanha atual. Clique no nome de um fluxo de trabalho para editar. Use o **Criar fluxo de trabalho** botão para adicionar um novo workflow a esta campanha."
+>abstract="A guia **Fluxos de trabalho** lista todos os fluxos de trabalho vinculados à campanha atual. Clique no nome de um fluxo de trabalho para editar. Use o botão **Criar fluxo de trabalho** para adicionar um novo fluxo de trabalho à campanha."
 
 
 Você pode criar workflows independentes ou dentro de uma campanha. A primeira etapa é selecionar um template e definir suas propriedades gerais. Em seguida, você pode definir configurações adicionais, conforme necessário.

@@ -3,20 +3,20 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 02f30090-231f-4880-8cf7-77d57751e824
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
-
 
 # Atividade de  {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"
 >title="Atividade de enriquecimento"
->abstract="A variável **Enriquecimento** A atividade de permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação."
+>abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +27,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer seu fluxo de trabalho. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da target dimension ou um link de coleção, que é um link com uma cardinalidade 1-N entre as tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer seu fluxo de trabalho. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
 
 A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ela permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação.
 

@@ -3,10 +3,11 @@ audience: end-user
 title: Relatórios de entrega de SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 2%
+ht-degree: 24%
 
 ---
 
@@ -14,17 +15,17 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
->title="Envio de relatório"
->abstract="A variável **Enviando** A guia no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e quaisquer erros em potencial que possam ter encontrado."
+>title="Envio de relatórios"
+>abstract="A guia **Envio** no relatório fornece insights aprofundados sobre as interações dos visitantes com as suas entregas e os possíveis erros que possam ter encontrado."
 
-A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrangente do delivery de SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery.
+A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua entrega de SMS, fornecendo insights extensos e dados específicos. Ela fornece informações abrangentes sobre o desempenho, a eficácia e os resultados da sua entrega.
 
 ## Resumo da entrega {#delivery-summary}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Visão geral da entrega de SMS"
->abstract="A variável **Visão geral da entrega de SMS** O oferece uma visão geral abrangente do delivery de SMS, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
+>abstract="A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua entrega de SMS, fornecendo insights extensos e dados específicos. Ela fornece informações abrangentes sobre o desempenho, a eficácia e os resultados da sua entrega."
 
 ### Visão geral da entrega {#sms-delivery-overview}
 
@@ -103,10 +104,9 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Menu de taxa de transferência de entrega"
->abstract="O relatório Delivery throughput apresenta informações detalhadas sobre a taxa de transferência de delivery da plataforma inteira em um período especificado."
+>title="Menu da taxa de transferência de entrega"
+>abstract="O relatório de taxa de transferência de entrega apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
 ![](assets/reporting_sms_2.png)
-

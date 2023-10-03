@@ -3,36 +3,36 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 badge: label="Beta"
-source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
+exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 29%
+ht-degree: 63%
 
 ---
-
 
 # Desduplicação {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Campos para identificar duplicatas"
->abstract="No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro."
+>abstract="Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Atividade de desduplicação"
->abstract="A variável **Desduplicação** A atividade de permite excluir duplicados nos resultados das atividades de entrada. Ele é usado principalmente após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados."
+>abstract="A atividade **Desduplicação** permite excluir duplicatas nos resultados das atividades de entrada. Ela é usada principalmente após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Gerar um complemento"
->abstract="Você pode gerar uma transição de saída adicional com a população restante, que foi excluída como uma duplicata. Para fazer isso, ative a opção **Gerar complemento**"
+>abstract="É possível gerar uma transição de saída adicional com a população restante, que foi excluída como uma duplicata. Para fazer isso, ative a opção **Gerar complemento**"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Configurações de desduplicação"
->abstract="Para excluir duplicatas nos dados recebidos, defina o método de desduplicação nos campos abaixo. Por padrão, somente um registro é mantido. Você também deve selecionar o modo de desduplicação com base em uma expressão ou um atributo. Por padrão, o registro a ser mantido fora das duplicatas é selecionado aleatoriamente."
+>abstract="Para excluir duplicatas nos dados recebidos, defina o método de desduplicação nos campos abaixo. Por padrão, somente um registro é mantido. Também é necessário selecionar o modo de desduplicação com base em uma expressão ou um atributo. Por padrão, o registro a ser mantido fora das duplicatas é selecionado aleatoriamente."
 
 A variável **Desduplicação** a atividade é um **Direcionamento** atividade. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada, por exemplo, perfis duplicados na lista de recipients. A variável **Desduplicação** A atividade é geralmente usada após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados.
 
@@ -44,7 +44,7 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 
 1. Adicionar um **Desduplicação** atividade ao seu fluxo de trabalho.
 
-1. No **Campos para identificar duplicatas** clique na guia **Adicionar atributo** botão para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que serão processados primeiro.
+1. Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
 
 1. Selecione o número de **Duplicatas a serem mantidas**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
 

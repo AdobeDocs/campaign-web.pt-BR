@@ -75,7 +75,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 >title="Selecione um público-alvo para a entrega"
 >abstract="Selecione o melhor público para a sua mensagem de marketing. É possível escolher um público-alvo já existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o construtor de regras, ou fazer upload de um arquivo contendo um. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecione os públicos-alvo principais"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Configurar um grupo de controle"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
 
 Nesse caso de uso, você enviará o email para um público existente.
 

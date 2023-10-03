@@ -3,13 +3,13 @@ audience: end-user
 title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 31%
+ht-degree: 34%
 
 ---
-
 
 # Relatórios de campanha para o canal de email {#campaign-reports-email-channel}
 
@@ -47,7 +47,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Estatísticas iniciais do público-alvo"
->abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos recipients"
+>abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos destinatários"
 
 
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
@@ -218,7 +218,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem i
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Índice de abertura e click-through"
->abstract="A variável **Índice de click-through e aberturas** A tabela exibe dados relativos ao envolvimento dos recipients com a entrega."
+>abstract="A tabela **Taxas de abertura e de click-through** exibe dados relativos ao engajamento dos destinatários com a entrega."
 
 
 
@@ -300,7 +300,7 @@ o **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"
 >title="Atividades do usuário"
->abstract="A variável **Atividades do usuário** o gráfico mostra o detalhamento de aberturas e cliques no formulário de um gráfico."
+>abstract="O gráfico **Atividades do usuário** mostra o detalhamento de aberturas e cliques na forma de um gráfico."
 
 A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalhamento de aberturas e cliques no formulário de um gráfico. As métricas para esse relatório são detalhadas abaixo.
 

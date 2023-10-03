@@ -3,20 +3,20 @@ audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
-
 
 # Split {#split}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Split enriquecimento"
->abstract="A variável **Split** A atividade permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população."
+>abstract="A atividade **Divisão** permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população."
 
 
 A atividade de **Divisão** é uma atividade de **Direcionamento** que permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população.

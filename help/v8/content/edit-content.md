@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Definir as propriedades do email"
+>title="Defina as propriedades de email"
 >abstract="A seção **Detalhes básicos** permite atualizar o endereço do remetente e o endereço de resposta, bem como definir a linha de assunto, usando o Editor de expressões."
 
 >[!CONTEXTUALHELP]
@@ -31,7 +31,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Rastreamento de edições"
->abstract="Por padrão, o rastreamento é ativado para o delivery, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desativar esta opção aqui."
+>abstract="Por padrão, o rastreamento é habilitado para a entrega, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desativar esta opção aqui."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=pt-BR" text="Adicionar links e rastrear mensagens"
 
 O email **[!UICONTROL Editar conteúdo]** permite:

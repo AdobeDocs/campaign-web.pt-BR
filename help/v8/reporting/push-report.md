@@ -3,10 +3,11 @@ audience: end-user
 title: Relatórios do delivery por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 3%
+ht-degree: 23%
 
 ---
 
@@ -14,8 +15,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
->title="Envio de relatório"
->abstract="he **Enviando** A guia no relatório fornece insights detalhados sobre as interações dos visitantes com os deliveries e quaisquer erros em potencial que possam ter encontrado."
+>title="Envio de relatórios"
+>abstract="A guia **Envio** no relatório fornece insights aprofundados sobre as interações dos visitantes com as suas entregas e os possíveis erros que possam ter encontrado."
 
 A variável **Relatório de entrega por push** O fornece uma visão geral completa do canal de push, oferecendo insights abrangentes e dados específicos. Ele oferece informações abrangentes sobre o desempenho, a eficácia e os resultados de cada delivery.
 
@@ -26,7 +27,7 @@ A variável **Relatório de entrega por push** O fornece uma visão geral comple
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Resumo do relatório de entrega por push"
->abstract="A variável **Visão geral da entrega por push** O oferece uma visão geral abrangente da entrega por push, fornecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
+>abstract="A **Visão geral da entrega por push** oferece uma visão geral abrangente da sua entrega por push, fornecendo insights extensos e dados específicos. Ela fornece informações abrangentes sobre o desempenho, a eficácia e os resultados da sua entrega."
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com as mensagens de push.
 
@@ -103,8 +104,8 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
 >title="Relatório de taxa de transferência de entrega"
->abstract="O relatório Delivery throughput apresenta informações detalhadas sobre a taxa de transferência de delivery da plataforma inteira em um período especificado."
+>abstract="O relatório de taxa de transferência de entrega apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado."
 
-A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
+O relatório de **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
 ![](assets/reporting_push_2.png)

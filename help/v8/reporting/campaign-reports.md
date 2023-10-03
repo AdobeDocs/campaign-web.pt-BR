@@ -3,7 +3,8 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 12%
@@ -39,4 +40,3 @@ A lista completa de relatórios e métricas associadas para cada canal está dis
 * [Canal de email](campaign-reports-email.md)
 * [Canal de SMS](campaign-reports-sms.md)
 * [Canal push](campaign-reports-push.md)
-

@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
-source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 28%
+ht-degree: 38%
 
 ---
-
 
 # Scheduler {#scheduler}
 
@@ -17,7 +17,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="Scheduler  enriquecimento"
->abstract="A variável **Scheduler** A atividade permite programar quando o workflow será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
+>abstract="A atividade **Scheduler** permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
 
 
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho.
@@ -38,8 +38,8 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Opções do agendador"
->abstract="Defina a frequência do scheduler. Ele pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
+>title="Opções do Scheduler"
+>abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
 
 Siga estas etapas para configurar o **Scheduler** atividade:
 
@@ -78,6 +78,3 @@ Siga estas etapas para configurar o **Scheduler** atividade:
 No exemplo a seguir, a atividade é configurada para que o workflow seja executado várias vezes por dia às 9h e às 12h, todos os dias da semana de 1º de outubro de 2023 a 1º de janeiro de 2024.
 
 ![](../assets/workflow-scheduler2.png)
-
-
-

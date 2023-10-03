@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 37%
+ht-degree: 43%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Recarregar"
->abstract="Clique em **Recarregar** botão para recuperar as últimas métricas e atualizar dados."
+>title="Recargar"
+>abstract="Clique no botão **Recarregar** para recuperar as últimas métricas e atualizar dados."
 
 O Adobe Campaign oferece vários tipos de relatórios, acessíveis para cada entrega. Esses relatórios permitem medir e visualizar o impacto e o desempenho de suas mensagens em um painel integrado.
 

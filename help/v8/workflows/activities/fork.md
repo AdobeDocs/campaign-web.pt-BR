@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Bifurcação
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 80%
+ht-degree: 97%
 
 ---
-
 
 # Bifurcação {#fork}
 
@@ -21,8 +21,8 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Transições de atividade de bifurcação"
->abstract="Por padrão, duas transições são criadas com um **Bifurcar** atividade. Clique em **Adicionar transição** para definir uma transição de saída adicional e insira seu rótulo."
+>title="Transições da atividade bifurcação"
+>abstract="Por padrão, duas transições são criadas com uma atividade **Bifurcação**. Clique em **Adicionar transição** para definir uma transição de saída adicional e insira seu rótulo."
 
 A atividade **Bifurcação** é uma atividade de **Controle de fluxo**. Ela permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
 
@@ -44,4 +44,3 @@ No exemplo a seguir, estaremos usando duas atividades de **Bifurcação**:
 * Uma após a interseção, para enviar um email e um SMS simultaneamente à população direcionada.
 
 ![](../assets/workflow-fork-example.png)
-

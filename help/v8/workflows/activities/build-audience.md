@@ -3,23 +3,23 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 60%
+ht-degree: 75%
 
 ---
-
 
 # Criar público-alvo {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Criar atividade de público"
->abstract="A variável **Criar público-alvo** A atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um workflow, o público-alvo da mensagem não é definido na atividade de canal, mas no **Criar público-alvo** atividade."
+>title="Atividade criar público-alvo"
+>abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho, o público-alvo da mensagem não é definido na atividade canal, mas na atividade **Criar público-alvo**."
 
 
-A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um workflow, o público-alvo da mensagem não é definido na atividade de canal, mas no **Criar público-alvo** atividade.
+A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho, o público-alvo da mensagem não é definido na atividade canal, mas na atividade **Criar público-alvo**.
 
 Para definir o público-alvo, você pode:
 

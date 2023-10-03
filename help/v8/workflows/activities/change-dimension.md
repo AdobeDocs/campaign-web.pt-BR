@@ -3,27 +3,27 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Alterar dimensão
 description: Saiba como usar a atividade de workflow de alteração de dimensão
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 5%
+ht-degree: 30%
 
 ---
-
 
 # Mudar dimensão {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Gerar um complemento"
->abstract="Você pode gerar uma transição de saída adicional com a população restante, que foi excluída como uma duplicata. Para fazer isso, ative a opção **Gerar complemento**"
+>abstract="É possível gerar uma transição de saída adicional com a população restante, que foi excluída como uma duplicata. Para fazer isso, ative a opção **Gerar complemento**"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="Atividade Mudar dimensão"
->abstract="Essa atividade permite alterar o targeting dimension à medida que você constrói um público-alvo. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada. Por exemplo, você pode alternar da dimensão &quot;contratos&quot; para a dimensão &quot;clientes&quot;."
+>abstract="Essa atividade permite alterar o targeting dimension à medida que você constrói um público-alvo. Ela desloca o eixo dependendo do modelo de dados e da dimensão de entrada. Por exemplo, você pode mudar da dimensão “contratos” para a dimensão “clientes”."
 
-A variável **Alterar dimensão** a atividade é um **Direcionamento** atividade. Essa atividade permite alterar o targeting dimension à medida que você constrói seu fluxo de trabalho. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)
+A variável **Alterar dimensão** a atividade é um **Direcionamento** atividade. Essa atividade permite alterar o targeting dimension à medida que você constrói seu fluxo de trabalho. Ela desloca o eixo dependendo do modelo de dados e da dimensão de entrada. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)
 
 Por exemplo, você pode alternar um targeting dimension de workflow de &quot;Recipients&quot; para &quot;Subscribers application&quot; para enviar notificações por push aos recipients alvos.
 

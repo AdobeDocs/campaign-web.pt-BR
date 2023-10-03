@@ -3,13 +3,13 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
-
 
 # Atividades de email, SMS, push {#channel}
 
@@ -53,13 +53,13 @@ Comece a criar seu workflow com as atividades relevantes antes de fazer o delive
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
->title="Atividade push do iOS"
+>title="Atividade push para iOS"
 >abstract="Automatize e execute campanhas de marketing pelos canais de email, SMS e notificações por push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Atividade push do Android"
+>title="Atividade push para Android"
 >abstract="Automatize e execute campanhas de marketing pelos canais de email, SMS e notificações por push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 36%
+ht-degree: 45%
 
 ---
 
@@ -25,13 +25,13 @@ As etapas para enviar ofertas com um delivery são as seguintes:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Definir os parâmetros de ofertas"
->abstract="Configure quais ofertas devem ser propostas aos recipients definindo um espaço de ofertas, opcionalmente uma categoria e um tema, e especifique o número de ofertas que deseja inserir no delivery."
+>title="Defina os parâmetros das ofertas"
+>abstract="Configure quais ofertas devem ser propostas aos destinatários, definindo um espaço de ofertas, opcionalmente uma categoria e um tema, e especifique o número de ofertas que deseja inserir na entrega."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Definir as configurações avançadas de ofertas"
->abstract="Você pode ativar a exclusão de recipients para os quais não há ofertas elegíveis suficientes e escolher como a mensagem será processada caso uma das proposições não exista."
+>title="Defina as configurações avançadas de ofertas"
+>abstract="É possível habilitar a exclusão de destinatários para os quais não há ofertas elegíveis suficientes e escolher como a mensagem será processada caso uma das proposições não exista."
 
 O Adobe Campaign permite propor uma ou várias ofertas específicas para um determinado contato. Módulo de interação que permite responder em tempo real durante uma interação com um determinado contato, propondo a ele uma ou várias ofertas específicas. Essas ofertas podem ser mensagens de comunicação simples, ofertas especiais de um ou vários produtos ou um serviço.
 

@@ -3,20 +3,20 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 9%
+ht-degree: 21%
 
 ---
-
 
 # Trabalhar com serviços de assinatura {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Crie e gerencie os seus serviços"
->abstract="Use o Adobe Campaign para criar e monitorar seus serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços. As assinaturas aplicam-se somente a entregas por email e SMS."
+>abstract="Use o Adobe Campaign para criar e monitorar os seus serviços, como informativos, e verificar as assinaturas e o cancelamento delas nesses serviços. As assinaturas aplicam-se somente a entregas por email e SMS."
 
 Use a Web do Adobe Campaign para gerenciar e criar serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços.
 
@@ -48,13 +48,13 @@ Para acessar os serviços de assinatura disponíveis para sua plataforma, siga a
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Definir as propriedades do serviço"
->abstract="Insira o rótulo do serviço de assinatura e defina opções adicionais, como um período de validade para seu serviço."
+>title="Defina as propriedades do serviço"
+>abstract="Insira o rótulo do serviço de assinatura e defina opções adicionais, como um período de validade para o seu serviço."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Selecionar uma mensagem de confirmação"
->abstract="Quando um usuário assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados para essa mensagem."
+>title="Selecione uma mensagem de confirmação"
+>abstract="Quando um usuário(a) assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados nessas mensagens."
 
 Para criar um serviço de assinatura, siga as etapas abaixo.
 
@@ -76,7 +76,7 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
    ![](assets/service-create-validity-period.png)
 
-1. Quando um usuário assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados para essa mensagem de acordo com seu caso de uso. Esses templates devem ser configurados com o **[!UICONTROL Assinaturas]** target mapping. [Saiba mais](#create-confirmation-message)
+1. Quando um usuário(a) assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados para essa mensagem de acordo com seu caso de uso. Esses templates devem ser configurados com o **[!UICONTROL Assinaturas]** target mapping. [Saiba mais](#create-confirmation-message)
 
    ![](assets/service-create-confirmation-msg.png)
 
@@ -131,11 +131,3 @@ Para medir a eficácia de seus serviços de assinatura para canais de SMS e emai
    * A variável **[!UICONTROL Evolução geral das assinaturas]** o gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução dos números e a porcentagem de fidelidade.<!--what is Registered?-->
 
 1. Use o **[!UICONTROL Recarregar]** botão para recuperar os últimos valores da execução e da programação do workflow de rastreamento.
-
-
-
-
-
-
-
-

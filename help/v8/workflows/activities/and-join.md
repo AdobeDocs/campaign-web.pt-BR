@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho AND-join
 description: Saiba como usar a atividade de fluxo de trabalho AND-join
 badge: label="Beta"
-source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
+exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
-
 
 # AND-join {#join}
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A atividade **AND-join** permite sincronizar várias ramificações de execução de um fluxo de trabalho. É acionado quando todas as atividades anteriores forem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar o workflow."
+>abstract="A atividade **AND-join** permite sincronizar várias ramificações de execução de um fluxo de trabalho. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a execução do fluxo de trabalho."
 
 A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ela permite sincronizar várias ramificações de execução de um fluxo de trabalho.
 
