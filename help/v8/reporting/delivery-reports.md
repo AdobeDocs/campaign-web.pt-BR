@@ -4,10 +4,10 @@ title: Relatórios de entrega
 description: Saiba como acessar e usar relatórios de entrega
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 43%
+source-wordcount: '204'
+ht-degree: 35%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Recargar"
->abstract="Clique no botão **Recarregar** para recuperar as últimas métricas e atualizar dados."
+>title="Exportar"
+>abstract="Clique em **Exportar** botão para exportar essas métricas para formatos PDF ou CSV, o que permite compartilhá-las ou imprimi-las. "
 
 O Adobe Campaign oferece vários tipos de relatórios, acessíveis para cada entrega. Esses relatórios permitem medir e visualizar o impacto e o desempenho de suas mensagens em um painel integrado.
 

@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 98%
+source-wordcount: '1031'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 98%
 >id="acw_homepage_card1"
 >title="Novidades"
 >abstract="Nossa versão mais recente contém recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="Encontre orientações com o novo Assistente de conhecimento alimentado por IA"
 
 Temos o prazer de apresentar a versão BETA da interface do Adobe Campaign Web. Nossa versão mais recente contém recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais.
 
