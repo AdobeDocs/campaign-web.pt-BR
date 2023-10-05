@@ -2,13 +2,13 @@
 title: Trabalhar com destinatários e públicos-alvo
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 26%
+source-wordcount: '1027'
+ht-degree: 24%
 
 ---
-
 
 # Trabalhar com destinatários e públicos-alvo {#about-recipients}
 
@@ -47,13 +47,13 @@ Você também pode acessar recipients do **Explorer** exibir, procurar e criar p
 >
 >Dependendo das suas permissões, talvez você não tenha acesso à lista completa de recipients armazenados no banco de dados. Saiba mais sobre permissões [nesta seção](../get-started/permissions.md).
 
-Além disso, é possível gerenciar a subscrição e unsubscription de recipients para serviços como boletins informativos. [Saiba como trabalhar com serviços de assinatura](manage-services.md)
+Além disso, é possível gerenciar a subscrição e unsubscription de recipients para serviços como boletins informativos. Saiba como trabalhar com serviços de assinatura no [esta página](manage-services.md)
 
 Você pode criar workflows para desduplicar, enriquecer, combinar perfis e criar públicos. Saiba mais [nesta seção](../workflows/gs-workflows.md).
 
 ## O que são públicos-alvo? {#audiences}
 
-O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens O tipo de público-alvo depende do target mapping definido no modelo de entrega. [Saiba o que é um modelo de entrega](../msg/delivery-template.md).
+O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens O tipo de público-alvo depende do target mapping definido no modelo de entrega. Saiba mais sobre modelos de entrega em [esta página](../msg/delivery-template.md).
 
 Para definir a população de um público-alvo, é possível:
 
@@ -66,7 +66,7 @@ Ao direcionar um público-alvo, você também pode definir **grupos de controle*
 
 >[!NOTE]
 >
->Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo é definido em um **Criar público-alvo** atividade de workflow. Nesse contexto, não é possível carregar um público-alvo de um arquivo para uma entrega de email, e o público-alvo é definido somente nessa atividade dedicada. Saiba como definir o público-alvo da sua entrega em um workflow de campanha [nesta seção](../workflows/activities/build-audience.md)
+>Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo é definido em um **Criar público-alvo** atividade de workflow. Nesse contexto, não é possível carregar um público-alvo de um arquivo para uma entrega de email, e o público-alvo é definido somente nessa atividade dedicada. Saiba como definir o público-alvo do seu delivery em um fluxo de trabalho de campanha no [nesta seção](../workflows/activities/build-audience.md)
 
 ## Dimensões de direcionamento {#targeting-dimensions}
 
