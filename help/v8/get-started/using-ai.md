@@ -2,20 +2,23 @@
 title: Uso do assistente de conhecimento habilitado para IA no Campaign Web
 description: Uso do assistente de conhecimento habilitado para IA no Campaign Web
 badge: label="Alfa"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
+source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
 
 # Usar o Assistente de conhecimento habilitado para IA {#using-ai}
 
-Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do produto, com o Assistente de conhecimento alimentado por IA disponível nas caixas de ajuda contextual do produto.
+Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do seu produto, com o Assistente de conhecimento alimentado por IA de perguntas e respostas disponível nas caixas de ajuda contextual do produto.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Esse recurso está disponível na versão Alpha e está sujeito a alterações sem aviso prévio.
+>
+>Esse recurso só está disponível em **Inglês**. Não há suporte para outros idiomas nesta versão.
 
 
 A variável **Assistente de conhecimento com Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
@@ -58,5 +61,3 @@ Além disso, para aproveitar ao máximo o Assistente de conhecimento alimentado 
 * Reescreva suas perguntas e refine-as para obter respostas melhores. Se a resposta não for precisa ou útil, tente abordagens diferentes e adicione contexto para obter melhores resultados.
 * Use termos e textos apropriados, com um tom neutro.
 * Classifique as respostas e forneça feedback para que nossos engenheiros possam aprender com a sua experiência e melhorar os resultados.
-
-
