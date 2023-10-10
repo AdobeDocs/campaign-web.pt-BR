@@ -3,11 +3,11 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Beta"
-exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
+exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
+source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 29%
+ht-degree: 26%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
->title="Fluxos de trabalho"
->abstract="Nesta tela, você pode acessar a lista completa de fluxos de trabalho independentes e da campanha, verificar o status atual, as datas de última/próxima execução e criar um novo fluxo de trabalho. Navegue até a guia “Modelos” para acessar os modelos de fluxo de trabalho disponíveis."
+>title="Workflows"
+>abstract="Nesta tela, você pode acessar a lista completa de fluxos de trabalho independentes e da campanha, verificar o status atual, as datas de última/próxima execução e criar um novo fluxo de trabalho. Navegue até a guia &quot;Modelos&quot; para acessar os modelos de fluxo de trabalho disponíveis."
 
 A variável **[!UICONTROL Fluxos de trabalho]** permite acessar a lista completa de workflows. Esta lista inclui **workflows independentes** que foram criados nessa tela, e **workflows da campanha**, que foram criados em uma campanha.
 
