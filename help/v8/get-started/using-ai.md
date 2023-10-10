@@ -1,29 +1,29 @@
 ---
-title: Uso do assistente de conhecimento habilitado para IA no Campaign Web
-description: Uso do assistente de conhecimento habilitado para IA no Campaign Web
+title: Utilização do Assistente de conhecimento habilitado por IA no Campaign Web
+description: Utilização do Assistente de conhecimento habilitado por IA no Campaign Web
 badge: label="Alfa"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 4%
+ht-degree: 90%
 
 ---
 
-# Usar o Assistente de conhecimento habilitado para IA {#using-ai}
+# Utilização do Assistente de conhecimento habilitado por IA {#using-ai}
 
 Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do seu produto, com o Assistente de conhecimento alimentado por IA de perguntas e respostas disponível nas caixas de ajuda contextual do produto.
 
 >[!CAUTION]
 >
->Esse recurso está disponível na versão Alpha e está sujeito a alterações sem aviso prévio.
+>Esse recurso está disponível na versão alfa e está sujeito a alterações sem aviso prévio.
 >
 >Esse recurso só está disponível em **Inglês**. Não há suporte para outros idiomas nesta versão.
 
 
-A variável **Assistente de conhecimento com Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
+O **Assistente de conhecimento com IA generativa** incorporado na ajuda contextual revoluciona a pesquisa de documentação e as respostas a perguntas práticas, verificando facilmente vastos repositórios de documentação e identificando instantaneamente as informações exatas de que você precisa.
 
-Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Esteja você procurando orientação em uma tarefa complexa ou ao navegar por documentos extensos, o Assistente de conhecimento alimentado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Caso esteja buscando orientação numa tarefa complexa ou navegando por documentos extensos, o Assistente de conhecimento habilitado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -43,21 +43,21 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Respostas {#answers-ai}
 
-O Assistente de conhecimento alimentado por IA do Adobe Campaign oferece assistência, mas você deve verificar os fatos. Pode produzir informações incorretas, respostas imprecisas ou enganosas. Verifique a documentação do produto que está vinculada em cada caixa de ajuda.
+O Assistente de conhecimento habilitado por IA do Adobe Campaign oferece assistência, mas você deve verificar os fatos. O recurso pode produzir informações incorretas e respostas imprecisas ou enganosas. Verifique a documentação do produto que está vinculada em todas as caixas de ajuda.
 
-Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para lidar melhor com casos de uso específicos. O Assistente de conhecimento alimentado por IA do Campaign continuará melhorando nos próximos meses. Recomendamos que você use a ?? ?? sempre que ler uma resposta, para sinalizar quaisquer respostas inadequadas aos nossos engenheiros.
+Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para atender de forma aprimorada a casos de uso específicos. O Assistente de conhecimento habilitado por IA do Campaign continuará melhorando nos próximos meses. É altamente recomendável o uso dos botões ?? ?? sempre que ler uma resposta para sinalizar quaisquer respostas inadequadas aos nossos engenheiros.
 
 ## Recomendações  {#recommendations-ai}
 
-Ao fazer uma pergunta no Assistente de conhecimento habilitado para IA, o contexto atual do produto, ou seja, a tela em que você está e o conteúdo da caixa de ajuda atual, são considerados.
+Ao fazer uma pergunta no Assistente de conhecimento habilitado por IA, o contexto atual do produto, ou seja, a tela em que você está e o conteúdo da caixa de ajuda atual, é considerado.
 
-Como consequência, a prática recomendada é fazer perguntas relacionadas ao contexto da interface do usuário. Por exemplo, se precisar saber como enviar um delivery por push em um workflow, navegue até o **Fluxo de trabalho** e use uma caixa de ajuda contextual nesse contexto específico. Para saber mais sobre métricas de relatórios, navegue até os relatórios da campanha ou do delivery e comece a partir daí.
+Como consequência, a prática recomendada é fazer perguntas relacionadas ao contexto da interface. Por exemplo, se precisar de informações sobre o envio de uma entrega por push num fluxo de trabalho, navegue até a entrada do menu esquerdo **Fluxo de trabalho** e use uma caixa de ajuda contextual nesse contexto específico. Para saber mais sobre métricas de relatórios, navegue até os relatórios da campanha ou da entrega para começar.
 
 
-Além disso, para aproveitar ao máximo o Assistente de conhecimento alimentado por IA, ao fazer uma pergunta, recomendamos que você:
+Além disso, para aproveitar ao máximo o Assistente de conhecimento habilitado por IA, ao fazer uma pergunta, recomendamos que você:
 
-* Ser tão preciso e específico quanto possível e evitar ambiguidades. A resposta será mais precisa e útil.
-* Para ajudar o Assistente de conhecimento alimentado por IA a encontrar as informações corretas, adicione o máximo de detalhes possível sobre o que você está tentando aprender.
-* Reescreva suas perguntas e refine-as para obter respostas melhores. Se a resposta não for precisa ou útil, tente abordagens diferentes e adicione contexto para obter melhores resultados.
-* Use termos e textos apropriados, com um tom neutro.
+* aja de forma precisa e específica o máximo possível e evite ambiguidades. A resposta será mais precisa e útil.
+* Para ajudar o Assistente de conhecimento habilitado por IA a encontrar as informações corretas, adicione o máximo de detalhes possível sobre o que está tentando se informar.
+* Reformule e refine suas perguntas para obter respostas melhores. Se a resposta não for precisa ou útil, tente abordagens diferentes e adicione contexto para obter melhores resultados.
+* Use termos e palavras apropriados, com um tom neutro.
 * Classifique as respostas e forneça feedback para que nossos engenheiros possam aprender com a sua experiência e melhorar os resultados.

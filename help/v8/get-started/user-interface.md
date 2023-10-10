@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ O menu **Explorer** exibe todos os recursos e objetos do Campaign com a mesma hi
 
 Os itens exibidos no **Explorer** dependem das permissões de usuário. Também é possível adicionar pastas e subpastas, caso você tenha os direitos adequados. Saiba mais sobre permissões [nesta seção](permissions.md).
 
-Você pode configurar colunas para personalizar a exibição e exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Também é possível adicionar pastas e subpastas, conforme detalhado em [nesta seção](permissions.md#folders).
+Você pode configurar colunas para personalizar a exibição e visualizar todas as informações necessárias. Consulte esta [seção](#list-screens). Também é possível adicionar pastas e subpastas, conforme detalhado [nesta seção](permissions.md#folders).
 
 Para obter mais informações sobre o Explorer do Campaign, a hierarquia de pastas e os recursos, consulte a [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=pt-BR#ac-explorer-ui){target="_blank"}.
 
@@ -110,9 +110,9 @@ Uma ajuda contextual está disponível na interface. Quando disponível, clique 
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Com a nova versão Beta, o **Assistente de conhecimento habilitado para IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
+Com a nova versão beta, o **Assistente de conhecimento habilitado por IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e as respostas a perguntas práticas, verificando facilmente vastos repositórios de documentação e identificando instantaneamente as informações exatas de que você precisa.
 
-Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Quer você esteja buscando orientação em uma tarefa complexa ou ao navegar por documentos extensos, nosso Assistente de conhecimento alimentado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Caso esteja buscando orientação numa tarefa complexa ou navegando por documentos extensos, o Assistente de conhecimento habilitado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
 Saiba mais [nesta seção](using-ai.md).
 
