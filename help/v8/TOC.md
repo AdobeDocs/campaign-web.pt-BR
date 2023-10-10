@@ -6,9 +6,9 @@ description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
 source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 85%
          + Assistente de conteúdo {#content-assistant}
             + [Introdução ao Assistente de conteúdo](content/generative-gs.md)
             + [Geração de texto com o Assistente de conteúdo](content/generative-content.md)
-            + [Geração de imagens com o Assistente de conteúdo](content/generative-image.md)
+            + [Geração de imagem com o Assistente de conteúdo](content/generative-image.md)
             + [Geração de email com o Assistente de conteúdo](content/generative-email.md)
          + Estilizar o conteúdo {#style}
             + [Introdução ao estilo de email](content/get-started-email-style.md)
@@ -77,7 +77,7 @@ ht-degree: 85%
       + [Adicionar conteúdo condicional](personalization/conditions.md)
       + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
    + [Adicionar ofertas às suas mensagens](content/offers.md)
-   + [Enviar mensagens aos seus assinantes](content/send-to-subscribers.md)
+   + [Enviar mensagens a assinantes](content/send-to-subscribers.md)
    + Visualizar e testar a entrega {#preview-test}
       + [Sobre visualização e teste](preview-test/preview-test.md)
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
@@ -85,14 +85,14 @@ ht-degree: 85%
       + [Renderizar seu email](preview-test/email-rendering.md)
 + Públicos-alvo e destinatários {#audiences}
    + [Trabalhar com destinatários e públicos-alvo](audience/about-recipients.md)
-   + [Criar públicos](audience/create-audience.md)
-   + Selecione os recipients do delivery {#target-audiences}
+   + [Criar públicos-alvo](audience/create-audience.md)
+   + Selecione os destinatários da entrega {#target-audiences}
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de um arquivo](audience/file-audience.md)
       + [Configurar um grupo de controle](audience/control-group.md)
    + [Trabalhar com o construtor de regras](audience/segment-builder.md)
-   + [Monitorar e gerenciar públicos](audience/manage-audience.md)
+   + [Monitorar e gerenciar públicos-alvo](audience/manage-audience.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
       + [Gerenciar serviços](audience/manage-services.md)
       + [Gerenciar assinantes](audience/manage-subscribers.md)

@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Recursos não compatíveis com a interface do Campaign Web
-description: Lista de recursos não compatíveis com a interface do usuário da Web do Campaign
+title: Recursos incompatíveis com a interface do Campaign Web
+description: Lista de recursos incompatíveis com a interface do Campaign Web
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
-workflow-type: tm+mt
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
+# Recursos incompatíveis no Campaign Web {#unsupported-capabilities}
 
-# Recursos não suportados no Campaign Web {#unsupported-capabilities}
-
-Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas ainda não estão disponíveis na Interface do usuário da Web. Alguns estarão disponíveis em uma versão posterior, mas outros não.
+Os seguintes recursos podem ser acessados no console do cliente do Campaign, mas ainda não estão disponíveis na interface da web. Alguns estarão disponíveis em uma versão posterior, mas outros não.
 
 **Página inicial**
 
@@ -28,9 +28,9 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 * Gerenciamento de orçamento e custos
 * Gerenciamento de tarefas
 * Marketing distribuído (marketing central/local)
-* Gestor de resposta
+* Gerenciamento de resposta
 * Teste AB
-* Gerenciamento dos recursos de marketing (MRM), metas, simulações, orçamento e custos
+* Gerenciamento de recursos de marketing (MRM), metas, simulações, orçamento e custos
 
 **Canais de comunicação**
 
@@ -41,29 +41,29 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 
 **Conteúdo da Web**
 
-* Criação e publicação de uma landing page
-* aplicativos Web, formulários Web
-* Gestão de pesquisas
+* Criação e publicação da landing page
+* Aplicativos da web, formulários web
+* Gestão de pesquisa
 
 **Perfis e recipients**
 
-* Criação de perfil
+* Criação do perfil
 * Painel do perfil
-* Criação de perfil de teste
+* Criação do perfil de teste
 * Painel do perfil de teste
 
 **Mensagens transacionais**
 
 * Criação e execução de mensagens em tempo real por email, SMS e push
-* Enriquecimento e personalização de mensagens
-* Acionadores (abandono do carrinho do Adobe Analytics)
+* Enriquecimento e personalização de mensagem
+* Triggers (abandono do carrinho do Adobe Analytics)
 * Relatórios e monitoramento de mensagens transacionais
 
 **Design de conteúdo**
 
 * Conteúdo de recursos públicos
-* Loops/gerenciamento de coleções
-* Salvar um conteúdo de HTML como modelo`*`
+* Loops / Gerenciamento de coleção
+* Salvar um conteúdo HTML como um modelo`*`
 * Sincronização de modelo de email do Adobe Experience Manager
 * Ativos do Adobe Experience Manager 6.5 em um conteúdo de email
 * Criação de bloco de conteúdo
@@ -82,14 +82,14 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 * Gerenciamento de regras de tipologia
 * Codificação JavaScript para criação de regras de tipologia
 
-**Fluxos de trabalho**
+**Workflows**
 
 * Script em workflows
-* Atividades de ETL: Export, Edit schema, Data loading, Data extract, código SQL
+* Atividades de ETL: Exportar, Editar esquema, Carregamento de dados, Extrair dados, Código SQL
 
-**Gerenciamento de ofertas**
+**Gestão de ofertas**
 
-* Criar ofertas com regras de qualificação
+* Criar ofertas com regras de elegibilidade
 
 **Integrações com as soluções da Adobe Experience Cloud***
 
@@ -97,27 +97,27 @@ Os seguintes recursos podem ser acessados no Console do cliente do Campaign, mas
 * Compartilhamento de KPI do Adobe Analytics
 * Uso do segmento do Adobe Audience Manager
 * Integração com o Adobe Target
-* Integração com o Adobe Triggers
+* Integração com os triggers da Adobe
 
-**Relatório**
+**Relatórios**
 
 * Relatório integrado de capacidade de entrega
 * Relatório global integrado
 * Personalizações de relatórios
-* Compartilhamento de relatórios de acordo com a programação como PDF e CSV ou link
+* Compartilhamento de relatórios sobre a programação como PDF e CSV ou link
 * Exportar/baixar um relatório como um arquivo CSV ou PDF
 
-**Modelagem e assimilação de dados**
+**Modelagem e ingestão de dados**
 
 * Contas externas
 * Extensão de esquema
-* Atividades do workflow de gerenciamento de dados: Carregamento de dados, Extração (arquivo), Atualização de dados, Editar esquema, Importar/exportar workflows técnicos
+* Atividades do fluxo de trabalho de gerenciamento de dados: Carregamento de dados, Extração (arquivo), Atualização de dados, Editar esquema, Importar/exportar workflows técnicos
 * Configuração do Campaign e conexão com sistemas externos
 
 **Aprovações**
 
 * Aprovação de conteúdo
-* Aprovação de entrega
+* Aprovação da entrega
 * Aprovação da campanha
 * Aprovação de público-alvo
 
