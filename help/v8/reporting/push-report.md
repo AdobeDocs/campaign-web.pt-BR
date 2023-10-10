@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Relatórios do delivery por push
+title: Relatórios de entrega por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 23%
+ht-degree: 51%
 
 ---
 
-# Relatórios do delivery por push {#push-report}
+# Relatórios de entrega por push {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -49,10 +49,10 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
->title="População direcionada de push"
->abstract="A variável **População direcionada** o gráfico e a tabela exibem os dados relativos ao público-alvo de mensagens de push: mensagens a serem entregues e exclusões."
+>title="População direcionada por push"
+>abstract="O gráfico e tabela **População direcionada** exibem os dados relativos ao público-alvo de mensagens por push: mensagens a serem entregues e exclusões."
 
-A variável **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo: mensagens a serem entregues e exclusões. As métricas estão detalhadas abaixo.
+O gráfico e a tabela **População direcionada** exibem dados relativos ao público-alvo de : mensagens a serem entregues e exclusões. As métricas estão detalhadas abaixo.
 
 ![](assets/reporting_push_4.png)
 
@@ -69,10 +69,10 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
->title="Enviar estatísticas gerais"
->abstract="A variável **Estatísticas gerais** o relatório apresenta dados para as notificações por push enviadas: sucesso, erros e quarentenas."
+>title="Estatísticas gerais de push"
+>abstract="O relatório **Estatísticas gerais** apresenta dados das notificações enviadas por push: sucesso, erros e quarentenas."
 
-A variável **Estatísticas gerais** o relatório apresenta dados para as notificações por push enviadas: sucesso, erros e quarentenas. As métricas estão detalhadas abaixo.
+O relatório **Estatísticas gerais** apresenta dados das notificações enviadas por push: sucesso, erros e quarentenas. As métricas estão detalhadas abaixo.
 
 ![](assets/reporting_push_5.png)
 
@@ -91,10 +91,10 @@ A variável **Estatísticas gerais** o relatório apresenta dados para as notifi
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Enviar estatísticas gerais"
->abstract="A variável **Exclusões** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem."
+>title="Estatísticas gerais de push"
+>abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário excluídos dos perfis direcionados de receber a mensagem."
 
-A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que impediram os perfis de usuário excluídos dos perfis direcionados de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)
@@ -106,6 +106,6 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários 
 >title="Relatório de taxa de transferência de entrega"
 >abstract="O relatório de taxa de transferência de entrega apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado."
 
-O relatório de **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
+O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
 ![](assets/reporting_push_2.png)

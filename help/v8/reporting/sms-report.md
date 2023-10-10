@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Relatórios de entrega de SMS
+title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 24%
+ht-degree: 38%
 
 ---
 
-# Relatórios de entrega de SMS {#sms-report}
+# Relatórios de entrega por SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
@@ -52,7 +52,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="População direcionada por SMS"
->abstract="A variável **População direcionada** gráfico e tabela exibem dados relativos ao público-alvo do SMS: mensagens a serem entregues e exclusões."
+>abstract="O gráfico e a tabela **População direcionada** exibem dados relativos ao público-alvo de SMS: mensagens a serem entregues e exclusões."
 
 A variável **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo. As métricas estão detalhadas abaixo.
 
@@ -71,8 +71,8 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Enviar estatísticas gerais"
->abstract="A variável **Estatísticas gerais** O relatório apresenta dados para o SMS enviado: sucesso, erros e quarentenas."
+>title="Estatísticas gerais de push"
+>abstract="O relatório **Estatísticas gerais** apresenta dados do SMS enviado: sucesso, erros e quarentenas."
 
 A variável **Estatísticas gerais** O relatório apresenta dados para as mensagens SMS enviadas. As métricas estão detalhadas abaixo.
 
@@ -93,7 +93,7 @@ A variável **Estatísticas gerais** O relatório apresenta dados para as mensag
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="Estatísticas gerais de SMS"
->abstract="A variável **Exclusões** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem."
+>abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário excluídos dos perfis direcionados de receber a mensagem."
 
 
 A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.

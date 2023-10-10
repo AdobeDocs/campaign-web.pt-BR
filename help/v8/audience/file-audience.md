@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 38%
+ht-degree: 40%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
->title="Pré-visualizar seu arquivo"
->abstract="Verifique a visualização do arquivo. Essa tela só mostra até 30 registros."
+>title="Visualizar seu arquivo"
+>abstract="Verifique a visualização do arquivo. Essa tela mostra um máximo de 30 registros."
 
 
 

@@ -3,13 +3,13 @@ audience: end-user
 title: Relatórios de campanha para o canal SMS
 description: Entender os relatórios de campanha do canal SMS
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 11%
+ht-degree: 32%
 
 ---
-
 
 # Relatórios de campanha para o canal SMS {#campaign-reports-sms-channel}
 
@@ -20,10 +20,10 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_deliveries_overview"
 >title="Visão geral da entrega"
->abstract="A variável **Visão geral da entrega** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de SMS."
+>abstract="O relatório **Visão geral da entrega** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega por SMS."
 
 
-A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de SMS. As métricas estão detalhadas abaixo.
+O relatório **[!UICONTROL Visão geral da entrega]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega por SMS. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign_report_sms_1.png)
 
@@ -45,9 +45,9 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="Estatísticas iniciais do público-alvo"
->abstract="A variável **Estatísticas iniciais do público-alvo** A tabela exibe dados relativos aos seus destinatários"
+>abstract="A tabela **Estatísticas iniciais do público-alvo** exibe dados relativos aos destinatários"
 
-A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
+A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe dados relativos aos destinatários. As métricas estão detalhadas abaixo.
 
 
 ![](assets/campaign_report_sms_2.png)
@@ -69,7 +69,7 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_exec_stats"
 >title="Estatísticas de execução"
->abstract="A variável **Estatísticas de execução** a tabela detalha o sucesso do delivery: mensagens a serem entregues, sucesso, erros e novas quarentenas."
+>abstract="A tabela **Estatísticas de execução** detalha o sucesso da entrega: mensagens a serem entregues, sucesso, erros e novas quarentenas."
 
 
 A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery. As métricas estão detalhadas abaixo.
@@ -97,7 +97,7 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_click_streams"
 >title="Fluxos de cliques gerados"
->abstract="A variável **Fluxos de clique gerados** A tabela mostra os dados disponíveis relativos a como seus recipients interagiram com seu delivery."
+>abstract="A tabela **Fluxos de clique gerados** mostra os dados disponíveis relativos a como seus destinatários interagiram com a entrega."
 
 A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery. As métricas estão detalhadas abaixo.
 

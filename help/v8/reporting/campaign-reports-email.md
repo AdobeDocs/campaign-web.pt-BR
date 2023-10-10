@@ -7,7 +7,7 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 34%
+ht-degree: 49%
 
 ---
 
@@ -20,7 +20,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Visão geral da entrega"
->abstract="A variável **Visão geral da entrega** O fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de email."
+>abstract="A **Visão geral da entrega** fornece indicadores principais de desempenho (KPIs) que contêm informações detalhadas sobre o engajamento de visitantes com a entrega de email."
 
 ### Visão geral da entrega {#delivery-summary-email-ovv}
 
@@ -50,7 +50,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 >abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos destinatários"
 
 
-A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
+A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe dados relativos aos destinatários. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign_report_email_2.png)
 
@@ -70,7 +70,7 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="Estatísticas de execução"
->abstract="A variável **Estatísticas de execução** a tabela detalha o sucesso do delivery: mensagens a serem entregues, sucesso, erros e novas quarentenas."
+>abstract="A tabela **Estatísticas de execução** detalha o sucesso da entrega: mensagens a serem entregues, sucesso, erros e novas quarentenas."
 
 A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery. As métricas estão detalhadas abaixo.
 
@@ -96,7 +96,7 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="Estatísticas de reação"
->abstract="A variável **Estatísticas de reação** A tabela mostra os dados disponíveis para a atividade do recipient para seu delivery: número de aberturas, assinaturas, unsubscriptions, clique para vincular à mirror page."
+>abstract="A tabela **Estatísticas de reação** mostra os dados disponíveis para a atividade do destinatário da sua entrega: número de aberturas, assinaturas, cancelamentos de assinatura, cliques no link da mirror page."
 
 
 A variável **[!UICONTROL Estatísticas de reação]** A tabela contém os dados disponíveis para a atividade do recipient para o seu delivery. As métricas estão detalhadas abaixo.
@@ -121,7 +121,7 @@ A variável **[!UICONTROL Estatísticas de reação]** A tabela contém os dados
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="Fluxos de cliques gerados"
->abstract="A variável **Fluxos de clique gerados** A tabela mostra os dados disponíveis relativos a como seus recipients interagiram com seu delivery."
+>abstract="A tabela **Fluxos de clique gerados** mostra os dados disponíveis relativos a como seus destinatários interagiram com a entrega."
 
 A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery. As métricas estão detalhadas abaixo.
 
@@ -139,13 +139,13 @@ A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relat
 
 ## Não entregues {#non-deliverables-email}
 
-### Detalhamento dos erros por tipo {#delivery-summary-email-breakdown-per-type}
+### Detalhamento de erros por tipo {#delivery-summary-email-breakdown-per-type}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
->title="Detalhamento dos erros por tipo"
->abstract="A variável **Detalhamento de erros por tipo** a tabela e o gráfico contêm os dados disponíveis para cada tipo de erro encontrado: usuário desconhecido, caixa de correio cheia, domínio inválido e muito mais."
+>title="Detalhamento de erros por tipo"
+>abstract="A tabela e o gráfico **Detalhamento de erros por tipo** contêm os dados disponíveis para cada tipo de erro encontrado: usuário desconhecido, caixa de entrada cheia, domínio inválido e muito mais."
 
 A variável **[!UICONTROL Detalhamento de erros por tipo]** A tabela e o gráfico contêm os dados disponíveis para possíveis erros encontrados para cada tipo de domínio. As métricas estão detalhadas abaixo.
 
@@ -177,7 +177,7 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="Detalhamento de erros por domínio"
->abstract="A variável **Detalhamento de erros por domínio** A tabela e o gráfico exibem os dados disponíveis para cada tipo de erro encontrado, dependendo de cada domínio."
+>abstract="A tabela e o gráfico **Detalhamento de erros por domínio** exibem os dados disponíveis para cada tipo de erro encontrado, dependendo de cada domínio."
 
 
 A variável **[!UICONTROL Detalhamento de erros por domínio]** A tabela e o gráfico contêm os dados disponíveis para possíveis erros encontrados com cada domínio. As métricas são comuns com **[!UICONTROL Detalhamento de erros por tipo]** tabela e gráfico detalhados acima.
@@ -191,7 +191,7 @@ A variável **[!UICONTROL Detalhamento de erros por domínio]** A tabela e o gr�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="Estatísticas de entrega"
->abstract="A variável **Estatísticas de entrega** O gráfico detalha o sucesso do delivery e os erros que ocorreram."
+>abstract="O gráfico **Estatísticas de entrega** detalha o sucesso da entrega e os erros que ocorreram."
 
 A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados. As métricas estão detalhadas abaixo.
 
@@ -218,7 +218,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem i
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Índice de abertura e click-through"
->abstract="A tabela **Taxas de abertura e de click-through** exibe dados relativos ao engajamento dos destinatários com a entrega."
+>abstract="A tabela **Índice de abertura e click-through** exibe dados relativos ao engajamento dos destinatários com a entrega."
 
 
 
@@ -244,9 +244,9 @@ A variável **[!UICONTROL Índice de abertura e click-through]** A tabela exibe 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="Fluxos de clique e URLs"
->abstract="A variável **Fluxos de clique e URLs** O relatório de fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery."
+>abstract="O relatório **Fluxos de clique e URLs** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre os URLs mais clicados durante uma entrega."
 
-A variável **[!UICONTROL Fluxos de clique e URLs]** O relatório de fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery. As métricas estão detalhadas abaixo.
+O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre os URLs mais clicados durante uma entrega. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,7 +266,7 @@ A variável **[!UICONTROL Fluxos de clique e URLs]** O relatório de fornece ind
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Os 10 links mais visitados"
->abstract="A variável **Os 10 links mais visitados** gráfico e tabela contêm os dados disponíveis para o comportamento do recipient por link."
+>abstract="O gráfico e a tabela **Os 10 links mais visitados** contêm os dados disponíveis relativos ao comportamento do destinatário em cada link."
 
 
 A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link. As métricas estão detalhadas abaixo.
@@ -281,13 +281,13 @@ A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela co
 
 +++
 
-### Detalhamento de cliques ao longo do tempo {#campaign-report-email-breakdown-clicks}
+### Detalhamento dos cliques ao longo do tempo {#campaign-report-email-breakdown-clicks}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
->title="Detalhamento de cliques ao longo do tempo"
->abstract="A variável **Detalhamento dos cliques ao longo do tempo** o gráfico mostra os dados disponíveis para o comportamento do recipient por link."
+>title="Detalhamento dos cliques ao longo do tempo"
+>abstract="O gráfico **Detalhamento dos cliques ao longo do tempo** mostra os dados disponíveis relativos ao comportamento do destinatário em cada link."
 
 
 o **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.

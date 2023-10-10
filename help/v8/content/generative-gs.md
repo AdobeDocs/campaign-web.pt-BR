@@ -3,13 +3,13 @@ audience: end-user
 title: Introdução ao Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 11%
+ht-degree: 34%
 
 ---
-
 
 # Introdução ao Assistente de conteúdo {#generative-gs}
 
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Definir contexto para geração de conteúdo"
->abstract="Para usar o conteúdo selecionado como uma entrada para a geração de conteúdo, ative o **Aprimorar com conteúdo atual** alternar. Você também pode fazer upload dos ativos da sua marca para usá-los como uma fonte. Se você não usar o conteúdo selecionado, o upload e a seleção de ativos de uma marca serão obrigatórios."
+>abstract="Para usar o conteúdo selecionado como uma entrada para a geração de conteúdo, ative a opção **Aprimorar com conteúdo atual**. Você também pode fazer upload dos ativos da sua marca e usá-los como fonte de conteúdo. Se você não usar o conteúdo selecionado, será obrigatório fazer o upload e selecionar os ativos de marca."
 
 O Assistente de conteúdo, viabilizado pela IA gerativa, é uma ferramenta valiosa para melhorar o conteúdo de emails. Ele simplifica a personalização e o aprimoramento de conteúdo, otimizando suas entregas de email para melhor repercutir com seu público.
 
@@ -33,7 +33,7 @@ Você pode usar o Assistente de conteúdo do Campaign em seus emails para: [gera
 
 >[!NOTE]
 >
->Esse recurso está disponível na versão Alpha e está sujeito a alterações sem aviso prévio. Ela será ativada no início de outubro.
+>Esse recurso está disponível na versão alfa e está sujeito a alterações sem aviso prévio. Ela será ativada no início de outubro.
 
 ## Medidas de proteção e limitações {#generative-guardrails}
 
@@ -68,7 +68,7 @@ As seguintes limitações se aplicam ao Assistente de conteúdo do Campaign:
 <a href="generative-image.md">
 <img alt="Geração de imagem" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Geração de imagens com o Assistente de conteúdo</strong>
+<div><a href="generative-image.md"><strong>Geração de imagem com o Assistente de conteúdo</strong>
 </div>
 <p>
 </td>
@@ -81,4 +81,3 @@ As seguintes limitações se aplicam ao Assistente de conteúdo do Campaign:
 </div>
 <p></td>
 </tr></table>
-
