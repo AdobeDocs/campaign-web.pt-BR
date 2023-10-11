@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 100%
             + [Adicionar um link para a mirror page](content/mirror-page.md)
             + [Adicionar um pré-cabeçalho](content/preheader.md)
             + [Gerar a versão de texto](content/text-version-email.md)
+            + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
          + Assistente de conteúdo {#content-assistant}
             + [Introdução ao Assistente de conteúdo](content/generative-gs.md)
             + [Geração de texto com o Assistente de conteúdo](content/generative-content.md)
