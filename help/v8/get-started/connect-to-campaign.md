@@ -2,10 +2,10 @@
 title: Conectar-se à interface da Web do Adobe Campaign
 description: Saiba como se conectar à interface da Web do Adobe Campaign v8
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 46%
+source-wordcount: '492'
+ht-degree: 50%
 
 ---
 
@@ -38,13 +38,13 @@ Para fazer logon no Adobe Experience Cloud, as etapas básicas são:
 
 Para acessar o ambiente do Campaign, selecione **Campaign** na página inicial do Adobe Experience Cloud.
 
-
 Se você tiver acesso a vários ambientes, incluindo o Painel de controle do Campaign, clique no link **Launch** no cartão da organização.
 
 ![](assets/launch-campaign.png)
 
-Você também pode usar o alternador de soluções para navegar entre as soluções da Adobe Experience Cloud.
+Você também pode usar o alternador de soluções para navegar entre as soluções e os aplicativos da Adobe Experience Cloud.
 
+![](assets/solution-switcher.png)
 
 ## Navegação superior do Adobe Experience Cloud {#top-bar}
 
@@ -57,6 +57,9 @@ Use a barra superior da interface para:
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## Navegadores compatíveis {#browsers}
+
+O Campaign Web v8 foi desenvolvido para funcionar de maneira ideal na versão mais recente do Google Chrome, Safari e Microsoft Edge. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou em outros navegadores.
 
 ## Preferências de idioma {#language-pref}
 
