@@ -5,9 +5,9 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '448'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 97%
 + [Atualizações de documentação](rn/documentation-updates.md)
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
+   + [Conexão com o Campaign](get-started/connect-to-campaign.md)
    + [Conheça a interface](get-started/user-interface.md)
    + [Listas de busca, pesquisa e filtro](get-started/list-filters.md)
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)

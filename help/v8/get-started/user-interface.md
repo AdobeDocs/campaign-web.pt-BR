@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
@@ -89,19 +89,6 @@ Na seção GESTÃO DE DECISÕES, é possível visualizar as ofertas e os modelos
 
 Saiba como criar e enviar ofertas por email e SMS [nesta seção](../content/offers.md).
 
-## Barra superior {#top-bar}
-
-Use a barra superior da interface para:
-
-* compartilhar seu feedback como testador beta
-* alternar entre organizações e instâncias
-* alternar entre os aplicativos da Adobe Experience Cloud
-* acessar páginas de ajuda, entrar em contato com o suporte e compartilhar feedback. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## Ajuda contextual {#user-interface-help}
@@ -120,37 +107,10 @@ Saiba mais [nesta seção](using-ai.md).
 
 O Campaign Web v8 foi desenvolvido para funcionar de maneira ideal na versão mais recente do Google Chrome, Safari e Microsoft Edge. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou em outros navegadores.
 
-## Preferências de idioma {#language-pref}
-
-Atualmente, o Campaign Web v8 está disponível nos seguintes idiomas:
-
-* Inglês (EUA) - EN-US
-* Francês - FR
-* Alemão - DE
-* Italiano - IT
-* Espanhol - ES
-* Português (Brasil) - PTBR
-* Japonês - JP
-* Coreano - KR
-* Chinês simplificado - CHS
-* Chinês tradicional - CHT
-
-
-O idioma padrão do Campaign Web é determinado pelo idioma preferencial especificado no perfil de usuário. Ele não está relacionado ao idioma do servidor do Campaign e do console do cliente.
-
-Para alterar o idioma:
-
-1. Clique no ícone do perfil, na parte superior direita, e selecione **Preferências**.
-1. Em seguida, clique no link de idioma exibido sob o seu endereço de email.
-1. Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
-
-## Tema escuro {#dark-theme}
-
-Você pode alternar para o tema escuro a partir do ícone do perfil. Use o botão de alternância **Tema escuro** para habilitá-lo/desabilitá-lo.
-
 ## Saiba mais {#learn-more}
 
 Saiba como procurar, pesquisar e filtrar listas disponíveis no ambiente do Campaign [nesta página](list-filters.md).
+
 
 
 <!--
