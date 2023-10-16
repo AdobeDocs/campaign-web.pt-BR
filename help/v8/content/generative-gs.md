@@ -4,7 +4,7 @@ title: Introdução ao Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 34%
@@ -40,7 +40,7 @@ Você pode usar o Assistente de conteúdo do Campaign em seus emails para: [gera
 As diretrizes gerais para o uso do Assistente de conteúdo para geração de email estão listadas abaixo:
 
 * A qualidade do conteúdo gerado é fortemente influenciada pelo objetivo/prompt de marketing definido por você. Use um prompt bem definido para que o modelo GenAI seja interpretado com precisão. 
-* Faça upload do ativo da marca para ter informações precisas sobre o conteúdo da marca. Caso contrário, o conteúdo será baseado em informações disponíveis publicamente. O conteúdo carregado pode ser: arquivos PDF, documentos do Microsoft Word, arquivos JPEG, PNG ou ZIP (com formatos de arquivo compatíveis).
+* Faça upload do ativo da marca para ter informações precisas sobre o conteúdo da marca. Caso contrário, o conteúdo será baseado em informações disponíveis publicamente. O conteúdo carregado pode estar nos seguintes formatos: arquivos PDF, JPEG, PNG ou ZIP (com formatos de arquivo compatíveis).
 * O tamanho recomendado para o ativo de marca carregado é menor que 10 MB. Arquivos maiores ou muitas imagens podem funcionar, mas o tempo de processamento é aumentado.
 * Use modelos de email criados pela Adobe Campaign ou, de preferência, [modelos de email incorporados](../content/email-sample-templates.md) para criar seu conteúdo de email. Modelo de e-mail com até 8-10 imagens recomendado.
 
