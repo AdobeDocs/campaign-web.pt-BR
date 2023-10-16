@@ -4,7 +4,7 @@ title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
 ht-degree: 59%
@@ -77,7 +77,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o suces
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Estatísticas de entrega"
+>title="Causas de exclusão de delivery"
 >abstract="O gráfico e a tabela **Causas de exclusão** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega."
 
 
@@ -320,7 +320,7 @@ A variável **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfi
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Dispositivo de atividades do usuário"
+>title="Atividades do usuário"
 >abstract="O gráfico **Atividades do usuário** mostra o detalhamento de aberturas e cliques na forma de um gráfico. Você pode escolher o período para direcionar os dados: último dia ou hora ou 30 minutos."
 
 A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalhamento de aberturas e cliques no formulário de um gráfico. Você pode escolher o período para direcionar os dados: último dia ou hora ou 30 minutos.
@@ -339,7 +339,7 @@ A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalh
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="Dispositivo de estatísticas de rastreamento"
+>title="Estatísticas de rastreamento"
 >abstract="O gráfico **Estatísticas de rastreamento** fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar os dados."
 
 O gráfico **[!UICONTROL Estatísticas de rastreamento]** fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar os dados.
