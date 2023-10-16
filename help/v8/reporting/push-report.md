@@ -4,10 +4,10 @@ title: Relatórios de entrega por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 51%
+source-wordcount: '485'
+ht-degree: 49%
 
 ---
 
@@ -26,7 +26,7 @@ A variável **Relatório de entrega por push** O fornece uma visão geral comple
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Resumo do relatório de entrega por push"
+>title="Visão geral da entrega por push"
 >abstract="A **Visão geral da entrega por push** oferece uma visão geral abrangente da sua entrega por push, fornecendo insights extensos e dados específicos. Ela fornece informações abrangentes sobre o desempenho, a eficácia e os resultados da sua entrega."
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com as mensagens de push.
@@ -91,7 +91,7 @@ O relatório **Estatísticas gerais** apresenta dados das notificações enviada
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Estatísticas gerais de push"
+>title="Exclusões por push"
 >abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário excluídos dos perfis direcionados de receber a mensagem."
 
 O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que impediram os perfis de usuário excluídos dos perfis direcionados de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
