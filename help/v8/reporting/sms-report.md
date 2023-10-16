@@ -4,10 +4,10 @@ title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 38%
+source-wordcount: '513'
+ht-degree: 33%
 
 ---
 
@@ -71,7 +71,7 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Estatísticas gerais de push"
+>title="Estatísticas gerais de SMS"
 >abstract="O relatório **Estatísticas gerais** apresenta dados do SMS enviado: sucesso, erros e quarentenas."
 
 A variável **Estatísticas gerais** O relatório apresenta dados para as mensagens SMS enviadas. As métricas estão detalhadas abaixo.
@@ -92,7 +92,7 @@ A variável **Estatísticas gerais** O relatório apresenta dados para as mensag
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Estatísticas gerais de SMS"
+>title="Exclusões de SMS"
 >abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário excluídos dos perfis direcionados de receber a mensagem."
 
 
@@ -104,9 +104,9 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Menu da taxa de transferência de entrega"
->abstract="O relatório de taxa de transferência de entrega apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado."
+>title="Taxa de transferência de delivery de SMS"
+>abstract="A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado.  A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
 
-Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
+Este relatório apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
 ![](assets/reporting_sms_2.png)
