@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 35%
+ht-degree: 50%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportar"
->abstract="Clique em **Exportar** botão para exportar essas métricas para formatos PDF ou CSV, o que permite compartilhá-las ou imprimi-las. "
+>abstract="Clique em **Exportar** para exportar essas métricas nos formatos PDF ou CSV, o que permite compartilhá-las ou imprimi-las. "
 
 O Adobe Campaign oferece vários tipos de relatórios, acessíveis para cada entrega. Esses relatórios permitem medir e visualizar o impacto e o desempenho de suas mensagens em um painel integrado.
 
@@ -51,5 +51,5 @@ Para exibir os relatórios, siga estas etapas:
 A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 
 * [Relatórios de entrega de email](email-report.md)
-* [Relatórios de entrega de SMS](sms-report.md)
-* [Relatórios do delivery por push](push-report.md)
+* [Relatórios de entrega por SMS](sms-report.md)
+* [Relatórios de entrega por push](push-report.md)
