@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 97%
+source-wordcount: '1204'
+ht-degree: 89%
 
 ---
 
@@ -154,6 +154,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
 <!-- FOR GA -->
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
@@ -216,3 +226,205 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Visualização das ofertas dos destinatários"
 >abstract="A confirmar"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Modelo de entrega de assinaturas"
+>abstract="A confirmar"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="Landing pages"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="Propriedades das páginas de destino"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="Páginas de destino"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="Programação de páginas de destino"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Página principal das Landing Pages"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Assinatura das páginas de destino"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="Chamada para ação das Páginas de aterrissagem"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Simular Landing Pages"
+>abstract="A confirmar"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="Atividade não editável"
+>abstract="A confirmar"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Fragmentos"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Salvamento de fragmentos"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Criação de fragmentos"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Propriedades dos fragmentos"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Tipo de fragmentos"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Lista de fragmentos"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Detalhes dos fragmentos"
+>abstract="A confirmar"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Modelo de conteúdo"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Propriedades do modelo de conteúdo"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="Design do modelo de conteúdo"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Seleção do modelo de conteúdo"
+>abstract="A confirmar"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="Atividade Carregar arquivo"
+>abstract="A confirmar"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="Atividade de reconciliação"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="Direcionamento de reconciliação"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="Regras de reconciliação"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="Dimensão de direcionamento de reconciliação"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="Campo de seleção de reconciliação"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="Reconciliação - selecionar atributo"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="Condição de criação de reconciliação"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="Reconciliação gerou complemento"
+>abstract="A confirmar"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="Filtro de salvamento de conteúdo condicional"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="Filtro de seleção de conteúdo condicional"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="Conteúdo condicional na linha de assunto"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="Condição da linha de assunto do conteúdo condicional"
+>abstract="A confirmar"
+
