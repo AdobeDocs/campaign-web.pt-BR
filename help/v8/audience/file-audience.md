@@ -4,10 +4,10 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Visualizar seu arquivo"
->abstract="Verifique a visualização do arquivo. Essa tela mostra um máximo de 30 registros."
+>abstract="Verifique a visualização do arquivo. Esta tela só mostra até 30 registros."
 
 
 
