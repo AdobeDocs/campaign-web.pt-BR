@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -58,7 +58,7 @@ Consulte esta [seção](channels.md).
 
 As atividades a seguir são específicas para organizar e executar fluxos de trabalho. Sua principal tarefa é coordenar as outras atividades:
 
-* A variável [Scheduler](scheduler.md) A atividade permite programar quando o workflow será iniciado.
+* A atividade [Scheduler](scheduler.md) permite programar quando o fluxo de trabalho será iniciado.
 * A atividade [AND-join](and-join.md) permite sincronizar várias ramificações de execução de um fluxo de trabalho.
 * A atividade **Fim** permite marcar graficamente o final de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional.
 * A atividade [Bifurcação](fork.md) permite criar transições de saída para iniciar várias atividades ao mesmo tempo.

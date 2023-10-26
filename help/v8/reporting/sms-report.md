@@ -100,7 +100,7 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos 
 
 ![](assets/reporting_sms_6.png)
 
-## Taxa de transferência de delivery {#delivery-throughput}
+## Taxa de transferência de entrega {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"

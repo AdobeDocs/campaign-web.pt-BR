@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Monitorar e gerenciar públicos
+title: Monitorar e gerenciar públicos-alvo
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# Monitorar e gerenciar públicos {#monitor}
+# Monitorar e gerenciar públicos-alvo {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

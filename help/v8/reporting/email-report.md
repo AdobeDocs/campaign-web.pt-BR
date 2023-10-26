@@ -87,13 +87,13 @@ O gráfico e a tabela **[!UICONTROL Causas de exclusão]** mostram o detalhament
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL User unknown]** : Tipo de erro gerado durante o delivery para indicar que o endereço de email é inválido.
+* **[!UICONTROL User unknown]** : Tipo de erro gerado durante a entrega para indicar que o endereço de email é inválido.
 
-* **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar um delivery para indicar que o domínio do endereço de email está errado ou não existe.
+* **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar uma entrega para indicar que o domínio do endereço de email está errado ou não existe.
 
 * **[!UICONTROL Caixa de entrada cheia]**: Tipo de erro gerado após cinco tentativas de delivery para indicar que a caixa de entrada dos recipients contém muitas mensagens.
 
-* **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar um delivery para indicar que o endereço não existe mais.
+* **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar uma entrega para indicar que o endereço não existe mais.
 
 * **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
 
@@ -103,11 +103,11 @@ O gráfico e a tabela **[!UICONTROL Causas de exclusão]** mostram o detalhament
 
 +++
 
-## Taxa de transferência de delivery {#delivery-throughtput}
+## Taxa de transferência de entrega {#delivery-throughtput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Taxa de transferência de delivery"
+>title="Taxa de transferência de entrega"
 >abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
@@ -160,13 +160,13 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL User unknown]** : Tipo de erro gerado durante o delivery para indicar que o endereço de email é inválido.
+* **[!UICONTROL User unknown]** : Tipo de erro gerado durante a entrega para indicar que o endereço de email é inválido.
 
-* **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar um delivery para indicar que o domínio do endereço de email está errado ou não existe.
+* **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar uma entrega para indicar que o domínio do endereço de email está errado ou não existe.
 
 * **[!UICONTROL Caixa de entrada cheia]**: Tipo de erro gerado após cinco tentativas de delivery para indicar que a caixa de entrada dos recipients contém muitas mensagens.
 
-* **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar um delivery para indicar que o endereço não existe mais.
+* **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar uma entrega para indicar que o endereço não existe mais.
 
 * **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
 
@@ -253,9 +253,9 @@ A variável **[!UICONTROL Índice de click-through e aberturas]** A tabela exibe
 
 * **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 
-* **[!UICONTROL Clicks]**: Número de recipients alvos distintos que clicaram no mesmo delivery pelo menos uma vez.
+* **[!UICONTROL Clicks]**: Número de recipients alvos distintos que clicaram na mesma entrega pelo menos uma vez.
 
-* **[!UICONTROL Raw reactivity]**: Porcentagem do número de recipients que clicaram em um delivery pelo menos uma vez em comparação ao número de recipients que abriram um delivery pelo menos uma vez.
+* **[!UICONTROL Raw reactivity]**: Porcentagem do número de recipients que clicaram em uma entrega pelo menos uma vez em comparação ao número de recipients que abriram uma entrega pelo menos uma vez.
 +++
 
 ## Fluxos de clique e URLs {#url-email}
@@ -272,13 +272,13 @@ O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores princi
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
+* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em uma entrega em relação ao número estimado de recipients alvos que abriram uma entrega.
 
 * **[!UICONTROL Cliques distintos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
+* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
 
-* **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para deliveries enviados nos seis meses anteriores. Somente os deliveries com a mesma tipologia e no mesmo canal são considerados. Provas são excluídas.
+* **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para entregas enviadas nos seis meses anteriores. Somente as entregas com a mesma tipologia e no mesmo canal são consideradas. Provas são excluídas.
 
 +++
 
@@ -297,7 +297,7 @@ A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela co
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
+* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
 
 * **[!UICONTROL Porcentagem]**: Porcentagem de usuários que interagiram com o delivery.
 
@@ -329,7 +329,7 @@ A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalh
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
+* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
 
 * **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 
@@ -348,7 +348,7 @@ O gráfico **[!UICONTROL Estatísticas de rastreamento]** fornece estatísticas 
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nos deliveries.
+* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
 
 * **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 

@@ -19,9 +19,9 @@ No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um pú
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Recipients"
->abstract="Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de deliveries (emails, SMS). Nessa lista, é possível exibir o perfil do recipient com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos do recipient."
+>abstract="Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de entregas (emails, SMS). Nessa lista, é possível exibir o perfil do recipient com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos do recipient."
 
-Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de deliveries (emails, SMS etc.). Os dados do recipient armazenados no banco de dados permitem criar públicos-alvo que receberão qualquer entrega e adicionar dados de personalização ao conteúdo de entrega. Outros tipos de perfis são armazenados no banco de dados. Eles foram projetados para diferentes usos: por exemplo, perfis iniciais são feitos para testar suas entregas antes que elas sejam enviadas ao público final.
+Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de entregas (emails, SMS etc.). Os dados do recipient armazenados no banco de dados permitem criar públicos-alvo que receberão qualquer entrega e adicionar dados de personalização ao conteúdo de entrega. Outros tipos de perfis são armazenados no banco de dados. Eles foram projetados para diferentes usos: por exemplo, perfis iniciais são feitos para testar suas entregas antes que elas sejam enviadas ao público final.
 
 Os recipients só podem ser adicionados do console do cliente do Campaign. No entanto, elas estão visíveis na Web do Campaign, no **Destinatários** entrada do painel de navegação esquerdo. Também é possível editar os atributos do recipient nessa tela.
 
@@ -84,10 +84,10 @@ Você também pode usar outros target mappings integrados nos workflows e delive
 |---|---|---|
 | Recipients | Entregar aos destinatários (tabela de destinatários integrada) | nms:recipient |
 | Visitantes | Enviar delivery aos visitantes cujos perfis foram coletados por meio de referência (marketing viral), por exemplo. | mns:visitor |
-| Subscrições | Enviar delivery aos recipients que assinam um serviço de informações, como um boletim informativo | nms:subscription |
-| Assinaturas do visitante | Enviar delivery aos visitantes que são inscritos em um serviço de informações | nms:visitorSub |
-| Operadores | Enviar delivery aos operadores do Adobe Campaign | nms:operator |
-| Arquivo externo | Enviar delivery por meio de um arquivo que contenha todas as informações necessárias para o delivery | Nenhum schema vinculado, nenhum target inserido |
+| Subscrições | Entregar aos recipients que assinam um serviço de informações, como um boletim informativo | nms:subscription |
+| Assinaturas do visitante | Entregar aos visitantes que são inscritos em um serviço de informações | nms:visitorSub |
+| Operadores | Entregar aos operadores do Adobe Campaign | nms:operator |
+| Arquivo externo | Entregar por meio de um arquivo que contenha todas as informações necessárias para a entrega | Nenhum schema vinculado, nenhum target inserido |
 | Aplicativos de assinante | Enviar delivery aos recipients que assinaram um aplicativo | nms:appSubscriptionRcp |
 
 Além disso, você pode criar um novo target mapping dependendo das suas necessidades. Isso é executado no console do cliente. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

@@ -105,6 +105,6 @@ A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relat
 
 * **[!UICONTROL Total de cliques]**: Número total de cliques nos links nos deliveries.
 
-* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
+* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em uma entrega em relação ao número estimado de recipients alvos que abriram uma entrega.
 
 +++

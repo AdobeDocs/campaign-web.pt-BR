@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Criar públicos
+title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
@@ -11,7 +11,7 @@ ht-degree: 11%
 
 ---
 
-# Criar públicos {#create-audiences}
+# Criar públicos-alvo {#create-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

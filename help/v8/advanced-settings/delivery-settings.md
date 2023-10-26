@@ -155,7 +155,7 @@ Saiba mais sobre o Web Analytics e o Campaign em [Documentação do Campaign v8 
 >title="Número máximo de tentativas"
 >abstract="Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas até o fim da duração da entrega."
 
-As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia do delivery, com um intervalo mínimo de uma hora distribuído pelas 24 horas do dia.
+As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia da entrega, com um intervalo mínimo de uma hora distribuído pelas 24 horas do dia.
 
 Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 

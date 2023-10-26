@@ -3,8 +3,8 @@ audience: end-user
 title: Criar uma entrega de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
 badge: label="Beta"
-exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 72%

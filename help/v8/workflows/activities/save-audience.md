@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Salvar público
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 8%
 
 ---
-
 
 # Salvar público-alvo {#save-audience}
 
@@ -52,5 +52,3 @@ O conteúdo do público-alvo salvo ficará disponível na visualização detalha
 ## Exemplo{#save-audience-example}
 
 O exemplo a seguir ilustra uma simples atualização de público-alvo do direcionamento. Um scheduler é adicionado para executar o workflow uma vez por mês. Uma consulta recupera todos os perfis que fizeram assinatura nos diferentes serviços de aplicativo disponíveis. A variável **Salvar público-alvo** A atividade atualiza o público-alvo excluindo os perfis que cancelaram a assinatura do serviço desde a última execução do fluxo de trabalho e adicionando os perfis que fizeram assinatura recentemente.
-
-

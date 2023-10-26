@@ -99,7 +99,7 @@ O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que 
 
 ![](assets/reporting_push_6.png)
 
-## Taxa de transferência de delivery {#delivery-throughput}
+## Taxa de transferência de entrega {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"

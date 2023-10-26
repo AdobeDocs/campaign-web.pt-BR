@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Combinar
 description: Saiba como usar a atividade de fluxo de trabalho Combinar
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 85%
 
 ---
-
 
 # Combinar {#combine}
 
@@ -118,5 +118,3 @@ O exemplo a seguir mostra a **interseção** entre duas atividades de consulta. 
 O exemplo de **exclusão** a seguir mostra duas consultas configuradas para filtrar perfis com idade entre 18 e 27 anos e que possuem um domínio de email Adobe. Os perfis com um domínio de email inválido são excluídos do primeiro conjunto.
 
 ![](../assets/workflow-exclusion-example.png)
-
-

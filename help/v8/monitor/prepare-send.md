@@ -138,7 +138,7 @@ Se o delivery estiver agendado ou não, duas ações podem ser executadas a qual
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Métricas enviadas"
->abstract="Número total de mensagens processadas durante a análise de delivery."
+>abstract="Número total de mensagens processadas durante a análise de entrega."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=pt-BR" text="Entenda os KPIs"
 
 

@@ -8,13 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
+exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
 ---
-
 
 # Introdução a conteúdo dinâmico {#gs-dynamic-content}
 
@@ -29,7 +29,7 @@ Os recursos de conteúdo dinâmico do Adobe Campaign Web permitem personalizar o
 
 ## Como tornar seu conteúdo dinâmico? {#make-content-dyn}
 
-Você pode tornar o conteúdo da mensagem dinâmico inserindo construções JavaScript no editor de expressão do Campaign Web. No envio da mensagem, essas expressões são interpretadas pelo Adobe Campaign para fornecer o conteúdo correto a cada um dos destinatários:
+Você pode tornar o conteúdo da mensagem dinâmico inserindo construções JavaScript no editor de expressão do Campaign Web. No envio da mensagem, essas expressões são interpretadas pelo Adobe Campaign para entregar o conteúdo correto a cada um dos destinatários:
 
 * **Personalizar suas mensagens** para cada destinatário específico aproveitando dados de perfil, como nome, interesses, onde vive, o que comprou e muito mais. É possível selecionar qualquer campo disponível no banco de dados do editor de personalização relacionado ao destinatário, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. A sintaxe a seguir insere a cidade do destinatário no conteúdo: &lt;%= recipient.location.city %>.
 

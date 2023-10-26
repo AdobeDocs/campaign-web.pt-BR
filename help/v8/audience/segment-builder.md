@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -59,7 +59,7 @@ No lado direito, a variável **Propriedades da regra** permite executar as açõ
 
   >[!IMPORTANT]
   >
-  >Nessa versão do produto, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-las. [Saiba mais](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >Nessa versão do produto, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-los. [Saiba mais](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **Atributos**: exibe uma descrição do público criado.
 

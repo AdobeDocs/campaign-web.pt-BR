@@ -3,13 +3,13 @@ audience: end-user
 title: Gerenciamento de permissões no Campaign Web
 description: Saiba mais sobre permissões no Campaign Web v8
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Acesso e permissões {#access-and-permissions}
 
@@ -101,4 +101,3 @@ Para criar uma pasta, siga estas etapas:
    A pasta é adicionada como uma subpasta da pasta atual. Navegue até essa nova pasta para criar componentes diretamente a partir dela. Você também pode criar um componente a partir de qualquer pasta e salvá-lo nessa nova pasta, por meio da seção **Opções adicionais** das propriedades, conforme o exemplo de entrega abaixo:
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-
