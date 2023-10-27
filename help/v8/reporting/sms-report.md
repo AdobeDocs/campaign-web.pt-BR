@@ -7,7 +7,7 @@ exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 33%
+ht-degree: 44%
 
 ---
 
@@ -72,7 +72,7 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
 >title="Estatísticas gerais de SMS"
->abstract="O relatório **Estatísticas gerais** apresenta dados do SMS enviado: sucesso, erros e quarentenas."
+>abstract="O relatório **Estatísticas gerais** apresenta dados dos SMS enviados: sucesso, erros e quarentenas."
 
 A variável **Estatísticas gerais** O relatório apresenta dados para as mensagens SMS enviadas. As métricas estão detalhadas abaixo.
 
@@ -93,7 +93,7 @@ A variável **Estatísticas gerais** O relatório apresenta dados para as mensag
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="Exclusões de SMS"
->abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário excluídos dos perfis direcionados de receber a mensagem."
+>abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem."
 
 
 A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
@@ -104,9 +104,9 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Taxa de transferência de delivery de SMS"
->abstract="A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado.  A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
+>title="Taxa de transferência de entrega de SMS"
+>abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência da entrega em um período especificado.  A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
 
-Este relatório apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
+Este relatório apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
 ![](assets/reporting_sms_2.png)

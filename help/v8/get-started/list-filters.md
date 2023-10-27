@@ -7,7 +7,7 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
@@ -66,22 +66,22 @@ O princípio operacional do criador de regras para filtros personalizados é sem
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Exibir atributos avançados"
->abstract="Somente os atributos mais comuns são exibidos por padrão na lista de atributos. Ativar o **Exibir atributos avançados** alterne para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1, links 1-N."
+>abstract="Por padrão, somente os atributos mais comuns são exibidos na lista de atributos. Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campos avançados do construtor de regras"
->abstract="Somente os atributos mais comuns são exibidos por padrão na lista de atributos. Ativar o **Exibir atributos avançados** alterne para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1, links 1-N."
+>abstract="Por padrão, somente os atributos mais comuns são exibidos na lista de atributos. Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avançados do construtor de regras"
->abstract="Somente os atributos mais comuns são exibidos por padrão na lista de atributos. Ativar o **Exibir atributos avançados** alterne para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1, links 1-N."
+>abstract="Por padrão, somente os atributos mais comuns são exibidos na lista de atributos. Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N."
 
 
 Por padrão, somente os atributos mais comuns são exibidos nas telas de configuração de filtro e lista de atributos. Os atributos que foram definidos como atributos `advanced` no esquema de dados, estão ocultos nas telas de configuração.
 
-Ativar o **Exibir atributos avançados** alterne para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1, links 1-N. A lista de atributos é atualizada instantaneamente.
+Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N. A lista de atributos é atualizada instantaneamente.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}

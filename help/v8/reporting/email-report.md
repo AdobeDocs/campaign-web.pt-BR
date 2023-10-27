@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -77,7 +77,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o suces
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Causas de exclusão de delivery"
+>title="Causas de exclusão de entrega"
 >abstract="O gráfico e a tabela **Causas de exclusão** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega."
 
 
@@ -110,7 +110,7 @@ O gráfico e a tabela **[!UICONTROL Causas de exclusão]** mostram o detalhament
 >title="Taxa de transferência de entrega"
 >abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado."
 
-Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A métrica primária usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
+Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 
