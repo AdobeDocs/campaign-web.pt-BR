@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 82%
+source-wordcount: '1376'
+ht-degree: 83%
 
 ---
 
@@ -32,24 +32,14 @@ Navegue pelos links à esquerda para acessar os recursos do Campaign Web v8. Vá
 Esta tela inclui links e recursos importantes para um acesso rápido aos principais recursos do Campaign Web v8.
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="Recentes"
 >abstract="A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação."
 
-#### Acessar deliveries recentes {#user-interface-recent}
-
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação. Clique em **Mostrar mais** link para carregar mais deliveries.
-
-#### Verificar métricas principais {#user-interface-kpi}
 
 Os **indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns. Saiba mais sobre esses KPIs [nesta página](../reporting/kpis.md).
 
-#### Acessar documentação {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="Aprendizado"
->abstract="Acesse as páginas de ajuda principais da Web do Campaign v8 na **Aprendizado** abaixo."
 
 Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
 

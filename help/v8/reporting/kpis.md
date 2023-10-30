@@ -3,7 +3,7 @@ title: Indicadores-chave de desempenho
 description: Saiba como entender os indicadores principais de desempenho
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 97%
@@ -13,7 +13,7 @@ ht-degree: 97%
 # Indicadores-chave de desempenho {#kpis}
 
 >[!CONTEXTUALHELP]
->id="acw_home_kpi"
+>id="acw_homepage_kpi"
 >title="Indicadores principais de desempenho"
 >abstract="A variável **Indicadores-chave de desempenho** permite verificar a eficácia da plataforma por meio de KPIs comuns."
 
