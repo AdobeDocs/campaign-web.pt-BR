@@ -4,20 +4,20 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Documentação do Adobe Campaign Web v8 {#campaign-documentation}
 
-![](assets/do-not-localize/banner-documentationv8.png)
+<!--![](assets/do-not-localize/banner-documentationv8.png)-->
 
 O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform. [Saiba mais](get-started/get-started.md)
 
->A Web do Campaign v8 está atualmente na versão Beta. O acesso é restrito a um pequeno conjunto de clientes Beta. Observe que a interface do produto, os recursos e os fluxos de uso podem mudar sem aviso prévio. [Saiba mais](rn/whats-new.md)
+>O Campaign Web v8 está atualmente na versão beta. O acesso é restrito a um pequeno conjunto de clientes beta. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio. [Saiba mais](rn/whats-new.md)
 
 ## Novos recursos do Campaign Web
 
