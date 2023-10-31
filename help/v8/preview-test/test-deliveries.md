@@ -4,9 +4,9 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
+source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1146'
 ht-degree: 12%
 
 ---
@@ -79,6 +79,10 @@ Os perfis de teste são seed addresses, que são recipients adicionais no banco 
    ![](assets/simulate-profile-mode.png)
 
 1. Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de teste. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
+
+   >[!NOTE]
+   >
+   >Os perfis de teste são criados no [!DNL Campaign] console do cliente na **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba como criar e gerenciar seed addresses no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
 1. Para enviar também a mensagem final aos recipients do delivery de teste, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
 
