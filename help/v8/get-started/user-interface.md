@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -258,18 +258,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Páginas de destino"
->abstract="Páginas de destino"
+>title="Páginas das páginas de destino"
+>abstract="Páginas das páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Programação de páginas de destino"
->abstract="Programação de páginas de destino"
+>title="Programação das páginas de destino"
+>abstract="Programação das páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="Página principal das Landing Pages"
->abstract="Página principal das Landing Pages"
+>title="Página principal das páginas de destino"
+>abstract="Página principal das páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
@@ -278,13 +278,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="Chamada para ação das Páginas de aterrissagem"
->abstract="Chamada para ação das Páginas de aterrissagem"
+>title="Chamada para ação das páginas de destino"
+>abstract="Chamada para ação das páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simular Landing Pages"
->abstract="Simular Landing Pages"
+>title="Simulação de páginas de destino"
+>abstract="Simulação de páginas de destino"
 
 
 
@@ -304,8 +304,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
->title="Salvamento de fragmentos"
->abstract="Salvamento de fragmentos"
+>title="Salvar fragmentos"
+>abstract="Salvar fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
@@ -329,8 +329,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
->title="Detalhes dos fragmentos"
->abstract="Detalhes dos fragmentos"
+>title="Detalhes de fragmentos"
+>abstract="Detalhes de fragmentos"
 
 
 
@@ -397,8 +397,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
->title="Reconciliação - selecionar atributo"
->abstract="Reconciliação - selecionar atributo"
+>title="Atributo de seleção de reconciliação"
+>abstract="Atributo de seleção de reconciliação"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
@@ -407,8 +407,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="Reconciliação gerou complemento"
->abstract="Reconciliação gerou complemento"
+>title="Complemento de geração de reconciliação"
+>abstract="Complemento de geração de reconciliação"
 
 
 
@@ -439,8 +439,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
->title="Propriedades do público-alvo"
->abstract="Propriedades do público-alvo"
+>title="Propriedades de público-alvo"
+>abstract="Propriedades de público-alvo"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"

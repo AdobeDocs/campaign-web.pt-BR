@@ -6,7 +6,7 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Esta coleção de pessoas pode ser gerada, selecionada ou carregada [conforme detalhado abaixo](#audiences). Na maioria dos casos comuns, o público-alvo é composto de perfis, que são armazenados como [recipients](#recipients) no Adobe Campaign. Também é possível trabalhar com outros target mappings alterando a dimensão conforme explicado [nesta seção](#targeting-dimensions).
 
-## O que são recipients? {#recipients}
+## O que são destinatários? {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

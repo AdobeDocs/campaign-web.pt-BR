@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -49,7 +49,7 @@ O monitoramento da campanha é uma etapa essencial para analisar a eficácia da 
 Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
 
 
-## Definir o agendamento da campanha {#campaign-schedule}
+## Definir a programação da campanha {#campaign-schedule}
 
 
 >[!CONTEXTUALHELP]

@@ -22,7 +22,7 @@ Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-l
 
 Para detectar possíveis erros nas configurações de conteúdo ou personalização da mensagem, envie mensagens de teste para perfis de teste antes de enviá-la para o público-alvo de destino. Uma mensagem de teste deve ser enviada sempre que uma alteração for feita, para validar o conteúdo mais recente. O envio de deliveries de teste (anteriormente conhecidos como &quot;provas&quot;) é uma etapa importante para validar sua campanha e identificar possíveis problemas. Os recipients de uma mensagem de teste podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
 
-## Simular conteúdo com recipients de teste {#simulate-content-test-deliveries}
+## Simular conteúdo com destinatários de teste {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

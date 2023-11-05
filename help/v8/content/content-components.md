@@ -7,11 +7,11 @@ badge: label="Beta"
 source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
 workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
-# Usar o Conteúdo do designer de email {#content-components}
+# Usar o conteúdo do Designer de email {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

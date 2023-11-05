@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
@@ -370,7 +370,7 @@ Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas 
 ![](assets/reporting_email_13.png){align="center"}
 
 
-### Detalhamento de aberturas por SO {#breakdown-opens-os}
+### Detalhamento de aberturas por sistema operacional {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"

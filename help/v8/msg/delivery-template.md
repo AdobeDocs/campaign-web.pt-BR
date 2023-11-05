@@ -42,7 +42,7 @@ Um modelo pode incluir:
 >Os modelos de entrega são diferentes de [modelos de conteúdo](../content/email-sample-templates.md), que permitem começar a criar o conteúdo com um dos modelos de email fornecidos prontos para uso.
 
 
-## Acessar e gerenciar modelos do delivery {#access-manage-templates}
+## Acessar e gerenciar modelos de entrega {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"

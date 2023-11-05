@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -23,7 +23,7 @@ Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agenda
 
 Com base em uma configuração [modelo de design](../content/email-sample-templates.md), o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
 
-## Criar o delivery de email {#create-email}
+## Criar a entrega de email {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"

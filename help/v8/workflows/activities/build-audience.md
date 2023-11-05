@@ -7,7 +7,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -35,7 +35,7 @@ Para definir o público-alvo, você pode:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configurar a atividade Criar público{#build-audience-configuration}
+## Configurar a atividade Criar público-alvo{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
