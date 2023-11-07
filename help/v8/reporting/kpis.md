@@ -3,10 +3,10 @@ title: Principais indicadores de desempenho
 description: Saiba como entender os indicadores principais de desempenho
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 97%
+source-wordcount: '936'
+ht-degree: 92%
 
 ---
 
@@ -93,6 +93,10 @@ Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingS
 >id="acw_keyindicators_unsubscriptions"
 >title="Unsubscriptions"
 >abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os unsubscriptions de um serviço e a porcentagem de unsubscriptions em comparação ao número total de mensagens entregues com sucesso."
+
+>[!NOTE]
+>
+> Os KPIs de assinatura e cancelamento de assinatura variam de acordo com o tipo de serviço. Por exemplo, as assinaturas e unsubscriptions por email englobam todos os serviços relacionados a email, sejam eles resultantes de ações manuais ou formulários web. É importante distinguir essa abordagem da métrica de cancelamento de subscrição no nível do delivery, que rastreia os cliques no link de unsubscription em vez de usuários reais com assinatura cancelada.
 
 Os recipients devem poder se desvincular de emails e SMS por meio de um link de unsubscription dedicado no conteúdo do email ou respondendo PARAR a um SMS.
 
