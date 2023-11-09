@@ -1,18 +1,18 @@
 ---
-title: Utilização do Assistente de conhecimento habilitado por IA no Campaign Web
+title: Uso da ajuda contextual habilitada por IA no Campaign Web
 description: Faça perguntas nos popovers da ajuda do Campaign na Web
 badge: label="Alfa"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 88%
+ht-degree: 47%
 
 ---
 
-# Utilização do Assistente de conhecimento habilitado por IA {#using-ai}
+# Usar a Ajuda contextual habilitada por IA {#using-ai}
 
-Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do seu produto, com o Assistente de conhecimento alimentado por IA de perguntas e respostas disponível nas caixas de ajuda contextual do produto.
+Obtenha respostas rápidas e geradas por IA com base na documentação do produto e no contexto atual do seu produto, com a ajuda contextual baseada em IA de perguntas e respostas disponível nas caixas de ajuda contextual do produto.
 
 >[!CAUTION]
 >
@@ -21,9 +21,9 @@ Obtenha respostas rápidas e geradas por IA com base na documentação do produt
 >Esse recurso só está disponível em **Inglês**. Não há suporte para outros idiomas nesta versão.
 
 
-O **Assistente de conhecimento com IA generativa** incorporado na ajuda contextual revoluciona a pesquisa de documentação e as respostas a perguntas práticas, verificando facilmente vastos repositórios de documentação e identificando instantaneamente as informações exatas de que você precisa.
+A variável **Ajuda contextual com a Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
 
-Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Caso esteja buscando orientação numa tarefa complexa ou navegando por documentos extensos, o Assistente de conhecimento habilitado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+Graças aos recursos do Campaign Gen AI, este componente transforma sua experiência, facilitando a recuperação de informações e a resolução de problemas. Esteja você buscando orientação em uma tarefa complexa ou ao navegar por documentos extensos, a Ajuda contextual alimentada por IA é a sua melhor companheira, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -43,21 +43,21 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Respostas {#answers-ai}
 
-O Assistente de conhecimento habilitado por IA do Adobe Campaign oferece assistência, mas você deve verificar os fatos. O recurso pode produzir informações incorretas e respostas imprecisas ou enganosas. Verifique a documentação do produto que está vinculada em todas as caixas de ajuda.
+A Ajuda contextual fornecida pela IA do Adobe Campaign oferece assistência, mas você deve verificar os fatos. O recurso pode produzir informações incorretas e respostas imprecisas ou enganosas. Verifique a documentação do produto que está vinculada em todas as caixas de ajuda.
 
-Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para atender de forma aprimorada a casos de uso específicos. O Assistente de conhecimento habilitado por IA do Campaign continuará melhorando nos próximos meses. É altamente recomendável o uso dos botões ?? ?? sempre que ler uma resposta para sinalizar quaisquer respostas inadequadas aos nossos engenheiros.
+Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para atender de forma aprimorada a casos de uso específicos. A Ajuda contextual fornecida pela IA do Campaign continuará melhorando nos próximos meses. É altamente recomendável o uso dos botões ?? ?? sempre que ler uma resposta para sinalizar quaisquer respostas inadequadas aos nossos engenheiros.
 
 ## Recomendações  {#recommendations-ai}
 
-Ao fazer uma pergunta no Assistente de conhecimento habilitado por IA, o contexto atual do produto, ou seja, a tela em que você está e o conteúdo da caixa de ajuda atual, é considerado.
+Ao fazer uma pergunta na Ajuda contextual baseada em IA, o contexto atual do produto, ou seja, a tela em que você está e o conteúdo da caixa de ajuda atual, são considerados.
 
 Como consequência, a prática recomendada é fazer perguntas relacionadas ao contexto da interface. Por exemplo, se precisar de informações sobre o envio de uma entrega por push num fluxo de trabalho, navegue até a entrada do menu esquerdo **Fluxo de trabalho** e use uma caixa de ajuda contextual nesse contexto específico. Para saber mais sobre métricas de relatórios, navegue até os relatórios da campanha ou da entrega para começar.
 
 
-Além disso, para aproveitar ao máximo o Assistente de conhecimento habilitado por IA, ao fazer uma pergunta, recomendamos que você:
+Além disso, para aproveitar ao máximo a Ajuda contextual fornecida pela IA, ao fazer uma pergunta, recomendamos que você:
 
 * aja de forma precisa e específica o máximo possível e evite ambiguidades. A resposta será mais precisa e útil.
-* Para ajudar o Assistente de conhecimento habilitado por IA a encontrar as informações corretas, adicione o máximo de detalhes possível sobre o que está tentando se informar.
+* Para ajudar a Ajuda contextual alimentada por IA a encontrar as informações corretas, adicione o máximo de detalhes possível sobre o que você está tentando aprender.
 * Reformule e refine suas perguntas para obter respostas melhores. Se a resposta não for precisa ou útil, tente abordagens diferentes e adicione contexto para obter melhores resultados.
 * Use termos e palavras apropriados, com um tom neutro.
 * Classifique as respostas e forneça feedback para que nossos engenheiros possam aprender com a sua experiência e melhorar os resultados.
