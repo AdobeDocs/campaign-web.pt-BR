@@ -4,7 +4,7 @@ title: Usar a atividade de fluxo de trabalho Salvar público
 description: Saiba como usar a atividade de fluxo de trabalho Bifurcação
 badge: label="Beta"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+source-git-commit: 091775bae73595cb209199b062508931dd3ea315
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 8%
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience"
+>id="acw_orchestration_save_audience"
 >title="Salvar um público-alvo"
 >abstract="Use esta atividade para atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream no fluxo de trabalho. Os públicos-alvo criados são adicionados à lista e disponibilizados pela **Públicos-alvo** menu."
 
