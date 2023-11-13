@@ -6,7 +6,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="Indicadores principais de desempenho"
->abstract="A variável **Indicadores-chave de desempenho** permite verificar a eficácia da plataforma por meio de KPIs comuns."
+>abstract="A seção **Indicadores principais de desempenho** permite verificar a eficiência da plataforma por meio de KPIs comuns."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
