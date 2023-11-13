@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2b0ca0f8f76c53752738078cbdbb1df3710cd931
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1405'
 ht-degree: 97%
 
 ---
@@ -253,38 +253,38 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Propriedades das páginas de destino"
->abstract="Propriedades das páginas de destino"
+>title="Propriedades das páginas de aterrissagem"
+>abstract="Propriedades das páginas de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Páginas das páginas de destino"
->abstract="Páginas das páginas de destino"
+>title="Páginas das páginas de aterrissagem"
+>abstract="Páginas das páginas de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Programação das páginas de destino"
->abstract="Programação das páginas de destino"
+>title="Programação das páginas de aterrissagem"
+>abstract="Programação das páginas de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="Página principal das páginas de destino"
->abstract="Página principal das páginas de destino"
+>title="Página principal das páginas de aterrissagem"
+>abstract="Página principal das páginas de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Assinatura das páginas de destino"
->abstract="Assinatura das páginas de destino"
+>title="Assinatura das páginas de aterrissagem"
+>abstract="Assinatura das páginas de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="Chamada para ação das páginas de destino"
->abstract="Chamada para ação das páginas de destino"
+>title="Chamada para ação das páginas de aterrissagem"
+>abstract="Chamada para ação das páginas de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simulação de páginas de destino"
->abstract="Simulação de páginas de destino"
+>title="Simulação de páginas de aterrissagem"
+>abstract="Simulação de páginas de aterrissagem"
 
 
 
@@ -367,13 +367,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Atividade de reconciliação"
->abstract="Atividade de reconciliação"
+>abstract="Use o **Reconciliação** atividade para vincular dados não identificados aos recursos existentes."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -387,8 +384,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
->title="Dimensão de direcionamento de reconciliação"
->abstract="Dimensão de direcionamento de reconciliação"
+>title="Dimensão de targeting dimension"
+>abstract="Dimensão de targeting dimension"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
