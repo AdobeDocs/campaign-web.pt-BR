@@ -46,7 +46,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 +++
 
 
-### População direcionada  {#sms-delivery-targeted-population}
+### População direcionada {#sms-delivery-targeted-population}
 
 
 >[!CONTEXTUALHELP]
@@ -66,7 +66,7 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 +++
 
 
-### Estatísticas gerais  {#sms-delivery-overall}
+### Estatísticas gerais {#sms-delivery-overall}
 
 
 >[!CONTEXTUALHELP]

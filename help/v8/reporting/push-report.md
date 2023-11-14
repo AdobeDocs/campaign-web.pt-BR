@@ -45,7 +45,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 +++
 
-### População direcionada  {#push-delivery-targeted-population}
+### População direcionada {#push-delivery-targeted-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
@@ -64,7 +64,7 @@ O gráfico e a tabela **População direcionada** exibem dados relativos ao púb
 
 +++
 
-### Estatísticas gerais  {#push-delivery-overall}
+### Estatísticas gerais {#push-delivery-overall}
 
 
 >[!CONTEXTUALHELP]

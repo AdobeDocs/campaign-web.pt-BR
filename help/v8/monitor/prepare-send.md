@@ -113,7 +113,7 @@ Se o delivery estiver agendado ou não, duas ações podem ser executadas a qual
 
 ![](assets/email-send-pause-or-stop.png)
 
-## Verifique os KPIs  {#check-kpis}
+## Verifique os KPIs {#check-kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
