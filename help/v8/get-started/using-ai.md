@@ -1,12 +1,12 @@
 ---
 title: Uso da ajuda contextual habilitada por IA no Campaign Web
-description: Faça perguntas nos popovers da ajuda do Campaign na Web
+description: Insira suas perguntas nos popovers de ajuda do Campaign Web
 badge: label="Alfa"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ Obtenha respostas rápidas e geradas por IA com base na documentação do produt
 >
 >Esse recurso está disponível na versão alfa e está sujeito a alterações sem aviso prévio.
 >
->Esse recurso só está disponível em **Inglês**. Não há suporte para outros idiomas nesta versão.
+>Esse recurso só está disponível em **inglês**. Não há suporte para outros idiomas nesta versão.
 
 
 A variável **Ajuda contextual com a Gen AI** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
