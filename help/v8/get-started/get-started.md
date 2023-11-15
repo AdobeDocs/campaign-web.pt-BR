@@ -5,9 +5,9 @@ description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
 source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Se você precisar acessar os recursos do Campaign v8 que não estão disponívei
 >
 >O Campaign Web v8 está atualmente na versão beta. O acesso é restrito a um pequeno conjunto de clientes beta. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
 
-Saiba como se conectar ao Adobe Campaign Web em [esta página](connect-to-campaign.md).
+Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign.md).
 
 ## Sobre o console do cliente do Campaign {#ac-client}
 

@@ -4,9 +4,9 @@ description: Medidas de proteção e limitações na interface do Campaign Web
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ O posicionamento dos nós é atualizado sempre que uma atividade é adicionada o
 >title="Este filtro é somente leitura"
 >abstract="Alguns filtros predefinidos não estão disponíveis na interface dessa versão do produto. Esses filtros são marcados como somente leitura. Mesmo que não seja possível visualizar a representação gráfica da consulta no construtor de regras e editar o filtro, você ainda poderá usá-lo e ver as condições de filtragem na seção **Atributos** da tela."
 
-Ao selecionar o público-alvo de uma entrega ou criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estarão disponíveis na interface, nessa versão do produto. Esses filtros são marcados como somente leitura.
+Ao selecionar o público-alvo de uma entrega ou criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estarão disponíveis na interface nessa versão do produto. Esses filtros são marcados como somente leitura.
 
 Uma mensagem de erro específica é exibida.
 

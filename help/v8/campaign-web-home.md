@@ -5,7 +5,7 @@ title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beta"
 source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
 ht-degree: 100%
 
