@@ -7,7 +7,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 091775bae73595cb209199b062508931dd3ea315
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="Salvar um público-alvo"
->abstract="Use esta atividade para atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream no fluxo de trabalho. Os públicos-alvo criados são adicionados à lista e disponibilizados pela **Públicos-alvo** menu."
+>abstract="Use esta atividade para atualizar um público-alvo já existente ou criar um novo a partir da população calculada upstream em um fluxo de trabalho. Os públicos-alvo criados são adicionados à lista de públicos-alvo e disponibilizados no menu **Públicos-alvo**."
 
 
 A variável **Salvar público-alvo** a atividade é um **Direcionamento** atividade. Esta atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados por meio do **Públicos-alvo** menu.

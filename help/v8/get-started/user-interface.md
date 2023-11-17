@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -370,7 +370,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Atividade de reconciliação"
->abstract="Use o **Reconciliação** atividade para vincular dados não identificados aos recursos existentes."
+>abstract="Use a atividade **Reconciliação** para vincular dados não identificados aos recursos existentes."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
