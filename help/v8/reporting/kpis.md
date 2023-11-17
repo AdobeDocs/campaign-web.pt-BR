@@ -3,10 +3,10 @@ title: Principais indicadores de desempenho
 description: Saiba como entender os indicadores principais de desempenho
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 83%
+source-wordcount: '1196'
+ht-degree: 73%
 
 ---
 
@@ -141,3 +141,23 @@ O indicador **Erros** mostra os seguintes KPIs para cada canal:
 * Porcentagem do número de erros em comparação ao número total de mensagens a serem entregues.
 
 * Número total de erros acumulados durante as entregas e o processamento automático de reassociação.
+
+## Mensagem enviada {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Enviado"
+>abstract="Essa métrica mostra, para o canal de correspondência direta, a soma de todas as mensagens enviadas e a porcentagem de mensagens enviadas ao provedor, em comparação ao número total de mensagens preparadas durante a fase de preparação do delivery."
+
+Durante a fase de preparação, o arquivo de extração de correspondência direta é gerado, mas as informações relacionadas aos recipients (ou seja, logs do delivery) não são atualizadas.  O status de um delivery movido de Pending delivery para Sent quando o usuário do Campaign confirma o envio do delivery. Em seguida, o delivery é definido como Finished.
+
+Nunca pode ser 100% das mensagens enviadas em comparação ao total de mensagens preparadas, pois alguns endereços podem estar ausentes ou incompletos.
+
+A variável **Enviado** O indicador mostra os seguintes KPIs para o canal de correspondência direta:
+
+* Porcentagem do número de mensagens enviadas em comparação ao número total de mensagens preparadas.
+
+* Soma de todas as mensagens enviadas.
+
