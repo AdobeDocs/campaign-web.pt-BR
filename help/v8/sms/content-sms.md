@@ -4,9 +4,9 @@ title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '175'
 ht-degree: 88%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 88%
 >title="Conteúdo de SMS"
 >abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico."
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="Assinantes do aplicativo"
->abstract="Visualize e teste a mensagem adicionando assinantes do aplicativo ao público-alvo principal."
 
 
 Para projetar o conteúdo de um delivery de SMS, siga estas etapas:

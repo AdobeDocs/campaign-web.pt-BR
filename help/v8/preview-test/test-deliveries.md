@@ -4,10 +4,10 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 12%
+source-wordcount: '1190'
+ht-degree: 11%
 
 ---
 
@@ -69,6 +69,10 @@ Para começar a testar o conteúdo da mensagem:
 >title="Arquivo de modelo"
 >abstract="A formatação do arquivo precisa ser igual à do arquivo original.<br/>Formatos de arquivo compatíveis: txt, csv. Tamanho máximo do arquivo: 15 MB. Usar a primeira linha como cabeçalho da coluna."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Incluir perfis de teste no público principal"
+>abstract="Habilite esta opção para também enviar a mensagem final para os recipients do delivery de teste."
 
 Os perfis de teste são seed addresses, que são recipients adicionais no banco de dados. Eles podem ser criados na variável [!DNL Adobe Campaign] console do cliente. As etapas para enviar mensagens de teste para seed addresses são detalhadas abaixo.
 
@@ -90,7 +94,9 @@ Os perfis de teste são seed addresses, que são recipients adicionais no banco 
 
 ## Substituir dados do perfil {#substitution-profiles}
 
-Use a substituição de perfil para enviar mensagens de teste para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Para fazer isso, siga as etapas abaixo:
+Use a substituição de perfil para enviar mensagens de teste para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
+
+Para substituir os dados do perfil do target principal, siga as etapas abaixo:
 
 
 1. A partir do conteúdo do seu delivery, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Teste]** botão.
@@ -119,9 +125,9 @@ Use a substituição de perfil para enviar mensagens de teste para um endereço 
 
 1. Depois que os perfis de substituição forem selecionados, você poderá [enviar o delivery de teste](#send-test).
 
-## Enviar testes aos assinantes {#subscribers}
+## Enviar testes para assinantes de aplicativos {#subscribers}
 
-Ao trabalhar com notificações por push, os deliveries de teste só podem ser enviados aos assinantes do aplicativo. Para selecioná-los, siga as etapas abaixo.
+Ao criar com notificações por push, os deliveries de teste só podem ser enviados aos assinantes do aplicativo. Para selecioná-los, siga as etapas abaixo.
 
 1. No conteúdo do delivery de push, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Teste]** botão.
 
