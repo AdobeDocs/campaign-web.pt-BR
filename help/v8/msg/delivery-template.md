@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 26%
+source-wordcount: '1047'
+ht-degree: 22%
 
 ---
 
@@ -24,6 +24,7 @@ Para um processo de design acelerado e aprimorado, você pode criar templates do
 
 Um modelo pode incluir:
 
+* A variável **pasta** e **pasta de execução** do modelo. A pasta é o local onde o template do delivery é salvo. A pasta de execução é a pasta onde os deliveries criados com base nesse template são salvos.
 * [Tipologias](../advanced-settings/delivery-settings.md#typology),
 * O endereço do remetente,
 * Um [público](../audience/about-recipients.md), incluindo [grupos de controle](../audience/control-group.md),
@@ -47,9 +48,8 @@ Um modelo pode incluir:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Trabalho com modelos de entrega"
->abstract="Use modelos de entrega para criar e salvar facilmente suas entregas existentes para uso futuro."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR#copy-an-existing-template" text="Duplicação de um modelo já existente"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR#convert-an-existing-delivery" text="Conversão de uma entrega em um modelo"
+>abstract="Use templates do delivery para criar e salvar configurações do delivery para uso futuro em suas campanhas. Você pode criar templates do delivery do zero, duplicar um template existente ou converter um delivery em um template."
+
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Campaign Management]** > **[!UICONTROL Entregas]** no menu esquerdo e navegue até a janela **Modelos** guia.
 
@@ -120,7 +120,7 @@ Qualquer entrega pode ser convertida em um modelo para ações futuras de entreg
 
 Para salvar um delivery como template, siga as etapas abaixo:
 
-1. Vá para a **[!UICONTROL Gerenciamento de campanhas]** > **[!UICONTROL Entregas]** menu.
+1. Navegue até o **[!UICONTROL Gerenciamento de campanhas]** > **[!UICONTROL Entregas]** menu.
 1. No **[!UICONTROL Procurar]** clique na guia **[!UICONTROL Mais ações]** à direita do nome do delivery desejado e selecione **[!UICONTROL Copiar como modelo]**.
 
    ![](assets/templates-convert-delivery.png)
