@@ -4,9 +4,9 @@ title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '694'
 ht-degree: 97%
 
 ---
@@ -39,6 +39,10 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >title="Dividir classificação de atividade"
 >abstract="Ao definir um limite de população para um subconjunto, é possível classificar os perfis selecionados com base em um atributo de perfil específico, em ordem crescente ou decrescente. Para fazer isso, ative a opção **Habilitar classificação**. Por exemplo, é possível restringir um subconjunto para incluir apenas os 50 perfis com o valor de compra mais alto."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Complemento de geração de divisão"
+>abstract="Após configurar todos os subconjuntos, é possível selecionar a população restante que não correspondeu a nenhum dos subconjuntos e incluí-la em uma transição de saída adicional. Para fazer isso, ative a opção **Gerar complemento**."
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
