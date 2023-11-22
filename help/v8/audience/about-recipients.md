@@ -3,10 +3,10 @@ title: Trabalhar com destinatários e públicos-alvo
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -18,8 +18,8 @@ No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um pú
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Recipients"
->abstract="Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de entregas (emails, SMS). Nessa lista, é possível exibir o perfil do recipient com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos do recipient."
+>title="Perfis"
+>abstract="Um perfil é um indivíduo direcionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de entregas (emails, SMS). Nessa lista, é possível exibir o perfil do recipient com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos do recipient."
 
 Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de entregas (emails, SMS etc.). Os dados do recipient armazenados no banco de dados permitem criar públicos-alvo que receberão qualquer entrega e adicionar dados de personalização ao conteúdo de entrega. Outros tipos de perfis são armazenados no banco de dados. Eles foram projetados para diferentes usos: por exemplo, perfis iniciais são feitos para testar suas entregas antes que elas sejam enviadas ao público final.
 
