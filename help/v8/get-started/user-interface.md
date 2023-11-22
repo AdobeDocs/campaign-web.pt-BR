@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
+source-git-commit: bc0659ba0577eb16500eb339a75a8362a2f3ec41
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 99%
+source-wordcount: '1443'
+ht-degree: 97%
 
 ---
 
@@ -501,3 +501,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Evolução geral das assinaturas"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="Conteúdo da correspondência direta"
+>abstract="Conteúdo da correspondência direta"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="Propriedades do arquivo de correspondência direta"
+>abstract="Propriedades do arquivo de correspondência direta"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="Propriedades de conteúdo da correspondência direta"
+>abstract="Propriedades de conteúdo da correspondência direta"
