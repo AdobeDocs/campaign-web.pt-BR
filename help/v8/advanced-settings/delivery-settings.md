@@ -4,10 +4,10 @@ title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 84%
+source-wordcount: '2159'
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,13 @@ Essas configurações estão disponíveis no **Definir configurações de entreg
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Tipologia As regras do permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
+>abstract="Tipologia As regras do permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Tipologia configurações da entrega"
->abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
+>title="Configurações de tipologia para a entrega"
+>abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
 
 
 Tipologias são conjuntos de **regras de tipologia**, que são executados durante a fase de preparação. As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação da entrega.  Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
@@ -48,7 +48,9 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>As tipologias e regras de tipologia são criadas no Console do cliente do Campaign. Saiba mais sobre regras de pressão e como configurar o gerenciamento de fadiga no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=pt-BR){target="_blank"}.
 
 ### Parâmetros de pressão {#pressure-parameters}
 
@@ -83,7 +85,9 @@ Use o campo **Modo de entrega** para selecionar o modo de avaliação do públic
 * **Estimativa e aprovação do público-alvo provisório**
 * **Avaliação de público-alvo**
 
-O gerenciamento de fadiga vem com o complemento **Otimização de campanha**. Saiba mais sobre regras de pressão e como configurar o gerenciamento de fadiga no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
+>[!NOTE]
+>
+>O gerenciamento de fadiga é configurado no Console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
 
 ### Configurações de capacidade {#capacity-settings}
 
@@ -103,7 +107,9 @@ Nesta seção, você pode selecionar uma regra de capacidade definida no Console
 
 O campo **importância do recipient** é uma fórmula usada para determinar quais destinatários são mantidos quando as regras de tipologia de capacidade são excedidas.
 
-Saiba mais sobre as regras de consistência e capacidade e como configurá-las em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=pt-BR){target="_blank"}.
+>[!NOTE]
+>
+>As regras de tipologia são configuradas no Console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=pt-BR){target="_blank"}.
 
 
 ## Configurações de público-alvo {#audience}
@@ -145,7 +151,9 @@ Nesta seção, você pode selecionar uma conta do Web Analytics. Essa conta é c
 
 Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada.
 
-Saiba mais sobre o Web Analytics e o Campaign em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+>[!NOTE]
+>
+>Os recursos do Web Analytics são configurados no Console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
 
 ### Tentativas {#retries}
