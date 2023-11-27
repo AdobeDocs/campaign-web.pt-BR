@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -71,8 +71,8 @@ Para começar a testar o conteúdo da mensagem:
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="Incluir perfis de teste no público principal"
->abstract="Habilite esta opção para também enviar a mensagem final para os recipients do delivery de teste."
+>title="Incluir perfis de teste no público-alvo principal"
+>abstract="Habilite esta opção para também enviar a mensagem final para os destinatários da entrega de teste."
 
 Os perfis de teste são seed addresses, que são recipients adicionais no banco de dados. Eles podem ser criados na variável [!DNL Adobe Campaign] console do cliente. As etapas para enviar mensagens de teste para seed addresses são detalhadas abaixo.
 

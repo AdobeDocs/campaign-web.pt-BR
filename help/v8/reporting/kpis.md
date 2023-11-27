@@ -6,7 +6,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingS
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="Assinaturas"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as assinaturas de um serviço e a porcentagem de assinaturas em comparação ao número total de mensagens entregues com êxito."
+>abstract="Esta métrica mostra, para o canal selecionado, a soma de todas as assinaturas de um serviço e a porcentagem de assinaturas em comparação com o número total de mensagens entregues com sucesso."
 
 
 Os recipients podem aceitar comunicações por email e SMS.
@@ -149,7 +149,7 @@ O indicador **Erros** mostra os seguintes KPIs para cada canal:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Enviado"
->abstract="Essa métrica mostra, para o canal de correspondência direta, a soma de todas as mensagens enviadas e a porcentagem de mensagens enviadas ao provedor, em comparação ao número total de mensagens preparadas durante a fase de preparação do delivery."
+>abstract="Esta métrica mostra, para o canal de correspondência direta, a soma de todas as mensagens enviadas, e a porcentagem de mensagens enviadas ao fornecedor, em comparação com o número total de mensagens preparadas durante a fase de preparo da entrega."
 
 Durante a fase de preparação, o arquivo de extração de correspondência direta é gerado, mas as informações relacionadas aos recipients (ou seja, logs do delivery) não são atualizadas.  O status de um delivery movido de Pending delivery para Sent quando o usuário do Campaign confirma o envio do delivery. Em seguida, o delivery é definido como Finished.
 
