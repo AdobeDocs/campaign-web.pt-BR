@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 97%
+source-wordcount: '1501'
+ht-degree: 94%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Propriedades de conteúdo da correspondência direta"
 >abstract="Propriedades de conteúdo da correspondência direta"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Atividade Carregar arquivo"
+>abstract="Atividade Carregar arquivo"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Arquivo de amostra"
+>abstract="Arquivo de amostra"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Nome do arquivo"
+>abstract="Nome do arquivo"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Banco de dados de destino"
+>abstract="Banco de dados de destino"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Gerenciamento de rejeições para a atividade Carregar arquivo"
+>abstract="Gerenciamento de rejeições para a atividade Carregar arquivo"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Transição de saída do gerenciamento de rejeição"
+>abstract="Transição de saída do gerenciamento de rejeição"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Transição de saída do gerenciamento de rejeições para rejeições"
+>abstract="Transição de saída do gerenciamento de rejeições para rejeições"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formatação da atividade Carregar Arquivo"
+>abstract="Formatação da atividade Carregar Arquivo"
+
