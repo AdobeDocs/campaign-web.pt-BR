@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
@@ -48,7 +48,7 @@ Um modelo pode incluir:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Trabalho com modelos de entrega"
->abstract="Use templates do delivery para criar e salvar configurações do delivery para uso futuro em suas campanhas. Você pode criar templates do delivery do zero, duplicar um template existente ou converter um delivery em um template."
+>abstract="Use modelos de entrega para criar e salvar configurações de entrega para uso futuro em suas campanhas. É possível criar modelos de entrega do zero, duplicar um modelo já existente ou converter uma entrega em um modelo."
 
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Campaign Management]** > **[!UICONTROL Entregas]** no menu esquerdo e navegue até a janela **Modelos** guia.

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
 source-wordcount: '2159'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -145,7 +145,7 @@ Os parâmetros de entrega são configurações técnicas que se aplicam à sua e
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Configurações de análise da web da entrega"
->abstract="Selecione uma conta de análise da web. Essa conta é configurada no console do cliente do Campaign. Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada."
+>abstract="Selecione uma conta de análise da web. Essa conta é configurada no Console do cliente do Campaign. Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada."
 
 Nesta seção, você pode selecionar uma conta do Web Analytics. Essa conta é configurada no console do cliente do Campaign.
 

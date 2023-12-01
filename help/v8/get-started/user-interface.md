@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
 workflow-type: tm+mt
 source-wordcount: '1495'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -497,13 +497,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
->title="Propriedades do arquivo de correspondência direta"
->abstract="Propriedades do arquivo de correspondência direta"
+>title="Propriedades do arquivo de Correspondência direta"
+>abstract="Propriedades do arquivo de Correspondência direta"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
->title="Propriedades de conteúdo da correspondência direta"
->abstract="Propriedades de conteúdo da correspondência direta"
+>title="Propriedades de conteúdo de Correspondência direta"
+>abstract="Propriedades de conteúdo de Correspondência direta"
 
 
 
