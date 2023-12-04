@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 84%
+source-wordcount: '2113'
+ht-degree: 82%
 
 ---
 
@@ -25,12 +25,12 @@ Essas configurações estão disponíveis no **Definir configurações de entreg
 >
 >Essas configurações estão descritas somente para suas informações. Algumas delas dependem de sua configuração e permissões. Elas não devem ser modificadas nesta versão do produto.
 
-## Tipologia configurações {#typology}
+## Configurações de tipologia {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Tipologia As regras do permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
+>abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
 
 
 >[!CONTEXTUALHELP]
@@ -163,7 +163,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 >title="Número máximo de tentativas"
 >abstract="Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas até o fim da duração da entrega."
 
-As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia da entrega, com um intervalo mínimo de uma hora distribuído pelas 24 horas do dia.
+As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia do delivery com um intervalo mínimo de uma hora distribuída pelas 24 horas do dia.
 
 Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
@@ -171,7 +171,7 @@ Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprovação da entrega"
+>title="Modo de aprovação para a entrega"
 >abstract="Selecione o modo de aprovação. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
 
 
@@ -196,7 +196,7 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validade das configurações"
->abstract="O campo Delivery duration permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign começa a enviar as mensagens na data de início e, em seguida, somente para mensagens que retornam um erro, novas tentativas normais e configuráveis são executadas até que o limite da validade seja atingido. O campo Limite da validade é usado para recursos enviados, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
+>abstract="O campo Duração da entrega permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign começa a enviar as mensagens na data de início e, em seguida, somente para mensagens que retornam um erro, novas tentativas normais e configuráveis são executadas até que o limite da validade seja atingido. O campo Limite da validade é usado para recursos enviados, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
 
 
 
