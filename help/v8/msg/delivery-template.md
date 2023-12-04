@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Trabalho com modelos de entrega
+title: Usar modelos de entrega
 description: Saiba como criar e usar modelos de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 25%
+source-wordcount: '1045'
+ht-degree: 19%
 
 ---
 
-# Trabalho com modelos de entrega {#work-with-delivery-templates}
+# Usar modelos de entrega {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
@@ -93,7 +93,7 @@ O Campaign vem com um conjunto de modelos integrados para cada canal: email, pus
 
 Para duplicar um modelo de entrega, siga as etapas abaixo:
 
-1. Navegue até a guia **Modelos** no menu esquerdo **Entregas.** [Saiba mais](#access-manage-templates)
+1. Navegue até o **Modelos** , no menu **Entregas** menu esquerdo. [Saiba mais](#access-manage-templates)
 1. Clique em **[!UICONTROL Mais ações]** à direita do nome do modelo desejado e selecione  **[!UICONTROL Duplicar]**.
 
    Você também pode selecionar um modelo na lista e selecionar essa opção na tela de edição do modelo.
@@ -143,8 +143,8 @@ O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-temp
 
 Para configurar um modelo de entrega do zero, siga as etapas abaixo:
 
-1. Navegue até a guia **Modelos** no menu esquerdo **Entregas.** [Saiba mais](#access-manage-templates)
-1. Clique no botão **[!UICONTROL Criar modelo]**.
+1. Navegue até o **Modelos** , no menu **Entregas** menu esquerdo. [Saiba mais](#access-manage-templates)
+1. Clique em **[!UICONTROL Criar modelo]** botão.
 
    ![](assets/templates-create-button.png)
 
@@ -175,7 +175,7 @@ O novo modelo é adicionado à variável [**Modelos** lista](#access-manage-temp
 
 ## Testar um template de delivery {#test-template}
 
-Você pode testar a renderização de qualquer template do delivery, seja criado do zero ou de um conteúdo existente. Para isso, siga as etapas abaixo.
+Você pode testar a renderização de qualquer template do delivery, seja criado do zero ou de um conteúdo existente. Para fazer isso, siga as etapas abaixo.
 
 1. Navegue até o **Modelos** guia pelo menu **[!UICONTROL Gerenciamento de campanhas]** > **[!UICONTROL Entregas]** e selecione qualquer modelo. [Saiba mais](#access-manage-templates)
 

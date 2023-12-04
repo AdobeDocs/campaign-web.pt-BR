@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 74%
+source-wordcount: '1328'
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="IA generativa para conteúdo de email"
->abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado e altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email."
+>abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email."
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
@@ -35,7 +35,7 @@ Com base em uma configuração [modelo de design](../content/email-sample-templa
 >title="Defina as propriedades do email"
 >abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. As configurações adicionais são opcionais. Se a entrega for baseada em um schema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
 
-Você pode criar um delivery de email independente ou criar um email no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de email independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Você pode criar um delivery de email independente ou criar um email no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de email independente (único). Saiba mais sobre as etapas de criação de delivery no Adobe Campaign em [esta página](../msg/gs-deliveries.md).
 
 Para criar um novo delivery de email independente, siga as etapas abaixo.
 
@@ -54,10 +54,10 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 1. Insira um rótulo para a entrega e configure as opções adicionais com base em suas necessidades:
 
-   * **[!UICONTROL Nome interno]**: atribui um identificador exclusivo à entrega.
-   * **[!UICONTROL Pasta]**: armazena a entrega em uma pasta específica.
-   * **[!UICONTROL Código de entrega]**: use esse campo para organizar suas entregas com base em sua própria convenção de nomeação.
-   * **[!UICONTROL Descrição]**: especifica uma descrição da entrega.
+   * **[!UICONTROL Nome interno]**: atribua um identificador exclusivo ao delivery.
+   * **[!UICONTROL Pasta]**: armazene o delivery em uma pasta específica.
+   * **[!UICONTROL Código de entrega]**: use esse campo para organizar seus deliveries com base em sua própria convenção de nomenclatura.
+   * **[!UICONTROL Descrição]**: especifique uma descrição para o delivery.
    * **[!UICONTROL Natureza]**: especifica a natureza do email para fins de classificação.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,24 +66,24 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 
    ![](assets/email-properties.png)
 
-1. Além disso, as configurações avançadas, como regras de tipologia e target mappings, podem ser acessadas por meio do **[!UICONTROL Configurações]** localizado na parte superior direita da tela. Essas definições são pré-configuradas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico. [Saiba mais](../advanced-settings/delivery-settings.md)
+1. Além disso, as configurações avançadas, como regras de tipologia e target mappings, podem ser acessadas por meio do **[!UICONTROL Configurações]** localizado na parte superior direita da tela. Essas configurações são pré-definidas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico. [Saiba mais](../advanced-settings/delivery-settings.md)
 
-## Definir o público {#define-audience}
+## Definir o público-alvo {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Selecione um público-alvo para a entrega"
->abstract="Selecione o melhor público para a sua mensagem de marketing. É possível escolher um público-alvo já existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o construtor de regras, ou fazer upload de um arquivo contendo um. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
+>abstract="Selecione o melhor público-alvo para a sua mensagem de marketing. É possível escolher um público-alvo já existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o construtor de regras, ou fazer upload de um arquivo contendo um. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecione os públicos-alvo principais"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
 
-Nesse caso de uso, você enviará o email para um público existente.
+Nesse caso de uso, você enviará o email para um público-alvo existente.
 
-Instruções adicionais sobre como trabalhar com públicos estão disponíveis [nesta seção](../audience/about-recipients.md).
+Instruções adicionais sobre como trabalhar com públicos-alvo estão disponíveis [nesta seção](../audience/about-recipients.md).
 
 1. Para selecionar o público do email, clique no botão **[!UICONTROL Selecionar público-alvo]** e escolha um público existente na lista.
 
-   Neste exemplo, queremos usar um público existente direcionado a clientes que pertencem aos níveis prata e ouro do programa de fidelidade.
+   Neste exemplo, queremos usar um público-alvo existente direcionado a clientes que pertencem aos níveis prata e ouro do programa de fidelidade.
 
    ![](assets/create-audience.png)
 
@@ -91,7 +91,7 @@ Instruções adicionais sobre como trabalhar com públicos estão disponíveis [
    >
    >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Origem tiver sido configurada na instância. Essa integração permite enviar segmentos de Experience Platform para o Adobe Campaign e enviar o delivery do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
-1. Depois que o público é selecionado, você pode refinar o público alvo aplicando regras adicionais.
+1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
    ![](assets/audience-selected.png)
 
@@ -155,7 +155,7 @@ Nesse caso de uso, você visualizará o email e enviará as versões de teste pa
 
 Informações adicionais sobre como visualizar e testar emails estão disponíveis [nesta seção](../preview-test/preview-test.md).
 
-1. Para revisar seu email, clique em **[!UICONTROL Revisar e enviar]**. Isso exibe uma visualização do email, juntamente com todas as propriedades, o público e o agendamento configurados. Você pode editar qualquer um desses elementos clicando no botão Modificar.
+1. Para revisar seu email, clique em **[!UICONTROL Revisar e enviar]**. Isso exibe uma visualização do email, juntamente com todas as propriedades, o público-alvo e o agendamento configurados. Você pode editar qualquer um desses elementos clicando no botão Modificar.
 
 1. Para visualizar o email e enviar versões de teste, clique no link **[!UICONTROL Simular conteúdo]** botão.
 
