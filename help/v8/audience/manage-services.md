@@ -4,10 +4,10 @@ title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 21%
+source-wordcount: '760'
+ht-degree: 18%
 
 ---
 
@@ -84,7 +84,7 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
 ## Criar uma mensagem de confirmação {#create-confirmation-message}
 
-Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a assinatura do seu serviço, você deve criar um template do delivery com o **[!UICONTROL Assinaturas]** target mapping, sem um destino definido. Para isso, siga as etapas abaixo.
+Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a assinatura do seu serviço, você deve criar um template do delivery com o **[!UICONTROL Assinaturas]** target mapping, sem um destino definido. Para fazer isso, siga as etapas abaixo.
 
 1. Crie um template do delivery para a confirmação da assinatura. [Saiba como](../msg/delivery-template.md)
 
@@ -94,7 +94,7 @@ Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a a
 
    >[!NOTE]
    >
-   >Se você não selecionar a opção  **[!UICONTROL Assinaturas]** target mapping, seus assinantes não receberão a mensagem de confirmação. Os mapeamentos de públicos-alvo são definidos no console do Campaign v8. Saiba mais sobre [Documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+   >Se você não selecionar a opção  **[!UICONTROL Assinaturas]** target mapping, seus assinantes não receberão a mensagem de confirmação. Os target mappings são definidos no console do Campaign v8. Saiba mais sobre [Documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
 1. Edite o conteúdo do template do delivery, salve-o e feche-o.
 
