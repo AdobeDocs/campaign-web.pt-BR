@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 3c77120c5936f647514969644f59833e97d56232
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 54%
+source-wordcount: '879'
+ht-degree: 70%
 
 ---
 
@@ -32,7 +32,7 @@ Comece a criar seu workflow com as atividades relevantes antes de fazer o delive
 
 * Se quiser enviar um delivery recorrente, inicie o workflow com um **Scheduler** atividade. Se quiser enviar um delivery de uma só vez, defina a data de contato usando um **Scheduler** ou defina o cronograma nas configurações do delivery. Consulte [esta seção](scheduler.md).
 
-* Adicione uma atividade **Criar público-alvo.** O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
+* Adicionar um **Criar público-alvo** atividade. O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
@@ -41,26 +41,26 @@ Comece a criar seu workflow com as atividades relevantes antes de fazer o delive
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
->title="Atividade de email"
->abstract="A atividade Email facilita o envio de emails dentro do fluxo de trabalho, permitindo mensagens recorrentes e únicas. Ele serve para automatizar o processo de envio de emails para um público-alvo calculado dentro do mesmo workflow. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>title="Atividade Email"
+>abstract="A atividade Email facilita o envio de emails dentro do fluxo de trabalho, permitindo mensagens recorrentes e únicas. Ela serve para automatizar o processo de envio de emails para um público-alvo calculado dentro do mesmo fluxo de trabalho. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Atividade de SMS"
->abstract="A atividade de SMS facilita o envio de SMS dentro do workflow, permitindo mensagens únicas e recorrentes. Ele serve para automatizar o processo de envio de SMS para um público-alvo calculado dentro do mesmo workflow. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade SMS facilita o envio de mensagens SMS no fluxo de trabalho, permitindo mensagens únicas e recorrentes. Ela serve para automatizar o processo de envio de SMS para um público-alvo calculado dentro do mesmo fluxo de trabalho. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Atividade push para iOS"
->abstract="A atividade de push do iOS simplifica o processo de envio de notificações por push do iOS como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push do iOS para um público-alvo predefinido no mesmo fluxo de trabalho. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Push para iOS simplifica o processo de envio de notificações por push para iOS como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push para iOS para um público-alvo predefinido no mesmo fluxo de trabalho. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Atividade push para Android"
->abstract="A atividade Enviar Android simplifica o processo de envio de notificações por push do Android como parte do fluxo de trabalho. Ele permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push do Android para um público-alvo predefinido no mesmo fluxo de trabalho. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Push para Android simplifica o processo de envio de notificações por push para Android como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push para Android para um público-alvo predefinido no mesmo fluxo de trabalho. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 

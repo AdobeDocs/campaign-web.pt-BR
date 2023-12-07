@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -548,28 +548,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
->title="Banco de dados de destino"
->abstract="Banco de dados de destino"
+>title="Banco de dados de públicos-alvo"
+>abstract="Banco de dados de públicos-alvo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="Gerenciamento de rejeições para a atividade Carregar arquivo"
->abstract="Gerenciamento de rejeições para a atividade Carregar arquivo"
+>title="Gerenciamento de rejeições da atividade Carregar arquivo"
+>abstract="Gerenciamento de rejeições da atividade Carregar arquivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="Transição de saída do gerenciamento de rejeição"
->abstract="Transição de saída do gerenciamento de rejeição"
+>title="Transição de saída do gerenciamento de rejeições"
+>abstract="Transição de saída do gerenciamento de rejeições"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Transição de saída do gerenciamento de rejeições para rejeições"
->abstract="Transição de saída do gerenciamento de rejeições para rejeições"
+>title="Transição de saída do gerenciamento de rejeições para recusas"
+>abstract="Transição de saída do gerenciamento de rejeições para recusas"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="Formatação da atividade Carregar Arquivo"
->abstract="Formatação da atividade Carregar Arquivo"
+>title="Formatação da atividade Carregar arquivo"
+>abstract="Formatação da atividade Carregar arquivo"
 
 
 
