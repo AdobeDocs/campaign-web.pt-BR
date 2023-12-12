@@ -2,10 +2,10 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 19%
+source-wordcount: '1354'
+ht-degree: 20%
 
 ---
 
@@ -35,7 +35,12 @@ Os componentes de filtragem permitem refinar a consulta usando:
 * **Públicos-alvo**: filtre sua consulta usando um público-alvo existente.
 * **Filtro predefinido**: filtre sua query usando os filtros predefinidos existentes.
 
-### Criar uma condição personalizada
+### Configurar uma condição personalizada
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="Condição personalizada"
+>abstract="Condição personalizada"
 
 Para filtrar sua consulta usando uma condição personalizada, siga estas etapas:
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### Selecionar um público-alvo
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="Selecionar público-alvo"
+>abstract="Selecionar público-alvo"
+
 Para filtrar sua query usando um público existente, siga estas etapas:
 
 1. Clique no botão + no nó desejado e selecione **[!UICONTROL Selecionar público]**.
@@ -108,6 +118,11 @@ Para filtrar sua query usando um público existente, siga estas etapas:
 
 ### Usar um filtro predefinido
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="Filtro predefinido"
+>abstract="Filtro predefinido"
+
 Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
 1. Clique no botão + no nó desejado e selecione **[!UICONTROL Filtro predefinido]**.
@@ -119,6 +134,11 @@ Para filtrar sua query usando um filtro predefinido, siga estas etapas:
    ![](assets/query-predefined-filter.png)
 
 ## Combinar componentes de filtragem com operadores
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Grupo"
+>abstract="Grupo"
 
 Ao adicionar um componente de filtragem ao seu query, uma nova transição é criada automaticamente na tela de query e o novo componente de filtragem é vinculado ao primeiro por um operador AND. Isso significa que os resultados de ambos os componentes de filtragem são combinados nos resultados da consulta.
 
@@ -137,6 +157,11 @@ Os operadores disponíveis são:
 * EXCEPT (Exclusão): exclui os resultados de todos os componentes de filtragem na transição de saída.
 
 ## Verificar e validar sua consulta
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="Propriedades da regra"
+>abstract="Propriedades da regra"
 
 Depois de criar o query na tela, você pode verificá-lo usando o painel de propriedades Regra localizado no lado direito. As operações disponíveis são as seguintes:
 
