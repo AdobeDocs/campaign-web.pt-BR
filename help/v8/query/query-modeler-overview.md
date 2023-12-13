@@ -2,23 +2,26 @@
 audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
-source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
+source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 4%
 
 ---
 
 # Trabalhar com o modelador de consultas {#segment-builder}
 
-## Visão geral do modelador de consulta {#overview}
+O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados.
 
-O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consultas está perfeitamente integrado à interface, permitindo executar operações de filtragem e criar regras com facilidade:
+## Acessar o modelador de consultas {#access}
 
-* Definir públicos-alvo: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo personalizados para suas necessidades.
-* Personalizar atividades do workflow: aplique regras nas atividades do workflow, como Divisão e Reconciliação, para alinhar-se aos requisitos específicos,
-* Dinamizar conteúdo: torne seu conteúdo dinâmico criando condições que definem qual conteúdo deve ser exibido para diferentes recipients, garantindo mensagens personalizadas e relevantes.
-* Filtros predefinidos: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, independentemente de você estar trabalhando com listas de dados ou formando o público-alvo para um delivery.
+O modelador de query está disponível em cada contexto em que você precisa definir regras para filtrar dados.
+
+* **Definir públicos**: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo personalizados para suas necessidades.
+* **Personalizar atividades de fluxo de trabalho**: aplique regras em atividades de workflow, como Split e Reconciliation, para alinhar-se aos requisitos específicos,
+* **Dinamizar conteúdo**: torne seu conteúdo dinâmico criando condições que definem qual conteúdo deve ser exibido para diferentes recipients, garantindo mensagens personalizadas e relevantes.
+* **Filtros predefinidos**: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, independentemente de você estar trabalhando com listas de dados ou formando o público para um delivery.
+* **Filtrar dados de relatórios**: adicione uma regra para filtrar os dados exibidos nos relatórios.
 
 ## Interface do modelador de consultas {#interface}
 
