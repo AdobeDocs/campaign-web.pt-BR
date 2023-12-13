@@ -2,32 +2,34 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 20%
+source-wordcount: '1319'
+ht-degree: 21%
 
 ---
 
 # Criar a primeira consulta {#build-query}
 
-Para começar a criar uma consulta, acesse o modelador de consultas do local de sua escolha, dependendo da ação que deseja executar. O modelador de Consulta é aberto com uma tela em branco. Clique no botão + para adicionar o primeiro nó do query.
-
-![](assets/query-add-component.png)
+Para começar a criar uma consulta, acesse o modelador de consultas do local de sua escolha, dependendo da ação que deseja executar. O modelador de Consulta é aberto com uma tela em branco. Clique em **+** botão para configurar o primeiro nó do query.
 
 Você pode adicionar dois tipos de elementos:
 
-* Os componentes de filtragem (Condição personalizada, Selecionar público, Filtro predefinido) permitem criar suas próprias regras, selecionar um público ou um filtro predefinido para refinar sua consulta.
+* **Filtrar componentes** (Condição personalizada, Selecionar público, Filtro predefinido) permitem criar suas próprias regras, selecionar um público ou um filtro predefinido para refinar sua consulta. [Saiba como trabalhar com componentes de filtragem](#filtering)
 
-  Exemplo *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*. *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
+  Exemplo:
 
-* Os operadores de grupo (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama para atender às suas necessidades.
+  *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*. *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
 
-  Exemplo: *Recipients que assinaram o boletim informativo &quot;Esportes&quot;**E**que vivem em Nova York **OU**São Francisco*.
+* **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama para atender às suas necessidades. [Saiba como trabalhar com operadores](#filtering)
 
-As etapas detalhadas sobre como adicionar e combinar componentes de filtragem e operadores de grupo estão disponíveis abaixo.
+  Exemplo:
 
-## Adicionar componentes de filtragem
+  *Recipients que assinaram o boletim informativo &quot;Esportes&quot;**E**que vivem em Nova York **OU**São Francisco*.
+
+![](assets/query-add-component.png)
+
+## Adicionar componentes de filtragem {#filtering}
 
 Os componentes de filtragem permitem refinar a consulta usando:
 
@@ -44,10 +46,9 @@ Os componentes de filtragem permitem refinar a consulta usando:
 
 Para filtrar sua consulta usando uma condição personalizada, siga estas etapas:
 
-1. Clique no botão + no nó desejado e selecione **[!UICONTROL Condição personalizada]**.
-1. O painel de propriedades de condição personalizada é aberto no lado direito. No campo Atributo, selecione o atributo do banco de dados que você deseja utilizar para criar sua condição.
+1. Clique em **+** no nó desejado e selecione **[!UICONTROL Condição personalizada]**. O painel de propriedades de condição personalizada é aberto no lado direito.
 
-   Os atributos disponíveis representam todos os campos do banco de dados do Campaign, incluindo campos de tabelas vinculadas à tabela Recipients.
+1. No **Atributo** selecione o atributo do banco de dados que deseja utilizar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos vinculados à tabela.
 
    ![](assets/query-custom-condition-fields.png)
 
@@ -55,13 +56,9 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
    >
    >O botão Edit expression permite aproveitar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares.
 
-1. Selecione o operador a ser aplicado na lista suspensa.
+1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo selecionado.
 
    +++Lista de operadores disponíveis
-
-   >[!NOTE]
-   >
-   >Os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo selecionado.
 
    | Operador | Finalidade | Exemplo |
    |  ---  |  ---  |  ---  |
@@ -84,20 +81,11 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 +++
 
-1. No campo Value, selecione o valor esperado.
+1. No **Valor** defina o valor esperado. Você também pode usar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no link **Editar expressão** botão.
 
-   Você também pode usar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no botão Edit expression.
-
-   *Exemplo: a consulta retorna todos os perfis com 21 anos ou mais*
+   *Exemplo de consulta que retorna todos os perfis com 21 anos ou mais:*
 
    ![](assets/query-custom-condition.png)
-
-<!--
-querying linked tables
-collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin.
-Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables. Select the table which contains the information you want to collect and click Next.
-
-aggregates: Define a calculation mode for the field to be added, such as an aggregate for example.-->
 
 ### Selecionar um público-alvo
 
@@ -108,11 +96,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 Para filtrar sua query usando um público existente, siga estas etapas:
 
-1. Clique no botão + no nó desejado e selecione **[!UICONTROL Selecionar público]**.
+1. Clique em **+** no nó desejado e escolha **[!UICONTROL Selecionar público]**.
 
-1. O painel Selecionar propriedades do público-alvo é aberto no lado direito. Selecione o público-alvo que deseja aproveitar para filtrar seu query.
+1. A variável **Selecionar público** painel de propriedades é aberto no lado direito. Escolha o público-alvo que deseja usar para filtrar o query.
 
-   *Exemplo: consulta que retorna todos os perfis que pertencem ao público-alvo do &quot;Festival Goers&quot;*
+   *Exemplo de consulta retornando todos os perfis que pertencem ao público-alvo &quot;Visitantes do Festival&quot;:*
 
    ![](assets/query-audience.png)
 
@@ -125,36 +113,36 @@ Para filtrar sua query usando um público existente, siga estas etapas:
 
 Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
-1. Clique no botão + no nó desejado e selecione **[!UICONTROL Filtro predefinido]**.
+1. Clique em **+** no nó desejado e selecione **[!UICONTROL Filtro predefinido]**.
 
-1. O painel Selecionar propriedades do público-alvo é aberto no lado direito. Selecione um filtro predefinido na lista de filtros personalizados ou nos favoritos.
+1. A variável **Filtro predefinido** painel de propriedades é aberto no lado direito. Selecione um filtro predefinido na lista de filtros personalizados ou nos favoritos.
 
-   *Exemplo: a consulta retorna todos os perfis correspondentes ao filtro predefinido &quot;Clientes inativos&quot;.*
+   *Exemplo de consulta que retorna todos os perfis correspondentes ao filtro predefinido &quot;Clientes inativos&quot;:*
 
    ![](assets/query-predefined-filter.png)
 
-## Combinar componentes de filtragem com operadores
+## Combinar componentes de filtragem com operadores {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Grupo"
 >abstract="Grupo"
 
-Ao adicionar um componente de filtragem ao seu query, uma nova transição é criada automaticamente na tela de query e o novo componente de filtragem é vinculado ao primeiro por um operador AND. Isso significa que os resultados de ambos os componentes de filtragem são combinados nos resultados da consulta.
+Cada vez que um novo componente de filtragem é adicionado ao query, ele é automaticamente vinculado ao outro componente por um operador AND. Isso significa que os resultados de ambos os componentes de filtragem são combinados nos resultados da consulta.
 
-Neste exemplo, um novo componente de filtragem do tipo público-alvo é adicionado à tela. Ele é automaticamente adicionado em uma nova transição e vinculado à condição de tipo de filtro predefinida com um operador AND. Nesse caso, os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
+Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente é vinculado à condição de tipo de filtro predefinida com um operador AND, o que significa que os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público-alvo &quot;Discount hunters&quot;.
 
 ![](assets/query-operator.png)
 
-Para alterar o operador usado para vincular condições de filtragem, clique nele e selecione o operador desejado em Você pode alterar o operador clicando nele e selecionando o operador desejado no painel Grupo que é aberto no lado direito.
-
-![](assets/query-operator-change.png)
+Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado no painel Grupo que é aberto no lado direito.
 
 Os operadores disponíveis são:
 
-* E (Interseção): combina resultados de todos os componentes de filtragem nas transições de saída.
-* OU (União): inclui resultados de pelo menos um dos componentes do filtro nas transições de saída.
-* EXCEPT (Exclusão): exclui os resultados de todos os componentes de filtragem na transição de saída.
+* **E (Interseção)**: combina resultados de todos os componentes de filtragem nas transições de saída.
+* **OU (União)**: inclui resultados de pelo menos um dos componentes de filtragem nas transições de saída.
+* **EXCETO (Exclusão)**: exclui resultados de todos os componentes de filtragem na transição de saída.
+
+![](assets/query-operator-change.png)
 
 ## Verificar e validar sua consulta
 
@@ -163,9 +151,9 @@ Os operadores disponíveis são:
 >title="Propriedades da regra"
 >abstract="Propriedades da regra"
 
-Depois de criar o query na tela, você pode verificá-lo usando o painel de propriedades Regra localizado no lado direito. As operações disponíveis são as seguintes:
+Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades da regra** painel localizado no lado direito. As operações disponíveis são:
 
-* **Exibir resultados:** exibe os dados resultantes do query.
+* **Exibir resultados:** Exibe os dados resultantes da sua consulta.
 * **Visualização de código**: exibe uma versão baseada em código da consulta no SQL.
 * **Calcular**: atualiza e exibe o número de registros direcionados por sua consulta.
 * **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para futura reutilização. [Saiba como trabalhar com filtros predefinidos](../get-started/predefined-filters.md)
