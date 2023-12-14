@@ -4,10 +4,10 @@ title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 61%
+source-wordcount: '244'
+ht-degree: 46%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 61%
 >title="Conteúdo de SMS"
 >abstract="Crie o conteúdo de seus deliveries de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico. Para começar a redigir a mensagem, clique no link **Editar conteúdo** botão."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="Conteúdo da mensagem SMS"
+>abstract="Defina o conteúdo do SMS. Para redigir a mensagem, clique no link **Mensagem** e insira o conteúdo da mensagem. Use o Editor de expressão para adicionar dados personalizados e conteúdo dinâmico. Você também pode personalizar o nome do remetente. Por padrão, o rastreamento é ativado para todos os deliveries de SMS, para que você possa medir quando os recipients clicam em links."
 
 
 Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
