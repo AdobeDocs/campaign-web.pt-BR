@@ -4,9 +4,9 @@ title: Criar uma entrega de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '638'
 ht-degree: 16%
 
 ---
@@ -43,7 +43,7 @@ Para criar um novo delivery por push independente, siga estas etapas:
 
 Defina as configurações de delivery conforme detalhado abaixo:
 
-1. Insira um **[!UICONTROL Rótulo]** para a entrega
+1. Insira um **[!UICONTROL Rótulo]** para o delivery. Por padrão, o rótulo é definido com o rótulo do template selecionado. Deve ser atualizado.
 
 1. Navegue pelo **[!UICONTROL Opções adicionais]** para personalizar as opções, se necessário.
 
