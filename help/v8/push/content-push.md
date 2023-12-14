@@ -4,10 +4,10 @@ title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 43%
+source-wordcount: '1484'
+ht-degree: 38%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Conteúdo de push para Android"
->abstract="Defina o conteúdo de push para Android."
+>abstract="Defina o conteúdo da sua notificação por push para dispositivos Android. Para redigir a mensagem, clique no link **Título** e **Mensagem** campos. Use o Editor de expressão para personalizar dados e adicionar conteúdo dinâmico. Para personalizar ainda mais sua notificação por push, você pode escolher uma imagem para adicionar à notificação por push, o ícone da notificação a ser exibido nos dispositivos dos perfis e sua cor. Para obter mais configurações personalizadas, navegue até a **Configurações avançadas** seção."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Conteúdo de push para iOS"
->abstract="Defina o conteúdo de push para iOS."
+>abstract="Defina o conteúdo da sua notificação por push para dispositivos iOS. Para redigir a mensagem, clique no link **Título** e **Mensagem** campos. Use o Editor de expressão para personalizar dados e adicionar conteúdo dinâmico. Para obter mais configurações personalizadas, navegue até a **Configurações avançadas** seção."
 
 ## Definir o conteúdo da notificação {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 43%
 >title="Notificação silenciosa para iOS"
 >abstract="O modo Push silencioso permite que uma notificação “silenciosa” seja enviada a um aplicativo móvel. O usuário não está ciente da chegada da notificação. Ele é transferido diretamente para o aplicativo."
 
-
+Depois que o delivery de push é criado, é possível definir seu conteúdo. Os parâmetros e as configurações dependem do sistema operacional móvel: Android ou iOS. Navegue pelas guias abaixo para saber como compor sua mensagem para cada sistema operacional.
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ O modo Push silencioso permite que uma notificação “silenciosa” seja envia
 >title="ID da categoria"
 >abstract="Especifique o nome da ID da categoria associada à notificação. Isso habilita a exibição de botões de ação, permitindo que o usuário execute várias tarefas diretamente da notificação, sem abrir o aplicativo."
 
+As opções avançadas dependem do sistema operacional móvel: Android ou iOS. Navegue pelas guias abaixo para saber como definir opções para sua mensagem para cada sistema operacional.
 
 >[!BEGINTABS]
 

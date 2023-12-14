@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 19%
+source-wordcount: '1068'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Modelos de entrega"
->abstract="Use modelos de entrega para padronizar a aparência criativa e ter maior rapidez na execução e na inicialização de campanhas"
+>abstract="Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas."
 
 Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas.
 
@@ -79,6 +79,7 @@ Para excluir ou [duplicado](#copy-an-existing-template) um modelo, selecione a a
 ## Criar um modelo da entrega {#create-a-delivery-template}
 
 Para criar um template do delivery, você pode:
+
 * Duplicação de um template existente - [Saiba mais](#copy-an-existing-template)
 * Converter um delivery existente em um template - [Saiba mais](#convert-an-existing-delivery)
 * Criar um template do delivery do zero - [Saiba mais](#create-a-new-template)
