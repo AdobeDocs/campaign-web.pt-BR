@@ -4,10 +4,10 @@ title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '185'
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Conteúdo de SMS"
->abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico."
+>abstract="Crie o conteúdo de seus deliveries de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico. Para começar a redigir a mensagem, clique no link **Editar conteúdo** botão."
 
 
 
@@ -30,11 +30,11 @@ Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
    ![](assets/sms_content_1.png)
 
-1. Digite sua mensagem de texto no campo **[!UICONTROL Mensagem]** ou clique na opção **[!UICONTROL Abrir caixa de diálogo de personalização]** para definir o conteúdo e adicionar conteúdo dinâmico. [Saiba mais](../personalization/gs-personalization.md)
+1. Digite sua mensagem de texto no **[!UICONTROL Mensagem]** ou clique no botão **[!UICONTROL Abrir caixa de diálogo de personalização]** opção para definir o conteúdo e adicionar conteúdo dinâmico. [Saiba mais](../personalization/gs-personalization.md)
 
    ![](assets/sms_content_2.png)
 
-1. Por padrão, o rastreamento está habilitado para entregas. Você pode desativar essa opção na **[!UICONTROL seção Recursos opcionais]**.
+1. Por padrão, o rastreamento está habilitado para entregas. Você pode desabilitar essa opção na **[!UICONTROL seção Recursos opcionais]**.
 
 1. Acesse o **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado. [Saiba mais](send-sms.md#preview-sms)
 
