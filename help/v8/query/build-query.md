@@ -2,10 +2,10 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
-source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 21%
+source-wordcount: '1462'
+ht-degree: 19%
 
 ---
 
@@ -56,7 +56,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
    >
    >O botão Edit expression permite aproveitar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares.
 
-1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo selecionado.
+1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
    +++Lista de operadores disponíveis
 
@@ -86,6 +86,32 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
    *Exemplo de consulta que retorna todos os perfis com 21 anos ou mais:*
 
    ![](assets/query-custom-condition.png)
+
+**Condições personalizadas em tabelas distantes (links 1-1 e 1-N)**
+
+As condições personalizadas permitem consultar tabelas distantes vinculadas à tabela Recipients.
+
+Para um **Link 1-1** com outro recurso de banco de dados, selecione o valor diretamente na tabela direcionada.
+
++++Exemplo de consulta
+
+Aqui, o query é direcionado a recipients cujo país ou região está incluído em determinados valores (reino unido e eua)
+
+![](assets/custom-condition-1-1.png)
+
++++
+
+Para um **Link 1-N** com outro recurso de banco de dados, é possível definir subcondições nos campos desse segundo recurso.
+
+Por exemplo, você pode selecionar o operador Exists nas compras de perfil para direcionar todos os perfis para os quais existem compras. Depois de concluído, adicione uma condição personalizada na transição de saída e crie um filtro para atender às suas necessidades.
+
++++Exemplo de consulta
+
+Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao produto BrewMaster, para um valor total de pelo menos 100$.
+
+![](assets/custom-condition-1-N.png)
+
++++
 
 ### Selecionar um público-alvo
 
@@ -138,9 +164,9 @@ Para alterar o operador usado para vincular as condições do filtro, clique nel
 
 Os operadores disponíveis são:
 
-* **E (Interseção)**: combina resultados de todos os componentes de filtragem nas transições de saída.
-* **OU (União)**: inclui resultados de pelo menos um dos componentes de filtragem nas transições de saída.
-* **EXCETO (Exclusão)**: exclui resultados de todos os componentes de filtragem na transição de saída.
+* **E (Interseção)**: combina resultados que correspondem a todos os componentes de filtragem nas transições de saída.
+* **OU (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
+* **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
 
 ![](assets/query-operator-change.png)
 

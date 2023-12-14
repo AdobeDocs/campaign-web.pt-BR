@@ -2,14 +2,20 @@
 audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
-source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 4%
+source-wordcount: '276'
+ht-degree: 16%
 
 ---
 
 # Trabalhar com o modelador de consultas {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="Modelador de consulta"
+>abstract="Defina critérios de filtragem para recipients ou qualquer outra targeting dimension do banco de dados. Aproveite as vantagens do seu público-alvo da Adobe Experience Platform para refinar ainda mais seu público-alvo e maximizar o impacto da campanha."
 
 O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados.
 

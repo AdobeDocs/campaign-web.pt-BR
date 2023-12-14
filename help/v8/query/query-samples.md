@@ -2,19 +2,31 @@
 audience: end-user
 title: Amostras de consulta
 description: Saiba como trabalhar com o construtor de regras
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '16'
-ht-degree: 25%
+source-wordcount: '177'
+ht-degree: 42%
 
 ---
 
 # Amostras de consulta {#query-samples}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html?lang=en
+## Consultas sobre recipients {#querying-recipient-table}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html?lang=en
+* recupere os nomes e e-mails dos recipients cujo domínio de e-mail é &quot;orange.co.uk&quot; e que não vivem em Londres.
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* destinatários não contatados nos últimos sete dias.
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* domínios de email selecionados mais de 30 vezes durante deliveries anteriores.
+
+## Consultas sobre deliveries {#number-of-clicks-for-a-specific-delivery}
+
+* número de cliques de uma delivery específica.
+
+* destinatários que não abriram um email nos últimos 7 dias.
+
+* perfis que abriram um delivery nas últimas 2 semanas:
+
+* Acompanhar após um delivery anterior.
+
+  Uma entrega &quot;Oferta esportiva de verão&quot; é enviada. Quatro dias após a entrega, duas outras entregas são enviadas. Uma delas é &quot;oferta de artigos de esportes aquáticos&quot;, a outra é uma continuidade da primeira delivery &quot;oferta esportiva de verão&quot;. A entrega &quot;oferta de artigos de esportes aquáticos&quot; é enviada aos recipients que clicaram no link &quot;esportes aquáticos&quot; na primeira entrega. Estes cliques mostram que o recipient está interessado no tópico. Faz sentido orientá-los para ofertas semelhantes. No entanto, os recipients que não clicaram na &quot;oferta de esportes de verão&quot; devem receber o mesmo conteúdo novamente.
