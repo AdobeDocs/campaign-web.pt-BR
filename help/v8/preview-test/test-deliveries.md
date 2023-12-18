@@ -4,23 +4,23 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1157'
 ht-degree: 13%
 
 ---
 
-# Enviar entregas de teste {#send-test-deliveries}
+# Enviar provas {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modo de visualização"
 >abstract="Visualize e teste a mensagem incluindo a população de teste ao público-alvo principal."
 
-Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-lo e testá-lo enviando deliveries de teste para perfis de teste. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
+Depois que o conteúdo da mensagem for definido, é possível pré-visualizá-lo e testá-lo enviando provas para perfis de teste. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-Para detectar possíveis erros nas configurações de conteúdo ou personalização da mensagem, envie mensagens de teste para perfis de teste antes de enviá-la para o público-alvo de destino. Uma mensagem de teste deve ser enviada sempre que uma alteração for feita, para validar o conteúdo mais recente. O envio de deliveries de teste (anteriormente conhecidos como &quot;provas&quot;) é uma etapa importante para validar sua campanha e identificar possíveis problemas. Os recipients de uma mensagem de teste podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
+Para detectar possíveis erros nas configurações de conteúdo ou personalização da mensagem, envie provas para perfis de teste antes de enviá-la para o público-alvo. Uma prova deve ser enviada sempre que uma alteração for feita, para validar o conteúdo mais recente. O envio de deliveries de teste (anteriormente conhecidos como &quot;provas&quot;) é uma etapa importante para validar sua campanha e identificar possíveis problemas. Os recipients de prova podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
 
 ## Simular conteúdo com destinatários de teste {#simulate-content-test-deliveries}
 
@@ -31,22 +31,21 @@ Para detectar possíveis erros nas configurações de conteúdo ou personalizaç
 
 Antes de enviar um teste, defina um público-alvo de direcionamento para sua entrega. [Saiba mais](../audience/about-recipients.md)
 
-
 Para começar a testar o conteúdo da mensagem:
 
 1. Edite o conteúdo do seu delivery.
 1. Clique em **[!UICONTROL Simular conteúdo]** botão.
-1. Clique em **[!UICONTROL Teste]** botão para enviar mensagens de teste.
+1. Clique em **[!UICONTROL Teste]** botão para enviar provas.
 
    ![](assets/simulate-test-button-email.png)
 
 1. Selecione os recipients do teste.
 
-   Dependendo do canal de mensagem, as mensagens de teste podem ser enviadas para os seguintes tipos de recipients:
+   Dependendo do canal de mensagem, as provas podem ser enviadas para os seguintes tipos de recipients:
 
    * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são recipients adicionais específicos do banco de dados. Esses destinatários são criados na variável [!DNL Campaign] console do cliente. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-   * Para SMS e emails, você também pode usar o [substituição do público alvo principal](#substitution-profiles) que envia as mensagens de teste para o endereço de teste de email ou número de telefone e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
+   * Para SMS e emails, você também pode usar o [substituição do público alvo principal](#substitution-profiles) que envia as provas para o endereço de teste de email ou número de telefone e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
 
    * Para mensagens por push, é possível usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados na [!DNL Campaign] console. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -74,7 +73,7 @@ Para começar a testar o conteúdo da mensagem:
 >title="Incluir perfis de teste no público-alvo principal"
 >abstract="Habilite esta opção para também enviar a mensagem final para os destinatários da entrega de teste."
 
-Os perfis de teste são seed addresses, que são recipients adicionais no banco de dados. Eles podem ser criados na variável [!DNL Adobe Campaign] console do cliente. As etapas para enviar mensagens de teste para seed addresses são detalhadas abaixo.
+Os perfis de teste são seed addresses, que são recipients adicionais no banco de dados. Eles podem ser criados na variável [!DNL Adobe Campaign] console do cliente. As etapas para enviar provas para seed addresses estão detalhadas abaixo.
 
 1. A partir do conteúdo do seu delivery, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Teste]** botão.
 
@@ -94,7 +93,7 @@ Os perfis de teste são seed addresses, que são recipients adicionais no banco 
 
 ## Substituir dados do perfil {#substitution-profiles}
 
-Use a substituição de perfil para enviar mensagens de teste para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
+Use a substituição de perfil para enviar provas para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
 
 Para substituir os dados do perfil do target principal, siga as etapas abaixo:
 
