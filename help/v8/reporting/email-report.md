@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 61%
+source-wordcount: '2244'
+ht-degree: 40%
 
 ---
 
@@ -81,25 +81,25 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o suces
 >abstract="O gráfico e a tabela **Causas de exclusão** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega."
 
 
-O gráfico e a tabela **[!UICONTROL Causas de exclusão]** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+A variável **[!UICONTROL Causas de exclusão]** o gráfico e a tabela mostram o detalhamento por regra de mensagens rejeitadas durante a preparação do delivery. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL User unknown]** : Tipo de erro gerado durante a entrega para indicar que o endereço de email é inválido.
+* **[!UICONTROL Usuário desconhecido]**: Tipo de erro gerado durante o delivery para indicar que o endereço de email é inválido.
 
-* **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar uma entrega para indicar que o domínio do endereço de email está errado ou não existe.
+* **[!UICONTROL Domínio inválido]**: Tipo de erro gerado ao enviar um delivery para indicar que o domínio do endereço de email está errado ou não existe.
 
 * **[!UICONTROL Caixa de entrada cheia]**: Tipo de erro gerado após cinco tentativas de delivery para indicar que a caixa de entrada dos recipients contém muitas mensagens.
 
-* **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar uma entrega para indicar que o endereço não existe mais.
+* **[!UICONTROL Conta desabilitada]**: Tipo de erro gerado ao enviar um delivery para indicar que o endereço não existe mais.
 
 * **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
 
-* **[!UICONTROL Unreachable]** : Tipo de erro que ocorre na string de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
+* **[!UICONTROL Inacessível]**: Tipo de erro que ocorre na cadeia de caracteres de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
 
-* **[!UICONTROL Not connected]** : Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
+* **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
 
 +++
 
@@ -122,7 +122,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 >title="Estatísticas de transmissão"
 >abstract="O relatório **Estatísticas de transmissão** contém os dados disponíveis de possíveis erros encontrados em cada domínio."
 
-A tabela **[!UICONTROL Estatísticas de transmissão]** contém os dados disponíveis de possíveis erros encontrados em cada domínio. As métricas estão detalhadas abaixo.
+A variável **[!UICONTROL Estatísticas de transmissão]** A tabela contém os dados disponíveis para possíveis erros encontrados com cada domínio. As métricas estão detalhadas abaixo.
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
@@ -154,25 +154,25 @@ A tabela **[!UICONTROL Estatísticas de transmissão]** contém os dados dispon�
 
 A variável **[!UICONTROL Detalhamento de erros por tipo]** a tabela e o gráfico contêm os dados disponíveis para o tipo de erro. As métricas estão detalhadas abaixo.
 
-Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre gestão de quarentena, consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR){target="_blank"}.
+Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre gestão de quarentena, consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 ![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL User unknown]** : Tipo de erro gerado durante a entrega para indicar que o endereço de email é inválido.
+* **[!UICONTROL Usuário desconhecido]**: Tipo de erro gerado durante o delivery para indicar que o endereço de email é inválido.
 
-* **[!UICONTROL invalid domain]** : Tipo de erro gerado ao enviar uma entrega para indicar que o domínio do endereço de email está errado ou não existe.
+* **[!UICONTROL Domínio inválido]**: Tipo de erro gerado ao enviar um delivery para indicar que o domínio do endereço de email está errado ou não existe.
 
 * **[!UICONTROL Caixa de entrada cheia]**: Tipo de erro gerado após cinco tentativas de delivery para indicar que a caixa de entrada dos recipients contém muitas mensagens.
 
-* **[!UICONTROL Account disabled]** : Tipo de erro gerado ao enviar uma entrega para indicar que o endereço não existe mais.
+* **[!UICONTROL Conta desabilitada]**: Tipo de erro gerado ao enviar um delivery para indicar que o endereço não existe mais.
 
 * **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
 
-* **[!UICONTROL Unreachable]** : Tipo de erro que ocorre na string de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
+* **[!UICONTROL Inacessível]**: Tipo de erro que ocorre na cadeia de caracteres de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
 
-* **[!UICONTROL Not connected]** : Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
+* **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
 
 +++
 
@@ -223,13 +223,13 @@ A variável **[!UICONTROL Estatísticas de entrega]** O relatório do fornece in
 
 * **[!UICONTROL Aberturas distintas]**: número total de recipients alvos que abriram uma mensagem pelo menos uma vez.
 
-* **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
+* **[!UICONTROL Aberturas]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 
 * **[!UICONTROL Cliques no link para opção de não participação]**: Número de cliques no link unsubscription.
 
-* **[!UICONTROL Clicks on the mirror link]**: Número de cliques no link para a mirror page.
+* **[!UICONTROL Cliques no mirror link]**: Número de cliques no link para a mirror page.
 
-* **[!UICONTROL Estimation of forwards]**: Estimativa do número de emails encaminhados pelos recipients alvos.
+* **[!UICONTROL Estimativa de encaminhamentos]**: Estimativa do número de emails encaminhados pelos recipients alvos.
 +++
 
 ### Índice de abertura e click-through {#email-tracking-click-through}
@@ -249,13 +249,13 @@ A variável **[!UICONTROL Índice de click-through e aberturas]** A tabela exibe
 
 * **[!UICONTROL Enviado]**: Número total de mensagens enviadas.
 
-* **[!UICONTROL Complaints]**: Número de mensagens deste domínio relatadas como indesejáveis pelo recipient.
+* **[!UICONTROL Reclamações]**: Número de mensagens deste domínio relatadas como indesejáveis pelo recipient.
 
-* **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
+* **[!UICONTROL Aberturas]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 
-* **[!UICONTROL Clicks]**: Número de recipients alvos distintos que clicaram na mesma entrega pelo menos uma vez.
+* **[!UICONTROL Cliques]**: Número de recipients alvos distintos que clicaram no mesmo delivery pelo menos uma vez.
 
-* **[!UICONTROL Raw reactivity]**: Porcentagem do número de recipients que clicaram em uma entrega pelo menos uma vez em comparação ao número de recipients que abriram uma entrega pelo menos uma vez.
+* **[!UICONTROL Reatividade bruta]**: Porcentagem do número de recipients que clicaram em um delivery pelo menos uma vez em comparação ao número de recipients que abriram um delivery pelo menos uma vez.
 +++
 
 ## Fluxos de clique e URLs {#url-email}
@@ -272,11 +272,11 @@ O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores princi
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em uma entrega em relação ao número estimado de recipients alvos que abriram uma entrega.
+* **[!UICONTROL Reatividade]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
 
 * **[!UICONTROL Cliques distintos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
+* **[!UICONTROL Cliques]**: Número total de cliques nos links nos deliveries.
 
 * **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para entregas enviadas nos seis meses anteriores. Somente as entregas com a mesma tipologia e no mesmo canal são consideradas. Provas são excluídas.
 
@@ -297,7 +297,7 @@ A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela co
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
+* **[!UICONTROL Cliques]**: Número total de cliques nos links nos deliveries.
 
 * **[!UICONTROL Porcentagem]**: Porcentagem de usuários que interagiram com o delivery.
 
@@ -309,7 +309,7 @@ A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela co
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="Detalhamento dos cliques ao longo do tempo"
->abstract="O gráfico **Detalhamento dos cliques ao longo do tempo** mostra os dados disponíveis relativos ao comportamento do destinatário em cada link."
+>abstract="O gráfico **Detalhamento dos cliques ao longo do tempo** mostra os dados disponíveis relativos ao comportamento do recipient em cada link."
 
 
 A variável **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.
@@ -329,9 +329,9 @@ A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalh
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
+* **[!UICONTROL Cliques]**: Número total de cliques nos links nos deliveries.
 
-* **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
+* **[!UICONTROL Aberturas]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 
 +++
 
@@ -348,9 +348,9 @@ O gráfico **[!UICONTROL Estatísticas de rastreamento]** fornece estatísticas 
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
+* **[!UICONTROL Cliques]**: Número total de cliques nos links nos deliveries.
 
-* **[!UICONTROL Opens]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
+* **[!UICONTROL Aberturas]**: Número de recipients alvos distintos para este domínio que abriram uma mensagem pelo menos uma vez.
 
 +++
 
