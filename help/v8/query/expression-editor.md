@@ -2,10 +2,10 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 90%
+source-wordcount: '1846'
+ht-degree: 87%
 
 ---
 
@@ -127,6 +127,11 @@ As funções de data são usadas para manipular valores de data ou hora.
    <td> AddYears(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Converte o carimbo de data e hora NTZ (carimbo de data e hora sem fuso horário) em TZ (carimbo de data e hora com fuso horário) usando a sessão definida TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Retorna somente a data (com a hora 00:00)*<br /> </td> 
    <td> DateOnly(&lt;date&gt;)<br /> </td>  
@@ -207,6 +212,11 @@ As funções de data são usadas para manipular valores de data ou hora.
    <td> MonthsOld(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Retorna a data mais antiga em um intervalo<br /> </td> 
+   <td> Mais antigo (&lt;date date=""&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
    <td> <strong>Second</strong><br /> </td> 
    <td> Retorna os segundos da data<br /> </td> 
    <td> Second(&lt;date&gt;)<br /> </td>  
@@ -284,11 +294,11 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>TruncYear</strong><br /> </td> 
    <td> Arredonda uma data + hora para 1º de janeiro do ano<br /> </td> 
-   <td> TruncYear(&lt;date&gt;)<br /> </td>  
+   <td> TruncYear(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Retorna o número que representa o dia na semana da data<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Retorna o número que representa o dia na semana da data (0=segunda-feira, 6=domingo)<br /> </td> 
    <td> WeekDay(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ As funções de data são usadas para manipular valores de data ou hora.
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> Retorna o número que representa o ano e o mês da data.<br /> </td> 
    <td> YearAndMonth(&lt;data&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> Retorna o número de anos entre duas datas especificadas<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
