@@ -2,9 +2,9 @@
 audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 16%
 
 ---
@@ -24,15 +24,58 @@ O Adobe Campaign Web apresenta um modelador de consultas que simplifica o proces
 O modelador de query está disponível em cada contexto em que você precisa definir regras para filtrar dados.
 
 * **Definir públicos**: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo personalizados para suas necessidades.
+
+  +++Exemplo
+
+  ![](assets/access-audience.png)
+
++++
+
 * **Personalizar atividades de fluxo de trabalho**: aplique regras em atividades de workflow, como Split e Reconciliation, para alinhar-se aos requisitos específicos,
-* **Dinamizar conteúdo**: torne seu conteúdo dinâmico criando condições que definem qual conteúdo deve ser exibido para diferentes recipients, garantindo mensagens personalizadas e relevantes.
+
+  +++Exemplo
+
+  ![](assets/access-workflow.png)
+
++++
+
+<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
+    +++Example
+
+    ![](assets/access-audience.png)
+
+    +++
+-->
+
 * **Filtros predefinidos**: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, independentemente de você estar trabalhando com listas de dados ou formando o público para um delivery.
+
+  +++Exemplo
+
+  ![](assets/access-predefined-filter.png)
+
++++
+
 * **Filtrar dados de relatórios**: adicione uma regra para filtrar os dados exibidos nos relatórios.
+
+  +++Exemplo
+
+  ![](assets/access-reports.png)
+
++++
+
+* **Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de deliveries, etc.
+
+  +++Exemplo
+
+  ![](assets/access-lists.png)
+
++++
 
 ## Interface do modelador de consultas {#interface}
 
 O modelador de consultas fornece uma tela central, onde você pode adicionar e combinar os diferentes componentes que constroem sua consulta.
 
-No lado direito, o painel de propriedades Regra fornece informações sobre a consulta. Ela permite executar várias operações para verificar sua consulta e garantir que ela atenda às suas necessidades. Saiba como verificar e validar seu query (link a ser definido)
+No lado direito, o painel de propriedades Regra fornece informações sobre a consulta. Ela permite executar várias operações para verificar sua consulta e garantir que ela atenda às suas necessidades. Saiba como verificar e validar seu query
 
 ![](assets/query-interface.png)
