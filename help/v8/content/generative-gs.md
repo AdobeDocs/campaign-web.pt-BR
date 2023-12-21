@@ -4,14 +4,20 @@ title: Introdução ao Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '475'
 ht-degree: 34%
 
 ---
 
 # Introdução ao Assistente de conteúdo {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="IA generativa para conteúdo de email"
+>abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,7 +39,7 @@ Você pode usar o Assistente de conteúdo do Campaign em seus emails para: [gera
 
 >[!NOTE]
 >
->Esse recurso está disponível na versão alfa e está sujeito a alterações sem aviso prévio. Ela será ativada no início de outubro.
+>Esse recurso está disponível na versão Alpha e está sujeito a alterações sem aviso prévio. Ela será ativada no início de outubro.
 
 ## Medidas de proteção e limitações {#generative-guardrails}
 
@@ -68,7 +74,7 @@ As seguintes limitações se aplicam ao Assistente de conteúdo do Campaign:
 <a href="generative-image.md">
 <img alt="Geração de imagem" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Geração de imagem com o Assistente de conteúdo</strong>
+<div><a href="generative-image.md"><strong>Geração de imagens com o Assistente de conteúdo</strong>
 </div>
 <p>
 </td>

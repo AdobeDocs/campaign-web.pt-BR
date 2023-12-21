@@ -3,10 +3,10 @@ title: Trabalhar com destinatários e públicos-alvo
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 25%
+source-wordcount: '1049'
+ht-degree: 23%
 
 ---
 
@@ -16,10 +16,16 @@ No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um pú
 
 ## O que são destinatários? {#recipients}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="Recipients"
+>abstract="Crie novos recipients e monitore-os com ferramentas e relatórios avançados. Acesse o perfil do recipient, use as opções de filtragem para navegar na lista de recipients, editar e atualizar seus atributos."
+
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfis"
->abstract="Um perfil é um indivíduo selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de entregas (emails, SMS). Nessa lista, é possível exibir o perfil do recipient com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos do recipient."
+>abstract="Um perfil é um indivíduo selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão selecionados para envio de entregas (emails, SMS). Nessa lista, é possível exibir o perfil do recipient com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos do recipient."
 
 Um recipient é um perfil selecionado para receber mensagens enviadas pelo Adobe Campaign. No Adobe Campaign, os recipients são os perfis padrão direcionados para envio de entregas (emails, SMS etc.). Os dados do recipient armazenados no banco de dados permitem criar públicos-alvo que receberão qualquer entrega e adicionar dados de personalização ao conteúdo de entrega. Outros tipos de perfis são armazenados no banco de dados. Eles foram projetados para diferentes usos: por exemplo, perfis iniciais são feitos para testar suas entregas antes que elas sejam enviadas ao público final.
 
@@ -59,7 +65,7 @@ Para definir a população de um público-alvo, é possível:
 
 * [Criar novos públicos](create-audience.md) do **[!UICONTROL Públicos-alvo]** menu,
 * [Selecionar um público existente](add-audience.md) criado como uma lista no console do cliente ou proveniente da Adobe Experience Platform,
-* [Criar um público-alvo novo com o criador de regras definindo e combinando critérios de filtro,](segment-builder.md)
+* [Criar um novo público](segment-builder.md) com o construtor de regras, definindo e combinando critérios de filtragem,
 * [Usar um público-alvo de um arquivo externo](file-audience.md). Essa opção só está disponível para deliveries de email independentes e não pode ser usada em deliveries de campanha.
 
 Ao direcionar um público-alvo, você também pode definir **grupos de controle** para evitar o envio de mensagens para uma parte do público-alvo e medir o impacto das campanhas. [Saiba como definir um grupo de controle](control-group.md)
@@ -80,7 +86,7 @@ Por padrão, templates de delivery de email e SMS têm como target **[!UICONTROL
 
 Você também pode usar outros target mappings integrados nos workflows e deliveries listados abaixo:
 
-| Nome | Uso para | Schema |
+| Nome | Use para | Esquema |
 |---|---|---|
 | Recipients | Entregar aos destinatários (tabela de destinatários integrada) | nms:recipient |
 | Visitantes | Enviar delivery aos visitantes cujos perfis foram coletados por meio de referência (marketing viral), por exemplo. | mns:visitor |

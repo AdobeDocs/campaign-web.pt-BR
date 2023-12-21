@@ -4,8 +4,8 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
-workflow-type: ht
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -15,9 +15,10 @@ ht-degree: 100%
 # Novidades {#new}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Novidades"
+>id="acw_homepage_card2"
+>title="Notas de versão"
 >abstract="Nossa versão mais recente contém recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais."
+
 
 Temos o prazer de apresentar a versão BETA da interface do Adobe Campaign Web. Nossa versão mais recente contém recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais.
 

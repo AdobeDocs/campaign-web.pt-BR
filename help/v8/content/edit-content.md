@@ -4,10 +4,10 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 55%
+source-wordcount: '624'
+ht-degree: 52%
 
 ---
 
@@ -31,10 +31,11 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Rastreamento de edições"
->abstract="Por padrão, o rastreamento é habilitado para a entrega, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desativar esta opção aqui."
+>abstract="Por padrão, o rastreamento é habilitado para a entrega, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desabilitar essa opção aqui."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=pt-BR" text="Adicionar links e rastrear mensagens"
 
 O email **[!UICONTROL Editar conteúdo]** permite:
+
 * Definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto
 * Executar ações adicionais, como adicionar anexos ou configurar ofertas
 * Acesse o [Email Designer](get-started-email-designer.md#start-authoring) para começar a criar o conteúdo adequado do seu email
@@ -83,11 +84,11 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
    <!--limitation on size + number of files?-->
 
-1. Se desejar enviar ofertas com seu email, selecione-as usando o botão **[!UICONTROL Configurar ofertas.]**
+1. Se quiser enviar ofertas com seu email, selecione-as usando o **[!UICONTROL Configurar ofertas]** botão.
 
    É possível inseri-los no email usando os campos de personalização. [Saiba como enviar ofertas](offers.md)
 
-1. Clique em **[!UICONTROL Editar corpo do email]** botão para estruturar e projetar o conteúdo do email usando o [Email Designer](#start-authoring). Informações adicionais sobre como criar conteúdo de email estão disponíveis nessas seções:
+1. Clique em **[!UICONTROL Editar corpo do email]** botão para estruturar e projetar o conteúdo do email usando o [Email Designer](get-started-email-designer.md#start-authoring). Informações adicionais sobre como criar conteúdo de email estão disponíveis nessas seções:
 
    * [Criar emails do zero](create-email-content.md)
    * [Estilo do conteúdo](get-started-email-style.md)
@@ -96,7 +97,7 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
    >
    >Você também pode passar o mouse sobre a pré-visualização do email e selecionar **[!UICONTROL Abrir designer de email]**.
 
-1. Por padrão, o rastreamento é ativado para a entrega. Você pode desativar essa opção na seção **[!UICONTROL Recursos opcionais]**. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
+1. Por padrão, o rastreamento é ativado para a entrega. Você pode desabilitar essa opção na seção **[!UICONTROL Recursos opcionais]**. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
 
 1. Depois que o conteúdo do email tiver sido definido, use o botão **[!UICONTROL Simular conteúdo]** para verificar como ele é exibido antes de enviá-lo. [Saiba como visualizar e testar seu email](../preview-test/preview-test.md)
 
