@@ -2,10 +2,10 @@
 audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
-source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
+source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 12%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -25,31 +25,13 @@ O modelador de query está disponível em cada contexto em que você precisa def
 
 | Uso | Exemplo |
 |  ---  |  ---  |
-| **Definir públicos**: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo personalizados para suas necessidades. <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
-| **Personalizar atividades de fluxo de trabalho**: aplique regras em atividades de workflow, como Split e Reconciliation, para alinhar-se aos requisitos específicos. | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
-| **Filtros predefinidos**: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, independentemente de você estar trabalhando com listas de dados ou formando o público para um delivery. | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
-| **Filtrar dados de relatórios**: adicione uma regra para filtrar os dados exibidos nos relatórios. | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
-| **Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de deliveries, etc. | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
+| **Definir públicos**: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo personalizados para suas necessidades. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Personalizar atividades de fluxo de trabalho**: aplique regras em atividades de workflow, como Split e Reconciliation, para alinhar-se aos requisitos específicos. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Filtros predefinidos**: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, independentemente de você estar trabalhando com listas de dados ou formando o público para um delivery. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Filtrar dados de relatórios**: adicione uma regra para filtrar os dados exibidos nos relatórios. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de deliveries, etc. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-## Acessar o modelador de consultas {#access}
 
-O modelador de query está disponível em cada contexto em que você precisa definir regras para filtrar dados.
-
-**Definir públicos**: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo personalizados para suas necessidades. <!--(LINK TBD)-->
-
-+++Exemplo
-
-![](assets/access-audience.png)
-
-+++
-
-**Personalizar atividades de fluxo de trabalho**: aplique regras em atividades de workflow, como Split e Reconciliation, para alinhar-se aos requisitos específicos. <!--(LINK TBD)-->
-
-+++Exemplo
-
-![](assets/access-workflow.png)
-
-+++
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
@@ -60,29 +42,6 @@ O modelador de query está disponível em cada contexto em que você precisa def
  +++
 -->
 
-**Filtros predefinidos**: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, independentemente de você estar trabalhando com listas de dados ou formando o público para um delivery. <!--(LINK TBD)-->
-
-+++Exemplo
-
-![](assets/access-predefined-filter.png)
-
-+++
-
-**Filtrar dados de relatórios**: adicione uma regra para filtrar os dados exibidos nos relatórios. <!--(LINK TBD)-->
-
-+++Exemplo
-
-![](assets/access-reports.png)
-
-+++
-
-**Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de deliveries, etc. <!--(LINK TBD)-->
-
-+++Exemplo
-
-![](assets/access-lists.png)
-
-+++
 
 ## Interface do modelador de consultas {#interface}
 
