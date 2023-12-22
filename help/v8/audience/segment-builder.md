@@ -4,19 +4,15 @@ title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 63%
+source-wordcount: '559'
+ht-degree: 60%
 
 ---
 
 # Trabalhar com o construtor de regras {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Públicos-alvo"
->abstract="Criar um público-alvo de entrega nunca foi tão fácil. Com nosso construtor de regras mais recente, agora é possível definir critérios de filtragem para destinatários ou qualquer outro targeting dimension do banco de dados. Aproveite seus públicos-alvo da Adobe Experience Platform para refinar ainda mais o público-alvo e maximizar o impacto da campanha."
 
 O construtor de regras permite definir a população direcionada pelo delivery filtrando os dados contidos no banco de dados. É possível usá-lo para criar um público-alvo a partir de um fluxo de trabalho usando um **[!UICONTROL Criar público-alvo]** ou diretamente ao criar um delivery para criar um público-alvo único.
 
