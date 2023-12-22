@@ -2,10 +2,10 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 87%
+source-wordcount: '1917'
+ht-degree: 83%
 
 ---
 
@@ -313,8 +313,8 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr>
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> Retorna o número de anos entre duas datas especificadas<br /> </td> 
-   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
+   <td> Retorna o número de anos entre uma determinada data e a data atual<br /> </td> 
+   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ Esta tabela contém as funções restantes disponíveis.
    <td> <strong>Descrição</strong><br /> </td> 
    <td> <strong>Sintaxe</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Retorna o valor 1 se a condição for verdadeira. Caso contrário, retornará o valor 2.<br /> </td> 
@@ -467,6 +472,11 @@ Esta tabela contém as funções restantes disponíveis.
    <td> Retorna o valor 3 se o valor 1 for igual ao valor 2. Caso contrário, retorna o valor 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Retorna o valor 1 (só pode ser usado como parâmetro da função case)<br /> </td> 
@@ -497,6 +507,11 @@ Esta tabela contém as funções restantes disponíveis.
    <td> Retorna o valor 2 se a string 1 estiver vazia, caso contrário, retorna o valor 3.<br /> </td> 
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Retorna a string vazia se o argumento for NULL.<br /> </td> 
@@ -562,6 +577,11 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> Retorna o tamanho em bytes da cadeia de caracteres<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Retorna a linha enésima (de 1 a n) da string<br /> </td> 
    <td> GetLine(&lt;string&gt;)<br /></td> 
@@ -587,11 +607,6 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> Retorna a string concluída à esquerda<br /> </td> 
-   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Retorna os primeiros n caracteres da string<br /> </td> 
    <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
@@ -601,10 +616,20 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> Retorna o comprimento da string<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Retorna a string em minúsculas<br /> </td> 
    <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Retorna a string concluída à esquerda<br /> </td> 
+   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -619,12 +644,12 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica se o memorando contém a string aprovada como um parâmetro<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
+   <td> MemoContains(&lt;memorando&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> Retorna a string concluída à direita<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Extrai o valor de um campo XML de seu XPath e dos dados do campo<br /> </td> 
+   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Retorna a string concluída à direita<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Remove espaços à direita da string<br /> </td> 
    <td> Rtrim(&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> Representação hexadecimal da chave SHA256 de uma cadeia de caracteres.<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> Representação hexadecimal da chave SHA512 de uma cadeia de caracteres.<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -664,12 +704,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Retorna a chave externa (texto) de um link passado como um parâmetro se os outros dois parâmetros forem iguais<br /> </td> 
-   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> Retorna o tamanho da string<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /> </td>  
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -682,6 +717,11 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> <strong>Nome</strong><br /> </td> 
    <td> <strong>Descrição</strong><br /> </td> 
    <td> <strong>Sintaxe</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>_Sobre__</strong><br /> </td> 
+   <td> Execute a chamada de função SQL inserida como primeiro parâmetro, em Partition ou Order By, nos campos inseridos como segundo parâmetro<br /> </td> 
+   <td> _Sobre_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
