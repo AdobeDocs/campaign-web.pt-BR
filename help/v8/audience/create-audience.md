@@ -4,9 +4,9 @@ title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '616'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 10%
 >id="acw_homepage_rn1"
 >title="Composição de público"
 >abstract="Crie novos públicos-alvo em uma tela de fluxo de trabalho visual. Além de começar do zero para criar um público-alvo simples, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Combine vários públicos-alvo em um único, enriqueça o público-alvo com atributos externos ou divida-o em vários públicos-alvo com base em regras de sua escolha."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte as notas de versão"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

@@ -3,10 +3,10 @@ title: Trabalhar com destinatários e públicos-alvo
 description: Saiba como trabalhar com recipients do Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 23%
+source-wordcount: '1053'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,8 @@ No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um pú
 >id="acw_homepage_rn4"
 >title="Recipients"
 >abstract="Crie novos recipients e monitore-os com ferramentas e relatórios avançados. Acesse o perfil do recipient, use as opções de filtragem para navegar na lista de recipients, editar e atualizar seus atributos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte as notas de versão"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

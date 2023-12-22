@@ -4,10 +4,10 @@ title: Edição do conteúdo de email
 description: Saiba como começar a criar conteúdo usando o Designer de email na interface do Campaign Web
 badge: label="Beta"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 90%
+source-wordcount: '425'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 90%
 >id="acw_homepage_rn3"
 >title="Novo Designer de email"
 >abstract="O Campaign Email Designer permite criar e-mails envolventes e personalizados por meio de uma interface intuitiva de arrastar e soltar. Esteja você iniciando do zero, importando um conteúdo existente ou aproveitando modelos existentes, projete e refine todo o conteúdo para cada email!"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte as notas de versão"
+
 
 Após a criação de um email no Adobe Campaign, é necessário definir seu conteúdo.
 
