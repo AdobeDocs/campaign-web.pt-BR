@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1388'
 ht-degree: 97%
 
 ---
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="Atividade de reconciliação"
->abstract="Use a atividade **Reconciliação** para vincular dados não identificados aos recursos existentes."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Direcionamento de reconciliação"
->abstract="Direcionamento de reconciliação"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="Regras de reconciliação"
->abstract="Regras de reconciliação"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="Dimensão de targeting dimension"
->abstract="Dimensão de targeting dimension"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="Campo de seleção de reconciliação"
->abstract="Campo de seleção de reconciliação"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="Atributo de seleção de reconciliação"
->abstract="Atributo de seleção de reconciliação"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="Condição de criação de reconciliação"
->abstract="Condição de criação de reconciliação"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="Complemento de geração de reconciliação"
->abstract="Complemento de geração de reconciliação"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="Opção para manter dados não reconciliados da reconciliação"
->abstract="Opção para manter dados não reconciliados da reconciliação"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Atividade Carregar arquivo"
->abstract="Atividade Carregar arquivo"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="Arquivo de amostra"
->abstract="Arquivo de amostra"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Nome do arquivo"
->abstract="Nome do arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Banco de dados de públicos-alvo"
->abstract="Banco de dados de públicos-alvo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Gerenciamento de rejeições da atividade Carregar arquivo"
->abstract="Gerenciamento de rejeições da atividade Carregar arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="Transição de saída do gerenciamento de rejeições"
->abstract="Transição de saída do gerenciamento de rejeições"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Transição de saída do gerenciamento de rejeições para recusas"
->abstract="Transição de saída do gerenciamento de rejeições para recusas"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Formatação da atividade Carregar arquivo"
->abstract="Formatação da atividade Carregar arquivo"

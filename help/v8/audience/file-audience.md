@@ -4,10 +4,10 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 40%
+source-wordcount: '612'
+ht-degree: 35%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definição de colunas"
->abstract="Verifique o formato das colunas a serem inseridas do seu arquivo local."
+>abstract="Verifique o formato das colunas no arquivo externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parâmetros de formatação"
->abstract="Verifique os parâmetros de formatação do arquivo."
+>abstract="Verifique os parâmetros de formatação do arquivo externo."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Visualizar seu arquivo"
->abstract="Verifique a visualização do arquivo. Essa tela mostra um máximo de 30 registros."
+>abstract="Verifique a visualização das colunas do arquivo externo. Essa tela mostra um máximo de 30 registros."
 
 
-
-Não é possível fazer upload de perfis diretamente no Campaign a partir da interface, mas você pode direcionar perfis armazenados em um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).
+Você pode direcionar perfis armazenados em um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Este artigo descreve como carregar um perfil externo ao criar um delivery de email independente. Para carregar dados de um arquivo em um workflow, consulte [esta página](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Esse recurso só está disponível para **deliveries de email independentes**. Ele não pode ser usado em workflows nem com deliveries SMS ou Push.
+>* Esse recurso só está disponível para **deliveries de email**. Ele não pode ser usado com deliveries SMS ou Push.
 >
 >* Não é possível usar [grupos de controle](control-group.md) ao carregar a população alvo a partir de um arquivo externo.
 >

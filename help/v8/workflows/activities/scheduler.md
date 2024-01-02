@@ -4,9 +4,9 @@ title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '526'
 ht-degree: 38%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Scheduler  enriquecimento"
+>title="Atividade Scheduler"
 >abstract="A atividade **Scheduler** permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
 
 
@@ -28,7 +28,7 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite
 * Se quiser enviar um delivery instantâneo no fluxo de trabalho, adicione uma atividade de scheduler e defina-a para executar **Uma vez**. Você também pode definir a variável **Agendar** nas configurações do delivery.
 * Para enviar um delivery recorrente no workflow, é necessário usar um **Scheduler** e defina a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
 
-## Configuração{#scheduler-configuration}
+## Configurar a atividade do Scheduler {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
