@@ -4,10 +4,10 @@ title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1534'
-ht-degree: 36%
+source-wordcount: '1533'
+ht-degree: 34%
 
 ---
 
@@ -96,7 +96,7 @@ O modo Push silencioso permite que uma notificação “silenciosa” seja envia
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Contagem de notificações"
->abstract="Use esta opção para definir o número de novas informações não lidas a serem exibidas diretamente no ícone do aplicativo. Isso permite que o usuário veja rapidamente o número de notificações pendentes."
+>abstract="Use esta opção para definir o número de notificações não lidas a serem exibidas diretamente no ícone do aplicativo. Isso permite que o usuário veja rapidamente o número de notificações pendentes."
 
 
 >[!CONTEXTUALHELP]
