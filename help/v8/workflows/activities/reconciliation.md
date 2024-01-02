@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade do workflow de reconciliação
 description: Saiba como usar a atividade de workflow de reconciliação
 badge: label="Disponibilidade limitada"
-source-git-commit: 89372e4a6c60937c646de59eb1a65b86fa1b2528
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 20%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Atividade de reconciliação"
->abstract="A variável **Reconciliação** a atividade é um **Direcionamento** atividade. Ela permite vincular dados não identificados aos recursos existentes. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela de trabalho."
+>abstract="A variável **Reconciliação** a atividade é um **Direcionamento** Atividade que permite vincular dados não identificados aos dados existentes do Campaign. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela externa."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 
 
-A variável **Reconciliação** a atividade é um **Direcionamento** atividade. Ela permite vincular dados não identificados aos recursos existentes. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela de trabalho.
+A variável **Reconciliação** a atividade é um **Direcionamento** atividade que permite vincular dados não identificados aos recursos existentes. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela de trabalho.
 
 
 ## Práticas recomendadas {#reconciliation-best-practices}
@@ -85,7 +85,7 @@ Siga estas etapas para configurar o **Reconciliação** atividade:
 
 1. Selecione os campos de reconciliação a serem usados para a desduplicação. É possível usar um ou mais critérios de reconciliação.
 
-   1. Para usar atributos para reconciliar dados, selecione o **Atributos simples** opção. Por exemplo, selecione a variável **E-mail** para desduplicar perfis com base em seus endereços de email. A variável **Origem** field lista os campos disponíveis na transição de entrada, que devem ser reconciliados. A variável **Destino** field corresponde aos campos da targeting dimension selecionada. Os dados são reconciliados quando a origem e o destino são iguais.
+   1. Para usar atributos para reconciliar dados, selecione o **Atributos simples** opção. A variável **Origem** field lista os campos disponíveis na transição de entrada, que devem ser reconciliados. A variável **Destino** field corresponde aos campos da targeting dimension selecionada. Os dados são reconciliados quando a origem e o destino são iguais. Por exemplo, selecione a variável **E-mail** para desduplicar perfis com base em seus endereços de email.
 
       Para adicionar outro critério de reconciliação, clique no link **Adicionar regra** botão. Se várias condições de associação forem especificadas, TODAS elas deverão ser verificadas para que os dados possam ser vinculados.
 
@@ -121,7 +121,7 @@ Ele é criado com as seguintes atividades:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Reconciliação** atividade que identifica os dados recebidos como perfis, usando o **email** como critérios de reconciliação.
+* A **Reconciliação** atividade que identifica os dados recebidos como perfis, usando o **email** e **Data de nascimento** campos como critérios de reconciliação.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 

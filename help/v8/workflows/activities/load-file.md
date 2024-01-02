@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 badge: label="Disponibilidade limitada"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 34%
+source-wordcount: '294'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Atividade Carregar arquivo"
->abstract="A variável **Carregar arquivo** a atividade é um **Gestão de dados** atividade. Use essa atividade para trabalhar com perfis armazenados em um arquivo externo."
+>abstract="A variável **Carregar arquivo** a atividade é um **Gestão de dados** atividade. Use esta atividade para trabalhar com dados armazenados em um arquivo externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 34%
 >abstract="Formatação da atividade Carregar arquivo"
 
 
-A variável **Carregar arquivo** a atividade é um **Gestão de dados** atividade. Use essa atividade para trabalhar com perfis armazenados em um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md)ou para atualizar perfis.
+A variável **Carregar arquivo** a atividade é um **Gestão de dados** atividade. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Siga estas etapas para configurar o **Carregar arquivo** atividade:
 
 
 1. Arraste e solte uma **Carregar arquivo** atividade no seu workflow. Clique em **Selecionar do arquivo** botão.
-1. Selecione o arquivo local a ser usado. O formato deve ser alinhado com o [arquivo de amostra](../../audience/file-audience.md#sample-file).
+1. Selecione o arquivo local a ser usado. O formato deve estar alinhado com este [arquivo de amostra](../../audience/file-audience.md#sample-file).
 1. Visualize e verifique como os dados estão mapeados na seção central da tela.
 1. Ajuste as configurações da coluna e como formatar os dados a partir das opções disponíveis.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
