@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 7%
@@ -140,7 +140,7 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
 Este template está pronto para ser usado ao criar qualquer email no [!DNL Adobe Campaign]. [Saiba como](use-email-templates.md)
 
-## Salvar conteúdo de email como modelo {#save-as-template}
+### Salvar conteúdo de email como modelo {#save-as-template}
 
 Uma vez que [criou um email](create-email-content.md), é possível salvar esse conteúdo como um template para reutilização futura. Os modelos salvos estão disponíveis para todos os usuários do seu ambiente Adobe Campaign.
 
