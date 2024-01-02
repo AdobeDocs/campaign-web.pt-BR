@@ -4,7 +4,7 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 67%
@@ -24,7 +24,7 @@ ht-degree: 67%
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
-Com base em uma configuração [modelo de design](../content/email-sample-templates.md), o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
+Com base em uma configuração [modelo de design](../content/create-email-templates.md), o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
 
 ## Criar a entrega de email {#create-email}
 
@@ -120,7 +120,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso 
 
 1. Para criar o conteúdo do email, clique no botão **[!UICONTROL Editar corpo do email]**.
 
-   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](../content/email-sample-templates.md).
+   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](../content/create-email-templates.md).
 
    ![](assets/select-template.png)
 

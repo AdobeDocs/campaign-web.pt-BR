@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1360'
 ht-degree: 97%
 
 ---
@@ -357,36 +357,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="Detalhes de fragmentos"
 >abstract="Detalhes de fragmentos"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Modelo de conteúdo"
->abstract="Modelo de conteúdo"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="Propriedades do modelo de conteúdo"
->abstract="Propriedades do modelo de conteúdo"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="Design do modelo de conteúdo"
->abstract="Design do modelo de conteúdo"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="Seleção do modelo de conteúdo"
->abstract="Seleção do modelo de conteúdo"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="Edição de modelo de conteúdo"
->abstract="Edição de modelo de conteúdo"
-
-
 
 
 >[!CONTEXTUALHELP]

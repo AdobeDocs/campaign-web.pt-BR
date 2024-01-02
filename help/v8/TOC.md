@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 97%
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 
@@ -36,12 +36,13 @@ ht-degree: 97%
       + [Criar seu primeiro email](email/create-email.md)
       + Definir conteúdo do email {#content}
          + [Configurar conteúdo de email](content/edit-content.md)
+         + [Trabalhar com modelos de conteúdo](content/create-email-templates.md)
          + Começar a definir seu email {#start-design}
             + [Introdução ao Designer de email](content/get-started-email-designer.md)
             + [Iniciar do zero](content/create-email-content.md)
             + [Importar o conteúdo do email](content/existing-content.md)
             + [Desenvolver o seu próprio conteúdo](content/code-content.md)
-            + [Usar templates de conteúdo de email](content/email-sample-templates.md)
+            + [Usar templates de conteúdo de email](content/use-email-templates.md)
          + Projetar o conteúdo {#design-content}
             + [Usar componentes de conteúdo](content/content-components.md)
             + [Adicionar links e rastrear mensagens](content/message-tracking.md)
