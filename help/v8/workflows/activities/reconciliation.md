@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow de reconciliação
 description: Saiba como usar a atividade de workflow de reconciliação
 badge: label="Disponibilidade limitada"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 20%
+source-wordcount: '840'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Atividade de reconciliação"
->abstract="A variável **Reconciliação** a atividade é um **Direcionamento** Atividade que permite vincular dados não identificados aos dados existentes do Campaign. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela externa."
+>abstract="A variável **Reconciliação** a atividade é um **Direcionamento** atividade que permite definir o vínculo entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela externa."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 
 
-A variável **Reconciliação** a atividade é um **Direcionamento** atividade que permite vincular dados não identificados aos recursos existentes. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela de trabalho.
+A variável **Reconciliação** a atividade é um **Direcionamento** atividade que permite definir o vínculo entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela de trabalho.
 
 
 ## Práticas recomendadas {#reconciliation-best-practices}
