@@ -2,9 +2,9 @@
 title: Monitorar e gerenciar perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 7%
 
 ---
@@ -50,7 +50,7 @@ Perfis podem ser adicionados somente a partir do console do cliente Campaign. No
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="Endereço"
 >abstract="Esta seção oferece informações sobre o endereço postal do perfil e a qualidade do endereço. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
