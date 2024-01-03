@@ -1,32 +1,30 @@
 ---
-title: Trabalhar com destinatários e públicos-alvo
-description: Saiba como trabalhar com recipients e públicos no Campaign Web
-badge: label="Beta"
+title: Introdução a perfis e públicos
+description: Saiba como trabalhar com perfis e públicos no Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+badge: label="Disponibilidade limitada"
+source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '391'
 ht-degree: 18%
 
 ---
 
-# Trabalhar com destinatários e públicos-alvo {#about-recipients}
+# Introdução a perfis e públicos {#about-profiles}
 
-## Destinatários e públicos {#about}
+## Perfis e públicos {#about}
 
-No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Esta coleção de pessoas pode ser gerada, selecionada ou carregada [conforme detalhado abaixo](#audiences).
-
-Na maioria dos casos comuns, o público-alvo é composto de perfis, que são armazenados como [recipients](#recipients) no Adobe Campaign. Também é possível trabalhar com outros target mappings alterando a dimensão conforme explicado [nesta seção](#targeting-dimensions).
+No Adobe Campaign, a população alvo de uma entrega é um público-alvo. Um público-alvo é um conjunto de perfis que compartilham comportamentos e/ou características semelhantes. Esta coleção de pessoas pode ser gerada, selecionada ou carregada [conforme detalhado abaixo](#audiences).
 
 ## Dimensões de direcionamento {#targeting-dimensions}
 
-Targeting dimension, também conhecido como. target mapping, é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
+Targeting dimension, também conhecido como. target mapping, é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: perfis, beneficiários de contrato, operadores, assinantes etc.
 
-O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos recipients do banco de dados, a transição de saída conterá dados do tipo recipient e será transmitida para a próxima atividade.
+O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos perfis do banco de dados, a transição de saída conterá dados do tipo &quot;recipient&quot; e será transmitida para a próxima atividade.
 
-Observe que é possível alternar o targeting dimension em um workflow usando um [Alterar atividade da dimensão](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos recipients correspondentes.
+Observe que é possível alternar o targeting dimension em um workflow usando um [Alterar atividade da dimensão](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos perfis correspondentes.
 
-Por padrão, templates de delivery de email e SMS têm como target **[!UICONTROL Destinatários]**. O target dimension, portanto, usa os campos da variável **nms:recipient** tabela. Para notificações por push, a dimensão de destino padrão é **Aplicativos de assinante nms:appSubscriptionRcp**, que está vinculado à tabela de recipients.
+Por padrão, modelos de delivery de email e SMS têm como alvo perfis. O target dimension, portanto, usa os campos da variável **nms:recipient** tabela. Para notificações por push, a dimensão de destino padrão é **Aplicativos de assinante nms:appSubscriptionRcp**, que está vinculado à tabela de recipients.
 
 Você também pode usar outros target mappings integrados nos workflows e deliveries listados abaixo:
 
