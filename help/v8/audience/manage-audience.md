@@ -4,10 +4,10 @@ title: Monitorar e gerenciar públicos-alvo
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 10%
 >id="acw_audiences_workflow_error_data_execution"
 >title="Erro de público-alvo"
 >abstract="Os dados de público-alvo não estão disponíveis. Aguarde o fim da execução do fluxo de trabalho."
+
+O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens O tipo de público-alvo depende do target mapping definido no modelo de entrega. Saiba mais sobre modelos de entrega em [esta página](../msg/delivery-template.md).
+
+Para definir a população de um público-alvo, é possível:
+
+* [Criar novos públicos](create-audience.md) do **[!UICONTROL Públicos-alvo]** menu,
+* [Selecionar um público existente](add-audience.md) criado como uma lista no console do cliente ou proveniente da Adobe Experience Platform,
+* [Criar um novo público](segment-builder.md) com o construtor de regras, definindo e combinando critérios de filtragem,
+* [Usar um público-alvo de um arquivo externo](file-audience.md). Essa opção só está disponível para deliveries de email independentes e não pode ser usada em deliveries de campanha.
+
+Ao direcionar um público-alvo, você também pode definir **grupos de controle** para evitar o envio de mensagens para uma parte do público-alvo e medir o impacto das campanhas. [Saiba como definir um grupo de controle](control-group.md)
+
+>[!NOTE]
+>
+>Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo é definido em um **Criar público-alvo** atividade de workflow. Nesse contexto, não é possível carregar um público-alvo de um arquivo para uma entrega de email, e o público-alvo é definido somente nessa atividade dedicada. Saiba como definir o público-alvo do seu delivery em um fluxo de trabalho de campanha no [nesta seção](../workflows/activities/build-audience.md)
 
 A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no **[!UICONTROL Públicos-alvo]** menu.
 

@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 95%
+source-wordcount: '482'
+ht-degree: 93%
 
 ---
 
@@ -88,15 +88,17 @@ ht-degree: 95%
       + [Enviar entregas de teste](preview-test/test-deliveries.md)
       + [Renderizar seu email](preview-test/email-rendering.md)
 + Públicos-alvo e destinatários {#audiences}
-   + [Trabalhar com destinatários e públicos-alvo](audience/about-recipients.md)
-   + [Criar públicos-alvo](audience/create-audience.md)
+   + [Introdução a recipients e públicos](audience/gs-audiences-recipients.md)
+   + [Trabalhar com recipients](audience/about-recipients.md)
+   + Trabalhar com públicos {#audiences}
+      + [Criar públicos-alvo](audience/create-audience.md)
+      + [Monitorar e gerenciar públicos-alvo](audience/manage-audience.md)
    + Selecione os destinatários da entrega {#target-audiences}
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de um arquivo](audience/file-audience.md)
       + [Configurar um grupo de controle](audience/control-group.md)
    + [Trabalhar com o construtor de regras](audience/segment-builder.md)
-   + [Monitorar e gerenciar públicos-alvo](audience/manage-audience.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
       + [Gerenciar serviços](audience/manage-services.md)
       + [Gerenciar assinantes](audience/manage-subscribers.md)
