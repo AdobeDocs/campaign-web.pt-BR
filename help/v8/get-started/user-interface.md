@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1494'
 ht-degree: 98%
 
 ---
@@ -248,29 +248,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Perfil somente leitura de destinatários"
 >abstract="Perfil somente leitura de destinatários"
 
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_recipients_testprofiles_additionaldata"
->title="Dados adicionais de perfis de teste"
->abstract="Dados adicionais de perfis de teste"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_testprofiles_menu"
->title="Perfis de teste"
->abstract="Perfis de teste"
-
-
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Modelo de entrega de assinaturas"
 >abstract="Modelo de entrega de assinaturas"
-
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
