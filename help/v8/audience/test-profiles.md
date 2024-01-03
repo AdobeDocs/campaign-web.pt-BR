@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,19 @@ As etapas para enviar mensagens de teste para seed addresses estão detalhadas e
 
 ## Acessar e gerenciar perfis de teste {#access-test-profiles}
 
-Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** no menu esquerdo e selecione o **[!UICONTROL Perfis de teste]** guia.
+Para acessar a lista de perfis de teste, selecione **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** no menu esquerdo e clique na guia **[!UICONTROL Perfis de teste]** guia.
+
+![](assets/test-profile-list.png)
 
 É possível filtrar em um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 Para editar um perfil de teste, clique no item desejado na lista.
 
 Para excluir um perfil de teste, selecione a opção correspondente na **[!UICONTROL Mais ações]** menu.
+
+![](assets/test-profile-list-delete.png)
 
 ## Criar um perfil de teste {#create-test-profile}
 
@@ -48,11 +54,7 @@ Para excluir um perfil de teste, selecione a opção correspondente na **[!UICON
 
 Para criar um perfil de teste, siga as etapas abaixo.
 
-1. Navegue até **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]**.
-
-1. Selecione o **[!UICONTROL Perfis de teste]** guia.
-
-   ![](assets/test-profile-list.png)
+1. Navegue até **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** e selecione o **[!UICONTROL Perfis de teste]** guia.
 
 1. Clique em **[!UICONTROL Criar perfil de teste]** botão.
 
@@ -62,7 +64,7 @@ Para criar um perfil de teste, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >O rótulo do endereço é preenchido automaticamente com o nome e sobrenome definidos.
+   >A variável **[!UICONTROL Rótulo]** O campo é preenchido automaticamente com o nome e o sobrenome definidos.
 
 1. Por padrão, os perfis de teste são armazenados no **[!UICONTROL Seed addresses]** pasta. Você pode alterá-la navegando até o local desejado. [Saiba mais](#seed-addresses-folders)
 
