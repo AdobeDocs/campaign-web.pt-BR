@@ -1,9 +1,10 @@
 ---
 title: Monitorar e gerenciar perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
-source-git-commit: 543f8b2de616f63f747fbb622053f5edd492d90d
+badge: label="Disponibilidade limitada"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '380'
 ht-degree: 9%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 9%
 
 Um perfil na Adobe Campaign Web é um indivíduo armazenado no banco de dados, atuando como um componente chave para criar públicos-alvo para deliveries e adicionar dados de personalização ao seu conteúdo. Vários tipos de perfis são armazenados no banco de dados, como Perfis de teste, que são projetados para testar seus deliveries antes que sejam enviados ao público final. [Saiba como trabalhar com perfis de teste](test-profiles.md)
 
-Os perfis podem ser acessados no **Perfis** no painel de navegação esquerdo. Você também pode acessá-las no **Explorer** exibir, onde você pode navegar, criar pastas, subpastas e verificar permissões associadas.
+Perfis podem ser adicionados somente a partir do console do cliente Campaign. No entanto, elas podem ser acessadas no Adobe Campaign Web pelo **Perfis** no painel de navegação esquerdo. Você também pode acessá-las no **Explorer** exibir, onde você pode navegar, criar pastas, subpastas e verificar permissões associadas.
 
 É possível filtrar a lista de perfis usando o campo de pesquisa ou os filtros disponíveis no **Mostrar filtros** botão.
 
