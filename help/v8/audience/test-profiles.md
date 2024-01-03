@@ -4,10 +4,10 @@ description: Saiba como criar e gerenciar perfis de teste no Adobe Campaign
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-adge: label="LA"
-source-git-commit: 6610095b2af486bf64a1d875b5fb793cbfdc391d
+badge: label="Disponibilidade limitada"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
