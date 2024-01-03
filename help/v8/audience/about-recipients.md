@@ -2,10 +2,10 @@
 title: Monitorar e gerenciar perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 9%
+source-wordcount: '662'
+ht-degree: 7%
 
 ---
 
@@ -38,12 +38,52 @@ Perfis podem ser adicionados somente a partir do console do cliente Campaign. No
 
 ## Acessar e editar atributos dos perfis {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Detalhes básicos"
+>abstract="Esta seção oferece insights sobre os detalhes básicos do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Informações de contato"
+>abstract="Esta seção oferece insights sobre as informações de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="Esta seção oferece informações sobre o endereço postal do perfil e a qualidade do endereço. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Detalhes da conta"
+>abstract="Esta seção oferece insights sobre os detalhes da conta do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Os destinatários não contatam mais"
+>abstract="Esta seção oferece informações sobre as preferências de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Campos personalizados"
+>abstract="Os campos personalizados são atributos específicos adaptados às suas necessidades que foram configuradas para sua instância. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Outros"
+>abstract="Esta seção fornece atributos incorporados adicionais. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Lista de assinaturas dos destinatários"
+>abstract="Esta guia lista todos os serviços que o perfil assinou."
+
 Para acessar os detalhes de um perfil, clique no nome na lista de perfis.
 
 ![](assets/profiles-details.png)
 
 Nessa tela, você pode acessar informações detalhadas sobre o perfil:
 
-* A variável **[!UICONTROL Detalhes]** permite navegar pelos atributos do perfil. Para editar um atributo, faça as alterações no campo desejado e clique no **[!UICONTROL Salvar]** botão.
+* A variável **[!UICONTROL Detalhes]** permite navegar pelos atributos incorporados e personalizados do perfil. Para editar um atributo, faça as alterações no campo desejado e clique no **[!UICONTROL Salvar]** botão.
 * A variável **[!UICONTROL Assinaturas]** A guia fornece informações sobre os serviços aos quais o perfil está inscrito. [Saiba como trabalhar com serviços de assinatura](manage-services.md)
 * A variável **[!UICONTROL Logs]** O botão, localizado no canto superior direito da tela, permite visualizar um histórico das interações do perfil por meio de envios, exclusões e logs de rastreamento, bem como as propostas apresentadas ao perfil.
