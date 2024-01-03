@@ -3,11 +3,11 @@ audience: end-user
 title: Introdução ao Campaign v8 Web
 description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+badge: label="Disponibilidade limitada"
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Se você precisar acessar os recursos do Campaign v8 que não estão disponívei
 
 >[!NOTE]
 >
->O Campaign Web v8 está atualmente na versão beta. O acesso é restrito a um pequeno conjunto de clientes beta. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
+>No momento, a Web do Campaign v8 está na versão de Disponibilidade limitada (DL). O acesso é restrito a um pequeno conjunto de clientes da América Latina. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
 
 Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign.md).
 

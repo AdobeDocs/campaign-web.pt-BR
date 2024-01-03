@@ -1,12 +1,12 @@
 ---
 title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface web do Adobe Campaign v8
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 84%
 
 ---
 
@@ -51,11 +51,13 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 
 ## Navegação superior da Adobe Experience Cloud {#top-bar}
 
-Use a barra superior da interface para:
+Navegue pela barra superior da interface para:
 
-* compartilhar seu feedback como usuário beta
 * alternar entre suas organizações
 * alternar entre as soluções e aplicativos da Adobe Experience Cloud
+* procurar ajuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* verifique as notificações do produto
+* editar o perfil de Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar para tema claro/escuro](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -87,9 +89,9 @@ Para alterar o idioma:
 1. Em seguida, clique no link de idioma exibido sob o seu endereço de email.
 1. Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente usado não esteja traduzido em seu idioma nativo.
 
-## Tema escuro {#dark-theme}
+## Temas escuros e claros {#dark-theme}
 
-Você pode alternar para o tema escuro a partir do ícone do perfil. Use o botão de alternância **Tema escuro** para habilitá-lo/desabilitá-lo.
+O Adobe Campaign está disponível em temas claros e escuros. Por padrão, a interface do usuário é ativada no tema claro. Para alternar para o tema escuro, clique no ícone do seu perfil e use o **Tema escuro** para ativá-la/desativá-la.
 
 As configurações de perfil do usuário e as preferências da conta estão detalhadas [nesta seção](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR#preferences){target="_blank"}.
 

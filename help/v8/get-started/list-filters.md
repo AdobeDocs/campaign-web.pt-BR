@@ -2,12 +2,12 @@
 audience: end-user
 title: Listas de busca, pesquisa e filtro
 description: Saiba como procurar e filtrar listas no Campaign Web v8
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 98%
+source-wordcount: '538'
+ht-degree: 86%
 
 ---
 
@@ -53,13 +53,11 @@ Por exemplo, você pode filtrar as entregas por seu status, canal, data de conta
 
 Para criar filtros personalizados de dados, navegue até a parte inferior dos filtros e clique em **Adicionar regras** para acessar o criador de regras.
 
-Arraste e solte atributos para criar seus critérios de filtro na tela **Filtros avançados**.
+Defina e combine os critérios de filtro no **Filtros avançados** tela.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-Use o botão **Exibir atributos avançados** para ver todos os atributos da lista atual. [Saiba mais](#adv-attributes)
-
-O princípio operacional do criador de regras para filtros personalizados é semelhante ao usado para criar públicos-alvo. Informações detalhadas sobre como usá-lo estão disponíveis na [documentação de públicos-alvo](../audience/segment-builder.md).
+Os filtros personalizados são projetados com o modelador de consultas do Campaign. Informações detalhadas sobre como usá-lo estão disponíveis em [nesta seção](../query/query-modeler-overview.md).
 
 ## Usar atributos avançados {#adv-attributes}
 
@@ -81,7 +79,7 @@ O princípio operacional do criador de regras para filtros personalizados é sem
 
 Por padrão, somente os atributos mais comuns são exibidos nas telas de configuração de filtro e lista de atributos. Os atributos que foram definidos como atributos `advanced` no esquema de dados, estão ocultos nas telas de configuração.
 
-Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N. A lista de atributos é atualizada instantaneamente.
+Ativar o **Exibir atributos avançados** alterne para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1, links 1-N. A lista de atributos é atualizada instantaneamente.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
