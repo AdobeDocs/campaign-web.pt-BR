@@ -3,10 +3,13 @@ audience: end-user
 title: Geração de email com o Assistente de conteúdo
 description: Introdução ao Assistente de conteúdo
 badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -74,5 +77,3 @@ Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas a
    ![](assets/email-genai-6.png)
 
 1. Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)
-
-
