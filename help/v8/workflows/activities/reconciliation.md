@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade do workflow de reconciliação
 description: Saiba como usar a atividade de workflow de reconciliação
 badge: label="Disponibilidade limitada"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 19%
@@ -64,7 +64,7 @@ Embora a **Enriquecimento** atividade permite definir dados adicionais a serem p
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Selecione o targeting dimension"
 >abstract="Selecione o targeting dimension para seus dados de entrada com o qual reconciliar."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="Dimensões de direcionamento"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Dimensões de direcionamento"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
