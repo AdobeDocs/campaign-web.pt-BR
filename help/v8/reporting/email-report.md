@@ -232,12 +232,12 @@ A variável **[!UICONTROL Estatísticas de entrega]** O relatório do fornece in
 * **[!UICONTROL Estimativa de encaminhamentos]**: Estimativa do número de emails encaminhados pelos recipients alvos.
 +++
 
-### Índice de abertura e click-through {#email-tracking-click-through}
+### Índice de abertura e click through {#email-tracking-click-through}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Índice de abertura e click-through"
->abstract="A tabela **Índice de abertura e click-through** exibe dados relativos ao engajamento dos destinatários com a entrega."
+>title="Índice de abertura e click through"
+>abstract="A tabela **Índice de abertura e click through** exibe dados relativos ao engajamento dos recipients com a entrega."
 
 
 
