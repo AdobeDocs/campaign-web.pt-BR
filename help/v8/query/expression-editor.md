@@ -2,9 +2,10 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
-source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
+badge: label="Disponibilidade limitada"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1919'
 ht-degree: 83%
 
 ---

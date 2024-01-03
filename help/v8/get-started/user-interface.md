@@ -4,10 +4,10 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 98%
+source-wordcount: '1452'
+ht-degree: 99%
 
 ---
 
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Criação de destinatários"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="Detalhes dos destinatários"
->abstract="Detalhes dos destinatários"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="Informações de contato dos destinatários"
->abstract="Informações de contato dos destinatários"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="Endereço dos destinatários"
->abstract="Endereço dos destinatários"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="Conta dos destinatários"
->abstract="Conta dos destinatários"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="Campos personalizados dos destinatários"
->abstract="Campos personalizados dos destinatários"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="Os destinatários não contatam mais"
->abstract="Os destinatários não contatam mais"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="Destinatários Outros"
->abstract="Destinatários Outros"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Visão geral do cartão dos destinatários"
 >abstract="Visão geral do cartão dos destinatários"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="Touchpoints dos destinatários"
 >abstract="Touchpoints dos destinatários"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="Lista de assinaturas dos destinatários"
->abstract="Lista de assinaturas dos destinatários"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
