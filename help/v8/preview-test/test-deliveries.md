@@ -4,23 +4,23 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Disponibilidade limitada"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1187'
 ht-degree: 13%
 
 ---
 
-# Enviar provas {#send-test-deliveries}
+# Enviar entregas de teste {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modo de visualização"
 >abstract="Visualize e teste a mensagem incluindo a população de teste ao público-alvo principal."
 
-Depois que o conteúdo da mensagem for definido, é possível pré-visualizá-lo e testá-lo enviando provas para perfis de teste. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
+Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-lo e testá-lo enviando deliveries de teste para perfis de teste. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-Para detectar possíveis erros nas configurações de conteúdo ou personalização da mensagem, envie provas para perfis de teste antes de enviá-la para o público-alvo. Uma prova deve ser enviada sempre que uma alteração for feita, para validar o conteúdo mais recente. O envio de deliveries de teste (anteriormente conhecidos como &quot;provas&quot;) é uma etapa importante para validar sua campanha e identificar possíveis problemas. Os recipients de prova podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
+Para detectar possíveis erros nas configurações de conteúdo ou personalização da mensagem, envie deliveries de teste para perfis de teste antes de enviá-la para o público-alvo de destino. Um delivery de teste deve ser enviado sempre que uma alteração for feita, para validar o conteúdo mais recente. O envio de deliveries de teste (também conhecido como &quot;provas&quot;) é uma etapa importante para validar sua campanha e identificar possíveis problemas. Os recipients do delivery de teste podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
 
 ## Simular conteúdo com destinatários de teste {#simulate-content-test-deliveries}
 
@@ -29,23 +29,23 @@ Para detectar possíveis erros nas configurações de conteúdo ou personalizaç
 >title="População de teste"
 >abstract="Selecione um modo de população de teste."
 
-Antes de enviar um teste, defina um público-alvo de direcionamento para sua entrega. [Saiba mais](../audience/about-recipients.md)
+Antes de enviar um teste, defina um público-alvo de direcionamento para sua entrega. [Saiba mais](../audience/add-audience.md)
 
 Para começar a testar o conteúdo da mensagem:
 
 1. Edite o conteúdo do seu delivery.
 1. Clique em **[!UICONTROL Simular conteúdo]** botão.
-1. Clique em **[!UICONTROL Teste]** botão para enviar provas.
+1. Clique em **[!UICONTROL Teste]** botão para enviar deliveries de teste.
 
    ![](assets/simulate-test-button-email.png)
 
 1. Selecione os recipients do teste.
 
-   Dependendo do canal de mensagem, as provas podem ser enviadas para os seguintes tipos de recipients:
+   Dependendo do canal de mensagem, os deliveries de teste podem ser enviados para os seguintes tipos de recipients:
 
    * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são recipients adicionais específicos do banco de dados. [Saiba mais](../audience/test-profiles.md)
 
-   * Para SMS e emails, você também pode usar o [substituição do público alvo principal](#substitution-profiles) que envia as provas para o endereço de teste de email ou número de telefone e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
+   * Para SMS e emails, você também pode usar o [substituição do público alvo principal](#substitution-profiles) que envia os deliveries de teste para um endereço de teste de email ou número de telefone e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
 
    * Para mensagens por push, é possível usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados na [!DNL Campaign] console. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -75,7 +75,7 @@ Para começar a testar o conteúdo da mensagem:
 
 Os perfis de teste são seed addresses, que são recipients adicionais no banco de dados. Eles podem ser criados a partir do **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
 
-As etapas para enviar provas para seed addresses estão detalhadas abaixo.
+As etapas para enviar deliveries de teste para seed addresses estão detalhadas abaixo.
 
 1. A partir do conteúdo do seu delivery, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Teste]** botão.
 
@@ -93,9 +93,7 @@ As etapas para enviar provas para seed addresses estão detalhadas abaixo.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. [Saiba mais sobre filtros avançados](../get-started/list-filters.md#adv-attributes)
-
-   ![](assets/simulate-test-profile-filter-ex.png)
+   Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
 1. Para enviar também a mensagem final aos recipients do delivery de teste, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
 
@@ -105,7 +103,7 @@ As etapas para enviar provas para seed addresses estão detalhadas abaixo.
 
 ## Substituir dados do perfil {#substitution-profiles}
 
-Use a substituição de perfil para enviar provas para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
+Use a substituição de perfil para enviar deliveries de teste para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
 
 Para substituir os dados do perfil do target principal, siga as etapas abaixo:
 
@@ -172,7 +170,7 @@ Depois de concluído, você pode preparar e enviar o delivery para o target prin
 * [Enviar sua notificação por push](../push/send-push.md#send-push)
 * [Enviar a entrega de SMS](../sms/send-sms.md#send-sms)
 
-## Acesso a deliveries de teste enviados {#access-proofs}
+## Acesso a deliveries de teste enviados {#access-test-deliveries}
 
 Depois que os deliveries de teste forem enviados, você poderá acessar logs dedicados no **[!UICONTROL Exibir log de teste]** botão.
 
@@ -180,6 +178,6 @@ Esses logs permitem acessar todos os testes enviados para o delivery selecionado
 
 ![](assets/simulate-test-log.png)
 
-Você também pode acessar testes enviados do [lista de entregas](../msg/gs-messages.md), como qualquer delivery.
+Você também pode acessar testes enviados do [lista de entrega](../msg/gs-messages.md), como qualquer delivery.
 
 ![](assets/simulate-deliveries-list.png)

@@ -4,7 +4,7 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 35%
@@ -109,4 +109,4 @@ O Campaign Web permite visualizar e enviar emails de teste ao usar um público-a
 
    ![](assets/file-upload-test.png)
 
-1. É possível monitorar o envio do email de teste usando o botão Exibir log de email de teste a qualquer momento. [Saiba mais sobre o monitoramento de emails de teste](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. É possível monitorar o envio do email de teste usando o **[!UICONTROL Exibir log de email de teste]** a qualquer momento. [Saiba mais sobre o monitoramento de emails de teste](../preview-test/test-deliveries.md#access-test-deliveries)

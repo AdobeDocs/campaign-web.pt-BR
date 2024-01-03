@@ -3,11 +3,11 @@ audience: end-user
 title: Visualizar conteúdo do delivery
 description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="Disponibilidade limitada"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 10%
+source-wordcount: '342'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,7 @@ Use o [!DNL Campaign] recurso de simulação de conteúdo para pré-visualizar o
 
 Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
-1. Navegue até a tela de edição de conteúdo do seu delivery.
-
-   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
+1. Navegue até a tela de edição de conteúdo do seu delivery ou até [Email Designer](../content/get-started-email-designer.md).
 
 1. Clique em **[!UICONTROL Simular conteúdo]** botão.
 
@@ -34,15 +32,19 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
 1. Você pode combinar perfis de teste e perfis para visualizar sua mensagem de email ou SMS.
 
-   * A guia **[!UICONTROL Perfis de teste]** lista todos os seed addresses, que são recipients adicionais e fictícios no banco de dados.
+   * A variável **[!UICONTROL Perfis de teste]** lista todos os seed addresses, que são recipients adicionais e fictícios no banco de dados.
+
+     ![](assets/simulate-select-profiles.png)
 
      >[!NOTE]
      >
-     >Perfis de teste podem ser criados no [!DNL Campaign] console no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** pasta. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+     >Perfis de teste podem ser criados no **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
 
-   * A guia **[!UICONTROL Perfis]** lista todos os recipients armazenados na pasta **[!UICONTROL Perfis e públicos alvo]** do console do [!DNL Campaign] Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+   * A variável **[!UICONTROL Perfis]** A guia lista todos os destinatários armazenados no **[!UICONTROL Perfis e públicos alvo]** pasta do [!DNL Campaign] console. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-   ![](assets/simulate-select-profiles.png)
+     >[!NOTE]
+     >
+     >Você também pode visualizar e gerenciar perfis na guia correspondente na interface do usuário da Web do Campaign. [Saiba mais](../audience/about-recipients.md)
 
 1. Clique em **[!UICONTROL Selecionar]** para confirmar a seleção.
 
@@ -56,7 +58,7 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
 1. No **[!UICONTROL Simular]** também é possível:
    * Enviar deliveries de teste para recipients específicos para validação - [Saiba mais](test-deliveries.md)
-   * Acessar os logs dos deliveries de teste enviados - [Saiba mais](test-deliveries.md#access-proofs)
+   * Acessar os logs dos deliveries de teste enviados - [Saiba mais](test-deliveries.md#access-test-deliveries)
    * Somente para email, verifique a renderização do conteúdo da mensagem em clientes de email populares - [Saiba mais](email-rendering.md)
 
 

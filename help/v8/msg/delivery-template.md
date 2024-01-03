@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 17%
@@ -193,7 +193,7 @@ Você pode testar a renderização de qualquer template do delivery, seja criado
 
 >[!NOTE]
 >
->Não é possível usar a renderização de email ou enviar provas em um template do delivery.
+>Não é possível usar a renderização de email ou enviar testes em um template do delivery.
 
 * [Saiba mais sobre visualização de conteúdo de email](../preview-test/preview-content.md)
 
