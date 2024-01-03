@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 92%
+source-wordcount: '508'
+ht-degree: 86%
 
 ---
 
@@ -143,12 +143,17 @@ ht-degree: 92%
    + [Introdução aos relatórios](reporting/gs-reports.md)
    + [Indicadores principais de desempenho](reporting/kpis.md)
    + Relatórios de entrega {#delivery-report}
-      + [Acessar relatórios de entrega](reporting/delivery-reports.md)
+      + [Introdução a relatórios de entrega](reporting/delivery-reports.md)
       + [Relatório de entrega de emails](reporting/email-report.md)
       + [Relatório de entrega por push](reporting/push-report.md)
       + [Relatório de entrega de SMS](reporting/sms-report.md)
    + Relatórios de campanha {#campaign-report}
-      + [Acessar relatórios de campanha](reporting/campaign-reports.md)
-      + [Relatórios de campanha por email](reporting/campaign-reports-email.md)
-      + [Relatórios de campanha por push](reporting/campaign-reports-push.md)
-      + [Relatórios de campanha por SMS](reporting/campaign-reports-sms.md)
+      + [Introdução aos relatórios de campanha](reporting/campaign-reports.md)
+      + [Relatório de campanha de email](reporting/campaign-reports-email.md)
+      + [Relatório da campanha push](reporting/campaign-reports-push.md)
+      + [Relatório de campanha por SMS](reporting/campaign-reports-sms.md)
+   + Relatórios globais {#global-report}
+      + [Introdução a relatórios globais](reporting/global-reports.md)
+      + [Relatório global de email](reporting/global-report-email.md)
+      + [Enviar relatório global](reporting/global-report-push.md)
+      + [Relatório global de SMS](reporting/global-report-sms.md)

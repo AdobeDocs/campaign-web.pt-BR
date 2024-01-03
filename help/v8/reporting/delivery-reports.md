@@ -3,21 +3,20 @@ audience: end-user
 title: Relatórios de entrega
 description: Saiba como acessar e usar relatórios de entrega
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="Disponibilidade limitada"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 50%
+source-wordcount: '207'
+ht-degree: 48%
 
 ---
 
-# Acessar relatórios de entrega {#reports}
+# Introdução a relatórios de entrega {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Relatórios agregados para entregas"
 >abstract="Selecione pelo menos duas entregas para exibir um relatório de dados agregado."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

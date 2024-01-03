@@ -2,12 +2,12 @@
 audience: end-user
 title: Relatórios de campanha para o canal push
 description: Entender os relatórios de campanha do canal push
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 30%
+source-wordcount: '500'
+ht-degree: 19%
 
 ---
 
@@ -22,7 +22,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >title="Visão geral da entrega"
 >abstract="O relatório **Visão geral da entrega** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega de notificações por push."
 
-O relatório **[!UICONTROL Visão geral da entrega]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega de notificações por push. As métricas estão detalhadas abaixo.
+A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de notificação por push. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign-reporting-push-summary.png)
 
@@ -47,7 +47,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece indicadores princi
 >title="Estatísticas iniciais do público-alvo"
 >abstract="A tabela **Estatísticas iniciais do público-alvo** exibe dados relativos aos destinatários"
 
-A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe dados relativos aos destinatários. As métricas estão detalhadas abaixo.
+A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign-reporting-push-target.png)
 
@@ -105,6 +105,6 @@ A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relat
 
 * **[!UICONTROL Total de cliques]**: Número total de cliques nos links nos deliveries.
 
-* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em uma entrega em relação ao número estimado de recipients alvos que abriram uma entrega.
+* **[!UICONTROL Reatividade]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
 
 +++

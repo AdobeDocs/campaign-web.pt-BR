@@ -2,12 +2,12 @@
 audience: end-user
 title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 44%
+source-wordcount: '506'
+ht-degree: 45%
 
 ---
 

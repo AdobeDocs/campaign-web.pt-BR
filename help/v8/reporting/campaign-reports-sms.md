@@ -2,12 +2,12 @@
 audience: end-user
 title: Relatórios de campanha para o canal SMS
 description: Entender os relatórios de campanha do canal SMS
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 32%
+source-wordcount: '492'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >abstract="O relatório **Visão geral da entrega** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega por SMS."
 
 
-O relatório **[!UICONTROL Visão geral da entrega]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega por SMS. As métricas estão detalhadas abaixo.
+A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de SMS. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign_report_sms_1.png)
 
@@ -47,7 +47,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece indicadores princi
 >title="Estatísticas iniciais do público-alvo"
 >abstract="A tabela **Estatísticas iniciais do público-alvo** exibe dados relativos aos destinatários"
 
-A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe dados relativos aos destinatários. As métricas estão detalhadas abaixo.
+A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
 
 ![](assets/campaign_report_sms_2.png)
@@ -107,8 +107,8 @@ A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relat
 
 * **[!UICONTROL Cliques distintos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
-* **[!UICONTROL Clicks]** : Número total de cliques nos links nas entregas.
+* **[!UICONTROL Cliques]**: Número total de cliques nos links nos deliveries.
 
-* **[!UICONTROL Reactivity]**: Taxa do número de recipients alvos que clicaram em uma entrega em relação ao número estimado de recipients alvos que abriram uma entrega.
+* **[!UICONTROL Reatividade]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
 
 +++

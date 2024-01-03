@@ -2,11 +2,11 @@
 audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2245'
 ht-degree: 40%
 
 ---
