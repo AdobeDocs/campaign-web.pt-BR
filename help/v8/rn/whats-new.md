@@ -4,7 +4,7 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 65%
@@ -84,7 +84,7 @@ Os principais recursos incluídos na versão de Disponibilidade limitada da Web 
 
   Maximize suas campanhas de marketing com um **conjunto ainda maior de atividades de fluxo de trabalho**. Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha.
 
-  As novas atividades que vêm com a versão mais recente do LA são: **Reconciliação**, **Carregar público**, e **Salvar público-alvo**.
+  As novas atividades que vêm com a versão mais recente do LA são: **Reconciliação**, **Carregar arquivo**, e **Salvar público-alvo**.
 
   Saiba mais [nesta seção](../workflows/gs-workflows.md).
 
