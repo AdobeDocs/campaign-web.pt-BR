@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
 badge: label="Disponibilidade limitada"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
@@ -18,7 +18,7 @@ A variável **Relatórios globais** funcionar como uma ferramenta eficiente, ofe
 A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 
 * [Enviar relatórios globais por email](global-report-email.md)
-* [Relatórios globais de SMS](global-report-email-sms.md)
+* [Relatórios globais de SMS](global-report-sms.md)
 * [Enviar relatórios globais](global-report-push.md)
 
 ## Gerencie seu painel de relatório {#manage-reports}
