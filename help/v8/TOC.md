@@ -5,9 +5,9 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 86%
 
 ---
@@ -89,6 +89,7 @@ ht-degree: 86%
       + [Renderizar seu email](preview-test/email-rendering.md)
 + Perfis e públicos-alvo {#audiences}
    + [Introdução a perfis e públicos](audience/gs-audiences-recipients.md)
+   + [Dimensões de direcionamento](audience/targeting-dimensions.md)
    + Trabalhar com perfis {#work-with-profiles}
       + [Monitorar e gerenciar perfis](audience/about-recipients.md)
       + [Criar e gerenciar perfis de teste](audience/test-profiles.md)
