@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Selecione um público-alvo já existente
-description: Saiba como selecionar um público
+title: Selecione um público-alvo existente
+description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -26,7 +26,7 @@ Esta seção explica como selecionar um público-alvo ao definir a população d
 
 Os públicos-alvo que podem ser direcionados em deliveries podem ser acessados no **Público** menu esquerdo. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba como monitorar e gerenciar públicos](manage-audience.md)
 
-Para selecionar um público existente para sua mensagem, siga as etapas abaixo:
+Para selecionar um público-alvo existente para sua mensagem, siga as etapas abaixo:
 
 1. No **Público** do assistente de criação de delivery, clique no link **[!UICONTROL Selecionar público]** e escolha
 
@@ -40,7 +40,7 @@ Para selecionar um público existente para sua mensagem, siga as etapas abaixo:
 
    ![](assets/select-audience-folder.png)
 
-1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o construtor de regras, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o construtor de regras](segment-builder.md)
+1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o construtor de regras, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o construtor de regras](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
