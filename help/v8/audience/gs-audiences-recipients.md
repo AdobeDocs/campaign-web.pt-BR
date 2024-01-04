@@ -3,7 +3,7 @@ title: Introdução a perfis e públicos
 description: Saiba como trabalhar com perfis e públicos no Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilidade limitada"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 17%
@@ -26,15 +26,15 @@ Agora que você entende o que pode fazer no Adobe Campaign Web, é hora de se ap
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>Monitorar e gerenciar perfis</strong></a>
+<a href="about-recipients.md"><strong>Monitorar e gerenciar perfis</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>Criar públicos-alvo</strong>
+<div><a href="create-audience.md"><strong>Criar públicos-alvo</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Agora que você entende o que pode fazer no Adobe Campaign Web, é hora de se ap
 <img alt="Pouco frequente" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Gerenciar serviços</strong></a>
+<a href="manage-services.md"><strong>Gerenciar serviços</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Agora que você entende o que pode fazer no Adobe Campaign Web, é hora de se ap
 <img alt="Pouco frequente" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Selecione os recipients do delivery</strong></a>
+<a href="add-audience.md"><strong>Selecione os recipients do delivery</strong></a>
 </div>
 <p></td>
 </tr></table>
