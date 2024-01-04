@@ -4,7 +4,7 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 52%
@@ -32,7 +32,7 @@ ht-degree: 52%
 >id="acw_deliveries_email_options"
 >title="Rastreamento de edições"
 >abstract="Por padrão, o rastreamento é habilitado para a entrega, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desabilitar essa opção aqui."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/email/design-email/message-tracking.html" text="Adicionar links e rastrear mensagens"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=pt-BR" text="Adicionar links e rastrear mensagens"
 
 O email **[!UICONTROL Editar conteúdo]** permite:
 
