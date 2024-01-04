@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 7%
 
 ---
@@ -106,15 +106,13 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
    ![](assets/content-template-create.png)
 
-1. Preencha os detalhes do template.
+1. Preencha os detalhes do template. Você pode selecionar a pasta onde deseja armazenar o modelo. Por padrão, os modelos de conteúdo são armazenados em um nó dedicado da hierarquia do Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Modelos]** > **[!UICONTROL Modelos de conteúdo]**. [Saiba como criar pastas](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >Atualmente, somente o **E-mail** canal e **HTML** tipo são compatíveis.
-
-1. Selecione a pasta onde deseja armazenar o modelo. Por padrão, os modelos de conteúdo são armazenados em um nó dedicado da hierarquia do Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Modelos]** > **[!UICONTROL Modelos de conteúdo]**. [Saiba como criar pastas](../get-started/permissions.md#folders)
 
 1. Clique em **[!UICONTROL Criar]** e escolha como deseja criar seu modelo a partir das diferentes opções:
 
