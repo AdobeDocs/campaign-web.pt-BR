@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 86%
+source-wordcount: '504'
+ht-degree: 85%
 
 ---
 
@@ -87,10 +87,10 @@ ht-degree: 86%
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
       + [Enviar entregas de teste](preview-test/test-deliveries.md)
       + [Renderizar seu email](preview-test/email-rendering.md)
-+ Públicos-alvo e destinatários {#audiences}
-   + [Introdução a recipients e públicos](audience/gs-audiences-recipients.md)
-   + Trabalhar com recipients {#work-with-recipients}
-      + [Gerenciar perfis](audience/about-recipients.md)
++ Perfis e públicos-alvo {#audiences}
+   + [Introdução a perfis e públicos](audience/gs-audiences-recipients.md)
+   + Trabalhar com perfis {#work-with-profiles}
+      + [Monitorar e gerenciar perfis](audience/about-recipients.md)
       + [Criar e gerenciar perfis de teste](audience/test-profiles.md)
    + Trabalhar com públicos {#audiences}
       + [Criar públicos-alvo](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 86%
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de um arquivo](audience/file-audience.md)
       + [Configurar um grupo de controle](audience/control-group.md)
-   + [Trabalhar com o construtor de regras](audience/segment-builder.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
       + [Gerenciar serviços](audience/manage-services.md)
       + [Gerenciar assinantes](audience/manage-subscribers.md)
