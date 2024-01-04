@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1909'
 ht-degree: 83%
 
 ---
@@ -16,17 +16,19 @@ ht-degree: 83%
 
 A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas. Essas funções permitem manipular os valores usados para realizar consultas específicas, como manipular datas, strings, campos numéricos, classificação etc.
 
-Essas operações estão disponíveis no botão Editar expressão do modelador de consultas, disponível para os campos Atributo e Valor ao configurar uma condição personalizada.
+Essas operações estão disponíveis no modelador de consultas **[!UICONTROL Editar expressão]** botão, disponível para **[!UICONTROL Atributo]** e **[!UICONTROL Valor]** ao configurar uma condição personalizada.
 
 ![](assets/edit-expression.png)
 
 O editor de expressão fornece:
 
-* Um campo de entrada no qual a expressão é definida.
-* A lista dos campos disponíveis que podem ser usados na expressão e correspondem à dimensão de dimensionamento da query.
-* A lista de funções disponíveis, classificadas por categoria.
+* Um **campo de entrada (1)** na qual a expressão é definida.
+* A lista de opções disponíveis **campos (2)** que pode ser usada na expressão e corresponde ao targeting dimension do query.
+* **Funções auxiliares (3)**, classificado por categoria.
 
-Edite a expressão inserindo uma expressão diretamente no campo de entrada ou usando as listas de campos e funções disponíveis. Para fazer isso, coloque o cursor na inexpressão onde deseja adicionar o elemento e clique duas vezes no campo ou expressão desejada.
+![](assets/expression-editor.png)
+
+Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
 
 ## Funções de ajuda
 

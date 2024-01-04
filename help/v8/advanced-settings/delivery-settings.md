@@ -4,9 +4,9 @@ title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2110'
 ht-degree: 82%
 
 ---
@@ -119,10 +119,9 @@ O campo **importância do recipient** é uma fórmula usada para determinar quai
 >title="Configurações do público-alvo da entrega"
 >abstract="Selecione um **target mapping** entre os disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. Também é possível definir os parâmetros de exclusão da entrega. "
 
-Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. O targeting dimension ou target mapping é o tipo de dados que uma operação está manipulando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
+Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
 
-
-Saiba mais sobre target mappings em [nesta seção](../audience/about-recipients.md#targeting-dimensions).
+Saiba mais sobre target mappings em [nesta seção](../audience/targeting-dimensions.md).
 
 ## Entrega {#delivery}
 
