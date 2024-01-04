@@ -171,7 +171,7 @@ Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprovação para a entrega"
+>title="Modo de aprovação da entrega"
 >abstract="Selecione o modo de aprovação. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
 
 

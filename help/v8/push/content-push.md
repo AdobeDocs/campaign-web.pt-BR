@@ -102,7 +102,7 @@ O modo Push silencioso permite que uma notificação “silenciosa” seja envia
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
 >title="Conteúdo mutável"
->abstract="Use essa opção para permitir que o aplicativo para dispositivos móveis baixe conteúdo de mídia associado à notificação."
+>abstract="Use essa opção para permitir que o aplicativo para dispositivos móveis baixe o conteúdo de mídia associado à notificação."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"

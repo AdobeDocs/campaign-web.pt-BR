@@ -5,7 +5,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -60,7 +60,7 @@ Perfis podem ser adicionados somente a partir do console do cliente Campaign. No
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Os destinatários não contatam mais"
+>title="Destinatários Não contatar mais"
 >abstract="Esta seção oferece informações sobre as preferências de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
