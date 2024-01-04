@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
 badge: label="Disponibilidade limitada"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,13 @@ ht-degree: 1%
 
 # Introdução a relatórios globais {#global-report-gs}
 
-Os relatórios globais fornecem uma visão geral abrangente do tráfego e do engajamento em todos os canais, oferecendo uma variedade de widgets que fornecem insights exclusivos sobre o desempenho das campanhas e deliveries.
+A variável **Relatórios globais** funcionar como uma ferramenta eficiente, oferecendo um resumo geral consolidado das métricas de tráfego e engajamento para cada canal na instância do Campaign. Esses relatórios consistem em vários widgets, cada um oferecendo uma perspectiva distinta sobre a campanha ou o desempenho do delivery.
+
+A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
+
+* [Enviar relatórios globais por email](global-report-email.md)
+* [Relatórios globais de SMS](global-report-email-sms.md)
+* [Enviar relatórios globais](global-report-push.md)
 
 ## Gerencie seu painel de relatório {#manage-reports}
 
@@ -29,7 +35,7 @@ Para acessar e gerenciar os relatórios globais, siga estas etapas:
 
    ![](assets/global_report_manage_2.png)
 
-1. Clique em **[!UICONTROL Adicionar regras]** para começar a criar consultas para filtrar melhor os dados de relatórios.
+1. Clique em **[!UICONTROL Adicionar regras]** para começar a criar consultas para filtrar melhor os dados de relatórios. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
 1. No **[!UICONTROL Fluxos de clique e URLs]**, você também pode escolher a variável **[!UICONTROL Links mais visitados]** ou o **[!UICONTROL Período]**.
 
