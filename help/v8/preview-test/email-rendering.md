@@ -4,7 +4,7 @@ title: Testar a renderização do email
 description: Saiba como testar a renderização do email na interface do Campaign Web
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Disponibilidade limitada"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 8%
@@ -29,7 +29,7 @@ Para acessar os recursos de renderização de email, é necessário:
 
 Em seguida, siga as etapas abaixo.
 
-1. No [Editar conteúdo](../content/edit-content.md) na tela ou no [Email Designer](../content/get-started-email-designer.md), clique no link **[!UICONTROL Simular conteúdo]** botão.
+1. No [Editar conteúdo](../email/edit-content.md) na tela ou no [Email Designer](../email/get-started-email-designer.md), clique no link **[!UICONTROL Simular conteúdo]** botão.
 
 1. Selecione o **[!UICONTROL Renderizar email]** botão.
 

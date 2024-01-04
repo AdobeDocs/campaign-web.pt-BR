@@ -4,7 +4,7 @@ title: Visualizar conteúdo do delivery
 description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidade limitada"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Use o [!DNL Campaign] recurso de simulação de conteúdo para pré-visualizar o
 
 Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
-1. Navegue até a tela de edição de conteúdo do seu delivery ou até [Email Designer](../content/get-started-email-designer.md).
+1. Navegue até a tela de edição de conteúdo do seu delivery ou até [Email Designer](../email/get-started-email-designer.md).
 
 1. Clique em **[!UICONTROL Simular conteúdo]** botão.
 

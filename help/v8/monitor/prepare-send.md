@@ -4,10 +4,10 @@ title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 50%
+source-wordcount: '891'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 50%
 
 ## Preparar o envio {#prepare}
 
-Quando tiver definido sua [conteúdo](../content/edit-content.md), [público](../audience/add-audience.md), e [programação](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), você está pronto para preparar seu delivery de email.
+Quando tiver definido sua [conteúdo](../email/edit-content.md), [público](../audience/add-audience.md), e [programação](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), você está pronto para preparar seu delivery de email.
 
 Durante a preparação do delivery, a população do target é calculada e o conteúdo da mensagem é gerado para cada perfil incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas.
 
@@ -39,22 +39,22 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
 1. O progresso da preparação é exibido. Dependendo do tamanho do público-alvo, essa operação pode levar algum tempo.
 
-   Você pode interromper a preparação a qualquer momento usando o botão **[!UICONTROL Parar preparação.]**
+   É possível interromper a preparação a qualquer momento usando o **[!UICONTROL Parar preparação]** botão.
 
    ![](assets/email-stop-preparation.png)
 
    >[!NOTE]
    >Durante a fase de preparação, nenhuma mensagem é enviada. Portanto, você pode iniciar ou parar isso sem o risco de afetar nada.
 
-1. Quando a preparação for concluída, verifique os KPIs. Se o número de mensagens para enviar não corresponder às suas expectativas, modifique o público e reinicie a preparação.
+1. Quando a preparação for concluída, verifique os KPIs. Se o número de mensagens para enviar não corresponder às suas expectativas, modifique o público-alvo e reinicie a preparação.
 
    ![](assets/email-preparation-complete.png)
 
    Estes são os diferentes KPIs exibidos:
 
-   * **[!UICONTROL Direcionado]**: o número de recipients visados.
+   * **[!UICONTROL Direcionado]**: o número de recipients alvos.
    * **[!UICONTROL Para entregar]**: o número de mensagens que serão enviadas.
-   * **[!UICONTROL Para excluir]**[: o número de mensagens excluídas por uma regra de tipologia](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Para excluir]**: o número de mensagens excluídas por um [regra de tipologia](../advanced-settings/delivery-settings.md#typology).
 
 1. Clique no botão **[!UICONTROL Logs]** e verifique se não há erro. A última mensagem de log exibe mensagens de erro e o número de erros. [Saiba mais](delivery-logs.md)
 
@@ -66,7 +66,7 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
 1. Se você fizer alterações no delivery após a preparação, deverá reiniciar a preparação para que essas alterações sejam consideradas.
 
-Assim que a preparação estiver concluída sem erros, sua mensagem estará pronta para ser enviada.
+Quando a preparação for concluída sem erros, a mensagem estará pronta para ser enviada.
 
 ## Enviar a mensagem {#send}
 

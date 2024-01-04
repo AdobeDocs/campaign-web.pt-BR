@@ -5,10 +5,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -30,37 +30,37 @@ ht-degree: 85%
    + [Buscar ajuda e orientação](get-started/using-ai.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
-   + [Trabalhar com deliveries](msg/gs-deliveries.md)
+   + [Trabalhar com entregas](msg/gs-deliveries.md)
    + [Usar modelos de entrega](msg/delivery-template.md)
    + Emails {#email}
       + [Criar seu primeiro email](email/create-email.md)
       + Definir conteúdo do email {#content}
-         + [Configurar conteúdo de email](content/edit-content.md)
-         + [Trabalhar com modelos de conteúdo](content/create-email-templates.md)
+         + [Configurar conteúdo de email](email/edit-content.md)
+         + [Trabalhar com modelos de conteúdo](email/create-email-templates.md)
          + Começar a definir seu email {#start-design}
-            + [Introdução ao Designer de email](content/get-started-email-designer.md)
-            + [Iniciar do zero](content/create-email-content.md)
-            + [Importar o conteúdo do email](content/existing-content.md)
-            + [Desenvolver o seu próprio conteúdo](content/code-content.md)
-            + [Usar templates de conteúdo de email](content/use-email-templates.md)
+            + [Introdução ao Designer de email](email/get-started-email-designer.md)
+            + [Iniciar do zero](email/create-email-content.md)
+            + [Importar o conteúdo do email](email/existing-content.md)
+            + [Desenvolver o seu próprio conteúdo](email/code-content.md)
+            + [Usar templates de conteúdo de email](email/use-email-templates.md)
          + Projetar o conteúdo {#design-content}
-            + [Usar componentes de conteúdo](content/content-components.md)
-            + [Adicionar links e rastrear mensagens](content/message-tracking.md)
-            + [Adicionar um link para a mirror page](content/mirror-page.md)
-            + [Adicionar um pré-cabeçalho](content/preheader.md)
-            + [Gerar a versão de texto](content/text-version-email.md)
-            + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
+            + [Usar componentes de conteúdo](email/content-components.md)
+            + [Adicionar links e rastrear mensagens](email/message-tracking.md)
+            + [Adicionar um link para a mirror page](email/mirror-page.md)
+            + [Adicionar um pré-cabeçalho](email/preheader.md)
+            + [Gerar a versão de texto](email/text-version-email.md)
+            + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
          + Assistente de conteúdo {#content-assistant}
-            + [Introdução ao Assistente de conteúdo](content/generative-gs.md)
-            + [Geração de texto com o Assistente de conteúdo](content/generative-content.md)
-            + [Geração de imagem com o Assistente de conteúdo](content/generative-image.md)
-            + [Geração de email com o Assistente de conteúdo](content/generative-email.md)
+            + [Introdução ao Assistente de conteúdo](email/generative-gs.md)
+            + [Geração de texto com o Assistente de conteúdo](email/generative-content.md)
+            + [Geração de imagem com o Assistente de conteúdo](email/generative-image.md)
+            + [Geração de email com o Assistente de conteúdo](email/generative-email.md)
          + Estilizar o conteúdo {#style}
-            + [Introdução ao estilo de email](content/get-started-email-style.md)
-            + [Editar configurações de fundo](content/backgrounds.md)
-            + [Ajustar o alinhamento vertical e o preenchimento](content/alignment-and-padding.md)
-            + [Definir o estilo dos links](content/styling-links.md)
-            + [Adicionar atributos de estilo em linha](content/inline-styling.md)
+            + [Introdução ao estilo de email](email/get-started-email-style.md)
+            + [Editar configurações de fundo](email/backgrounds.md)
+            + [Ajustar o alinhamento vertical e o preenchimento](email/alignment-and-padding.md)
+            + [Definir o estilo dos links](email/styling-links.md)
+            + [Adicionar atributos de estilo em linha](email/inline-styling.md)
       + Enviar e monitorar o email {#monitor}
          + [Preparar e enviar um email](monitor/prepare-send.md)
          + [Monitorar logs de entrega](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 85%
       + [Adicionar personalização](personalization/personalize.md)
       + [Adicionar conteúdo condicional](personalization/conditions.md)
       + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
-   + [Adicionar ofertas às suas mensagens](content/offers.md)
-   + [Enviar mensagens a assinantes](content/send-to-subscribers.md)
+   + [Adicionar ofertas às suas mensagens](msg/offers.md)
+   + [Enviar mensagens a assinantes](msg/send-to-subscribers.md)
    + Visualizar e testar a entrega {#preview-test}
       + [Sobre visualização e teste](preview-test/preview-test.md)
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)

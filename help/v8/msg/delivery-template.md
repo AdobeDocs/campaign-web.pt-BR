@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 17%
@@ -28,14 +28,14 @@ Um modelo pode incluir:
 * [Tipologias](../advanced-settings/delivery-settings.md#typology),
 * O endereço do remetente,
 * Um [público](../audience/about-recipients.md), incluindo [grupos de controle](../audience/control-group.md),
-* Personalizado [conteúdo](../content/edit-content.md),
+* Personalizado [conteúdo](../email/edit-content.md),
 * [Campos personalizados](../personalization/personalize.md) e [conteúdo condicional](../personalization/conditions.md),
-* Links para [mirror page](../content/mirror-page.md) e cancelar assinatura [links](../content/message-tracking.md),
+* Links para [mirror page](../email/mirror-page.md) e cancelar assinatura [links](../email/message-tracking.md),
 * Outras propriedades de entrega, como validade de recurso, parâmetros de nova tentativa ou configurações de quarentena.
 
 >[!NOTE]
 >
->Os modelos de entrega são diferentes de [modelos de conteúdo](../content/create-email-templates.md), que permitem reutilizar apenas o conteúdo de seus emails e começar a criar conteúdo com um dos modelos de email de amostra fornecidos prontos para uso.
+>Os modelos de entrega são diferentes de [modelos de conteúdo](../email/create-email-templates.md), que permitem reutilizar apenas o conteúdo de seus emails e começar a criar conteúdo com um dos modelos de email de amostra fornecidos prontos para uso.
 
 
 ## Acessar e gerenciar modelos de entrega {#access-manage-templates}

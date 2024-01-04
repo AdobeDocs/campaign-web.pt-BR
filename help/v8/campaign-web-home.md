@@ -4,7 +4,7 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilidade limitada"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 92%
@@ -68,11 +68,11 @@ Agora que você entende o que pode fazer no Adobe Campaign Web, é hora de se ap
 <p>
 </td>
 <td>
-<a href="content/get-started-email-designer.md">
+<a href="email/get-started-email-designer.md">
 <img alt="Pouco frequente" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>Conheça o Designer de email</strong></a>
+<a href="email/get-started-email-designer.md"><strong>Conheça o Designer de email</strong></a>
 </div>
 <p></td>
 <td>

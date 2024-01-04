@@ -6,13 +6,13 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 63%
+source-wordcount: '428'
+ht-degree: 64%
 
 ---
-
 
 # Blocos de conteúdo incorporados {#ootb-content-blocks}
 
@@ -39,7 +39,7 @@ Os blocos de conteúdo incorporados são:
 * **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
 * **[!UICONTROL Saudações]**: insere saudações com o nome completo do recipient, seguido de vírgula. Exemplo: “Olá, fulano,”.
 * **[!UICONTROL Inserir logotipo]**: insere um logotipo definido nas configurações de instância.
-* **[!UICONTROL Link para mirror page]**: insere um link para a [mirror page](../content/mirror-page.md). O formato padrão é: &quot;Caso não consiga visualizar esta mensagem corretamente, clique aqui.&quot;
+* **[!UICONTROL Link para mirror page]**: insere um link para a [mirror page](../email/mirror-page.md). O formato padrão é: &quot;Caso não consiga visualizar esta mensagem corretamente, clique aqui.&quot;
 * **[!UICONTROL URL de mirror page]**: insere o URL da mirror page, permitindo que os criadores da entrega verifiquem o link.
 * **[!UICONTROL Estilo de notificação]**
 * **[!UICONTROL Oferecer URL de aceitação no modo unitário]**: insere um URL que permite definir uma oferta como **[!UICONTROL Aceita]**. (Este bloco estará disponível se o módulo Interação estiver habilitado)
@@ -54,4 +54,3 @@ Os blocos de conteúdo incorporados são:
 >[!NOTE]
 >
 >Você pode definir novos blocos no console do Adobe Campaign v8 que permitem otimizar a personalização de deliveries. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
-

@@ -4,7 +4,7 @@ title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilidade limitada"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 19%
@@ -30,7 +30,7 @@ Para fazer isso, [!DNL Adobe Campaign] O permite:
 * [Enviar deliveries de teste](test-deliveries.md) (provas) para recipients ou assinantes específicos para teste e validação
 * [Verificar a renderização de email](email-rendering.md) em clientes populares de desktop, móveis e baseados na web
 
-Essas ações podem ser executadas usando o **[!UICONTROL Simular conteúdo]** que pode ser acessado na tela editar conteúdo do seu delivery - ou na guia [Email Designer](../content/get-started-email-designer.md).
+Essas ações podem ser executadas usando o **[!UICONTROL Simular conteúdo]** que pode ser acessado na tela editar conteúdo do seu delivery - ou na guia [Email Designer](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 

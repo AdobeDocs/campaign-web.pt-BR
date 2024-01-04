@@ -4,7 +4,7 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 65%
@@ -69,7 +69,7 @@ Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails
 Use a nova interface do Campaign Web para:
 
 * Criar, projetar, personalizar, agendar e enviar notificações por email, SMS e por push - [Saiba mais](../msg/gs-messages.md)
-* Criar conteúdo de email personalizado com o Designer de email - [Saiba mais](../content/edit-content.md)
+* Criar conteúdo de email personalizado com o Designer de email - [Saiba mais](../email/edit-content.md)
 * Enviar campanhas entre canais, incluindo SMS e notificações por push - [Saiba mais](../workflows/activities/channels.md)
 * Definir os públicos-alvo com o criador de regras - [Saiba mais](../audience/about-recipients.md)
 * Visualizar, testar e enviar suas mensagens - [Saiba mais](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ Os principais recursos incluídos na versão de Disponibilidade limitada da Web 
 
   Diga adeus à criação manual de conteúdo e crie campanhas eficientes e orientadas por dados com o poder da IA generativa.  Nossa tecnologia de IA generativa utiliza algoritmos avançados para **gerar um conteúdo personalizado e altamente envolvente**. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email.
 
-  Saiba mais [nesta seção](../content/generative-gs.md).
+  Saiba mais [nesta seção](../email/generative-gs.md).
 
 
 * **Ajuda contextual baseada em IA**
@@ -132,14 +132,14 @@ Os principais recursos incluídos na versão de Disponibilidade limitada da Web 
 
   Agora você pode **importar e converter qualquer conteúdo HTML** no editor de email do Campaign. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email, e você pode utilizar esse recursos de design avançados para atualizá-los e personalizá-los.
 
-  Saiba mais [nesta seção](../content/existing-content.md).
+  Saiba mais [nesta seção](../email/existing-content.md).
 
 
 * **SMS com ofertas**
 
   A nova interface da Web agora permite **integrar ofertas com o canal de SMS** além do email. Alcance o seu público-alvo em seus dispositivos móveis fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada da Web.
 
-  Saiba mais [nesta seção](../content/offers.md).
+  Saiba mais [nesta seção](../msg/offers.md).
 
 ## Transição para a interface do Campaign Web
 
