@@ -4,10 +4,10 @@ title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 46%
+source-wordcount: '785'
+ht-degree: 42%
 
 ---
 
@@ -45,7 +45,7 @@ Para adicionar um grupo de controle a um delivery, ative a variável **[!UICONTR
 
 ### Criar um grupo de controle {#build-extract-target}
 
-Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo. Se preferir adicionar uma população extra, escolha a opção **Sem extração** e selecione a população extra [conforme detalhado aqui](#extra-population).
+Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis da população do público-alvo. Se preferir adicionar uma população extra, escolha a opção **Sem extração** e selecione a população extra [conforme detalhado aqui](#extra-population).
 
 Primeiro, defina como os perfis são extraídos do público-alvo: aleatoriamente ou com base em uma classificação.
 
@@ -114,7 +114,7 @@ Na seção **População extra** do **Grupo de controle** na tela de definição
 
 * Para usar um público existente, clique em **Selecionar público-alvo**. Saiba mais [nesta seção](add-audience.md).
 
-* Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o Construtor de regras. Saiba mais [nesta seção](segment-builder.md).
+* Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o Construtor de regras. Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
 Os perfis incluídos no público ou que correspondem ao resultado do query são **excluído** do target do delivery: eles não recebem nenhuma mensagem.
 
