@@ -4,7 +4,7 @@ title: Monitorar e gerenciar públicos-alvo
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 16%
@@ -24,7 +24,7 @@ Para definir a população de um público-alvo, é possível:
 
 * [Criar novos públicos](create-audience.md) do **[!UICONTROL Públicos-alvo]** menu,
 * [Selecionar um público existente](add-audience.md) criado como uma lista no console do cliente ou proveniente da Adobe Experience Platform,
-* [Criar um novo público](segment-builder.md) com o construtor de regras, definindo e combinando critérios de filtragem,
+* [Criar um novo público](../query/query-modeler-overview.md) com o construtor de regras, definindo e combinando critérios de filtragem,
 * [Usar um público-alvo de um arquivo externo](file-audience.md). Essa opção só está disponível para deliveries de email independentes e não pode ser usada em deliveries de campanha.
 
 Ao direcionar um público-alvo, você também pode definir **grupos de controle** para evitar o envio de mensagens para uma parte do público-alvo e medir o impacto das campanhas. [Saiba como definir um grupo de controle](control-group.md)

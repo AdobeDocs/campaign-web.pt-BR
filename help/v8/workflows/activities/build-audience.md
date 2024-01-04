@@ -4,7 +4,7 @@ title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Beta"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 76%
@@ -56,7 +56,7 @@ Para criar sua própria consulta, siga estas etapas adicionais:
 1. Selecione **Crie sua própria (consulta)**.
 1. Escolha a **Dimensão de direcionamento**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários. Saiba mais sobre Targeting dimensions em [nesta seção](../../audience/about-recipients.md#targeting-dimensions).
 1. Clique em **Continuar**.
-1. Use o criador de regras para definir sua consulta, da mesma forma que você cria um público-alvo ao criar um novo email. Consulte esta [seção](../../audience/segment-builder.md).
+1. Use o criador de regras para definir sua consulta, da mesma forma que você cria um público-alvo ao criar um novo email. Consulte esta [seção](../../audience/../query/query-modeler-overview.md).
 
 Para selecionar um público-alvo existente, siga estas etapas:
 

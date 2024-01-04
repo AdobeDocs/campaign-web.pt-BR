@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Usar um público da Adobe Experience Platform
-description: Saiba como usar um público da Adobe Experience Platform
+title: Usar um público-alvo da Adobe Experience Platform
+description: Saiba como usar um público-alvo da Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 37%
+source-wordcount: '283'
+ht-degree: 38%
 
 ---
 
-# Usar um público da Adobe Experience Platform{#aep-audience}
+# Usar um público-alvo da Adobe Experience Platform{#aep-audience}
 
 Os conectores de Destino e Origem do Cloud Service gerenciado da Adobe Campaign permitem uma integração perfeita entre o Adobe Campaign e o Adobe Experience Platform.
 
@@ -23,7 +23,7 @@ Depois de criar um público-alvo do Adobe Experience Platform e disponibilizá-l
 
 Para selecionar o público de um delivery, você também pode:
 
-* Crie um novo público-alvo. [Saiba mais](segment-builder.md)
+* Crie um novo público-alvo. [Saiba mais](../query/query-modeler-overview.md)
 * Carregar um público-alvo de um arquivo externo. [Saiba mais](file-audience.md)
 * Use um público existente do Campaign. [Saiba mais](add-audience.md).
 
@@ -33,7 +33,7 @@ Para selecionar um público-alvo da Adobe Experience Platform para o seu deliver
 
    ![](assets/create-audience.png)
 
-1. Escolha a **[!UICONTROL Selecionar público-alvo]** para usar um público existente. Para criar um novo público a ser usado neste email, escolha **Criar seu próprio**. Consulte esta [seção](segment-builder.md).
+1. Escolha a **[!UICONTROL Selecionar público-alvo]** para usar um público existente. Para criar um novo público-alvo a ser usado neste email, escolha **Criar seu próprio**. Consulte esta [seção](../query/query-modeler-overview.md).
 
    Essa tela exibe todos os públicos-alvo existentes definidos no console do cliente Adobe Campaign para a pasta atual. Para escolher um público-alvo do Adobe Experience Platform, navegue até o `AEP Audiences folder` na seção de filtro da tela.
 
@@ -43,12 +43,12 @@ Para selecionar um público-alvo da Adobe Experience Platform para o seu deliver
 
    ![](assets/filter-on-aep-audience.png)
 
-1. Escolha um público e clique em **Selecionar**.
+1. Escolha um público-alvo e clique em **Selecionar**.
 
-1. Clique em **Editar regras** se quiser refinar seu público.
+1. Clique em **Editar regras** se quiser refinar seu público-alvo.
 
    ![](assets/refine-audience.png)
 
-1. Usando o construtor de regras, você pode enriquecer seu público com filtros adicionais ou combinar públicos diferentes. Consulte esta [seção](segment-builder.md).
+1. Usando o construtor de regras, você pode enriquecer seu público-alvo com filtros adicionais ou combinar públicos-alvo diferentes. Consulte esta [seção](../query/query-modeler-overview.md).
 
 1. Clique em **Salvar**.
