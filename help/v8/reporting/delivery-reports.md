@@ -4,7 +4,7 @@ title: Relatórios de entrega
 description: Saiba como acessar e usar relatórios de entrega
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Disponibilidade limitada"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 33%
@@ -45,7 +45,7 @@ Para exibir e gerenciar relatórios, siga estas etapas:
 
    Como alternativa, você pode usar os três pontos **Mais ações** ao lado do nome do delivery na lista deliveries e selecione **[!UICONTROL Exibir relatório]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. No menu esquerdo, selecione um relatório na lista.
 
