@@ -2,14 +2,14 @@
 title: Monitorar e gerenciar perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 6%
 
 ---
 
-# Monitorar e gerenciar perfis {#profiles}
+# Monitorar e editar perfis {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Para acessar os detalhes de um perfil e editá-los, siga as etapas abaixo.
 
 1. Navegue até **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]**.
 
-1. Clique no item desejado na guia **[!UICONTROL Perfis]** lista.
-
-1. É possível acessar as informações detalhadas no perfil.
+1. Clique no item desejado na guia **[!UICONTROL Perfis]** lista. As informações detalhadas sobre o perfil são exibidas.
 
    ![](assets/profile-details.png)
 
