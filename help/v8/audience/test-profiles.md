@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '516'
 ht-degree: 3%
 
 ---
@@ -35,15 +35,25 @@ Para acessar a lista de perfis de teste, selecione **[!UICONTROL Gerenciamento d
 
 ![](assets/test-profile-list.png)
 
-É possível filtrar em um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
+* É possível filtrar em um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-Para editar um perfil de teste, clique no item desejado na lista.
+* É possível duplicar qualquer perfil de teste e editá-lo conforme necessário.
 
-Para excluir um perfil de teste, selecione a opção correspondente na **[!UICONTROL Mais ações]** menu.
+* Para excluir um perfil de teste, selecione a opção correspondente na **[!UICONTROL Mais ações]** menu.
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* Para editar um perfil de teste, clique no item desejado na lista.
+
+Você também pode acessar perfis de teste por meio da **[!UICONTROL Explorer]** exibir, no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** nó.
+
+Ali é possível navegar, criar e gerenciar pastas ou subpastas, bem como verificar permissões associadas. [Saiba como criar pastas](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+No **[!UICONTROL Explorer]** visualização você também pode filtrar, excluir, editar e [criar](#create-test-profile) perfis de teste.
 
 ## Criar um perfil de teste {#create-test-profile}
 
@@ -66,7 +76,7 @@ Para criar um perfil de teste, siga as etapas abaixo.
    >
    >A variável **[!UICONTROL Rótulo]** O campo é preenchido automaticamente com o nome e o sobrenome definidos.
 
-1. Por padrão, os perfis de teste são armazenados no **[!UICONTROL Seed addresses]** pasta. Você pode alterá-la navegando até o local desejado. [Saiba mais](#seed-addresses-folders)
+1. Por padrão, os perfis de teste são armazenados no **[!UICONTROL Seed addresses]** pasta. Você pode alterá-la navegando até o local desejado. [Saiba como trabalhar com pastas](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. Se você selecionar a variável **[!UICONTROL Não entrar mais em contato (por qualquer canal)]** , o perfil estará em incluir na lista de bloqueios. Esse recipient não é mais direcionado em nenhum canal (email, SMS, etc.).
+1. Se você selecionar a variável **[!UICONTROL Não entrar mais em contato (por qualquer canal)]** caixa de seleção, o perfil de teste está no arquivo de inclui na lista de bloqueios. Esse recipient não é mais direcionado em nenhum canal (email, SMS, etc.).
 
 1. No **[!UICONTROL Dados adicionais]** insira os dados de personalização usados para os deliveries criados nos workflows de gestão de dados, aos quais você deseja atribuir um valor específico. [Saiba mais sobre workflows](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ O perfil de teste que você acabou de criar está pronto para ser usado para env
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## Gerenciar pastas de seed addresses {#seed-addresses-folders}
-
-Os seed addresses são armazenados em um nó dedicado da hierarquia do Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]**.
-
-Para organizar perfis de teste, você pode criar subpastas na lista suspensa Mais ações. [Saiba como criar pastas](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-Também é possível criar um perfil de teste a partir de qualquer **[!UICONTROL Seed addresses]** pasta ou subpasta. Preencha todos os detalhes da mesma forma que faria a partir do **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](#create-test-profile)
-
-Para editar perfis de teste, clique no rótulo na caixa suspensa **[!UICONTROL Perfis de teste]** ou da pasta em que está armazenado.
 
 

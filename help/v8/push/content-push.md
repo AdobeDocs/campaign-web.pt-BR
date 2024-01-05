@@ -4,7 +4,7 @@ title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 34%
@@ -151,7 +151,7 @@ As opções avançadas dependem do sistema operacional móvel: Android ou iOS. N
 | **[!UICONTROL Limpar selo]** | Ative essa opção para atualizar o valor do selo exibido no ícone do aplicativo. Isso garante que o selo reflita com precisão o número de novas informações não lidas. |
 | **[!UICONTROL Contagem de notificações]** | Defina um número que será exibido diretamente no ícone do aplicativo, indicando o número de novas informações não lidas. Isso fornece uma referência visual rápida para o usuário. |
 | **[!UICONTROL Volume]** | Volume do som, de 0 a 100. |
-| **[!UICONTROL Conteúdo mutável]** | Ative essa opção para permitir que o aplicativo móvel baixe conteúdo de mídia associado à notificação. Para saber mais, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/email/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
+| **[!UICONTROL Conteúdo mutável]** | Ative essa opção para permitir que o aplicativo móvel baixe conteúdo de mídia associado à notificação. Para saber mais, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
 | **[!UICONTROL Pontuação de relevância]** | Defina uma pontuação de relevância de 0 a 100 para priorizar a ordem das notificações no resumo de notificações. Pontuações mais altas indicam notificações mais importantes. |
 | **[!UICONTROL Nível de interrupção]** | <ul> <li>**[!UICONTROL Ativo]**: selecionado por padrão; o sistema apresenta a notificação imediatamente, ativa a tela e pode reproduzir um som. As notificações não interrompem os modos de foco.</li><li>**[!UICONTROL Passivo]**: o sistema adiciona a notificação à lista de notificações sem ativar a tela ou reproduzir um som. As notificações não interrompem os modos de foco.</li><li>**[!UICONTROL Sensível ao tempo]**: o sistema apresenta a notificação imediatamente, ativa a tela, pode reproduzir um som e interrompe os modos de foco. Esse nível não requer uma permissão especial da Apple.</li> <li>**[!UICONTROL Crítico]**: o sistema apresenta a notificação imediatamente, ativa a tela e ignora os modos de foco e a opção de mudo. Observe que esse nível requer uma permissão especial da Apple.</ul> |
 | **[!UICONTROL Thread-id]** | Identificador usado para agrupar notificações relacionadas. As notificações com a mesma ID de thread são organizadas como uma única conversa ou thread na lista de notificações. |
