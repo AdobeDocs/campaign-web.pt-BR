@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
 badge: label="Disponibilidade limitada"
-source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,10 @@ Para acessar e gerenciar os relatórios globais, siga estas etapas:
 
 1. Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]** seção.
 
+1. No menu esquerdo, selecione um relatório da lista e navegue pela guia para exibir dados de cada canal.
+
+   ![](assets/global_report_manage_3.png)
+
 1. No painel, escolha uma **Início** e **[!UICONTROL Hora final]** para direcionar dados específicos.
 
    ![](assets/global_report_manage_1.png)
@@ -40,16 +44,3 @@ Para acessar e gerenciar os relatórios globais, siga estas etapas:
 1. No **[!UICONTROL Fluxos de clique e URLs]**, você também pode escolher a variável **[!UICONTROL Links mais visitados]** ou o **[!UICONTROL Período]**.
 
    A variável **[!UICONTROL Visualizar por]** As opções de permitem filtrar por URLs, Rótulos ou Categorias.
-
-## Exportar seus relatórios {#export-reports}
-
-É possível exportar facilmente seus diferentes relatórios para o formato PDF ou CSV, o que permite compartilhá-los, manipulá-los ou imprimi-los.
-
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Exportar como arquivo PDF]** ou **[!UICONTROL Exportar como arquivo CSV]**.
-
-   ![](assets/global_report_export.png)
-
-1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em **[!UICONTROL Salvar]**.
-
-Seu relatório agora está disponível para visualização ou compartilhamento em um arquivo PDF ou CSV.
-

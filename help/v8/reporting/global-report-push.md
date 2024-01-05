@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios globais para o canal de push
 description: Entender os relatórios globais do canal de push
 badge: label="Disponibilidade limitada"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 4%
@@ -80,7 +80,7 @@ Os tipos de erro de notificações por push estão listados na variável [Docume
 
 ## Taxa de transferência de entrega {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 Este relatório fornece detalhes abrangentes sobre a taxa de transferência do delivery em um período especificado.
 

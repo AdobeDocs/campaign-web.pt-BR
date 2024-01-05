@@ -4,10 +4,10 @@ title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 badge: label="Disponibilidade limitada"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 11%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 
@@ -64,16 +64,3 @@ Para acessar e gerenciar os relatórios da campanha, siga estas etapas:
 1. No **[!UICONTROL Fluxos de clique e URLs]**, você também pode escolher a variável **[!UICONTROL Links mais visitados]** ou o **[!UICONTROL Período]**.
 
    A variável **[!UICONTROL Visualizar por]** As opções de permitem filtrar por URLs, Rótulos ou Categorias.
-
-## Exportar seus relatórios {#export-reports}
-
-É possível exportar facilmente seus diferentes relatórios para o formato PDF ou CSV, o que permite compartilhá-los, manipulá-los ou imprimi-los.
-
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Exportar como arquivo PDF]** ou **[!UICONTROL Exportar como arquivo CSV]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em **[!UICONTROL Salvar]**.
-
-Seu relatório agora está disponível para visualização ou compartilhamento em um arquivo PDF ou CSV.
-
