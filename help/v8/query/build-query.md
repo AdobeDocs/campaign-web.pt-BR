@@ -3,7 +3,7 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 15%
@@ -88,8 +88,6 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
    ![](assets/query-custom-condition.png)
 
-
-
 #### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
 As condições personalizadas permitem consultar tabelas vinculadas à tabela usada atualmente pela regra. Isso inclui tabelas com um link de cardinalidade 1-1 ou tabelas de coleção (link 1-N).
@@ -120,7 +118,7 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
 1. Selecione o **Compras** tabela e confirme.
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. Uma transição de saída é adicionada, permitindo criar subcondições.
 
@@ -136,7 +134,7 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
 +++
 
-#### Trabalhar com dados agregados {#aggregate}**
+#### Trabalhar com dados agregados {#aggregate}
 
 As condições personalizadas permitem executar operações agregadas. Para fazer isso, você precisa selecionar diretamente um atributo de uma tabela de coleção:
 
