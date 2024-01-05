@@ -4,7 +4,7 @@ title: Editar o conteúdo do email
 description: Saiba como editar o conteúdo de email na interface do Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 52%
@@ -86,7 +86,7 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
 1. Se quiser enviar ofertas com seu email, selecione-as usando o **[!UICONTROL Configurar ofertas]** botão.
 
-   É possível inseri-los no email usando os campos de personalização. [Saiba como enviar ofertas](offers.md)
+   É possível inseri-los no email usando os campos de personalização. [Saiba como enviar ofertas](../msg/offers.md)
 
 1. Clique em **[!UICONTROL Editar corpo do email]** botão para estruturar e projetar o conteúdo do email usando o [Email Designer](get-started-email-designer.md#start-authoring). Informações adicionais sobre como criar conteúdo de email estão disponíveis nessas seções:
 
