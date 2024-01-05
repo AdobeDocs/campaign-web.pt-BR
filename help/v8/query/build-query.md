@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 17%
+source-wordcount: '1887'
+ht-degree: 15%
 
 ---
 
@@ -49,13 +49,13 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 1. Clique em **+** no nó desejado e selecione **[!UICONTROL Condição personalizada]**. O painel de propriedades de condição personalizada é aberto no lado direito.
 
-1. No **Atributo** selecione o atributo do banco de dados que deseja utilizar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos vinculados à tabela.
+1. No **Atributo** selecione o atributo do banco de dados que deseja utilizar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos de tabelas vinculadas.
 
    ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
-   >O botão Edit expression permite aproveitar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares.
+   >O botão Edit expression permite aproveitar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
 
 1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
@@ -82,27 +82,35 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 +++
 
-1. No **Valor** defina o valor esperado. Você também pode usar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no link **Editar expressão** botão.
+1. No **Valor** defina o valor esperado. Você também pode usar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no link **Editar expressão** botão. [Saiba como editar expressões](expression-editor.md)
 
    *Exemplo de consulta que retorna todos os perfis com 21 anos ou mais:*
 
    ![](assets/query-custom-condition.png)
 
-**Condições personalizadas em tabelas distantes (links 1-1 e 1-N)**
 
-As condições personalizadas permitem consultar tabelas distantes vinculadas à tabela Recipients.
 
-Para um **Link 1-1** com outro recurso de banco de dados, selecione o valor diretamente na tabela direcionada.
+#### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
+
+As condições personalizadas permitem consultar tabelas vinculadas à tabela usada atualmente pela regra. Isso inclui tabelas com um link de cardinalidade 1-1 ou tabelas de coleção (link 1-N).
+
+Para um **Link 1-1**, selecione o atributo diretamente na tabela direcionada.
 
 +++Exemplo de consulta
 
-Aqui, o query é direcionado a recipients cujo país ou região está incluído em determinados valores (reino unido e eua)
+Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 
-![](assets/custom-condition-1-1.png)
+1. Navegue dentro do **Marca** e selecione o **Rótulo** atributo.
+
+   ![](assets/1-1-attribute.png)
+
+1. Defina o valor esperado para o atributo.
+
+   ![](assets/1-1-table.png)
 
 +++
 
-Para um **Link 1-N** com outro recurso de banco de dados, é possível definir subcondições nos campos desse segundo recurso.
+Para um **Link 1-N**, você pode definir subcondições para refinar seu query.
 
 Por exemplo, você pode selecionar o operador Exists nas compras de perfil para direcionar todos os perfis para os quais existem compras. Depois de concluído, adicione uma condição personalizada na transição de saída e crie um filtro para atender às suas necessidades.
 
@@ -110,9 +118,35 @@ Por exemplo, você pode selecionar o operador Exists nas compras de perfil para 
 
 Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao produto BrewMaster, para um valor total de pelo menos 100$.
 
-![](assets/custom-condition-1-N.png)
+1. Selecione o **Compras** tabela e confirme.
+
+   ![](assets/1-n-collection.png)
+
+1. Uma transição de saída é adicionada, permitindo criar subcondições.
+
+   ![](assets/1-n-subcondition.png)
+
+1. Selecione o **Preço** atribua e direcione compras de 1000$ ou mais
+
+   ![](assets/1-n-price.png)
+
+1. Adicione subcondições para atender às suas necessidades. Aqui adicionamos uma condição aos perfis do público-alvo que compraram um produto BrewMaster.
+
+   ![](assets/custom-condition-1-N.png)
 
 +++
+
+#### Trabalhar com dados agregados {#aggregate}**
+
+As condições personalizadas permitem executar operações agregadas. Para fazer isso, você precisa selecionar diretamente um atributo de uma tabela de coleção:
+
+1. Navegue dentro da tabela de coleção desejada e selecione o atributo no qual deseja executar uma operação agregada.
+
+   ![](assets/aggregate-attribute.png)
+
+1. No painel de propriedades, alterne no **Dados agregados** e selecione a função de agregação desejada.
+
+   ![](assets/aggregate.png)
 
 ### Selecionar um público-alvo
 
@@ -148,30 +182,7 @@ Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
    ![](assets/query-predefined-filter.png)
 
-## Combinar componentes de filtragem com operadores {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Grupo"
->abstract="Grupo"
-
-Cada vez que um novo componente de filtragem é adicionado ao query, ele é automaticamente vinculado ao outro componente por um operador AND. Isso significa que os resultados de ambos os componentes de filtragem são combinados nos resultados da consulta.
-
-Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente é vinculado à condição de tipo de filtro predefinida com um operador AND, o que significa que os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público-alvo &quot;Discount hunters&quot;.
-
-![](assets/query-operator.png)
-
-Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado no painel Grupo que é aberto no lado direito.
-
-Os operadores disponíveis são:
-
-* **E (Interseção)**: combina resultados que correspondem a todos os componentes de filtragem nas transições de saída.
-* **OU (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
-* **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
-
-![](assets/query-operator-change.png)
-
-### Componentes do filtro de copiar e colar {#copy}
+### Copiar e colar componentes {#copy}
 
 O modelador de query permite copiar um ou vários componentes de filtragem e colá-los no final de uma transição. Essa operação pode ser executada na tela de consulta atual ou em qualquer tela na instância.
 
@@ -193,6 +204,35 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
 
 ![](assets/copy-paste.png)
 
+## Combinar componentes de filtragem com operadores {#operators}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Grupo"
+>abstract="Grupo"
+
+Cada vez que você adiciona um novo componente de filtragem à sua consulta, ele é automaticamente vinculado ao outro componente por um **E** operador. Isso significa que os resultados dos dois componentes de filtragem são combinados.
+
+Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente é vinculado à condição de tipo de filtro predefinida com um **E** operador, o que significa que os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
+
+![](assets/query-operator.png)
+
+Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado na guia **Grupo** painel que é aberto no lado direito.
+
+Os operadores disponíveis são:
+
+* **E (Interseção)**: combina resultados que correspondem a todos os componentes de filtragem nas transições de saída.
+* **OU (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
+* **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
+
+![](assets/query-operator-change.png)
+
+Além disso, você pode criar grupos intermediários de componentes clicando no **+** em uma transição. Isso permite adicionar um operador nesse local específico para agrupar vários componentes e refinar sua consulta.
+
+No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos públicos &quot;VIP para recompensar&quot; ou &quot;Super VIP&quot;.
+
+![](assets/query-intermediate-group.png)
+
 ## Verificar e validar sua consulta
 
 >[!CONTEXTUALHELP]
@@ -210,3 +250,7 @@ Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades
   >[!IMPORTANT]
   >
   >Selecione um filtro predefinido no painel de propriedades Regra para substituir a consulta criada na tela pelo filtro selecionado.
+
+Quando o query estiver pronto, clique no link **[!UICONTROL Confirmar o]** no canto superior direito para salvá-lo.
+
+Você pode modificar sua query a qualquer momento abrindo-a. Lembre-se de que, ao abrir uma consulta existente, ela é exibida em uma exibição simplificada, sem a visibilidade de  **+** botões. Para adicionar novos elementos à consulta, selecione um componente ou operador na tela para exibir a **+** botões.

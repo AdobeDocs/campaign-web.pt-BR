@@ -3,22 +3,28 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 83%
+source-wordcount: '2008'
+ht-degree: 77%
 
 ---
 
 # Editar expressões {#expression}
 
-## Editar uma expressão {#edit}
+A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, cadeias de caracteres, campos numéricos, classificação etc.
 
-A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas. Essas funções permitem manipular os valores usados para realizar consultas específicas, como manipular datas, strings, campos numéricos, classificação etc.
+>[!IMPORTANT]
+>
+>A seção abaixo fornece informações sobre como trabalhar com o editor de expressão para criar regras. Lembre-se de que a sintaxe usada para criar regras é diferente da usada para adicionar personalização.
 
-Essas operações estão disponíveis no modelador de consultas **[!UICONTROL Editar expressão]** botão, disponível para **[!UICONTROL Atributo]** e **[!UICONTROL Valor]** ao configurar uma condição personalizada.
+## Trabalhar com o editor de expressão {#edit}
 
-![](assets/edit-expression.png)
+O editor de expressão está disponível no modelador de consultas **[!UICONTROL Editar expressão]** botão, disponível para **[!UICONTROL Atributo]** e **[!UICONTROL Valor]** ao configurar uma condição personalizada.
+
+| Acesso pelo **Atributo** campo | Acesso pelo **Valor** campo |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 O editor de expressão fornece:
 
@@ -29,6 +35,12 @@ O editor de expressão fornece:
 Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
 
 ![](assets/expression-editor.png)
+
+Quando a expressão estiver pronta, clique no botão **[!UICONTROL Confirmar o]** botão. A expressão é exibida no campo selecionado. Para editá-lo, abra o editor de expressão e faça as alterações desejadas.
+
+O exemplo abaixo mostra uma expressão configurada para a variável **[!UICONTROL Valor]** campo. Para editá-lo, é necessário abrir o editor de expressão usando o **[!UICONTROL Editar expressão]** botão.
+
+![](assets/edit-expression-value.png)
 
 ## Funções de ajuda
 

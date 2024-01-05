@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 11%
 
 ---
@@ -54,15 +54,15 @@ O modelador de consultas fornece uma tela central onde você cria a consulta e u
 
 ### A tela central {#canvas}
 
-A tela central do modelador de consultas é onde você adiciona e combina os diferentes componentes que constroem sua consulta.
+A tela central do modelador de consultas é onde você adiciona e combina os diferentes componentes que constroem sua consulta. [Saiba como criar uma consulta](build-query.md)
 
 A barra de ferramentas localizada no canto superior direito da tela fornece opções para manipular facilmente os componentes da consulta e navegar na tela:
 
-* Modo de seleção múltipla: selecione vários componentes de filtragem para copiá-los e colá-los no local de sua escolha.
-* Girar: Alternar a tela de desenho verticalmente.
-* Ajustar à tela: adapta o nível de zoom da tela de desenho à sua tela.
-* Menos zoom / Mais zoom: Menos zoom ou na tela.
-* Exibir mapa: abre um instantâneo da tela mostrando que você está localizado.
+* **Modo de seleção múltipla**: selecione vários componentes de filtragem para copiá-los e colá-los no local de sua escolha.
+* **Girar**: Alterne a tela de desenho verticalmente.
+* **Ajustar à tela**: adapte o nível de zoom da tela de desenho à sua tela.
+* **Menos zoom** / **Mais zoom**: Reduza ou na tela de desenho.
+* **Exibir mapa**: abre um instantâneo da tela mostrando que você está localizado.
 
 ### O painel de propriedades Regra {#rule-properties}
 
