@@ -2,12 +2,12 @@
 audience: end-user
 title: Enviar uma entrega de SMS
 description: Saiba como enviar SMS com o Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 15%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 

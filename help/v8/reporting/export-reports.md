@@ -3,10 +3,10 @@ audience: end-user
 title: Exportar seus relatórios
 description: Saiba como exportar relatórios
 badge: label="Disponibilidade limitada"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 26%
+source-wordcount: '107'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Exportar"
+>title="Exportar seus relatórios"
 >abstract="Clique em **Exportar** para exportar essas métricas nos formatos PDF ou CSV, o que permite compartilhá-las ou imprimi-las."
 
 É possível exportar facilmente seus diferentes relatórios para o formato PDF ou CSV, o que permite compartilhá-los, manipulá-los ou imprimi-los.

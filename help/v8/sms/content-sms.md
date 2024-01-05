@@ -2,12 +2,12 @@
 audience: end-user
 title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 46%
+source-wordcount: '258'
+ht-degree: 45%
 
 ---
 
@@ -18,13 +18,10 @@ ht-degree: 46%
 >title="Conteúdo de SMS"
 >abstract="Crie o conteúdo de seus deliveries de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico. Para começar a redigir a mensagem, clique no link **Editar conteúdo** botão."
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="Conteúdo da mensagem SMS"
 >abstract="Defina o conteúdo do SMS. Para redigir a mensagem, clique no link **Mensagem** e insira o conteúdo da mensagem. Use o Editor de expressão para adicionar dados personalizados e conteúdo dinâmico. Você também pode personalizar o nome do remetente. Por padrão, o rastreamento é ativado para todos os deliveries de SMS, para que você possa medir quando os recipients clicam em links."
-
 
 Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
@@ -41,6 +38,8 @@ Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
    ![](assets/sms_content_2.png)
 
 1. Por padrão, o rastreamento está habilitado para entregas. Você pode desabilitar essa opção na **[!UICONTROL seção Recursos opcionais]**.
+
+1. Clique em **[!UICONTROL Configurações]** para acessar opções avançadas relacionadas ao seu template do delivery. [Saiba mais](../advanced-settings/delivery-settings.md)
 
 1. Acesse o **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado. [Saiba mais](send-sms.md#preview-sms)
 
