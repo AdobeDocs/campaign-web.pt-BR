@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 19%
+source-wordcount: '1634'
+ht-degree: 17%
 
 ---
 
@@ -170,6 +170,28 @@ Os operadores disponíveis são:
 * **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
 
 ![](assets/query-operator-change.png)
+
+### Componentes do filtro de copiar e colar {#copy}
+
+O modelador de query permite copiar um ou vários componentes de filtragem e colá-los no final de uma transição. Essa operação pode ser executada na tela de consulta atual ou em qualquer tela na instância.
+
+>[!NOTE]
+>
+>A seleção copiada é mantida enquanto você estiver trabalhando na instância. Se você fizer logoff e logon novamente, sua seleção não estará mais disponível para colagem.
+
+Para copiar e colar componentes de filtragem, siga estas etapas:
+
+1. Selecione o componente de filtragem que deseja copiar clicando nele na tela de consulta. Para selecionar vários componentes, use a ferramenta de seleção múltipla disponível na barra de ferramentas, localizada no canto superior direito da tela.
+
+1. Clique em **[!UICONTROL Copiar]** no painel de propriedades do componente ou na faixa de opções azul na parte inferior da tela se você tiver selecionado vários componentes.
+
+   | Copiar um único componente | Copiar vários componentes |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. Para colar os componentes, clique no botão + no final da transição desejada e selecione **Colar nos itens**.
+
+![](assets/copy-paste.png)
 
 ## Verificar e validar sua consulta
 

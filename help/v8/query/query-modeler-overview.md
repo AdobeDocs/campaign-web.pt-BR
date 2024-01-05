@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 15%
+source-wordcount: '428'
+ht-degree: 11%
 
 ---
 
@@ -37,8 +37,6 @@ O modelador de query está disponível em cada contexto em que você precisa def
 | **Filtrar dados de relatórios**: adicione uma regra para filtrar os dados exibidos nos relatórios. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de deliveries, etc. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -48,11 +46,24 @@ O modelador de query está disponível em cada contexto em que você precisa def
  +++
 -->
 
-
 ## Interface do modelador de consultas {#interface}
 
-O modelador de consultas fornece uma tela central, onde você pode adicionar e combinar os diferentes componentes que constroem sua consulta.
-
-No lado direito, o painel de propriedades Regra fornece informações sobre a consulta. Ela permite executar várias operações para verificar sua consulta e garantir que ela atenda às suas necessidades. Saiba como verificar e validar seu query
+O modelador de consultas fornece uma tela central onde você cria a consulta e um painel direito fornecendo informações sobre a consulta.
 
 ![](assets/query-interface.png)
+
+### A tela central {#canvas}
+
+A tela central do modelador de consultas é onde você adiciona e combina os diferentes componentes que constroem sua consulta.
+
+A barra de ferramentas localizada no canto superior direito da tela fornece opções para manipular facilmente os componentes da consulta e navegar na tela:
+
+* Modo de seleção múltipla: selecione vários componentes de filtragem para copiá-los e colá-los no local de sua escolha.
+* Girar: Alternar a tela de desenho verticalmente.
+* Ajustar à tela: adapta o nível de zoom da tela de desenho à sua tela.
+* Menos zoom / Mais zoom: Menos zoom ou na tela.
+* Exibir mapa: abre um instantâneo da tela mostrando que você está localizado.
+
+### O painel de propriedades Regra {#rule-properties}
+
+No lado direito, a variável **[!UICONTROL Propriedades da regra]** fornece informações sobre a consulta. Ela permite executar várias operações para verificar a consulta e garantir que ela atenda às suas necessidades. [Saiba como verificar e validar seu query](build-query.md#check-and-validate-your-query)

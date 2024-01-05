@@ -3,7 +3,7 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 83%
@@ -26,9 +26,9 @@ O editor de expressão fornece:
 * A lista de opções disponíveis **campos (2)** que pode ser usada na expressão e corresponde ao targeting dimension do query.
 * **Funções auxiliares (3)**, classificado por categoria.
 
-![](assets/expression-editor.png)
-
 Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
+
+![](assets/expression-editor.png)
 
 ## Funções de ajuda
 
