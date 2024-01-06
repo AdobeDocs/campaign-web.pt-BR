@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1860'
 ht-degree: 15%
 
 ---
@@ -28,7 +28,7 @@ Você pode adicionar dois tipos de elementos:
 
   *Recipients que assinaram o boletim informativo &quot;Esportes&quot;**E**que vivem em Nova York **OU**São Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){width="70%" align="center"}
 
 ## Adicionar componentes de filtragem {#filtering}
 
@@ -51,7 +51,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 1. No **Atributo** selecione o atributo do banco de dados que deseja utilizar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos de tabelas vinculadas.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
    *Exemplo de consulta que retorna todos os perfis com 21 anos ou mais:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){width="70%" align="center"}
 
 #### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
 As condições personalizadas permitem consultar tabelas vinculadas à tabela usada atualmente pela regra. Isso inclui tabelas com um link de cardinalidade 1-1 ou tabelas de coleção (link 1-N).
 
-Para um **Link 1-1**, selecione o atributo diretamente na tabela direcionada.
+Para um **Link 1-1**, navegue até a tabela vinculada, selecione o atributo desejado e defina o valor esperado.
 
 +++Exemplo de consulta
 
@@ -100,17 +100,15 @@ Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 
 1. Navegue dentro do **Marca** e selecione o **Rótulo** atributo.
 
-   ![](assets/1-1-attribute.png)
+   ![](assets/1-1-attribute.png){width="70%" align="center"}
 
 1. Defina o valor esperado para o atributo.
 
-   ![](assets/1-1-table.png)
+   ![](assets/1-1-table.png){width="70%" align="center"}
 
 +++
 
-Para um **Link 1-N**, você pode definir subcondições para refinar seu query.
-
-Por exemplo, você pode selecionar o operador Exists nas compras de perfil para direcionar todos os perfis para os quais existem compras. Depois de concluído, adicione uma condição personalizada na transição de saída e crie um filtro para atender às suas necessidades.
+Para um **Link 1-N**, você pode definir subcondições para refinar seu query, como mostrado no exemplo abaixo.
 
 +++Exemplo de consulta
 
@@ -118,19 +116,19 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
 1. Selecione o **Compras** tabela e confirme.
 
-   ![](assets/1-N-collection.png)
+   ![](assets/1-N-collection.png){width="70%" align="center"}
 
 1. Uma transição de saída é adicionada, permitindo criar subcondições.
 
-   ![](assets/1-n-subcondition.png)
+   ![](assets/1-n-subcondition.png){width="70%" align="center"}
 
 1. Selecione o **Preço** atribua e direcione compras de 1000$ ou mais
 
-   ![](assets/1-n-price.png)
+   ![](assets/1-n-price.png){width="70%" align="center"}
 
 1. Adicione subcondições para atender às suas necessidades. Aqui adicionamos uma condição aos perfis do público-alvo que compraram um produto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png)
+   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
 
 +++
 
@@ -140,11 +138,11 @@ As condições personalizadas permitem executar operações agregadas. Para faze
 
 1. Navegue dentro da tabela de coleção desejada e selecione o atributo no qual deseja executar uma operação agregada.
 
-   ![](assets/aggregate-attribute.png)
+   ![](assets/aggregate-attribute.png){width="70%" align="center"}
 
 1. No painel de propriedades, alterne no **Dados agregados** e selecione a função de agregação desejada.
 
-   ![](assets/aggregate.png)
+   ![](assets/aggregate.png){width="70%" align="center"}
 
 ### Selecionar um público-alvo
 
@@ -178,7 +176,7 @@ Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
    *Exemplo de consulta que retorna todos os perfis correspondentes ao filtro predefinido &quot;Clientes inativos&quot;:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){width="70%" align="center"}
 
 ### Copiar e colar componentes {#copy}
 
@@ -200,7 +198,7 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
 
 1. Para colar os componentes, clique no botão + no final da transição desejada e selecione **Colar nos itens**.
 
-![](assets/copy-paste.png)
+![](assets/copy-paste.png){width="70%" align="center"}
 
 ## Combinar componentes de filtragem com operadores {#operators}
 
@@ -213,7 +211,7 @@ Cada vez que você adiciona um novo componente de filtragem à sua consulta, ele
 
 Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente é vinculado à condição de tipo de filtro predefinida com um **E** operador, o que significa que os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){width="70%" align="center"}
 
 Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado na guia **Grupo** painel que é aberto no lado direito.
 
@@ -223,13 +221,13 @@ Os operadores disponíveis são:
 * **OU (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
 * **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){width="70%" align="center"}
 
 Além disso, você pode criar grupos intermediários de componentes clicando no **+** em uma transição. Isso permite adicionar um operador nesse local específico para agrupar vários componentes e refinar sua consulta.
 
 No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos públicos &quot;VIP para recompensar&quot; ou &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){width="70%" align="center"}
 
 ## Verificar e validar sua consulta
 
