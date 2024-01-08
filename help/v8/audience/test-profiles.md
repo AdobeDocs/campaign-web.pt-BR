@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '554'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ As etapas para enviar mensagens de teste para seed addresses estão detalhadas e
 
 >[!NOTE]
 >
->Os perfis de teste são excluídos automaticamente dos relatórios nas seguintes estatísticas de delivery: **[!UICONTROL Cliques]**, **[!UICONTROL Aberturas]**, **[!UICONTROL Cancelamentos de assinatura]**.
+>Os perfis de teste são excluídos automaticamente dos relatórios nas seguintes estatísticas de delivery: **[!UICONTROL Cliques]**, **[!UICONTROL Aberturas]**, **[!UICONTROL Cancelamentos de assinatura]**. [Saiba mais sobre relatórios]
 
 ## Acessar e gerenciar perfis de teste {#access-test-profiles}
 
@@ -39,13 +39,13 @@ Para acessar a lista de perfis de teste, selecione **[!UICONTROL Gerenciamento d
 
   ![](assets/test-profile-list-filters.png)
 
-* É possível duplicar qualquer perfil de teste e editá-lo conforme necessário.
+* É possível duplicar qualquer perfil de teste e atualizá-lo conforme necessário. As etapas para editar um perfil de teste são as mesmas de quando [criação de um perfil de teste](#create-test-profile).
 
 * Para excluir um perfil de teste, selecione a opção correspondente na **[!UICONTROL Mais ações]** menu.
 
   ![](assets/test-profile-list-delete.png)
 
-* Para editar um perfil de teste, clique no item desejado na lista.
+* Para editar um perfil de teste, clique no item desejado na lista. As etapas para editar um perfil de teste são as mesmas de quando [criação de um perfil de teste](#create-test-profile).
 
 Você também pode acessar perfis de teste por meio da **[!UICONTROL Explorer]** exibir, no **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** nó.
 
@@ -68,7 +68,9 @@ Para criar um perfil de teste, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Criar perfil de teste]** botão.
 
-1. Preencha os detalhes do perfil de teste. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. Preencha os detalhes do perfil de teste, conforme necessário. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 
