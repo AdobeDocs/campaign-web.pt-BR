@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 15%
 
 ---
@@ -18,27 +18,23 @@ Você pode adicionar dois tipos de elementos:
 
 * **Filtrar componentes** (Condição personalizada, Selecionar público, Filtro predefinido) permitem criar suas próprias regras, selecionar um público ou um filtro predefinido para refinar sua consulta. [Saiba como trabalhar com componentes de filtragem](#filtering)
 
-  Exemplo:
-
   *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*. *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
 
 * **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama para atender às suas necessidades. [Saiba como trabalhar com operadores](#filtering)
 
-  Exemplo:
-
   *Recipients que assinaram o boletim informativo &quot;Esportes&quot;**E**que vivem em Nova York **OU**São Francisco*.
 
-![](assets/query-add-component.png){width="70%" align="center"}
+![](assets/query-add-component.png)
 
 ## Adicionar componentes de filtragem {#filtering}
 
 Os componentes de filtragem permitem refinar a consulta usando:
 
-* **Condições personalizadas**: filtre sua consulta criando sua própria condição com atributos do banco de dados e expressões avançadas.
-* **Públicos-alvo**: filtre sua consulta usando um público-alvo existente.
-* **Filtro predefinido**: filtre sua query usando os filtros predefinidos existentes.
+* **[Condições personalizadas](#custom-condition)**: filtre sua consulta criando sua própria condição com atributos do banco de dados e expressões avançadas.
+* **[Públicos-alvo](#audiences)**: filtre sua consulta usando um público-alvo existente.
+* **[Filtro predefinido](#predefined-filters)**: filtre sua query usando os filtros predefinidos existentes.
 
-### Configurar uma condição personalizada
+### Configurar uma condição personalizada {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -51,7 +47,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 1. No **Atributo** selecione o atributo do banco de dados que deseja utilizar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos de tabelas vinculadas.
 
-   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
+   ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
@@ -86,7 +82,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
    *Exemplo de consulta que retorna todos os perfis com 21 anos ou mais:*
 
-   ![](assets/query-custom-condition.png){width="70%" align="center"}
+   ![](assets/query-custom-condition.png)
 
 #### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
@@ -100,11 +96,11 @@ Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 
 1. Navegue dentro do **Marca** e selecione o **Rótulo** atributo.
 
-   ![](assets/1-1-attribute.png){width="70%" align="center"}
+   ![](assets/1-1-attribute.png){width="85%" align="center"}
 
 1. Defina o valor esperado para o atributo.
 
-   ![](assets/1-1-table.png){width="70%" align="center"}
+   ![](assets/1-1-table.png){width="85%" align="center"}
 
 +++
 
@@ -116,19 +112,19 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
 1. Selecione o **Compras** tabela e confirme.
 
-   ![](assets/1-N-collection.png){width="70%" align="center"}
+   ![](assets/1-N-collection.png){width="50%" align="center"}
 
 1. Uma transição de saída é adicionada, permitindo criar subcondições.
 
-   ![](assets/1-n-subcondition.png){width="70%" align="center"}
+   ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
 1. Selecione o **Preço** atribua e direcione compras de 1000$ ou mais
 
-   ![](assets/1-n-price.png){width="70%" align="center"}
+   ![](assets/1-n-price.png){width="85%" align="center"}
 
 1. Adicione subcondições para atender às suas necessidades. Aqui adicionamos uma condição aos perfis do público-alvo que compraram um produto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
+   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++
 
@@ -138,13 +134,13 @@ As condições personalizadas permitem executar operações agregadas. Para faze
 
 1. Navegue dentro da tabela de coleção desejada e selecione o atributo no qual deseja executar uma operação agregada.
 
-   ![](assets/aggregate-attribute.png){width="70%" align="center"}
+   ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
 1. No painel de propriedades, alterne no **Dados agregados** e selecione a função de agregação desejada.
 
-   ![](assets/aggregate.png){width="70%" align="center"}
+   ![](assets/aggregate.png){width="85%" align="center"}
 
-### Selecionar um público-alvo
+### Selecionar um público-alvo {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -161,7 +157,7 @@ Para filtrar sua query usando um público existente, siga estas etapas:
 
    ![](assets/query-audience.png)
 
-### Usar um filtro predefinido
+### Usar um filtro predefinido {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -176,7 +172,7 @@ Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
    *Exemplo de consulta que retorna todos os perfis correspondentes ao filtro predefinido &quot;Clientes inativos&quot;:*
 
-   ![](assets/query-predefined-filter.png){width="70%" align="center"}
+   ![](assets/query-predefined-filter.png)
 
 ### Copiar e colar componentes {#copy}
 
@@ -198,7 +194,7 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
 
 1. Para colar os componentes, clique no botão + no final da transição desejada e selecione **Colar nos itens**.
 
-![](assets/copy-paste.png){width="70%" align="center"}
+   ![](assets/copy-paste.png)
 
 ## Combinar componentes de filtragem com operadores {#operators}
 
@@ -211,7 +207,7 @@ Cada vez que você adiciona um novo componente de filtragem à sua consulta, ele
 
 Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente é vinculado à condição de tipo de filtro predefinida com um **E** operador, o que significa que os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
 
-![](assets/query-operator.png){width="70%" align="center"}
+![](assets/query-operator.png)
 
 Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado na guia **Grupo** painel que é aberto no lado direito.
 
@@ -221,13 +217,13 @@ Os operadores disponíveis são:
 * **OU (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
 * **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
 
-![](assets/query-operator-change.png){width="70%" align="center"}
+![](assets/query-operator-change.png)
 
 Além disso, você pode criar grupos intermediários de componentes clicando no **+** em uma transição. Isso permite adicionar um operador nesse local específico para agrupar vários componentes e refinar sua consulta.
 
 No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos públicos &quot;VIP para recompensar&quot; ou &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png){width="70%" align="center"}
+![](assets/query-intermediate-group.png)
 
 ## Verificar e validar sua consulta
 
@@ -250,3 +246,5 @@ Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades
 Quando o query estiver pronto, clique no link **[!UICONTROL Confirmar o]** no canto superior direito para salvá-lo.
 
 Você pode modificar sua query a qualquer momento abrindo-a. Lembre-se de que, ao abrir uma consulta existente, ela é exibida em uma exibição simplificada, sem a visibilidade de  **+** botões. Para adicionar novos elementos à consulta, selecione um componente ou operador na tela para exibir a **+** botões.
+
+![](assets/edit-audience.png)

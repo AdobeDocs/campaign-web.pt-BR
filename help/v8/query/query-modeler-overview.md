@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 11%
@@ -50,7 +50,7 @@ O modelador de query está disponível em cada contexto em que você precisa def
 
 O modelador de consultas fornece uma tela central onde você cria a consulta e um painel direito fornecendo informações sobre a consulta.
 
-![](assets/query-interface.png){width="70%" align="center"}
+![](assets/query-interface.png)
 
 ### A tela central {#canvas}
 
