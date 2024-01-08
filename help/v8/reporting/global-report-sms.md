@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios globais para o canal SMS
 description: Entender os relatórios globais do canal SMS
 badge: label="Disponibilidade limitada"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,11 @@ Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]**
 ## Resumo da entrega {#delivery-summary-sms}
 
 ### Visão geral da entrega {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="Visão geral da entrega de SMS"
+>abstract="A variável **Visão geral da entrega de SMS** Os KPIs fornecem um resumo completo do delivery de SMS, oferecendo insights detalhados e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery."
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do oferece indicadores principais de desempenho (KPIs) abrangentes que fornecem insights detalhados sobre os padrões de interação de seus visitantes com cada delivery de SMS. As métricas a seguir são descritas abaixo.
 
@@ -38,6 +43,11 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do oferece ind
 
 ### Público-alvo {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="População direcionada por SMS"
+>abstract="O gráfico e a tabela para a variável **População direcionada** apresente dados relacionados ao seu público de SMS, incluindo informações sobre mensagens a serem entregues e exclusões."
+
 A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dados relacionados aos seus recipients para cada delivery de SMS enviado. As métricas estão detalhadas abaixo.
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dado
 +++
 
 ### Estatísticas de entrega {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="Estatísticas de entrega de SMS"
+>abstract="A variável **Estatísticas de entrega** O relatório do fornece insights abrangentes sobre o SMS enviado, oferecendo um detalhamento de várias métricas, como taxas de sucesso, ocorrências de erros e público-alvo colocado em quarentena. Essa apresentação detalhada permite um exame completo do desempenho geral e dos resultados do processo de delivery de SMS."
 
 A variável **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso de cada delivery de SMS. As métricas estão detalhadas abaixo.
 
@@ -74,6 +89,11 @@ A variável **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso
 
 ### Causas de exclusão {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="Causas de exclusão por SMS"
+>abstract="A variável **Causas de exclusão** O gráfico e a tabela ilustram os diversos motivos que impediram os perfis de usuário de receber as mensagens SMS."
+
 A variável **[!UICONTROL Causas de exclusão]** O gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber seus deliveries de SMS.
 
 Os tipos de erro estão listados no [Documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ Os tipos de erro estão listados no [Documentação do Adobe Campaign v8 (consol
 
 ## Taxa de transferência de entrega {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="Taxa de transferência de entrega de SMS"
+>abstract="A variável **Taxa de transferência de entrega** O relatório do fornece insights abrangentes sobre a eficiência do sistema de entrega de mensagens SMS, apresentando uma visão geral detalhada das taxas de sucesso e erro em um período especificado."
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-Este relatório fornece detalhes abrangentes sobre a taxa de transferência do delivery em um período especificado.
+A variável **[!UICONTROL Taxa de transferência de entrega]** O relatório do oferece insights abrangentes sobre a eficácia do sistema de delivery de mensagens SMS, oferecendo um resumo detalhado das taxas de sucesso e erro por um período especificado.

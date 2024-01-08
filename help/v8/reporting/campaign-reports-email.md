@@ -4,10 +4,10 @@ title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
 badge: label="Disponibilidade limitada"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 25%
+ht-degree: 24%
 
 ---
 
@@ -47,7 +47,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Estatísticas iniciais do público-alvo"
->abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos destinatários"
+>abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos recipients."
 
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 

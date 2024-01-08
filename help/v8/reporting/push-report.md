@@ -4,7 +4,7 @@ title: Relatórios de entrega por push
 description: Saiba como acessar e usar relatórios do delivery por push
 badge: label="Disponibilidade limitada"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 38%
@@ -66,7 +66,6 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 
 ### Estatísticas gerais {#push-delivery-overall}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="Estatísticas gerais de push"
@@ -87,7 +86,6 @@ A variável **Estatísticas gerais** o relatório apresenta dados para as notifi
 +++
 
 ### Exclusões {#push-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"

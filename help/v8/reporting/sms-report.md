@@ -4,10 +4,10 @@ title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 badge: label="Disponibilidade limitada"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 45%
+ht-degree: 42%
 
 ---
 
@@ -22,12 +22,12 @@ A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua 
 
 ## Resumo da entrega {#delivery-summary}
 
+### Visão geral da entrega {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Visão geral da entrega de SMS"
 >abstract="A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua entrega de SMS, fornecendo insights extensos e dados específicos. Ela fornece informações abrangentes sobre o desempenho, a eficácia e os resultados da sua entrega."
-
-### Visão geral da entrega {#sms-delivery-overview}
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre taxas de sucesso e erro e como seus visitantes se envolvem com mensagens SMS.
 
@@ -45,9 +45,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 +++
 
-
 ### População direcionada {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 
 
 ### Estatísticas gerais {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ A variável **Estatísticas gerais** O relatório apresenta dados para as mensag
 
 ### Exclusões {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="Exclusões de SMS"
 >abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem."
-
 
 A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
@@ -105,7 +100,7 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="Taxa de transferência de entrega de SMS"
->abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência da entrega em um período especificado.  A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
+>abstract="A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 

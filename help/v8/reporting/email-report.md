@@ -4,7 +4,7 @@ title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 badge: label="Disponibilidade limitada"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2245'
 ht-degree: 40%
@@ -74,12 +74,10 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o suces
 
 ### Causas de exclusão  {#email-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Causas de exclusão de entrega"
 >abstract="O gráfico e a tabela **Causas de exclusão** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega."
-
 
 A variável **[!UICONTROL Causas de exclusão]** o gráfico e a tabela mostram o detalhamento por regra de mensagens rejeitadas durante a preparação do delivery. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -288,7 +286,7 @@ O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores princi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Os 10 links mais visitados"
->abstract="O gráfico e a tabela **Os 10 links mais visitados** contêm os dados disponíveis relativos ao comportamento do destinatário em cada link."
+>abstract="A variável **Os 10 links mais visitados** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link."
 
 
 A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
