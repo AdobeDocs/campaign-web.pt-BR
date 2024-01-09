@@ -5,7 +5,7 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Visão geral da campanha
 hide: true
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 86%
@@ -144,12 +144,12 @@ ht-degree: 86%
    + [Exportar seus relatórios](reporting/export-reports.md)
    + [Indicadores principais de desempenho](reporting/kpis.md)
    + Relatórios de entrega {#delivery-report}
-      + [Introdução a relatórios de entrega](reporting/delivery-reports.md)
+      + [Introdução aos relatórios de entrega](reporting/delivery-reports.md)
       + [Relatório de entrega de emails](reporting/email-report.md)
       + [Relatório de entrega por push](reporting/push-report.md)
       + [Relatório de entrega de SMS](reporting/sms-report.md)
    + Relatórios de campanha {#campaign-report}
-      + [Introdução aos relatórios de campanha](reporting/campaign-reports.md)
+      + [Introdução aos relatórios do Campaign](reporting/campaign-reports.md)
       + [Relatório de campanha de email](reporting/campaign-reports-email.md)
       + [Relatório da campanha push](reporting/campaign-reports-push.md)
       + [Relatório de campanha por SMS](reporting/campaign-reports-sms.md)

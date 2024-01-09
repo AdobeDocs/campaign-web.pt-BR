@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios globais para o canal de email
 description: Saiba mais sobre Relatórios globais para o canal de email
 badge: label="Disponibilidade limitada"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 9%
