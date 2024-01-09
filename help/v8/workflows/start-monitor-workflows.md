@@ -2,12 +2,12 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Beta"
-exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
+badge: label="Disponibilidade limitada"
+exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 6%
+source-wordcount: '570'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,7 @@ Você pode acompanhar o progresso de perfis direcionados em tempo real usando um
 
 ## Transições de fluxo de trabalho {#transitions}
 
-Nos workflows, os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária.
-
-Esses dados podem ser exibidos para cada transição. Para fazer isso, selecione uma transição para abrir as propriedades no lado direito da tela.
+Nos workflows, os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária. Esses dados podem ser exibidos para cada transição. Para fazer isso, selecione uma transição para abrir as propriedades no lado direito da tela.
 
 * Clique em **[!UICONTROL Visualizar esquema]** para exibir o schema da tabela de trabalho.
 * Clique em **[!UICONTROL Visualizar resultados]** para visualizar os dados transportados na transição selecionada.
@@ -57,7 +55,7 @@ A variável **[!UICONTROL Logs e tarefas]** O menu fornece um histórico da exec
 
 Dois tipos de informações estão disponíveis:
 
-* A variável **[!UICONTROL Log]** contém o histórico de execução de todas as atividades do workflow. Eles indicam as operações efetuadas e os erros de execução por ordem cronológica.
+* A variável **[!UICONTROL Log]** contém o histórico de execução de todas as atividades do workflow. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
 * A variável **[!UICONTROL Tarefas]** A guia detalha a sequência de execução das atividades.
 
 Em ambas as guias, você pode escolher as colunas exibidas e sua ordem, aplicar filtros e usar o campo de pesquisa para localizar rapidamente as informações desejadas.

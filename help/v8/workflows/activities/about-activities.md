@@ -4,9 +4,9 @@ title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 badge: label="Disponibilidade limitada"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 39%
 
 ---
@@ -41,9 +41,7 @@ Essas atividades são específicas para direcionar, manipular e enriquecer dados
 
 ## Atividades do canal {#channel}
 
-O Adobe Campaign Web permite automatizar e executar campanhas de marketing em vários canais. Você pode combinar atividades de canal na tela para criar workflows entre canais que podem acionar ações com base no comportamento do cliente. As seguintes **Canal** Atividades estão disponíveis: Notificações por push por email, SMS, Android e iOS.
-
-Saiba como configurar um delivery no contexto de um workflow neste [seção](channels.md).
+O Adobe Campaign Web permite automatizar e executar campanhas de marketing em vários canais. Você pode combinar atividades de canal na tela para criar workflows entre canais que podem acionar ações com base no comportamento do cliente. As seguintes **Canal** Atividades estão disponíveis: Notificações por push por email, SMS, Android e iOS. [Saiba como configurar um delivery no contexto de um workflow](channels.md).
 
 ## Atividades de controle de fluxo {#flow-control}
 

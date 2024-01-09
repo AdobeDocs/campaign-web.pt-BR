@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar a atividade de fluxo de trabalho AND-join
 description: Saiba como usar a atividade de fluxo de trabalho AND-join
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -43,4 +43,4 @@ Siga estas etapas para configurar a atividade **AND-join**:
 
 O exemplo a seguir mostra duas ramificações de fluxo de trabalho com uma entrega de SMS e email. A AND-join será acionada quando ambas as transições de entrada estiverem habilitadas. As notificações por push serão enviadas somente após a conclusão de ambas as entregas.
 
-![](../assets/workflow-andjoin-example.png)
+![](../assets/workflow-andjoin-example.png){zoom=&quot;yes&quot;}

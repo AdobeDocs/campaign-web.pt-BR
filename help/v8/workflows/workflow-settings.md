@@ -2,12 +2,12 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '913'
+ht-degree: 30%
 
 ---
 
@@ -34,7 +34,7 @@ A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que
 * **[!UICONTROL Nome]**: o nome interno do workflow.
 * **[!UICONTROL Pasta]**: a pasta onde o fluxo de trabalho deve ser salvo.
 * **[!UICONTROL Campanha vinculada]**: este campo é exibido se o workflow foi criado em uma campanha. Ele permite abrir a campanha associada.
-* **[!UICONTROL Fuso horário]**: defina um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do fluxo de trabalho é aquele definido para o operador atual do Campaign.
+* **[!UICONTROL Fuso horário]**: defina um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
 Outros valores possíveis são:
    * **Fuso horário do servidor** para usar o fuso horário do servidor de aplicativos Adobe Campaign
    * **Fuso horário do operador** para usa o fuso horário do operador do Adobe Campaign que executa o fluxo de trabalho, conforme definido no perfil do operador, no console do cliente
@@ -51,7 +51,8 @@ Outros valores possíveis são:
 >title="Configurações de segmentação"
 >abstract="Nesta seção, você pode selecionar o targeting dimension para direcionar perfis no fluxo de trabalho e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser habilitada em um fluxo de trabalho de produção."
 
-* **[!UICONTROL Dimensão de direcionamento]**: selecione a targeting dimension a ser usada para direcionar perfis: recipients, beneficiários de contrato, operadores, assinantes, etc.
+* **[!UICONTROL Dimensão de direcionamento]**: selecione a targeting dimension a ser usada para direcionar perfis: recipients, beneficiários de contrato, operadores, assinantes, etc. [Saiba mais sobre targeting dimensions](../audience/targeting-dimensions.md)
+
 * **[!UICONTROL Manter o resultado de públicos provisórios entre duas execuções]**: por padrão, somente as tabelas de trabalho da última execução do workflow são mantidas. As tabelas de trabalho das execuções anteriores são removidas por um workflow técnico, executado diariamente.
 
   Se essa opção estiver ativada, as tabelas de trabalho serão mantidas mesmo após a execução do workflow. Você pode usá-lo para fins de teste e, portanto, deve ser usado apenas em ambientes de desenvolvimento ou de preparo. Nunca deve ser verificado em um workflow de produção.
