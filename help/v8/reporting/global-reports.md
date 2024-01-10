@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
 badge: label="Disponibilidade limitada"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

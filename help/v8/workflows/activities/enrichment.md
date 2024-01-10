@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 99%
+source-wordcount: '724'
+ht-degree: 81%
 
 ---
 
@@ -18,11 +18,10 @@ ht-degree: 99%
 >title="Atividade de enriquecimento"
 >abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Atividade de enriquecimento"
->abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade de Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ser relevante para seu público-alvo."
+>abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ressoar com seu público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -35,13 +34,13 @@ Os dados de Enriquecimento podem vir:
 
 * **Da mesma tabela de trabalho** como o direcionado para o seu fluxo de trabalho:
 
-  *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*
+  *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*.
 
 * **De outra tabela de trabalho**:
 
   *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
 
-Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade de **Enriquecimento** para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens de marketing personalizadas e campanhas que tenham mais probabilidade de ser relevante para o público-alvo.
+Após adicionar os dados de enriquecimento ao workflow, eles poderão ser usados nas atividades adicionadas após o **Enriquecimento** atividade para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir com seu público-alvo.
 
 Por exemplo, você pode adicionar à tabela de trabalho do fluxo de trabalho as informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou a quantidade gasta nessas compras.
 
@@ -51,11 +50,15 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
 1. Adicione atividades como **Criar público-alvo** e **Combinar**.
 1. Adicione uma atividade **Enriquecimento**
-1. Clique em **Adicionar dados de enriquecimento**.
+1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecer os dados.
 
-![](../assets/workflow-enrichment1.png)
+   É possível selecionar dois tipos de dados de enriquecimento: um [atributo único de enriquecimento](#single-attribute) na dimensão de público-alvo ou um [link de coleção](#collection-link).
 
-É possível selecionar dois tipos de dados de enriquecimento: um [atributo único de enriquecimento](#single-attribute) na dimensão de público-alvo ou um [link de coleção](#collection-link).
+   >[!NOTE]
+   >
+   >A variável **Botão Editar expressão** na tela seleção de atributo, você pode criar expressões avançadas para selecionar o atributo. [Saiba como trabalhar com o editor de expressão](../../query/expression-editor.md)
+
+   ![](../assets/workflow-enrichment1.png)
 
 ## Atributo único de enriquecimento {#single-attribute}
 
@@ -101,7 +104,7 @@ Se quiser, por exemplo, obter o valor médio das compras de um cliente, selecion
 
 ### Definir os filtros{#collection-filters}
 
-Aqui, definimos o valor máximo do atributo de enriquecimento. Filtramos itens que custam mais de US$ 100.
+Aqui, definimos o valor máximo do atributo de enriquecimento. Filtramos itens maiores que US$ 100. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 
 1. Clique em **Editar filtros**.
 1. Adicione os dois filtros a seguir: **Valor total** existe E **Valor total** é menor que 100. O primeiro filtra os valores NULL, pois seriam exibidos como o maior valor.

@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 76%
+source-wordcount: '498'
+ht-degree: 61%
 
 ---
 
@@ -18,14 +18,13 @@ ht-degree: 76%
 >title="Atividade criar público-alvo"
 >abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho, o público-alvo da mensagem não é definido na atividade canal, mas na atividade **Criar público-alvo**."
 
-
 A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho, o público-alvo da mensagem não é definido na atividade canal, mas na atividade **Criar público-alvo**.
 
 Para definir o público-alvo, você pode:
 
 * Selecionar um público-alvo já existente, criado como lista no console do cliente.
 * Selecionar um público-alvo da Adobe Experience Platform.
-* Criar um público-alvo novo com o criador de regras definindo e combinando critérios de filtro.
+* Crie um novo público-alvo com o construtor do modelador de consultas definindo e combinando critérios de filtragem.
 
 >[!NOTE]
 >
@@ -42,7 +41,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="Selecione o targeting dimension"
 >abstract="A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários."
 
-
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
 ![](../assets/workflow-audience.png)
@@ -50,23 +48,32 @@ Siga estas etapas para configurar a atividade **Criar público-alvo**:
 1. Adicione uma atividade **Criar público-alvo**.
 1. Defina um rótulo.
 1. Defina o tipo de público-alvo: **Crie o seu próprio** ou **Ler público-alvo**.
+1. Configure seu público seguindo as etapas detalhadas nas guias abaixo.
 
-Para criar sua própria consulta, siga estas etapas adicionais:
+>[!BEGINTABS]
+
+>[!TAB Crie o seu próprio (consulta)]
+
+Para criar sua própria query, siga estas etapas:
 
 1. Selecione **Crie sua própria (consulta)**.
-1. Escolha a **Dimensão de direcionamento**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários. Saiba mais sobre Targeting dimensions em [nesta seção](../../audience/about-recipients.md#targeting-dimensions).
+1. Escolha a **Dimensão de direcionamento**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)
 1. Clique em **Continuar**.
-1. Use o criador de regras para definir sua consulta, da mesma forma que você cria um público-alvo ao criar um novo email. Consulte esta [seção](../../audience/../query/query-modeler-overview.md).
+1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../audience/../query/query-modeler-overview.md)
+
+>[!TAB Ler público-alvo]
 
 Para selecionar um público-alvo existente, siga estas etapas:
 
 1. Selecione **Ler público-alvo**.
 1. Clique em **Continuar**.
-1. Selecione seu público-alvo, da mesma forma que você usa um público-alvo ao criar um novo email. Consulte esta [seção](../../audience/add-audience.md).
+1. Selecione seu público, da mesma forma que você usa um público ao criar um novo delivery. Consulte esta [seção](../../audience/add-audience.md).
 
 >[!IMPORTANT]
 >
 >Se quiser usar um **[!UICONTROL Criar público-alvo]** atividade direcionada a um público-alvo Experience Platform, é necessário adicionar um **[!UICONTROL Alterar dimensão]** atividade após, para garantir que o targeting dimension do público-alvo seja definido como &quot;Recipient&quot;. Um exemplo de workflow está disponível na parte inferior desta página.
+
+>[!ENDTABS]
 
 ## Exemplos{#build-audience-examples}
 
