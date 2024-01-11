@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 badge: label="Disponibilidade limitada"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 15%
+source-wordcount: '1920'
+ht-degree: 14%
 
 ---
 
@@ -90,6 +90,8 @@ As condições personalizadas permitem consultar tabelas vinculadas à tabela us
 
 Para um **Link 1-1**, navegue até a tabela vinculada, selecione o atributo desejado e defina o valor esperado.
 
+Você também pode selecionar diretamente um link de tabela na **Valor** seletor e confirmação. Nesse caso, os valores disponíveis para a tabela selecionada precisam ser selecionados usando um seletor dedicado, como mostrado no exemplo abaixo.
+
 +++Exemplo de consulta
 
 Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
@@ -101,6 +103,10 @@ Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 1. Defina o valor esperado para o atributo.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Esta é uma amostra de consulta em que um link de tabela foi selecionado diretamente. Os valores disponíveis para esta tabela devem ser selecionados em um seletor dedicado.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
