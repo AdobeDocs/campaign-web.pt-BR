@@ -2,22 +2,21 @@
 audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 97%
+source-wordcount: '717'
+ht-degree: 89%
 
 ---
 
-# Split {#split}
+# Divisão {#split}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
->title="Split enriquecimento"
+>title="Atividade Divisão"
 >abstract="A atividade **Divisão** permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população."
-
 
 A atividade de **Divisão** é uma atividade de **Direcionamento** que permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população.
 
@@ -54,9 +53,9 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
    >[!IMPORTANT]
    >
-   >Quando a atividade de Divisão é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Por exemplo, se o primeiro subconjunto recuperar 70% da população inicial, o próximo subconjunto adicionado aplicará seus critérios de seleção somente aos 30% restantes e assim por diante.
+   >Quando a variável **Split** for executada, a população será segmentada nos diferentes subconjuntos na ordem em que são adicionadas à atividade. Por exemplo, se o primeiro subconjunto recuperar 70% da população inicial, o próximo subconjunto adicionado aplicará seus critérios de seleção somente aos 30% restantes e assim por diante.
    >
-   > Antes de configurar os subconjuntos, verifique se eles foram adicionados na ordem correta, pois sua posição não pode ser alterada.
+   >Antes de iniciar o fluxo de trabalho, verifique se você ordenou os subconjuntos na ordem que atende às suas necessidades. Para fazer isso, use os botões de seta para alterar a posição de um subconjunto.
 
 1. Após a adição dos subconjuntos, a atividade mostrará tantas transições de saída quanto houver subconjuntos. É altamente recomendável alterar o rótulo de cada subconjunto para identificá-los facilmente na tela do workflow.
 

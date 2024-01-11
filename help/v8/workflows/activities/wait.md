@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar a atividade de fluxo de trabalho Aguardar
 description: Saiba como usar a atividade de fluxo de trabalho Aguardar
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Siga estas etapas para configurar a atividade **Aguardar**:
 
 1. Especifique a **Duração** da espera entre as transições de entrada e saída.
 
-1. Selecione a unidade de tempo no campo **Períodos**: segundos, minutos, horas.
+1. Selecione a unidade de tempo na variável **Períodos** campo: segundos, minutos, horas, dias.
 
 ## Exemplo{#wait-example}
 
