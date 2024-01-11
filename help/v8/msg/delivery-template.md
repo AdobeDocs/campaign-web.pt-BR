@@ -5,11 +5,11 @@ description: Saiba como criar e usar modelos de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1087'
 ht-degree: 17%
 
 ---
@@ -122,6 +122,8 @@ Para salvar um delivery como template, siga as etapas abaixo:
 
    ![](assets/templates-convert-delivery.png)
 
+   Você também pode selecionar um modelo na lista e selecionar essa opção na tela de edição do modelo.
+
 1. Confirme a duplicação.
 
 1. O novo painel de modelo é aberto na tela central. Edite as configurações do template conforme necessário.
@@ -180,13 +182,11 @@ Você pode testar a renderização de qualquer template do delivery, seja criado
 
    ![](assets/templates-simulate-button.png)
 
-1. Selecione um ou mais perfis de teste para verificar a renderização de email. Você também pode selecionar perfis reais do banco de dados.
+1. Selecione um ou mais perfis de teste para verificar a renderização de email. Você também pode selecionar perfis reais do banco de dados. [Saiba mais sobre perfis de teste](../audience/test-profiles.md)
 
-1. Alterne entre os diferentes perfis para obter uma representação personalizada da mensagem de acordo com o perfil selecionado.
+1. Alterne entre os diferentes perfis para obter uma representação personalizada da mensagem de acordo com o perfil selecionado. Você também pode ajustar o nível de zoom e escolher a exibição da área de trabalho ou móvel.
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   Você também pode ajustar o nível de zoom e escolher a exibição da área de trabalho ou móvel.
+[Saiba mais sobre visualização de conteúdo](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Você pode testar a renderização de qualquer template do delivery, seja criado
 >
 >Não é possível usar a renderização de email ou enviar testes em um template do delivery.
 
-* [Saiba mais sobre visualização de conteúdo de email](../preview-test/preview-content.md)
 
-* [Saiba mais sobre visualização de conteúdo de SMS](../sms/content-sms.md)
-
-* [Saiba mais sobre visualização de conteúdo de push](../push/gs-push.md)
