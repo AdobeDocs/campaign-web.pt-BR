@@ -3,11 +3,11 @@ audience: end-user
 title: Monitorar logs da entrega
 description: Saiba como monitorar logs da entrega
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Disponibilidade limitada"
+source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 74%
+source-wordcount: '359'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +39,7 @@ Todas as etapas de validação, avisos e erros são listados. Os ícones colorid
 
 * O ícone cinza indica uma mensagem informativa.
 * O ícone amarelo indica um erro de processamento não crítico.
-* O ícone vermelho indica um erro crítico que impede o envio da entrega. Erros críticos devem ser corrigidos para que o delivery seja enviado.
+* O ícone vermelho indica um erro crítico que impede o envio do delivery. Erros críticos devem ser corrigidos para que o delivery seja enviado.
 
 ![](assets/logs.png)
 
