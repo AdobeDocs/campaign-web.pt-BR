@@ -2,10 +2,10 @@
 title: Dimensões de direcionamento
 description: Saiba mais sobre dimensões de direcionamento no Adobe Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2770ddc3d0253d40c4432f71d2b192570e632a8e
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 21%
+source-wordcount: '397'
+ht-degree: 19%
 
 ---
 
@@ -13,9 +13,17 @@ ht-degree: 21%
 
 Targeting dimension, também conhecido como. target mapping, é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: perfis, beneficiários de contrato, operadores, assinantes etc.
 
+## Dimensões de direcionamento de workflows {#workflow}
+
 O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos perfis do banco de dados, a transição de saída conterá dados do tipo &quot;recipient&quot; e será transmitida para a próxima atividade.
 
 Observe que é possível alternar o targeting dimension em um workflow usando um [Alterar atividade da dimensão](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos perfis correspondentes.
+
+Ao selecionar um targeting dimension (nas configurações do fluxo de trabalho ou em atividades como **Criar público-alvo**, **Reconciliação** ou **Alterar dimensão**), uma seleção de esquemas usados com frequência é exibida por padrão na lista. Para mostrar todos os esquemas disponíveis, alterne no **[!UICONTROL Mostrar todos os esquemas]** botão. A seleção da opção é salva para cada usuário.
+
+![](assets/targeting-dimension-show-all.png)
+
+## Dimensões de direcionamento {#list}
 
 Por padrão, modelos de delivery de email e SMS têm como alvo perfis. O target dimension, portanto, usa os campos da variável **nms:recipient** tabela. Para notificações por push, a dimensão de destino padrão é **Aplicativos de assinante nms:appSubscriptionRcp**, que está vinculado à tabela de recipients.
 
