@@ -4,7 +4,7 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 28%
@@ -52,4 +52,4 @@ A variável **[!UICONTROL Modelos]** A guia lista todos os modelos de fluxos de 
 
 Os templates de workflow contêm atividades pré-configuradas e configurações gerais de propriedade que podem ser reutilizadas para criar novos workflows.
 
-É possível criar modelos de fluxo de trabalho a partir de um fluxo de trabalho existente ou do zero. [Saiba como criar modelos de workflow](create-workflow.md#work-with-workflow-templates-workflow-templates)
+É possível criar modelos de fluxo de trabalho a partir de um fluxo de trabalho existente ou do zero. [Saiba como criar modelos de workflow](create-workflow.md#workflow-templates)

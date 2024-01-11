@@ -2,14 +2,14 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Beta"
-source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
+badge: label="Disponibilidade limitada"
+exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 4%
+source-wordcount: '637'
+ht-degree: 5%
 
 ---
-
 
 # Orquestrar atividades {#orchestrate}
 
@@ -17,9 +17,9 @@ Depois que você tiver [criou um workflow](create-workflow.md), seja no menu de 
 
 ## Adicionar atividades {#add}
 
-Nessa etapa da configuração, o diagrama é exibido com um ícone de início, representando o início do workflow. Para adicionar sua primeira atividade, clique no botão + conectado ao ícone de início.
+Nessa etapa da configuração, o diagrama é exibido com um ícone de início, representando o início do workflow. Para adicionar sua primeira atividade, clique no link **+** botão conectado ao ícone iniciar.
 
-Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama de workflow. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar seu workflow direcionando um público-alvo, dividindo o caminho do workflow ou definindo uma atividade Wait para atrasar a execução do workflow. Por outro lado, após uma atividade Criar público-alvo, você pode refinar seu público-alvo com atividades de direcionamento, enviar um delivery para seu público com atividades de canal ou organizar o processo de fluxo de trabalho com atividades de controle de fluxo.
+Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama de workflow. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar seu fluxo de trabalho direcionando um público-alvo, dividindo o caminho do fluxo de trabalho ou definindo um **Aguardar** atividade para atrasar a execução do workflow. Por outro lado, depois de uma **Criar público-alvo** você pode refinar seu público-alvo com atividades de direcionamento, enviar um delivery para o público-alvo com atividades de canal ou organizar o processo de fluxo de trabalho com atividades de controle de fluxo.
 
 ![](assets/workflow-start.png)
 
@@ -27,9 +27,9 @@ Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido
 
 ![](assets/workflow-configure-activities.png)
 
-Repita esse processo e adicione quantas atividades desejar, dependendo das tarefas que deseja que seu workflow execute. Observe que você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no botão + na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
+Repita esse processo para adicionar quantas atividades desejar, dependendo das tarefas que deseja que seu fluxo de trabalho execute. Observe que você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no link **+** na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
 
-Para remover uma atividade, selecione-a na tela e clique no ícone Excluir nas propriedades da atividade.
+Para remover uma atividade, selecione-a na tela e clique no link **Excluir** nas propriedades da atividade.
 
 >[!TIP]
 >
@@ -41,17 +41,17 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 
 * **Excluir** a atividade da tela.
 * **Desativar/Ativar** a atividade. Quando o workflow é executado, as atividades desativadas e as atividades a seguir no mesmo caminho não são executadas e o workflow é interrompido.
-* **Copiar** a atividade. É possível colá-la em qualquer workflow clicando no botão &quot;+&quot; em uma transição e selecionando &quot;Colar 1 atividade&quot;.
+* **Copiar** a atividade. É possível colá-la em qualquer workflow clicando no link **+** em uma transição e selecionando &quot;Colar 1 atividade&quot;.
 * Acessar o da atividade **Logs e tarefas**.
 * **Pausar/Retomar** a atividade. Quando o workflow é executado, ele é pausado na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
 
-![](assets/activity-action.png){width="70%"}
+![](assets/activity-action.png){width="50%"}
 
 ## Exemplo {#example}
 
 Este é um exemplo de fluxo de trabalho criado para enviar um email a todos os clientes (exceto clientes do VIP) com um email interessados em máquinas de café.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png){zoom=&quot;yes&quot;}
 
 Para isso, as atividades abaixo foram adicionadas:
 

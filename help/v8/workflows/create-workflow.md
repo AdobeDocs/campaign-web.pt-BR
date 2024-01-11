@@ -2,12 +2,12 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar um fluxo de trabalho com o Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 19%
+source-wordcount: '748'
+ht-degree: 20%
 
 ---
 
@@ -25,20 +25,17 @@ ht-degree: 19%
 >title="Lista de fluxos de trabalho na campanha"
 >abstract="A guia **Fluxos de trabalho** lista todos os fluxos de trabalho vinculados à campanha atual. Clique no nome de um fluxo de trabalho para editar. Use o botão **Criar fluxo de trabalho** para adicionar um novo fluxo de trabalho à campanha."
 
-
 Você pode criar workflows independentes ou dentro de uma campanha. A primeira etapa é selecionar um template e definir suas propriedades gerais. Em seguida, você pode definir configurações adicionais, conforme necessário.
 
 Para fazer isso, siga estes passos:
 
-1. Para criar um **Fluxo de trabalho independente**, navegue até o **Fluxos de trabalho** menu.
-
-   Para criar um **Fluxo de trabalho de campanha**, navegue até o **Campanhas** e abra a campanha para a qual deseja criar um novo workflow.
+1. Para criar um **Fluxo de trabalho independente**, navegue até o **Fluxos de trabalho** menu. Para criar um **Fluxo de trabalho de campanha**, navegue até o **Campanhas** e abra a campanha para a qual deseja criar um novo workflow.
 
 1. Clique em **[!UICONTROL Criar fluxo de trabalho]** no canto superior direito da tela.
 
    ![](assets/workflow-create.png)
 
-1. No fluxo de trabalho **Propriedades** selecione o template a ser usado para criar o workflow (também é possível usar o template incorporado padrão). Saiba mais sobre modelos em [a seção abaixo](#work-with-workflow-templates-workflow-templates).
+1. No fluxo de trabalho **Propriedades** selecione o template a ser usado para criar o workflow (também é possível usar o template incorporado padrão). [Saiba mais sobre modelos de fluxo de trabalho](#workflow-templates).
 
 1. Insira um rótulo para o fluxo de trabalho. Além disso, recomendamos que você adicione uma descrição ao workflow, no campo dedicado da **[!UICONTROL Opções adicionais]** seção da tela.
 
@@ -48,7 +45,7 @@ Para fazer isso, siga estes passos:
 
 1. Clique em **[!UICONTROL Criar fluxo de trabalho]** para confirmar a criação do workflow.
 
-Seu workflow agora é criado e está disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. Saiba como orquestrar atividades de fluxo de trabalho no [esta página](orchestrate-activities.md).
+Seu workflow agora é criado e está disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. [Saiba como orquestrar atividades de workflow](orchestrate-activities.md).
 
 ## Trabalhar com modelos de fluxo de trabalho {#workflow-templates}
 

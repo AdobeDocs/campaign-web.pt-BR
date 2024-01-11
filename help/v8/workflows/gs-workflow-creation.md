@@ -2,15 +2,14 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+badge: label="Disponibilidade limitada"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
-
 
 # Princípios básicos da criação de workflows {#gs-workflow-creation}
 
@@ -21,11 +20,11 @@ Com o Campaign v8 Web, é possível criar workflows em uma tela visual para proj
 
 O diagrama de workflow é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoom=&quot;yes&quot;}
 
 Cada workflow contém:
 
-* **Activities**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
+* **Atividades**: Uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
   Em um diagrama de workflow, uma dada atividade pode produzir várias tarefas, principalmente quando houver ações de loop ou recorrentes.
 
@@ -57,4 +56,3 @@ Essas etapas estão detalhadas na seguinte seção:
 1. [Orquestrar e configurar atividades](orchestrate-activities.md)
 1. [Definir as configurações avançadas do fluxo de trabalho](workflow-settings.md)
 1. [Inicie o fluxo de trabalho e monitore sua execução](start-monitor-workflows.md)
-
