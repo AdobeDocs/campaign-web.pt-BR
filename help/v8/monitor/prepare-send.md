@@ -3,10 +3,10 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface do Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilidade limitada"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '892'
 ht-degree: 40%
 
 ---
@@ -105,7 +105,7 @@ Se você programou seu email para enviá-lo em data e hora posteriores, siga as 
 
 ## Pausar ou parar o envio {#pause-stop-sending}
 
-Se o delivery estiver agendado ou não, duas ações podem ser executadas a qualquer momento durante o processo de envio:
+Se o seu delivery está agendado ou não<!--TBC-->, duas ações podem ser executadas a qualquer momento durante o processo de envio:
 
 * Clique em **[!UICONTROL Pausar envio]** para interromper o envio das mensagens. Você pode retomar o envio a qualquer momento.
 
