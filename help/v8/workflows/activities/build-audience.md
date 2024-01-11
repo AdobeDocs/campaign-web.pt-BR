@@ -4,10 +4,10 @@ title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 badge: label="Disponibilidade limitada"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 61%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ Para definir o público-alvo, você pode:
 
 >[!NOTE]
 >
->Nesse contexto, não é possível carregar um público-alvo de um arquivo. Para isso, você precisa criar um delivery de email independente. [Saiba mais](../../audience/about-recipients.md)
+>Os públicos carregados de um arquivo não podem ser direcionados usando uma atividade Criar público. Para fazer isso, é necessário usar um **Carregar arquivo** atividade seguida de um **Reconciliação** atividade. [Saiba mais](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ Para selecionar um público-alvo existente, siga estas etapas:
 1. Clique em **Continuar**.
 1. Selecione seu público, da mesma forma que você usa um público ao criar um novo delivery. Consulte esta [seção](../../audience/add-audience.md).
 
->[!IMPORTANT]
->
->Se quiser usar um **[!UICONTROL Criar público-alvo]** atividade direcionada a um público-alvo Experience Platform, é necessário adicionar um **[!UICONTROL Alterar dimensão]** atividade após, para garantir que o targeting dimension do público-alvo seja definido como &quot;Recipient&quot;. Um exemplo de workflow está disponível na parte inferior desta página.
-
 >[!ENDTABS]
 
 ## Exemplos{#build-audience-examples}
@@ -80,7 +76,3 @@ Para selecionar um público-alvo existente, siga estas etapas:
 Este é um exemplo de um fluxo de trabalho com duas atividades de **Criar público-alvo**. A primeira é direcionada ao público-alvo dos jogadores de pôquer, seguida de uma entrega por email. A segunda é direcionada ao público-alvo de clientes VIP, seguida de uma entrega de SMS.
 
 ![](../assets/workflow-audience-example.png)
-
-Este é outro exemplo de fluxo de trabalho em que um público-alvo do Adobe Experience Platform é combinado com um público-alvo do Adobe Campaign. Para permitir que esses públicos sejam combinados, uma variável **[!UICONTROL Alterar dimensão]** A atividade com a dimensão de direcionamento &quot;Recipient&quot; é adicionada após o público-alvo da Adobe Experience Platform. [Saiba como configurar uma atividade de Change dimension](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)

@@ -4,10 +4,10 @@ title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Disponibilidade limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 70%
+source-wordcount: '901'
+ht-degree: 68%
 
 ---
 
@@ -26,7 +26,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >* [Criar entrega de SMS independente](../../sms/create-sms.md)
 >* [Criar entrega por push autônoma](../../push/create-push.md)
 
-## Crie seu fluxo de trabalho{#build-your-workflow}
+## Crie seu fluxo de trabalho {#build-your-workflow}
 
 Comece a criar seu workflow com as atividades relevantes antes de fazer o delivery:
 
@@ -35,6 +35,10 @@ Comece a criar seu workflow com as atividades relevantes antes de fazer o delive
 * Adicionar um **Criar público-alvo** atividade. O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >Você também pode direcionar um público-alvo carregado de um arquivo. Para fazer isso, use um **Carregar arquivo** atividade seguida de um **Reconciliação** atividade. [Saiba mais](../../audience/about-recipients.md)
 
 ## Configurar a atividade Canal {#create-a-delivery-in-a-workflow}
 
