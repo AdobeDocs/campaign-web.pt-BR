@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 badge: label="Disponibilidade limitada"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 33%
+source-wordcount: '323'
+ht-degree: 26%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 33%
 >title="Formatação da atividade Carregar arquivo"
 >abstract="Formatação da atividade Carregar arquivo"
 
-
 A variável **Carregar arquivo** a atividade é um **Gestão de dados** atividade. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ Siga estas etapas para configurar o **Carregar arquivo** atividade:
 
    ![](../assets/load-file.png)
 
-1. Ajuste as configurações da coluna e como formatar os dados a partir das opções disponíveis.
+1. Use o **Colunas** no painel esquerdo para ajustar o tipo de dados e a largura de cada coluna.
+
+1. No **Formatação** seção localizada na configuração de colunas, especifique como o arquivo externo é formatado para garantir que os dados sejam importados corretamente.
 
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
 ## Exemplo{#load-example}
 
-Uma amostra de carregamento de um arquivo externo está disponível com o **Reconciliação** atividade no [nesta seção](reconciliation.md#example).
+Uma amostra de carregamento de arquivo externo usada com o **Reconciliação** a atividade está disponível em [nesta seção](reconciliation.md#example).

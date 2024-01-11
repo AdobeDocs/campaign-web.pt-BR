@@ -4,9 +4,9 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '618'
 ht-degree: 35%
 
 ---
@@ -26,14 +26,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parâmetros de formatação"
->abstract="Verifique os parâmetros de formatação do arquivo externo."
-
+>abstract="Especifique como o arquivo externo está formatado para garantir que os dados sejam importados corretamente."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Visualizar seu arquivo"
 >abstract="Verifique a visualização das colunas do arquivo externo. Essa tela mostra um máximo de 30 registros."
-
 
 Você pode direcionar perfis armazenados em um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Este artigo descreve como carregar um perfil externo ao criar um delivery de email independente. Para carregar dados de um arquivo em um workflow, consulte [esta página](../workflows/activities/load-file.md).
 
