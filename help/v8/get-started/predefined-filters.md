@@ -3,10 +3,10 @@ title: Criar e usar filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos na interface da web do Adobe Campaign
 badge: label="Disponibilidade limitada"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ Ao ser salvo como favorito, o filtro fica disponível a todos na seção **Filtr
 
 ## Usar um filtro predefinido {#use-predefined-filter}
 
-Filtros predefinidos estão disponíveis ao definir propriedades da regra. Para acessar filtros predefinidos, escolha a opção **Selecionar filtro personalizado** no menu suspenso do construtor de regras.
+Filtros predefinidos estão disponíveis ao definir propriedades da regra. Para acessar filtros predefinidos, escolha a **Selecionar filtro personalizado** opção na lista suspensa do modelador de consultas.
 
 Você pode então acessar a lista completa de filtros predefinidos disponíveis para o contexto atual.
 

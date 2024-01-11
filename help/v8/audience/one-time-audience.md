@@ -4,7 +4,7 @@ title: Criar um público-alvo único para uma entrega
 description: Saiba como criar um público-alvo único para uma entrega.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 28%
@@ -13,7 +13,7 @@ ht-degree: 28%
 
 # Criar um público-alvo único para uma entrega {#sone-time}
 
-Esta seção descreve como criar um público-alvo ao criar um novo delivery. Nesse caso, os recipients a serem incluídos no público-alvo do delivery são direcionados consultando o banco de dados com o construtor de regras.
+Esta seção descreve como criar um público-alvo ao criar um novo delivery. Nesse caso, os recipients a serem incluídos no público-alvo do delivery são direcionados consultando o banco de dados com o modelador de query.
 
 O público resultante é usado apenas uma vez para essa entrega. Ela não é salva na lista de públicos-alvo.
 
@@ -28,7 +28,7 @@ Para criar um novo público-alvo diretamente de um delivery, siga estas etapas:
 
    ![](assets/segment-builder0.png)
 
-1. Selecione **Criar o seu**. O construtor de regras é exibido. Ele permite definir a população direcionada pelo delivery filtrando os dados contidos no banco de dados. [Saiba como usar o construtor de regras](../query/query-modeler-overview.md)
+1. Selecione **Criar o seu**. O modelador de query é exibido. Ele permite definir a população direcionada pelo delivery filtrando os dados contidos no banco de dados. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

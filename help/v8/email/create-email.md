@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface do Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Disponibilidade limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -41,7 +41,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 
 1. Navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
 
-   ![](assets/delivery-list.png)
+   ![](../msg/assets/create-a-delivery.png)
 
 1. Selecionar **[!UICONTROL E-mail]** como canal e escolha um template do delivery de email na lista.
 
@@ -73,7 +73,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Selecione um público-alvo para a entrega"
->abstract="Selecione o melhor público-alvo para a sua mensagem de marketing. É possível escolher um público-alvo já existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o construtor de regras, ou fazer upload de um arquivo contendo um. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
+>abstract="Selecione o melhor público-alvo para a sua mensagem de marketing. Você pode escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou no Adobe Experience Platform), criar um novo público-alvo usando o modelador de consultas ou fazer upload de um arquivo contendo seu público-alvo. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecione os públicos-alvo principais"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
 

@@ -4,10 +4,10 @@ title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 badge: label="Disponibilidade limitada"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Todas as atividades estão detalhadas nas seções abaixo:
 Essas atividades são específicas para direcionar, manipular e enriquecer dados de população. Elas permitem criar uma ou mais direções definindo um público-alvo e dividindo ou combinando esses públicos-alvo usando operações de interseção, união ou exclusão.
 
 * Use o [Salvar público-alvo](save-audience.md) atividade para atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho.
-* Use o [Criar público-alvo](build-audience.md) atividade para definir seu público-alvo. Você pode selecionar um público-alvo existente ou usar o criador de regras para definir sua própria consulta.
+* Use o [Criar público-alvo](build-audience.md) atividade para definir seu público-alvo. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
 * Use o [Combinar](combine.md) atividade para executar a segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
 * Use o [Split](split.md) atividade para segmentar a população recebida em vários subconjuntos.
 * Use o [Reconciliação](reconciliation.md) atividade para definir o link entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.

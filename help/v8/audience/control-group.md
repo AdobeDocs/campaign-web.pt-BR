@@ -4,10 +4,10 @@ title: Configurar um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface do Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 42%
+ht-degree: 39%
 
 ---
 
@@ -114,7 +114,7 @@ Na seção **População extra** do **Grupo de controle** na tela de definição
 
 * Para usar um público existente, clique em **Selecionar público-alvo**. Saiba mais [nesta seção](add-audience.md).
 
-* Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o Construtor de regras. Saiba mais [nesta seção](../query/query-modeler-overview.md).
+* Para definir uma nova consulta, selecione **Crie o seu próprio** e defina os critérios de exclusão usando o modelador de consultas. Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
 Os perfis incluídos no público ou que correspondem ao resultado do query são **excluído** do target do delivery: eles não recebem nenhuma mensagem.
 

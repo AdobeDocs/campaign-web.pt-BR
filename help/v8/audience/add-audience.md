@@ -4,7 +4,7 @@ title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 Esta seção explica como selecionar um público-alvo ao definir a população do target de um delivery. Ao definir o target principal de um delivery, você também pode:
 
-* [Criar um público-alvo único](one-time-audience.md) usando o construtor de regras.
+* [Criar um público-alvo único](one-time-audience.md) usando o modelador de consultas.
 * [Carregar um público-alvo de um arquivo externo](file-audience.md) (somente para emails).
 
 Os públicos-alvo que podem ser direcionados em deliveries podem ser acessados no **Público** menu esquerdo. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba como monitorar e gerenciar públicos](manage-audience.md)
@@ -40,11 +40,11 @@ Para selecionar um público-alvo existente para sua mensagem, siga as etapas aba
 
    ![](assets/select-audience-folder.png)
 
-1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o construtor de regras, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o construtor de regras](../query/query-modeler-overview.md)
+1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o modelador de consultas, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
-1. Clique em **Confirmar o** para adicionar seu público-alvo como o target principal do delivery. Depois de concluído, ainda é possível refinar o público-alvo usando o construtor de regras, clicando no **Editar regras** botão.
+1. Clique em **Confirmar o** para adicionar seu público-alvo como o target principal do delivery. Depois de concluído, ainda é possível refinar o público-alvo usando o modelador de consulta clicando no link **Editar regras** botão.
 
    ![](assets/refine-audience.png)
 

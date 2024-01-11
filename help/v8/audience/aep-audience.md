@@ -4,10 +4,10 @@ title: Usar um público-alvo da Adobe Experience Platform
 description: Saiba como usar um público-alvo da Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 
@@ -49,6 +49,6 @@ Para selecionar um público-alvo da Adobe Experience Platform para o seu deliver
 
    ![](assets/refine-audience.png)
 
-1. Usando o construtor de regras, você pode enriquecer seu público-alvo com filtros adicionais ou combinar públicos-alvo diferentes. Consulte esta [seção](../query/query-modeler-overview.md).
+1. Com o modelador de query, você pode enriquecer o público-alvo com filtros adicionais ou combinando públicos-alvo diferentes. Consulte esta [seção](../query/query-modeler-overview.md).
 
 1. Clique em **Salvar**.

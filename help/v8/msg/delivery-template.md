@@ -7,7 +7,7 @@ role: User
 level: Beginner
 badge: label="Beta"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 17%
@@ -53,7 +53,7 @@ Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Campaign M
 
 Todos os modelos que foram [criado](#create-a-delivery-template) no ambiente atual são exibidas.
 
-É possível filtrar modelos de conteúdo em canais e pastas. Você também pode definir filtros avançados criando uma regra usando atributos de delivery. [Saiba mais sobre o construtor de regras](../audience/../query/query-modeler-overview.md)
+É possível filtrar modelos de conteúdo em canais e pastas. Você também pode definir filtros avançados criando uma regra usando atributos de delivery. [Saiba mais sobre o modelador de consultas](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -71,7 +71,7 @@ Use a nova interface do Campaign Web para:
 * Criar, projetar, personalizar, agendar e enviar notificações por email, SMS e por push - [Saiba mais](../msg/gs-messages.md)
 * Criar conteúdo de email personalizado com o Designer de email - [Saiba mais](../email/edit-content.md)
 * Enviar campanhas entre canais, incluindo SMS e notificações por push - [Saiba mais](../workflows/activities/channels.md)
-* Definir os públicos-alvo com o criador de regras - [Saiba mais](../audience/about-recipients.md)
+* Definir públicos-alvo com o modelador de consultas - [Saiba mais](../audience/about-recipients.md)
 * Visualizar, testar e enviar suas mensagens - [Saiba mais](../monitor/prepare-send.md)
 * Monitorar o envio e medir os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 
