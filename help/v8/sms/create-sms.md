@@ -7,7 +7,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 34%
+ht-degree: 46%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Defina o público-alvo do SMS"
->abstract="Você pode criar um novo público ou selecionar um já existente clicando no **Selecionar público** botão. Se necessário, adicione um grupo de controle para medir o impacto do seu delivery."
+>abstract="Você pode criar um novo público-alvo ou selecionar um existente clicando em **Selecionar público-alvo**. Se necessário, adicione um grupo de controle para medir o impacto da sua entrega."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Seleção de modelo de SMS"
->abstract="Selecione um template predefinido para iniciar o delivery de SMS. Os templates de deliveries permitem reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas e deliveries."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Usar modelos de entrega"
+>abstract="Selecione um modelo predefinido para iniciar a entrega do SMS. Os modelos de entrega permitem reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas e entregas."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR" text="Usar modelos de entrega"
 
 
 Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de SMS independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).

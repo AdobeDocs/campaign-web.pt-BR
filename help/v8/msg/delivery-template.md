@@ -10,7 +10,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 17%
+ht-degree: 25%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Modelos de entrega"
->abstract="Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas."
+>abstract="Para acelerar e melhorar o processo de criação, você pode criar modelos de entrega para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa e agiliza a execução e a inicialização de campanhas."
 
-Para um processo de design acelerado e aprimorado, você pode criar templates do delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas.
+Para acelerar e melhorar o processo de criação, você pode criar modelos de entrega para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa e agiliza a execução e a inicialização de campanhas.
 
 Um modelo pode incluir:
 

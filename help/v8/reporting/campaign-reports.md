@@ -7,11 +7,11 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# Introdução aos relatórios de campanha {#campaign-reports}
+# Introdução a relatórios de campanha {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]

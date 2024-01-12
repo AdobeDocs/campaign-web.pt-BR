@@ -6,7 +6,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 19%
+ht-degree: 39%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Atividade de reconciliação"
->abstract="A variável **Reconciliação** a atividade é um **Direcionamento** atividade que permite definir o vínculo entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar arquivo** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela externa."
+>abstract="A variável **Reconciliação** a atividade é um **Direcionamento** atividade que permite definir o vínculo entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho. Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar arquivo** atividade para importar dados não padrão para o banco de dados. Nesse caso, a atividade de **Reconciliação** permite definir o vínculo entre os dados no banco de dados do Adobe Campaign e os dados na tabela externa."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -34,7 +34,7 @@ ht-degree: 19%
 
 A variável **Reconciliação** a atividade é um **Direcionamento** atividade que permite definir o vínculo entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
 
-Por exemplo, a variável **Reconciliação** A atividade pode ser colocada após um **Carregar público** atividade para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela de trabalho.
+Por exemplo, a atividade de **Reconciliação** pode ser inserida após uma atividade **Carregar público-alvo** para importar dados não padrão para o banco de dados. Neste caso, o **Reconciliação** A atividade permite definir o link entre os dados no banco de dados do Adobe Campaign e os dados na tabela de trabalho.
 
 ## Práticas recomendadas {#reconciliation-best-practices}
 
@@ -48,23 +48,23 @@ Embora a **Enriquecimento** atividade permite definir dados adicionais a serem p
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="Dimensão de direcionamento"
->abstract="Selecione a nova dimensão do target. Uma dimensão permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes, etc. Por padrão, o targeting dimension atual é selecionado."
+>abstract="Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes etc. Por padrão, a dimensão de direcionamento atual é selecionada."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Regras de reconciliação"
->abstract="Selecione os campos de reconciliação a serem usados para a desduplicação. É possível usar um ou mais critérios de reconciliação."
+>abstract="Selecione o campo de reconciliação a ser usado para a desduplicação. É possível usar um ou mais critérios de reconciliação."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
->title="Selecione o targeting dimension"
->abstract="Selecione o targeting dimension para seus dados de entrada com o qual reconciliar."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Dimensões de direcionamento"
+>title="Selecione a dimensão de direcionamento"
+>abstract="Selecione a dimensão de direcionamento com a qual seus dados de entrada devem se reconciliar."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=pt-BR#targeting-dimensions" text="Dimensões de direcionamento"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="Manter dados não reconciliados"
->abstract="Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative o **Manter dados não reconciliados** opção."
+>abstract="Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative a opção **Manter dados não reconciliados**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
@@ -75,7 +75,7 @@ Siga estas etapas para configurar o **Reconciliação** atividade:
 
 1. Arraste e solte uma **Reconciliação** atividade no seu workflow. Essa atividade deve ser adicionada após uma transição que contém uma população cujo targeting dimension não é diretamente proveniente do Adobe Campaign.
 
-1. Selecione a nova dimensão do target. Uma dimensão permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes, etc. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).
+1. Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes etc. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Selecione os campos a serem usados para a reconciliação. É possível usar um ou mais critérios de reconciliação.
 
@@ -89,7 +89,7 @@ Siga estas etapas para configurar o **Reconciliação** atividade:
 
 1. É possível filtrar dados para reconciliar usando o **Criar filtro** botão. Isso permite criar uma condição personalizada usando o [modelador de consultas](../../query/query-modeler-overview.md).
 
-Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative o **Manter dados não reconciliados** opção.
+Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative a opção **Manter dados não reconciliados**.
 
 ## Exemplo {#reconciliation-example}
 

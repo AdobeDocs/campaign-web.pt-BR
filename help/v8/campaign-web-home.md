@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Ajuda e documentação"
->abstract="O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica o design e o delivery de campanhas de marketing e oferece consistência, juntamente com outras soluções de Adobe."
+>abstract="O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, oferecendo consistência, bem como outras soluções da Adobe."
 
 O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform. [Saiba mais](get-started/get-started.md)
 

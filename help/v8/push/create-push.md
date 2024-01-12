@@ -7,7 +7,7 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 16%
+ht-degree: 37%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Modelo de notificação por push"
->abstract="Selecione um template de notificação por push para iniciar o delivery por push. Os templates de deliveries permitem reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas e deliveries."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Usar modelos de entrega"
+>abstract="Selecione um modelo de notificação por push para iniciar a entrega por push. Os modelos de entrega permitem reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas e entregas."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR" text="Usar modelos de entrega"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Propriedades da entrega por push"
->abstract="Defina as propriedades do delivery de push. Insira o rótulo do push e use o **Opções adicionais** para configurar o nome interno, a pasta de entrega e o código. Você também pode inserir uma descrição personalizada."
+>abstract="Defina as propriedades da entrega por push. Insira o rótulo do push e use as **Opções adicionais** para configurar o nome interno, a pasta de entrega e o código. Você também pode inserir uma descrição personalizada."
 
 Você pode criar um delivery de notificação por push independente ou criar uma notificação por push no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery push independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -56,12 +56,12 @@ Defina as configurações de delivery conforme detalhado abaixo:
 +++
 
 
-## Selecionar o público da entrega por push {#create-audience-push}
+## Selecionar o público-alvo da entrega por push {#create-audience-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="Definir o público-alvo da notificação por push"
->abstract="Para definir o público-alvo da mensagem, primeiro selecione o aplicativo associado à entrega por push. Por padrão, sua notificação por push é enviada a todos os assinantes do aplicativo. É possível refinar para um público-alvo específico clicando no link **Selecionar público** botão. Se necessário, adicione um grupo de controle para medir o impacto do seu delivery."
+>abstract="Para definir o público-alvo da mensagem, primeiro selecione o aplicativo associado à entrega por push. Por padrão, sua notificação por push é enviada a todos os assinantes do aplicativo. É possível definir um público-alvo específico clicando em **Selecionar público-alvo**. Se necessário, adicione um grupo de controle para medir o impacto da sua entrega."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
 
 

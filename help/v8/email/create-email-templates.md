@@ -11,7 +11,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -30,12 +30,12 @@ Essa funcionalidade permite que os usuários orientados a conteúdo trabalhem em
 >
 >Somente no momento **email** modelos de conteúdo são compatíveis.
 
-## Acessar e gerenciar modelos {#access-manage-templates}
+## Acessar e gerenciar modelos  {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Editar o conteúdo do modelo"
->abstract="Clique em **Editar conteúdo** botão para atualizar seu conteúdo com o Designer de email."
+>abstract="Clique em **Editar conteúdo** para atualizar o conteúdo com o Designer de email."
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** no menu esquerdo.
 
@@ -96,7 +96,7 @@ Depois de salvo, seja criado do zero ou de um email anterior, agora é possível
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Definir as propriedades do modelo"
->abstract="Ao criar um modelo do zero, defina suas propriedades para recuperar com facilidade quando necessário."
+>abstract="Ao criar um modelo do zero, defina suas propriedades para que ele possa ser recuperado com facilidade, quando necessário."
 
 Para criar um template de conteúdo do zero, siga as etapas abaixo.
 

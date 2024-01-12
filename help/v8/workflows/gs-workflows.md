@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn2"
->title="Fluxos de trabalho entre canais"
+>title="Fluxos de trabalho de vários canais"
 >abstract="Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte as notas de versão"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
 ## O que é um fluxo de trabalho?

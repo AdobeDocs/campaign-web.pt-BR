@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 badge: label="Disponibilidade limitada"
-source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
+source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 26%
+ht-degree: 35%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Atividade Carregar arquivo"
->abstract="A variável **Carregar arquivo** a atividade é um **Gestão de dados** atividade. Use esta atividade para trabalhar com dados armazenados em um arquivo externo."
+>abstract="A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com dados armazenados em um arquivo externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -52,7 +52,7 @@ ht-degree: 26%
 >title="Formatação da atividade Carregar arquivo"
 >abstract="Formatação da atividade Carregar arquivo"
 
-A variável **Carregar arquivo** a atividade é um **Gestão de dados** atividade. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.
+A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.
 
 >[!NOTE]
 >Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).

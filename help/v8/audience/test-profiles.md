@@ -8,7 +8,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 3%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Criar perfis de teste"
->abstract="Os perfis de teste são criados como seed addresses. Eles são recipients adicionais no banco de dados usados para direcionar perfis fictícios que não correspondem aos critérios de target definidos."
+>abstract="Os perfis de teste são criados como seed addresses. Eles são destinatários adicionais no banco de dados usados para direcionar perfis fictícios que não correspondem aos critérios definidos."
 
 Os perfis de teste são criados como seed addresses. Eles são recipients adicionais no banco de dados usados para direcionar perfis fictícios que não correspondem aos critérios de target definidos. Eles permitem visualizar e testar a personalização e renderização antes de enviar o delivery, enviando provas.
 
@@ -60,7 +60,7 @@ No **[!UICONTROL Explorer]** visualização você também pode filtrar, excluir,
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
 >title="Dados adicionais de perfis de teste"
->abstract="Insira os dados de personalização usados para os deliveries criados nos workflows de gestão de dados, aos quais você deseja atribuir um valor específico."
+>abstract="Insira os dados de personalização usados para as entregas criadas nos fluxos de trabalho de gerenciamento de dados e aos quais você deseja atribuir um valor específico."
 
 Para criar um perfil de teste, siga as etapas abaixo.
 

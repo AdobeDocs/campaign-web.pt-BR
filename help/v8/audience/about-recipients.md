@@ -5,7 +5,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 5%
+ht-degree: 43%
 
 ---
 
@@ -13,14 +13,14 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="Visualização 360 dos seus perfis"
->abstract="Crie novos perfis e monitore-os com ferramentas e relatórios avançados. Acesse os atributos, as interações e os logs dos perfis. Use as opções de filtro para navegar na lista de perfis, editar e atualizar seus perfis."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte as notas de versão"
+>title="Visualização total dos perfis"
+>abstract="Crie novos perfis e monitore-os com ferramentas e relatórios avançados. Acesse os atributos, as interações e os logs dos perfis. Use as opções de filtro para navegar na lista de perfis, editá-los e atualizá-los."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfis"
->abstract="Um perfil é um indivíduo selecionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível visualizar os detalhes dos perfis com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos de seus perfis."
+>abstract="Um perfil é um indivíduo selecionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível exibir os detalhes dos perfis, com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos dos perfis."
 
 ## Introdução a perfis {#gs}
 
@@ -55,37 +55,37 @@ No **[!UICONTROL Explorer]** visualização você também pode filtrar, excluir 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Detalhes básicos"
->abstract="Esta seção oferece insights sobre os detalhes básicos do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+>abstract="Esta seção oferece informações sobre os detalhes básicos do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Informações de contato"
->abstract="Esta seção oferece insights sobre as informações de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+>abstract="Esta seção oferece detalhes sobre as informações de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Endereço"
->abstract="Esta seção oferece informações sobre o endereço postal do perfil e a qualidade do endereço. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+>abstract="Esta seção oferece informações sobre o endereço postal do perfil e a qualidade do endereço. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Detalhes da conta"
->abstract="Esta seção oferece insights sobre os detalhes da conta do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+>abstract="Esta seção oferece informações sobre os detalhes de conta do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="Destinatários Não contatar mais"
->abstract="Esta seção oferece informações sobre as preferências de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+>abstract="Esta seção oferece informações sobre as preferências de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Campos personalizados"
->abstract="Os campos personalizados são atributos específicos adaptados às suas necessidades que foram configuradas para sua instância. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+>abstract="Os campos personalizados são atributos específicos adaptados às suas necessidades e configurados para sua instância. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="Outros"
->abstract="Esta seção fornece atributos incorporados adicionais. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no **Salvar** localizado no canto superior direito da tela."
+>abstract="Esta seção fornece atributos incorporados adicionais. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"

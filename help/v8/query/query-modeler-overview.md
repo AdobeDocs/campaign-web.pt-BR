@@ -6,7 +6,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 11%
+ht-degree: 32%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Novo modelador de consultas"
->abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de query está disponível em cada contexto em que você precisa definir regras para filtrar dados."
+>abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Modelador de consulta"
->abstract="Defina critérios de filtragem para recipients ou qualquer outra targeting dimension do banco de dados. Aproveite as vantagens do seu público-alvo da Adobe Experience Platform para refinar ainda mais seu público-alvo e maximizar o impacto da campanha."
+>abstract="Defina os critérios de filtragem para destinatários ou qualquer outra dimensão de direcionamento do banco de dados. Aproveite o público da Adobe Experience Platform para refinar ainda mais o seu público-alvo e maximizar o impacto da campanha."
 
-O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados.
+O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados.
 
 ## Acessar o modelador de consultas
 
-O modelador de query está disponível em cada contexto em que você precisa definir regras para filtrar dados.
+O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados.
 
 | Uso | Exemplo |
 |  ---  |  ---  |

@@ -6,7 +6,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -34,7 +34,7 @@ Os componentes de filtragem permitem refinar a consulta usando:
 * **[Públicos-alvo](#audiences)**: filtre sua consulta usando um público-alvo existente.
 * **[Filtro predefinido](#predefined-filters)**: filtre sua query usando os filtros predefinidos existentes.
 
-### Configurar uma condição personalizada {#custom-condition}
+### Configurar uma ação personalizada {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"

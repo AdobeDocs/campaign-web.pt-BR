@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 65%
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Introdução a emails"
->abstract="Você pode criar um delivery de email independente ou criar um email no contexto de um workflow da campanha. Saiba como criar o delivery, selecionar o público e criar o conteúdo de email."
+>abstract="Você pode gerar uma entrega de email independente ou criar um email no contexto de um fluxo de trabalho de campanha. Saiba como gerar a entrega, selecionar o público-alvo e criar o conteúdo do email."
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
@@ -35,7 +35,7 @@ Com base em uma configuração [modelo de design](../email/create-email-template
 >title="Defina as propriedades do email"
 >abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. As configurações adicionais são opcionais. Se a entrega for baseada em um schema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
 
-Você pode criar um delivery de email independente ou criar um email no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de email independente (único). Saiba mais sobre as etapas de criação de delivery no Adobe Campaign em [esta página](../msg/gs-deliveries.md).
+Você pode gerar uma entrega de email independente ou criar um email no contexto de um fluxo de trabalho de campanha. As etapas abaixo detalham o procedimento para um delivery de email independente (único). Saiba mais sobre as etapas de criação de delivery no Adobe Campaign em [esta página](../msg/gs-deliveries.md).
 
 Para criar um novo delivery de email independente, siga as etapas abaixo.
 

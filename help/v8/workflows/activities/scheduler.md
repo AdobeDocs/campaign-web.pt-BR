@@ -28,7 +28,7 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite
 * Se quiser enviar um delivery instantâneo no fluxo de trabalho, adicione uma atividade de scheduler e defina-a para executar **Uma vez**. Você também pode definir a variável **Agendar** nas configurações do delivery.
 * Para enviar um delivery recorrente no workflow, é necessário usar um **Scheduler** e defina a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
 
-## Configurar a atividade do Scheduler {#scheduler-configuration}
+## Configuração de atividade do scheduler {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

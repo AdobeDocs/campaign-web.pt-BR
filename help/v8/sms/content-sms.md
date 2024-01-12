@@ -7,7 +7,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 45%
+ht-degree: 79%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Conteúdo de SMS"
->abstract="Crie o conteúdo de seus deliveries de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico. Para começar a redigir a mensagem, clique no link **Editar conteúdo** botão."
+>abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
->title="Conteúdo da mensagem SMS"
->abstract="Defina o conteúdo do SMS. Para redigir a mensagem, clique no link **Mensagem** e insira o conteúdo da mensagem. Use o Editor de expressão para adicionar dados personalizados e conteúdo dinâmico. Você também pode personalizar o nome do remetente. Por padrão, o rastreamento é ativado para todos os deliveries de SMS, para que você possa medir quando os recipients clicam em links."
+>title="Conteúdo da mensagem de SMS"
+>abstract="Defina o conteúdo do seu SMS. Para redigir a mensagem, clique no campo **Mensagem** e insira o conteúdo da mensagem. Use o Editor de expressão para adicionar dados personalizados e conteúdo dinâmico. Você também pode personalizar o nome do remetente. Por padrão, o rastreamento é habilitado para todas as entregas de SMS, para que você possa medir quando os destinatários clicam em links."
 
 Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 

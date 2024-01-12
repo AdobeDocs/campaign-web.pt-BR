@@ -19,7 +19,7 @@ ht-degree: 34%
 >id="acw_homepage_rn5"
 >title="IA generativa para conteúdo de email"
 >abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. Mantenha-se à frente da concorrência e eleve seu marketing por email com a IA generativa para conteúdo de email."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte as notas de versão"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
