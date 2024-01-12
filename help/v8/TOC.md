@@ -6,10 +6,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Campaign Web v8
 hide: true
-source-git-commit: 20f8d2b31a3d2ebb8b4fee7a169fedc17ad1c9db
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
    + [Acesso e permissões](get-started/permissions.md)
    + [Medidas de proteção e limitações](get-started/guardrails.md)
    + [Recursos incompatíveis](get-started/unsupported.md)
-   + [Buscar ajuda e orientação](get-started/using-ai.md)
+   + [Ajuda contextual fornecida por IA](get-started/using-ai.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
    + [Trabalhar com entregas](msg/gs-deliveries.md)
