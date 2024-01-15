@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: Relatórios globais para o canal de email
-description: Saiba mais sobre Relatórios globais para o canal de email
+description: Saiba mais sobre relatórios globais para o canal de email
 badge: label="Disponibilidade limitada"
-source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Relatórios globais para o canal de email {#global-report-direct}
 
-Os Relatórios globais fornecem aos usuários uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.
+Os relatórios globais fornecem aos usuários uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.
 
 Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]** seção. Você pode filtrar seus dados dependendo da data do relatório, pasta ou regras. [Saiba mais](global-reports.md)
 

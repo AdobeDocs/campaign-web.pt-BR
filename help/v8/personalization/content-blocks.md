@@ -7,14 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 64%
+source-wordcount: '429'
+ht-degree: 65%
 
 ---
 
-# Blocos de conteúdo incorporados {#ootb-content-blocks}
+# Adicionar blocos de conteúdo integrados {#ootb-content-blocks}
 
 O Adobe Campaign oferece uma lista de blocos de conteúdo pré-configurados. Esses blocos de conteúdo são dinâmicos, personalizados e têm uma renderização específica que pode ser inserida em seus deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para uma mirror page.
 

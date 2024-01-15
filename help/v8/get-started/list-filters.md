@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Listas de busca, pesquisa e filtro
+title: Procurar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Disponibilidade limitada"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 81%
+source-wordcount: '239'
+ht-degree: 78%
 
 ---
 
-# Listas de busca, pesquisa e filtro {#list-screens}
+# Procurar e filtrar listas {#list-screens}
 
 A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. É possível personalizar a exibição das listas e filtrá-las, conforme especificado abaixo.
 

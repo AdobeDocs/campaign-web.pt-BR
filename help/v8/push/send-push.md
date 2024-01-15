@@ -4,14 +4,14 @@ title: Enviar uma entrega de notificação por push
 description: Saiba como enviar um delivery de notificação por push com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
-# Visualizar e enviar uma entrega de notificação por push {#send-push-delivery}
+# Pré-visualizar e enviar um delivery por push {#send-push-delivery}
 
 ## Pré-visualizar o delivery de notificação por push {#preview-push}
 

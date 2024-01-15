@@ -4,14 +4,14 @@ title: Enviar mensagens aos assinantes de um serviço
 description: Saiba como enviar mensagens aos assinantes de um serviço
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
 
 ---
 
-# Enviar mensagens aos assinantes de um serviço
+# Enviar mensagens aos assinantes de um serviço {#send-to-subscribers}
 
 Você pode criar serviços de assinatura no Adobe Campaign e enviar mensagens aos assinantes. Saiba como criar serviços de subscrições no [esta página](../audience//manage-services.md#create-service).
 

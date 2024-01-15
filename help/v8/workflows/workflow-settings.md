@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Criar fluxos de trabalho com o Adobe Campaign Web
-description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
+title: Definir as configurações do workflow
+description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 30%
+source-wordcount: '911'
+ht-degree: 29%
 
 ---
+
 
 # Definir as configurações do workflow {#workflow-settings}
 

@@ -4,15 +4,15 @@ title: Visualizar conteúdo do delivery
 description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidade limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
 
-# Visualizar conteúdo do delivery {#preview-content}
+# Visualizar o conteúdo da mensagem {#preview-content}
 
 Use o [!DNL Campaign] recurso de simulação de conteúdo para pré-visualizar o conteúdo da mensagem antes de enviá-la. Isso permite controlar a personalização e verificar como ela é exibida aos recipients.
 

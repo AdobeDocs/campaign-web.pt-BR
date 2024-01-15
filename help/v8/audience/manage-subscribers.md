@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Gerenciar os assinantes de um serviço
+title: Gerenciar os assinantes
 description: Saiba como gerenciar e fornecer aos assinantes de um serviço no Adobe Campaign Web
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Gerenciar os assinantes de um serviço {#manage-subscribers}
+# Gerenciar os assinantes {#manage-subscribers}
 
 Uma vez que [criou um serviço](manage-services.md#create-service), você pode adicionar assinantes, cancelar a assinatura de destinatários e enviar mensagens aos assinantes desse serviço.
 
