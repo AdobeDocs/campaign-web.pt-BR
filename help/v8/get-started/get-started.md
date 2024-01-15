@@ -4,10 +4,10 @@ title: Introdução ao Campaign v8 Web
 description: Introdução ao Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilidade limitada"
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 94%
+source-wordcount: '412'
+ht-degree: 95%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 94%
 
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_learnmore"
+>title="Introdução"
+>abstract="A nova interface da Campaign Web v8 oferece ao usuário uma experiência integrada, intuitiva e consistente."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Introdução"
 >abstract="A nova interface da Campaign Web v8 oferece ao usuário uma experiência integrada, intuitiva e consistente."
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_title"
->title="Experimente a nova interface do Adobe Campaign"
->abstract="Moderno, intuitivo e dinâmico."
-
-
+<!--TO REMOVE ABOVE-->
 
 O Adobe Campaign fornece uma plataforma para criar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o real-time interaction management e a execução entre canais.
 

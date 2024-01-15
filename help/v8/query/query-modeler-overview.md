@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 32%
+source-wordcount: '485'
+ht-degree: 39%
 
 ---
 
@@ -14,9 +14,18 @@ ht-degree: 32%
 
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card5"
+>title="Novo modelador de consultas"
+>abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Novo modelador de consultas"
 >abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados."
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"

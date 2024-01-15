@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 64%
+source-wordcount: '1368'
+ht-degree: 67%
 
 ---
 
@@ -15,9 +15,17 @@ ht-degree: 64%
 # Novidades {#new}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Notas de versão"
+>abstract="Nossa versão mais recente contém recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Notas de versão"
 >abstract="Nossa versão mais recente contém recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais."
+
+<!--TO REMOVE ABOVE-->
 
 
 Temos o prazer de apresentar a nova versão da interface da Web do Adobe Campaign. Nossa versão mais recente contém recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais.
@@ -91,7 +99,7 @@ Os principais recursos incluídos na versão de Disponibilidade limitada da Web 
 
 * **Público-alvo com o modelador de consultas**
 
-  O Adobe Campaign Web apresenta um **modelador de consultas eficiente e intuitivo** que simplifica o processo de filtragem de bancos de dados para selecionar alvos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de query está disponível em cada contexto em que você precisa definir regras para filtrar dados.
+  O Adobe Campaign Web apresenta um **modelador de consultas eficiente e intuitivo** que simplifica o processo de filtragem de bancos de dados para selecionar alvos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados.
 
   Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
