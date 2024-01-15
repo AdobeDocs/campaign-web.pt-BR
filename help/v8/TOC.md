@@ -6,10 +6,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Campaign Web v8
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 86%
+source-wordcount: '531'
+ht-degree: 83%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 86%
    + [Introdução](get-started/get-started.md)
    + [Conexão com o Campaign](get-started/connect-to-campaign.md)
    + [Conheça a interface](get-started/user-interface.md)
-   + [Listas de busca, pesquisa e filtro](get-started/list-filters.md)
+   + [Procurar e filtrar listas](get-started/list-filters.md)
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)
    + [Acesso e permissões](get-started/permissions.md)
    + [Medidas de proteção e limitações](get-started/guardrails.md)
    + [Recursos incompatíveis](get-started/unsupported.md)
    + [Ajuda contextual fornecida por IA](get-started/using-ai.md)
-+ Mensagens e entregas {#msg}
++ Mensagens e deliveries {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
    + [Trabalhar com entregas](msg/gs-deliveries.md)
    + [Usar modelos de entrega](msg/delivery-template.md)
@@ -70,7 +70,7 @@ ht-degree: 86%
       + [Introdução às notificações por push](push/gs-push.md)
       + [Criar uma entrega de notificação por push](push/create-push.md)
       + [Criar uma entrega por push](push/content-push.md)
-      + [Visualizar e enviar uma entrega de notificação por push](push/send-push.md)
+      + [Pré-visualizar e enviar um delivery por push](push/send-push.md)
    + SMS {#sms}
       + [Introdução às entregas de SMS](sms/gs-sms.md)
       + [Criar uma entrega de SMS](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 86%
    + Tornar seu conteúdo dinâmico {#dynamic-content}
       + [Introdução a conteúdo dinâmico](personalization/gs-personalization.md)
       + [Adicionar personalização](personalization/personalize.md)
-      + [Adicionar conteúdo condicional](personalization/conditions.md)
+      + [Criar conteúdo condicional](personalization/conditions.md)
       + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
    + [Adicionar ofertas às suas mensagens](msg/offers.md)
    + [Enviar mensagens a assinantes](msg/send-to-subscribers.md)
@@ -87,37 +87,37 @@ ht-degree: 86%
       + [Sobre visualização e teste](preview-test/preview-test.md)
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
       + [Enviar entregas de teste](preview-test/test-deliveries.md)
-      + [Renderizar seu email](preview-test/email-rendering.md)
-+ Perfis e públicos-alvo {#audiences}
-   + [Introdução a perfis e públicos](audience/gs-audiences-recipients.md)
+      + [Testar a renderização do email](preview-test/email-rendering.md)
++ Perfis e públicos {#audiences}
+   + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
    + Trabalhar com perfis {#work-with-profiles}
       + [Monitorar e gerenciar perfis](audience/about-recipients.md)
       + [Criar e gerenciar perfis de teste](audience/test-profiles.md)
    + Trabalhar com públicos {#audiences}
       + [Criar públicos-alvo](audience/create-audience.md)
-      + [Monitorar e gerenciar públicos-alvo](audience/manage-audience.md)
+      + [Monitorar e gerenciar públicos](audience/manage-audience.md)
    + Selecione os destinatários da entrega {#target-audiences}
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
-      + [Carregar um público-alvo de um arquivo](audience/file-audience.md)
+      + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
       + [Configurar um grupo de controle](audience/control-group.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
-      + [Gerenciar serviços](audience/manage-services.md)
+      + [Criar e gerenciar serviços de assinatura](audience/manage-services.md)
       + [Gerenciar assinantes](audience/manage-subscribers.md)
 + Campanhas entre canais {#campaigns}
    + [Introdução às campanhas](campaigns/gs-campaigns.md)
-   + [Acessar e gerenciar campanhas](campaigns/manage-campaigns.md)
+   + [Acesso e gerenciamento de suas campanhas](campaigns/manage-campaigns.md)
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
    + [Acessar e gerenciar workflows](workflows/access-monitor.md)
-   + Crie e execute seu primeiro workflow {#create-workflow}
+   + Criar e executar o primeiro fluxo de trabalho {#create-workflow}
       + [Princípios básicos da criação de workflows](workflows/gs-workflow-creation.md)
       + [Criar o workflow](workflows/create-workflow.md)
       + [Orquestrar atividades](workflows/orchestrate-activities.md)
       + [Definir as configurações do workflow](workflows/workflow-settings.md)
-      + [Iniciar e monitorar o workflow](workflows/start-monitor-workflows.md)
+      + [Iniciar e monitorar os workflows](workflows/start-monitor-workflows.md)
    + Trabalhar com atividades de workflow {#design-workflows}
       + [Sobre as atividades de workflow](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)
@@ -145,12 +145,12 @@ ht-degree: 86%
    + [Exportar seus relatórios](reporting/export-reports.md)
    + [Indicadores principais de desempenho](reporting/kpis.md)
    + Relatórios de entrega {#delivery-report}
-      + [Introdução aos relatórios de entrega](reporting/delivery-reports.md)
+      + [Introdução a relatórios de entrega](reporting/delivery-reports.md)
       + [Relatório de entrega de emails](reporting/email-report.md)
       + [Relatório de entrega por push](reporting/push-report.md)
       + [Relatório de entrega de SMS](reporting/sms-report.md)
    + Relatórios de campanha {#campaign-report}
-      + [Introdução aos relatórios do Campaign](reporting/campaign-reports.md)
+      + [Introdução a relatórios de campanha](reporting/campaign-reports.md)
       + [Relatório de campanha de email](reporting/campaign-reports-email.md)
       + [Relatório da campanha push](reporting/campaign-reports-push.md)
       + [Relatório de campanha por SMS](reporting/campaign-reports-sms.md)

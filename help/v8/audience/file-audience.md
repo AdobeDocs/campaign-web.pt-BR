@@ -4,10 +4,10 @@ title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 35%
+source-wordcount: '619'
+ht-degree: 38%
 
 ---
 
@@ -83,7 +83,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
 
-## Pré-visualizar e testar seu email {#test}
+## Pré-visualizar e testar o email {#test}
 
 O Campaign Web permite visualizar e enviar emails de teste ao usar um público-alvo carregado de um arquivo. Para fazer isso, siga estes passos:
 

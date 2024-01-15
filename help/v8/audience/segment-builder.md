@@ -4,10 +4,10 @@ title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 60%
+source-wordcount: '563'
+ht-degree: 59%
 
 ---
 
@@ -28,7 +28,7 @@ A paleta é dividida em duas guias:
 
 * **Atributos**: essa guia permite acessar todos os campos disponíveis no schema. A lista de campos depende do schema de direcionamento definido no template de email.
 
-* **Públicos-alvo**: essa guia permite filtrar usando um dos públicos-alvo existentes definidos no console Campaign Classic ou no Adobe Experience Platform. [Saiba como monitorar e gerenciar públicos](manage-audience.md)
+* **Públicos-alvo**: essa guia permite filtrar usando um dos públicos-alvo existentes definidos no console Campaign Classic ou no Adobe Experience Platform. Saiba como monitorar e gerenciar públicos-alvo no [nesta seção](manage-audience.md)
 
   >[!NOTE]
   >
