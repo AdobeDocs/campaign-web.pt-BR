@@ -3,21 +3,20 @@ audience: end-user
 title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Beta"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+badge: label="Disponibilidade limitada"
+source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
-source-wordcount: '2110'
-ht-degree: 82%
+source-wordcount: '2260'
+ht-degree: 60%
 
 ---
 
 
-# Configurações de entrega {#email-del-settings}
+# Configurações de entrega de email {#email-del-settings}
 
 As configurações de delivery de email são **parâmetros técnicos de entrega** que são definidas no template de email. Eles podem ser sobrecarregados para cada delivery.
 
-Essas configurações estão disponíveis no **Definir configurações de entrega** ícone disponível ao editar um delivery de email ou um template do delivery de email.
-
+Essas configurações estão disponíveis no **Configurações** botão disponível ao editar um delivery de email ou um template do delivery de email.
 
 ## Configurações de entrega de email {#email-delivery-settings}
 
@@ -30,30 +29,27 @@ Essas configurações estão disponíveis no **Definir configurações de entreg
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
-
+>abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no console do cliente do Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Configurações de tipologia para a entrega"
->abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
+>abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no console do cliente do Campaign."
 
 
-Tipologias são conjuntos de **regras de tipologia**, que são executados durante a fase de preparação. As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação da entrega.  Elas possibilitam garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
+Tipologias são conjuntos de **regras de tipologia** que são executados durante a fase de preparação para aplicar facilmente várias regras de filtragem a uma entrega de uma vez. Eles permitem que os profissionais de marketing padronizem práticas comerciais em todos os deliveries, pois permitem controlar, filtrar e priorizar o envio de deliveries.
 
-As regras de tipologia são agrupadas em uma tipologia para aplicar facilmente várias regras de filtragem a uma entrega de uma vez.
+Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras de tipologia incluídas na tipologia são executadas para verificar a validade do delivery durante a preparação da mensagem. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo do delivery.
 
-Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras de tipologia incluídas na tipologia serão executadas para verificar a validade da mensagem durante a preparação da mensagem.
+As tipologias permitem garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
 
-![](assets/delivery-settings-1.png)
-
+![](assets/delivery-settings-typology.png)
 
 >[!NOTE]
 >
->As tipologias e regras de tipologia são criadas no Console do cliente do Campaign. Saiba mais sobre regras de pressão e como configurar o gerenciamento de fadiga no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=pt-BR){target="_blank"}.
+>As tipologias e regras de tipologia são criadas no console do cliente do Campaign. Saiba mais sobre regras de pressão e como configurar o gerenciamento de fadiga no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=pt-BR){target="_blank"}.
 
 ### Parâmetros de pressão {#pressure-parameters}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
@@ -66,36 +62,36 @@ Ao associar uma tipologia a uma mensagem ou a um modelo de mensagem, as regras d
 >title="Peso da entrega"
 >abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de pressão. As mensagens com o peso mais alto têm prioridade."
 
-Nesta seção, os parâmetros de pressão permitem definir um **limite** para configurar regras de gerenciamento de fadiga. Esse é o número máximo de mensagens que podem ser enviadas para um perfil em um dado período. Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
+Nesta seção, os parâmetros de pressão permitem definir um **limite** para configurar regras de gerenciamento de fadiga, que é o número máximo de mensagens que podem ser enviadas para um perfil em um determinado período.
+
+Depois que esse limite for atingido, não poderá ocorrer mais entregas até o final do período considerado. Esse processo permite excluir automaticamente um perfil de uma entrega, caso uma mensagem exceder o limite definido, evitando assim um excesso de solicitações.
 
 Os valores do limite podem ser constantes ou variáveis. Isso significa que, para um determinado período, os limites podem variar de um perfil para o outro, ou até mesmo para o mesmo perfil.
 
-No campo **Tipo de peso**, três opções estão disponíveis:
+No campo **[!UICONTROL Tipo de peso]**, três opções estão disponíveis:
 
-* **Constante**
-* **Depende do recipient**
-* **Definido em cada regra**
+* **[!UICONTROL Constante]**
+* **[!UICONTROL Depende do recipient]**
+* **[!UICONTROL Definido em cada regra]**
 
-Use o campo **Peso da entrega** para definir a prioridade de entrega. Cada entrega tem um peso que representa seu nível de prioridade. Por padrão, o peso de uma entrega é definido como 5. As regras de pressão permitem definir o peso das entregas às quais são aplicadas. Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de uma entrega com base nos interesses do recipient.
+Use o campo **[!UICONTROL Peso da entrega]** para definir a prioridade de entrega. Cada entrega tem um peso que representa seu nível de prioridade. Por padrão, o peso de uma entrega é definido como 5. As regras de pressão permitem definir o peso das entregas às quais são aplicadas. Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de uma entrega com base nos interesses do recipient.
 
+Use o campo **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliação do público-alvo. Três modos estão disponíveis:
 
-Use o campo **Modo de entrega** para selecionar o modo de avaliação do público-alvo. Três modos estão disponíveis:
-
-* **Estimativa do público-alvo e personalização de mensagens**
-* **Estimativa e aprovação do público-alvo provisório**
-* **Avaliação de público-alvo**
+* **[!UICONTROL Estimativa do público-alvo e personalização de mensagens]**
+* **[!UICONTROL Estimativa e aprovação do público-alvo provisório]**
+* **[!UICONTROL Avaliação de público-alvo]**
 
 >[!NOTE]
 >
->O gerenciamento de fadiga é configurado no Console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
+>O gerenciamento de fadiga é configurado no console do cliente Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
 
 ### Configurações de capacidade {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Configurações de capacidade da entrega"
->abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega possa gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no Console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
-
+>abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega possa gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -103,14 +99,13 @@ Use o campo **Modo de entrega** para selecionar o modo de avaliação do públic
 >abstract="A importância do recipient é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas."
 
 
-Nesta seção, você pode selecionar uma regra de capacidade definida no Console do Adobe Campaign v8. Essa regra está associada ao canal de email.
+Nesta seção, você pode selecionar uma regra de capacidade definida no console do Adobe Campaign v8. Essa regra está associada ao canal de email.
 
-O campo **importância do recipient** é uma fórmula usada para determinar quais destinatários são mantidos quando as regras de tipologia de capacidade são excedidas.
+A variável **[!UICONTROL Importância do destinatário]** field é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas.
 
 >[!NOTE]
 >
->As regras de tipologia são configuradas no Console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=pt-BR){target="_blank"}.
-
+>As regras de tipologia são configuradas no console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=pt-BR){target="_blank"}.
 
 ## Configurações de público-alvo {#audience}
 
@@ -123,6 +118,8 @@ Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre a
 
 Saiba mais sobre target mappings em [nesta seção](../audience/targeting-dimensions.md).
 
+No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+
 ## Entrega {#delivery}
 
 >[!CONTEXTUALHELP]
@@ -130,21 +127,40 @@ Saiba mais sobre target mappings em [nesta seção](../audience/targeting-dimens
 >title="Configurações da entrega"
 >abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. É possível ativar CCO para a entrega e alterar os modos de entrega e de rotina. Essas opções são restritas apenas a usuários e usuárias especialistas."
 
-Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega.
+**[!UICONTROL Entrega]** parâmetros são configurações técnicas que se aplicam ao seu delivery.
 
-* **Roteamento**: a conta de email externa integrada de roteamento é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
+O e-mail integrado **[!UICONTROL Roteamento]** a conta externa de é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 
-* **Teste da entrega SMTP**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+Você pode definir o seguinte **[!UICONTROL Enviando]** configurações:
 
-* **Email CCO**: essa opção permite armazenar emails em um sistema externo por meio do CCO, simplesmente adicionando um endereço de email CCO ao publico alvo da mensagem. Saiba mais sobre Email Cco em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Testar entrega SMTP]**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
 
-### Web Analytics {#web-analytics}
+* **[!UICONTROL Email Cco]**: essa opção é usada para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
+Você também pode alterar o formato das mensagens de email enviadas:
+
+* **[!UICONTROL Usar preferências de recipient]** (modo padrão)
+
+  O formato da mensagem é definido de acordo com os dados armazenados no perfil do recipient. Se um recipient deseja receber mensagens em determinado formato, esse será o formato enviado. Se o campo não estiver preenchido, uma mensagem multipart-alternative será enviada (veja abaixo).
+
+* **[!UICONTROL Permitir que o cliente de correio do recipient escolha o formato mais adequado]**
+
+  A mensagem contém os dois formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do recipient (multipart-alternative).
+
+  >[!IMPORTANT]
+  >
+  >Essa opção inclui ambas as versões do documento. Portanto, isso afeta a taxa de entrega, porque o tamanho da mensagem é maior.
+
+* **[!UICONTROL Enviar todas as mensagens no formato de texto]**
+
+  A mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar na mensagem.
+
+## Web Analytics {#web-analytics}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Configurações de análise da web da entrega"
->abstract="Selecione uma conta de análise da web. Essa conta é configurada no Console do cliente do Campaign. Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada."
+>abstract="Selecione uma conta de análise da web. Essa conta é configurada no console do Campaign Client. Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada."
 
 Nesta seção, você pode selecionar uma conta do Web Analytics. Essa conta é configurada no console do cliente do Campaign.
 
@@ -152,15 +168,16 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no Console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
-
-### Tentativas {#retries}
+## Tentativas {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_retries"
 >title="Número máximo de tentativas"
 >abstract="Se uma mensagem falhar devido a um erro temporário, as tentativas serão executadas até o fim da duração da entrega."
+
+<!--Currently not visible in UI > ??-->
 
 As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia do delivery com um intervalo mínimo de uma hora distribuída pelas 24 horas do dia.
 
@@ -173,7 +190,6 @@ Saiba mais sobre o gerenciamento de tentativas no [Documentação do Campaign v8
 >title="Modo de aprovação da entrega"
 >abstract="Selecione o modo de aprovação. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="Modo de aprovação das entregas"
@@ -183,32 +199,29 @@ Se os avisos forem gerados durante a preparação da entrega, você pode configu
 
 Você pode selecionar outro modo de aprovação no campo apropriado. Os modos disponíveis são:
 
-* **Manual**: no final da fase de análise, o usuário deverá confirmar a entrega para começar a enviar.
+* ****[!UICONTROL Manual]****: no final da fase de análise, o usuário deverá confirmar a entrega para começar a enviar.
 
-* **Semiautomático**: o envio começa automaticamente se a fase de análise não gerar mensagens de advertência.
+* **[!UICONTROL Semiautomático]**: o envio começa automaticamente se a fase de análise não gerar mensagens de advertência.
 
-* **Automático**: o envio começa automaticamente no fim da fase de análise, independentemente do resultado.
-
+* **[!UICONTROL Automático]**: o envio começa automaticamente no fim da fase de análise, independentemente do resultado.
 
 ## Validade {#validity}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validade das configurações"
->abstract="O campo Duração da entrega permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign começa a enviar as mensagens na data de início e, em seguida, somente para mensagens que retornam um erro, novas tentativas normais e configuráveis são executadas até que o limite da validade seja atingido. O campo Limite da validade é usado para recursos enviados, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
-
-
+>abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.<br>A variável **Limite da validade de recursos** O campo é usado para recursos dos quais foram feitos upload, como mirror page ou imagens. Quando o limite for atingido, os recursos não estarão mais disponíveis."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Limite da validade de recursos"
->abstract="O campo Limite da validade é usado para recursos carregados, principalmente para a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
-
+>abstract="A variável **Limite da validade de recursos** O campo é usado para recursos dos quais foram feitos upload, como mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Duração da entrega"
->abstract="O campo Duração da entrega permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido."
+>abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido."
+
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -216,14 +229,17 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
 -->
 
-O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
+### Período de validade {#validity-period}
 
-Você também poderá optar por especificar datas. Para fazer isso, selecione **Explicitly set validity dates**. Nesse caso, as datas de entrega e limite de validade também permitem especificar o tempo. O tempo atual é usado por padrão, mas você poderá modificar isso diretamente no campo de entrada.
+O campo **[!UICONTROL Delivery duration]** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
 
-O **Limite da validade de recursos** é usado para recursos carregados, principalmente para a mirror page e as imagens. Os recursos dessa página são válidos por um tempo limitado (para economizar espaço em disco). Após esse limite, esses recursos não estarão mais disponíveis.
+Você também poderá optar por especificar datas. Para fazer isso, selecione **[!UICONTROL Explicitly set validity dates]**. Nesse caso, as datas de entrega e limite de validade também permitem especificar o tempo. O tempo atual é usado por padrão, mas você poderá modificar isso diretamente no campo de entrada.
 
-![](assets/delivery-settings-2.png)
+**[!UICONTROL Limite da validade de recursos]** é usado para recursos dos quais foram feitos upload, principalmente para mirror pages e imagens. Os recursos dessa página são válidos por um tempo limitado (para economizar espaço em disco). Após esse limite, esses recursos não estarão mais disponíveis.
 
+![](assets/delivery-settings-validity.png)
+
+<!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
 Saiba mais sobre o período de validade do delivery em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR#validity-period){target="_blank"}.
 
@@ -233,10 +249,9 @@ A mirror page é uma página HTML acessível online através de um navegador da 
 
 Além do modo padrão, as seguintes opções também estão disponíveis:
 
-
-* **[!UICONTROL Forçar a geração da mirror page]**: use esse modo para gerar a mirror page, mesmo que nenhum link para a mirror page for inserida na entrega,
-* **[!UICONTROL Não gerar a mirror page]**: use esse modo para evitar a geração de uma mirror page, mesmo se o link estiver presente na entrega.
-* **[!UICONTROL Gera uma mirror page acessível somente por meio do identificador de mensagem]**: quando o link da mirror page não estiver presente no conteúdo do email, use essa opção para ativar o acesso ao conteúdo da mirror page, na janela de log do delivery, no console do cliente.
+* **[!UICONTROL Forçar a geração da mirror page]**: use esse modo para gerar a mirror page mesmo se nenhum link para a mirror page for inserido no delivery.
+* **[!UICONTROL Não gerar a mirror page]**: use esse modo para evitar gerar uma mirror page, mesmo se o link estiver presente no delivery.
+* **[!UICONTROL Gera uma mirror page acessível somente por meio do identificador de mensagem]**: quando o link da mirror page não estiver presente no conteúdo do email, use essa opção para habilitar o acesso ao conteúdo da mirror page, na janela de log do delivery, no console do cliente.
 
 
 ### Rastreamento {#tracking}
@@ -248,38 +263,36 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Período de validade"
 >abstract="O período de validade define a duração para a qual o rastreamento estará ativado nos URLs da mensagem."
 
+**[!UICONTROL Rastreamento]** Os parâmetros do são definidos na seção relacionada. As opções possíveis são:
 
-Os parâmetros de rastreamento são definidos na seção relacionada. As opções possíveis são:
+**[!UICONTROL Limite da validade de rastreamento]**: use essa opção para alterar a duração da ativação do rastreamento nos URLs.
 
-**Limite da validade do rastreamento**: use esta opção para alterar a duração para a qual o rastreamento é ativado nos URLs.
+**[!UICONTROL URL substituto para URLs expirados]**: use essa opção para inserir um URL para uma página da Web de fallback: ele é exibido depois que o rastreamento expira.
 
-**URL de substituição para URLs expirados**: use esta opção para inserir um URL para uma página da Web alternativa, que é exibida assim que o rastreamento expira.
-
-## Configurações de teste {#test-setttings}
+## Configurações de prova {#test-setttings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Testar configurações da entrega"
->abstract="Selecione os parâmetros de exclusão e personalize o rótulo dos emails de teste."
+>title="Definir as configurações de prova para a entrega"
+>abstract="Selecione os parâmetros de exclusão e personalize o rótulo das provas."
+
+<!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->
 
 Você pode definir os parâmetros de exclusão nesta seção. As opções disponíveis são:
 
-* **Manter duplicada**: ela permite autorizar várias entregas a recipients que atendem a vários critérios de direcionamento.
+* ****[!UICONTROL Manter duplicatas]**** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
 
-* **Manter endereços incluídos na lista de bloqueios** permite manter do público-alvo os perfis que não estão mais sendo direcionados para entrega, como após um cancelamento de subscrição (opt-out).
+* **[!UICONTROL Manter endereços incluídos na lista de bloqueios]** permite manter do público-alvo os perfis que não estão mais sendo direcionados para entrega, como após um cancelamento de subscrição (opt-out).
 
-* **Manter endereços na quarentena** permite excluir do público-alvo qualquer perfil com endereço que não responda.
+* **[!UICONTROL Manter endereços na quarentena]** permite excluir do público-alvo qualquer perfil com endereço que não responda.
 
-Você também pode personalizar o nome dos emails de teste.
+Você também pode personalizar o rótulo das provas:
 
-A opção **Guardar o código de entrega como prova** permite associar ao email de teste o mesmo código de entrega definido para a entrega ao qual está selecionado.
+* Use o **[!UICONTROL Manter o código de entrega para a prova]** para associar à prova o mesmo código de delivery que o definido para o delivery com o qual ele está relacionado.
 
-Por padrão, o assunto do email de teste tem o prefixo &#39;PROOF #&#39;, onde # é o número do email de teste. É possível alterar esse prefixo no campo **Rotular prefixo**.
+* Por padrão, o assunto da prova tem o prefixo &#39;PROOF #&#39;, onde # é o número da prova. É possível alterar esse prefixo no campo **[!UICONTROL Rotular prefixo]**.
