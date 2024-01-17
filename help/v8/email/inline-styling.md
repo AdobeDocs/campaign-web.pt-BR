@@ -5,7 +5,7 @@ description: Saiba como adicionar atributos de estilo em linha
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Disponibilidade limitada"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
 ht-degree: 100%
 

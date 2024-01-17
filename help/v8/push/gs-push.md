@@ -5,9 +5,9 @@ description: Saiba como criar e enviar notificações por push com o Adobe Campa
 badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ As notificações por push são essenciais para se comunicar com os usuários de
 
 Para criar notificações por push, existem três opções:
 
-* **Fluxos de trabalho**: depois de adicionar uma atividade de canal de push ao seu fluxo de trabalho e definir as configurações básicas, você pode criar o conteúdo das suas notificações de push no menu do painel direito. Para obter instruções detalhadas sobre como configurar o workflow, consulte esta página.
+* **Workflows**: depois de adicionar uma atividade de canal de push ao seu workflow e definir as configurações básicas, você pode criar o conteúdo de suas notificações por push no menu do painel direito. Para obter instruções detalhadas sobre como configurar o workflow, consulte esta página.
 
-* **Campanhas**: depois de criar uma campanha, você pode criar um delivery de notificação por push. Para obter mais informações sobre como configurar sua campanha, consulte esta página.
+* **Campanhas**: após criar uma campanha, é possível criar uma entrega de notificações por push. Para obter mais informações sobre como configurar sua campanha, consulte esta página.
 
-* **Entregas independentes**: envolva os clientes direta e instantaneamente com delivery de notificação por push individual, sem a necessidade de workflows ou campanhas.
+* **Entregas independentes**: engaje os clientes de forma direta e instantânea com a entrega individual de notificações por push, sem a necessidade de criar workflows ou campanhas.
 
 ![](../assets/do-not-localize/book.png) Saiba como configurar o canal de notificação por push na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=pt-BR){target="_blank"}.
 

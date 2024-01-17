@@ -5,7 +5,7 @@ description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 
@@ -220,8 +220,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Propriedades das páginas de aterrissagem"
->abstract="Propriedades das páginas de aterrissagem"
+>title="Propriedades das páginas de destino"
+>abstract="Propriedades das páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"

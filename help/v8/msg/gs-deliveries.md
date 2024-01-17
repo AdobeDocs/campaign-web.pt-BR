@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Trabalhar com entregas
+title: Trabalho com entregas
 description: Saiba como criar sua primeira entrega no Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
@@ -8,13 +8,13 @@ level: Beginner
 badge: label="Disponibilidade limitada"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Trabalhar com entregas {#work-with-deliveries}
+# Trabalho com entregas {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
@@ -37,7 +37,7 @@ Para criar uma entrega independente, siga estas etapas:
 
    ![](assets/create-a-delivery.png)
 
-1. Escolha um canal para a entrega.
+1. Escolha um canal para a entrega. 
 1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. Saiba mais sobre públicos-alvo [nesta seção](../audience/about-recipients.md).
 
    ![](assets/select-audience.png){width="70%" align="left"}
@@ -60,8 +60,8 @@ Para criar uma entrega independente, siga estas etapas:
 Para criar uma entrega em um fluxo de trabalho, siga estas etapas:
 
 1. Crie um fluxo de trabalho ou abra um já existente. Saiba mais sobre fluxos de trabalho [nesta página](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Adicionar e configurar um **[!UICONTROL Criar público-alvo]** atividade. Saiba mais sobre o **[!UICONTROL Criar público-alvo]** atividade no [nesta seção](../workflows/activities/build-audience.md).
-1. Clique em `+` e selecione uma atividade de delivery: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades do canal de entrega em um workflow e como definir um conteúdo de entrega nesta [seção](../workflows/activities/channels.md).
+1. Adicione e configure uma atividade **[!UICONTROL Criar público-alvo]**. Saiba mais sobre a atividade **[!UICONTROL Construir público-alvo]**[nesta seção](../workflows/activities/build-audience.md).
+1. Clique no ícone `+` e selecione uma atividade de entrega: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades do canal de entrega em um workflow e como definir um conteúdo de entrega nesta [seção](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 
