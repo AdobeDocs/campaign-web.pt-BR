@@ -2,10 +2,10 @@
 title: Monitorar e gerenciar perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfis"
->abstract="Um perfil é um indivíduo selecionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível exibir os detalhes dos perfis, com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos dos perfis."
+>abstract="Um perfil é um indivíduo direcionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível exibir os detalhes dos perfis, com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos dos perfis."
 
 ## Introdução a perfis {#gs}
 

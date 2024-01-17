@@ -4,10 +4,10 @@ title: Usar a atividade de fluxo de trabalho Combinar
 description: Saiba como usar a atividade de fluxo de trabalho Combinar
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 86%
+source-wordcount: '912'
+ht-degree: 84%
 
 ---
 
@@ -80,11 +80,11 @@ No **Combinar** atividade, você pode configurar um **Interseção**. Para isso,
 1. Selecione o **Tipo de reconciliação** para definir como as duplicatas são tratadas. Consulte a seção [União](#union).
 1. Marque a opção **Gerar complemento** se desejar processar a população restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Será adicionada uma transição de saída adicional à atividade.
 
-## Exclusão {#combine-exclusion}
+## Regras de  {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
->title="Regras de  exclusão"
+>title="Regras de exclusão"
 >abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido à mesma dimensão de direcionamento como público-alvo principal. Para fazer isso, clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
 
 >[!CONTEXTUALHELP]
@@ -94,10 +94,13 @@ No **Combinar** atividade, você pode configurar um **Interseção**. Para isso,
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
->title="Regras de  exclusão"
+>title="Regras de exclusão"
 >abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido à mesma dimensão de direcionamento como público-alvo principal. Para fazer isso, clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Complemento de geração de combinação"
+>abstract="Ative a opção Generate complement para processar o público restante em uma transição adicional."
 
 No **Combinar** atividade, você pode configurar um **Exclusão**. Para isso, você precisa seguir as etapas adicionais abaixo:
 

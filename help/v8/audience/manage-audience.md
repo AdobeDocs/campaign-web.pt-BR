@@ -4,14 +4,24 @@ title: Monitorar e gerenciar públicos
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 14%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # Monitorar e gerenciar públicos {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Propriedades"
+>abstract="Aqui você pode encontrar um resumo das propriedades do público-alvo, como origem, pasta de armazenamento ou status. Clique no link na **Último fluxo de trabalho** para abrir o fluxo de trabalho que foi usado para criar o público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Tamanho do público-alvo"
+>abstract="Aqui você pode encontrar o número total de perfis no público-alvo. Clique no botão Calcular para atualizar e recalcular os resultados do público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
