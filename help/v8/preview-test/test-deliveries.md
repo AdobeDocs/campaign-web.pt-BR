@@ -4,9 +4,9 @@ title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Disponibilidade limitada"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1189'
 ht-degree: 13%
 
 ---
@@ -89,7 +89,7 @@ As etapas para enviar deliveries de teste para seed addresses estão detalhadas 
 
 1. Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de teste. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
 
-1. Ao navegar pela lista de perfis de teste, você pode usar filtros para refinar sua pesquisa.
+1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
 
    ![](assets/simulate-test-profile-filter.png)
 

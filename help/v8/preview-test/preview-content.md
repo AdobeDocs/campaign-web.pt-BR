@@ -4,9 +4,9 @@ title: Visualizar conteúdo do delivery
 description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidade limitada"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,12 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
      >[!NOTE]
      >
      >Você também pode visualizar e gerenciar perfis na guia correspondente na interface do usuário da Web do Campaign. [Saiba mais](../audience/about-recipients.md)
+
+1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
 1. Clique em **[!UICONTROL Selecionar]** para confirmar a seleção.
 
