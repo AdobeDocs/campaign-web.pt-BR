@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 81%
+ht-degree: 96%
 
 ---
 
@@ -51,13 +51,13 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 
 ## Navegação superior da Adobe Experience Cloud {#top-bar}
 
-Navegue pela barra superior da interface para:
+Navegue na barra superior da interface para:
 
 * alternar entre suas organizações
 * alternar entre as soluções e aplicativos da Adobe Experience Cloud
-* procurar ajuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
-* verifique as notificações do produto
-* editar o perfil de Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar para tema claro/escuro](#dark-theme)
+* procurar ajuda sobre a [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}
+* verificar as notificações do produto
+* editar o perfil da Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar para tema claro/escuro](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -95,9 +95,9 @@ Para alterar o idioma:
 >
 
 
-## Temas escuros e claros {#dark-theme}
+## Temas escuro e claro {#dark-theme}
 
-O Adobe Campaign está disponível em temas claros e escuros. Por padrão, a interface do usuário é ativada no tema claro. Para alternar para o tema escuro, clique no ícone do seu perfil e use o **Tema escuro** para ativá-la/desativá-la.
+O Adobe Campaign está disponível em temas claros e escuros. Por padrão, a interface é habilitada no tema claro. Para mudar para o tema escuro, clique no ícone do seu perfil e use o botão **Tema escuro** para habilitá-lo/desabilitá-lo.
 
 As configurações de perfil do usuário e as preferências da conta estão detalhadas [nesta seção](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR#preferences){target="_blank"}.
 

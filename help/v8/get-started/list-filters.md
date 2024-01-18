@@ -7,7 +7,7 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -39,11 +39,11 @@ Para colunas numéricas ou de datas, a seta para **cima** indica que a lista est
 
 ## Filtros {#list-built-in-filters}
 
-Para encontrar itens mais rapidamente, você pode usar a barra de pesquisa ou filtros incorporados e personalizados para adaptar a lista com base em critérios contextuais.
+Para encontrar itens mais rapidamente, você pode usar a barra de pesquisa ou filtros integrados e personalizados para adaptar a lista com base em critérios contextuais.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Informações detalhadas sobre como usar filtros e criar seus próprios filtros personalizados estão disponíveis na [nesta seção](../query/filter.md).
+Informações detalhadas sobre como usar filtros e criar seus próprios filtros personalizados estão disponíveis [nesta seção](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}

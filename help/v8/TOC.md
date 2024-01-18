@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign Web v8
-user-guide-description: Documentação de produto do Campaign v8 Web.
+user-guide-description: Documentação de produto do Campaign Web v8.
 title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Campaign Web v8
@@ -9,7 +9,7 @@ hide: true
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 83%
    + [Ajuda contextual fornecida por IA](get-started/using-ai.md)
 + Mensagens e deliveries {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
-   + [Trabalhar com entregas](msg/gs-deliveries.md)
+   + [Trabalho com entregas](msg/gs-deliveries.md)
    + [Usar modelos de entrega](msg/delivery-template.md)
    + Emails {#email}
       + [Criar seu primeiro email](email/create-email.md)
       + Definir conteúdo do email {#content}
          + [Configurar conteúdo de email](email/edit-content.md)
-         + [Trabalhar com modelos de conteúdo](email/create-email-templates.md)
+         + [Trabalho com modelos de conteúdo](email/create-email-templates.md)
          + Começar a definir seu email {#start-design}
             + [Introdução ao Designer de email](email/get-started-email-designer.md)
             + [Iniciar do zero](email/create-email-content.md)
@@ -91,10 +91,10 @@ ht-degree: 83%
 + Perfis e públicos {#audiences}
    + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
-   + Trabalhar com perfis {#work-with-profiles}
+   + Trabalho com perfis {#work-with-profiles}
       + [Monitorar e gerenciar perfis](audience/about-recipients.md)
       + [Criar e gerenciar perfis de teste](audience/test-profiles.md)
-   + Trabalhar com públicos {#audiences}
+   + Trabalho com públicos-alvo{#audiences}
       + [Criar públicos-alvo](audience/create-audience.md)
       + [Monitorar e gerenciar públicos](audience/manage-audience.md)
    + Selecione os destinatários da entrega {#target-audiences}
@@ -149,13 +149,13 @@ ht-degree: 83%
       + [Relatório de entrega de emails](reporting/email-report.md)
       + [Relatório de entrega por push](reporting/push-report.md)
       + [Relatório de entrega de SMS](reporting/sms-report.md)
-   + Relatórios de campanha {#campaign-report}
+   + Relatórios do Campaign {#campaign-report}
       + [Introdução a relatórios de campanha](reporting/campaign-reports.md)
-      + [Relatório de campanha de email](reporting/campaign-reports-email.md)
-      + [Relatório da campanha push](reporting/campaign-reports-push.md)
+      + [Relatório de campanha por email](reporting/campaign-reports-email.md)
+      + [Relatório de campanha por push](reporting/campaign-reports-push.md)
       + [Relatório de campanha por SMS](reporting/campaign-reports-sms.md)
    + Relatórios globais {#global-report}
       + [Introdução a relatórios globais](reporting/global-reports.md)
       + [Relatório global de email](reporting/global-report-email.md)
-      + [Enviar relatório global](reporting/global-report-push.md)
+      + [Relatório global de push](reporting/global-report-push.md)
       + [Relatório global de SMS](reporting/global-report-sms.md)

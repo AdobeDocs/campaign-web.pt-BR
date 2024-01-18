@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="Ajuda e documentação"
->abstract="O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, oferecendo consistência, bem como outras soluções da Adobe."
+>abstract="O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface de usuário moderna simplifica o design e a entrega de campanhas de marketing e traz consistência, juntamente com outras soluções da Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -54,7 +54,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Ajuda e documentação"
->abstract="O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, oferecendo consistência, bem como outras soluções da Adobe."
+>abstract="O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface de usuário moderna simplifica o design e a entrega de campanhas de marketing e traz consistência, juntamente com outras soluções da Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
@@ -87,7 +87,7 @@ ht-degree: 93%
 O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform. [Saiba mais](get-started/get-started.md)
 
 >[!AVAILABILITY]
-> No momento, a Web do Campaign v8 está na versão de Disponibilidade limitada (DL). O acesso é restrito a um pequeno conjunto de clientes da América Latina. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio. [Saiba mais](rn/whats-new.md)
+> O Campaign Web v8 está atualmente na versão de disponibilidade limitada (LA). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio. [Saiba mais](rn/whats-new.md)
 
 ## Novos recursos do Campaign Web
 

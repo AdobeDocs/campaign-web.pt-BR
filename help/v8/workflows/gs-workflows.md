@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Fluxos de trabalho de vários canais"
+>title="Workflows entre canais"
 >abstract="Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn2"
->title="Fluxos de trabalho de vários canais"
+>title="Workflows entre canais"
 >abstract="Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
