@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Introdução a relatórios globais {#global-report-gs}
 
-A variável **Relatórios globais** funcionar como uma ferramenta eficiente, oferecendo um resumo geral consolidado das métricas de tráfego e engajamento para cada canal na instância do Campaign. Esses relatórios consistem em vários widgets, cada um oferecendo uma perspectiva distinta sobre a campanha ou o desempenho do delivery.
+Os **relatórios globais** funcionam como uma ferramenta eficiente, oferecendo um resumo geral consolidado das métricas de tráfego e engajamento para cada canal na instância do seu Campaign. Esses relatórios consistem em vários dispositivos, cada um oferecendo uma perspectiva distinta sobre sua campanha ou desempenho de entrega.
 
 A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 

@@ -6,7 +6,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 

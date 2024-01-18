@@ -25,7 +25,7 @@ ht-degree: 15%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-A variável **Relatórios de campanha** forneça uma visão geral abrangente de suas **campaign**, incorporando todas as informações pertinentes sobre os diferentes deliveries incluídos. Esses relatórios oferecem uma análise completa do desempenho de cada entrega por canal: taxas de sucesso, engajamento de público-alvo e outras métricas essenciais. Por isso, permitem avaliar a eficácia geral e o impacto da campanha.
+Os **relatórios de campanha** fornecem uma visão geral abrangente de sua **campanha**, incorporando todas as informações pertinentes sobre as diferentes entregas incluídas. Esses relatórios oferecem uma análise completa do desempenho de cada entrega por canal: taxas de sucesso, engajamento de público-alvo e outras métricas essenciais. Por isso, permitem avaliar a eficácia geral e o impacto da campanha.
 
 A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 

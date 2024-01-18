@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 40%
+source-wordcount: '451'
+ht-degree: 36%
 
 ---
 
@@ -60,7 +60,7 @@ Também é possível exibir os relatórios dedicados clicando no link **Relatór
 
 A campanha começa quando a data de início é atingida. Desde que a data de início não seja atingida, a campanha tem o **[!UICONTROL Rascunho]** status. Em seguida, quando a data de início é atingida, ela se transforma em **[!UICONTROL Em andamento]**. Quando a data final é atingida, a campanha é definida como **[!UICONTROL Concluído]**.
 
-As datas inicial e final são exibidas na lista de campanhas e podem ser usadas como um filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
+As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
 
 ![Definir as propriedades da campanha](assets/campaign-properties.png)
 

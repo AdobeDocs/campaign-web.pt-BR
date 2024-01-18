@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 36%
 >title="Relatórios agregados para entregas"
 >abstract="Selecione pelo menos duas entregas para exibir um relatório de dados agregado."
 
-A variável **Relatórios de entrega** forneça insights e dados detalhados exclusivamente focados em sua **deliveries** em cada canal. Esses relatórios fornecem informações detalhadas sobre o desempenho, a eficácia e os resultados de suas entregas individuais, oferecendo uma visão geral abrangente.
+Os **relatórios de entrega** fornecem insights e dados detalhados focados exclusivamente nas suas **entregas** em cada canal. Esses relatórios fornecem informações detalhadas sobre o desempenho, a eficácia e os resultados de suas entregas individuais, oferecendo uma visão geral abrangente.
 
 A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 

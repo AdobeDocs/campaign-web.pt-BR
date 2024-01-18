@@ -5,7 +5,7 @@ description: Saiba como começar com as campanhas entre canais
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 

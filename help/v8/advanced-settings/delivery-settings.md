@@ -155,7 +155,7 @@ Você também pode alterar o formato das mensagens de email enviadas:
 
   A mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar na mensagem.
 
-## Web Analytics {#web-analytics}
+## Análise da web {#web-analytics}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
