@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Se você precisar acessar os recursos do Campaign v8 que não estão disponívei
 
 >[!NOTE]
 >
->No momento, a Web do Campaign v8 está na versão de Disponibilidade limitada (DL). O acesso é restrito a um pequeno conjunto de clientes da América Latina. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
+>O Campaign Web v8 está atualmente na versão de disponibilidade limitada (LA). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
 
 Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign.md).
 
