@@ -2,11 +2,11 @@
 audience: end-user
 title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '444'
 ht-degree: 36%
 
 ---
@@ -24,23 +24,28 @@ ht-degree: 36%
 >title="Propriedades da campanha"
 >abstract="Nesta tela, é possível verificar e atualizar as configurações da campanha: rótulo, nome interno, pasta e descrição. Você também pode visualizar a quem ela está atribuída."
 
-Para criar uma nova campanha, você precisa definir suas propriedades, agendar e incluir workflows e deliveries.
+Para criar uma nova campanha, você precisa definir suas configurações, agendar e incluir workflows e deliveries.
 
-## Criar a campanha{#campaign-create}
+## Criar a campanha {#campaign-create}
 
 Para criar uma nova campanha, siga estas etapas:
 
 1. Clique em **[!UICONTROL Campanhas]** e clique no botão **[!UICONTROL Criar campanha]** botão.
+
+   ![Criar uma nova campanha](assets/create-campaign-button.png)
+
 1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. [Leia mais](manage-campaigns.md#manage-campaign-templates).
 1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
 1. Defina o **Agendar** da sua campanha. Saiba como definir a programação da campanha no [nesta seção](#campaign-schedule)
 1. Clique em **Create**.
+
+   ![Criar propriedades da campanha](assets/create-a-campaign-properties.png)
+
 1. Adicione workflows e deliveries à sua campanha:
 
    * No **Fluxos de trabalho** clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md).
-   * No **Entregas** clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
 
-1. Use o **Logs** e **Relatórios** para analisar o desempenho da sua campanha.
+   * No **Entregas** clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
 
 ## Monitorar e rastrear sua campanha{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ Também é possível exibir os relatórios dedicados clicando no link **Relatór
 
 ## Definir a programação da campanha {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Programação de campanha"
@@ -61,8 +65,6 @@ Também é possível exibir os relatórios dedicados clicando no link **Relatór
 A campanha começa quando a data de início é atingida. Desde que a data de início não seja atingida, a campanha tem o **[!UICONTROL Rascunho]** status. Em seguida, quando a data de início é atingida, ela se transforma em **[!UICONTROL Em andamento]**. Quando a data final é atingida, a campanha é definida como **[!UICONTROL Concluído]**.
 
 As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
-
-![Definir as propriedades da campanha](assets/campaign-properties.png)
 
 >[!NOTE]
 >

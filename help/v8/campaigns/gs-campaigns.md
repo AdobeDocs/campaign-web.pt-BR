@@ -2,12 +2,12 @@
 audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 92%
 
 ---
 
@@ -28,23 +28,10 @@ As campanhas oferecem métricas de relatórios dedicadas para obter insights abr
 
 ![Fluxo de campanha](assets/campaign-flow.png)
 
-Saiba como criar e gerenciar campanhas nas seguintes seções:
+Saiba como criar, gerenciar e monitorar campanhas nas seguintes seções:
 
 * [Acesso e gerenciamento de suas campanhas](manage-campaigns.md)
 * [Criar sua primeira campanha](create-campaigns.md)
+* [Navegue pelos seus relatórios de campanha](../reporting/campaign-reports.md).
 
 
-
-<!--
-Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
-
-Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
-Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
--->
-
-<!--
-Get Started with campaigns
-Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. Discover how to browse and create marketing campaigns in this section.
-
-Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
--->

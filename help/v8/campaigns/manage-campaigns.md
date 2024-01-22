@@ -2,12 +2,12 @@
 audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 76%
+source-wordcount: '711'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 76%
 >title="Programação de campanha"
 >abstract="Defina ou modifique a programação da campanha."
 
-Para criar uma nova campanha ou gerenciar suas campanhas já existentes, clique no menu **[!UICONTROL Campanhas]** no painel de navegação esquerdo.
+Para acessar e gerenciar suas campanhas, clique no link **[!UICONTROL Campanhas]** no menu de navegação esquerdo.
 
 ## Lista de campanhas {#access-campaigns}
 
@@ -30,43 +30,65 @@ Na lista de campanhas, duas guias estão disponíveis:
 
 ![Lista de campanhas](assets/campaign-list.png)
 
-Por padrão, cada campanha da lista exibe informações sobre seu status atual, data de criação, última modificação etc.
+Por padrão, cada campanha na lista exibe informações sobre seu status atual, datas de início e término, data de criação, a última vez que foi modificada, etc.
 
-É possível personalizar as colunas exibidas clicando no ícone **Configurar coluna para um layout personalizado** localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista. Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens).
+É possível personalizar as colunas exibidas clicando no ícone **Configurar coluna para um layout personalizado** localizado no canto superior direito da lista. Isso permite adicionar ou remover colunas e reordenar informações na lista de campanhas.
+
+Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens).
 
 Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use a seção **Data de início - término**:
 
 ![Filtro de campanha](assets/campaign-filter-on-dates.png)
 
-## Painel de campanha{#campaign-dashboard}
+## Painel de campanha {#campaign-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="Lista de entregas na campanha"
 >abstract="A guia **Entregas** lista todas as entregas vinculadas à campanha atual. Clique no nome de uma entrega para editar. Use o botão Criar entrega para adicionar uma nova entrega a esta campanha."
 
-Na guia **Procurar** da lista de campanhas, clique em uma campanha para exibir seus detalhes.
+No **Procurar** da lista da campanha, clique em um nome de campanha para exibir seus detalhes.
 
 ![Painel de campanha](assets/campaign-dashboard.png)
 
-O status e o cronograma da campanha são exibidos na parte superior da tela. Você pode usar o ícone **Definir configurações da campanha** para modificar as propriedades da campanha que foram definidas ao criá-la. Há três botões disponíveis que permitem visualizar logs, relatórios, duplicar ou excluir a campanha. Consulte esta [seção](create-campaigns.md#create-campaigns)
+O status e o cronograma da campanha são exibidos na parte superior da tela. Você pode usar o **Configurações** botão para atualizar as propriedades da campanha, como rótulo, pasta e descrição. Você também pode alterar a programação da campanha na tela de configurações. Saiba mais sobre a programação da campanha no [nesta seção](create-campaigns.md#campaign-schedule).
 
-Duas guias estarão disponíveis:
+No painel de campanha, use o **Logs** e **Relatórios** botões para monitorar sua campanha. Saiba mais nesta página [seção](create-campaigns.md#create-campaigns)
 
-* A guia **Workflows** lista todos os workflows vinculados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+Para cada campanha, o painel mostra duas guias principais: Workflows e Deliveries.
 
-* A guia **Entregas** lista todas as entregas vinculadas à campanha atual. Você também pode criar uma nova entrega dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A variável **Fluxos de trabalho** A guia lista todos os workflows associados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-## Duplicar e excluir uma campanha
-
-É possível duplicar ou excluir uma campanha:
-
-* na lista de campanhas, clique no botão de reticências e clique em **Duplicar** ou **Excluir**.
-* na própria campanha, clique no botão **Mais** e selecione **Duplicar** ou **Excluir**.
+* A variável **Entregas** A guia lista todos os deliveries criados na campanha atual. Você também pode criar uma nova entrega dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
 >A guia **Entrega** exibe todas as entregas vinculadas à campanha. No entanto, as entregas criadas em um fluxo de trabalho não podem ser excluídas dali. Para excluir uma entrega criada no contexto de um workflow, será necessário excluir a atividade de entrega do workflow. [Saiba mais](../msg/gs-messages.md#delivery-delete).
+
+
+## Excluir uma campanha {#campaign-delete}
+
+Há duas maneiras de excluir uma campanha:
+
+* na lista de campanhas, clique no botão de reticências e selecione **Excluir**
+
+  ![Excluir uma campanha da lista de campanhas](assets/delete-a-campaign-from-list.png)
+
+* na própria campanha, clique no link **Mais** e selecione **Excluir**
+
+  ![Excluir uma campanha do painel de campanha](assets/delete-a-campaign-from-dashboard.png)
+
+
+## Duplicar uma campanha {#campaign-duplicate}
+
+Há duas maneiras de duplicar uma campanha:
+
+* na lista de campanhas, clique no botão de reticências e selecione **Duplicar**
+
+* na própria campanha, clique no link **Mais** e selecione **Duplicar**
+
+Em ambos os casos, confirme a duplicação para criar a nova campanha. O rótulo da campanha **Cópia de`<label of the initial campaign`**. Navegue até as configurações da campanha para atualizar esse rótulo.
+
 
 ## Trabalhar com modelos de campanha{#manage-campaign-templates}
 
@@ -74,7 +96,8 @@ Os templates de campanha contêm configurações pré-definidas que podem ser re
 
 Um template de campanha pode armazenar as seguintes informações:
 
-* a campanha **Propriedades** e **Agendar** configurações
+* a campanha **Configurações**
+* a campanha  **Agendar**
 * modelos de fluxo de trabalho
 * templates do delivery
 

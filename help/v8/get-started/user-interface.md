@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidade limitada"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 81%
 
 ---
@@ -31,7 +31,7 @@ Saiba como se conectar ao Adobe Campaign e descubra as noções básicas de nave
 
 A home page do Campaign permite navegar de maneira rápida e fácil pelos principais recursos, indicadores e componentes.
 
-A seção superior da página inicial fornece detalhes sobre as atualizações mais recentes e os novos recursos disponíveis no produto, com links para as Notas de versão e a documentação relacionada.
+A seção superior da página inicial fornece detalhes sobre as atualizações mais recentes e os novos recursos disponíveis no produto, com links para as Notas de versão e a documentação detalhada. Use a seta para a esquerda para rolar pelos cartões de recursos.
 
 ![](assets/home.png)
 

@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ O Adobe Campaign Web apresenta um eficiente modelador de consultas que simplific
 * Definir públicos-alvo para suas mensagens ou workflows e criar facilmente novos públicos-alvo adaptados às suas necessidades
 * Aplicar regras em atividades de workflow, como Divisão e Reconciliação, para alinhar-se aos requisitos específicos
 * Criar filtros predefinidos que servem como atalhos durante diversas operações de filtragem, seja trabalhando com listas de dados ou formando o público-alvo para uma entrega
-* Adicionar uma regra para filtrar os dados exibidos nos relatórios.
+* Adicionar regra para filtrar os dados exibidos nos relatórios
 * Criar regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de entregas e muito mais
 
 Saiba mais [nesta seção](../query/query-modeler-overview.md).
