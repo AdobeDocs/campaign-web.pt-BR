@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2245'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -230,11 +230,11 @@ A variável **[!UICONTROL Estatísticas de entrega]** O relatório do fornece in
 * **[!UICONTROL Estimativa de encaminhamentos]**: Estimativa do número de emails encaminhados pelos recipients alvos.
 +++
 
-### Índice de abertura e click through {#email-tracking-click-through}
+### Índice de abertura e click-through {#email-tracking-click-through}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Índice de abertura e click through"
+>title="Índice de abertura e click-through"
 >abstract="A tabela **Índice de abertura e click through** exibe dados relativos ao engajamento dos recipients com a entrega."
 
 
@@ -286,10 +286,10 @@ O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores princi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Os 10 links mais visitados"
->abstract="A variável **Os 10 links mais visitados** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link."
+>abstract="O gráfico e a tabela **Os 10 links mais visitados** contêm os dados disponíveis sobre o comportamento do destinatário em cada link."
 
 
-A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link.
+O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis sobre o comportamento do destinatário em cada link.
 
 ![](assets/reporting_email_8.png){align="center"}
 

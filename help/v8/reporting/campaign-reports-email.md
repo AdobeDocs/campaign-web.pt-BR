@@ -7,7 +7,7 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Estatísticas iniciais do público-alvo"
->abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos recipients."
+>abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos destinatários."
 
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
@@ -207,7 +207,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem i
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Índice de abertura e click through"
+>title="Índice de abertura e click-through"
 >abstract="A tabela **Índice de abertura e click through** exibe dados relativos ao engajamento dos recipients com a entrega."
 
 A variável **[!UICONTROL Índice de abertura e click-through]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.

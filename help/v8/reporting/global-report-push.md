@@ -3,10 +3,11 @@ audience: end-user
 title: Relatórios globais para o canal de push
 description: Entender os relatórios globais do canal de push
 badge: label="Disponibilidade limitada"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 4%
+ht-degree: 26%
 
 ---
 
@@ -23,7 +24,7 @@ Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]**
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="Visão geral da entrega por push"
->abstract="O Push **visão geral do delivery** Os KPIs fornecem um exame completo dos deliveries por push, fornecendo insights detalhados e dados específicos. Ele fornece detalhes abrangentes sobre o desempenho, a eficácia e os resultados dos deliveries."
+>abstract="Os KPIs da **Visão geral da entrega por push** fornecem uma análise completa das entregas por push, com insights detalhados e dados específicos. Esses KPIs fornecem detalhes abrangentes sobre o desempenho, a eficácia e os resultados das entregas."
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com cada delivery de notificação por push. As métricas estão detalhadas abaixo.
 
@@ -46,7 +47,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="População direcionada por push"
->abstract="A variável **População direcionada** o gráfico e a tabela exibem dados relacionados ao público-alvo de mensagens de push, apresentando informações sobre mensagens a serem entregues e exclusões."
+>abstract="O gráfico e a tabela **População direcionada** exibem dados relacionados ao público-alvo das mensagens por push, apresentando informações sobre mensagens a serem entregues e exclusões."
 
 A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dados relacionados aos recipients para cada delivery de notificação por push enviado. As métricas estão detalhadas abaixo.
 
@@ -66,8 +67,8 @@ A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dado
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_delivery_stats"
->title="Estatísticas de entrega por push"
->abstract="A variável **Estatísticas gerais** O relatório de fornece informações sobre notificações por push enviadas, incluindo taxas de sucesso, erros e quarentenas."
+>title="Estatísticas da entrega por push"
+>abstract="O relatório **Estatísticas gerais** fornece informações sobre notificações por push enviadas, incluindo taxas de sucesso, erros e quarentenas."
 
 A variável **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso de cada delivery de notificação por push. As métricas estão detalhadas abaixo.
 
@@ -91,8 +92,8 @@ A variável **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
->title="Causas de exclusão por push"
->abstract="A variável **Causas de exclusão** O gráfico e a tabela ilustram os diversos motivos que impediram os perfis de usuário de receber as notificações por push."
+>title="Causas de exclusão de notificações por push"
+>abstract="O gráfico e a tabela **Causas de exclusão** ilustram os diversos motivos que impediram os perfis de usuário de receber as notificações por push."
 
 A variável **[!UICONTROL Causas de exclusão]** o gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem.
 
@@ -103,9 +104,8 @@ Os tipos de erro de notificações por push estão listados na variável [Docume
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"
 >title="Relatório de taxa de transferência de entrega"
->abstract="A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência de delivery de notificação por push de toda a plataforma em um período especificado."
+>abstract="O relatório de **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de notificações por push em toda a plataforma no período especificado."
 
 ![](assets/global_report_push_delivery_throughput.png)
 
 A variável **[!UICONTROL Taxa de transferência de entrega]** O relatório do oferece insights abrangentes sobre a eficácia do sistema de delivery de notificações por push, oferecendo um resumo detalhado das taxas de sucesso e erro por um período especificado.
-

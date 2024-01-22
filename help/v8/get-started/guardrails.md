@@ -6,7 +6,7 @@ exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ O posicionamento dos nós é atualizado sempre que uma atividade é adicionada o
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Este filtro é somente leitura"
->abstract="Alguns filtros predefinidos não estão disponíveis na interface dessa versão do produto. Esses filtros são marcados como somente leitura. Mesmo que não seja possível exibir a representação gráfica da consulta no modelador de consultas e editar o filtro, ainda será possível usá-lo e ver as condições de filtragem no **Atributos** seção da tela."
+>abstract="Alguns filtros predefinidos não estão disponíveis na interface dessa versão do produto. Esses filtros são marcados como somente leitura. Mesmo que não seja possível visualizar a representação gráfica da consulta no modelador de consulta e editar o filtro, você ainda poderá usá-lo e ver as condições de filtragem na seção **Atributos** da tela."
 
 Ao selecionar o público-alvo de uma entrega ou criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estarão disponíveis na interface nessa versão do produto. Esses filtros são marcados como somente leitura.
 
@@ -69,7 +69,7 @@ Uma mensagem de erro específica é exibida.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Mesmo que não seja possível exibir a representação gráfica da consulta no modelador de consultas e editar o filtro, ainda será possível usá-lo e ver as condições de filtragem no **Atributos** seção da tela.
+Mesmo que não seja possível visualizar a representação gráfica da consulta no modelador de consulta e editar o filtro, você ainda poderá usá-lo e ver as condições de filtragem na seção **Atributos** da tela.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

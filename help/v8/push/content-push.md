@@ -7,7 +7,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="Mensagem push do Android"
+>title="Mensagem por push para Android"
 >abstract="Defina o conteúdo da sua notificação por push para dispositivos Android. Para redigir a mensagem, clique nos campos **Título** e **Mensagem**. Use o Editor de expressão para personalizar dados e adicionar conteúdo dinâmico. Para personalizar ainda mais a notificação por push, você pode escolher uma imagem para adicionar à notificação por push, o ícone de notificação a ser exibido nos dispositivos dos perfis e sua cor. Para mais configurações personalizadas, navegue até a seção **Configurações avançadas**."
 
 

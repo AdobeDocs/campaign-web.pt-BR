@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 69%
+ht-degree: 72%
 
 ---
 
@@ -84,7 +84,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Selecione um público-alvo para a entrega"
->abstract="Selecione o melhor público-alvo para a sua mensagem de marketing. Você pode escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou no Adobe Experience Platform), criar um novo público-alvo usando o modelador de consultas ou fazer upload de um arquivo contendo seu público-alvo. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
+>abstract="Selecione o melhor público-alvo para a sua mensagem de marketing. É possível escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o modelador de consulta ou fazer upload de um arquivo que contenha o público-alvo. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecione os públicos-alvo principais"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
 

@@ -7,7 +7,7 @@ exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 42%
+ht-degree: 45%
 
 ---
 
@@ -100,7 +100,7 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="Taxa de transferência de entrega de SMS"
->abstract="A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
+>abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência da entrega em um período especificado.  A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
