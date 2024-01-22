@@ -4,9 +4,9 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilidade limitada"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 93%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 93%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-L
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Ajuda e documentação"
