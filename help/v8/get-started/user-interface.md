@@ -3,11 +3,11 @@ audience: end-user
 title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Beta"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+badge: label="Disponibilidade limitada"
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 81%
 
 ---
 
@@ -15,33 +15,36 @@ ht-degree: 100%
 
 A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. A nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
 
+Saiba como se conectar ao Adobe Campaign e descubra as noções básicas de navegação do Experience Cloud [neste artigo](connect-to-campaign.md).
+
 
 >[!NOTE]
 >
 >Esta documentação é atualizada com frequência para refletir as alterações recentes na interface do produto. Entretanto, algumas capturas de tela podem diferir ligeiramente da sua interface.
 
-
-## Menu de navegação esquerdo {#user-interface-left-nav}
-
-Navegue pelos links à esquerda para acessar os recursos do Campaign Web v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Algumas telas de lista são do tipo somente leitura. Os itens exibidos no menu de navegação esquerdo e nas listas dependem das permissões de usuário. Saiba mais sobre permissões [nesta seção](permissions.md).
-
-![](assets/home.png)
-
-### Página inicial {#user-interface-home}
-
-Esta tela inclui links e recursos importantes para um acesso rápido aos principais recursos do Campaign Web v8.
+## Página inicial do Campaign {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Recentes"
 >abstract="A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação."
 
-A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação. Clique no link **Mostrar mais** para carregar mais entregas.
+A home page do Campaign permite navegar de maneira rápida e fácil pelos principais recursos, indicadores e componentes.
+
+A seção superior da página inicial fornece detalhes sobre as atualizações mais recentes e os novos recursos disponíveis no produto, com links para as Notas de versão e a documentação relacionada.
+
+![](assets/home.png)
 
 Os **indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns. Saiba mais sobre esses KPIs [nesta página](../reporting/kpis.md).
 
+A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação. Clique no link **Mostrar mais** para carregar mais entregas.
 
-Acesse as principais páginas de ajuda do Campaign Web v8 na seção **Aprendizado** na página inicial.
+Além disso, você pode acessar as principais páginas de ajuda da Web do Campaign v8 no **Aprendizado** seção da página.
+
+## Menu de navegação esquerdo {#user-interface-left-nav}
+
+Navegue pelos links à esquerda para acessar os recursos do Campaign Web v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Algumas telas de lista são do tipo somente leitura. Os itens exibidos no menu de navegação esquerdo e nas listas dependem das permissões de usuário. Saiba mais sobre permissões [nesta seção](permissions.md).
+
 
 ### Explorer {#user-interface-explorer}
 
@@ -73,13 +76,25 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 * **Workflows** - Nessa tela, é possível acessar a lista completa de workflows e modelos de workflows. É possível verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo modelo de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar os workflows que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 
 
+### Gerenciamento de conteúdo {#user-interface-content-management}
+
+Na seção GERENCIAMENTO DE CONTEÚDO, você pode visualizar os modelos e fragmentos de conteúdo.
+
+* **Modelos de conteúdo** - Para um processo de design acelerado e aprimorado, você pode criar modelos independentes para reutilizar facilmente o conteúdo personalizado em [!DNL Adobe Campaign]. Disponível apenas para emails, essa funcionalidade permite que os usuários orientados a conteúdo trabalhem em modelos independentes para que os usuários de marketing possam reutilizar e adaptá-los em suas próprias campanhas de email. Saiba mais [nesta seção](../email/create-email-templates.md).
+
+<!--
+* **Fragments** -
+-->
+
 ### Gerenciamento de clientes {#user-interface-customer-management}
 
-Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os destinatários, públicos-alvo e assinaturas. Essas listas são do tipo somente leitura.
+Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os perfis, os públicos-alvo e as assinaturas. Essas listas são do tipo somente leitura.
 
-* **Recipients**: acessa o banco de dados de recipients. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre destinatários [nesta seção](../audience/about-recipients.md).
+* **Perfis** : crie e gerencie perfis e acesse o banco de dados do recipient. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre perfis em [nesta seção](../audience/about-recipients.md).
 * **Públicos-alvos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Saiba mais sobre públicos-alvo e listas [nesta seção](../audience/about-recipients.md).
-* **Assinaturas**: navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba mais sobre como gerenciar assinaturas e seus cancelamentos na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=pt-BR){target="_blank"}.
+* **Serviços de assinatura** - Navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba mais sobre como gerenciar assinaturas e seus cancelamentos na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=pt-BR){target="_blank"}.
+* **Filtros predefinidos** - Filtros predefinidos são filtros personalizados que são criados e salvos para estarem disponíveis para uso futuro. Elas podem ser usadas como atalhos durante qualquer operação de filtragem com o modelador de consultas, por exemplo, ao filtrar uma lista de dados ou criar o público-alvo de um delivery. Saiba mais [nesta seção](predefined-filters.md).
+
 
 ### Gestão de decisões {#decision-management}
 
@@ -95,15 +110,18 @@ Na seção GESTÃO DE DECISÕES, é possível visualizar as ofertas e os modelos
 
 Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.md).
 
+### Relatórios {#left-nav-reporting}
+
+* **Relatórios** - A **Relatório** A entrada oferece um resumo geral consolidado das métricas de tráfego e engajamento para cada canal no ambiente do Campaign. Esses relatórios consistem em vários widgets, cada um oferecendo uma perspectiva distinta sobre a campanha ou o desempenho do delivery. Saiba mais [nesta seção](../reporting/global-reports.md).
 
 
 ## Ajuda contextual {#user-interface-help}
 
 Uma ajuda contextual está disponível na interface. Quando disponível, clique no ícone `?` para exibir informações de ajuda e links de documentações relacionadas.
 
-![](assets/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Com a nova versão beta, o **Assistente de conhecimento habilitado por IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e as respostas a perguntas práticas, verificando facilmente vastos repositórios de documentação e identificando instantaneamente as informações exatas de que você precisa.
+Atualmente lançado como uma versão Beta na nova interface da Web do Campaign, o **Assistente de conhecimento habilitado para IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
 
 Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Caso esteja buscando orientação numa tarefa complexa ou navegando por documentos extensos, o Assistente de conhecimento habilitado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
