@@ -2,12 +2,12 @@
 audience: end-user
 title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 29%
+source-wordcount: '896'
+ht-degree: 22%
 
 ---
 
@@ -48,18 +48,20 @@ Depois de criar o fluxo de trabalho, os públicos resultantes são automaticamen
 Para criar um público-alvo, siga estas etapas:
 
 1. Navegue até a **[!UICONTROL Públicos-alvo]** e clique no botão **[!UICONTROL Criar público-alvo]** localizado no canto superior direito.
-1. Forneça um rótulo para o público.
-1. Expanda a **[!UICONTROL Opções adicionais]** seção para configurar parâmetros avançados de público-alvo.
 
-   Por padrão, os públicos-alvo são criados na **[!UICONTROL Perfis e públicos alvo]** / **[!UICONTROL Listas]** menu do explorador. É possível alterar o local de armazenamento padrão usando o **[!UICONTROL Pasta]** campo.
+1. Um novo fluxo de trabalho é criado automaticamente, permitindo combinar atividades para gerar seu público. Por padrão, a tela contém duas atividades principais:
 
-   ![](assets/audiences-settings.png)
+   * A variável &quot;Query&quot; **[!UICONTROL Criar público-alvo]** A atividade é o ponto de partida do fluxo de trabalho, permitindo criar um público-alvo e usá-lo como base para ele.
 
-1. Depois de definir as configurações de público-alvo, clique no **[!UICONTROL Criar público-alvo]** botão. Uma tela de workflow é exibida, apresentando duas atividades padrão:
+   * O &quot;Novo público-alvo&quot; **[!UICONTROL Salvar público-alvo]** A atividade representa a etapa final no fluxo de trabalho, permitindo salvar os resultados como um novo público-alvo.
 
-   * **[!UICONTROL Criar público-alvo]**: este é o ponto de partida do fluxo de trabalho, permitindo criar um público-alvo e usá-lo como base para ele.
+   ![](assets/create-audience-blank.png)
 
-   * **[!UICONTROL Salvar público-alvo]**: representa a etapa final do fluxo de trabalho, permitindo salvar os resultados do fluxo de trabalho como um novo público-alvo.
+   >[!IMPORTANT]
+   >
+   >Os fluxos de trabalho do público-alvo são armazenados no **Fluxos de trabalho** juntamente com os outros workflows do Campaign. Eles são especificamente projetados para construir públicos e são identificáveis por sua tela vertical.
+
+1. Para melhorar a compreensão, recomendamos alterar o nome do workflow nas configurações do workflow **Rótulo** campo. [Saiba como definir configurações de fluxo de trabalho](../workflows/workflow-settings.md)
 
 1. Abra o **[!UICONTROL Criar público-alvo]** atividade e usar o modelador de consultas para definir a população a ser incluída no público-alvo filtrando os dados contidos no banco de dados. [Saiba como configurar uma atividade Criar público-alvo](../workflows/activities/build-audience.md)
 
@@ -75,7 +77,7 @@ Para criar um público-alvo, siga estas etapas:
 
 1. Quando o workflow estiver pronto, clique em **[!UICONTROL Início]** para executá-lo.
 
-O workflow é salvo na variável **[!UICONTROL Fluxos de trabalho]** lista, enquanto os públicos resultantes estão acessíveis na **[!UICONTROL Públicos-alvo]** lista. Saiba como monitorar e gerenciar públicos-alvo no [nesta seção](manage-audience.md)
+O workflow é salvo na variável **[!UICONTROL Fluxos de trabalho]** lista, enquanto os públicos resultantes estão acessíveis na **[!UICONTROL Públicos-alvo]** com o rótulo definido na variável **Salvar público-alvo** atividade. Saiba como monitorar e gerenciar públicos-alvo no [nesta seção](manage-audience.md)
 
 Agora você pode usar esse público-alvo como o principal alvo de uma entrega. [Saiba mais](add-audience.md)
 
@@ -89,3 +91,17 @@ O exemplo abaixo mostra um fluxo de trabalho de público-alvo configurado para d
 1. A variável **[!UICONTROL Enriquecimento]** A atividade de enriquece o público-alvo com informações da tabela Purchases para identificar o tipo de produto que os clientes compraram.
 1. A variável **[!UICONTROL Split]** A atividade divide o fluxo de trabalho em dois caminhos com base na compra mais recente dos clientes.
 1. A variável **[!UICONTROL Salvar público-alvo]** as atividades no final de cada caminho criam dois novos públicos-alvo no banco de dados, incluindo a população calculada em cada caminho.
+
+## Editar um público {#edit}
+
+Você pode modificar um público-alvo gerado por um fluxo de trabalho sempre que necessário, executando novamente o fluxo de trabalho correspondente. Isso permite atualizar facilmente os dados do público ou refiná-lo ajustando a consulta para atender às suas necessidades.
+
+1. Navegue até a **Públicos-alvo** e abra o público-alvo que deseja editar.
+1. No **Visão geral** , a guia **Último fluxo de trabalho** fornece um link para o workflow usado para gerar o público. Clique nele para acessar o workflow.
+1. Faça as alterações desejadas e clique no link **Início** para executar o fluxo de trabalho novamente. Após a conclusão, o público-alvo resultante do fluxo de trabalho é atualizado automaticamente com os resultados mais recentes do fluxo de trabalho.
+
+Por padrão, a nova execução de um fluxo de trabalho de público-alvo substitui todo o conteúdo do público-alvo por novos dados, causando a perda de dados anteriores.
+
+Se preferir não substituir os resultados existentes do público, configure o **Salvar público-alvo** atividades para se alinhar aos seus requisitos. Por exemplo, você pode alterar a variável **Rótulo de público** para armazenar os novos resultados em um novo público ou adicionar os novos resultados ao conteúdo do público existente sem apagar os dados anteriores. [Saiba como configurar uma atividade Salvar público](../workflows/activities/save-audience.md)
+
+![](assets/edit-audience-save.png)
