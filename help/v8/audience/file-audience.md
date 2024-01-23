@@ -2,12 +2,12 @@
 audience: end-user
 title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 38%
+source-wordcount: '620'
+ht-degree: 41%
 
 ---
 
