@@ -4,10 +4,10 @@ title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Disponibilidade limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 58%
+source-wordcount: '898'
+ht-degree: 59%
 
 ---
 
@@ -26,7 +26,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >* [Criar entrega de SMS independente](../../sms/create-sms.md)
 >* [Criar entrega por push autônoma](../../push/create-push.md)
 
-## Crie seu fluxo de trabalho {#build-your-workflow}
+## Pré-requisitos {#channel-activity-prereq}
 
 Comece a criar seu workflow com as atividades relevantes:
 
