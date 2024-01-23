@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar um público-alvo da Adobe Experience Platform
 description: Saiba como usar um público-alvo da Adobe Experience Platform
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 32%
+source-wordcount: '327'
+ht-degree: 28%
 
 ---
 
@@ -40,6 +40,8 @@ Para selecionar um público-alvo da Adobe Experience Platform para o seu deliver
    ![](assets/select-audience-folder.png)
 
    Você também pode definir uma regra para filtrar a origem dos públicos-alvo, conforme abaixo:
+
+   A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o modelador de consultas, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

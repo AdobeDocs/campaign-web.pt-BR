@@ -3,11 +3,11 @@ audience: end-user
 title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="Disponibilidade limitada"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 34%
+source-wordcount: '317'
+ht-degree: 31%
 
 ---
 
@@ -28,15 +28,15 @@ Os públicos-alvo que podem ser direcionados em deliveries podem ser acessados n
 
 Para selecionar um público-alvo existente para sua mensagem, siga as etapas abaixo:
 
-1. No **Público** do assistente de criação de delivery, clique no link **[!UICONTROL Selecionar público]** e escolha
+1. No **Público** do assistente de criação de delivery, clique no link **[!UICONTROL Selecionar público]** e escolha **[!UICONTROL Selecionar público]** para usar um público existente.
 
    ![](assets/create-audience.png)
 
-1. Escolha a **[!UICONTROL Selecionar público-alvo]** para usar um público existente. Esta tela exibe todos os públicos-alvo existentes para a pasta atual.
+1. Esta tela exibe todos os públicos-alvo existentes para a pasta atual.
 
    ![](assets/create-audience2.png)
 
-   Para escolher um público-alvo do Adobe Experience Platform, navegue até o `AEP Audiences folder` na seção de filtro da tela.
+   Para escolher um público-alvo do Adobe Experience Platform, navegue até o `AEP Audiences folder` na seção de filtro da tela. [Saiba como usar um público-alvo do Adobe Experience Platform](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 

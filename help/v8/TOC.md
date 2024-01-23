@@ -6,9 +6,9 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Campaign Web v8
 hide: true
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '537'
 ht-degree: 91%
 
 ---
@@ -101,6 +101,7 @@ ht-degree: 91%
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
+      + [Usar um público-alvo da Adobe Experience Platform](audience/aep-audience.md)
       + [Configurar um grupo de controle](audience/control-group.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
       + [Criar e gerenciar serviços de assinatura](audience/manage-services.md)
