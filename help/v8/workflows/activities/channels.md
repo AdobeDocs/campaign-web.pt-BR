@@ -4,9 +4,9 @@ title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Disponibilidade limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 58%
 
 ---
@@ -28,15 +28,18 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 
 ## Crie seu fluxo de trabalho {#build-your-workflow}
 
-Comece a criar o workflow com as atividades relevantes antes de inserir a atividade de canal:
+Comece a criar seu workflow com as atividades relevantes:
 
-* Antes de inserir uma atividade de delivery, você deve definir o público. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas em uma atividade dedicada, como:
+* Antes de inserir uma atividade de canal, é necessário definir o público-alvo. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas em uma atividade dedicada, como:
 
    * A **Criar público-alvo** atividade. [Saiba mais](build-audience.md).
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **Carregar arquivo** atividade seguida de um **Reconciliação** atividade. [Saiba mais](load-file.md).
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * Para enviar um delivery recorrente, inicie o workflow com um **Scheduler** atividade. Você também pode usar uma **Scheduler** atividade de deliveries únicos únicos únicos únicos para definir a data de contato para esse delivery. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
