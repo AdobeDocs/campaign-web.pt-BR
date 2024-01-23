@@ -4,7 +4,7 @@ title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -41,8 +41,6 @@ Para selecionar um público-alvo existente para sua mensagem, siga as etapas aba
    ![](assets/select-audience-folder.png)
 
 1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o modelador de consultas, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. Clique em **Confirmar o** para adicionar seu público-alvo como o target principal do delivery. Depois de concluído, ainda é possível refinar o público-alvo usando o modelador de consulta clicando no link **Editar regras** botão.
 
