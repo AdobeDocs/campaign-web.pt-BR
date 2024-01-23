@@ -4,10 +4,10 @@ title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
 badge: label="Disponibilidade limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 68%
+source-wordcount: '905'
+ht-degree: 58%
 
 ---
 
@@ -28,17 +28,19 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 
 ## Crie seu fluxo de trabalho {#build-your-workflow}
 
-Comece a criar seu workflow com as atividades relevantes antes de fazer o delivery:
+Comece a criar o workflow com as atividades relevantes antes de inserir a atividade de canal:
 
-* Se quiser enviar um delivery recorrente, inicie o workflow com um **Scheduler** atividade. Se quiser enviar um delivery de uma só vez, defina a data de contato usando um **Scheduler** ou defina o cronograma nas configurações do delivery. Consulte [esta seção](scheduler.md).
+* Antes de inserir uma atividade de delivery, você deve definir o público. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas em uma atividade dedicada, como:
 
-* Adicionar um **Criar público-alvo** atividade. O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens Ao enviar mensagens no contexto de um fluxo de trabalho de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**. Consulte [esta seção](build-audience.md).
+   * A **Criar público-alvo** atividade. [Saiba mais](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-  >[!NOTE]
-  >
-  >Você também pode direcionar um público-alvo carregado de um arquivo. Para fazer isso, use um **Carregar arquivo** atividade seguida de um **Reconciliação** atividade. [Saiba mais](../../audience/about-recipients.md)
+   * A **Carregar arquivo** atividade seguida de um **Reconciliação** atividade. [Saiba mais](load-file.md).
+
+
+* Para enviar um delivery recorrente, inicie o workflow com um **Scheduler** atividade. Você também pode usar uma **Scheduler** atividade de deliveries únicos únicos únicos únicos para definir a data de contato para esse delivery. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
+
 
 ## Configurar a atividade Canal {#create-a-delivery-in-a-workflow}
 
@@ -68,24 +70,24 @@ Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 
 1. Selecione o **Tipo de entrega**: único ou recorrente.
 
-   * **Entrega única**: é um delivery de uma só vez, enviado apenas uma vez, por exemplo, um email Black Friday.
-   * **Entrega recorrente**: para esse tipo de delivery, você configura a frequência de execução usando um [atividade do scheduler](scheduler.md). Cada vez que o workflow é executado, o público-alvo é recalculado e o delivery é enviado com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente.
+   * A **Entrega única** é um delivery de uma só vez, enviado apenas uma vez, por exemplo, um email Black Friday.
+   * A **Entrega recorrente** é enviado várias vezes com base na frequência de execução definida em uma [atividade do scheduler](scheduler.md). Cada vez que o fluxo de trabalho é executado, o público-alvo é recalculado e o delivery é enviado ao público-alvo atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
 
 1. Selecione um **Modelo** da entrega. Os modelos são configurações de entrega pré-definidas, específicas para um canal. Um modelo integrado está disponível para cada canal e é preenchido previamente por padrão. [Saiba mais](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Você pode selecionar outro modelo no painel esquerdo de configuração das atividades do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto. Saiba mais sobre target mappings em [Documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}
+   Você pode selecionar o modelo no painel esquerdo da configuração de atividade do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto. Saiba mais sobre target mappings em [nesta seção](../../audience/targeting-dimensions.md)
 
-1. Clique em **Criar entrega**. Defina as configurações e o conteúdo da mensagem da mesma maneira que você cria uma entrega independente. Também é possível agendar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md)
+1. Clique em **Criar entrega**. Você pode então definir as configurações de mensagem e o conteúdo da mesma maneira que cria um delivery independente. Também é possível testar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md)
 
-1. Volte para o fluxo de trabalho. Se quiser continuar seu fluxo de trabalho, **Gerar uma transição de saída** para adicionar uma transição após a atividade de canal.
+1. Volte para o fluxo de trabalho. Se quiser continuar seu fluxo de trabalho, alterne a variável **Gerar uma transição de saída** opção para adicionar uma transição após a atividade channel.
 
 1. Clique em **Iniciar** para iniciar o fluxo de trabalho.
 
    Por padrão, iniciar um fluxo de trabalho aciona a etapa de preparação da mensagem, sem enviar imediatamente a mensagem.
 
-1. Abra a atividade de entrega para confirmar o envio no botão **Revisar e enviar**.
+1. Abra a atividade do canal para confirmar o envio do **Revisar e enviar** botão.
 
 1. No painel de entrega, clique em **Enviar**.
 
