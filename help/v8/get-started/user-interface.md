@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface da web do Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidade limitada"
-source-git-commit: 59929983859687081859e007b4e3b48a6279edee
+source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1654'
 ht-degree: 80%
 
 ---
@@ -405,4 +405,7 @@ Deprecated IDs - to remove in GA: -->
 >title="Este modelo é somente pronto"
 >abstract="A confirmar"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Gerar todos os subconjuntos na mesma tabela"
+>abstract="A confirmar"
