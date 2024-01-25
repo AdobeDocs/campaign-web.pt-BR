@@ -7,7 +7,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -99,7 +99,7 @@ No **Combinar** atividade, você pode configurar um **Interseção**. Para isso,
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="Complemento de geração de combinação"
->abstract="Ative a opção Generate complement para processar o público restante em uma transição adicional."
+>abstract="Ative a opção Gerar complemento para processar a população restante em uma transição adicional."
 
 No **Combinar** atividade, você pode configurar um **Exclusão**. Para isso, você precisa seguir as etapas adicionais abaixo:
 

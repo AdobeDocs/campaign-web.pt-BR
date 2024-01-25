@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 60%
+ht-degree: 64%
 
 ---
 
@@ -29,12 +29,12 @@ Essas configurações estão disponíveis no **Configurações** botão disponí
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no console do cliente do Campaign."
+>abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Configurações de tipologia para a entrega"
->abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no console do cliente do Campaign."
+>abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
 
 
 Tipologias são conjuntos de **regras de tipologia** que são executados durante a fase de preparação para aplicar facilmente várias regras de filtragem a uma entrega de uma vez. Eles permitem que os profissionais de marketing padronizem práticas comerciais em todos os deliveries, pois permitem controlar, filtrar e priorizar o envio de deliveries.
@@ -91,7 +91,7 @@ Use o campo **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliaç�
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Configurações de capacidade da entrega"
->abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega possa gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
+>abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega pode gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no Console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -160,7 +160,7 @@ Você também pode alterar o formato das mensagens de email enviadas:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Configurações de análise da web da entrega"
->abstract="Selecione uma conta de análise da web. Essa conta é configurada no console do Campaign Client. Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada."
+>abstract="Selecione uma conta de análise da web. Essa conta é configurada no Console do cliente do Campaign. Também é possível definir as tags compartilhadas com a ferramenta de análise utilizada."
 
 Nesta seção, você pode selecionar uma conta do Web Analytics. Essa conta é configurada no console do cliente do Campaign.
 
@@ -210,12 +210,12 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validade das configurações"
->abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.<br>A variável **Limite da validade de recursos** O campo é usado para recursos dos quais foram feitos upload, como mirror page ou imagens. Quando o limite for atingido, os recursos não estarão mais disponíveis."
+>abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.<br>O campo **Limite da validade dos recursos** é usado para recursos enviados por upload, como mirror page ou imagens. Quando o limite for atingido, os recursos não estarão mais disponíveis."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Limite da validade de recursos"
->abstract="A variável **Limite da validade de recursos** O campo é usado para recursos dos quais foram feitos upload, como mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
+>abstract="O campo **Limite da validade dos recursos** é usado para recursos enviados por upload, como a mirror page ou imagens. Esses recursos são válidos por um tempo limitado: quando o limite é atingido, os recursos não estarão mais disponíveis."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"

@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 60%
+ht-degree: 66%
 
 ---
 
@@ -20,28 +20,28 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
->title="Experimente a nova interface do Adobe Campaign"
->abstract="Mais moderno, intuitivo e dinâmico."
+>title="Explorar a nova interface do Adobe Campaign"
+>abstract="Mais moderna, intuitiva e dinâmica."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Item 1"
->abstract="Nova experiência de design de notificações por push, email, e SMS"
+>abstract="Nova experiência de design de email, SMS e notificações por push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
 >title="Item 2"
->abstract="Interface da tela de workflow simplificada"
+>abstract="Interface de tela simplificada do fluxo de trabalho "
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="UX recriado para públicos-alvo, assinatura, AEM Assets e páginas de aterrissagem"
+>abstract="UX recriada para públicos-alvo, assinatura, AEM Assets e páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="Modelador de consulta de última geração e designer de email"
+>abstract="Modelador de consultas e Designer de email de próxima geração"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -58,28 +58,28 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
->title="Experimente a nova interface do Adobe Campaign"
->abstract="Mais moderno, intuitivo e dinâmico."
+>title="Explorar a nova interface do Adobe Campaign"
+>abstract="Mais moderna, intuitiva e dinâmica."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
 >title="Item 1"
->abstract="Nova experiência de design de notificações por push, email, e SMS"
+>abstract="Nova experiência de design de email, SMS e notificações por push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
 >title="Item 2"
->abstract="Interface da tela de workflow simplificada"
+>abstract="Interface de tela simplificada do fluxo de trabalho "
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
 >title="Item 3"
->abstract="UX reformulada para públicos-alvo, assinatura e serviços, AEM Assets"
+>abstract="UX recriada para públicos-alvo, assinaturas e serviços, AEM Assets"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list4"
 >title="Item 4"
->abstract="IA generativa de email: geração de emails com base em solicitações"
+>abstract="IA generativa para email: geração de email baseada em solicitações"
 
 <!--TO REMOVE ABOVE-->
 

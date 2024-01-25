@@ -7,7 +7,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="Segmentos para a atividade de divisão"
->abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a variável **Split** for executada, a população será segmentada nos diferentes subconjuntos na ordem em que são adicionadas à atividade. Antes de iniciar o workflow, certifique-se de ter ordenado os subconjuntos na ordem que atenda às suas necessidades usando os botões de seta."
+>abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a atividade **Divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Antes de iniciar o fluxo de trabalho, certifique-se de ter ordenado os subconjuntos na ordem que atenda às suas necessidades usando os botões de seta."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"

@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
@@ -116,22 +116,22 @@ Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a a
 
 Agora você pode selecionar essas mensagens quando [criação de um serviço de assinatura](#create-service). Os usuários que assinarem ou cancelarem a assinatura desse serviço receberão as mensagens de confirmação selecionadas.
 
-## Monitore seus serviços de assinatura {#logs-and-reports}
+## Monitorar serviços de assinatura {#logs-and-reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Quantidade total de assinantes"
->abstract="Clique em **Calcular** o obtém o número total de assinantes deste serviço."
+>title="Número total de assinantes"
+>abstract="Clique em **Calcular** para obter o número total de assinantes deste serviço."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="Número de subscrições do período"
+>title="Número de assinaturas no período"
 >abstract="Use a lista suspensa para alterar o intervalo de tempo e exibir o número de assinaturas e cancelamentos de assinaturas durante o período selecionado."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evolução geral das assinaturas"
->abstract="Este gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução dos números e a porcentagem de fidelidade."
+>abstract="Este gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução em números e a porcentagem de fidelidade."
 
 Para medir a eficácia de seus serviços de assinatura para canais de SMS e email, você pode acessar os logs e relatórios de um determinado serviço.
 
