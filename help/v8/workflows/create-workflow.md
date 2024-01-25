@@ -4,10 +4,10 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar um fluxo de trabalho com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 20%
+source-wordcount: '792'
+ht-degree: 19%
 
 ---
 
@@ -53,6 +53,11 @@ Seu workflow agora é criado e está disponível na lista de workflows. Agora é
 >id="acw_workflow_template_for_campaign"
 >title="Templates de workflow"
 >abstract="Os modelos de fluxo de trabalho contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos fluxos de trabalho."
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_creation_properties"
+>title="Propriedades do fluxo de trabalho"
+>abstract="Os templates de workflow contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos workflows. Nesta tela, insira o rótulo do template de workflow e defina suas configurações, como o nome interno, a pasta e as pastas de execução, o fuso horário e o grupo supervisor."
 
 Os templates de workflow contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos workflows. É possível selecionar o template do workflow nas propriedades do workflow, ao criar um workflow. Um template vazio é fornecido por padrão.
 
