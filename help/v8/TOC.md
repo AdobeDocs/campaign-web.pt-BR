@@ -6,10 +6,10 @@ title: Documentação do Adobe Campaign Web v8
 description: Documentação do Campaign Web v8
 breadcrumb-title: Campaign Web v8
 hide: true
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 91%
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -92,11 +92,13 @@ ht-degree: 91%
    + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
    + Trabalho com perfis {#work-with-profiles}
-      + [Monitorar e gerenciar perfis](audience/about-recipients.md)
-      + [Criar e gerenciar perfis de teste](audience/test-profiles.md)
+      + [Introdução a perfis](audience/about-recipients.md)
+      + [Explorar detalhes dos perfis](audience/profile-view.md)
+      + [Criar um perfil](audience/create-profile.md)
+      + [Trabalhar com perfis de teste](audience/test-profiles.md)
    + Trabalho com públicos-alvo{#audiences}
       + [Criar públicos-alvo](audience/create-audience.md)
-      + [Monitorar e gerenciar públicos](audience/manage-audience.md)
+      + [Monitorar e gerenciar públicos-alvo](audience/manage-audience.md)
    + Selecione os destinatários da entrega {#target-audiences}
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
