@@ -1,16 +1,16 @@
 ---
 title: Criação de conteúdo condicional
-description: Saiba como definir condições para personalizar seu conteúdo na interface do Adobe Campaign Web
+description: Saiba como definir condições para personalizar seu conteúdo no Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Disponibilidade limitada"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 14%
+source-wordcount: '550'
+ht-degree: 11%
 
 ---
 
