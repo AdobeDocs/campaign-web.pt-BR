@@ -4,10 +4,10 @@ description: Central de ajuda do Campaign Web v8
 title: Documentação do produto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilidade limitada"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="UX recriada para públicos-alvo, assinatura, AEM Assets e páginas de destino"
+>abstract="UX recriado para públicos-alvo, assinatura, AEM Assets e páginas de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="Modelador de consultas e Designer de email de próxima geração"
+>abstract="Modelador de consulta de última geração e designer de email"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -134,7 +134,7 @@ Crie novos perfis e monitore-os com ferramentas e relatórios avançados. Acesse
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Conheça o Designer de email</strong><br/>Saiba como começar a partir de um modelo ou usar o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código.
+    <div><strong>Conheça o Designer de email</strong><br/>Saiba como começar a partir de um modelo ou usar o novo Designer de email do Adobe Campaign para criar emails sem precisar gravar uma única linha de código.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
