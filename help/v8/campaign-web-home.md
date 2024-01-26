@@ -1,17 +1,17 @@
 ---
 keywords: Campaign Web;página inicial;tópicos populares
-description: Central de ajuda do Campaign Web v8
-title: Documentação do produto Adobe Campaign Web v8
+description: Central de ajuda do Campaign na Web
+title: Documentação do produto da Adobe Campaign na Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilidade limitada"
-source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 62%
+source-wordcount: '688'
+ht-degree: 59%
 
 ---
 
-# Documentação do Adobe Campaign Web v8 {#campaign-documentation}
+# Documentação da Web do Adobe Campaign {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -86,11 +86,11 @@ ht-degree: 62%
 Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. Nossa versão mais recente contém recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais, gerar resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> O Campaign Web v8 está atualmente na versão de disponibilidade limitada (LA). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
+> No momento, o Adobe Campaign Web está na versão de Disponibilidade Limitada (DL). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
 
 ## Novidades
 
-Dê uma olhada nos últimos aprimoramentos e documentações do produto da Web Adobe Campaign v8! Para obter uma lista abrangente dos principais recursos e recursos de atualizações de versão, consulte [esta página](rn/whats-new.md).
+Dê uma olhada nos últimos aprimoramentos do produto e da documentação da Adobe Campaign na Web! Para obter uma lista abrangente dos principais recursos e recursos de atualizações de versão, consulte [esta página](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Crie novos perfis e monitore-os com ferramentas e relatórios avançados. Acesse
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Conheça a nova interface de usuário</strong><br/>Explore a nova interface e experiência de navegação da Web do Campaign v8 integrada ao Adobe Experience Platform.</div>
+    <div><strong>Conheça a nova interface de usuário</strong><br/>Explore a nova interface e experiência de navegação da Adobe Campaign Web integrada ao Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>

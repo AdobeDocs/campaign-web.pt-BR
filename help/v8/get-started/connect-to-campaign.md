@@ -1,18 +1,18 @@
 ---
 title: Conectar-se à interface web do Adobe Campaign
-description: Saiba como se conectar à interface web do Adobe Campaign v8
+description: Saiba como se conectar à interface da Web do Adobe Campaign
 badge: label="Disponibilidade limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 95%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
 # Conexão com o Adobe Campaign {#connect-to-campaign}
 
-A Experience Cloud é a família integrada de aplicativos, produtos e serviços de marketing digital da Adobe. Com sua interface intuitiva, você pode acessar rapidamente os aplicativos em nuvem, recursos do produto e serviços. Saiba como se conectar à Adobe Experience Cloud e acessar a interface web do Adobe Campaign v8 nesta página.
+A Experience Cloud é a família integrada de aplicativos, produtos e serviços de marketing digital da Adobe. Com sua interface intuitiva, você pode acessar rapidamente os aplicativos em nuvem, recursos do produto e serviços. Saiba como se conectar ao Adobe Experience Cloud e acessar a interface da Web do Adobe Campaign nesta página.
 
 ## Fazer logon na Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Navegue na barra superior da interface para:
 
 ## Navegadores compatíveis {#browsers}
 
-O Campaign Web v8 foi desenvolvido para funcionar de maneira ideal na versão mais recente do Google Chrome, Safari e Microsoft Edge. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou em outros navegadores.
+O Adobe Campaign Web foi projetado para funcionar de maneira ideal na versão mais recente do Google Chrome, Safari e Microsoft Edge. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou em outros navegadores.
 
 ## Preferências de idioma {#language-pref}
 
-Atualmente, o Campaign Web v8 está disponível nos seguintes idiomas:
+O Adobe Campaign Web está disponível atualmente nos seguintes idiomas:
 
 * Inglês (EUA) - EN-US
 * Francês - FR

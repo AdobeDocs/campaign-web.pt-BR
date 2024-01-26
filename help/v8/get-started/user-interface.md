@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Conheça a interface
-description: Interface da web do Campaign v8
+description: Interface de usuário da Web do Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidade limitada"
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '1697'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
 # Conheça a interface {#user-interface}
 
-A nova interface da Web do Campaign v8 oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. A nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
+A nova interface da Web do Adobe Campaign oferece uma experiência do usuário moderna e intuitiva para simplificar o design e o delivery de campanhas de marketing. A nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
 
 Saiba como se conectar ao Adobe Campaign e descubra as noções básicas de navegação do Experience Cloud [neste artigo](connect-to-campaign.md).
 
@@ -39,11 +39,11 @@ Os **indicadores principais de desempenho** permitem verificar a eficácia da pl
 
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação. Clique no link **Mostrar mais** para carregar mais entregas.
 
-Além disso, você pode acessar as principais páginas de ajuda da Web do Campaign v8 no **Aprendizado** seção da página.
+Além disso, você pode acessar as principais páginas de ajuda da Web do Adobe Campaign na **Aprendizado** seção da página.
 
 ## Menu de navegação esquerdo {#user-interface-left-nav}
 
-Navegue pelos links à esquerda para acessar os recursos do Campaign Web v8. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Algumas telas de lista são do tipo somente leitura. Os itens exibidos no menu de navegação esquerdo e nas listas dependem das permissões de usuário. Saiba mais sobre permissões [nesta seção](permissions.md).
+Navegue pelos links à esquerda para acessar os recursos da Web do Adobe Campaign. Vários links exibem listas de objetos que podem ser classificados e filtrados. Você também pode configurar colunas para exibir todas as informações necessárias. Consulte esta [seção](#list-screens). Algumas telas de lista são do tipo somente leitura. Os itens exibidos no menu de navegação esquerdo e nas listas dependem das permissões de usuário. Saiba mais sobre permissões [nesta seção](permissions.md).
 
 
 ### Explorer {#user-interface-explorer}
