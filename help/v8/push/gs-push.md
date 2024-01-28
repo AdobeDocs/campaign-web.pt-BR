@@ -2,12 +2,12 @@
 audience: end-user
 title: Introdução às notificações por push
 description: Saiba como criar e enviar notificações por push com o Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 73b87f94a2ac8478e44efb4ae74caf511baf0061
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 67%
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 

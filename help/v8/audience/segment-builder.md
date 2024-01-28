@@ -4,9 +4,9 @@ title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 59%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 O construtor de regras permite definir a população direcionada pelo delivery filtrando os dados contidos no banco de dados. É possível usá-lo para criar um público-alvo a partir de um fluxo de trabalho usando um **[!UICONTROL Criar público-alvo]** ou diretamente ao criar um delivery para criar um público-alvo único.
 
-* [Saiba como criar um público-alvo](create-audience.md)
+* [Saiba como criar e salvar um público-alvo](create-audience.md)
 * [Saiba como criar um público-alvo único para uma entrega](one-time-audience.md)
 
 ## A paleta
