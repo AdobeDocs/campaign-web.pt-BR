@@ -4,10 +4,10 @@ title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilidade limitada"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
-ht-degree: 64%
+source-wordcount: '2316'
+ht-degree: 65%
 
 ---
 
@@ -136,6 +136,8 @@ Você pode definir o seguinte **[!UICONTROL Enviando]** configurações:
 * **[!UICONTROL Testar entrega SMTP]**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
 
 * **[!UICONTROL Email Cco]**: essa opção é usada para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
+
+* **[!UICONTROL Enviar usando várias ondas]**: é possível aumentar progressivamente o volume enviado usando ondas. Esse aumento evitará que sua mensagem seja marcada como spam ou pode ser usado quando você quiser restringir o número de mensagens diárias. Ao usar ondas, você pode dividir as entregas em vários lotes, em vez de enviar grandes volumes de mensagens ao mesmo tempo. [Saiba mais](send-using-waves.md)
 
 Você também pode alterar o formato das mensagens de email enviadas:
 
