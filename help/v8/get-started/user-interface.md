@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 77%
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 A nova interface da Web do Adobe Campaign oferece uma experiência do usuário moderna e intuitiva para simplificar o design e o delivery de campanhas de marketing. A nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
 
-Saiba como se conectar ao Adobe Campaign e descubra as noções básicas de navegação do Experience Cloud [neste artigo](connect-to-campaign.md).
+Saiba como se conectar ao Adobe Campaign e conheça as noções básicas de navegação da Experience Cloud [neste artigo](connect-to-campaign.md).
 
 
 >[!NOTE]
@@ -29,9 +29,9 @@ Saiba como se conectar ao Adobe Campaign e descubra as noções básicas de nave
 >title="Recentes"
 >abstract="A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação."
 
-A home page do Campaign permite navegar de maneira rápida e fácil pelos principais recursos, indicadores e componentes.
+A página inicial do Campaign permite uma navegação rápida e fácil pelos principais recursos, indicadores e componentes.
 
-A seção superior da página inicial fornece detalhes sobre as atualizações mais recentes e os novos recursos disponíveis no produto, com links para as Notas de versão e a documentação detalhada. Use a seta para a esquerda para rolar pelos cartões de recursos.
+A seção superior da página inicial fornece detalhes sobre as atualizações mais recentes e os novos recursos disponíveis no produto, com links para as notas de versão e a documentação detalhada. Use a seta esquerda para rolar pelos cartões de recursos.
 
 ![](assets/home.png)
 
@@ -78,9 +78,9 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 
 ### Gerenciamento de conteúdo {#user-interface-content-management}
 
-Na seção GERENCIAMENTO DE CONTEÚDO, você pode visualizar os modelos e fragmentos de conteúdo.
+Na seção GERENCIAMENTO DE COUNTEÚDO, você pode visualizar os modelos e fragmentos de conteúdo.
 
-* **Modelos de conteúdo** - Para um processo de design acelerado e aprimorado, você pode criar modelos independentes para reutilizar facilmente o conteúdo personalizado em [!DNL Adobe Campaign]. Disponível apenas para emails, essa funcionalidade permite que os usuários orientados a conteúdo trabalhem em modelos independentes para que os usuários de marketing possam reutilizar e adaptá-los em suas próprias campanhas de email. Saiba mais [nesta seção](../email/create-email-templates.md).
+* **Modelos de conteúdo**: para um processo de design acelerado e aprimorado, você pode criar modelos independentes e reutilizar facilmente o conteúdo personalizado no [!DNL Adobe Campaign]. Disponível apenas para emails, essa funcionalidade permite que os usuários orientados por conteúdo trabalhem em modelos independentes para que a equipe de marketing possa reutilizá-los e adaptá-los em suas próprias campanhas de email. Saiba mais [nesta seção](../email/create-email-templates.md).
 
 <!--
 * **Fragments** -
@@ -88,12 +88,12 @@ Na seção GERENCIAMENTO DE CONTEÚDO, você pode visualizar os modelos e fragme
 
 ### Gerenciamento de clientes {#user-interface-customer-management}
 
-Na seção GERENCIAMENTO DE CLIENTES, você pode visualizar os perfis, os públicos-alvo e as assinaturas. Essas listas são do tipo somente leitura.
+Na seção GERENCIAMENTO DE CLIENTES, é possível visualizar perfis, públicos-alvo e assinaturas. Essas listas são do tipo somente leitura.
 
-* **Perfis** : crie e gerencie perfis e acesse o banco de dados do recipient. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre perfis em [nesta seção](../audience/about-recipients.md).
+* **Perfis**: crie e gerencie perfis e acesse o banco de dados do destinatário. Por padrão, você pode ver o endereço de email, o nome e o sobrenome. Saiba mais sobre perfis [nesta seção](../audience/about-recipients.md).
 * **Públicos-alvos**: esta é a lista de públicos. Por padrão, é possível ver o tipo, a origem, as datas de criação/última modificação e o rótulo. É possível filtrar a lista por origem. Saiba mais sobre públicos-alvo e listas [nesta seção](../audience/about-recipients.md).
-* **Serviços de assinatura** - Navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba mais sobre como gerenciar assinaturas e seus cancelamentos na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=pt-BR){target="_blank"}.
-* **Filtros predefinidos** - Filtros predefinidos são filtros personalizados que são criados e salvos para estarem disponíveis para uso futuro. Elas podem ser usadas como atalhos durante qualquer operação de filtragem com o modelador de consultas, por exemplo, ao filtrar uma lista de dados ou criar o público-alvo de um delivery. Saiba mais [nesta seção](predefined-filters.md).
+* **Serviços de assinatura**: navegue pelas listas de assinaturas. Por padrão, é possível ver o tipo, o modo e o rótulo. Saiba mais sobre como gerenciar assinaturas e seus cancelamentos na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=pt-BR){target="_blank"}.
+* **Filtros predefinidos**: filtros personalizados que são criados e salvos para uso futuro. Eles podem ser usados como atalhos durante qualquer operação de filtragem com o modelador de consultas, por exemplo, ao filtrar uma lista de dados ou criar o público-alvo de uma entrega. Saiba mais [nesta seção](predefined-filters.md).
 
 
 ### Gestão de decisões {#decision-management}
@@ -112,7 +112,7 @@ Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.
 
 ### Relatórios {#left-nav-reporting}
 
-* **Relatórios** - A **Relatório** A entrada oferece um resumo geral consolidado das métricas de tráfego e engajamento para cada canal no ambiente do Campaign. Esses relatórios consistem em vários widgets, cada um oferecendo uma perspectiva distinta sobre a campanha ou o desempenho do delivery. Saiba mais [nesta seção](../reporting/global-reports.md).
+* **Relatórios**: a entrada **Relatório** oferece um resumo geral consolidado das métricas de tráfego e engajamento de cada canal no ambiente do Campaign. Esses relatórios consistem em vários dispositivos, cada um oferecendo uma perspectiva distinta sobre a campanha ou o desempenho de entrega. Saiba mais [nesta seção](../reporting/global-reports.md).
 
 
 ## Ajuda contextual {#user-interface-help}
@@ -121,7 +121,7 @@ Uma ajuda contextual está disponível na interface. Quando disponível, clique 
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Atualmente lançado como uma versão Beta na nova interface da Web do Campaign, o **Assistente de conhecimento habilitado para IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
+Atualmente disponível em sua versão beta na interface web do Campaign, o **Assistente de conhecimento habilitado por IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e as respostas a perguntas práticas, vasculhando com facilidade os vastos repositórios de documentação e identificando instantaneamente as informações exatas de que você precisa.
 
 Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Caso esteja buscando orientação numa tarefa complexa ou navegando por documentos extensos, o Assistente de conhecimento habilitado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
@@ -346,7 +346,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
->title="Este modelo é somente pronto"
+>title="Este modelo é do tipo somente leitura"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]

@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 84%
    + [Acesso e permissões](get-started/permissions.md)
    + [Medidas de proteção e limitações](get-started/guardrails.md)
    + [Recursos incompatíveis](get-started/unsupported.md)
-   + [Ajuda contextual fornecida por IA](get-started/using-ai.md)
-+ Mensagens e deliveries {#msg}
+   + [Ajuda contextual habilitada por IA](get-started/using-ai.md)
++ Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
    + [Trabalho com entregas](msg/gs-deliveries.md)
    + [Usar modelos de entrega](msg/delivery-template.md)
@@ -71,7 +71,7 @@ ht-degree: 84%
       + [Introdução às notificações por push](push/gs-push.md)
       + [Criar uma entrega de notificação por push](push/create-push.md)
       + [Criar uma entrega por push](push/content-push.md)
-      + [Pré-visualizar e enviar um delivery por push](push/send-push.md)
+      + [Visualizar e enviar uma entrega por push](push/send-push.md)
    + SMS {#sms}
       + [Introdução às entregas de SMS](sms/gs-sms.md)
       + [Criar uma entrega de SMS](sms/create-sms.md)
@@ -119,13 +119,13 @@ ht-degree: 84%
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
-   + [Acessar e gerenciar workflows](workflows/access-monitor.md)
-   + Criar e executar o primeiro fluxo de trabalho {#create-workflow}
-      + [Princípios básicos da criação de workflows](workflows/gs-workflow-creation.md)
+   + [Acessar e gerenciar fluxos de trabalho](workflows/access-monitor.md)
+   + Criar e executar seu primeiro fluxo de trabalho {#create-workflow}
+      + [Princípios básicos da criação de fluxos de trabalho](workflows/gs-workflow-creation.md)
       + [Criar o workflow](workflows/create-workflow.md)
       + [Orquestrar atividades](workflows/orchestrate-activities.md)
       + [Definir as configurações do workflow](workflows/workflow-settings.md)
-      + [Iniciar e monitorar os workflows](workflows/start-monitor-workflows.md)
+      + [Iniciar e monitorar fluxos de trabalho](workflows/start-monitor-workflows.md)
    + Trabalhar com atividades de workflow {#design-workflows}
       + [Sobre as atividades de workflow](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)

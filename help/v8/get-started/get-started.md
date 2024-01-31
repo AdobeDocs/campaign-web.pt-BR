@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 68%
+ht-degree: 87%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 68%
 >title="Introdução"
 >abstract="A nova interface da Web do Adobe Campaign oferece uma experiência do usuário integrada, intuitiva e consistente."
 
-O Adobe Campaign fornece uma plataforma para criar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o real-time interaction management e a execução entre canais.
+O Adobe Campaign fornece uma plataforma para criar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o Real-time Interaction Management e a execução entre canais.
 
-O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para vários canais de marketing, como email, notificações por push, SMS e correspondência direta. Ele oferece recursos avançados de ETL e gerenciamento de dados para ajudar a criar e preparar a campanha perfeita. Seu mecanismo de orquestração fornece programas de marketing multitoque avançados com foco principal em jornadas orientadas por lote. Ele também vem com um servidor de mensagens escalável em tempo real que permite que as equipes de marketing enviem mensagens predefinidas com base em uma carga abrangente a partir de qualquer sistema de TI para comunicações como redefinição de senha, confirmação de pedido, geração de recibos eletrônicos e muito mais.
+O Adobe Campaign v8 é uma ferramenta de campanha de última geração criada para vários canais de marketing, como email, notificações por push, SMS e correspondência direta. Ele oferece recursos avançados de ETL e gerenciamento de dados para ajudar a criar e preparar a campanha perfeita. Seu mecanismo de orquestração fornece programas de marketing multitoque avançados com foco principal em jornadas orientadas por lote. Ele também conta com um servidor de mensagens escalável em tempo real que permite que as equipes de marketing enviem mensagens predefinidas com base em um conteúdo abrangente a partir de qualquer sistema de TI, a fim de fornecer informações sobre redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
 
 Use o Campaign para:
 
@@ -45,7 +45,7 @@ Inicialmente disponível somente por meio de um [console do cliente](#ac-client)
 
 Essa nova interface atende primeiro às necessidades do **profissional de negócios**. Todas as tarefas administrativas típicas não estão disponíveis nesta primeira versão, mas serão abordadas em versões subsequentes. Observe que, por enquanto, nem todas as funcionalidades ou opções disponíveis no console do cliente estão disponíveis na nova interface. Novos casos de uso, opções e recursos estarão disponíveis em versões futuras.
 
-Como administrador ou usuário especialista, se precisar acessar recursos do Campaign v8 que não estão disponíveis na interface do usuário da Web, você pode se conectar à [console do cliente](#ac-client).
+Como admin ou usuário avançado, se você precisar acessar os recursos do Campaign v8 que não estão disponíveis na interface da web, poderá usar o [console do cliente](#ac-client).
 
 
 >[!NOTE]
@@ -62,4 +62,4 @@ Os dados da campanha são armazenados no servidor de aplicativos. Os dados estã
 
 Alguns objetos só podem ser criados e gerenciados no console do cliente. Eles podem ser vistos e usados na interface do Campaign Web, mas não podem ser criados nem modificados neste ambiente. Todos os objetos e componentes do Campaign estão disponíveis na visualização do Explorer, disponível na navegação à esquerda.
 
-Para obter mais informações sobre como usar o Campaign v8 com o console do cliente, consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como usar o Campaign v8 com o console do cliente, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"}.

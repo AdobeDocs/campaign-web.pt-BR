@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -53,7 +53,7 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 
 Navegue na barra superior da interface para:
 
-* compartilhar feedback sobre a interface da Web do Campaign
+* compartilhar feedback sobre a interface web do Campaign
 * alternar entre suas organizações
 * alternar entre as soluções e aplicativos da Adobe Experience Cloud
 * procurar ajuda sobre a [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}
@@ -92,7 +92,7 @@ Para alterar o idioma:
 
 >[!CAUTION]
 >
->Se planeja usar [Ajuda contextual fornecida por IA](using-ai.md) recursos, você deve definir seu idioma preferido como inglês. Outros idiomas não são suportados.
+>Se planeja usar os recursos da [Ajuda contextual habilitada por IA](using-ai.md), você deve definir seu idioma preferencial como inglês. Não há suporte para outros idiomas.
 >
 
 

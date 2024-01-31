@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Princípios básicos da criação de workflows
-description: Saiba mais sobre os princípios-chave dos fluxos de trabalho com o Adobe Campaign Web
+title: Princípios básicos da criação de fluxos de trabalho
+description: Conheça os princípios básicos dos fluxos de trabalho no Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
 
-# Princípios básicos da criação de workflows {#gs-workflow-creation}
+# Princípios básicos da criação de fluxos de trabalho {#gs-workflow-creation}
 
 Com o Adobe Campaign Web, você pode criar fluxos de trabalho em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 
@@ -21,11 +21,11 @@ Com o Adobe Campaign Web, você pode criar fluxos de trabalho em uma tela visual
 
 O diagrama de workflow é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
-![](assets/workflow-example.png) {zoom=&quot;yes&quot;}
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
-Cada workflow contém:
+Cada fluxo de trabalho contém:
 
-* **Atividades**: Uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
+* **Atividades**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
   Em um diagrama de workflow, uma dada atividade pode produzir várias tarefas, principalmente quando houver ações de loop ou recorrentes.
 
