@@ -5,9 +5,9 @@ description: Saiba como começar com as campanhas entre canais
 badge: label="Disponibilidade limitada"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,6 +32,6 @@ Saiba como criar, gerenciar e monitorar campanhas nas seguintes seções:
 
 * [Acesso e gerenciamento de suas campanhas](manage-campaigns.md)
 * [Criar sua primeira campanha](create-campaigns.md)
-* [Navegue pelos seus relatórios de campanha](../reporting/campaign-reports.md).
+* [Navegar pelos relatórios de campanha](../reporting/campaign-reports.md).
 
 

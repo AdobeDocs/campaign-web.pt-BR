@@ -5,9 +5,9 @@ description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ O Adobe Campaign Web apresenta um eficiente modelador de consultas que simplific
 * Definir públicos-alvo para suas mensagens ou workflows e criar facilmente novos públicos-alvo adaptados às suas necessidades
 * Aplicar regras em atividades de workflow, como Divisão e Reconciliação, para alinhar-se aos requisitos específicos
 * Criar filtros predefinidos que servem como atalhos durante diversas operações de filtragem, seja trabalhando com listas de dados ou formando o público-alvo para uma entrega
-* Adicionar regra para filtrar os dados exibidos nos relatórios
+* Adicionar uma regra para filtrar os dados exibidos nos relatórios.
 * Criar regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de entregas e muito mais
 
 Saiba mais [nesta seção](../query/query-modeler-overview.md).
@@ -79,7 +79,7 @@ Use a nova interface do Campaign Web para:
 * Criar, projetar, personalizar, agendar e enviar notificações por email, SMS e por push – [Saiba mais](../msg/gs-messages.md)
 * Criar conteúdo de email personalizado com o Designer de email – [Saiba mais](../email/edit-content.md)
 * Enviar campanhas entre canais, incluindo SMS e notificações por push - [Saiba mais](../workflows/activities/channels.md)
-* Definir públicos-alvo com o modelador de consultas - [Saiba mais](../audience/about-recipients.md)
+* Definir os públicos-alvo com o modelador de consulta - [Saiba mais](../audience/about-recipients.md)
 * Visualizar, testar e enviar suas mensagens - [Saiba mais](../monitor/prepare-send.md)
 * Monitorar o envio e medir os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 

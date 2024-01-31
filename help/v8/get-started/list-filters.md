@@ -5,9 +5,9 @@ description: Saiba como procurar e filtrar listas no Campaign Web v8
 badge: label="Disponibilidade limitada"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
