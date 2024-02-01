@@ -6,20 +6,16 @@ badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 37%
+source-wordcount: '462'
+ht-degree: 32%
 
 ---
 
 # Introdução ao Assistente de conteúdo {#generative-gs}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="IA generativa para conteúdo de email"
->abstract="Nossa tecnologia de IA generativa utiliza algoritmos avançados para gerar um conteúdo personalizado altamente envolvente. Promova maiores taxas de abertura, taxas de click-through e conversões com a geração de conteúdo inteligente da IA generativa. "
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
+
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
