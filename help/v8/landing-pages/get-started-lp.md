@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução às landing pages
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -15,8 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
->abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar a aquisição de dados de perfil e os fluxos de aceitação/recusa de maneira rápida e contínua.
-."
+>abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar a aquisição de dados de perfil e os fluxos de aceitação/recusa de maneira rápida e contínua."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
