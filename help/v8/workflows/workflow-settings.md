@@ -4,10 +4,10 @@ title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 29%
+source-wordcount: '917'
+ht-degree: 26%
 
 ---
 
@@ -29,23 +29,24 @@ Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponí
 >title="Propriedades do fluxo de trabalho"
 >abstract="Esta seção fornece propriedades genéricas de fluxo de trabalho que também podem ser acessadas ao criar o fluxo de trabalho. É possível escolher o modelo a ser usado para criar o fluxo de trabalho e especificar um rótulo. Expanda a seção Opções adicionais para definir configurações específicas, como a pasta de armazenamento do fluxo de trabalho ou o fuso horário."
 
-A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que também podem ser acessadas ao criar o workflow.
+A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que também podem ser acessadas ao criar o workflow. Essas propriedades são:
 
-* **[!UICONTROL Rótulo]**: o rótulo do fluxo de trabalho que é exibido na lista.
-* **[!UICONTROL Nome]**: o nome interno do workflow.
-* **[!UICONTROL Pasta]**: a pasta onde o fluxo de trabalho deve ser salvo.
-* **[!UICONTROL Campanha vinculada]**: este campo é exibido se o workflow foi criado em uma campanha. Ele permite abrir a campanha associada.
-* **[!UICONTROL Fuso horário]**: defina um fuso horário específico para usar por padrão em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
-Outros valores possíveis são:
+* A variável **[!UICONTROL Rótulo]** do fluxo de trabalho exibido na lista.
+* O mercado interno **[!UICONTROL Nome]** do workflow.
+* A variável **[!UICONTROL Pasta]** onde o workflow deve ser salvo.
+* O padrão **[!UICONTROL Fuso horário]** para usar em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
+Os valores possíveis são:
    * **Fuso horário do servidor** para usar o fuso horário do servidor de aplicativos Adobe Campaign
    * **Fuso horário do operador** para usa o fuso horário do operador do Adobe Campaign que executa o fluxo de trabalho, conforme definido no perfil do operador, no console do cliente
    * **Fuso horário do banco de dados** para usar o fuso horário do servidor de banco de dados
    * Um fuso horário específico
+* Quando um workflow falha, os operadores pertencentes ao grupo de operadores selecionado no **[!UICONTROL Supervisor(es)]** são notificados por email.
+* *Você também pode inserir um **[!UICONTROL Descrição]** do seu fluxo de trabalho.
 
-* **[!UICONTROL Supervisor(es)]**: quando um workflow falha, os operadores pertencentes ao grupo de operadores selecionado neste campo são notificados por email.
-* **[!UICONTROL Descrição]**: use esse campo para fornecer uma descrição do fluxo de trabalho.
+Quando o fluxo de trabalho é [associado a uma campanha](create-workflow.md), ele é exibido no **[!UICONTROL Campanha vinculada]** campo. Você pode abrir a campanha associada nesse campo.
 
-## Configurações de segmentação
+
+## Configurações de segmentação  {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
@@ -56,9 +57,9 @@ Outros valores possíveis são:
 
 * **[!UICONTROL Manter o resultado de públicos provisórios entre duas execuções]**: por padrão, somente as tabelas de trabalho da última execução do workflow são mantidas. As tabelas de trabalho das execuções anteriores são removidas por um workflow técnico, executado diariamente.
 
-  Se essa opção estiver ativada, as tabelas de trabalho serão mantidas mesmo após a execução do workflow. Você pode usá-lo para fins de teste e, portanto, deve ser usado apenas em ambientes de desenvolvimento ou de preparo. Nunca deve ser verificado em um workflow de produção.
+  Se essa opção estiver ativada, as tabelas de trabalho serão mantidas mesmo após a execução do workflow. Você pode usá-lo para fins de teste e, portanto, deve ser usado **somente** em ambientes de desenvolvimento ou de preparo. Nunca deve ser verificado em um workflow de produção.
 
-## Configurações de execução
+## Configurações de execução  {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -73,16 +74,16 @@ Outros valores possíveis são:
 
 * **[!UICONTROL Afinidade padrão]**: se a instalação incluir vários servidores de workflow, use esse campo para escolher a máquina em que o workflow será executado. Se o valor definido nesse campo não existir em nenhum servidor, o workflow permanecerá pendente.
 
-* **[!UICONTROL Salvar consultas SQL no log]**: permite salvar as consultas SQL do workflow nos logs. Essa operação é reservada para usuários avançados. Aplica-se a workflows que contêm atividades de direcionamento como **[!UICONTROL Criar público-alvo]**. Quando essa opção está habilitada, as consultas SQL enviadas ao banco de dados durante a execução do workflow são exibidas nos logs do workflow, permitindo analisá-las para otimizar as consultas ou diagnosticar problemas.
+* **[!UICONTROL Salvar consultas SQL no log]**: marque essa opção para salvar as consultas SQL do workflow nos logs. Essa operação é reservada para usuários avançados. Aplica-se a workflows que contêm atividades de direcionamento como **[!UICONTROL Criar público-alvo]**. Quando essa opção está habilitada, as consultas SQL enviadas ao banco de dados durante a execução do workflow são exibidas nos logs do workflow, permitindo analisá-las para otimizar as consultas ou diagnosticar problemas.
 
-## Configurações de gerenciamento de erros
+## Configurações de gerenciamento de erros  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Configurações de gerenciamento de erros"
->abstract="Nesta seção, é possível gerenciar como o fluxo de trabalho deve se comportar quando ocorrer um erro durante sua execução (pausar/parar a execução ou ignorar erros)."
+>abstract="Nesta seção, é possível definir como o workflow deve gerenciar erros durante sua execução. Você pode optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução do workflow."
 
-* **[!UICONTROL Gerenciamento de erros]**: este campo permite que você defina as ações a serem tomadas se uma tarefa de workflow tiver erros. Há duas opções possíveis:
+* **[!UICONTROL Gerenciamento de erros]**: este campo permite que você defina as ações a serem tomadas se uma tarefa de workflow tiver erros. Há três opções possíveis:
 
    * **[!UICONTROL Suspender processo]**: o workflow é pausado automaticamente e seu status é alterado para **[!UICONTROL Failed]**. Quando o problema for resolvido, retome o workflow usando o **[!UICONTROL Retomar]** botões.
    * **[!UICONTROL Ignorar]**: O status da tarefa que provocou o erro muda para **[!UICONTROL Failed]**, mas o workflow mantém o **[!UICONTROL Iniciado]** status. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
