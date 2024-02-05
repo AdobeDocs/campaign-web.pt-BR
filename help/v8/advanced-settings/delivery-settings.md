@@ -112,9 +112,9 @@ A variável **[!UICONTROL Importância do destinatário]** field é uma fórmula
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Configurações do público-alvo da entrega"
->abstract="Selecione um **target mapping** entre os disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. Também é possível definir os parâmetros de exclusão da entrega. "
+>abstract="Selecione um **target mapping** entre os disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. Também é possível definir os parâmetros de exclusão da entrega. "
 
-Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os mapeamentos de públicos-alvo são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
+Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
 
 Saiba mais sobre target mappings em [nesta seção](../audience/targeting-dimensions.md).
 
