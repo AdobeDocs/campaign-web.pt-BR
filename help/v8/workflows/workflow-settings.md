@@ -4,7 +4,7 @@ title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 26%
@@ -20,7 +20,7 @@ Essas configurações são pré-definidas no template selecionado ao criar o wor
 
 Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponível na barra de ações acima da tela do fluxo de trabalho.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## Propriedades do fluxo de trabalho {#properties}
 
@@ -29,10 +29,15 @@ Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponí
 >title="Propriedades do fluxo de trabalho"
 >abstract="Esta seção fornece propriedades genéricas de fluxo de trabalho que também podem ser acessadas ao criar o fluxo de trabalho. É possível escolher o modelo a ser usado para criar o fluxo de trabalho e especificar um rótulo. Expanda a seção Opções adicionais para definir configurações específicas, como a pasta de armazenamento do fluxo de trabalho ou o fuso horário."
 
-A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que também podem ser acessadas ao criar o workflow. Essas propriedades são:
+A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que também podem ser acessadas ao criar o workflow.
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+Essas propriedades são:
 
 * A variável **[!UICONTROL Rótulo]** do fluxo de trabalho exibido na lista.
-* O mercado interno **[!UICONTROL Nome]** do workflow.
+* A variável **[!UICONTROL Nome interno]** do workflow.
 * A variável **[!UICONTROL Pasta]** onde o workflow deve ser salvo.
 * O padrão **[!UICONTROL Fuso horário]** para usar em todas as atividades do workflow. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
 Os valores possíveis são:
