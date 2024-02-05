@@ -2,9 +2,9 @@
 title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1003'
 ht-degree: 10%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Criar e gerenciar páginas de destino"
->abstract="O Adobe Campaign permite criar e projetar páginas de destino para direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo."
+>abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar, adquirir, assinaturas/cancelamentos de assinaturas e lista de bloqueios casos de uso com base em modelos integrados."
 
-Para direcionar seus clientes para uma página da Web definida que você deseja exibir ao clicar em um link específico, crie uma página de aterrissagem em [!DNL Adobe Campaign], criar o conteúdo, testá-lo e publicá-lo.
+O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar, adquirir, assinaturas/cancelamentos de assinaturas e lista de bloqueios casos de uso com base em modelos integrados.
 
 ## Acessar páginas de destino {#access-landing-pages}
 
