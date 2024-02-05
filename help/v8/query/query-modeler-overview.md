@@ -3,7 +3,8 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 39%
@@ -16,13 +17,13 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
 >title="Novo modelador de consultas"
->abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados."
+>abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consultas está disponível em todo contexto onde é preciso definir regras para filtrar dados."
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Novo modelador de consultas"
->abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados."
+>abstract="O Adobe Campaign Web apresenta um modelador de consultas que simplifica o processo de filtragem de bancos de dados, selecionando itens específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consultas está disponível em todo contexto onde é preciso definir regras para filtrar dados."
 
 <!--TO REMOVE ABOVE-->
 
@@ -36,7 +37,7 @@ O Adobe Campaign Web apresenta um modelador de consultas que simplifica o proces
 
 ## Acessar o modelador de consultas
 
-O modelador de consulta está disponível em todo contexto onde é preciso definir regras para filtrar dados.
+O modelador de consultas está disponível em todo contexto onde é preciso definir regras para filtrar dados.
 
 | Uso | Exemplo |
 |  ---  |  ---  |

@@ -1,5 +1,5 @@
 ---
-title: Principais indicadores de desempenho
+title: Indicadores-chave de desempenho
 description: Saiba como entender os indicadores principais de desempenho
 badge: label="Disponibilidade limitada"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
@@ -10,12 +10,12 @@ ht-degree: 79%
 
 ---
 
-# Principais indicadores de desempenho {#kpis}
+# Indicadores-chave de desempenho {#kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
->title="Indicadores principais de desempenho"
->abstract="A seção **Indicadores principais de desempenho** permite verificar a eficiência da plataforma por meio de KPIs comuns."
+>title="Indicadores-chave de desempenho"
+>abstract="A seção **Indicadores-chave de desempenho** permite verificar a eficiência da plataforma por meio de KPIs comuns."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
