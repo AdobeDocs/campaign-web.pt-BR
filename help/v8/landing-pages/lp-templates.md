@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com modelos de conteúdo de página de aterrissagem
 description: Saiba como salvar conteúdo da página de aterrissagem como um modelo de design e reutilizá-lo no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 14%
@@ -56,4 +56,4 @@ Na próxima vez que criar uma landing page, você poderá usar esse template par
 
 1. Edite seu conteúdo conforme desejado usando o designer da landing page.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Visualizar conteúdo do delivery
-description: Saiba como visualizar o conteúdo do delivery com a interface do usuário da Web do Campaign
+description: Saiba como pré-visualizar o conteúdo de delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidade limitada"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -30,21 +30,18 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
    * **[!UICONTROL Adicionar assinante(s)]** para visualizar notificações por push
 
-1. Você pode combinar perfis de teste e perfis para visualizar sua mensagem de email ou SMS.
+1. Você pode combinar perfis e perfis de teste para visualizar sua mensagem de email ou SMS.
 
    * A variável **[!UICONTROL Perfis de teste]** lista todos os seed addresses, que são recipients adicionais e fictícios no banco de dados.
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >Perfis de teste podem ser criados no **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
+     Perfis de teste podem ser criados no **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
 
-   * A variável **[!UICONTROL Perfis]** A guia lista todos os destinatários armazenados no **[!UICONTROL Perfis e públicos alvo]** pasta do [!DNL Campaign] console. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >Você também pode visualizar e gerenciar perfis na guia correspondente na interface do usuário da Web do Campaign. [Saiba mais](../audience/about-recipients.md)
+   * A variável **[!UICONTROL Perfis]** A guia lista todos os destinatários armazenados no **[!UICONTROL Perfis e públicos alvo]** pasta do [!DNL Campaign] console do cliente. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+
+     É possível exibir, criar e gerenciar perfis no **[!UICONTROL Perfis]** guia. [Saiba mais](../audience/about-recipients.md)
+
 
 1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
 

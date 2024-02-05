@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Edição do conteúdo de email
-description: Saiba como começar a criar conteúdo usando o Designer de email na interface do Campaign Web
+description: Saiba como começar a criar conteúdo usando o Designer de email na interface do usuário da Web do Campaign
 badge: label="Disponibilidade limitada"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 

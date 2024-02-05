@@ -1,56 +1,56 @@
 ---
-title: Medidas de proteção e limitações na interface do Campaign Web
-description: Medidas de proteção e limitações na interface do Campaign Web
+title: Medidas de proteção e limitações na interface da Web do Campaign
+description: Medidas de proteção e limitações na interface da Web do Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # Medidas de proteção e limitações {#guardrails-limitations}
 
-Ao trabalhar na interface do Campaign Web com componentes criados ou modificados no console do cliente do Campaign, as medidas de proteção e as limitações listadas abaixo se aplicam.
+Ao trabalhar na interface do usuário da Web do Campaign com componentes criados ou modificados no console do cliente do Campaign, as medidas de proteção e as limitações listadas abaixo se aplicam.
 
 ## Workflows {#wf-guardrails-limitations}
 
 ### Atividades
 
-As atividades de fluxo de trabalho que ainda não são compatíveis com a interface da web são somente leitura e exibidas como atividades incompatíveis. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc. As atividades de fluxo de trabalho disponíveis na interface da web e no console do cliente são editáveis.
+As atividades de fluxo de trabalho que ainda não são compatíveis com a interface da Web do Campaign são somente leitura e exibidas como atividades incompatíveis. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc. As atividades de workflow disponíveis na interface da Web do Campaign e no console do cliente do Campaign podem ser editadas.
 
-| Console | Interface da web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-As configurações da atividade de fluxo de trabalho que ainda não são compatíveis com a interface da web não são exibidas. No entanto, quando o fluxo de trabalho é executado, essas configurações se aplicam.
+As configurações de atividade do fluxo de trabalho que ainda não são compatíveis na interface do usuário da Web não são exibidas. No entanto, quando o fluxo de trabalho é executado, essas configurações se aplicam.
 
-| Console | Interface da web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-No console, a atividade **Enriquecimento** pode executar a reconciliação e o enriquecimento. Na interface da web, os recursos de reconciliação ainda não estão disponíveis. Se você tiver definido no console as configurações de reconciliação na atividade de **Enriquecimento**, ela será exibida como uma atividade somente leitura não compatível na interface da web.
+No console, a atividade **Enriquecimento** pode executar a reconciliação e o enriquecimento. Na interface do usuário da Web do Campaign, os recursos de reconciliação ainda não estão disponíveis. Se você tiver definido, no console do cliente, as configurações de reconciliação no **Enriquecimento** será exibida como uma atividade somente leitura não compatível na interface da Web do Campaign.
 
-| Console | Interface da web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Tela
 
-Ao criar um novo fluxo de trabalho na interface da web, a tela é compatível apenas um ponto de entrada. No entanto, se você criou um fluxo de trabalho no console com vários pontos de entrada, é possível abri-lo e editá-lo na interface da Web.
+Ao criar um novo workflow na interface da Web do Campaign, a tela oferece suporte apenas a um ponto de entrada. No entanto, se você criou um fluxo de trabalho no console com vários pontos de entrada, é possível abri-lo e editá-lo na interface do usuário da Web do Campaign.
 
-| Console | Interface da web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Os loops ainda não estão disponíveis na interface da Web. Se você criou um fluxo de trabalho incluindo um loop usando o console, não é possível acessá-lo a partir da interface da web. Uma mensagem de erro é exibida.
+Os loops ainda não estão disponíveis na interface da Web do Campaign. Se você criou um workflow incluindo um loop usando o console, não é possível acessá-lo na interface do usuário da Web do Campaign. Uma mensagem de erro é exibida.
 
-| Console | Interface da web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-O posicionamento dos nós é atualizado sempre que uma atividade é adicionada ou removida. Ao criar um fluxo de trabalho no console, modifique-o usando a interface da web e reabra-o no console. Você poderá observar algumas pequenas imperfeições de posicionamento. Isso não afeta os processos e as tarefas do fluxo de trabalho.
+O posicionamento dos nós é atualizado sempre que uma atividade é adicionada ou removida. Se você criar um fluxo de trabalho no console, modificá-lo usando a interface da Web do Campaign e reabri-lo no console, poderá notar algumas pequenas imperfeições de posicionamento. Isso não afeta os processos e as tarefas do fluxo de trabalho.
 
 | Fluxo de trabalho inicial | Alteração de posicionamento |
 | --- | --- |

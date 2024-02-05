@@ -3,10 +3,10 @@ title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface da Web do Adobe Campaign
 badge: label="Disponibilidade limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 
 Navegue na barra superior da interface para:
 
-* compartilhar feedback sobre a interface web do Campaign
+* compartilhar feedback sobre a interface da Web do Campaign
 * alternar entre suas organizações
 * alternar entre as soluções e aplicativos da Adobe Experience Cloud
 * procurar ajuda sobre a [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}

@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Gerenciamento de permissões no Campaign Web
-description: Saiba mais sobre permissões no Campaign Web v8
+title: Gerenciamento de permissões na interface da Web do Campaign
+description: Saiba mais sobre permissões na interface da Web do Campaign
 badge: label="Disponibilidade limitada"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 

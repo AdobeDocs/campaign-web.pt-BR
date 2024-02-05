@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: ht
-source-wordcount: '1295'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 84%
 
 ---
 
@@ -32,11 +32,11 @@ Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. 
 
 ## Principais recursos {#key-features}
 
-Esta nova interface do Campaign Web está atualmente em **disponibilidade limitada** com os seguintes recursos:
+Essa nova interface de usuário da Web do Campaign vem com os seguintes recursos:
 
 **Experiência moderna, intuitiva e unificada**
 
-A nova interface do Campaign Web oferece uma nova experiência de usuário, alinhada a todas as soluções e aplicativos da Adobe Experience Cloud. Ele oferece:
+Campaign A nova interface da Web oferece uma nova experiência de usuário, alinhada a todas as soluções e aplicativos da Adobe Experience Cloud. Ele oferece:
 
 * Acesso à nova interface do Campaign e as suas outras soluções da Adobe com uma única sessão de usuário compartilhada
 * Nova experiência de navegação, com todos os menus e pastas disponíveis no painel esquerdo
@@ -48,14 +48,14 @@ Saiba como fazer logon na Adobe Experience Cloud e se conectar ao Campaign [nest
 
 **Novos recursos avançados e processos contínuos**
 
-A interface do Adobe Campaign Web fornece um ambiente gráfico abrangente que permite projetar processos complexos que podem ajudar a gerenciar suas campanhas de marketing com facilidade. Ela vem com:
+A interface da Web do Adobe Campaign fornece um ambiente gráfico abrangente que permite criar processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade. Ela vem com:
 
 * Nova interface da tela de workflow para criar e gerenciar seus processos
 * Conteúdo dinâmico para oferecer experiências altamente direcionadas e personalizadas para seu público-alvo
 * Integração nativa com públicos-alvo da Adobe Experience Platform
 * Gerenciamento de modelos para workflows, entregas, campanhas e conteúdo
 
-Saiba mais sobre a nova interface [nesta página](../get-started/user-interface.md).
+Saiba mais sobre a nova interface de usuário da Web no [esta página](../get-started/user-interface.md).
 
 **Novo modelador de consultas simplificado e intuitivo**
 
@@ -74,7 +74,7 @@ Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
 Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados. Ao adicionar vários workflows e entregas específicos à campanha, você pode criar experiências personalizadas em vários canais, garantindo que cada touchpoint corresponda ao público-alvo desejado.
 
-Use a nova interface do Campaign Web para:
+Use a nova interface da Web do Campaign para:
 
 * Criar, projetar, personalizar, agendar e enviar notificações por email, SMS e por push – [Saiba mais](../msg/gs-messages.md)
 * Criar conteúdo de email personalizado com o Designer de email – [Saiba mais](../email/edit-content.md)
@@ -105,7 +105,7 @@ Os principais recursos que acompanham o lançamento da disponibilidade limitada 
 
 * **Fácil criação e gerenciamento de perfis**
 
-  Você pode usar a nova interface da Web para **criar e atualizar recipients** no banco de dados diretamente do menu Recipients. Um formulário simplificado de edição de perfil permite que você insira as informações e atributos de contato do recipient e atualize um recipient já existente, sem usar o console do cliente.
+  É possível usar a nova interface da Web do Campaign para **criar e atualizar destinatários** no banco de dados diretamente do menu Recipients. Um formulário simplificado de edição de perfil permite que você insira as informações e atributos de contato do recipient e atualize um recipient já existente, sem usar o console do cliente.
 
   Saiba mais [nesta seção](../audience/about-recipients.md).
 
@@ -132,7 +132,7 @@ Os principais recursos que acompanham o lançamento da disponibilidade limitada 
 
 * **Filtros predefinidos**
 
-  Introdução ao gerenciamento de filtros predefinidos. O Campaign Web agora oferece uma interface amigável para **gerenciar e personalizar filtros predefinidos com facilidade**, a fim de atender às suas necessidades específicas. Crie uma vez e salve para uso futuro.
+  Introdução ao gerenciamento de filtros predefinidos. A interface da Web do Campaign oferece uma interface fácil de usar para **gerenciar e personalizar filtros predefinidos** para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro.
 
   Saiba mais [nesta seção](../get-started/predefined-filters.md).
 
@@ -145,21 +145,21 @@ Os principais recursos que acompanham o lançamento da disponibilidade limitada 
 
 * **SMS com ofertas**
 
-  A nova interface da Web agora permite **integrar ofertas com o canal de SMS** além do email. Alcance o seu público-alvo em seus dispositivos móveis fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada da Web.
+  A nova interface da Web do Campaign permite **integrar ofertas com SMS** além de Email. Alcance o seu público-alvo em seus dispositivos móveis fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada da Web.
 
   Saiba mais [nesta seção](../msg/offers.md).
 
-## Transição para a interface do Campaign Web
+## Transição para a interface da Web do Campaign
 
 Como usuário do Campaign, você ainda pode acessar o console do cliente para criar e gerenciar recursos e componentes do Campaign. Os dados e as configurações são sincronizados de um ambiente para outro. Saiba mais [nesta seção](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Além disso, todos os seus dados e configurações já disponíveis no console do cliente, estarão visíveis na interface do Campaign Web, no painel de navegação Explorer, à esquerda. Saiba mais sobre a visualização do Explorer [nesta seção](../get-started/user-interface.md#explorer-user-interface-explorer).
+Além disso, todos os dados e configurações já disponíveis no console do cliente estão visíveis na interface do usuário da Web do Campaign, a partir da navegação à esquerda do Explorer. Saiba mais sobre a visualização do Explorer [nesta seção](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Com o lançamento da interface do Campaign Web, a interface refletirá as permissões do usuário. Saiba mais sobre permissões [nesta página](../get-started/permissions.md)
+Com a interface da Web do Campaign, a interface reflete as permissões do usuário. Saiba mais sobre permissões [nesta página](../get-started/permissions.md)
 
 ## Atualizações de terminologia {#terminology-updates}
 
-Como um usuário existente do Campaign, observe que alguns conceitos foram renomeados para alinhar-se aos padrões de terminologia mais recentes. Essas alterações se aplicam somente à interface do Campaign Web e não se refletem no console do cliente. Elas estão detalhadas abaixo.
+Como um usuário existente do Campaign, observe que alguns conceitos foram renomeados para alinhar-se aos padrões de terminologia mais recentes. Essas alterações se aplicam somente à interface da Web do Campaign e não são refletidas no console do cliente. Elas estão detalhadas abaixo.
 
 * Agora, as provas são **Testar emails**: para enviar uma prova, use o botão **Teste** na interface da entrega de email. O público-alvo das provas agora é referenciado como **Perfis de teste**. [Saiba mais](../preview-test/test-deliveries.md).
 * Agora, os seed addresses são usados como **Perfis de teste**: envie o email de teste para os seed addresses, que são destinatários adicionais no banco de dados. [Saiba mais](../preview-test/test-deliveries.md).

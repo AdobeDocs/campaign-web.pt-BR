@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Testar a renderização do email
-description: Saiba como testar a renderização do email na interface do Campaign Web
+description: Saiba como testar a renderização de email na interface da Web do Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Disponibilidade limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 8%
+source-wordcount: '228'
+ht-degree: 3%
 
 ---
 
