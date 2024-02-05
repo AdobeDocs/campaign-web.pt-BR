@@ -7,7 +7,7 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
@@ -57,9 +57,9 @@ Seu workflow agora é criado e está disponível na lista de workflows. Agora é
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_creation_properties"
 >title="Propriedades do fluxo de trabalho"
->abstract="Os templates de workflow contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos workflows. Nesta tela, insira o rótulo do template de workflow e defina suas configurações, como o nome interno, a pasta e as pastas de execução, o fuso horário e o grupo supervisor."
+>abstract="Os modelos de fluxo de trabalho contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos fluxos de trabalho. Nesta tela, insira o rótulo do modelo de fluxo de trabalho e defina suas configurações, como nome interno, pasta e pastas de execução, fuso horário e grupo de supervisores."
 
-Os templates de workflow contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos workflows. É possível selecionar o template do workflow nas propriedades do workflow, ao criar um workflow. Um template vazio é fornecido por padrão.
+Os modelos de fluxo de trabalho contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos fluxos de trabalho. É possível selecionar o template do workflow nas propriedades do workflow, ao criar um workflow. Um template vazio é fornecido por padrão.
 
 Você pode criar um modelo a partir de um fluxo de trabalho existente ou criar um novo modelo do zero. Ambos os métodos são detalhados abaixo.
 

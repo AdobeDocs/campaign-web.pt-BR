@@ -5,15 +5,15 @@ badge: label="Disponibilidade limitada"
 source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 10%
+ht-degree: 26%
 
 ---
 
-# Criar e publicar páginas de destino {#create-lp}
+# Criar e publicar landing pages {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
->title="Criar e gerenciar páginas de destino"
+>title="Criar e gerenciar landing pages"
 >abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar, adquirir, assinaturas/cancelamentos de assinaturas e lista de bloqueios casos de uso com base em modelos integrados."
 
 O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar, adquirir, assinaturas/cancelamentos de assinaturas e lista de bloqueios casos de uso com base em modelos integrados.
@@ -48,23 +48,23 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Definir o conteúdo das páginas"
->abstract="Edite o conteúdo de cada página que faz parte desta página de aterrissagem."
+>abstract="Edite o conteúdo de cada página que faz parte desta landing page."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Agendar a página de aterrissagem"
->abstract="É possível definir uma data de início e uma data de término para a landing page. Quando a página expira, a variável **Expiração** é exibida."
+>title="Agendar a landing page"
+>abstract="Você pode definir uma data inicial e uma data final para sua landing page. Quando a página expirar, a página **Expiração** será exibida."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Definir as configurações da página principal"
->abstract="A página principal é exibida imediatamente depois que as pessoas clicam no link de página de destino que consta em um email ou site."
+>abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da landing page que consta em um email ou site."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Definir a página de aterrissagem da sua assinatura"
->abstract="Uma página de subscrição permite que seus clientes assinem um serviço."
+>title="Definir a landing page da sua assinatura"
+>abstract="Uma página de assinatura permite que seus clientes assinem um serviço."
 
 <!--The main steps to create landing pages are as follows:
 
@@ -102,18 +102,18 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
    ![](assets/lp-storage-schedule.png)
 
-1. É possível definir uma data de início e uma data de término para a landing page. Selecionar **[!UICONTROL Ativar agendamento]** e defina as datas. Quando a página expira, a variável **[!UICONTROL Expiração]** é exibida.
+1. Você pode definir uma data inicial e uma data final para sua landing page. Selecionar **[!UICONTROL Ativar agendamento]** e defina as datas. Quando a página expirar, a página **[!UICONTROL Expiração]** será exibida.
 
 1. Clique em **[!UICONTROL Revisar e publicar]**.
 
 Depois de configurar e projetar todas as páginas, é possível [test](#test-landing-page) e [publicar](#publish-landing-page) sua landing page.
 
-## Testar a página de destino {#test-landing-page}
+## Testar a landing page {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simular sua página de aterrissagem"
->abstract="Você pode pré-visualizar sua landing page na interface da Web do Campaign ou abri-la em uma nova guia do navegador da Web."
+>title="Simular a landing page"
+>abstract="Você pode ver uma pré-visualização da landing page na interface do Campaign Web ou abri-la em uma nova guia do navegador da web."
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

@@ -7,11 +7,11 @@ badge: label="Disponibilidade limitada"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
-# Documentação da Web do Adobe Campaign {#campaign-documentation}
+# Documentação do Adobe Campaign Web {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -36,12 +36,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="UX recriado para públicos-alvo, assinatura, AEM Assets e páginas de aterrissagem"
+>abstract="UX recriada para públicos-alvo, assinatura, AEM Assets e landing pages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="Modelador de consulta de última geração e designer de email"
+>abstract="Modelador de consultas e designer de email de próxima geração"
 
 <!--
 >[!CONTEXTUALHELP]

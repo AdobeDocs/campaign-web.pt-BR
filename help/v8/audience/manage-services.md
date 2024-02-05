@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 22%
+ht-degree: 30%
 
 ---
 
@@ -94,14 +94,14 @@ Agora você pode:
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
->title="Selecionar o template do delivery de subscrições"
->abstract="Para enviar mensagens de confirmação aos usuários que assinam seu serviço, você deve selecionar um template do delivery específico com base na variável **[!UICONTROL Assinaturas]** target mapping, sem um destino definido."
+>title="Selecione o modelo de entrega de assinaturas"
+>abstract="Para enviar mensagens de confirmação a usuários que assinam seu serviço, é necessário selecionar um modelo de entrega específico com base no target mapping **[!UICONTROL Assinaturas]**, sem um público-alvo definido."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
->title="Selecionar o template do delivery de unsubscriptions"
->abstract="Para enviar mensagens de confirmação aos usuários que cancelam a assinatura do seu serviço, você deve selecionar um template do delivery específico com base na variável **[!UICONTROL Assinaturas]** target mapping, sem um destino definido."
+>title="Selecione o modelo de entrega de cancelamento de assinatura"
+>abstract="Para enviar mensagens de confirmação a usuários que cancelaram a assinatura do seu serviço, você deve selecionar um modelo de entrega específico com base no target mapping **[!UICONTROL Assinaturas]**, sem público-alvo definido."
 
 Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a assinatura do seu serviço, você deve criar um template do delivery com o **[!UICONTROL Assinaturas]** target mapping, sem um destino definido. Para fazer isso, siga as etapas abaixo.
 

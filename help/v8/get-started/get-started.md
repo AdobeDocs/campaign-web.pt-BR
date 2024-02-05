@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Introdução à Adobe Campaign Web
-description: Introdução à Adobe Campaign Web
+title: Introdução ao Adobe Campaign Web
+description: Introdução ao Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilidade limitada"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 64%
+ht-degree: 74%
 
 ---
 
-# Introdução à Adobe Campaign Web {#get-started}
+# Introdução ao Adobe Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Introdução"
->abstract="A nova interface da Web do Adobe Campaign oferece uma experiência do usuário integrada, intuitiva e consistente."
+>abstract="A nova interface do Adobe Campaign Web oferece uma experiência do usuário integrada, intuitiva e consistente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Introdução"
->abstract="A nova interface da Web do Adobe Campaign oferece uma experiência do usuário integrada, intuitiva e consistente."
+>abstract="A nova interface do Adobe Campaign Web oferece uma experiência do usuário integrada, intuitiva e consistente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Introdução"
->abstract="A nova interface da Web do Adobe Campaign oferece uma experiência do usuário integrada, intuitiva e consistente."
+>abstract="A nova interface do Adobe Campaign Web oferece uma experiência do usuário integrada, intuitiva e consistente."
 
 O Adobe Campaign fornece uma plataforma para criar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o Real-time Interaction Management e a execução entre canais.
 
