@@ -4,7 +4,7 @@ title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 25%
@@ -46,7 +46,7 @@ Os valores possíveis são:
    * **Fuso horário do banco de dados** para usar o fuso horário do servidor de banco de dados
    * Um fuso horário específico
 * Quando um workflow falha, os operadores pertencentes ao grupo de operadores selecionado no **[!UICONTROL Supervisor(es)]** são notificados por email.
-* *Você também pode inserir um **[!UICONTROL Descrição]** do seu fluxo de trabalho.
+* Você também pode inserir um **[!UICONTROL Descrição]** do seu fluxo de trabalho.
 
 Quando o fluxo de trabalho é [associado a uma campanha](create-workflow.md), ele é exibido no **[!UICONTROL Campanha vinculada]** campo. Você pode abrir a campanha associada nesse campo.
 
