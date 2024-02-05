@@ -3,9 +3,9 @@ title: Trabalhar com filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos no Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ Filtros predefinidos são filtros personalizados que são criados e salvos para 
 
 Você pode usar filtros incorporados existentes para acessar um subconjunto específico dos seus dados ou criar seus próprios filtros predefinidos e salvá-los.
 
-![](assets/predefined-filters-menu.png)
+![](assets/predefined-filters-menu.png){zoom=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
