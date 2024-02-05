@@ -4,9 +4,9 @@ title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 badge: label="Disponibilidade limitada"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '940'
 ht-degree: 30%
 
 ---
@@ -70,11 +70,11 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
 1. Por padrão, os serviços são armazenados no **[!UICONTROL Serviços e assinaturas]** pasta. Você pode alterá-la navegando até o local desejado. [Saiba como trabalhar com pastas](../get-started/permissions.md#folders)
 
-1. Por padrão, as subscrições são ilimitadas. Você pode desativar o **[!UICONTROL Período de validade ilimitado]** opção para definir uma duração de validade do serviço.
+1. Por padrão, as subscrições são ilimitadas.
 
-   No exemplo abaixo, após 20 dias:
-   * Nenhum destinatário poderá assinar mais este serviço.
-   * Todos os assinantes deste serviço terão suas assinaturas canceladas automaticamente após 20 dias. [Saiba mais](#automatic-unsubscription)
+   Você pode desativar o **[!UICONTROL Período de validade ilimitado]** opção para definir uma duração de validade do serviço. Quando o período de validade terminar:
+   * Nenhum destinatário pode assinar mais este serviço
+   * Todos os assinantes deste serviço têm suas assinaturas canceladas automaticamente
 
    ![](assets/service-create-validity-period.png)
 
