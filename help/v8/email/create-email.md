@@ -4,10 +4,10 @@ title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Disponibilidade limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 71%
+source-wordcount: '1367'
+ht-degree: 69%
 
 ---
 
@@ -144,11 +144,9 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso 
 
 ## Agendar o envio {#schedule}
 
-Para agendar o envio do email, siga as etapas abaixo.
+Quando um delivery é enviado no contexto de um workflow, você deve usar o **Scheduler** atividade. Saiba mais em [esta página](../workflows/activities/scheduler.md). As etapas abaixo se aplicam apenas aos deliveries independentes.
 
-Instruções adicionais sobre como agendar o envio do delivery são detalhadas em [nesta seção](../msg/gs-messages.md#gs-schedule).
-
-1. Navegue até o **[!UICONTROL Agendar]** seção.
+1. Navegue até o **[!UICONTROL Agendar]** seção das propriedades de delivery.
 
 1. Use o **[!UICONTROL Ativar agendamento]** para ativá-la.
 
@@ -156,7 +154,9 @@ Instruções adicionais sobre como agendar o envio do delivery são detalhadas e
 
    ![](assets/schedule.png)
 
-Após enviar a entrega, o envio só será realizado na data de contato definida.
+Depois que você envia o delivery, o envio real começa na data de contato definida.
+
+Saiba mais sobre a programação de delivery em [nesta seção](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Visualizar e testar o email {#preview-test}
 
