@@ -4,10 +4,10 @@ title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
+source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 26%
+source-wordcount: '957'
+ht-degree: 25%
 
 ---
 
@@ -77,7 +77,12 @@ Quando o fluxo de trabalho é [associado a uma campanha](create-workflow.md), el
   >
   >Se o campo **[!UICONTROL Histórico em dias]** for deixado em branco, o valor “1” será considerado, o que significa que o histórico será removido após 1 dia.
 
-* **[!UICONTROL Afinidade padrão]**: se a instalação incluir vários servidores de workflow, use esse campo para escolher a máquina em que o workflow será executado. Se o valor definido nesse campo não existir em nenhum servidor, o workflow permanecerá pendente.
+* **[!UICONTROL Afinidade padrão]**: se a instalação incluir vários servidores de workflow, use esse campo para especificar o servidor no qual o workflow será executado. Isso força a execução desse workflow em um servidor específico. Você pode escolher qualquer nome de afinidade existente, mas não use espaços ou sinais de pontuação. Se você usar servidores diferentes, especifique nomes diferentes, separados por vírgulas.
+
+  >[!IMPORTANT]
+  >
+  >Se o valor definido nesse campo não existir em nenhum servidor, o workflow permanecerá pendente.
+
 
 * **[!UICONTROL Salvar consultas SQL no log]**: marque essa opção para salvar as consultas SQL do workflow nos logs. Essa operação é reservada para usuários avançados. Aplica-se a workflows que contêm atividades de direcionamento como **[!UICONTROL Criar público-alvo]**. Quando essa opção está habilitada, as consultas SQL enviadas ao banco de dados durante a execução do workflow são exibidas nos logs do workflow, permitindo analisá-las para otimizar as consultas ou diagnosticar problemas.
 
