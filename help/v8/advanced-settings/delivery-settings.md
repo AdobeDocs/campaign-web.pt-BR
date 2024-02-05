@@ -4,10 +4,10 @@ title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilidade limitada"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 65%
+source-wordcount: '2326'
+ht-degree: 64%
 
 ---
 
@@ -125,9 +125,11 @@ No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Configurações da entrega"
->abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. É possível ativar CCO para a entrega e alterar os modos de entrega e de rotina. Essas opções são restritas apenas a usuários e usuárias especialistas."
+>abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. Você pode alterar os modos de entrega e rotina, ativar o Email Cco, enviar usando ondas e também escolher o formato das mensagens de email enviadas. Essas opções são restritas apenas a usuários e usuárias especialistas."
 
 **[!UICONTROL Entrega]** parâmetros são configurações técnicas que se aplicam ao seu delivery.
+
+![](assets/delivery-settings-delivery.png)
 
 O e-mail integrado **[!UICONTROL Roteamento]** a conta externa de é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 

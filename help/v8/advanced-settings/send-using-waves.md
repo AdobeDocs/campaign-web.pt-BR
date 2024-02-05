@@ -3,7 +3,7 @@ audience: end-user
 title: Enviar usando ondas
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 81%
@@ -34,7 +34,11 @@ Para balancear a carga, você pode dividir entregas em vários lotes. Configure 
 
 1. Para configurar ondas, você pode:
 
-   * **[!UICONTROL Agendar várias ondas do mesmo tamanho]**. Por exemplo, se você inserir **[!UICONTROL 30%]** no campo correspondente, cada onda representará 30% das mensagens incluídas na entrega, exceto a última, que representará 10% das mensagens.
+   * **[!UICONTROL Agendar várias ondas do mesmo tamanho]**.
+
+     Por exemplo, se você inserir **[!UICONTROL 30%]** no campo correspondente, cada onda representará 30% das mensagens incluídas na entrega, exceto a última, que representará 10% das mensagens.
+
+     ![](assets/waves-same-size.png)
 
      No **[!UICONTROL Interval]** especifique o atraso entre o início de duas ondas consecutivas. Por exemplo, se você inserir **[!UICONTROL 2d]**, a primeira onda começará imediatamente, a segunda onda começará em dois dias, a terceira onda em quatro dias e assim por diante.
 
@@ -44,7 +48,9 @@ Para balancear a carga, você pode dividir entregas em vários lotes. Configure 
 
      No exemplo abaixo, a primeira onda representa 25% do número total de mensagens incluídas na entrega e iniciará imediatamente. As próximas duas ondas completam a entrega e são definidas para começar em intervalos de seis horas.
 
-     Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. As tipologias de campanha e suas regras são configuradas no **[!UICONTROL Tipologia]** das configurações de delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. As tipologias de campanha e suas regras são configuradas no **[!UICONTROL Tipologia]** das configurações de delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ Os dois exemplos abaixo são os casos de uso mais comuns para usar várias ondas
 
   Para fazer isso, use a opção **[!UICONTROL Schedule waves according to a calendar]**. Por exemplo, defina a primeira onda para 10%, a segunda para 15% e assim por diante.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Campanhas envolvendo uma central de atendimento**
 
   Ao gerenciar uma campanha de fidelidade por telefone, sua organização tem uma capacidade limitada para processar o número de chamadas para contatar os assinantes.
@@ -73,3 +81,5 @@ Os dois exemplos abaixo são os casos de uso mais comuns para usar várias ondas
   Usando ondas, você poderá restringir o número de mensagens a 20 por dia, que é a capacidade diária de processamento de uma central de atendimento.
 
   Para fazer isso, selecione a opção **[!UICONTROL Schedule multiple waves of the same size]**. Insira **[!UICONTROL 20]** como o tamanho da onda e **[!UICONTROL 1d]** no campo **[!UICONTROL Period]**.
+
+  ![](assets/waves-call-center.png)
