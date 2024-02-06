@@ -4,10 +4,10 @@ title: Novidades do Campaign Web v8
 description: Conheça o novo recurso que vem com o Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 84%
+source-wordcount: '1298'
+ht-degree: 82%
 
 ---
 
@@ -19,16 +19,8 @@ ht-degree: 84%
 >title="Notas de versão"
 >abstract="Nossa versão mais recente está cheia recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais."
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Notas de versão"
->abstract="Nossa versão mais recente está cheia recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais."
+Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. Nossa versão mais recente está cheia recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. A interface da Web do Campaign traz uma tela conectada ao Adobe Experience Platform para oferecer uma experiência unificada. Esta versão está disponível para todos os usuários a partir da versão v8.6 do Campaign.
 
-<!--TO REMOVE ABOVE-->
-
-
-Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. Nossa versão mais recente está cheia recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais.
 
 ## Principais recursos {#key-features}
 
@@ -99,7 +91,7 @@ Os principais recursos que acompanham o lançamento da disponibilidade limitada 
 
 * **Público-alvo com o modelador de consultas**
 
-  O Adobe Campaign Web apresenta um **modelador de consultas eficiente e intuitivo** que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consultas está disponível em cada contexto em que você precisa definir regras para filtrar dados.
+  O Adobe Campaign Web apresenta um **modelador de consultas eficiente e intuitivo** que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consultas está disponível em todo contexto onde é preciso definir regras para filtrar dados.
 
   Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
