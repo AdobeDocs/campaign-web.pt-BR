@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar usando ondas
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 81%
+source-wordcount: '784'
+ht-degree: 37%
 
 ---
 
@@ -15,71 +15,90 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="Definição de ondas"
->abstract="Defina ondas para dividir as entregas em vários lotes em vez de enviar grandes volumes de mensagens ao mesmo tempo."
+>title="Dividir deliveries em vários lotes"
+>abstract="Em vez de enviar grandes volumes de mensagens ao mesmo tempo, defina ondas para dividir os deliveries em vários lotes. Você pode configurar várias ondas do mesmo tamanho ou definir um calendário para as diferentes ondas a serem enviadas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="Tamanho da onda"
->abstract="O tamanho da onda é necessário. Insira um valor numérico (número de mensagens) ou uma porcentagem (0 a 100%) no campo de tamanho."
+>title="Definir o tamanho de cada onda"
+>abstract="É necessário inserir um tamanho para todas as ondas que você está adicionando. Insira um valor numérico (número de mensagens para cada onda) ou uma porcentagem (0-100%)."
 
-Para balancear a carga, você pode dividir entregas em vários lotes. Configure o número de lotes e sua proporção com relação à entrega inteira.
+Para balancear a carga, você pode dividir entregas em vários lotes. Configure o número de lotes e sua proporção com relação ao delivery inteiro, bem como o intervalo entre duas ondas.
 
 >[!NOTE]
 >
->Você só poderá definir o tamanho e o atraso entre duas ondas consecutivas. Os critérios de seleção de recipient para cada onda não podem ser configurados.
+>Você só poderá definir o tamanho e o atraso entre duas ondas consecutivas. Os critérios de seleção de recipient para cada onda não podem ser ajustados.
 
-1. Abra o [configurações de entrega](delivery-settings.md#retries) e vá para a página **[!UICONTROL Entrega]** guia.
-1. Selecione a opção **[!UICONTROL Send using multiple waves]** e clique no link **[!UICONTROL Define waves...]**.
+Para enviar deliveries usando ondas, siga as etapas abaixo.
+
+1. Abra o [configurações de entrega](delivery-settings.md#retries).
+
+1. Navegue até o **[!UICONTROL Entrega]** seção.
+
+1. Selecione o **[!UICONTROL Enviar usando várias ondas]** opção.
 
 1. Para configurar ondas, você pode:
 
-   * **[!UICONTROL Agendar várias ondas do mesmo tamanho]**.
+   * [Agendar várias ondas do mesmo tamanho](#waves-same-size)
+   * [Agendar ondas de acordo com um calendário](#waves-calendar)
 
-     Por exemplo, se você inserir **[!UICONTROL 30%]** no campo correspondente, cada onda representará 30% das mensagens incluídas na entrega, exceto a última, que representará 10% das mensagens.
+1. Prepare e envie seu delivery como de costume. [Saiba mais](../msg/gs-deliveries.md)
 
-     ![](assets/waves-same-size.png)
-
-     No **[!UICONTROL Interval]** especifique o atraso entre o início de duas ondas consecutivas. Por exemplo, se você inserir **[!UICONTROL 2d]**, a primeira onda começará imediatamente, a segunda onda começará em dois dias, a terceira onda em quatro dias e assim por diante.
-
-   * **[!UICONTROL Agendar ondas de acordo com um calendário]**.
-
-     Na coluna **[!UICONTROL Start]**, especifique o atraso entre o início de duas ondas consecutivas. Na coluna **[!UICONTROL Size]**, insira um número fixo ou uma porcentagem.
-
-     No exemplo abaixo, a primeira onda representa 25% do número total de mensagens incluídas na entrega e iniciará imediatamente. As próximas duas ondas completam a entrega e são definidas para começar em intervalos de seis horas.
-
-     ![](assets/waves-calendar.png)
-
-     Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. As tipologias de campanha e suas regras são configuradas no **[!UICONTROL Tipologia]** das configurações de delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
-
-     >[!IMPORTANT]
-     >
-     >Certifique-se de que as últimas ondas não excedam o prazo da entrega, que é definido na guia **[!UICONTROL Validity]**. Caso contrário, algumas mensagens podem não ser enviadas. [Saiba mais](delivery-settings.md#validity)
-     >
-     >Você também deverá permitir tempo suficiente para novas tentativas ao configurar as últimas ondas. [Saiba mais](delivery-settings.md#retries)
+   >[!CAUTION]
+   >
+   >Certifique-se de que as últimas ondas não excedam o prazo da entrega, que é definido na guia **[!UICONTROL Validity]**. Caso contrário, algumas mensagens podem não ser enviadas. [Saiba mais](delivery-settings.md#validity)
+   >
+   >Você também deverá permitir tempo suficiente para novas tentativas ao configurar as últimas ondas. [Saiba mais](delivery-settings.md#retries)
 
 1. Para monitorar seus envios, vá para a [logs do delivery](../monitor/delivery-logs.md).
 
-Você pode ver as entregas que já foram enviadas nas ondas processadas (status **[!UICONTROL Sent]**) e as entregas a serem enviadas nas ondas restantes (status **[!UICONTROL Pending]**).
+   Você pode ver as entregas que já foram enviadas nas ondas processadas (status **[!UICONTROL Sent]**) e as entregas a serem enviadas nas ondas restantes (status **[!UICONTROL Pending]**).
 
-Os dois exemplos abaixo são os casos de uso mais comuns para usar várias ondas.
+Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. As tipologias de campanha e suas regras são configuradas no **[!UICONTROL Tipologia]** das configurações de delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
-* **Durante o processo de aumento**
+## Agendar várias ondas do mesmo tamanho {#waves-same-size}
 
-  Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
+Se você selecionar essa opção, todas as ondas terão o mesmo tamanho (exceto a última) e o atraso entre cada onda será sempre o mesmo.
 
-  Para evitar ser marcado como spam, você poderá aumentar progressivamente o volume enviado usando ondas. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
+![](assets/waves-same-size.png)
 
-  Para fazer isso, use a opção **[!UICONTROL Schedule waves according to a calendar]**. Por exemplo, defina a primeira onda para 10%, a segunda para 15% e assim por diante.
+* Especifique o tamanho de todas as ondas nas quais você está dividindo o delivery. Você pode inserir uma porcentagem ou um valor numérico. Somente a última onda pode variar de tamanho, pois deve incluir o número restante de mensagens.
 
-  ![](assets/waves-ramp-up.png)
+  Por exemplo, se você inserir **[!UICONTROL 30%]** no campo correspondente, as três primeiras ondas representam 30% de todas as mensagens incluídas no delivery e a quarta representa os 10% restantes.
 
-* **Campanhas envolvendo uma central de atendimento**
+* No **[!UICONTROL Interval]** especifique o atraso entre o início de duas ondas consecutivas. Por exemplo, se você inserir **[!UICONTROL 2 dias]** Assim, a primeira onda começa imediatamente, a segunda onda começará em dois dias, a terceira onda em quatro dias e assim por diante.
 
-  Ao gerenciar uma campanha de fidelidade por telefone, sua organização tem uma capacidade limitada para processar o número de chamadas para contatar os assinantes.
+Um caso de uso comum para usar várias ondas do mesmo tamanho é com uma central de atendimento envolvida. Ao gerenciar uma campanha de fidelidade por telefone, sua organização tem uma capacidade limitada para processar o número de chamadas para contatar os assinantes.
 
-  Usando ondas, você poderá restringir o número de mensagens a 20 por dia, que é a capacidade diária de processamento de uma central de atendimento.
+Usando ondas, você poderá restringir o número de mensagens a 20 por dia, que é a capacidade diária de processamento de uma central de atendimento.
 
-  Para fazer isso, selecione a opção **[!UICONTROL Schedule multiple waves of the same size]**. Insira **[!UICONTROL 20]** como o tamanho da onda e **[!UICONTROL 1d]** no campo **[!UICONTROL Period]**.
+Para fazer isso, selecione a opção **[!UICONTROL Schedule multiple waves of the same size]**. Enter **[!UICONTROL 20]** como o tamanho e **[!UICONTROL 1 dia]** no **[!UICONTROL Interval]** campo.
 
-  ![](assets/waves-call-center.png)
+![](assets/waves-call-center.png)
+
+## Agendar ondas de acordo com um calendário {#waves-calendar}
+
+Se você selecionar essa opção, será necessário definir o dia/hora de início de cada onda enviada, bem como o tamanho de cada onda.
+
+* No **[!UICONTROL Início]** especifique o atraso entre o início de duas ondas consecutivas.
+
+* Na coluna **[!UICONTROL Size]**, insira um número fixo ou uma porcentagem.
+
+Adicione quantas ondas forem necessárias.
+
+No exemplo abaixo, a primeira onda representa 25% do número total de mensagens incluídas no delivery e começa imediatamente. As próximas duas ondas completam a entrega e são definidas para começar em intervalos de seis horas.
+
+![](assets/waves-calendar.png)
+
+Um caso de uso comum para usar várias ondas de acordo com um calendário é durante o processo de aumento.
+
+Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
+
+Para evitar ser marcado como spam, você poderá aumentar progressivamente o volume enviado usando ondas. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
+
+Para fazer isso, use a opção **[!UICONTROL Schedule waves according to a calendar]**. Por exemplo, defina a primeira onda para 10%, a segunda para 15%, a terceira para 20% e assim por diante.
+
+![](assets/waves-ramp-up.png)
+
+
+

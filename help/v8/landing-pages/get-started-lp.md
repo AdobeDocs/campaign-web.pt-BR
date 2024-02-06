@@ -2,8 +2,9 @@
 audience: end-user
 title: Introdução às landing pages
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
+feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 6%

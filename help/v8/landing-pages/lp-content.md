@@ -1,8 +1,9 @@
 ---
 title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
+feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 13%

@@ -1,8 +1,9 @@
 ---
 title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
+feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 26%
