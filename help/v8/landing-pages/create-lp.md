@@ -2,9 +2,9 @@
 title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1031'
 ht-degree: 26%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Criar e gerenciar landing pages"
->abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e listas de bloqueios, com base em modelos integrados."
+>abstract="O Adobe Campaign incluir na lista de bloqueios permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e, com base em modelos integrados."
 
-O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e listas de bloqueios, com base em modelos integrados.
+O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem. No contexto de campanhas de marketing, uma landing page é uma página da Web independente na qual um visitante é direcionado depois de clicar em um link em um email, SMS, delivery por push ou site. O Adobe Campaign vem com quatro modelos para gerenciar **aquisição**, **assinaturas**, **unsubscriptions**, e **➡ incluir na lista de bloqueios** casos de uso.
 
 ## Acessar páginas de destino {#access-landing-pages}
 

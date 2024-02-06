@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução às landing pages
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 7%
+source-wordcount: '223'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 7%
 >abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e listas de bloqueios, com base em modelos integrados."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
+O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem. No contexto de campanhas de marketing, uma landing page é uma página da Web independente onde um visitante é direcionado depois de clicar em um link em um email, SMS ou delivery por push ou em um site.
 
-Uma landing page é uma página da Web independente para a qual um usuário é direcionado depois de clicar por um email, site, anúncio ou qualquer outro local digital.
+[!DNL Adobe Campaign] O permite criar e projetar páginas de destino para direcionar seus usuários para formulários online, onde eles podem aceitar/recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo. O Adobe Campaign vem com quatro modelos para gerenciar aquisição, assinaturas, cancelamentos de assinaturas e casos de uso de inclui na lista de bloqueios.
 
-[!DNL Adobe Campaign] O permite criar e projetar páginas de destino para direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
+Os principais recursos estão listados abaixo:
 
 * Aproveitar [!DNL Adobe Campaign] recursos de design de conteúdo para criar facilmente **landing pages responsivas**.
 * Configurar **fluxos de aceitação e recusa** rapidamente e sem problemas.
