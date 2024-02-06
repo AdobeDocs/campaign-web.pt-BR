@@ -2,9 +2,9 @@
 title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 26%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Criar e gerenciar landing pages"
->abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar, adquirir, assinaturas/cancelamentos de assinaturas e lista de bloqueios casos de uso com base em modelos integrados."
+>abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e listas de bloqueios, com base em modelos integrados."
 
-O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar, adquirir, assinaturas/cancelamentos de assinaturas e lista de bloqueios casos de uso com base em modelos integrados.
+O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e listas de bloqueios, com base em modelos integrados.
 
 ## Acessar páginas de destino {#access-landing-pages}
 
@@ -30,9 +30,9 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->Não é possível exibir landing pages criadas no console do cliente no Campaign Web. Saiba mais na [Documentação do console do Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Não é possível exibir ou editar landing pages criadas no console do cliente no Campaign Web. Saiba mais na [Documentação do console do Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
    ![](assets/lp-pages.png)
 
-1. A variável **[!UICONTROL Atualizar o registro pré-carregado]** é selecionada por padrão. Se quiser atualizar os perfis armazenados no banco de dados por meio da landing page, use uma caixa de pré-carregamento. A caixa de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados. Você também pode escolher entre os campos no contexto atual da landing page, aqueles que serão usados para localizar o perfil correspondente no banco de dados.
+1. A variável **[!UICONTROL Atualizar o registro pré-carregado]** for selecionada por padrão. Se quiser atualizar os perfis armazenados no banco de dados por meio da landing page, use uma caixa de pré-carregamento. A caixa de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados. Você também pode escolher entre os campos no contexto atual da landing page, aqueles que serão usados para localizar o perfil correspondente no banco de dados.
 
    ![](assets/lp-storage-schedule.png)
 

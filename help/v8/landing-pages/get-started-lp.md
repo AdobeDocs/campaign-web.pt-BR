@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução às landing pages
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 badge: label="Disponibilidade limitada"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
->abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar, adquirir, assinaturas/cancelamentos de assinaturas e lista de bloqueios casos de uso com base em modelos integrados."
+>abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e listas de bloqueios, com base em modelos integrados."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
@@ -27,7 +27,7 @@ Uma landing page é uma página da Web independente para a qual um usuário é d
 * Configurar **fluxos de aceitação e recusa** rapidamente e sem problemas.
 * Criar serviços de assinatura para permitir que os usuários **assinar um serviço**. [Saiba mais](../audience/manage-services.md)
 * Forneça aos recipients a **capacidade de cancelar a inscrição** de receber suas comunicações.
-* Enviar um **email de confirmação** em caso de aceitação ou recusa.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
