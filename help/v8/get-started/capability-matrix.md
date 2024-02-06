@@ -5,9 +5,9 @@ description: Lista de recursos compatíveis com a interface da Web do Campaign
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 9%
 
 ---
@@ -35,7 +35,7 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 * Gerenciamento dos recursos de marketing (MRM), metas, simulações e controle de custos. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * Gerenciamento de tarefas. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## Canais de comunicação{ #channels-capabilities}
+## Canais de comunicação {#channels-capabilities}
 
 Com a interface da Web do Campaign, você pode criar, projetar e enviar emails, SMS e notificações por push e medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, os canais a seguir não estão disponíveis nessa versão.
 
