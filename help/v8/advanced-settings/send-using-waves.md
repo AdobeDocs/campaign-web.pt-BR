@@ -2,11 +2,12 @@
 audience: end-user
 title: Enviar usando ondas
 description: Saiba mais sobre as configurações de entrega no Campaign Web
+feature: Email
 badge: label="Disponibilidade limitada"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 37%
+source-wordcount: '767'
+ht-degree: 33%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 37%
 >title="Definir o tamanho de cada onda"
 >abstract="É necessário inserir um tamanho para todas as ondas que você está adicionando. Insira um valor numérico (número de mensagens para cada onda) ou uma porcentagem (0-100%)."
 
-Para balancear a carga, você pode dividir entregas em vários lotes. Configure o número de lotes e sua proporção com relação ao delivery inteiro, bem como o intervalo entre duas ondas.
+Para equilibrar a carga, você pode dividir deliveries de email em vários lotes. Configure o número de lotes e sua proporção com relação ao delivery inteiro, bem como o intervalo entre duas ondas.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ Para enviar deliveries usando ondas, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >Certifique-se de que as últimas ondas não excedam o prazo da entrega, que é definido na guia **[!UICONTROL Validity]**. Caso contrário, algumas mensagens podem não ser enviadas. [Saiba mais](delivery-settings.md#validity)
+   >Certifique-se de que as últimas ondas não excedam o prazo do delivery, definido na [Validade](delivery-settings.md#validity) , caso contrário, algumas mensagens poderão não ser enviadas. Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >Você também deverá permitir tempo suficiente para novas tentativas ao configurar as últimas ondas. [Saiba mais](delivery-settings.md#retries)
 
-1. Para monitorar seus envios, vá para a [logs do delivery](../monitor/delivery-logs.md).
-
-   Você pode ver as entregas que já foram enviadas nas ondas processadas (status **[!UICONTROL Sent]**) e as entregas a serem enviadas nas ondas restantes (status **[!UICONTROL Pending]**).
-
-Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. As tipologias de campanha e suas regras são configuradas no **[!UICONTROL Tipologia]** das configurações de delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. Para monitorar seus envios, vá para a [logs do delivery](../monitor/delivery-logs.md). Você pode ver as entregas que já foram enviadas nas ondas processadas (status **[!UICONTROL Sent]**) e as entregas a serem enviadas nas ondas restantes (status **[!UICONTROL Pending]**).
 
 ## Agendar várias ondas do mesmo tamanho {#waves-same-size}
 
@@ -64,7 +61,7 @@ Se você selecionar essa opção, todas as ondas terão o mesmo tamanho (exceto 
 
 * Especifique o tamanho de todas as ondas nas quais você está dividindo o delivery. Você pode inserir uma porcentagem ou um valor numérico. Somente a última onda pode variar de tamanho, pois deve incluir o número restante de mensagens.
 
-  Por exemplo, se você inserir **[!UICONTROL 30%]** no campo correspondente, as três primeiras ondas representam 30% de todas as mensagens incluídas no delivery e a quarta representa os 10% restantes.
+  Por exemplo, se você inserir **[!UICONTROL 30%]** no **[!UICONTROL Tamanho das ondas]** , as três primeiras ondas representam 30% de todas as mensagens incluídas no delivery e a quarta representa os 10% restantes.
 
 * No **[!UICONTROL Interval]** especifique o atraso entre o início de duas ondas consecutivas. Por exemplo, se você inserir **[!UICONTROL 2 dias]** Assim, a primeira onda começa imediatamente, a segunda onda começará em dois dias, a terceira onda em quatro dias e assim por diante.
 

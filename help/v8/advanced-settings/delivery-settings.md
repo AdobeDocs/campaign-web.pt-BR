@@ -2,12 +2,13 @@
 audience: end-user
 title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilidade limitada"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2326'
-ht-degree: 64%
+source-wordcount: '2425'
+ht-degree: 61%
 
 ---
 
@@ -133,15 +134,23 @@ No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients
 
 O e-mail integrado **[!UICONTROL Roteamento]** a conta externa de é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 
-Você pode definir o seguinte **[!UICONTROL Enviando]** configurações:
+Você pode definir a variável **[!UICONTROL Enviando]** abaixo.
 
-* **[!UICONTROL Testar entrega SMTP]**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e encerra a conexão antes do comando SMTP DATA.
+* **[!UICONTROL Prioridade de entrega]**: use essa opção para alterar a ordem de envio dos deliveries, definindo o nível de prioridade (normal, alto ou baixo).
+
+* **[!UICONTROL Quantidade do lote de mensagens]**: use essa opção para definir o número de mensagens agrupadas no mesmo pacote do delivery XML. Se o parâmetro for definido como 0, as mensagens serão automaticamente agrupadas. O tamanho do pacote é definido pelo cálculo `<delivery size>/1024`, com no mínimo 8 e no máximo 256 mensagens por pacote.
+
+  >[!IMPORTANT]
+  >
+  >Quando a entrega é criada duplicando uma existente, esse parâmetro é redefinido.
+
+* **[!UICONTROL Testar entrega SMTP]**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e fecha a conexão antes do comando SMTP DATA.
 
 * **[!UICONTROL Email Cco]**: essa opção é usada para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=pt-BR){target="_blank"}.
 
-* **[!UICONTROL Enviar usando várias ondas]**: é possível aumentar progressivamente o volume enviado usando ondas. Esse aumento evitará que sua mensagem seja marcada como spam ou pode ser usado quando você quiser restringir o número de mensagens diárias. Ao usar ondas, você pode dividir as entregas em vários lotes, em vez de enviar grandes volumes de mensagens ao mesmo tempo. [Saiba mais](send-using-waves.md)
+No **[!UICONTROL Definição da onda]** , selecione a **[!UICONTROL Enviar usando várias ondas]** opção para aumentar progressivamente o volume enviado usando ondas. Esse aumento evitará que sua mensagem seja marcada como spam ou pode ser usado quando você quiser restringir o número de mensagens diárias. Ao usar ondas, você pode dividir as entregas em vários lotes, em vez de enviar grandes volumes de mensagens ao mesmo tempo. [Saiba mais](send-using-waves.md)
 
-Você também pode alterar o formato das mensagens de email enviadas:
+Você também pode alterar a variável **[!UICONTROL Formatos de email]** das mensagens de email enviadas conforme detalhado abaixo.
 
 * **[!UICONTROL Usar preferências de recipient]** (modo padrão)
 
