@@ -4,10 +4,10 @@ title: Enviar usando ondas
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 feature: Email
 badge: label="Disponibilidade limitada"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 33%
+source-wordcount: '790'
+ht-degree: 32%
 
 ---
 
@@ -81,7 +81,11 @@ Se você selecionar essa opção, será necessário definir o dia/hora de iníci
 
 * Na coluna **[!UICONTROL Size]**, insira um número fixo ou uma porcentagem.
 
-Adicione quantas ondas forem necessárias.
+Adicione quantas ondas desejar. Você pode reorganizá-los de acordo com suas necessidades.
+
+>[!NOTE]
+>
+>Se você estiver usando porcentagens, o total de todas as ondas não deverá exceder 100%.
 
 No exemplo abaixo, a primeira onda representa 25% do número total de mensagens incluídas no delivery e começa imediatamente. As próximas duas ondas completam a entrega e são definidas para começar em intervalos de seis horas.
 
