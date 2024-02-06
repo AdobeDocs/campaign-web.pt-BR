@@ -2,14 +2,14 @@
 audience: end-user
 user-guide-title: Interface do usuário da Web do Adobe Campaign
 user-guide-description: Documentação do produto da interface da Web do Adobe Campaign.
-title: Documentação da Web do Adobe Campaign
+title: Documentação do Adobe Campaign Web
 description: Documentação da Web do Campaign
 breadcrumb-title: Interface do usuário da Web do Campaign
 hide: true
-source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)
    + [Acesso e permissões](get-started/permissions.md)
    + [Medidas de proteção e limitações](get-started/guardrails.md)
-   + [Recursos incompatíveis](get-started/unsupported.md)
+   + [Recursos incompatíveis](get-started/capability-matrix.md)
    + [Ajuda contextual habilitada por IA](get-started/using-ai.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
@@ -99,7 +99,7 @@ ht-degree: 88%
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
    + Trabalho com perfis {#work-with-profiles}
       + [Introdução a perfis](audience/about-recipients.md)
-      + [Explorar detalhes dos perfis](audience/profile-view.md)
+      + [Explore os detalhes dos perfis](audience/profile-view.md)
       + [Criar um perfil](audience/create-profile.md)
       + [Trabalhar com perfis de teste](audience/test-profiles.md)
    + Trabalho com públicos-alvo{#audiences}
@@ -151,7 +151,7 @@ ht-degree: 88%
 + Relatórios {#reports}
    + [Introdução aos relatórios](reporting/gs-reports.md)
    + [Exportar seus relatórios](reporting/export-reports.md)
-   + [Indicadores principais de desempenho](reporting/kpis.md)
+   + [Indicadores-chave de desempenho](reporting/kpis.md)
    + Relatórios de entrega {#delivery-report}
       + [Introdução a relatórios de entrega](reporting/delivery-reports.md)
       + [Relatório de entrega de emails](reporting/email-report.md)
