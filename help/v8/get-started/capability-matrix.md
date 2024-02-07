@@ -5,7 +5,7 @@ description: Lista de recursos compatíveis com a interface da Web do Campaign
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
+source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 5%
@@ -114,7 +114,7 @@ Use os links fornecidos para procurar a documentação do Campaign v8 (console d
 
 ## Workflows {#wf-capabilities}
 
-A nova interface do usuário da Web do Campaign traz uma interface reformulada da tela do fluxo de trabalho para projetar e gerenciar seus processos. As principais atividades de fluxo de trabalho já estão disponíveis em seu novo design. Algumas serão disponibilizadas em uma versão futura. Saiba mais sobre os recursos de fluxo de trabalho, incluindo medidas de proteção e limitações [nesta seção](../workflows/gs-workflows.md)
+A nova interface do usuário da Web do Campaign traz uma interface reformulada da tela do fluxo de trabalho para projetar e gerenciar seus processos. As principais atividades de fluxo de trabalho já estão disponíveis em seu novo design. Algumas serão disponibilizadas em uma versão futura. Saiba mais sobre os recursos de fluxo de trabalho, incluindo medidas de proteção e limitações [nesta seção](../get-started/guardrails.md).
 
 Observe que os seguintes recursos só estão disponíveis no console do cliente do Campaign:
 
