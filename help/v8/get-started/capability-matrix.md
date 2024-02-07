@@ -5,9 +5,9 @@ description: Lista de recursos compatíveis com a interface da Web do Campaign
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 5%
 
 ---
@@ -184,8 +184,13 @@ As permissões são definidas no console do cliente do Adobe Admin Console e do 
 
 Os recursos de monitoramento da plataforma do Campaign só estão disponíveis no console do cliente e no Painel de controle do Campaign. Eles não aparecem na interface da Web do Campaign.
 
-Navegue pelos links fornecidos para a [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"} para saber mais.
+Navegue pelos links fornecidos para a documentação do Campaign v8 (console do cliente) e a documentação do Painel de controle para saber mais.
 
 * [Monitoramento de workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Mapa de calor do fluxo de trabalho](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR){target="_blank"}
+* [Monitoramento da capacidade de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
