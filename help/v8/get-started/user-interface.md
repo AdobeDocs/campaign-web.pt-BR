@@ -4,7 +4,7 @@ title: Conheça a interface
 description: Interface de usuário da Web do Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidade limitada"
-source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 92%
@@ -126,7 +126,6 @@ Atualmente lançado como uma versão Beta na nova interface do Campaign, o **Ass
 Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Caso esteja buscando orientação numa tarefa complexa ou navegando por documentos extensos, o Assistente de conhecimento habilitado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
 Saiba mais [nesta seção](using-ai.md).
-
 
 
 ## Saiba mais {#learn-more}
@@ -356,7 +355,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Páginas de aterrissagem padrão"
+>title="Páginas de destino padrão"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
