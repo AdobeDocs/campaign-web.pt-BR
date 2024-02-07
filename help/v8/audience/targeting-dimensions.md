@@ -3,10 +3,10 @@ title: Dimensões de direcionamento
 description: Saiba mais sobre dimensões de direcionamento no Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: a7c640c39e04443c5925f36ce966e7b5125e9a33
+source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 29%
+source-wordcount: '428'
+ht-degree: 25%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 29%
 >id="acw_orchestration_build_audience_dimension"
 >title="Selecione o targeting dimension"
 >abstract="A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Dimensão de direcionamento"
->abstract="Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes etc. Por padrão, a dimensão de direcionamento atual é selecionada."
 
 Targeting dimension, também conhecido como. target mapping, é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: perfis, beneficiários de contrato, operadores, assinantes etc.
 
