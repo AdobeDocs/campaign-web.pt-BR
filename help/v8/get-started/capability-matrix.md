@@ -5,16 +5,16 @@ description: Lista de recursos compatíveis com a interface da Web do Campaign
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1485'
 ht-degree: 6%
 
 ---
 
 # Matriz de recursos da interface do usuário da Web/console do cliente do Campaign {#capabilities-matrix}
 
-Os recursos a seguir podem ser acessados somente pelo Console do cliente do Campaign. Alguns estarão disponíveis em uma versão posterior da interface da Web do Campaign.
+Os principais recursos do Campaign estão disponíveis na interface da Web do Campaign. No entanto, algumas configurações e recursos só podem ser acessados, criados ou gerenciados no Console do cliente do Campaign. Alguns estarão disponíveis em uma versão posterior da interface da Web do Campaign.
 
 <!--
 **Homepage**
@@ -59,7 +59,7 @@ Como consequência, no console do cliente do Campaign, não é possível editar,
 
 ## Perfis, perfis de teste e públicos {#profiles-audiences-capabilities}
 
-Você pode criar, gerenciar e atualizar perfis e perfis de teste no console do cliente do Campaign e na interface do usuário da Web do Campaign. Todas as alterações executadas em uma interface do usuário são visíveis na outra. No entanto, algumas configurações específicas de recipient e parâmetros avançados podem estar ausentes na nova interface do usuário da Web do Campaign.  Observe que o termo &quot;recipient&quot; foi alterado para &quot;profile&quot; na nova interface do usuário da Web.
+Você pode criar, gerenciar e atualizar perfis e perfis de teste no console do cliente do Campaign e na interface do usuário da Web do Campaign. Todas as alterações executadas em uma interface do usuário são visíveis na outra. No entanto, algumas configurações específicas de recipient e parâmetros avançados podem estar ausentes na nova interface do usuário da Web do Campaign. Observe que o termo &quot;recipient&quot; foi alterado para &quot;profile&quot; na nova interface do usuário da Web.
 
 A composição do público-alvo é um novo recurso que vem com a interface da Web do Campaign. Como consequência, no console do cliente do Campaign, não é possível editar, atualizar ou modificar um [público-alvo criado com o modelador de consultas](../query/query-modeler-overview.md).
 
@@ -86,10 +86,10 @@ Com essa nova interface do usuário, você também pode usar os Ativos do Adobe 
 
 Observe que os recursos a seguir não estão disponíveis nesta versão do produto. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses recursos (recursos com uma `*` não são compatíveis com o console do cliente do Campaign).
 
-* AMP para emails.  [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Conteúdo de recursos públicos - SCOPË TO CONFIRM
 * Criação de bloco de personalização personalizado. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Conteúdo de formulários personalizados (módulo Gerenciamento de conteúdo). [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* AMP para emails. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Conteúdo de um URL`*`
 * Salvar um conteúdo HTML como um modelo`*`
 * Fragmentos de email`*`
@@ -125,7 +125,7 @@ Saiba mais sobre atividades de fluxo de trabalho disponíveis na documentação 
 
 O Adobe Campaign Web permite enviar com seus deliveries ofertas que foram criadas no console usando o **[!UICONTROL Interação]** módulo. O design da oferta, as regras de qualificação e o gerenciamento de ofertas estão disponíveis somente no console do cliente do Campaign. [Saiba mais](../msg/offers.md)
 
-Saiba como gerenciar um catálogo de ofertas na  [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
+Saiba como gerenciar um catálogo de ofertas na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
 ## Integrações com as soluções da Adobe Experience Cloud {#exc-capabilities}
 
@@ -166,13 +166,13 @@ Navegue pelos links fornecidos para navegar pelo [Documentação do Campaign v8 
 
 A interface da Web do Campaign não exibe o gerenciamento de aprovação para conteúdo, deliveries, workflows, campanhas e targets. Eles só estão disponíveis no console do cliente.
 
-Saiba como gerenciar aprovações em workflows na  [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+Saiba como gerenciar aprovações em workflows na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
 
 
 Saiba como gerenciar aprovações de entrega, conteúdo e público-alvo em campanhas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
 
 
-## Permissões  {#permissions-capabilities}
+## Permissões {#permissions-capabilities}
 
 Os usuários do Campaign só podem acessar a interface da Web do Campaign com sua Adobe ID, por meio do Adobe Identity Management System (IMS).
 
