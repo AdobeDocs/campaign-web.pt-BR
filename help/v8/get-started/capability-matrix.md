@@ -5,16 +5,18 @@ description: Lista de recursos compatíveis com a interface da Web do Campaign
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
+source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 6%
+source-wordcount: '1503'
+ht-degree: 5%
 
 ---
 
 # Matriz de recursos da interface do usuário da Web/console do cliente do Campaign {#capabilities-matrix}
 
-Os principais recursos do Campaign estão disponíveis na interface da Web do Campaign. No entanto, algumas configurações e recursos só podem ser acessados, criados ou gerenciados no Console do cliente do Campaign. Alguns estarão disponíveis em uma versão posterior da interface da Web do Campaign.
+Os principais recursos do Campaign estão disponíveis na interface da Web do Campaign. Essa interface foi projetada principalmente para que os profissionais de marketing planejem, iniciem e avaliem suas campanhas de marketing. Todos os recursos estão listados [nesta página](../rn/whats-new.md).
+
+A personalização da plataforma do Campaign com base nas necessidades de negócios e dados, e a conexão com outros sistemas são gerenciadas no console do cliente do Campaign. Como consequência, alguns recursos e configurações só podem ser acessados, criados ou gerenciados no Console do cliente do Campaign. Alguns estarão disponíveis em uma versão posterior da interface da Web do Campaign.
 
 <!--
 **Homepage**
@@ -61,7 +63,7 @@ Como consequência, no console do cliente do Campaign, não é possível editar,
 
 Você pode criar, gerenciar e atualizar perfis e perfis de teste no console do cliente do Campaign e na interface do usuário da Web do Campaign. Todas as alterações executadas em uma interface do usuário são visíveis na outra. No entanto, algumas configurações específicas de recipient e parâmetros avançados podem estar ausentes na nova interface do usuário da Web do Campaign. Observe que o termo &quot;recipient&quot; foi alterado para &quot;profile&quot; na nova interface do usuário da Web.
 
-A composição do público-alvo é um novo recurso que vem com a interface da Web do Campaign. Como consequência, no console do cliente do Campaign, não é possível editar, atualizar ou modificar um [público-alvo criado com o modelador de consultas](../query/query-modeler-overview.md).
+<!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
 Todos os públicos-alvo criados no console do cliente do Campaign ou no Adobe Experience Platform estão disponíveis na interface da Web do Campaign.
 
@@ -82,18 +84,18 @@ Navegue pelo [Documentação do Campaign v8 (console do cliente)](https://experi
 
 O novo Email Designer que vem com a interface de usuário da Adobe Campaign Web permite criar e-mails atraentes e personalizados por meio de uma interface intuitiva de arrastar e soltar. Esteja você iniciando do zero, importando um conteúdo existente ou utilizando modelos existentes, é possível projetar e refinar todo o conteúdo de cada email. [Saiba mais](../email/edit-content.md)
 
-Com essa nova interface do usuário, você também pode usar os Ativos do Adobe Experience Manager 6.5 em um conteúdo de email, gerenciar a sincronização de modelos de email do Adobe Experience Manager e integrar ao Adobe Experience Manager as a Cloud Service.
+Com essa nova interface do usuário, é possível gerenciar a sincronização de modelos de email no Adobe Experience Manager e integrar ao Adobe Experience Manager as a Cloud Service.
 
-Observe que os recursos a seguir não estão disponíveis nesta versão do produto. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses recursos (recursos com uma `*` não são compatíveis com o console do cliente do Campaign).
+Observe que os recursos a seguir não estão disponíveis nesta versão do produto. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses recursos.
 
 * Conteúdo de recursos públicos - SCOPË TO CONFIRM
 * Criação de bloco de personalização personalizado. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Conteúdo de formulários personalizados (módulo Gerenciamento de conteúdo). [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP para emails. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* Conteúdo de um URL`*`
-* Salvar um conteúdo HTML como um modelo`*`
-* Fragmentos de email`*`
-* Caso de uso multivariante/multilíngue`*`
+<!--
+* Content from a URL`*`
+* Email fragments`*`
+* Multivariant / Multilingual use case`*`-->
 
 ## Tipologias e regras de tipologia {#rules-capabilities}
 
@@ -149,13 +151,12 @@ Alguns recursos só estão disponíveis no console do cliente. Navegue pelos lin
 * Análise descritiva. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 * Análise de campanha/Relatórios de cubo. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=pt-BR){target="_blank"}
 * Compartilhamento de relatórios de acordo com a programação como um PDF e CSV ou link. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}
-* Exportar/baixar um relatório como um arquivo CSV ou PDF. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html){target="_blank"}
 
 ## Modelagem e assimilação de dados {#data-capabilities}
 
 A interface da Web do Campaign não exibe os recursos a seguir. Eles só estão disponíveis no console do cliente.
 
-Navegue pelos links fornecidos para navegar pelo [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"} e saiba mais.
+Navegue pelos links fornecidos na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"} e saiba mais.
 
 * Contas externas. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Criação e extensão de esquema. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
@@ -174,9 +175,17 @@ Saiba como gerenciar aprovações de entrega, conteúdo e público-alvo em campa
 
 ## Permissões {#permissions-capabilities}
 
-Os usuários do Campaign só podem acessar a interface da Web do Campaign com sua Adobe ID, por meio do Adobe Identity Management System (IMS).
+Os usuários do Campaign só podem acessar a interface da Web do Campaign com sua Adobe ID, por meio do Adobe Identity Management System (IMS). As permissões concedidas aos usuários também se aplicam à interface da Web do Campaign.
 
 As permissões são definidas no console do cliente do Adobe Admin Console e do Adobe Campaign, conforme detalhado [nesta seção](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=pt-BR). Nenhuma ação sobre permissões é possível na interface da Web do Adobe Campaign.
 
 
+## Monitoramento {#monitoring-capabilities}
+
+Os recursos de monitoramento da plataforma do Campaign só estão disponíveis no console do cliente e no Painel de controle do Campaign. Eles não aparecem na interface da Web do Campaign.
+
+Navegue pelos links fornecidos para a [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"} para saber mais.
+
+* [Monitoramento de workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
+* [Mapa de calor do fluxo de trabalho](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
