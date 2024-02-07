@@ -4,10 +4,10 @@ title: Introdução às landing pages
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 6%
+source-wordcount: '249'
+ht-degree: 5%
 
 ---
 
@@ -16,14 +16,22 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
->abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e listas de bloqueios, com base em modelos integrados."
+>abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinatura/cancelamento de assinatura e de inclui na lista de bloqueios, com base em modelos integrados."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
-O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem. No contexto de campanhas de marketing, uma landing page é uma página da Web independente onde um visitante é direcionado depois de clicar em um link em um email, SMS ou delivery por push ou em um site.
+[!DNL Adobe Campaign] O permite criar, projetar e compartilhar páginas de aterrissagem.
 
-[!DNL Adobe Campaign] O permite criar e projetar páginas de destino para direcionar seus usuários para formulários online, onde eles podem aceitar/recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo. O Adobe Campaign vem com quatro modelos para gerenciar aquisição, assinaturas, cancelamentos de assinaturas e casos de uso de inclui na lista de bloqueios.
+No contexto de campanhas de marketing, uma landing page é uma página da Web independente onde um visitante é direcionado depois de clicar em um link em um email, SMS, delivery por push ou site.
 
-Os principais recursos estão listados abaixo:
+As landing pages permitem direcionar os usuários para formulários online, onde eles podem aceitar/recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
+
+>[!CAUTION]
+>
+>As landing pages criadas na interface da Web do Campaign são diferentes dos formulários web criados no console do cliente. Não é possível exibir ou editar formulários Web na interface do usuário da Web do Campaign.
+>
+>Saiba mais sobre formulários web no [Documentação do console do Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+
+Os principais recursos das landing pages estão listados abaixo:
 
 * Aproveitar [!DNL Adobe Campaign] recursos de design de conteúdo para criar facilmente **landing pages responsivas**.
 * Configurar **fluxos de aceitação e recusa** rapidamente e sem problemas.

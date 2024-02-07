@@ -4,10 +4,10 @@ title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilidade limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 19%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="Visualizar e testar suas mensagens"
->abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo."
+>title="Visualizar e testar o conteúdo"
+>abstract="Depois que o conteúdo for definido, você poderá usar perfis de teste para pré-visualizá-lo e testá-lo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=pt-BR" text="Visualizar o conteúdo da mensagem"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=pt-BR" text="Enviar entregas de teste"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testar páginas de destino"
 
 Depois que o conteúdo do delivery for definido, você poderá usar perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem.
 
@@ -29,6 +30,7 @@ Para fazer isso, [!DNL Adobe Campaign] O permite:
 * [Pré-visualização do conteúdo e da personalização da mensagem](preview-content.md)
 * [Enviar deliveries de teste](test-deliveries.md) (provas) para recipients ou assinantes específicos para teste e validação
 * [Verificar a renderização de email](email-rendering.md) em clientes populares de desktop, móveis e baseados na web
+* [Pré-visualizar e testar suas páginas de aterrissagem](../landing-pages/create-lp.md#test-landing-page)
 
 Essas ações podem ser executadas usando o **[!UICONTROL Simular conteúdo]** que pode ser acessado na tela editar conteúdo do seu delivery - ou na guia [Email Designer](../email/get-started-email-designer.md).
 

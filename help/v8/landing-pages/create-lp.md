@@ -3,10 +3,10 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 26%
+source-wordcount: '1185'
+ht-degree: 21%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Criar e gerenciar landing pages"
->abstract="O Adobe Campaign incluir na lista de bloqueios permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar casos de uso de aquisição, assinaturas/cancelamentos de assinaturas e, com base em modelos integrados."
+>abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar casos de uso de aquisição, subscrição/unsubscription e inclui na lista de bloqueios, com base em modelos integrados."
 
-O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem. No contexto de campanhas de marketing, uma landing page é uma página da Web independente na qual um visitante é direcionado depois de clicar em um link em um email, SMS, delivery por push ou site. O Adobe Campaign vem com quatro modelos para gerenciar **aquisição**, **assinaturas**, **unsubscriptions**, e **➡ incluir na lista de bloqueios** casos de uso.
+A interface do usuário da Web do Campaign permite criar, projetar e publicar páginas de aterrissagem. Depois de publicado, você pode inserir um link para o formulário em um delivery. Depois que os recipients clicam nesse link, eles são direcionados para a página de aterrissagem correspondente.
+
+[!DNL Adobe Campaign] O vem com quatro modelos para gerenciar os seguintes casos de uso: **aquisição**, **subscrição**, **unsubscription**, e **➡ incluir na lista de bloqueios**.
 
 ## Acessar páginas de destino {#access-landing-pages}
 
@@ -33,11 +35,11 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 >[!CAUTION]
 >
->Não é possível exibir ou editar landing pages criadas no console do cliente no Campaign Web. Saiba mais na [Documentação do console do Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Não é possível exibir ou editar landing pages criadas no console do cliente (formulários web) na interface do usuário da Web do Campaign. Saiba mais na [Documentação do console do Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
-É possível duplicar ou excluir uma landing page. Clique nos três pontos ao lado de uma landing page para selecionar a ação desejada.
+É possível duplicar ou excluir uma landing page. Clique nas reticências ao lado de uma landing page para selecionar a ação desejada.
 
 ## Criar uma landing page {#create-landing-page}
 
@@ -48,14 +50,13 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Definir o conteúdo das páginas"
->abstract="Edite o conteúdo de cada página que faz parte desta landing page."
+>title="Definir o conteúdo de cada página"
+>abstract="Ajuste o conteúdo de cada página que faz parte dessa página de aterrissagem, como o próprio formulário, a página de confirmação que é exibida ao enviar o formulário ou a página para a qual os usuários são direcionados caso ocorra um erro."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Agendar a landing page"
->abstract="Você pode definir uma data inicial e uma data final para sua landing page. Quando a página expirar, a página **Expiração** será exibida."
-
+>abstract="Você pode definir uma data inicial e uma data final para sua landing page. Quando a página atingir o fim do período de validade, o formulário não estará mais disponível. A variável **Expiração** é exibida."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -76,16 +77,18 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
    ![](assets/lp-create-button.png)
 
 1. Selecione um modelo:
-   * **[!UICONTROL Aquisição]**: este é o template padrão para landing pages, que permite capturar e atualizar dados do perfil.
-   * **[!UICONTROL Inscrição]**: use esse template para oferecer assinaturas de um serviço.
-   * **[!UICONTROL Cancelar assinatura]**: esse template pode ser vinculado a partir de um email enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura desse serviço.
+   * **[!UICONTROL Aquisição]**: este é o template padrão para landing pages, que permite capturar e atualizar dados de perfil.
+   * **[!UICONTROL Inscrição]**: use este template para permitir que os usuários assinem um [serviço](manage-services.md).
+   * **[!UICONTROL Cancelar assinatura]**: esse template pode ser usado em um delivery enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura deste [serviço](manage-services.md).
    * **[!UICONTROL ➡ Incluir na lista de bloqueios]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign. Saiba mais sobre o gerenciamento de inclui na lista de bloqueios
 
    ![](assets/lp-templates.png)
 
 1. Clique em **[!UICONTROL Create]**.
 
-1. Preencha os campos de propriedades, como o rótulo. Por padrão, as landing pages são armazenadas no **[!UICONTROL Aplicações web]** pasta. Você pode alterá-la navegando até o local desejado no **[!UICONTROL Opções adicionais]**. [Saiba como trabalhar com pastas](../get-started/permissions.md#folders)
+1. Preencha o **[!UICONTROL Propriedades]** campos como o rótulo.
+
+   Por padrão, as landing pages são armazenadas no **[!UICONTROL Aplicações web]** pasta. Você pode alterá-la navegando até o local desejado no **[!UICONTROL Opções adicionais]**. [Saiba como trabalhar com pastas](../get-started/permissions.md#folders)
 
    ![](assets/lp-properties.png)
 
@@ -99,15 +102,31 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
    ![](assets/lp-pages.png)
 
-1. A variável **[!UICONTROL Atualizar o registro pré-carregado]** for selecionada por padrão. Se quiser atualizar os perfis armazenados no banco de dados por meio da landing page, use uma caixa de pré-carregamento. A caixa de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados. Você também pode escolher entre os campos no contexto atual da landing page, aqueles que serão usados para localizar o perfil correspondente no banco de dados.
+1. A variável **[!UICONTROL Atualizar o registro pré-carregado]** for selecionada por padrão. Ela permite atualizar os perfis armazenados no banco de dados por meio da landing page. A caixa de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados.
 
-   ![](assets/lp-storage-schedule.png)
+   Você também pode escolher entre os campos no contexto atual da landing page, aqueles que serão usados para localizar o perfil correspondente no banco de dados. Para fazer isso, desmarque a opção **[!UICONTROL Atualizar o registro pré-carregado]** e marque os campos desejados em **[!UICONTROL Opções de reconciliação]**.
 
-1. Você pode definir uma data inicial e uma data final para sua landing page. Selecionar **[!UICONTROL Ativar agendamento]** e defina as datas. Quando a página expirar, a página **[!UICONTROL Expiração]** será exibida.
+   ![](assets/lp-storage.png)
+
+1. Você pode definir uma data inicial e uma data final para sua landing page. Selecionar **[!UICONTROL Ativar agendamento]** e defina as datas.
+
+   ![](assets/lp-schedule.png)
+
+   * A landing page é publicada automaticamente na data/hora de início especificada.
+
+     >[!NOTE]
+     >
+     >Se nenhuma data de início for definida, a landing page será ativada assim que for publicada.
+
+   * Quando a página atingir a data de término, a publicação da landing page será automaticamente desfeita e o formulário não estará mais disponível. A variável **[!UICONTROL Expiração]** é exibida.
+
+     >[!NOTE]
+     >
+     >Por motivos de segurança e desempenho da plataforma, a Adobe recomenda que você defina uma data de término.
 
 1. Clique em **[!UICONTROL Revisar e publicar]**.
 
-Depois de configurar e projetar todas as páginas, é possível [test](#test-landing-page) e [publicar](#publish-landing-page) sua landing page.
+Depois de definir todas as configurações e [projetado](lp-content.md) em todas as páginas, é possível [test](#test-landing-page) e [publicar](#publish-landing-page) sua landing page.
 
 ## Testar a landing page {#test-landing-page}
 
@@ -125,9 +144,9 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 >[!CAUTION]
 >
->Você deve ter perfis de teste disponíveis para poder visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../audience/test-profiles.md).
+>Você deve ter perfis de teste disponíveis para poder visualizar suas mensagens e enviar provas. [Saiba mais sobre perfis de teste](../audience/test-profiles.md)
 
-1. Na interface da landing page, clique na guia **[!UICONTROL Simular conteúdo]** botão para acessar a seleção de perfil de teste.
+1. Depois de clicar em **[!UICONTROL Revisar e publicar]**, selecione o **[!UICONTROL Simular conteúdo]** no painel da página de aterrissagem para acessar a seleção de perfil de teste.
 
    ![](assets/lp-simulate-content.png)
 
@@ -141,6 +160,8 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 1. A visualização da landing page é aberta em uma nova guia. Os elementos personalizados são substituídos pelos dados do perfil de teste selecionado.
 
+   Se você selecionou a variável **[!UICONTROL Preencher previamente com os dados referenciados no formulário]** nas configurações da página de aterrissagem, os campos de formulário são automaticamente preenchidos com os dados correspondentes do perfil de teste.<!--TBC-->
+
    ![](assets/lp-preview.png)
 
 1. Selecione outros perfis de teste para visualizar a renderização de cada variante da página de aterrissagem.
@@ -149,12 +170,14 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 ## Publicar a página de destino {#publish-landing-page}
 
-Quando a landing page estiver pronta, você poderá publicá-la para disponibilizá-la para uso em uma mensagem.
+Quando a landing page estiver pronta, publique-a para disponibilizá-la para uso em um delivery usando o botão correspondente.
 
-Quando a landing page for publicada, ela será adicionada à lista de landing pages com a **[!UICONTROL Publicado]** status. Agora ele está ativo e pronto para ser usado.
+Depois de publicado:
+
+* A landing page é adicionada à lista de landing pages com a **[!UICONTROL Publicado]** status. Agora ela está ativa e pronta para ser referenciada em seu conteúdo.
+
+* Você pode copiar e colar o **[!UICONTROL URL da landing page]** que é exibido na parte superior da página em um navegador da web.
 
 ![](assets/lp-published.png)
 
-Depois de publicado, você pode copiar e colar o **[!UICONTROL URL da landing page]** que é exibido na parte superior da página em um navegador da web.
-
-Você pode monitorar os impactos na página de aterrissagem por meio de logs e relatórios específicos.
+Você pode monitorar os impactos da sua landing page por meio de logs<!--and specific reports-->. Clique em **[!UICONTROL Logs]** botão.
