@@ -5,9 +5,9 @@ description: Lista de recursos compatíveis com a interface da Web do Campaign
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1495'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Os principais recursos do Campaign estão disponíveis na interface da Web do Campaign. Essa interface foi projetada principalmente para que os profissionais de marketing planejem, iniciem e avaliem suas campanhas de marketing. Todos os recursos estão listados [nesta página](../rn/whats-new.md).
 
-A personalização da plataforma do Campaign com base nas necessidades de negócios e dados, e a conexão com outros sistemas são gerenciadas no console do cliente do Campaign. Como consequência, alguns recursos e configurações só podem ser acessados, criados ou gerenciados no Console do cliente do Campaign. Alguns estarão disponíveis em uma versão posterior da interface da Web do Campaign.
+A personalização da plataforma do Campaign com base nas necessidades de negócios e dados, e a conexão com outros sistemas são gerenciadas no console do cliente do Campaign. Como consequência, alguns recursos e configurações só podem ser acessados, criados ou gerenciados no Console do cliente do Campaign. Alguns estarão disponíveis em uma atualização posterior da interface da Web do Campaign.
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ A personalização da plataforma do Campaign com base nas necessidades de negóc
 
 ## Gerenciamento de campanhas {#campaign-mgt-capabilities}
 
-Com a interface da Web do Campaign, é possível criar campanhas entre canais conforme detalhado [nesta seção](../campaigns/gs-campaigns.md). Na versão atual, os seguintes recursos só estão disponíveis no console do cliente do Campaign. Eles não podem ser acessados na interface da Web do Campaign, mas alguns podem ser visualizados no [Menu Explorer](user-interface.md#user-interface-explorer).
+Com a interface da Web do Campaign, é possível criar campanhas entre canais conforme detalhado [nesta seção](../campaigns/gs-campaigns.md). Os recursos a seguir estão disponíveis somente no console do cliente do Campaign. Eles não podem ser acessados na interface da Web do Campaign, mas alguns podem ser visualizados no [Menu Explorer](user-interface.md#user-interface-explorer).
 
 Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber como usar esses recursos.
 
@@ -39,7 +39,7 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 
 ## Canais de comunicação {#channels-capabilities}
 
-Com a interface da Web do Campaign, você pode criar, projetar e enviar emails, SMS e notificações por push e medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, os canais a seguir não estão disponíveis nessa versão.
+Com a interface da Web do Campaign, você pode criar, projetar e enviar emails, SMS e notificações por push e medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, os canais a seguir não estão disponíveis no momento.
 
 Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses canais.
 
@@ -71,7 +71,7 @@ Trabalhos de importação/exportação de uma só vez, conforme descrito em [Doc
 
 ## Mensagens transacionais {#mc-capabilities}
 
-Os recursos de mensagens transacionais que acompanham o pacote de produtos do Centro de mensagens não estão disponíveis nesta versão da nova interface do usuário da Web do Campaign.
+Os recursos de mensagens transacionais que acompanham o pacote de produtos do Centro de mensagens não estão disponíveis na nova interface do usuário da Web do Campaign.
 
 Navegue pelo [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} e saiba mais sobre os recursos de mensagens em tempo real, como:
 
@@ -86,9 +86,8 @@ O novo Email Designer que vem com a interface de usuário da Adobe Campaign Web 
 
 Com essa nova interface do usuário, é possível gerenciar a sincronização de modelos de email no Adobe Experience Manager e integrar ao Adobe Experience Manager as a Cloud Service.
 
-Observe que os recursos a seguir não estão disponíveis nesta versão do produto. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses recursos.
+Observe que os recursos a seguir não estão disponíveis por enquanto na interface do usuário da Web do Campaign. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses recursos.
 
-* Conteúdo de recursos públicos - SCOPË TO CONFIRM
 * Criação de bloco de personalização personalizado. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Conteúdo de formulários personalizados (módulo Gerenciamento de conteúdo). [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP para emails. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Use os links fornecidos para procurar a documentação do Campaign v8 (console d
 
 ## Workflows {#wf-capabilities}
 
-A nova interface do usuário da Web do Campaign traz uma interface reformulada da tela do fluxo de trabalho para projetar e gerenciar seus processos. As principais atividades de fluxo de trabalho já estão disponíveis em seu novo design. Algumas serão disponibilizadas em uma versão futura. Saiba mais sobre os recursos de fluxo de trabalho, incluindo medidas de proteção e limitações [nesta seção](../get-started/guardrails.md).
+A nova interface do usuário da Web do Campaign traz uma interface reformulada da tela do fluxo de trabalho para projetar e gerenciar seus processos. As principais atividades do fluxo de trabalho já estão disponíveis em seu novo design. Algumas serão disponibilizadas em uma atualização futura. Saiba mais sobre os recursos de fluxo de trabalho, incluindo medidas de proteção e limitações [nesta seção](../get-started/guardrails.md).
 
 Observe que os seguintes recursos só estão disponíveis no console do cliente do Campaign:
 
@@ -133,7 +132,7 @@ Saiba como gerenciar um catálogo de ofertas na [Documentação do Campaign v8 (
 
 A nova interface moderna do Campaign simplifica o design e o delivery de campanhas de marketing, além de oferecer consistência com outras soluções de Adobe, incluindo Adobe Experience Platform e Adobe Experience Manager.
 
-As seguintes integrações estão disponíveis no console do cliente Adobe Campaign e ainda não estão disponíveis nessa versão da interface da Web do Campaign. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre essas integrações:
+As seguintes integrações estão disponíveis no console do cliente Adobe Campaign e ainda não estão disponíveis na interface da Web do Campaign. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre essas integrações:
 
 * Uso de dados do Adobe Analytics e compartilhamento de KPI. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Compartilhamento de público com a Adobe Experience Cloud (Adobe Audience Manager). [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
