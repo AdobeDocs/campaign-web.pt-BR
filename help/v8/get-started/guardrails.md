@@ -3,20 +3,22 @@ title: Medidas de proteção e limitações na interface da Web do Campaign
 description: Medidas de proteção e limitações na interface da Web do Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 65%
+source-wordcount: '355'
+ht-degree: 21%
 
 ---
 
 # Medidas de proteção e limitações {#guardrails-limitations}
 
-Ao trabalhar na interface do usuário da Web do Campaign com componentes criados ou modificados no console do cliente do Campaign, as medidas de proteção e as limitações listadas abaixo se aplicam.
+Ao trabalhar na interface do usuário da Web do Campaign com workflows criados ou modificados no console do cliente do Campaign, as medidas de proteção e as limitações listadas abaixo se aplicam.
 
-## Workflows {#wf-guardrails-limitations}
+Observe que, embora esta página identifique as principais considerações ao trabalhar com workflows no console e na interface do usuário da Web, ela não abrange todas as incompatibilidades potenciais entre as duas interfaces.
 
-### Atividades
+## Atividades de fluxos de trabalho {#wkf-activities}
+
+As atividades de workflow ainda não compatíveis na Web do Campaign são somente leitura e exibidas como atividades incompatíveis. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc. As atividades de workflow disponíveis na Web do Campaign e no console do cliente são editáveis.
 
 As atividades de fluxo de trabalho que ainda não são compatíveis com a interface da Web do Campaign são somente leitura e exibidas como atividades incompatíveis. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc. As atividades de workflow disponíveis na interface da Web do Campaign e no console do cliente do Campaign podem ser editadas.
 
@@ -24,19 +26,19 @@ As atividades de fluxo de trabalho que ainda não são compatíveis com a interf
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-As configurações de atividade do fluxo de trabalho que ainda não são compatíveis na interface do usuário da Web não são exibidas. No entanto, quando o fluxo de trabalho é executado, essas configurações se aplicam.
+Quando um **Query** ou um **Enriquecimento** for configurada com dados adicionais no console, os dados de enriquecimento serão considerados no Campaign Web e transmitidos para a transição de saída, mas não poderão ser editados.
 
 | Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-No console, a atividade **Enriquecimento** pode executar a reconciliação e o enriquecimento. Na interface do usuário da Web do Campaign, os recursos de reconciliação ainda não estão disponíveis. Se você tiver definido, no console do cliente, as configurações de reconciliação no **Enriquecimento** será exibida como uma atividade somente leitura não compatível na interface da Web do Campaign.
+No console, a atividade **Enriquecimento** pode executar a reconciliação e o enriquecimento. Se você tiver definido, no console do cliente, as configurações de reconciliação no **Enriquecimento** atividade, será exibido como um **Reconciliação** atividade na interface da Web do Campaign.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
 
-### Tela
+## Tela de fluxo de trabalho {#wkf-canvas}
 
 Ao criar um novo workflow na interface da Web do Campaign, a tela oferece suporte apenas a um ponto de entrada. No entanto, se você criou um fluxo de trabalho no console com vários pontos de entrada, é possível abri-lo e editá-lo na interface do usuário da Web do Campaign.
 
@@ -44,88 +46,8 @@ Ao criar um novo workflow na interface da Web do Campaign, a tela oferece suport
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Os loops ainda não estão disponíveis na interface da Web do Campaign. Se você criou um workflow incluindo um loop usando o console, não é possível acessá-lo na interface do usuário da Web do Campaign. Uma mensagem de erro é exibida.
-
-| Console | Web |
-| --- | --- |
-| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
-
 O posicionamento dos nós é atualizado sempre que uma atividade é adicionada ou removida. Se você criar um fluxo de trabalho no console, modificá-lo usando a interface da Web do Campaign e reabri-lo no console, poderá notar algumas pequenas imperfeições de posicionamento. Isso não afeta os processos e as tarefas do fluxo de trabalho.
 
 | Fluxo de trabalho inicial | Alteração de posicionamento |
 | --- | --- |
 | ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
-
-## Filtros predefinidos {#filters-guardrails-limitations}
-
->[!CONTEXTUALHELP]
->id="acw_predefined_filter_read_only"
->title="Este filtro é somente leitura"
->abstract="Alguns filtros predefinidos não estão disponíveis na interface dessa versão do produto. Esses filtros são marcados como somente leitura. Mesmo que não seja possível visualizar a representação gráfica da consulta no modelador de consulta e editar o filtro, você ainda poderá usá-lo e ver as condições de filtragem na seção **Atributos** da tela."
-
-Ao selecionar o público-alvo de uma entrega ou criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estarão disponíveis na interface nessa versão do produto. Esses filtros são marcados como somente leitura.
-
-Uma mensagem de erro específica é exibida.
-
-![](assets/filter-unavailable.png){width="70%" align="left"}
-
-Mesmo que não seja possível visualizar a representação gráfica da consulta no modelador de consulta e editar o filtro, você ainda poderá usá-lo e ver as condições de filtragem na seção **Atributos** da tela.
-
-![](assets/rule-edit.png){width="70%" align="left"}
-
-Você também pode acessar a consulta SQL para verificar as configurações exatas. Para fazer isso, clique em **Visualização de código**.
-
-![](assets/rule-code-view.png){width="70%" align="left"}
-
-Clique em **Calcular** para verificar quantos itens atendem aos critérios do filtro.
-
-![](assets/rule-calculate.png){width="70%" align="left"}
-
-Clique em **Exibir resultados** para exibir esses itens.
-
-![](assets/rule-view-results.png){width="70%" align="left"}
-
-Observe que, se você criar um filtro na interface da web e modificá-lo no console com atributos incompatíveis, a representação gráfica deixará de estar disponível na interface da web. Em qualquer caso, ainda é possível usar o filtro.
-
-Os atributos incompatíveis estão listados abaixo.
-
-### Tipos de dados incompatíveis {#unsupported-data-type}
-
-Os seguintes tipos de dados disponíveis no console do cliente não são compatíveis ao exibir um filtro ou uma regra na interface da web:
-
-* data e hora
-* tempo
-* intervalo de tempo
-* duplo
-* flutuante
-
-### Recursos de filtragem incompatíveis {#unsupported-filtering-capabilities}
-
-Quando um filtro é criado com expressões e funções complexas no console do cliente, não pode ser editado na interface da web.
-
-Além disso, os seguintes operadores não são compatíveis:
-
-* Tipo numérico
-   * é incluído em
-   * não em
-
-* Tipo de string
-   * maior que
-   * menor que
-   * é maior que ou igual a
-   * é menor que ou igual a
-   * semelhante
-   * não semelhante
-
-* Tipo de dados
-   * em ou depois de
-   * em ou antes de
-   * não é igual a
-   * está vazio
-   * não está vazio
-   * é incluído em
-   * não está em
-   * no último
-
-* links 1-N
-   * COUNT, SUM, AVG, MIN, MAX
