@@ -4,10 +4,10 @@ title: Introdução às páginas de destino
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 9%
+source-wordcount: '271'
+ht-degree: 11%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 9%
 
 [!DNL Adobe Campaign] O permite criar, projetar e compartilhar páginas de aterrissagem.
 
-No contexto de campanhas de marketing, uma landing page é uma página da Web independente onde um visitante é direcionado depois de clicar em um link em um email, SMS, delivery por push ou site.
+No contexto de campanhas de marketing, uma landing page é uma página da Web independente onde um visitante é direcionado depois de clicar em um link em um delivery ou em um site.
 
-As landing pages permitem direcionar os usuários para formulários online, onde eles podem aceitar/recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
+As landing pages permitem direcionar os usuários para formulários online, onde eles podem atualizar os dados, aceitar/recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ As landing pages permitem direcionar os usuários para formulários online, onde
 
 Os principais recursos das landing pages estão listados abaixo:
 
-* Aproveitar [!DNL Adobe Campaign] recursos de design de conteúdo para criar facilmente **landing pages responsivas**.
-* Configurar **fluxos de aceitação e recusa** rapidamente e sem problemas.
-* Criar serviços de assinatura para permitir que os usuários **assinar um serviço**. [Saiba mais](../audience/manage-services.md)
-* Forneça aos recipients a **capacidade de cancelar a inscrição** de receber suas comunicações.
+* Crie, projete e compartilhe páginas de aterrissagem instantaneamente usando páginas prontas para uso **modelos pré-preenchidos** diferentes casos de uso. [Saiba mais](create-lp.md)
+* Aproveitar [!DNL Adobe Campaign] recursos de design de conteúdo para criar facilmente **landing pages responsivas**. [Saiba mais](lp-content.md)
+* Configurar **fluxos de aceitação e recusa** rapidamente e sem problemas. [Saiba mais](lp-use-cases.md)
+* Criar serviços de assinatura para permitir que os usuários **assinar um serviço**. [Saiba mais](lp-use-cases.md#lp-subscription)
+* Forneça aos recipients a **capacidade de cancelar a inscrição** de receber suas comunicações. [Saiba mais](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
