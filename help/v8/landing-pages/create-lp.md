@@ -3,7 +3,7 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 21%
@@ -78,8 +78,8 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 1. Selecione um modelo:
    * **[!UICONTROL Aquisição]**: este é o template padrão para landing pages, que permite capturar e atualizar dados de perfil.
-   * **[!UICONTROL Inscrição]**: use este template para permitir que os usuários assinem um [serviço](manage-services.md).
-   * **[!UICONTROL Cancelar assinatura]**: esse template pode ser usado em um delivery enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura deste [serviço](manage-services.md).
+   * **[!UICONTROL Inscrição]**: use este template para permitir que os usuários assinem um [serviço](../audience/manage-services.md).
+   * **[!UICONTROL Cancelar assinatura]**: esse template pode ser usado em um delivery enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura deste [serviço](../audience/manage-services.md).
    * **[!UICONTROL ➡ Incluir na lista de bloqueios]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign. Saiba mais sobre o gerenciamento de inclui na lista de bloqueios
 
    ![](assets/lp-templates.png)
