@@ -5,16 +5,16 @@ description: Conheça os princípios básicos dos fluxos de trabalho no Adobe Ca
 badge: label="Disponibilidade limitada"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Princípios básicos da criação de fluxos de trabalho {#gs-workflow-creation}
 
-Com o Adobe Campaign Web, você pode criar fluxos de trabalho em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
+Com o Adobe Campaign Web, é possível criar workflows em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 
 
 ## O que há dentro de um workflow? {#gs-workflow-inside}

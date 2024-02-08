@@ -1,17 +1,17 @@
 ---
 keywords: Campaign Web;página inicial;tópicos populares
-description: Central de ajuda do Campaign na Web
-title: Documentação do produto da Adobe Campaign na Web
+description: Central de ajuda do Campaign Web
+title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilidade limitada"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Documentação do Adobe Campaign Web {#campaign-documentation}
+# Documentação do Adobe Campaign Web  {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -26,7 +26,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Item 1"
->abstract="Nova experiência de design de email, SMS e notificações por push"
+>abstract="Nova experiência de design de notificações por push, email e SMS"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="UX recriada para públicos-alvo, assinatura, AEM Assets e landing pages"
+>abstract="UX reformulada para públicos-alvo, assinatura, AEM Assets e páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="Modelador de consultas e designer de email de próxima geração"
+>abstract="Modelador de consulta e designer de email de última geração"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -86,11 +86,11 @@ ht-degree: 88%
 Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. Nossa versão mais recente está cheia recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> No momento, o Adobe Campaign Web está na versão de Disponibilidade Limitada (DL). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
+> O Adobe Campaign Web está atualmente na versão de disponibilidade limitada (LA). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
 
 ## Novidades
 
-Dê uma olhada nos últimos aprimoramentos do produto e da documentação da Adobe Campaign na Web! Para obter uma lista abrangente das principais funcionalidades e recursos das atualizações de versão, consulte [esta página](rn/whats-new.md).
+Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Adobe Campaign Web. Para obter uma lista abrangente das principais funcionalidades e recursos das atualizações de versão, consulte [esta página](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,15 +126,15 @@ Crie novos perfis e monitore-os com ferramentas e relatórios avançados. Acesse
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Conheça a nova interface de usuário</strong><br/>Explore a nova interface e experiência de navegação da Adobe Campaign Web integrada ao Adobe Experience Platform.</div>
+    <div><strong>Conheça a nova interface</strong><br/>Explore a nova interface e a experiência de navegação do Adobe Campaign Web integrada à Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Tela de fluxo de trabalho reformulada</strong><br/>Saiba como criar fluxos de trabalho para organizar todos os processos e tarefas, aumentando a velocidade e escala de cada aspecto de suas campanhas de marketing.</div><br/>
+    <div><strong>Tela de fluxo de trabalho reformulada</strong><br/>Saiba como criar workflows para organizar todos os processos e tarefas, aumentando a velocidade e escala de cada aspecto de suas campanhas de marketing.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Conheça o Designer de email</strong><br/>Saiba como começar a partir de um modelo ou usar o novo Designer de email do Adobe Campaign para criar emails sem precisar gravar uma única linha de código.
+    <div><strong>Conheça o Designer de email</strong><br/>Saiba como começar a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código. 
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
