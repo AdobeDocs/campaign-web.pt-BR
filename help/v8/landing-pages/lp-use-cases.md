@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -170,8 +169,6 @@ Você pode configurar um **[!UICONTROL ➡ Incluir na lista de bloqueios]** pág
 Para permitir que os usuários recusem todos os deliveries, é necessário criar e publicar um **[!UICONTROL ➡ Incluir na lista de bloqueios]** página de aterrissagem.
 
 Quando um usuário clica no link da página de aterrissagem, a variável **[!UICONTROL Não entrar mais em contato (por qualquer canal)]** no perfil é selecionada automaticamente.
-
-![](assets/blocklisting_allchannels.png)
 
 definir um **[!UICONTROL Opção de não participação]** e optar por atualizar **[!UICONTROL Canal (email)]**: o perfil que marca a caixa de opção de não participação na página de aterrissagem será excluído de todas as suas comunicações.
 
