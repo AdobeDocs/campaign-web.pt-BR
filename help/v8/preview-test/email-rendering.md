@@ -4,9 +4,9 @@ title: Testar a renderização do email
 description: Saiba como testar a renderização de email na interface da Web do Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Disponibilidade limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Para fazer isso, você pode aproveitar os seus **Litmus** conta em [!DNL Adobe C
 Para acessar os recursos de renderização de email, é necessário:
 
 * Ter uma conta Litmus
-* Selecionar perfis de teste - Saiba mais em [nesta seção](preview-content.md)
+* Selecionar perfis e/ou perfis de teste - Saiba mais em [nesta seção](preview-content.md)
 
 Em seguida, siga as etapas abaixo.
 

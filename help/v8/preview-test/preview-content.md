@@ -4,10 +4,10 @@ title: Visualizar conteúdo do delivery
 description: Saiba como pré-visualizar o conteúdo de delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidade limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -32,22 +32,17 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
 1. Você pode combinar perfis e perfis de teste para visualizar sua mensagem de email ou SMS.
 
-   * A variável **[!UICONTROL Perfis de teste]** lista todos os seed addresses, que são recipients adicionais e fictícios no banco de dados.
-     ![](assets/simulate-select-profiles.png)
+   * A variável **[!UICONTROL Perfis de teste]** A guia lista todos os perfis de teste, que são destinatários adicionais e fictícios no banco de dados. [Saiba como trabalhar com perfis de teste](../audience/test-profiles.md)
 
-     Perfis de teste podem ser criados no **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
+   * A variável **[!UICONTROL Perfis]** A guia lista todos os perfis armazenados no banco de dados. [Saiba como trabalhar com perfis](../audience/about-recipients.md)
 
-
-   * A variável **[!UICONTROL Perfis]** A guia lista todos os destinatários armazenados no **[!UICONTROL Perfis e públicos alvo]** pasta do [!DNL Campaign] console do cliente. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
-
-     É possível exibir, criar e gerenciar perfis no **[!UICONTROL Perfis]** guia. [Saiba mais](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
+   Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. [Saiba como adicionar regras usando o modelador de consultas](../query/query-modeler-overview.md).
 
 1. Clique em **[!UICONTROL Selecionar]** para confirmar a seleção.
 

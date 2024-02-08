@@ -2,10 +2,10 @@
 title: Introdução a perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
 badge: label="Disponibilidade limitada"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 33%
+source-wordcount: '527'
+ht-degree: 26%
 
 ---
 
@@ -33,17 +33,15 @@ ht-degree: 33%
 
 ## O que é um perfil? {#what}
 
-Um perfil na Web do Adobe Campaign é um indivíduo armazenado no banco de dados, servindo como um componente-chave para [criar públicos](create-audience.md) para deliveries e [adicionar personalização](../personalization/personalize.md) dados ao seu conteúdo.
+A **perfil**, também conhecido como &quot;recipients&quot; no console do cliente, representa um indivíduo armazenado no banco de dados do Campaign, servindo como um componente principal para [criar públicos](create-audience.md) para deliveries e [adicionar personalização](../personalization/personalize.md) dados ao seu conteúdo. O Adobe Campaign permite gerenciar perfis com facilidade, desde a criação de novas entradas até o acesso a uma visualização abrangente de todos os atributos e assinaturas de serviços dos perfis, tudo isso por meio da interface do usuário na Web do Campaign.
 
-O Adobe Campaign permite criar e monitorar perfis diretamente na interface. A partir daí, você pode criar perfis, acessar uma visualização detalhada dos perfis e editá-los.
+Além disso, **[!UICONTROL perfis de teste]**, identificados como &quot;perfis iniciais&quot; no console do cliente, permitem direcionar recipients adicionais que não correspondem aos critérios de direcionamento de um determinado delivery. Esses perfis contêm informações de contato fictícias ou informações de contato controladas pelo remetente. Eles podem ser adicionados ao público de uma mensagem para detectar qualquer uso fraudulento do banco de dados do recipient ou para garantir que os emails cheguem às caixas de entrada. [Saiba como trabalhar com perfis de teste](test-profiles.md)
 
-Outros tipos de perfis são armazenados no banco de dados, como **[!UICONTROL Perfis de teste]**, que são projetados para testar seus deliveries antes que sejam enviados ao público final. [Saiba como trabalhar com perfis de teste](test-profiles.md)
+Perfis e perfis de teste podem ser usados para testar seus deliveries antes que eles atinjam o público-alvo desejado. Ao fazer isso, você pode pré-visualizar o conteúdo e a personalização da mensagem, enviar provas de teste e validação, avaliar a renderização de email em várias plataformas e dispositivos e testar suas landing pages. [Saiba como visualizar e testar deliveries](../preview-test/preview-test.md)
 
 ## Acessar a lista de perfis {#access}
 
-Os perfis podem ser acessados e editados na Adobe Campaign Web a partir do **[!UICONTROL Gerenciamento de clientes]** > **Perfis** no painel de navegação esquerdo.
-
-Também é possível acessá-las por meio da **[!UICONTROL Explorer]** exibir, no **[!UICONTROL Perfis e destinos]** > **[!UICONTROL Destinatários]** nó. Ali é possível navegar, criar e gerenciar pastas ou subpastas, bem como verificar permissões associadas. [Saiba como criar pastas](../get-started/permissions.md#folders)
+Os perfis podem ser acessados e editados na Adobe Campaign Web a partir do **[!UICONTROL Gerenciamento de clientes]** > **Perfis** no painel de navegação esquerdo. Você também pode acessá-las no **[!UICONTROL Explorer]** exibir, no **[!UICONTROL Perfis e destinos]** > **[!UICONTROL Destinatários]** nó. Ali é possível navegar, criar e gerenciar pastas ou subpastas, bem como verificar permissões associadas. [Saiba como criar pastas](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >
