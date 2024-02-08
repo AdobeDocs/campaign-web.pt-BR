@@ -3,10 +3,10 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 20%
+source-wordcount: '1279'
+ht-degree: 19%
 
 ---
 
@@ -80,9 +80,13 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
    * **[!UICONTROL Aquisição]**: este é o template padrão para landing pages, que permite capturar e atualizar dados de perfil.
    * **[!UICONTROL Inscrição]**: use este template para permitir que os usuários assinem um [serviço](../audience/manage-services.md).
    * **[!UICONTROL Cancelar assinatura]**: esse template pode ser usado em um delivery enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura deste [serviço](../audience/manage-services.md).
-   * **[!UICONTROL ➡ Incluir na lista de bloqueios]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign. Saiba mais sobre o gerenciamento de inclui na lista de bloqueios
+   * **[!UICONTROL ➡ Incluir na lista de bloqueios]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign.
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >Saiba como implementar os diferentes casos de uso correspondentes a cada modelo no [nesta seção](lp-use-cases.md).
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -94,7 +98,7 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 1. No **[!UICONTROL Pré-carregamento de dados]** , as duas opções abaixo são selecionadas por padrão:
 
-   * A variável **[!UICONTROL Preencher previamente com os dados referenciados no formulário]** permite pré-carregar automaticamente os dados que correspondem aos campos de entrada e mesclagem no formulário.
+   * Quando a variável **[!UICONTROL Preencher previamente com os dados referenciados no formulário]** for selecionada, se o visitante da landing page corresponder a um perfil do banco de dados, as informações do perfil serão pré-carregadas automaticamente no formulário. O usuário só precisa preencher os campos ausentes e atualizar os valores existentes, se necessário. Isso permite mesclar dados de perfis existentes, em vez de criar duplicatas.
 
    * A variável **[!UICONTROL Ignorar pré-carregamento se nenhuma ID]** deve ser selecionada se você não deseja atualizar os perfis. Nesse caso, cada perfil inserido será adicionado ao banco de dados após a aprovação do formulário. Essa opção é usada, por exemplo, quando o formulário é postado em um site.
 
@@ -118,7 +122,7 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
      >
      >Se nenhuma data de início for definida, a landing page será ativada assim que for publicada.
 
-   * Quando a página atingir a data de término, a publicação da landing page será automaticamente desfeita e o formulário não estará mais disponível. A variável **[!UICONTROL Expiração]** é exibida.
+   * Quando a página atinge a data final, <!--the landing page is automatically unpublished and -->o formulário não está mais disponível. A variável **[!UICONTROL Expiração]** é exibida.
 
      >[!NOTE]
      >
