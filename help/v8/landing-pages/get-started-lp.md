@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Introdução às landing pages
+title: Introdução às páginas de destino
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Introdução às landing pages {#get-sarted-lp}
+# Introdução às páginas de destino {#get-sarted-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"

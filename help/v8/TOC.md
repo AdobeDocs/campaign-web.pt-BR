@@ -6,9 +6,9 @@ title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do usuário da Web do Campaign
 hide: true
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 06ec541924c906980ed0e318556177e26a9f00b0
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 94%
 
 ---
@@ -93,6 +93,7 @@ ht-degree: 94%
    + [Crie e publique uma página de destino](landing-pages/create-lp.md)
    + [Crie o conteúdo da página de destino](landing-pages/lp-content.md)
    + [Trabalhe com modelos de páginas de destino](landing-pages/lp-templates.md)
+   + [Saiba mais sobre casos de uso](landing-pages/lp-use-cases.md)
 + Perfis e públicos {#audiences}
    + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
