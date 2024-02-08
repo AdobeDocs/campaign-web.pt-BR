@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,8 @@ Depois que eles receberem o email, se seus recipients clicarem no link para a la
 
 ## Cancelamento de assinatura {#lp-unsubscription}
 
+Você pode permitir que seus clientes cancelem a assinatura de um serviço usando uma landing page.
+
 1. Certifique-se de ter criado um modelo de confirmação para os usuários que cancelaram a assinatura do serviço, para que você possa selecioná-lo facilmente ao criar o serviço. [Saiba mais](../audience/manage-services.md#create-confirmation-message)
 
 1. No seu [subscrição no serviço](../audience/manage-services.md), selecione o template criado como o email de confirmação que os usuários receberão ao cancelar a inscrição.
@@ -167,11 +169,11 @@ Depois que eles receberem o email, se seus recipients clicarem no link para a la
 
 1. Revisão e [publicar](create-lp.md#publish-landing-page) sua landing page.
 
-1. Criar um [email](../email/create-email.md) e [adicionar um link](../email/message-tracking.md#insert-links) para direcionar o tráfego para a landing page de registro.
+1. Criar um [email](../email/create-email.md) e [adicionar um link](../email/message-tracking.md#insert-links) para a página de aterrissagem.
 
-Depois que eles receberem o email, se seus recipients clicarem no link para a landing page e enviarem o formulário, eles serão direcionados à página de confirmação do cancelamento de subscrição e serão removidos da lista de assinaturas.
+Depois que eles receberem o email, se os recipients clicarem no link para a landing page e enviarem o formulário, eles serão direcionados à página de confirmação do cancelamento de subscrição e serão removidos do serviço de subscrição correspondente.
 
-## Configuração de páginas de aterrissagem de recusa {#lp-denylist}
+## Lista de bloqueios {#lp-denylist}
 
 Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Portanto, você sempre deve incluir um **link para cancelar inscrição** em cada email enviado aos recipients. Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
 
