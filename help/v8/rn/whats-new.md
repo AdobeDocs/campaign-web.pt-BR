@@ -4,10 +4,10 @@ title: Novidades na interface da Web do Campaign
 description: Descubra o novo recurso que acompanha a interface do usuário da Web do Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ Com a interface da Web do Campaign, a interface reflete as permissões do usuár
 
 Como um usuário existente do Campaign, observe que alguns conceitos foram renomeados para alinhar-se aos padrões de terminologia mais recentes. Essas alterações se aplicam somente à interface da Web do Campaign e não são refletidas no console do cliente. Elas estão detalhadas abaixo.
 
-* Agora, as provas são **Testar emails**: para enviar uma prova, use o botão **Teste** na interface da entrega de email. O público-alvo das provas agora é referenciado como **Perfis de teste**. [Saiba mais](../preview-test/test-deliveries.md).
-* Agora, os seed addresses são usados como **Perfis de teste**: envie o email de teste para os seed addresses, que são destinatários adicionais no banco de dados. [Saiba mais](../preview-test/test-deliveries.md).
+* Os recipients agora são **Perfis**. [Saiba mais](../audience/gs-audiences-recipients.md).
+* Os seed addresses agora estão **Perfis de teste**. [Saiba mais](../preview-test/test-deliveries.md).
 * A análise da entrega agora é a **preparação da entrega**. Quando precisar iniciar a preparação da mensagem, clique no botão **Preparar**. [Saiba mais](../monitor/prepare-send.md).
 * A Visualização de email agora está disponível através do botão **Simular conteúdo**. [Saiba mais](../preview-test/preview-test.md)
-* As listas agora são **Públicos-alvo**. [Saiba mais](../audience/about-recipients.md).
+* As listas agora são **Públicos-alvo**. [Saiba mais](../audience/gs-audiences-recipients.md).
 
 ## Limitações{#limitations-beta}
 
 As limitações abaixo se aplicam a esta versão:
 
 * Os objetos editáveis são: Recipients, Entregas, Campanhas, Workflows, Públicos-alvo, Serviços de assinatura, Filtros predefinidos e Modelos. Os outros são do tipo somente leitura. Use filtros e crie regras para navegar por todos eles.
-* A interface de Administração não está disponível.
+* Os recursos de administração e configuração avançada não estão disponíveis na interface da Web do Campaign.
 * As métricas de relatório (como aberturas e dados de rastreamento) são atualizadas a cada hora.
 * Os KPIs do painel de entrega são atualizados a cada 5 minutos. - mas a preparação da Entrega é em tempo real.
 * As Notificações da Adobe Experience Cloud e a Ajuda unificada disponíveis na barra superior ainda não estão integradas.
 
-Para obter mais medidas de proteção e limitações, consulte [esta página](../get-started/guardrails.md).
+Saiba mais sobre recursos compatíveis/não compatíveis e interoperabilidade entre a interface da Web do Campaign e o console do cliente do Campaign, [nesta página](../get-started/capability-matrix.md).

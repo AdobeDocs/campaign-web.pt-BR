@@ -2,21 +2,19 @@
 audience: end-user
 title: Matriz de recursos da interface do usuário da Web/console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface da Web do Campaign
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 5%
 
 ---
 
-# Matriz de recursos da interface do usuário da Web/console do cliente do Campaign {#capabilities-matrix}
+# Console do cliente do Campaign e da Web do Campaign {#capabilities-matrix}
 
 Os principais recursos do Campaign estão disponíveis na interface da Web do Campaign. Essa interface foi projetada principalmente para que os profissionais de marketing planejem, iniciem e avaliem suas campanhas de marketing. Todos os recursos estão listados [nesta página](../rn/whats-new.md).
 
-A personalização da plataforma do Campaign com base nas necessidades de negócios e dados, e a conexão com outros sistemas são gerenciadas no console do cliente do Campaign. Como consequência, alguns recursos e configurações só podem ser acessados, criados ou gerenciados no Console do cliente do Campaign. Alguns estarão disponíveis em uma atualização posterior da interface da Web do Campaign.
+A personalização da plataforma do Campaign com base nas necessidades de negócios e dados, e a conexão com outros sistemas são gerenciadas no console do cliente do Campaign. Como consequência, alguns recursos e configurações só podem ser acessados, criados ou gerenciados no console do cliente do Campaign. Alguns estarão disponíveis em uma atualização posterior da interface da Web do Campaign.
 
 <!--
 **Homepage**
@@ -61,7 +59,9 @@ Como consequência, no console do cliente do Campaign, não é possível editar,
 
 ## Perfis, perfis de teste e públicos {#profiles-audiences-capabilities}
 
-Você pode criar, gerenciar e atualizar perfis e perfis de teste no console do cliente do Campaign e na interface do usuário da Web do Campaign. Todas as alterações executadas em uma interface do usuário são visíveis na outra. No entanto, algumas configurações específicas de recipient e parâmetros avançados podem estar ausentes na nova interface do usuário da Web do Campaign. Observe que o termo &quot;recipient&quot; foi alterado para &quot;profile&quot; na nova interface do usuário da Web.
+Você pode criar, gerenciar e atualizar perfis e perfis de teste no console do cliente do Campaign e na interface do usuário da Web do Campaign. Todas as alterações executadas em uma interface do usuário são visíveis na outra. No entanto, algumas configurações específicas de recipient e parâmetros avançados podem estar ausentes na nova interface do usuário da Web do Campaign.
+
+Observe que o termo &quot;recipient&quot; foi alterado para &quot;profile&quot; na nova interface do usuário da Web e &quot;Seed addresses&quot; agora são &quot;Test profiles&quot;
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Alguns recursos só estão disponíveis no console do cliente. Navegue pelos lin
 
 A interface da Web do Campaign não exibe os recursos a seguir. Eles só estão disponíveis no console do cliente.
 
-Navegue pelos links fornecidos na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"} e saiba mais.
+Navegue pelos links fornecidos na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"} para saber mais.
 
 * Contas externas. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Criação e extensão de esquema. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
