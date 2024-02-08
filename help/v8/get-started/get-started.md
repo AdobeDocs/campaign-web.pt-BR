@@ -7,7 +7,7 @@ badge: label="Disponibilidade limitada"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Introdução"
->abstract="A nova interface do Adobe Campaign Web oferece uma experiência do usuário integrada, intuitiva e consistente."
+>abstract="A nova interface do Adobe Campaign Web oferece uma experiência de usuário integrada, intuitiva e consistente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Introdução"
->abstract="A nova interface do Adobe Campaign Web oferece uma experiência do usuário integrada, intuitiva e consistente."
+>abstract="A nova interface do Adobe Campaign Web oferece uma experiência de usuário integrada, intuitiva e consistente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Introdução"
->abstract="A nova interface do Adobe Campaign Web oferece uma experiência do usuário integrada, intuitiva e consistente."
+>abstract="A nova interface do Adobe Campaign Web oferece uma experiência de usuário integrada, intuitiva e consistente."
 
 O Adobe Campaign fornece uma plataforma para criar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o Real-time Interaction Management e a execução entre canais.
 
@@ -50,7 +50,7 @@ Como administrador ou usuário especialista, se precisar acessar recursos do Cam
 
 >[!NOTE]
 >
->No momento, o Adobe Campaign Web está na versão de Disponibilidade Limitada (DL). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
+>O Adobe Campaign Web está atualmente na versão de disponibilidade limitada (LA). O acesso é restrito a um pequeno conjunto de clientes de LA. Observe que a interface, os recursos e os fluxos de uso do produto podem mudar sem aviso prévio.
 
 Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign.md).
 

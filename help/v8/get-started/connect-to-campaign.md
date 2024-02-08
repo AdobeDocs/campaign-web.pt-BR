@@ -1,18 +1,18 @@
 ---
 title: Conectar-se à interface web do Adobe Campaign
-description: Saiba como se conectar à interface da Web do Adobe Campaign
+description: Saiba como se conectar à interface do Adobe Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # Conexão com o Adobe Campaign {#connect-to-campaign}
 
-A Experience Cloud é a família integrada de aplicativos, produtos e serviços de marketing digital da Adobe. Com sua interface intuitiva, você pode acessar rapidamente os aplicativos em nuvem, recursos do produto e serviços. Saiba como se conectar ao Adobe Experience Cloud e acessar a interface da Web do Adobe Campaign nesta página.
+A Experience Cloud é a família integrada de aplicativos, produtos e serviços de marketing digital da Adobe. Com sua interface intuitiva, você pode acessar rapidamente os aplicativos em nuvem, recursos do produto e serviços. Saiba como se conectar à Adobe Experience Cloud e acessar a interface do Adobe Campaign Web nesta página.
 
 ## Fazer logon na Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Navegue na barra superior da interface para:
 
 ## Navegadores compatíveis {#browsers}
 
-O Adobe Campaign Web foi projetado para funcionar de maneira ideal na versão mais recente do Google Chrome, Safari e Microsoft Edge. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou em outros navegadores.
+O Adobe Campaign Web foi desenvolvido para funcionar de maneira ideal na versão mais recente do Google Chrome, Safari e Microsoft Edge. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou em outros navegadores.
 
 ## Preferências de idioma {#language-pref}
 
-O Adobe Campaign Web está disponível atualmente nos seguintes idiomas:
+Atualmente, o Adobe Campaign Web está disponível nos seguintes idiomas:
 
 * Inglês (EUA) - EN-US
 * Francês - FR

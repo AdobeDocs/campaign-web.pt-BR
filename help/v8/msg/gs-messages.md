@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Introdução a mensagens e entregas na Web do Adobe Campaign
+title: Introdução a mensagens e entregas no Adobe Campaign Web
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 badge: label="Disponibilidade limitada"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 

@@ -3,22 +3,22 @@ audience: end-user
 user-guide-title: Interface do usuário da Web do Adobe Campaign
 user-guide-description: Documentação do produto da interface da Web do Adobe Campaign.
 title: Documentação do Adobe Campaign Web
-description: Documentação da Web do Campaign
+description: Documentação do Campaign Web
 breadcrumb-title: Interface do usuário da Web do Campaign
 hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
 
-# Documentação da Adobe Campaign na Web {#v8}
+# Documentação do Adobe Campaign Web {#v8}
 
 + [Documentação da interface do usuário da Web do Adobe Campaign](campaign-web-home.md)
 + [Novidades](rn/whats-new.md)
-+ [Atualizações de documentação](rn/documentation-updates.md)
++ [Atualizações da documentação](rn/documentation-updates.md)
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
    + [Conexão com o Campaign](get-started/connect-to-campaign.md)
@@ -65,7 +65,7 @@ ht-degree: 88%
          + [Preparar e enviar um email](monitor/prepare-send.md)
          + [Configurações de entrega de email](advanced-settings/delivery-settings.md)
          + [Enviar usando várias ondas](advanced-settings/send-using-waves.md)
-         + [Monitorar logs do delivery](monitor/delivery-logs.md)
+         + [Monitorar logs de entrega](monitor/delivery-logs.md)
    + Notificações por push {#push}
       + [Introdução às notificações por push](push/gs-push.md)
       + [Criar uma entrega de notificação por push](push/create-push.md)
@@ -88,19 +88,19 @@ ht-degree: 88%
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
       + [Enviar entregas de teste](preview-test/test-deliveries.md)
       + [Testar a renderização do email](preview-test/email-rendering.md)
-+ Landing page {#landing-pages}
-   + [Introdução às landing pages](landing-pages/get-started-lp.md)
-   + [Criar e publicar uma landing page](landing-pages/create-lp.md)
-   + [Conteúdo da página de aterrissagem de design](landing-pages/lp-content.md)
-   + [Trabalhar com modelos de página de aterrissagem](landing-pages/lp-templates.md)
++ Página de destino {#landing-pages}
+   + [Introdução às páginas de destino](landing-pages/get-started-lp.md)
+   + [Crie e publique uma página de destino](landing-pages/create-lp.md)
+   + [Crie o conteúdo da página de destino](landing-pages/lp-content.md)
+   + [Trabalhe com modelos de páginas de destino](landing-pages/lp-templates.md)
 + Perfis e públicos {#audiences}
    + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
    + Trabalho com perfis {#work-with-profiles}
       + [Introdução a perfis](audience/about-recipients.md)
-      + [Explore os detalhes dos perfis](audience/profile-view.md)
+      + [Conheça os detalhes de perfis](audience/profile-view.md)
       + [Criar um perfil](audience/create-profile.md)
-      + [Trabalhar com perfis de teste](audience/test-profiles.md)
+      + [Trabalhe com perfis de teste](audience/test-profiles.md)
    + Trabalho com públicos-alvo{#audiences}
       + [Criar públicos-alvo](audience/create-audience.md)
       + [Monitorar e gerenciar públicos-alvo](audience/manage-audience.md)
@@ -108,7 +108,7 @@ ht-degree: 88%
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
-      + [Configurar um grupo de controle](audience/control-group.md)
+      + [Definir um grupo de controle](audience/control-group.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
       + [Criar e gerenciar serviços de assinatura](audience/manage-services.md)
       + [Gerenciar assinantes](audience/manage-subscribers.md)
