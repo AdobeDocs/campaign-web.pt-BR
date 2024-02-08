@@ -3,9 +3,9 @@ title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '750'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,11 @@ ht-degree: 13%
 
 Ao editar o conteúdo de qualquer página da sua landing page, ela já está pré-preenchida.
 
-A página principal é a página imediatamente exibida aos usuários depois que eles clicam no link para a página de aterrissagem, como a partir de um email ou site. A página principal já está pré-preenchida com o [componente de formulário específico da página de destino](#use-form-component) para permitir que os usuários selecionem e enviem suas escolhas. Você também pode definir [estilos específicos da página de aterrissagem](#lp-form-styles).
+A primeira página, que é imediatamente exibida aos usuários depois que eles clicam no link para a página de aterrissagem, já está pré-preenchida com o [componente de formulário específico da página de destino](#use-form-component) para que o modelo selecionado permita que os usuários selecionem e enviem suas escolhas. Você também pode definir [estilos específicos da página de aterrissagem](#lp-form-styles).
 
 Para projetar ainda mais o conteúdo da página de aterrissagem, você pode usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+O conteúdo do **[!UICONTROL Confirmação]**, **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** também é pré-preenchido. Edite-as conforme necessário.
 
 ## Usar o componente de formulário {#use-form-component}
 
@@ -80,7 +69,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    Defina se essa caixa de seleção é para aceitar ou rejeitar os usuários. Selecione entre as duas opções abaixo:
 
-   * **[!UICONTROL Inscrever se marcado]**: os usuários precisam marcar a caixa para consentir (aceitar).
+   * **[!UICONTROL Inscrever-se se marcado]**: os usuários precisam marcar a caixa para consentir (aceitar).
    * **[!UICONTROL Cancelar inscrição se marcado]**: os usuários precisam marcar a caixa para remover seu consentimento (recusa).
 
 1. É possível excluir e adicionar quantos campos de texto e/ou caixas de seleção forem necessários.

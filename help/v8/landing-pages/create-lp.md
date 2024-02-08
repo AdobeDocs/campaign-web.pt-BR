@@ -3,10 +3,10 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidade limitada"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 21%
+source-wordcount: '1237'
+ht-degree: 20%
 
 ---
 
@@ -176,7 +176,11 @@ Depois de publicado:
 
 * A landing page é adicionada à lista de landing pages com a **[!UICONTROL Publicado]** status. Agora ela está ativa e pronta para ser referenciada em seu conteúdo.
 
-* Você pode copiar e colar o **[!UICONTROL URL da landing page]** que é exibido na parte superior da página em um navegador da web.
+* Você pode copiar e colar o **[!UICONTROL URL da landing page]** que é exibido na parte superior da página em um navegador da web para visualizar sua landing page.
+
+>[!CAUTION]
+>
+>Para testar ou aproveitar totalmente a landing page, não é possível copiar e colar esse link diretamente em um navegador da Web ou em seus deliveries. Use o botão [Simular conteúdo](#test-landing-page) para testá-la e siga as etapas descritas em [nesta seção](lp-use-cases.md) para fazer o uso correto da sua landing page.
 
 ![](assets/lp-published.png)
 
