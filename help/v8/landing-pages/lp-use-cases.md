@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
-source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,7 @@ Para usar adequadamente a landing page, você deve referenciá-la como um link e
 
 No [!DNL Adobe Campaign Web] inferface, quatro templates prontos para uso permitem implementar casos de uso diferentes. No entanto, as etapas principais permanecem as mesmas e são detalhadas abaixo.
 
-1. [Criar uma landing page](create-lp.md#create-landing-page) e selecione o template de sua escolha, de acordo com seu caso de uso:
-
-   * [Aquisição](#lp-acquisition)
-   * [Assinatura](#lp-subscription)
-   * [Cancelamento de assinatura](#lp-unsubscription)
-   * [Lista de bloqueios](#lp-denylist)
+1. [Criar uma landing page](create-lp.md#create-landing-page) e selecione o template de sua escolha, de acordo com seu caso de uso.
 
 1. Defina as propriedades e as configurações da landing page.
 
@@ -47,41 +42,68 @@ No [!DNL Adobe Campaign Web] inferface, quatro templates prontos para uso permit
 
    ![](assets/lp-uc-form.png)
 
-1. Faça quantas atualizações nos rótulos e campos da landing page forem necessárias. Edite o resto do conteúdo como quiser, salve as alterações e feche.
+1. Edite o conteúdo de acordo com o template selecionado:
 
-1. Siga as etapas detalhadas abaixo para cada caso de uso.
+   * [Aquisição](#lp-acquisition)
+   * [Assinatura](#lp-subscription)
+   * [Cancelamento de assinatura](#lp-unsubscription)
+   * [Lista de bloqueios](#lp-denylist)
 
-1. Edite o **[!UICONTROL Confirmação]** conforme necessário, bem como a **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** páginas. Ele será exibido aos recipients assim que eles enviarem o formulário de registro.
+1. Modifique o restante do conteúdo conforme necessário, salve as alterações e feche o.
+
+1. Edite o **[!UICONTROL Confirmação]** conforme necessário, bem como a **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** páginas. A variável **[!UICONTROL Confirmação]** será exibida aos recipients quando eles enviarem o formulário.
 
    ![](assets/lp-uc-confirmation-page.png)
 
-1. Teste e [publicar](create-lp.md#publish-landing-page) sua landing page.
+1. [Teste](create-lp.md#test-landing-page) e [publicar](create-lp.md#publish-landing-page) sua landing page.
 
 1. Criar um [email](../email/create-email.md) delivery para direcionar o tráfego para a landing page.
 
-1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como o **[!UICONTROL Tipo de link]** e escolha o [landing page](create-lp.md#configure-primary-page) criado.
+1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como o **[!UICONTROL Tipo de link]** e escolha a landing page que você criou.
 
-   ![](assets/lp_subscription-uc-link.png)
+   ![](assets/lp-uc-email-link.png)
 
    >[!NOTE]
    >
-   >Para enviar a mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar a data de expiração [nesta seção](create-lp.md#create-landing-page).
+   >Para enviar a mensagem, verifique se a landing page selecionada ainda não expirou. [Saiba mais](create-lp.md#create-landing-page)
 
-Depois que eles receberem o email, se os recipients clicarem no link para a landing page e enviarem o formulário da landing page, eles serão direcionados à página de confirmação e qualquer outra ação definida na landing page será aplicada (por exemplo, os usuários assinarão seu serviço ou não receberão mais comunicações sua).
+Depois que receberem o email, se os recipients clicarem no link para a landing page e enviarem o formulário:
 
-Abaixo estão alguns exemplos de como você pode usar [!DNL Adobe Campaign] landing pages para que seus clientes optem por receber algumas ou todas as suas comunicações.
+* Eles serão direcionados para a página de confirmação.
+
+* Qualquer outra ação definida na página de aterrissagem será aplicada. Por exemplo, os usuários serão inscritos em seu serviço ou não receberão mais comunicações de você.
+
+Abaixo estão alguns exemplos de como você pode usar [!DNL Adobe Campaign] páginas de aterrissagem nos diferentes casos de uso possíveis.
 
 ## Aquisição de perfil {#lp-acquisition}
 
-1. [Criar uma landing page](create-lp.md#create-landing-page). Selecione o **[!UICONTROL Aquisição]** modelo.
+O primeiro template permite adicionar ou atualizar um perfil no banco de dados do Campaign.
 
-1. Defina as propriedades e as configurações da landing page.
+1. Quando [criação da sua landing page](create-lp.md#create-landing-page), selecione o **[!UICONTROL Aquisição]** modelo.
 
-   ![](assets/lp-uc-properties.png)
+1. Nas propriedades da landing page, selecione a variável **[!UICONTROL Preencher previamente com os dados referenciados no formulário]** para pré-carregar qualquer informação existente do perfil e evitar a criação de duplicatas.
 
 1. Selecione o **[!UICONTROL Aquisição]** para editar seu conteúdo.
 
-1. O conteúdo da página é exibido. Selecione a parte correspondente ao formulário de landing page.
+1. Edite os campos de texto conforme necessário, de acordo com as informações que deseja coletar em seus perfis.
+
+1. Além disso, você pode adicionar uma caixa de seleção que convida os clientes a assinar o serviço de boletim informativo. [Saiba como criar um serviço](../audience/manage-services.md)
+
+   ![](assets/lp-uc-acquisition-page.png)
+
+1. Ajuste o conteúdo conforme necessário e salve as alterações.
+
+1. Revisão e [publicar](create-lp.md#publish-landing-page) sua landing page.
+
+1. Criar um [email](../email/create-email.md) e [adicionar um link](../email/message-tracking.md#insert-links) à sua landing page.
+
+Depois que eles receberem o email, se os recipients clicarem no link para a landing page e enviarem o formulário, o perfil deles será adicionado ao banco de dados do Campaign ou atualizado com as informações fornecidas.
+
+![](assets/lp-uc-profile-updated.png)
+
+Se optarem por receber seu boletim informativo, serão inscritos no serviço correspondente.
+
+![](assets/lp-uc-newsletter-subscriber.png)
 
 ## Assinatura de um serviço {#lp-subscription}
 
@@ -101,88 +123,89 @@ Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar
 
 1. [Criar uma landing page](create-lp.md#create-landing-page) para permitir que seus destinatários se registrem no evento. Selecione o **[!UICONTROL Inscrição]** modelo.
 
-   <!--![](assets/lp-uc-subscription-template.png)-->
-
-1. Defina as propriedades e as configurações da landing page.
-
-   <!--![](assets/lp-uc-properties.png)-->
-
 1. Selecione o **[!UICONTROL Inscrição]** para editar seu conteúdo.
-
-   ![](assets/lp-uc-subscription-page-edit.png)
 
 1. O conteúdo da página é exibido. Selecione a parte correspondente ao formulário de landing page e expanda a **[!UICONTROL Caixa de seleção 1]** seção.
 
-   No **[!UICONTROL Assinaturas e serviços]** selecione o serviço criado para o evento. Deixe a **[!UICONTROL Inscrever se marcado]** opção ativada.
+1. No **[!UICONTROL Assinaturas e serviços]** selecione o serviço criado para o evento. Deixe a **[!UICONTROL Inscrever-se se marcado]** opção ativada.
 
    ![](assets/lp-uc-subscription-checkbox-1.png)
-
-1. Você pode adicionar uma caixa de seleção extra para oferecer a subscrição ao seu boletim informativo, por exemplo.
-
 <!--
+1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
-1. You can also update the profiles who register for your event for the email channel. Expand the **[!UICONTROL Call to action]** section and select Additional updates.
+1. Ajuste o conteúdo conforme necessário e salve as alterações.
 
-    ![](assets/lp-uc-subscription-call-to-action.png)-->
+1. Revisão e [publicar](create-lp.md#publish-landing-page) sua landing page.
 
-1. Faça quantas atualizações nos rótulos e campos da landing page forem necessárias. Edite o resto do conteúdo como quiser, salve as alterações e feche.
+1. Criar um [email](../email/create-email.md) e [adicionar um link](../email/message-tracking.md#insert-links) para direcionar o tráfego para a landing page de registro.
 
-1. Edite o **[!UICONTROL Confirmação]** conforme necessário, bem como a **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** páginas. Ele será exibido aos recipients assim que eles enviarem o formulário de registro.
+1. Crie o email para anunciar que as inscrições para o seu evento estão abertas.
 
-   ![](assets/lp-uc-confirmation-page.png)
-
-1. Teste e [publicar](create-lp.md#publish-landing-page) sua landing page.
-
-1. Criar um **E-mail** delivery para direcionar o tráfego para a landing page de registro. Crie o email para anunciar que as inscrições para o seu evento estão abertas.
-
-1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como o **[!UICONTROL Tipo de link]** e escolha o [landing page](create-lp.md#configure-primary-page) que você criou para registro.
-
-   ![](assets/lp_subscription-uc-link.png)
-
-   >[!NOTE]
-   >
-   >Para enviar a mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar a data de expiração [nesta seção](create-lp.md#create-landing-page).
-
-Depois que eles receberem o email, se seus recipients clicarem no link para a landing page e enviarem o formulário da landing page, eles serão direcionados à página de confirmação e adicionados à lista de subscrição.
+Depois que eles receberem o email, se seus recipients clicarem no link para a landing page e enviarem o formulário, eles serão direcionados à página de confirmação e adicionados à lista de subscrição.
 
 ## Cancelamento de assinatura {#lp-unsubscription}
 
-1. [Criar uma landing page](create-lp.md#create-landing-page). Selecione o **[!UICONTROL Cancelar assinatura]** modelo.
+1. Certifique-se de ter criado um modelo de confirmação para os usuários que cancelaram a assinatura do serviço, para que você possa selecioná-lo facilmente ao criar o serviço. [Saiba mais](../audience/manage-services.md#create-confirmation-message)
 
-1. Defina as propriedades e as configurações da landing page.
+1. No seu [subscrição no serviço](../audience/manage-services.md), selecione o template criado como o email de confirmação que os usuários receberão ao cancelar a inscrição.
+
+1. [Criar uma landing page](create-lp.md#create-landing-page). Selecione o **[!UICONTROL Cancelar assinatura]** modelo.
 
 1. Selecione o **[!UICONTROL Cancelar assinatura]** para editar seu conteúdo.
 
 1. O conteúdo da página é exibido. Selecione a parte correspondente ao formulário de landing page.
 
+1. Você pode adicionar um **[!UICONTROL Caixa de seleção]** , selecione o serviço e selecione a **[!UICONTROL Cancelar inscrição se marcado]** opção.
+
+   ![](assets/lp-uc-unsubscription-checkbox-1.png)
+
+1. Também é possível expandir a variável **[!UICONTROL Chamada para ação]** e selecione o **[!UICONTROL Atualizações adicionais]** opção. Selecione o serviço e marque a opção **[!UICONTROL Recusar]** opção.
+
+   ![](assets/lp-uc-unsubscription-call-to-action.png)
+
+1. Ajuste o conteúdo conforme necessário e salve as alterações.
+
+1. Revisão e [publicar](create-lp.md#publish-landing-page) sua landing page.
+
+1. Criar um [email](../email/create-email.md) e [adicionar um link](../email/message-tracking.md#insert-links) para direcionar o tráfego para a landing page de registro.
+
+Depois que eles receberem o email, se seus recipients clicarem no link para a landing page e enviarem o formulário, eles serão direcionados à página de confirmação do cancelamento de subscrição e serão removidos da lista de assinaturas.
+
 ## Configuração de páginas de aterrissagem de recusa {#lp-denylist}
 
-Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
-
-Portanto, você sempre deve incluir um **link para cancelar inscrição** em cada email enviado aos recipients:
-
-* Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
-* Ao clicar no botão de recusa, os dados do perfil serão atualizados com essas informações.
+Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Portanto, você sempre deve incluir um **link para cancelar inscrição** em cada email enviado aos recipients. Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
 
 Você pode configurar um **[!UICONTROL ➡ Incluir na lista de bloqueios]** página de aterrissagem que permitirá que os usuários recusem todos os deliveries.
 
-Para permitir que os usuários recusem todos os deliveries, é necessário criar e publicar um **[!UICONTROL ➡ Incluir na lista de bloqueios]** página de aterrissagem.
+1. Quando [criação da sua landing page](create-lp.md#create-landing-page), selecione o **[!UICONTROL ➡ Incluir na lista de bloqueios]** modelo.
 
-Quando um usuário clica no link da página de aterrissagem, a variável **[!UICONTROL Não entrar mais em contato (por qualquer canal)]** no perfil é selecionada automaticamente.
+1. Selecione o **[!UICONTROL ➡ Incluir na lista de bloqueios]** para editar seu conteúdo.
 
-definir um **[!UICONTROL Opção de não participação]** e optar por atualizar **[!UICONTROL Canal (email)]**: o perfil que marca a caixa de opção de não participação na página de aterrissagem será excluído de todas as suas comunicações.
+1. Expanda a **[!UICONTROL Chamada para ação]** e selecione o **[!UICONTROL Atualizações adicionais]** opção.
 
-Depois que a mensagem for recebida, se um recipient clicar no link de cancelamento de inscrição no email, a página de aterrissagem será exibida.
+1. Na lista suspensa correspondente, selecione **[!UICONTROL Canal (email)]** para permitir que seus recipients recusem apenas as comunicações por email. Também é possível selecionar **[!UICONTROL Por todos os canais]** para optá-los por todas as comunicações em todos os canais.
 
-![](assets/lp_opt-out-submit-form.png)
+   ![](assets/lp-uc-denylist.png)
 
-Se o recipient marcar a caixa e enviar o formulário:
+1. Ajuste o conteúdo conforme necessário e salve as alterações.
 
-* O recipient que recusou a inscrição é redirecionado para a tela de mensagem de confirmação.
+1. Revisão e [publicar](create-lp.md#publish-landing-page) sua landing page.
 
-* Os dados do perfil são atualizados e não receberão comunicações de sua marca, a menos que você faça a assinatura novamente.
+1. Criar um [email](../email/create-email.md) e [adicionar um link](../email/message-tracking.md#insert-links) à sua landing page para permitir que os usuários recusem receber comunicações.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, vá para Profiles e selecione o perfil.
+Depois que receberem o email, se os recipients clicarem no link para a landing page e enviarem o formulário, eles serão direcionados à página de confirmação do incluo na lista de bloqueios e seu perfil será atualizado com as informações fornecidas.
+
+Para verificar se a escolha do perfil correspondente foi atualizada, navegue até a **[!UICONTROL Perfis]** e selecione esse perfil.
+
+Por exemplo, se você optou por atualizar a variável **[!UICONTROL Canal (email)]** na sua página de aterrissagem, a variável **[!UICONTROL Não contatar mais por e-mail]** será marcada.
+
+![](assets/lp-uc-denylist-profile.png)
+
+Este perfil não receberá comunicações por email da sua marca, a menos que faça a assinatura novamente.
+
+
+
+
 
 
 

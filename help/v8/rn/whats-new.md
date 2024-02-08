@@ -4,10 +4,10 @@ title: Novidades na interface da Web do Campaign
 description: Descubra o novo recurso que acompanha a interface do usuário da Web do Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidade limitada"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 75%
+source-wordcount: '1292'
+ht-degree: 74%
 
 ---
 
@@ -168,7 +168,7 @@ Como um usuário existente do Campaign, observe que alguns conceitos foram renom
 
 As limitações abaixo se aplicam a esta versão:
 
-* Os objetos editáveis são: Recipients, Entregas, Campanhas, Workflows, Públicos-alvo, Serviços de assinatura, Filtros predefinidos e Modelos. Os outros são do tipo somente leitura. Use filtros e crie regras para navegar por todos eles.
+* Os objetos editáveis são: Recipients, Deliveries, Campanhas, Workflows, Públicos-alvo, Subscription Services, Filtros predefinidos, Modelos e Landing Pages. Os outros são do tipo somente leitura. Use filtros e crie regras para navegar por todos eles.
 * Os recursos de administração e configuração avançada não estão disponíveis na interface da Web do Campaign.
 * As métricas de relatório (como aberturas e dados de rastreamento) são atualizadas a cada hora.
 * Os KPIs do painel de entrega são atualizados a cada 5 minutos. - mas a preparação da Entrega é em tempo real.
