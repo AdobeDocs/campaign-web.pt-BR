@@ -3,9 +3,9 @@ audience: end-user
 title: Matriz de recursos da interface do usuário da Web/console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface da Web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
+source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1772'
 ht-degree: 4%
 
 ---
@@ -41,8 +41,8 @@ Com a interface da Web do Campaign, você pode criar, projetar e enviar emails, 
 
 Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses canais.
 
-* Correspondência direta. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* Mensagens LINE. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **Correspondência direta**. O canal de correspondência direta permite enviar uma correspondência física aos clientes, fornecedores ou outros, como avisos, faturas, demonstrativos, ofertas de marketing e muito mais. Este canal só está disponível no console do cliente.  [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
+* **Mensagens LINE**. O LINE é um aplicativo para mensagens instantâneas, chamadas de voz e vídeo gratuitos, disponível em todos os dispositivos móveis e no PC. O Adobe Campaign permite enviar mensagens LINE somente a partir do console do cliente.[Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Call center e canais personalizados. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Marketing social com X (Twitter). [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=pt-BR){target="_blank"}
 
