@@ -2,12 +2,11 @@
 audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
-badge: label="Disponibilidade limitada"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
+source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 30%
+source-wordcount: '933'
+ht-degree: 31%
 
 ---
 
@@ -20,13 +19,11 @@ ht-degree: 30%
 
 Use o Adobe Campaign Web para gerenciar e criar serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços.
 
+Vários serviços podem ser definidos em paralelo, por exemplo: boletins informativos para categorias de produtos específicas, temas ou áreas de um site, assinaturas para vários tipos de mensagens de alerta e notificações em tempo real.
+
 >[!NOTE]
 >
 >As assinaturas aplicam-se somente a entregas por email e SMS.
-
-Vários serviços podem ser definidos em paralelo, por exemplo: boletins informativos para categorias de produtos específicas, temas ou áreas de um site, assinaturas para vários tipos de mensagens de alerta e notificações em tempo real.
-
-Para saber mais sobre como gerenciar assinaturas e cancelamentos de assinaturas, consulte o [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Acessar serviços de assinatura {#access-services}
 
@@ -34,11 +31,11 @@ Para acessar os serviços de assinatura disponíveis para sua plataforma, siga a
 
 1. Navegue até o **[!UICONTROL Serviços de assinatura]** no painel de navegação esquerdo.
 
-   ![](assets/service-list.png)
+   ![](assets/service-list.png){zoom=&quot;yes&quot;}
 
 1. A lista de todos os serviços de assinatura existentes é exibida. Pesquise os serviços e filtre no canal, na pasta ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-   ![](assets/service-filters.png)
+   ![](assets/service-filters.png){zoom=&quot;yes&quot;}
 
 1. Para editar um serviço existente, clique em seu respectivo nome.
 
@@ -60,13 +57,13 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
 1. Selecione o **[!UICONTROL Criar serviço de assinatura]** botão.
 
-   ![](assets/service-create-button.png)
+   ![](assets/service-create-button.png){zoom=&quot;yes&quot;}
 
 1. Selecione um canal: **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]**.
 
 1. Nas propriedades do serviço, insira um rótulo e defina **[!UICONTROL Opções adicionais]** conforme desejado.
 
-   ![](assets/service-create-properties.png)
+   ![](assets/service-create-properties.png){zoom=&quot;yes&quot;}
 
 1. Por padrão, os serviços são armazenados no **[!UICONTROL Serviços e assinaturas]** pasta. Você pode alterá-la navegando até o local desejado. [Saiba como trabalhar com pastas](../get-started/permissions.md#folders)
 
@@ -76,11 +73,11 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
    * Nenhum destinatário pode assinar mais este serviço
    * Todos os assinantes deste serviço têm suas assinaturas canceladas automaticamente
 
-   ![](assets/service-create-validity-period.png)
+   ![](assets/service-create-validity-period.png){zoom=&quot;yes&quot;}
 
 1. Quando um usuário(a) assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados para essa mensagem de acordo com seu caso de uso. Esses templates devem ser configurados com o **[!UICONTROL Assinaturas]** target mapping. [Saiba mais](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png)
+   ![](assets/service-create-confirmation-msg.png){zoom=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Salvar e revisar]**. O novo serviço é adicionado à variável **[!UICONTROL Serviços de assinatura]** lista.
 
@@ -103,21 +100,21 @@ Agora você pode:
 >title="Selecione o modelo de entrega de cancelamento de assinatura"
 >abstract="Para enviar mensagens de confirmação a usuários que cancelaram a assinatura do seu serviço, você deve selecionar um modelo de entrega específico com base no target mapping **[!UICONTROL Assinaturas]**, sem público-alvo definido."
 
-Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a assinatura do seu serviço, você deve criar um template do delivery com o **[!UICONTROL Assinaturas]** target mapping, sem um destino definido. Para fazer isso, siga as etapas abaixo.
+Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a assinatura do seu serviço, você deve criar um template do delivery com o **[!UICONTROL Assinaturas]** target mapping, sem um destino definido. Para isso, siga as etapas abaixo:
 
 1. Crie um template do delivery para a confirmação da assinatura. [Saiba como criar um modelo](../msg/delivery-template.md)
 
 1. Não selecione um público para esta entrega. Em vez disso, acesse o delivery **[!UICONTROL Configurações]**, vá para a [Público](../advanced-settings/delivery-settings.md#audience) e selecione a guia **[!UICONTROL Assinaturas]** target mapping da lista.
 
-   ![](assets/service-confirmation-template-mapping.png)
+   ![](assets/service-confirmation-template-mapping.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Se você não selecionar a opção  **[!UICONTROL Assinaturas]** target mapping, seus assinantes não receberão a mensagem de confirmação. Os target mappings são definidos no console do Campaign v8. Saiba mais na [Documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+   >Se você não selecionar a opção  **[!UICONTROL Assinaturas]** target mapping, seus assinantes não receberão a mensagem de confirmação. Saiba mais sobre target mappings em [nesta seção](../audience/targeting-dimensions.md) .
 
 1. Edite o conteúdo do template do delivery, salve-o e feche-o.
 
-   ![](assets/service-confirmation-template.png)
+   ![](assets/service-confirmation-template.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -148,13 +145,13 @@ Para medir a eficácia de seus serviços de assinatura para canais de SMS e emai
 
 1. Selecione um serviço existente na **[!UICONTROL Serviços de assinatura]** lista. Clique em **[!UICONTROL Calcular]** o obtém o número total de assinantes.
 
-   ![](assets/service-logs-subscribers-count.png)
+   ![](assets/service-logs-subscribers-count.png){zoom=&quot;yes&quot;}
 
 1. No painel de serviço, selecione **[!UICONTROL Logs]** para exibir a lista de assinantes deste serviço.
 
    É possível verificar o número total de assinantes, o nome e o endereço de cada recipient e quando eles assinaram ou cancelaram a assinatura. Também é possível filtrá-los.
 
-   ![](assets/service-logs.png)
+   ![](assets/service-logs.png){zoom=&quot;yes&quot;}
 
 1. No painel de serviço, selecione **[!UICONTROL Relatórios]**. Verifique os seguintes indicadores:
 
@@ -162,7 +159,7 @@ Para medir a eficácia de seus serviços de assinatura para canais de SMS e emai
 
    * É possível exibir o número de subscrições e unsubscriptions durante um período selecionado. Use a lista suspensa para alterar o intervalo de tempo.
 
-     ![](assets/service-reports.png)
+     ![](assets/service-reports.png){zoom=&quot;yes&quot;}
 
    * A variável **[!UICONTROL Evolução geral das assinaturas]** o gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução dos números e a porcentagem de fidelidade.<!--what is Registered?-->
 
