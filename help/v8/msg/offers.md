@@ -3,10 +3,9 @@ audience: end-user
 title: Adicionar ofertas em suas mensagens
 description: Saiba como adicionar e enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Disponibilidade limitada"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '768'
 ht-degree: 35%
 
 ---
@@ -40,13 +39,13 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
 
 1. Clique em **[!UICONTROL Configurar ofertas]** na tela de edição de conteúdo de delivery.
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoom=&quot;yes&quot;}
 
 1. Configurar quais ofertas devem ser propostas para os recipients.
 
    Selecione primeiro o **[!UICONTROL Espaço de oferta]** que corresponde ao seu ambiente de oferta. Saiba como criar um espaço de ofertas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoom=&quot;yes&quot;}
 
 1. Para refinar a escolha de ofertas do mecanismo, selecione uma **[!UICONTROL Categoria de oferta]** específica em que as ofertas são classificadas.
 
@@ -90,7 +89,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Coloque o cursor do mouse onde deseja inserir a oferta e abra o editor de expressão usando o ícone de personalização.
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoom=&quot;yes&quot;}
 
 1. Selecione o **[!UICONTROL Apresentações]** menu. As apresentações disponíveis são exibidas na lista.
 
@@ -100,7 +99,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Defina cada proposta usando os campos de personalização, funções de renderização ou atributos de oferta disponíveis.
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >

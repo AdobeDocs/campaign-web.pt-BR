@@ -3,10 +3,9 @@ audience: end-user
 title: Enviar usando ondas
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 feature: Email
-badge: label="Disponibilidade limitada"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '796'
 ht-degree: 32%
 
 ---
@@ -57,7 +56,7 @@ Para enviar deliveries usando ondas, siga as etapas abaixo.
 
 Se você selecionar essa opção, todas as ondas terão o mesmo tamanho (exceto a última) e o atraso entre cada onda será sempre o mesmo.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoom=&quot;yes&quot;}
 
 * Especifique o tamanho de todas as ondas nas quais você está dividindo o delivery. Você pode inserir uma porcentagem ou um valor numérico. Somente a última onda pode variar de tamanho, pois deve incluir o número restante de mensagens.
 
@@ -71,7 +70,7 @@ Usando ondas, você poderá restringir o número de mensagens a 20 por dia, que 
 
 Para fazer isso, selecione a opção **[!UICONTROL Schedule multiple waves of the same size]**. Enter **[!UICONTROL 20]** como o tamanho e **[!UICONTROL 1 dia]** no **[!UICONTROL Interval]** campo.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoom=&quot;yes&quot;}
 
 ## Agendar ondas de acordo com um calendário {#waves-calendar}
 
@@ -89,7 +88,7 @@ Adicione quantas ondas desejar. Você pode reorganizá-los de acordo com suas ne
 
 No exemplo abaixo, a primeira onda representa 25% do número total de mensagens incluídas no delivery e começa imediatamente. As próximas duas ondas completam a entrega e são definidas para começar em intervalos de seis horas.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoom=&quot;yes&quot;}
 
 Um caso de uso comum para usar várias ondas de acordo com um calendário é durante o processo de aumento.
 
@@ -99,7 +98,7 @@ Para evitar ser marcado como spam, você poderá aumentar progressivamente o vol
 
 Para fazer isso, use a opção **[!UICONTROL Schedule waves according to a calendar]**. Por exemplo, defina a primeira onda para 10%, a segunda para 15%, a terceira para 20% e assim por diante.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoom=&quot;yes&quot;}
 
 
 

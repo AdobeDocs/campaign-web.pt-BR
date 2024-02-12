@@ -3,11 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Disponibilidade limitada"
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 69%
+source-wordcount: '1403'
+ht-degree: 67%
 
 ---
 
@@ -60,7 +59,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
    >
    >Os templates são configurações de entrega predefinidas salvas para uso futuro. [Saiba mais](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png)
+   ![](assets/channel-template.png){zoom=&quot;yes&quot;}
 
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 1. Insira um rótulo para a entrega e configure as opções adicionais com base em suas necessidades:
@@ -75,7 +74,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
    >
    >Se tiver estendido seu schema com campos personalizados específicos, será possível acessá-los na seção **[!UICONTROL Opções personalizadas]**.
 
-   ![](assets/email-properties.png)
+   ![](assets/email-properties.png){zoom=&quot;yes&quot;}
 
 1. Além disso, as configurações avançadas, como regras de tipologia e target mappings, podem ser acessadas por meio do **[!UICONTROL Configurações]** localizado na parte superior direita da tela. Essas configurações são pré-definidas no modelo selecionado, mas podem ser editadas conforme necessário para esse email específico. [Saiba mais](../advanced-settings/delivery-settings.md)
 
@@ -86,7 +85,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 >title="Selecione um público-alvo para a entrega"
 >abstract="Selecione o melhor público-alvo para a sua mensagem de marketing. É possível escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o modelador de consulta ou fazer upload de um arquivo que contenha o público-alvo. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecione os públicos-alvo principais"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Definir um grupo de controle"
 
 Nesse caso de uso, você enviará o email para um público-alvo existente.
 
@@ -96,7 +95,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    Neste exemplo, queremos usar um público-alvo existente direcionado a clientes que pertencem aos níveis prata e ouro do programa de fidelidade.
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -104,7 +103,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
 1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
-   ![](assets/audience-selected.png)
+   ![](assets/audience-selected.png){zoom=&quot;yes&quot;}
 
 1. Você também pode definir um grupo de controle para analisar o comportamento dos recipients de email, em comparação com aqueles que não foram direcionados. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
 
@@ -116,31 +115,31 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso 
 
 1. No painel de delivery de email, clique no link **[!UICONTROL Editar conteúdo]** botão.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content.png){zoom=&quot;yes&quot;}
 
    Isso leva você a uma interface dedicada, onde é possível configurar o conteúdo de email e acessar o Designer de email. [Saiba mais](edit-content.md)
 
-   ![](assets/edit-content.png)
+   ![](assets/edit-content.png){zoom=&quot;yes&quot;}
 
 1. Insira a linha de assunto do email e personalize-a usando o Editor de expressão. [Saiba como personalizar o conteúdo](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+   ![](assets/subject-line.png){zoom=&quot;yes&quot;}
 
 1. Para criar o conteúdo do email, clique no botão **[!UICONTROL Editar corpo do email]**.
 
    Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](create-email-templates.md).
 
-   ![](assets/select-template.png)
+   ![](assets/select-template.png){zoom=&quot;yes&quot;}
 
 1. Depois de selecionar o modelo, ele será exibido no [Email Designer](create-email-content.md), em que você pode fazer as edições necessárias e adicionar personalização.
 
    Por exemplo, para personalizar o título do email, selecione o bloco de componentes e clique em **[!UICONTROL Adicionar personalização]**.
 
-   ![](assets/add-perso.png)
+   ![](assets/add-perso.png){zoom=&quot;yes&quot;}
 
 1. Quando estiver satisfeito com o conteúdo, salve e feche o design. Clique em **[!UICONTROL Salvar]** para retornar à tela de criação do email.
 
-   ![](assets/save-content.png)
+   ![](assets/save-content.png){zoom=&quot;yes&quot;}
 
 ## Agendar o envio {#schedule}
 
@@ -152,7 +151,7 @@ Quando um delivery é enviado no contexto de um workflow, você deve usar o **Sc
 
 1. Defina a data e a hora desejadas para envio.
 
-   ![](assets/schedule.png)
+   ![](assets/schedule.png){zoom=&quot;yes&quot;}
 
 Depois que você envia o delivery, o envio real começa na data de contato definida.
 
@@ -170,13 +169,13 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
 1. Para visualizar o email e enviar versões de teste, clique no link **[!UICONTROL Simular conteúdo]** botão.
 
-   ![](assets/review-email.png)
+   ![](assets/review-email.png){zoom=&quot;yes&quot;}
 
 1. No lado esquerdo, selecione os perfis que deseja usar para visualizar o email.
 
    O painel direito exibe uma visualização do email com base no perfil selecionado. Se você tiver adicionado vários perfis, é possível alternar entre eles para visualizar o email correspondente.
 
-   ![](assets/preview.png)
+   ![](assets/preview.png){zoom=&quot;yes&quot;}
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -185,19 +184,19 @@ Informações adicionais sobre como visualizar e testar emails estão disponíve
 
    Neste exemplo, use o modo **[!UICONTROL Substituir do público alvo principal]**, que envia versões de teste para endereços de email específicos como representações de alguns dos perfis direcionados pelo email.
 
-   ![](assets/proof-mode.png)
+   ![](assets/proof-mode.png){zoom=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Adicionar endereço]** e especifique os endereços de email que receberão as versões de teste.
 
    Para cada endereço de email, selecione o perfil a ser representado. Você também pode permitir que o Adobe Campaign selecione um perfil aleatório do público alvo.
 
-   ![](assets/proof-test-profile.png)
+   ![](assets/proof-test-profile.png){zoom=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Enviar email de teste]** e confirme o envio.
 
    As versões de teste são enviadas para os endereços de email especificados usando o perfil selecionado com o prefixo **[Prova x]**.
 
-   ![](assets/proof-sent.png)
+   ![](assets/proof-sent.png){zoom=&quot;yes&quot;}
 
    Você pode verificar o status do envio e acessar os emails de teste enviados a qualquer momento clicando no botão **[!UICONTROL Exibir log de email de teste]** na tela Simular conteúdo.
 
@@ -207,19 +206,19 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 1. Para iniciar a preparação do email, clique em **[!UICONTROL Preparar]**. [Saiba como preparar um email](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+   ![](assets/preparation.png){zoom=&quot;yes&quot;}
 
 1. Depois que o email estiver pronto para ser enviado, clique no botão **[!UICONTROL Enviar]** (ou em **[!UICONTROL Enviar conforme agendado]** caso tenha agendado seu envio) e confirme o envio.
 
 1. Durante o processo de envio, você pode acompanhar seu progresso e exibir estatísticas em tempo real diretamente nessa tela.
 
-   ![](assets/sending-email.png)
+   ![](assets/sending-email.png){zoom=&quot;yes&quot;}
 
    <!--
-    ![](assets/sent-email.png)-->
+    ![](assets/sent-email.png){zoomable="yes"}-->
 
    Você também pode acessar informações detalhadas sobre o envio clicando no botão **[!UICONTROL Logs]**. [Saiba como monitorar os logs de entrega](../monitor/delivery-logs.md)
 
 1. Depois que o email tiver sido enviado, você poderá acessar os relatórios dedicados para análise adicional clicando no botão **[!UICONTROL Relatórios]**.
 
-![](assets/reports.png)
+![](assets/reports.png){zoom=&quot;yes&quot;}

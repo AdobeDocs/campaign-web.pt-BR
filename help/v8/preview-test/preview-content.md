@@ -3,10 +3,9 @@ audience: end-user
 title: Visualizar conteúdo do delivery
 description: Saiba como pré-visualizar o conteúdo de delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Disponibilidade limitada"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Simular conteúdo]** botão.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoom=&quot;yes&quot;}
 
 1. Para selecionar os perfis que serão usados para visualizar seu conteúdo personalizado, use:
 
@@ -36,11 +35,11 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
    * A variável **[!UICONTROL Perfis]** A guia lista todos os perfis armazenados no banco de dados. [Saiba como trabalhar com perfis](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoom=&quot;yes&quot;}
 
 1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoom=&quot;yes&quot;}
 
    Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. [Saiba como adicionar regras usando o modelador de consultas](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
    Uma pré-visualização do conteúdo do delivery é exibida no painel direito do **[!UICONTROL Simular]** tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoom=&quot;yes&quot;}
 
 1. Se você tiver adicionado vários perfis, é possível alternar entre eles na lista para visualizar o conteúdo do delivery correspondente. Você também pode adicionar mais perfis de teste e limpar a seleção usando os botões correspondentes no painel esquerdo.
 

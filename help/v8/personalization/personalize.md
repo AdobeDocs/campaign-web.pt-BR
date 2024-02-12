@@ -6,10 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="Disponibilidade limitada"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -33,18 +32,18 @@ Para adicionar tags de personalização em um delivery, siga estas etapas:
 
 1. Abra o editor de expressão usando o **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone acessível a partir de campos de edição de tipo de texto, como a linha de assunto ou o corpo do SMS. [Saiba como acessar o editor de expressão](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png){width="800" align="center"}
+   ![](assets/perso-access.png){zoom=&quot;yes&quot;}{width="800" align="center"}
 
 1. O editor de expressão se abre. Os campos de personalização disponíveis no banco de dados do Adobe Campaign são organizados em vários menus no lado esquerdo da tela:
 
-   ![](assets/perso-insert-field.png){width="800" align="center"}
+   ![](assets/perso-insert-field.png){zoom=&quot;yes&quot;}{width="800" align="center"}
 
    | Menu | Descrição |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png) | A variável **[!UICONTROL Aplicativo de assinantes]** lista os campos relacionados aos assinantes de um aplicativo, como o terminal usado ou o sistema operacional. *Esse menu está disponível somente para notificações por push* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | A variável **[!UICONTROL Recipient]** lista os campos definidos na tabela de recipients, como nomes, idades ou endereços dos recipients. Quando [fazer upload de contatos de um arquivo externo](../audience/file-audience.md) para um delivery de email independente, esse menu lista todos os campos disponíveis no arquivo de entrada. |
-   | ![](assets/do-not-localize/perso-message-menu.png) | A variável **[!UICONTROL Mensagem]** lista os campos relacionados aos logs do delivery, incluindo todas as mensagens enviadas aos recipients ou dispositivos em todos os canais, como a data do último evento com um determinado recipient |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | A variável **[!UICONTROL Entrega]** O menu lista os campos relacionados aos parâmetros necessários para executar deliveries, como canal de delivery ou rótulo. |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoom=&quot;yes&quot;} | A variável **[!UICONTROL Aplicativo de assinantes]** lista os campos relacionados aos assinantes de um aplicativo, como o terminal usado ou o sistema operacional. *Esse menu está disponível somente para notificações por push* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png){zoom=&quot;yes&quot;} | A variável **[!UICONTROL Recipient]** lista os campos definidos na tabela de recipients, como nomes, idades ou endereços dos recipients. Quando [fazer upload de contatos de um arquivo externo](../audience/file-audience.md) para um delivery de email independente, esse menu lista todos os campos disponíveis no arquivo de entrada. |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoom=&quot;yes&quot;} | A variável **[!UICONTROL Mensagem]** lista os campos relacionados aos logs do delivery, incluindo todas as mensagens enviadas aos recipients ou dispositivos em todos os canais, como a data do último evento com um determinado recipient |
+   | ![](assets/do-not-localize/perso-delivery-menu.png){zoom=&quot;yes&quot;} | A variável **[!UICONTROL Entrega]** O menu lista os campos relacionados aos parâmetros necessários para executar deliveries, como canal de delivery ou rótulo. |
 
    >[!NOTE]
    >
@@ -54,6 +53,6 @@ Para adicionar tags de personalização em um delivery, siga estas etapas:
 
 1. Quando o conteúdo estiver pronto, você poderá salvá-lo e testar a renderização da personalização simulando o conteúdo. O exemplo abaixo mostra a personalização de uma mensagem SMS com os nomes dos recipients.
 
-   ![](assets/perso-preview1.png){width="800" align="center"}
+   ![](assets/perso-preview1.png){zoom=&quot;yes&quot;}{width="800" align="center"}
 
-   ![](assets/perso-preview2.png){width="800" align="center"}
+   ![](assets/perso-preview2.png){zoom=&quot;yes&quot;}{width="800" align="center"}

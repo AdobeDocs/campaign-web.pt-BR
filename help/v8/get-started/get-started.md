@@ -3,11 +3,10 @@ audience: end-user
 title: Introdução ao Adobe Campaign Web
 description: Introdução ao Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Disponibilidade limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +40,7 @@ Use o Campaign para:
 
 Inicialmente disponível somente por meio de um [console do cliente](#ac-client) avançado, o Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas, e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica a criação da campanha de marketing e a entrega, e oferece consistência, além de outras soluções da Adobe, incluindo a Adobe Experience Platform.
 
-![](assets/home.png)
+![](assets/home.png){zoom=&quot;yes&quot;}
 
 Essa nova interface de usuário da Web atende primeiro às necessidades do **profissional comercial** - todas as tarefas administrativas típicas não estão disponíveis nesta primeira versão, mas serão abordadas em versões subsequentes. Observe que, por enquanto, nem todas as funcionalidades ou opções disponíveis no console do cliente estão disponíveis na nova interface. Novos casos de uso, opções e recursos estarão disponíveis em versões futuras.
 

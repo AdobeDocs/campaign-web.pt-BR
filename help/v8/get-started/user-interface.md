@@ -3,10 +3,9 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Disponibilidade limitada"
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1640'
 ht-degree: 95%
 
 ---
@@ -33,7 +32,7 @@ A página inicial do Campaign permite uma navegação rápida e fácil pelos pri
 
 A seção superior da página inicial fornece detalhes sobre as atualizações mais recentes e os novos recursos disponíveis no produto, com links para as notas de versão e a documentação detalhada. Use a seta esquerda para rolar pelos cartões de recursos.
 
-![](assets/home.png)
+![](assets/home.png){zoom=&quot;yes&quot;}
 
 Os **indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns. Saiba mais sobre esses KPIs [nesta página](../reporting/kpis.md).
 
@@ -71,7 +70,7 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 
   Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
-  ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
 
 * **Workflows** - Nessa tela, é possível acessar a lista completa de workflows e modelos de workflows. É possível verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo modelo de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar os workflows que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 
@@ -119,7 +118,7 @@ Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.
 
 Uma ajuda contextual está disponível na interface. Quando disponível, clique no ícone `?` para exibir informações de ajuda e links de documentações relacionadas.
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoom=&quot;yes&quot;}{width="40%" align="left"}
 
 Atualmente lançado como uma versão Beta na nova interface do Campaign, o **Assistente de conhecimento habilitado para IA** incorporado na ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas &quot;como&quot;, com uma verificação fácil através de vastos repositórios de documentação, localizando instantaneamente as informações precisas de que você precisa.
 
@@ -355,7 +354,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Páginas de destino padrão"
+>title="Página de destino padrão"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]

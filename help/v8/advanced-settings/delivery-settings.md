@@ -4,10 +4,9 @@ title: Configurações de entrega
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Disponibilidade limitada"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 61%
 
 ---
@@ -44,7 +43,7 @@ Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras
 
 As tipologias permitem garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoom=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients
 
 **[!UICONTROL Entrega]** parâmetros são configurações técnicas que se aplicam ao seu delivery.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoom=&quot;yes&quot;}
 
 O e-mail integrado **[!UICONTROL Roteamento]** a conta externa de é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
 
@@ -250,7 +249,7 @@ Você também poderá optar por especificar datas. Para fazer isso, selecione **
 
 **[!UICONTROL Limite da validade de recursos]** é usado para recursos dos quais foram feitos upload, principalmente para mirror pages e imagens. Os recursos dessa página são válidos por um tempo limitado (para economizar espaço em disco). Após esse limite, esses recursos não estarão mais disponíveis.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoom=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

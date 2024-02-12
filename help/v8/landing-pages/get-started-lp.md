@@ -3,11 +3,10 @@ audience: end-user
 title: Introdução às páginas de destino
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 feature: Landing Pages
-badge: label="Disponibilidade limitada"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 11%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
->abstract="Descubra a nova experiência de página de aterrissagem. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinatura/cancelamento de assinatura e de inclui na lista de bloqueios, com base em modelos integrados."
+>abstract="Descubra a nova experiência de página de destino. Crie, projete e compartilhe páginas de aterrissagem instantaneamente para direcionar seus usuários para páginas da Web online, onde é possível gerenciar casos de uso de aquisição, assinatura/cancelamento de assinatura e de inclui na lista de bloqueios, com base em modelos integrados."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
 [!DNL Adobe Campaign] O permite criar, projetar e compartilhar páginas de aterrissagem.

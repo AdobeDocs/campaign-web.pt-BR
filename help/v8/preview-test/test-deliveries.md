@@ -3,10 +3,9 @@ audience: end-user
 title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Disponibilidade limitada"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1209'
 ht-degree: 13%
 
 ---
@@ -37,7 +36,7 @@ Para começar a testar o conteúdo da mensagem:
 1. Clique em **[!UICONTROL Simular conteúdo]** botão.
 1. Clique em **[!UICONTROL Teste]** botão para enviar deliveries de teste.
 
-   ![](assets/simulate-test-button-email.png)
+   ![](assets/simulate-test-button-email.png){zoom=&quot;yes&quot;}
 
 1. Selecione os recipients do teste.
 
@@ -81,7 +80,7 @@ As etapas para enviar deliveries de teste para seed addresses estão detalhadas 
 
 1. No **[!UICONTROL Modo]** selecione **[!UICONTROL Perfis de teste]** para direcionar recipients fictícios que receberão o email de teste ou a delivery de SMS.
 
-   ![](assets/simulate-profile-mode.png)
+   ![](assets/simulate-profile-mode.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -91,13 +90,13 @@ As etapas para enviar deliveries de teste para seed addresses estão detalhadas 
 
 1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoom=&quot;yes&quot;}
 
    Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
 1. Para enviar também a mensagem final aos recipients do delivery de teste, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
 
-   ![](assets/simulate-include-test.png)
+   ![](assets/simulate-include-test.png){zoom=&quot;yes&quot;}
 
 1. Depois que os perfis de teste forem selecionados, você poderá [enviar o delivery de teste](#send-test).
 
@@ -118,7 +117,7 @@ Para substituir os dados do perfil do target principal, siga as etapas abaixo:
 
 1. Clique em **[!UICONTROL Adicionar endereço]** e especifique o endereço de email ou número de telefone que receberá o delivery de teste.
 
-   ![](assets/simulate-add-substitution-address.png)
+   ![](assets/simulate-add-substitution-address.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -128,7 +127,7 @@ Para substituir os dados do perfil do target principal, siga as etapas abaixo:
 
 1. Confirme o recipient e repita a operação para adicionar quantos endereços de email ou números de telefone forem necessários.
 
-   ![](assets/simulate-profile-substitute.png)
+   ![](assets/simulate-profile-substitute.png){zoom=&quot;yes&quot;}
 
 1. Para enviar também a mensagem final aos recipients do delivery de teste, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
 
@@ -140,13 +139,13 @@ Ao criar com notificações por push, os deliveries de teste só podem ser envia
 
 1. No conteúdo do delivery de push, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Teste]** botão.
 
-   ![](assets/simulate-test-button-push.png)
+   ![](assets/simulate-test-button-push.png){zoom=&quot;yes&quot;}
 
 1. Se você já tiver selecionado assinantes para [pré-visualizar o delivery](preview-content.md) na tela content simulation, esses perfis são pré-selecionados como assinantes de teste.
 
    Você pode limpar sua seleção e/ou adicionar mais assinantes usando o botão dedicado.
 
-   ![](assets/simulate-test-subscribers.png)
+   ![](assets/simulate-test-subscribers.png){zoom=&quot;yes&quot;}
 
 1. Para enviar também a notificação por push final aos assinantes de teste, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
 
@@ -160,7 +159,7 @@ Para enviar o delivery de teste para os recipients selecionados, siga as etapas 
 
 1. Confirme o envio.
 
-   ![](assets/simulate-send-test.png)
+   ![](assets/simulate-send-test.png){zoom=&quot;yes&quot;}
 
 1. Envie quantos testes forem necessários até concluir o conteúdo do delivery.
 
@@ -176,8 +175,8 @@ Depois que os deliveries de teste forem enviados, você poderá acessar logs ded
 
 Esses logs permitem acessar todos os testes enviados para o delivery selecionado e visualizar estatísticas específicas relacionadas ao envio. [Saiba como monitorar os logs de entrega](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoom=&quot;yes&quot;}
 
 Você também pode acessar testes enviados do [lista de entrega](../msg/gs-messages.md), como qualquer delivery.
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoom=&quot;yes&quot;}

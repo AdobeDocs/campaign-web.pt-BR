@@ -3,11 +3,10 @@ audience: end-user
 title: Testar a renderização do email
 description: Saiba como testar a renderização de email na interface da Web do Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Disponibilidade limitada"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
@@ -33,21 +32,21 @@ Em seguida, siga as etapas abaixo.
 
 1. Selecione o **[!UICONTROL Renderizar email]** botão.
 
-   ![](assets/simulate-rendering-button.png)
+   ![](assets/simulate-rendering-button.png){zoom=&quot;yes&quot;}
 
 1. Clique em **Conectar sua conta Litmus** na seção superior direita.
 
-   ![](assets/simulate-rendering-litmus.png)
+   ![](assets/simulate-rendering-litmus.png){zoom=&quot;yes&quot;}
 
 1. Insira suas credenciais e faça logon.
 
-   ![](assets/simulate-rendering-credentials.png)
+   ![](assets/simulate-rendering-credentials.png){zoom=&quot;yes&quot;}
 
 1. Clique em **Executar teste** botão para gerar visualizações de email.
 
 1. Verifique seu conteúdo de email em clientes populares de desktop, móveis e baseados na Web.
 
-   ![](assets/simulate-rendering-previews.png)
+   ![](assets/simulate-rendering-previews.png){zoom=&quot;yes&quot;}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
@@ -64,7 +63,7 @@ To test the email rendering, follow these steps:
 
     The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render-context.png)
+    ![](assets/render-context.png){zoomable="yes"}
 
     >[!NOTE]
     >

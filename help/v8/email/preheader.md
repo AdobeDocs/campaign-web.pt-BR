@@ -3,11 +3,10 @@ audience: end-user
 title: Adicionar um pré-cabeçalho no Designer de email
 description: Saiba como criar conteúdo de email
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Disponibilidade limitada"
-source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 47%
+source-wordcount: '213'
+ht-degree: 46%
 
 ---
 
@@ -32,17 +31,17 @@ Para definir o pré-cabeçalho do email, siga as etapas abaixo.
 
 1. Clique no ícone **[!UICONTROL Árvore de navegação]** no painel esquerdo e selecione **[!UICONTROL Corpo]**.
 
-   ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png){zoom=&quot;yes&quot;}
 
 1. No **[!UICONTROL Configurações]** insira algum texto para o pré-cabeçalho.
 
 1. Para personalizá-lo ainda mais, clique no link **[!UICONTROL Adicionar personalização]** ícone à esquerda da **[!UICONTROL Pré-cabeçalho]** campo.
 
-   ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png){zoom=&quot;yes&quot;}
 
 1. No **[!UICONTROL Editar personalização]** , é possível adicionar [campos de personalização](../personalization/personalize.md), [blocos de conteúdo](../personalization/content-blocks.md) e [conteúdo condicional](../personalization/conditions.md) usando as entradas dedicadas à esquerda.
 
-   ![](assets/preheader_body_personalization.png)
+   ![](assets/preheader_body_personalization.png){zoom=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Confirmar]**.
 

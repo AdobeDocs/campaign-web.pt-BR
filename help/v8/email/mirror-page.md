@@ -2,12 +2,11 @@
 audience: end-user
 title: Adicionar um link para a mirror page
 description: Saiba como adicionar e gerenciar o link para a mirror page
-badge: label="Disponibilidade limitada"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -31,15 +30,15 @@ Para adicionar um link a uma mirror page no seu email:
 
 1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
-   ![](assets/message-tracking-mirror-page.png)
+   ![](assets/message-tracking-mirror-page.png){zoom=&quot;yes&quot;}
 
 1. Selecione o ícone de **[!UICONTROL Adicionar personalização]** para acessar o menu de personalização.
 
-   ![](assets/message-tracking-mirror-page_2.png)
+   ![](assets/message-tracking-mirror-page_2.png){zoom=&quot;yes&quot;}
 
 1. No menu **[!UICONTROL Bloco de conteúdo]**, selecione o **[!UICONTROL URL da mirror page]** e clique em **[!UICONTROL Adicionar]**.
 
-   ![](assets/message-tracking-mirror-page_3.png)
+   ![](assets/message-tracking-mirror-page_3.png){zoom=&quot;yes&quot;}
 
    Para obter mais informações sobre a inserção de blocos de conteúdo personalizados, consulte [esta seção](../personalization/personalize.md#personalize-emails).
 

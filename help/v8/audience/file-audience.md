@@ -2,12 +2,11 @@
 audience: end-user
 title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
-badge: label="Disponibilidade limitada"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 41%
+source-wordcount: '626'
+ht-degree: 40%
 
 ---
 
@@ -50,7 +49,7 @@ Para direcionar perfis de um arquivo local diretamente da interface de email, si
 1. Abrir um delivery de email existente, ou [criar um novo delivery de email](../email/create-email.md).
 1. Na janela de criação da entrega de email, na seção **Público-alvo**, clique no botão **Selecionar público-alvo** e escolha a opção **Selecionar do arquivo**.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoom=&quot;yes&quot;}
 
 1. Selecione o arquivo local a ser usado. O formato deve estar alinhado com o [arquivo de amostra](#sample-file).
 1. Visualize e verifique como os dados estão mapeados na seção central da tela.
@@ -60,7 +59,7 @@ Para direcionar perfis de um arquivo local diretamente da interface de email, si
 
 Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada na [Editor de personalização](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoom=&quot;yes&quot;}
 
 ## Arquivo de amostra {#sample-file}
 
@@ -93,7 +92,7 @@ O Campaign Web permite visualizar e enviar emails de teste ao usar um público-a
 
 1. Uma pré-visualização do conteúdo do delivery é exibida no painel direito da tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo. [Saiba mais sobre pré-visualização de conteúdo de delivery](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoom=&quot;yes&quot;}
 
 1. Para enviar emails de teste, clique no link **[!UICONTROL Teste]** botão.
 
@@ -105,6 +104,6 @@ O Campaign Web permite visualizar e enviar emails de teste ao usar um público-a
 
 1. Quando os recipients da prova forem adicionados e você estiver pronto para enviar as provas, clique no link **[!UICONTROL Enviar email de teste]** e confirme o envio.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoom=&quot;yes&quot;}
 
 1. É possível monitorar o envio do email de teste usando o **[!UICONTROL Exibir log de email de teste]** a qualquer momento. [Saiba mais sobre o monitoramento de emails de teste](../preview-test/test-deliveries.md#access-test-deliveries)

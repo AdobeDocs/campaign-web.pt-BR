@@ -3,11 +3,10 @@ audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Disponibilidade limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoom=&quot;yes&quot;}
 
 1. Adicione um **[!UICONTROL Rótulo]** e um **[!UICONTROL Link]**.
 
@@ -38,7 +37,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
    * Você pode editar o link e alterar seu **[!UICONTROL Público-alvo]**.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoom=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ O [Designer de email](create-email-content.md) permite gerenciar os URLs rastrea
 
 1. Para editar um link, clique no ícone de lápis correspondente.
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoom=&quot;yes&quot;}
 
 1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]**, se necessário:
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoom=&quot;yes&quot;}
 
    Para cada URL rastreado é possível definir o modo de rastreamento utilizando um destes valores:
 
@@ -71,6 +70,6 @@ O [Designer de email](create-email-content.md) permite gerenciar os URLs rastrea
 
 1. Adicione uma **[!UICONTROL Categoria]** ao seu link para agrupar links rastreados e clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoom=&quot;yes&quot;}
 
 1. Após enviar a entrega, acesse o relatório de entrega. Em **[!UICONTROL Rastreamento]**, o relatório **[!UICONTROL Fluxos de cliques e URL]** exibe quais são os URLs mais visitados de sua entrega. [Saiba mais](../reporting/gs-reports.md)

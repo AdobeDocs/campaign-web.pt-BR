@@ -3,11 +3,10 @@ audience: end-user
 title: Relatórios de entrega
 description: Saiba como acessar e usar relatórios de entrega
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Disponibilidade limitada"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 38%
+source-wordcount: '268'
+ht-degree: 42%
 
 ---
 
@@ -36,24 +35,24 @@ Para exibir e gerenciar relatórios, siga estas etapas:
 
 1. Do seu **[!UICONTROL Entrega]** painel, clique em **[!UICONTROL Relatórios]**.
 
-   ![](assets/manage_delivery_report_1.png)
+   ![](assets/manage_delivery_report_1.png){zoom=&quot;yes&quot;}
 
    Como alternativa, você pode usar os três pontos **Mais ações** ao lado do nome do delivery na lista deliveries e selecione **[!UICONTROL Exibir relatório]**.
 
-   ![](assets/manage_delivery_report_2.png)
+   ![](assets/manage_delivery_report_2.png){zoom=&quot;yes&quot;}
 
 1. No menu esquerdo, selecione um relatório na lista.
 
-   ![](assets/manage_delivery_report_3.png)
+   ![](assets/manage_delivery_report_3.png){zoom=&quot;yes&quot;}
 
 1. Se o delivery for recorrente, selecione um delivery específico para relatar clicando em **[!UICONTROL Selecionar deliveries]**.
 
    Você também pode aplicar um período de tempo ao seu relatório selecionando o **[!UICONTROL Data de contato]**.
 
-   ![](assets/delivery-recurring.png)
+   ![](assets/delivery-recurring.png){zoom=&quot;yes&quot;}
 
 1. No **[!UICONTROL Fluxos de clique e URLs]**, você também pode escolher a variável **[!UICONTROL Links mais visitados]** ou o **[!UICONTROL Período]**.
 
    A variável **[!UICONTROL Visualizar por]** As opções de permitem filtrar por URLs, Rótulos ou Categorias.
 
-   ![](assets/manage_delivery_report_5.png)
+   ![](assets/manage_delivery_report_5.png){zoom=&quot;yes&quot;}

@@ -3,11 +3,10 @@ audience: end-user
 title: Monitorar logs da entrega
 description: Saiba como monitorar logs da entrega
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Disponibilidade limitada"
-source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 71%
+source-wordcount: '369'
+ht-degree: 68%
 
 ---
 
@@ -41,39 +40,39 @@ Todas as etapas de validação, avisos e erros são listados. Os ícones colorid
 * O ícone amarelo indica um erro de processamento não crítico.
 * O ícone vermelho indica um erro crítico que impede o envio do delivery. Erros críticos devem ser corrigidos para que o delivery seja enviado.
 
-![](assets/logs.png)
+![](assets/logs.png){zoom=&quot;yes&quot;}
 
 
 ## Entregas {#deliveries-tab}
 
 A guia **Logs de envio** contém o histórico de todas as ocorrências da entrega. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status da entrega para cada recipient.
 
-![](assets/logs2.png)
+![](assets/logs2.png){zoom=&quot;yes&quot;}
 
 ## Exclusões {#exclusion-tab}
 
 A guia **Logs excluídos** lista todas as mensagens excluídas do público-alvo e especifica o motivo da falha no envio.
 
-![](assets/logs3.png)
+![](assets/logs3.png){zoom=&quot;yes&quot;}
 
 ## Causas da exclusão {#exclusion-causes-tab}
 
 A variável **Causas de exclusão** exibe, para cada causa possível, o número de mensagens que foram excluídas do público-alvo.
 
-![](assets/logs4.png)
+![](assets/logs4.png){zoom=&quot;yes&quot;}
 
 ## URLs rastreados {#tracked-urls-tab}
 
 A variável **URLs rastreados** A guia reagrupa os URLs contidos nas mensagens enviadas, incluindo o tipo de URL e o URL de origem.
 
-![](assets/logs5.png)
+![](assets/logs5.png){zoom=&quot;yes&quot;}
 
 ## Rastreamento {#tracking-tab}
 
 A guia **Rastreamento** lista o histórico de rastreamento dessa entrega. Esta guia exibe os dados de rastreamento das mensagens enviadas, ou seja, todas as URLs sujeitas ao rastreamento pelo Adobe Campaign.
 
 
-![](assets/logs6.png)
+![](assets/logs6.png){zoom=&quot;yes&quot;}
 
 >[!NOTE]
 >
