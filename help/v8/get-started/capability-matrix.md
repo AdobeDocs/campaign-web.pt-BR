@@ -3,9 +3,9 @@ audience: end-user
 title: Matriz de recursos da interface do usuário da Web/console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface da Web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 
 ## Canais de comunicação {#channels-capabilities}
 
-Com a interface da Web do Campaign, você pode criar, projetar e enviar emails, SMS e notificações por push e medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, os canais a seguir não estão disponíveis no momento.
+Com a interface da Web do Campaign, você pode criar, projetar e enviar **email**, **SMS** e **notificações por push** e medir seu impacto usando vários relatórios exclusivos, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, os seguintes canais estão **não** disponível: no aplicativo, correspondência direta, LINE, Call center/canal personalizado, marketing social com X (Twitter).
 
 Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses canais.
 
