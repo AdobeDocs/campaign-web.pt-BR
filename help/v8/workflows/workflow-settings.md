@@ -2,12 +2,11 @@
 audience: end-user
 title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 25%
+source-wordcount: '959'
+ht-degree: 28%
 
 ---
 
@@ -20,7 +19,7 @@ Essas configurações são pré-definidas no template selecionado ao criar o wor
 
 Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponível na barra de ações acima da tela do fluxo de trabalho.
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Propriedades do fluxo de trabalho {#properties}
 
@@ -31,7 +30,7 @@ Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponí
 
 A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que também podem ser acessadas ao criar o workflow.
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
 
 
 Essas propriedades são:
@@ -91,7 +90,7 @@ Quando o fluxo de trabalho é [associado a uma campanha](create-workflow.md), el
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Configurações de gerenciamento de erros"
->abstract="Nesta seção, é possível definir como o workflow deve gerenciar erros durante sua execução. Você pode optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução do workflow."
+>abstract="Nesta seção, é possível definir como o fluxo de trabalho deve gerenciar erros durante sua execução. É possível optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução do fluxo de trabalho."
 
 * **[!UICONTROL Gerenciamento de erros]**: este campo permite que você defina as ações a serem tomadas se uma tarefa de workflow tiver erros. Há três opções possíveis:
 
