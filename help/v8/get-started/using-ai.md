@@ -3,10 +3,10 @@ title: Como utilizar a ajuda contextual de IA no Campaign Web
 description: Insira suas perguntas nos popovers de ajuda do Campaign Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '532'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ A **Ajuda contextual com IA generativa** integrada na ajuda contextual revolucio
 
 Graças aos recursos da IA generativa do Campaign, esse componente transforma sua experiência, deixando a recuperação de informações e a solução de problemas uma moleza. Quer esteja buscando orientação em uma tarefa complexa ou navegando por documentos extensos, a Ajuda contextual de IA é o complemento perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
 
-<img src="assets/AI_CH.gif" width="80%"/>
+<img src="assets/do-not-localize/CH+AI-BETA.gif" width="80%"/>
 
 
 >[!AVAILABILITY]
@@ -44,19 +44,25 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
+## Perguntas sugeridas {#questions-ai}
+
+No campo de entrada, a Ajuda contextual fornecida pela IA do Adobe Campaign traz três perguntas sugeridas. Essas perguntas são geradas por IA e estão relacionadas à caixa de ajuda e ao contexto atual do produto. Selecione uma pergunta para obter a resposta.
+
 ## Respostas {#answers-ai}
 
 A Ajuda contextual de IA do Adobe Campaign oferece assistência, mas você deve verificar os fatos. O recurso pode produzir informações incorretas e respostas imprecisas ou enganosas. Verifique a documentação do produto que está vinculada em todas as caixas de ajuda.
 
-Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para atender de forma aprimorada a casos de uso específicos. A Ajuda contextual de IA do Campaign continuará melhorando nos próximos meses. Recomendamos fortemente que você use os botões <img src="assets/do-not-localize/thumb.png" width="10%"/> sempre que ler uma resposta, para sinalizar quaisquer respostas inadequadas para os(as) engenheiros(as).
+Você pode copiar uma resposta para a área de transferência usando o **Copiar** ícone na parte inferior do popover ajuda.
 
+## Feedback {#feedback-ai}
+
+Os modelos de inteligência artificial e aprendizado de máquina melhoram com o tempo para atender de forma aprimorada a casos de uso específicos. A Ajuda contextual de IA do Campaign continuará melhorando nos próximos meses. Recomendamos fortemente que você use os botões <img src="assets/do-not-localize/thumb.png" width="10%"/> sempre que ler uma resposta, para sinalizar quaisquer respostas inadequadas para os(as) engenheiros(as).
 
 ## Recomendações  {#recommendations-ai}
 
 Ao fazer uma pergunta na Ajuda contextual de IA, o contexto atual do produto, ou seja, a tela em que você está e o conteúdo da caixa de ajuda atual, é levado em conta.
 
 Como consequência, a prática recomendada é fazer perguntas relacionadas ao contexto da interface. Por exemplo, se precisar de informações sobre o envio de uma entrega por push num fluxo de trabalho, navegue até a entrada do menu esquerdo **Fluxo de trabalho** e use uma caixa de ajuda contextual nesse contexto específico. Para saber mais sobre métricas de relatórios, navegue até os relatórios da campanha ou da entrega para começar.
-
 
 Além disso, para aproveitar ao máximo a Ajuda contextual de IA, ao fazer uma pergunta, recomendamos que você:
 
