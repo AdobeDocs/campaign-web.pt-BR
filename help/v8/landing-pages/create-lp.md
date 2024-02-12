@@ -2,10 +2,10 @@
 title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 19%
+source-wordcount: '1340'
+ht-degree: 18%
 
 ---
 
@@ -71,6 +71,8 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+Para criar uma landing page, siga estas etapas:
+
 1. No **[!UICONTROL Landing pages]** inventário, clique em **[!UICONTROL Criar página de destino]**.
 
    ![](assets/lp-create-button.png){zoom=&quot;yes&quot;}
@@ -79,13 +81,13 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
    * **[!UICONTROL Aquisição]**: este é o template padrão para landing pages, que permite capturar e atualizar dados de perfil.
    * **[!UICONTROL Inscrição]**: use este template para permitir que os usuários assinem um [serviço](../audience/manage-services.md).
    * **[!UICONTROL Cancelar assinatura]**: esse template pode ser usado em um delivery enviado aos assinantes de um serviço, para permitir que eles cancelem a assinatura deste [serviço](../audience/manage-services.md).
-   * **[!UICONTROL ➡ Incluir na lista de bloqueios]**: esse template deve ser usado quando um perfil não deseja mais ser contatado pelo Campaign.
+   * **[!UICONTROL ➡ Incluir na lista de bloqueios]**: esse template deve ser usado quando um perfil clica em um link de opt-out em um delivery e não deseja mais ser contatado.
 
    ![](assets/lp-templates.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Saiba como implementar os diferentes casos de uso correspondentes a cada modelo no [nesta seção](lp-use-cases.md).
+   >Saiba como implementar os diferentes casos de uso correspondentes a cada modelo no [esta página](lp-use-cases.md).
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -101,7 +103,7 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
    * A variável **[!UICONTROL Ignorar pré-carregamento se nenhuma ID]** deve ser selecionada se você não deseja atualizar os perfis. Nesse caso, cada perfil inserido será adicionado ao banco de dados após a aprovação do formulário. Essa opção é usada, por exemplo, quando o formulário é postado em um site.
 
-1. No **[!UICONTROL Páginas]** clique na guia **[!UICONTROL Editar conteúdo]** para cada página que você deseja criar para essa página de aterrissagem. O conteúdo de cada página já está pré-preenchido. Edite-as conforme necessário. [Saiba mais](lp-content.md)
+1. Uma landing page pode ter páginas subsequentes. Para adicionar páginas, navegue até **[!UICONTROL Páginas]** e clique no botão **[!UICONTROL Editar conteúdo]** para cada página que você deseja criar para essa página de aterrissagem. O conteúdo de cada página já está pré-preenchido. Edite-as conforme necessário. [Saiba mais](lp-content.md)
 
    ![](assets/lp-pages.png){zoom=&quot;yes&quot;}
 
@@ -129,7 +131,7 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 1. Clique em **[!UICONTROL Revisar e publicar]**.
 
-Depois de definir todas as configurações e [projetado](lp-content.md) em todas as páginas, é possível [test](#test-landing-page) e [publicar](#publish-landing-page) sua landing page.
+Depois de definir todas as configurações e [projetado](lp-content.md) em todas as páginas, é possível [test](#test-landing-page) e [publicar](#publish-landing-page) sua landing page, conforme detalhado abaixo.
 
 ## Testar a landing page {#test-landing-page}
 
@@ -148,6 +150,8 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 >[!CAUTION]
 >
 >Você deve ter perfis de teste disponíveis para poder visualizar suas mensagens e enviar provas. [Saiba mais sobre perfis de teste](../audience/test-profiles.md)
+
+Para testar a landing page, siga estas etapas:
 
 1. Depois de clicar em **[!UICONTROL Revisar e publicar]**, selecione o **[!UICONTROL Simular conteúdo]** no painel da página de aterrissagem para acessar a seleção de perfil de teste.
 
@@ -173,7 +177,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 ## Publicar a página de destino {#publish-landing-page}
 
-Quando a landing page estiver pronta, publique-a para disponibilizá-la para uso em um delivery usando o botão correspondente.
+Quando a landing page estiver pronta e validada, publique-a para disponibilizá-la para uso em um delivery usando o botão correspondente.
 
 Depois de publicado:
 

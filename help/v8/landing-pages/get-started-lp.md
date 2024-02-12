@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução às páginas de destino
 description: Saiba mais sobre as páginas de aterrissagem no Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '275'
 ht-degree: 13%
 
 ---
@@ -26,9 +26,9 @@ As landing pages permitem direcionar os usuários para formulários online, onde
 
 >[!CAUTION]
 >
->As landing pages criadas na interface da Web do Campaign são diferentes dos formulários web criados no console do cliente. Não é possível exibir ou editar formulários Web na interface do usuário da Web do Campaign.
+>As landing pages criadas na interface da Web do Campaign são diferentes dos formulários web criados no console do cliente. Não é possível exibir ou editar formulários Web criados no console do cliente na interface do usuário da Web do Campaign.
 >
->Saiba mais sobre formulários web no [Documentação do console do Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Saiba mais sobre formulários web no [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 Os principais recursos das landing pages estão listados abaixo:
 

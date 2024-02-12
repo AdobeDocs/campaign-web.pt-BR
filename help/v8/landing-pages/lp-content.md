@@ -2,9 +2,9 @@
 title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '872'
 ht-degree: 11%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 11%
 >title="Usar componentes de conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
 
-Ao editar o conteúdo de qualquer página da sua landing page, ela já está pré-preenchida.
+É possível editar o conteúdo de qualquer página da sua landing page.
 
-A primeira página, que é imediatamente exibida aos usuários depois que eles clicam no link para a página de aterrissagem, já está pré-preenchida com o [componente de formulário específico da página de destino](#use-form-component) para o modelo selecionado<!-- to enable users to select and submit their choices-->. Você também pode definir [estilos para sua página de aterrissagem](#lp-form-styles).
 
-Para projetar ainda mais o conteúdo da página de aterrissagem, você pode usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
+A primeira página, que é imediatamente exibida aos usuários depois que eles clicam no link para a página de aterrissagem, já está pré-preenchida com o [componente de formulário específico da página de destino](#use-form-component) para o modelo selecionado<!-- to enable users to select and submit their choices-->.
 
 O conteúdo do **[!UICONTROL Confirmação]**, **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** também é pré-preenchido. Edite-as conforme necessário.
+
+Você também pode definir [estilos para sua página de aterrissagem](#lp-form-styles).
+
+Para projetar ainda mais o conteúdo da página de aterrissagem, você pode usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
 
 ## Usar o componente de formulário {#use-form-component}
 
@@ -36,7 +39,7 @@ O conteúdo do **[!UICONTROL Confirmação]**, **[!UICONTROL Erro]** e **[!UICON
 >title="O que acontece ao clicar no botão"
 >abstract="Defina o que acontecerá depois que as pessoas enviarem o formulário da página de destino."
 
-Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, use o **[!UICONTROL Formulário]** componente. Para fazer isso, siga as etapas abaixo.
+Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, edite o **[!UICONTROL Formulário]** componente. Para fazer isso, siga as etapas abaixo.
 
 1. A página de aterrissagem específica **[!UICONTROL Formulário]** já é exibido na tela para o modelo selecionado.
 
