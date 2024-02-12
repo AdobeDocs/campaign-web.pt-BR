@@ -3,7 +3,7 @@ title: Como utilizar a ajuda contextual de IA no Campaign Web
 description: Insira suas perguntas nos popovers de ajuda do Campaign Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ Graças aos recursos da IA generativa do Campaign, esse componente transforma su
 
 >[!AVAILABILITY]
 >
->A ajuda contextual alimentada por IA está disponível em sua versão Beta e está sujeita a alterações sem aviso prévio.
+>* A ajuda contextual alimentada por IA está disponível em sua versão Beta e está sujeita a alterações sem aviso prévio.
 >
->Esse recurso só está disponível em **inglês**. Não há suporte para outros idiomas nesta versão. Como consequência, certifique-se de que [seu idioma preferencial](connect-to-campaign.md#language-pref) esteja definido como inglês antes de usar esse recurso.
+>* Esse recurso só está disponível em **inglês**. Não há suporte para outros idiomas nesta versão. Como consequência, certifique-se de que [seu idioma preferencial](connect-to-campaign.md#language-pref) esteja definido como inglês antes de usar esse recurso.
 >
->Por enquanto, a ajuda contextual habilitada por IA não está disponível no Designer de email do Campaign.
+>* Por enquanto, a ajuda contextual habilitada por IA não está disponível no Designer de email do Campaign.
 
 
 <!--
