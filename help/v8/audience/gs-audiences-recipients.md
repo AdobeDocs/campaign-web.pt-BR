@@ -2,16 +2,16 @@
 title: Introdução a perfis e públicos-alvo
 description: Saiba como trabalhar com perfis e públicos-alvo no Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Introdução a perfis e públicos-alvo {#about-profiles}
 
-No Adobe Campaign Web, um **perfil** é um indivíduo armazenado no banco de dados, servindo como um componente chave para criar públicos-alvo para entregas e adicionar dados de personalização ao seu conteúdo. Vários tipos de perfis são armazenados no banco de dados, como **Perfis de teste**, que são projetados para testar suas entregas antes que sejam enviadas ao público-alvo final.
+Na Adobe Campaign Web, uma variável **perfil** é um registro armazenado no banco de dados, que atua como um componente principal para criar públicos-alvo para deliveries e adicionar dados de personalização ao seu conteúdo. Vários tipos de perfis são armazenados no banco de dados, como **Perfis de teste**, que são projetados para testar suas entregas antes que sejam enviadas ao público-alvo final.
 
 **Públicos-alvo** são conjuntos de perfis que compartilham comportamentos e/ou características semelhantes. Essa coleção de pessoas pode ser gerada, selecionada ou carregada.  Depois de criados, os públicos-alvo podem ser usados como a população de público-alvo das suas entregas.
 
