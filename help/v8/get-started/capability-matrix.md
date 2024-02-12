@@ -3,9 +3,9 @@ audience: end-user
 title: Matriz de recursos da interface do usuário da Web/console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface da Web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 3%
 
 ---
@@ -77,7 +77,6 @@ Navegue pelo [Documentação do Campaign v8 (console do cliente)](https://experi
 
 * Criação e execução de mensagens em tempo real por email, SMS e push
 * Enriquecimento e personalização de mensagem
-* Triggers (abandono do carrinho do Adobe Analytics)
 * Relatórios e monitoramento de mensagens transacionais
 
 ## Design de conteúdo {#content-capabilities}
