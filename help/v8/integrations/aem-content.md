@@ -2,10 +2,9 @@
 audience: end-user
 title: Gerenciar ativos com o Adobe Experience Manager as a Cloud Service
 description: Saiba como gerenciar conteúdo com o Adobe Experience Manager as a Cloud Service
-badge: label="Disponibilidade limitada"
-source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
+source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 3%
 
 ---
