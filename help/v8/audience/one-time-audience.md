@@ -2,12 +2,11 @@
 audience: end-user
 title: Criar um público-alvo único para uma entrega
 description: Saiba como criar um público-alvo único para uma entrega.
-badge: label="Disponibilidade limitada"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 30%
+source-wordcount: '230'
+ht-degree: 29%
 
 ---
 
@@ -24,13 +23,13 @@ Ao definir o target principal de um delivery, você também pode:
 
 Para criar um novo público-alvo diretamente de um delivery, siga estas etapas:
 
-1. Na seção **Público-alvo** do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público-alvo]**.
+1. Na seção **Público**, do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
-   ![](assets/segment-builder0.png)
+   ![](assets/segment-builder0.png){zoom=&quot;yes&quot;}
 
 1. Selecione **Criar o seu**. O modelador de query é exibido. Ele permite definir a população direcionada pelo delivery filtrando os dados contidos no banco de dados. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png)
+   ![](assets/query-modeler.png){zoom=&quot;yes&quot;}
 
 1. Quando a consulta estiver pronta, clique em **Confirmar o** para usar o público-alvo como o principal alvo do seu delivery.
 

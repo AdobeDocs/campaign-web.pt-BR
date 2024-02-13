@@ -2,11 +2,10 @@
 audience: end-user
 title: Monitorar e gerenciar públicos-alvo
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 26%
 
 ---
@@ -45,7 +44,7 @@ Ao direcionar um público-alvo, você também pode definir **grupos de controle*
 
 A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no **[!UICONTROL Públicos-alvo]** menu.
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoom=&quot;yes&quot;}
 
 Os públicos-alvo podem se originar de várias fontes. A variável **[!UICONTROL Origem]** indica onde um determinado público-alvo foi criado:
 
@@ -63,6 +62,6 @@ Para obter mais informações sobre um público, abra-o na lista. As propriedade
 
 A variável **[!UICONTROL Dados]** permite visualizar os perfis que fazem parte do público-alvo. Você pode personalizar essa visualização adicionando mais colunas ou utilizando filtros avançados para refinar os dados exibidos.
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoom=&quot;yes&quot;}
 
 Para duplicar ou excluir um público-alvo, clique no **[!UICONTROL Mais ações]** botão disponível na lista públicos-alvo ao lado do nome do público-alvo ou dentro de uma tela de detalhes do público-alvo.

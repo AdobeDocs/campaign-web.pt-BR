@@ -2,12 +2,11 @@
 audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
-badge: label="Disponibilidade limitada"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 41%
+source-wordcount: '2283'
+ht-degree: 40%
 
 ---
 
@@ -31,11 +30,11 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 
 A variável **[!UICONTROL População de público alvo inicial]** O gráfico exibe dados relativos aos recipients. As métricas são calculadas durante a preparação do delivery e mostram: o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
 
-![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoom=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 Passe o mouse sobre uma parte do gráfico para exibir o número exato.
 
-![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.1.png){zoom=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
@@ -58,7 +57,7 @@ Passe o mouse sobre uma parte do gráfico para exibir o número exato.
 
 A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o sucesso do seu delivery. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoom=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -81,7 +80,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o suces
 
 A variável **[!UICONTROL Causas de exclusão]** o gráfico e a tabela mostram o detalhamento por regra de mensagens rejeitadas durante a preparação do delivery. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/reporting_email_3.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoom=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -110,7 +109,7 @@ A variável **[!UICONTROL Causas de exclusão]** o gráfico e a tabela mostram o
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
-![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoom=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 
 ## Estatísticas de transmissão {#broadcast-statistics}
@@ -122,7 +121,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 A variável **[!UICONTROL Estatísticas de transmissão]** A tabela contém os dados disponíveis para possíveis erros encontrados com cada domínio. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_4.png){align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoom=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -154,7 +153,7 @@ A variável **[!UICONTROL Detalhamento de erros por tipo]** a tabela e o gráfic
 
 Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre gestão de quarentena, consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoom=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -186,11 +185,11 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 
 A variável **[!UICONTROL Detalhamento de erros por domínio]** A tabela e o gráfico exibem os dados disponíveis para possíveis erros encontrados com cada domínio.
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoom=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 Clique no ícone ao lado do nome de cada domínio para ver os detalhes.
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoom=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 As métricas disponíveis são as mesmas que para o [Detalhamento por tipo de erro](#email-delivery-breakdown-type) acima descritas.
 
@@ -213,7 +212,7 @@ As métricas disponíveis são as mesmas que para o [Detalhamento por tipo de er
 
 A variável **[!UICONTROL Estatísticas de entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_5.png){align="center"}
+![](assets/reporting_email_5.png){zoom=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -241,7 +240,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O relatório do fornece in
 
 A variável **[!UICONTROL Índice de click-through e aberturas]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_6.png){align="center"}
+![](assets/reporting_email_6.png){zoom=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -266,7 +265,7 @@ A variável **[!UICONTROL Índice de click-through e aberturas]** A tabela exibe
 
 O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre os URLs mais clicados durante uma entrega.
 
-![](assets/reporting_email_7.png){align="center"}
+![](assets/reporting_email_7.png){zoom=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -291,7 +290,7 @@ O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores princi
 
 O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis sobre o comportamento do destinatário em cada link.
 
-![](assets/reporting_email_8.png){align="center"}
+![](assets/reporting_email_8.png){zoom=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -312,7 +311,7 @@ O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dad
 
 A variável **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.
 
-![](assets/reporting_email_9.png){align="center"}
+![](assets/reporting_email_9.png){zoom=&quot;yes&quot;}{align="center"}
 
 ## Atividades do usuário {#user-activities-email}
 
@@ -323,7 +322,7 @@ A variável **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfi
 
 A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalhamento de aberturas e cliques no formulário de um gráfico. Você pode escolher o período para direcionar os dados: último dia ou hora ou 30 minutos.
 
-![](assets/reporting_email_10.png){align="center"}
+![](assets/reporting_email_10.png){zoom=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -342,7 +341,7 @@ A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalh
 
 O gráfico **[!UICONTROL Estatísticas de rastreamento]** fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar os dados.
 
-![](assets/reporting_email_11.png){align="center"}
+![](assets/reporting_email_11.png){zoom=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -365,7 +364,7 @@ A variável **Detalhamento por dispositivo** Este relatório mostra o detalhamen
 
 Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe o número exato e a porcentagem de cada tipo de dispositivo.
 
-![](assets/reporting_email_13.png){align="center"}
+![](assets/reporting_email_13.png){zoom=&quot;yes&quot;}{align="center"}
 
 
 ### Detalhamento de aberturas por sistema operacional {#breakdown-opens-os}
@@ -379,7 +378,7 @@ A variável **Detalhamento por SO** Este relatório mostra o detalhamento de abe
 
 Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e sistemas operacionais móveis. O segundo exibe o número e a porcentagem exatos de cada sistema operacional.
 
-![](assets/reporting_email_13.1.png){align="center"}
+![](assets/reporting_email_13.1.png){zoom=&quot;yes&quot;}{align="center"}
 
 ### Detalhamento de aberturas por navegador {#breakdown-opens-browser}
 
@@ -392,7 +391,7 @@ A variável **Detalhamento por navegador** Esse relatório mostra o detalhamento
 
 Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e sistemas operacionais móveis. O segundo exibe o número e a porcentagem exatos de cada navegador.
 
-![](assets/reporting_email_13.2.png){align="center"}
+![](assets/reporting_email_13.2.png){zoom=&quot;yes&quot;}{align="center"}
 
 
 ## Hotclicks {#hotclicks}
@@ -404,4 +403,4 @@ Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas 
 
 Este relatório mostra o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques nos links, em cada link. Blocos de personalização, links de mirror pages, de ofertas e de cancelamento de inscrição são considerados no total de cliques acumulados, mas não são exibidos no relatório.
 
-![](assets/reporting11.png)
+![](assets/reporting11.png){zoom=&quot;yes&quot;}

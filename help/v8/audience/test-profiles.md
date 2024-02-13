@@ -4,10 +4,10 @@ description: Saiba como criar e gerenciar perfis de teste no Adobe Campaign
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-badge: label="Disponibilidade limitada"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 14%
 
 ---
@@ -33,17 +33,17 @@ As etapas para enviar mensagens de teste para seed addresses estão detalhadas e
 
 Para acessar a lista de perfis de teste, selecione **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** no menu esquerdo e clique na guia **[!UICONTROL Perfis de teste]** guia.
 
-![](assets/test-profile-list.png)
+![](assets/test-profile-list.png){zoom=&quot;yes&quot;}
 
 * É possível filtrar em um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png){zoom=&quot;yes&quot;}
 
 * É possível duplicar qualquer perfil de teste e atualizá-lo conforme necessário. As etapas para editar um perfil de teste são as mesmas de quando [criação de um perfil de teste](#create-test-profile).
 
 * Para excluir um perfil de teste, selecione a opção correspondente na **[!UICONTROL Mais ações]** menu.
 
-  ![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png){zoom=&quot;yes&quot;}
 
 * Para editar um perfil de teste, clique no item desejado na lista. As etapas para editar um perfil de teste são as mesmas de quando [criação de um perfil de teste](#create-test-profile).
 
@@ -51,7 +51,7 @@ Você também pode acessar perfis de teste por meio da **[!UICONTROL Explorer]**
 
 Ali é possível navegar, criar e gerenciar pastas ou subpastas, bem como verificar permissões associadas. [Saiba como criar pastas](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png)
+![](assets/test-profiles-folders.png){zoom=&quot;yes&quot;}
 
 No **[!UICONTROL Explorer]** visualização você também pode filtrar, excluir, editar e [criar](#create-test-profile) perfis de teste.
 
@@ -68,11 +68,11 @@ Para criar um perfil de teste, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Criar perfil de teste]** botão.
 
-   ![](assets/test-profile-create.png)
+   ![](assets/test-profile-create.png){zoom=&quot;yes&quot;}
 
 1. Preencha os detalhes do perfil de teste, conforme necessário. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png)
+   ![](assets/test-profile-details.png){zoom=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ Para criar um perfil de teste, siga as etapas abaixo.
 
 1. Por padrão, os perfis de teste são armazenados no **[!UICONTROL Seed addresses]** pasta. Você pode alterá-la navegando até o local desejado. [Saiba como trabalhar com pastas](../get-started/permissions.md#folders)
 
-   <!--![](assets/test-profile-folder.png)-->
+   <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
@@ -88,13 +88,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. No **[!UICONTROL Informações de contato]** insira o endereço de email e outros dados relevantes. O endereço de email é exibido entre colchetes após o rótulo do perfil de teste.
 
-   ![](assets/test-profile-address.png)
+   ![](assets/test-profile-address.png){zoom=&quot;yes&quot;}
 
 1. Se você selecionar a variável **[!UICONTROL Não entrar mais em contato (por qualquer canal)]** caixa de seleção, o perfil de teste está no arquivo de inclui na lista de bloqueios. Esse recipient não é mais direcionado em nenhum canal (email, SMS, etc.).
 
 1. No **[!UICONTROL Dados adicionais]** insira os dados de personalização usados para os deliveries criados nos workflows de gestão de dados, aos quais você deseja atribuir um valor específico. [Saiba mais sobre workflows](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png)
+   ![](assets/test-profile-additional-data.png){zoom=&quot;yes&quot;}
 
    Verifique se os dados adicionais do público-alvo foram definidos com um pseudônimo iniciado por &#39;@&#39; no **[!UICONTROL Enriquecimento]** atividade de workflow. Caso contrário, você não poderá usá-lo corretamente com seus seed addresses na atividade do delivery. [Saiba mais sobre a atividade de enriquecimento](../workflows/activities/enrichment.md)
 
@@ -103,6 +103,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 O perfil de teste que você acabou de criar está pronto para ser usado para enviar um teste. [Saiba mais](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

@@ -2,12 +2,11 @@
 audience: end-user
 title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
-badge: label="Disponibilidade limitada"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 45%
+source-wordcount: '514'
+ht-degree: 44%
 
 ---
 
@@ -31,7 +30,7 @@ A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua 
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre taxas de sucesso e erro e como seus visitantes se envolvem com mensagens SMS.
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -54,7 +53,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 A variável **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -73,7 +72,7 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 
 A variável **Estatísticas gerais** O relatório apresenta dados para as mensagens SMS enviadas. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -93,7 +92,7 @@ A variável **Estatísticas gerais** O relatório apresenta dados para as mensag
 
 A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoom=&quot;yes&quot;}
 
 ## Taxa de transferência de entrega {#delivery-throughput}
 
@@ -104,4 +103,4 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os motivos 
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoom=&quot;yes&quot;}

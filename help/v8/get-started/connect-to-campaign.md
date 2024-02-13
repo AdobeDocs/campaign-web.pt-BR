@@ -1,12 +1,11 @@
 ---
 title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 96%
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -26,11 +25,11 @@ Estas são as etapas básicas para fazer logon na Adobe Experience Cloud:
 
    Depois de fazer logon na Experience Cloud, você pode acessar rapidamente todas as soluções e aplicativos.
 
-   ![](assets/exc-home.png)
+   ![](assets/exc-home.png){zoom=&quot;yes&quot;}
 
 1. Verifique se você está na organização correta.
 
-   ![](assets/exc-orgs.png){width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoom=&quot;yes&quot;}{width="50%" align="left"}
 
    Saiba mais sobre as organizações da Adobe Experience Cloud [neste artigo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR){target="_blank"}.
 
@@ -41,11 +40,11 @@ Para acessar o ambiente do Campaign, selecione **Campaign** na seção **Acesso 
 
 Se já estiver conectado a outra solução da Adobe Experience Cloud, você também poderá acessar o ambiente do Campaign por meio do alternador de soluções, na parte superior direita da tela.
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoom=&quot;yes&quot;}
 
 Se você tiver acesso a vários ambientes, incluindo o Painel de controle do Campaign, clique no botão **Iniciar** da instância correta.
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoom=&quot;yes&quot;}
 
 Agora você está conectado ao Campaign. Saiba como começar a usar a interface [nesta página](user-interface.md).
 
@@ -60,7 +59,7 @@ Navegue na barra superior da interface para:
 * verificar as notificações do produto
 * editar o perfil da Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar para tema claro/escuro](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoom=&quot;yes&quot;}{width="50%" align="left"}
 
 ## Navegadores compatíveis {#browsers}
 

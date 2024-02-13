@@ -2,14 +2,13 @@
 audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
-badge: label="Disponibilidade limitada"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+exl-id: e64d9765-f602-4fee-9923-a3665130c63a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 24%
 
 ---
-
 
 # Introdução a relatórios globais {#global-report-gs}
 
@@ -29,15 +28,15 @@ Para acessar e gerenciar os relatórios globais, siga estas etapas:
 
 1. No menu esquerdo, selecione um relatório da lista e navegue pela guia para exibir dados de cada canal.
 
-   ![](assets/global_report_manage_3.png)
+   ![](assets/global_report_manage_3.png){zoom=&quot;yes&quot;}
 
 1. No painel, escolha uma **Início** e **[!UICONTROL Hora final]** para direcionar dados específicos.
 
-   ![](assets/global_report_manage_1.png)
+   ![](assets/global_report_manage_1.png){zoom=&quot;yes&quot;}
 
 1. No **[!UICONTROL Escolher pasta]** selecione se desejar direcionar deliveries ou campanha da pasta específica.
 
-   ![](assets/global_report_manage_2.png)
+   ![](assets/global_report_manage_2.png){zoom=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Adicionar regras]** para começar a criar consultas para filtrar melhor os dados de relatórios. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 

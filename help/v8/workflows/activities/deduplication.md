@@ -2,11 +2,10 @@
 audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
-badge: label="Disponibilidade limitada"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '595'
 ht-degree: 60%
 
 ---

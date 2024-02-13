@@ -2,12 +2,11 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -21,11 +20,11 @@ Nessa etapa da configuração, o diagrama é exibido com um ícone de início, r
 
 Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama de workflow. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar seu fluxo de trabalho direcionando um público-alvo, dividindo o caminho do fluxo de trabalho ou definindo um **Aguardar** atividade para atrasar a execução do workflow. Por outro lado, depois de uma **Criar público-alvo** você pode refinar seu público-alvo com atividades de direcionamento, enviar um delivery para o público-alvo com atividades de canal ou organizar o processo de fluxo de trabalho com atividades de controle de fluxo.
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoom=&quot;yes&quot;}
 
 Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido, permitindo configurar a atividade recém-adicionada com configurações específicas. Informações detalhadas sobre como configurar cada atividade estão disponíveis em [nesta seção](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoom=&quot;yes&quot;}
 
 Repita esse processo para adicionar quantas atividades desejar, dependendo das tarefas que deseja que seu fluxo de trabalho execute. Observe que você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no link **+** na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
 
@@ -45,13 +44,13 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 * Acessar o da atividade **Logs e tarefas**.
 * **Pausar/Retomar** a atividade. Quando o workflow é executado, ele é pausado na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoom=&quot;yes&quot;}{width="50%"}
 
 ## Exemplo {#example}
 
 Este é um exemplo de fluxo de trabalho criado para enviar um email a todos os clientes (exceto clientes do VIP) com um email interessados em máquinas de café.
 
-![](assets/workflow-example.png){zoom=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 Para isso, as atividades abaixo foram adicionadas:
 

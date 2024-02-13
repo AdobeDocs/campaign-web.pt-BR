@@ -2,12 +2,11 @@
 audience: end-user
 title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 22%
+source-wordcount: '902'
+ht-degree: 21%
 
 ---
 
@@ -55,7 +54,7 @@ Para criar um público-alvo, siga estas etapas:
 
    * O &quot;Novo público-alvo&quot; **[!UICONTROL Salvar público-alvo]** A atividade representa a etapa final no fluxo de trabalho, permitindo salvar os resultados como um novo público-alvo.
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoom=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Para criar um público-alvo, siga estas etapas:
    >
    >As atividades de canal não estão disponíveis para uso em fluxos de trabalho de público.
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoom=&quot;yes&quot;}
 
 1. Configure o **[!UICONTROL Salvar público-alvo]** atividade para especificar como você deseja salvar a população computada upstream no workflow. [Saiba como configurar uma atividade Salvar público](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Agora você pode usar esse público-alvo como o principal alvo de uma entrega. [
 
 O exemplo abaixo mostra um fluxo de trabalho de público-alvo configurado para direcionar clientes do sexo feminino que moram em Nova York e criar dois novos públicos-alvo, dependendo de sua compra mais recente (Yoga ou Running gear).
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoom=&quot;yes&quot;}
 
 1. A variável **[!UICONTROL Criar público-alvo]** A atividade segmenta todas as perfis femininas que vivem em Nova York.
 1. A variável **[!UICONTROL Enriquecimento]** A atividade de enriquece o público-alvo com informações da tabela Purchases para identificar o tipo de produto que os clientes compraram.
@@ -104,4 +103,4 @@ Por padrão, a nova execução de um fluxo de trabalho de público-alvo substitu
 
 Se preferir não substituir os resultados existentes do público, configure o **Salvar público-alvo** atividades para se alinhar aos seus requisitos. Por exemplo, você pode alterar a variável **Rótulo de público** para armazenar os novos resultados em um novo público ou adicionar os novos resultados ao conteúdo do público existente sem apagar os dados anteriores. [Saiba como configurar uma atividade Salvar público](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoom=&quot;yes&quot;}

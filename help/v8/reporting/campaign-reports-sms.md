@@ -2,12 +2,11 @@
 audience: end-user
 title: Relatórios de campanha para o canal SMS
 description: Entender os relatórios de campanha do canal SMS
-badge: label="Disponibilidade limitada"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +24,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de SMS. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
@@ -50,7 +49,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
@@ -75,7 +74,7 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery. As métricas estão detalhadas abaixo.
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de campanha por SMS.
 
@@ -101,7 +100,7 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 
 A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de campanha por SMS.
 

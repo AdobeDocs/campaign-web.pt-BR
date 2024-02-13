@@ -1,9 +1,8 @@
 ---
 title: Indicadores-chave de desempenho
 description: Saiba como entender os indicadores principais de desempenho
-badge: label="Disponibilidade limitada"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 79%
@@ -28,7 +27,7 @@ As métricas são calculadas para entregas enviadas nos 7 dias anteriores por pa
 
 É possível selecionar o canal a ser exibido. Por padrão, esses indicadores refletem as métricas do canal de email.
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoom=&quot;yes&quot;}
 
 ## Mensagem entregue {#ui-delivered-kpi}
 
@@ -104,12 +103,12 @@ A variável **Assinaturas** O indicador mostra os seguintes KPIs. Para cada cana
 >
 > Os KPIs de assinatura e cancelamento de assinatura variam de acordo com o tipo de serviço. Por exemplo, as assinaturas e unsubscriptions por email englobam todos os serviços relacionados a email, sejam eles resultantes de ações manuais ou formulários web. É importante distinguir essa abordagem da métrica de cancelamento de subscrição no nível do delivery, que rastreia os cliques no link de unsubscription em vez de usuários reais com assinatura cancelada.
 
-## Taxas de unsubscription {#ui-unsub-kpi}
+## Taxas de cancelamentos de assinatura {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="Unsubscriptions"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os unsubscriptions de um serviço e a porcentagem de unsubscriptions em comparação ao número total de mensagens entregues com sucesso."
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os cancelamentos de assinatura de um serviço e a porcentagem de cancelamentos de assinatura em comparação ao número total de mensagens entregues com sucesso."
 
 
 Os recipients devem poder se desvincular de emails e SMS por meio de um link de unsubscription dedicado no conteúdo do email ou respondendo PARAR a um SMS.

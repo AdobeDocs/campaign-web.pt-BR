@@ -2,14 +2,13 @@
 audience: end-user
 title: Exportar seus relatórios
 description: Saiba como exportar relatórios
-badge: label="Disponibilidade limitada"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
-
 
 # Exportar seus relatórios {#export-reports}
 
@@ -22,9 +21,8 @@ ht-degree: 29%
 
 1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Exportar como arquivo PDF]** ou **[!UICONTROL Exportar como arquivo CSV]**.
 
-   ![](assets/global_report_export.png)
+   ![](assets/global_report_export.png){zoom=&quot;yes&quot;}
 
 1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em **[!UICONTROL Salvar]**.
 
 Seu relatório agora está disponível para visualização ou compartilhamento em um arquivo PDF ou CSV.
-

@@ -2,12 +2,11 @@
 audience: end-user
 title: Introdução aos relatórios
 description: Saiba como acessar e gerenciar relatórios no Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 60%
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 

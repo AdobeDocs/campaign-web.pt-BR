@@ -1,12 +1,11 @@
 ---
 title: Medidas de proteção e limitações na interface da Web do Campaign
 description: Medidas de proteção e limitações na interface da Web do Campaign
-badge: label="Disponibilidade limitada"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 22%
+source-wordcount: '374'
+ht-degree: 20%
 
 ---
 
@@ -24,19 +23,19 @@ As atividades de fluxo de trabalho que ainda não são compatíveis com a interf
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 Quando um **Query** ou um **Enriquecimento** for configurada com dados adicionais no console, os dados de enriquecimento serão considerados no Campaign Web e transmitidos para a transição de saída, mas não poderão ser editados.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 No console, a atividade **Enriquecimento** pode executar a reconciliação e o enriquecimento. Se você tiver definido, no console do cliente, as configurações de reconciliação no **Enriquecimento** atividade, será exibido como um **Reconciliação** atividade na interface da Web do Campaign.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 ## Tela de fluxo de trabalho {#wkf-canvas}
 
@@ -44,10 +43,10 @@ Ao criar um novo workflow na interface da Web do Campaign, a tela oferece suport
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 O posicionamento dos nós é atualizado sempre que uma atividade é adicionada ou removida. Se você criar um fluxo de trabalho no console, modificá-lo usando a interface da Web do Campaign e reabri-lo no console, poderá notar algumas pequenas imperfeições de posicionamento. Isso não afeta os processos e as tarefas do fluxo de trabalho.
 
 | Fluxo de trabalho inicial | Alteração de posicionamento |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoom=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |

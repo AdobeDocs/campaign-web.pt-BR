@@ -2,12 +2,11 @@
 audience: end-user
 title: Criar uma entrega de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 45%
+source-wordcount: '506'
+ht-degree: 44%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 45%
 >id="acw_deliveries_sms_audience"
 >title="Defina o público-alvo do SMS"
 >abstract="Você pode criar um novo público-alvo ou selecionar um existente clicando em **Selecionar público-alvo**. Se necessário, adicione um grupo de controle para medir o impacto da sua entrega."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Configurar um grupo de controle"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Definir um grupo de controle"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
@@ -42,7 +41,7 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoom=&quot;yes&quot;}
 
 1. Insira um **[!UICONTROL Rótulo]** para o delivery e acesse o **[!UICONTROL Opções adicionais]** menu suspenso. Se o seu delivery for baseado em um schema estendido, **Opções personalizadas** campos estão disponíveis.
 
@@ -56,7 +55,7 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público já existente ou criar o seu próprio. [Saiba mais sobre públicos](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoom=&quot;yes&quot;}
 
    Saiba como selecionar um público existente no [esta página](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
 
 1. Clique em **[!UICONTROL Editar conteúdo]** para começar a projetar o conteúdo da mensagem SMS. [Saiba mais](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoom=&quot;yes&quot;}
 
    Nessa tela, também é possível [simular seu conteúdo](../preview-test/preview-test.md) e [configurar ofertas](../msg/offers.md).
 
@@ -78,4 +77,4 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
 
 1. Clique em **[!UICONTROL Configurações]** para acessar opções avançadas relacionadas ao seu template do delivery. [Saiba mais](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoom=&quot;yes&quot;}

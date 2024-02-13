@@ -2,12 +2,11 @@
 audience: end-user
 title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
-badge: label="Disponibilidade limitada"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 25%
+source-wordcount: '1595'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +25,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com o delivery de email. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_1.png)
+![](assets/campaign_report_email_1.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -51,7 +50,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_2.png)
+![](assets/campaign_report_email_2.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -72,7 +71,7 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 
 A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_3.png)
+![](assets/campaign_report_email_3.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -97,7 +96,7 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 
 A variável **[!UICONTROL Estatísticas de reação]** A tabela contém os dados disponíveis para a atividade do recipient para o seu delivery. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_4.png)
+![](assets/campaign_report_email_4.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -121,7 +120,7 @@ A variável **[!UICONTROL Estatísticas de reação]** A tabela contém os dados
 
 A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_5.png)
+![](assets/campaign_report_email_5.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -146,7 +145,7 @@ A variável **[!UICONTROL Detalhamento de erros por tipo]** A tabela e o gráfic
 
 Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre gestão de quarentena, consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -186,7 +185,7 @@ A variável **[!UICONTROL Detalhamento de erros por domínio]** A tabela e o gr�
 
 A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_7.png)
+![](assets/campaign_report_email_7.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -212,7 +211,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** As métricas do fornecem i
 
 A variável **[!UICONTROL Índice de abertura e click-through]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_8.png)
+![](assets/campaign_report_email_8.png){zoom=&quot;yes&quot;}
 
 +++ Saiba mais sobre Métricas de relatório de campanha de email.
 
@@ -237,7 +236,7 @@ A variável **[!UICONTROL Índice de abertura e click-through]** A tabela exibe 
 
 A variável **[!UICONTROL Fluxos de clique e URLs]** O relatório de fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre os URLs que foram mais clicados durante um delivery. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_9.png)
+![](assets/campaign_report_email_9.png){zoom=&quot;yes&quot;}
 
 +++ Saiba mais sobre Métricas de relatório de campanha de email.
 
@@ -260,7 +259,7 @@ A variável **[!UICONTROL Fluxos de clique e URLs]** O relatório de fornece ind
 
 A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por link. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_10.png)
+![](assets/campaign_report_email_10.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -279,7 +278,7 @@ A variável **[!UICONTROL Os 10 links mais visitados]** o gráfico e a tabela co
 
 A variável **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfico contém os dados disponíveis para o comportamento do recipient por link.
 
-![](assets/campaign_report_email_11.png)
+![](assets/campaign_report_email_11.png){zoom=&quot;yes&quot;}
 
 ## Atividades do usuário {#user-activities-email}
 
@@ -290,7 +289,7 @@ A variável **[!UICONTROL Detalhamento dos cliques ao longo do tempo]** o gráfi
 
 A variável **[!UICONTROL Atividades do usuário]** O relatório mostra o detalhamento de aberturas e cliques no formulário de um gráfico. As métricas para esse relatório são detalhadas abaixo.
 
-![](assets/campaign_report_email_user_activities.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){zoom=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 

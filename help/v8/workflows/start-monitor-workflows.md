@@ -2,16 +2,15 @@
 audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
-badge: label="Disponibilidade limitada"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '583'
 ht-degree: 4%
 
 ---
 
-# Iniciar e monitorar os workflows {#start-monitor}
+# Iniciar e monitorar fluxos de trabalho {#start-monitor}
 
 Depois de criar o fluxo de trabalho e projetar as tarefas a serem executadas na tela, é possível iniciá-lo e monitorar como ele está sendo executado.
 
@@ -23,7 +22,7 @@ Quando o fluxo de trabalho estiver em execução, cada atividade na tela será e
 
 Você pode acompanhar o progresso de perfis direcionados em tempo real usando um fluxo visual. Isso permite identificar rapidamente o status de cada atividade e o número de perfis em transição entre elas.
 
-![](assets/workflow-execution.png)
+![](assets/workflow-execution.png){zoom=&quot;yes&quot;}
 
 ## Transições de fluxo de trabalho {#transitions}
 
@@ -32,7 +31,7 @@ Nos workflows, os dados transportados de uma atividade para outra por meio de tr
 * Clique em **[!UICONTROL Visualizar esquema]** para exibir o schema da tabela de trabalho.
 * Clique em **[!UICONTROL Visualizar resultados]** para visualizar os dados transportados na transição selecionada.
 
-![](assets/transition.png)
+![](assets/transition.png){zoom=&quot;yes&quot;}
 
 ## Monitorar execução da atividade {#activities}
 
@@ -40,10 +39,10 @@ Os indicadores visuais no canto superior direito de cada caixa de atividade perm
 
 | Indicador visual | Descrição |
 |-----|------------|
-| ![](assets/activity-status-pending.png){width="70%"} | A atividade está sendo executada no momento. |
-| ![](assets/activity-status-orange.png){width="70%"} | A atividade requer sua atenção. Isso pode envolver a confirmação do envio de um delivery ou a tomada de uma ação necessária. |
-| ![](assets/activity-status-red.png){width="70%"} | A atividade encontrou um erro. Para resolver o problema, abra os logs do fluxo de trabalho para obter mais informações. |
-| ![](assets/activity-status-green.png){width="70%"} | A atividade foi executada com sucesso. |
+| ![](assets/activity-status-pending.png){zoom=&quot;yes&quot;}{width="70%"} | A atividade está sendo executada no momento. |
+| ![](assets/activity-status-orange.png){zoom=&quot;yes&quot;}{width="70%"} | A atividade requer sua atenção. Isso pode envolver a confirmação do envio de um delivery ou a tomada de uma ação necessária. |
+| ![](assets/activity-status-red.png){zoom=&quot;yes&quot;}{width="70%"} | A atividade encontrou um erro. Para resolver o problema, abra os logs do fluxo de trabalho para obter mais informações. |
+| ![](assets/activity-status-green.png){zoom=&quot;yes&quot;}{width="70%"} | A atividade foi executada com sucesso. |
 
 ## Monitorar logs e tarefas {#logs-tasks}
 
@@ -51,7 +50,7 @@ O monitoramento de logs e tarefas de fluxos de trabalho é uma etapa essencial p
 
 A variável **[!UICONTROL Logs e tarefas]** O menu fornece um histórico da execução do fluxo de trabalho, registrando todas as ações do usuário e encontrando erros. Esse histórico é salvo pela duração especificada no workflow [opções de execução](workflow-settings.md). Durante essa duração, todas as mensagens são salvas, mesmo após uma reinicialização do workflow. Se não quiser salvar as mensagens de uma execução anterior, clique no link **[!UICONTROL Purge history]** botão.
 
-![](assets/workflow-logs.png)
+![](assets/workflow-logs.png){zoom=&quot;yes&quot;}
 
 Dois tipos de informações estão disponíveis:
 

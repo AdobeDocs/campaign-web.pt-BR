@@ -2,12 +2,11 @@
 audience: end-user
 title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
-badge: label="Disponibilidade limitada"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 79%
+source-wordcount: '260'
+ht-degree: 77%
 
 ---
 
@@ -31,11 +30,11 @@ Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
    Além disso, ao clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]**, é possível incluir campos de personalização, blocos de conteúdo e conteúdo dinâmico na mensagem.
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoom=&quot;yes&quot;}
 
 1. Digite sua mensagem de texto no **[!UICONTROL Mensagem]** ou clique no botão **[!UICONTROL Abrir caixa de diálogo de personalização]** opção para definir o conteúdo e adicionar conteúdo dinâmico. [Saiba mais](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoom=&quot;yes&quot;}
 
 1. Por padrão, o rastreamento está habilitado para entregas. Você pode desabilitar essa opção na **[!UICONTROL seção Recursos opcionais]**.
 
