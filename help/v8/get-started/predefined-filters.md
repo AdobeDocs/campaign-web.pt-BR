@@ -2,10 +2,10 @@
 title: Trabalhar com filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos no Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 97%
+source-wordcount: '816'
+ht-degree: 79%
 
 ---
 
@@ -36,11 +36,6 @@ Filtros predefinidos são filtros personalizados que são criados e salvos para 
 Você pode usar filtros incorporados existentes para acessar um subconjunto específico dos seus dados ou criar seus próprios filtros predefinidos e salvá-los.
 
 ![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->Nessa versão do produto, ao construir regras, selecionar o público-alvo de uma entrega ou ao criar um público-alvo em um fluxo de trabalho, alguns filtros predefinidos não estão disponíveis na interface. Você ainda pode usá-los. [Saiba mais](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
 
 ## Criar um filtro predefinido {#create-predefined-filter}
 
@@ -109,20 +104,17 @@ Ao ser salvo como favorito, o filtro fica disponível a todos na seção **Filtr
 
 Filtros predefinidos estão disponíveis ao definir propriedades da regra. Para acessar filtros predefinidos, escolha a opção **Selecionar filtro personalizado** no menu suspenso do modelador de consulta.
 
-Você pode então acessar a lista completa de filtros predefinidos disponíveis para o contexto atual.
-
-Também é possível usar os atalhos de filtro disponíveis na seção **Filtros favoritos** do menu suspenso. Saiba mais sobre favoritos [nesta seção](#fav-filter).
+É possível acessar a lista completa de filtros predefinidos disponíveis para o contexto atual e usar os atalhos disponíveis no **Filtros favoritos** seção do menu suspenso. Saiba mais sobre favoritos [nesta seção](#fav-filter).
 
 Por exemplo, para criar um público-alvo a partir de um filtro predefinido, siga estas etapas:
 
-1. Navegue até a entrada **Públicos-alvo** no menu esquerdo.
-1. Clique em **Criar público-alvo**.
+1. Navegue até o **Públicos-alvo** no menu esquerdo e clique no botão **Criar público-alvo** no canto superior esquerdo da lista de públicos-alvo.
 1. Insira o nome do público-alvo e clique em **Criar público-alvo**.
-1. Selecione a atividade **Consulta** e, no painel direito, clique em **Criar público-alvo**.
+1. Selecione o **Query** atividade e, no painel direito, clique na guia **Criar público** botão.
 
    ![](assets/build-audience-from-filter.png){zoom=&quot;yes&quot;}
 
-1. Em **Selecionar ou salvar filtro**, escolha a opção **Selecionar filtro personalizado**.
+1. No **Selecionar ou salvar filtro** escolha o botão **Selecionar filtro personalizado** opção.
 
    ![](assets/build-audience-select-custom-filter.png){zoom=&quot;yes&quot;}
 
@@ -140,17 +132,17 @@ Por exemplo, para criar um público-alvo a partir de um filtro predefinido, siga
 
 ## Gerenciar filtros predefinidos {#manage-predefined-filter}
 
-Os filtros predefinidos estão agrupados na entrada dedicada do menu de navegação esquerdo.
+Todos os filtros predefinidos são agrupados na entrada dedicada do menu de navegação esquerdo.
 
 ![](assets/list-of-filters.png){zoom=&quot;yes&quot;}
 
-Nessa lista, é possível criar um novo filtro conforme detalhado acima e:
+Nessa lista, é possível criar um novo filtro conforme detalhado acima e executar as ações listadas abaixo:
 
-* editar um filtro existente e alterar suas regras e propriedades
-* duplicar um filtro predefinido
-* excluir um filtro predefinido
+* Edite um filtro existente, altere suas regras e propriedades.
+* Duplique um filtro predefinido.
+* Excluir um filtro predefinido.
 
-Você pode adicionar um filtro predefinido como favorito para obter acesso rápido ao criar públicos-alvo. Saiba mais [nesta seção](#fav-filter).
+Você também pode adicionar um filtro predefinido como um favorito para obter acesso rápido ao criar seus públicos. Saiba mais [nesta seção](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
