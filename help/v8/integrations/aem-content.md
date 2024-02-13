@@ -3,9 +3,9 @@ audience: end-user
 title: Gerenciar ativos com o Adobe Experience Manager as a Cloud Service
 description: Saiba como gerenciar conteúdo com o Adobe Experience Manager as a Cloud Service
 badge: label="Disponibilidade limitada"
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ A integração da interface da Web do Adobe Campaign com o Adobe Experience Mana
 
 1. Navegue até o [!DNL Adobe Experience Manager] instância do autor e clique em Experiência Adobe no canto superior esquerdo da página. Escolher **[!UICONTROL Sites]** no menu.
 
-1. Access **[!UICONTROL Campanhas > Nome da sua marca > Área principal > Email]**.
+1. Access **[!UICONTROL Campanhas > Nome da sua marca > Área principal > Nome da sua página]**.
 
 1. Clique em **[!UICONTROL Criar]** e selecione **[!UICONTROL Página]** no menu suspenso.
 
