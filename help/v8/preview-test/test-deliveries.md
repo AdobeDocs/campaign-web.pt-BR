@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar entregas de teste
 description: Saiba como definir e enviar deliveries de teste
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1178'
 ht-degree: 13%
 
 ---
@@ -42,9 +42,7 @@ Para começar a testar o conteúdo da mensagem:
 
    Dependendo do canal de mensagem, os deliveries de teste podem ser enviados para os seguintes tipos de recipients:
 
-   * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são recipients adicionais específicos do banco de dados. [Saiba mais](../audience/test-profiles.md)
-
-   * Para SMS e emails, você também pode usar o [substituição do público alvo principal](#substitution-profiles) que envia os deliveries de teste para um endereço de teste de email ou número de telefone e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
+   * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são recipients adicionais específicos do banco de dados. Você também pode usar a variável [substituição do público alvo principal](#substitution-profiles) que envia os deliveries de teste para um endereço de teste de email ou número de telefone e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
 
    * Para mensagens por push, é possível usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados na [!DNL Campaign] console. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -72,9 +70,9 @@ Para começar a testar o conteúdo da mensagem:
 >title="Incluir perfis de teste no público-alvo principal"
 >abstract="Habilite esta opção para também enviar a mensagem final para os destinatários da entrega de teste."
 
-Os perfis de teste são seed addresses, que são recipients adicionais no banco de dados. Eles podem ser criados a partir do **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
+Os perfis de teste são recipients adicionais no banco de dados. Eles são criados a partir da variável **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
 
-As etapas para enviar deliveries de teste para seed addresses estão detalhadas abaixo.
+As etapas para enviar deliveries de teste para perfis de teste estão detalhadas abaixo.
 
 1. A partir do conteúdo do seu delivery, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Teste]** botão.
 
@@ -82,17 +80,11 @@ As etapas para enviar deliveries de teste para seed addresses estão detalhadas 
 
    ![](assets/simulate-profile-mode.png){zoom=&quot;yes&quot;}
 
-   >[!NOTE]
-   >
-   >Os perfis de teste são criados no **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. Saiba como criá-los e gerenciá-los no [nesta seção](../audience/test-profiles.md#create-test-profiles).
-
 1. Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de teste. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
 
-1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
+1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa. Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoom=&quot;yes&quot;}
-
-   Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
 1. Para enviar também a mensagem final aos recipients do delivery de teste, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
 
@@ -105,7 +97,6 @@ As etapas para enviar deliveries de teste para seed addresses estão detalhadas 
 Use a substituição de perfil para enviar deliveries de teste para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
 
 Para substituir os dados do perfil do target principal, siga as etapas abaixo:
-
 
 1. A partir do conteúdo do seu delivery, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Teste]** botão.
 

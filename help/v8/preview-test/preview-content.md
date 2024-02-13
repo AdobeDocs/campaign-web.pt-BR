@@ -3,9 +3,9 @@ audience: end-user
 title: Visualizar conteúdo do delivery
 description: Saiba como pré-visualizar o conteúdo de delivery com a interface do usuário da Web do Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,7 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
    ![](assets/simulate-button.png){zoom=&quot;yes&quot;}
 
-1. Para selecionar os perfis que serão usados para visualizar seu conteúdo personalizado, use:
-
-   * **[!UICONTROL Adicionar perfil(s) de teste]** para pré-visualização de deliveries de email e SMS
-
-   * **[!UICONTROL Adicionar assinante(s)]** para visualizar notificações por push
+1. Selecione os perfis a serem usados para visualizar seu conteúdo. Para fazer isso, clique no link **[!UICONTROL Adicionar perfil(s) de teste]** (para email e SMS) ou o botão **[!UICONTROL Adicionar assinante(s)]** (para notificações por push).
 
 1. Você pode combinar perfis e perfis de teste para visualizar sua mensagem de email ou SMS.
 
@@ -37,11 +33,9 @@ Para pré-visualizar o conteúdo do delivery, siga as etapas abaixo.
 
    ![](assets/simulate-select-profiles.png){zoom=&quot;yes&quot;}
 
-1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa.
+1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa. Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. [Saiba como adicionar regras usando o modelador de consultas](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoom=&quot;yes&quot;}
-
-   Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. [Saiba como adicionar regras usando o modelador de consultas](../query/query-modeler-overview.md).
 
 1. Clique em **[!UICONTROL Selecionar]** para confirmar a seleção.
 

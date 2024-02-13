@@ -3,9 +3,9 @@ audience: end-user
 title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '198'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 6%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=pt-BR" text="Enviar entregas de teste"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testar páginas de destino"
 
-Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem.
+Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
 
-Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
-
-Para fazer isso, [!DNL Adobe Campaign] O permite:
+[!DNL Adobe Campaign Web user interface] O permite:
 
 * [Pré-visualização do conteúdo e da personalização da mensagem](preview-content.md)
 * [Enviar deliveries de teste](test-deliveries.md) (provas) para recipients ou assinantes específicos para teste e validação

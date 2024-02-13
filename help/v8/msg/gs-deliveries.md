@@ -5,12 +5,11 @@ description: Saiba como criar sua primeira entrega no Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Disponibilidade limitada"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 100%
+source-wordcount: '1195'
+ht-degree: 95%
 
 ---
 
@@ -35,12 +34,12 @@ Para criar uma entrega independente, siga estas etapas:
 
 1. Navegue até o menu **[!UICONTROL Entregas]** no painel de navegação esquerdo e clique no botão **[!UICONTROL Criar entrega]**.
 
-   ![](assets/create-a-delivery.png)
+   ![](assets/create-a-delivery.png){zoom=&quot;yes&quot;}
 
 1. Escolha um canal para a entrega. 
-1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. Saiba mais sobre públicos-alvo [nesta seção](../audience/about-recipients.md).
+1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. [Saiba mais sobre públicos](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){width="70%" align="left"}
+   ![](assets/select-audience.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
 
 1. Defina o conteúdo da mensagem. Saiba mais sobre canais de entrega e como definir um conteúdo de entrega nestas seções:
 
@@ -52,24 +51,24 @@ Para criar uma entrega independente, siga estas etapas:
 1. Clique no botão  **[!UICONTROL Revisar e enviar]** para verificar suas configurações.
 1. Use o botão **[!UICONTROL Simular conteúdo]** para testar a entrega e as configurações de personalização. Saiba mais simulação de mensagens [nesta seção](../preview-test/preview-test.md).
 1. Clique no botão **[!UICONTROL Preparar]** para calcular o público-alvo e gerar as mensagens. A etapa de preparação pode levar alguns minutos. Quando a preparação estiver concluída, as mensagens estarão prontas para envio. Em caso de erro, navegue até os **Logs** para verificar os alertas e avisos.
-1. Verifique os resultados e clique no botão **[!UICONTROL Enviar]** para iniciar o envio das mensagens.
+1. Verifique os resultados e clique no botão **[!UICONTROL Enviar]** botão para iniciar o envio de mensagens.
 1. Depois que as mensagens forem enviadas, navegue até a seção **Relatórios** para acessar as métricas principais. Saiba mais sobre relatórios de entrega [nesta seção](../reporting/delivery-reports.md).
 
 >[!TAB Criação de uma entrega em um fluxo de trabalho]
 
 Para criar uma entrega em um fluxo de trabalho, siga estas etapas:
 
-1. Crie um fluxo de trabalho ou abra um já existente. Saiba mais sobre fluxos de trabalho [nesta página](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Adicione e configure uma atividade **[!UICONTROL Criar público-alvo]**. Saiba mais sobre a atividade **[!UICONTROL Construir público-alvo]**[nesta seção](../workflows/activities/build-audience.md).
-1. Clique no ícone `+` e selecione uma atividade de entrega: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades do canal de entrega em um workflow e como definir um conteúdo de entrega nesta [seção](../workflows/activities/channels.md).
+1. Crie um fluxo de trabalho ou abra um já existente. [Saiba mais sobre fluxos de trabalho](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Adicionar e configurar um [**[!UICONTROL Criar público-alvo]**](../workflows/activities/build-audience.md) atividade.
+1. Clique no ícone `+` e selecione uma atividade de entrega: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades de canal de delivery em um workflow e como definir um conteúdo de delivery em [nesta seção](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png)
+   ![](assets/add-delivery-in-wf.png){zoom=&quot;yes&quot;}
 
 1. Inicie o workflow e verifique os logs.
 
 Também é possível adicionar entregas em uma campanha sem criar um workflow. Para fazer isso, navegue até a guia **[!UICONTROL Entregas]** da campanha e clique no botão **[!UICONTROL Criar entrega]**.
 
-![](assets/new-campaign-delivery.png)
+![](assets/new-campaign-delivery.png){zoom=&quot;yes&quot;}
 
 As etapas de configuração são semelhantes às das entregas independentes.
 
@@ -117,7 +116,7 @@ Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher
 
 Para agendar o envio de uma entrega, abra a entrega e navegue até a seção **[!UICONTROL Agendar]**. Use o botão de alternância **[!UICONTROL Habilitar agendamento]** para ativá-lo e defina a data e a hora desejada para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
 
-![](assets/schedule.png)
+![](assets/schedule.png){zoom=&quot;yes&quot;}
 
 Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Essa opção exige que você confirme o envio antes que a entrega seja enviada na data e hora programadas. Se precisar enviar a entrega automaticamente na data e hora programadas, desabilite essa opção.
 
