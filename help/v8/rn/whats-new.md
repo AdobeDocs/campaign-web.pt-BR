@@ -3,10 +3,10 @@ audience: end-user
 title: Novidades na interface da Web do Campaign
 description: Descubra o novo recurso que acompanha a interface do usuário da Web do Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 74%
+source-wordcount: '1263'
+ht-degree: 65%
 
 ---
 
@@ -80,30 +80,19 @@ Use a nova interface da Web do Campaign para:
 * Monitorar o envio e medir os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 
 
-## Atualizações de versão mais recentes {#latest-release}
 
-Os principais recursos que acompanham o lançamento da disponibilidade limitada do Campaign Web estão listados abaixo.
+**Atividades de workflow de campanha novas e reprojetadas**
 
-* **Mais atividades de fluxo de trabalho de campanha**
-
-  Maximize suas campanhas de marketing com um **conjunto ainda maior de atividades de fluxo de trabalho**. Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha.
-
-  As novas atividades que acompanham a versão mais recente de LA são: **Reconciliação**, **Carregar arquivo** e **Salvar público-alvo**.
-
-  Saiba mais [nesta seção](../workflows/gs-workflows.md).
+Maximize suas campanhas de marketing com um **conjunto ainda maior de atividades de fluxo de trabalho**. Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Desde a segmentação avançada até acionadores condicionais, nossas atividades adicionais de fluxo de trabalho capacitam você a fornecer mensagens direcionadas e a impulsionar um melhor desempenho da campanha. Saiba mais [nesta seção](../workflows/gs-workflows.md).
 
 
-* **Público-alvo com o modelador de consultas**
+**Público-alvo com o modelador de consultas**
 
-  O Adobe Campaign Web apresenta um **modelador de consultas eficiente e intuitivo** que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de consultas está disponível em todo contexto onde é preciso definir regras para filtrar dados.
+O Adobe Campaign Web apresenta um **modelador de consultas eficiente e intuitivo** que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Isso inclui o uso de expressões e operadores avançados. O modelador de query está disponível em cada contexto em que você precisa definir regras para filtrar dados. Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
-  Saiba mais [nesta seção](../query/query-modeler-overview.md).
+**Fácil criação e gerenciamento de perfis**
 
-* **Fácil criação e gerenciamento de perfis**
-
-  É possível usar a nova interface da Web do Campaign para **criar e atualizar destinatários** no banco de dados diretamente do menu Recipients. Um formulário simplificado de edição de perfil permite que você insira as informações e atributos de contato do recipient e atualize um recipient já existente, sem usar o console do cliente.
-
-  Saiba mais [nesta seção](../audience/about-recipients.md).
+É possível usar a nova interface da Web do Campaign para **criar e atualizar destinatários** no banco de dados diretamente do menu Recipients. Um formulário simplificado de edição de perfil permite inserir as informações de contato e os atributos do recipient, além de atualizar um recipient existente, sem usar o console do cliente. Saiba mais [nesta seção](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -120,30 +109,24 @@ Os principais recursos que acompanham o lançamento da disponibilidade limitada 
     Learn more in [this section](../email/generative-gs.md).
 -->
 
-* **Ajuda contextual de IA**
+**Ajuda contextual de IA**
 
-  Faça perguntas e encontre orientações diretamente na interface do produto. A nova **Ajuda contextual de IA** ajuda a aprender e aumentar seu conhecimento sobre os novos recursos do Campaign. Com base na documentação mais recente do produto, o assistente fornece a ajuda e orientações passo a passo necessárias instantaneamente, à medida que você cria seus casos de uso. Este recurso está atualmente disponível em versão Beta para um conjunto limitado de usuários.
+Faça perguntas e encontre orientações diretamente na interface do produto. A nova **Ajuda contextual de IA** ajuda a aprender e aumentar seu conhecimento sobre os novos recursos do Campaign. Com base na documentação mais recente do produto, o assistente fornece a ajuda e orientações passo a passo necessárias instantaneamente, à medida que você cria seus casos de uso. No momento, esse recurso está disponível na versão beta para um conjunto limitado de usuários. Saiba mais [nesta seção](../get-started/using-ai.md).
 
-  Saiba mais [nesta seção](../get-started/using-ai.md).
+**Filtros predefinidos**
 
-* **Filtros predefinidos**
+Introdução ao gerenciamento de filtros predefinidos. A interface da Web do Campaign oferece uma interface fácil de usar para **gerenciar e personalizar filtros predefinidos** para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro. Saiba mais [nesta seção](../get-started/predefined-filters.md).
 
-  Introdução ao gerenciamento de filtros predefinidos. A interface da Web do Campaign oferece uma interface fácil de usar para **gerenciar e personalizar filtros predefinidos** para atender às suas necessidades específicas. Crie uma vez e salve para uso futuro.
+**Conversor de HTML para design de email**
 
-  Saiba mais [nesta seção](../get-started/predefined-filters.md).
-
-* **Conversor de HTML para design de email**
-
-  Agora você pode **importar e converter qualquer conteúdo HTML** no editor de email do Campaign. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email, e você pode utilizar esse recursos de design avançados para atualizá-los e personalizá-los.
-
-  Saiba mais [nesta seção](../email/existing-content.md).
+Agora você pode **importar e converter qualquer conteúdo HTML** no editor de email do Campaign. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email: use seus poderosos recursos de design para atualizá-los e personalizá-los! Saiba mais [nesta seção](../email/existing-content.md).
 
 
-* **SMS com ofertas**
+**SMS com ofertas**
 
-  A nova interface da Web do Campaign permite **integrar ofertas com SMS** além de Email. Alcance o seu público-alvo em seus dispositivos móveis fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada da Web.
+A nova interface da Web do Campaign permite **integrar ofertas com SMS** além de Email. Alcance o seu público-alvo em seus dispositivos móveis fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada da Web.
 
-  Saiba mais [nesta seção](../msg/offers.md).
+Saiba mais [nesta seção](../msg/offers.md).
 
 ## Transição para a interface da Web do Campaign
 
