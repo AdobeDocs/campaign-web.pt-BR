@@ -2,9 +2,9 @@
 audience: end-user
 title: Gerenciar ativos com o Adobe Experience Manager as a Cloud Service
 description: Saiba como gerenciar conteúdo com o Adobe Experience Manager as a Cloud Service
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 3%
 
 ---
@@ -81,7 +81,7 @@ Quando o template de Experience Manager estiver disponível na Adobe Campaign We
 
    ![](assets/aem_8.png)
 
-1. Se forem feitas alterações nos modelos diretamente no Adobe Experience Manager, basta selecionar **[!UICONTROL Atualizar conteúdo AEM]** para ter a versão mais recente do modelo.
+1. Observe que o conteúdo não é sincronizado automaticamente. Se forem feitas alterações nos modelos diretamente no Adobe Experience Manager, basta selecionar **[!UICONTROL Atualizar conteúdo AEM]** para ter a versão mais recente do modelo.
 
 1. Para remover a vinculação entre o Experience Manager e o Campaign ou personalizar ainda mais seu modelo de Experience Manager no Designer de email, clique em **[!UICONTROL Desvincular conteúdo AEM]**.
 
