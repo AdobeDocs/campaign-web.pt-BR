@@ -3,10 +3,10 @@ audience: end-user
 title: Novidades na interface da Web do Campaign
 description: Descubra o novo recurso que acompanha a interface do usuário da Web do Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 65%
+source-wordcount: '1308'
+ht-degree: 62%
 
 ---
 
@@ -130,11 +130,13 @@ Saiba mais [nesta seção](../msg/offers.md).
 
 ## Transição para a interface da Web do Campaign
 
-Como usuário do Campaign, você ainda pode acessar o console do cliente para criar e gerenciar recursos e componentes do Campaign. Os dados e as configurações são sincronizados de um ambiente para outro. Saiba mais [nesta seção](../get-started/get-started.md#about-campaign-client-consoleac-client).
+Como usuário do Campaign, você ainda pode acessar o console do cliente para criar e gerenciar recursos e componentes do Campaign. Os dados e as configurações são sincronizados de um ambiente para outro. Saiba mais [nesta seção](../get-started/get-started.md#ac-client).
 
-Além disso, todos os dados e configurações já disponíveis no console do cliente estão visíveis na interface do usuário da Web do Campaign, a partir da navegação à esquerda do Explorer. Saiba mais sobre a visualização do Explorer [nesta seção](../get-started/user-interface.md#explorer-user-interface-explorer).
+Além disso, todos os dados e configurações já disponíveis no console do cliente estão visíveis na interface do usuário da Web do Campaign, a partir da navegação à esquerda do Explorer. Saiba mais sobre a visualização do Explorer [nesta seção](../get-started/user-interface.md#user-interface-explorer).
 
-Com a interface da Web do Campaign, a interface reflete as permissões do usuário. Saiba mais sobre permissões [nesta página](../get-started/permissions.md)
+Com a interface da Web do Campaign, a interface reflete as permissões do usuário. Saiba mais sobre permissões no [esta página](../get-started/permissions.md).
+
+Recursos compatíveis e não compatíveis e interoperabilidade entre a interface da Web do Campaign e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).
 
 ## Atualizações de terminologia {#terminology-updates}
 
@@ -156,4 +158,6 @@ As limitações abaixo se aplicam a esta versão:
 * Os KPIs do painel de entrega são atualizados a cada 5 minutos. - mas a preparação da Entrega é em tempo real.
 * As Notificações da Adobe Experience Cloud e a Ajuda unificada disponíveis na barra superior ainda não estão integradas.
 
-Saiba mais sobre recursos compatíveis/não compatíveis e interoperabilidade entre a interface da Web do Campaign e o console do cliente do Campaign, [nesta página](../get-started/capability-matrix.md).
+Ao trabalhar na interface do usuário da Web do Campaign com workflows criados ou modificados no console do cliente do Campaign, medidas de proteção e limitações específicas se aplicam. Eles estão listados [nesta seção](../get-started/guardrails.md).
+
+Saiba mais sobre os recursos compatíveis/não compatíveis e a interoperabilidade entre a interface da Web do Campaign e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).
