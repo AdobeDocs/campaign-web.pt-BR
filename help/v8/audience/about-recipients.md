@@ -1,10 +1,10 @@
 ---
 title: Introdução a perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 23%
+source-wordcount: '549'
+ht-degree: 22%
 
 ---
 
@@ -38,6 +38,8 @@ Além disso, **[!UICONTROL perfis de teste]**, identificados como &quot;perfis i
 
 Perfis e perfis de teste podem ser usados para testar seus deliveries antes que eles atinjam o público-alvo desejado. Ao fazer isso, você pode pré-visualizar o conteúdo e a personalização da mensagem, enviar provas de teste e validação, avaliar a renderização de email em várias plataformas e dispositivos e testar suas landing pages. [Saiba como visualizar e testar deliveries](../preview-test/preview-test.md)
 
+➡️ [Descubra este recurso no vídeo](#video)
+
 ## Acessar a lista de perfis {#access}
 
 Os perfis podem ser acessados e editados na Adobe Campaign Web a partir do **[!UICONTROL Gerenciamento de clientes]** > **Perfis** no painel de navegação esquerdo. Você também pode acessá-las no **[!UICONTROL Explorer]** exibir, no **[!UICONTROL Perfis e destinos]** > **[!UICONTROL Destinatários]** nó. Ali é possível navegar, criar e gerenciar pastas ou subpastas, bem como verificar permissões associadas. [Saiba como criar pastas](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ Os perfis podem ser acessados e editados na Adobe Campaign Web a partir do **[!U
 Para acessar os detalhes de um perfil, clique no nome na lista. Uma visualização detalhada do perfil é aberta, permitindo explorar seus atributos e os serviços aos quais ele se inscreveu. [Saiba como explorar os detalhes dos perfis](create-profile.md)
 
 Para excluir um perfil, selecione a opção correspondente na **[!UICONTROL Mais ações]** menu.
+
+## Vídeo explicativo {#video}
+
+Saiba como acessar, gerenciar e explorar perfis usando a interface da Web do Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
