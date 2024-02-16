@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -90,6 +90,12 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
+>[!TAB Integração do Adobe Experience Manager as a Cloud Service]
+
+A integração entre a Adobe Campaign Web Interface e o Adobe Experience Manager as a Cloud Service simplifica o gerenciamento de conteúdo de email. Agora é possível criar e editar o conteúdo de email diretamente no Adobe Experience Manager e, em seguida, importar facilmente os modelos concluídos para o Adobe Campaign para seus deliveries.
+
+[![imagem](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Fluxos de trabalho entre canais]
 
 Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha.
@@ -107,12 +113,6 @@ Crie novos públicos-alvo em uma tela de fluxo de trabalho intuitiva. Além de c
 O Designer de email do Campaign permite criar emails cativantes e personalizados por meio de uma interface intuitiva de arrastar e soltar. Caso esteja começando do zero, importando um conteúdo existente ou aproveitando modelos existentes, é possível criar e ajustar o conteúdo para cada email.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB Visão geral de perfis]
-
-Crie novos perfis e monitore-os com ferramentas e relatórios avançados. Acesse os atributos, as interações e os logs dos perfis. Use as opções de filtro para navegar na lista de perfis, editá-los e atualizá-los.
-
-[![imagem](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
