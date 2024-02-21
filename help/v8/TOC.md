@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Interface do usuário da Web do Adobe Campaign
+user-guide-title: Interface do Adobe Campaign Web
 user-guide-description: Documentação do produto da interface da Web do Adobe Campaign.
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
@@ -8,7 +8,7 @@ breadcrumb-title: Interface do usuário da Web do Campaign
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 

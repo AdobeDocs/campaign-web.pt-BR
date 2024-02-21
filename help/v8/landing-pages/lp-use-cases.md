@@ -10,16 +10,16 @@ keywords: página de aterrissagem, caso de uso
 source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
 source-wordcount: '1309'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Como usar uma landing page {#lp-use-cases}
+# Como usar uma página de destino {#lp-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
 >title="Copie o URL com cuidado"
->abstract="Para testar ou aproveitar totalmente a landing page, não é possível copiar e colar esse link diretamente em um navegador da Web ou em seus deliveries. Use o botão **Simular conteúdo** para testá-la e siga as etapas descritas na documentação para usar corretamente a landing page."
+>abstract="Para testar ou aproveitar totalmente sua página de destino, você não deve copiar e colar o link diretamente em um navegador da web ou em suas entregas. Em vez disso, use a função **Simular conteúdo** para testá-lo e siga as etapas descritas na documentação para usar corretamente a sua página de destino."
 
 Para usar adequadamente a landing page, você deve referenciá-la como um link em um delivery usando a opção dedicada.
 

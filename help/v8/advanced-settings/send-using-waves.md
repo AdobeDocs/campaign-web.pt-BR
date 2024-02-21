@@ -6,7 +6,7 @@ feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 32%
+ht-degree: 42%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="Dividir deliveries em vários lotes"
->abstract="Em vez de enviar grandes volumes de mensagens ao mesmo tempo, defina ondas para dividir os deliveries em vários lotes. Você pode configurar várias ondas do mesmo tamanho ou definir um calendário para as diferentes ondas a serem enviadas."
+>title="Divida as entregas em vários lotes"
+>abstract="Em vez de enviar grandes volumes de mensagens ao mesmo tempo, defina ondas para dividir as entregas em vários lotes. Você pode configurar várias ondas do mesmo tamanho ou definir um calendário para o envio de diferentes ondas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="Definir o tamanho de cada onda"
->abstract="É necessário inserir um tamanho para todas as ondas que você está adicionando. Insira um valor numérico (número de mensagens para cada onda) ou uma porcentagem (0-100%)."
+>title="Defina o tamanho de cada onda"
+>abstract="Você deve inserir um tamanho para todas as ondas que estiver adicionando. Insira um valor numérico (número de mensagens para cada onda) ou uma porcentagem (0-100%)."
 
 Para equilibrar a carga, você pode dividir deliveries de email em vários lotes. Configure o número de lotes e sua proporção com relação ao delivery inteiro, bem como o intervalo entre duas ondas.
 

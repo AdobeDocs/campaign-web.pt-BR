@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
 source-wordcount: '2417'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -125,7 +125,7 @@ No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Configurações da entrega"
->abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. Você pode alterar os modos de entrega e rotina, ativar o Email Cco, enviar usando ondas e também escolher o formato das mensagens de email enviadas. Essas opções são restritas apenas a usuários e usuárias especialistas."
+>abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. Você pode alterar os modos de entrega e rotina, ativar a cópia oculta (CCO) de email, enviar por meio de ondas, bem como escolher o formato das mensagens de email enviadas. Essas opções são restritas apenas a usuários especialistas."
 
 **[!UICONTROL Entrega]** parâmetros são configurações técnicas que se aplicam ao seu delivery.
 

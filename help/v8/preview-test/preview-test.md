@@ -6,7 +6,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Visualizar e testar o conteúdo"
->abstract="Depois que o conteúdo for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo."
+>abstract="Após definir o conteúdo, é possível usar perfis e perfis de teste para visualizá-lo e testá-lo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=pt-BR" text="Enviar entregas de teste"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testar páginas de destino"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=pt-BR#test-landing-page" text="Páginas de destino de teste"
 
 Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
 

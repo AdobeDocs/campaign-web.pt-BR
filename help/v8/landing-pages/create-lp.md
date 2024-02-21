@@ -5,7 +5,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 18%
+ht-degree: 28%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Criar e gerenciar landing pages"
->abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar casos de uso de aquisição, subscrição/unsubscription e inclui na lista de bloqueios, com base em modelos integrados."
+>abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de destino para direcionar usuários a páginas da web nas quais é possível gerenciar casos de uso de aquisição, assinaturas ou cancelamentos de assinaturas e listas de bloqueio, utilizando como base os modelos integrados."
 
 A interface do usuário da Web do Campaign permite criar, projetar e publicar páginas de aterrissagem. Depois de publicado, você pode inserir um link para o formulário em um delivery. Depois que os recipients clicam nesse link, eles são direcionados para a página de aterrissagem correspondente.
 
@@ -49,13 +49,13 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Definir o conteúdo de cada página"
->abstract="Ajuste o conteúdo de cada página que faz parte dessa página de aterrissagem, como o próprio formulário, a página de confirmação que é exibida ao enviar o formulário ou a página para a qual os usuários são direcionados caso ocorra um erro."
+>title="Defina o conteúdo de cada página"
+>abstract="Ajuste o conteúdo de cada página que faz parte desta página de destino, como o próprio formulário, a página de confirmação que é exibida ao enviar o formulário ou a página para a qual os usuários são direcionados em caso de erros."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Agendar a landing page"
->abstract="Você pode definir uma data inicial e uma data final para sua landing page. Quando a página atingir o fim do período de validade, o formulário não estará mais disponível. A variável **Expiração** é exibida."
+>abstract="Você pode definir uma data inicial e uma data final para sua landing page. Quando a página chegar ao final do período de validade, o formulário não estará mais disponível. A página **Expiração** será exibida em seu lugar."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -123,7 +123,7 @@ Para criar uma landing page, siga estas etapas:
      >
      >Se nenhuma data de início for definida, a landing page será ativada assim que for publicada.
 
-   * Quando a página atinge a data final, <!--the landing page is automatically unpublished and -->o formulário não está mais disponível. A variável **[!UICONTROL Expiração]** é exibida.
+   * Quando a página atinge a data final, <!--the landing page is automatically unpublished and -->o formulário não está mais disponível. A página **[!UICONTROL Expiração]** será exibida em seu lugar.
 
      >[!NOTE]
      >
@@ -187,7 +187,7 @@ Depois de publicado:
 
 >[!CAUTION]
 >
->Para testar ou aproveitar totalmente a landing page, não é possível copiar e colar esse link diretamente em um navegador da Web ou em seus deliveries. Use o botão [Simular conteúdo](#test-landing-page) para testá-la e siga as etapas descritas em [nesta seção](lp-use-cases.md) para fazer o uso correto da sua landing page.
+>Para testar ou aproveitar totalmente sua página de destino, você não deve copiar e colar o link diretamente em um navegador da web ou em suas entregas. Use o botão [Simular conteúdo](#test-landing-page) para testá-la e siga as etapas descritas em [nesta seção](lp-use-cases.md) para fazer o uso correto da sua landing page.
 
 ![](assets/lp-published.png){zoom=&quot;yes&quot;}
 
