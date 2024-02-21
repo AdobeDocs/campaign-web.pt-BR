@@ -3,9 +3,9 @@ audience: end-user
 title: Definir um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface da Web do Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 37%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 37%
 # Definir um grupo de controle {#control-group}
 
 Um grupo de controle é uma subpopulação excluída da entrega. Você pode definir um grupo de controle para evitar o envio de mensagens para uma parte do público-alvo e comparar o comportamento após o delivery com o público-alvo principal. Essa opção ajuda a medir o impacto da campanha.
+
+➡️ [Descubra este recurso no vídeo](create-audience.md#video)
 
 ## Habilitar grupo de controle{#add-a-control-group}
 
@@ -122,5 +124,3 @@ Os perfis incluídos no público ou que correspondem ao resultado do query são 
 Depois que o delivery for enviado, você poderá extrair os logs de envio para comparar o comportamento entre os perfis que não receberam a comunicação e o público-alvo efetivo. Você também pode usar os logs do delivery para criar um novo direcionamento.
 
 Para ver quais perfis foram removidos do público-alvo, verifique a **Logs de entrega**. Saiba mais [nesta seção](#check-control-group).
-
-
