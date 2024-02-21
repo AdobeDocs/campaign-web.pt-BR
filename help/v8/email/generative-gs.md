@@ -6,16 +6,19 @@ badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 32%
+source-wordcount: '483'
+ht-degree: 31%
 
 ---
 
 # Introdução ao Assistente de conteúdo {#generative-gs}
 
-
+>[!CONTEXTUALHELP]
+>id="acw_emagica_generate"
+>title="Botão Gerar"
+>abstract="O botão Generate permite criar várias variações de texto, email ou imagem com base no prompt original."
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

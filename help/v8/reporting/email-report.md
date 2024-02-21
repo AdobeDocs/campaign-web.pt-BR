@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 40%
+source-wordcount: '2329'
+ht-degree: 38%
 
 ---
 
@@ -30,12 +30,11 @@ A variável **Relatório de entrega de email** O oferece insights e dados abrang
 
 A variável **[!UICONTROL População de público alvo inicial]** O gráfico exibe dados relativos aos recipients. As métricas são calculadas durante a preparação do delivery e mostram: o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
 
-![](assets/reporting_email_1.png){zoom=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoom=&quot;yes&quot;}
 
 Passe o mouse sobre uma parte do gráfico para exibir o número exato.
 
-![](assets/reporting_email_1.1.png){zoom=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -48,16 +47,14 @@ Passe o mouse sobre uma parte do gráfico para exibir o número exato.
 
 ### Estatísticas de entrega {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Estatísticas de entrega"
 >abstract="O gráfico **Estatísticas de entrega** detalha o sucesso da entrega e os erros que ocorreram."
 
-
 A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o sucesso do seu delivery. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_2.png){zoom=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoom=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -147,7 +144,12 @@ A variável **[!UICONTROL Estatísticas de transmissão]** A tabela contém os d
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Detalhamento de erros por tipo"
->abstract="A tabela e o gráfico **Detalhamento de erros por tipo** contêm os dados disponíveis para cada tipo de erro encontrado: usuário desconhecido, caixa de entrada cheia, domínio inválido e muito mais."
+>abstract="A variável **Detalhamento de erros por tipo** O gráfico contém os dados disponíveis para cada tipo de erro encontrado: usuário desconhecido, caixa de correio cheia, domínio inválido e muito mais."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Detalhamento de erros por tipo"
+>abstract="A variável **Detalhamento de erros por tipo** A tabela fornece um detalhamento abrangente da ocorrência de cada tipo de erro."
 
 A variável **[!UICONTROL Detalhamento de erros por tipo]** a tabela e o gráfico contêm os dados disponíveis para o tipo de erro. As métricas estão detalhadas abaixo.
 
@@ -173,15 +175,17 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 
 +++
 
-
 ### Detalhamento de erros por domínio {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Detalhamento de erros por domínio"
->abstract="A tabela e o gráfico **Detalhamento de erros por domínio** exibem os dados disponíveis para cada tipo de erro encontrado, dependendo de cada domínio."
+>abstract="A variável **Detalhamento de erros por domínio** O gráfico exibe os dados disponíveis para cada tipo de erro encontrado, dependendo de cada domínio."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Detalhamento de erros por domínio"
+>abstract="A variável **Detalhamento de erros por domínio** A tabela fornece um detalhamento abrangente da ocorrência de cada erro, dependendo do domínio usado."
 
 A variável **[!UICONTROL Detalhamento de erros por domínio]** A tabela e o gráfico exibem os dados disponíveis para possíveis erros encontrados com cada domínio.
 
