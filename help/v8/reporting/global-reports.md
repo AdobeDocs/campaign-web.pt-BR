@@ -3,16 +3,18 @@ audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 24%
+source-wordcount: '244'
+ht-degree: 21%
 
 ---
 
 # Introdução a relatórios globais {#global-report-gs}
 
 Os **relatórios globais** funcionam como uma ferramenta eficiente, oferecendo um resumo geral consolidado das métricas de tráfego e engajamento para cada canal na instância do seu Campaign. Esses relatórios consistem em vários dispositivos, cada um oferecendo uma perspectiva distinta sobre sua campanha ou desempenho de entrega.
+
+Os indicadores principais de desempenho (KPIs) são atualizados a cada hora, garantindo insights atualizados. Por padrão, os dados são filtrados para cobrir os últimos 30 dias, oferecendo uma perspectiva atual e relevante sobre as campanhas e o desempenho dos deliveries.
 
 A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 
