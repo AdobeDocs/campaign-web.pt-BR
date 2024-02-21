@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 31%
+source-wordcount: '960'
+ht-degree: 30%
 
 ---
 
@@ -128,8 +128,13 @@ Agora você pode selecionar essas mensagens quando [criação de um serviço de 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Número total de assinantes"
+>title="Contagem de assinantes"
 >abstract="Clique em **Calcular** para obter o número total de assinantes deste serviço."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="Número total de assinantes"
+>abstract="O KPI (Indicador Chave de Desempenho) fornece uma visão abrangente da base de assinantes, mostrando a contagem total de indivíduos que assinaram esse serviço."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
