@@ -3,21 +3,26 @@ audience: end-user
 title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 28%
+source-wordcount: '1025'
+ht-degree: 30%
 
 ---
 
 
 # Definir as configurações do workflow {#workflow-settings}
 
-Ao orquestrar atividades de workflow na tela, você pode acessar configurações avançadas relacionadas ao workflow. Por exemplo, é possível definir um fuso horário específico para o workflow, gerenciar como o workflow deve se comportar em caso de erro ou gerenciar o atraso após o qual o histórico do workflow deve ser removido.
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="Propriedades do fluxo de trabalho"
+>abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a **Opções adicionais** para definir mais configurações, como o nome interno do workflow, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor, para que, se ocorrer um erro, os(as) operadores(as) sejam alertados(as)."
+
+Ao criar ou organizar atividades de workflow na tela, você pode acessar configurações avançadas relacionadas ao workflow. Por exemplo, é possível definir um fuso horário específico para o workflow, gerenciar como o workflow deve se comportar em caso de erro ou gerenciar o atraso após o qual o histórico do workflow deve ser removido.
 
 Essas configurações são pré-definidas no template selecionado ao criar o workflow, mas podem ser editadas conforme necessário para esse workflow específico.
 
-Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponível na barra de ações acima da tela do fluxo de trabalho.
 
 ![](assets/workflow-settings-button.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ Para fazer isso, clique no link **[!UICONTROL Configurações]** botão disponí
 >title="Propriedades do fluxo de trabalho"
 >abstract="Esta seção fornece propriedades genéricas de fluxo de trabalho que também podem ser acessadas ao criar o fluxo de trabalho. É possível escolher o modelo a ser usado para criar o fluxo de trabalho e especificar um rótulo. Expanda a seção Opções adicionais para definir configurações específicas, como a pasta de armazenamento do fluxo de trabalho ou o fuso horário."
 
-A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que também podem ser acessadas ao criar o workflow.
+A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que podem ser definidas ao criar um workflow. Para acessar as propriedades de um workflow existente, clique no link **[!UICONTROL Configurações]** botão disponível na barra de ações acima da tela do fluxo de trabalho.
+
 
 ![](assets/workflow-settings.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
 
