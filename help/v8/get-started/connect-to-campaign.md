@@ -3,9 +3,9 @@ title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ A Experience Cloud é a família integrada de aplicativos, produtos e serviços 
 
 ## Fazer logon na Adobe Experience Cloud {#sign-in-to-exc}
 
-Você só pode usar o Logon único (SSO) para se conectar ao Campaign. Normalmente, admins da Experience Cloud são responsáveis por conceder acesso a aplicativos e serviços. Siga as etapas no convite para a Experience Cloud enviado por email.
+Você também pode usar o logon único (SSO) para se conectar ao Campaign. Normalmente, admins da Experience Cloud são responsáveis por conceder acesso a aplicativos e serviços. Siga as etapas no convite para a Experience Cloud enviado por email.
 
 Estas são as etapas básicas para fazer logon na Adobe Experience Cloud:
 
@@ -25,11 +25,11 @@ Estas são as etapas básicas para fazer logon na Adobe Experience Cloud:
 
    Depois de fazer logon na Experience Cloud, você pode acessar rapidamente todas as soluções e aplicativos.
 
-   ![](assets/exc-home.png){zoom=&quot;yes&quot;}
+   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
 
 1. Verifique se você está na organização correta.
 
-   ![](assets/exc-orgs.png){zoom=&quot;yes&quot;}{width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
    Saiba mais sobre as organizações da Adobe Experience Cloud [neste artigo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR){target="_blank"}.
 
@@ -40,11 +40,11 @@ Para acessar o ambiente do Campaign, selecione **Campaign** na seção **Acesso 
 
 Se já estiver conectado a outra solução da Adobe Experience Cloud, você também poderá acessar o ambiente do Campaign por meio do alternador de soluções, na parte superior direita da tela.
 
-![](assets/solution-switcher.png){zoom=&quot;yes&quot;}
+![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
 Se você tiver acesso a vários ambientes, incluindo o Painel de controle do Campaign, clique no botão **Iniciar** da instância correta.
 
-![](assets/launch-campaign.png){zoom=&quot;yes&quot;}
+![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
 Agora você está conectado ao Campaign. Saiba como começar a usar a interface [nesta página](user-interface.md).
 
@@ -52,14 +52,14 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 
 Navegue na barra superior da interface para:
 
-* compartilhar feedback sobre a interface da Web do Campaign
+* compartilhar feedback sobre a interface do Campaign Web
 * alternar entre suas organizações
 * alternar entre as soluções e aplicativos da Adobe Experience Cloud
 * procurar ajuda sobre a [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}
 * verificar as notificações do produto
 * editar o perfil da Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar para tema claro/escuro](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){zoom=&quot;yes&quot;}{width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
 ## Navegadores compatíveis {#browsers}
 

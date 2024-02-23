@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Gerenciamento de permissões na interface da Web do Campaign
-description: Saiba mais sobre permissões na interface da Web do Campaign
+title: Gerenciamento de permissões na interface do Campaign Web
+description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -66,11 +66,11 @@ Para exibir as permissões de uma pasta, siga estas etapas:
 1. No menu de navegação esquerdo do **Explorer**, selecione uma pasta.
 1. Clique nos três pontos no canto superior direito e selecione **Permissões da pasta**.
 
-   ![](assets/permissions-view-menu.png){zoom=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Verifique os detalhes na tela, conforme abaixo:
 
-   ![](assets/permissions-view-screen.png){zoom=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    Um grupo ou operador(a) pode ter permissões de Leitura, Gravação e/ou Exclusão para dados armazenados na pasta selecionada.
 
@@ -95,8 +95,8 @@ Para criar uma pasta, siga estas etapas:
 1. Clique nos três pontos no canto superior direito e escolha **Criar nova subpasta**.
 1. Insira o nome da pasta e salve.
 
-   ![](assets/create-new-subfolder.png){zoom=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   A pasta é adicionada como uma subpasta da pasta atual. Navegue até essa nova pasta para criar componentes diretamente a partir dela. Você também pode criar um componente de qualquer pasta e salvá-lo nessa nova pasta, na **Opções adicionais** das propriedades, conforme mostrado abaixo para um delivery:
+   A pasta é adicionada como uma subpasta da pasta atual. Navegue até essa nova pasta para criar componentes diretamente a partir dela. Você também pode criar um componente em qualquer pasta e salvá-lo nessa nova pasta utilizando a seção **Opções adicionais** das propriedades, conforme o exemplo de entrega abaixo:
 
-   ![](assets/delivery-properties-folder.png){zoom=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

@@ -4,15 +4,15 @@ description: Insira suas perguntas nos popovers de ajuda do Campaign Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Ajuda contextual habilitada por IA {#using-ai}
 
-Obtenha respostas rápidas geradas por IA com base na documentação e no contexto atual do produto através do recurso de perguntas e respostas da Ajuda Contextual de IA, disponível nas caixas de ajuda contextual do produto.
+Obtenha respostas rápidas geradas por IA com base na documentação e no contexto atual do produto através do recurso de perguntas e respostas da ajuda contextual de IA, disponível nas caixas de ajuda contextual do produto.
 
 A **Ajuda contextual com IA generativa** integrada na ajuda contextual revoluciona a pesquisa de documentação e as respostas a perguntas práticas, verificando facilmente vastos repositórios de documentação e identificando instantaneamente as informações exatas de que você precisa.
 
@@ -23,11 +23,11 @@ Graças aos recursos da IA generativa do Campaign, esse componente transforma su
 
 >[!AVAILABILITY]
 >
->* A ajuda contextual alimentada por IA está disponível em sua versão Beta e está sujeita a alterações sem aviso prévio.
+>* A ajuda contextual baseada em IA está disponível em versão Beta e está sujeita a alterações sem aviso prévio.
 >
 >* Esse recurso só está disponível em **inglês**. Não há suporte para outros idiomas nesta versão. Como consequência, certifique-se de que [seu idioma preferencial](connect-to-campaign.md#language-pref) esteja definido como inglês antes de usar esse recurso.
 >
->* Por enquanto, a ajuda contextual habilitada por IA não está disponível no Designer de email do Campaign.
+>* No momento, a ajuda contextual baseada em IA não está disponível no Designer de email do Campaign.
 
 
 <!--
@@ -46,18 +46,18 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Perguntas sugeridas {#questions-ai}
 
-No campo de entrada, a Ajuda contextual fornecida pela IA do Adobe Campaign traz três perguntas sugeridas. Essas perguntas são geradas por IA e estão relacionadas à caixa de ajuda e ao contexto atual do produto. Selecione uma pergunta para obter a resposta.
+No campo de entrada, a ajuda contextual baseada em IA do Adobe Campaign oferece três sugestões de perguntas. Essas perguntas são geradas por IA e estão relacionadas à caixa de ajuda e ao contexto atual do produto. Selecione uma pergunta para obter a resposta.
 
-![Perguntas sugeridas da Ajuda contextual](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+![Perguntas sugeridas pela Ajuda contextual](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## Respostas {#answers-ai}
 
 A Ajuda contextual de IA do Adobe Campaign oferece assistência, mas você deve verificar os fatos. O recurso pode produzir informações incorretas e respostas imprecisas ou enganosas. Verifique a documentação do produto que está vinculada em todas as caixas de ajuda.
 
-Você pode copiar uma resposta para a área de transferência usando o **Copiar** ícone na parte inferior do popover ajuda.
+Você pode copiar uma resposta para a área de transferência usando o ícone **Copiar** na parte inferior do popover de ajuda.
 
-![Ajuda contextual - copiar uma resposta](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+![Ajuda contextual - Copiar uma resposta](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## Feedback {#feedback-ai}
