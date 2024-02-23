@@ -1,21 +1,21 @@
 ---
 audience: end-user
 user-guide-title: Interface do Adobe Campaign Web
-user-guide-description: Documentação do produto da interface da Web do Adobe Campaign.
+user-guide-description: Documentação do produto da interface do Adobe Campaign Web.
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
-breadcrumb-title: Interface do usuário da Web do Campaign
+breadcrumb-title: Interface do Campaign Web
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Documentação do Adobe Campaign Web {#v8}
 
-+ [Documentação da interface do usuário da Web do Adobe Campaign](campaign-web-home.md)
++ [Documentação da interface do Adobe Campaign Web](campaign-web-home.md)
 + [Novidades](rn/whats-new.md)
 + [Atualizações da documentação](rn/documentation-updates.md)
 + Introdução ao Adobe Campaign {#start}
@@ -25,7 +25,7 @@ ht-degree: 93%
    + [Procurar e filtrar listas](get-started/list-filters.md)
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)
    + [Acesso e permissões](get-started/permissions.md)
-   + [Console do cliente do Campaign e da Web](get-started/capability-matrix.md)
+   + [Console do cliente do Campaign e Campaign Web](get-started/capability-matrix.md)
    + [Ajuda contextual habilitada por IA](get-started/using-ai.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
@@ -91,8 +91,8 @@ ht-degree: 93%
    + [Crie e publique uma página de destino](landing-pages/create-lp.md)
    + [Crie o conteúdo da página de destino](landing-pages/lp-content.md)
    + [Trabalhe com modelos de páginas de destino](landing-pages/lp-templates.md)
-   + [Aprenda mais por meio de casos de uso](landing-pages/lp-use-cases.md)
-+ Perfis e públicos {#audiences}
+   + [Aprenda com casos de uso](landing-pages/lp-use-cases.md)
++ Perfis e públicos-alvo {#audiences}
    + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
    + Trabalho com perfis {#work-with-profiles}
@@ -168,5 +168,5 @@ ht-degree: 93%
       + [Relatório global de SMS](reporting/global-report-sms.md)
 + Integrações {#integrations}
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-   + [Gerenciar modelos com o Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
 
