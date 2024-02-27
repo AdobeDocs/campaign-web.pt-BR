@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
@@ -54,13 +54,13 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
->title="Arquivo de destino para a atividade Carregar arquivo"
->abstract="Arquivo de destino para a atividade Carregar arquivo"
+>title="Arquivo de destino da atividade Carregar arquivo"
+>abstract="Arquivo de destino da atividade Carregar arquivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
->title="Remapeamento de valor para a atividade Carregar Arquivo"
->abstract="Remapeamento de valor para a atividade Carregar Arquivo"
+>title="Remapeamento de valor da atividade Carregar arquivo"
+>abstract="Remapeamento de valor da atividade Carregar arquivo"
 
 
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.

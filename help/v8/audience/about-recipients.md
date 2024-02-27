@@ -4,7 +4,7 @@ description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
 source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfis"
->abstract="Um perfil é um registro direcionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível exibir os detalhes dos perfis, com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos dos perfis."
+>abstract="Um perfil é um registro que foi direcionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível exibir os detalhes dos perfis, com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos dos perfis."
 
 ## O que é um perfil? {#what}
 
@@ -50,7 +50,7 @@ Os perfis podem ser acessados e editados na Adobe Campaign Web a partir do **[!U
 
 É possível filtrar a variável **[!UICONTROL Perfis]** usando o campo de pesquisa ou os filtros disponíveis no **Mostrar filtros** botão. É possível restringir os resultados a um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png){zoom=&quot;yes&quot;}
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 Para acessar os detalhes de um perfil, clique no nome na lista. Uma visualização detalhada do perfil é aberta, permitindo explorar seus atributos e os serviços aos quais ele se inscreveu. [Saiba como explorar os detalhes dos perfis](create-profile.md)
 
