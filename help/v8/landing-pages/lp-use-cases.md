@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 5%
+source-wordcount: '1381'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 5%
 >title="Copie o URL com cuidado"
 >abstract="Para testar ou aproveitar totalmente sua página de destino, você não deve copiar e colar o link diretamente em um navegador da web ou em suas entregas. Em vez disso, use a função **Simular conteúdo** para testá-lo e siga as etapas descritas na documentação para usar corretamente a sua página de destino."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="Copie o URL com cuidado"
+>abstract="Ao criar uma landing page, quatro templates prontos para uso permitem implementar diferentes casos de uso: adicionar ou atualizar um perfil no banco de dados do Campaign, assinar um serviço para os clientes, cancelar a assinatura de um serviço ou recusar o uso."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Criar uma landing page"
+
 Para usar adequadamente a landing page, você deve referenciá-la como um link em um delivery usando a opção dedicada.
 
 >[!CAUTION]
 >
->Para aproveitar totalmente a landing page, não é possível copiar e colar o link exibido no painel do delivery publicado diretamente nos seus deliveries ou em uma página da Web.
+>Para aproveitar totalmente a landing page, não é possível copiar e colar o link exibido no painel do delivery publicado diretamente nos seus deliveries ou em uma página da Web. Saiba como fazer isso corretamente nesta seção.
 
 No [!DNL Adobe Campaign Web] inferface, quatro templates prontos para uso permitem implementar casos de uso diferentes. No entanto, as etapas principais permanecem as mesmas e são detalhadas abaixo.
 
@@ -33,13 +39,13 @@ No [!DNL Adobe Campaign Web] inferface, quatro templates prontos para uso permit
 
 1. Defina as propriedades e as configurações da landing page.
 
-   ![](assets/lp-uc-properties.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
 
 1. De acordo com seu caso, selecione o **[!UICONTROL Aquisição]**, **[!UICONTROL Inscrição]**, **[!UICONTROL Cancelar assinatura]** ou **[!UICONTROL ➡ Incluir na lista de bloqueios]** página.
 
 1. O conteúdo da página é exibido. Selecione a parte correspondente ao formulário de landing page.
 
-   ![](assets/lp-uc-form.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
 
 1. Edite o conteúdo de acordo com o template selecionado:
 
@@ -52,7 +58,7 @@ No [!DNL Adobe Campaign Web] inferface, quatro templates prontos para uso permit
 
 1. Edite o **[!UICONTROL Confirmação]** conforme necessário, bem como a **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** páginas. A variável **[!UICONTROL Confirmação]** será exibida aos recipients quando eles enviarem o formulário.
 
-   ![](assets/lp-uc-confirmation-page.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
 
 1. [Teste](create-lp.md#test-landing-page) e [publicar](create-lp.md#publish-landing-page) sua landing page.
 
@@ -60,7 +66,7 @@ No [!DNL Adobe Campaign Web] inferface, quatro templates prontos para uso permit
 
 1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como o **[!UICONTROL Tipo de link]** e escolha a landing page que você criou.
 
-   ![](assets/lp-uc-email-link.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -88,7 +94,7 @@ O primeiro template permite adicionar ou atualizar um perfil no banco de dados d
 
 1. Além disso, você pode adicionar uma caixa de seleção que convida os clientes a assinar o serviço de boletim informativo. [Saiba como criar um serviço](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
 
 1. Ajuste o conteúdo conforme necessário e salve as alterações.
 
@@ -98,13 +104,18 @@ O primeiro template permite adicionar ou atualizar um perfil no banco de dados d
 
 Depois que eles receberem o email, se os recipients clicarem no link para a landing page e enviarem o formulário, o perfil deles será adicionado ao banco de dados do Campaign ou atualizado com as informações fornecidas.
 
-![](assets/lp-uc-profile-updated.png){zoom=&quot;yes&quot;}
+![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
 
 Se optarem por receber seu boletim informativo, serão inscritos no serviço correspondente.
 
-![](assets/lp-uc-newsletter-subscriber.png){zoom=&quot;yes&quot;}
+![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## Assinatura de um serviço {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Definir a landing page da sua assinatura"
+>abstract="Uma página de assinatura permite que seus clientes assinem um serviço."
 
 Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar um serviço](../audience/manage-services.md) (como um boletim informativo ou um evento) por meio de uma landing page. Siga as etapas abaixo.
 
@@ -112,13 +123,13 @@ Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar
 
 1. Comece criando um template de confirmação para os usuários que assinam seu evento, para que você possa selecioná-lo facilmente ao criar o serviço. [Saiba mais](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
 
 1. Crie um serviço de assinatura, que armazenará os usuários registrados em seu evento. [Saiba como criar um serviço](../audience/manage-services.md)
 
 1. Selecione o template criado como o email de confirmação que os usuários receberão ao assinar.
 
-   ![](assets/lp-uc-subscription-service.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
 
 1. [Criar uma landing page](create-lp.md#create-landing-page) para permitir que seus destinatários se registrem no evento. Selecione o **[!UICONTROL Inscrição]** modelo.
 
@@ -128,7 +139,7 @@ Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar
 
 1. No **[!UICONTROL Assinaturas e serviços]** selecione o serviço criado para o evento. Deixe a **[!UICONTROL Inscrever-se se marcado]** opção ativada.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -158,11 +169,11 @@ Você pode permitir que seus clientes cancelem a assinatura de um serviço usand
 
 1. Você pode adicionar um **[!UICONTROL Caixa de seleção]** , selecione o serviço e selecione a **[!UICONTROL Cancelar inscrição se marcado]** opção.
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 
 1. Também é possível expandir a variável **[!UICONTROL Chamada para ação]** e selecione o **[!UICONTROL Atualizações adicionais]** opção. Selecione o serviço e marque a opção **[!UICONTROL Recusar]** opção.
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. Ajuste o conteúdo conforme necessário e salve as alterações.
 
@@ -186,7 +197,7 @@ Você pode configurar um **[!UICONTROL ➡ Incluir na lista de bloqueios]** pág
 
 1. Na lista suspensa correspondente, selecione **[!UICONTROL Canal (email)]** para permitir que seus recipients recusem apenas as comunicações por email. Também é possível selecionar **[!UICONTROL Por todos os canais]** para optá-los por todas as comunicações em todos os canais.
 
-   ![](assets/lp-uc-denylist.png){zoom=&quot;yes&quot;}
+   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
 
 1. Ajuste o conteúdo conforme necessário e salve as alterações.
 
@@ -200,7 +211,7 @@ Para verificar se a escolha do perfil correspondente foi atualizada, navegue at�
 
 Por exemplo, se você optou por atualizar a variável **[!UICONTROL Canal (email)]** na sua página de aterrissagem, a variável **[!UICONTROL Não contatar mais por e-mail]** será marcada.
 
-![](assets/lp-uc-denylist-profile.png){zoom=&quot;yes&quot;}
+![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 Este perfil não receberá comunicações por email da sua marca, a menos que faça a assinatura novamente.
 
