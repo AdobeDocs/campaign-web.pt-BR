@@ -4,7 +4,7 @@ title: Edição do conteúdo de email
 description: Saiba como começar a criar conteúdo usando o Designer de email na interface do Campaign Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
 
