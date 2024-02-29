@@ -2,9 +2,9 @@
 title: Medidas de proteção e limitações nos workflows da interface da Web do Campaign
 description: Medidas de proteção e limitações ao trabalhar com workflows na interface do usuário da Web do Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '374'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,10 @@ Observe que, embora esta página forneça infomações importantes sobre o uso d
 
 ## Atividades de fluxos de trabalho {#wkf-activities}
 
-As atividades de fluxo de trabalho que ainda não são compatíveis com o Campaign Web são somente leitura e exibidas como atividades incompatíveis. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc. As atividades de fluxo de trabalho que estão disponíveis no Campaign Web e no console do cliente podem ser editadas.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="Atividade não editável"
+>abstract="Quando uma atividade de **Consulta** ou **Enriquecimento** é configurada com dados adicionais no console, os dados de enriquecimento são levados em consideração no Campaign Web e transmitidos para a transição de saída, mas não podem ser editados."
 
 As atividades de fluxo de trabalho que ainda não são compatíveis com a interface do Campaign Web são somente leitura e exibidas como atividades incompatíveis. Você ainda pode executar o fluxo de trabalho, enviar mensagens, verificar os logs etc. As atividades de fluxo de trabalho que estão disponíveis na interface do Campaign Web e no console do cliente do Campaign podem ser editadas.
 

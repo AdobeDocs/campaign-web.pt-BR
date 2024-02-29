@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%
@@ -36,7 +36,6 @@ Essas atividades são específicas para direcionar, manipular e enriquecer dados
 * Use o [Desduplicação](deduplication.md) atividade para excluir duplicados no(s) resultado(s) das atividades de entrada.
 * Use o [Alterar dimensão](change-dimension.md) atividade para alterar o targeting dimension enquanto você constrói seu fluxo de trabalho.
 * Use o [Carregar arquivo](load-file.md) para trabalhar com perfis e dados armazenados em um arquivo externo.
-
 
 ## Atividades do canal {#channel}
 

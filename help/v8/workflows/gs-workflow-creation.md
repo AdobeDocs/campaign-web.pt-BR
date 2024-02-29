@@ -3,8 +3,8 @@ audience: end-user
 title: Princípios básicos da criação de fluxos de trabalho
 description: Conheça os princípios básicos dos fluxos de trabalho no Adobe Campaign Web
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -14,7 +14,6 @@ ht-degree: 100%
 # Princípios básicos da criação de fluxos de trabalho {#gs-workflow-creation}
 
 Com o Adobe Campaign Web, é possível criar workflows em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
-
 
 ## O que há dentro de um workflow? {#gs-workflow-inside}
 
@@ -44,7 +43,6 @@ As campanhas oferecem duas maneiras de criar um fluxo de trabalho:
 1. Os fluxos de trabalho podem ser criados diretamente em uma campanha, a partir da guia **Fluxo de trabalho** da campanha. Quando incluído em uma campanha, o fluxo de trabalho é executado em conjunto com todos os outros fluxos de trabalho da campanha e as métricas de relatório são agrupadas no nível da campanha.
 
    ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
-
 
 Estas são as principais etapas para criar fluxos de trabalho:
 

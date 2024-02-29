@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 40%
+source-wordcount: '376'
+ht-degree: 36%
 
 ---
 
@@ -62,6 +62,15 @@ ht-degree: 40%
 >title="Remapeamento de valor da atividade Carregar arquivo"
 >abstract="Remapeamento de valor da atividade Carregar arquivo"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Comando Carregar Arquivo"
+>abstract="Permitir comando arbitrário para pré-processamento é uma preocupação de segurança, desabilite a opção de segurança XtkSecurity_Disable_Preproc para forçar o uso de uma lista predefinida de comandos."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="Excluir arquivo após importação"
+>abstract="A confirmar"
 
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.
 

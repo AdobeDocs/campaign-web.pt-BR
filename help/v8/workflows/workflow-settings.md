@@ -3,7 +3,7 @@ audience: end-user
 title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 30%
@@ -12,7 +12,6 @@ ht-degree: 30%
 
 
 # Definir as configurações do workflow {#workflow-settings}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
@@ -23,8 +22,7 @@ Ao criar ou organizar atividades de workflow na tela, você pode acessar configu
 
 Essas configurações são pré-definidas no template selecionado ao criar o workflow, mas podem ser editadas conforme necessário para esse workflow específico.
 
-
-![](assets/workflow-settings-button.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Propriedades do fluxo de trabalho {#properties}
 
@@ -36,7 +34,7 @@ Essas configurações são pré-definidas no template selecionado ao criar o wor
 A variável **[!UICONTROL Propriedades]** fornece configurações genéricas que podem ser definidas ao criar um workflow. Para acessar as propriedades de um workflow existente, clique no link **[!UICONTROL Configurações]** botão disponível na barra de ações acima da tela do fluxo de trabalho.
 
 
-![](assets/workflow-settings.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 Essas propriedades são:

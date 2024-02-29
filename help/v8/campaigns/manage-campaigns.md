@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 41%
+source-wordcount: '719'
+ht-degree: 42%
 
 ---
 
@@ -45,6 +45,11 @@ Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de fi
 >id="acw_campaign_delivery_list"
 >title="Lista de entregas na campanha"
 >abstract="A guia **Entregas** lista todas as entregas vinculadas à campanha atual. Clique no nome de uma entrega para editar. Use o botão Criar entrega para adicionar uma nova entrega a esta campanha."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Lista de workflows em uma campanha"
+>abstract="Lista de workflows em uma campanha"
 
 No **Procurar** da lista da campanha, clique em um nome de campanha para exibir seus detalhes.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -17,18 +17,20 @@ ht-degree: 100%
 >title="Permissão necessária"
 >abstract="A administração precisa conceder a permissão para que você possa criar este objeto."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Este público-alvo é somente de leitura"
 >abstract="Você não tem permissões para editar este público-alvo. Se necessário, entre em contato com o administrador para obter acesso."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Este serviço é somente de leitura."
 >abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com o administrador para obter acesso."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Perfil somente leitura de destinatários"
+>abstract="Você não tem permissão para editar este perfil. Se necessário, entre em contato com o administrador para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
