@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 30%
+ht-degree: 35%
 
 ---
 
@@ -31,11 +31,11 @@ Para acessar os serviços de assinatura disponíveis para sua plataforma, siga a
 
 1. Navegue até o **[!UICONTROL Serviços de assinatura]** no painel de navegação esquerdo.
 
-   ![](assets/service-list.png){zoom=&quot;yes&quot;}
+   ![](assets/service-list.png){zoomable=&quot;yes&quot;}
 
 1. A lista de todos os serviços de assinatura existentes é exibida. Pesquise os serviços e filtre no canal, na pasta ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-   ![](assets/service-filters.png){zoom=&quot;yes&quot;}
+   ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
 
 1. Para editar um serviço existente, clique em seu respectivo nome.
 
@@ -57,13 +57,13 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
 1. Selecione o **[!UICONTROL Criar serviço de assinatura]** botão.
 
-   ![](assets/service-create-button.png){zoom=&quot;yes&quot;}
+   ![](assets/service-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Selecione um canal: **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]**.
 
 1. Nas propriedades do serviço, insira um rótulo e defina **[!UICONTROL Opções adicionais]** conforme desejado.
 
-   ![](assets/service-create-properties.png){zoom=&quot;yes&quot;}
+   ![](assets/service-create-properties.png){zoomable=&quot;yes&quot;}
 
 1. Por padrão, os serviços são armazenados no **[!UICONTROL Serviços e assinaturas]** pasta. Você pode alterá-la navegando até o local desejado. [Saiba como trabalhar com pastas](../get-started/permissions.md#folders)
 
@@ -73,11 +73,11 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
    * Nenhum destinatário pode assinar mais este serviço
    * Todos os assinantes deste serviço têm suas assinaturas canceladas automaticamente
 
-   ![](assets/service-create-validity-period.png){zoom=&quot;yes&quot;}
+   ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 1. Quando um usuário(a) assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados para essa mensagem de acordo com seu caso de uso. Esses templates devem ser configurados com o **[!UICONTROL Assinaturas]** target mapping. [Saiba mais](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png){zoom=&quot;yes&quot;}
+   ![](assets/service-create-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Salvar e revisar]**. O novo serviço é adicionado à variável **[!UICONTROL Serviços de assinatura]** lista.
 
@@ -106,7 +106,7 @@ Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a a
 
 1. Não selecione um público para esta entrega. Em vez disso, acesse o delivery **[!UICONTROL Configurações]**, vá para a [Público](../advanced-settings/delivery-settings.md#audience) e selecione a guia **[!UICONTROL Assinaturas]** target mapping da lista.
 
-   ![](assets/service-confirmation-template-mapping.png){zoom=&quot;yes&quot;}
+   ![](assets/service-confirmation-template-mapping.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a a
 
 1. Edite o conteúdo do template do delivery, salve-o e feche-o.
 
-   ![](assets/service-confirmation-template.png){zoom=&quot;yes&quot;}
+   ![](assets/service-confirmation-template.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -124,7 +124,7 @@ Para enviar mensagens de confirmação aos usuários que assinam ou cancelam a a
 
 Agora você pode selecionar essas mensagens quando [criação de um serviço de assinatura](#create-service). Os usuários que assinarem ou cancelarem a assinatura desse serviço receberão as mensagens de confirmação selecionadas.
 
-## Monitorar serviços de assinatura {#logs-and-reports}
+## Monitorar seus serviços de assinatura {#logs-and-reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
@@ -134,7 +134,7 @@ Agora você pode selecionar essas mensagens quando [criação de um serviço de 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
 >title="Número total de assinantes"
->abstract="O KPI (Indicador Chave de Desempenho) fornece uma visão abrangente da base de assinantes, mostrando a contagem total de indivíduos que assinaram esse serviço."
+>abstract="O Indicador principal de desempenho (KPI) fornece uma visão abrangente da base de assinantes, mostrando a contagem total de indivíduos que assinaram esse serviço."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
@@ -150,13 +150,13 @@ Para medir a eficácia de seus serviços de assinatura para canais de SMS e emai
 
 1. Selecione um serviço existente na **[!UICONTROL Serviços de assinatura]** lista. Clique em **[!UICONTROL Calcular]** o obtém o número total de assinantes.
 
-   ![](assets/service-logs-subscribers-count.png){zoom=&quot;yes&quot;}
+   ![](assets/service-logs-subscribers-count.png){zoomable=&quot;yes&quot;}
 
 1. No painel de serviço, selecione **[!UICONTROL Logs]** para exibir a lista de assinantes deste serviço.
 
    É possível verificar o número total de assinantes, o nome e o endereço de cada recipient e quando eles assinaram ou cancelaram a assinatura. Também é possível filtrá-los.
 
-   ![](assets/service-logs.png){zoom=&quot;yes&quot;}
+   ![](assets/service-logs.png){zoomable=&quot;yes&quot;}
 
 1. No painel de serviço, selecione **[!UICONTROL Relatórios]**. Verifique os seguintes indicadores:
 
@@ -164,7 +164,7 @@ Para medir a eficácia de seus serviços de assinatura para canais de SMS e emai
 
    * É possível exibir o número de subscrições e unsubscriptions durante um período selecionado. Use a lista suspensa para alterar o intervalo de tempo.
 
-     ![](assets/service-reports.png){zoom=&quot;yes&quot;}
+     ![](assets/service-reports.png){zoomable=&quot;yes&quot;}
 
    * A variável **[!UICONTROL Evolução geral das assinaturas]** o gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução dos números e a porcentagem de fidelidade.<!--what is Registered?-->
 

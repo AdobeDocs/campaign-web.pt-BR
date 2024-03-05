@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Propriedades do fluxo de trabalho"
->abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a **Opções adicionais** para definir mais configurações, como o nome interno do workflow, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor, para que, se ocorrer um erro, os(as) operadores(as) sejam alertados(as)."
+>abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a seção **Opções adicionais** para definir mais configurações, como o nome interno do fluxo de trabalho, sua pasta, fuso horário e grupo de supervisores. É altamente recomendável selecionar um grupo de supervisores, para que, se ocorrer um erro, os operadores sejam alertados."
 
 Ao criar ou organizar atividades de workflow na tela, você pode acessar configurações avançadas relacionadas ao workflow. Por exemplo, é possível definir um fuso horário específico para o workflow, gerenciar como o workflow deve se comportar em caso de erro ou gerenciar o atraso após o qual o histórico do workflow deve ser removido.
 

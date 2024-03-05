@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
@@ -64,8 +64,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
->title="Comando Carregar Arquivo"
->abstract="Permitir comando arbitrário para pré-processamento é uma preocupação de segurança, desabilite a opção de segurança XtkSecurity_Disable_Preproc para forçar o uso de uma lista predefinida de comandos."
+>title="Comando Carregar arquivo"
+>abstract="Permitir comandos arbitrários para pré-processamento é uma vulnerabilidade de segurança. Desabilite a opção de segurança XtkSecurity_Disable_Preproc para forçar o uso de uma lista predefinida de comandos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
