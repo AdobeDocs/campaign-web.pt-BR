@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar uma entrega de SMS
 description: Saiba como enviar SMS com o Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 13%
+source-wordcount: '428'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ As principais etapas para visualizar seu delivery de SMS são as seguintes. Mais
 
 1. Na página de conteúdo do delivery, use **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado.
 
-   ![](assets/sms_send_1.png){zoom=&quot;yes&quot;}
+   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Adicionar perfil(s) de teste]** para selecionar um ou vários perfis de teste ou perfis.
 
@@ -36,7 +36,7 @@ As principais etapas para visualizar seu delivery de SMS são as seguintes. Mais
 
 1. No painel direito, você encontrará uma pré-visualização do delivery de SMS, em que os elementos personalizados são substituídos dinamicamente pelos dados do perfil selecionado.
 
-   ![](assets/sms_send_3.png){zoom=&quot;yes&quot;}
+   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
 
 Agora é possível revisar e enviar uma mensagem de SMS para o público-alvo.
 
@@ -44,17 +44,17 @@ Agora é possível revisar e enviar uma mensagem de SMS para o público-alvo.
 
 Com **Adobe Campaign** Além disso, você pode testar uma mensagem antes de enviá-la para o público principal, o que é uma etapa essencial na validação da campanha de email e na identificação de possíveis problemas.
 
-O envio de SMS de teste é uma etapa importante para garantir a qualidade e a eficácia do delivery. Os recipients de teste podem revisar vários elementos, como links, links para opção de não participação e imagens, bem como identificar erros na renderização, conteúdo, configurações de personalização e configuração de SMS. Esse processo ajuda a avaliar e otimizar completamente o SMS antes de alcançar seu público principal.
+O envio de provas é uma etapa importante para garantir a qualidade e a eficácia do delivery. Os recipients de prova podem revisar vários elementos, como links, links para opção de não participação e imagens, bem como identificar erros na renderização, conteúdo, configurações de personalização e configuração de SMS. Esse processo ajuda a avaliar e otimizar completamente o SMS antes de alcançar seu público principal.
 
-![](../assets/do-not-localize/book.png) Saiba como enviar SMS de teste no [nesta seção](../preview-test/test-deliveries.md).
+![](../assets/do-not-localize/book.png) Saiba como enviar provas no [nesta seção](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png){zoom=&quot;yes&quot;}
+![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Enviar a entrega de SMS {#send-sms}
 
 1. Após personalizar o conteúdo de SMS, clique em **[!UICONTROL Revisar e enviar]** do seu **[!UICONTROL Entrega]** página.
 
-   ![](assets/sms_send_4.png){zoom=&quot;yes&quot;}
+   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Preparar]** acompanhamento dos progressos e das estatísticas fornecidos.
 
@@ -62,7 +62,7 @@ O envio de SMS de teste é uma etapa importante para garantir a qualidade e a ef
 
 1. Envie as mensagens clicando em **[!UICONTROL Enviar]** para continuar com o processo final de envio.
 
-   ![](assets/sms_send_5.png){zoom=&quot;yes&quot;}
+   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
 
    Se o delivery de SMS tiver sido agendado, clique no link **[!UICONTROL Enviar conforme agendado]** botão. Saiba mais sobre a programação de delivery em [nesta seção](../msg/gs-messages.md#schedule-the-delivery-sending).
 

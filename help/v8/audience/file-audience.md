@@ -3,10 +3,10 @@ audience: end-user
 title: Direcionar destinatários a partir de um arquivo
 description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 40%
+source-wordcount: '620'
+ht-degree: 42%
 
 ---
 
@@ -49,7 +49,7 @@ Para direcionar perfis de um arquivo local diretamente da interface de email, si
 1. Abrir um delivery de email existente, ou [criar um novo delivery de email](../email/create-email.md).
 1. Na janela de criação da entrega de email, na seção **Público-alvo**, clique no botão **Selecionar público-alvo** e escolha a opção **Selecionar do arquivo**.
 
-   ![](assets/select-from-file.png){zoom=&quot;yes&quot;}
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. Selecione o arquivo local a ser usado. O formato deve estar alinhado com o [arquivo de amostra](#sample-file).
 1. Visualize e verifique como os dados estão mapeados na seção central da tela.
@@ -59,7 +59,7 @@ Para direcionar perfis de um arquivo local diretamente da interface de email, si
 
 Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada na [Editor de personalização](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png){zoom=&quot;yes&quot;}
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## Arquivo de amostra {#sample-file}
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Pré-visualizar e testar o email {#test}
 
-O Campaign Web permite visualizar e enviar emails de teste ao usar um público-alvo carregado de um arquivo. Para fazer isso, siga estes passos:
+O Campaign Web permite visualizar e enviar provas ao usar um público-alvo carregado de um arquivo. Para fazer isso, siga estes passos:
 
 1. Clique em **[!UICONTROL Botão Simular conteúdo]** na tela de edição de conteúdo do delivery e clique no link **[!UICONTROL Adicionar perfil(s) de teste]** botão.
 
@@ -92,9 +92,9 @@ O Campaign Web permite visualizar e enviar emails de teste ao usar um público-a
 
 1. Uma pré-visualização do conteúdo do delivery é exibida no painel direito da tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo. [Saiba mais sobre pré-visualização de conteúdo de delivery](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoom=&quot;yes&quot;}
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Para enviar emails de teste, clique no link **[!UICONTROL Teste]** botão.
+1. Para enviar provas, clique no link **[!UICONTROL Enviar prova]** botão.
 
 1. Clique em **[!UICONTROL Carregar perfis de prova]** e selecione o arquivo .txt ou .csv que contém os recipients de prova.
 
@@ -102,8 +102,8 @@ O Campaign Web permite visualizar e enviar emails de teste ao usar um público-a
    >
    >Verifique se o formato do arquivo corresponde ao usado para fazer upload do seu público-alvo. Quaisquer erros de formato exibirão um alerta.
 
-1. Quando os recipients da prova forem adicionados e você estiver pronto para enviar as provas, clique no link **[!UICONTROL Enviar email de teste]** e confirme o envio.
+1. Quando os recipients da prova forem adicionados e você estiver pronto para enviar as provas, clique no link **[!UICONTROL Enviar prova]** e confirme o envio.
 
-   ![](assets/file-upload-test.png){zoom=&quot;yes&quot;}
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. É possível monitorar o envio do email de teste usando o **[!UICONTROL Exibir log de email de teste]** a qualquer momento. [Saiba mais sobre o monitoramento de emails de teste](../preview-test/test-deliveries.md#access-test-deliveries)
+1. É possível monitorar o envio da prova usando o **[!UICONTROL Exibir provas]** a qualquer momento. [Saiba mais sobre o monitoramento de provas](../preview-test/test-deliveries.md#access-test-deliveries)

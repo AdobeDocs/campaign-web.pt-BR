@@ -3,10 +3,10 @@ audience: end-user
 title: Testar a renderização do email
 description: Saiba como testar a renderização de email na interface da Web do Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Para fazer isso, você pode aproveitar os seus **Litmus** conta em [!DNL Adobe C
 
 >[!CAUTION]
 >
->Usar a renderização de email no Campaign envia um email de teste para um sistema de terceiros. Conectando sua conta Litmus ao [!DNL Campaign], você reconhece que o Adobe não é responsável por nenhum dado que possa ser enviado a esse terceiro. A política de retenção de dados Litmus se aplica a esses emails, incluindo dados de personalização que podem ser incluídos nessas mensagens de teste. Para acessar ou excluir esses dados, entre em contato diretamente com a Litmus.
+>Usar a renderização de email no Campaign envia uma prova para um sistema de terceiros. Conectando sua conta Litmus ao [!DNL Campaign], você reconhece que o Adobe não é responsável por nenhum dado que possa ser enviado a esse terceiro. A política de retenção de dados Litmus se aplica a esses emails, incluindo dados de personalização que podem ser incluídos nessas provas. Para acessar ou excluir esses dados, entre em contato diretamente com a Litmus.
 
 Para acessar os recursos de renderização de email, é necessário:
 
@@ -32,21 +32,21 @@ Em seguida, siga as etapas abaixo.
 
 1. Selecione o **[!UICONTROL Renderizar email]** botão.
 
-   ![](assets/simulate-rendering-button.png){zoom=&quot;yes&quot;}
+   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **Conectar sua conta Litmus** na seção superior direita.
 
-   ![](assets/simulate-rendering-litmus.png){zoom=&quot;yes&quot;}
+   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
 
 1. Insira suas credenciais e faça logon.
 
-   ![](assets/simulate-rendering-credentials.png){zoom=&quot;yes&quot;}
+   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **Executar teste** botão para gerar visualizações de email.
 
 1. Verifique seu conteúdo de email em clientes populares de desktop, móveis e baseados na Web.
 
-   ![](assets/simulate-rendering-previews.png){zoom=&quot;yes&quot;}
+   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.

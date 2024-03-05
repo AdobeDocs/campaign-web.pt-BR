@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -48,24 +48,24 @@ Um modelo pode incluir:
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Campaign Management]** > **[!UICONTROL Entregas]** no menu esquerdo e navegue até a janela **Modelos** guia.
 
-![](assets/templates-tab.png){zoom=&quot;yes&quot;}
+![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
 Todos os modelos que foram [criado](#create-a-delivery-template) no ambiente atual são exibidas.
 
 É possível filtrar modelos de conteúdo em canais e pastas. Você também pode definir filtros avançados criando uma regra usando atributos de delivery. [Saiba mais sobre o modelador de consultas](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png){zoom=&quot;yes&quot;}
+![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
 
 Para editar um modelo, clique no item desejado na lista. A partir daí:
 
 * Você pode modificar o conteúdo, as propriedades, o público-alvo e qualquer oferta anexada a ele.
 * Você também pode testar seu template. [Saiba mais](#test-template)
 
-![](assets/templates-edition.png){zoom=&quot;yes&quot;}
+![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
 Para excluir ou [duplicado](#copy-an-existing-template) um modelo, selecione a ação correspondente no campo **[!UICONTROL Mais ações]** menu, no menu **[!UICONTROL Modelos]** ou em uma tela de edição de modelo.
 
-![](assets/templates-more-actions.png){zoom=&quot;yes&quot;}
+![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -96,15 +96,15 @@ Para duplicar um modelo de entrega, siga as etapas abaixo:
 
 1. Confirme a duplicação.
 
-   ![](assets/templates-duplicate-confirm.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
 
 1. O novo painel de modelo é aberto na tela central. Edite as configurações do template conforme necessário.
 
-   ![](assets/templates-duplicated-item.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Revisão]** botão para salvar e revisar o modelo. Você ainda pode editar todas as configurações, excluí-las e duplicá-las.
 
-   ![](assets/templates-review-screen.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
 
 1. Teste a renderização do template, se necessário. [Saiba mais](#test-template)
 
@@ -119,7 +119,7 @@ Para salvar um delivery como template, siga as etapas abaixo:
 1. Navegue até o **[!UICONTROL Gerenciamento de campanhas]** > **[!UICONTROL Entregas]** menu.
 1. No **[!UICONTROL Procurar]** clique na guia **[!UICONTROL Mais ações]** à direita do nome do delivery desejado e selecione **[!UICONTROL Copiar como modelo]**.
 
-   ![](assets/templates-convert-delivery.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
 
    Você também pode selecionar um modelo na lista e selecionar essa opção na tela de edição do modelo.
 
@@ -144,12 +144,12 @@ Para configurar um modelo de entrega do zero, siga as etapas abaixo:
 1. Navegue até o **Modelos** , no menu **Entregas** menu esquerdo. [Saiba mais](#access-manage-templates)
 1. Clique em **[!UICONTROL Criar modelo]** botão.
 
-   ![](assets/templates-create-button.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Selecione o canal que deseja usar para o modelo.
 1. O modelo de entrega integrado para esse canal é usado por padrão para ajudar você a criar seu próprio modelo. Use o botão dedicado à direita do canal selecionado para selecionar outro template, se necessário.
 
-   ![](assets/templates-channel-browse.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Criar modelo]** botão novamente.
 
@@ -179,7 +179,7 @@ Você pode testar a renderização de qualquer template do delivery, seja criado
 
 1. Clique em **[!UICONTROL Simular conteúdo]** botão na parte superior direita da tela.
 
-   ![](assets/templates-simulate-button.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Selecione um ou mais perfis de teste para verificar a renderização de email. Você também pode selecionar perfis reais do banco de dados. [Saiba mais sobre perfis de teste](../audience/test-profiles.md)
 
@@ -187,12 +187,12 @@ Você pode testar a renderização de qualquer template do delivery, seja criado
 
 [Saiba mais sobre visualização de conteúdo](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png){zoom=&quot;yes&quot;}
+   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
 
 1. Feche a janela para voltar à tela de edição de modelo.
 
 >[!NOTE]
 >
->Não é possível usar a renderização de email ou enviar testes em um template do delivery.
+>Não é possível usar a renderização de email ou enviar provas em um template do delivery.
 
 
