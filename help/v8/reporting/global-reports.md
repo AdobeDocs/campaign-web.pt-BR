@@ -3,14 +3,19 @@ audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 21%
+source-wordcount: '277'
+ht-degree: 20%
 
 ---
 
 # Introdução a relatórios globais {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="Relatório global"
+>abstract="Os Relatórios globais oferecem uma maneira poderosa e eficiente de analisar o desempenho da campanha. Esses relatórios fornecem uma exibição consolidada do tráfego principal e das métricas de envolvimento de cada canal da campanha."
 
 Os **relatórios globais** funcionam como uma ferramenta eficiente, oferecendo um resumo geral consolidado das métricas de tráfego e engajamento para cada canal na instância do seu Campaign. Esses relatórios consistem em vários dispositivos, cada um oferecendo uma perspectiva distinta sobre sua campanha ou desempenho de entrega.
 
@@ -30,15 +35,15 @@ Para acessar e gerenciar os relatórios globais, siga estas etapas:
 
 1. No menu esquerdo, selecione um relatório da lista e navegue pela guia para exibir dados de cada canal.
 
-   ![](assets/global_report_manage_3.png){zoom=&quot;yes&quot;}
+   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
 
 1. No painel, escolha uma **Início** e **[!UICONTROL Hora final]** para direcionar dados específicos.
 
-   ![](assets/global_report_manage_1.png){zoom=&quot;yes&quot;}
+   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
 
 1. No **[!UICONTROL Escolher pasta]** selecione se desejar direcionar deliveries ou campanha da pasta específica.
 
-   ![](assets/global_report_manage_2.png){zoom=&quot;yes&quot;}
+   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Adicionar regras]** para começar a criar consultas para filtrar melhor os dados de relatórios. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
