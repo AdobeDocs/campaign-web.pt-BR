@@ -4,8 +4,8 @@ title: Introdução a workflows
 description: Saiba como começar a usar os workflows
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
-source-wordcount: '435'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
