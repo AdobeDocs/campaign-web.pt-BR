@@ -3,7 +3,7 @@ audience: end-user
 title: Criar uma entrega de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 31%
@@ -36,7 +36,7 @@ Para criar um novo delivery por push independente, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 
-   ![](assets/push_create_1.png){zoom=&quot;yes&quot;}
+   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
 
 ## Definir as configurações de entrega {#configure-push-settings}
 
@@ -51,7 +51,7 @@ Defina as configurações de delivery conforme detalhado abaixo:
    * **[!UICONTROL Pasta]**: armazene a entrega em uma pasta específica.
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
-   * **[!UICONTROL Natureza]**: especifique a natureza do email para fins de classificação.
+   * **[!UICONTROL Natureza]**: especifique a natureza do delivery para fins de classificação.
 +++
 
 
@@ -68,7 +68,7 @@ Primeiro, selecione o aplicativo e, depois, refine o público-alvo de notificaç
 
 1. No **[!UICONTROL Público]** selecione o aplicativo que deseja usar para esse delivery. Por padrão, sua notificação por push é enviada a todos os assinantes do aplicativo. É possível refinar para um público-alvo específico clicando no link **[!UICONTROL Selecionar público]** botão.
 
-   ![](assets/push_create_2.png){zoom=&quot;yes&quot;}
+   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
 
 1. Selecione um público existente ou crie seu próprio público para refinar a população do target para o delivery de push. Para Notificações por push, o padrão é [dimensão de destino](../audience/about-recipients.md#targeting-dimensions) é **Aplicativo do assinante** (nms:appSubscriptionRcp), que está vinculado à tabela de recipients.
 
@@ -82,7 +82,7 @@ Primeiro, selecione o aplicativo e, depois, refine o público-alvo de notificaç
 
 Para definir o conteúdo de sua notificação, clique em **[!UICONTROL Editar conteúdo]**. [Saiba mais](content-push.md)
 
-![](assets/push_create_5.png){zoom=&quot;yes&quot;}
+![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
 
 Nessa tela, também é possível [simular seu conteúdo](../preview-test/preview-test.md) e [configurar ofertas](../msg/offers.md).
 
@@ -100,7 +100,7 @@ Para programar uma entrega por push independente para uma data e hora específic
 
 Após iniciar o delivery, a mensagem será enviada automaticamente na data e hora exatas definidas para o recipient.
 
-![](assets/push_create_3.png){zoom=&quot;yes&quot;}
+![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 
 Saiba mais sobre a programação de delivery em [nesta seção](../msg/gs-messages.md#gs-schedule)
 
@@ -108,4 +108,4 @@ Saiba mais sobre a programação de delivery em [nesta seção](../msg/gs-messag
 
 Clique em **[!UICONTROL Definir configurações de entrega]** para acessar opções avançadas relacionadas ao seu template do delivery. [Saiba mais](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png){zoom=&quot;yes&quot;}
+![](assets/push_create_4.png){zoomable=&quot;yes&quot;}
