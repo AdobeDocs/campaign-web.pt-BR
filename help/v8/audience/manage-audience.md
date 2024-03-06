@@ -3,29 +3,16 @@ audience: end-user
 title: Monitorar e gerenciar públicos-alvo
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 26%
+source-wordcount: '568'
+ht-degree: 25%
 
 ---
 
-# Monitorar e gerenciar públicos-alvo {#monitor}
+# Monitorar e gerenciar públicos-alvo {#monitor-manage}
 
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Propriedades"
->abstract="Aqui você pode encontrar um resumo das propriedades do público-alvo, como origem, pasta de armazenamento ou status. Clique no link na seção **Último fluxo de trabalho** para abrir o fluxo de trabalho que foi usado para criar o público-alvo."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Tamanho do público-alvo"
->abstract="Aqui você pode encontrar o número total de perfis no público-alvo. Clique no botão Calcular para atualizar e recalcular os resultados do público-alvo."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="Erro de público-alvo"
->abstract="Os dados de público-alvo não estão disponíveis. Aguarde o fim da execução do fluxo de trabalho."
+## O que é um público-alvo? {#what}
 
 O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens O tipo de público-alvo depende do target mapping definido no modelo de entrega. Saiba mais sobre modelos de entrega em [esta página](../msg/delivery-template.md).
 
@@ -42,9 +29,26 @@ Ao direcionar um público-alvo, você também pode definir **grupos de controle*
 >
 >Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo é definido em um **Criar público-alvo** atividade de workflow. Nesse contexto, não é possível carregar um público-alvo de um arquivo para uma entrega de email, e o público-alvo é definido somente nessa atividade dedicada. Saiba como definir o público-alvo do seu delivery em um fluxo de trabalho de campanha no [nesta seção](../workflows/activities/build-audience.md)
 
+## Monitorar públicos {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Propriedades"
+>abstract="Aqui você pode encontrar um resumo das propriedades do público-alvo, como origem, pasta de armazenamento ou status. Clique no link na seção **Último fluxo de trabalho** para abrir o fluxo de trabalho que foi usado para criar o público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Tamanho do público-alvo"
+>abstract="Aqui você pode encontrar o número total de perfis no público-alvo. Clique no botão Calcular para atualizar e recalcular os resultados do público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Erro de público-alvo"
+>abstract="Os dados de público-alvo não estão disponíveis. Aguarde o fim da execução do fluxo de trabalho."
+
 A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no **[!UICONTROL Públicos-alvo]** menu.
 
-![](assets/audiences-list.png){zoom=&quot;yes&quot;}
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 Os públicos-alvo podem se originar de várias fontes. A variável **[!UICONTROL Origem]** indica onde um determinado público-alvo foi criado:
 
@@ -52,9 +56,7 @@ Os públicos-alvo podem se originar de várias fontes. A variável **[!UICONTROL
 
 * **[!UICONTROL Adobe Experience Platform:]** Esses públicos-alvo são criados no Adobe Experience Platform e integrados ao Campaign Web usando a integração Adobe Fontes e Destinos. Saiba como configurar essa integração no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
->[!NOTE]
->
->Para usar os públicos da Adobe Experience Platform no Campaign, você precisa configurar a integração com Fontes e Destinos do Adobe. Consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+  ➡️ [Descubra este recurso no vídeo](#video)
 
 * **[!UICONTROL WebUI do Adobe Campaign]**: esses públicos são criados usando workflows de público-alvo da Web do Campaign. [Saiba como criar públicos](create-audience.md)
 
@@ -62,6 +64,14 @@ Para obter mais informações sobre um público, abra-o na lista. As propriedade
 
 A variável **[!UICONTROL Dados]** permite visualizar os perfis que fazem parte do público-alvo. Você pode personalizar essa visualização adicionando mais colunas ou utilizando filtros avançados para refinar os dados exibidos.
 
-![](assets/audiences-details.png){zoom=&quot;yes&quot;}
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 Para duplicar ou excluir um público-alvo, clique no **[!UICONTROL Mais ações]** botão disponível na lista públicos-alvo ao lado do nome do público-alvo ou dentro de uma tela de detalhes do público-alvo.
+
+## Vídeo explicativo {#video}
+
+Saiba como criar um destino para usar um público-alvo Experience Platform na interface da Web do Adobe Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
+
+Informações detalhadas sobre como configurar a integração de origens e destinos do Adobe estão disponíveis em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
