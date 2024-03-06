@@ -3,9 +3,9 @@ audience: end-user
 title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 18%
 
 ---
@@ -24,7 +24,7 @@ Depois que o conteúdo do delivery for definido, você poderá usar perfis e per
 [!DNL Adobe Campaign Web user interface] O permite:
 
 * [Pré-visualização do conteúdo e da personalização da mensagem](preview-content.md)
-* [Enviar provas](test-deliveries.md) (provas) para recipients ou assinantes específicos para teste e validação
+* [Enviar provas](test-deliveries.md) para recipients ou assinantes específicos para teste e validação
 * [Verificar a renderização de email](email-rendering.md) em clientes populares de desktop, móveis e baseados na web
 * [Pré-visualizar e testar suas páginas de aterrissagem](../landing-pages/create-lp.md#test-landing-page)
 
