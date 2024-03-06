@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 99%
+source-wordcount: '1629'
+ht-degree: 100%
 
 ---
 
@@ -335,13 +335,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_contenttemplate_readonlymode"
 >title="Este modelo é do tipo somente leitura"
 >abstract="A confirmar"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_generatesubsets"
->title="Gerar todos os subconjuntos na mesma tabela"
->abstract="A confirmar"
-
-<!-- ML: not found in wiki pages-->
 
 
 <!-- Subscription activity-->
