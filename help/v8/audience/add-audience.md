@@ -3,10 +3,10 @@ audience: end-user
 title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 29%
+source-wordcount: '341'
+ht-degree: 31%
 
 ---
 
@@ -29,24 +29,24 @@ Para selecionar um público-alvo existente para sua mensagem, siga as etapas aba
 
 1. No **Público** do assistente de criação de delivery, clique no link **[!UICONTROL Selecionar público]** e escolha **[!UICONTROL Selecionar público]** para usar um público existente.
 
-   ![](assets/create-audience.png){zoom=&quot;yes&quot;}
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
 1. Esta tela exibe todos os públicos-alvo existentes para a pasta atual.
 
-   ![](assets/create-audience2.png){zoom=&quot;yes&quot;}
+   ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
-   Para escolher um público-alvo do Adobe Experience Platform, navegue até o `AEP Audiences folder` na seção de filtro da tela.
+   Para escolher um público-alvo do Adobe Experience Platform, navegue até o `AEP Audiences folder` na seção de filtro da tela. [Saiba mais sobre públicos da Adobe Experience Platform](manage-audience.md#monitor)
 
-   ![](assets/select-audience-folder.png){zoom=&quot;yes&quot;}
+   ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
 1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o modelador de consultas, que permite criar filtros avançados para a lista de públicos-alvo. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
    Por exemplo, é possível definir uma regra para filtrar a origem dos públicos-alvo, conforme mostrado abaixo:
 
-   ![](assets/filter-on-aep-audience.png){zoom=&quot;yes&quot;}
+   ![](assets/filter-on-aep-audience.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **Confirmar o** para adicionar seu público-alvo como o target principal do delivery. Depois de concluído, ainda é possível refinar o público-alvo usando o modelador de consulta clicando no link **Editar regras** botão.
 
-   ![](assets/refine-audience.png){zoom=&quot;yes&quot;}
+   ![](assets/refine-audience.png){zoomable=&quot;yes&quot;}
 
    Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não a receberam. [Saiba mais](control-group.md)
