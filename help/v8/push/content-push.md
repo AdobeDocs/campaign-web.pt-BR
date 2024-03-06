@@ -3,10 +3,10 @@ audience: end-user
 title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 46%
+source-wordcount: '1545'
+ht-degree: 47%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 46%
 >id="acw_deliveries_push_ios_content"
 >title="Conteúdo de push para iOS"
 >abstract="Defina o conteúdo da sua notificação por push para dispositivos iOS. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Botão Lembrar mais tarde"
+>abstract="A confirmar"
+
 
 ## Definir o conteúdo da notificação {#push-message}
 
@@ -55,7 +61,7 @@ Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagen
   Para definir o conteúdo, personalizar dados e adicionar conteúdo dinâmico, clique no link **[!UICONTROL Mensagem]** e use o Editor de expressão. Você pode acessar esse editor para personalizar suas mensagens.
 No **[!UICONTROL Variáveis do aplicativo]** , suas Variáveis de aplicativo são adicionadas automaticamente. Essas variáveis permitem definir o comportamento da notificação. Por exemplo, você pode configurar uma tela de aplicativo específica para ser exibida quando o usuário ativar a notificação.
 
-  ![](assets/push_content_4.png){zoom=&quot;yes&quot;}
+  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
 
 * A variável **[!UICONTROL Mensagem de notificação]**, manipulada automaticamente pelo SDK do FCM. O FCM exibe automaticamente a mensagem nos dispositivos dos usuários em nome do aplicativo do cliente. As mensagens de notificação contêm um conjunto predefinido de parâmetros e opções, mas ainda podem ser personalizadas com variáveis de aplicativo personalizadas.
 
@@ -63,7 +69,7 @@ No **[!UICONTROL Variáveis do aplicativo]** , suas Variáveis de aplicativo sã
 
   Para personalizar ainda mais sua notificação por push, você pode escolher uma imagem para adicionar à notificação por push, o ícone da notificação a ser exibido nos dispositivos dos perfis e sua cor.
 
-  ![](assets/push_content_3.png){zoom=&quot;yes&quot;}
+  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
@@ -73,7 +79,7 @@ Você pode adicionar um **[!UICONTROL Legenda]**, valor do parâmetro de subtít
 
 O modo Push silencioso permite que uma notificação “silenciosa” seja enviada a um aplicativo móvel. O usuário não está ciente da chegada da notificação. Ele é transferido diretamente para o aplicativo.
 
-![](assets/push_content_1.png){zoom=&quot;yes&quot;}
+![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
 
 >[!ENDTABS]
 
@@ -126,7 +132,7 @@ As opções avançadas dependem do sistema operacional móvel: Android ou iOS. N
 
 >[!TAB Android]
 
-![](assets/push_content_5.png){zoom=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
 
 | Parâmetro | Descrição |
 |---------|---------|
@@ -142,7 +148,7 @@ As opções avançadas dependem do sistema operacional móvel: Android ou iOS. N
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png){zoom=&quot;yes&quot;}
+![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
 
 | Parâmetro | Descrição |
 |---------|---------|
