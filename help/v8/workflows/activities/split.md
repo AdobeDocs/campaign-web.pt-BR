@@ -3,10 +3,10 @@ audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 90%
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -46,6 +46,11 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >title="Complemento de geração de divisão"
 >abstract="Após configurar todos os subconjuntos, é possível selecionar a população restante que não correspondeu a nenhum dos subconjuntos e incluí-la em uma transição de saída adicional. Para fazer isso, ative a opção **Gerar complemento**."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Gerar todos os subconjuntos na mesma tabela"
+>abstract="Ative essa opção para agrupar todos os subconjuntos em uma única transição de output."
+
 Siga estas etapas para configurar a atividade de **Divisão**:
 
 1. Adicione uma atividade de **Divisão** ao seu workflow.
@@ -76,7 +81,6 @@ Siga estas etapas para configurar a atividade de **Divisão**:
       >[!NOTE]
       >
       >Ao definir um limite de população para um subconjunto, é possível classificar os perfis selecionados com base em um atributo de perfil específico, em ordem crescente ou decrescente. Para fazer isso, ative a opção **[!UICONTROL Habilitar classificação]**. Por exemplo, é possível restringir um subconjunto para incluir apenas os 50 perfis com o valor de compra mais alto.
-
 
 1. Após configurar todos os subconjuntos, é possível selecionar a população restante que não correspondeu a nenhum dos subconjuntos e incluí-la em uma transição de saída adicional. Para fazer isso, ative a opção **[!UICONTROL Gerar complemento]**.
 
