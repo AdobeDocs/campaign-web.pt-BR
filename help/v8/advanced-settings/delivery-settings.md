@@ -1,24 +1,20 @@
 ---
 audience: end-user
-title: Configurações de entrega
-description: Saiba mais sobre as configurações de entrega no Campaign Web
-feature: Email
+title: Definir configurações de entrega
+description: Saiba como definir as configurações de entrega no Campaign Web
+feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '2417'
-ht-degree: 62%
+ht-degree: 56%
 
 ---
 
 
-# Configurações de entrega de email {#email-del-settings}
+# Definir configurações de entrega {#del-settings}
 
-As configurações de delivery de email são **parâmetros técnicos de entrega** que são definidas no template de email. Eles podem ser sobrecarregados para cada delivery.
-
-Essas configurações estão disponíveis no **Configurações** botão disponível ao editar um delivery de email ou um template do delivery de email.
-
-## Configurações de entrega de email {#email-delivery-settings}
+As configurações de entrega são **parâmetros técnicos de entrega** que são definidas no template do delivery. Eles podem ser sobrecarregados para cada delivery. Essas configurações estão disponíveis no **Configurações** botão disponível ao editar um delivery ou um template do delivery.
 
 >[!CAUTION]
 >
@@ -36,14 +32,13 @@ Essas configurações estão disponíveis no **Configurações** botão disponí
 >title="Configurações de tipologia para a entrega"
 >abstract="As regras de tipologia permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação. As tipologias e regras de tipologia são criadas no Console do cliente do Campaign."
 
-
-Tipologias são conjuntos de **regras de tipologia** que são executados durante a fase de preparação para aplicar facilmente várias regras de filtragem a uma entrega de uma vez. Eles permitem que os profissionais de marketing padronizem práticas comerciais em todos os deliveries, pois permitem controlar, filtrar e priorizar o envio de deliveries.
+Tipologias são conjuntos de **regras de tipologia** que são executados durante a fase de preparação para aplicar facilmente várias regras de filtragem a uma entrega de uma vez. Elas permitem que os profissionais de marketing padronizem práticas comerciais em todas as entregas, pois possibilitam controlar, filtrar e priorizar o envio de entregas.
 
 Ao associar uma tipologia a uma mensagem ou a um template de mensagem, as regras de tipologia incluídas na tipologia são executadas para verificar a validade do delivery durante a preparação da mensagem. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo do delivery.
 
-As tipologias permitem garantir que seus emails sempre contenham determinados elementos (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).
+As tipologias permitem que você garanta que seus deliveries sempre contenham determinados elementos (como um link de unsubscription ou uma linha de assunto) ou regras de filtragem para excluir grupos do target pretendido (como unsubscribers, concorrentes ou clientes não fidelizados).
 
-![](assets/delivery-settings-typology.png){zoom=&quot;yes&quot;}
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -55,7 +50,6 @@ As tipologias permitem garantir que seus emails sempre contenham determinados el
 >id="acw_email_settings_pressure_parameters"
 >title="Parâmetros de pressão da entrega"
 >abstract="Os pesos das entregas permitem identificar entregas de alta prioridade dentro da estrutura do gerenciamento de fadiga. As mensagens com o peso mais alto têm prioridade."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
@@ -91,15 +85,14 @@ Use o campo **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliaç�
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Configurações de capacidade da entrega"
->abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega pode gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no Console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal de email."
+>abstract="Antes de enviar mensagens, use regras de capacidade para garantir que sua organização possa processar a entrega, as mensagens de entrada que a entrega pode gerar e o número de chamadas a serem feitas para entrar em contato com assinantes, por exemplo. As regras de capacidade são definidas no Console do Adobe Campaign v8. Nesta tela, selecione uma regra associada ao canal."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importância do recipient"
 >abstract="A importância do recipient é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas."
 
-
-Nesta seção, você pode selecionar uma regra de capacidade definida no console do Adobe Campaign v8. Essa regra está associada ao canal de email.
+Nesta seção, você pode selecionar uma regra de capacidade definida no console do Adobe Campaign v8. Essa regra está associada ao canal.
 
 A variável **[!UICONTROL Importância do destinatário]** field é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas.
 
@@ -112,11 +105,9 @@ A variável **[!UICONTROL Importância do destinatário]** field é uma fórmula
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Configurações do público-alvo da entrega"
->abstract="Selecione um **target mapping** entre os disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. Também é possível definir os parâmetros de exclusão da entrega. "
+>abstract="Selecione um **target mapping** entre os disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. Também é possível definir os parâmetros de exclusão da entrega."
 
-Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc.
-
-Saiba mais sobre target mappings em [nesta seção](../audience/targeting-dimensions.md).
+Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre target mappings](../audience/targeting-dimensions.md).
 
 No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
@@ -129,9 +120,9 @@ No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients
 
 **[!UICONTROL Entrega]** parâmetros são configurações técnicas que se aplicam ao seu delivery.
 
-![](assets/delivery-settings-delivery.png){zoom=&quot;yes&quot;}
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
-O e-mail integrado **[!UICONTROL Roteamento]** a conta externa de é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar emails.
+O sistema integrado de **[!UICONTROL Roteamento]** a conta externa de é fornecida por padrão. Ela contém os parâmetros técnicos que permitem ao aplicativo enviar deliveries.
 
 Você pode definir a variável **[!UICONTROL Enviando]** abaixo.
 
@@ -143,29 +134,23 @@ Você pode definir a variável **[!UICONTROL Enviando]** abaixo.
   >
   >Quando a entrega é criada duplicando uma existente, esse parâmetro é redefinido.
 
-* **[!UICONTROL Testar entrega SMTP]**: essa opção é usada para testar o envio via SMTP. A entrega é processada até a conexão com o servidor SMTP, mas não é enviada: para cada recipient da entrega, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e fecha a conexão antes do comando SMTP DATA.
+* **[!UICONTROL Testar entrega SMTP]** (canal de email): essa opção é usada para testar o envio via SMTP. O email é processado até a conexão com o servidor SMTP, mas não é enviado: para cada recipient do email, o Campaign se conecta ao servidor do provedor SMTP, executa o comando SMTP RCPT TO e fecha a conexão antes do comando SMTP DATA.
 
-* **[!UICONTROL Email Cco]**: essa opção é usada para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Email Cco]** (canal de email): essa opção é usada para armazenar emails em um sistema externo por meio do CCO simplesmente adicionando um endereço de email de CCO ao target da sua mensagem. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 No **[!UICONTROL Definição da onda]** , selecione a **[!UICONTROL Enviar usando várias ondas]** opção para aumentar progressivamente o volume enviado usando ondas. Esse aumento evitará que sua mensagem seja marcada como spam ou pode ser usado quando você quiser restringir o número de mensagens diárias. Ao usar ondas, você pode dividir as entregas em vários lotes, em vez de enviar grandes volumes de mensagens ao mesmo tempo. [Saiba mais](send-using-waves.md)
 
-Você também pode alterar a variável **[!UICONTROL Formatos de email]** das mensagens de email enviadas conforme detalhado abaixo.
+Para emails, você também pode alterar a variável **[!UICONTROL Formatos de email]** das mensagens enviadas conforme detalhado abaixo.
 
-* **[!UICONTROL Usar preferências de recipient]** (modo padrão)
+* **[!UICONTROL Usar preferências do recipient]** (modo padrão): o formato do email é definido de acordo com os dados armazenados no perfil do recipient. Se um recipient desejar receber emails em um determinado formato, esse será o formato enviado. Se o campo não estiver preenchido, um email multipart-alternative será enviado (veja abaixo).
 
-  O formato da mensagem é definido de acordo com os dados armazenados no perfil do recipient. Se um recipient deseja receber mensagens em determinado formato, esse será o formato enviado. Se o campo não estiver preenchido, uma mensagem multipart-alternative será enviada (veja abaixo).
-
-* **[!UICONTROL Permitir que o cliente de correio do recipient escolha o formato mais adequado]**
-
-  A mensagem contém os dois formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do recipient (multipart-alternative).
+* **[!UICONTROL Permitir que o cliente de correio do recipient escolha o formato mais apropriado]**: O email contém ambos os formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do recipient (multipart-alternative).
 
   >[!IMPORTANT]
   >
-  >Essa opção inclui ambas as versões do documento. Portanto, isso afeta a taxa de entrega, porque o tamanho da mensagem é maior.
+  >Essa opção inclui ambas as versões do documento. Portanto, isso afeta a taxa de delivery, pois o tamanho do email é maior.
 
-* **[!UICONTROL Enviar todas as mensagens no formato de texto]**
-
-  A mensagem é enviada em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar na mensagem.
+* **[!UICONTROL Enviar todas as mensagens no formato de texto]**: o email é enviado em formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar no email.
 
 ## Análise da web {#web-analytics}
 
@@ -193,7 +178,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado estão sujeitas a uma repetição automática. Por padrão, cinco tentativas são agendadas para o primeiro dia do delivery com um intervalo mínimo de uma hora distribuída pelas 24 horas do dia.
 
-## Aprovação {#approval}
+## Aprovação (canal de email) {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -205,14 +190,12 @@ As mensagens temporariamente não entregues devido a um erro Suave ou Ignorado e
 >title="Modo de aprovação das entregas"
 >abstract="Selecione o modo de aprovação para entregas com base neste modelo. Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada."
 
-Se os avisos forem gerados durante a preparação da entrega, você pode configurar a entrega para definir se ela ainda deverá ou não ser executada. Por padrão, o usuário deverá confirmar o envio de mensagens no final da fase de análise: essa é a validação **manual**.
+Se os avisos forem gerados durante uma preparação de delivery de email, você poderá configurar o delivery para definir se ele ainda deverá ou não ser executado. Por padrão, o usuário deverá confirmar o envio de emails no final da fase de análise: isso é **manual** validação.
 
 Você pode selecionar outro modo de aprovação no campo apropriado. Os modos disponíveis são:
 
-* ****[!UICONTROL Manual]****: no final da fase de análise, o usuário deverá confirmar a entrega para começar a enviar.
-
+* **[!UICONTROL Manual]**: no final da fase de análise, o usuário deverá confirmar a entrega para começar a enviar.
 * **[!UICONTROL Semiautomático]**: o envio começa automaticamente se a fase de análise não gerar mensagens de advertência.
-
 * **[!UICONTROL Automático]**: o envio começa automaticamente no fim da fase de análise, independentemente do resultado.
 
 ## Validade {#validity}
@@ -247,22 +230,21 @@ Você também poderá optar por especificar datas. Para fazer isso, selecione **
 
 **[!UICONTROL Limite da validade de recursos]** é usado para recursos dos quais foram feitos upload, principalmente para mirror pages e imagens. Os recursos dessa página são válidos por um tempo limitado (para economizar espaço em disco). Após esse limite, esses recursos não estarão mais disponíveis.
 
-![](assets/delivery-settings-validity.png){zoom=&quot;yes&quot;}
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
 Saiba mais sobre o período de validade do delivery em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR#validity-period){target="_blank"}.
 
-### Gerenciamento da mirror page {#mirror}
+### Gerenciamento de mirror page (canal de email) {#mirror}
 
 A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao email. Por padrão, a mirror page é gerada se o link for inserido no conteúdo do email.
 
 Além do modo padrão, as seguintes opções também estão disponíveis:
 
-* **[!UICONTROL Forçar a geração da mirror page]**: use esse modo para gerar a mirror page mesmo se nenhum link para a mirror page for inserido no delivery.
-* **[!UICONTROL Não gerar a mirror page]**: use esse modo para evitar gerar uma mirror page, mesmo se o link estiver presente no delivery.
+* **[!UICONTROL Forçar a geração da mirror page]**: use esse modo para gerar a mirror page mesmo se nenhum link para a mirror page for inserido no email.
+* **[!UICONTROL Não gerar a mirror page]**: use esse modo para evitar gerar uma mirror page, mesmo se o link estiver presente no email.
 * **[!UICONTROL Gera uma mirror page acessível somente por meio do identificador de mensagem]**: quando o link da mirror page não estiver presente no conteúdo do email, use essa opção para habilitar o acesso ao conteúdo da mirror page, na janela de log do delivery, no console do cliente.
-
 
 ### Rastreamento {#tracking}
 
@@ -280,9 +262,8 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 
 **[!UICONTROL Rastreamento]** Os parâmetros do são definidos na seção relacionada. As opções possíveis são:
 
-**[!UICONTROL Limite da validade de rastreamento]**: use essa opção para alterar a duração da ativação do rastreamento nos URLs.
-
-**[!UICONTROL URL substituto para URLs expirados]**: use essa opção para inserir um URL para uma página da Web de fallback: ele é exibido depois que o rastreamento expira.
+* **[!UICONTROL Limite da validade de rastreamento]**: use essa opção para alterar a duração da ativação do rastreamento nos URLs.
+* **[!UICONTROL URL substituto para URLs expirados]**: use essa opção para inserir um URL para uma página da Web de fallback: ele é exibido depois que o rastreamento expira.
 
 ## Configurações de prova {#test-setttings}
 
@@ -295,14 +276,11 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 
 Você pode definir os parâmetros de exclusão nesta seção. As opções disponíveis são:
 
-* ****[!UICONTROL Manter duplicatas]**** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
-
+* **[!UICONTROL Manter duplicatas]** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
 * **[!UICONTROL Manter endereços incluídos na lista de bloqueios]** permite manter do público-alvo os perfis que não estão mais sendo direcionados para entrega, como após um cancelamento de subscrição (opt-out).
-
 * **[!UICONTROL Manter endereços na quarentena]** permite excluir do público-alvo qualquer perfil com endereço que não responda.
 
 Você também pode personalizar o rótulo das provas:
 
 * Use o **[!UICONTROL Manter o código de entrega para a prova]** para associar à prova o mesmo código de delivery que o definido para o delivery com o qual ele está relacionado.
-
 * Por padrão, o assunto da prova tem o prefixo &#39;PROOF #&#39;, onde # é o número da prova. É possível alterar esse prefixo no campo **[!UICONTROL Rotular prefixo]**.

@@ -5,7 +5,7 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 99%
@@ -61,7 +61,6 @@ ht-degree: 99%
             + [Adicionar atributos de estilo em linha](email/inline-styling.md)
       + Enviar e monitorar o email {#monitor}
          + [Preparar e enviar um email](monitor/prepare-send.md)
-         + [Configurações de entrega de email](advanced-settings/delivery-settings.md)
          + [Enviar usando várias ondas](advanced-settings/send-using-waves.md)
          + [Monitorar logs de entrega](monitor/delivery-logs.md)
    + Notificações por push {#push}
@@ -81,6 +80,7 @@ ht-degree: 99%
       + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
    + [Adicionar ofertas às suas mensagens](msg/offers.md)
    + [Enviar mensagens a assinantes](msg/send-to-subscribers.md)
+   + [Definir configurações de entrega](advanced-settings/delivery-settings.md)
    + Visualizar e testar a entrega {#preview-test}
       + [Sobre pré-visualização e provas](preview-test/preview-test.md)
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
