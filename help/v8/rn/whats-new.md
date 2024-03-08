@@ -3,10 +3,10 @@ audience: end-user
 title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
+source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
