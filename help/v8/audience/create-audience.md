@@ -3,10 +3,10 @@ audience: end-user
 title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 21%
+source-wordcount: '869'
+ht-degree: 16%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 21%
 >title="Composição de público-alvo"
 >abstract="Crie novos públicos-alvo em uma tela de fluxo de trabalho intuitiva. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Combine vários públicos-alvo em um único público-alvo, enriqueça-o com atributos externos ou divida-o em vários públicos-alvo com base em regras de sua escolha."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
-
-<!--TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_rn1"
->title="Composição de público-alvo"
->abstract="Crie novos públicos-alvo em uma tela de fluxo de trabalho intuitiva. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Combine vários públicos-alvo em um único público-alvo, enriqueça-o com atributos externos ou divida-o em vários públicos-alvo com base em regras de sua escolha."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
-
-<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -56,7 +46,7 @@ Para criar um público-alvo, siga estas etapas:
 
    * O &quot;Novo público-alvo&quot; **[!UICONTROL Salvar público-alvo]** A atividade representa a etapa final no fluxo de trabalho, permitindo salvar os resultados como um novo público-alvo.
 
-   ![](assets/create-audience-blank.png){zoom=&quot;yes&quot;}
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -72,7 +62,7 @@ Para criar um público-alvo, siga estas etapas:
    >
    >As atividades de canal não estão disponíveis para uso em fluxos de trabalho de público.
 
-   ![](assets/audience-creation-canvas.png){zoom=&quot;yes&quot;}
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. Configure o **[!UICONTROL Salvar público-alvo]** atividade para especificar como você deseja salvar a população computada upstream no workflow. [Saiba como configurar uma atividade Salvar público](../workflows/activities/save-audience.md)
 
@@ -86,7 +76,7 @@ Agora você pode usar esse público-alvo como o principal alvo de uma entrega. [
 
 O exemplo abaixo mostra um fluxo de trabalho de público-alvo configurado para direcionar clientes do sexo feminino que moram em Nova York e criar dois novos públicos-alvo, dependendo de sua compra mais recente (Yoga ou Running gear).
 
-![](assets/audiences-example.png){zoom=&quot;yes&quot;}
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. A variável **[!UICONTROL Criar público-alvo]** A atividade segmenta todas as perfis femininas que vivem em Nova York.
 1. A variável **[!UICONTROL Enriquecimento]** A atividade de enriquece o público-alvo com informações da tabela Purchases para identificar o tipo de produto que os clientes compraram.
@@ -105,7 +95,7 @@ Por padrão, a nova execução de um fluxo de trabalho de público-alvo substitu
 
 Se preferir não substituir os resultados existentes do público, configure o **Salvar público-alvo** atividades para se alinhar aos seus requisitos. Por exemplo, você pode alterar a variável **Rótulo de público** para armazenar os novos resultados em um novo público ou adicionar os novos resultados ao conteúdo do público existente sem apagar os dados anteriores. [Saiba como configurar uma atividade Salvar público](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png){zoom=&quot;yes&quot;}
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
 
 ## Vídeo explicativo {#video}
 

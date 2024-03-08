@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 59%
+source-wordcount: '1357'
+ht-degree: 57%
 
 ---
 
@@ -17,17 +17,6 @@ ht-degree: 59%
 >id="acw_homepage_learning_card3"
 >title="Introdução a emails"
 >abstract="Você pode gerar uma entrega de email independente ou criar um email no contexto de um fluxo de trabalho de campanha. Saiba como gerar a entrega, selecionar o público-alvo e criar o conteúdo do email."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Introdução a emails"
->abstract="Você pode gerar uma entrega de email independente ou criar um email no contexto de um fluxo de trabalho de campanha. Saiba como gerar a entrega, selecionar o público-alvo e criar o conteúdo do email."
-
-<!--TO REMOVE ABOVE-->
-
-
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 

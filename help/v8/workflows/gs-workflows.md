@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução a workflows
 description: Saiba como começar a usar os workflows
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+workflow-type: tm+mt
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 100%
 >abstract="Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn2"
->title="Workflows entre canais"
->abstract="Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=pt-BR" text="Consulte as notas de versão"
-
-<!--TO REMOVE ABOVE-->
 
 ## O que é um fluxo de trabalho?
 

@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 87%
+source-wordcount: '580'
+ht-degree: 85%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 87%
 >title="Item 4"
 >abstract="Modelador de consulta e designer de email de última geração"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Ajuda e documentação"
->abstract="O Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface de usuário moderna simplifica o design e a entrega de campanhas de marketing e traz consistência, juntamente com outras soluções da Adobe."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="Experimente a nova interface do Adobe Campaign"
->abstract="Mais moderna, intuitiva e dinâmica."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="Item 1"
->abstract="Nova experiência de design de notificações por push, email e SMS"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="Item 2"
->abstract="Interface da tela de fluxo de trabalho simplificada"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="Item 3"
->abstract="UX reformulada para públicos-alvo, assinatura e serviços, AEM Assets"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="Item 4"
->abstract="IA generativa de email: geração de emails com base em solicitações"
-
-<!--TO REMOVE ABOVE-->
 
 Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. A versão mais recente está cheia de recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. Essa nova interface moderna simplifica o design e a entrega de campanhas de marketing e oferece consistência, juntamente com outras soluções da Adobe, incluindo a Adobe Experience Platform.
 
