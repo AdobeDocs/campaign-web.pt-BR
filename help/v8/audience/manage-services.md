@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 35%
@@ -70,7 +70,7 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 1. Por padrão, as subscrições são ilimitadas.
 
    Você pode desativar o **[!UICONTROL Período de validade ilimitado]** opção para definir uma duração de validade do serviço. Quando o período de validade terminar:
-   * Nenhum destinatário pode assinar mais este serviço
+   * Nenhum perfil pode assinar mais este serviço
    * Todos os assinantes deste serviço têm suas assinaturas canceladas automaticamente
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
 Agora você pode:
 
-* Adicione assinantes a este serviço e cancele a assinatura dos recipients. [Saiba mais](../msg/send-to-subscribers.md)
+* Adicione assinantes a este serviço e cancele a assinatura de perfis. [Saiba mais](../msg/send-to-subscribers.md)
 
 * Enviar mensagens aos assinantes deste serviço. [Saiba como](../msg/send-to-subscribers.md)
 

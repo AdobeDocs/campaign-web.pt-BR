@@ -3,10 +3,10 @@ audience: end-user
 title: Gerenciar os assinantes
 description: Saiba como gerenciar e fornecer aos assinantes de um serviço no Adobe Campaign Web
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -24,15 +24,15 @@ Para adicionar assinantes manualmente, siga as etapas abaixo.
 
 1. Vá para a **[!UICONTROL Assinantes]** e clique em **[!UICONTROL Adicionar assinantes]**.
 
-   ![](assets/service-subscribers-tab.png){zoom=&quot;yes&quot;}
+   ![](assets/service-subscribers-tab.png){zoomable=&quot;yes&quot;}
 
 1. Selecione os perfis que deseja adicionar na lista e clique em **[!UICONTROL Confirmar o]**.
 
-   ![](assets/service-subscribers-select-profiles.png){zoom=&quot;yes&quot;}
+   ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Enviar]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> para que os recipients selecionados recebam a assinatura [mensagem de confirmação](manage-services.md#create-confirmation-message) que você definiu quando [criação do serviço](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-confirmation-msg.png){zoom=&quot;yes&quot;}
+   ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Os perfis adicionados são exibidos no **[!UICONTROL Assinantes]** guia. Agora e
 
 ## Remover assinantes do seu serviço {#remove-subscribers}
 
-### Cancelar inscrição de destinatários manualmente {#manual-unsubscription}
+### Cancelar inscrição manual de perfis {#manual-unsubscription}
 
 Uma vez que [assinantes adicionados](#add-subscribers) ao seu serviço, você pode cancelar manualmente a assinatura de cada um deles. Siga as etapas abaixo.
 
@@ -50,22 +50,22 @@ Uma vez que [assinantes adicionados](#add-subscribers) ao seu serviço, você po
 
 1. Clique no ícone de três pontos ao lado do nome do recipient desejado e selecione **[!UICONTROL Excluir]**.
 
-   ![](assets/service-subscribers-delete.png){zoom=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete.png){zoomable=&quot;yes&quot;}
 
 1. Confirmar exclusão.
 
 1. Clique em **[!UICONTROL Enviar]** para que o recipient selecionado receba o cancelamento de subscrição [mensagem de confirmação](manage-services.md#create-confirmation-message) que você definiu quando [criação do serviço](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-delete-confirmation.png){zoom=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete-confirmation.png){zoomable=&quot;yes&quot;}
 
 O recipient é removido do **[!UICONTROL Assinantes]** e não está mais inscrito no seu serviço.
 
 ### Cancelar automaticamente a inscrição de destinatários {#automatic-unsubscription}
 
-Um serviço de assinatura pode ter uma duração limitada. Os recipients são automaticamente cancelados quando o período de validade expira.
+Um serviço de assinatura pode ter uma duração limitada. A subscrição dos perfis é automaticamente cancelada quando o período de validade expira.
 
 Este período é especificado quando [criação do serviço](manage-services.md#create-service). No **[!UICONTROL Opções adicionais]**, desative o **[!UICONTROL Período de validade ilimitado]** e definir um período de validade do serviço.
 
-![](assets/service-create-validity-period.png){zoom=&quot;yes&quot;}
+![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 Após a expiração da duração especificada, todos os assinantes terão a subscrição cancelada automaticamente desse serviço.

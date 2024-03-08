@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorar e gerenciar públicos-alvo
 description: Saiba como monitorar e gerenciar públicos-alvo no Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 ## O que é um público-alvo? {#what}
 
-O público-alvo é o principal foco da sua entrega: os destinatários que receberão as mensagens O tipo de público-alvo depende do target mapping definido no modelo de entrega. Saiba mais sobre modelos de entrega em [esta página](../msg/delivery-template.md).
+O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. O tipo de público-alvo depende do target mapping definido no modelo de entrega. Saiba mais sobre modelos de entrega em [esta página](../msg/delivery-template.md).
 
 Para definir a população de um público-alvo, é possível:
 

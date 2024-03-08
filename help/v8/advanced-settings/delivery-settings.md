@@ -4,10 +4,10 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 56%
+source-wordcount: '2420'
+ht-degree: 55%
 
 ---
 
@@ -70,7 +70,9 @@ No campo **[!UICONTROL Tipo de peso]**, três opções estão disponíveis:
 
 Use o campo **[!UICONTROL Peso da entrega]** para definir a prioridade de entrega. Cada entrega tem um peso que representa seu nível de prioridade. Por padrão, o peso de uma entrega é definido como 5. As regras de pressão permitem definir o peso das entregas às quais são aplicadas. Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de uma entrega com base nos interesses do recipient.
 
-Use o campo **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliação do público-alvo. Três modos estão disponíveis:
+Use o **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliação de target.
+
+Três modos estão disponíveis:
 
 * **[!UICONTROL Estimativa do público-alvo e personalização de mensagens]**
 * **[!UICONTROL Estimativa e aprovação do público-alvo provisório]**
@@ -78,7 +80,7 @@ Use o campo **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliaç�
 
 >[!NOTE]
 >
->O gerenciamento de fadiga é configurado no console do cliente Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
+>O gerenciamento de fadiga e as regras de pressão são configurados no console do cliente do Campaign. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}.
 
 ### Configurações de capacidade {#capacity-settings}
 
@@ -90,11 +92,11 @@ Use o campo **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliaç�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importância do recipient"
->abstract="A importância do recipient é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas."
+>abstract="A importância do recipient é uma fórmula usada para determinar quais perfis são mantidos quando as regras de tipologia de capacidade são excedidas."
 
 Nesta seção, você pode selecionar uma regra de capacidade definida no console do Adobe Campaign v8. Essa regra está associada ao canal.
 
-A variável **[!UICONTROL Importância do destinatário]** field é uma fórmula usada para determinar quais recipients são mantidos quando as regras de tipologia de capacidade são excedidas.
+A variável **[!UICONTROL Importância do destinatário]** field é uma fórmula usada para determinar quais perfis são mantidos quando as regras de tipologia de capacidade são excedidas.
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ A variável **[!UICONTROL Importância do destinatário]** field é uma fórmula
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre target mappings](../audience/targeting-dimensions.md).
 
-No **[!UICONTROL Exclusão]** , você pode selecionar para excluir os recipients que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+No **[!UICONTROL Exclusão]** , você pode optar por excluir os perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Entrega {#delivery}
 
@@ -276,7 +278,7 @@ Além do modo padrão, as seguintes opções também estão disponíveis:
 
 Você pode definir os parâmetros de exclusão nesta seção. As opções disponíveis são:
 
-* **[!UICONTROL Manter duplicatas]** permite autorizar vários deliveries a recipients que atendem a vários critérios de definição do target.
+* **[!UICONTROL Manter duplicatas]** permite autorizar vários deliveries a perfis que atendem a vários critérios de definição do target.
 * **[!UICONTROL Manter endereços incluídos na lista de bloqueios]** permite manter do público-alvo os perfis que não estão mais sendo direcionados para entrega, como após um cancelamento de subscrição (opt-out).
 * **[!UICONTROL Manter endereços na quarentena]** permite excluir do público-alvo qualquer perfil com endereço que não responda.
 

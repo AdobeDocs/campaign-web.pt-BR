@@ -3,7 +3,7 @@ audience: end-user
 title: Enviar provas
 description: Saiba como definir e enviar provas
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 14%
@@ -21,7 +21,7 @@ Depois que o conteúdo da mensagem for definido, é possível pré-visualizá-lo
 
 Para detectar possíveis erros nas configurações de conteúdo ou personalização da mensagem, envie provas para perfis de teste antes de enviá-la para o público-alvo. Uma prova deve ser enviada sempre que uma alteração for feita, para validar o conteúdo mais recente. O envio de provas é uma etapa importante na validação da campanha e na identificação de possíveis problemas. Os recipients de prova podem verificar vários elementos, como links, links para opção de não participação, imagens ou mirror pages, bem como detectar erros na renderização, conteúdo, configurações de personalização e configuração do delivery.
 
-## Simular conteúdo com destinatários de teste {#simulate-content-test-deliveries}
+## Simular conteúdo com perfis de teste {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

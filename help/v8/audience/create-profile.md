@@ -2,9 +2,9 @@
 title: Criar um perfil
 description: Saiba como criar um perfil no Campaign Web.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 48%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Destinatários Não contatar mais"
+>title="Não contatar mais"
 >abstract="Esta seção oferece informações sobre as preferências de contato do perfil. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 >[!CONTEXTUALHELP]
@@ -52,7 +52,7 @@ Para criar um perfil, siga estas etapas:
 
 1. A lista de atributos disponíveis para a exibição do perfil, organizada em diferentes seções detalhadas na tabela abaixo.
 
-   ![](assets/create-profile.png){zoom=&quot;yes&quot;}
+   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
 
    | seção Atributos | Descrição |
    |  ---  |  ---  |

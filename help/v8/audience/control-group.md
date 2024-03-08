@@ -3,10 +3,10 @@ audience: end-user
 title: Definir um grupo de controle
 description: Saiba como definir um grupo de controle para suas mensagens na interface da Web do Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -62,31 +62,31 @@ Em seguida, use o **Limite de tamanho** para definir o número de perfis que pre
 
 ### Amostra do grupo de controle{#control-group-sample}
 
-Por exemplo, para criar um grupo de controle com os 100 novos recipients mais jovens, siga estas etapas:
+Por exemplo, para criar um grupo de controle com os 100 novos perfis mais novos, siga estas etapas:
 
 1. Selecione o **Idade** como um critério de classificação. Deixe a **Crescente** opção de classificação.
 1. Adicione o **Data de criação** campo. Altere para a variável **Decrescente** opção de classificação.
 1. Defina 100 como o limite no **Limite de tamanho** seção.
 
-   ![](assets/control-group2.png){zoom=&quot;yes&quot;}
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-Esses 100 novos recipients mais jovens são excluídos do target principal.
+Esses 100 novos perfis mais jovens são excluídos do público-alvo principal.
 
 ### Verifique seu grupo de controle {#check-control-group}
 
 Você pode visualizar os logs para verificar e identificar os perfis excluídos. Vejamos o exemplo de uma exclusão aleatória em cinco perfis.
 
-![](assets/control-group4.png){zoom=&quot;yes&quot;}
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 Após a preparação do delivery, é possível revisar como as exclusões foram aplicadas:
 
 * No painel de delivery, antes do envio, marque a opção **Para excluir** KPI.
 
-  ![](assets/control-group5.png){zoom=&quot;yes&quot;}
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * Nos logs do delivery, a guia Logs mostra a etapa de exclusão.
 
-  ![](assets/control-group-sample-logs.png){zoom=&quot;yes&quot;}
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -96,7 +96,7 @@ Após a preparação do delivery, é possível revisar como as exclusões foram 
 
 * A variável **Causas de exclusão** exibe o número de perfis excluídos para cada regra de tipologia.
 
-  ![](assets/control-group7.png){zoom=&quot;yes&quot;}
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 Para obter mais informações sobre logs de entrega, consulte esta [seção](../monitor/delivery-logs.md).
 
@@ -111,7 +111,7 @@ Outra maneira de definir um grupo de controle é selecionar uma população espe
 
 Na seção **População extra** do **Grupo de controle** na tela de definição, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
-![](assets/control-group3.png){zoom=&quot;yes&quot;}
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * Para usar um público existente, clique em **Selecionar público-alvo**. Saiba mais [nesta seção](add-audience.md).
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Direcionar destinatários a partir de um arquivo
-description: Saiba como usar destinatários de um arquivo externo para criar seu público-alvo de email
+title: Carregar um público-alvo de email a partir de um arquivo
+description: Saiba como carregar perfis de um arquivo externo para criar seu público-alvo de email
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 42%
+source-wordcount: '622'
+ht-degree: 40%
 
 ---
 
@@ -102,7 +102,7 @@ O Campaign Web permite visualizar e enviar provas ao usar um público-alvo carre
    >
    >Verifique se o formato do arquivo corresponde ao usado para fazer upload do seu público-alvo. Quaisquer erros de formato exibirão um alerta.
 
-1. Quando os recipients da prova forem adicionados e você estiver pronto para enviar as provas, clique no link **[!UICONTROL Enviar prova]** e confirme o envio.
+1. Quando os perfis de prova forem adicionados e você estiver pronto para enviar as provas, clique no link **[!UICONTROL Enviar prova]** e confirme o envio.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

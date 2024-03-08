@@ -1,10 +1,11 @@
 ---
 title: Introdução a perfis
 description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
-source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
+exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '538'
+ht-degree: 26%
 
 ---
 
@@ -32,9 +33,9 @@ ht-degree: 25%
 
 ## O que é um perfil? {#what}
 
-A **perfil**, também conhecido como &quot;recipients&quot; no console do cliente, representa um registro armazenado no banco de dados do Campaign, servindo como um componente principal para [criar públicos](create-audience.md) para deliveries e [adicionar personalização](../personalization/personalize.md) dados ao seu conteúdo. O Adobe Campaign permite gerenciar perfis com facilidade, desde a criação de novas entradas até o acesso a uma visualização abrangente de todos os atributos e assinaturas de serviços dos perfis, tudo isso por meio da interface do usuário na Web do Campaign.
+A **perfil**, também conhecido como &quot;recipient&quot; no console do cliente, representa um registro armazenado no banco de dados do Campaign, servindo como um componente principal para [criar públicos](create-audience.md) para deliveries e [adicionar personalização](../personalization/personalize.md) dados ao seu conteúdo. O Adobe Campaign permite gerenciar perfis com facilidade, desde a criação de novas entradas até o acesso a uma visualização abrangente de todos os atributos e assinaturas de serviços dos perfis, tudo isso por meio da interface do usuário na Web do Campaign.
 
-Além disso, **[!UICONTROL perfis de teste]**, identificados como &quot;perfis iniciais&quot; no console do cliente, permitem direcionar recipients adicionais que não correspondem aos critérios de direcionamento de um determinado delivery. Esses perfis contêm informações de contato fictícias ou informações de contato controladas pelo remetente. Eles podem ser adicionados ao público de uma mensagem para detectar qualquer uso fraudulento do banco de dados do recipient ou para garantir que os emails cheguem às caixas de entrada. [Saiba como trabalhar com perfis de teste](test-profiles.md)
+Além disso, **[!UICONTROL perfis de teste]**, identificados como &quot;perfis iniciais&quot; no console do cliente, permitem direcionar recipients adicionais que não correspondem aos critérios de direcionamento de um determinado delivery. Esses perfis contêm informações de contato fictícias ou informações de contato controladas pelo remetente. Os perfis de teste são recipients de prova: eles são usados para testar suas mensagens enviando provas. [Saiba como trabalhar com perfis de teste](test-profiles.md)
 
 Perfis e perfis de teste podem ser usados para testar seus deliveries antes que eles atinjam o público-alvo desejado. Ao fazer isso, você pode pré-visualizar o conteúdo e a personalização da mensagem, enviar provas de teste e validação, avaliar a renderização de email em várias plataformas e dispositivos e testar suas landing pages. [Saiba como visualizar e testar deliveries](../preview-test/preview-test.md)
 

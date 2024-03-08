@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '608'
+ht-degree: 10%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Criar perfis de teste"
->abstract="Os perfis de teste são criados como seed addresses. Eles são destinatários adicionais no banco de dados usados para direcionar perfis fictícios que não correspondem aos critérios definidos."
+>abstract="Os perfis de teste são recipients adicionais que permitem visualizar e testar a personalização e renderização antes de enviar suas mensagens. É possível selecionar um perfil de teste ao visualizar um conteúdo de mensagem e enviar provas aos perfis de teste para controlar e validar o conteúdo e as configurações da mensagem."
 
-Os perfis de teste são criados como seed addresses. Eles são recipients adicionais no banco de dados usados para direcionar perfis fictícios que não correspondem aos critérios de target definidos. Eles permitem visualizar e testar a personalização e renderização antes de enviar o delivery, enviando provas.
+Os perfis de teste são usados para enviar provas e validar o conteúdo e as configurações da mensagem. Esses perfis são recipients adicionais que permitem visualizar e testar a personalização e renderização antes de enviar suas mensagens. É possível selecionar um perfil de teste ao visualizar um conteúdo de mensagem e enviar provas aos perfis de teste para controlar e validar o conteúdo e as configurações da mensagem.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-As etapas para enviar provas para seed addresses estão detalhadas em [nesta seção](../preview-test/test-deliveries.md#test-profiles).
+As etapas para enviar provas para perfis de teste são detalhadas em [nesta seção](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->Os perfis de teste são excluídos automaticamente dos relatórios nas seguintes estatísticas de delivery: **[!UICONTROL Cliques]**, **[!UICONTROL Aberturas]**, **[!UICONTROL Cancelamentos de assinatura]**. [Saiba mais sobre relatórios]
+>* Os perfis de teste são criados como seed addresses no console do cliente.
+>
+>* Os perfis de teste são excluídos automaticamente dos relatórios nas seguintes estatísticas de delivery: **[!UICONTROL Cliques]**, **[!UICONTROL Aberturas]**, **[!UICONTROL Cancelamentos de assinatura]**.
 
 ## Acessar e gerenciar perfis de teste {#access-test-profiles}
 
@@ -62,7 +64,7 @@ No **[!UICONTROL Explorer]** visualização você também pode filtrar, excluir,
 >title="Dados adicionais de perfis de teste"
 >abstract="Insira os dados de personalização usados para as entregas criadas nos fluxos de trabalho de gerenciamento de dados e aos quais você deseja atribuir um valor específico."
 
-Para criar um perfil de teste, siga as etapas abaixo.
+Para criar um perfil de teste, siga as etapas abaixo:
 
 1. Navegue até **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** e selecione o **[!UICONTROL Perfis de teste]** guia.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -21,7 +21,7 @@ O construtor de regras permite definir a população direcionada pelo delivery f
 
 A paleta, localizada no lado esquerdo, contém todos os elementos que podem ser filtrados para criar o público-alvo. Você pode usar a barra de pesquisa para localizar elementos rapidamente. Os blocos gráficos contidos na paleta devem ser movidos para a tela central para serem configurados e considerados.
 
-![](assets/segment-builder2.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 A paleta é dividida em duas guias:
 
@@ -37,15 +37,15 @@ A paleta é dividida em duas guias:
 
 A tela é a área central onde você pode configurar e combinar regras com base nos elementos adicionados da paleta. Para adicionar uma nova regra, arraste um bloco da paleta e solte-o na tela. Você pode receber opções específicas do contexto, de acordo com o tipo de dado que está sendo adicionado.
 
-![](assets/segment-builder4.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## O painel de propriedades da regra
 
 No lado direito, a variável **Propriedades da regra** permite executar as ações listadas abaixo.
 
-![](assets/segment-builder5.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **Exibir resultados:** exibe a lista de recipients direcionados pelo público-alvo.
+* **Exibir resultados:** exibe a lista de perfis segmentados pelo público.
 * **Visualização de código**: exibe uma versão baseada em código do público-alvo em SQL.
 * **Exibir atributos avançados**: marque esta opção se quiser exibir a lista completa de atributos na paleta esquerda: nós, agrupamentos, links 1-1, links 1-N.
 * **Calcular**: atualiza e exibe o número de perfis segmentados pelo seu query.
@@ -63,26 +63,26 @@ Neste exemplo, criamos um público-alvo para direcionar todos os clientes que mo
 
 1. Na guia **Atributos** da paleta, procure pelo campo **Data de nascimento**. Arraste o bloco e solte-o na tela.
 
-   ![](assets/segment-builder6.png){zoom=&quot;yes&quot;}
+   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
 1. Na tela, escolha o operador **Após** e insira a data desejada.
 
-   ![](assets/segment-builder7.png){zoom=&quot;yes&quot;}
+   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 
 1. Na paleta, procure o campo **Cidade** e adicione-o na tela abaixo da primeira regra.
 
-   ![](assets/segment-builder8.png){zoom=&quot;yes&quot;}
+   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
 
 1. No campo de texto, digite o nome da cidade e pressione Enter.
 
-   ![](assets/segment-builder9.png){zoom=&quot;yes&quot;}
+   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
 
 1. Repita essa ação para o nome da segunda cidade.
 
-   ![](assets/segment-builder10.png){zoom=&quot;yes&quot;}
+   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **Exibir resultados** para exibir a lista e o número de recipients correspondentes à consulta. Também é possível adicionar colunas para visualizar e verificar os dados. No nosso exemplo, adicione a coluna **Cidade** e as opções Atlanta e Seattle deverão ser exibidas.
 
-   ![](assets/segment-builder11.png){zoom=&quot;yes&quot;}
+   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **Confirmar**.
