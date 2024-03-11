@@ -8,7 +8,7 @@ breadcrumb-title: Interface do Campaign Web
 source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 96%
    + [Enviar mensagens a assinantes](msg/send-to-subscribers.md)
    + [Definir configurações de entrega](advanced-settings/delivery-settings.md)
    + Visualizar e testar a entrega {#preview-test}
-      + [Sobre pré-visualização e provas](preview-test/preview-test.md)
+      + [Sobre a visualização e provas](preview-test/preview-test.md)
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
       + [Enviar provas](preview-test/test-deliveries.md)
       + [Testar a renderização do email](preview-test/email-rendering.md)
