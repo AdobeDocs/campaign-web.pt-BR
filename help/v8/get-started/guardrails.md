@@ -1,15 +1,15 @@
 ---
-title: Medidas de proteção e limitações nos workflows da interface da Web do Campaign
-description: Medidas de proteção e limitações ao trabalhar com workflows na interface do usuário da Web do Campaign
+title: Medidas de proteção e limitações nos workflows da interface do Campaign Web
+description: Medidas de proteção e limitações ao trabalhar com workflows na interface do Campaign Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Medidas de proteção e limitações para fluxos de trabalho {#guardrails-limitations}
+# Medidas de proteção e limitações para workflows {#guardrails-limitations}
 
 As medidas de proteção e limitações listadas abaixo se aplicam ao trabalhar na interface do Campaign Web com fluxos de trabalho criados ou modificados no console do cliente do Campaign.
 

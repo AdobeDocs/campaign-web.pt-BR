@@ -4,9 +4,9 @@ title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ Alguns recursos só estão disponíveis no console do cliente. Navegue pelos lin
 
 ## Modelagem e ingestão de dados {#data-capabilities}
 
-A interface do Campaign Web não possui os recursos a seguir. Eles só estão disponíveis no console do cliente:
+A interface do Campaign Web não possui os recursos a seguir. Só estão disponíveis no console do cliente:
 
 ### Contas externas {#external}
 
@@ -162,13 +162,13 @@ O Adobe Campaign inclui um conjunto de contas externas predefinidas para se cone
 
 A criação, modificação e extensão de esquemas são restritas a usuários avançados. Esses recursos só estão disponíveis no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=pt-BR){target="_blank"}
 
-### Recursos de gerenciamento de dados de workflows {#data}
+### Recursos de gerenciamento de dados de workflow {#data}
 
-O Gerenciamento de dados combina um conjunto de atividades para resolver problemas complexos de direcionamento, oferecendo ferramentas mais eficientes e flexíveis, como Carregamento de dados, Extração (arquivo), Atualização de dados, Edição de esquema ou Fluxos de trabalho técnicos de Importação/exportação. [Descubra os recursos de gerenciamento de dados de fluxos de trabalho no console do cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=pt-BR#data-management){target="_blank"}
+O Gerenciamento de dados combina um conjunto de atividades para resolver problemas complexos de direcionamento, oferecendo ferramentas mais eficientes e flexíveis, como Carregamento de dados, Extração (arquivo), Atualização de dados, Edição de esquema ou Workflows técnicos de importação/exportação. [Descubra os recursos de gerenciamento de dados de workflows no console do cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=pt-BR#data-management){target="_blank"}
 
 >[!NOTE]
 >
->Embora algumas dessas atividades estejam disponíveis somente no console do cliente, algumas estão disponíveis na interface da Web do Campaign, como **Enriquecimento**, **Carregar arquivo** ou **Alterar dimensão** atividades. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do usuário da Web do Campaign](../workflows/activities/about-activities.md#targeting)
+>Embora algumas dessas atividades estejam disponíveis somente no console do cliente, outras podem ser encontradas na interface do Campaign Web, como as atividades **Enriquecimento**, **Carregar arquivo** ou **Alterar dimensão**. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do Campaign Web](../workflows/activities/about-activities.md#targeting)
 
 ### Configuração do Federated Data Access {#fda}
 

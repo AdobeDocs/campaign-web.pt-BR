@@ -4,9 +4,9 @@ title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,33 +20,33 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Este público-alvo é somente de leitura"
->abstract="Você não tem permissões para editar este público-alvo. Se necessário, entre em contato com o administrador para obter acesso."
+>abstract="Você não tem permissões para editar este público-alvo. Se necessário, entre em contato com a sua administração para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Este serviço é somente de leitura."
->abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com o administrador para obter acesso."
+>abstract="Você não tem permissões para editar este serviço. Se necessário, entre em contato com a sua administração para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="Perfil somente leitura de destinatários"
->abstract="Você não tem permissão para editar este perfil. Se necessário, entre em contato com o administrador para obter acesso."
+>title="Perfil de somente leitura de destinatários"
+>abstract="Você não tem permissões para editar este perfil. Se necessário, entre em contato com a sua administração para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
 >title="Esta campanha é somente de leitura"
->abstract="Você não tem permissões para editar esta campanha. Se necessário, entre em contato com o administrador para obter acesso."
+>abstract="Você não tem permissões para editar esta campanha. Se necessário, entre em contato com a sua administração para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="Esta entrega é somente de leitura"
->abstract="Você não tem permissões para editar esta entrega. Se necessário, entre em contato com o administrador para obter acesso."
+>abstract="Você não tem permissões para editar esta entrega. Se necessário, entre em contato com a sua administração para obter acesso."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
 >title="Este workflow é de somente leitura"
->abstract="Você não tem permissões para editar este fluxo de trabalho. Se necessário, entre em contato com o administrador para obter acesso."
+>abstract="Você não tem permissões para editar este fluxo de trabalho. Se necessário, entre em contato com a sua administração para obter acesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
