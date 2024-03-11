@@ -6,7 +6,7 @@ badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
+source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 24%
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 
 >[!CONTEXTUALHELP]
->id="acw_emagica_generate"
+>id="acw_emagica_generate_test"
 >title="Termos de IA generativa da Adobe"
 >abstract="O acesso a esse recurso está sujeito ao seu acordo com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. Quaisquer prompts, contexto, informações complementares ou outras informações fornecidas para este recurso devem ser vinculadas a um contexto específico, que pode incluir materiais de marca, conteúdo do site, dados, esquemas desses dados, modelos ou outros documentos confiáveis"
 
