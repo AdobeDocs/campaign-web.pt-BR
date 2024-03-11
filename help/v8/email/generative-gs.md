@@ -6,10 +6,10 @@ badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
+source-git-commit: a6211ff3302df48eaa8d04f2ed8ce023ec8b8b93
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 24%
+source-wordcount: '531'
+ht-degree: 22%
 
 ---
 
@@ -19,12 +19,9 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate_test"
 >title="Termos de IA generativa da Adobe"
->abstract="O acesso a esse recurso está sujeito ao seu acordo com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. Quaisquer prompts, contexto, informações complementares ou outras informações fornecidas para este recurso devem ser vinculadas a um contexto específico, que pode incluir materiais de marca, conteúdo do site, dados, esquemas desses dados, modelos ou outros documentos confiáveis"
+>abstract="O acesso a esse recurso está sujeito ao seu acordo com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. Quaisquer prompts, contexto, informações complementares ou outras informações fornecidas para este recurso devem ser vinculadas a um contexto específico, que pode incluir materiais de marca, conteúdo de site, dados, esquemas para tais dados, modelos ou outros documentos confiáveis, e não devem conter nenhuma informação pessoal (as informações pessoais incluem tudo o que pode ser vinculado a um indivíduo específico). Você deve revisar qualquer saída desse recurso para precisão e garantir que seja apropriada para seu caso de uso"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Diretrizes do usuário da IA geradora de Adobe"
 
-<!--
-", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
--->
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
