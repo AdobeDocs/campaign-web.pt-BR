@@ -6,7 +6,7 @@ badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f9fb2adf326b093114854fd36f11a90d49c7a3d2
+source-git-commit: a404a404207b095a0745768bfe596021dcdcad56
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 21%
@@ -19,7 +19,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Termos de IA generativa da Adobe"
->abstract="O acesso a esse recurso está sujeito ao seu acordo com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud e ao seguinte:<br>Quaisquer prompts, contexto, informações complementares ou outras informações fornecidas para este recurso (a) devem ser vinculadas a um contexto específico, que pode incluir materiais de marca, conteúdo do site, dados, esquemas para tais dados, modelos ou outros documentos confiáveis, e (b) não devem conter nenhuma informação pessoal (as informações pessoais incluem tudo o que pode ser vinculado a um indivíduo específico).<br>Você deve revisar qualquer saída desse recurso para precisão e garantir que seja apropriada para seu caso de uso."
+>abstract="O acesso a esse recurso está sujeito ao seu acordo com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud e ao seguinte: Quaisquer prompts, contexto, informações complementares ou outras informações fornecidas para esse recurso (a) devem ser vinculadas a um contexto específico, que pode incluir materiais de marca, conteúdo do site, dados, esquemas para esses dados, modelos ou outros documentos confiáveis e (b) não devem conter nenhuma informação pessoal (as informações pessoais incluem tudo o que pode ser vinculado a um indivíduo específico). Você deve revisar qualquer saída desse recurso para precisão e garantir que seja apropriada para seu caso de uso."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Diretrizes do usuário da IA geradora de Adobe"
 
 
