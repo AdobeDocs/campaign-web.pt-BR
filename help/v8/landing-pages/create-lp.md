@@ -2,10 +2,11 @@
 title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 26%
+ht-degree: 34%
 
 ---
 
@@ -60,12 +61,12 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definir opções de pré-carregamento"
->abstract="Quando a variável **Preencher previamente com os dados referenciados no formulário** for selecionada, se o visitante da landing page corresponder a um perfil do banco de dados, as informações do perfil serão pré-carregadas automaticamente no formulário. Com o **Ignorar pré-carregamento se nenhuma ID** opção selecionada, cada perfil inserido será adicionado ao banco de dados após a aprovação do formulário."
+>abstract="Quando a opção **Preencher previamente com os dados referenciados no formulário** estiver selecionada, visitantes da página de destino quem correspondem a um perfil do banco de dados terão as informações do seu perfil pré-carregadas automaticamente no formulário. Com a opção **Ignorar pré-carregamento na ausência de ID** selecionada, cada perfil inserido será adicionado ao banco de dados após a aprovação do formulário."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
 >title="Definir opções de armazenamento"
->abstract="A seção preloading permite indicar como localizar o registro a ser atualizado no banco de dados."
+>abstract="A seção de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados."
 
 <!--The main steps to create landing pages are as follows:
 
@@ -99,7 +100,7 @@ Para criar uma landing page, siga estas etapas:
 
 1. No **[!UICONTROL Pré-carregamento de dados]** , as duas opções abaixo são selecionadas por padrão:
 
-   * Quando a variável **[!UICONTROL Preencher previamente com os dados referenciados no formulário]** for selecionada, se o visitante da landing page corresponder a um perfil do banco de dados, as informações do perfil serão pré-carregadas automaticamente no formulário. O usuário só precisa preencher os campos ausentes e atualizar os valores existentes, se necessário. Isso permite mesclar dados de perfis existentes, em vez de criar duplicatas.
+   * Quando a opção **[!UICONTROL Preencher previamente com os dados referenciados no formulário]** estiver selecionada, visitantes da página de destino quem correspondem a um perfil do banco de dados terão as informações do seu perfil pré-carregadas automaticamente no formulário. O usuário só precisa preencher os campos ausentes e atualizar os valores existentes, se necessário. Isso permite mesclar dados de perfis existentes, em vez de criar duplicatas.
 
    * A variável **[!UICONTROL Ignorar pré-carregamento se nenhuma ID]** deve ser selecionada se você não deseja atualizar os perfis. Nesse caso, cada perfil inserido será adicionado ao banco de dados após a aprovação do formulário. Essa opção é usada, por exemplo, quando o formulário é postado em um site.
 

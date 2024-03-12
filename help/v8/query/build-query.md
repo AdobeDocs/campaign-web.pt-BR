@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -236,7 +236,7 @@ No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos p
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Propriedades da regra"
->abstract="Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades da regra** painel localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o **Selecionar ou salvar filtro** botão para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro existente."
+>abstract="Depois de criar a consulta na tela, é possível verificá-la usando o painel **Propriedades da regra** localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o botão **Selecionar ou salvar filtro** para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro."
 
 Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades da regra** painel localizado no lado direito. As operações disponíveis são:
 

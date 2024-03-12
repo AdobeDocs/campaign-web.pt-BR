@@ -6,7 +6,7 @@ exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 20%
+ht-degree: 32%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_global_report"
 >title="Relatório global"
->abstract="Os Relatórios globais oferecem uma maneira poderosa e eficiente de analisar o desempenho da campanha. Esses relatórios fornecem uma exibição consolidada do tráfego principal e das métricas de envolvimento de cada canal da campanha."
+>abstract="Os relatórios globais oferecem uma maneira avançada e eficiente de analisar o desempenho da sua campanha. Esses relatórios fornecem uma visualização consolidada do tráfego principal e das métricas de engajamento de cada canal da sua campanha."
 
 Os **relatórios globais** funcionam como uma ferramenta eficiente, oferecendo um resumo geral consolidado das métricas de tráfego e engajamento para cada canal na instância do seu Campaign. Esses relatórios consistem em vários dispositivos, cada um oferecendo uma perspectiva distinta sobre sua campanha ou desempenho de entrega.
 

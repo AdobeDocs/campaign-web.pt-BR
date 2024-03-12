@@ -4,7 +4,7 @@ title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 

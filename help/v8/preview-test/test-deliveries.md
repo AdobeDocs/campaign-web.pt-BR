@@ -6,7 +6,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ Para começar a testar o conteúdo da mensagem:
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Incluir perfis de teste no público-alvo principal"
->abstract="Habilite essa opção para também enviar a mensagem final para os recipients da prova."
+>abstract="Habilite essa opção para também enviar a mensagem final para os destinatários da prova."
 
 Os perfis de teste são recipients adicionais no banco de dados. Eles são criados a partir da variável **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
 

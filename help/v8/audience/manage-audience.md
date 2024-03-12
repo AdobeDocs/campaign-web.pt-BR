@@ -29,7 +29,7 @@ Ao direcionar um público-alvo, você também pode definir **grupos de controle*
 >
 >Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo é definido em um **Criar público-alvo** atividade de workflow. Nesse contexto, não é possível carregar um público-alvo de um arquivo para uma entrega de email, e o público-alvo é definido somente nessa atividade dedicada. Saiba como definir o público-alvo do seu delivery em um fluxo de trabalho de campanha no [nesta seção](../workflows/activities/build-audience.md)
 
-## Monitorar públicos {#monitor}
+## Monitorar públicos-alvos {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
@@ -68,7 +68,7 @@ A variável **[!UICONTROL Dados]** permite visualizar os perfis que fazem parte 
 
 Para duplicar ou excluir um público-alvo, clique no **[!UICONTROL Mais ações]** botão disponível na lista públicos-alvo ao lado do nome do público-alvo ou dentro de uma tela de detalhes do público-alvo.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como criar um destino para usar um público-alvo Experience Platform na interface da Web do Adobe Campaign.
 

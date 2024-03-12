@@ -7,10 +7,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -24,8 +25,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="Copie o URL com cuidado"
->abstract="Ao criar uma landing page, quatro templates prontos para uso permitem implementar diferentes casos de uso: adicionar ou atualizar um perfil no banco de dados do Campaign, assinar um serviço para os clientes, cancelar a assinatura de um serviço ou recusar o uso."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Criar uma landing page"
+>abstract="Ao criar uma página de destino, quatro modelos prontos para uso permitem implementar diferentes casos de uso: adicionar ou atualizar um perfil no banco de dados do Campaign, assinar um serviço para os clientes, cancelar a assinatura de um serviço ou recusar usuários."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=pt-BR#create-landing-page" text="Criar uma landing page"
 
 Para usar adequadamente a landing page, você deve referenciá-la como um link em um delivery usando a opção dedicada.
 
@@ -214,14 +215,3 @@ Por exemplo, se você optou por atualizar a variável **[!UICONTROL Canal (email
 ![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 Este perfil não receberá comunicações por email da sua marca, a menos que faça a assinatura novamente.
-
-
-
-
-
-
-
-
-
-
-
