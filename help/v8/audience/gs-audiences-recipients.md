@@ -3,7 +3,7 @@ title: Introdução a perfis e públicos-alvo
 description: Saiba como trabalhar com perfis e públicos-alvo no Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Agora que você entende o que pode fazer no Adobe Campaign Web, é hora de se ap
 <img alt="Pouco frequente" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="add-audience.md"><strong>Selecione os recipients da entrega</strong></a>
+<a href="add-audience.md"><strong>Selecione os destinatários da entrega</strong></a>
 </div>
 <p></td>
 </tr></table>

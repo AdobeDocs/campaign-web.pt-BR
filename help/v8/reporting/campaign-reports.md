@@ -6,7 +6,7 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -38,27 +38,27 @@ Para acessar e gerenciar os relatórios da campanha, siga estas etapas:
 
 1. Navegue até a **[!UICONTROL Campanhas]** menu. Clique em **Relatórios** no painel da campanha.
 
-   ![](assets/manage_campaign_report_2.png){zoom=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
 
    Como alternativa, você pode usar os três pontos **Mais ações** ao lado do nome da campanha na lista de campanhas e selecione **[!UICONTROL Exibir relatório]**.
 
-   ![](assets/manage_campaign_report_1.png){zoom=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
 
 1. No menu esquerdo, selecione um relatório da lista e navegue pela guia para exibir dados de cada canal.
 
-   ![](assets/manage_campaign_report_4.png){zoom=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. No painel, clique em **[!UICONTROL Selecionar deliveries]** se quiser direcionar um delivery específico incluído na campanha.
 
 1. No **[!UICONTROL Taxa de transferência de entrega]** selecione um **Início** e **[!UICONTROL Hora final]** para direcionar dados específicos.
 
-   ![](assets/manage_campaign_report_3.png){zoom=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
 
 1. No **[!UICONTROL Escolher pasta]** selecione se desejar direcionar deliveries ou campanha da pasta específica.
 
    Também é possível selecionar **[!UICONTROL Adicionar regras]** para começar a criar consultas para filtrar melhor os dados de relatórios. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png){zoom=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. No **[!UICONTROL Fluxos de clique e URLs]**, você também pode escolher a variável **[!UICONTROL Links mais visitados]** ou o **[!UICONTROL Período]**.
 

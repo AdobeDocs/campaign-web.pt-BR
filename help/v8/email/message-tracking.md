@@ -6,13 +6,13 @@ exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Adicionar links e rastrear mensagens {#tracking}
 
-Use o Designer de email para adicionar links ao seu conteúdo e rastrear as mensagens enviadas, a fim de monitorar o comportamento dos recipients.
+Use o Designer de email para adicionar links ao seu conteúdo e rastrear as mensagens enviadas, a fim de monitorar o comportamento dos destinatários.
 
 ## Inserir links {#insert-links}
 
@@ -26,7 +26,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
-   ![](assets/message-tracking-insert-link.png){zoom=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. Adicione um **[!UICONTROL Rótulo]** e um **[!UICONTROL Link]**.
 
@@ -37,7 +37,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
    * Você pode editar o link e alterar seu **[!UICONTROL Público-alvo]**.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
 
-   ![](assets/message-tracking-link-settings.png){zoom=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -55,11 +55,11 @@ O [Designer de email](create-email-content.md) permite gerenciar os URLs rastrea
 
 1. Para editar um link, clique no ícone de lápis correspondente.
 
-   ![](assets/message-tracking-edit-links.png){zoom=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]**, se necessário:
 
-   ![](assets/message-tracking-edit-a-link.png){zoom=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    Para cada URL rastreado é possível definir o modo de rastreamento utilizando um destes valores:
 
@@ -70,6 +70,6 @@ O [Designer de email](create-email-content.md) permite gerenciar os URLs rastrea
 
 1. Adicione uma **[!UICONTROL Categoria]** ao seu link para agrupar links rastreados e clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoom=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. Após enviar a entrega, acesse o relatório de entrega. Em **[!UICONTROL Rastreamento]**, o relatório **[!UICONTROL Fluxos de cliques e URL]** exibe quais são os URLs mais visitados de sua entrega. [Saiba mais](../reporting/gs-reports.md)

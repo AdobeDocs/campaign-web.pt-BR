@@ -81,7 +81,7 @@ Neste exemplo, criamos um público-alvo para direcionar todos os clientes que mo
 
    ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
-1. Clique em **Exibir resultados** para exibir a lista e o número de recipients correspondentes à consulta. Também é possível adicionar colunas para visualizar e verificar os dados. No nosso exemplo, adicione a coluna **Cidade** e as opções Atlanta e Seattle deverão ser exibidas.
+1. Clique em **Exibir resultados** para exibir a lista e o número de destinatários correspondentes à consulta. Também é possível adicionar colunas para visualizar e verificar os dados. No nosso exemplo, adicione a coluna **Cidade** e as opções Atlanta e Seattle deverão ser exibidas.
 
    ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 

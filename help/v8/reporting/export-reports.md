@@ -6,7 +6,7 @@ exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 28%
 
 1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Exportar como arquivo PDF]** ou **[!UICONTROL Exportar como arquivo CSV]**.
 
-   ![](assets/global_report_export.png){zoom=&quot;yes&quot;}
+   ![](assets/global_report_export.png){zoomable=&quot;yes&quot;}
 
 1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em **[!UICONTROL Salvar]**.
 

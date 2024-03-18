@@ -61,7 +61,7 @@ O Adobe Campaign Web apresenta um eficiente modelador de consultas que simplific
 * Aplicar regras em atividades de workflow, como Divisão e Reconciliação, para alinhar-se aos requisitos específicos
 * Criar filtros predefinidos que servem como atalhos durante diversas operações de filtragem, seja trabalhando com listas de dados ou formando o público-alvo para uma entrega
 * Adicionar uma regra para filtrar os dados exibidos nos relatórios.
-* Criar regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de entregas e muito mais
+* Criar regras personalizadas para filtrar os dados exibidos em listas como destinatários, listas de entregas e muito mais
 
 Saiba mais [nesta seção](../query/query-modeler-overview.md).
 

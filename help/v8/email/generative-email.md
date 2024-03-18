@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -36,7 +36,7 @@ Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas a
 
 1. No menu à direita, selecione **[!UICONTROL Geração de experiência]**.
 
-   ![](assets/email-genai-1.png){zoom=&quot;yes&quot;}
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar.
 
@@ -46,7 +46,7 @@ Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas a
    * Para Feedbacks e Pesquisas: crie um email convidando os clientes a fornecer feedback sobre sua experiência recente com software e a participar de uma pesquisa de melhoria de produtos.
    * Para emails de aniversário: gere um email de aniversário, comemorando o dia especial do cliente e oferecendo a ele um desconto de aniversário.
 
-   ![](assets/email-genai-2.png){zoom=&quot;yes&quot;}
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
 
@@ -56,7 +56,7 @@ Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas a
 
 1. Escolha o **[!UICONTROL Idioma]** e **[!UICONTROL Tom]** que você deseja que o texto gerado tenha. Isso garantirá que o texto seja adequado ao seu público-alvo e propósito.
 
-   ![](assets/email-genai-3.png){zoom=&quot;yes&quot;}
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Personalize o **[!UICONTROL Tipo de conteúdo]** configurações de ativos para corresponder às características desejadas do ativo.
 
@@ -64,16 +64,16 @@ Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas a
 
 1. Navegue pelo **[!UICONTROL Sugestões de variação]** para localizar o email desejado. Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
 
-   ![](assets/email-genai-4.png){zoom=&quot;yes&quot;}
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
-   ![](assets/email-genai-5.png){zoom=&quot;yes&quot;}
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Insira campos de personalização para personalizar seu conteúdo de email com base nos dados de perfil ou personalize ainda mais seu conteúdo, se necessário. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
 1. Após definir o conteúdo de email, clique no link **[!UICONTROL Simular conteúdo]** botão para controlar a renderização e verificar as configurações de personalização com perfis de teste.  [Saiba mais](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png){zoom=&quot;yes&quot;}
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)

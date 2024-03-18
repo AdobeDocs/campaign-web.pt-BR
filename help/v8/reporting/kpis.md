@@ -27,7 +27,7 @@ As métricas são calculadas para entregas enviadas nos 7 dias anteriores por pa
 
 É possível selecionar o canal a ser exibido. Por padrão, esses indicadores refletem as métricas do canal de email.
 
-![](assets/kpi.png){zoom=&quot;yes&quot;}
+![](assets/kpi.png){zoomable=&quot;yes&quot;}
 
 ## Mensagem entregue {#ui-delivered-kpi}
 
@@ -56,7 +56,7 @@ Contagem de mensagens para as quais o campo “seed address” é igual a “Nã
 >title="Aberturas"
 >abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens abertas e a porcentagem de mensagens abertas em comparação ao número total de mensagens entregues com sucesso."
 
-O total de aberturas é calculado rastreando o número total de vezes que uma mensagem é aberta, independentemente de quantos recipients individuais geram essas aberturas. Esse indicador só está disponível para emails.
+O total de aberturas é calculado rastreando o número total de vezes que uma mensagem é aberta, independentemente de quantos destinatários individuais geram essas aberturas. Esse indicador só está disponível para emails.
 
 O indicador **Aberturas** mostra os seguintes KPIs para cada canal:
 
@@ -64,7 +64,7 @@ O indicador **Aberturas** mostra os seguintes KPIs para cada canal:
 
 * Soma de todas as mensagens abertas por canal.
 
-O Adobe Campaign detecta a abertura da mensagem quando o recipient faz o download das imagens do email. Os emails em HTML e Multipart/alternative incluem uma imagem de 0 pixel, que permite detectar mensagens que foram abertas. Como as mensagens em formato de texto não incluem imagens, é impossível detectar se foram abertas ou não. Os valores calculados com base na abertura de mensagem são sempre estimativas, devido à margem de erro vinculada à exibição de imagem.
+O Adobe Campaign detecta a abertura da mensagem quando o destinatário faz o download das imagens do email. Os emails em HTML e Multipart/alternative incluem uma imagem de 0 pixel, que permite detectar mensagens que foram abertas. Como as mensagens em formato de texto não incluem imagens, é impossível detectar se foram abertas ou não. Os valores calculados com base na abertura de mensagem são sempre estimativas, devido à margem de erro vinculada à exibição de imagem.
 
 
 
@@ -75,7 +75,7 @@ O Adobe Campaign detecta a abertura da mensagem quando o recipient faz o downloa
 >title="Cliques"
 >abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os URLs clicados nas mensagens e a porcentagem de cliques em comparação ao número total de mensagens entregues com sucesso."
 
-É possível adicionar URLs no conteúdo da mensagem, o que redireciona os recipients para uma página específica. O Índice de click-through mede o número e a porcentagem de recipients que clicaram em um link na mensagem.
+É possível adicionar URLs no conteúdo da mensagem, o que redireciona os destinatários para uma página específica. O Índice de click-through mede o número e a porcentagem de destinatários que clicaram em um link na mensagem.
 
 O indicador **Cliques** mostra os seguintes KPIs para cada canal:
 
@@ -83,7 +83,7 @@ O indicador **Cliques** mostra os seguintes KPIs para cada canal:
 
 * Número de pessoas distintas que clicaram pelo menos uma vez em uma entrega. Os links de unsubscription e os links para mirror pages de email são excluídos.
 
-Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingStats`). Essa tabela agregada é usada por motivos de desempenho ao exibir relatórios, em vez da tabela Logs de rastreamento de recipients (`nms:trackingLogRcp`), e não é calculada em tempo real. A tabela é gerada alguns minutos após os logs de rastreamento serem recuperados.
+Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingStats`). Essa tabela agregada é usada por motivos de desempenho ao exibir relatórios, em vez da tabela Logs de rastreamento de destinatários (`nms:trackingLogRcp`), e não é calculada em tempo real. A tabela é gerada alguns minutos após os logs de rastreamento serem recuperados.
 
 
 ## Taxas de assinatura {#ui-sub-kpi}
@@ -111,7 +111,7 @@ A variável **Assinaturas** O indicador mostra os seguintes KPIs. Para cada cana
 >abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os cancelamentos de assinatura de um serviço e a porcentagem de cancelamentos de assinatura em comparação ao número total de mensagens entregues com sucesso."
 
 
-Os recipients devem poder se desvincular de emails e SMS por meio de um link de unsubscription dedicado no conteúdo do email ou respondendo PARAR a um SMS.
+Os destinatários devem poder se desvincular de emails e SMS por meio de um link de unsubscription dedicado no conteúdo do email ou respondendo PARAR a um SMS.
 
 O indicador **Unsubscriptions** mostra os seguintes KPIs para cada canal:
 

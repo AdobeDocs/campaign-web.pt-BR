@@ -3,7 +3,8 @@ audience: end-user
 title: Introdução às páginas de destino
 description: Saiba mais sobre as páginas de destino no Campaign Web
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%

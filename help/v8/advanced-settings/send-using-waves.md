@@ -3,13 +3,13 @@ audience: end-user
 title: Enviar usando ondas
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 42%
+ht-degree: 43%
 
 ---
-
 
 # Enviar usando ondas {#send-using-waves}
 
@@ -46,7 +46,7 @@ Para enviar deliveries usando ondas, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >Certifique-se de que as últimas ondas não excedam o prazo do delivery, definido na [Validade](delivery-settings.md#validity) , caso contrário, algumas mensagens poderão não ser enviadas. Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >Certifique-se de que as últimas ondas não excedam o prazo do delivery, definido na [Validade](delivery-settings.md#validity) , caso contrário, algumas mensagens poderão não ser enviadas. Uma regra de controle de tipologia específica, **[!UICONTROL Verificação de agendamento de onda]**, garante que a última onda seja planejada antes do limite da validade do delivery. Saiba mais sobre regras de controle no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=pt-BR).
    >
    >Você também deverá permitir tempo suficiente para novas tentativas ao configurar as últimas ondas. [Saiba mais](delivery-settings.md#retries)
 
@@ -56,7 +56,7 @@ Para enviar deliveries usando ondas, siga as etapas abaixo.
 
 Se você selecionar essa opção, todas as ondas terão o mesmo tamanho (exceto a última) e o atraso entre cada onda será sempre o mesmo.
 
-![](assets/waves-same-size.png){zoom=&quot;yes&quot;}
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * Especifique o tamanho de todas as ondas nas quais você está dividindo o delivery. Você pode inserir uma porcentagem ou um valor numérico. Somente a última onda pode variar de tamanho, pois deve incluir o número restante de mensagens.
 
@@ -70,7 +70,7 @@ Usando ondas, você poderá restringir o número de mensagens a 20 por dia, que 
 
 Para fazer isso, selecione a opção **[!UICONTROL Schedule multiple waves of the same size]**. Enter **[!UICONTROL 20]** como o tamanho e **[!UICONTROL 1 dia]** no **[!UICONTROL Interval]** campo.
 
-![](assets/waves-call-center.png){zoom=&quot;yes&quot;}
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## Agendar ondas de acordo com um calendário {#waves-calendar}
 
@@ -88,7 +88,7 @@ Adicione quantas ondas desejar. Você pode reorganizá-los de acordo com suas ne
 
 No exemplo abaixo, a primeira onda representa 25% do número total de mensagens incluídas no delivery e começa imediatamente. As próximas duas ondas completam a entrega e são definidas para começar em intervalos de seis horas.
 
-![](assets/waves-calendar.png){zoom=&quot;yes&quot;}
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 Um caso de uso comum para usar várias ondas de acordo com um calendário é durante o processo de aumento.
 
@@ -98,7 +98,4 @@ Para evitar ser marcado como spam, você poderá aumentar progressivamente o vol
 
 Para fazer isso, use a opção **[!UICONTROL Schedule waves according to a calendar]**. Por exemplo, defina a primeira onda para 10%, a segunda para 15%, a terceira para 20% e assim por diante.
 
-![](assets/waves-ramp-up.png){zoom=&quot;yes&quot;}
-
-
-
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}

@@ -5,7 +5,7 @@ description: Saiba mais sobre Relatórios globais para o canal de correspondênc
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]**
 
 A variável **[!UICONTROL Visão geral da entrega]** O apresenta as principais métricas de desempenho (KPIs) com informações detalhadas sobre a interação de seus visitantes com cada delivery de email. As métricas estão descritas abaixo.
 
-![](assets/global_report_email_delivery_overview.png){zoom=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
@@ -38,7 +38,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O apresenta as principais m
 
 A tabela e o gráfico para **[!UICONTROL Público-alvo]** mostre dados relacionados aos seus recipients, com as métricas detalhadas fornecidas abaixo.
 
-![](assets/global_report_email_targeted_audience.png){zoom=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre métricas de Público-alvo direcionado.
 
@@ -54,7 +54,7 @@ A tabela e o gráfico para **[!UICONTROL Público-alvo]** mostre dados relaciona
 
 A variável **[!UICONTROL Estatísticas de entrega]** A tabela fornece um detalhamento do sucesso de cada delivery de correspondência direta, com métricas detalhadas descritas abaixo.
 
-![](assets/global_report_email_delivery_statistics.png){zoom=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Saiba mais sobre Estatísticas de entrega.
 
@@ -70,7 +70,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** A tabela fornece um detalh
 
 ### Causas de exclusão {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoom=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 O gráfico e a tabela de Exclusões ilustram os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 

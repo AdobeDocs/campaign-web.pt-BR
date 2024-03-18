@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -47,11 +47,11 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Editar conteúdo]** botão no [painel de delivery de email](../email/create-email.md) tela.
 
-   ![](assets/email-edit-content-button.png){zoom=&quot;yes&quot;}
+   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
 
 1. A tela de edição de conteúdo de email é aberta.
 
-   ![](assets/email-edit-content-dashboard.png){zoom=&quot;yes&quot;}
+   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -69,9 +69,9 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
    >
    >Você pode alterar a parte anterior a &#39;@&#39;, mas não o endereço do domínio.
 
-1. Expanda a **[!UICONTROL Campos de resposta]** seção. O nome e os endereços do remetente são usados por padrão para respostas. No entanto, a Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
+1. Expanda a **[!UICONTROL Campos de resposta]** seção. O nome e os endereços do remetente são usados por padrão para respostas. No entanto, a Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um destinatário enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
 
-   ![](assets/email-edit-content-reply-to.png){zoom=&quot;yes&quot;}
+   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
 
 1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de expressão para adicionar [personalização](../personalization/personalize.md) usando vários atributos e blocos de conteúdo ou ofertas.
 

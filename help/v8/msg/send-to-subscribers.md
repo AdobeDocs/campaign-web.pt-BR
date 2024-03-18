@@ -6,7 +6,7 @@ exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,25 +22,25 @@ Para enviar mensagens aos assinantes, crie um público-alvo específico para ide
 
 1. Abra o **[!UICONTROL Criar público-alvo]** e selecione **[!UICONTROL Criar público]**. [Saiba como configurar uma atividade Criar público-alvo](../workflows/activities/build-audience.md)
 
-   ![](assets/service-create-audience.png){zoom=&quot;yes&quot;}
+   ![](assets/service-create-audience.png){zoomable=&quot;yes&quot;}
 
 1. No fluxo de criação de público-alvo, selecione as seguintes condições personalizadas: **[!UICONTROL Assinaturas]** existem, como **[!UICONTROL Serviço]** é igual ao serviço definido. Neste exemplo, selecione o **Informativo sobre ioga em Luma**.
 
-   ![](assets/service-audience-subscribers.png){zoom=&quot;yes&quot;}
+   ![](assets/service-audience-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. Selecionar **[!UICONTROL Confirmar o]** e clique em **[!UICONTROL Início]** para executar o workflow.
 
 1. Criar um delivery. As etapas para criar um delivery estão detalhadas em [esta página](../msg/gs-messages.md#create-delivery).
 1. Navegue até as configurações de entrega e altere o target mapping padrão para **Assinaturas (nms:subscriptions)**.
 
-   ![](assets/service-delivery-change-mapping.png){zoom=&quot;yes&quot;}
+   ![](assets/service-delivery-change-mapping.png){zoomable=&quot;yes&quot;}
 
 1. Na seção principal do target do delivery, selecione o público-alvo criado acima.
 
-   ![](assets/service-delivery-targeting-subscribers.png){zoom=&quot;yes&quot;}
+   ![](assets/service-delivery-targeting-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. Crie o conteúdo da mensagem, teste e envie o delivery, conforme detalhado em [nesta seção](../preview-test/preview-test.md).
 
-   ![](assets/service-delivery-ready.png){zoom=&quot;yes&quot;}
+   ![](assets/service-delivery-ready.png){zoomable=&quot;yes&quot;}
 
 Seu delivery é enviado somente aos assinantes desse serviço.

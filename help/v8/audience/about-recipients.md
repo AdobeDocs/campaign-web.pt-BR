@@ -48,7 +48,7 @@ Para acessar os detalhes de um perfil, clique no nome na lista. Uma visualizaç�
 
 Para excluir um perfil, selecione a opção correspondente na **[!UICONTROL Mais ações]** menu.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como acessar, gerenciar e explorar perfis usando a interface da Web do Campaign.
 

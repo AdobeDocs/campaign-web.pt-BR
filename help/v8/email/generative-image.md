@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -35,11 +35,11 @@ No exemplo abaixo, saiba como usar o Assistente de conteúdo para otimizar e mel
 
 1. No menu à direita, selecione **[!UICONTROL Geração de experiência]**.
 
-   ![](assets/image-genai-1.png){zoom=&quot;yes&quot;}
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Adicione um prompt para ajustar melhor os resultados.
 
-   ![](assets/image-genai-2.png){zoom=&quot;yes&quot;}
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
 
@@ -51,20 +51,20 @@ No exemplo abaixo, saiba como usar o Assistente de conteúdo para otimizar e mel
 
 1. Personalize o **[!UICONTROL Cor e tom]**, **[!UICONTROL Tipo de conteúdo]**, **[!UICONTROL Iluminação]** e **[!UICONTROL Composição]** para corresponder às características desejadas do ativo.
 
-   ![](assets/image-genai-3.png){zoom=&quot;yes&quot;}
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Quando estiver satisfeito com a configuração do prompt, clique em **[!UICONTROL Gerar]**.
 
 1. Navegue pelo **[!UICONTROL Sugestões de variação]** para encontrar o ativo desejado. Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
 
-   ![](assets/image-genai-5.png){zoom=&quot;yes&quot;}
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
-   ![](assets/image-genai-6.png){zoom=&quot;yes&quot;}
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Depois de definir o conteúdo da mensagem, clique no link **[!UICONTROL Simular conteúdo]** botão para controlar a renderização e verificar as configurações de personalização com perfis de teste.  [Saiba mais](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png){zoom=&quot;yes&quot;}
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)

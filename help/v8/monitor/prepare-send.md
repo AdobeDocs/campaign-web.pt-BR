@@ -6,7 +6,7 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 37%
+ht-degree: 40%
 
 ---
 
@@ -25,12 +25,12 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
 1. No painel de delivery, clique em **[!UICONTROL Revisar e enviar]**.
 
-   ![](assets/email-review-and-send.png){zoom=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. Clique em **[!UICONTROL Preparar]** localizado no canto superior direito e confirme.
 
-   ![](assets/email-prepare.png){zoom=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -40,14 +40,14 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
    É possível interromper a preparação a qualquer momento usando o **[!UICONTROL Parar preparação]** botão.
 
-   ![](assets/email-stop-preparation.png){zoom=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >Durante a fase de preparação, nenhuma mensagem é enviada. Portanto, você pode iniciar ou parar isso sem o risco de afetar nada.
 
 1. Quando a preparação for concluída, verifique os KPIs. Se o número de mensagens para enviar não corresponder às suas expectativas, modifique o público-alvo e reinicie a preparação.
 
-   ![](assets/email-preparation-complete.png){zoom=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    Estes são os diferentes KPIs exibidos:
 
@@ -57,11 +57,11 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
 1. Clique no botão **[!UICONTROL Logs]** e verifique se não há erro. A última mensagem de log exibe mensagens de erro e o número de erros. [Saiba mais](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoom=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. Se a preparação detectar um erro crítico que impede o envio da entrega, o status da preparação aparece como falha no painel de entrega.
 
-   ![](assets/email-prepare-error.png){zoom=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. Se você fizer alterações no delivery após a preparação, deverá reiniciar a preparação para que essas alterações sejam consideradas.
 
@@ -80,7 +80,7 @@ Para enviar um email imediatamente, siga as etapas abaixo.
 
 1. No painel de delivery, clique no link **[!UICONTROL Enviar]** no canto superior direito.
 
-   ![](assets/email-send.png){zoom=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. Confirme essa ação para enviar imediatamente a mensagem ao público-alvo principal.
 
@@ -94,7 +94,7 @@ Se você programou seu email para enviá-lo em data e hora posteriores, siga as 
 
 1. No painel de delivery, clique no link **[!UICONTROL Botão Enviar como agendado]** no canto superior direito.
 
-   ![](assets/email-send-as-scheduled.png){zoom=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Confirmar envio]**. O delivery será enviado na data agendada para o target principal.
 
@@ -110,7 +110,7 @@ Se o seu delivery está agendado ou não<!--TBC-->, duas ações podem ser execu
 
 * Clique em **[!UICONTROL Parar envio]** para interromper imediatamente o envio. Nem a preparação nem o envio podem ser retomados depois de interrompidos.
 
-![](assets/email-send-pause-or-stop.png){zoom=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## Verifique os KPIs {#check-kpis}
 
@@ -150,7 +150,7 @@ Se o seu delivery está agendado ou não<!--TBC-->, duas ações podem ser execu
 
 Quando o envio estiver concluído, você poderá verificar os KPIs exibidos:
 
-![](assets/email-send-kpis.png){zoom=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL Enviado]**: o número de mensagens entregues. A porcentagem exibida tem como base o número total de mensagens a serem entregues.
 

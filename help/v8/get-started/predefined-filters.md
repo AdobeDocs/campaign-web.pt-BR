@@ -3,7 +3,7 @@ title: Trabalhar com filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos no Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Você pode usar filtros incorporados existentes para acessar um subconjunto espe
 
 É possível salvar um filtro personalizado no [modelador de consulta](../query/query-modeler-overview.md) para disponibilizá-lo para uso futuro. Siga estas etapas:
 
-1. Abra o modelador de consulta e defina as condições de filtragem. No exemplo abaixo, você filtra os recipients que vivem em Madri e se inscreveram em um boletim informativo.
+1. Abra o modelador de consulta e defina as condições de filtragem. No exemplo abaixo, você filtra os destinatários que vivem em Madri e se inscreveram em um boletim informativo.
 1. Clique em **Selecionar ou salvar filtro** e selecione **Salvar como um filtro**.
 
    ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}

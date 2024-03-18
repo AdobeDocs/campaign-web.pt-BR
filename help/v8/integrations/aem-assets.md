@@ -6,7 +6,7 @@ exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
 1. Na página inicial, acesse o menu avançado e selecione [!DNL Experience Manager Assets].
 
-   ![](assets/assets_1.png){zoom=&quot;yes&quot;}
+   ![](assets/assets_1.png){zoomable=&quot;yes&quot;}
 
 1. Em **Gerenciamento de ativos**, clique em **Assets** e escolha o repositório para seus Ativos no Adobe Campaign.
 
@@ -36,25 +36,25 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
 1. Uma vez na pasta selecionada ou criada, clique em **[!UICONTROL Adicionar ativos]** para fazer upload do novo ativo para a sua pasta.
 
-   ![](assets/assets_2.png){zoom=&quot;yes&quot;}
+   ![](assets/assets_2.png){zoomable=&quot;yes&quot;}
 
 1. No **[!UICONTROL Fazer upload de arquivos]**, clique em **[!UICONTROL Procurar]** e escolha se deseja **[!UICONTROL Procurar arquivos]** ou **[!UICONTROL Procurar pastas]**.
 
 1. Selecione o arquivo que deseja fazer upload. Quando terminar, clique em **[!UICONTROL Carregar]**.
 
-   ![](assets/assets_3.png){zoom=&quot;yes&quot;}
+   ![](assets/assets_3.png){zoomable=&quot;yes&quot;}
 
 1. Para acessar o menu de gerenciamento avançado de ativos, selecione o ativo que você acabou de fazer upload.
 
    Para saber mais sobre como gerenciar seus ativos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
-   ![](assets/assets_4.png){zoom=&quot;yes&quot;}
+   ![](assets/assets_4.png){zoomable=&quot;yes&quot;}
 
 1. Para editar ainda mais seus ativos com o Adobe Photoshop Express, clique duas vezes neles. Em seguida, no menu à direita, selecione a opção **[!UICONTROL Modo de edição]** ícone. [Saiba mais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. De [!DNL Adobe Campaign], selecione o **[!UICONTROL Seletor de ativos]** no painel esquerdo do designer de email.
 
-   ![](assets/assets_6.png){zoom=&quot;yes&quot;}
+   ![](assets/assets_6.png){zoomable=&quot;yes&quot;}
 
 1. Selecione o criado anteriormente **[!UICONTROL Assets]** pasta. Você também pode pesquisar seu ativo ou pasta na barra de pesquisa.
 
@@ -62,8 +62,8 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
 1. Arraste e solte seu ativo no conteúdo de email.
 
-   ![](assets/assets_5.png){zoom=&quot;yes&quot;}
+   ![](assets/assets_5.png){zoomable=&quot;yes&quot;}
 
 1. É possível personalizar ainda mais seus ativos, como adicionar um link externo ou um texto usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias. [Saiba mais sobre configurações de componentes](../email/content-components.md)
 
-   ![](assets/assets_7.png){zoom=&quot;yes&quot;}
+   ![](assets/assets_7.png){zoomable=&quot;yes&quot;}

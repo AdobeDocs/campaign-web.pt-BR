@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -34,12 +34,12 @@ Para criar uma entrega independente, siga estas etapas:
 
 1. Navegue até o menu **[!UICONTROL Entregas]** no painel de navegação esquerdo e clique no botão **[!UICONTROL Criar entrega]**.
 
-   ![](assets/create-a-delivery.png){zoom=&quot;yes&quot;}
+   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. Escolha um canal para a entrega. 
 1. Defina o público da entrega, para o público-alvo principal e o grupo de controle. [Saiba mais sobre públicos](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){zoom=&quot;yes&quot;}{width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 1. Defina o conteúdo da mensagem. Saiba mais sobre canais de entrega e como definir um conteúdo de entrega nestas seções:
 
@@ -62,13 +62,13 @@ Para criar uma entrega em um fluxo de trabalho, siga estas etapas:
 1. Adicionar e configurar um [**[!UICONTROL Criar público-alvo]**](../workflows/activities/build-audience.md) atividade.
 1. Clique no ícone `+` e selecione uma atividade de entrega: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**. Saiba mais sobre as atividades de canal de delivery em um workflow e como definir um conteúdo de delivery em [nesta seção](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png){zoom=&quot;yes&quot;}
+   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 
 1. Inicie o workflow e verifique os logs.
 
 Também é possível adicionar entregas em uma campanha sem criar um workflow. Para fazer isso, navegue até a guia **[!UICONTROL Entregas]** da campanha e clique no botão **[!UICONTROL Criar entrega]**.
 
-![](assets/new-campaign-delivery.png){zoom=&quot;yes&quot;}
+![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
 
 As etapas de configuração são semelhantes às das entregas independentes.
 
@@ -87,7 +87,7 @@ Você pode personalizar o conteúdo da mensagem ao:
 
 * Inserir **campos de personalização** dinâmicos
 
-  Os campos de personalização são usados na personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao recipient, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. [Saiba mais](../personalization/personalize.md)
+  Os campos de personalização são usados na personalização de primeiro nível das mensagens. Você pode selecionar qualquer campo disponível no banco de dados no editor de personalização. Para uma entrega, é possível selecionar qualquer campo relacionado ao destinatário, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. [Saiba mais](../personalization/personalize.md)
 
 * Inserção de **blocos de conteúdo** predefinidos
 
@@ -116,7 +116,7 @@ Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher
 
 Para agendar o envio de uma entrega, abra a entrega e navegue até a seção **[!UICONTROL Agendar]**. Use o botão de alternância **[!UICONTROL Habilitar agendamento]** para ativá-lo e defina a data e a hora desejada para o envio. Após enviar a entrega, o envio só será realizado na data de contato definida.
 
-![](assets/schedule.png){zoom=&quot;yes&quot;}
+![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Essa opção exige que você confirme o envio antes que a entrega seja enviada na data e hora programadas. Se precisar enviar a entrega automaticamente na data e hora programadas, desabilite essa opção.
 

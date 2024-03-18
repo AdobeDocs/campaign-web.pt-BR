@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -39,11 +39,11 @@ Essa funcionalidade permite que os usuários orientados a conteúdo trabalhem em
 
 Para acessar a lista de templates de conteúdo, navegue até a **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** no painel esquerdo.
 
-![](assets/content-template-list.png){zoom=&quot;yes&quot;}
+![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
 
 Esse painel mostra todos os modelos de conteúdo disponíveis como uma lista. É possível filtrar em um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-![](assets/content-template-list-filters.png){zoom=&quot;yes&quot;}
+![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
 
 Na lista, você pode editar, duplicar ou excluir modelos de conteúdo existentes. Use o botão na seção superior para criar um template de conteúdo.
 
@@ -83,11 +83,11 @@ Para criar um novo modelo de conteúdo no painel de modelos de conteúdo, siga e
 
 1. Selecionar **[!UICONTROL Criar modelo]**.
 
-   ![](assets/content-template-create.png){zoom=&quot;yes&quot;}
+   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
 
 1. Insira o rótulo e as propriedades do template. Você pode selecionar a pasta onde deseja armazenar o modelo. Por padrão, os modelos de conteúdo são armazenados em uma pasta dedicada da hierarquia do Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Modelos]** > **[!UICONTROL Modelos de conteúdo]**. Saiba mais sobre pastas em [esta página](../get-started/permissions.md#folders)
 
-   ![](assets/content-template-details.png){zoom=&quot;yes&quot;}
+   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
 
 1. Clique em **[!UICONTROL Criar]** e escolha como deseja criar seu modelo a partir das diferentes opções:
 
@@ -99,7 +99,7 @@ Para criar um novo modelo de conteúdo no painel de modelos de conteúdo, siga e
 
    * Use conteúdo existente de uma lista de modelos incorporados ou personalizados. As etapas para usar um template de conteúdo em um email estão descritas em [nesta seção](use-email-templates.md).
 
-   ![](assets/email_designer-templates.png){zoom=&quot;yes&quot;}
+   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 1. O Designer de email é exibido. Edite o conteúdo conforme necessário, da mesma forma que faria para qualquer email, de acordo com a opção selecionada. Saiba como usar o Designer de email no [nesta seção](get-started-email-designer.md).
 
@@ -109,7 +109,7 @@ Para criar um novo modelo de conteúdo no painel de modelos de conteúdo, siga e
 
    Se necessário, clique na seta ao lado do nome do template para voltar para a **[!UICONTROL Detalhes]** e editar seu modelo.
 
-   ![](assets/content-template-save-back.png){zoom=&quot;yes&quot;}
+   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
 
 O template está disponível no **[!UICONTROL Modelos de conteúdo]** lista. [Saiba mais](#access-templates)
 
@@ -125,17 +125,17 @@ Para salvar um conteúdo de email como modelo, siga as etapas a seguir:
 
 1. Selecionar **[!UICONTROL Salvar como modelo de conteúdo]** no menu suspenso.
 
-   ![](assets/email_designer-save-template.png){zoom=&quot;yes&quot;}
+   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
 
 1. Insira um nome para esse modelo e salve.
 
-   ![](assets/email_designer-template-name.png){zoom=&quot;yes&quot;}
+   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
 
 O modelo é salvo e exibido no campo **[!UICONTROL Modelos de conteúdo]** lista. Ele se torna um modelo de conteúdo independente que pode ser acessado, editado e excluído como qualquer outro item nessa lista. [Saiba mais](#access-manage-templates)
 
 Agora você pode usar este template para criar um novo conteúdo: ele está disponível na **[!UICONTROL Modelos salvos]** do Designer de email. [Saiba como](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoom=&quot;yes&quot;}
+![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
 
 
 >[!NOTE]
@@ -167,7 +167,7 @@ Para atualizar um template de conteúdo existente, siga estas etapas:
 
 1. Clique em **[!UICONTROL Editar conteúdo]** botão para atualizar seu conteúdo com o [Email Designer](get-started-email-designer.md).
 
-![](assets/content-template-edition.png){zoom=&quot;yes&quot;}
+![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -23,20 +23,20 @@ Para adicionar um bloco de conteúdo em um delivery, siga estas etapas:
 
 1. Localize o campo onde deseja adicionar um bloco de conteúdo e clique no **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone para abrir o editor de expressão.
 
-   ![](assets/content-block-access.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. No editor de expressão, navegue até o campo **[!UICONTROL Blocos de conteúdo]** menu esquerdo.
 
 1. Para adicionar um bloco de conteúdo, coloque o cursor no local desejado no conteúdo e clique no botão &quot;+&quot; para inseri-lo.
 
-   ![](assets/content-blocks.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 Os blocos de conteúdo incorporados são:
 
 * **[!UICONTROL Banner de recusa padrão]**
 * **[!UICONTROL Habilitado pelo Adobe Campaign]**: insere o logotipo &quot;Habilitado pelo Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
-* **[!UICONTROL Saudações]**: insere saudações com o nome completo do recipient, seguido de vírgula. Exemplo: “Olá, fulano,”.
+* **[!UICONTROL Saudações]**: insere saudações com o nome completo do destinatário, seguido de vírgula. Exemplo: “Olá, fulano,”.
 * **[!UICONTROL Inserir logotipo]**: insere um logotipo definido nas configurações de instância.
 * **[!UICONTROL Link para mirror page]**: insere um link para a [mirror page](../email/mirror-page.md). O formato padrão é: &quot;Caso não consiga visualizar esta mensagem corretamente, clique aqui.&quot;
 * **[!UICONTROL URL de mirror page]**: insere o URL da mirror page, permitindo que os criadores da entrega verifiquem o link.

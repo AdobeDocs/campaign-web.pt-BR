@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]**
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do oferece indicadores principais de desempenho (KPIs) abrangentes que fornecem insights detalhados sobre os padrões de interação de seus visitantes com cada delivery de SMS. As métricas a seguir são descritas abaixo.
 
-![](assets/global_report_sms_delivery_overview.png){zoom=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
@@ -50,7 +50,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do oferece ind
 
 A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dados relacionados aos seus recipients para cada delivery de SMS enviado. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_sms_targeted_audience.png){zoom=&quot;yes&quot;}
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de Público-alvo direcionado.
 
@@ -71,7 +71,7 @@ A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dado
 
 A variável **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso de cada delivery de SMS. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_sms_delivery_statistics.png){zoom=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre Estatísticas de entrega.
 
@@ -98,7 +98,7 @@ A variável **[!UICONTROL Causas de exclusão]** O gráfico e a tabela exibem os
 
 Os tipos de erro estão listados no [Documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png){zoom=&quot;yes&quot;}
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## Taxa de transferência de entrega {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ Os tipos de erro estão listados no [Documentação do Adobe Campaign v8 (consol
 >title="Taxa de transferência de entrega de SMS"
 >abstract="O relatório **Taxa de transferência de entrega** fornece insights abrangentes sobre a eficiência do sistema de entrega de mensagens SMS, com uma visão geral detalhada das taxas de sucesso e erros em um período especificado."
 
-![](assets/global_report_sms_delivery_throughput.png){zoom=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 A variável **[!UICONTROL Taxa de transferência de entrega]** O relatório do oferece insights abrangentes sobre a eficácia do sistema de delivery de mensagens SMS, oferecendo um resumo detalhado das taxas de sucesso e erro por um período especificado.

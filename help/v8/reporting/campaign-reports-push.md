@@ -6,7 +6,7 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de notificação por push. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-summary.png){zoom=&quot;yes&quot;}
+![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
 
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
@@ -48,7 +48,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-target.png){zoom=&quot;yes&quot;}
+![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
 
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
@@ -70,7 +70,7 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 
 A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-exec.png){zoom=&quot;yes&quot;}
+![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
 
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
@@ -96,7 +96,7 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o suce
 
 A variável **[!UICONTROL Fluxos de clique gerados]** A tabela exibe dados relativos a como seus recipients interagiram com o delivery. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-clicks.png){zoom=&quot;yes&quot;}
+![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 

@@ -6,7 +6,7 @@ exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]**
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como seus visitantes se envolvem com cada delivery de notificação por push. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_push_delivery_overview.png){zoom=&quot;yes&quot;}
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
@@ -50,7 +50,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dados relacionados aos recipients para cada delivery de notificação por push enviado. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_push_targeted_audience.png){zoom=&quot;yes&quot;}
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de Público-alvo direcionado.
 
@@ -71,7 +71,7 @@ A variável **[!UICONTROL Público-alvo]** A tabela e o gráfico apresentam dado
 
 A variável **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso de cada delivery de notificação por push. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_push_delivery_statistics.png){zoom=&quot;yes&quot;}
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre Estatísticas de entrega.
 
@@ -105,6 +105,6 @@ Os tipos de erro de notificações por push estão listados na variável [Docume
 >title="Relatório de taxa de transferência de entrega"
 >abstract="O relatório de **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de notificações por push em toda a plataforma no período especificado."
 
-![](assets/global_report_push_delivery_throughput.png){zoom=&quot;yes&quot;}
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 A variável **[!UICONTROL Taxa de transferência de entrega]** O relatório do oferece insights abrangentes sobre a eficácia do sistema de delivery de notificações por push, oferecendo um resumo detalhado das taxas de sucesso e erro por um período especificado.

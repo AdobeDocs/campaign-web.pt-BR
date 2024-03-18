@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ Siga estas etapas para configurar a atividade **AND-join**:
 
 O exemplo a seguir mostra duas ramificações de fluxo de trabalho com uma entrega de SMS e email. A AND-join será acionada quando ambas as transições de entrada estiverem habilitadas. As notificações por push serão enviadas somente após a conclusão de ambas as entregas.
 
-![](../assets/workflow-andjoin-example.png){zoom=&quot;yes&quot;}
+![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}

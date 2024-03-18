@@ -24,7 +24,7 @@ O editor de expressão está disponível no modelador de consultas **[!UICONTROL
 
 | Acesso pelo **Atributo** campo | Acesso pelo **Valor** campo |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoom=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoom=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 O editor de expressão fornece:
 
@@ -34,13 +34,13 @@ O editor de expressão fornece:
 
 Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
 
-![](assets/expression-editor.png){zoom=&quot;yes&quot;}
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 Quando a expressão estiver pronta, clique no botão **[!UICONTROL Confirmar o]** botão. A expressão é exibida no campo selecionado. Para editá-lo, abra o editor de expressão e faça as alterações desejadas.
 
 O exemplo abaixo mostra uma expressão configurada para a variável **[!UICONTROL Valor]** campo. Para editá-lo, é necessário abrir o editor de expressão usando o **[!UICONTROL Editar expressão]** botão.
 
-![](assets/edit-expression-value.png){zoom=&quot;yes&quot;}
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## Funções de ajuda
 

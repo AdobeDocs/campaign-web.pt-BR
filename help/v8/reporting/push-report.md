@@ -6,7 +6,7 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -30,7 +30,7 @@ A variável **Relatório de entrega por push** O fornece uma visão geral comple
 
 A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece indicadores principais de desempenho (KPIs) que fornecem informações detalhadas sobre como os visitantes se envolvem com as mensagens de push.
 
-![](assets/reporting_push_3.png){zoom=&quot;yes&quot;}
+![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de delivery por push.
 
@@ -53,7 +53,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 A variável **População direcionada** gráfico e tabela exibem dados relativos ao seu público-alvo: mensagens a serem entregues e exclusões. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_push_4.png){zoom=&quot;yes&quot;}
+![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de delivery por push.
 
@@ -72,7 +72,7 @@ A variável **População direcionada** gráfico e tabela exibem dados relativos
 
 A variável **Estatísticas gerais** o relatório apresenta dados para as notificações por push enviadas: sucesso, erros e quarentenas. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_push_5.png){zoom=&quot;yes&quot;}
+![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
 
 +++Saiba mais sobre métricas de relatório de delivery por push.
 
@@ -94,7 +94,7 @@ A variável **Estatísticas gerais** o relatório apresenta dados para as notifi
 A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png){zoom=&quot;yes&quot;}
+![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
 
 ## Taxa de transferência de entrega {#delivery-throughput}
 
@@ -105,4 +105,4 @@ A variável **[!UICONTROL Exclusões]** o gráfico e a tabela exibem os vários 
 
 A variável **Taxa de transferência de entrega** O relatório do apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
-![](assets/reporting_push_2.png){zoom=&quot;yes&quot;}
+![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}

@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -97,7 +97,7 @@ Se preferir não substituir os resultados existentes do público, configure o **
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como criar e gerenciar públicos-alvo, selecionar públicos-alvo para uma entrega e definir grupos de controle.
 

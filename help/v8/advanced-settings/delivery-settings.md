@@ -65,10 +65,10 @@ Os valores do limite podem ser constantes ou variáveis. Isso significa que, par
 No campo **[!UICONTROL Tipo de peso]**, três opções estão disponíveis:
 
 * **[!UICONTROL Constante]**
-* **[!UICONTROL Depende do recipient]**
+* **[!UICONTROL Depende do destinatário]**
 * **[!UICONTROL Definido em cada regra]**
 
-Use o campo **[!UICONTROL Peso da entrega]** para definir a prioridade de entrega. Cada entrega tem um peso que representa seu nível de prioridade. Por padrão, o peso de uma entrega é definido como 5. As regras de pressão permitem definir o peso das entregas às quais são aplicadas. Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos recipients. Por exemplo, você pode definir o peso de uma entrega com base nos interesses do recipient.
+Use o campo **[!UICONTROL Peso da entrega]** para definir a prioridade de entrega. Cada entrega tem um peso que representa seu nível de prioridade. Por padrão, o peso de uma entrega é definido como 5. As regras de pressão permitem definir o peso das entregas às quais são aplicadas. Os pesos podem ser definidos ou calculados por meio de uma fórmula para se adequar aos destinatários. Por exemplo, você pode definir o peso de uma entrega com base nos interesses do destinatário.
 
 Use o **[!UICONTROL Modo de entrega]** para selecionar o modo de avaliação de target.
 
@@ -91,7 +91,7 @@ Três modos estão disponíveis:
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
->title="Importância do recipient"
+>title="Importância do destinatário"
 >abstract="A importância do recipient é uma fórmula usada para determinar quais perfis são mantidos quando as regras de tipologia de capacidade são excedidas."
 
 Nesta seção, você pode selecionar uma regra de capacidade definida no console do Adobe Campaign v8. Essa regra está associada ao canal.
@@ -146,7 +146,7 @@ Para emails, você também pode alterar a variável **[!UICONTROL Formatos de em
 
 * **[!UICONTROL Usar preferências do recipient]** (modo padrão): o formato do email é definido de acordo com os dados armazenados no perfil do recipient. Se um recipient desejar receber emails em um determinado formato, esse será o formato enviado. Se o campo não estiver preenchido, um email multipart-alternative será enviado (veja abaixo).
 
-* **[!UICONTROL Permitir que o cliente de correio do recipient escolha o formato mais apropriado]**: O email contém ambos os formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do recipient (multipart-alternative).
+* **[!UICONTROL Permitir que o cliente de correio do recipient escolha o formato mais apropriado]**: O email contém ambos os formatos: texto e HTML. O formato exibido no recebimento depende da configuração do software de email do destinatário (multipart-alternative).
 
   >[!IMPORTANT]
   >

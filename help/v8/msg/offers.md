@@ -6,7 +6,7 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -39,13 +39,13 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
 
 1. Clique em **[!UICONTROL Configurar ofertas]** na tela de edição de conteúdo de delivery.
 
-   ![](assets/offer-setup.png){zoom=&quot;yes&quot;}
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
-1. Configurar quais ofertas devem ser propostas para os recipients.
+1. Configurar quais ofertas devem ser propostas para os destinatários.
 
    Selecione primeiro o **[!UICONTROL Espaço de oferta]** que corresponde ao seu ambiente de oferta. Saiba como criar um espaço de ofertas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png){zoom=&quot;yes&quot;}
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. Para refinar a escolha de ofertas do mecanismo, selecione uma **[!UICONTROL Categoria de oferta]** específica em que as ofertas são classificadas.
 
@@ -59,12 +59,12 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
 
 1. Use o **[!UICONTROL Apresentações]** para especificar o número de ofertas que deseja inserir no delivery.
 
-1. Selecione a opção **[!UICONTROL Excluir recipients não qualificados]** se necessário.
+1. Selecione a opção **[!UICONTROL Excluir destinatários não qualificados]** se necessário.
 
    Essa opção permite ativar ou desativar a exclusão de recipients para os quais não há ofertas elegíveis suficientes:
 
-   * Se a opção estiver ativada, os recipients que não tiverem proposições suficientes serão excluídos da entrega.
-   * Se a opção estiver desabilitada, esses recipients não serão excluídos, mas não poderão ter o número solicitado de proposições.
+   * Se a opção estiver ativada, os destinatários que não tiverem proposições suficientes serão excluídos da entrega.
+   * Se a opção estiver desabilitada, esses destinatários não serão excluídos, mas não poderão ter o número solicitado de proposições.
 
 1. Se necessário, selecione a opção **[!UICONTROL Ocultar tudo se nenhuma oferta estiver selecionada]**.
 
@@ -89,7 +89,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Coloque o cursor do mouse onde deseja inserir a oferta e abra o editor de expressão usando o ícone de personalização.
 
-   ![](assets/offer-insert-perso-icon.png){zoom=&quot;yes&quot;}
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. Selecione o **[!UICONTROL Apresentações]** menu. As apresentações disponíveis são exibidas na lista.
 
@@ -99,7 +99,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Defina cada proposta usando os campos de personalização, funções de renderização ou atributos de oferta disponíveis.
 
-   ![](assets/offer-inserted.png){zoom=&quot;yes&quot;}
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

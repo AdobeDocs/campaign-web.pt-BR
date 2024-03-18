@@ -9,7 +9,7 @@ exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -40,7 +40,7 @@ Para definir o conteúdo condicional para um delivery usando o editor de express
 
 1. Clique em **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone ao lado do campo para abrir o editor de expressão.
 
-   ![](assets/open-perso-editor-sms.png){zoom=&quot;yes&quot;}
+   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
 1. No editor de personalização, navegue até o **[!UICONTROL Funções auxiliares]** à esquerda.
 
@@ -50,7 +50,7 @@ Para definir o conteúdo condicional para um delivery usando o editor de express
    * Substituir `<VALUE>` com o valor a satisfazer. Por exemplo, `'French'`.
    * Substituir `Ìnsert content here` com o conteúdo que deseja exibir para os perfis que atendem à condição especificada.
 
-     ![](assets/condition-sample1.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Especifique o conteúdo que deve ser exibido se os recipients não atenderem à condição. Para fazer isso, use um **else** função auxiliar:
 
@@ -58,11 +58,11 @@ Para definir o conteúdo condicional para um delivery usando o editor de express
 
    1. Substituir `Ìnsert content here` com o conteúdo que você deseja exibir para os perfis que não atendem à condição da função if.
 
-   ![](assets/condition-sample2.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    Você também pode usar a variável **else if** função auxiliar para criar condições com várias variantes de conteúdo. Por exemplo, a expressão abaixo exibe três variantes de uma mensagem dependendo do idioma dos recipients:
 
-   ![](assets/condition-sample3.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -92,29 +92,29 @@ Neste exemplo, queremos criar uma mensagem de email com várias variantes com ba
 
 1. Selecione um componente de conteúdo e clique no botão **[!UICONTROL Ativar conteúdo condicional]** ícone.
 
-   ![](assets/condition-email-enable.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. A variável **[!UICONTROL Conteúdo condicional]** no lado esquerdo da tela. Nesse painel, você pode criar várias variantes do componente de conteúdo selecionado usando condições.
 
 1. Configure sua primeira variante. Focalizar **[!UICONTROL Variante - 1]** no **[!UICONTROL Conteúdo condicional]** e clique no botão **[!UICONTROL Adicionar condição]** botão.
 
-   ![](assets/condition-add-condition.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Um construtor de regras é exibido. Ele fornece **Perfil**, **Mensagem**, e **Entrega** atributos que você pode utilizar para criar sua condição.
 
    Além disso, a **Condições** O menu fornece condições pré-criadas que você pode adicionar à tela para criar facilmente sua variante. Para usá-las, clique no link **Adicionar** e substitua os elementos entre `<` e `>`símbolos pelos elementos desejados. Certifique-se de que o valor especificado para o `<value>` objeto está entre aspas.
 
-   ![](assets/condition-syntax.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Quando a condição da primeira variante da mensagem estiver pronta, clique em **[!UICONTROL Confirmar o]**. Neste exemplo, estamos criando uma regra direcionada a recipients cujo idioma é &quot;francês&quot;.
 
-   ![](assets/condition-example.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. A regra agora está associada à variante. Para melhorar a compreensão, recomendamos renomear a variante clicando no menu de reticências.
 
 1. Configure como o componente deve ser exibido se a regra for atendida ao enviar a mensagem. Neste exemplo, queremos exibir o texto em francês se for o idioma preferencial do recipient.
 
-   ![](assets/condition-email-variant1.png){zoom=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Adicione quantas variantes forem necessárias para o componente de conteúdo. Você pode alternar entre as variantes a qualquer momento para verificar como o componente de conteúdo será exibido com base em suas regras condicionais.
 

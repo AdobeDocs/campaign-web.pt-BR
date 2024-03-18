@@ -36,7 +36,7 @@ Você também pode usar outros target mappings integrados nos workflows e delive
 
 | Nome | Use para | Esquema |
 |---|---|---|
-| Recipients | Delivery para perfis/recipients (tabela de recipients integrada) | nms:recipient |
+| Destinatários | Delivery para perfis/recipients (tabela de recipients integrada) | nms:recipient |
 | Visitantes | Enviar delivery aos visitantes cujos perfis foram coletados por meio de referência (marketing viral), por exemplo. | mns:visitor |
 | Subscrições | Enviar delivery aos perfis que assinam um serviço de informação, como um boletim informativo | nms:subscription |
 | Assinaturas do visitante | Entregar aos visitantes que são inscritos em um serviço de informações | nms:visitorSub |

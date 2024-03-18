@@ -94,7 +94,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
 
-1. Você também pode definir um grupo de controle para analisar o comportamento dos recipients de email, em comparação com aqueles que não foram direcionados. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
+1. Você também pode definir um grupo de controle para analisar o comportamento dos destinatários de email, em comparação com aqueles que não foram direcionados. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
 
 ## Definir o conteúdo do email {#create-content}
 
