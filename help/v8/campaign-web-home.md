@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
->[!TAB Integração do Adobe Experience Manager as a Cloud Service]
+>[!TAB Sobre o canal de correspondência direta]
 
-A integração entre a interface do Adobe Campaign Web e o Adobe Experience Manager as a Cloud Service simplifica o gerenciamento de conteúdo de email. Agora é possível criar e editar o conteúdo do email diretamente no Adobe Experience Manager e importar facilmente os modelos concluídos para as suas entregas do Adobe Campaign.
+**Correspondência direta** O canal agora está disponível para uso em workflows e como deliveries independentes. A correspondência direta é um canal offline que permite criar, personalizar e gerar arquivos de extração e compartilhá-los com seus provedores de correspondência direta para enviar emails a seus clientes.
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![imagem](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Fluxos de trabalho entre canais]
+[![imagem](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha.
+>[!TAB Modelador de consultas no Designer de email]
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+O modelador de consultas agora está disponível para uso no Designer de email. Ele permite criar condições ao criar conteúdo condicional.
 
->[!TAB Composição do público-alvo]
+[![imagem](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-Crie novos públicos-alvo em uma tela de fluxo de trabalho intuitiva. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Combine vários públicos-alvo em um único público-alvo, enriqueça-o com atributos externos ou divida-o em vários públicos-alvo com base em regras de sua escolha.
+>[!TAB Nova atividade de fluxo de trabalho Alterar fonte de dados]
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+A variável **Alterar fonte de dados** a atividade de direcionamento permite alterar a fonte de dados usada pela tabela de trabalho do workflow. Essa atividade oferece mais flexibilidade, permitindo gerenciar dados em seus diferentes bancos de dados e melhorar o desempenho.
 
->[!TAB Designer de email]
+![imagem](assets/do-not-localize/change-data-source.gif)
 
-O Designer de email do Campaign permite criar emails cativantes e personalizados por meio de uma interface intuitiva de arrastar e soltar. Caso esteja começando do zero, importando um conteúdo existente ou aproveitando modelos existentes, é possível criar e ajustar o conteúdo para cada email.
-
-[![imagem](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
