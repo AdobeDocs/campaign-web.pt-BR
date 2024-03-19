@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="Gerar todos os subconjuntos na mesma tabela"
->abstract="Ative essa opção para agrupar todos os subconjuntos em uma única transição de output."
+>abstract="Ative essa opção para agrupar todos os subconjuntos em uma única transição de saída."
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 

@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 22%
+ht-degree: 41%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Termos de IA generativa da Adobe"
->abstract="O acesso a esse recurso está sujeito ao seu acordo com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. Quaisquer prompts, contexto, informações complementares ou outras informações fornecidas para este recurso devem ser vinculadas a um contexto específico, que pode incluir materiais de marca, conteúdo de site, dados, esquemas para tais dados, modelos ou outros documentos confiáveis, e não devem conter nenhuma informação pessoal (as informações pessoais incluem tudo o que pode ser vinculado a um indivíduo específico). Você deve revisar qualquer saída desse recurso para precisão e garantir que seja apropriada para seu caso de uso"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Diretrizes do usuário da IA geradora de Adobe"
+>title="Termos da IA generativa da Adobe"
+>abstract="O acesso a esse recurso está sujeito à concordância com as Diretrizes do usuário da IA generativa da Adobe Experience Cloud. Quaisquer prompts, contexto, informações complementares ou outras informações fornecidas para este recurso devem ser vinculadas a um contexto específico, que pode incluir materiais de marca, conteúdo de site, dados, esquemas para tais dados, modelos ou outros documentos confiáveis, e não devem conter nenhuma informação pessoal (as informações pessoais incluem tudo o que pode ser vinculado a um indivíduo específico). É recomendado revisar qualquer saída deste recurso para verificar a precisão e garantir que seja apropriado para seu caso de uso"
+>additional-url="https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Diretrizes do usuário da IA generativa da Adobe"
 
 
 O Assistente de conteúdo, viabilizado pela IA gerativa, é uma ferramenta valiosa para melhorar o conteúdo de emails. Ele simplifica a personalização e o aprimoramento de conteúdo, otimizando suas entregas de email para melhor repercutir com seu público.
