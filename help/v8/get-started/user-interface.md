@@ -3,9 +3,9 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1578'
 ht-degree: 100%
 
 ---
@@ -288,27 +288,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="Conteúdo da correspondência direta"
->abstract="Conteúdo da correspondência direta"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="Propriedades do arquivo de Correspondência direta"
->abstract="Propriedades do arquivo de Correspondência direta"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="Propriedades de conteúdo de Correspondência direta"
->abstract="Propriedades de conteúdo de Correspondência direta"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="Alterar fonte de dados"
->abstract="A atividade **Alterar fonte de dados** permite selecionar uma fonte de dados diferente para a tabela de trabalho do fluxo de trabalho."
 
 
 <!--
@@ -328,8 +309,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avançados do construtor de regras"
 >abstract="Por padrão, somente os atributos mais comuns são exibidos na lista de atributos. Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

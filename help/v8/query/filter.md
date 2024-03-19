@@ -3,7 +3,7 @@ audience: end-user
 title: Listas de filtros
 description: Saiba como filtrar listas da Web do Adobe Campaign usando filtros incorporados e personalizados.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%
@@ -31,6 +31,7 @@ Depois de aplicados a uma lista, os filtros ficam visíveis abaixo da barra de p
 Filtros personalizados permitem refinar listas com base em seus próprios critérios específicos. Eles foram projetados usando o modelador de query do Campaign. Para criar um filtro personalizado, siga estas etapas:
 
 1. Abra o painel Filtros e clique na guia **Adicionar regras** localizado na parte inferior do painel.
+
 1. O modelador de consultas é aberto. Defina e combine os critérios de filtro para atender às suas necessidades. Informações detalhadas sobre como usar o modelador de consulta estão disponíveis em [nesta seção](../query/query-modeler-overview.md).
 
    O exemplo abaixo mostra um filtro personalizado projetado para exibir na lista de campanhas campanhas SMS executadas por operadores dos departamentos Running ou Yoga.

@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 57%
+source-wordcount: '1386'
+ht-degree: 58%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 57%
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
 Com base em uma configuração [modelo de design](../email/create-email-templates.md), o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Criar a entrega de email {#create-email}
 
@@ -211,3 +213,9 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 1. Depois que o email tiver sido enviado, você poderá acessar os relatórios dedicados para análise adicional clicando no botão **[!UICONTROL Relatórios]**.
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## Vídeo tutorial {#video}
+
+Saiba como criar uma entrega por email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

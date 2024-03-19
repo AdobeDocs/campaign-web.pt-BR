@@ -3,10 +3,10 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 6%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -45,6 +45,10 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 * **Pausar/Retomar** a atividade. Quando o workflow é executado, ele é pausado na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+Vários **Direcionamento** atividades, como **Combinar** ou **Desduplicação**, permitem processar a população restante e incluí-la em uma transição de saída adicional. Por exemplo, se você estiver usando um **Split** atividade, o complemento consiste na população que não correspondeu a nenhum dos subconjuntos definidos anteriormente. Para usar esse recurso, ative o **Gerar complemento** opção.
+
+![](assets/workflow-split-complement.png)
 
 ## Exemplo {#example}
 

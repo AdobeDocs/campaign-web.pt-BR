@@ -3,10 +3,10 @@ audience: end-user
 title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2141'
+ht-degree: 96%
 
 ---
 
@@ -37,11 +37,10 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 
 ## Canais de comunicação {#channels-capabilities}
 
-Com a interface do Campaign Web, você pode criar, projetar e enviar **emails**, **SMS** e **notificações por push**, além de medir o impacto dessas mensagens usando vários relatórios exclusivos, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, no momento os seguintes canais **não** estão disponíveis: in-app, correspondência direta, LINE, central de atendimento, canal personalizado, marketing social com o X (Twitter).
+Com a interface da Web do Campaign, você pode criar, projetar e enviar **email**, **SMS**, **notificações por push**, **correspondência direta** e medir o seu impacto utilizando vários relatórios específicos, como [nesta seção](../msg/gs-messages.md). No entanto, os seguintes canais estão **não** disponível: no aplicativo, LINE, Call center/Canal personalizado, Marketing social com X (Twitter).
 
 Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses canais.
 
-* **Correspondência direta**. O canal de correspondência direta permite enviar uma correspondência física aos clientes, fornecedores ou outras pessoas, como avisos, faturas, demonstrativos, ofertas de marketing e muito mais. Este canal só está disponível no console do cliente.  [Saiba mais](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=pt-BR){target="_blank"}
 * **Mensagens LINE**. O LINE é um aplicativo para mensagens instantâneas, chamadas de voz e vídeo gratuitas, disponível em todos os dispositivos móveis e para PC. O Adobe Campaign permite enviar mensagens LINE somente a partir do console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=pt-BR){target="_blank"}
 * **Central de atendimento e canais personalizados**. A central de atendimento e outros canais personalizados podem ser implementados em seu ambiente do Campaign. Esses canais só podem ser disponibilizados por meio do console do cliente. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=pt-BR#other-channels){target="_blank"}
 * **Marketing social** com o X (Twitter). Você interage com seus clientes via X (Twitter) publicando mensagens e enviando mensagens diretas. Esse recurso, que acompanha o complemento de marketing social, só está disponível no console do cliente - [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=pt-BR){target="_blank"}
@@ -168,7 +167,7 @@ O Gerenciamento de dados combina um conjunto de atividades para resolver problem
 
 >[!NOTE]
 >
->Embora algumas dessas atividades estejam disponíveis somente no console do cliente, outras podem ser encontradas na interface do Campaign Web, como as atividades **Enriquecimento**, **Carregar arquivo** ou **Alterar dimensão**. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do Campaign Web](../workflows/activities/about-activities.md#targeting)
+>Embora algumas dessas atividades estejam disponíveis somente no console do cliente, algumas estão disponíveis na interface da Web do Campaign, como **Enriquecimento**, **Carregar arquivo**, **Alterar fonte de dados** ou **Alterar dimensão** atividades. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do Campaign Web](../workflows/activities/about-activities.md#targeting)
 
 ### Configuração do Federated Data Access {#fda}
 

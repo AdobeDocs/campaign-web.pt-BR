@@ -3,7 +3,7 @@ audience: end-user
 title: Criar um delivery de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 47%
@@ -40,8 +40,6 @@ ht-degree: 47%
 >id="acw_deliveries_push_android_msg"
 >title="Mensagem por push para Android"
 >abstract="Defina o conteúdo da sua notificação por push para dispositivos Android. Para redigir a mensagem, clique nos campos **Título** e **Mensagem**. Use o Editor de expressão para personalizar dados e adicionar conteúdo dinâmico. Para personalizar ainda mais a notificação por push, você pode escolher uma imagem para adicionar à notificação por push, o ícone de notificação a ser exibido nos dispositivos dos perfis e sua cor. Para mais configurações personalizadas, navegue até a seção **Configurações avançadas**."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"

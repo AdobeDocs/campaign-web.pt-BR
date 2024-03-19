@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega
 description: Saiba como acessar e usar relatórios de entrega
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 45%
 
 ---
@@ -24,6 +24,7 @@ A lista completa de relatórios e métricas associadas para cada canal está dis
 * [Relatórios de entrega de email](email-report.md)
 * [Relatórios de entrega por SMS](sms-report.md)
 * [Relatórios de entrega por push](push-report.md)
+* [Relatórios de delivery de correspondência direta](direct-mail.md)
 
 ## Gerencie seu painel de relatório {#manage-reports}
 

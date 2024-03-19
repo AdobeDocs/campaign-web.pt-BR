@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução a relatórios globais
 description: Entender os relatórios globais
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 32%
 
 ---
@@ -26,6 +26,7 @@ A lista completa de relatórios e métricas associadas para cada canal está dis
 * [Enviar relatórios globais por email](global-report-email.md)
 * [Relatórios globais de SMS](global-report-sms.md)
 * [Enviar relatórios globais](global-report-push.md)
+* [Relatórios globais de correspondência direta](global-report-direct.md)
 
 ## Gerencie seu painel de relatório {#manage-reports}
 

@@ -5,8 +5,8 @@ description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 98%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,10 @@ ht-degree: 98%
 
 Temos o prazer de apresentar a nova versão da **Interface do Adobe Campaign Web**. A versão mais recente está cheia de recursos intuitivos desenvolvidos para simplificar a criação de campanhas personalizadas entre canais, promover resultados excepcionais e oferecer uma vantagem competitiva em todos os canais. A interface (IU) do Campaign Web oferece uma tela conectada com a Adobe Experience Platform para proporcionar uma experiência unificada.
 
-Alterações, novos recursos e melhorias estão listados na [notas de versão mensais](release-notes.md).
+
+>[!AVAILABILITY]
+>
+>Esta versão está disponível para todos a partir do [Campaign v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR). Saiba mais sobre as versões do Adobe Campaign na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=pt-BR){target="_blank"}.
 
 
 ## Principais recursos {#key-features}

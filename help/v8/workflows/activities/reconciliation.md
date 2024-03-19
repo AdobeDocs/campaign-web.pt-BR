@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow de reconciliação
 description: Saiba como usar a atividade de workflow de reconciliação
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 45%
+source-wordcount: '860'
+ht-degree: 42%
 
 ---
 
@@ -53,7 +53,8 @@ Embora a **Enriquecimento** atividade permite definir dados adicionais a serem p
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Regras de reconciliação"
->abstract="Selecione o campo de reconciliação a ser usado para a desduplicação. É possível usar um ou mais critérios de reconciliação."
+>abstract="Selecione as regras de reconciliação a serem usadas para a desduplicação. Para usar atributos, selecione a variável **Atributos simples** e escolha os campos source e destination. Para criar sua própria condição de reconciliação usando o modelador de consultas, selecione o **Condições de reconciliação avançadas** opção."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Trabalhar com o modelador de consultas"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ Siga estas etapas para configurar o **Reconciliação** atividade:
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Para usar outros atributos para reconciliar dados, selecione o **Condições de reconciliação avançadas** opção. Em seguida, você pode criar sua própria condição de reconciliação usando o modelador de consultas. Saiba como usar o modelador de consultas no [nesta seção](../../query/query-modeler-overview.md).
+   1. Para usar outros atributos para reconciliar dados, selecione o **Condições de reconciliação avançadas** opção. Em seguida, você pode criar sua própria condição de reconciliação usando o modelador de consultas. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md).
 
-1. É possível filtrar dados para reconciliar usando o **Criar filtro** botão. Isso permite criar uma condição personalizada usando o [modelador de consultas](../../query/query-modeler-overview.md).
+1. É possível filtrar dados para reconciliar usando o **Criar filtro** botão. Isso permite criar uma condição personalizada usando o modelador de consultas. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 
 Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative a opção **Manter dados não reconciliados**.
 

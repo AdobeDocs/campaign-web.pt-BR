@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '947'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ## Introdução ao conteúdo condicional {#gs}
 
-O conteúdo condicional é um recurso poderoso que permite criar personalização dinâmica com base no perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições são atendidas. Esse recurso pode elevar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo.
+O conteúdo condicional é um recurso poderoso que permite criar personalização dinâmica com base nos dados de perfil do recipient, substituindo automaticamente blocos de texto e imagens quando determinadas condições são atendidas. Esse recurso pode elevar suas campanhas a novos patamares e fornecer experiências personalizadas e altamente direcionadas ao seu público-alvo.
 
 Ao configurar campos de conteúdo condicional, você pode criar personalização dinâmica avançada com base no perfil do recipient, por exemplo. Blocos de texto, links, linha de assunto e/ou imagens são substituídos no conteúdo da mensagem quando uma determinada condição é atendida. Por exemplo, você pode exibir &quot;Sr.&quot; ou &quot;Sra.&quot; de acordo com o valor do campo Gênero no banco de dados do Adobe Campaign ou incluir um link diferente com base no idioma preferencial do recipient.
 
@@ -84,7 +84,7 @@ O conteúdo condicional em emails pode ser criado de duas maneiras:
 * No editor de expressão, criando uma condição com funções auxiliares,
 * Em um construtor de conteúdo condicional dedicado que pode ser acessado ao criar um email.
 
-A seção a seguir fornece instruções passo a passo sobre como criar condições usando o recurso de conteúdo condicional do designer de email. Informações detalhadas sobre como criar condições usando o editor de expressão estão disponíveis [aqui](#condition-perso-editor).
+A seção a seguir fornece instruções passo a passo sobre como criar condições usando o recurso de conteúdo condicional do Designer de email. Informações detalhadas sobre como criar condições usando o editor de expressão estão disponíveis [aqui](#condition-perso-editor).
 
 Neste exemplo, queremos criar uma mensagem de email com várias variantes com base no idioma dos recipients. Siga estas etapas:
 
@@ -100,13 +100,9 @@ Neste exemplo, queremos criar uma mensagem de email com várias variantes com ba
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Um construtor de regras é exibido. Ele fornece **Perfil**, **Mensagem**, e **Entrega** atributos que você pode utilizar para criar sua condição.
+1. O modelador de consultas é aberto. Ela permite criar uma condição filtrando os dados de perfil do recipient. [Saiba como trabalhar com o modelador de consultas](../query/query-modeler-overview.md).
 
-   Além disso, a **Condições** O menu fornece condições pré-criadas que você pode adicionar à tela para criar facilmente sua variante. Para usá-las, clique no link **Adicionar** e substitua os elementos entre `<` e `>`símbolos pelos elementos desejados. Certifique-se de que o valor especificado para o `<value>` objeto está entre aspas.
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. Quando a condição da primeira variante da mensagem estiver pronta, clique em **[!UICONTROL Confirmar o]**. Neste exemplo, estamos criando uma regra direcionada a recipients cujo idioma é &quot;francês&quot;.
+   Quando a condição da primeira variante da mensagem estiver pronta, clique em **[!UICONTROL Confirmar o]**. Neste exemplo, estamos criando uma regra direcionada a recipients cujo idioma é &quot;francês&quot;.
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

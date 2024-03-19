@@ -3,9 +3,9 @@ audience: end-user
 title: Criar emails usando o Designer de email
 description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '627'
 ht-degree: 71%
 
 ---
@@ -54,6 +54,8 @@ ht-degree: 71%
 >abstract="O Designer de email permite definir facilmente o layout do modelo definindo a estrutura da coluna."
 
 O Designer de email permite definir a estrutura do email com facilidade. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode criar o corpo do seu email em segundos.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
@@ -105,3 +107,8 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 1. Quando o email estiver pronto, clique em **[!UICONTROL Salvar]**.
 
+## Vídeo tutorial {#video}
+
+Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, além de personalizá-lo e testá-lo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

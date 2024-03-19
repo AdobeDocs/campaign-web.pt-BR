@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 24%
 
 ---
@@ -31,6 +31,7 @@ A lista completa de relatórios e métricas associadas para cada canal está dis
 * [Canal de campanha por email](campaign-reports-email.md)
 * [Canal de campanha por SMS](campaign-reports-sms.md)
 * [Canal de campanha por push](campaign-reports-push.md)
+* [Canal de campanha de correspondência direta](campaign-reports-direct-mail.md)
 
 ## Gerencie seu painel de relatório {#manage-reports}
 

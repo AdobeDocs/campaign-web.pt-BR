@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de campanha para o canal push
 description: Entender os relatórios de campanha do canal push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 19%
 
 ---
@@ -28,7 +28,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O relatório do fornece ind
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
-* **[!UICONTROL Total enviado]**: Número total de mensagens processadas durante a preparação do delivery.
+* **[!UICONTROL Mensagens a entregar]**: Número total de mensagens processadas durante a preparação do delivery.
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -71,7 +71,6 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 A variável **[!UICONTROL Estatísticas de execução]** A tabela detalha o sucesso do delivery. As métricas estão detalhadas abaixo.
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
-
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 

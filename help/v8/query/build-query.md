@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 20%
+source-wordcount: '2088'
+ht-degree: 21%
 
 ---
 
@@ -16,15 +16,17 @@ Para começar a criar uma consulta, acesse o modelador de consultas do local de 
 
 Você pode adicionar dois tipos de elementos:
 
-* **Filtrar componentes** (Condição personalizada, Selecionar público, Filtro predefinido) permitem criar suas próprias regras, selecionar um público ou um filtro predefinido para refinar sua consulta. [Saiba como trabalhar com componentes de filtragem](#filtering)
+* **Filtrar componentes** (Condição personalizada, Selecionar público, Filtro predefinido) permitem criar suas próprias regras, selecionar um público ou um filtro predefinido para refinar sua consulta. Elas são adicionadas no início da query e em transições pontilhadas. [Saiba como trabalhar com componentes de filtragem](#filtering)
 
-  *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*. *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
+  Exemplo: *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*. *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
 
-* **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama para atender às suas necessidades. [Saiba como trabalhar com operadores](#filtering)
+  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-  *Recipients que assinaram o boletim informativo &quot;Esportes&quot;**E**que vivem em Nova York **OU**São Francisco*.
+* **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama. Eles são adicionados em transições existentes antes de um componente de filtragem. [Saiba como trabalhar com operadores](#filtering)
 
-![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  Exemplo: *Recipients que assinaram o boletim informativo &quot;Esportes&quot;**E**que vivem em Nova York **OU**São Francisco*.
+
+  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
 ## Adicionar componentes de filtragem {#filtering}
 
@@ -51,7 +53,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
    >[!NOTE]
    >
-   >O botão Edit expression permite aproveitar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
+   >A variável **Editar expressão** O botão permite aproveitar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
 
 1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
@@ -83,6 +85,10 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
    *Exemplo de consulta que retorna todos os perfis com 21 anos ou mais:*
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+
+   Para atributos do tipo data, os valores predefinidos estão disponíveis usando o **[!UICONTROL Predefinições]** opção.
+
+   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
 #### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
@@ -211,7 +217,7 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
 
 Cada vez que você adiciona um novo componente de filtragem à sua consulta, ele é automaticamente vinculado ao outro componente por um **E** operador. Isso significa que os resultados dos dois componentes de filtragem são combinados.
 
-Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente é vinculado à condição de tipo de filtro predefinida com um **E** operador, o que significa que os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
+Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente é vinculado à condição de filtro predefinida com um **E** operador, o que significa que os resultados da consulta incluem recipients direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
