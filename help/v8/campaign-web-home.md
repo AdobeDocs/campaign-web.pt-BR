@@ -3,9 +3,9 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 63fc6fd1b3f12c97fbe9e2c83a0044878e3e5c38
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 72%
 
 ---
@@ -55,7 +55,7 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 Descubra novos recursos e melhorias que vêm com a versão 24.3 da Interface do usuário da Web do Adobe Campaign.
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Sobre o canal de correspondência direta]
 
