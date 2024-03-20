@@ -4,9 +4,9 @@ title: Introdução às notificações por push
 description: Saiba como criar e enviar notificações por push com o Adobe Campaign Web
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ As notificações por push são essenciais para se comunicar com os usuários de
 
 Para criar notificações por push, existem três opções:
 
-* **Workflows**: depois de adicionar uma atividade de canal de push ao seu workflow e definir as configurações básicas, você pode criar o conteúdo de suas notificações por push no menu do painel direito. Para obter instruções detalhadas sobre como configurar o workflow, consulte [esta página](../workflows/gs-workflows.md).
+* **Workflows**: depois de adicionar uma atividade de canal de push ao seu workflow e definir as configurações básicas, você pode criar o conteúdo de suas notificações por push no menu do painel direito. Para obter instruções detalhadas sobre como configurar o fluxo de trabalho, consulte [esta página](../workflows/gs-workflows.md).
 
-* **Campanhas**: após criar uma campanha, é possível criar uma entrega de notificações por push. Para obter mais informações sobre como configurar a campanha, consulte [esta página](../campaigns/gs-campaigns.md).
+* **Campanhas**: após criar uma campanha, é possível criar uma entrega de notificações por push. Para obter mais informações sobre como configurar sua campanha, consulte [esta página](../campaigns/gs-campaigns.md).
 
 * **Entregas independentes**: engaje os clientes de forma direta e instantânea com a entrega individual de notificações por push, sem a necessidade de criar workflows ou campanhas.
 
