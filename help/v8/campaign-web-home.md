@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 63fc6fd1b3f12c97fbe9e2c83a0044878e3e5c38
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '503'
+ht-degree: 72%
 
 ---
 
@@ -51,6 +51,12 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
+>[!TAB A versão de março está disponível.]
+
+Descubra novos recursos e melhorias que vêm com a versão 24.3 da Interface do usuário da Web do Adobe Campaign.
+
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Sobre o canal de correspondência direta]
 
 **Correspondência direta** O canal agora está disponível para uso em workflows e como deliveries independentes. A correspondência direta é um canal offline que permite criar, personalizar e gerar arquivos de extração e compartilhá-los com seus provedores de correspondência direta para enviar emails a seus clientes.
@@ -58,12 +64,6 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 ![imagem](assets/do-not-localize/direct-mail.gif)
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Modelador de consultas no Designer de email]
-
-O modelador de consultas agora está disponível para uso no Designer de email. Ele permite criar condições ao criar conteúdo condicional.
-
-[![imagem](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB Nova atividade de fluxo de trabalho Alterar fonte de dados]
 
