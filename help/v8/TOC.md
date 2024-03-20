@@ -8,7 +8,7 @@ breadcrumb-title: Interface do Campaign Web
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 93%
       + [Adicionar blocos de conteúdo integrados](personalization/content-blocks.md)
    + [Adicionar ofertas às suas mensagens](msg/offers.md)
    + [Enviar mensagens a assinantes](msg/send-to-subscribers.md)
-   + [Definir configurações de entrega](advanced-settings/delivery-settings.md)
+   + [Definir as configurações de entrega](advanced-settings/delivery-settings.md)
    + Visualizar e testar a entrega {#preview-test}
       + [Sobre a visualização e provas](preview-test/preview-test.md)
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
@@ -178,7 +178,7 @@ ht-degree: 93%
       + [Relatório global de SMS](reporting/global-report-sms.md)
       + [Relatório global de correspondência direta](reporting/global-report-direct.md)
 + Integrações {#integrations}
-   + [Trabalhar com outras soluções de Adobe](integrations/integration.md)
+   + [Trabalhar com outras soluções da Adobe](integrations/integration.md)
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-   + [Gerenciar modelos com o Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
 

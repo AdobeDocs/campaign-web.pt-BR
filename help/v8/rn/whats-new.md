@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Use a nova interface do Campaign Web para:
 
 * Criar, projetar, personalizar, agendar e enviar notificações por email, SMS e por push – [Saiba mais](../msg/gs-messages.md)
 * Criar conteúdo de email personalizado com o Designer de email – [Saiba mais](../email/edit-content.md)
-* Enviar campanhas entre canais, incluindo SMS e notificações por push - [Saiba mais](../workflows/activities/channels.md)
+* Enviar campanhas entre canais, incluindo SMS e notificações por push – [Saiba mais](../workflows/activities/channels.md)
 * Definir os públicos-alvo com o modelador de consulta - [Saiba mais](../audience/about-recipients.md)
 * Visualizar, testar e enviar suas mensagens - [Saiba mais](../monitor/prepare-send.md)
 * Monitorar o envio e medir os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)

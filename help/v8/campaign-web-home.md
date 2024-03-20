@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ A variável **Alterar fonte de dados** a atividade de direcionamento permite alt
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Tornar seu conteúdo dinâmico</strong><br/>Saiba como personalizar seu conteúdo com base nas informações coletadas sobre seus perfis para tornar seu conteúdo mais atraente e aumentar a probabilidade de leitura.</div>
+    <div><strong>Crie conteúdo dinâmico</strong><br/>Saiba como personalizar seu conteúdo com base nas informações coletadas sobre os seus perfis para deixá-lo mais interessante e aumentar a probabilidade de leitura.</div>
     </td>
   </tr>
   <tr style="border: 0;">
