@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
-description: Saiba como adicionar uma atividade de fluxo de trabalho de entrega (Email, Push, SMS)
+description: Saiba como adicionar uma atividade de workflow de delivery (Email, Push, SMS, Direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '971'
+ht-degree: 51%
 
 ---
 
-# Atividades de email, SMS, push {#channel}
+# Atividades de email, SMS, Push, Correspondência direta {#channel}
 
-O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente.
+O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS, correspondência direta e push. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente.
 
-Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui uma série de mensagens em diferentes canais, como email, SMS e push. Também é possível enviar um email de acompanhamento depois que alguém concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
+Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui uma série de mensagens em diferentes canais, como email, SMS, push e correspondência direta. Também é possível enviar um email de acompanhamento depois que alguém concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
 
 Usando atividades do canal, você pode criar campanhas abrangentes e personalizadas que envolvem clientes em vários pontos de contato e impulsionam conversões.
 
@@ -24,6 +24,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >* [Criar entrega de email independente](../../email/create-email.md)
 >* [Criar entrega de SMS independente](../../sms/create-sms.md)
 >* [Criar entrega por push autônoma](../../push/create-push.md)
+>* [Criar entrega de correspondência direta autônoma](../../direct-mail/create-direct-mail.md)
 
 ## Pré-requisitos {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Comece a criar seu workflow com as atividades relevantes:
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * Para enviar um delivery recorrente, inicie o workflow com um **Scheduler** atividade. Você também pode usar uma **Scheduler** atividade de deliveries únicos únicos únicos únicos para definir a data de contato para esse delivery. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
-
 
 ## Configurar a atividade Canal {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Comece a criar seu workflow com as atividades relevantes:
 >title="Atividade push para Android"
 >abstract="A atividade Push para Android simplifica o processo de envio de notificações por push para Android como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push para Android para um público-alvo predefinido no mesmo fluxo de trabalho. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="Atividade de correspondência direta"
+>abstract="A atividade Correspondência direta facilita o envio de correspondência direta dentro do fluxo de trabalho, permitindo mensagens únicas e recorrentes. Ele serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de mala direta. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 
-1. Adicionar uma atividade de canal: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]** ou **[!UICONTROL Notificação por push (iOS)]**.
+1. Adicionar uma atividade de canal: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]**, **[!UICONTROL Notificação por push (iOS)]** ou **[!UICONTROL Correspondência direta]**.
 
 1. Selecione o **Tipo de entrega**: único ou recorrente.
 
