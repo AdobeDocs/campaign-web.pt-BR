@@ -1,10 +1,10 @@
 ---
 title: Notas de versão mais recentes
 description: Conheça o novo recurso incluído na interface do Campaign Web
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 9%
+source-wordcount: '342'
+ht-degree: 8%
 
 ---
 
@@ -26,19 +26,6 @@ As versões da interface do usuário da Web do Adobe Campaign operam em um model
 >Esta versão está disponível para todos os usuários a partir de [Versão v8.6 do Campaign (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR). Saiba mais sobre as versões e atualizações do console do cliente do Adobe Campaign em [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=pt-BR){target="_blank"}.
 
 ## Notas de versão de março {#24-3-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Correspondência direta"
->abstract="O canal de correspondência direta agora está disponível para uso em workflows e deliveries independentes. Use o canal de correspondência direta offline para criar, personalizar e gerar um arquivo de extração e compartilhá-lo com seus provedores de correspondência direta para enviar emails a seus clientes."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte as notas de versão"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Alterar fonte de dados"
->abstract="Use a nova atividade de direcionamento do fluxo de trabalho Alterar fonte de dados para alterar a fonte de dados usada pela tabela de trabalho do fluxo de trabalho. Essa atividade oferece mais flexibilidade, permitindo gerenciar dados em seus diferentes bancos de dados e melhorar o desempenho."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte as notas de versão"
-
 
 **Data de lançamento**: 19 a 20 de março de 2024
 
