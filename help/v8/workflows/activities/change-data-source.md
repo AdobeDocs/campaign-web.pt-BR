@@ -2,21 +2,15 @@
 audience: end-user
 title: Usar a atividade de workflow Alterar fonte de dados
 description: Saiba como usar a atividade de workflow Alterar fonte de dados
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '297'
 ht-degree: 9%
 
 ---
 
 # Alterar fonte de dados {#change-data-source}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Alterar fonte de dados em fluxos de trabalho"
->abstract="A atividade de direcionamento Alterar fonte de dados permite alterar a fonte de dados usada pela tabela de trabalho do fluxo de trabalho. Essa atividade oferece mais flexibilidade, permitindo gerenciar dados em seus diferentes bancos de dados e melhorar o desempenho."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
