@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 90%
 
 ---
 
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [Adicionar um link para a mirror page](email/mirror-page.md)
             + [Adicionar um pré-cabeçalho](email/preheader.md)
             + [Gerar a versão de texto](email/text-version-email.md)
-         + Assistente de conteúdo {#content-assistant}
-            + [Introdução ao Assistente de conteúdo](email/generative-gs.md)
-            + [Geração de texto com o Assistente de conteúdo](email/generative-content.md)
-            + [Geração de imagem com o Assistente de conteúdo](email/generative-image.md)
-            + [Geração de email com o Assistente de conteúdo](email/generative-email.md)
          + Estilizar o conteúdo {#style}
             + [Introdução ao estilo de email](email/get-started-email-style.md)
             + [Editar configurações de fundo](email/backgrounds.md)
@@ -80,6 +75,11 @@ ht-degree: 94%
       + [Criar uma entrega de correspondência direta](direct-mail/create-direct-mail.md)
       + [Criar o arquivo de extração](direct-mail/content-direct-mail.md)
       + [Pré-visualizar e enviar um delivery de correspondência direta](direct-mail/send-direct-mail.md)
+   + Assistente de IA {#ai-assistant}
+      + [Introdução ao Assistente de IA](email/generative-gs.md)
+      + [Geração de email com o Assistente de IA](email/generative-content.md)
+      + [Geração de SMS com o Assistente de IA](email/generative-sms.md)
+      + [Geração de notificação por push com o Assistente de IA](email/generative-push.md)
    + Tornar seu conteúdo dinâmico {#dynamic-content}
       + [Introdução a conteúdo dinâmico](personalization/gs-personalization.md)
       + [Adicionar personalização](personalization/personalize.md)

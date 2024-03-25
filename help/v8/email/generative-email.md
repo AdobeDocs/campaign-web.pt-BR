@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: Geração de email com o Assistente de conteúdo
-description: Introdução ao Assistente de conteúdo
+title: Geração de email com o Assistente de IA no Campaign
+description: Introdução ao Assistente de IA no Campaign
 badge: label="Alfa"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 6%
+source-wordcount: '469'
+ht-degree: 4%
 
 ---
 
-# Gerar um email com o Assistente de conteúdo {#generative-email}
+# Gerar um email com o Assistente de IA {#generative-email}
 
-O Assistente de conteúdo aumenta o impacto da sua comunicação, gerando automaticamente conteúdo completo do e-mail, economizando tempo e garantindo qualidade consistente. Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente no seu público, tornando sua comunicação mais eficaz e eficiente.
+O Assistente de IA do Campaign aprimora o impacto da sua comunicação, gerando automaticamente conteúdo completo de email, economizando tempo e garantindo qualidade consistente. Com a IA gerativa, você pode criar e-mails atraentes que repercutem facilmente no seu público, tornando sua comunicação mais eficaz e eficiente.
 
 >[!NOTE]
 >
 >Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
 
 
-Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas abaixo. Você também pode melhorar um conteúdo existente com o Assistente de conteúdo, conforme detalhado em [esta página](generative-content.md).
+Para gerar um conteúdo de email com o Assistente de IA, siga as etapas abaixo. Você também pode melhorar um conteúdo existente com o Assistente de IA, conforme detalhado em [esta página](generative-content.md).
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Criar conteúdo]**.
 
@@ -30,7 +30,7 @@ Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas a
 
 1. Preencha o **[!UICONTROL Detalhes básicos]** para o seu delivery. Depois de concluído, clique em **[!UICONTROL Editar corpo do email]**.
 
-1. Escolha o modelo de design no qual você deseja que o Assistente de conteúdo baseie o email gerado.
+1. Escolha o modelo de design no qual você deseja que o Assistente de IA baseie o email gerado.
 
    Você também pode importar um arquivo HTML.
 
@@ -48,7 +48,7 @@ Para gerar um conteúdo de email com o Assistente de conteúdo, siga as etapas a
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Selecionar **[!UICONTROL Carregar arquivo]** se quiser adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de conteúdo.
+1. Selecionar **[!UICONTROL Carregar arquivo]** Se quiser adicionar um ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
    Você também pode clicar em **[!UICONTROL Conteúdo carregado]** para localizar arquivos atualizados anteriormente. Observe que o conteúdo carregado está disponível exclusivamente para reutilização pelo usuário atual.
 

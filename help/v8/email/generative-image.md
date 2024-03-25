@@ -6,14 +6,14 @@ badge: label="Alfa"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 8%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
-# Geração de imagem com o Assistente de conteúdo {#generative-image}
+# Geração de imagem de email com o Assistente de conteúdo {#generative-image}
 
 Depois de criar e personalizar seus emails, você pode aprimorar seu conteúdo usando o Assistente de conteúdo, viabilizado pela IA gerativa. Esse recurso simplifica o processo de personalização e melhoria de conteúdo.
 
