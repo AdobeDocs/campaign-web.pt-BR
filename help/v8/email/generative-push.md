@@ -5,7 +5,7 @@ description: Introdução ao Assistente de IA no Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 5%
@@ -77,7 +77,7 @@ O Assistente de IA pode ajudá-lo a otimizar o impacto de suas entregas, sugerin
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Insira campos de personalização para personalizar seu conteúdo de email com base nos dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
+1. Insira campos de personalização para personalizar o conteúdo de push com base nos dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +85,4 @@ O Assistente de IA pode ajudá-lo a otimizar o impacto de suas entregas, sugerin
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)
+1. Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua entrega por push. [Saiba mais](../monitor/prepare-send.md)
