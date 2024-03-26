@@ -12,7 +12,7 @@ ht-degree: 55%
 ---
 
 
-# Definir configurações de entrega {#del-settings}
+# Definir as configurações de entrega {#del-settings}
 
 As configurações de entrega são **parâmetros técnicos de entrega** que são definidas no template do delivery. Eles podem ser sobrecarregados para cada delivery. Essas configurações estão disponíveis no **Configurações** botão disponível ao editar um delivery ou um template do delivery.
 

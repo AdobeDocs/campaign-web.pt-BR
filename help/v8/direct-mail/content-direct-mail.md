@@ -2,13 +2,13 @@
 audience: end-user
 title: Criar um delivery de correspondência direta
 description: Saiba como projetar seu delivery de correspondência direta com o Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 3%
 
 ---
-
 
 # Criar o arquivo de extração {#design-direct-mail}
 

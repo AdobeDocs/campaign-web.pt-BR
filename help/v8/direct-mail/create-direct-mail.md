@@ -2,13 +2,13 @@
 audience: end-user
 title: Criar uma entrega de correspondência direta
 description: Saiba como criar um delivery de correspondência direta com o Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 28%
 
 ---
-
 
 # Criar uma entrega de correspondência direta {#create-direct-mail}
 
@@ -64,4 +64,3 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. Quando o delivery de mala direta estiver pronto, clique no link **[!UICONTROL Revisar e enviar]** botão para validar e enviar o delivery e gerar o arquivo de extração. [Saiba como visualizar e enviar um delivery de correspondência direta](send-direct-mail.md)
-
