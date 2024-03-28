@@ -6,7 +6,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -66,8 +66,8 @@ Comece a criar seu workflow com as atividades relevantes:
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
->title="Atividade de correspondência direta"
->abstract="A atividade Correspondência direta facilita o envio de correspondência direta dentro do fluxo de trabalho, permitindo mensagens únicas e recorrentes. Ele serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de mala direta. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
+>title="Atividade Correspondência direta"
+>abstract="A atividade Correspondência direta facilita o envio de correspondência direta no seu fluxo de trabalho, permitindo mensagens individuais e recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. Você pode combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem iniciar ações com base no comportamento e nos dados do cliente."
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 

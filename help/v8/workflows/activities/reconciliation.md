@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 42%
+ht-degree: 47%
 
 ---
 
@@ -53,8 +53,8 @@ Embora a **Enriquecimento** atividade permite definir dados adicionais a serem p
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Regras de reconciliação"
->abstract="Selecione as regras de reconciliação a serem usadas para a desduplicação. Para usar atributos, selecione a variável **Atributos simples** e escolha os campos source e destination. Para criar sua própria condição de reconciliação usando o modelador de consultas, selecione o **Condições de reconciliação avançadas** opção."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Trabalhar com o modelador de consultas"
+>abstract="Selecione as regras de reconciliação a serem usadas para a desduplicação. Para usar atributos, selecione a opção **Atributos simples** e escolha os campos origem e destino. Para criar sua própria condição de reconciliação usando o modelador de consultas, selecione a opção **Condições de reconciliação avançadas**."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/query-database/query-modeler-overview" text="Trabalhar com o modelador de consultas"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"

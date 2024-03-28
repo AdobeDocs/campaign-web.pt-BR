@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 9%
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Alterar fonte de dados"
->abstract="A variável **Alterar fonte de dados** A atividade permite selecionar uma fonte de dados diferente para a tabela de Trabalho do fluxo de trabalho."
+>abstract="A atividade **Alterar fonte de dados** permite selecionar uma fonte de dados diferente para a tabela de trabalho do fluxo de trabalho."
 
 A variável **Alterar fonte de dados** a atividade é um **direcionamento** atividade. Essa atividade permite alterar a fonte de dados usada pela tabela de Trabalho do workflow. Isso proporciona mais flexibilidade, permitindo que você gerencie dados em seus diferentes bancos de dados e melhore o desempenho.
 

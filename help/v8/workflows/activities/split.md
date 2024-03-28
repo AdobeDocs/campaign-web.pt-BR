@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >id="acw_orchestration_split_filter"
 >title="Dividir filtro de atividade"
 >abstract="Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o modelador de consultas. Por exemplo, inclua perfis da população recebida cujo endereço de email já exista no banco de dados."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Trabalhar com o modelador de consultas"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/query-database/query-modeler-overview" text="Trabalhar com o modelador de consultas"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"

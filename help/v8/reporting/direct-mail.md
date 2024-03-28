@@ -6,7 +6,7 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 11%
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ A variável **Relatório de entrega por correspondência direta** O oferece insi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="Visão geral da entrega"
->abstract="A variável **Visão geral da entrega** O apresenta as principais métricas de desempenho (KPIs) com informações detalhadas sobre a interação de seus visitantes com cada delivery de correspondência direta. As métricas estão descritas abaixo."
+>abstract="A **Visão geral da entrega** apresenta métricas principais de desempenho (KPIs) com informações detalhadas sobre as interações de visitantes com cada entrega de correspondência direta. As métricas estão descritas abaixo."
 
 A variável **[!UICONTROL Visão geral da entrega]** O fornece insights detalhados sobre como seus visitantes interagem com cada delivery de correspondência direta, apresentando métricas essenciais de desempenho (KPIs).  As métricas estão descritas abaixo.
 
@@ -65,7 +65,7 @@ Passe o mouse sobre uma parte do gráfico para exibir o número exato.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="Estatísticas de entrega"
->abstract="A variável **Estatísticas de entrega** O gráfico detalha o sucesso do delivery de correspondência direta e os erros que ocorreram."
+>abstract="O gráfico **Estatísticas de entrega** detalha o sucesso da entrega de correspondência direta e os erros que ocorreram."
 
 A variável **[!UICONTROL Estatísticas de entrega]** O gráfico fornece uma visão geral abrangente do desempenho do delivery, oferecendo métricas detalhadas para medir o sucesso e a eficácia.
 
@@ -88,7 +88,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico fornece uma vis
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="Causas de exclusão de entrega"
->abstract="A variável **Causas de exclusão** O gráfico ilustra a distribuição de mensagens rejeitadas durante a preparação para o delivery, categorizadas por cada regra."
+>abstract="O gráfico **Causas de exclusão** ilustra a distribuição de mensagens rejeitadas durante a preparação para a entrega, categorizada por cada regra."
 
 A variável **[!UICONTROL Causas de exclusão]** O gráfico fornece um detalhamento dos motivos por trás das mensagens que são rejeitadas durante o processo de preparação do delivery. Esse detalhamento é organizado de acordo com várias regras, oferecendo uma visão abrangente dos fatores que contribuem para a exclusão de mensagens. As regras de exclusão são detalhadas na seção [Documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -117,7 +117,7 @@ A variável **[!UICONTROL Causas de exclusão]** O gráfico fornece um detalhame
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Exclusões"
->abstract="A variável **[!UICONTROL Exclusões]** A tabela exibe um detalhamento detalhado, por regra, das mensagens que foram rejeitadas durante o processo de preparação do delivery."
+>abstract="A tabela **[!UICONTROL Exclusões]** exibe um detalhamento por regra das mensagens que foram rejeitadas durante o processo de preparação da entrega."
 
 A variável **[!UICONTROL Exclusões]** A tabela fornece um detalhamento detalhado, categorizado por regras específicas, das mensagens que foram rejeitadas durante a fase de preparação do delivery. Essa análise abrangente permite compreender claramente os motivos por trás da exclusão dessas mensagens do processo de delivery.
 

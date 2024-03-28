@@ -6,7 +6,7 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 9%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Visão geral da entrega"
->abstract="A variável **Visão geral da entrega** O apresenta as principais métricas de desempenho (KPIs) com informações detalhadas sobre a interação de seus visitantes com cada delivery de correspondência direta. As métricas estão descritas abaixo."
+>abstract="A **Visão geral da entrega** apresenta métricas principais de desempenho (KPIs) com informações detalhadas sobre as interações de visitantes com cada entrega de correspondência direta. As métricas estão descritas abaixo."
 
 A variável **[!UICONTROL Visão geral da entrega]** O apresenta as principais métricas de desempenho (KPIs) com informações detalhadas sobre a interação de seus visitantes com cada delivery de correspondência direta. As métricas estão descritas abaixo.
 
@@ -44,7 +44,7 @@ A variável **[!UICONTROL Visão geral da entrega]** O apresenta as principais m
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Estatísticas iniciais do público-alvo"
->abstract="Os dados do recipient e as informações da mensagem são exibidos no **Estatísticas iniciais do público-alvo** tabela, que reflete a análise de preparação do delivery."
+>abstract="Os dados de destinatários e as informações da mensagem são exibidos na tabela **Estatísticas iniciais do público-alvo**, que reflete a análise de preparação da entrega."
 
 A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas são calculadas durante a preparação do delivery e mostram: o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
 
@@ -65,7 +65,7 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Estatísticas de entrega"
->abstract="A variável **Estatísticas de execução** A tabela detalha o sucesso do delivery de correspondência direta e os erros que ocorreram."
+>abstract="A tabela **Estatísticas de execução** detalha o sucesso da entrega de correspondência direta e os erros que ocorreram."
 
 ![](assets/direct-mail-campaign-exec.png)
 

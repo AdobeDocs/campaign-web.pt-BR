@@ -6,7 +6,7 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Conteúdo do arquivo de extração"
->abstract="Clique em **Editar conteúdo** botão para começar a projetar o arquivo de extração exigido pelo seu provedor de correspondência direta. Isso permite definir as propriedades do arquivo, como rótulo e formato, e especificar as colunas que deseja incluir no arquivo."
+>abstract="Clique no botão **Editar conteúdo** para iniciar a criação do arquivo de extração exigido pelo seu provedor de correspondência direta. Isso permite definir as propriedades do arquivo, como rótulo e formato, e especificar as colunas que deseja incluir no arquivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="Propriedades do arquivo"
->abstract="Configure as propriedades do arquivo de extração, como nome e formato. Você pode personalizar o nome do arquivo usando atributos do banco de dados usando o editor de expressão."
+>abstract="Configure as propriedades do arquivo de extração, como nome e formato. É possível personalizar o nome do arquivo usando atributos do banco de dados com o editor de expressão."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Conteúdo"
->abstract="Nesta seção, especifique as colunas a serem exibidas no arquivo de extração. Depois de concluído, você pode obter uma pré-visualização do arquivo de extração usando o **Simular conteúdo** botão."
+>abstract="Nesta seção, especifique as colunas a serem exibidas no arquivo de extração. Depois de concluído, é possível obter uma visualização do arquivo de extração usando o botão **Simular conteúdo**."
 
 Para projetar o conteúdo do arquivo de extração gerado pelo delivery de correspondência direta, clique no link **[!UICONTROL Editar conteúdo]** na página de entrega e, em seguida, configure as propriedades e o conteúdo do arquivo.
 
