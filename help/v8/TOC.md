@@ -8,7 +8,7 @@ breadcrumb-title: Interface do Campaign Web
 source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -72,10 +72,10 @@ ht-degree: 89%
       + [Criar uma entrega de SMS](sms/content-sms.md)
       + [Visualizar e enviar uma entrega de SMS](sms/send-sms.md)
    + Correspondência direta {#direct-mail}
-      + [Introdução a entregas de correspondência direta](direct-mail/gs-direct-mail.md)
+      + [Introdução às entregas de correspondência direta](direct-mail/gs-direct-mail.md)
       + [Criar uma entrega de correspondência direta](direct-mail/create-direct-mail.md)
       + [Criar o arquivo de extração](direct-mail/content-direct-mail.md)
-      + [Pré-visualizar e enviar um delivery de correspondência direta](direct-mail/send-direct-mail.md)
+      + [Visualizar e enviar uma entrega de correspondência direta](direct-mail/send-direct-mail.md)
    + Assistente de IA {#ai-assistant}
       + [Introdução ao Assistente de IA](email/generative-gs.md)
       + [Geração de email com o Assistente de IA](email/generative-content.md)
@@ -165,7 +165,7 @@ ht-degree: 89%
       + [Relatório de entrega de emails](reporting/email-report.md)
       + [Relatório de entrega por push](reporting/push-report.md)
       + [Relatório de entrega de SMS](reporting/sms-report.md)
-      + [Relatório de entrega por correspondência direta](reporting/direct-mail.md)
+      + [Relatório de entrega de correspondência direta](reporting/direct-mail.md)
    + Relatórios do Campaign {#campaign-report}
       + [Introdução a relatórios de campanha](reporting/campaign-reports.md)
       + [Relatório de campanha por email](reporting/campaign-reports-email.md)
