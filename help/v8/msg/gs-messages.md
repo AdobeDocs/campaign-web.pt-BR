@@ -4,9 +4,9 @@ title: Introdução a mensagens e entregas no Adobe Campaign Web
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails
 
 Essas mensagens são criadas e enviadas através de entregas e podem ser personalizadas para cada destinatário. Essas entregas podem ser independentes ou incluídas em workflows no contexto de uma campanha de marketing. Saiba como criar e gerenciar entregas no Adobe Campaign [nesta seção](gs-deliveries.md).
 
-O Adobe Campaign v8 vem com os seguintes canais de entrega: Email, SMS, Notificação por push e Correspondência direta. Outros canais, como mensagens no aplicativo ou Marketing social com X (Twitter), ainda não são compatíveis.
+O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS, notificação por push e correspondência direta. Outros canais, como mensagens in-app ou marketing social no X (Twitter), ainda não são compatíveis.
 
 Navegue pelas seções abaixo para saber como criar e enviar mensagens.
 

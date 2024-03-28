@@ -4,9 +4,9 @@ description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -53,13 +53,13 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!TAB A versão de março está disponível.]
 
-Descubra novos recursos e melhorias que vêm com a versão 24.3 da Interface do usuário da Web do Adobe Campaign.
+Conheça os novos recursos e melhorias que vêm com a versão 24.3 da Interface do Adobe Campaign Web.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Sobre o canal de correspondência direta]
 
-**Correspondência direta** O canal agora está disponível para uso em workflows e como deliveries independentes. A correspondência direta é um canal offline que permite criar, personalizar e gerar arquivos de extração e compartilhá-los com seus provedores de correspondência direta para enviar emails a seus clientes.
+O canal **Correspondência direta** agora está disponível para uso em fluxos de trabalho e como entregas independentes. A correspondência direta é um canal offline que permite criar, personalizar e gerar arquivos de extração e compartilhá-los com seus provedores de correspondência direta para enviar emails a seus clientes.
 
 ![imagem](assets/do-not-localize/direct-mail.gif)
 
@@ -67,7 +67,7 @@ Descubra novos recursos e melhorias que vêm com a versão 24.3 da Interface do 
 
 >[!TAB Nova atividade de fluxo de trabalho Alterar fonte de dados]
 
-A variável **Alterar fonte de dados** a atividade de direcionamento permite alterar a fonte de dados usada pela tabela de trabalho do workflow. Essa atividade oferece mais flexibilidade, permitindo gerenciar dados em seus diferentes bancos de dados e melhorar o desempenho.
+A nova atividade de direcionamento **Alterar fonte de dados** permite alterar a fonte de dados de uma tabela de trabalho do fluxo de trabalho. Essa atividade oferece mais flexibilidade, permitindo gerenciar dados em seus diferentes bancos de dados e melhorar o desempenho.
 
 ![imagem](assets/do-not-localize/change-data-source.gif)
 

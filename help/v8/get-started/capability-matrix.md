@@ -4,9 +4,9 @@ title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 
 ## Canais de comunicação {#channels-capabilities}
 
-Com a interface da Web do Campaign, você pode criar, projetar e enviar **email**, **SMS**, **notificações por push**, **correspondência direta** e medir o seu impacto utilizando vários relatórios específicos, como [nesta seção](../msg/gs-messages.md). No entanto, os seguintes canais estão **não** disponível: no aplicativo, LINE, Call center/Canal personalizado, Marketing social com X (Twitter).
+Com a interface do Campaign Web, é possível criar, projetar e enviar **emails**, **SMS**, **notificações por push** e **correspondência direta**, além de medir o impacto com vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, no momento os seguintes canais **não** estão disponíveis: in-app, LINE, Central de atendimento/Canal personalizado, Marketing social no X (Twitter).
 
 Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses canais.
 
@@ -167,7 +167,7 @@ O Gerenciamento de dados combina um conjunto de atividades para resolver problem
 
 >[!NOTE]
 >
->Embora algumas dessas atividades estejam disponíveis somente no console do cliente, algumas estão disponíveis na interface da Web do Campaign, como **Enriquecimento**, **Carregar arquivo**, **Alterar fonte de dados** ou **Alterar dimensão** atividades. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do Campaign Web](../workflows/activities/about-activities.md#targeting)
+>Embora algumas dessas atividades estejam disponíveis somente no console do cliente, outras podem ser encontradas na interface do Campaign Web, como as atividades **Enriquecimento**, **Carregar arquivo**, **Alterar fonte de dados** ou **Mudar dimensão**. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do Campaign Web](../workflows/activities/about-activities.md#targeting)
 
 ### Configuração do Federated Data Access {#fda}
 
