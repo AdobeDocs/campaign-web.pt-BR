@@ -4,14 +4,20 @@ title: Criar um delivery de notificação por push avançado
 description: Saiba como criar um delivery de notificação por push avançado para Android com o Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1417'
 ht-degree: 9%
 
 ---
 
 # Criar uma entrega de push avançada do Android {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Botão Lembrar mais tarde"
+>abstract="A variável **Lembrar mais tarde** fornece a opção de agendar um lembrete. O campo Carimbo de data/hora exige um valor que represente a época em segundos."
 
 Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagens:
 
@@ -99,7 +105,7 @@ Depois de definir o conteúdo da mensagem, você pode usar assinantes de teste p
 
 1. Clique em **[!UICONTROL Adicionar lembrete depois]** botão para adicionar uma opção Lembre-me mais tarde à sua notificação por push. Insira um **[!UICONTROL Rótulo]** e **[!UICONTROL Carimbo de data e hora]**.
 
-   O campo Timestamp espera um valor que representa uma época em segundos.
+   O campo Timestamp espera um valor que representa a época em segundos.
 
    ![](assets/rich_push_basic_5.png)
 
