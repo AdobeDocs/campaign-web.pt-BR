@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Introdução ao Assistente de IA
+title: Introdução ao assistente de IA
 description: Introdução ao Assistente de IA
 badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
-# Introdução ao Assistente de IA {#generative-gs}
+# Introdução ao assistente de IA {#generative-gs}
 
 >[!BEGINSHADEBOX]
 
@@ -29,12 +29,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Assistente de IA"
->abstract="Depois de criar e personalizar o delivery, você pode usar o Assistente de IA para aprimorar o conteúdo. Esse recurso simplifica o processo de personalização e aprimoramento de conteúdo, permitindo ajustar o conteúdo, descrevendo o que deseja gerar."
+>abstract="Depois de criar e personalizar a entrega, use o assistente de IA para aprimorar o conteúdo. Esse recurso simplifica o processo de personalização e aprimoramento de conteúdo, permitindo ajustar o conteúdo, descrevendo o que deseja gerar."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Definir contexto com o Assistente de IA no Campaign"
+>title="Definição do contexto com o assistente de IA no Campaign"
 >abstract="Para usar o conteúdo selecionado como uma entrada para a geração de conteúdo, ative a opção **Aprimorar com conteúdo atual**. Você também pode fazer upload dos ativos da sua marca e usá-los como fonte de conteúdo. Se você não usar o conteúdo selecionado, será obrigatório fazer o upload e selecionar os ativos de marca."
 
 

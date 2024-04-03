@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
 workflow-type: tm+mt
 source-wordcount: '1619'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -387,12 +387,12 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
->title="Parâmetros de sinal externo"
+>title="Parâmetros do sinal externo"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
->title="Finalizar acionadores"
+>title="Acionadores de término"
 >abstract="A confirmar"
 
 
@@ -400,22 +400,22 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Código Javascript"
+>title="Código JavaScript"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Snippet do Javascript"
+>title="Trecho de JavaScript"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Execução de Javascript"
+>title="Execução de JavaScript"
 >abstract="A confirmar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Transição para Javascript"
+>title="Transição de JavaScript"
 >abstract="A confirmar"
 
 
@@ -448,5 +448,5 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Erro de processo"
+>title="Erro no processo"
 >abstract="A confirmar"
