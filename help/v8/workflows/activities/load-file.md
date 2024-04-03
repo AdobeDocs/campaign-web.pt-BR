@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 44%
+source-wordcount: '394'
+ht-degree: 42%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Excluir arquivo após importação"
->abstract="A confirmar"
+>abstract="Alterne a **Excluir arquivo após importação** para excluir o arquivo original do servidor após a importação."
 
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.
 

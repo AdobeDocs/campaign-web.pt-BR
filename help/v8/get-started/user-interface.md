@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 85%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Este modelo é do tipo somente leitura"
->abstract="A confirmar"
-
+>abstract="Você não tem permissão para editar este modelo. Se necessário, entre em contato com a sua administração para obter acesso."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Página de destino padrão"
->abstract="A confirmar"
+>abstract="Selecione a landing page padrão associada a esse serviço de assinatura."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Serviços de assinatura"
->abstract="A confirmar"
+>title="Atividade de subscrição no serviço"
+>abstract="Use o Adobe Campaign para criar e monitorar os seus serviços, como informativos, e verificar as assinaturas e o cancelamento delas nesses serviços. As assinaturas aplicam-se somente a entregas por email e SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parâmetros de serviços de assinatura"
->abstract="A confirmar"
+>title="Parâmetros de serviço de assinatura"
+>abstract="Selecione e confirme as configurações do serviço de assinatura."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transição de saída dos serviços de assinatura"
->abstract="A confirmar"
+>abstract="Alterne a **Gerar uma transição de saída** opção para adicionar uma transição após a atividade."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Atualizar dados"
->abstract="A confirmar"
+>abstract="A atividade **Update data** realiza uma atualização em massa dos campos no banco de dados."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Atualizar dados"
->abstract="A confirmar"
+>title="Selecionar como atualizar dados"
+>abstract="A variável **Tipo de operação** permite escolher o processo que deve ser executado nos dados no banco de dados. Selecione a primeira opção para adicionar dados ou atualizar (caso já tenha sido adicionada). Você também pode apenas adicionar, atualizar ou excluir dados. Selecione o **Atualizar e mesclar coleções** para selecionar um registro principal ao qual vincular duplicatas e excluí-las com segurança."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Atualizar dados"
->abstract="A confirmar"
+>title="Identificação de registro"
+>abstract="Especifique como identificar os registros no banco de dados: se os dados se relacionarem a um targeting dimension existente, selecione o **Uso da targeting dimension** e selecione a targeting dimension e os campos a serem atualizados. Caso contrário, especifique um ou mais links personalizados para identificar os dados no banco de dados ou use diretamente chaves de reconciliação."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Atualizar dados"
->abstract="A confirmar"
+>title="Selecionar campos a serem atualizados"
+>abstract="Selecione os campos para atualizar e reconciliar configurações. Você pode usar o **Mapeamento automático** opção para identificar automaticamente os campos que serão atualizados."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Atualizar dados"
->abstract="A confirmar"
+>title="Opções avançadas para atualizar dados"
+>abstract="A variável **Opções avançadas** permitem especificar configurações adicionais para gerenciar dados e duplicatas."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Atualizar dados"
->abstract="A confirmar"
+>title="Gerar uma transição de saída"
+>abstract="Alterne a **Gerar uma transição de saída** opção para adicionar uma transição de saída que será ativada no final da execução do **Atualizar dados** atividade. A atualização geralmente marca o final de um workflow para construção do target e, portanto, a opção não é ativada por padrão."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Atualizar dados"
->abstract="A confirmar"
+>title="Gere uma transição de saída para rejeições."
+>abstract="Alterne a **Gerar uma transição de saída para rejeições** opção para adicionar uma transição de saída contendo registros que não foram processados corretamente após a atualização (por exemplo, se houver uma duplicata). A atualização geralmente marca o final de um workflow para construção do target e, portanto, a opção não é ativada por padrão."
 
 
 
