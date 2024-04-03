@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '946'
 ht-degree: 8%
 
 ---
@@ -42,7 +42,7 @@ Para definir o conteúdo condicional para um delivery usando o editor de express
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. No editor de personalização, navegue até o **[!UICONTROL Funções auxiliares]** à esquerda.
+1. No editor de personalização, navegue até o **[!UICONTROL Condições]** à esquerda.
 
 1. Para começar a criar sua condição, clique no ícone &quot;+&quot; ao lado da **Se** função. A seguinte linha é adicionada à tela central:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
