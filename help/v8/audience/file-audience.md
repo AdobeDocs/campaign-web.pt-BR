@@ -3,10 +3,10 @@ audience: end-user
 title: Carregar um público-alvo de email a partir de um arquivo
 description: Saiba como carregar perfis de um arquivo externo para criar seu público-alvo de email
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,32 +32,39 @@ ht-degree: 40%
 >title="Visualizar seu arquivo"
 >abstract="Verifique a visualização das colunas do arquivo externo. Essa tela mostra um máximo de 30 registros."
 
-Você pode direcionar perfis armazenados em um arquivo externo. Os perfis não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../personalization/gs-personalization.md). Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Este artigo descreve como carregar um perfil externo ao criar um delivery de email independente. Para carregar dados de um arquivo em um workflow, consulte [esta página](../workflows/activities/load-file.md).
+A interface da Web do Adobe Campaign permite direcionar perfis armazenados em um arquivo externo. Depois que os perfis forem carregados, todos os campos do arquivo de entrada estarão disponíveis para uso para personalizar o delivery [Saiba como personalizar seu conteúdo](../personalization/personalize.md).
 
->[!CAUTION]
->
->* Esse recurso só está disponível para **deliveries de email**. Ele não pode ser usado com deliveries SMS ou Push.
->
->* Não é possível usar [grupos de controle](control-group.md) ao carregar a população alvo a partir de um arquivo externo.
->
->* Os perfis não são adicionados ao banco de dados e apenas são carregados e disponibilizados para esse delivery de email independente específico.
+Perfis do arquivo de entrada não são adicionados ao banco de dados. Eles são carregados e disponibilizados somente para esse delivery de email independente específico.
 
-## Selecionar e configurar seu arquivo {#upload}
+>[!NOTE]
+>
+>Esta página descreve como carregar perfis externos de um arquivo ao criar um delivery de email independente. Para carregar dados de um arquivo no contexto de um workflow, consulte [esta página](../workflows/activities/load-file.md).
 
-Para direcionar perfis de um arquivo local diretamente da interface de email, siga estas etapas:
+## Leitura obrigatória {#must-read}
+
+* Esse recurso está disponível para **deliveries de email** somente.
+* Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).
+* Não é possível usar [grupos de controle](control-group.md) ao carregar a população alvo a partir de um arquivo externo.
+
+## Selecionar e configurar o arquivo de entrada {#upload}
+
+Para direcionar perfis de um arquivo em seus emails, siga estas etapas:
 
 1. Abrir um delivery de email existente, ou [criar um novo delivery de email](../email/create-email.md).
-1. Na janela de criação da entrega de email, na seção **Público-alvo**, clique no botão **Selecionar público-alvo** e escolha a opção **Selecionar do arquivo**.
+1. No **Público** clique na guia **Selecionar público** e escolha **Selecionar do arquivo**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Selecione o arquivo local a ser usado. O formato deve estar alinhado com o [arquivo de amostra](#sample-file).
+1. Selecione o arquivo local a ser carregado. O formato de arquivo deve estar alinhado com o [arquivo de amostra](#sample-file).
 1. Visualize e verifique como os dados estão mapeados na seção central da tela.
-1. Escolha a coluna que contém o endereço de email do menu suspenso **Campo de endereço**. Também é possível selecionar a coluna lista de bloqueios se tiver essas informações no arquivo de entrada.
-1. Ajuste as configurações da coluna e como formatar os dados a partir das opções disponíveis.
+
+   ![](assets/select-from-file-map.png)
+
+1. Especifique a coluna que contém o endereço de email do **Campo de endereço** lista suspensa. Também é possível selecionar a coluna lista de bloqueios se tiver essas informações no arquivo de entrada.
+1. Ajuste as configurações de coluna e como formatar os dados a partir das opções disponíveis.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
-Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do arquivo de entrada na [Editor de personalização](../personalization/gs-personalization.md).
+Ao criar o conteúdo da mensagem, você pode adicionar personalização aproveitando os campos do arquivo de entrada. [Saiba como personalizar conteúdo](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -68,19 +75,21 @@ Ao criar e personalizar o conteúdo da mensagem, você pode selecionar campos do
 >title="Carregar um público-alvo de um arquivo"
 >abstract="Os formatos de arquivo compatíveis são TXT e CSV. Usar a primeira linha como cabeçalho da coluna. Alinhe seu formato de arquivo com o arquivo de amostra fornecido no link abaixo."
 
-Os formatos compatíveis são TXT e CSV. A primeira linha é o cabeçalho da coluna.
+Ao carregar um arquivo externo para direcionar perfis em seus deliveries, verifique se o arquivo de entrada corresponde às recomendações abaixo:
 
-Alinhe o formato de arquivo com o arquivo de amostra abaixo:
+* Os formatos compatíveis são TXT e CSV.
+* A primeira linha do arquivo é o cabeçalho da coluna.
+* Alinhe o formato de arquivo com o arquivo de amostra abaixo:
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+  ```javascript
+  {
+  lastname,firstname,city,birthdate,email,denylist
+  Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+  Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+  Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+  Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+  }
+  ```
 
 ## Pré-visualizar e testar o email {#test}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 31%
 >abstract="Navegue pela lista para selecionar um público-alvo já existente. Use o ícone “Mostrar filtros” para filtrar a lista ou selecione uma pasta específica."
 
 Esta seção explica como selecionar um público-alvo ao definir a população do target de um delivery. Ao definir o target principal de um delivery, você também pode:
-
 * [Criar um público-alvo único](one-time-audience.md) usando o modelador de consultas.
 * [Carregar um público-alvo de um arquivo externo](file-audience.md) (somente para emails).
 
-Os públicos-alvo que podem ser direcionados em deliveries podem ser acessados no **Público** menu esquerdo. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba como monitorar e gerenciar públicos](manage-audience.md)
+Os públicos-alvo que podem ser direcionados em deliveries podem ser acessados no **Público** menu esquerdo. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba mais sobre públicos-alvo](manage-audience.md)
 
 Para selecionar um público-alvo existente para sua mensagem, siga as etapas abaixo:
 
-1. No **Público** do assistente de criação de delivery, clique no link **[!UICONTROL Selecionar público]** e escolha **[!UICONTROL Selecionar público]** para usar um público existente.
+1. No **Público** do assistente de criação de delivery, clique no link **[!UICONTROL Selecionar público]** e escolha **[!UICONTROL Selecionar público]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
