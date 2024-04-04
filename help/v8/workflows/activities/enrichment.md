@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2f39b200df146762fdff6e6a76aecb039d1fab6b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '726'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 81%
 >id="acw_orchestration_enrichment_data"
 >title="Atividade de enriquecimento"
 >abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ressoar com seu público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Associação simples"
+>abstract="Associação simples"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
