@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 95%
+source-wordcount: '646'
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 95%
       + [Criar o arquivo de extração](direct-mail/content-direct-mail.md)
       + [Visualizar e enviar uma entrega de correspondência direta](direct-mail/send-direct-mail.md)
    + Assistente de IA {#ai-assistant}
-      + [Introdução ao Assistente de IA](email/generative-gs.md)
+      + [Introdução ao assistente de IA](email/generative-gs.md)
       + [Geração de email com o Assistente de IA](email/generative-content.md)
       + [Geração de SMS com o Assistente de IA](email/generative-sms.md)
       + [Geração de notificação por push com o Assistente de IA](email/generative-push.md)
@@ -109,9 +109,10 @@ ht-degree: 95%
       + [Criar um perfil](audience/create-profile.md)
       + [Trabalhe com perfis de teste](audience/test-profiles.md)
    + Trabalho com públicos-alvo{#audiences}
+      + [Introdução aos públicos-alvo](audience/manage-audience.md)
       + [Criar públicos-alvo](audience/create-audience.md)
-      + [Monitorar e gerenciar públicos-alvo](audience/manage-audience.md)
    + Selecione os destinatários da entrega {#target-audiences}
+      + [Introdução à seleção de público](audience/delivery-recipients.md)
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
