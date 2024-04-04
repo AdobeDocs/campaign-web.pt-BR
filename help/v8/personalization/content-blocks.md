@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 62%
+ht-degree: 58%
 
 ---
 
@@ -35,7 +35,7 @@ Os blocos de conteúdo incorporados são:
 
 * **[!UICONTROL Banner de recusa padrão]**
 * **[!UICONTROL Habilitado pelo Adobe Campaign]**: insere o logotipo &quot;Habilitado pelo Adobe Campaign&quot;.
-* **[!UICONTROL Formatting function for proper nouns]**: gera a função JavaScript **[!UICONTROL toSmartCase]**, que coloca a primeira letra de cada palavra em maiúscula.
+* **[!UICONTROL Função de formatação para substantivos próprios]**: gera o **[!UICONTROL toSmartCase]** Função JavaScript, que coloca a primeira letra de cada palavra em maiúscula.
 * **[!UICONTROL Saudações]**: insere saudações com o nome completo do destinatário, seguido de vírgula. Exemplo: “Olá, fulano,”.
 * **[!UICONTROL Inserir logotipo]**: insere um logotipo definido nas configurações de instância.
 * **[!UICONTROL Link para mirror page]**: insere um link para a [mirror page](../email/mirror-page.md). O formato padrão é: &quot;Caso não consiga visualizar esta mensagem corretamente, clique aqui.&quot;
