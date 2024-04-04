@@ -3,9 +3,9 @@ audience: end-user
 title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '938'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos-alvo"
->abstract="Nessa tela, você pode acessar a lista de todos os públicos-alvo que podem ser direcionados em workflows ou deliveries independentes. Clique em **Criar** para criar um novo público em uma tela visual usando várias atividades de fluxo de trabalho, como **Split** ou **Excluir**.<br/><br/>A variável **[!UICONTROL Origem]** indica as origens dos públicos-alvo: **[!UICONTROL Adobe Campaign]** públicos-alvo foram criados no console do Adobe Campaign v8 ou na interface do usuário da Web, enquanto **[!UICONTROL Adobe Experience Platform:]** Os públicos-alvo foram criados no Adobe Experience Platform e integrados ao Campaign usando a integração Adobe Fontes e Destinos."
+>abstract="Nessa tela, você pode acessar a lista de todos os públicos-alvo que podem ser direcionados em workflows ou deliveries independentes. Clique em **Criar** para criar um novo público-alvo em uma tela visual.<br/><br/>Além de começar do zero para criar um público-alvo simples, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Por exemplo, você pode combinar vários públicos-alvo em um único, enriquecer o público-alvo com atributos externos ou dividi-lo em vários públicos-alvo com base em regras de sua escolha."
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 10%
 O Campaign Web permite criar novos públicos-alvo em uma tela de fluxo de trabalho visual. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Por exemplo, você pode combinar vários públicos-alvo em um único, enriquecer o público-alvo com atributos externos ou dividi-lo em vários públicos-alvo com base em regras de sua escolha.
 
 Depois de criar o fluxo de trabalho, os públicos resultantes são automaticamente armazenados no banco de dados do Campaign junto com os existentes. Esses públicos-alvo podem ser direcionados em workflows ou deliveries independentes.
+
+A variável **[!UICONTROL Origem]** indica as origens dos públicos-alvo: **[!UICONTROL Adobe Campaign]** públicos-alvo foram criados no console do Adobe Campaign v8 ou na interface do usuário da Web, enquanto **[!UICONTROL Adobe Experience Platform:]** Os públicos-alvo foram criados no Adobe Experience Platform e integrados ao Campaign usando a integração Adobe Fontes e Destinos.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
