@@ -3,10 +3,10 @@ audience: end-user
 title: Criar um público-alvo único para uma entrega
 description: Saiba como criar um público-alvo único para uma entrega.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '228'
+ht-degree: 29%
 
 ---
 
