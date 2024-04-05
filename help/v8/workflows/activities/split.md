@@ -3,10 +3,10 @@ audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 86%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -51,6 +51,11 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >id="acw_orchestration_split_generatesubsets"
 >title="Gerar todos os subconjuntos na mesma tabela"
 >abstract="Ative essa opção para agrupar todos os subconjuntos em uma única transição de saída."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="Pular transição vazia"
+>abstract="Ignorar transição vazia."
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
