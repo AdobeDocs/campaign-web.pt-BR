@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios globais para o canal de correspondência direta
 description: Saiba mais sobre Relatórios globais para o canal de correspondência direta
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 33%
 
 ---
@@ -101,7 +101,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico e a tabela forn
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Causas de exclusão de entrega"
+>title="Causas de exclusão"
 >abstract="O gráfico **Causas de exclusão** ilustra a distribuição de mensagens rejeitadas durante a preparação para a entrega, categorizada por cada regra."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
