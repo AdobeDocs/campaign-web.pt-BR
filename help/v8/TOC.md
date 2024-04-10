@@ -6,9 +6,9 @@ title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 94%
       + [Introdução aos públicos-alvo](audience/manage-audience.md)
       + [Criar públicos-alvo](audience/create-audience.md)
    + Selecione os destinatários da entrega {#target-audiences}
-      + [Introdução à seleção de público](audience/delivery-recipients.md)
+      + [Introdução à seleção de público-alvo](audience/delivery-recipients.md)
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
@@ -142,7 +142,7 @@ ht-degree: 94%
       + [Mudar dimensão](workflows/activities/change-dimension.md)
       + [Combinar](workflows/activities/combine.md)
       + [Desduplicação](workflows/activities/deduplication.md)
-      + [Email, SMS, Push, Correspondência direta](workflows/activities/channels.md)
+      + [Email, SMS, push, correspondência direta](workflows/activities/channels.md)
       + [Enriquecimento](workflows/activities/enrichment.md)
       + [Bifurcação](workflows/activities/fork.md)
       + [Carregar arquivo](workflows/activities/load-file.md)

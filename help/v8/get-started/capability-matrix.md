@@ -4,9 +4,9 @@ title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
