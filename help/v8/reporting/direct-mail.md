@@ -6,11 +6,11 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-# Relatório de entrega por correspondência direta {#direct-mail-report}
+# Relatório de entrega de correspondência direta {#direct-mail-report}
 
 A variável **Relatório de entrega por correspondência direta** O oferece insights abrangentes e dados específicos para a entrega de correspondência direta. Ele fornece informações detalhadas sobre o desempenho, a eficácia e os resultados de suas entregas individuais, fornecendo uma visão geral abrangente.
 

@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 **Índice**
 
-* [Introdução ao Assistente de IA](generative-gs.md)
+* [Introdução ao assistente de IA](generative-gs.md)
 * **[Geração de email com o Assistente de IA](generative-content.md)**
 * [Geração de SMS com o Assistente de IA](generative-sms.md)
 * [Geração de notificação por push com o Assistente de IA](generative-push.md)

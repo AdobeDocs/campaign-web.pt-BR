@@ -16,7 +16,7 @@ ht-degree: 10%
 >id="acw_homepage_welcome_rn3"
 >title="Composição de público-alvo"
 >abstract="Crie novos públicos-alvo em uma tela de fluxo de trabalho intuitiva. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Combine vários públicos-alvo em um único público-alvo, enriqueça-o com atributos externos ou divida-o em vários públicos-alvo com base em regras de sua escolha."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/release-notes/release-notes" text="Consulte as notas de versão"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

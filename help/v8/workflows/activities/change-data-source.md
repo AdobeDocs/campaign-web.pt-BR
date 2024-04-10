@@ -16,7 +16,7 @@ ht-degree: 27%
 >id="acw_homepage_welcome_rn2"
 >title="Alterar fonte de dados"
 >abstract="Use a nova atividade de direcionamento desse fluxo de trabalho para alterar a fonte de dados usada pela tabela de trabalho. Essa atividade oferece mais flexibilidade, permitindo gerenciar dados em seus diferentes bancos de dados e melhorar o desempenho."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/release-notes/release-notes" text="Consulte as notas de versão"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

@@ -4,7 +4,7 @@ title: Introdução a mensagens e entregas no Adobe Campaign Web
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 

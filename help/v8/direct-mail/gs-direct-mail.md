@@ -16,7 +16,7 @@ ht-degree: 32%
 >id="acw_homepage_welcome_rn1"
 >title="Correspondência direta"
 >abstract="O canal de correspondência direta já está disponível para uso em fluxos de trabalho e entregas independentes. Use o canal offline de correspondência direta para criar, personalizar e gerar arquivos de extração, e compartilhe-os com os provedores de correspondência direta para enviar emails a clientes."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/release-notes/release-notes" text="Consulte as notas de versão"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
 A correspondência direta é um canal offline que permite produzir arquivos para entregar cartas personalizadas em massa aos clientes, como cartões-postais, panfletos ou catálogos.
