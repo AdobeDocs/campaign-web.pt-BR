@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 7%
+source-wordcount: '546'
+ht-degree: 9%
 
 ---
 
@@ -26,13 +26,22 @@ ht-degree: 7%
 
 >[!ENDSHADEBOX]
 
-Depois de criar e personalizar seus emails, use o Assistente de IA no Campaign viabilizado pela IA generativa para elevar o conteúdo ao próximo nível.
 
 O Assistente de IA pode ajudá-lo a otimizar o impacto de suas entregas, sugerindo conteúdo diferente que tenha mais probabilidade de repercutir com seu público-alvo.
+
+Com o Assistente de IA, seu conteúdo pode ser elevado a novos patamares. Por exemplo, ela pode ser usada para:
+
+* **Resuma**: concentre conteúdo longo em resumos sucintos para notificações por push. Vá direto ao ponto e certifique-se de que os recipients entendam a mensagem principal instantaneamente.
+* **Elaborar**: expanda os tópicos em suas notificações por push, fornecendo detalhes adicionais e contexto para compreender melhor.
+* **Simplificar idioma**: torne suas notificações por push acessíveis a um público-alvo maior usando uma linguagem clara e concisa.
+* **Refrase**: Evite a repetição fazendo com que o Assistente de IA reformule a mensagem de maneiras diferentes
+* **Alterar Tom**: altere o tom emocional das notificações por push. Se você deseja parecer informativo, divertido ou urgente, o Assistente de IA pode adaptar a mensagem de acordo.
 
 >[!NOTE]
 >
 >Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
+
+No exemplo a seguir, aproveitaremos o assistente de IA para criar mensagens atraentes e criar uma experiência do cliente mais envolvente.
 
 1. Depois de criar e configurar o delivery de notificação por push, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -87,3 +96,4 @@ O Assistente de IA pode ajudá-lo a otimizar o impacto de suas entregas, sugerin
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua entrega por push. [Saiba mais](../monitor/prepare-send.md)
+

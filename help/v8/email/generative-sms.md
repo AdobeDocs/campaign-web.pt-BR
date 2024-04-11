@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 6%
+source-wordcount: '473'
+ht-degree: 10%
 
 ---
 
@@ -46,35 +46,42 @@ Essa ferramenta útil fornece sugestões inteligentes para refinar seu conteúdo
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. Ativar o **[!UICONTROL Usar conteúdo original]** opção do Assistente de IA para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
+
+   >[!IMPORTANT]
+   >
+   > Seu prompt deve estar sempre vinculado a um contexto específico, carregando um ativo de marca ou habilitando o **[!UICONTROL Melhorar conteúdo atual]** opção.
+
 1. Ajuste o conteúdo descrevendo o que você deseja gerar na variável **[!UICONTROL Aviso]** campo.
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar seus deliveries.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Ativar o **[!UICONTROL Aprimorar com o contexto atual]** opção do Assistente de IA para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
-
-   >[!IMPORTANT]
-   >
-   > Seu prompt deve estar sempre vinculado a um contexto específico, carregando um ativo de marca ou habilitando o **[!UICONTROL Melhorar conteúdo atual]** opção.
-
 1. Selecionar **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
-1. Selecione o **[!UICONTROL Estratégia de comunicação]** que melhor atenda às suas necessidades. Isso afetará o tom e o estilo do texto gerado.
+1. Personalize seu prompt com as diferentes opções:
 
-1. Escolha o **[!UICONTROL Idioma]** e **[!UICONTROL Tom]** que você deseja que o texto gerado tenha. Isso garantirá que o texto seja adequado ao seu público-alvo e propósito.
+   * **[!UICONTROL Estratégia de comunicação]**: selecione a abordagem de comunicação desejada para o texto gerado.
+   * **[!UICONTROL Idioma]**: escolha o idioma para o conteúdo da variante.
+   * **[!UICONTROL Tom]**: verifique se o texto é apropriado para seu público-alvo e sua finalidade.
+   * **[!UICONTROL Comprimento]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Use o controle deslizante para definir o comprimento do texto gerado.
-
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
-1. Navegue pelo arquivo gerado **[!UICONTROL Variações]** e clique em **[!UICONTROL Aplicar]** depois de encontrar o conteúdo apropriado.
+1. Navegue pelo arquivo gerado **[!UICONTROL Variações]** e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
 
-   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
+1. Navegue até a **[!UICONTROL Refinar]** opção no campo **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais e ajustar a variação às suas preferências:
+
+   * **Simplificar idioma**: o assistente de IA ajuda você a escrever mensagens claras e concisas que todos possam entender.
+
+   * **Refrase**: o Assistente de IA reformula sua mensagem para manter as coisas atraentes para públicos-alvo diferentes.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
 1. Insira campos de personalização para personalizar o conteúdo de SMS com base nos dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
@@ -84,4 +91,4 @@ Essa ferramenta útil fornece sugestões inteligentes para refinar seu conteúdo
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua entrega de SMS. [Saiba mais](../monitor/prepare-send.md)
+Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua entrega de SMS. [Saiba mais](../monitor/prepare-send.md)
