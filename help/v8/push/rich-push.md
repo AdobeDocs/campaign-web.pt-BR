@@ -8,16 +8,16 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
-# Criar uma entrega por push avançada no Android {#rich-push}
+# Criar uma entrega de push avançada do Android {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Botão Lembrar mais tarde"
->abstract="A variável **Lembrar mais tarde** fornece a opção de agendar um lembrete. O campo Carimbo de data/hora exige um valor que represente a época em segundos."
+>abstract="O botão **Lembrar mais tarde** fornece a opção de agendar um lembrete. O campo Carimbo de data/hora exige um valor que represente a época em segundos."
 
 Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagens:
 
