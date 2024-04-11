@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# Criar uma entrega de push avançada do Android {#rich-push}
+# Criar uma entrega por push avançada no Android {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
