@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 3fff275bbd3695440e47417e131e66b6ddafbf1b
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 5%
@@ -81,9 +81,9 @@ No exemplo a seguir, aproveitaremos o assistente de IA para refinar um email exi
 
 1. Navegue até a **[!UICONTROL Refinar]** opção no campo **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
-   * **Refrase**: o Assistente de IA pode reformular sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e atraente para públicos-alvo diversos.
+   * **[!UICONTROL Refrase]**: o Assistente de IA pode reformular sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e atraente para públicos-alvo diversos.
 
-   * **Usar idioma simples**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
+   * **[!UICONTROL Usar idioma simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
