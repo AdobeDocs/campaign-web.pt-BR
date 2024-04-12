@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 10%
@@ -65,7 +65,7 @@ Essa ferramenta útil fornece sugestões inteligentes para refinar seu conteúdo
    * **[!UICONTROL Estratégia de comunicação]**: selecione a abordagem de comunicação desejada para o texto gerado.
    * **[!UICONTROL Idioma]**: escolha o idioma para o conteúdo da variante.
    * **[!UICONTROL Tom]**: verifique se o texto é apropriado para seu público-alvo e sua finalidade.
-   * **[!UICONTROL Comprimento]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
+   * **[!UICONTROL Length]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 

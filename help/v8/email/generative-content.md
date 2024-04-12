@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 23c43fad6076fc1dd1eaec2aee1664773ac7ce09
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1378'
 ht-degree: 5%
 
 ---
@@ -26,29 +26,21 @@ ht-degree: 5%
 
 >[!ENDSHADEBOX]
 
-Depois de criar e personalizar seus emails, use o Assistente de IA do Journey Optimizer no Campaign viabilizado pela IA gerativa para elevar seu conteúdo ao próximo nível.
-
-O Assistente de IA pode ajudá-lo a otimizar o impacto de suas entregas, sugerindo conteúdo diferente que tenha mais probabilidade de repercutir com seu público-alvo.
-
 >[!NOTE]
 >
 >Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
 
-## Geração de conteúdo com o Assistente de IA {#generative-text}
+Depois de criar e personalizar seus emails, use o Assistente de IA no Campaign viabilizado pela IA generativa para elevar o conteúdo ao próximo nível.
 
-Veja como o Assistente de IA pode ajudar você a escrever emails atraentes:
+O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e até imagens especificamente adaptadas para repercutir com seu público-alvo. Isso otimiza suas campanhas de email para melhorar o engajamento.
 
-* **Resuma**: informações longas podem sobrecarregar os recipients de email. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que chamem a atenção e os incentivem a ler mais.
+Com suas campanhas de email, você pode usar o assistente de IA para gerar email, texto ou imagens completos. Explore as guias abaixo para saber como usar o Assistente de IA no Campaign.
 
-* **Elaborar**: O Assistente de IA pode ajudá-lo a abordar tópicos específicos, fornecendo detalhes adicionais para melhorar a compreensão e o engajamento.
+>[!BEGINTABS]
 
-* **Simplificar idioma**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
+>[!TAB Geração de email completa]
 
-* **Refrase**: O Assistente de IA pode reformular sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e atraente para públicos-alvo diversos.
-
-* **Alterar Tom**: o tom do seu email deve refletir no seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
-
-No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúdo de nosso convite por email para o evento futuro.
+No exemplo a seguir, aproveitaremos o assistente de IA para refinar um email existente, personalizando-o para um evento especial.
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -56,25 +48,74 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
 
 1. Personalize seu email conforme necessário e acesse o **[!UICONTROL Assistente de IA]** menu.
 
-   Você também pode selecionar um **[!UICONTROL Componente de texto]** para direcionar somente a um conteúdo específico.
+   ![](assets/full-email-1.png){zoomable=&quot;yes&quot;}
+
+1. Ativar o **[!UICONTROL Usar conteúdo original]** opção do Assistente de IA para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
+
+   Seu prompt deve estar sempre vinculado a um contexto específico, carregando um ativo de marca ou habilitando o **[!UICONTROL Melhorar conteúdo atual]** opção.
+
+1. Ajuste o conteúdo descrevendo o que você deseja gerar na variável **[!UICONTROL Aviso]** campo.
+
+   Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar seus deliveries.
+
+   ![](assets/full-email-2.png){zoomable=&quot;yes&quot;}
+
+1. É possível alternar a variável **[!UICONTROL Linha de assunto]** ou **[!UICONTROL Pré-cabeçalho]** para incluí-los na geração da variante.
+
+1. Clique em **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA ou selecione um carregado anteriormente.
+
+   ![](assets/full-email-3.png){zoomable=&quot;yes&quot;}
+
+1. Personalize seu prompt com as diferentes opções:
+
+   * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
+   * **[!UICONTROL Idioma]**: selecione o idioma no qual deseja que o conteúdo seja gerado.
+   * **[!UICONTROL Tom]**: o tom do seu email deve refletir no seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
+   * **[!UICONTROL Length]**: escolha o comprimento desejado do conteúdo usando o controle deslizante de intervalo.
+
+   ![](assets/full-email-4.png){zoomable=&quot;yes&quot;}
+
+1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
+
+1. Navegue pelo arquivo gerado **[!UICONTROL Variações]** e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
+
+1. Navegue até a **[!UICONTROL Refinar]** opção no campo **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
+
+   * **Refrase**: o Assistente de IA pode reformular sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e atraente para públicos-alvo diversos.
+
+   * **Usar idioma simples**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
+
+   ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
+
+1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
+
+1. Insira campos de personalização para personalizar seu conteúdo de email com base nos dados de perfis. Em seguida, clique no link **[!UICONTROL Simular conteúdo]** botão para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../preview-test/preview-content.md)
+
+   ![](assets/full-email-6.png){zoomable=&quot;yes&quot;}
+
+Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)
+
+>[!TAB Geração de texto]
+
+No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúdo de nosso convite por email para o evento futuro.
+
+1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Editar conteúdo]**.
+
+   Para obter mais informações sobre como configurar o delivery de email, consulte [esta página](../email/create-email-content.md).
+
+1. Selecione um **[!UICONTROL Componente de texto]** para direcionar somente a um conteúdo específico. e acesse o **[!UICONTROL Assistente de IA]** menu.
 
    ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Ativar o **[!UICONTROL Usar conteúdo original]** opção do Assistente de IA para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
 
-   >[!IMPORTANT]
-   >
-   > Seu prompt deve estar sempre vinculado a um contexto específico, carregando um ativo de marca ou habilitando o **[!UICONTROL Melhorar conteúdo atual]** opção.
+   Seu prompt deve estar sempre vinculado a um contexto específico, carregando um ativo de marca ou habilitando o **[!UICONTROL Melhorar conteúdo atual]** opção.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar na variável **[!UICONTROL Aviso]** campo.
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar seus deliveries.
 
    ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. É possível alternar a variável **[!UICONTROL Linha de assunto]** ou **[!UICONTROL Pré-cabeçalho]** para incluí-los na geração da variante.
-
-   Observe que isso estará disponível se você não tiver selecionado um componente de Texto específico.
 
 1. Clique em **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
@@ -85,7 +126,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
    * **[!UICONTROL Estratégia de comunicação]**: selecione a abordagem de comunicação desejada para o texto gerado.
    * **[!UICONTROL Idioma]**: escolha o idioma para o conteúdo da variante.
    * **[!UICONTROL Tom]**: verifique se o texto é apropriado para seu público-alvo e sua finalidade.
-   * **[!UICONTROL Comprimento]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo. Disponível somente se você tiver selecionado um componente Texto específico.
+   * **[!UICONTROL Length]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
    ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
@@ -93,11 +134,21 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
 
 1. Navegue pelo arquivo gerado **[!UICONTROL Variações]** e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
 
-1. Navegue até a **[!UICONTROL Refinar]** opção no campo **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais e ajustar a variação de acordo com suas preferências.
+1. Navegue até a **[!UICONTROL Refinar]** opção no campo **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
-   Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
+   * **Usar como conteúdo de referência**: a variante escolhida servirá como conteúdo de referência para gerar outros resultados.
+
+   * **Elaborar**: O Assistente de IA pode ajudá-lo a abordar tópicos específicos, fornecendo detalhes adicionais para melhorar a compreensão e o engajamento.
+
+   * **Resuma**: informações longas podem sobrecarregar os recipients de email. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que chamem a atenção e os incentivem a ler mais.
+
+   * **Refrase**: O Assistente de IA pode reformular sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e atraente para públicos-alvo diversos.
+
+   * **Usar idioma simples**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
+
+1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
 1. Insira campos de personalização para personalizar seu conteúdo de email com base nos dados de perfis. Em seguida, clique no link **[!UICONTROL Simular conteúdo]** botão para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../preview-test/preview-content.md)
 
@@ -105,17 +156,9 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
 
 Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)
 
-## Geração de imagens com o Assistente de IA {#generative-image}
+>[!TAB Geração de imagem]
 
-Aproveite o Assistente de IA para gerar visuais diversificados e personalizados para suas campanhas de email. Por exemplo, ela pode ser usada para:
-
-* **Gerar**: gere uma variedade diversa de imagens atraentes especificamente projetadas para suas campanhas de email. O controle granular sobre configurações como paleta de cores, raio e composição permite que você repercuta com segmentos de público distintos e atinja seus objetivos exclusivos de campanha.
-
-* **Gerar semelhante**: use o Assistente de IA para gerar imagens semelhantes de uma variante selecionada.
-
-* **Ativo da marca**: otimize a seleção de imagens para campanhas de email aproveitando os ativos de marca internos e fontes externas, como o Adobe Firefly.
-
-No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar o conteúdo, garantindo uma experiência mais fácil de usar. Siga estas etapas:
+No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -137,9 +180,7 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar o 
 
 1. Clique em **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
-   >[!IMPORTANT]
-   >
-   > Seu prompt deve estar sempre vinculado a um contexto específico.
+   Seu prompt deve estar sempre vinculado a um contexto específico.
 
 1. Personalize seu prompt com as diferentes opções:
 
@@ -170,3 +211,11 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar o 
    ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Depois de definir seu conteúdo, público-alvo e agendamento, você estará pronto para preparar seu delivery de email. [Saiba mais](../monitor/prepare-send.md)
+
+>[!ENDTABS]
+
+## Vídeo tutorial {#video}
+
+Saiba como usar o assistente de IA para gerar email, texto ou imagens completos.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428341)
