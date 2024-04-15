@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 42%
 
 ---
@@ -83,7 +83,7 @@ Esta atividade pode ser usada com um [Reconciliação](reconciliation.md) ativid
 
 Siga estas etapas para configurar o **Carregar arquivo** atividade:
 
-1. Arraste e solte uma **Carregar arquivo** atividade no seu workflow. Clique em **Selecionar do arquivo** botão.
+1. Adicionar um **Carregar arquivo** atividade no seu workflow. Clique em **Selecionar do arquivo** botão.
 
 1. Selecione o arquivo local a ser usado. O formato deve estar alinhado com este [arquivo de amostra](../../audience/file-audience.md#sample-file).
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade do workflow de reconciliação
 description: Saiba como usar a atividade de workflow de reconciliação
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 47%
 
 ---
@@ -74,7 +74,7 @@ Embora a **Enriquecimento** atividade permite definir dados adicionais a serem p
 
 Siga estas etapas para configurar o **Reconciliação** atividade:
 
-1. Arraste e solte uma **Reconciliação** atividade no seu workflow. Essa atividade deve ser adicionada após uma transição que contém uma população cujo targeting dimension não é diretamente proveniente do Adobe Campaign.
+1. Adicionar um **Reconciliação** atividade no seu workflow. Essa atividade deve ser adicionada após uma transição que contém uma população cujo targeting dimension não é diretamente proveniente do Adobe Campaign.
 
 1. Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes etc. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).
 
