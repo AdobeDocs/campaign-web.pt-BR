@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 99%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 100%
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
    + [Medidas de proteção e limitações](get-started/guardrails.md)
+   + [Variáveis de evento do fluxo de trabalho](workflows/event-variables.md)
    + [Acessar e gerenciar fluxos de trabalho](workflows/access-monitor.md)
    + Criar e executar seu primeiro fluxo de trabalho {#create-workflow}
       + [Princípios básicos da criação de fluxos de trabalho](workflows/gs-workflow-creation.md)
