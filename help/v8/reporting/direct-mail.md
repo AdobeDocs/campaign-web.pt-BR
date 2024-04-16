@@ -83,7 +83,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico fornece uma vis
 
 +++
 
-### Causas de exclusão {#direct-mail-delivery-exclusions}
+### Causas da exclusão {#direct-mail-delivery-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"

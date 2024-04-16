@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 10%
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos-alvo"
->abstract="Nessa tela, você pode acessar a lista de todos os públicos-alvo que podem ser direcionados em workflows ou deliveries independentes. Clique em **Criar** para criar um novo público-alvo em uma tela visual.<br/><br/>Além de começar do zero para criar um público-alvo simples, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Por exemplo, você pode combinar vários públicos-alvo em um único, enriquecer o público-alvo com atributos externos ou dividi-lo em vários públicos-alvo com base em regras de sua escolha."
+>abstract="Nesta tela, é possível acessar a lista de todos os públicos-alvo que podem ser direcionados nos fluxos de trabalhos ou nas entregas independentes. Clique em **Criar** para criar um novo público-alvo em uma tela visual.<br/><br/>Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades de fluxo de trabalho para refinar o seu público-alvo. Por exemplo, é possível combinar vários públicos-alvo em um, enriquecê-lo com atributos externos ou dividi-lo em vários públicos-alvo com base nas regras que você escolher."
 
 <!--
 [!CONTEXTUALHELP]
@@ -29,7 +29,7 @@ ht-degree: 10%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
-O Campaign Web permite criar novos públicos-alvo em uma tela de fluxo de trabalho visual. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Por exemplo, você pode combinar vários públicos-alvo em um único, enriquecer o público-alvo com atributos externos ou dividi-lo em vários públicos-alvo com base em regras de sua escolha.
+O Campaign Web permite criar novos públicos-alvo em uma tela de fluxo de trabalho visual. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Por exemplo, é possível combinar vários públicos-alvo em um, enriquecê-lo com atributos externos ou dividi-lo em vários públicos-alvo com base nas regras que você escolher.
 
 Depois de criar o fluxo de trabalho, os públicos resultantes são automaticamente armazenados no banco de dados do Campaign junto com os existentes. Esses públicos-alvo podem ser direcionados em workflows ou deliveries independentes.
 

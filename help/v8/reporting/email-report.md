@@ -68,7 +68,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico detalha o suces
 
 +++
 
-### Causas de exclusão  {#email-delivery-exclusions}
+### Causas da exclusão  {#email-delivery-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"

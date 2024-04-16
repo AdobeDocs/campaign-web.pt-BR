@@ -92,7 +92,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico e a tabela forn
 
 +++
 
-### Causas de exclusão {#causes-exclusion}
+### Causas da exclusão {#causes-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
@@ -101,7 +101,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** O gráfico e a tabela forn
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Causas de exclusão"
+>title="Causas da exclusão"
 >abstract="O gráfico **Causas de exclusão** ilustra a distribuição de mensagens rejeitadas durante a preparação para a entrega, categorizada por cada regra."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}

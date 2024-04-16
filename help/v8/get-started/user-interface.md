@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -486,8 +486,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
->title="Histórico de consulta incremental"
->abstract="Histórico de consulta incremental"
+>title="Histórico de consultas incrementais"
+>abstract="Histórico de consultas incrementais"
 
 
 <!-- Transfer file activity -->
@@ -499,23 +499,23 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
->title="Transferir opções de arquivo"
->abstract="Transferir opções de arquivo"
+>title="Transferir opções do arquivo"
+>abstract="Transferir opções do arquivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
->title="Atividade Transferir arquivo"
->abstract="Atividade Transferir arquivo"
+>title="Transferir atividade do arquivo"
+>abstract="Transferir atividade do arquivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="Transferir servidor remoto de arquivos"
->abstract="Transferir servidor remoto de arquivos"
+>title="Transferir servidor remoto do arquivo"
+>abstract="Transferir servidor remoto do arquivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="Origem do arquivo de transferência"
->abstract="Origem do arquivo de transferência"
+>title="Transferir origem do arquivo"
+>abstract="Transferir origem do arquivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -534,8 +534,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
->title="Historização de arquivo"
->abstract="Historização de arquivo"
+>title="Historização de arquivos"
+>abstract="Historização de arquivos"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"

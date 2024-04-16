@@ -87,7 +87,7 @@ A variável **[!UICONTROL Estatísticas de entrega]** A tabela detalha o sucesso
 
 +++
 
-### Causas de exclusão {#causes-exclusion}
+### Causas da exclusão {#causes-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"

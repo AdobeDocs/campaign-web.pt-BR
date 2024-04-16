@@ -88,11 +88,11 @@ A variável **[!UICONTROL Estatísticas de entrega]** A tabela fornece uma anál
 
 +++
 
-### Causas de exclusão {#causes-exclusion}
+### Causas da exclusão {#causes-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusion_email"
->title="Causas de exclusão"
+>title="Causas da exclusão"
 >abstract="O gráfico e a tabela **Causas de exclusão** ilustram os motivos específicos das rejeições de mensagem durante a preparação da entrega, oferecendo um detalhamento por regra."
 
 ![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}

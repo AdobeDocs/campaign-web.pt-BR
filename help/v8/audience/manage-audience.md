@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Propriedades"
->abstract="Aqui você pode encontrar um resumo das propriedades do público-alvo, como a origem ou a pasta de armazenamento. Clique no link na seção **Último fluxo de trabalho** para abrir o fluxo de trabalho que foi usado para criar o público-alvo."
+>abstract="Aqui, você pode encontrar um resumo das propriedades do público-alvo, como origem e pasta de armazenamento. Clique no link na seção **Último fluxo de trabalho** para abrir o fluxo de trabalho que foi usado para criar o público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Tamanho do público-alvo"
->abstract="Aqui você pode encontrar o número total de perfis no público-alvo. Clique em **Calcular** botão para atualizar e recalcular os resultados do público."
+>abstract="Aqui você pode encontrar o número total de perfis no público-alvo. Clique no botão **Calcular** para atualizar e recalcular os resultados do público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
