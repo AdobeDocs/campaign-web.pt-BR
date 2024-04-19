@@ -70,7 +70,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Excluir arquivo após importação"
->abstract="Ative a opção **Excluir arquivo após a importação** para excluir o arquivo original do servidor após a importação do arquivo."
+>abstract="Ative a opção **Excluir arquivo após importação** para excluir o arquivo original do servidor após a importação."
 
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md), ou para atualizar perfis ou qualquer outra tabela.
 
