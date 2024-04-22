@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1351'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para refinar um email exi
 
 1. Ativar o **[!UICONTROL Usar conteúdo original]** opção do Assistente de IA para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
 
-   Seu prompt deve estar sempre vinculado a um contexto específico, carregando um ativo de marca ou habilitando o **[!UICONTROL Melhorar conteúdo atual]** opção.
+   Seu prompt deve estar sempre vinculado ao conteúdo atual.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar na variável **[!UICONTROL Aviso]** campo.
 
@@ -109,7 +109,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
 
 1. Ativar o **[!UICONTROL Usar conteúdo original]** opção do Assistente de IA para personalizar novo conteúdo com base na entrega, nome da entrega e público-alvo selecionado.
 
-   Seu prompt deve estar sempre vinculado a um contexto específico, carregando um ativo de marca ou habilitando o **[!UICONTROL Melhorar conteúdo atual]** opção.
+   Seu prompt deve estar sempre vinculado ao conteúdo atual.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar na variável **[!UICONTROL Aviso]** campo.
 
