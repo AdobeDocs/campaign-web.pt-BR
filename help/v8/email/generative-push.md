@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 9%
+source-wordcount: '490'
+ht-degree: 8%
 
 ---
 
@@ -78,9 +78,11 @@ No exemplo a seguir, aproveitaremos o assistente de IA para criar mensagens atra
 
 1. Navegue até a **[!UICONTROL Refinar]** opção no campo **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
+   * **[!UICONTROL Usar como conteúdo de referência]**: a variante escolhida servirá como conteúdo de referência para gerar outros resultados.
+
    * **[!UICONTROL Refrase]**: o Assistente de IA pode reformular sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e atraente para públicos-alvo diversos.
 
-   * **[!UICONTROL Usar idioma simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
+   * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 

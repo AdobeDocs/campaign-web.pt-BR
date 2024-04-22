@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '479'
 ht-degree: 10%
 
 ---
@@ -75,9 +75,11 @@ Essa ferramenta útil fornece sugestões inteligentes para refinar seu conteúdo
 
 1. Navegue até a **[!UICONTROL Refinar]** opção no campo **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais e ajustar a variação às suas preferências:
 
-   * **Simplificar idioma**: o assistente de IA ajuda você a escrever mensagens claras e concisas que todos possam entender.
+   * **[!UICONTROL Usar como conteúdo de referência]**: a variante escolhida servirá como conteúdo de referência para gerar outros resultados.
 
-   * **Refrase**: o Assistente de IA reformula sua mensagem para manter as coisas atraentes para públicos-alvo diferentes.
+   * **[!UICONTROL Usar linguagem mais simples]**: o assistente de IA ajuda você a escrever mensagens claras e concisas que todos possam entender.
+
+   * **[!UICONTROL Refrase]**: o Assistente de IA reformula sua mensagem para manter as coisas atraentes para públicos-alvo diferentes.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
