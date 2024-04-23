@@ -3,10 +3,10 @@ audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 85%
+source-wordcount: '855'
+ht-degree: 86%
 
 ---
 
@@ -54,8 +54,13 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
->title="Pular transição vazia"
+>title="Ignorar transição vazia"
 >abstract="Ignorar transição vazia."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="Permitir sobreposição de populações de saída"
+>abstract="Permitir sobreposição de populações de saída"
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
