@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -551,23 +551,23 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="Painel de critérios de alerta de entrega"
->abstract="Painel de critérios de alerta de entrega"
+>title="Painel de critérios de alertas de entrega"
+>abstract="Painel de critérios de alertas de entrega"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
->title="Painel de alerta de entrega"
->abstract="Painel de alerta de entrega"
+>title="Painel de alertas de entrega"
+>abstract="Painel de alertas de entrega"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="Criar critérios de alerta de entrega"
->abstract="Criar critérios de alerta de entrega"
+>title="Criar critérios de alertas de entrega"
+>abstract="Criar critérios de alertas de entrega"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
->title="Indicadores para adicionar a alertas"
->abstract="Indicadores para adicionar a alertas"
+>title="Indicadores para adicionar em alertas"
+>abstract="Indicadores para adicionar em alertas"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
@@ -586,12 +586,12 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="Parâmetros gerais de alerta de delivery"
+>title="Parâmetros gerais de alertas de entrega"
 >abstract="Alertas de entrega"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="Parâmetros de critérios de alerta de entrega"
+>title="Parâmetros dos critérios de alertas de entrega"
 >abstract="Alertas de entrega"
 
 >[!CONTEXTUALHELP]
