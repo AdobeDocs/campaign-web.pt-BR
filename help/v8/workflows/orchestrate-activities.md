@@ -3,7 +3,7 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 5%
@@ -18,7 +18,7 @@ Depois que você tiver [criou um workflow](create-workflow.md), seja no menu de 
 
 Nessa etapa da configuração, o diagrama é exibido com um ícone de início, representando o início do workflow. Para adicionar sua primeira atividade, clique no link **+** botão conectado ao ícone iniciar.
 
-Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama de workflow. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar seu fluxo de trabalho direcionando um público-alvo, dividindo o caminho do fluxo de trabalho ou definindo um **Aguardar** atividade para atrasar a execução do workflow. Por outro lado, depois de uma **Criar público-alvo** você pode refinar seu público-alvo com atividades de direcionamento, enviar um delivery para o público-alvo com atividades de canal ou organizar o processo de fluxo de trabalho com atividades de controle de fluxo.
+Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama de workflow. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar seu fluxo de trabalho direcionando um público-alvo, dividindo o caminho do fluxo de trabalho ou definindo um **Aguardar** atividade para atrasar a execução do workflow. Por outro lado, depois de uma **Criar público-alvo** você pode refinar seu público-alvo com atividades de direcionamento, enviar um delivery para seu público-alvo com atividades de canal ou organizar o processo de fluxo de trabalho com atividades de controle de fluxo.
 
 ![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
@@ -26,7 +26,7 @@ Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido
 
 ![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
-Repita esse processo para adicionar quantas atividades desejar, dependendo das tarefas que deseja que seu fluxo de trabalho execute. Observe que você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no link **+** na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
+Repita esse processo para adicionar quantas atividades desejar, dependendo das tarefas que deseja que seu workflow execute. Observe que você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no link **+** na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
 
 Para remover uma atividade, selecione-a na tela e clique no link **Excluir** nas propriedades da atividade.
 

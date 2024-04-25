@@ -2,7 +2,7 @@
 title: Dimensões de direcionamento
 description: Saiba mais sobre dimensões de direcionamento no Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 24%
@@ -24,7 +24,7 @@ O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Cri
 
 Observe que é possível alternar o targeting dimension em um workflow usando um [Alterar atividade da dimensão](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos perfis correspondentes.
 
-Ao selecionar um targeting dimension (nas configurações do fluxo de trabalho ou em atividades como **Criar público-alvo**, **Reconciliação** ou **Alterar dimensão**), uma seleção de esquemas usados com frequência é exibida por padrão na lista. Para mostrar todos os esquemas disponíveis, alterne no **[!UICONTROL Mostrar todos os esquemas]** botão. A seleção da opção é salva para cada usuário.
+Ao selecionar uma targeting dimension (nas configurações do fluxo de trabalho ou em atividades como **Criar público-alvo**, **Reconciliação** ou **Alterar dimensão**), uma seleção de esquemas usados com frequência é exibida por padrão na lista. Para mostrar todos os esquemas disponíveis, alterne no **[!UICONTROL Mostrar todos os esquemas]** botão. A seleção da opção é salva para cada usuário.
 
 ![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 

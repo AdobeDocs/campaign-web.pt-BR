@@ -3,10 +3,10 @@ audience: end-user
 title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -167,7 +167,7 @@ O Gerenciamento de dados combina um conjunto de atividades para resolver problem
 
 >[!NOTE]
 >
->Embora algumas dessas atividades estejam disponíveis somente no console do cliente, outras podem ser encontradas na interface do Campaign Web, como as atividades **Enriquecimento**, **Carregar arquivo**, **Alterar fonte de dados** ou **Mudar dimensão**. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do Campaign Web](../workflows/activities/about-activities.md#targeting)
+>Embora algumas dessas atividades estejam disponíveis somente no console do cliente, outras podem ser encontradas na interface do Campaign Web, como as atividades **Enriquecimento**, **Carregar arquivo**, **Alterar fonte de dados** ou **Mudar dimensão**. [Saiba mais sobre atividades de direcionamento e gerenciamento de dados na interface do usuário da Web do Campaign](../workflows/activities/about-activities.md#targeting)
 
 ### Configuração do Federated Data Access {#fda}
 
