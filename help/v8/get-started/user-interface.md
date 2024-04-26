@@ -3,9 +3,9 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
+source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2122'
 ht-degree: 99%
 
 ---
@@ -172,11 +172,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="Criação de destinatários"
->abstract="Criação de destinatários"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Visão geral do cartão dos destinatários"
 >abstract="Visão geral do cartão dos destinatários"
@@ -289,31 +284,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- ML: beta wiki page - not visible in UI-->
 
 <!-- FOR POST-GA -->
-
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Exibir atributos avançados"
->abstract="Por padrão, somente os atributos mais comuns são exibidos na lista de atributos. Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Campos avançados do construtor de regras"
->abstract="Por padrão, somente os atributos mais comuns são exibidos na lista de atributos. Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Atributos avançados do construtor de regras"
->abstract="Por padrão, somente os atributos mais comuns são exibidos na lista de atributos. Ative o botão **Exibir atributos avançados** para ver todos os atributos disponíveis para a lista atual na paleta esquerda do construtor de regras, como nós, agrupamentos, links 1-1 e links 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="Este modelo é do tipo somente leitura"
->abstract="Você não tem permissões para editar este modelo. Se necessário, entre em contato com a sua administração para obter acesso."
 
 <!-- Subscription activity-->
 
