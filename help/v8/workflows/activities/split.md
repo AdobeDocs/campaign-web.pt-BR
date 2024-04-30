@@ -59,8 +59,8 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
->title="Permitir sobreposição de populações de saída"
->abstract="Permitir sobreposição de populações de saída"
+>title="Habilitar sobreposição de populações de saída"
+>abstract="Habilitar sobreposição de populações de saída"
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
