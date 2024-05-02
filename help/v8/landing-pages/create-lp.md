@@ -3,10 +3,10 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 34%
+source-wordcount: '1504'
+ht-degree: 28%
 
 ---
 
@@ -61,7 +61,9 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definir opções de pré-carregamento"
->abstract="Quando a opção **Preencher previamente com os dados referenciados no formulário** estiver selecionada, visitantes da página de destino quem correspondem a um perfil do banco de dados terão as informações do seu perfil pré-carregadas automaticamente no formulário. Com a opção **Ignorar pré-carregamento na ausência de ID** selecionada, cada perfil inserido será adicionado ao banco de dados após a aprovação do formulário."
+>abstract="Quando a opção **Preencher previamente com os dados referenciados no formulário** estiver selecionada, visitantes da página de destino quem correspondem a um perfil do banco de dados terão as informações do seu perfil pré-carregadas automaticamente no formulário. Com o **Autorizar ausência de ID** opção selecionada, qualquer visitante, incluindo usuários anônimos, pode acessar a landing page."
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -98,21 +100,41 @@ Para criar uma landing page, siga estas etapas:
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. No **[!UICONTROL Pré-carregamento de dados]** , as duas opções abaixo são selecionadas por padrão:
+1. No **[!UICONTROL Pré-carregamento de dados]** seção, as duas opções abaixo estão disponíveis:
 
    * Quando a opção **[!UICONTROL Preencher previamente com os dados referenciados no formulário]** estiver selecionada, visitantes da página de destino quem correspondem a um perfil do banco de dados terão as informações do seu perfil pré-carregadas automaticamente no formulário. O usuário só precisa preencher os campos ausentes e atualizar os valores existentes, se necessário. Isso permite mesclar dados de perfis existentes, em vez de criar duplicatas.
 
-   * A variável **[!UICONTROL Ignorar pré-carregamento se nenhuma ID]** deve ser selecionada se você não deseja atualizar os perfis. Nesse caso, cada perfil inserido será adicionado ao banco de dados após a aprovação do formulário. Essa opção é usada, por exemplo, quando o formulário é postado em um site.
+     >[!NOTE]
+     >
+     >Essa opção é selecionada por padrão para todos os templates de landing page.
 
-1. Uma landing page pode ter páginas subsequentes. Para adicionar páginas, navegue até **[!UICONTROL Páginas]** e clique no botão **[!UICONTROL Editar conteúdo]** para cada página que você deseja criar para essa página de aterrissagem. O conteúdo de cada página já está pré-preenchido. Edite-as conforme necessário. [Saiba mais](lp-content.md)
+   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+   * A variável **[!UICONTROL Autorizar ausência de ID]** permite que qualquer visitante acesse a landing page. Desmarcar essa opção impede que visitantes anônimos a usem, o que significa que somente usuários identificados podem acessar e enviar o formulário.
+
+     >[!AVAILABILITY]
+     >
+     >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+
+     Para o **[!UICONTROL Aquisição]** e **[!UICONTROL Inscrição]** for selecionada por padrão. Para o **[!UICONTROL Cancelar assinatura]** e **[!UICONTROL ➡ Incluir na lista de bloqueios]** modelos, essa opção é desmarcada por padrão e não pode ser modificada<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+
+1. Uma landing page pode ter páginas subsequentes. Para adicionar páginas, navegue pelo **[!UICONTROL Páginas]** e clique no botão **[!UICONTROL Editar conteúdo]** para cada página que você deseja criar para essa página de aterrissagem. O conteúdo de cada página já está pré-preenchido. Edite-as conforme necessário. [Saiba mais](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. A variável **[!UICONTROL Atualizar o registro pré-carregado]** for selecionada por padrão. Ela permite atualizar os perfis armazenados no banco de dados por meio da landing page. A caixa de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados.
+1. No **[!UICONTROL Armazenamento]** seção, a variável **[!UICONTROL Atualizar o registro pré-carregado]** for selecionada por padrão. Ela permite atualizar os perfis armazenados no banco de dados por meio da landing page. A caixa de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados.
 
    Você também pode escolher entre os campos no contexto atual da landing page, aqueles que serão usados para localizar o perfil correspondente no banco de dados. Para fazer isso, desmarque a opção **[!UICONTROL Atualizar o registro pré-carregado]** e marque os campos desejados em **[!UICONTROL Opções de reconciliação]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+
+1. Criar **[!UICONTROL Dados adicionais]** para armazenar dados internos quando a landing page estiver sendo enviada. Esses dados não estão visíveis para usuários que visitam a página. Somente valores constantes são considerados.
+
+   >[!AVAILABILITY]
+   >
+   >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+
+   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
 1. Você pode definir uma data inicial e uma data final para sua landing page. Selecionar **[!UICONTROL Ativar agendamento]** e defina as datas.
 
@@ -161,6 +183,8 @@ Para testar a landing page, siga estas etapas:
 1. No **[!UICONTROL Simular]** selecione um ou mais perfis de teste.
 
    As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados na seção [Pré-visualização e teste](../preview-test/preview-test.md) seção.
+
+1. Ao testar uma landing page dinâmica (com a tag **[!UICONTROL Serviço do URL]** opção selecionada - [saiba mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Selecionar **[!UICONTROL Abrir pré-visualização]** para testar sua landing page.
 
