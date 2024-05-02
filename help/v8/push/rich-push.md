@@ -5,9 +5,9 @@ description: Saiba como criar um delivery de notificação por push avançado pa
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: 42bab8450d78516f6db0d491759b5a46e13d8a46
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 11%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 11%
 >id="acw_deliveries_push_remind_later"
 >title="Botão Lembrar mais tarde"
 >abstract="O botão **Lembrar mais tarde** fornece a opção de agendar um lembrete. O campo Carimbo de data/hora exige um valor que represente a época em segundos."
+
+>[!AVAILABILITY]
+>
+>Este recurso está em **Disponibilidade limitada** (L-A).
 
 Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagens:
 

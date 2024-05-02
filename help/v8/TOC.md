@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [Novidades](rn/whats-new.md)
    + [Versão mais recente](rn/release-notes.md)
    + [Atualizações da documentação](rn/documentation-updates.md)
+   + [Transição de Campaign Standard para o Campaign v8](rn/acs-migration.md)
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
    + [Conexão com o Campaign](get-started/connect-to-campaign.md)
@@ -144,13 +145,21 @@ ht-degree: 100%
       + [Combinar](workflows/activities/combine.md)
       + [Desduplicação](workflows/activities/deduplication.md)
       + [Email, SMS, push, correspondência direta](workflows/activities/channels.md)
-      + [Enriquecimento](workflows/activities/enrichment.md)
+      + [Atividade de ](workflows/activities/enrichment.md)
+      + [Sinal externo](workflows/activities/external-signal.md)
+      + [Extrair arquivo](workflows/activities/extract-file.md)
       + [Bifurcação](workflows/activities/fork.md)
+      + [Consulta incremental](workflows/activities/incremental-query.md)
+      + [Código JavaScript](workflows/activities/javascript-code.md)
       + [Carregar arquivo](workflows/activities/load-file.md)
       + [Reconciliação](workflows/activities/reconciliation.md)
       + [Salvar público-alvo](workflows/activities/save-audience.md)
       + [Scheduler](workflows/activities/scheduler.md)
       + [Divisão](workflows/activities/split.md)
+      + [Serviços de assinatura](workflows/activities/subscription-services.md)
+      + [Teste](workflows/activities/test.md)
+      + [Transferir arquivo](workflows/activities/transfer-file.md)
+      + [Atualizar dados](workflows/activities/update-data.md)
       + [Aguardar](workflows/activities/wait.md)
 + Consultar o banco de dados {#query-database}
    + [Trabalhar com o modelador de consultas](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 100%
    + [Trabalhar com outras soluções da Adobe](integrations/integration.md)
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
++ Administração {#administration}
+   + [Configurar campos personalizados](administration/custom-fields.md)
 

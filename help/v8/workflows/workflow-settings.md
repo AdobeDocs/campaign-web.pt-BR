@@ -3,10 +3,10 @@ audience: end-user
 title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 32%
+source-wordcount: '1067'
+ht-degree: 31%
 
 ---
 
@@ -103,3 +103,8 @@ Quando o fluxo de trabalho é [associado a uma campanha](create-workflow.md), el
    * **[!UICONTROL Interromper o processo]**: o workflow é interrompido automaticamente e seu status muda para **[!UICONTROL Failed]**. Quando o problema for resolvido, reinicie o workflow usando o **[!UICONTROL Início]** botões.
 
 * **[!UICONTROL Consecutive errors]**: este campo fica disponível quando o **[!UICONTROL Ignorar]** valor estiver selecionado na variável **[!UICONTROL No caso de erros]** campo. Você pode especificar quantos erros podem ser ignorados antes que o processo seja interrompido. Após esse número ser alcançado, o status do workflow será alterado para **[!UICONTROL Failed]**. Se o valor desse campo for 0, o workflow nunca será interrompido independentemente do número de erros.
+
+## Script de inicialização {#initialization-script}
+
+A variável **Script de inicialização** permite inicializar variáveis ou modificar propriedades da atividade. Clique em **Editar código** e digite o trecho de código a ser executado. O script é chamado quando o workflow é executado. Consulte a seção relacionada ao [variáveis de evento](../workflows/event-variables.md).
+

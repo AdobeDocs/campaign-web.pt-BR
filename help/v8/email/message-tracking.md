@@ -3,10 +3,10 @@ audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,29 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
+1. Escolha o tipo de link que deseja criar:
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Link externo]**: insira um link para um URL externo.
+
+     >[!AVAILABILITY]
+     >
+     >Os seguintes recursos (link para **[!UICONTROL Landing page]**, **[!UICONTROL Link de assinatura]** e **[!UICONTROL Link de cancelamento de subscrição]**) estão em Disponibilidade Limitada (DL). Eles são restritos aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+
+   * **[!UICONTROL Landing page]**: insira um link para uma landing page. Se você selecionar uma landing page dinâmica (com a variável **[!UICONTROL Serviço do URL]** opção selecionada), é possível selecionar qualquer serviço na lista. [Saiba mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Link de assinatura]**: insira um link para um serviço de assinatura. Quando os usuários clicam no link, eles são direcionados para a landing page de assinatura referenciada no serviço selecionado. [Saiba mais](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Link de cancelamento de subscrição]**: insira um link para um serviço de cancelamento de subscrição. Quando os assinantes clicam no link, eles são direcionados para a landing page de cancelamento de subscrição referenciada no serviço selecionado. [Saiba mais](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. Insira o URL desejado no campo correspondente ou selecione uma landing page ou um serviço e defina as configurações e os estilos do link.
 
 1. Adicione um **[!UICONTROL Rótulo]** e um **[!UICONTROL Link]**.
 
@@ -41,7 +63,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 >[!NOTE]
 >
->As mensagens de email de marketing devem incluir um link para opção de não participação, o que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível da superfície de canal (ou seja, predefinição de mensagem) e ao criar a mensagem.
+>As mensagens de email de marketing devem incluir um link para opção de não participação, o que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido no nível da superfície de canal e ao criar a mensagem.
 
 Um link específico para a mirror page deve ser adicionado em todas as suas mensagens de email. Saiba mais sobre a mirror page [nesta seção](mirror-page.md).
 
