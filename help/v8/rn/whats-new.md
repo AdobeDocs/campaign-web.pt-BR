@@ -3,10 +3,10 @@ audience: end-user
 title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -129,6 +129,8 @@ Além disso, todos os dados e configurações já disponíveis no console do cli
 A interface do Campaign Web reflete as permissões do usuário. Saiba mais sobre permissões [nesta página](../get-started/permissions.md).
 
 Saiba mais sobre a compatibilidade de recursos e a interoperabilidade entre a interface do Campaign Web e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).
+
+Como um usuário Campaign Standard em transição para o Campaign v8, [consulte esta página](../rn/acs-migration.md).
 
 ## Atualizações de terminologia {#terminology-updates}
 
