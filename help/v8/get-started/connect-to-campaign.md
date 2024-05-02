@@ -2,9 +2,9 @@
 title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -89,11 +89,12 @@ Para alterar o idioma:
 1. Em seguida, clique no link de idioma exibido sob o seu endereço de email.
 1. Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente usado não esteja traduzido em seu idioma nativo.
 
+<!--
 >[!CAUTION]
 >
->Se planeja usar os recursos da [Ajuda contextual habilitada por IA](using-ai.md), você deve definir seu idioma preferencial como inglês. Não há suporte para outros idiomas.
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
-
+-->
 
 ## Temas escuro e claro {#dark-theme}
 

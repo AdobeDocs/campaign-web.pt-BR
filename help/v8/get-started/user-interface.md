@@ -3,9 +3,9 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1670'
 ht-degree: 99%
 
 ---
@@ -113,19 +113,20 @@ Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.
 
 * **Relatórios**: a entrada **Relatório** oferece um resumo geral consolidado das métricas de tráfego e engajamento de cada canal no ambiente do Campaign. Esses relatórios consistem em vários dispositivos, cada um oferecendo uma perspectiva distinta sobre a campanha ou o desempenho de entrega. Saiba mais [nesta seção](../reporting/global-reports.md).
 
+<!--
+## Contextual Help {#user-interface-help} 
 
-## Ajuda contextual {#user-interface-help}
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-Uma ajuda contextual está disponível na interface. Quando disponível, clique no ícone `?` para exibir informações de ajuda e links de documentações relacionadas.
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-Atualmente disponível na versão Beta por meio da nova interface do Campaign Web, o **Assistente de conhecimento baseado em IA** incorporado à ajuda contextual revoluciona a pesquisa de documentação e a resposta a perguntas práticas, examinando com facilidade vastos repositórios de documentação e identificando instantaneamente as informações exatas de que você precisa.
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-Graças aos recursos da IA generativa do Campaign, esse assistente transforma sua experiência, facilitando a recuperação de informações e a solução de problemas. Caso esteja buscando orientação numa tarefa complexa ou navegando por documentos extensos, o Assistente de conhecimento habilitado por IA é seu companheiro perfeito, fornecendo eficiência e precisão incomparáveis em todas as interações.
+Learn more in [this section](using-ai.md).
 
-Saiba mais [nesta seção](using-ai.md).
-
+-->
 
 ## Saiba mais {#learn-more}
 
@@ -285,29 +286,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Página de destino padrão"
->abstract="Selecione a página de destino padrão associada a esse serviço de assinatura."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="Atividade do serviço de assinatura"
->abstract="Use o Adobe Campaign para criar e monitorar os seus serviços, como informativos, e verificar as assinaturas e o cancelamento delas nesses serviços. As assinaturas aplicam-se somente a entregas por email e SMS."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="Parâmetros do serviço de assinatura"
->abstract="Selecione e confirme as configurações do serviço de assinatura."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="Transição de saída dos serviços de assinatura"
->abstract="Ative a opção **Gerar uma transição de saída** para adicionar uma transição após a atividade."
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +323,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Gerar uma transição de saída para rejeições."
 >abstract="Ative a opção **Gerar uma transição de saída para rejeições** para adicionar uma transição de saída contendo registros que não foram processados corretamente após a atualização (por exemplo, se houver uma duplicata). A atualização geralmente marca o final de um fluxo de trabalho de direcionamento e, portanto, a opção não é ativada por padrão."
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="Sinal externo"
->abstract="A atividade **Sinal externo** permite acionar a execução de um conjunto de tarefas em um fluxo de trabalho de uma API para outro fluxo de trabalho."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="Parâmetros do sinal externo"
->abstract="Parâmetros do sinal externo"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="Acionadores de término"
->abstract="Acionadores de término"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="Código JavaScript"
->abstract="A atividade **código JavaScript** executa um código JavaScript no contexto de um fluxo de trabalho."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="Trecho de JavaScript"
->abstract="Configure o código a ser executado."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/developer/api" text="Saiba mais na documentação do Campaign v8 (console)"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="Execução de JavaScript"
->abstract="Por padrão, a fase de execução não pode exceder 1 hora. Após esse atraso, o processo será interrompido com uma mensagem de erro e a execução da atividade falhará. Ative a opção **Interromper execução após** para definir um atraso personalizado. Para ignorar esse limite, defina o valor como 0."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="Processar erros"
->abstract="Ative a opção **Processar erros** para adicionar uma transição de saída que contém erros."
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="Extrair arquivo"
->abstract="Atividade Extrair arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="Arquivo a ser extraído"
->abstract="Selecione o arquivo a ser extraído."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="Formato de destino"
->abstract="Selecione o formato."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="Pós-processamento"
->abstract="Definir uma etapa de pós-processamento"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="Transição de saída"
->abstract="Ative a opção **Gerar uma transição de saída** para adicionar uma transição de saída após a atividade atual."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="Processar erros"
->abstract="Ative a opção **Processar erros** para adicionar uma transição de saída que contém erros."
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +344,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Script de inicialização de execução"
 >abstract="Script de inicialização de execução"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="Query incremental"
->abstract="Query incremental"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="Histórico de consultas incrementais"
->abstract="Histórico de consultas incrementais"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="Consulta incremental Dados processados"
->abstract="Consulta incremental Dados processados"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="Transferir arquivo"
->abstract="Transferir arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="Transferir opções do arquivo"
->abstract="Transferir opções do arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="Transferir atividade do arquivo"
->abstract="Transferir atividade do arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="Transferir servidor remoto do arquivo"
->abstract="Transferir servidor remoto do arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="Transferir origem do arquivo"
->abstract="Transferir origem do arquivo"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Excluir os arquivos de origem após a transferência"
->abstract="Excluir os arquivos de origem após a transferência"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Exibir os logs de sessão"
->abstract="Exibir os logs de sessão"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Listar todos os arquivos"
->abstract="Listar todos os arquivos"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Historização de arquivos"
->abstract="Historização de arquivos"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Processar arquivos ausentes"
->abstract="Processar arquivos ausentes"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Processar erros"
->abstract="Processar erros"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +388,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Alertas de entrega"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Página de destino padrão"
+>abstract="Selecione a página de destino padrão associada a esse serviço de assinatura."
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parâmetros dos critérios de alertas de entrega"
 >abstract="Alertas de entrega"

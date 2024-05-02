@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ A nova atividade de direcionamento **Alterar fonte de dados** permite alterar a 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introdução</strong><br/><a href="get-started/user-interface.md">Interface</a> - <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> - <a href="get-started/using-ai.md">Ajuda contextual habilitada por IA</a> - <a href="get-started/permissions.md">Acesso e permissões</a>
+      <strong>Comece já</strong><br/><a href="get-started/user-interface.md">Interface do usuário</a> - <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> - <a href="get-started/permissions.md">Acesso e permissões</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

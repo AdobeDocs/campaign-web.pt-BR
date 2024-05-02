@@ -5,9 +5,9 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
    + [Novidades](rn/whats-new.md)
    + [Versão mais recente](rn/release-notes.md)
    + [Atualizações da documentação](rn/documentation-updates.md)
-   + [Transição de Campaign Standard para o Campaign v8](rn/acs-migration.md)
+   + [Do Campaign Standard para o v8](rn/acs-migration.md)
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
    + [Conexão com o Campaign](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 98%
    + [Procurar e filtrar listas](get-started/list-filters.md)
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)
    + [Acesso e permissões](get-started/permissions.md)
-   + [Console do cliente do Campaign e Campaign Web](get-started/capability-matrix.md)
+   + [Console da Web e do cliente do Campaign](get-started/capability-matrix.md)
    + [Ajuda contextual habilitada por IA](get-started/using-ai.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)

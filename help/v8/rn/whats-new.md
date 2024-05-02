@@ -3,9 +3,9 @@ audience: end-user
 title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1193'
 ht-degree: 100%
 
 ---
@@ -100,10 +100,10 @@ Você pode usar a nova interface do Campaign Web para **criar e atualizar destin
 
     Learn more in [this section](../email/generative-gs.md).
 -->
+<!--
+**AI-powered Contextual Help**
 
-**Ajuda contextual de IA**
-
-Faça perguntas e encontre orientações diretamente na interface do produto. A nova **Ajuda contextual de IA** ajuda a aprender e aumentar seu conhecimento sobre os novos recursos do Campaign. Com base na documentação mais recente do produto, o assistente fornece a ajuda e orientações passo a passo necessárias instantaneamente, à medida que você cria seus casos de uso. Este recurso está atualmente disponível em versão Beta para um conjunto limitado de usuários. Saiba mais [nesta seção](../get-started/using-ai.md).
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **Filtros predefinidos**
 
