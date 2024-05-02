@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 35%
+source-wordcount: '1074'
+ht-degree: 32%
 
 ---
 
@@ -53,6 +53,11 @@ Para acessar os serviços de assinatura disponíveis para sua plataforma, siga a
 >title="Selecione uma mensagem de confirmação"
 >abstract="Quando um usuário(a) assina ou cancela a assinatura de um serviço, é possível enviar uma mensagem de confirmação. Selecione os modelos a serem usados nessas mensagens."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Página de destino padrão"
+>abstract="Selecione as landing pages padrão associadas a esse serviço."
+
 Para criar um serviço de assinatura, siga as etapas abaixo.
 
 1. Selecione o **[!UICONTROL Criar serviço de assinatura]** botão.
@@ -81,9 +86,25 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Salvar e revisar]**. O novo serviço é adicionado à variável **[!UICONTROL Serviços de assinatura]** lista.
 
+1. Você também pode selecionar as landing pages de assinatura e cancelamento de assinatura padrão associadas a esse serviço.
+
+   >[!AVAILABILITY]
+   >
+   >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   Depois de concluído, quando [inserção de um link](../email/message-tracking.md) em um email, selecione **[!UICONTROL Link de assinatura]** ou **[!UICONTROL Link de cancelamento de subscrição]**. Ao clicar nesse link, os usuários serão direcionados para a landing page de assinatura ou unsubscription referenciada no serviço. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. Salve e revise as alterações.
+
 Agora você pode:
 
-* Adicione assinantes a este serviço e cancele a assinatura de perfis. [Saiba mais](../msg/send-to-subscribers.md)
+* Adicionar assinantes manualmente a este serviço e cancelar a assinatura de perfis. [Saiba mais](../audience/manage-subscribers.md)
+
+* Convide seus clientes a assinar esse serviço por meio de uma landing page. [Saiba mais](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Enviar mensagens aos assinantes deste serviço. [Saiba como](../msg/send-to-subscribers.md)
 

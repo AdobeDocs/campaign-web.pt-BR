@@ -3,10 +3,10 @@ audience: end-user
 title: Utilização da atividade de workflow Divisão
 description: Saiba como usar a atividade de workflow Divisão
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 86%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Ignorar transição vazia"
->abstract="Ignorar transição vazia."
+>abstract="Alterne a **[!UICONTROL Ignorar transição vazia]** opção ativada para desativar a transição de saída para esse subconjunto se a população de entrada estiver vazia."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ Siga estas etapas para configurar a atividade de **Divisão**:
    1. Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o modelador de consultas. Por exemplo, inclua perfis da população recebida cujo endereço de email exista no banco de dados. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 
    1. Para limitar o número de perfis selecionados pelo subconjunto, ative a opção **[!UICONTROL Habilitar limite]**, e especifique o número ou as porcentagens da população a serem incluídas.
+
+   1. Para desativar uma transição se a população recebida estiver vazia, alterne o **[!UICONTROL Ignorar transição vazia]** opção ativada. Se nenhum perfil corresponder ao subconjunto, o workflow não fará transição para a próxima atividade.
 
       ![](../assets/workflow-split-subset.png)
 
