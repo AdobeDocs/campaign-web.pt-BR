@@ -3,21 +3,14 @@ audience: end-user
 title: Introdução às entregas de correspondência direta
 description: Saiba como criar e enviar entregas de correspondência direta com o Adobe Campaign Web
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 32%
+source-wordcount: '213'
+ht-degree: 16%
 
 ---
 
 # Introdução às entregas de correspondência direta {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Correspondência direta"
->abstract="O canal de correspondência direta já está disponível para uso em fluxos de trabalho e entregas independentes. Use o canal offline de correspondência direta para criar, personalizar e gerar arquivos de extração, e compartilhe-os com os provedores de correspondência direta para enviar emails a clientes."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
-
 
 A correspondência direta é um canal offline que permite produzir arquivos para entregar cartas personalizadas em massa aos clientes, como cartões-postais, panfletos ou catálogos.
 

@@ -2,18 +2,25 @@
 audience: end-user
 title: Usar a atividade do fluxo de trabalho Query incremental
 description: Saiba como usar a atividade de workflow Query incremental
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 20%
+source-wordcount: '786'
+ht-degree: 22%
 
 ---
 
-# Query incremental {#incremental-query}
+# Consulta incremental {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Atividade Query incremental"
+>abstract="Use a nova atividade Consulta Incremental para consultar o banco de dados de forma programada. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
->title="Query incremental"
+>title="Consulta incremental"
 >abstract="A variável **Query incremental** a atividade é um **Direcionamento** atividade que permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
 
 >[!CONTEXTUALHELP]

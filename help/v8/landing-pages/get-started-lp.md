@@ -4,20 +4,14 @@ title: Introdução às páginas de destino
 description: Saiba mais sobre as páginas de destino no Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
 
 # Introdução às páginas de destino {#get-sarted-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Páginas de destino"
->abstract="Descubra a nova experiência de página de destino. Crie, desenvolva e compartilhe páginas de destino instantaneamente para direcionar usuários a páginas da web onde é possível gerenciar casos de uso de aquisição, assinatura/cancelamento de assinatura e listas de bloqueio, tudo com base em modelos integrados."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 O [!DNL Adobe Campaign] permite criar, desenvolver e compartilhar páginas de destino.
 
