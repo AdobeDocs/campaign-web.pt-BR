@@ -2,9 +2,9 @@
 title: Notas de versão mais recentes
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1137'
 ht-degree: 25%
 
 ---
@@ -17,7 +17,7 @@ As versões da interface do Adobe Campaign Web operam em um modelo de entrega co
 
 ## Notas de versão de abril {#april-24-4-release}
 
-**Data de lançamento**: 30 de abril de 2024
+**Data de lançamento**: 2 de maio de 2024
 
 ### Novos recursos {#new-24-4}
 
@@ -31,7 +31,7 @@ Os seguintes recursos estão disponíveis para todos os usuários a partir da ve
 * **Transferir arquivo** : use essa atividade para receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser protocolo servidor a servidor ou protocolo HTTP. [Leia mais](../workflows/activities/transfer-file.md)
 * **Teste** - Use esta atividade para ativar transições com base em condições especificadas. [Leia mais](../workflows/activities/test.md)
 * **Código JavaScript** - Use esta atividade para executar um trecho de código JavaScript no contexto de um workflow. [Leia mais](../workflows/activities/javascript-code.md)
-* **Sinal externo** : use essa atividade para acionar a execução de um workflow a partir de outro workflow* ou de uma chamada à API. [Leia mais](../workflows/activities/external-signal.md)
+* **Sinal externo** : use essa atividade para acionar a execução de um workflow a partir de outro workflow ou uma chamada de API. [Leia mais](../workflows/activities/external-signal.md)
 * **Query incremental** : use essa atividade para consultar o banco de dados de forma programada. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Isso permite direcionar somente elementos novos. [Leia mais](../workflows/activities/incremental-query.md)
 
 **Modelos avançados de notificação por push**
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Relatórios dinâmicos** - Como um usuário migrado de Campaign Standard, você pode acessar o Dynamic Reporting, que fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques. [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Aprimoramento da atividade de carregamento de arquivo** - A **Carregar arquivo** A atividade de foi aprimorada com várias seções, que permitem fazer upload de um arquivo de amostra, gerenciar erros e rejeições e excluir arquivos carregados após a execução da atividade. [Leia mais](../workflows/activities/load-file.md)
-
 * **Landing Pages** - As seguintes melhorias nas páginas de aterrissagem só estão disponíveis para usuários que estão fazendo a transição do Campaign Standard:
 
    * Agora você pode fazer referência a uma landing page padrão de subscrição/unsubscription ao configurar um serviço. Ao criar um email, se você definir um link para essa página de aterrissagem, os usuários que enviam o formulário da página de aterrissagem farão a assinatura desse serviço ou a cancelarão. [Leia mais](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 Os aprimoramentos abaixo estão disponíveis para todos os clientes a partir da versão de abril.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* Agora é possível copiar/colar atividades de um workflow para outro workflow a partir de uma guia do navegador diferente. [Leia mais](../workflows/orchestrate-activities.md#copy-activities-copy)
+* A variável **Carregar arquivo** A atividade de foi aprimorada com várias seções, que permitem fazer upload de um arquivo de amostra, gerenciar erros e rejeições e excluir arquivos carregados após a execução da atividade. [Leia mais](../workflows/activities/load-file.md)
+
+
+* Agora você pode **atividades de copiar/colar** de um workflow para outro workflow a partir de uma guia do navegador diferente. [Leia mais](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* Todas as atividades do workflow agora permitem gerenciar as opções de execução. Isso permite definir o modo de execução e o comportamento da atividade em caso de erros. [Leia mais](../workflows/orchestrate-activities.md#execution-options-execution)
+* Todas as atividades do workflow agora permitem gerenciar seus **opções de execução**. Isso permite definir o modo de execução e o comportamento da atividade em caso de erros. [Leia mais](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ Os aprimoramentos abaixo estão disponíveis para todos os clientes a partir da 
 
 <!--* **Support of custom fields**-->
 
-* Os campos personalizados são atributos adicionais adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Na interface da Web do Campaign, esses campos personalizados agora estão visíveis em várias telas, por exemplo, os detalhes de um perfil ou perfil de teste. Na interface do usuário da Web, não é possível criar campos personalizados, mas agora é possível modificar a forma como eles são exibidos. [Leia mais](../administration/custom-fields.md)
+* **Campos personalizados** são atributos adicionais adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Na interface da Web do Campaign, esses campos personalizados agora estão visíveis em várias telas, por exemplo, os detalhes de um perfil ou perfil de teste. Na interface do usuário da Web, não é possível criar campos personalizados, mas agora é possível modificar a forma como eles são exibidos. [Leia mais](../administration/custom-fields.md)
 
 
 ## Notas de versão de março {#24-3-release}

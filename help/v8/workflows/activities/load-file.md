@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 13%
+source-wordcount: '1227'
+ht-degree: 14%
 
 ---
 
@@ -42,10 +42,6 @@ A variável **Carregar arquivo** a configuração da atividade envolve duas etap
 ![](../assets/workflow-load-file.png)
 
 ### Configurar o arquivo de amostra {#sample}
-
->[!AVAILABILITY]
->
->Esse recurso está na disponibilidade limitada (DL). Ela é restrita aos clientes em execução em um servidor do Campaign v8.7 e não pode ser implantada em nenhum outro ambiente.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
 >
 >Antes de carregar o arquivo de destino, verifique se ele segue à formatação do arquivo de amostra. Qualquer discrepância no formato de arquivo, na estrutura da coluna ou no número de colunas pode levar a erros durante a execução do workflow.
 
+Para definir o arquivo de destino para upload, siga estas etapas:
+
 1. No **[!UICONTROL Arquivo de destino]** especifique a ação a ser executada ao recuperar o arquivo a ser carregado no servidor.
 
    * **[!UICONTROL Fazer upload de arquivo do computador local]**: selecione o arquivo a ser carregado da sua máquina.
@@ -150,10 +148,6 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
 >title="Excluir arquivo após importação"
 >abstract="Ative a opção **Excluir arquivo após importação** para excluir o arquivo original do servidor após a importação."
 
-
->[!AVAILABILITY]
->
->Essas opções estão em Disponibilidade Limitada (DL). Eles são restritos aos clientes em execução em um servidor do Campaign v8.7 e não podem ser implantados em nenhum outro ambiente.
 
 1. No **Rejeitar gerenciamento** especifique como a atividade deve se comportar em caso de erros:
 
