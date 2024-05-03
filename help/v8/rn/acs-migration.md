@@ -2,13 +2,13 @@
 audience: end-user
 title: Transição do Campaign Standard para o Adobe Campaign Web
 description: Conheça a interface da Web do Campaign
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Transição de Campaign Standard para o Campaign v8{#welcome}
 
@@ -64,10 +64,10 @@ A maioria dos conceitos é semelhante entre a interface da Web do Campaign e o C
 * Os recursos personalizados são **Esquemas** na interface da Web do Campaign.
 * As atividades de marketing não existem mais.
 * As mensagens são **Entregas**.
-* Os operadores são **Usuários**.
-* Os direitos nomeados são **Funções**.
-* Os grupos de operadores são **Grupos de Segurança**.
-* As permissões de pasta são **Unidades organizacionais**
+* Os usuários estão **Operadores**.
+* As funções são **Direitos nomeados**.
+* Os Grupos de Segurança são **Grupos de Operadores**.
+* As unidades organizacionais são **Permissões de pasta**
 
 ## Novos recursos {#new-features}
 
