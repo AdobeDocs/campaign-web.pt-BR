@@ -2,14 +2,19 @@
 title: Notas de versão mais recentes
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
+source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 26%
 
 ---
 
 # Notas de versão {#latest-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Notas de versão"
+>abstract="As versões da interface do Adobe Campaign Web operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos. Devido a isso, as notas de versão do Campaign são atualizadas várias vezes por mês, com os recursos, melhorias e correções mais recentes. Recomendamos que você as verifique regularmente."
 
 <!--Last update: **March 19, 2024**-->
 
