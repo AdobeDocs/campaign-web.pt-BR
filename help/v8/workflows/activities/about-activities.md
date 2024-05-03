@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 35%
+source-wordcount: '567'
+ht-degree: 30%
 
 ---
 
@@ -23,19 +23,31 @@ Todas as atividades estão detalhadas nas seções abaixo:
 
 ![](../assets/workflow-activities.png)
 
-## Atividades de direcionamento e gestão de dados {#targeting}
+## Atividades de direcionamento {#targeting}
 
-Essas atividades são específicas para direcionar, manipular e enriquecer dados de população. Elas permitem criar uma ou mais direções definindo um público-alvo e dividindo ou combinando esses públicos-alvo usando operações de interseção, união ou exclusão.
+Essas atividades são específicas para direcionamento. Elas permitem criar uma ou mais direções definindo um público-alvo e dividindo ou combinando esses públicos-alvo usando operações de interseção, união ou exclusão.
 
-* Use o [Salvar público-alvo](save-audience.md) atividade para atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho.
-* Use o [Criar público-alvo](build-audience.md) atividade para definir seu público-alvo. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
-* Use o [Combinar](combine.md) atividade para executar a segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
-* Use o [Split](split.md) atividade para segmentar a população recebida em vários subconjuntos.
-* Use o [Reconciliação](reconciliation.md) atividade para definir o link entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
-* Use o [Enriquecimento](enrichment.md) atividade para definir dados adicionais a serem processados no fluxo de trabalho. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
-* Use o [Desduplicação](deduplication.md) atividade para excluir duplicados no(s) resultado(s) das atividades de entrada.
-* Use o [Alterar dimensão](change-dimension.md) atividade para alterar o targeting dimension enquanto você constrói seu fluxo de trabalho.
-* Use o [Carregar arquivo](load-file.md) para trabalhar com perfis e dados armazenados em um arquivo externo.
+* [Criar público-alvo](build-audience.md): defina a população do target. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
+* [Alterar fonte de dados](change-data-source.md): altere a fonte de dados da tabela de Trabalho do seu fluxo de trabalho.&quot;
+* [Alterar dimensão](change-dimension.md): altere o targeting dimension enquanto constrói seu fluxo de trabalho.
+* [Combinar](combine.md): execute a segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
+* [Desduplicação](deduplication.md): exclua duplicatas no(s) resultado(s) das atividades de entrada.
+* [Enriquecimento](enrichment.md): defina dados adicionais para processar no fluxo de trabalho. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
+* [Query incremental](incremental-query.md): consulta o banco de dados de acordo com o agendamento. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos.
+* [Reconciliação](reconciliation.md): defina o link entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
+* [Salvar público-alvo](save-audience.md): atualize um público-alvo ou crie um novo público-alvo a partir da população computada upstream em um fluxo de trabalho.
+* [Split](split.md): segmente a população de entrada em vários subconjuntos.
+
+## Atividades de gerenciamento de dados {#data}
+
+Essas atividades são específicas para manipular e enriquecer dados de população.
+
+* [Extrair arquivo](extract-file.md): exporte dados do Adobe Campaign para outro sistema como um arquivo externo.
+* [Carregar arquivo](load-file.md): trabalhe com perfis e dados armazenados em um arquivo externo.
+* [Transferir arquivo](transfer-file.md): Receba ou envie arquivos, teste a presença de arquivos ou liste arquivos em um servidor. O protocolo usado pode ser protocolo servidor a servidor ou protocolo HTTP.
+* [Código JavaScript](javascript-code.md): executa um trecho de código JavaScript no contexto de um workflow.
+* [Serviços de assinatura](subscription-services.md): assine ou cancele a assinatura de vários perfis para/de um serviço em uma única ação.
+* [Atualizar dados](update-data.md): Execute atualizações em massa nos campos no banco de dados. Várias opções permitem personalizar a atualização de dados.
 
 ## Atividades do canal {#channel}
 
@@ -50,18 +62,10 @@ O Adobe Campaign Web permite automatizar e executar campanhas de marketing em v�
 
 As atividades a seguir são específicas para organizar e executar fluxos de trabalho. Sua principal tarefa é coordenar as outras atividades:
 
-* Use o [Scheduler](scheduler.md) atividade a ser agendada quando o fluxo de trabalho é iniciado.
-* Use o [Associação AND](and-join.md) atividade para sincronizar várias ramificações de execução de um fluxo de trabalho.
-* Adicionar um **Fim** atividade para marcar graficamente o fim de um workflow. Essa atividade não tem impacto funcional e, portanto, é opcional.
-* Use o [Bifurcar](fork.md) atividade para criar transições de saída para iniciar várias atividades ao mesmo tempo.
-* Adicionar um [Aguardar](wait.md) para pausar temporariamente a execução de uma parte de um fluxo de trabalho.
-
-<!--
-## Data management activities {#data-management}
-
-overview: what they're used for
-which use case you can perform with them
-
-list available activities + short description + ref to section
--->
-
+* [Associação AND](and-join.md): sincronize várias ramificações de execução de um fluxo de trabalho.
+* **Fim**: marca graficamente o fim de um workflow. Esta atividade não tem impacto funcional e, portanto, é opcional
+* [Sinal externo](external-signal.md): acione a execução de um workflow a partir de outro workflow ou uma chamada à API.
+* [Bifurcar](fork.md): crie transições de saída para iniciar várias atividades ao mesmo tempo.
+* [Scheduler](scheduler.md): agenda quando o fluxo de trabalho é iniciado.
+* [Teste](test.md): ative as transições com base nas condições especificadas.
+* [Aguardar](wait.md): pausa momentaneamente a execução de uma parte de um workflow.
