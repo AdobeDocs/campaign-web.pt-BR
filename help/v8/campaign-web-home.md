@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 98%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
->[!TAB A versão de março está disponível.]
+>[!TAB A versão de abril está disponível.]
 
-Conheça os novos recursos e melhorias que vêm com a versão 24.3 da Interface do Adobe Campaign Web.
+Conheça os novos recursos e melhorias que vêm com a versão 24.4 da Interface do Adobe Campaign Web.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Sobre o canal de correspondência direta]
+>[!TAB Novas atividades de fluxo de trabalho]
 
-O canal **Correspondência direta** agora está disponível para uso em fluxos de trabalho e como entregas independentes. A correspondência direta é um canal offline que permite criar, personalizar e gerar arquivos de extração e compartilhá-los com seus provedores de correspondência direta para enviar emails a seus clientes.
+Esta versão é fornecida com as seguintes atividades de workflow: Update data, Subscription services, Extract file, Transfer file, Test, JavaScript code, External signal, Incremental query.
 
-![imagem](assets/do-not-localize/direct-mail.gif)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Notificação por push avançada]
 
->[!TAB Nova atividade de fluxo de trabalho Alterar fonte de dados]
+Agora você pode enviar notificações por push avançadas via Android. A notificação por push avançada é uma forma aprimorada de notificação por dispositivos móveis que vai além das mensagens de texto simples, incorporando elementos multimídia, como imagens, botões interativos ou outro conteúdo de mídia avançada.
 
-A nova atividade de direcionamento **Alterar fonte de dados** permite alterar a fonte de dados de uma tabela de trabalho do fluxo de trabalho. Essa atividade oferece mais flexibilidade, permitindo gerenciar dados em seus diferentes bancos de dados e melhorar o desempenho.
-
-![imagem](assets/do-not-localize/change-data-source.gif)
-
-[![imagem](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
