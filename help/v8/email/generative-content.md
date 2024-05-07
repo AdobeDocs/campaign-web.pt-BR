@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1352'
 ht-degree: 5%
 
 ---
@@ -216,8 +216,10 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar se
 
 >[!ENDTABS]
 
-## Vídeo tutorial {#video}
+<!--
+## How-to video {#video}
 
-Saiba como usar o assistente de IA para gerar email, texto ou imagens completos.
+Learn how to use the AI assistant to generate full email, text or images.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428341)
+-->
