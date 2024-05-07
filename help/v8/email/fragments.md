@@ -4,10 +4,11 @@ title: Criar fragmentos de conteúdo
 description: Saiba como criar com fragmentos de conteúdo
 hidefromtoc: true
 hide: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 6%
+source-wordcount: '870'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Definir seus próprios fragmentos"
->abstract="Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas."
+>abstract="Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas. Esse recurso é usado para pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
