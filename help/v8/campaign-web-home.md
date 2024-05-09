@@ -4,9 +4,9 @@ description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -53,19 +53,19 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!TAB A versão de abril está disponível.]
 
-Conheça os novos recursos e melhorias que vêm com a versão 24.4 da Interface do Adobe Campaign Web.
+Conheça os novos recursos e melhorias que vêm com a versão 24.4 da interface do Adobe Campaign Web.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Novas atividades de fluxo de trabalho]
 
-Esta versão é fornecida com as seguintes atividades de workflow: Update data, Subscription services, Extract file, Transfer file, Test, JavaScript code, External signal, Incremental query.
+Essa versão vem com as seguintes atividades de fluxo de trabalho: atualização de dados, serviços de assinatura, extração de arquivo, transferência de arquivo, teste, código JavaScript, sinal externo, consulta incremental.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Notificação por push avançada]
 
-Agora você pode enviar notificações por push avançadas via Android. A notificação por push avançada é uma forma aprimorada de notificação por dispositivos móveis que vai além das mensagens de texto simples, incorporando elementos multimídia, como imagens, botões interativos ou outro conteúdo de mídia avançada.
+Agora é possível enviar notificações por push avançadas via Android. A notificação por push avançada é uma forma aprimorada de notificação em dispositivos móveis que vai além de simples mensagens de texto, incorporando elementos multimídia, como imagens, botões interativos ou outros conteúdos de mídia avançada.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -107,7 +107,7 @@ Agora você pode enviar notificações por push avançadas via Android. A notifi
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Comece já</strong><br/><a href="get-started/user-interface.md">Interface do usuário</a> - <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> - <a href="get-started/permissions.md">Acesso e permissões</a>
+      <strong>Introdução</strong><br/><a href="get-started/user-interface.md">Interface</a> – <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> – <a href="get-started/permissions.md">Acesso e permissões</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
