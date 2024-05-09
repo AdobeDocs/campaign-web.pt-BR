@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
+>Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#generative-guardrails).
 
 Depois de criar e personalizar seus emails, use o Assistente de IA no Campaign viabilizado pela IA generativa para elevar o conteúdo ao próximo nível.
 

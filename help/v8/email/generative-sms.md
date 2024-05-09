@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 11%
@@ -32,7 +32,7 @@ Essa ferramenta útil fornece sugestões inteligentes para refinar seu conteúdo
 
 >[!NOTE]
 >
->Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#guardrails-and-limitations).
+>Antes de começar a usar esse recurso, leia as informações relacionadas [Medidas de proteção e limitações](generative-gs.md#generative-guardrails).
 
 1. Depois de criar e configurar o delivery de SMS, clique em **[!UICONTROL Editar conteúdo]**.
 
