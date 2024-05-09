@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 38%
 
 **Índice**
 
-* **[Introdução ao Assistente de IA](generative-gs.md)**
+* Introdução ao assistente de IA
 * [Geração de email com o Assistente de IA](generative-content.md)
 * [Geração de SMS com o Assistente de IA](generative-sms.md)
 * [Geração de notificação por push com o Assistente de IA](generative-push.md)

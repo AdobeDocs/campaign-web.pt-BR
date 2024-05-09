@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 96%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [Novidades](rn/whats-new.md)
    + [Versão mais recente](rn/release-notes.md)
    + [Atualizações da documentação](rn/documentation-updates.md)
-   + [Do Campaign Standard para o v8](rn/acs-migration.md)
+   + [Do Campaign Standard ao v8](rn/acs-migration.md)
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
    + [Conexão com o Campaign](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [Procurar e filtrar listas](get-started/list-filters.md)
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)
    + [Acesso e permissões](get-started/permissions.md)
-   + [Console da Web e do cliente do Campaign](get-started/capability-matrix.md)
+   + [Console do cliente e do Campaign Web](get-started/capability-matrix.md)
    + [Ajuda contextual habilitada por IA](get-started/using-ai.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
          + [Configurar conteúdo de email](email/edit-content.md)
          + Gerenciar conteúdo reutilizável {#manage-reusable-content}
             + [Trabalho com modelos de conteúdo](email/create-email-templates.md)
-            + [Trabalhar com fragmentos](email/fragments.md)
+            + [Trabalhar com fragmentos visuais](email/fragments.md)
             + [Adicionar fragmentos visuais aos seus emails](email/use-visual-fragments.md)
          + Começar a definir seu email {#start-design}
             + [Introdução ao Designer de email](email/get-started-email-designer.md)
@@ -148,7 +148,7 @@ ht-degree: 96%
       + [Combinar](workflows/activities/combine.md)
       + [Desduplicação](workflows/activities/deduplication.md)
       + [Email, SMS, push, correspondência direta](workflows/activities/channels.md)
-      + [Atividade de ](workflows/activities/enrichment.md)
+      + [Enriquecimento](workflows/activities/enrichment.md)
       + [Sinal externo](workflows/activities/external-signal.md)
       + [Extrair arquivo](workflows/activities/extract-file.md)
       + [Bifurcação](workflows/activities/fork.md)
