@@ -373,8 +373,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_create"
->title="Criar painel de alertas de entrega"
->abstract="Criar painel de alertas de entrega"
+>title="Criar um painel de alerta de entrega"
+>abstract="Criar um painel de alerta de entrega"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
