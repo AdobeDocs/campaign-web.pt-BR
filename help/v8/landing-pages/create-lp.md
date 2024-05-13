@@ -3,10 +3,10 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
+source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 28%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Para acessar a lista de landing pages, selecione **[!UICONTROL Gerenciamento de 
 
 ![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
-A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens criados. É possível filtrá-los usando a variável **Mostrar filtros** botão. É possível restringir os resultados a um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
+A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens criados. É possível filtrá-los usando a variável **[!UICONTROL Mostrar filtros]** botão. É possível restringir os resultados a um [pasta](../get-started/permissions.md#folders) usando a lista suspensa ou adicione regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
@@ -61,7 +61,7 @@ A variável **[!UICONTROL Landing pages]** o inventário exibe todos os itens cr
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definir opções de pré-carregamento"
->abstract="Quando a opção **Preencher previamente com os dados referenciados no formulário** estiver selecionada, visitantes da página de destino quem correspondem a um perfil do banco de dados terão as informações do seu perfil pré-carregadas automaticamente no formulário. Com o **Autorizar ausência de ID** opção selecionada, qualquer visitante, incluindo usuários anônimos, pode acessar a landing page."
+>abstract="Quando a opção **Preencher previamente com os dados referenciados no formulário** estiver selecionada, visitantes da página de destino quem correspondem a um perfil do banco de dados terão as informações do seu perfil pré-carregadas automaticamente no formulário. Com a opção **Autorizar ausência de ID** selecionada, qualquer visitante, incluindo usuários anônimos, pode acessar a página de destino."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -114,7 +114,7 @@ Para criar uma landing page, siga estas etapas:
 
      >[!AVAILABILITY]
      >
-     >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+     >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
      Para o **[!UICONTROL Aquisição]** e **[!UICONTROL Inscrição]** for selecionada por padrão. Para o **[!UICONTROL Cancelar assinatura]** e **[!UICONTROL ➡ Incluir na lista de bloqueios]** modelos, essa opção é desmarcada por padrão e não pode ser modificada<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
@@ -132,7 +132,7 @@ Para criar uma landing page, siga estas etapas:
 
    >[!AVAILABILITY]
    >
-   >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+   >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
