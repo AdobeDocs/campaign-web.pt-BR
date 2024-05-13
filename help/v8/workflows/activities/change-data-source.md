@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow Alterar fonte de dados
 description: Saiba como usar a atividade de workflow Alterar fonte de dados
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 16%
+source-wordcount: '343'
+ht-degree: 13%
 
 ---
 
@@ -24,6 +24,10 @@ Nos workflows, os dados transportados de uma atividade para outra por meio de tr
 Em alguns casos, os dados não estão disponíveis no banco de dados atual ou não são eficientes o suficiente para executar operações unitárias. Portanto, talvez seja necessário forçar o workflow a usar um banco de dados diferente para executar essas operações adicionando um **[!UICONTROL Alterar fonte de dados]** atividade.
 
 Informações detalhadas sobre a arquitetura do Campaign estão disponíveis em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+
+>[!IMPORTANT]
+>
+>Observe que a variável **[!UICONTROL Alterar dimensão]** e **[!UICONTROL Alterar fonte de dados]** as atividades não devem ser adicionadas em uma linha. Se precisar usar ambas as atividades consecutivamente, inclua uma **[!UICONTROOL Enriquecimento]** atividade entre eles. Isso garante a execução adequada e evita possíveis conflitos ou erros.
 
 <!--
 
