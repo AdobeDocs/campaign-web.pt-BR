@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 77%
+source-wordcount: '2106'
+ht-degree: 74%
 
 ---
 
@@ -91,6 +91,11 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Retorna o desvio padrão de uma coluna do tipo número, string ou dados<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere no segundo argumento<br /> </td> 
+   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -145,6 +150,16 @@ As funções de data são usadas para manipular valores de data ou hora.
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Converte o carimbo de data e hora NTZ (carimbo de data e hora sem fuso horário) em TZ (carimbo de data e hora com fuso horário) usando a sessão definida TZ<br/> </td> 
    <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Comparar duas datas<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ As funções de data são usadas para manipular valores de data ou hora.
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Converte uma string em uma data + hora<br /> </td> 
    <td> ToDateTime(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Converte uma cadeia de caracteres em um carimbo de data e hora<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Converter uma data + hora em fuso horário<br /> </td> 
+   <td> ToTimeZone()&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ Esta tabela contém as funções restantes disponíveis.
    <td> <strong>Descrição</strong><br /> </td> 
    <td> <strong>Sintaxe</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Criptografar cadeia de caracteres fornecida no argumento<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Retorna o valor 1 se a condição for verdadeira. Caso contrário, retornará o valor 2.<br /> </td> 
@@ -522,11 +547,11 @@ Esta tabela contém as funções restantes disponíveis.
    <td> Retorna o valor 2 se a string 1 estiver vazia, caso contrário, retorna o valor 3.<br /> </td> 
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> Retorna uma ID exclusiva<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Retorna a string vazia se o argumento for NULL.<br /> </td> 
@@ -631,11 +656,11 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> Retorna o comprimento da string<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>Linha</strong><br /> </td> 
+   <td> Extrair linha n da string<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Retorna a string em minúsculas<br /> </td> 
@@ -665,6 +690,11 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrai o valor de um campo XML de seu XPath e dos dados do campo<br /> </td> 
    <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Substitui todas as ocorrências de um valor de string especificado por outro valor de string.<br /> </td> 
+   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
