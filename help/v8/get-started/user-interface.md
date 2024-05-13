@@ -3,7 +3,7 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: fbbad6abf6b43159ed8111ae3ee58834b2270fc2
+source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
 workflow-type: tm+mt
 source-wordcount: '1650'
 ht-degree: 99%
@@ -375,6 +375,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Criar um painel de alerta de entrega"
 >abstract="Criar um painel de alerta de entrega"
+
+<!-- IDs -->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
