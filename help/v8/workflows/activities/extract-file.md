@@ -2,10 +2,11 @@
 audience: end-user
 title: Usar a atividade de workflow Extrair arquivo
 description: Saiba como usar a atividade de workflow Extrair arquivo
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 7%
+source-wordcount: '875'
+ht-degree: 15%
 
 ---
 
@@ -14,9 +15,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extrair arquivo"
->abstract="A variável **Extrair arquivo** A atividade permite exportar dados do Adobe Campaign como um arquivo externo. Os dados podem ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transfer file."
+>abstract="A atividade **Extrair arquivo** permite exportar dados do Adobe Campaign como um arquivo externo. Os dados podem ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transferir arquivo."
 
-A variável **Extrair arquivo** a atividade é um **Gestão de dados** atividade. Use esta atividade para exportar dados do Adobe Campaign na forma de um arquivo externo. Os dados podem ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transfer file.
+A variável **Extrair arquivo** a atividade é um **Gestão de dados** atividade. Use esta atividade para exportar dados do Adobe Campaign na forma de um arquivo externo. Os dados podem ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transferir arquivo.
 
 Para configurar o **Extrair arquivo** atividade, adicionar um **Extrair arquivo** atividade no seu workflow, siga as etapas abaixo.
 
@@ -53,7 +54,7 @@ A variável **[!UICONTROL Arquivo a extrair]** permite configurar as propriedade
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Formato de destino"
->abstract="Selecione o formato."
+>abstract="Selecione as diferentes opções para configurar como o arquivo extraído é formatado."
 
 A variável **[!UICONTROL Destino]** formatar seção permite configurar como o arquivo extraído é formatado.
 
@@ -76,12 +77,12 @@ A variável **[!UICONTROL Destino]** formatar seção permite configurar como o 
 
    ![](../assets/extract-file-format.png)
 
-## Adicionar uma etapa de pós-processamento {#script}
+## Adicionar um estágio de pré-processamento {#script}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Pós-processamento"
->abstract="Definir uma etapa de pós-processamento"
+>abstract="Defina uma etapa de pós-processamento a ser aplicada, como compactação ou criptografia."
 
 A variável **[!UICONTROL Exportar script de modificação]** permite aplicar um estágio de processamento para ser executado durante a extração de dados, como compactação ou criptografia. Para fazer isso, clique no link **[!UICONTROL Editar script]** botão.
 

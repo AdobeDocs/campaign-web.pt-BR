@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de campanha
 description: Saiba como acessar e usar relatórios de campanha
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 24%
@@ -11,18 +11,6 @@ ht-degree: 24%
 ---
 
 # Introdução a relatórios de campanha {#campaign-reports}
-
-<!-- CAN BE REMOVED___
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reporting Sending"
->abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reporting tracking"
->abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
--->
 
 Os **relatórios de campanha** fornecem uma visão geral abrangente de sua **campanha**, incorporando todas as informações pertinentes sobre as diferentes entregas incluídas. Esses relatórios oferecem uma análise completa do desempenho de cada entrega por canal: taxas de sucesso, engajamento de público-alvo e outras métricas essenciais. Por isso, permitem avaliar a eficácia geral e o impacto da campanha.
 

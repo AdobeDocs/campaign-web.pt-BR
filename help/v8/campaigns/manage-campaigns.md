@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 42%
+source-wordcount: '726'
+ht-degree: 41%
 
 ---
 
@@ -49,7 +49,7 @@ Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de fi
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Lista de workflows em uma campanha"
->abstract="Lista de workflows em uma campanha"
+>abstract="A variável **Fluxo de trabalho** A guia lista todo o workflow vinculado à campanha atual."
 
 No **Procurar** da lista da campanha, clique em um nome de campanha para exibir seus detalhes.
 

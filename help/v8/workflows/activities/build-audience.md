@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 69%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -33,12 +33,12 @@ Para definir o público-alvo, você pode:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configurar a atividade Criar público-alvo{#build-audience-configuration}
+## Configurar a atividade Criar público-alvo {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Público-alvo"
->abstract="Público-alvo"
+>abstract="Selecione seu público, da mesma forma que você usa um público ao criar um novo delivery."
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
