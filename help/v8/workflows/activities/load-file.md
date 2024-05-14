@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 14%
+ht-degree: 38%
 
 ---
 
@@ -51,12 +51,12 @@ A variável **Carregar arquivo** a configuração da atividade envolve duas etap
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
 >title="Formatação da atividade Carregar arquivo"
->abstract="No **Formatação** especifique como o arquivo está formatado para garantir que os dados sejam importados corretamente."
+>abstract="Na seção **Formatação**, especifique como o arquivo está formatado para garantir que os dados sejam importados corretamente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Remapeamento de valor da atividade Carregar arquivo"
->abstract="Use essa opção para mapear valores específicos dos arquivos carregados com novos valores. Por exemplo, se a coluna contiver valores &quot;Verdadeiro&quot;/&quot;Falso&quot;, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres &quot;0&quot;/&quot;1&quot;."
+>abstract="Use essa opção para mapear valores específicos dos arquivos carregados com novos valores. Por exemplo, se a coluna contiver valores “Verdadeiro”/“Falso”, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres “0”/“1”."
 
 Siga estas etapas para configurar o arquivo de amostra usado para definir a estrutura de arquivo esperada:
 
@@ -86,28 +86,28 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
    * **[!UICONTROL Separadores]** (tipos de dados data, hora, número inteiro e número)*: especifique os caracteres a serem usados como separadores.
    * **[!UICONTROL Permitir NULLs]**: especifique como gerenciar valores vazios na coluna. A opção &quot;Adobe Campaign default&quot; gerará um erro se um valor vazio estiver presente.
    * **[!UICONTROL Processamento de erros]** (tipo de dados string): especifique o comportamento no caso de erros em uma das linhas.
-   * **[!UICONTROL Remapeamento de valor]**: essa opção permite mapear valores específicos com novos. Por exemplo, se a coluna contiver valores &quot;Verdadeiro&quot;/&quot;Falso&quot;, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres &quot;0&quot;/&quot;1&quot;.
+   * **[!UICONTROL Remapeamento de valor]**: essa opção permite mapear valores específicos com novos. Por exemplo, se a coluna contiver valores “Verdadeiro”/“Falso”, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres “0”/“1”.
 
 +++
 
-1. No **Formatação** especifique como o arquivo está formatado para garantir que os dados sejam importados corretamente.
+1. Na seção **Formatação**, especifique como o arquivo está formatado para garantir que os dados sejam importados corretamente.
 
 ### Definir o arquivo de destino para upload {#target}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="Arquivo de destino da atividade Carregar arquivo"
->abstract="No **[!UICONTROL Arquivo de destino]** especifique como recuperar o arquivo para upload no servidor."
+>abstract="Na seção **[!UICONTROL Arquivo de destino]**, especifique como recuperar o arquivo para fazer upload no servidor."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="Nome do arquivo"
->abstract="Especifique o nome do campo a ser carregado no servidor. Clique em **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone para aproveitar o editor de expressão, incluindo variáveis de evento, para calcular o nome do arquivo."
+>abstract="Especifique o nome do campo a ser carregado no servidor. Clique no ícone **[!UICONTROL Abrir caixa de diálogo de personalização]** para usar o editor de expressão, incluindo variáveis de evento, para calcular o nome do arquivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Banco de dados de públicos-alvo"
->abstract="Se você estiver acessando um **[!UICONTROL Carregar arquivo]** atividade que já foi configurada no console do cliente, uma atividade adicional **[!UICONTROL Banco de dados de destino]** estará disponível se você tiver configurado a atividade para fazer upload do arquivo para um banco de dados externo."
+>abstract="Se você estiver acessando uma atividade **[!UICONTROL Carregar arquivo]** que já foi configurada no console do cliente, uma seção **[!UICONTROL Banco de dados de destino]** adicional estará disponível se você tiver configurado a atividade para fazer upload do arquivo para um banco de dados externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -128,7 +128,7 @@ Para definir o arquivo de destino para upload, siga estas etapas:
 
    * **[!UICONTROL Pré-processar o arquivo]**: carregue o arquivo especificado na transição anterior e aplique um comando de pré-processamento, como **[!UICONTROL Descompactação]** ou **[!UICONTROL Descriptografar]**.
 
-   * **[!UICONTROL Calculado]**: Faça upload do arquivo cujo nome é especificado no **[!UICONTROL Nome do arquivo]** campo. Clique em **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone para aproveitar o editor de expressão, incluindo variáveis de evento, para calcular o nome do arquivo.
+   * **[!UICONTROL Calculado]**: Faça upload do arquivo cujo nome é especificado no **[!UICONTROL Nome do arquivo]** campo. Clique no ícone **[!UICONTROL Abrir caixa de diálogo de personalização]** para usar o editor de expressão, incluindo variáveis de evento, para calcular o nome do arquivo.
 
    ![](../assets/workflow-load-file-config.png)
 
@@ -141,7 +141,7 @@ Para definir o arquivo de destino para upload, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="Gerenciamento de rejeições da atividade Carregar arquivo"
->abstract="No **Rejeitar gerenciamento** especifique como a atividade deve se comportar em caso de erros. Você pode definir o número máximo de erros permitidos e alternar a variável **[!UICONTROL Manter as rejeições em um arquivo]** opção para baixar no servidor um arquivo contendo os erros que ocorreram durante a importação."
+>abstract="Na seção **Rejeitar gerenciamento**, especifique como a atividade deve se comportar em caso de erros. Você pode definir o número máximo de erros permitidos e ativar a opção **[!UICONTROL Manter rejeições em um arquivo]** para fazer download no servidor de um arquivo contendo os erros que ocorreram durante a importação."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

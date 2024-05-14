@@ -2,10 +2,11 @@
 audience: end-user
 title: Usar a atividade de workflow de código JavaScript
 description: Saiba como usar a atividade de workflow de código JavaScript
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 9%
+ht-degree: 30%
 
 ---
 
@@ -14,12 +15,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Código JavaScript"
->abstract="A variável **Código JavaScript** A atividade permite executar um script JavaScript no contexto de um workflow. Isso permite executar ações ou coletar informações do banco de dados. Uso **Simples** Atividades de código JavaScript para executar um trecho de código na execução do workflow. **Avançado** As atividades de código JavaScript permitem executar operações mais complexas, executando dois trechos de código diferentes em ordem sequencial. Na primeira vez que o workflow é iniciado, a primeira chamada é executada. Cada vez que o workflow é executado novamente, o código definido na segunda chamada é executado."
+>abstract="A atividade **Código JavaScript** permite executar um código JavaScript no contexto de um fluxo de trabalho. Ela permite executar ações ou coletar informações do banco de dados. Use atividades de código JavaScript **simples** para executar um trecho de código na execução do fluxo de trabalho. As atividades de código JavaScript **Avançadas** permitem executar operações mais complexas, executando dois trechos de código diferentes em ordem sequencial. Na primeira vez que o fluxo de trabalho é iniciado, a primeira chamada é executada. Cada vez que o fluxo de trabalho é executado novamente, o código definido na segunda chamada é executado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="JavaScript Snippet"
->abstract="Defina o script a ser executado durante a execução da atividade. Se você estiver configurando um **Avançado** Atividade JavaScript, é necessário editar dois trechos de código: o primeiro código de chamada a ser executado na primeira execução do workflow e o próximo código de chamada a ser executado nas próximas chamadas do workflow."
+>title="Trecho de JavaScript"
+>abstract="Defina o script a ser executado durante a execução da atividade. Se estiver configurando uma atividade JavaScript **Avançada**, será necessário editar dois trechos de código: o primeiro código de chamada a ser executado na primeira execução do fluxo de trabalho e o próximo código de chamada a ser executado nas demais chamadas do fluxo de trabalho."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
@@ -28,8 +29,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Transição do JavaScript"
->abstract="Se quiser adicionar várias transições de saída, clique no link **[!UICONTROL Adicionar transições]** botão. Isso permite, por exemplo, acionar uma transição específica com base em uma condição específica definida na atividade JavaScript code. Essa opção está disponível para **Avançado** Somente atividades de código JavaScript."
+>title="Transição de JavaScript"
+>abstract="Se quiser adicionar várias transições de saída, clique no botão **[!UICONTROL Adicionar transições]**. Isso permite, por exemplo, acionar uma transição específica com base em uma condição específica definida na atividade Código JavaScript. Essa opção está disponível somente para atividades de código JavaScript **Avançadas**."
 
 A variável **Código JavaScript** a atividade é um **Gestão de dados** atividade. Use esta atividade para executar um script JavaScript no contexto de um workflow. Isso permite coletar informações do banco de dados ou executar outras operações complexas.
 

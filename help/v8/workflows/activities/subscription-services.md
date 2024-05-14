@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Atividade de Serviços de assinatura"
->abstract="Use a nova atividade de fluxo de trabalho Serviços de assinatura para gerenciar assinaturas de um serviço. É possível assinar ou cancelar a assinatura de uma população, além de atualizar várias assinaturas de um arquivo externo. Como opção, também é possível enviar uma mensagem de confirmação para notificar seus assinantes."
+>title="Atividade Serviços de assinatura"
+>abstract="Use a nova atividade de fluxo de trabalho Serviços de assinatura para gerenciar assinaturas de um serviço. É possível assinar ou cancelar a assinatura de uma população, além de atualizar várias assinaturas de um arquivo externo. Como opção, também é possível enviar uma mensagem de confirmação para notificar os assinantes."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Atividade de serviços de assinatura"
->abstract="A atividade Subscription services permite que vários perfis tenham uma subscrição ou sejam cancelados de um serviço em uma única ação."
+>title="Atividade Serviços de assinatura"
+>abstract="A atividade Serviços de assinatura permite que vários perfis sejam inscritos ou removidos de um serviço em uma única ação."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Parâmetros gerais do serviço de assinatura"
->abstract="Escolha o serviço desejado e escolha a ação a ser executada (subscrição ou unsubscription). Ative a **Enviar mensagem de confirmação** opção ativada para notificar a população que a subscrição do serviço selecionado foi realizada ou cancelada."
+>abstract="Escolha o serviço desejado e escolha a ação a ser executada (assinatura ou cancelamento de assinatura). Ative a opção **Enviar mensagem de confirmação** para notificar a população sobre sua assinatura ou sobre o cancelamento da mesma no serviço selecionado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"

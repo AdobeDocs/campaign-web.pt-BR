@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 26%
+ht-degree: 43%
 
 ---
 
@@ -42,15 +42,15 @@ Essas atividades são específicas para direcionamento. Elas permitem criar uma 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Atividades Extrair e Carregar Arquivo"
->abstract="Novas atividades de gestão de dados estão disponíveis em workflows. Use a atividade Extract File para exportar dados do Adobe Campaign para outro sistema como um arquivo externo. Use a atividade Load File para trabalhar com perfis e dados armazenados em um arquivo externo."
+>title="Atividades Extrair e Carregar arquivo"
+>abstract="Novas atividades de gestão de dados estão disponíveis em fluxos de trabalho. Use a atividade Extrair arquivo para exportar dados do Adobe Campaign para outro sistema como um arquivo externo. Use a atividade Carregar arquivo para trabalhar com perfis e dados armazenados em um arquivo externo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 Essas atividades são específicas para manipular e enriquecer dados de população.
 
 * [Extrair arquivo](extract-file.md): exporte dados do Adobe Campaign para outro sistema como um arquivo externo.
 * [Carregar arquivo](load-file.md): trabalhe com perfis e dados armazenados em um arquivo externo.
-* [Transferir arquivo](transfer-file.md): Receba ou envie arquivos, teste a presença de arquivos ou liste arquivos em um servidor. O protocolo usado pode ser protocolo servidor a servidor ou protocolo HTTP.
+* [Transferir arquivo](transfer-file.md): Receba ou envie arquivos, teste a presença de arquivos ou liste arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP.
 * [Código JavaScript](javascript-code.md): executa um trecho de código JavaScript no contexto de um workflow.
 * [Serviços de assinatura](subscription-services.md): assine ou cancele a assinatura de vários perfis para/de um serviço em uma única ação.
 * [Atualizar dados](update-data.md): Execute atualizações em massa nos campos no banco de dados. Várias opções permitem personalizar a atualização de dados.
@@ -64,8 +64,8 @@ O Adobe Campaign Web permite automatizar e executar campanhas de marketing em v�
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="Atividades avançadas de fluxo de trabalho"
->abstract="Agora você pode configurar atividades de Teste, Código JavaScript e Sinal externo em um workflow. Use a atividade Test para habilitar transições de fluxo de trabalho com base em condições. Adicione uma atividade JavaScript Code para executar um trecho de código JS no contexto do workflow. Configure uma atividade External Signal para acionar a execução do workflow a partir de uma API ou de outro workflow."
+>title="Atividades de fluxo de trabalho avançadas"
+>abstract="Agora é possível configurar as atividades Testar, Código JavaScript e Sinal externo em um fluxo de trabalho. Use a atividade Testar para habilitar transições de fluxo de trabalho com base em condições. Adicione uma atividade Código de JavaScript para executar um trecho de código JS no contexto do fluxo de trabalho. Configure uma atividade Sinal externo para acionar a execução do fluxo de trabalho a partir de uma API ou de outro fluxo de trabalho."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 

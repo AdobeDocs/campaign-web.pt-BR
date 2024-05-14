@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 32%
+ht-degree: 35%
 
 ---
 
@@ -56,7 +56,7 @@ Para acessar os serviços de assinatura disponíveis para sua plataforma, siga a
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Página de destino padrão"
->abstract="Selecione as landing pages padrão associadas a esse serviço."
+>abstract="Selecione as páginas de destino padrão associadas a este serviço."
 
 Para criar um serviço de assinatura, siga as etapas abaixo.
 
@@ -90,7 +90,7 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 
    >[!AVAILABILITY]
    >
-   >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+   >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
    ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
 

@@ -6,7 +6,7 @@ exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 23%
+ht-degree: 28%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Atividade Query incremental"
->abstract="Use a nova atividade Consulta Incremental para consultar o banco de dados de forma programada. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
+>title="Atividade Consulta incremental"
+>abstract="Use a nova atividade Consulta incremental para consultar o banco de dados de forma programada. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Consulta incremental"
->abstract="A variável **Query incremental** a atividade é um **Direcionamento** atividade que permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
+>abstract="A atividade **Consulta incremental** é uma atividade de **Direcionamento** que permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"

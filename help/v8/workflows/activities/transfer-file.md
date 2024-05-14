@@ -2,10 +2,11 @@
 audience: end-user
 title: Usar a atividade Transferir arquivo
 description: Saiba como usar a atividade de workflow Transferir arquivo
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="Transferir arquivo"
->abstract="A variável **Transferir arquivo** A atividade permite receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser protocolo servidor a servidor ou protocolo HTTP."
+>abstract="A atividade **Transferir arquivo** permite receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -66,7 +67,7 @@ ht-degree: 11%
 >title="Processar erros"
 >abstract="Processar erros"
 
-A variável **Transferir arquivo** a atividade é um **Gerenciamento de dados** atividade. Ele permite receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser protocolo servidor a servidor ou protocolo HTTP.
+A variável **Transferir arquivo** a atividade é um **Gerenciamento de dados** atividade. Ele permite receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP.
 
 >[!NOTE]
 >
