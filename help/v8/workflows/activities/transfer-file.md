@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Transferir arquivo
 description: Saiba como usar a atividade de workflow Transferir arquivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1177'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Transferir origem do arquivo"
->abstract="Transferir origem do arquivo"
+>abstract="Insira o nome de arquivo desejado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Processar arquivos ausentes"
->abstract="Essa opção permite ativar uma transição de saída &quot;Nenhum arquivo&quot; após a atividade."
+>abstract="Essa opção permite ativar um **Nenhum arquivo** transição de saída após a atividade."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Processar erros"
->abstract="Essa opção permite ativar uma transição de saída &quot;Erro&quot; após a atividade."
+>abstract="Essa opção permite ativar um **Erro** transição de saída após a atividade."
 
 A variável **Transferir arquivo** a atividade é um **Gerenciamento de dados** atividade. Ele permite receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP.
 
