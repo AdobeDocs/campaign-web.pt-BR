@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Alterar dimensão
 description: Saiba como usar a atividade de workflow de alteração de dimensão
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 26%
@@ -28,7 +28,7 @@ Por exemplo, você pode alternar um targeting dimension de workflow de &quot;Rec
 
 >[!IMPORTANT]
 >
->Observe que a variável **[!UICONTROL Alterar dimensão]** e **[!UICONTROL Alterar fonte de dados]** as atividades não devem ser adicionadas em uma linha. Se precisar usar ambas as atividades consecutivamente, inclua uma **[!UICONTROOL Enriquecimento]** atividade entre eles. Isso garante a execução adequada e evita possíveis conflitos ou erros.
+>Observe que a variável **[!UICONTROL Alterar dimensão]** e **[!UICONTROL Alterar fonte de dados]** as atividades não devem ser adicionadas em uma linha. Se precisar usar ambas as atividades consecutivamente, inclua uma **[!UICONTROL Enriquecimento]** atividade entre eles. Isso garante a execução adequada e evita possíveis conflitos ou erros.
 
 ## Configurar a atividade Change dimension {#configure}
 

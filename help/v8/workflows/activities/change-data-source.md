@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow Alterar fonte de dados
 description: Saiba como usar a atividade de workflow Alterar fonte de dados
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 13%
@@ -27,7 +27,7 @@ Informações detalhadas sobre a arquitetura do Campaign estão disponíveis em 
 
 >[!IMPORTANT]
 >
->Observe que a variável **[!UICONTROL Alterar dimensão]** e **[!UICONTROL Alterar fonte de dados]** as atividades não devem ser adicionadas em uma linha. Se precisar usar ambas as atividades consecutivamente, inclua uma **[!UICONTROOL Enriquecimento]** atividade entre eles. Isso garante a execução adequada e evita possíveis conflitos ou erros.
+>Observe que a variável **[!UICONTROL Alterar dimensão]** e **[!UICONTROL Alterar fonte de dados]** as atividades não devem ser adicionadas em uma linha. Se precisar usar ambas as atividades consecutivamente, inclua uma **[!UICONTROL Enriquecimento]** atividade entre eles. Isso garante a execução adequada e evita possíveis conflitos ou erros.
 
 <!--
 
