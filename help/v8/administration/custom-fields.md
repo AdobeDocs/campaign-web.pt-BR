@@ -1,10 +1,13 @@
 ---
 title: Campos personalizados
 description: Saiba como configurar campos personalizados
-source-git-commit: 97769e885145d771685752f6367c5ea00831701d
+hide: true
+hidefromtoc: true
+exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 5%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
@@ -31,19 +34,19 @@ Para configurar campos personalizados, siga estas etapas:
 
 1. Em **Administração**, clique em **Esquemas**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. Localize o esquema desejado, por exemplo, o **Destinatários (nms)** esquema.
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. Clique em **Mais ações** e selecione **Editar detalhes personalizados**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    A variável **Editar detalhes personalizados** exibe todos os campos personalizados e seus tipos.
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    Essa tela permite executar as seguintes ações:
 
@@ -54,4 +57,4 @@ Para configurar campos personalizados, siga estas etapas:
 
 1. Navegue até a tela que exibe o campo personalizado. No nosso exemplo, é a tela de detalhes do perfil.
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}
