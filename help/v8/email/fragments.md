@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 5%
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Definir seus próprios fragmentos"
->abstract="Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas. Esse recurso é usado para pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado."
+>abstract="Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas. Este recurso é usado para pré-criar vários blocos de conteúdo personalizados, que podem ser usados por usuários de marketing para montar rapidamente os conteúdos de email em um processo de design aprimorado."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
