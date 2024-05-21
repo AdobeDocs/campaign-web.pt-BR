@@ -3,21 +3,17 @@ audience: end-user
 title: Usar a atividade Subscription services
 description: Saiba como usar a atividade de workflow de serviços de assinatura
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 24%
+source-wordcount: '940'
+ht-degree: 20%
 
 ---
 
 # Serviços de assinatura {#subscriptipon-services}
 
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Atividade Serviços de assinatura"
->abstract="Use a nova atividade de fluxo de trabalho Serviços de assinatura para gerenciar assinaturas de um serviço. É possível assinar ou cancelar a assinatura de uma população, além de atualizar várias assinaturas de um arquivo externo. Como opção, também é possível enviar uma mensagem de confirmação para notificar os assinantes."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
 
 
 >[!CONTEXTUALHELP]

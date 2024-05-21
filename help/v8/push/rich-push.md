@@ -3,14 +3,22 @@ audience: end-user
 title: Criar um delivery de notificação por push avançado
 description: Saiba como criar um delivery de notificação por push avançado para Android com o Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1444'
 ht-degree: 11%
 
 ---
 
 # Criar uma entrega de push avançada do Android {#rich-push}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Entrega por push avançada"
+>abstract="Agora é possível enviar notificações por push avançadas via Android. Por enquanto, esse recurso está limitado à disponibilidade."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -27,7 +35,7 @@ Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagen
 
 * A variável **[!UICONTROL Mensagem de notificação]**, manipulada automaticamente pelo SDK do FCM. O FCM exibe automaticamente a mensagem nos dispositivos dos usuários em nome do aplicativo do cliente. As mensagens de notificação contêm um conjunto predefinido de parâmetros e opções, mas ainda podem ser personalizadas com variáveis de aplicativo personalizadas.
 
-![](assets/rich_push.png){zoomable=&quot;yes&quot;}
+![](assets/rich_push.png){zoomable="yes"}
 
 ## Definir o conteúdo da notificação {#push-message}
 
@@ -168,7 +176,7 @@ Depois de definir o conteúdo da mensagem, você pode usar assinantes de teste p
 
 ## Configurações avançadas de notificações por push {#push-advanced}
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | Parâmetro | Descrição |
 |---------|---------|

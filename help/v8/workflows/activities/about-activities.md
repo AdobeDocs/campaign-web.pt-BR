@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 43%
+source-wordcount: '567'
+ht-degree: 32%
 
 ---
 
@@ -40,12 +40,6 @@ Essas atividades são específicas para direcionamento. Elas permitem criar uma 
 
 ## Atividades de gerenciamento de dados {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Atividades Extrair e Carregar arquivo"
->abstract="Novas atividades de gestão de dados estão disponíveis em fluxos de trabalho. Use a atividade Extrair arquivo para exportar dados do Adobe Campaign para outro sistema como um arquivo externo. Use a atividade Carregar arquivo para trabalhar com perfis e dados armazenados em um arquivo externo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
-
 Essas atividades são específicas para manipular e enriquecer dados de população.
 
 * [Extrair arquivo](extract-file.md): exporte dados do Adobe Campaign para outro sistema como um arquivo externo.
@@ -60,15 +54,6 @@ Essas atividades são específicas para manipular e enriquecer dados de populaç
 O Adobe Campaign Web permite automatizar e executar campanhas de marketing em vários canais. Você pode combinar atividades de canal na tela para criar workflows entre canais que podem acionar ações com base no comportamento do cliente. As seguintes **Canal** Atividades estão disponíveis: Notificações por push por email, SMS, Android e iOS. [Saiba como configurar um delivery no contexto de um workflow](channels.md).
 
 ## Atividades de controle de fluxo {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Atividades de fluxo de trabalho avançadas"
->abstract="Agora é possível configurar as atividades Testar, Código JavaScript e Sinal externo em um fluxo de trabalho. Use a atividade Testar para habilitar transições de fluxo de trabalho com base em condições. Adicione uma atividade Código de JavaScript para executar um trecho de código JS no contexto do fluxo de trabalho. Configure uma atividade Sinal externo para acionar a execução do fluxo de trabalho a partir de uma API ou de outro fluxo de trabalho."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

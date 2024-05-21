@@ -3,21 +3,28 @@ product: campaign
 title: Trilha de auditoria
 description: Saiba como monitorar sua instância com a Trilha de auditoria do Campaign
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '615'
+ht-degree: 2%
 
 ---
 
 # Trilha de auditoria{#audit-trail}
 
->[!IMPORTANT]
->
->A Interface do usuário da Web do Adobe Campaign não está auditando alterações feitas em direitos de usuário, modelos, personalização ou campanhas.\
->A trilha de auditoria só pode ser gerenciada por administradores da instância.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Trilha de auditoria"
+>abstract="O novo recurso Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram feitos na instância do Adobe Campaign em tempo real."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
 
 Na interface da Web do Adobe Campaign, a variável **[!UICONTROL Trilha de auditoria]** O recurso fornece aos usuários total visibilidade de todas as modificações feitas em entidades importantes na sua instância, normalmente aquelas que afetam significativamente uma operação suave da instância.
+
+>[!IMPORTANT]
+>
+>* A Adobe Campaign Web User Interface não está auditando alterações feitas em direitos de usuário, modelos, personalização ou campanhas.
+>* A trilha de auditoria só pode ser gerenciada por administradores da instância.
 
 **[!UICONTROL Trilha de auditoria]** Esse recurso registra constantemente um log detalhado de ações e eventos que ocorrem na instância do Adobe Campaign em tempo real. Ele oferece um método conveniente para acessar um registro cronológico de dados, abordando queries como: o status dos workflows, os indivíduos mais recentes para modificá-los ou as atividades executadas pelos usuários na instância.
 

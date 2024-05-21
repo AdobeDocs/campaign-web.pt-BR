@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fa2d596a36652f504112c7a8543453d845462021
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 47%
+source-wordcount: '1251'
+ht-degree: 46%
 
 ---
 
@@ -76,6 +76,12 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
    ![](../assets/workflow-enrichment1.png)
 
 ## Criar vínculos entre tabelas {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Links entre tabelas"
+>abstract="Agora é possível criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign na atividade de workflow Enrichment."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 A variável **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo que contenha o número da conta, o país e o e-mail dos recipients, será necessário criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
