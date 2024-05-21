@@ -4,9 +4,9 @@ title: Transição do Campaign Standard para o Adobe Campaign Web
 description: Conheça a interface do Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -46,13 +46,13 @@ Vamos nos aprofundar nos principais recursos que o Campaign v8 oferecerá a voc�
 
 ## Interface da web e do console {#console}
 
-Como usuário do Campaign v8, você tem acesso à nova interface da Web do Campaign e ao console v8. Os dados e as configurações são sincronizados de um ambiente para outro. Todos os dados e configurações disponíveis no console do cliente estão visíveis na interface do Campaign Web, por meio do painel Explorer à esquerda. [Saiba mais](../get-started/user-interface.md#user-interface-explorer)
+Como usuário do Campaign v8, você terá acesso à nova interface do Campaign Web e ao console do v8. Os dados e as configurações são sincronizados de um ambiente para outro. Todos os dados e configurações disponíveis no console do cliente estão visíveis na interface do Campaign Web, por meio do painel Explorer à esquerda. [Saiba mais](../get-started/user-interface.md#user-interface-explorer)
 
 Saiba mais sobre a compatibilidade de recursos e a interoperabilidade entre a interface do Campaign Web e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).
 
 ## Terminologia {#terminology}
 
-A maioria dos conceitos é semelhante entre o Campaign v8 e o Campaign Standard. No entanto, existem algumas diferenças. Estes são alguns exemplos de diferenças de terminologia entre o Campaign Standard e o Campaign v8:
+A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standard. No entanto, existem algumas diferenças. Aqui estão alguns exemplos de diferenças de terminologia entre o Campaign Standard e o Campaign v8:
 
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
@@ -63,14 +63,14 @@ A maioria dos conceitos é semelhante entre o Campaign v8 e o Campaign Standard.
 
 * Os recursos personalizados são **Esquemas**
 * As mensagens são chamadas de **Entregas**
-* Os usuários do produto são **Operadores**
+* Usuários do produto são **Operadores**
 * As funções são configuradas com **Direitos nomeados**
-* Os Grupos de Segurança são **Grupos de Operadores**
-* As unidades organizacionais são gerenciadas por meio **Permissões de pasta**
+* Os grupos de segurança são **Grupos de operadores**.
+* As entidades organizacionais são gerenciadas por meio de **Permissões de pasta**
 
 ## Novos recursos {#new-features}
 
-Para fazer a transição descomplicada para o Campaign v8, os principais recursos de Campaign Standard foram adicionados ao Campaign v8. Eles são detalhados em [esta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target="_blank"}.
+Com o objetivo de uma transição descomplicada para o Campaign v8, os recursos principais do Campaign Standard foram adicionados ao Campaign v8. Os recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target="_blank"}.
 
 * **Relatórios dinâmicos**: os relatórios dinâmicos fornecem relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=pt-BR){target="_blank"}.
 
@@ -78,7 +78,7 @@ Para fazer a transição descomplicada para o Campaign v8, os principais recurso
 
 * **APIs REST**: como usuário de migração do Campaign Stardard, você pode usar APIs REST para criar integrações para o Adobe Campaign e construir seu próprio ecossistema conectando o Adobe Campaign com o painel de tecnologias que você usa. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
 
-* **Landing pages** - Algumas melhorias foram trazidas para as páginas de aterrissagem do Campaign v8 para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[ notas de versão](../rn/release-notes.md#new-24-4) e na [documentação](../landing-pages/get-started-lp.md) da página de destino.
+* **Páginas de destino**: algumas melhorias foram inseridas nas páginas de destino do Campaign v8 para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[ notas de versão](../rn/release-notes.md#new-24-4) e na [documentação](../landing-pages/get-started-lp.md) da página de destino.
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
