@@ -2,10 +2,8 @@
 audience: end-user
 title: Criar fragmentos de conteúdo
 description: Saiba como criar com fragmentos de conteúdo
-hidefromtoc: true
-hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 4df9163ff1bb2887fdf6c5863ece39f17dcdb12b
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 22%

@@ -3,10 +3,10 @@ audience: end-user
 title: Criar um delivery de correspondência direta
 description: Saiba como projetar seu delivery de correspondência direta com o Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 22%
+source-wordcount: '563'
+ht-degree: 21%
 
 ---
 
@@ -52,14 +52,18 @@ Para projetar o conteúdo do arquivo de extração gerado pelo delivery de corre
 
 1. Ative a **[!UICONTROL Quantidade solicitada]** opção para restringir o número de recipients do seu delivery.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Configurar as colunas do arquivo de extração {#content}
 
 No **[!UICONTROL Conteúdo]** especifique as colunas a serem exibidas no arquivo de extração. Para fazer isso, siga estes passos:
 
 1. Clique em **[!UICONTROL Adicionar atributo]** botão para criar uma nova coluna.
-1. Escolha o atributo a ser exibido na coluna e confirme. Depois que a coluna é adicionada, você pode alterar seu rótulo e modificar o atributo associado usando o ícone de edição.
+1. Escolha o atributo a ser exibido na coluna e confirme. Observe que você pode aproveitar o editor de expressão para selecionar o atributo a ser usado clicando no botão **[!UICONTROL Editar expressão]** botão.
+
+   ![](assets/dm-add-attribute.png)
+
+1. Depois que a coluna é adicionada, você pode alterar seu rótulo e modificar o atributo associado usando o ícone de edição.
 1. Repita essas etapas para adicionar quantas colunas forem necessárias para o arquivo de extração.
 1. Para classificar o arquivo de extração usando uma das colunas, clique no ícone na **[!UICONTROL Classificação]** e selecione o método de classificação desejado.
 1. Para alterar a posição de uma coluna, use as setas para cima e para baixo.
