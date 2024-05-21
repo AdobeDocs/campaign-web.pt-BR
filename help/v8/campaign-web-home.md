@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 83%
 
 ---
 
@@ -51,23 +51,29 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
->[!TAB A versão de abril está disponível.]
+>[!TAB A versão de maio está disponível.]
 
 Conheça os novos recursos e melhorias que vêm com a versão 24.4 da interface do Adobe Campaign Web.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Novas atividades de fluxo de trabalho]
+>[!TAB Trilha de auditoria]
 
-Essa versão vem com as seguintes atividades de fluxo de trabalho: atualização de dados, serviços de assinatura, extração de arquivo, transferência de arquivo, teste, código JavaScript, sinal externo, consulta incremental.
+O novo recurso Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram feitos na instância do Adobe Campaign em tempo real.
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB Notificação por push avançada]
+>[!TAB Campos personalizados]
 
-Agora é possível enviar notificações por push avançadas via Android. A notificação por push avançada é uma forma aprimorada de notificação em dispositivos móveis que vai além de simples mensagens de texto, incorporando elementos multimídia, como imagens, botões interativos ou outros conteúdos de mídia avançada.
+Os campos personalizados são atributos adicionais adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Agora eles estão disponíveis na interface do usuário da Web.
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB Vincular tabelas]
+
+Agora é possível criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign na atividade de workflow Enrichment.
+
+[![imagem](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
