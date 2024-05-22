@@ -3,10 +3,10 @@ audience: end-user
 title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 92%
 
 ---
 
@@ -48,10 +48,7 @@ ht-degree: 100%
 >title="Este workflow é de somente leitura"
 >abstract="Você não tem permissões para editar este fluxo de trabalho. Se necessário, entre em contato com a sua administração para obter acesso."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Este workflow é de somente leitura"
->abstract="Não é possível editar esse workflow devido a uma tela incompatível."
+
 
 O controle de acesso pode restringir o acesso a objetos e dados de listas principais, como entregas, destinatários ou fluxos de trabalho. Estas restrições aplicam-se também à árvore de navegação do **Explorer**. Além disso, você precisa de permissões para criar, excluir, duplicar e editar objetos na interface.
 
@@ -68,11 +65,11 @@ Para exibir as permissões de uma pasta, siga estas etapas:
 1. No menu de navegação esquerdo do **Explorer**, selecione uma pasta.
 1. Clique nos três pontos no canto superior direito e selecione **Permissões da pasta**.
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Verifique os detalhes na tela, conforme abaixo:
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    Um grupo ou operador(a) pode ter permissões de Leitura, Gravação e/ou Exclusão para dados armazenados na pasta selecionada.
 
@@ -94,11 +91,17 @@ Você pode criar, renomear, reordenar e mover pastas para organizar seus compone
 Para criar uma pasta, siga estas etapas:
 
 1. No menu de navegação esquerdo do **Explorer**, selecione uma pasta.
-1. Clique nos três pontos no canto superior direito e escolha **Criar nova subpasta**.
-1. Insira o nome da pasta e salve.
+1. Clique nos três pontos no canto superior direito e escolha **Criar nova pasta**.
+1. Insira o nome da pasta.
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Selecione o tipo de pasta. Por padrão, o tipo de pasta principal é selecionado, &quot;Entregas&quot;, no nosso exemplo. Para alterar o tipo de pasta, clique no ícone de pasta e selecione qualquer outro tipo.
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Clique em **Create**.
 
    A pasta é adicionada como uma subpasta da pasta atual. Navegue até essa nova pasta para criar componentes diretamente a partir dela. Você também pode criar um componente em qualquer pasta e salvá-lo nessa nova pasta utilizando a seção **Opções adicionais** das propriedades, conforme o exemplo de entrega abaixo:
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
