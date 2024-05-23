@@ -6,7 +6,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 66%
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Público-alvo"
->abstract="Selecione seu público, da mesma forma que você usa um público ao criar um novo delivery."
+>abstract="Selecione o público-alvo assim como faz ao criar uma nova entrega. "
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 

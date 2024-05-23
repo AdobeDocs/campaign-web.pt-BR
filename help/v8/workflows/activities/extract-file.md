@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -54,7 +54,7 @@ A variável **[!UICONTROL Arquivo a extrair]** permite configurar as propriedade
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Formato de destino"
->abstract="Selecione as diferentes opções para configurar como o arquivo extraído é formatado."
+>abstract="Selecione as diferentes opções para configurar a formatação do arquivo extraído."
 
 A variável **[!UICONTROL Destino]** formatar seção permite configurar como o arquivo extraído é formatado.
 

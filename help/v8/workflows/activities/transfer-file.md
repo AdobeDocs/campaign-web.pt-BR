@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 12%
+ht-degree: 21%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Transferir servidor remoto do arquivo"
->abstract="Especifique o servidor a ser conectado."
+>abstract="Especifique o servidor ao qual deseja se conectar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Transferir origem do arquivo"
->abstract="Insira o nome de arquivo desejado."
+>abstract="Insira o nome do arquivo desejado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -45,12 +45,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Exibir os logs de sessão"
->abstract="As informações relacionadas à operação de transferência são exibidas nos logs de workflow."
+>abstract="Exibe as informações relacionadas à operação de transferência nos logs do fluxo de trabalho."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Listar todos os arquivos"
->abstract="Essa opção indexa todos os arquivos presentes no servidor no **vars.filenames** variável de evento."
+>abstract="Essa opção indexa todos os arquivos presentes no servidor na variável de evento **vars.filenames**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Processar arquivos ausentes"
->abstract="Essa opção permite ativar um **Nenhum arquivo** transição de saída após a atividade."
+>abstract="Essa opção permite ativar uma transição de saída **Nenhum arquivo** após a atividade."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Processar erros"
->abstract="Essa opção permite ativar um **Erro** transição de saída após a atividade."
+>abstract="Essa opção permite ativar uma transição de saída **Erro** após a atividade."
 
 A variável **Transferir arquivo** a atividade é um **Gerenciamento de dados** atividade. Ele permite receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP.
 
@@ -153,7 +153,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
    +++Opções adicionais para **[!UICONTROL Download da Web]** atividades do tipo
 
    * **[!UICONTROL Seguir redirecionamentos]**: o redirecionamento de arquivo permite que você use substituições para direcionar a entrada ou saída de dados para um dispositivo de um tipo diferente.
-   * **[!UICONTROL Adicionar os cabeçalhos HTTP ao arquivo]**: em alguns casos, talvez você queira adicionar outros cabeçalhos HTTP a um arquivo. Normalmente, esses cabeçalhos serão usados para fornecer informações adicionais para fins de solução de problemas, para [Compartilhamento de recursos entre origens (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)ou para definir diretivas específicas de armazenamento em cache.
+   * **[!UICONTROL Adicionar os cabeçalhos HTTP ao arquivo]**: em alguns casos, talvez você queira adicionar outros cabeçalhos HTTP a um arquivo. Normalmente, esses cabeçalhos serão usados para fornecer informações adicionais para fins de solução de problemas, para [Compartilhamento de recursos entre origens (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) ou para definir diretivas específicas de armazenamento em cache.
    * **[!UICONTROL Ignorar o código de retorno HTTP]**: os códigos de retorno HTTP, também conhecidos como códigos de status HTTP, indicam o resultado de uma solicitação HTTP.
 
 1. A variável **[!UICONTROL Processar erros]** permite ativar uma transição de saída &quot;Erro&quot; após a atividade se qualquer erro ocorrer durante a transferência.
