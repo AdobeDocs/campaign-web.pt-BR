@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1230'
 ht-degree: 38%
 
 ---
@@ -151,7 +151,7 @@ Para definir o arquivo de destino para upload, siga estas etapas:
 
 1. No **Rejeitar gerenciamento** especifique como a atividade deve se comportar em caso de erros:
 
-   * No **[!UICONTROL Excluir]** especifique o número máximo de erros que são autorizados ao processar o arquivo a ser carregado. Por exemplo, se o valor for definido como &quot;20&quot;, a execução do workflow falhará se houver mais de 20 erros ao carregar o arquivo.
+   * No **[!UICONTROL Número de erros permitidos]** especifique o número máximo de erros que são autorizados ao processar o arquivo a ser carregado. Por exemplo, se o valor for definido como &quot;20&quot;, a execução do workflow falhará se houver mais de 20 erros ao carregar o arquivo.
 
    * Para manter os erros que ocorreram ao carregar o arquivo, alterne a variável **[!UICONTROL Manter as rejeições em um arquivo]** e especifique o nome desejado para o arquivo no campo **[!UICONTROL Arquivo de Rejeição]** campo.
 
