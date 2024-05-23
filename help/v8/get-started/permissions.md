@@ -3,10 +3,10 @@ audience: end-user
 title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 89%
 
 ---
 
@@ -81,6 +81,26 @@ Saiba mais sobre permissões de pasta na [documentação do Campaign v8 (console
 
 
 ## Trabalhar com pastas {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Propriedades da pasta"
+>abstract="Propriedades da pasta"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Segurança da pasta"
+>abstract="Segurança da pasta"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restrições de pasta"
+>abstract="Restrições de pasta"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Agendamento de pasta"
+>abstract="Agendamento de pasta"
 
 Você pode criar, renomear, reordenar e mover pastas para organizar seus componentes e dados. Também é possível excluir pastas no mesmo menu.
 
