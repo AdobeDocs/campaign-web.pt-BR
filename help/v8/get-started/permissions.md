@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -116,7 +116,7 @@ Para criar uma pasta, siga estas etapas:
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Selecione o tipo de pasta. Por padrão, o tipo de pasta principal é selecionado, &quot;Entregas&quot;, no nosso exemplo. Para alterar o tipo de pasta, clique no ícone de pasta e selecione qualquer outro tipo.
+1. Selecione o tipo da pasta. Por padrão, o tipo da pasta principal é selecionado, “Entregas”, em nosso exemplo. Para alterar o tipo da pasta, clique no ícone de pasta e selecione qualquer outro tipo.
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
