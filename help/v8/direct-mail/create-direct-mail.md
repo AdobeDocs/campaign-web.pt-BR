@@ -3,10 +3,10 @@ audience: end-user
 title: Criar uma entrega de correspondência direta
 description: Saiba como criar um delivery de correspondência direta com o Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 28%
+source-wordcount: '460'
+ht-degree: 26%
 
 ---
 
@@ -22,11 +22,11 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
 
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. Insira um **[!UICONTROL Rótulo]** para o delivery e acesse o **[!UICONTROL Opções adicionais]** menu suspenso. Se o seu delivery for baseado em um schema estendido, **Opções personalizadas** campos estão disponíveis.
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Defina as seguintes configurações com base nos seus requisitos.
    * **[!UICONTROL Nome interno]**: atribua um identificador exclusivo à entrega.
@@ -41,7 +41,7 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
    * [Saiba como selecionar um público existente](../audience/add-audience.md)
    * [Saiba como criar um novo público-alvo](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
 
 1. Clique em **[!UICONTROL Editar conteúdo]** para definir as informações (colunas) a serem exportadas para o arquivo de extração. [Saiba mais](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
-1. Para programar sua entrega para uma data e hora específicas, ative a opção **[!UICONTROL Habilitar agendamento]**. Após iniciar o delivery, o arquivo de extração será gerado automaticamente na data e hora exatas definidas. [Saiba como agendar entregas](../msg/gs-messages.md#gs-schedule).
+1. Para programar sua entrega para uma data e hora específicas, ative a opção **[!UICONTROL Habilitar agendamento]**. Após iniciar o delivery, o arquivo de extração será gerado automaticamente na data e hora exatas definidas. [Saiba como agendar entregas](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
@@ -61,6 +61,6 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
 
 1. Clique em **[!UICONTROL Configurações]** para acessar opções avançadas relacionadas ao seu template do delivery. [Saiba mais](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. Quando o delivery de mala direta estiver pronto, clique no link **[!UICONTROL Revisar e enviar]** botão para validar e enviar o delivery e gerar o arquivo de extração. [Saiba como visualizar e enviar um delivery de correspondência direta](send-direct-mail.md)

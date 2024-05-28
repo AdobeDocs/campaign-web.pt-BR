@@ -3,10 +3,10 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 40%
+source-wordcount: '891'
+ht-degree: 38%
 
 ---
 
@@ -25,29 +25,29 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
 1. No painel de delivery, clique em **[!UICONTROL Revisar e enviar]**.
 
-   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. Clique em **[!UICONTROL Preparar]** localizado no canto superior direito e confirme.
 
-   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Se você tiver programado o delivery e desativado a variável **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-messages.md#gs-schedule)
+   >Se você tiver programado o delivery e desativado a variável **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-deliveries.md#gs-schedule)
 
 1. O progresso da preparação é exibido. Dependendo do tamanho do público-alvo, essa operação pode levar algum tempo.
 
    É possível interromper a preparação a qualquer momento usando o **[!UICONTROL Parar preparação]** botão.
 
-   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
    >Durante a fase de preparação, nenhuma mensagem é enviada. Portanto, você pode iniciar ou parar isso sem o risco de afetar nada.
 
 1. Quando a preparação for concluída, verifique os KPIs. Se o número de mensagens para enviar não corresponder às suas expectativas, modifique o público-alvo e reinicie a preparação.
 
-   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable="yes"}
 
    Estes são os diferentes KPIs exibidos:
 
@@ -57,11 +57,11 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
 1. Clique no botão **[!UICONTROL Logs]** e verifique se não há erro. A última mensagem de log exibe mensagens de erro e o número de erros. [Saiba mais](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. Se a preparação detectar um erro crítico que impede o envio da entrega, o status da preparação aparece como falha no painel de entrega.
 
-   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. Se você fizer alterações no delivery após a preparação, deverá reiniciar a preparação para que essas alterações sejam consideradas.
 
@@ -72,7 +72,7 @@ Quando a preparação for concluída sem erros, a mensagem estará pronta para s
 
 Quando a variável [preparação](#prepare) estiver concluído, agora você pode enviar seu email.
 
-Se a mensagem estiver programada, ela será enviada na data e hora definidas. [Saiba mais](../msg/gs-messages.md#gs-schedule)
+Se a mensagem estiver programada, ela será enviada na data e hora definidas. [Saiba mais](../msg/gs-deliveries.md#gs-schedule)
 
 ### Enviar imediatamente {#send-immediately}
 
@@ -80,7 +80,7 @@ Para enviar um email imediatamente, siga as etapas abaixo.
 
 1. No painel de delivery, clique no link **[!UICONTROL Enviar]** no canto superior direito.
 
-   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable="yes"}
 
 1. Confirme essa ação para enviar imediatamente a mensagem ao público-alvo principal.
 
@@ -90,17 +90,17 @@ Para enviar um email imediatamente, siga as etapas abaixo.
 
 Se você programou seu email para enviá-lo em data e hora posteriores, siga as etapas abaixo.
 
-1. Antes de clicar em **[!UICONTROL Revisar e enviar]** , certifique-se de ter definido uma agenda para o seu email. [Saiba mais](../msg/gs-messages.md#gs-schedule)
+1. Antes de clicar em **[!UICONTROL Revisar e enviar]** , certifique-se de ter definido uma agenda para o seu email. [Saiba mais](../msg/gs-deliveries.md#gs-schedule)
 
 1. No painel de delivery, clique no link **[!UICONTROL Botão Enviar como agendado]** no canto superior direito.
 
-   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Confirmar envio]**. O delivery será enviado na data agendada para o target principal.
 
    >[!NOTE]
    >
-   >Se você desativou o **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-messages.md#gs-schedule)
+   >Se você desativou o **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-deliveries.md#gs-schedule)
 
 ## Pausar ou parar o envio {#pause-stop-sending}
 
@@ -110,7 +110,7 @@ Se o seu delivery está agendado ou não<!--TBC-->, duas ações podem ser execu
 
 * Clique em **[!UICONTROL Parar envio]** para interromper imediatamente o envio. Nem a preparação nem o envio podem ser retomados depois de interrompidos.
 
-![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## Verifique os KPIs {#check-kpis}
 
@@ -150,7 +150,7 @@ Se o seu delivery está agendado ou não<!--TBC-->, duas ações podem ser execu
 
 Quando o envio estiver concluído, você poderá verificar os KPIs exibidos:
 
-![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL Enviado]**: o número de mensagens entregues. A porcentagem exibida tem como base o número total de mensagens a serem entregues.
 
