@@ -4,9 +4,9 @@ description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
->[!TAB A versão de maio está disponível.]
+>[!TAB A versão de maio já está disponível.]
 
 Conheça os novos recursos e melhorias que vêm com a versão 24.4 da interface do Adobe Campaign Web.
 
@@ -59,19 +59,19 @@ Conheça os novos recursos e melhorias que vêm com a versão 24.4 da interface 
 
 >[!TAB Trilha de auditoria]
 
-O novo recurso Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram feitos na instância do Adobe Campaign em tempo real.
+O novo recurso de Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos realizados em sua instância do Adobe Campaign em tempo real. 
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
 >[!TAB Campos personalizados]
 
-Os campos personalizados são atributos adicionais adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Agora eles estão disponíveis na interface do usuário da Web.
+Campos personalizados são atributos adicionais adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Os campos personalizados agora estão disponíveis na interface da Web.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
 
 >[!TAB Vincular tabelas]
 
-Agora é possível criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign na atividade de workflow Enrichment.
+Agora você pode criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign na atividade de fluxo de trabalho Enriquecimento.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 

@@ -1,11 +1,11 @@
 ---
-title: Notas de versão da interface da Web do Campaign v8
-description: Descubra novos recursos que acompanham a versão mais recente da interface de usuário da Web do Campaign
+title: Notas de versão da interface do Campaign Web v8
+description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 81%
 
 As versões da interface do usuário do Adobe Campaign Web operam em um modelo de entrega contínua que permite uma abordagem à implantação de recursos mais dimensionável e em fases. Devido a isso, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
-## Notas de versão de maio {#24-5-release}
+## Notas da versão de maio {#24-5-release}
 
-**Data de lançamento**: quarta-feira, 21 de maio de 2024
+**Data de lançamento**: 21 de maio de 2024
 
 Os seguintes recursos e melhorias estão disponíveis para todos os usuários a partir da versão de maio.
 
 ### Trilha de auditoria  {#24-5-1}
 
-O novo **Trilha de auditoria** O recurso de fornece um registro detalhado e cronológico de todas as ações e eventos que foram feitos na instância do Adobe Campaign em tempo real. Ele oferece um método conveniente para rastrear todas as alterações nos dados do Campaign, abordando consultas como: o status dos workflows, os indivíduos mais recentes para modificá-los ou as atividades executadas pelos usuários na instância. [Leia mais](../reporting/audit-trail.md)
+O novo recurso de **Trilha de auditoria** fornece um registro detalhado e cronológico de todas as ações e eventos realizados em sua instância do Adobe Campaign em tempo real. Esse recurso oferece um método conveniente para rastrear todas as alterações nos dados do Campaign, abordando consultas como: status dos fluxos de trabalho, últimos indivíduos que os modificaram ou atividades realizadas pelos usuários na instância. [Leia mais](../reporting/audit-trail.md)
 
 ### Campos personalizados {#24-5-2}
 
 **Os campos personalizados** são outros atributos adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Na interface do Campaign Web, esses campos personalizados agora ficam visíveis em diversas telas. Por exemplo, os detalhes de um perfil ou de um perfil de teste. Na interface web, você não pode criar campos personalizados, mas agora pode modificar a forma como eles são exibidos. [Leia mais](../administration/custom-fields.md)
 
-### Criar vínculos entre tabelas {#24-5-3}
+### Crie links entre tabelas {#24-5-3}
 
-Agora é possível criar links com outra tabela no **Enriquecimento** atividade de workflow. Use o novo **Definição de link** nos parâmetros de atividade para criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo que contenha o número da conta, o país e o email dos recipients, agora é possível criar um link para a tabela do país para atualizar essas informações em seus perfis. [Leia mais](../workflows/activities/enrichment.md#create-links)
+Agora você pode criar links com outra tabela na atividade de fluxo de trabalho **Enriquecimento**. Use a nova seção **Definição de link** nos parâmetros de atividade para criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, agora é possível criar um link para a tabela do país para atualizar essas informações em seus perfis. [Leia mais](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -46,14 +46,14 @@ Agora é possível criar links com outra tabela no **Enriquecimento** atividade 
 
 ### Melhorias gerais {#improvements-24-5}
 
-* **Correspondência direta** - Agora você pode aproveitar o editor de expressão para selecionar os atributos a serem exibidos nos arquivos de extração de correspondência direta. [Leia mais](../direct-mail/content-direct-mail.md)
+* **Correspondência direta**: agora você pode aproveitar o editor de expressão para selecionar os atributos a serem exibidos nos arquivos de extração de correspondência direta. [Leia mais](../direct-mail/content-direct-mail.md)
 
-* **Gerenciamento de pastas** - Agora é possível criar uma subpasta de um tipo diferente da pasta principal. [Leia mais](../get-started/permissions.md#folders)
+* **Gerenciamento de pastas**: agora é possível criar uma subpasta de um tipo diferente da pasta principal. [Leia mais](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **Globalização** - Como parte de nosso esforço contínuo para fornecer uma experiência de usuário unificada, harmonizamos a terminologia usada nos produtos e aplicativos da Adobe Experience Cloud. Isso afeta o termo alemão &quot;Title&quot;, que é alterado para &quot;Label&quot; quando se relaciona ao nome de um objeto. As alterações serão progressivamente implementadas na interface do usuário e na documentação.
+* **Globalização**: como parte de nosso esforço contínuo para oferecer uma experiência de usuário unificada, harmonizamos a terminologia usada nos produtos e aplicativos da Adobe Experience Cloud. Isto afeta o termo alemão “Titel” que é alterado para “Label” quando se refere ao nome de um objeto. As mudanças serão implementadas progressivamente na interface e na documentação.
 
 
 ## Notas da versão de abril {#april-24-4-release}
