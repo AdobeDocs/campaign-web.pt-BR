@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Sobre workflows somente leitura
+title: Sobre fluxos de trabalho de somente leitura
 description: Saiba por que os fluxos de trabalho estão no modo somente leitura
 source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# Sobre workflows somente leitura {#readonly-workflows}
+# Sobre fluxos de trabalho de somente leitura {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="Este workflow é de somente leitura"
->abstract="Não é possível editar este workflow devido aos seus direitos ou ao tipo do workflow."
+>abstract="Não é possível editar esse fluxo de trabalho devido aos seus direitos ou ao tipo de fluxo de trabalho."
 
 Alguns workflows podem estar no modo somente leitura. Você pode vê-lo com:
 

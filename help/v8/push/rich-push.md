@@ -6,7 +6,7 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Entrega por push avançada"
->abstract="Agora é possível enviar notificações por push avançadas via Android. Por enquanto, esse recurso está limitado à disponibilidade."
+>abstract="Agora é possível enviar notificações por push avançadas via Android. Por enquanto, esse recurso está em disponibilidade limitada."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
