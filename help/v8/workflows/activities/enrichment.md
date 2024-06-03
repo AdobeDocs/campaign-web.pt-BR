@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
+source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo que contenha o número da conta, o país e o e-mail dos recipients, será necessário criar um link para a tabela do país para atualizar essas informações em seus perfis."
->abstract="Definição do link"
+>title="Definição de link"
+>abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo que contenha o número da conta, o país e o e-mail dos recipients, será necessário criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
@@ -75,12 +75,12 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
    ![](../assets/workflow-enrichment1.png)
 
-## Criar vínculos entre tabelas {#create-links}
+## Crie links entre tabelas {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Links entre tabelas"
->abstract="Agora é possível criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign na atividade de workflow Enrichment."
+>abstract="Agora você pode criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign na atividade de fluxo de trabalho Enriquecimento."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 A variável **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo que contenha o número da conta, o país e o e-mail dos recipients, será necessário criar um link para a tabela do país para atualizar essas informações em seus perfis.
