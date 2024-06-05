@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade Subscription services
 description: Saiba como usar a atividade de workflow de serviços de assinatura
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 17%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 17%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Gerar uma transição de saída"
 >abstract="Ative a opção **Gerar uma transição de saída** para adicionar uma transição após a atividade."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="Informações adicionais"
+>abstract="Informações adicionais"
 
 A variável **Serviços de assinatura** a atividade é um **Gerenciamento de dados** atividade. Ele permite criar ou excluir uma subscrição para um serviço de informações para a população especificada na transição.
 
