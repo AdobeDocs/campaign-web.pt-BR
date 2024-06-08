@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 47%
+ht-degree: 54%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definição de link"
->abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo que contenha o número da conta, o país e o e-mail dos recipients, será necessário criar um link para a tabela do país para atualizar essas informações em seus perfis."
+>abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
@@ -83,7 +83,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >abstract="Agora você pode criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign na atividade de fluxo de trabalho Enriquecimento."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
-A variável **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo que contenha o número da conta, o país e o e-mail dos recipients, será necessário criar um link para a tabela do país para atualizar essas informações em seus perfis.
+A variável **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
 Há vários tipos de links disponíveis:
 

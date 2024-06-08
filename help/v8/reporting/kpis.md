@@ -4,7 +4,7 @@ description: Saiba como entender os indicadores principais de desempenho
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ As métricas são calculadas para entregas enviadas nos 7 dias anteriores por pa
 
 É possível selecionar o canal a ser exibido. Por padrão, esses indicadores refletem as métricas do canal de email.
 
-![](assets/kpi.png){zoomable=&quot;yes&quot;}
+![](assets/kpi.png){zoomable="yes"}
 
 ## Mensagem entregue {#ui-delivered-kpi}
 

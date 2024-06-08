@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,13 +94,13 @@ Saiba mais sobre permissões de pasta na [documentação do Campaign v8 (console
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
->title="Restrições de pasta"
->abstract="Restrições de pasta"
+>title="Restrições da pasta"
+>abstract="Restrições da pasta"
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
->title="Agendamento de pasta"
->abstract="Agendamento de pasta"
+>title="Programação da pasta"
+>abstract="Programação da pasta"
 
 Você pode criar, renomear, reordenar e mover pastas para organizar seus componentes e dados. Também é possível excluir pastas no mesmo menu.
 
