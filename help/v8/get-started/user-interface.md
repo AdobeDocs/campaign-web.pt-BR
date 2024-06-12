@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
-workflow-type: ht
-source-wordcount: '1650'
-ht-degree: 100%
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
+workflow-type: tm+mt
+source-wordcount: '1673'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ A página inicial do Campaign permite uma navegação rápida e fácil pelos pri
 
 A seção superior da página inicial fornece detalhes sobre as atualizações mais recentes e os novos recursos disponíveis no produto, com links para as notas de versão e a documentação detalhada. Use a seta esquerda para rolar pelos cartões de recursos.
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 Os **indicadores principais de desempenho** permitem verificar a eficácia da plataforma por meio de KPIs comuns. Saiba mais sobre esses KPIs [nesta página](../reporting/kpis.md).
 
@@ -70,7 +70,7 @@ Na seção GERENCIAMENTO DE CAMPANHA, é possível acessar campanhas de marketin
 
   Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
-  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **Workflows** - Nessa tela, é possível acessar a lista completa de workflows e modelos de workflows. É possível verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo modelo de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar os workflows que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="Página de destino padrão"
 >abstract="Selecione a página de destino padrão associada a esse serviço de assinatura."
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parâmetros dos critérios de alertas de entrega"
 >abstract="Alertas de entrega"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Criar um painel de alerta de entrega"
 >abstract="Criar um painel de alerta de entrega"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Criar um critério de alerta"
+>abstract="Para criar seus próprios filtros de delivery, crie um novo filtro predefinido no console do Campaign v8 pelo **Administração** > **Configuração** > **Filtros predefinidos** nó."
 
 <!-- IDs -->
 
