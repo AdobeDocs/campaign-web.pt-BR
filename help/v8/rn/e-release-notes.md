@@ -3,10 +3,10 @@ title: Notas de versão antecipadas da interface de usuário da Web do Campaign 
 description: Descubra novos recursos que acompanharão a próxima versão da interface da Web do Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ Os seguintes recursos e melhorias estão disponíveis para todos os usuários a 
 
 ### Fragmentos de conteúdo {#24-6-1}
 
-* Agora você pode criar, usar e salvar **fragmentos visuais** para reunir rapidamente seus emails e modelos de conteúdo. Um fragmento é um componente reutilizável pré-criado que pode ser referenciado em vários emails no Adobe Campaign para obter um processo de design aprimorado e acelerado. [Saiba mais](../email/fragments.md)
-
-* Agora você pode criar, usar e gerenciar **fragmentos de expressão** para criar rapidamente conteúdo personalizado. Um fragmento é um componente reutilizável pré-criado que pode ser referenciado em vários conteúdos no Adobe Campaign para obter um processo de design aprimorado e acelerado.
+Agora você pode criar, usar e gerenciar **visual** e **expressão** fragmentos para reunir rapidamente seus emails e modelos de conteúdo. Um fragmento é um componente reutilizável pré-criado que pode ser referenciado em vários emails no Adobe Campaign para obter um processo de design aprimorado e acelerado.
 
 ### Seed lists {#24-6-2}
 
@@ -42,3 +40,4 @@ Agora você pode criar planos e programas para organizar suas campanhas. Ao defi
 
 ### Aprimoramentos {#improvements-24-6}
 
+* **Reconciliação na atividade de Enriquecimento**: a atividade Enrichment agora pode ser usada para reconciliar dados do schema de banco de dados do Campaign com dados de outro schema ou com dados provenientes de um schema temporário, como dados carregados usando uma atividade Load file. Por exemplo, você pode usar essa opção para reconciliar o país de um perfil, especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign.
