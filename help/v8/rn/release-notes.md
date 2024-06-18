@@ -2,7 +2,7 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 90%
@@ -38,7 +38,7 @@ O recurso de Alerta de delivery é um sistema de gerenciamento de alertas que pe
 
 ### Planos e programas {#24-6-4}
 
-Agora você pode criar planos e programas para organizar suas campanhas. Ao definir uma hierarquia de pastas, você pode organizar suas campanhas em programas e os programas em planos. [Leia mais](../msg/delivery-alerting.md)
+Agora você pode criar planos e programas para organizar suas campanhas. Ao definir uma hierarquia de pastas, você pode organizar suas campanhas em programas e os programas em planos. [Leia mais](../administration/plans-programs.md)
 
 ### Aprimoramentos {#improvements-24-6}
 
