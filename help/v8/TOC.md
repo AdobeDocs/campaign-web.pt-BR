@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 99%
       + [Visualizar o conteúdo da mensagem](preview-test/preview-content.md)
       + [Enviar provas](preview-test/test-deliveries.md)
       + [Testar a renderização do email](preview-test/email-rendering.md)
+   + Alertas de delivery {#delivery-alerting}
+      + [Introdução a alertas de entrega](msg/delivery-alerting.md)
+      + [Painéis de alertas de entrega](msg/delivery-alerting-dashboards.md)
+      + [Critérios de alertas de entrega](msg/delivery-alerting-criteria.md)
 + Página de destino {#landing-pages}
    + [Introdução às páginas de destino](landing-pages/get-started-lp.md)
    + [Crie e publique uma página de destino](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 99%
    + [Introdução às campanhas](campaigns/gs-campaigns.md)
    + [Acesso e gerenciamento de suas campanhas](campaigns/manage-campaigns.md)
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
+   + [Planos e programas](administration/plans-programs.md)
 + Workflows {#wf}
    + [Introdução a workflows](workflows/gs-workflows.md)
    + [Medidas de proteção e limitações](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 99%
    + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
 + Configuração {#conf}
    + [Configurar campos personalizados](administration/custom-fields.md)
+   + [Criar e gerenciar uma pasta](administration/create-manage-folder.md)
 + [Documentação do Campaign v8 (console) >](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home)

@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Script de inicialização de execução"
 >abstract="Script de inicialização de execução"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="Painel de critérios de alertas de entrega"
->abstract="Painel de critérios de alertas de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="Painel de alertas de entrega"
->abstract="Painel de alertas de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="Criar critérios de alertas de entrega"
->abstract="Criar critérios de alertas de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="Indicadores para adicionar em alertas"
->abstract="Indicadores para adicionar em alertas"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="Tipo de alerta"
->abstract="Tipo de alerta"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="Frequência do critério"
->abstract="Frequência do critério"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="Critérios de alertas de entrega"
->abstract="Critérios de alertas de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="Parâmetros gerais de alertas de entrega"
->abstract="Alertas de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="Parâmetros dos critérios de alertas de entrega"
->abstract="Alertas de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="Alertas de entrega enviados"
->abstract="Alertas de entrega enviados"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="Histórico de alertas de entrega"
->abstract="Histórico de alertas de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="Criar um painel de alerta de entrega"
->abstract="Criar um painel de alerta de entrega"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Criar um critério de alerta"
->abstract="Para criar seus próprios filtros de delivery, crie um novo filtro predefinido no console do Campaign v8 pelo **Administração** > **Configuração** > **Filtros predefinidos** nó."
 
 <!-- IDs -->
 
