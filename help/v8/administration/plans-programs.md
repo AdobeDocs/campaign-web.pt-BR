@@ -2,14 +2,21 @@
 audience: end-user
 title: Planos e programas
 description: Saiba como criar e configurar planos e programas no Adobe Campaign
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Planos e programas
+# Planos e programas {#plan-and-programs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Planos e programas"
+>abstract="Agora você pode configurar a hierarquia de pastas para planos de marketing e programas na interface do usuário da Web do Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 O Adobe Campaign permite configurar a hierarquia de pastas para planos de marketing e programas.
 

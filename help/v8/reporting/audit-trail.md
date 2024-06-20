@@ -3,7 +3,8 @@ product: campaign
 title: Trilha de auditoria
 description: Saiba como monitorar sua instância com a Trilha de auditoria do Campaign
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -13,7 +14,7 @@ ht-degree: 6%
 # Trilha de auditoria{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn5"
 >title="Trilha de auditoria"
 >abstract="O novo recurso de Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos realizados em sua instância do Adobe Campaign em tempo real. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
@@ -100,4 +101,3 @@ Para acessar o da instância **[!UICONTROL Trilha de auditoria]**:
    O bloco de código fornece mais informações sobre o que foi alterado exatamente em sua entidade.
 
    ![](assets/audit-trail-2.png)
-
