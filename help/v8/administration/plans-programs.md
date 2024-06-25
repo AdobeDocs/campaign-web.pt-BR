@@ -6,7 +6,7 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Planos e programas"
->abstract="Agora você pode configurar a hierarquia de pastas para planos de marketing e programas na interface do usuário da Web do Campaign."
+>abstract="Agora você pode configurar a hierarquia de pastas para planos e programas de marketing na interface do usuário do Campaign Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 O Adobe Campaign permite configurar a hierarquia de pastas para planos de marketing e programas.

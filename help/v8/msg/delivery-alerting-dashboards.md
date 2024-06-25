@@ -2,19 +2,20 @@
 audience: end-user
 title: Alertas de entrega
 description: Saiba como trabalhar com alertas de delivery.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 2%
+ht-degree: 25%
 
 ---
 
-# Painéis de alertas de entrega {#delivery-alerting-dashboards}
+# Painéis de alerta de entrega {#delivery-alerting-dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
->title="Painéis de alertas de entrega"
->abstract="O Alertas de delivery é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email com informações sobre suas execuções de delivery. Os painéis de alerta de delivery permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas."
+>title="Painéis de alerta de entrega"
+>abstract="O Alertas de entrega é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email com informações sobre suas execuções de entrega. Os painéis de alerta de entrega permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas."
 
 Os painéis de alerta de delivery permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas. Elas podem ser acessados pelo **Alertas de entrega** no painel de navegação esquerdo, sob a guia **Painéis** guia.
 
@@ -25,12 +26,12 @@ Os painéis de alerta de delivery permitem especificar quem receberá alertas de
 >[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
 >title="Criar um painel de alerta de entrega"
->abstract="A criação de um painel de alerta de delivery permite especificar quem receberá alertas por email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas."
+>abstract="A criação de um painel de alerta de entrega permite especificar quem receberá os alertas por email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Parâmetros gerais de alertas de entrega"
->abstract="Especifique as propriedades gerais do painel de alerta de delivery. A variável **Selecionar grupo de alertas** permite especificar a variável **grupo de operadores** para receber os alertas enviados por esse painel."
+>abstract="Especifique as propriedades gerais do painel de alerta de entrega. O campo **Selecionar grupo de alertas** permite especificar o **grupo de operadores** que receberá os alertas enviados por esse painel."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
@@ -95,12 +96,12 @@ Agora, sempre que um delivery atender aos critérios definidos nesse painel, uma
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
 >title="Alertas de entrega enviados"
->abstract="Esta seção permite visualizar informações relacionadas aos alertas enviados mais recentes."
+>abstract="Esta seção permite visualizar informações relacionadas aos últimos alertas enviados."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="Histórico de alertas de entrega"
->abstract="A variável **Histórico** contém todos os alertas enviados deste painel. Clique em um item para acessar os alertas correspondentes enviados naquele momento específico."
+>abstract="O painel **Histórico** contém todos os alertas enviados deste painel. Clique em um item para acessar os alertas correspondentes enviados naquele momento específico."
 
 Todos os painéis de alertas criados podem ser acessados no **Alertas de entrega** no menu, no **Painéis** guia.
 

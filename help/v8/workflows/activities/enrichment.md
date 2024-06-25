@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -111,7 +111,7 @@ Um exemplo de fluxo de trabalho usando links está disponível na [Exemplos](#li
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Reconciliação dos dados"
->abstract="A atividade de fluxo de trabalho Enrichment agora pode ser usada para reconciliar dados do schema de banco de dados do Campaign com dados de outro schema ou com dados provenientes de um schema temporário, como dados carregados usando uma atividade Load file."
+>abstract="A atividade do fluxo de trabalho Enriquecimento agora pode ser usada para reconciliar dados do esquema de banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como dados carregados usando uma atividade Carregar arquivo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
