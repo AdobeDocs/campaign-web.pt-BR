@@ -4,9 +4,9 @@ description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -53,19 +53,19 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!TAB A versão de junho está disponível.]
 
-Conheça os novos recursos e melhorias que vêm com a versão 24.6 da interface do Adobe Campaign Web.
+Conheça os novos recursos e melhorias incluídos na versão 24.6 da interface do Adobe Campaign Web.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Alertas de delivery]
+>[!TAB Alerta de entrega]
 
-O Alertas de delivery é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email com informações sobre suas execuções de delivery.
+O Alerta de entrega é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email sobre suas execuções de entrega.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
 >[!TAB Planos e programas]
 
-O Adobe Campaign permite configurar a hierarquia de pastas para planos de marketing e programas.
+O Adobe Campaign permite configurar uma hierarquia de pastas para planos e programas de marketing.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
