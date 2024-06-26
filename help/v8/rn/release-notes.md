@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -32,17 +32,17 @@ You can now author, use, and manage **visual** fragments to quickly assemble you
 
 A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
 
-### Alertas de entrega {#24-6-3}
+### Alerta de entrega {#24-6-3}
 
-O recurso de Alerta de delivery é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações contendo informações sobre a execução de seus deliveries. [Leia mais](../msg/delivery-alerting.md)
+O recurso Alerta de entrega é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações sobre a execução de suas entregas. [Leia mais](../msg/delivery-alerting.md)
 
 ### Planos e programas {#24-6-4}
 
-Agora você pode criar planos e programas para organizar suas campanhas. Ao definir uma hierarquia de pastas, você pode organizar suas campanhas em programas e os programas em planos. [Leia mais](../administration/plans-programs.md)
+Agora é possível criar planos e programas para organizar suas campanhas. Ao definir uma hierarquia de pastas, você pode organizar suas campanhas em programas e os programas em planos. [Leia mais](../administration/plans-programs.md)
 
-### Aprimoramentos {#improvements-24-6}
+### Melhorias {#improvements-24-6}
 
-* **Reconciliação na atividade de Enriquecimento**: A variável **Enriquecimento** A atividade agora pode ser usada para reconciliar dados do schema de banco de dados do Campaign com dados de outro schema ou com dados provenientes de um schema temporário, como dados carregados usando uma atividade Load file. Por exemplo, você pode usar essa opção para reconciliar o país de um perfil, especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign. [Leia mais](../workflows/activities/enrichment.md)
+* **Reconciliação na atividade de Enriquecimento**: A variável **Enriquecimento** A atividade agora pode ser usada para reconciliar dados do schema de banco de dados do Campaign com dados de outro schema ou com dados provenientes de um schema temporário, como dados carregados usando uma atividade Load file. Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign. [Leia mais](../workflows/activities/enrichment.md)
 
 ## Notas da versão de maio {#24-5-release}
 
