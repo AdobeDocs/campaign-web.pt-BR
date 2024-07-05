@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 60%
+source-wordcount: '602'
+ht-degree: 57%
 
 ---
 
@@ -55,8 +55,9 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 1. Selecione o **Método de desduplicação** para usar:
 
    * **Seleção aleatória**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
-   * **Usar uma expressão**: permite manter os registros nos quais o valor da expressão inserida é o menor ou o maior.
-   * **Following a list of values**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão Add localizado acima da lista de valores.
+   * **Usar uma expressão**: mantenha os registros nos quais o valor da expressão inserida é o menor ou o maior.
+   * **Valores não vazios**: mantenha os registros para os quais a expressão não está vazia.
+   * **Seguindo uma lista de valores**: Defina uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique na guia **Botão Adicionar** localizado acima da lista de valores.
 
 1. Marque a opção **Gerar complemento** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
 
