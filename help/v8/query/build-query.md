@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '2092'
+source-wordcount: '2103'
 ht-degree: 21%
 
 ---
@@ -244,7 +244,7 @@ No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos p
 >title="Propriedades da regra"
 >abstract="Depois de criar a consulta na tela, é possível verificá-la usando o painel **Propriedades da regra** localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o botão **Selecionar ou salvar filtro** para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro."
 
-Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades da regra** painel localizado no lado direito. As operações disponíveis são:
+Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades da regra** painel localizado no lado direito Esse painel é exibido ao criar uma consulta para criar um público-alvo. As operações disponíveis são:
 
 * **Exibir resultados:** Exibe os dados resultantes da sua consulta.
 * **Visualização de código**: exibe uma versão baseada em código da consulta no SQL.
