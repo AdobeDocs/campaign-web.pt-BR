@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1623'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Agora é possível criar planos e programas para organizar suas campanhas. Ao de
 
 ### Melhorias {#improvements-24-6}
 
-* **Reconciliação na atividade de Enriquecimento**: A variável **Enriquecimento** A atividade agora pode ser usada para reconciliar dados do schema de banco de dados do Campaign com dados de outro schema ou com dados provenientes de um schema temporário, como dados carregados usando uma atividade Load file. Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign. [Leia mais](../workflows/activities/enrichment.md)
+* **Reconciliação na atividade de enriquecimento**: a atividade de **enriquecimento** agora pode ser usada para reconciliar dados do esquema do banco de dados do Campaign com dados de outro esquema ou de um esquema temporário, como dados carregados usando uma atividade Carregar arquivo. Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign. [Leia mais](../workflows/activities/enrichment.md)
 
 ## Notas da versão de maio {#24-5-release}
 
