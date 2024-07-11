@@ -14,7 +14,7 @@ ht-degree: 70%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Atividade criar público-alvo"
+>title="Atividade Criar público-alvo"
 >abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho, o público-alvo da mensagem não é definido na atividade canal, mas na atividade **Criar público-alvo**."
 
 A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho, o público-alvo da mensagem não é definido na atividade canal, mas na atividade **Criar público-alvo**.
