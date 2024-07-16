@@ -4,7 +4,7 @@ description: Saiba mais sobre dimensões de direcionamento no Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 24%
 
 ---
@@ -13,24 +13,24 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Selecione o targeting dimension"
+>title="Selecione a dimensão de direcionamento"
 >abstract="A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
 
 Targeting dimension, também conhecido como. target mapping, é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: perfis, beneficiários de contrato, operadores, assinantes etc.
 
 ## Dimensões de direcionamento de workflows {#workflow}
 
-O targeting dimension de um workflow é definido pelo primeiro **[!UICONTROL Criar público-alvo]** e é usada em todas as outras atividades até o fim do workflow. Por exemplo, se você realizar um query nos perfis do banco de dados, a transição de saída conterá dados do tipo &quot;recipient&quot; e será transmitida para a próxima atividade.
+O targeting dimension de um fluxo de trabalho é definido pela primeira atividade **[!UICONTROL Build audience]** e é usado em todas as outras atividades até o fim do fluxo de trabalho. Por exemplo, se você realizar um query nos perfis do banco de dados, a transição de saída conterá dados do tipo &quot;recipient&quot; e será transmitida para a próxima atividade.
 
-Observe que é possível alternar o targeting dimension em um workflow usando um [Alterar atividade da dimensão](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos perfis correspondentes.
+Observe que você pode alternar o targeting dimension em um fluxo de trabalho usando uma [Atividade Change dimension](../workflows/activities/change-dimension.md). Isso permite, por exemplo, consultar o banco de dados em uma tabela específica, como compras ou assinaturas, e alterar o targeting dimension para Recipients para enviar deliveries aos perfis correspondentes.
 
-Ao selecionar uma targeting dimension (nas configurações do fluxo de trabalho ou em atividades como **Criar público-alvo**, **Reconciliação** ou **Alterar dimensão**), uma seleção de esquemas usados com frequência é exibida por padrão na lista. Para mostrar todos os esquemas disponíveis, alterne no **[!UICONTROL Mostrar todos os esquemas]** botão. A seleção da opção é salva para cada usuário.
+Ao selecionar uma dimensão de direcionamento (nas configurações do fluxo de trabalho ou em atividades como **Criar público-alvo**, **Reconciliação** ou **Alterar dimensão**), uma seleção de esquemas usados com frequência é exibida por padrão na lista. Para mostrar todos os esquemas disponíveis, alterne no botão **[!UICONTROL Mostrar todos os esquemas]**. A seleção da opção é salva para cada usuário.
 
-![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
+![](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 ## Dimensões de direcionamento {#list}
 
-Por padrão, modelos de delivery de email e SMS têm como alvo perfis. O target dimension, portanto, usa os campos da variável **nms:recipient** tabela. Para notificações por push, a dimensão de destino padrão é **Aplicativos de assinante nms:appSubscriptionRcp**, que está vinculado à tabela de recipients.
+Por padrão, modelos de delivery de email e SMS têm como alvo perfis. Sua dimensão de destino, portanto, usa os campos da tabela **nms:recipient**. Para notificações por push, a dimensão de destino padrão é **Subscriber applications nms:appSubscriptionRcp**, que está vinculada à tabela de destinatários.
 
 Você também pode usar outros target mappings integrados nos workflows e deliveries listados abaixo:
 
@@ -44,4 +44,4 @@ Você também pode usar outros target mappings integrados nos workflows e delive
 | Arquivo externo | Entregar por meio de um arquivo que contenha todas as informações necessárias para a entrega | Nenhum schema vinculado, nenhum target inserido |
 | Aplicativos de assinante | Entregar aos perfis que assinaram um aplicativo | nms:appSubscriptionRcp |
 
-Além disso, você pode criar um novo target mapping dependendo das suas necessidades. Esta operação é executada somente a partir do console do cliente. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+Além disso, você pode criar um novo target mapping dependendo das suas necessidades. Esta operação é executada somente a partir do console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

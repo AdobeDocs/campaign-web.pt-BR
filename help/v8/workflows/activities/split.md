@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -60,7 +60,7 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Habilitar sobreposição de populações de saída"
->abstract=" A variável **[!UICONTROL Permitir sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não estiver marcada, a atividade dividida garante que um destinatário não esteja presente em várias transições de saída, mesmo que ele atenda aos critérios de vários subconjuntos. Eles estarão no target da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos."
+>abstract=" A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não estiver marcada, a atividade dividida garante que um destinatário não esteja presente em várias transições de saída, mesmo que ele atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos."
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
@@ -72,7 +72,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
    >[!IMPORTANT]
    >
-   >Quando a variável **Split** for executada, a população será segmentada nos diferentes subconjuntos na ordem em que são adicionadas à atividade. Por exemplo, se o primeiro subconjunto recuperar 70% da população inicial, o próximo subconjunto adicionado aplicará seus critérios de seleção somente aos 30% restantes e assim por diante.
+   >Quando a atividade **Split** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Por exemplo, se o primeiro subconjunto recuperar 70% da população inicial, o próximo subconjunto adicionado aplicará seus critérios de seleção somente aos 30% restantes e assim por diante.
    >
    >Antes de iniciar o fluxo de trabalho, verifique se você ordenou os subconjuntos na ordem que atende às suas necessidades. Para fazer isso, use os botões de seta para alterar a posição de um subconjunto.
 
@@ -86,7 +86,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
    1. Para limitar o número de perfis selecionados pelo subconjunto, ative a opção **[!UICONTROL Habilitar limite]**, e especifique o número ou as porcentagens da população a serem incluídas.
 
-   1. Para desativar uma transição se a população recebida estiver vazia, alterne o **[!UICONTROL Ignorar transição vazia]** opção ativada. Se nenhum perfil corresponder ao subconjunto, o workflow não fará transição para a próxima atividade.
+   1. Para desabilitar uma transição se a população recebida estiver vazia, alterne a opção **[!UICONTROL Ignorar transição vazia]** para. Se nenhum perfil corresponder ao subconjunto, o workflow não fará transição para a próxima atividade.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -101,7 +101,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Gerar todos os subconjuntos na mesma tabela]** permite agrupar todos os subconjuntos em uma única transição de output.
+   >A opção **[!UICONTROL Generate all subsets in the same table]** permite agrupar todos os subconjuntos em uma única transição de saída.
 
 1. A opção **[!UICONTROL Enable overlapping of output populations]** permite gerenciar populações pertencentes a vários subconjuntos:
 
