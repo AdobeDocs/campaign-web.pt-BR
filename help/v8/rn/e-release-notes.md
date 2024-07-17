@@ -4,10 +4,10 @@ description: Conheça os novos recursos incluídos na próxima versão da interf
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: e9bba947dd1065287e698d20cf1b6b55c423003b
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 50%
 
 ---
 
@@ -17,28 +17,29 @@ A interface do Adobe Campaign Web está sempre fornecendo novos recursos, melhor
 
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**. Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md) na data do lançamento.
 
-## Notas de versão de junho {#24-6-release}
+## Notas de versão de julho {#24-7-release}
 
-**Data de lançamento**: 18 a 19 de junho de 2024
+**Data de lançamento**: 30 a 31 de julho de 2024
 
-Os seguintes recursos e melhorias estão disponíveis para todos os usuários a partir da versão de junho.
+Os seguintes recursos e melhorias estarão disponíveis a partir da versão de julho.
 
-### Fragmentos de conteúdo  {#24-6-1}
+### Fragmentos de expressão {#24-7-1}
 
-Agora é possível criar, usar e gerenciar fragmentos **visuais** e **de expressão** para montar rapidamente seus emails e modelos de conteúdo. Um fragmento é um componente reutilizável pré-criado que pode ser referenciado em vários emails no Adobe Campaign para obter um processo de design aprimorado e acelerado.
+Agora é possível criar, usar e gerenciar **fragmentos de expressão** para criar rapidamente conteúdo personalizado. Um fragmento é um componente reutilizável pré-criado que pode ser referenciado em vários conteúdos no Adobe Campaign para obter um processo de design aprimorado e acelerado.
 
-### Listas de seeds {#24-6-2}
+### Listas de seeds {#24-7-2}
 
 Uma lista de seeds (também conhecida como **Grupo de interceptação**) contém vários seed addresses. Ela é usada para incluir endereços específicos em suas entregas e direcionar perfis que não correspondem aos critérios de destino definidos. Dessa forma, os destinatários que não pertencem ao público-alvo da entrega podem recebê-la, assim como qualquer outro destinatário. Você pode usar seed addresses ao enviar provas ou para proteger sua lista de mala direta.
 
-### Alerta de entrega {#24-6-3}
+### Modelos avançados de notificação por push {#24-7.3}
 
-O recurso Alerta de entrega é um sistema de gerenciamento de alertas que permite que um grupo de usuários receba automaticamente notificações sobre a execução de suas entregas.
+Agora você pode enviar notificações por push avançadas. Uma notificação por push avançada é uma forma aprimorada de notificação por dispositivos móveis que vai além das mensagens de texto simples, incorporando elementos multimídia, como imagens, botões interativos ou outro conteúdo de mídia avançada. Com esta versão, um conjunto de modelos para notificações por push avançadas agora está disponível para seus aplicativos iOS e Android.
 
-### Planos e programas {#24-6-4}
+>[!AVAILABILITY]
+>
+>Esse recurso exige uma atualização do Campaign v8.6.3 ou v8.7.2. [Saiba mais nas notas de versão do console do cliente do Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
 
-Agora é possível criar planos e programas para organizar suas campanhas. Ao definir uma hierarquia de pastas, você pode organizar suas campanhas em programas e os programas em planos.
 
-### Melhorias {#improvements-24-6}
+### Melhorias {#improvements-24-7}
 
-* **Reconciliação na atividade de enriquecimento**: a atividade de enriquecimento agora pode ser usada para reconciliar dados do esquema de banco de dados do Campaign com dados provenientes de um esquema alternativo ou de um esquema temporário, como dados carregados usando uma atividade Carregar arquivo. Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign.
+* **Gerenciamento de pastas** - Agora é possível gerenciar permissões e restrições em pastas.
