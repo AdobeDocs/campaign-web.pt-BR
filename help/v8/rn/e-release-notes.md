@@ -4,10 +4,10 @@ description: Conheça os novos recursos incluídos na próxima versão da interf
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 55%
+source-wordcount: '454'
+ht-degree: 46%
 
 ---
 
@@ -50,14 +50,13 @@ Agora você pode enviar notificações por push avançadas. Uma notificação po
 
 #### Fragmentos de conteúdo {#LA-24-7}
 
-Um fragmento é um componente reutilizável pré-criado que pode ser referenciado em vários conteúdos no Adobe Campaign para obter um processo de design aprimorado e acelerado.
+Agora você pode criar e usar fragmentos de conteúdo. Um fragmento de conteúdo é um componente reutilizável que pode ser referenciado em uma ou mais mensagens. Ao modificar um fragmento, todo o conteúdo que o usa é atualizado. Essa funcionalidade permite pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo da mensagem em um processo de design aprimorado.
 
-* Agora é possível criar, usar e gerenciar **fragmentos de expressão** para criar rapidamente conteúdo personalizado.
+Dois tipos de fragmentos estão disponíveis:
 
-* Agora você pode criar, usar e salvar **fragmentos visuais** para reunir rapidamente seus emails e modelos de conteúdo. [Saiba mais](../email/fragments.md)
+* **Fragmentos de expressão** são expressões predefinidas disponíveis em uma entrada dedicada no editor de expressão.
+* **Fragmentos visuais** são blocos visuais predefinidos que podem ser reutilizados em várias entregas de email ou em modelos de conteúdo. [Saiba mais](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**Fragmentos visuais** estão em Disponibilidade Limitada (DL). Esse recurso é restrito aos clientes que estão migrando o **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantado em nenhum outro ambiente.
