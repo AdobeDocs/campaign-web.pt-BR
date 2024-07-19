@@ -2,18 +2,15 @@
 audience: end-user
 title: Criar fragmentos de conteúdo
 description: Saiba como criar com fragmentos de conteúdo
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '916'
+ht-degree: 24%
 
 ---
 
 # Criar fragmentos de conteúdo {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,11 +58,14 @@ Essa funcionalidade permite pré-criar vários blocos de conteúdo personalizado
 
 ![](assets/fragments.gif)
 
-
 Para aproveitar ao máximo os fragmentos:
 
 * Crie seus próprios fragmentos visuais, conforme detalhado abaixo.
 * Use-os quantas vezes forem necessárias em seu conteúdo, por meio do Designer de email. Consulte [Adicionar fragmentos visuais aos seus emails](../email/use-visual-fragments.md).
+
+>[!AVAILABILITY]
+>
+>Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 ## Criar um fragmento visual {#create-fragments}
 
