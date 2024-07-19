@@ -15,30 +15,30 @@ ht-degree: 38%
 
 ## Preparar o envio {#prepare}
 
-Quando tiver definido sua [conteúdo](../email/edit-content.md), [público](../audience/add-audience.md), e [programação](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), você está pronto para preparar seu delivery de email.
+Depois de definir seu [conteúdo](../email/edit-content.md), [público-alvo](../audience/add-audience.md) e [agendamento](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), você estará pronto para preparar sua entrega de email.
 
 Durante a preparação do delivery, a população do target é calculada e o conteúdo da mensagem é gerado para cada perfil incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas.
 
-As regras de validação usadas durante a preparação do delivery estão descritas na seção [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 As principais etapas para preparar o envio estão listadas abaixo.
 
-1. No painel de delivery, clique em **[!UICONTROL Revisar e enviar]**.
+1. No painel de entrega, clique em **[!UICONTROL Revisar e enviar]**.
 
    ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
-1. Clique em **[!UICONTROL Preparar]** localizado no canto superior direito e confirme.
+1. Clique no botão **[!UICONTROL Preparar]**, localizado no canto superior direito, e confirme.
 
    ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Se você tiver programado o delivery e desativado a variável **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-deliveries.md#gs-schedule)
+   >Se você tiver agendado a entrega e desabilitado a opção **[!UICONTROL Habilitar confirmação antes de enviar]**, as etapas de preparação e envio serão agrupadas no botão **[!UICONTROL Preparar e enviar]**. [Saiba mais sobre agendamento](../msg/gs-deliveries.md#gs-schedule)
 
 1. O progresso da preparação é exibido. Dependendo do tamanho do público-alvo, essa operação pode levar algum tempo.
 
-   É possível interromper a preparação a qualquer momento usando o **[!UICONTROL Parar preparação]** botão.
+   Você pode interromper a preparação a qualquer momento usando o botão **[!UICONTROL Parar preparação]**.
 
    ![](assets/email-stop-preparation.png){zoomable="yes"}
 
@@ -51,9 +51,9 @@ As principais etapas para preparar o envio estão listadas abaixo.
 
    Estes são os diferentes KPIs exibidos:
 
-   * **[!UICONTROL Direcionado]**: o número de recipients alvos.
+   * **[!UICONTROL Direcionado]**: o número de destinatários direcionados.
    * **[!UICONTROL Para entregar]**: o número de mensagens que serão enviadas.
-   * **[!UICONTROL Para excluir]**: o número de mensagens excluídas por um [regra de tipologia](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL A excluir]**: o número de mensagens excluídas por uma [regra de tipologia](../advanced-settings/delivery-settings.md#typology).
 
 1. Clique no botão **[!UICONTROL Logs]** e verifique se não há erro. A última mensagem de log exibe mensagens de erro e o número de erros. [Saiba mais](delivery-logs.md)
 
@@ -70,7 +70,7 @@ Quando a preparação for concluída sem erros, a mensagem estará pronta para s
 ## Enviar a mensagem {#send}
 
 
-Quando a variável [preparação](#prepare) estiver concluído, agora você pode enviar seu email.
+Após a conclusão da [preparação](#prepare), você poderá enviar seu email.
 
 Se a mensagem estiver programada, ela será enviada na data e hora definidas. [Saiba mais](../msg/gs-deliveries.md#gs-schedule)
 
@@ -78,7 +78,7 @@ Se a mensagem estiver programada, ela será enviada na data e hora definidas. [S
 
 Para enviar um email imediatamente, siga as etapas abaixo.
 
-1. No painel de delivery, clique no link **[!UICONTROL Enviar]** no canto superior direito.
+1. No painel de entrega, clique no botão **[!UICONTROL Enviar]**, no canto superior direito.
 
    ![](assets/email-send.png){zoomable="yes"}
 
@@ -90,9 +90,9 @@ Para enviar um email imediatamente, siga as etapas abaixo.
 
 Se você programou seu email para enviá-lo em data e hora posteriores, siga as etapas abaixo.
 
-1. Antes de clicar em **[!UICONTROL Revisar e enviar]** , certifique-se de ter definido uma agenda para o seu email. [Saiba mais](../msg/gs-deliveries.md#gs-schedule)
+1. Antes de clicar no botão **[!UICONTROL Revisar e enviar]**, verifique se você definiu um agendamento para o seu email. [Saiba mais](../msg/gs-deliveries.md#gs-schedule)
 
-1. No painel de delivery, clique no link **[!UICONTROL Botão Enviar como agendado]** no canto superior direito.
+1. No painel de entrega, clique no botão **[!UICONTROL Enviar como agendado]**, no canto superior direito.
 
    ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
@@ -100,11 +100,11 @@ Se você programou seu email para enviá-lo em data e hora posteriores, siga as 
 
    >[!NOTE]
    >
-   >Se você desativou o **[!UICONTROL Ativar confirmação antes de enviar]** opção, as etapas de preparação e envio são agrupadas sob a **[!UICONTROL Preparar e enviar]** botão. [Saiba mais sobre agendamento](../msg/gs-deliveries.md#gs-schedule)
+   >Se você desabilitou a opção **[!UICONTROL Habilitar confirmação antes de enviar]**, as etapas de preparação e envio serão agrupadas sob o botão **[!UICONTROL Preparar e enviar]**. [Saiba mais sobre agendamento](../msg/gs-deliveries.md#gs-schedule)
 
 ## Pausar ou parar o envio {#pause-stop-sending}
 
-Se o seu delivery está agendado ou não<!--TBC-->, duas ações podem ser executadas a qualquer momento durante o processo de envio:
+Se a sua entrega estiver agendada ou não<!--TBC-->, duas ações podem ser executadas a qualquer momento durante o processo de envio:
 
 * Clique em **[!UICONTROL Pausar envio]** para interromper o envio das mensagens. Você pode retomar o envio a qualquer momento.
 
@@ -158,7 +158,7 @@ Quando o envio estiver concluído, você poderá verificar os KPIs exibidos:
 
 * **[!UICONTROL Aberturas]**: o número de mensagens abertas. A porcentagem exibida é o número de aberturas distintas em comparação ao número de mensagens entregues.
 
-* **[!UICONTROL Cliques]**: o número de recipients que clicaram pelo menos uma vez no email. A porcentagem exibida é o número de cliques distintos em comparação ao número de mensagens entregues.
+* **[!UICONTROL Cliques]**: o número de destinatários que clicaram pelo menos uma vez no email. A porcentagem exibida é o número de cliques distintos em comparação ao número de mensagens entregues.
 
 * **[!UICONTROL Erros]**: o número de emails com o status de erro. A porcentagem exibida se baseia no número total de mensagens enviadas.
 

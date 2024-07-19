@@ -5,8 +5,8 @@ description: Saiba como criar um fluxo de trabalho com o Adobe Campaign Web
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -22,23 +22,23 @@ Você pode criar workflows independentes ou dentro de uma campanha. A primeira e
 
 Para fazer isso, siga estes passos:
 
-1. Para criar um **Fluxo de trabalho independente**, navegue até o **Fluxos de trabalho** menu. Para criar um **Fluxo de trabalho de campanha**, navegue até o **Campanhas** e abra a campanha para a qual deseja criar um novo workflow.
+1. Para criar um **fluxo de trabalho autônomo**, navegue até o menu **Fluxos de trabalho**. Para criar um **fluxo de trabalho de campanha**, navegue até o menu **Campanhas** e abra a campanha para a qual deseja criar um novo fluxo de trabalho.
 
-1. Clique em **[!UICONTROL Criar fluxo de trabalho]** no canto superior direito da tela.
+1. Clique no botão **[!UICONTROL Criar fluxo de trabalho]** no canto superior direito da tela.
 
-   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-create.png){zoomable="yes"}
 
-1. No fluxo de trabalho **Propriedades** selecione o template a ser usado para criar o workflow (também é possível usar o template incorporado padrão). [Saiba mais sobre modelos de fluxo de trabalho](#workflow-templates).
+1. Na caixa de diálogo **Propriedades** do fluxo de trabalho, selecione o modelo a ser usado para criar o fluxo de trabalho (você também pode usar o modelo interno padrão). [Saiba mais sobre modelos de fluxo de trabalho](#workflow-templates).
 
-1. Insira um rótulo para o fluxo de trabalho. Além disso, recomendamos que você adicione uma descrição ao workflow, no campo dedicado da **[!UICONTROL Opções adicionais]** seção da tela.
+1. Insira um rótulo para o fluxo de trabalho. Além disso, recomendamos que você adicione uma descrição ao fluxo de trabalho, no campo dedicado da seção **[!UICONTROL Opções adicionais]** da tela.
 
-1. Expanda a **[!UICONTROL Opções adicionais]** seção para definir mais configurações para o workflow. Saiba como configurar as propriedades do fluxo de trabalho no [esta página](workflow-settings.md#properties)
+1. Expanda a seção **[!UICONTROL Opções adicionais]** para definir mais configurações para o fluxo de trabalho. Saiba como configurar as propriedades de fluxo de trabalho em [esta página](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-additional-options.png){zoomable="yes"}
 
-1. Clique em **[!UICONTROL Criar fluxo de trabalho]** para confirmar a criação do workflow.
+1. Clique no botão **[!UICONTROL Criar fluxo de trabalho]** para confirmar a criação do fluxo de trabalho.
 
-Seu workflow agora é criado e está disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. [Saiba como orquestrar atividades de workflow](orchestrate-activities.md).
+Seu workflow agora é criado e está disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. [Saiba como organizar atividades de fluxo de trabalho](orchestrate-activities.md).
 
 ## Trabalhar com modelos de fluxo de trabalho {#workflow-templates}
 
@@ -62,17 +62,17 @@ Você pode criar um modelo a partir de um fluxo de trabalho existente ou criar u
 
 Para criar um template de workflow a partir de um workflow existente, siga estas etapas:
 
-1. Abra para o **Fluxos de trabalho** e navegue até o fluxo de trabalho para salvar como modelo.
-1. Clique nos três pontos à direita do nome do workflow e escolha **Copiar como modelo**.
+1. Abra o menu **Fluxos de trabalho** e navegue até o fluxo de trabalho para salvá-lo como modelo.
+1. Clique nos três pontos à direita do nome do fluxo de trabalho e escolha **Copiar como modelo**.
 
-   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-copy-as-template.png){zoomable="yes"}
 
 1. Na janela pop-up, confirme a criação do template.
 1. Na tela do modelo de fluxo de trabalho, marque, adicione e configure as atividades conforme necessário.
-1. Navegue até as configurações, no **Configurações** para alterar o nome do template de workflow e insira uma descrição.
-1. Selecione o **pasta** e **pasta de execução** do modelo. A pasta é o local onde o modelo de fluxo de trabalho é salvo. A pasta de execução é a pasta onde os workflows criados com base nesse template são salvos.
+1. Navegue até as configurações, no botão **Configurações**, para alterar o nome do modelo de fluxo de trabalho e insira uma descrição.
+1. Selecione a **pasta** e a **pasta de execução** do modelo. A pasta é o local onde o modelo de fluxo de trabalho é salvo. A pasta de execução é a pasta onde os workflows criados com base nesse template são salvos.
 
-   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-settings-template.png){zoomable="yes"}
 
    As outras propriedades são comuns a workflows. Saiba mais [nesta página](workflow-settings.md#properties)
 
@@ -86,19 +86,19 @@ O template de workflow agora está disponível na lista de templates. Você pode
 
 Para criar um template de workflow do zero, siga estas etapas:
 
-1. Abra para o **Fluxos de trabalho** e navegue até o menu **Modelos** guia. Você pode ver a lista de modelos de workflow disponíveis.
-1. Clique em **[!UICONTROL Criar modelo]** no canto superior direito da tela.
+1. Abra o menu **Fluxos de trabalho** e navegue até a guia **Modelos**. Você pode ver a lista de modelos de workflow disponíveis.
+1. Clique no botão **[!UICONTROL Criar modelo]** no canto superior direito da tela.
 1. Insira o rótulo e abra as opções adicionais para inserir uma descrição do template de workflow.
 1. Selecione a pasta e a pasta de execução do modelo. A pasta é o local onde o modelo de fluxo de trabalho é salvo. A pasta de execução é a pasta onde os workflows criados com base nesse template são salvos.
 
-   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-wf-template.png){zoomable="yes"}
 
    As outras propriedades são comuns a workflows. Saiba mais [nesta página](workflow-settings.md#properties)
 
-1. Clique em **Criar** botão para confirmar as configurações.
+1. Clique no botão **Criar** para confirmar suas configurações.
 1. Na tela do modelo de fluxo de trabalho, adicione e configure as atividades conforme necessário.
 
-   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-template-activities.png){zoomable="yes"}
 
 1. Salve as alterações.
 

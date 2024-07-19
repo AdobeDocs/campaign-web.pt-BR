@@ -5,7 +5,7 @@ description: Saiba como definir um estilo para links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 1. Na guia **[!UICONTROL Configurações]**, marque **[!UICONTROL Sublinhar link]** para que o rótulo fique sublinhado.
 
-   ![](assets/link_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/link_1.png){zoomable="yes"}
 
 1. Escolha como seu público-alvo será redirecionado com a lista suspensa **[!UICONTROL Direcionamento]**:
 
@@ -29,10 +29,10 @@ ht-degree: 100%
    * **[!UICONTROL Principal]**: abre o link no quadro principal.
    * **[!UICONTROL Superior]**: abre o link no corpo completo da janela.
 
-   ![](assets/link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/link_2.png){zoomable="yes"}
 
 1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** na guia **[!UICONTROL Estilos]**.
 
-   ![](assets/link_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/link_3.png){zoomable="yes"}
 
 1. Salve as alterações.

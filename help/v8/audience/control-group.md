@@ -5,8 +5,8 @@ description: Saiba como definir um grupo de controle para suas mensagens na inte
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 38%
+source-wordcount: '791'
+ht-degree: 37%
 
 ---
 
@@ -31,9 +31,9 @@ Todos os perfis que fazem parte do grupo de controle na etapa de preparação da
 >
 >Não é possível usar grupos de controle ao carregar a população alvo [a partir de um arquivo externo](file-audience.md).
 
-Para adicionar um grupo de controle a um delivery, ative a variável **[!UICONTROL Ativar grupo de controle]** alternar, no campo **Público** seção da tela de criação do delivery.
+Para adicionar um grupo de controle a uma entrega, ative a opção **[!UICONTROL Habilitar grupo de controle]**, na seção **Público-alvo** da tela de criação da entrega.
 
-![Opção Habilitar grupo de controle](assets/control-group1.png)
+![Habilitar opção de grupo de controle](assets/control-group1.png)
 
 
 ## Extrair do público-alvo {#extract-target}
@@ -50,25 +50,25 @@ Para definir um grupo de controle, você pode optar por extrair, aleatoriamente 
 
 Primeiro, defina como os perfis são extraídos do público-alvo: aleatoriamente ou com base em uma classificação.
 
-No **Grupo de controle** escolha uma **Modo de extração**:
+Na seção **Grupo de controle**, escolha um **Modo de extração**:
 
 * **Aleatório**: ao preparar a entrega, o Adobe Campaign extrairá aleatoriamente um número de perfis correspondente à porcentagem ou ao número máximo que você definirá como o limite de tamanho.
 
 * **Classificado por atributo(s)**: essa opção permite excluir um conjunto de perfis com base em atributo(s) específico(s) em uma ordem de classificação específica.
 
 
-Em seguida, use o **Limite de tamanho** para definir o número de perfis que precisam ser extraídos do público-alvo principal. Pode ser um número bruto (por exemplo, 50 perfis a serem excluídos) ou uma porcentagem do público inicial (por exemplo, 5% do público-alvo principal).
+Em seguida, use a seção **Limite de tamanho** para definir o número de perfis que precisam ser extraídos do público-alvo principal. Pode ser um número bruto (por exemplo, 50 perfis a serem excluídos) ou uma porcentagem do público inicial (por exemplo, 5% do público-alvo principal).
 
 
 ### Amostra do grupo de controle{#control-group-sample}
 
 Por exemplo, para criar um grupo de controle com os 100 novos perfis mais novos, siga estas etapas:
 
-1. Selecione o **Idade** como um critério de classificação. Deixe a **Crescente** opção de classificação.
-1. Adicione o **Data de criação** campo. Altere para a variável **Decrescente** opção de classificação.
-1. Defina 100 como o limite no **Limite de tamanho** seção.
+1. Selecione o campo **Idade** como um critério de classificação. Deixe a opção de classificação **Crescente**.
+1. Adicione o campo **Data de Criação**. Altere para a opção de classificação **Decrescente**.
+1. Defina 100 como o limite na seção **Limite de tamanho**.
 
-   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
+   ![](assets/control-group2.png){zoomable="yes"}
 
 Esses 100 novos perfis mais jovens são excluídos do público-alvo principal.
 
@@ -76,17 +76,17 @@ Esses 100 novos perfis mais jovens são excluídos do público-alvo principal.
 
 Você pode visualizar os logs para verificar e identificar os perfis excluídos. Vejamos o exemplo de uma exclusão aleatória em cinco perfis.
 
-![](assets/control-group4.png){zoomable=&quot;yes&quot;}
+![](assets/control-group4.png){zoomable="yes"}
 
 Após a preparação do delivery, é possível revisar como as exclusões foram aplicadas:
 
-* No painel de delivery, antes do envio, marque a opção **Para excluir** KPI.
+* No painel de entrega, antes do envio, marque o KPI **To exclude**.
 
-  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group5.png){zoomable="yes"}
 
 * Nos logs do delivery, a guia Logs mostra a etapa de exclusão.
 
-  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group-sample-logs.png){zoomable="yes"}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -94,9 +94,9 @@ Após a preparação do delivery, é possível revisar como as exclusões foram 
     ![](assets/control-group6.png){zoomable="yes"}
 -->
 
-* A variável **Causas de exclusão** exibe o número de perfis excluídos para cada regra de tipologia.
+* A guia **Causas de exclusão** exibe o número de perfis excluídos para cada regra de tipologia.
 
-  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group7.png){zoomable="yes"}
 
 Para obter mais informações sobre logs de entrega, consulte esta [seção](../monitor/delivery-logs.md).
 
@@ -111,16 +111,16 @@ Outra maneira de definir um grupo de controle é selecionar uma população espe
 
 Na seção **População extra** do **Grupo de controle** na tela de definição, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
-![](assets/control-group3.png){zoomable=&quot;yes&quot;}
+![](assets/control-group3.png){zoomable="yes"}
 
 * Para usar um público existente, clique em **Selecionar público-alvo**. Saiba mais [nesta seção](add-audience.md).
 
-* Para definir uma nova consulta, selecione **Crie o seu próprio** e defina os critérios de exclusão usando o modelador de consultas. Saiba mais [nesta seção](../query/query-modeler-overview.md).
+* Para definir uma nova consulta, selecione **Criar sua própria** e defina os critérios de exclusão usando o modelador de consultas. Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
-Os perfis incluídos no público ou que correspondem ao resultado do query são **excluído** do target do delivery: eles não recebem nenhuma mensagem.
+Os perfis incluídos no público ou que correspondem ao resultado da consulta foram **excluídos** do público-alvo da entrega: eles não recebem nenhuma mensagem.
 
 ## Comparar os resultados{#control-group-results}
 
 Depois que o delivery for enviado, você poderá extrair os logs de envio para comparar o comportamento entre os perfis que não receberam a comunicação e o público-alvo efetivo. Você também pode usar os logs do delivery para criar um novo direcionamento.
 
-Para ver quais perfis foram removidos do público-alvo, verifique a **Logs de entrega**. Saiba mais [nesta seção](#check-control-group).
+Para ver quais perfis foram removidos do destino, verifique os **Logs de entrega**. Saiba mais [nesta seção](#check-control-group).

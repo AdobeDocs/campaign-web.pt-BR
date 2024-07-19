@@ -18,7 +18,7 @@ O Adobe Campaign permite coletar dados, inclusive informações pessoais e confi
 
 * Em primeiro lugar, evite enviar emails não solicitados, notificações por push e mensagens SMS (&quot;spam&quot;). A Adobe acredita fortemente nos princípios da permissão de marketing para promover a fidelidade e o valor vitalício do cliente e, portanto, é estritamente proibido o uso do Adobe Campaign para o envio de mensagens não solicitadas. [Saiba mais](#denylisted-profiles)
 
-* Sempre solicite aos recipients que concordem em receber comunicações, fornecendo a capacidade de não participar dos deliveries<!-- and keep honoring opt-out requests as quickly as possible-->. [Saiba mais](#opt-out)
+* Tenha sempre os destinatários concordando em receber comunicações fornecendo a capacidade de recusar suas entregas<!-- and keep honoring opt-out requests as quickly as possible-->. [Saiba mais](#opt-out)
 
 * Por meio do processo de gerenciamento de assinaturas, você pode gerenciar suas preferências de recipient e rastrear quais recipients aceitaram e que tipo de assinatura. [Saiba mais](../../delivery/using/about-services-and-subscriptions.md)
 
@@ -35,7 +35,7 @@ Ao enviar deliveries usando a Adobe Campaign Web, você deve sempre garantir que
 
 ### Recusa de email {#email-opt-out}
 
-Para fornecer aos recipients a capacidade de cancelar a inscrição para receber comunicações por email, você sempre deve incluir um **link para cancelar inscrição** em cada email enviado aos recipients.
+Para fornecer aos destinatários a capacidade de cancelar a inscrição e não receber notificações por email, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos destinatários.
 
 Para fazer isso, siga as etapas abaixo.
 
@@ -47,17 +47,17 @@ Para fazer isso, siga as etapas abaixo.
 
    ![](../email/assets/message-tracking-insert-link.png)
 
-1. No **[!UICONTROL URL]** cole o link para a sua página de aterrissagem de terceiros.
+1. No campo **[!UICONTROL Url]**, cole o link para a sua página de aterrissagem de terceiros.
 
 1. Clique no ícone **[!UICONTROL Links]** no painel esquerdo para exibir a lista de todos os URLs do conteúdo a ser rastreado.
 
 1. Clique no ícone de lápis ao lado do novo link para editá-lo.
 
-1. Modifique o **[!UICONTROL Tipo de rastreamento]** e defina-o como **[!UICONTROL Recusar]**.
+1. Modifique o **[!UICONTROL Tipo de Rastreamento]** e defina-o como **[!UICONTROL Recusar]**.
 
    ![](../email/assets/message-tracking-edit-a-link.png)
 
-1. Clique em **[!UICONTROL Salvar]** e enviar a mensagem. [Saiba mais](../monitor/prepare-send.md)
+1. Clique em **[!UICONTROL Salvar]** e envie a mensagem. [Saiba mais](../monitor/prepare-send.md)
 
 1. Depois que a mensagem for recebida, se o recipient clicar no link de cancelamento de inscrição, a página de aterrissagem será exibida.
 
@@ -67,13 +67,13 @@ Para fazer isso, siga as etapas abaixo.
 
 ## Incluir na lista de bloqueios perfis destacados {#denylisted-profiles}
 
-Após um cancelamento de subscrição (recusa), os perfis ficam no **➡ incluir na lista de bloqueios** para um determinado canal: isso implica que eles não estão mais sendo direcionados por qualquer delivery.
+Após o cancelamento de inscrição, os perfis ficam na **inclui na lista de bloqueios** de determinado canal: isso implica que eles não estão mais sendo direcionados por nenhuma entrega.
 
 >[!NOTE]
 >
 >Incluir na lista de bloqueios Se um perfil na pesquisa do canal de email tiver dois endereços de email, ambos os endereços serão excluídos do delivery.
 
-Você pode verificar se um perfil está no incluo na lista de bloqueios para um ou mais canais na **[!UICONTROL Não contatar mais]** seção do perfil **[!UICONTROL Detalhes]** guia. [Saiba mais](../audience/about-recipients.md#access)
+Incluir na lista de bloqueios Você pode verificar se um perfil está no arquivo de navegação para um ou mais canais na seção **[!UICONTROL Não contatar mais]** da guia **[!UICONTROL Detalhes]** do perfil. [Saiba mais](../audience/about-recipients.md#access)
 
 ![](assets/profile-no-longer-contact.png)
 

@@ -32,49 +32,49 @@ ht-degree: 18%
 >title="Informações adicionais"
 >abstract="Informações adicionais"
 
-A variável **Serviços de assinatura** a atividade é um **Gerenciamento de dados** atividade. Ele permite criar ou excluir uma subscrição para um serviço de informações para a população especificada na transição.
+A atividade **Serviços de assinatura** é uma atividade de **Gerenciamento de Dados**. Ele permite criar ou excluir uma subscrição para um serviço de informações para a população especificada na transição.
 
 ## Configurar a atividade de serviços de assinatura {#subscription-services-configuration}
 
-Siga estas etapas para configurar o **Serviços de assinatura** atividade:
+Siga estas etapas para configurar a atividade **Serviços de assinatura**:
 
-1. Adicionar um **Serviços de assinatura** atividade no seu workflow. Você pode usar essa atividade após direcionar perfis ou importar um arquivo com dados identificados.
+1. Adicione uma atividade de **Serviços de assinatura** ao seu fluxo de trabalho. Você pode usar essa atividade após direcionar perfis ou importar um arquivo com dados identificados.
 
 1. Selecione o serviço para o qual deseja gerenciar as assinaturas usando uma das seguintes opções:
 
-   * **[!UICONTROL Selecionar um serviço específico]**: selecione manualmente um serviço usando o **[!UICONTROL Serviço]** campo.
+   * **[!UICONTROL Selecione um serviço específico]**: selecione manualmente um serviço usando o campo **[!UICONTROL Serviço]**.
 
    * **[!UICONTROL Da transição de entrada]**: use o serviço especificado na transição de entrada. Por exemplo, é possível importar um arquivo que especifica o serviço a ser gerenciado para cada linha. O serviço no qual executar a operação é então selecionado dinamicamente para cada perfil.
 
    ![](../assets/workflow-subscription-service.png)
 
-1. Selecione a operação a ser executada: **Assinar** ou **Cancelar inscrição**.
+1. Selecione a operação a ser executada: **Assinar** ou **Cancelar assinatura**.
 
    Se o serviço for definido na transição de entrada, você poderá escolher como recuperar essa operação:
 
-   * **Selecionar um tipo de operação específico**: selecione manualmente a operação a ser executada (**Assinar** ou **Cancelar inscrição**)
+   * **Selecione um tipo de operação específico**: selecione manualmente a operação a ser executada (**Assinar** ou **Cancelar assinatura**)
 
    * **Selecione um tipo de operação em um caminho de transição de entrada**: selecione a coluna dos dados de entrada que especifica a operação a ser executada para cada registro. Por exemplo, você pode importar um arquivo que especifica a operação a ser executada para cada linha em uma coluna &quot;operação&quot;.
 
-     Somente campos booleanos ou inteiros podem ser selecionados aqui. Verifique se os dados que contêm a operação a ser executada correspondem a esse formato. Por exemplo, se você estiver carregando dados de uma atividade Load file, verifique se definiu corretamente o formato da coluna que contém a operação na variável **[!UICONTROL Carregar arquivo]** atividade. Um exemplo é apresentado em [nesta seção](#uc2).
+     Somente campos booleanos ou inteiros podem ser selecionados aqui. Verifique se os dados que contêm a operação a ser executada correspondem a esse formato. Por exemplo, se você estiver carregando dados de uma atividade Load file, verifique se definiu corretamente o formato da coluna que contém a operação na atividade **[!UICONTROL Load file]**. Um exemplo é apresentado em [esta seção](#uc2).
 
      >[!CAUTION]
      >
-     >Por padrão, se você selecionar essa opção, a variável **Serviços de assinatura** A atividade espera ter uma definição de link para o **Serviços (nms)** tabela configurada no workflow. Para fazer isso, verifique se você configurou um link de reconciliação em uma **Atividade de enriquecimento** para cima no fluxo de trabalho. Um exemplo mostrando como usar essa opção está disponível [aqui](#uc2).
+     >Por padrão, se você selecionar esta opção, a atividade **Serviços de assinatura** espera ter uma definição de link para a tabela **Serviços (nms)** configurada no fluxo de trabalho. Para fazer isso, verifique se você configurou um link de reconciliação em uma **atividade de Enriquecimento** para cima no fluxo de trabalho. Um exemplo de uso dessa opção está disponível [aqui](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
-1. Para notificar os destinatários que a subscrição do serviço selecionado foi realizada ou cancelada, alterne o **[!UICONTROL Enviar uma mensagem de confirmação]** opção ativada. O conteúdo dessa notificação é definido em um template do delivery associado ao serviço de informação.
+1. Para notificar os destinatários que a assinatura do serviço selecionado foi realizada ou cancelada, ative a opção **[!UICONTROL Enviar mensagem de confirmação]**. O conteúdo dessa notificação é definido em um template do delivery associado ao serviço de informação.
 
-1. Se estiver usando dados de uma transição de entrada, uma variável **[!UICONTROL Informações adicionais]** é exibida, permitindo especificar os dados e a origem da assinatura para cada registro. Você pode deixar essa seção vazia, nesse caso, nenhuma data ou origem será definida ao executar o workflow.
+1. Se você estiver usando dados de uma transição de entrada, uma seção de **[!UICONTROL Informações adicionais]** será exibida, permitindo especificar os dados e a origem da assinatura para cada registro. Você pode deixar essa seção vazia, nesse caso, nenhuma data ou origem será definida ao executar o workflow.
 
-   * Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil para o serviço, você poderá selecioná-la na **[!UICONTROL Data]** campo.
+   * Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil para o serviço, você poderá selecioná-la no campo **[!UICONTROL Data]**.
 
-   * No **[!UICONTROL Caminho de origem]** defina a origem da assinatura. Você pode defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha, marcando a opção **[!UICONTROL Definir uma constante como origem]** opção.
+   * No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. Você pode defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**.
 
    ![](../assets/workflow-subscription-service-additional.png)
 
-1. Para adicionar uma transição de saída após a atividade, alterne a variável **[!UICONTROL Gerar uma transição de saída]** opção ativada.
+1. Para adicionar uma transição de saída após a atividade, alterne a opção **[!UICONTROL Generate an outbound transition]** para.
 
 ## Exemplos {#example}
 
@@ -84,9 +84,9 @@ Este fluxo de trabalho abaixo mostra como assinar um público-alvo para um servi
 
 ![](../assets/workflow-subscription-service-uc1.png)
 
-* A **[!UICONTROL Criar público-alvo]** A atividade segmenta um público-alvo existente.
+* Uma atividade de **[!UICONTROL Build audience]** é direcionada a um público-alvo existente.
 
-* A **[!UICONTROL Serviços de assinatura]** A atividade permite selecionar o serviço para o qual os perfis devem ser inscritos.
+* Uma atividade de **[!UICONTROL Serviços de assinatura]** permite que você selecione o serviço para o qual os perfis devem ser assinados.
 
 ### Atualização de vários status de subscrição diretamente de um arquivo {#uc2}
 
@@ -94,7 +94,7 @@ O fluxo de trabalho abaixo mostra como importar um arquivo contendo perfis e atu
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Carregar arquivo]** A atividade carrega um arquivo CSV contendo os dados e define a estrutura das colunas importadas. As colunas &quot;service&quot; e &quot;operation&quot; especificam o serviço a ser atualizado e a operação a ser executada (subscrição ou unsubscription).
+* Uma atividade **[!UICONTROL Load file]** carrega um arquivo CSV contendo os dados e define a estrutura das colunas importadas. As colunas &quot;service&quot; e &quot;operation&quot; especificam o serviço a ser atualizado e a operação a ser executada (subscrição ou unsubscription).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -106,23 +106,23 @@ O fluxo de trabalho abaixo mostra como importar um arquivo contendo perfis e atu
   ```
 
   Como você pode ter notado, a operação é especificada no arquivo como &quot;sub&quot; ou &quot;unsub&quot;. O sistema espera que um valor **Booliano** ou **Integer** reconheça a operação a ser executada: &quot;0&quot; para cancelar a assinatura e &quot;1&quot; para assinar. Para atender a esse requisito:
-   * A variável **Tipo de dados** para a coluna &quot;operation&quot; é definido como número inteiro.
-   * A **Remapeamento de valor** deve ser executado para corresponder os valores &quot;sub&quot; e &quot;unsub&quot; com os valores &quot;1&quot; e &quot;0&quot;.
+   * O **Tipo de dados** da coluna &quot;operação&quot; está definido como inteiro.
+   * Um **Remapeamento de valor** deve ser executado para corresponder aos valores &quot;sub&quot; e &quot;unsub&quot; com os valores &quot;1&quot; e &quot;0&quot;.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  Se o arquivo já usar &quot;0&quot; e &quot;1&quot; para identificar a operação, não é necessário remapear esses valores. Verifique apenas se a coluna é processada como um **Booleano** ou **Integer** nas colunas do arquivo de amostra.
+  Se o arquivo já usar &quot;0&quot; e &quot;1&quot; para identificar a operação, não é necessário remapear esses valores. Verifique somente se a coluna é processada como um **Booleano** ou **Inteiro** nas colunas do arquivo de exemplo.
 
-* A **[!UICONTROL Reconciliação]** A atividade identifica os dados do arquivo como pertencente à dimensão do perfil do banco de dados do Adobe Campaign. A variável **email** O campo do arquivo corresponde ao campo **email** do recurso de perfil.
+* Uma atividade **[!UICONTROL Reconciliation]** identifica os dados do arquivo como pertencente à dimensão do perfil do banco de dados do Adobe Campaign. O campo **email** do arquivo corresponde ao campo **email** do recurso de perfil.
 
   ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
 
-* Um **[!UICONTROL Enriquecimento]** A atividade cria um link de reconciliação para a tabela &quot;Serviços (nms)&quot;, com uma simples associação entre a coluna &quot;serviço&quot; do arquivo carregado e o campo &quot;nome interno&quot; dos serviços no banco de dados.
+* Uma atividade **[!UICONTROL Enrichment]** cria um link de reconciliação para a tabela &quot;Services (nms)&quot;, com uma simples associação entre a coluna &quot;service&quot; do arquivo carregado e o campo &quot;internal name&quot; de serviços no banco de dados.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL Serviços de assinatura]** O identifica os serviços a serem atualizados como provenientes da transição.
+* Os **[!UICONTROL Serviços de Assinatura]** identificam os serviços a serem atualizados como provenientes da transição.
 
-  A variável **[!UICONTROL Tipo de operação]** é identificado como proveniente da **operação** do arquivo. Somente os campos Booliano ou Integer podem ser selecionados aqui. Se a coluna do arquivo que contém a operação a ser executada não aparecer na lista, verifique se você definiu corretamente o formato da coluna no **[!UICONTROL Carregar arquivo]** atividade, conforme explicado anteriormente neste exemplo.
+  O **[!UICONTROL Tipo de operação]** é identificado como proveniente do campo **operação** do arquivo. Somente os campos Booliano ou Integer podem ser selecionados aqui. Se a coluna do arquivo que contém a operação a ser executada não aparecer na lista, verifique se você definiu corretamente o formato da coluna na atividade **[!UICONTROL Carregar arquivo]**, conforme explicado anteriormente neste exemplo.
 
   ![](../assets/workflow-subscription-service-uc2-subscription.png)

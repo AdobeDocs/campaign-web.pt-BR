@@ -5,7 +5,7 @@ description: Saiba como personalizar o plano de fundo do email
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -27,15 +27,15 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
 * Defina uma **[!UICONTROL cor de fundo]** para todo o email. Certifique-se de selecionar as configurações de corpo na árvore de navegação, que pode ser acessada no painel esquerdo.
 
-  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_1.png){zoomable="yes"}
 
 * Defina a mesma cor de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Cor de fundo do visor]**. Essa opção permite selecionar uma configuração de cor de fundo diferente.
 
-  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_2.png){zoomable="yes"}
 
 * Defina uma cor de fundo diferente para cada componente da estrutura. Selecione uma estrutura na árvore de navegação no painel esquerdo para aplicar uma cor de fundo específica somente a essa estrutura.
 
-  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -43,7 +43,7 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
 * Defina uma **[!UICONTROL imagem de fundo]** para o conteúdo de um componente da estrutura.
 
-  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -51,7 +51,7 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
 * Definir uma cor de fundo no nível da coluna.
 
-  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >

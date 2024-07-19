@@ -3,8 +3,8 @@ title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
-workflow-type: ht
-source-wordcount: '559'
+workflow-type: tm+mt
+source-wordcount: '549'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,11 @@ Estas são as etapas básicas para fazer logon na Adobe Experience Cloud:
 
    Depois de fazer logon na Experience Cloud, você pode acessar rapidamente todas as soluções e aplicativos.
 
-   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
+   ![](assets/exc-home.png){zoomable="yes"}
 
 1. Verifique se você está na organização correta.
 
-   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
    Saiba mais sobre as organizações da Adobe Experience Cloud [neste artigo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR){target="_blank"}.
 
@@ -40,11 +40,11 @@ Para acessar o ambiente do Campaign, selecione **Campaign** na seção **Acesso 
 
 Se já estiver conectado a outra solução da Adobe Experience Cloud, você também poderá acessar o ambiente do Campaign por meio do alternador de soluções, na parte superior direita da tela.
 
-![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
+![](assets/solution-switcher.png){zoomable="yes"}
 
 Se você tiver acesso a vários ambientes, incluindo o Painel de controle do Campaign, clique no botão **Iniciar** da instância correta.
 
-![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
+![](assets/launch-campaign.png){zoomable="yes"}
 
 Agora você está conectado ao Campaign. Saiba como começar a usar a interface [nesta página](user-interface.md).
 
@@ -59,7 +59,7 @@ Navegue na barra superior da interface para:
 * verificar as notificações do produto
 * editar o perfil da Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar para tema claro/escuro](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Navegadores compatíveis {#browsers}
 

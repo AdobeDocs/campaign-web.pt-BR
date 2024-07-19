@@ -5,7 +5,7 @@ description: Saiba como procurar e filtrar listas no Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -18,17 +18,17 @@ A maioria dos links do menu de navegação esquerdo exibe listas de objetos, com
 
 As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no ícone de **Configurar coluna para um layout personalizado** no canto superior direito da lista.
 
-![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Na tela **Configurar colunas**, adicione ou remova colunas e altere a ordem na qual elas são exibidas.
 
 Por exemplo, para estas configurações:
 
-![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 A lista mostrará as seguintes colunas:
 
-![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Classificação de dados {#sort-lists}
 
@@ -40,7 +40,7 @@ Para colunas numéricas ou de datas, a seta para **cima** indica que a lista est
 
 Para encontrar itens mais rapidamente, você pode usar a barra de pesquisa ou filtros integrados e personalizados para adaptar a lista com base em critérios contextuais.
 
-![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Informações detalhadas sobre como usar filtros e criar seus próprios filtros personalizados estão disponíveis [nesta seção](../query/filter.md).
 

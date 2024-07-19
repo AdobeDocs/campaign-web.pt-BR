@@ -5,8 +5,8 @@ description: Entender os relatórios globais
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 32%
+source-wordcount: '275'
+ht-degree: 30%
 
 ---
 
@@ -32,22 +32,22 @@ A lista completa de relatórios e métricas associadas para cada canal está dis
 
 Para acessar e gerenciar os relatórios globais, siga estas etapas:
 
-1. Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Relatórios]** seção.
+1. Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relatórios]**.
 
 1. No menu esquerdo, selecione um relatório da lista e navegue pela guia para exibir dados de cada canal.
 
-   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_3.png){zoomable="yes"}
 
-1. No painel, escolha uma **Início** e **[!UICONTROL Hora final]** para direcionar dados específicos.
+1. No painel, escolha um **Início** e **[!UICONTROL Término]** para direcionar dados específicos.
 
-   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_1.png){zoomable="yes"}
 
-1. No **[!UICONTROL Escolher pasta]** selecione se desejar direcionar deliveries ou campanha da pasta específica.
+1. No campo **[!UICONTROL Separar pasta]**, selecione se deseja direcionar entregas ou campanhas de uma pasta específica.
 
-   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_2.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Adicionar regras]** para começar a criar consultas para filtrar melhor os dados de relatórios. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
 
-1. No **[!UICONTROL Fluxos de clique e URLs]**, você também pode escolher a variável **[!UICONTROL Links mais visitados]** ou o **[!UICONTROL Período]**.
+1. Nas **[!UICONTROL URLs e fluxos de cliques]**, você também pode escolher os **[!UICONTROL Links Mais Visitados]** ou o **[!UICONTROL Período]**.
 
-   A variável **[!UICONTROL Visualizar por]** As opções de permitem filtrar por URLs, Rótulos ou Categorias.
+   As opções **[!UICONTROL Exibir por]** permitem filtrar por URLs, Rótulos ou Categorias.

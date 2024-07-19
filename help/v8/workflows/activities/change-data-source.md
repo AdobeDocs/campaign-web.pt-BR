@@ -17,17 +17,17 @@ ht-degree: 13%
 >title="Alterar fonte de dados"
 >abstract="A atividade **Alterar fonte de dados** permite selecionar uma fonte de dados diferente para a tabela de trabalho do fluxo de trabalho."
 
-A variável **Alterar fonte de dados** a atividade é um **direcionamento** atividade. Essa atividade permite alterar a fonte de dados usada pela tabela de Trabalho do workflow. Isso proporciona mais flexibilidade, permitindo que você gerencie dados em seus diferentes bancos de dados e melhore o desempenho.
+A atividade **Alterar fonte de dados** é uma atividade de **direcionamento**. Essa atividade permite alterar a fonte de dados usada pela tabela de Trabalho do workflow. Isso proporciona mais flexibilidade, permitindo que você gerencie dados em seus diferentes bancos de dados e melhore o desempenho.
 
-Nos workflows, os dados transportados de uma atividade para outra por meio de transições são armazenados em um **Tabela de trabalho**. Por padrão, as tabelas de trabalho são criadas no mesmo banco de dados da origem dos dados processados. Por exemplo, ao consultar a tabela &quot;Perfis&quot;, armazenada no banco de dados em nuvem, uma tabela de Trabalho é criada no mesmo banco de dados em nuvem.
+Nos fluxos de trabalho, os dados transportados de uma atividade para outra por meio de transições são armazenados em uma **Tabela de trabalho** temporária. Por padrão, as tabelas de trabalho são criadas no mesmo banco de dados da origem dos dados processados. Por exemplo, ao consultar a tabela &quot;Perfis&quot;, armazenada no banco de dados em nuvem, uma tabela de Trabalho é criada no mesmo banco de dados em nuvem.
 
-Em alguns casos, os dados não estão disponíveis no banco de dados atual ou não são eficientes o suficiente para executar operações unitárias. Portanto, talvez seja necessário forçar o workflow a usar um banco de dados diferente para executar essas operações adicionando um **[!UICONTROL Alterar fonte de dados]** atividade.
+Em alguns casos, os dados não estão disponíveis no banco de dados atual ou não são eficientes o suficiente para executar operações unitárias. Portanto, talvez seja necessário forçar o fluxo de trabalho a usar um banco de dados diferente para executar essas operações adicionando uma atividade **[!UICONTROL Alterar fonte de dados]**.
 
-Informações detalhadas sobre a arquitetura do Campaign estão disponíveis em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Informações detalhadas sobre a arquitetura do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
 
 >[!IMPORTANT]
 >
->Observe que a variável **[!UICONTROL Alterar dimensão]** e **[!UICONTROL Alterar fonte de dados]** as atividades não devem ser adicionadas em uma linha. Se precisar usar ambas as atividades consecutivamente, inclua uma **[!UICONTROL Enriquecimento]** atividade entre eles. Isso garante a execução adequada e evita possíveis conflitos ou erros.
+>Observe que as atividades **[!UICONTROL Alterar Dimensão]** e **[!UICONTROL Alterar Fonte de Dados]** não devem ser adicionadas em uma linha. Se você precisar usar ambas as atividades consecutivamente, certifique-se de incluir uma atividade **[!UICONTROL Enriquecimento]** entre elas. Isso garante a execução adequada e evita possíveis conflitos ou erros.
 
 <!--
 
@@ -45,16 +45,16 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Configurar a atividade Alterar fonte de dados {#configure}
 
-Siga estas etapas para configurar o **Alterar dimensão** atividade:
+Siga estas etapas para configurar a atividade **Alterar dimensão**:
 
 ![](../assets/workflow-change-data-source-add.png)
 
-1. Adicionar um **Alterar fonte de dados** atividade ao seu fluxo de trabalho.
+1. Adicione uma atividade **Alterar fonte de dados** ao seu fluxo de trabalho.
 
 1. Defina a fonte de dados para onde deseja mover a tabela de Trabalho:
 
-   * **[!UICONTROL Banco de dados padrão do Campaign (PostgreSQL)]**: use o banco de dados local padrão do Campaign.
-   * **[!UICONTROL Conta externa FDA]**: use bancos de dados externos da nuvem conectados ao Adobe Campaign por meio do recurso Federated Data Access.
+   * **[!UICONTROL Banco de dados padrão do Campaign (PostgreSQL)]**: usar o banco de dados local padrão do Campaign.
+   * **[!UICONTROL Conta externa FDA]**: use bancos de dados externos da nuvem conectados à Adobe Campaign por meio do recurso Federated Data Access.
 
      >[!AVAILABILITY]
      >

@@ -5,14 +5,14 @@ description: Entender os relatórios de campanha do canal de correspondência di
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 22%
+source-wordcount: '520'
+ht-degree: 21%
 
 ---
 
 # Relatórios de campanha para o canal de correspondência direta {#campaign-reports-direct-mail}
 
-Cada relatório de campanha é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Para o canal de correspondência direta, os relatórios e as métricas são detalhados abaixo. Saiba como acessar os relatórios de campanha no [esta página](campaign-reports.md).
+Cada relatório de campanha é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Para o canal de correspondência direta, os relatórios e as métricas são detalhados abaixo. Saiba como acessar seus relatórios de campanha em [esta página](campaign-reports.md).
 
 ## Resumo da entrega {#delivery-summary-direct}
 
@@ -23,19 +23,19 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >title="Visão geral da entrega"
 >abstract="A **Visão geral da entrega** apresenta métricas principais de desempenho (KPIs) com informações detalhadas sobre as interações de visitantes com cada entrega de correspondência direta. As métricas estão descritas abaixo."
 
-A variável **[!UICONTROL Visão geral da entrega]** O apresenta as principais métricas de desempenho (KPIs) com informações detalhadas sobre a interação de seus visitantes com cada delivery de correspondência direta. As métricas estão descritas abaixo.
+A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de desempenho (KPIs), que fornecem insights detalhados sobre a interação de seus visitantes com cada entrega de correspondência direta. As métricas estão descritas abaixo.
 
-![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
-* **[!UICONTROL Mensagens a entregar]**: Número total de mensagens processadas durante a preparação do delivery.
+* **[!UICONTROL Mensagens a serem entregues]**: número total de mensagens processadas durante a preparação da entrega.
 
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Erros]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Erros]**: Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Total de cliques]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
+* **[!UICONTROL Total de cliques]**: número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
 +++
 
@@ -46,17 +46,17 @@ A variável **[!UICONTROL Visão geral da entrega]** O apresenta as principais m
 >title="Estatísticas iniciais do público-alvo"
 >abstract="Os dados de destinatários e as informações da mensagem são exibidos na tabela **Estatísticas iniciais do público-alvo**, que reflete a análise de preparação da entrega."
 
-A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela exibe dados relativos aos recipients. As métricas são calculadas durante a preparação do delivery e mostram: o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
+A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas são calculadas durante a preparação do delivery e mostram: o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Saiba mais sobre as métricas de Estatísticas iniciais de público-alvo.
 
-* **[!UICONTROL Público inicial]**: Número total de recipients alvos.
+* **[!UICONTROL Público-alvo inicial]**: número total de destinatários direcionados.
 
-* **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
+* **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* **[!UICONTROL Rejeitado por regras]**: Número total de endereços ignorados durante a análise ao aplicar as regras: endereço em falta, em quarentena, na inclui na lista de bloqueios, etc.
+* incluir na lista de bloqueios **[!UICONTROL Rejected by rules]**: Número total de endereços ignorados durante a análise ao aplicar regras: endereço em falta, em quarentena, no, etc.
 
 +++
 
@@ -69,17 +69,17 @@ A variável **[!UICONTROL Estatísticas iniciais do público-alvo]** A tabela ex
 
 ![](assets/direct-mail-campaign-exec.png)
 
-A variável **[!UICONTROL Estatísticas de execução]** A tabela fornece um detalhamento do sucesso de cada delivery de correspondência direta, com métricas detalhadas descritas abaixo.
+A tabela **[!UICONTROL Estatísticas de execução]** fornece um detalhamento do sucesso de cada delivery de correspondência direta, com métricas detalhadas descritas abaixo.
 
 +++Saiba mais sobre Estatísticas de entrega.
 
-* **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação do delivery.
+* **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* **[!UICONTROL Sucesso]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Success]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Erros]**: Número total de erros acumulados durante os deliveries e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Erros]**: Número total de erros acumulados durante as entregas e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Novos em quarentena]**: Número total de endereços colocados em quarentena após um delivery com falha (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues.
 
 +++
 
@@ -90,16 +90,16 @@ A variável **[!UICONTROL Estatísticas de execução]** A tabela fornece um det
 >title="Fluxos de cliques gerados"
 >abstract="A tabela **Fluxos de clique gerados** mostra os dados disponíveis relativos a como seus destinatários interagiram com a entrega."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
-A variável **Fluxos de clique gerados** A tabela ilustra os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
+A tabela **Fluxos de cliques gerados** ilustra os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 
 +++Saiba mais sobre Métricas de fluxos de clique gerados.
 
-* **[!UICONTROL Cliques únicos]**: Número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
+* **[!UICONTROL Cliques únicos]**: número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
-* **[!UICONTROL Total de cliques]**: Número total de cliques nos links nos deliveries.
+* **[!UICONTROL Total de cliques]**: número total de cliques nos links nas entregas.
 
-* **[!UICONTROL Reatividade]**: Taxa do número de recipients alvos que clicaram em um delivery em relação ao número estimado de recipients alvos que abriram um delivery.
+* **[!UICONTROL Reatividade]**: taxa do número de recipients alvos que clicaram em uma entrega em relação ao número estimado de recipients alvos que abriram uma entrega.
 
 +++

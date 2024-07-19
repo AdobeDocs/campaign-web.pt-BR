@@ -29,28 +29,28 @@ Para criar uma nova campanha, você precisa definir suas configurações, agenda
 
 Para criar uma nova campanha, siga estas etapas:
 
-1. Clique em **[!UICONTROL Campanhas]** e clique no botão **[!UICONTROL Criar campanha]** botão.
+1. Clique no menu **[!UICONTROL Campanhas]** e clique no botão **[!UICONTROL Criar campanha]**.
 
    ![Criar uma nova campanha](assets/create-campaign-button.png)
 
-1. Selecione o **Modelo** para usar e fornecer um rótulo para a campanha. [Leia mais](manage-campaigns.md#manage-campaign-templates).
-1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
-1. Defina o **Agendar** da sua campanha. Saiba como definir a programação da campanha no [nesta seção](#campaign-schedule)
+1. Selecione o **Modelo** a ser usado e forneça um rótulo para a campanha. [Leia mais](manage-campaigns.md#manage-campaign-templates).
+1. Se necessário, você pode alterar as **Opções adicionais** a seguir: nome interno, pasta, destinatário, descrição e natureza.
+1. Defina o **Agendamento** da sua campanha. Saiba como definir seu agendamento de campanha em [esta seção](#campaign-schedule)
 1. Clique em **Create**.
 
    ![Criar propriedades da campanha](assets/create-a-campaign-properties.png)
 
 1. Adicione workflows e deliveries à sua campanha:
 
-   * No **Fluxos de trabalho** clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md).
+   * Na guia **Fluxos de trabalho**, clique em **Criar fluxo de trabalho**. Um workflow padrão é adicionado automaticamente ao criar sua campanha. Saiba como [criar um fluxo de trabalho](../workflows/create-workflow.md).
 
-   * No **Entregas** clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
+   * Na guia **Entregas**, clique em **Criar entrega**. [Saiba mais](../msg/gs-messages.md)
 
 ## Monitorar e rastrear sua campanha{#campaign-monitoring}
 
-O monitoramento da campanha é uma etapa essencial para analisar a eficácia da campanha. Abra a campanha e clique no link **Logs** botão.
+O monitoramento da campanha é uma etapa essencial para analisar a eficácia da campanha. Abra a campanha e clique no botão **Logs**.
 
-Também é possível exibir os relatórios dedicados clicando no link **Relatórios** botão. Consulte esta [seção](../reporting/campaign-reports.md).
+Você também pode exibir os relatórios dedicados clicando no botão **Relatórios**. Consulte esta [seção](../reporting/campaign-reports.md).
 
 
 ## Definir a programação da campanha {#campaign-schedule}
@@ -61,13 +61,13 @@ Também é possível exibir os relatórios dedicados clicando no link **Relatór
 >abstract="Selecione a programação de campanha. É possível criar a campanha para que ela comece na data inicial. Por padrão, a data inicial da campanha é a data de criação, e ela dura 5 dias. As datas inicial e final são exibidas na lista de campanhas e podem ser usadas como um filtro."
 
 
-A campanha começa quando a data de início é atingida. Desde que a data de início não seja atingida, a campanha tem o **[!UICONTROL Rascunho]** status. Em seguida, quando a data de início é atingida, ela se transforma em **[!UICONTROL Em andamento]**. Quando a data final é atingida, a campanha é definida como **[!UICONTROL Concluído]**.
+A campanha começa quando a data de início é atingida. Desde que a data de início não seja atingida, a campanha terá o status **[!UICONTROL Rascunho]**. Depois, quando a data de início é atingida, ela muda para **[!UICONTROL Em andamento]**. Ao atingir a data de término, a campanha será definida como **[!UICONTROL Concluída]**.
 
 As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
 
 >[!NOTE]
 >
->Você sempre pode modificar essas propriedades posteriormente, no **Definir configurações da campanha** ícone, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard).
+>Você sempre pode modificar essas propriedades posteriormente, a partir do ícone **Definir configurações da campanha**, ao lado do rótulo da campanha. Consulte esta [seção](gs-campaigns.md#campaign-dashboard).
 
 Quando a data é atingida, os deliveries criados nessa campanha no contexto de um workflow que estão prontos para serem enviados são realmente enviados. Para isso, o workflow deve ter sido iniciado.
 

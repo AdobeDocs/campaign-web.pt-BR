@@ -5,8 +5,8 @@ description: Saiba como importar conteúdo de email
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 40%
+source-wordcount: '272'
+ht-degree: 38%
 
 ---
 
@@ -30,27 +30,27 @@ Você pode importar conteúdo de HTML existente no Designer de email. Esse conte
 
 Para importar um arquivo com conteúdo HTML, siga as etapas abaixo.
 
-1. No [Email Designer](get-started-email-designer.md) home page, selecione **[!UICONTROL Importar HTML]**.
+1. Na página inicial do [Email Designer](get-started-email-designer.md), selecione **[!UICONTROL Importar HTML]**.
 
-   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
+   ![](assets/html-import.png){zoomable="yes"}
 
 1. Arraste e solte o HTML ou arquivo .zip contendo seu conteúdo HTML e clique em **[!UICONTROL Importar]**.
 
-1. Depois que o conteúdo do HTML for carregado, seu conteúdo estará em **[!UICONTROL Modo de compatibilidade]**.
+1. Assim que o conteúdo do HTML for carregado, seu conteúdo estará no **[!UICONTROL Modo de compatibilidade]**.
 
    Nesse modo, você só pode personalizar seu texto, adicionar links ou incluir ativos ao seu conteúdo.
 
-   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
+   ![](assets/html-imported.png){zoomable="yes"}
 
-1. Para aproveitar os componentes de conteúdo do Designer de email, acesse o **[!UICONTROL conversor de HTML]** e clique em **[!UICONTROL Converter]**.
+1. Para aproveitar os componentes de conteúdo do Email Designer, acesse a guia **[!UICONTROL Conversor de HTML]** e clique em **[!UICONTROL Converter]**.
 
-   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/html-imported-2.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   > Uso de um `<table>` marcar como a primeira camada em um arquivo HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na tag da camada superior.
+   > Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-1. Agora você pode personalizar o arquivo importado conforme necessário com as funcionalidades do Designer de email [Saiba mais](content-components.md).
+1. Agora você pode personalizar seu arquivo importado conforme necessário com as funcionalidades de email do Designer [Saiba mais](content-components.md).
 
 ## Vídeo tutorial {#video}
 

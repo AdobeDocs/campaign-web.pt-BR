@@ -5,7 +5,7 @@ description: Saiba como criar sua primeira consulta no Adobe Campaign Web query 
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2098'
 ht-degree: 74%
 
 ---
@@ -20,27 +20,27 @@ A edição de uma expressão envolve a inserção manual de condições para for
 
 ## Trabalhar com o editor de expressão {#edit}
 
-O editor de expressão está disponível no modelador de consultas **[!UICONTROL Editar expressão]** botão, disponível para **[!UICONTROL Atributo]** e **[!UICONTROL Valor]** ao configurar uma condição personalizada.
+O editor de expressão está disponível pelo botão **[!UICONTROL Editar expressão]** do modelador de consulta, disponível para os campos **[!UICONTROL Atributo]** e **[!UICONTROL Valor]** ao configurar uma condição personalizada.
 
-| Acesso pelo **Atributo** campo | Acesso pelo **Valor** campo |
+| Acesso pelo campo **Atributo** | Acesso do campo **Value** |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 O editor de expressão fornece:
 
-* Um **campo de entrada (1)** na qual a expressão é definida.
-* A lista de opções disponíveis **campos (2)** que pode ser usada na expressão e corresponde ao targeting dimension do query.
-* **Funções auxiliares (3)**, classificado por categoria.
+* Um campo de entrada **(1)** no qual a expressão é definida.
+* A lista de **campos (2)** disponíveis que podem ser usados na expressão e que correspondem à dimensão de direcionamento da consulta.
+* **Funções auxiliares (3)**, classificadas por categoria.
 
 Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
 
-![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
+![](assets/expression-editor.png){zoomable="yes"}
 
-Quando a expressão estiver pronta, clique no botão **[!UICONTROL Confirmar o]** botão. A expressão é exibida no campo selecionado. Para editá-lo, abra o editor de expressão e faça as alterações desejadas.
+Quando a expressão estiver pronta, clique no botão **[!UICONTROL Confirmar]**. A expressão é exibida no campo selecionado. Para editá-lo, abra o editor de expressão e faça as alterações desejadas.
 
-O exemplo abaixo mostra uma expressão configurada para a variável **[!UICONTROL Valor]** campo. Para editá-lo, é necessário abrir o editor de expressão usando o **[!UICONTROL Editar expressão]** botão.
+O exemplo abaixo mostra uma expressão configurada para o campo **[!UICONTROL Value]**. Para editá-lo, é necessário abrir o editor de expressão usando o botão **[!UICONTROL Editar expressão]**.
 
-![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
+![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Funções de ajuda
 
@@ -93,9 +93,9 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
    <td> StdDev(&lt;value&gt;)<br /></td> 
   </tr>
   <tr> 
-   <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere no segundo argumento<br /> </td> 
-   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
+   <td> <strong>AgregaçãoDeCadeiaDeCaracteres</strong><br /> </td> 
+   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere no segundo argumento <br /> </td> 
+   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -148,8 +148,8 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Converte o carimbo de data e hora NTZ (carimbo de data e hora sem fuso horário) em TZ (carimbo de data e hora com fuso horário) usando a sessão definida TZ<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> Converte o carimbo de data/hora NTZ (carimbo de data/hora sem fuso horário) em TZ (carimbo de data/hora com fuso horário) aplicando a sessão definida TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
   </tr>
   <tr> 
    <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
@@ -159,7 +159,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
    <td> Comparar duas datas<br/> </td> 
-   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
+   <td> DateCmp(&lt;data&gt;,&lt;data&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -244,7 +244,7 @@ As funções de data são usadas para manipular valores de data ou hora.
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
    <td> Retorna a data mais antiga em um intervalo<br /> </td> 
-   <td> Mais antigo (&lt;date date=""&gt;)<br /> </td>  
+   <td> Mais antigo (&lt;data, data&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -298,13 +298,13 @@ As funções de data são usadas para manipular valores de data ou hora.
   </tr> 
   <tr> 
    <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Converte uma cadeia de caracteres em um carimbo de data e hora<br /> </td> 
-   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+   <td> Converte uma cadeia de caracteres em carimbo de data/hora<br /> </td> 
+   <td> ToTimestamp(&lt;cadeia de caracteres&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
    <td> Converter uma data + hora em fuso horário<br /> </td> 
-   <td> ToTimeZone()&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+   <td> ToTimeZone(&lt;data&gt;,&lt;fuso horário&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -352,9 +352,9 @@ As funções de data são usadas para manipular valores de data ou hora.
    <td> YearAndMonth(&lt;data&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> <strong>AnosAtrás</strong><br /> </td> 
    <td> Retorna o número de anos entre uma determinada data e a data atual<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
+   <td> YearsAgo(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -488,9 +488,9 @@ Esta tabela contém as funções restantes disponíveis.
    <td> <strong>Sintaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Criptografar cadeia de caracteres fornecida no argumento<br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> <strong>CriptografiaAEM</strong><br /> </td> 
+   <td> Cadeia de caracteres criptografada fornecida no argumento <br /> </td> 
+   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -548,8 +548,8 @@ Esta tabela contém as funções restantes disponíveis.
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Retorna uma ID exclusiva<br /> </td> 
+   <td> <strong>NovoUUID</strong><br /> </td> 
+   <td> Retorna uma ID exclusiva <br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -618,7 +618,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Retorna o tamanho em bytes da cadeia de caracteres<br /> </td> 
+   <td> Retorna o tamanho em bytes da cadeia de caracteres <br /> </td> 
    <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -658,7 +658,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Linha</strong><br /> </td> 
-   <td> Extrair linha n da string<br /> </td> 
+   <td> Extrair linha n da cadeia de caracteres<br /> </td> 
    <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
@@ -669,7 +669,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Retorna a string concluída à esquerda<br /> </td> 
-   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;Cadeia de caracteres&gt;, &lt;Número&gt;, &lt;Caractere&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -687,14 +687,14 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> MemoContains(&lt;memorando&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>NodeValue</strong><br /> </td> 
-   <td> Extrai o valor de um campo XML de seu XPath e dos dados do campo<br /> </td> 
-   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> <strong>ValorDoNó</strong><br /> </td> 
+   <td> Extrai o valor de um campo XML de seu XPath e dos dados do campo <br /> </td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Substitui todas as ocorrências de um valor de string especificado por outro valor de string.<br /> </td> 
-   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
+   <td> Substitui todas as ocorrências de um valor de cadeia de caracteres especificado por outro valor de cadeia de caracteres.<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -714,12 +714,12 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Representação hexadecimal da chave SHA256 de uma cadeia de caracteres.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;Cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Representação hexadecimal da chave SHA512 de uma cadeia de caracteres.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;Cadeia de caracteres&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -765,8 +765,8 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>_Sobre__</strong><br /> </td> 
-   <td> Execute a chamada de função SQL inserida como primeiro parâmetro, em Partition ou Order By, nos campos inseridos como segundo parâmetro<br /> </td> 
-   <td> _Sobre_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Execute a chamada de função SQL inserida como o primeiro parâmetro, em Partição ou Ordenar pelos campos inseridos como o segundo parâmetro<br /> </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

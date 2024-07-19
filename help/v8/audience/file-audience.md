@@ -5,8 +5,8 @@ description: Saiba como carregar perfis de um arquivo externo para criar seu pú
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 29%
+source-wordcount: '649'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 29%
 >title="Visualizar seu arquivo"
 >abstract="Verifique a visualização das colunas do arquivo externo. Essa tela mostra um máximo de 30 registros."
 
-A interface da Web do Adobe Campaign permite direcionar perfis armazenados em um arquivo externo. Depois que os perfis forem carregados, todos os campos do arquivo de entrada estarão disponíveis para uso para personalizar o delivery [Saiba como personalizar seu conteúdo](../personalization/personalize.md).
+A interface da Web do Adobe Campaign permite direcionar perfis armazenados em um arquivo externo. Após carregar os perfis, todos os campos do arquivo de entrada estarão disponíveis para uso na personalização da entrega [Saiba como personalizar o conteúdo](../personalization/personalize.md).
 
 Perfis do arquivo de entrada não são adicionados ao banco de dados. Eles são carregados e disponibilizados somente para esse delivery de email independente específico.
 
@@ -42,7 +42,7 @@ Perfis do arquivo de entrada não são adicionados ao banco de dados. Eles são 
 
 ## Leitura obrigatória {#must-read}
 
-* Esse recurso está disponível para **deliveries de email** somente.
+* Este recurso está disponível somente para **entregas de email**.
 * Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV).
 * Não é possível usar [grupos de controle](control-group.md) ao carregar a população alvo a partir de um arquivo externo.
 
@@ -50,23 +50,23 @@ Perfis do arquivo de entrada não são adicionados ao banco de dados. Eles são 
 
 Para direcionar perfis de um arquivo em seus emails, siga estas etapas:
 
-1. Abrir um delivery de email existente, ou [criar um novo delivery de email](../email/create-email.md).
-1. No **Público** clique na guia **Selecionar público** e escolha **Selecionar do arquivo**.
+1. Abra uma entrega de email existente ou [crie uma nova entrega de email](../email/create-email.md).
+1. Na seção **Público**, clique no botão **Selecionar público-alvo** e escolha **Selecionar do arquivo**.
 
-   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-from-file.png){zoomable="yes"}
 
-1. Selecione o arquivo local a ser carregado. O formato de arquivo deve estar alinhado com o [arquivo de amostra](#sample-file).
+1. Selecione o arquivo local a ser carregado. O formato de arquivo deve estar alinhado com o [arquivo de exemplo](#sample-file).
 1. Visualize e verifique como os dados estão mapeados na seção central da tela.
 
    ![](assets/select-from-file-map.png)
 
-1. Especifique a coluna que contém o endereço de email do **Campo de endereço** lista suspensa. Também é possível selecionar a coluna lista de bloqueios se tiver essas informações no arquivo de entrada.
+1. Especifique a coluna que contém o endereço de email da lista suspensa **Campo de Endereço**. Também é possível selecionar a coluna lista de bloqueios se tiver essas informações no arquivo de entrada.
 1. Ajuste as configurações de coluna e como formatar os dados a partir das opções disponíveis.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
 Ao criar o conteúdo da mensagem, você pode adicionar personalização aproveitando os campos do arquivo de entrada. [Saiba como personalizar conteúdo](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
+![](assets/select-external-perso.png){zoomable="yes"}
 
 ## Arquivo de amostra {#sample-file}
 
@@ -95,24 +95,24 @@ Ao carregar um arquivo externo para direcionar perfis em seus deliveries, verifi
 
 O Campaign Web permite visualizar e enviar provas ao usar um público-alvo carregado de um arquivo. Para fazer isso, siga estes passos:
 
-1. Clique em **[!UICONTROL Botão Simular conteúdo]** na tela de edição de conteúdo do delivery e clique no link **[!UICONTROL Adicionar perfil(s) de teste]** botão.
+1. Clique no botão **[!UICONTROL Simular conteúdo]** da tela de edição de conteúdo da entrega e clique no botão **[!UICONTROL Adicionar perfil(s) de teste]**.
 
-1. Os perfis contidos no arquivo carregado são exibidos. Selecione os perfis que deseja usar para visualizar o conteúdo e clique em **[!UICONTROL Selecionar]**.
+1. Os perfis contidos no arquivo carregado são exibidos. Selecione o(s) perfil(is) que deseja usar para visualizar seu conteúdo e clique em **[!UICONTROL Selecionar]**.
 
-1. Uma pré-visualização do conteúdo do delivery é exibida no painel direito da tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo. [Saiba mais sobre pré-visualização de conteúdo de delivery](../preview-test/preview-content.md)
+1. Uma pré-visualização do conteúdo do delivery é exibida no painel direito da tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo. [Saiba mais sobre a visualização do conteúdo da entrega](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-preview.png){zoomable="yes"}
 
-1. Para enviar provas, clique no link **[!UICONTROL Enviar prova]** botão.
+1. Para enviar provas, clique no botão **[!UICONTROL Enviar prova]**.
 
-1. Clique em **[!UICONTROL Carregar perfis de prova]** e selecione o arquivo .txt ou .csv que contém os recipients de prova.
+1. Clique no botão **[!UICONTROL Carregar perfis de prova]** e selecione o arquivo .txt ou .csv que contém os destinatários de prova.
 
    >[!CAUTION]
    >
    >Verifique se o formato do arquivo corresponde ao usado para fazer upload do seu público-alvo. Quaisquer erros de formato exibirão um alerta.
 
-1. Quando os perfis de prova forem adicionados e você estiver pronto para enviar as provas, clique no link **[!UICONTROL Enviar prova]** e confirme o envio.
+1. Quando os perfis de prova forem adicionados e você estiver pronto para enviar as provas, clique no botão **[!UICONTROL Enviar prova]** e confirme o envio.
 
-   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-test.png){zoomable="yes"}
 
-1. É possível monitorar o envio da prova usando o **[!UICONTROL Exibir provas]** a qualquer momento. [Saiba mais sobre o monitoramento de provas](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Você pode monitorar o envio da prova usando o botão **[!UICONTROL Exibir provas]** a qualquer momento. [Saiba mais sobre o monitoramento de provas](../preview-test/test-deliveries.md#access-test-deliveries)

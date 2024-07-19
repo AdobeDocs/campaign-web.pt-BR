@@ -14,21 +14,21 @@ ht-degree: 4%
 
 # Adicionar fragmentos visuais aos emails {#use-visual-fragments}
 
-É possível usar um fragmento visual em uma [delivery de email](get-started-email-designer.md)ou em um [template de conteúdo](use-email-templates.md). As etapas são detalhadas abaixo.
+Você pode usar um fragmento visual em uma [entrega de email](get-started-email-designer.md) ou em um [modelo de conteúdo](use-email-templates.md). As etapas são detalhadas abaixo.
 
 
 >[!NOTE]
 >
->Saiba como criar e gerenciar fragmentos no [nesta seção](fragments.md).
+>Saiba como criar e gerenciar fragmentos em [esta seção](fragments.md).
 
 
 ## Usar um fragmento {#use-fragment}
 
 Para inserir um fragmento em um conteúdo de email, siga as etapas abaixo:
 
-1. Abra qualquer conteúdo de email ou modelo usando o [Email Designer](get-started-email-designer.md).
+1. Abra qualquer conteúdo de email ou modelo usando a [Designer de email](get-started-email-designer.md).
 
-1. Selecione o **[!UICONTROL Fragmentos]** no painel esquerdo.
+1. Selecione o ícone **[!UICONTROL Fragmentos]** no painel esquerdo.
 
    ![](assets/fragments-in-designer.png)
 
@@ -42,7 +42,7 @@ Para inserir um fragmento em um conteúdo de email, siga as etapas abaixo:
    >
    >Os fragmentos são classificados por data de criação: os fragmentos visuais adicionados recentemente são mostrados primeiro na lista.
 
-   Se alguns fragmentos foram modificados ou adicionados enquanto você está editando o conteúdo, clique no link **Atualizar** ícone para atualizar a lista com as alterações mais recentes.
+   Se alguns fragmentos foram modificados ou adicionados enquanto você está editando seu conteúdo, clique no ícone **Atualizar** para atualizar a lista com as alterações mais recentes.
 
 1. Arraste e solte qualquer fragmento da lista na área em que deseja inseri-lo. Como qualquer outro componente, é possível mover o fragmento no conteúdo.
 
@@ -50,17 +50,17 @@ Para inserir um fragmento em um conteúdo de email, siga as etapas abaixo:
 
    ![](assets/fragment-right-pane.png)
 
-   No **[!UICONTROL Configurações]** é possível:
+   Na guia **[!UICONTROL Configurações]**, é possível:
 
    * Escolha os dispositivos nos quais deseja que o fragmento seja exibido.
-   * Clique em **Editar conteúdo** botão para abrir o conteúdo desse fragmento. [Saiba mais](../email/fragments.md#edit-fragments)
+   * Clique no botão **Editar conteúdo** para abrir o conteúdo deste fragmento. [Saiba mais](../email/fragments.md#edit-fragments)
 
-     É possível personalizar ainda mais o fragmento usando o **[!UICONTROL Estilos]** guia.
+     Você pode personalizar ainda mais o fragmento usando a guia **[!UICONTROL Estilos]**.
 
 1. Se necessário, é possível quebrar a herança com o fragmento original. [Saiba mais](#break-inheritance)
 Você também pode excluir o fragmento do seu conteúdo ou duplicá-lo. Essas ações podem ser executadas diretamente no menu contextual exibido na parte superior do fragmento.
 
-1. Adicione quantos fragmentos desejar e **[!UICONTROL Salvar]** suas alterações.
+1. Adicione quantos fragmentos desejar e **[!UICONTROL Salve]** suas alterações.
 
 ## Interromper herança {#break-inheritance}
 

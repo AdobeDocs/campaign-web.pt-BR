@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Alertas de entrega
+title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 A interface da Web do Campaign fornece critérios de alerta predefinidos (entregas com baixa taxa de transferência, entregas cuja preparação falhou...) que podem ser adicionados ao painel. Você também pode criar seus próprios critérios para atender às suas necessidades.
 
-Os critérios de alerta podem ser acessados no **Alertas de entrega** no painel de navegação esquerdo, sob a guia **Critérios** guia.
+Os critérios de alerta podem ser acessados no menu **Alertas de Entrega**, no painel de navegação esquerdo, na guia **Critérios**.
 
 ![](assets/alerting-criteria-list.png)
 
@@ -27,17 +27,17 @@ Os critérios de alerta podem ser acessados no **Alertas de entrega** no painel 
 
 Os critérios de alerta predefinidos estão disponíveis na interface da Web do Campaign. Estes critérios abrangem uma série de cenários, a seguir enumerados:
 
-* **Falha nos deliveries**: qualquer delivery agendado dentro de uma faixa definida, com um status incorreto.
-* **Falha nos deliveries com preparação**: qualquer delivery modificado dentro de um intervalo definido, para o qual a etapa de preparação (cálculo de target e geração de conteúdo) falhou.
-* **Entrega com taxa de erro incorreta para rejeições temporárias**: qualquer delivery agendado dentro de um intervalo definido, com um status pelo menos Em andamento, com uma taxa de erro de rejeição temporária maior que uma porcentagem definida.
-* **Entrega com taxa de erro ruim para rejeições permanentes**: qualquer delivery agendado dentro de um intervalo definido, com um status pelo menos Em andamento, com uma taxa de erro de rejeição permanente maior que uma porcentagem definida.
-* **Entregas com início longo pendente**: Qualquer delivery agendado em um intervalo definido, com um status Start pending por mais de uma duração definida, Start pending status significa que as mensagens ainda não foram consideradas pelo sistema.
-* **Entregas com baixa taxa de transferência**: qualquer delivery iniciado por mais do que uma duração definida, com menos do que uma porcentagem definida de mensagens processadas, com uma taxa de transferência inferior a um valor definido.
-* **Entregas em andamento**: qualquer delivery agendado dentro de um intervalo definido, com o status In progress.
+* **Falha nas entregas**: qualquer entrega agendada dentro de um intervalo definido, com um status incorreto.
+* **Falha na entrega com preparação**: qualquer entrega modificada dentro de um intervalo definido, para a qual a etapa de preparação (cálculo de destino e geração de conteúdo) falhou.
+* **Entrega com taxa de erro incorreta para rejeições temporárias**: qualquer entrega agendada dentro de um intervalo definido, com status pelo menos Em andamento, com uma taxa de erro de rejeição temporária maior que uma porcentagem definida.
+* **Entrega com taxa de erro incorreta para rejeições permanentes**: qualquer entrega agendada dentro de um intervalo definido, com um status pelo menos Em andamento, com uma taxa de erro de rejeição permanente maior que uma porcentagem definida.
+* **Entregas com início longo pendente**: qualquer entrega agendada dentro de um intervalo definido, com um status de Início pendente por mais tempo do que uma duração definida, status de Início pendente significando que as mensagens ainda não foram consideradas pelo sistema.
+* **Entregas com baixa taxa de transferência**: qualquer entrega iniciada por mais de uma duração definida, com menos de uma porcentagem definida de mensagens processadas, com uma taxa de transferência inferior a um valor definido.
+* **Entregas em andamento**: qualquer entrega agendada dentro de um intervalo definido, com o status Em andamento.
 
 >[!NOTE]
 >
->Os valores padrão são aplicados a todos os parâmetros para os critérios acima. Esses valores podem ser personalizados na variável **Parâmetros de critérios** seção dos painéis de alerta de delivery onde estão sendo usados. [Saiba como trabalhar com painéis](../msg/delivery-alerting-dashboards.md)
+>Os valores padrão são aplicados a todos os parâmetros para os critérios acima. Esses valores podem ser personalizados na seção **Parâmetros de critério** dos painéis de alerta de entrega onde estão sendo usados. [Saiba como trabalhar com painéis](../msg/delivery-alerting-dashboards.md)
 
 ## Criar um critério de alerta {#criteria}
 
@@ -68,26 +68,26 @@ Os critérios de alerta predefinidos estão disponíveis na interface da Web do 
 
 Para criar um novo critério, siga estas etapas:
 
-1. Navegue até a **Alerta de entrega** no painel de navegação esquerdo e selecione a guia **Critérios** guia.
-1. Clique em **Criar critérios de alerta de entrega** botão.
+1. Navegue até o menu **Delivery Àlerting** no painel de navegação esquerdo e selecione a guia **Critérios**.
+1. Clique no botão **Criar critérios de alerta de entrega**.
 1. Forneça um rótulo para o critério. O nome interno é preenchido automaticamente e é somente leitura.
-1. A variável **Filtro de entrega aplicado por este critério** permite refinar o escopo do critério aplicando um filtro predefinido a ele.
+1. O **Filtro de entrega aplicado por este critério** permite refinar o escopo do critério, aplicando um filtro predefinido a ele.
 
-   No exemplo abaixo, a variável **Entregas em andamento (critInProgressDeliveries)** O filtro foi selecionado, o que significa que o critério considera apenas os deliveries com o status &quot;Em andamento&quot;.
+   No exemplo abaixo, o filtro **Deliveries em andamento (critInProgressDeliveries)** foi selecionado, o que significa que o critério só considera deliveries com o status &quot;Em andamento&quot;.
 
    ![](assets/alerting-criteria-properties.png)
 
    >[!NOTE]
    >
-   >Se nenhum dos filtros predefinidos atender às suas necessidades, entre em contato com o administrador para criar seu próprio filtro.  Informações detalhadas sobre como criar filtros predefinidos no console do Campaign estão disponíveis na [Documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}
+   >Se nenhum dos filtros predefinidos atender às suas necessidades, entre em contato com o administrador para criar seu próprio filtro.  Informações detalhadas sobre como criar filtros predefinidos no console do Campaign estão disponíveis na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}
    >
    >Esta operação deve ser executada somente por usuários avançados.
 
-1. No **Indicadores para adicionar nos alertas** escolha os indicadores a serem exibidos como colunas na seção &quot;Detalhes&quot; dos alertas de email.
+1. Na seção **Indicators to add in alerts**, escolha os indicadores a serem exibidos como colunas na seção &quot;Details&quot; dos alertas de email.
 
 1. Especifique o **Tipo de alerta** para o critério, ou seja, o rótulo e a cor a serem exibidos ao lado do critério de entrega na seção “Resumo” dos alertas.
 
-1. A variável **Frequência dos critérios** permite controlar a frequência de alertas por dia para cada delivery que atenda ao critério:
+1. A seção **Frequência de Critérios** permite controlar a frequência de alertas por dia para cada entrega que atenda ao critério:
 
-   * **Este critério de entrega será repetido em cada notificação**: exiba um delivery que atenda ao critério em cada alerta de email do dia.
-   * **Este critério de entrega é enviado somente na primeira ocorrência do dia**: exibe um delivery que atende ao critério somente no primeiro relatório do dia, não repetido em alertas de email subsequentes.
+   * **Este critério de entrega será repetido em cada notificação**: exiba uma entrega que atenda ao critério em cada alerta por email do dia.
+   * **Este critério de entrega é enviado somente na primeira ocorrência do dia**: exibir uma entrega que atenda ao critério somente no primeiro relatório do dia, não repetido em alertas de email subsequentes.

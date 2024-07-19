@@ -17,7 +17,7 @@ ht-degree: 42%
 >title="Programação de campanha"
 >abstract="Defina ou modifique a programação da campanha."
 
-Para acessar e gerenciar suas campanhas, clique no link **[!UICONTROL Campanhas]** no menu de navegação esquerdo.
+Para acessar e gerenciar suas campanhas, clique no menu **[!UICONTROL Campanhas]** na navegação à esquerda.
 
 ## Lista de campanhas {#access-campaigns}
 
@@ -51,19 +51,19 @@ Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de fi
 >title="Lista de workflows em uma campanha"
 >abstract="A guia **Fluxo de trabalho** lista todos os fluxos de trabalho vinculados à campanha atual. "
 
-No **Procurar** da lista da campanha, clique em um nome de campanha para exibir seus detalhes.
+Na guia **Procurar** da lista de campanhas, clique em um nome de campanha para exibir seus detalhes.
 
 ![Painel de campanha](assets/campaign-dashboard.png)
 
-O status e o cronograma da campanha são exibidos na parte superior da tela. Você pode usar o **Configurações** botão para atualizar as propriedades da campanha, como rótulo, pasta e descrição. Você também pode alterar a programação da campanha na tela de configurações. Saiba mais sobre a programação da campanha no [nesta seção](create-campaigns.md#campaign-schedule).
+O status e o cronograma da campanha são exibidos na parte superior da tela. Você pode usar o botão **Configurações** para atualizar as propriedades da campanha, como rótulo, pasta e descrição. Você também pode alterar a programação da campanha na tela de configurações. Saiba mais sobre o agendamento da campanha em [esta seção](create-campaigns.md#campaign-schedule).
 
-No painel de campanha, use o **Logs** e **Relatórios** botões para monitorar sua campanha. Saiba mais nesta página [seção](create-campaigns.md#create-campaigns)
+No painel de campanha, use os botões **Logs** e **Reports** para monitorar sua campanha. Saiba mais nesta [seção](create-campaigns.md#create-campaigns)
 
 Para cada campanha, o painel mostra duas guias principais: Workflows e Deliveries.
 
-* A variável **Fluxos de trabalho** A guia lista todos os workflows associados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A guia **Workflows** lista todos os workflows associados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
-* A variável **Entregas** A guia lista todos os deliveries criados na campanha atual. Você também pode criar uma nova entrega dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A guia **Deliveries** lista todas as entregas criadas na campanha atual. Você também pode criar uma nova entrega dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Há duas maneiras de excluir uma campanha:
 
   ![Excluir uma campanha da lista de campanhas](assets/delete-a-campaign-from-list.png)
 
-* na própria campanha, clique no link **Mais** e selecione **Excluir**
+* da própria campanha, clique no botão **Mais** e selecione **Excluir**
 
   ![Excluir uma campanha do painel de campanha](assets/delete-a-campaign-from-dashboard.png)
 
@@ -89,7 +89,7 @@ Há duas maneiras de duplicar uma campanha:
 
 * na lista de campanhas, clique no botão de reticências e selecione **Duplicar**
 
-* na própria campanha, clique no link **Mais** e selecione **Duplicar**
+* da própria campanha, clique no botão **Mais** e selecione **Duplicar**
 
 Em ambos os casos, confirme a duplicação para criar a nova campanha. O rótulo da campanha **Cópia de`<label of the initial campaign`**. Navegue até as configurações da campanha para atualizar esse rótulo.
 
@@ -101,16 +101,16 @@ Os templates de campanha contêm configurações pré-definidas que podem ser re
 Um template de campanha pode armazenar as seguintes informações:
 
 * a campanha **Configurações**
-* a campanha  **Agendar**
+* a campanha **Agenda**
 * modelos de fluxo de trabalho
 * templates do delivery
 
 Para criar um template de campanha, siga as etapas abaixo:
 
-1. Clique em **[!UICONTROL Campanhas]** , navegue até o menu **Modelos** e clique na guia **[!UICONTROL Criar modelo]** botão.
+1. Clique no menu **[!UICONTROL Campanhas]**, navegue até a guia **Modelos** e clique no botão **[!UICONTROL Criar modelo]**.
 1. Selecione o **Modelo** para usar. Isso permite basear o novo modelo em um modelo criado anteriormente.
 1. Forneça um rótulo para o modelo.
-1. Se necessário, você pode alterar o seguinte **Opções adicionais**: nome interno, pasta, responsável, descrição e natureza.
-1. Defina o **Agendar** da sua campanha. Saiba como definir a programação da campanha no [nesta seção](create-campaigns.md#campaign-schedule)
+1. Se necessário, você pode alterar as **Opções adicionais** a seguir: nome interno, pasta, destinatário, descrição e natureza.
+1. Defina o **Agendamento** da sua campanha. Saiba como definir seu agendamento de campanha em [esta seção](create-campaigns.md#campaign-schedule)
 1. Clique em **Create**.
 1. Adicione workflows e templates de delivery à sua campanha.

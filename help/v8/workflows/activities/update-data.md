@@ -12,7 +12,7 @@ ht-degree: 32%
 
 # Atualizar dados {#update-data}
 
-A variável **Atualizar dados** a atividade é um **Gerenciamento de dados** atividade. Ele permite executar uma atualização em massa nos campos no banco de dados. Várias opções permitem personalizar a atualização de dados.
+A atividade **Atualizar dados** é uma atividade de **Gerenciamento de Dados**. Ele permite executar uma atualização em massa nos campos no banco de dados. Várias opções permitem personalizar a atualização de dados.
 
 <!--
 The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely
@@ -30,7 +30,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configurar a atividade Update data{#update-data-configuration}
 
-Para configurar o **Atualizar dados** atividade, comece adicionando a atividade ao workflow e defina um rótulo.
+Para configurar a atividade **Atualizar dados**, comece adicionando a atividade ao seu fluxo de trabalho e defina um rótulo.
 
 ![](../assets/workflow-update-data.png)
 
@@ -40,7 +40,7 @@ O campo **Operation type** permite escolher o processo que deve ser executado no
 
 * **Inserir ou atualizar**: inserir dados ou atualizá-los se os registros já existirem no banco de dados.
 * **Inserir**: inserir somente dados. Os registros que já existem não são atualizados. Se os critérios de reconciliação forem definidos, somente os registros não reconciliados serão adicionados.
-* **Atualizar**: atualizar os dados dos registros que já existem somente no banco de dados.
+* **Atualização**: atualiza os dados dos registros que já existem somente no banco de dados.
 * **Delete**: excluir dados.
 
 O campo **Batch size** permite selecionar o número de elementos de transição de entrada a serem atualizados. Por exemplo, se o número declarado for 500, os primeiros 500 registros serão atualizados.
@@ -49,21 +49,21 @@ O campo **Batch size** permite selecionar o número de elementos de transição 
 
 Esta seção permite especificar como identificar os registros no banco de dados:
 
-* Se as entradas de dados se relacionam a uma dimensão de direcionamento existente, selecione a variável **Uso da targeting dimension** e selecione-a na caixa **Dimensão de direcionamento a ser atualizada** campo.
-* Você também pode selecionar a variável **Uso de links personalizados** e especificar um ou mais links que permitirão a identificação dos dados no banco de dados
-* Se o tipo de operação selecionado exigir uma atualização, você deverá usar o **Uso de regras de reconciliação** opção.
+* Se as entradas de dados se relacionam a uma dimensão de direcionamento existente, selecione a opção **Using the targeting dimension** e a selecione no campo **Targeting dimension to update**.
+* Você também pode selecionar o **Usando links personalizados** e especificar um ou mais links que habilitarão a identificação dos dados no banco de dados
+* Se o tipo de operação selecionado exigir uma atualização, você deverá usar a opção **Usando regras de reconciliação**.
 
 ### Campos a serem atualizados
 
-No **Campos a serem atualizados** adicione os campos nos quais a atualização será aplicada e, se necessário, adicione condições para que essa atualização seja realizada. Para fazer isso, use o **Levar em consideração se** campo. As condições são aplicadas uma após a outra em ordem de lista. Use as setas à direita para alterar a ordem das atualizações. É possível usar o mesmo campo de destino várias vezes.
+Na seção **Campos a serem atualizados**, adicione os campos nos quais a atualização será aplicada e, se necessário, adicione condições para que essa atualização seja realizada. Para fazer isso, use o campo **Levado em consideração se**. As condições são aplicadas uma após a outra em ordem de lista. Use as setas à direita para alterar a ordem das atualizações. É possível usar o mesmo campo de destino várias vezes.
 
-É possível vincular campos automaticamente usando a variável **Mapeamento automático** botão. A vinculação automática detecta campos com o mesmo nome.
+Você pode vincular campos automaticamente usando o botão **Mapeamento automático**. A vinculação automática detecta campos com o mesmo nome.
 
-Durante um **Inserir ou atualizar** tipo de operação, você pode selecionar individualmente a operação a ser aplicada para cada campo. Para fazer isso, selecione o valor desejado na variável **Tipo de operação** campo.
+Durante um tipo de operação **Inserir ou atualizar**, você pode selecionar individualmente a operação a ser aplicada para cada campo. Para fazer isso, selecione o valor desejado no campo **Operation type**.
 
 ### Opções avançadas
 
-A variável **Opções avançadas** permite especificar as opções adicionais para lidar com a atualização de dados, assim como gerenciar as duplicatas.
+As **Opções avançadas** permitem que você especifique opções adicionais para lidar com a atualização de dados, bem como gerenciar duplicatas.
 
 <!--
 * **Disable automatic key management**

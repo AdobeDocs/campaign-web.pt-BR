@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
@@ -49,7 +49,7 @@ Os dados de Enriquecimento podem vir:
 
   *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
 
-Após adicionar os dados de enriquecimento ao workflow, eles poderão ser usados nas atividades adicionadas após o **Enriquecimento** atividade para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir com seu público-alvo.
+Após adicionar os dados de enriquecimento ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade de **Enriquecimento** para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir no público-alvo.
 
 Por exemplo, você pode adicionar à tabela de trabalho do fluxo de trabalho as informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou a quantidade gasta nessas compras.
 
@@ -59,7 +59,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
 1. Adicione atividades como **Criar público-alvo** e **Combinar**.
 1. Adicione uma atividade **Enriquecimento**
-1. Se várias transições tiverem sido configuradas no seu fluxo de trabalho, você poderá usar o **[!UICONTROL Conjunto principal]** para definir qual transição deve ser usada como conjunto principal para enriquecer com dados.
+1. Se várias transições tiverem sido configuradas no seu fluxo de trabalho, você poderá usar o campo **[!UICONTROL Conjunto principal]** para definir qual transição deverá ser usada como conjunto principal para enriquecer com dados.
 
 ## Adicionar dados de enriquecimento {#enrichment-add}
 
@@ -71,39 +71,39 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
    >[!NOTE]
    >
-   >A variável **Botão Editar expressão** na tela seleção de atributo, você pode criar expressões avançadas para selecionar o atributo. [Saiba como trabalhar com o editor de expressão](../../query/expression-editor.md)
+   >O **botão Editar expressão** na tela de seleção de atributo permite criar expressões avançadas para selecionar o atributo. [Saiba como trabalhar com o editor de expressão](../../query/expression-editor.md)
 
    ![](../assets/workflow-enrichment1.png)
 
 ## Crie links entre tabelas {#create-links}
 
-A variável **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis.
+A seção **[!UICONTROL Definição de link]** permite criar um vínculo entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
 Há vários tipos de links disponíveis:
 
-* **[!UICONTROL Link simples de cardinalidade 1]**: cada registro do conjunto principal pode ser associado a um e a somente um registro dos dados vinculados.
-* **[!UICONTROL Link simples de cardinalidade 0 ou 1]**: cada registro do conjunto principal pode ser associado a 0 ou 1 registro dos dados vinculados, mas não a mais de um.
-* **[!UICONTROL Link de coleção de cardinalidade N]**: cada registro do conjunto principal pode ser associado a 0, 1 ou mais registros (N) dos dados vinculados.
+* Link simples de cardinalidade **[!UICONTROL 1]**: cada registro do conjunto principal pode ser associado a um e a somente um registro dos dados vinculados.
+* Link simples de cardinalidade **[!UICONTROL 0 ou 1]**: cada registro do conjunto principal pode ser associado a 0 ou 1 registro dos dados vinculados, mas não a mais de um.
+* **[!UICONTROL N link de coleção de cardinalidade]**: cada registro do conjunto principal pode ser associado a 0, 1 ou mais registros (N) dos dados vinculados.
 
 Para criar um link, siga estas etapas:
 
-1. No **[!UICONTROL Definição de link]** clique na guia **[!UICONTROL Adicionar link]** botão.
+1. Na seção **[!UICONTROL Definição de link]**, clique no botão **[!UICONTROL Adicionar link]**.
 
    ![](../assets/workflow-enrichment-link.png)
 
-1. No **Tipo de relação** escolha o tipo de link que deseja criar.
+1. Na lista suspensa **Tipo de relação**, escolha o tipo de link que deseja criar.
 
 1. Identifique o target ao qual deseja vincular o conjunto principal:
 
-   * Para vincular uma tabela existente no banco de dados, escolha **[!UICONTROL Esquema de banco de dados]** e selecione a tabela desejada na **[!UICONTROL Esquema do Target]** campo.
-   * Para vincular com dados a partir da transição de entrada, escolha **Esquema temporário** e selecione a transição cujos dados deseja usar.
+   * Para vincular uma tabela existente no banco de dados, escolha **[!UICONTROL Esquema de banco de dados]** e selecione a tabela desejada no campo **[!UICONTROL Esquema de destino]**.
+   * Para vincular com dados da transição de entrada, escolha **Esquema temporário** e selecione a transição cujos dados você deseja usar.
 
 1. Defina os critérios de reconciliação para corresponder os dados do conjunto principal com o esquema vinculado. Há dois tipos de associações disponíveis:
 
-   * **Junção simples**: selecione um atributo específico para corresponder aos dados dos dois schemas. Clique em **Adicionar associação** e selecione o **Origem** e **Destino** atributos a serem usados como critérios de reconciliação.
-   * **Junção avançada**: crie uma associação usando condições avançadas. Clique em **Adicionar associação** e clique no link **Criar condição** botão para abrir o modelador de consultas.
+   * **Junção simples**: selecione um atributo específico para corresponder aos dados dos dois esquemas. Clique em **Adicionar junção** e selecione os atributos **Source** e **Destino** para usar como critérios de reconciliação.
+   * **Junção avançada**: crie uma junção usando condições avançadas. Clique em **Adicionar junção** e clique no botão **Criar condição** para abrir o modelador de consulta.
 
-Um exemplo de fluxo de trabalho usando links está disponível na [Exemplos](#link-example) seção.
+Um exemplo de fluxo de trabalho usando links está disponível na seção [Exemplos](#link-example).
 
 ## Reconciliação dos dados {#reconciliation}
 
@@ -115,31 +115,31 @@ Um exemplo de fluxo de trabalho usando links está disponível na [Exemplos](#li
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
-A variável **Enriquecimento** A atividade pode ser usada para reconciliar dados do schema de banco de dados do Campaign com dados de outro schema ou com dados provenientes de um schema temporário, como dados carregados usando uma atividade Load file. Esse tipo de link define uma reconciliação em direção a um registro exclusivo. O Adobe Campaign cria um link para uma tabela de target adicionando uma chave estrangeira nela para armazenar uma referência ao registro exclusivo.
+A atividade **Enrichment** pode ser usada para reconciliar dados do esquema do banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como dados carregados por meio de uma atividade Load file. Esse tipo de link define uma reconciliação em direção a um registro exclusivo. O Adobe Campaign cria um link para uma tabela de target adicionando uma chave estrangeira nela para armazenar uma referência ao registro exclusivo.
 
-Por exemplo, você pode usar essa opção para reconciliar o país de um perfil, especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign.
+Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign.
 
-Siga as etapas para configurar um **Enriquecimento** atividade com um link de reconciliação:
+Siga as etapas para configurar uma atividade **Enriquecimento** com um link de reconciliação:
 
-1. Clique em **Adicionar link** botão na caixa **Reconciliação** seção.
+1. Clique no botão **Adicionar link** na seção **Reconciliação**.
 1. Identifique os dados com os quais deseja criar um link de reconciliação.
 
-   * Para criar um link de reconciliação com dados do banco de dados do Campaign, selecione **Esquema de banco de dados** e escolha o schema onde o target está armazenado.
-   * Para criar um link de reconciliação com dados provenientes da transição de entrada, selecione **Esquema temporário** e escolha a transição de workflow onde os dados do target são armazenados.
+   * Para criar um link de reconciliação com dados do banco de dados do Campaign, selecione **Esquema de banco de dados** e escolha o esquema onde o destino está armazenado.
+   * Para criar um link de reconciliação com dados provenientes da transição de entrada, selecione **Esquema temporário** e escolha a transição de fluxo de trabalho onde os dados de destino são armazenados.
 
-1. A variável **Rótulo** e **Nome** os campos são preenchidos automaticamente com base no schema de destino selecionado. Você pode alterar os valores deles, se necessário.
+1. Os campos **Rótulo** e **Nome** são preenchidos automaticamente com base no esquema de destino selecionado. Você pode alterar os valores deles, se necessário.
 
-1. No **Critérios de reconciliação** especifique como deseja reconciliar os dados das tabelas de origem e de destino:
+1. Na seção **Critérios de reconciliação**, especifique como deseja reconciliar dados das tabelas de origem e de destino:
 
-   * **Junção simples**: reconcilie um campo específico da tabela de origem com outro campo na tabela de destino. Para fazer isso, clique no link **Adicionar associação** e especifique o **Origem** e **Destino** campos a serem usados para a reconciliação.
+   * **Junção simples**: reconcilie um campo específico da tabela de origem com outro campo na tabela de destino. Para fazer isso, clique no botão **Adicionar junção** e especifique os campos **Source** e **Destino** a serem usados para a reconciliação.
 
      >[!NOTE]
      >
-     >É possível usar um ou mais **Junção simples** critérios, caso em que todos devem ser verificados para que os dados possam ser vinculados.
+     >Você pode usar um ou mais critérios de **associação simples**, caso em que todos eles devem ser verificados para que os dados possam ser vinculados.
 
-   * **Junção avançada**: use o modelador de consultas para configurar os critérios de reconciliação. Para fazer isso, clique no link **Criar condição** e, em seguida, defina seus critérios de reconciliação criando sua própria regra usando operações AND e OR.
+   * **Junção avançada**: use o modelador de consultas para configurar os critérios de reconciliação. Para fazer isso, clique no botão **Criar condição** e defina seus critérios de reconciliação criando sua própria regra usando as operações AND e OR.
 
-O exemplo abaixo mostra um workflow configurado para criar um link entre a tabela de recipients do banco de dados do Adobe Campaign e uma tabela temporária gerada como **Carregar arquivo** atividade. Neste exemplo, a atividade Enrichment reconcilia ambas as tabelas usando o endereço de email como critério de reconciliação.
+O exemplo abaixo mostra um fluxo de trabalho configurado para criar um link entre a tabela de destinatários do banco de dados do Adobe Campaign e uma tabela temporária gerou uma atividade **Carregar arquivo**. Neste exemplo, a atividade Enrichment reconcilia ambas as tabelas usando o endereço de email como critério de reconciliação.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -211,15 +211,15 @@ Agora precisamos aplicar a classificação para recuperar as três compras **mai
 
 ### Enriquecimento com dados vinculados {#link-example}
 
-O exemplo abaixo mostra um fluxo de trabalho configurado para criar um link entre duas transições. As primeiras transições são direcionadas a dados de perfil usando um **Query** enquanto a segunda transição inclui dados de compra armazenados em um arquivo carregado por meio de uma atividade Load file.
+O exemplo abaixo mostra um fluxo de trabalho configurado para criar um link entre duas transições. A primeira transição é direcionada aos dados do perfil usando uma atividade **Query**, enquanto a segunda transição inclui dados de compra armazenados em um arquivo carregado por meio de uma atividade Load file.
 
 ![](../assets/enrichment-uc-link.png)
 
-* O primeiro **Enriquecimento** atividade vincula o conjunto principal (dados do **Query** atividade ) com o schema da variável **Carregar arquivo** atividade. Isso nos permite corresponder cada perfil direcionado pelo query com os dados de compra correspondentes.
+* A primeira atividade **Enrichment** vincula o conjunto principal (dados da atividade **Query**) ao esquema da atividade **Load file**. Isso nos permite corresponder cada perfil direcionado pelo query com os dados de compra correspondentes.
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* Um segundo **Enriquecimento** atividade é adicionada para enriquecer dados da tabela de workflow com os dados de compra provenientes de **Carregar arquivo** atividade. Isso nos permite usar esses dados em outras atividades do, por exemplo, para personalizar mensagens enviadas aos clientes com informações sobre suas compras.
+* Uma segunda atividade **Enrichment** é adicionada para enriquecer dados da tabela de fluxo de trabalho com os dados de compra provenientes da atividade **Load file**. Isso nos permite usar esses dados em outras atividades do, por exemplo, para personalizar mensagens enviadas aos clientes com informações sobre suas compras.
 
   ![](../assets/enrichment-uc-link-data.png)
 

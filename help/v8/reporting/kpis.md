@@ -97,7 +97,7 @@ Essas métricas são baseadas na tabela Rastreamento consolidado (`nms:trackingS
 
 Os recipients podem aceitar comunicações por email e SMS.
 
-A variável **Assinaturas** O indicador mostra os seguintes KPIs. Para cada canal, a porcentagem do número de assinaturas em comparação ao número total de mensagens entregues com êxito.
+O indicador **Assinaturas** mostra os KPIs a seguir. Para cada canal, a porcentagem do número de assinaturas em comparação ao número total de mensagens entregues com êxito.
 
 
 >[!NOTE]
@@ -155,7 +155,7 @@ Durante a fase de preparação, o arquivo de extração de correspondência dire
 
 Nunca pode ser 100% das mensagens enviadas em comparação ao total de mensagens preparadas, pois alguns endereços podem estar ausentes ou incompletos.
 
-A variável **Enviado** O indicador mostra os seguintes KPIs para o canal de correspondência direta:
+O indicador **Enviado** mostra os seguintes KPIs para o canal de correspondência direta:
 
 * Porcentagem do número de mensagens enviadas em comparação ao número total de mensagens preparadas.
 

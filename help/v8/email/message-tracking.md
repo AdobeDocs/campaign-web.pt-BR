@@ -5,8 +5,8 @@ description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 66%
+source-wordcount: '535'
+ht-degree: 69%
 
 ---
 
@@ -28,23 +28,23 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Escolha o tipo de link que deseja criar:
 
-   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
-   * **[!UICONTROL Link externo]**: insira um link para um URL externo.
+   * **[!UICONTROL Link externo]**: insira um link para uma URL externa.
 
      >[!AVAILABILITY]
      >
-     >Os seguintes recursos (link para **[!UICONTROL Landing page]**, **[!UICONTROL Link de assinatura]** e **[!UICONTROL Link de cancelamento de subscrição]**) estão em Disponibilidade Limitada (DL). Eles são restritos aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+     >Os seguintes recursos (link para **[!UICONTROL Página de aterrissagem]**, **[!UICONTROL Link de assinatura]** e **[!UICONTROL Link de cancelamento de assinatura]**) estão em Disponibilidade Limitada (DL). Eles estão restritos a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
 
-   * **[!UICONTROL Landing page]**: insira um link para uma landing page. Se você selecionar uma landing page dinâmica (com a variável **[!UICONTROL Serviço do URL]** opção selecionada), é possível selecionar qualquer serviço na lista. [Saiba mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL Página de aterrissagem]**: insira um link para uma página de aterrissagem. Se você selecionar uma página de aterrissagem dinâmica (com a opção **[!UICONTROL Serviço da URL]** selecionada), será possível selecionar qualquer serviço da lista. [Saiba mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
    * **[!UICONTROL Link de assinatura]**: insira um link para um serviço de assinatura. Quando os usuários clicam no link, eles são direcionados para a landing page de assinatura referenciada no serviço selecionado. [Saiba mais](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-   * **[!UICONTROL Link de cancelamento de subscrição]**: insira um link para um serviço de cancelamento de subscrição. Quando os assinantes clicam no link, eles são direcionados para a landing page de cancelamento de subscrição referenciada no serviço selecionado. [Saiba mais](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Link de cancelamento de assinatura]**: insira um link para um serviço de cancelamento de assinatura. Quando os assinantes clicam no link, eles são direcionados para a landing page de cancelamento de subscrição referenciada no serviço selecionado. [Saiba mais](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
@@ -59,11 +59,11 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
    * Você pode editar o link e alterar seu **[!UICONTROL Público-alvo]**.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
 
-   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
->As mensagens de email de marketing devem incluir um link para opção de não participação, o que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido no nível da superfície de canal e ao criar a mensagem.
+>As mensagens de email de marketing devem incluir um link para opção de não participação, o que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível da superfície de canal e ao criar a mensagem.
 
 Um link específico para a mirror page deve ser adicionado em todas as suas mensagens de email. Saiba mais sobre a mirror page [nesta seção](mirror-page.md).
 
@@ -77,11 +77,11 @@ O [Designer de email](create-email-content.md) permite gerenciar os URLs rastrea
 
 1. Para editar um link, clique no ícone de lápis correspondente.
 
-   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]**, se necessário:
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    Para cada URL rastreado é possível definir o modo de rastreamento utilizando um destes valores:
 
@@ -92,6 +92,6 @@ O [Designer de email](create-email-content.md) permite gerenciar os URLs rastrea
 
 1. Adicione uma **[!UICONTROL Categoria]** ao seu link para agrupar links rastreados e clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. Após enviar a entrega, acesse o relatório de entrega. Em **[!UICONTROL Rastreamento]**, o relatório **[!UICONTROL Fluxos de cliques e URL]** exibe quais são os URLs mais visitados de sua entrega. [Saiba mais](../reporting/gs-reports.md)

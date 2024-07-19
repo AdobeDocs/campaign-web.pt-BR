@@ -5,7 +5,7 @@ description: Conheça os princípios básicos dos fluxos de trabalho no Adobe Ca
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Com o Adobe Campaign Web, é possível criar workflows em uma tela visual para p
 
 O diagrama de workflow é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
 Cada fluxo de trabalho contém:
 
@@ -38,15 +38,15 @@ As campanhas oferecem duas maneiras de criar um fluxo de trabalho:
 
 1. Os fluxos de trabalho podem ser criados como independentes, a partir do menu **Fluxos de trabalho**.
 
-   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-standalone-wf.png){zoomable="yes"}
 
 1. Os fluxos de trabalho podem ser criados diretamente em uma campanha, a partir da guia **Fluxo de trabalho** da campanha. Quando incluído em uma campanha, o fluxo de trabalho é executado em conjunto com todos os outros fluxos de trabalho da campanha e as métricas de relatório são agrupadas no nível da campanha.
 
-   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
 Estas são as principais etapas para criar fluxos de trabalho:
 
-![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-creation-process.png){zoomable="yes"}
 
 Essas etapas estão detalhadas na seguinte seção:
 

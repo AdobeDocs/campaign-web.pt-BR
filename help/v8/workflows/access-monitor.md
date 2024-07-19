@@ -5,7 +5,7 @@ description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '359'
 ht-degree: 28%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 28%
 >title="Fluxos de trabalho"
 >abstract="Nesta tela, você pode acessar a lista completa de fluxos de trabalho independentes e da campanha, verificar o status atual, as datas de última/próxima execução e criar um novo fluxo de trabalho. Navegue até a guia “Modelos” para acessar os modelos de fluxo de trabalho disponíveis."
 
-A variável **[!UICONTROL Fluxos de trabalho]** permite acessar a lista completa de workflows. Esta lista inclui **workflows independentes** que foram criados nessa tela, e **workflows da campanha**, que foram criados em uma campanha.
+O menu **[!UICONTROL Fluxos de trabalho]** permite que você acesse a lista completa de fluxos de trabalho. Esta lista inclui **fluxos de trabalho independentes** que foram criados nesta tela e **fluxos de trabalho da campanha** que foram criados em uma campanha.
 
-![](assets/workflow-list.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-list.png){zoomable="yes"}
 
-Cada workflow na lista exibe informações sobre seu workflow atual [status](#status), a última vez que foi executada ou modificada e a data e hora da próxima execução programada.
+Cada fluxo de trabalho na lista exibe informações sobre seu [status](#status) atual, a última vez que foi executado ou modificado e a data e hora da próxima execução agendada.
 
 É possível personalizar as colunas exibidas clicando no ícone **[!UICONTROL Configurar coluna para um layout personalizado]** localizado no canto superior direito da lista. Isso permite adicionar mais informações à lista, como a última atividade com erro para cada workflow ou o targeting dimension aplicado.
 
 Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. Por exemplo, você pode filtrar os workflows para exibir apenas aqueles pertencentes a uma campanha ou aqueles processados durante um intervalo de datas específico.
 
-Para duplicar ou excluir um workflow, clique no botão de reticências e selecione **[!UICONTROL Duplicar]** ou **[!UICONTROL Excluir]**.
+Para duplicar ou excluir um fluxo de trabalho, clique no botão de reticências e selecione **[!UICONTROL Duplicar]** ou **[!UICONTROL Excluir]**.
 
 >[!NOTE]
 >
@@ -37,18 +37,18 @@ Para duplicar ou excluir um workflow, clique no botão de reticências e selecio
 
 Os workflows podem ter vários status:
 
-* **[!UICONTROL Rascunho]**: o workflow foi criado e salvo.
-* **[!UICONTROL Em andamento]**: o workflow está em execução no momento.
-* **[!UICONTROL Concluído]**: a execução do workflow está concluída.
-* **[!UICONTROL Pausado]**: o workflow foi pausado.
-* **[!UICONTROL Errado]**: o workflow encontrou um erro. Abra o workflow e acesse os logs e as tarefas para identificar o erro e resolvê-lo. [Saiba como monitorar logs e tarefas](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Rascunho]**: o fluxo de trabalho foi criado e salvo.
+* **[!UICONTROL Em andamento]**: o fluxo de trabalho está em execução atualmente.
+* **[!UICONTROL Concluído]**: a execução do fluxo de trabalho foi concluída.
+* **[!UICONTROL Pausado]**: fluxo de trabalho pausado.
+* **[!UICONTROL Erro]**: o fluxo de trabalho encontrou um erro. Abra o workflow e acesse os logs e as tarefas para identificar o erro e resolvê-lo. [Saiba como monitorar logs e tarefas](start-monitor-workflows.md#logs-tasks)
 
-Informações detalhadas sobre como iniciar e monitorar a execução do workflow estão disponíveis em [esta página](start-monitor-workflows.md).
+Informações detalhadas sobre como iniciar e monitorar a execução do fluxo de trabalho estão disponíveis em [esta página](start-monitor-workflows.md).
 
 ## Templates de workflow {#templates}
 
-A variável **[!UICONTROL Modelos]** A guia lista todos os modelos de fluxos de trabalho disponíveis.
+A guia **[!UICONTROL Modelos]** lista todos os modelos de fluxos de trabalho disponíveis.
 
 Os templates de workflow contêm atividades pré-configuradas e configurações gerais de propriedade que podem ser reutilizadas para criar novos workflows.
 
-É possível criar modelos de fluxo de trabalho a partir de um fluxo de trabalho existente ou do zero. [Saiba como criar modelos de workflow](create-workflow.md#workflow-templates)
+É possível criar modelos de fluxo de trabalho a partir de um fluxo de trabalho existente ou do zero. [Saiba como criar modelos de fluxo de trabalho](create-workflow.md#workflow-templates)

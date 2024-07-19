@@ -24,7 +24,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >* [Criar entrega de email independente](../../email/create-email.md)
 >* [Criar entrega de SMS independente](../../sms/create-sms.md)
 >* [Criar entrega por push autônoma](../../push/create-push.md)
->* [Criar entrega de correspondência direta autônoma](../../direct-mail/create-direct-mail.md)
+>* [Criar entrega autônoma de correspondência direta](../../direct-mail/create-direct-mail.md)
 
 ## Pré-requisitos {#channel-activity-prereq}
 
@@ -32,15 +32,15 @@ Comece a criar seu workflow com as atividades relevantes:
 
 * Antes de inserir uma atividade de canal, é necessário definir o público-alvo. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas em uma atividade dedicada, como:
 
-   * A **Criar público-alvo** atividade. [Saiba mais](build-audience.md).
+   * Uma atividade **Build audience**. [Saiba mais](build-audience.md).
 
      ![](../../msg/assets/add-delivery-in-wf.png)
 
-   * A **Carregar arquivo** atividade seguida de um **Reconciliação** atividade. [Saiba mais](load-file.md).
+   * Uma atividade **Load file** seguida de uma atividade **Reconciliation**. [Saiba mais](load-file.md).
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-* Para enviar um delivery recorrente, inicie o workflow com um **Scheduler** atividade. Você também pode usar uma **Scheduler** atividade de deliveries únicos únicos únicos únicos para definir a data de contato para esse delivery. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
+* Para enviar uma entrega recorrente, inicie o fluxo de trabalho com uma atividade **Scheduler**. Você também pode usar uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
 
 ## Configurar a atividade Canal {#create-a-delivery-in-a-workflow}
 
@@ -71,28 +71,28 @@ Comece a criar seu workflow com as atividades relevantes:
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 
-1. Adicionar uma atividade de canal: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]**, **[!UICONTROL Notificação por push (iOS)]** ou **[!UICONTROL Correspondência direta]**.
+1. Adicione uma atividade de canal: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]**, **[!UICONTROL Notificação por push (iOS)]** ou **[!UICONTROL Correspondência direta]**.
 
-1. Selecione o **Tipo de entrega**: único ou recorrente.
+1. Selecione o **Tipo de entrega**: única ou recorrente.
 
-   * A **Entrega única** é um delivery de uma só vez, enviado apenas uma vez, por exemplo, um email Black Friday.
-   * A **Entrega recorrente** é enviado várias vezes com base na frequência de execução definida em uma [atividade do scheduler](scheduler.md). Cada vez que o fluxo de trabalho é executado, o público-alvo é recalculado e o delivery é enviado ao público-alvo atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
+   * Uma **Entrega única** é uma entrega única, enviada apenas uma vez, por exemplo, um email Black Friday.
+   * Uma **entrega recorrente** é enviada várias vezes com base em sua frequência de execução definida em uma [atividade do agendador](scheduler.md). Cada vez que o fluxo de trabalho é executado, o público-alvo é recalculado e o delivery é enviado ao público-alvo atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
 
 1. Selecione um **Modelo** da entrega. Os modelos são configurações de entrega pré-definidas, específicas para um canal. Um modelo integrado está disponível para cada canal e é preenchido previamente por padrão. [Saiba mais](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Você pode selecionar o modelo no painel esquerdo da configuração de atividade do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto. Saiba mais sobre target mappings em [nesta seção](../../audience/targeting-dimensions.md)
+   Você pode selecionar o modelo no painel esquerdo da configuração de atividade do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto. Saiba mais sobre target mappings em [esta seção](../../audience/targeting-dimensions.md)
 
 1. Clique em **Criar entrega**. Você pode então definir as configurações de mensagem e o conteúdo da mesma maneira que cria um delivery independente. Também é possível testar e simular o conteúdo. [Saiba mais](../../msg/gs-messages.md)
 
-1. Volte para o fluxo de trabalho. Se quiser continuar seu fluxo de trabalho, alterne a variável **Gerar uma transição de saída** opção para adicionar uma transição após a atividade channel.
+1. Volte para o fluxo de trabalho. Para continuar o fluxo de trabalho, alterne a opção **Generate an outbound transition** para adicionar uma transição após a atividade do canal.
 
 1. Clique em **Iniciar** para iniciar o fluxo de trabalho.
 
    Por padrão, iniciar um fluxo de trabalho aciona a etapa de preparação da mensagem, sem enviar imediatamente a mensagem.
 
-1. Abra a atividade do canal para confirmar o envio do **Revisar e enviar** botão.
+1. Abra a atividade do canal para confirmar o envio com o botão **Revisar e enviar**.
 
 1. No painel de entrega, clique em **Enviar**.
 

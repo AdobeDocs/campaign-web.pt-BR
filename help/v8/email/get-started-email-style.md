@@ -5,7 +5,7 @@ description: Descubra as diferentes maneiras de ajustar o estilo do conteúdo do
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Após começar a criar o conteúdo de email no [!DNL Adobe Campaign], é possív
 
 Você pode aplicar as alterações ao corpo do email, a um componente de estrutura ou a um componente de conteúdo.
 
-![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 Siga os links abaixo para descobrir como ajustar algumas das configurações de estilo no seu email.
 

@@ -5,8 +5,8 @@ feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 13%
+source-wordcount: '1133'
+ht-degree: 15%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 13%
 
 É possível editar o conteúdo de qualquer página da sua landing page.
 
-A primeira página, que é imediatamente exibida aos usuários depois que eles clicam no link para a página de aterrissagem, já está pré-preenchida com o [componente de formulário específico da página de destino](#use-form-component) para o modelo selecionado<!-- to enable users to select and submit their choices-->.
+A primeira página, que é exibida imediatamente aos usuários depois que eles clicam no link para a sua página de aterrissagem, já está preenchida com o [componente de formulário específico da página de aterrissagem](#use-form-component) para o modelo selecionado<!-- to enable users to select and submit their choices-->.
 
-O conteúdo do **[!UICONTROL Confirmação]**, **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** também é pré-preenchido. Edite-as conforme necessário.
+O conteúdo das páginas **[!UICONTROL Confirmação]**, **[!UICONTROL Erro]** e **[!UICONTROL Expiração]** também é preenchido previamente. Edite-as conforme necessário.
 
 Você também pode definir [estilos para sua página de aterrissagem](#lp-form-styles).
 
@@ -38,7 +38,7 @@ Para projetar ainda mais o conteúdo da landing page:
 
   >[!AVAILABILITY]
   >
-  >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+  >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 ## Usar o componente de formulário {#use-form-component}
 
@@ -52,108 +52,108 @@ Para projetar ainda mais o conteúdo da landing page:
 >title="O que acontece ao clicar no botão"
 >abstract="Defina o que acontecerá depois que as pessoas enviarem o formulário da página de destino."
 
-Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, edite o **[!UICONTROL Formulário]** componente. Para fazer isso, siga as etapas abaixo.
+Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, edite o componente **[!UICONTROL Formulário]**. Para fazer isso, siga as etapas abaixo.
 
-1. A página de aterrissagem específica **[!UICONTROL Formulário]** já é exibido na tela para o modelo selecionado.
-
-   >[!NOTE]
-   >
-   >A variável **[!UICONTROL Formulário]** O componente só pode ser usado uma vez na mesma página.
-
-1. Selecione-o. A variável **[!UICONTROL Conteúdo do formulário]** é exibida na paleta direita para permitir a edição dos diferentes campos do formulário.
-
-   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
+1. O componente de Formulário **[!UICONTROL Formulário]** específico da página de aterrissagem já é exibido na tela para o modelo selecionado.
 
    >[!NOTE]
    >
-   >Alterne para a **[!UICONTROL Estilos]** a qualquer momento para editar os estilos do conteúdo do componente de formulário. [Saiba mais](#lp-form-styles)
+   >O componente **[!UICONTROL Formulário]** só pode ser usado uma vez na mesma página.
 
-1. Expanda o primeiro campo de texto, se houver, ou adicione um usando o **[!UICONTROL Adicionar]** botão. No **[!UICONTROL Campo de texto 1]** você pode editar o tipo de campo, o campo do banco de dados a ser atualizado, o rótulo e o texto que será exibido dentro do campo antes que os usuários insiram um valor.
+1. Selecione-o. A guia **[!UICONTROL Conteúdo do formulário]** é exibida na paleta direita para permitir que você edite os diferentes campos do formulário.
 
-   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-component.png){zoomable="yes"}
 
-1. Verifique a **[!UICONTROL Tornar campo de formulário obrigatório]** opção, se necessário. Nesse caso, a landing page só poderá ser enviada se o usuário tiver preenchido esse campo.
+   >[!NOTE]
+   >
+   >Alterne para a guia **[!UICONTROL Estilos]** a qualquer momento para editar os estilos do conteúdo do componente de formulário. [Saiba mais](#lp-form-styles)
+
+1. Expanda o primeiro campo de texto, se houver, ou adicione um usando o botão **[!UICONTROL Adicionar]**. Na seção **[!UICONTROL Campo de texto 1]**, você pode editar o tipo de campo, o campo de banco de dados a ser atualizado, o rótulo e o texto que será exibido dentro do campo antes que os usuários insiram um valor.
+
+   ![](assets/lp-form-text-field.png){zoomable="yes"}
+
+1. Marque a opção **[!UICONTROL Tornar campo de formulário obrigatório]**, se necessário. Nesse caso, a landing page só poderá ser enviada se o usuário tiver preenchido esse campo.
 
    >[!NOTE]
    >
    >Se um campo obrigatório não estiver preenchido, uma mensagem de erro será exibida quando o usuário enviar a página.
 
-1. Expanda a caixa de seleção, se houver, ou adicione uma usando o **[!UICONTROL Adicionar]** botão. Selecione se essa caixa de seleção deve atualizar um serviço ou um campo do banco de dados.
+1. Expanda a caixa de seleção, se houver, ou adicione uma usando o botão **[!UICONTROL Adicionar]**. Selecione se essa caixa de seleção deve atualizar um serviço ou um campo do banco de dados.
 
-   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-checkbox.png){zoomable="yes"}
 
    Se você selecionar **[!UICONTROL Assinatura e serviços]**, selecione um [serviço](../audience/manage-services.md) na lista e escolha entre as duas opções abaixo:
 
-   * **[!UICONTROL Inscrever-se se marcado]**: os usuários precisam marcar a caixa para consentir (aceitar).
-   * **[!UICONTROL Cancelar inscrição se marcado]**: os usuários precisam marcar a caixa para remover seu consentimento (recusa).
+   * **[!UICONTROL Inscrever-se, se marcado]**: os usuários precisam marcar a caixa para consentir (aceitar).
+   * **[!UICONTROL Cancelar inscrição se marcado]**: os usuários precisam marcar a caixa para remover seu consentimento (recusar).
 
    Se você selecionar **[!UICONTROL Campo]**, selecione um campo na lista de atributos e escolha entre as duas opções abaixo:
 
    * **[!UICONTROL Sim, se marcado]**.<!--TBC-->
 
-   * **[!UICONTROL Não se estiver marcado]**.<!--TBC-->
+   * **[!UICONTROL Não se marcado]**.<!--TBC-->
 
 1. É possível excluir e adicionar quantos campos (como campos de texto, botões de opção, caixas de seleção, lista suspensa etc.) conforme necessário.
 
-1. Após adicionar ou atualizar todos os campos, clique em **[!UICONTROL Chamada para ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão na variável **[!UICONTROL Formulário]** componente. [Saiba como](#define-actions-on-form-submission)
+1. Depois que todos os campos forem adicionados ou atualizados, clique em **[!UICONTROL Chamada para ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**. [Saiba como](#define-actions-on-form-submission)
 
-   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action.png){zoomable="yes"}
 
-1. Salve o conteúdo para voltar para o [propriedades da landing page](create-lp.md#create-landing-page).
+1. Salve seu conteúdo para voltar para as [propriedades da página de aterrissagem](create-lp.md#create-landing-page).
 
 ### Definir ações no envio de formulário {#define-actions-on-form-submission}
 
 1. Defina o que acontecerá ao clicar no botão:
 
-   * **[!UICONTROL Página de confirmação]**: por padrão, o usuário será redirecionado para o **[!UICONTROL Confirmação]** página definida para a página inicial atual.
+   * **[!UICONTROL Página de confirmação]**: por padrão, o usuário será redirecionado para a página **[!UICONTROL de confirmação]** definida para a página de aterrissagem atual.
 
-   * **[!UICONTROL URL de redirecionamento]**: digite o URL da página para a qual os usuários serão redirecionados.
+   * **[!UICONTROL URL de redirecionamento]**: digite a URL da página para a qual os usuários serão redirecionados.
 
-   * **[!UICONTROL Landing page]**: é possível selecionar outra página de aterrissagem para a qual os usuários serão redirecionados. Configure a landing page selecionada de acordo.
+   * **[!UICONTROL Página de aterrissagem]**: você pode selecionar outra página de aterrissagem para a qual os usuários serão redirecionados. Configure a landing page selecionada de acordo.
 
-1. Se quiser fazer atualizações adicionais ao enviar o formulário, selecione **[!UICONTROL Atualizações adicionais]** e selecione o item que deseja atualizar:
-   * Uma assinatura [serviço](../audience/manage-services.md) - nesse caso, defina se deseja aceitar ou recusar os usuários ao enviar o formulário. Ao criar um email, se você definir uma variável **[!UICONTROL Landing page]** para essa página de aterrissagem, o serviço selecionado será usado automaticamente. [Saiba mais sobre inserção de links](../email/message-tracking.md)
+1. Para fazer atualizações adicionais ao enviar o formulário, selecione **[!UICONTROL Atualizações adicionais]** e selecione o item que deseja atualizar:
+   * Um [serviço](../audience/manage-services.md) de assinatura - nesse caso, defina se você deseja aceitar ou recusar usuários ao enviar o formulário. Ao criar um email, se você definir um link do tipo **[!UICONTROL Página de aterrissagem]** para esta página de aterrissagem, o serviço selecionado será usado automaticamente. [Saiba mais sobre como inserir links](../email/message-tracking.md)
 
      >[!NOTE]
      >
-     >Se quiser usar vários serviços com essa landing page, use o **[!UICONTROL Serviço do URL]** descrita abaixo.
+     >Se quiser usar vários serviços com esta página de aterrissagem, use a opção **[!UICONTROL Serviço da URL]** descrita abaixo.
 
    * O canal - o email endereçado usado ao preencher o formulário.
    * Todos os canais - ao enviar o formulário, os usuários entrarão ou não (dependendo do modelo selecionado) em/de todas as comunicações da sua marca em todos os canais.
    * Um campo do banco de dados - selecione um campo na lista de atributos e defina se ele deve ser definido como Verdadeiro ou Falso ao enviar o formulário.
 
-   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-additionnal-updates.png){zoomable="yes"}
 
-1. Selecione o **[!UICONTROL Serviço do URL]** opção para permitir que a landing page seja usada para vários serviços, tornando-a dinâmica. Defina se deseja aceitar ou recusar os usuários ao enviar o formulário.
+1. Selecione a opção **[!UICONTROL Serviço da URL]** para permitir que a landing page seja usada para vários serviços, tornando-a dinâmica. Defina se deseja aceitar ou recusar os usuários ao enviar o formulário.
 
    >[!AVAILABILITY]
    >
-   >Esse recurso está na disponibilidade limitada (DL). É restrito aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+   >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
-   ![](assets/lp-form-service-from-url.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-service-from-url.png){zoomable="yes"}
 
-   Ao criar um email, se você definir uma variável **[!UICONTROL Landing page]** para essa landing page, você poderá selecionar qualquer serviço na lista. É possível selecionar outros serviços ao definir outros links para essa landing page. [Saiba mais sobre inserção de links](../email/message-tracking.md)
+   Ao criar um email, se você definir um link do tipo **[!UICONTROL Página de aterrissagem]** para essa página de aterrissagem, será possível selecionar qualquer serviço na lista. É possível selecionar outros serviços ao definir outros links para essa landing page. [Saiba mais sobre como inserir links](../email/message-tracking.md)
 
-   ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
 ## Definir estilos de formulário de página de destino {#lp-form-styles}
 
-1. Para modificar os estilos do conteúdo do componente de formulário, alterne a qualquer momento para o **[!UICONTROL Estilos]** guia.
+1. Para modificar os estilos do conteúdo do componente de formulário, alterne a qualquer momento para a guia **[!UICONTROL Estilos]**.
 
-1. A variável **[!UICONTROL Campo de texto]** é expandida por padrão. Ela permite editar a aparência dos campos de texto, como a fonte do rótulo, a posição do rótulo, a cor de fundo do campo ou a borda do campo.
+1. A seção **[!UICONTROL Campo de texto]** é expandida por padrão. Ela permite editar a aparência dos campos de texto, como a fonte do rótulo, a posição do rótulo, a cor de fundo do campo ou a borda do campo.
 
-   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-text-styles.png){zoomable="yes"}
 
-1. Expanda a **[!UICONTROL Caixa de seleção]** para definir a aparência das caixas de seleção e o texto correspondente. Por exemplo, é possível ajustar a família e o tamanho da fonte ou a cor da borda da caixa de seleção.
+1. Expanda a seção **[!UICONTROL Caixa de seleção]** para definir a aparência das caixas de seleção e o texto correspondente. Por exemplo, é possível ajustar a família e o tamanho da fonte ou a cor da borda da caixa de seleção.
 
-   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
 1. Expanda e edite qualquer outra seção correspondente a outros campos que você possa ter adicionado (botão de opção, lista suspensa, data e hora etc.) ao seu formulário.
 
-1. Expanda a **[!UICONTROL Chamada para ação]** para modificar a aparência do botão no formulário do componente. Por exemplo, você pode alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
+1. Expanda a seção **[!UICONTROL Chamada para ação]** para modificar a aparência do botão no formulário do componente. Por exemplo, você pode alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
 
-   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action-style.png){zoomable="yes"}
 
-   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse, usando o **[!UICONTROL Simular conteúdo]** botão. [Saiba mais](create-lp.md#test-landing-page)
+   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse, usando o botão **[!UICONTROL Simular conteúdo]**. [Saiba mais](create-lp.md#test-landing-page)
 
 1. Salve as alterações.

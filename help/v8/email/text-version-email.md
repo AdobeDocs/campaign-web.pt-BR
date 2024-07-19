@@ -5,7 +5,7 @@ description: Saiba como criar a versão de texto de um email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 
 1. No email, selecione a guia **[!UICONTROL Texto sem formatação]**.
 
-   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_3.png){zoomable="yes"}
 
 1. Use o botão **[!UICONTROL Sincronizar com HTML]** para desabilitar a sincronização.
 
-   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_1.png){zoomable="yes"}
 
 1. Clique na marca de seleção para confirmar sua escolha.
 
-   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_2.png){zoomable="yes"}
 
 1. Em seguida, é possível editar a versão de texto sem formatação conforme desejado.
 

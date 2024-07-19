@@ -11,29 +11,29 @@ ht-degree: 3%
 
 ---
 
-# Use um **[!UICONTROL grupo de trapping]** {#trap-group}
+# Usar um **[!UICONTROL grupo de interceptação]** {#trap-group}
 
-A **[!UICONTROL grupo de trapping]** é usado para direcionar destinatários que não correspondem aos critérios de direcionamento definidos. Dessa forma, os recipients que estiverem fora do escopo de delivery podem recebê-lo, como qualquer outro recipient target receberia.
-A **[!UICONTROL grupo de trapping]** é um grupo de **[!UICONTROL seed addresses]**.
+Um **[!UICONTROL grupo de interceptação]** é usado para direcionar destinatários que não correspondem aos critérios de destino definidos. Dessa forma, os recipients que estiverem fora do escopo de delivery podem recebê-lo, como qualquer outro recipient target receberia.
+Um **[!UICONTROL grupo de interceptação]** é um grupo de **[!UICONTROL seed addresses]**.
 
-## Por que usar **[!UICONTROL grupo de trapping]**
+## Por que usar o **[!UICONTROL grupo de interceptação]**
 
-Você pode usar **[!UICONTROL grupo de trapping]** :
+Você pode usar **[!UICONTROL grupo de interceptação]**:
 
-1. **Como prova** : cada membro do **[!UICONTROL Grupo de interceptação]** O receberá a entrega como se fizesse parte do público-alvo.
+1. **Como uma prova**: cada membro do **[!UICONTROL grupo de interceptação]** receberá a entrega como se fizesse parte do público-alvo.
 
 
-1. **Para proteger sua lista de endereçamento** : ao receber o que o público receberá, cada **[!UICONTROL seed address]** do **[!UICONTROL Grupo de interceptação]** será notado se a lista de endereçamento for usada por um terceiro.
+1. **Para proteger sua lista de endereçamento**: ao receber o que o público receberá, cada **[!UICONTROL seed address]** do **[!UICONTROL grupo de interceptação]** será notado se a lista de endereçamento for usada por um terceiro.
 
-## Sobre **[!UICONTROL Grupo de interceptação]**
+## Sobre o **[!UICONTROL grupo de interceptação]**
 
-Os seed addresses são excluídos automaticamente dos relatórios nas seguintes estatísticas do delivery: **Cliques**, **Aberturas**, **Cancelamentos de assinatura**. Os relatórios são somente sobre o público real.
+Os seed addresses são excluídos automaticamente dos relatórios nas seguintes estatísticas de entrega: **Cliques**, **Aberturas**, **Cancelamentos de assinatura**. Os relatórios são somente sobre o público real.
 
-Para um delivery de email, somente o endereço de email é necessário para o **[!UICONTROL Grupo de interceptação]**, a personalização de outros campos será preenchida aleatoriamente pelo Campaign.
+Para uma entrega de email, somente o endereço de email é necessário para o **[!UICONTROL Grupo de interceptação]**. A personalização de outros campos será preenchida aleatoriamente pelo Campaign.
 
-## Como configurar um **[!UICONTROL Grupo de interceptação]** no delivery
+## Como configurar um **[!UICONTROL Grupo de interceptação]** na entrega
 
-Para configurar um **[!UICONTROL Grupo de interceptação]**, vá para a **[!UICONTROL Público]** configurações da sua entrega. Você terá duas opções:
+Para configurar um **[!UICONTROL Grupo de interceptação]**, vá para as configurações de **[!UICONTROL Público]** da sua entrega. Você terá duas opções:
 - [Selecionar perfis de teste](#select-test-profile)
 - [Criar condição](#create-condition)
 
@@ -41,22 +41,22 @@ Para configurar um **[!UICONTROL Grupo de interceptação]**, vá para a **[!UIC
 
 ### Selecionar perfis de teste {#select-test-profiles}
 
-Ao escolher &quot;Selecionar perfis de teste&quot;, você terá a janela abaixo, onde é convidado a **[!UICONTROL Adicionar perfil(s) de teste]** :
+Ao escolher &quot;Selecionar perfis de teste&quot;, você terá a janela abaixo, onde é convidado a **[!UICONTROL Adicionar perfil(s) de teste]**:
 
 ![](assets/trap-no-test-profile.png){zoomable="yes"}
 
-Ao clicar no botão, você terá acesso aos seed addresses que podem ser adicionados **[!UICONTROL grupo de trapping]**. Marque as que deseja usar.
+Ao clicar no botão, você terá acesso aos seed addresses aos quais pode adicionar seu **[!UICONTROL grupo de trap]**. Marque as que deseja usar.
 Você pode criar novos seed addresses. [Saiba mais](#create-seed)
 
 ![](assets/trap-select-test-profiles.png){zoomable="yes"}
 
-Ao confirmar seus endereços de trap, verifique se você tem o número correto em **[!UICONTROL Grupo de interceptação]**.
+Ao confirmar seus endereços de interceptação, verifique se você tem o número correto em **[!UICONTROL Grupo de interceptação]**.
 
 ![](assets/trap-check.png){zoomable="yes"}
 
 ### Criar condição {#create-condition}
 
-Com o **[!UICONTROL Criar condição]** , você receberá uma nova janela onde poderá personalizar um query para definir os seed addresses que deseja utilizar:
+Com a opção **[!UICONTROL Criar condição]**, você obterá uma nova janela onde poderá personalizar uma consulta para definir os seed addresses que deseja usar:
 
 ![](assets/trap-create-condition.png){zoomable="yes"}
 
@@ -66,7 +66,7 @@ Sua consulta será exibida em **[!UICONTROL Grupo de interceptação]**.
 
 ## Como criar um novo **[!UICONTROL seed address]** {#create-seed}
 
-Você pode criar um novo **[!UICONTROL seed address]** in **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed Members]**
+Você pode criar um novo **[!UICONTROL seed address]** no **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed member]**
 
 ![](assets/trap-create.png){zoomable="yes"}
 

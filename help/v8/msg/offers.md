@@ -5,15 +5,15 @@ description: Saiba como adicionar e enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 36%
+source-wordcount: '760'
+ht-degree: 35%
 
 ---
 
 
 # Adicionar ofertas às suas mensagens {#offers-content}
 
-Você pode adicionar ofertas aos seus deliveries na interface da Web do Adobe Campaign. Essas ofertas estão disponíveis no **Ofertas** menu esquerdo que permite acessar a lista de ofertas. Todas essas ofertas são somente leitura e devem ter sido criadas no console do cliente do Campaign, usando o **[!UICONTROL Interação]** módulo. Para obter mais informações sobre interação e como gerenciar um catálogo de ofertas no console, consulte [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
+Você pode adicionar ofertas aos seus deliveries na interface da Web do Adobe Campaign. Essas ofertas estão disponíveis no menu esquerdo **Ofertas**, que permite acessar a lista de ofertas. Todas essas ofertas são somente leitura e devem ter sido criadas no console do cliente do Campaign, usando o módulo **[!UICONTROL Interação]**. Para obter mais informações sobre interação e como gerenciar um catálogo de ofertas no console, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
 
 As etapas para enviar ofertas com um delivery são as seguintes:
@@ -37,19 +37,19 @@ O Adobe Campaign permite responder em tempo real durante uma interação com um 
 
 Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaixo.
 
-1. Clique em **[!UICONTROL Configurar ofertas]** na tela de edição de conteúdo de delivery.
+1. Clique no botão **[!UICONTROL Configurar ofertas]** da tela de edição de conteúdo de entrega.
 
-   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-setup.png){zoomable="yes"}
 
 1. Configurar quais ofertas devem ser propostas para os destinatários.
 
-   Selecione primeiro o **[!UICONTROL Espaço de oferta]** que corresponde ao seu ambiente de oferta. Saiba como criar um espaço de ofertas no [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
+   Primeiro, selecione o **[!UICONTROL Espaço de ofertas]** que corresponda ao seu ambiente de ofertas. Saiba como criar um espaço de ofertas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-create-content.png){zoomable="yes"}
 
 1. Para refinar a escolha de ofertas do mecanismo, selecione uma **[!UICONTROL Categoria de oferta]** específica em que as ofertas são classificadas.
 
-   Ao selecionar uma pasta, todas as subpastas são incluídas automaticamente e não podem ser removidas. Observe que [!DNL Campaign] não reflete esse comportamento.
+   Ao selecionar uma pasta, todas as subpastas são incluídas automaticamente e não podem ser removidas. Observe que a interface [!DNL Campaign] não reflete esse comportamento.
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
 
 1. (opcional) Insira um tema para filtrar categorias. Os temas são palavras-chave definidas upstream nas categorias. Elas funcionam como um filtro e permitem refinar o número de ofertas que serão apresentadas ao selecioná-las em um conjunto de categorias.
 
-1. Use o **[!UICONTROL Apresentações]** para especificar o número de ofertas que deseja inserir no delivery.
+1. Use o campo **[!UICONTROL Propositions]** para especificar o número de ofertas que deseja inserir na entrega.
 
 1. Selecione a opção **[!UICONTROL Excluir destinatários não qualificados]** se necessário.
 
@@ -77,11 +77,11 @@ Depois de configurar as ofertas a serem propostas no delivery, você pode inseri
 
 ## Inserir ofertas no delivery {#insert}
 
-As ofertas podem ser adicionadas ao delivery usando o [editor de expressão](../personalization/gs-personalization.md#access). Eles podem ser inseridos na linha de assunto ou no corpo do delivery.
+As ofertas podem ser adicionadas na entrega usando o [editor de expressão](../personalization/gs-personalization.md#access). Eles podem ser inseridos na linha de assunto ou no corpo do delivery.
 
 >[!CAUTION]
 >
->Antes de inserir uma oferta em um delivery, verifique se [configurado quais ofertas devem ser propostas com esse delivery](#configure).
+>Antes de inserir uma oferta em uma entrega, verifique se você [configurou quais ofertas propor com essa entrega](#configure).
 
 Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
@@ -89,21 +89,21 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Coloque o cursor do mouse onde deseja inserir a oferta e abra o editor de expressão usando o ícone de personalização.
 
-   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
-1. Selecione o **[!UICONTROL Apresentações]** menu. As apresentações disponíveis são exibidas na lista.
+1. Selecione o menu **[!UICONTROL Propositions]**. As apresentações disponíveis são exibidas na lista.
 
    >[!NOTE]
    >
-   >O número de apresentações é definido quando [configuração de ofertas](#configure) para o delivery atual.
+   >O número de apresentações é definido ao [configurar ofertas](#configure) para a entrega atual.
 
 1. Defina cada proposta usando os campos de personalização, funções de renderização ou atributos de oferta disponíveis.
 
-   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Salve as alterações.
 

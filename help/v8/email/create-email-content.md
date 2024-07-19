@@ -5,7 +5,7 @@ description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '617'
 ht-degree: 71%
 
 ---
@@ -59,41 +59,41 @@ O Designer de email permite definir a estrutura do email com facilidade. Ao adic
 
 Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
-1. No [Email Designer](get-started-email-designer.md#start-authoring) , selecione a **[!UICONTROL Criar do zero]** opção.
+1. Na página inicial do [Email Designer](get-started-email-designer.md#start-authoring), selecione a opção **[!UICONTROL Design do zero]**.
 
-   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
-1. Comece a criar seu conteúdo de email arrastando e soltando **[!UICONTROL Estruturas]** na tela para definir o layout do email.
+1. Comece a criar seu conteúdo de email arrastando e soltando **[!UICONTROL Estruturas]** na tela para definir o layout do seu email.
 
    >[!NOTE]
    >
    >O empilhamento de colunas não é compatível com todos os programas de email. Se o recurso não for compatível, as colunas não serão empilhadas.
 
-1. Adicionar quantos **[!UICONTROL Estruturas]** conforme necessário e edite suas configurações no painel dedicado à direita.
+1. Adicione quantas **[!UICONTROL Estruturas]** forem necessárias e edite suas configurações no painel dedicado à direita.
 
-   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. É possível selecionar a variável **[!UICONTROL coluna n:n]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+1. Você pode selecionar o componente **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    >[!NOTE]
    >
    >O tamanho de cada coluna não pode ser inferior a 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
 
-1. No **[!UICONTROL Componentes]** arraste e solte quantos elementos forem necessários em uma ou mais estruturas. [Saiba mais sobre componentes de conteúdo](content-components.md)
+1. Na seção **[!UICONTROL Componentes]**, arraste e solte quantos elementos forem necessários em uma ou mais estruturas. [Saiba mais sobre componentes de conteúdo](content-components.md)
 
-1. Cada componente pode ser personalizado ainda mais usando o **[!UICONTROL Configurações]** ou **[!UICONTROL Estilo]** guias à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
+1. Cada componente pode ser personalizado ainda mais com as guias **[!UICONTROL Configurações]** ou **[!UICONTROL Estilo]** à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-styles.png){zoomable="yes"}
 
 1. Insira campos de personalização para personalizar seu conteúdo de email com base nos dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
 1. Adicione links ao seu conteúdo.
 
-   Clique em **[!UICONTROL Links]** do painel esquerdo para exibir todos os URLs do seu conteúdo que serão rastreados. Você pode modificar seus **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Categorias]** se necessário.
+   Clique na guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que serão rastreadas. Você pode modificar o **[!UICONTROL Tipo de Acompanhamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Categorias]**, se necessário.
 
 [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
 
-   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-links.png){zoomable="yes"}
 
 1. Se necessário, é possível personalizar ainda mais o email clicando em **[!UICONTROL Alternar para o editor de código]** no menu avançado. Isso permite editar o código-fonte do email, por exemplo, para adicionar rastreamento ou tags de HTML personalizadas. [Saiba mais sobre o editor de código](code-content.md)
 
@@ -103,7 +103,7 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar a renderização do email. Você pode escolher exibir no desktop ou em um dispositivo móvel. [Saiba mais sobre como visualizar seu email](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. Quando o email estiver pronto, clique em **[!UICONTROL Salvar]**.
 

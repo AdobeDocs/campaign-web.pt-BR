@@ -24,8 +24,8 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite
 ## Práticas recomendadas{#scheduler-best-practices}
 
 * É recomendável não agendar um workflow para execução por mais de 15 minutos, pois pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
-* Se quiser enviar um delivery instantâneo no fluxo de trabalho, adicione uma atividade de scheduler e defina-a para executar **Uma vez**. Você também pode definir a variável **Agendar** nas configurações do delivery.
-* Para enviar um delivery recorrente no workflow, é necessário usar um **Scheduler** e defina a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
+* Para enviar uma entrega única no fluxo de trabalho, adicione uma atividade de agendador e configure-a para ser executada **Uma vez**. Você também pode definir o **Cronograma** nas configurações de entrega.
+* Para enviar uma entrega recorrente no fluxo de trabalho, é necessário usar uma atividade **Scheduler** e definir a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
 
 ## Configuração de atividade do scheduler {#scheduler-configuration}
 
@@ -40,37 +40,37 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite
 >title="Opções do Scheduler"
 >abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
 
-Siga estas etapas para configurar o **Scheduler** atividade:
+Siga estas etapas para configurar a atividade **Scheduler**:
 
 ![](../assets/workflow-scheduler.png)
 
-1. Adicionar um **Scheduler** atividade ao seu fluxo de trabalho.
+1. Adicione uma atividade **Scheduler** ao seu fluxo de trabalho.
 
-1. Configure o **Frequência de execução**:
+1. Configure a **Frequência de execução**:
 
    * **Uma vez**: o fluxo de trabalho é executado uma única vez.
 
    * **Diariamente**: o fluxo de trabalho é executado em um horário específico, uma vez por dia.
 
-   * **Várias vezes ao dia:** o workflow é executado regularmente várias vezes ao dia. Você pode configurar as execuções em horários específicos ou periodicamente.
+   * **Várias vezes ao dia:** o fluxo de trabalho é executado regularmente várias vezes ao dia. Você pode configurar as execuções em horários específicos ou periodicamente.
 
    * **Semanalmente**: o fluxo de trabalho é executado em um horário especificado, uma ou várias vezes por semana.
 
-   * **Mensal**: o fluxo de trabalho é executado em um horário especificado, uma ou várias vezes por mês. Você pode selecionar meses quando precisar que o fluxo de trabalho seja executado. Você também pode configurar as execuções em dias da semana especificados do mês, como a segunda terça-feira do mês.
+   * **Monthly**: o fluxo de trabalho é executado em um momento especificado, uma ou várias vezes por mês. Você pode selecionar meses quando precisar que o fluxo de trabalho seja executado. Você também pode configurar as execuções em dias da semana especificados do mês, como a segunda terça-feira do mês.
 
 1. Defina os detalhes da execução de acordo com a frequência selecionada. Os campos de detalhes podem variar dependendo da frequência usada (tempo, frequência de repetição, dias especificados etc.).
 
-1. Clique em **Visualizar tempos de inicialização** para verificar a programação das próximas dez execuções do seu fluxo de trabalho.
+1. Clique em **Visualizar horários de inicialização** para verificar o agendamento das próximas dez execuções do seu fluxo de trabalho.
 
 1. Defina o período de validade do scheduler:
 
-   * **Permanente (nunca expira)**: o fluxo de trabalho é executado de acordo com a frequência especificada, sem limites para o intervalo de tempo ou o número de iterações.
+   * **Permanente (nunca expira)**: o fluxo de trabalho é executado, de acordo com a frequência especificada, sem limites para o intervalo de tempo ou o número de iterações.
 
    * **Período de validade**: o fluxo de trabalho é executado de acordo com a frequência especificada, até uma data específica. É necessário especificar datas de início e término.
 
 >[!NOTE]
 >
->Se quiser iniciar o workflow imediatamente, clique no link **Executar tarefa pendente** na barra de ação superior do scheduler. Esse botão só estará disponível quando você tiver iniciado o workflow.
+>Se quiser iniciar o fluxo de trabalho imediatamente, clique em **Executar tarefa pendente** na barra de ação superior do agendador. Esse botão só estará disponível quando você tiver iniciado o workflow.
 
 ## Exemplo{#scheduler-example}
 

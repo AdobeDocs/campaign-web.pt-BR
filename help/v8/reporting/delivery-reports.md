@@ -5,8 +5,8 @@ description: Saiba como acessar e usar relatórios de entrega
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 45%
+source-wordcount: '262'
+ht-degree: 43%
 
 ---
 
@@ -32,28 +32,28 @@ O Adobe Campaign oferece vários tipos de relatórios, acessíveis para cada ent
 
 Para exibir e gerenciar relatórios, siga estas etapas:
 
-1. Para gerar um relatório para uma entrega específica, navegue até o **[!UICONTROL Entregas]** e selecione o delivery no qual deseja relatar.
+1. Para gerar um relatório para uma entrega específica, navegue até o menu **[!UICONTROL Entregas]** e selecione a entrega sobre a qual deseja criar o relatório.
 
-1. Do seu **[!UICONTROL Entrega]** painel, clique em **[!UICONTROL Relatórios]**.
+1. No painel de **[!UICONTROL Entrega]**, clique em **[!UICONTROL Relatórios]**.
 
-   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   Como alternativa, você pode usar os três pontos **Mais ações** ao lado do nome do delivery na lista deliveries e selecione **[!UICONTROL Exibir relatório]**.
+   Como alternativa, você pode usar os três pontos **Mais ações** ao lado do nome da entrega na lista de entregas e selecionar **[!UICONTROL Exibir relatório]**.
 
-   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. No menu esquerdo, selecione um relatório na lista.
 
-   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. Se o delivery for recorrente, selecione um delivery específico para relatar clicando em **[!UICONTROL Selecionar deliveries]**.
+1. Se a entrega for recorrente, selecione uma entrega específica a ser incluída no relatório clicando em **[!UICONTROL Selecionar entregas]**.
 
-   Você também pode aplicar um período de tempo ao seu relatório selecionando o **[!UICONTROL Data de contato]**.
+   Você também pode aplicar um período de tempo ao seu relatório selecionando a **[!UICONTROL Data de contato]**.
 
-   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
+   ![](assets/delivery-recurring.png){zoomable="yes"}
 
-1. No **[!UICONTROL Fluxos de clique e URLs]**, você também pode escolher a variável **[!UICONTROL Links mais visitados]** ou o **[!UICONTROL Período]**.
+1. Nas **[!UICONTROL URLs e fluxos de cliques]**, você também pode escolher os **[!UICONTROL Links Mais Visitados]** ou o **[!UICONTROL Período]**.
 
-   A variável **[!UICONTROL Visualizar por]** As opções de permitem filtrar por URLs, Rótulos ou Categorias.
+   As opções **[!UICONTROL Exibir por]** permitem filtrar por URLs, Rótulos ou Categorias.
 
-   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_5.png){zoomable="yes"}

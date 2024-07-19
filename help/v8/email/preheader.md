@@ -5,8 +5,8 @@ description: Saiba como criar conteúdo de email
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 48%
+source-wordcount: '207'
+ht-degree: 47%
 
 ---
 
@@ -27,21 +27,21 @@ Em muitos casos, fornece um breve resumo do conteúdo e geralmente tem uma frase
 
 Para definir o pré-cabeçalho do email, siga as etapas abaixo.
 
-1. No [Email Designer](create-email-content.md), adicione pelo menos um **[!UICONTROL Estrutura]** componente para começar a projetar seu email.
+1. No [Designer de email](create-email-content.md), adicione pelo menos um componente **[!UICONTROL Estrutura]** para começar a criar seu email.
 
 1. Clique no ícone **[!UICONTROL Árvore de navegação]** no painel esquerdo e selecione **[!UICONTROL Corpo]**.
 
-   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body.png){zoomable="yes"}
 
-1. No **[!UICONTROL Configurações]** insira algum texto para o pré-cabeçalho.
+1. Na guia **[!UICONTROL Configurações]**, digite algum texto para o pré-cabeçalho.
 
-1. Para personalizá-lo ainda mais, clique no link **[!UICONTROL Adicionar personalização]** ícone à esquerda da **[!UICONTROL Pré-cabeçalho]** campo.
+1. Para personalizar ainda mais, clique no ícone **[!UICONTROL Adicionar personalização]** à esquerda do campo **[!UICONTROL Pré-cabeçalho]**.
 
-   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. No **[!UICONTROL Editar personalização]** , é possível adicionar [campos de personalização](../personalization/personalize.md), [blocos de conteúdo](../personalization/content-blocks.md) e [conteúdo condicional](../personalization/conditions.md) usando as entradas dedicadas à esquerda.
+1. Na janela **[!UICONTROL Editar Personalization]**, você pode adicionar [campos de personalização](../personalization/personalize.md), [blocos de conteúdo](../personalization/content-blocks.md) e [conteúdo condicional](../personalization/conditions.md) usando as entradas dedicadas à esquerda.
 
-   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Confirmar]**.
 

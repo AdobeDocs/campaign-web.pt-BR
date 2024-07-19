@@ -30,51 +30,51 @@ ht-degree: 43%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR" text="Usar modelos de entrega"
 
 
-Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de SMS independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação serão detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery de SMS independente (único). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão os detalhes em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 Para criar um novo delivery de SMS independente, siga estas etapas:
 
-1. Navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
+1. Navegue até o menu **[!UICONTROL Entregas]** no painel esquerdo e clique no botão **[!UICONTROL Criar entrega]**.
 
-1. No **[!UICONTROL Canal]** escolha SMS como canal e selecione um modelo. [Saiba mais sobre modelos](../msg/delivery-template.md)
+1. Na seção **[!UICONTROL Canal]**, escolha SMS como canal e selecione um modelo. [Saiba mais sobre modelos](../msg/delivery-template.md)
 
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 
    ![](assets/sms_create_1.png){zoomable="yes"}
 
-1. Insira um **[!UICONTROL Rótulo]** para o delivery e acesse o **[!UICONTROL Opções adicionais]** menu suspenso. Se o seu delivery for baseado em um schema estendido, **Opções personalizadas** campos estão disponíveis.
+1. Insira um **[!UICONTROL Rótulo]** para a entrega e acesse o menu suspenso **[!UICONTROL Opções adicionais]**. Se a sua entrega for baseada em um esquema estendido, campos específicos de **Opções personalizadas** estarão disponíveis.
 
    +++Defina as seguintes configurações com base nos seus requisitos.
    * **[!UICONTROL Nome interno]**: atribua um identificador exclusivo à entrega.
    * **[!UICONTROL Pasta]**: armazene a entrega em uma pasta específica.
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
-   * **[!UICONTROL Natureza]**: especifique a natureza do delivery para fins de classificação.
+   * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
 +++
 
 1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público já existente ou criar o seu próprio. [Saiba mais sobre públicos](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png){zoomable="yes"}
 
-   Saiba como selecionar um público existente no [esta página](../audience/add-audience.md)
+   Saiba como selecionar um público existente [nesta página](../audience/add-audience.md)
 
-   Saiba como criar um novo público-alvo no [esta página](../audience/one-time-audience.md)
+   Saiba como criar um novo público-alvo [nesta página](../audience/one-time-audience.md)
 
-1. Ligue o **[!UICONTROL Ativar grupo de controle]** opção para definir um grupo de controle para medir o impacto do delivery. As mensagens não são enviadas para esse grupo de controle, para que você possa comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não receberam. [Saiba mais](../audience/control-group.md)
+1. Ative a opção **[!UICONTROL Habilitar grupo de controle]** para definir um grupo de controle e medir o impacto da sua entrega. As mensagens não são enviadas para esse grupo de controle, para que você possa comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não receberam. [Saiba mais](../audience/control-group.md)
 
-1. Clique em **[!UICONTROL Editar conteúdo]** para começar a projetar o conteúdo da mensagem SMS. [Saiba mais](content-sms.md)
+1. Clique em **[!UICONTROL Editar conteúdo]** para começar a criar o conteúdo da sua mensagem SMS. [Saiba mais](content-sms.md)
 
    ![](assets/sms_create_4.png){zoomable="yes"}
 
-   Nessa tela, também é possível [simular seu conteúdo](../preview-test/preview-test.md) e [configurar ofertas](../msg/offers.md).
+   Nesta tela, você também pode [simular seu conteúdo](../preview-test/preview-test.md) e [configurar ofertas](../msg/offers.md).
 
-1. Para programar sua entrega para uma data e hora específicas, ative a opção **[!UICONTROL Habilitar agendamento]**. Depois de iniciar o delivery, a mensagem será enviada automaticamente na data e hora exatas definidas para o recipient. Saiba mais sobre a programação de delivery em [nesta seção](../msg/gs-deliveries.md#gs-schedule).
+1. Para programar sua entrega para uma data e hora específicas, ative a opção **[!UICONTROL Habilitar agendamento]**. Depois de iniciar o delivery, a mensagem será enviada automaticamente na data e hora exatas definidas para o recipient. Saiba mais sobre o agendamento de entrega em [esta seção](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
-   >Quando um delivery é enviado no contexto de um workflow, você deve usar o **Scheduler** atividade. Saiba mais [nesta página](../workflows/activities/scheduler.md).
+   >Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais [nesta página](../workflows/activities/scheduler.md).
 
-1. Clique em **[!UICONTROL Configurações]** para acessar opções avançadas relacionadas ao seu template do delivery. [Saiba mais](../advanced-settings/delivery-settings.md)
+1. Clique em **[!UICONTROL Configurações]** para acessar as opções avançadas relacionadas ao seu modelo de entrega. [Saiba mais](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png){zoomable="yes"}

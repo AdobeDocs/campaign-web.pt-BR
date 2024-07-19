@@ -2,7 +2,8 @@
 audience: end-user
 title: Sobre fluxos de trabalho de somente leitura
 description: Saiba por que os fluxos de trabalho estão no modo somente leitura
-source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
+exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
+source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 13%
@@ -18,7 +19,7 @@ ht-degree: 13%
 
 Alguns workflows podem estar no modo somente leitura. Você pode vê-lo com:
 
-- A menção **[!UICONTROL ** Somente leitura **]**  perto do **[!UICONTROL Configurações]** botão
+- A menção **[!UICONTROL ** Somente leitura **]** próxima ao botão **[!UICONTROL Configurações]**
 - Os botões de ação não estão acessíveis
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
@@ -52,6 +53,6 @@ No caso de um workflow de campanha somente leitura, o usuário não consegue ace
 ### Workflows técnicos
 
 Os workflows técnicos estão no modo somente leitura para usuários do Campaign.
-Os workflows técnicos incorporados estão no modo somente leitura para todos, mesmo para os usuários administradores. Mas o usuário pode **pause** ou **stop** se necessário. Essas são as únicas ações permitidas. [Saiba mais aqui](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+Os workflows técnicos incorporados estão no modo somente leitura para todos, mesmo para os usuários administradores. Mas o usuário pode **pausar** ou **parar**, se necessário. Essas são as únicas ações permitidas. [Saiba mais aqui](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}

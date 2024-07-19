@@ -12,19 +12,19 @@ ht-degree: 26%
 
 # Criar uma entrega de correspondência direta {#create-direct-mail}
 
-Você pode criar um delivery de correspondência direta independente ou criar um delivery de correspondência direta no contexto de um fluxo de trabalho da campanha. As etapas abaixo detalham o procedimento para um delivery de mala direta independente (único). Se estiver trabalhando no contexto de um workflow da campanha, as etapas de criação são detalhadas em [nesta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Você pode criar um delivery de correspondência direta independente ou criar um delivery de correspondência direta no contexto de um fluxo de trabalho da campanha. As etapas abaixo detalham o procedimento para um delivery de mala direta independente (único). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão detalhadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 Para criar um novo delivery de correspondência direta independente, siga estas etapas:
 
-1. Navegue até o **[!UICONTROL Entregas]** no painel à esquerda e clique no botão  **[!UICONTROL Criar entrega]** botão.
+1. Navegue até o menu **[!UICONTROL Entregas]** no painel esquerdo e clique no botão **[!UICONTROL Criar entrega]**.
 
-1. No **[!UICONTROL Canal]** escolha **[!UICONTROL Correspondência direta]** como canal e selecione um modelo. [Saiba mais sobre modelos](../msg/delivery-template.md)
+1. Na seção **[!UICONTROL Canal]**, escolha **[!UICONTROL Correspondência direta]** como canal e selecione um modelo. [Saiba mais sobre modelos](../msg/delivery-template.md)
 
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 
    ![](assets/dm-create.png){zoomable="yes"}
 
-1. Insira um **[!UICONTROL Rótulo]** para o delivery e acesse o **[!UICONTROL Opções adicionais]** menu suspenso. Se o seu delivery for baseado em um schema estendido, **Opções personalizadas** campos estão disponíveis.
+1. Insira um **[!UICONTROL Rótulo]** para a entrega e acesse o menu suspenso **[!UICONTROL Opções adicionais]**. Se a sua entrega for baseada em um esquema estendido, campos específicos de **Opções personalizadas** estarão disponíveis.
 
    ![](assets/dm-properties.png){zoomable="yes"}
 
@@ -33,10 +33,10 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
    * **[!UICONTROL Pasta]**: armazene a entrega em uma pasta específica.
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
-   * **[!UICONTROL Natureza]**: especifique a natureza do delivery para fins de classificação.
+   * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
 +++
 
-1. Clique em **[!UICONTROL Selecionar público]** botão para direcionar um público-alvo existente ou criar o seu próprio.
+1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público-alvo existente ou criar o seu próprio.
 
    * [Saiba como selecionar um público existente](../audience/add-audience.md)
    * [Saiba como criar um novo público-alvo](../audience/one-time-audience.md)
@@ -47,7 +47,7 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
    >
    >Os destinatários da correspondência direta devem conter pelo menos seus nomes e endereços postais. Um endereço será considerado completo se o nome, o CEP/código postal e a cidade não estiverem em branco. Quaisquer destinatários com endereços incompletos serão excluídos das entregas de correspondência direta.
 
-1. Ligue o **[!UICONTROL Ativar grupo de controle]** opção para definir um grupo de controle para medir o impacto do delivery. As mensagens não são enviadas para esse grupo de controle, para que você possa comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não receberam. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
+1. Ative a opção **[!UICONTROL Habilitar grupo de controle]** para definir um grupo de controle e medir o impacto da sua entrega. As mensagens não são enviadas para esse grupo de controle, para que você possa comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não receberam. [Saiba como trabalhar com grupos de controle](../audience/control-group.md)
 
 1. Clique em **[!UICONTROL Editar conteúdo]** para definir as informações (colunas) a serem exportadas para o arquivo de extração. [Saiba mais](content-direct-mail.md)
 
@@ -57,10 +57,10 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
 
    >[!NOTE]
    >
-   >Quando um delivery é enviado no contexto de um workflow, você deve usar o **Scheduler** atividade. Saiba mais [nesta página](../workflows/activities/scheduler.md).
+   >Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais [nesta página](../workflows/activities/scheduler.md).
 
-1. Clique em **[!UICONTROL Configurações]** para acessar opções avançadas relacionadas ao seu template do delivery. [Saiba mais](../advanced-settings/delivery-settings.md)
+1. Clique em **[!UICONTROL Configurações]** para acessar as opções avançadas relacionadas ao seu modelo de entrega. [Saiba mais](../advanced-settings/delivery-settings.md)
 
    ![](assets/dm-settings.png){zoomable="yes"}
 
-1. Quando o delivery de mala direta estiver pronto, clique no link **[!UICONTROL Revisar e enviar]** botão para validar e enviar o delivery e gerar o arquivo de extração. [Saiba como visualizar e enviar um delivery de correspondência direta](send-direct-mail.md)
+1. Quando a entrega da correspondência direta estiver pronta, clique no botão **[!UICONTROL Revisar e enviar]** para validar e enviar a entrega e gerar o arquivo de extração. [Saiba como visualizar e enviar uma entrega de correspondência direta](send-direct-mail.md)

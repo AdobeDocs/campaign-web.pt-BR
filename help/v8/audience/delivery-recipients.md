@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Para definir os recipients de um delivery, você pode:
 
-* [Selecionar um público existente](add-audience.md) criado no console do cliente Adobe Campaign ou na interface da Web, ou proveniente da Adobe Experience Platform,
-* [Criar um público-alvo único](one-time-audience.md) para usar uma vez nesta entrega específica. Isso é feito definindo e combinando critérios de filtragem no modelador de query,
-* [Carregar um público-alvo de um arquivo externo](file-audience.md). Essa opção está disponível somente para deliveries de email independentes.
+* [Selecione um público-alvo existente](add-audience.md) criado no console do cliente Adobe Campaign ou na Interface do Usuário da Web, ou que seja proveniente da Adobe Experience Platform,
+* [Crie um público-alvo único](one-time-audience.md) para usar uma vez nesta entrega específica. Isso é feito definindo e combinando critérios de filtragem no modelador de query,
+* [Carregar um público de um arquivo externo](file-audience.md). Essa opção está disponível somente para deliveries de email independentes.
 
-Ao direcionar um público-alvo, você também pode definir **grupos de controle** para evitar o envio de mensagens para uma parte do público-alvo e medir o impacto das campanhas. [Saiba como definir um grupo de controle](control-group.md)
+Ao direcionar um público-alvo, você também pode definir **grupos de controle** para evitar o envio de mensagens para uma parte do público-alvo e medir o impacto de suas campanhas. [Saiba como definir um grupo de controle](control-group.md)
 

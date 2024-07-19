@@ -6,7 +6,7 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -18,32 +18,32 @@ ht-degree: 6%
 >abstract="Agora você pode configurar a hierarquia de pastas para planos e programas de marketing na interface do usuário do Campaign Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
-O Adobe Campaign permite configurar a hierarquia de pastas para planos de marketing e programas.
+O Adobe Campaign permite configurar uma hierarquia de pastas para planos e programas de marketing.
 
-Para organizá-los melhor, Adobe recomenda a seguinte hierarquia: Plan `>` Programas `>` Campanhas
+Para organizá-los melhor, o Adobe recomenda a seguinte hierarquia: Plan `>` Programs `>` Campaigns
 
-* A **plano** pode conter vários programas. Define objetivos estratégicos por um período.
-* A **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e páginas de aterrissagem.
-* A **campaign** pode conter deliveries, workflows e landing pages.
+* Um **plano** pode conter vários programas. Define objetivos estratégicos por um período.
+* Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e páginas de aterrissagem.
+* Uma **campanha** pode conter entregas, fluxos de trabalho e páginas de aterrissagem.
 
 ## Criar e configurar um plano {#create-plan}
 
-Para criar um plano, é necessário criar uma pasta com o tipo de pasta **[!UICONTROL Plano]** [Saiba mais sobre como criar uma pasta](create-manage-folder.md).
+Para criar um plano, você precisa criar uma pasta com o tipo de pasta **[!UICONTROL Plano]** [Saiba mais sobre como criar uma pasta](create-manage-folder.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
-Vá para a **[!UICONTROL Configurações da pasta]** do seu plano para gerenciá-lo.
+Vá para as **[!UICONTROL Configurações de pasta]** do seu plano para gerenciá-lo.
 
 ![](assets/plan_settings.png){zoomable="yes"}
 
-Você pode definir **[!UICONTROL Opções personalizadas]** e para definir a data de agendamento do seu plano.
+Você pode definir **[!UICONTROL Opções personalizadas]** e definir a data de agendamento do seu plano.
 
 ![](assets/plan_options.png){zoomable="yes"}
 
-Para gerenciar o  **[!UICONTROL Opções personalizadas]**:
+Para gerenciar as **[!UICONTROL Opções personalizadas]**:
 
-1. Navegue até o **[!UICONTROL Esquemas]**
-1. Escolha o **[!UICONTROL Editável]** esquemas nos filtros
+1. Navegue até os **[!UICONTROL Esquemas]**
+1. Escolha os esquemas **[!UICONTROL Editáveis]** nos filtros
 1. Clique no ícone de **[!UICONTROL Editar detalhes personalizados]**
 
 ![](assets/plan_edit.png){zoomable="yes"}
@@ -58,18 +58,18 @@ Para criar um programa em seu plano ([Saiba mais sobre como criar um plano](#cre
 
 ![](assets/program_create.png){zoomable="yes"}
 
-Vá para a **[!UICONTROL Configurações da pasta]** do seu programa para gerenciá-lo.
+Vá para as **[!UICONTROL Configurações de pasta]** do seu programa para gerenciá-lo.
 
 ![](assets/program_settings.png){zoomable="yes"}
 
-Você pode definir **[!UICONTROL Opções personalizadas]** e para definir a data de agendamento do seu programa.
+Você pode definir **[!UICONTROL Opções personalizadas]** e definir a data de agendamento do seu programa.
 
 ![](assets/program_options.png){zoomable="yes"}
 
-Para gerenciar o  **[!UICONTROL Opções personalizadas]**:
+Para gerenciar as **[!UICONTROL Opções personalizadas]**:
 
-1. Navegue até o **[!UICONTROL Esquemas]**
-1. Escolha o **[!UICONTROL Editável]** esquemas nos filtros
+1. Navegue até os **[!UICONTROL Esquemas]**
+1. Escolha os esquemas **[!UICONTROL Editáveis]** nos filtros
 1. Clique no ícone de **[!UICONTROL Editar detalhes personalizados]**
 
 ![](assets/program_edit.png){zoomable="yes"}
@@ -88,21 +88,21 @@ Para vincular uma nova campanha ao seu programa, crie a campanha diretamente no 
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
-A variável **[!UICONTROL Pasta]** as configurações serão automaticamente arquivadas com o caminho para o seu programa.
+As configurações de **[!UICONTROL Pasta]** serão automaticamente arquivadas com o caminho para o seu programa.
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### Way #2 : você já tem uma campanha existente e deseja vinculá-la a um programa existente
 
-Vá para a **[!UICONTROL Configurações]** da campanha que deseja vincular ao seu programa:
+Vá para o botão **[!UICONTROL Configurações]** da campanha que deseja vincular ao seu programa:
 
 ![](assets/campaign_settings.png){zoomable="yes"}
 
-No seu **[!UICONTROL Propriedades]**, clique no link **[!UICONTROL Pasta]** ícone no **[!UICONTROL Pasta]** configurações, para escolher o seu **[!UICONTROL Programa]** pasta.
+Em suas **[!UICONTROL Propriedades]**, clique no ícone **[!UICONTROL Pasta]** nas configurações de **[!UICONTROL Pasta]** para escolher sua pasta **[!UICONTROL Programa]**.
 
 ![](assets/campaign_folder.png){zoomable="yes"}
 
-Selecione o **[!UICONTROL Programa]** e clique em **[!UICONTROL Confirmar o]** e depois em **[!UICONTROL Salvar e fechar]** botão.
+Selecione a pasta **[!UICONTROL Programa]** e clique no botão **[!UICONTROL Confirmar]** e depois no botão **[!UICONTROL Salvar e Fechar]**.
 
 ![](assets/campaign_linked.png){zoomable="yes"}
 

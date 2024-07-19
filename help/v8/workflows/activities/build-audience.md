@@ -27,7 +27,7 @@ Para definir o público-alvo, você pode:
 
 >[!NOTE]
 >
->Os públicos carregados de um arquivo não podem ser direcionados usando uma atividade Criar público. Para fazer isso, é necessário usar um **Carregar arquivo** atividade seguida de um **Reconciliação** atividade. [Saiba mais](../../audience/about-recipients.md)
+>Os públicos carregados de um arquivo não podem ser direcionados usando uma atividade Criar público. Para fazer isso, você precisa usar uma atividade **Carregar arquivo** seguida por uma atividade **Reconciliação**. [Saiba mais](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -56,7 +56,7 @@ Siga estas etapas para configurar a atividade **Criar público-alvo**:
 Para criar sua própria query, siga estas etapas:
 
 1. Selecione **Crie sua própria (consulta)**.
-1. Escolha a **Dimensão de direcionamento**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)
+1. Escolha a **Dimensão de direcionamento**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions)
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 

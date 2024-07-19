@@ -5,8 +5,8 @@ description: Saiba como criar uma entrega de SMS
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 79%
+source-wordcount: '256'
+ht-degree: 78%
 
 ---
 
@@ -30,17 +30,17 @@ Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
    Além disso, ao clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]**, é possível incluir campos de personalização, blocos de conteúdo e conteúdo dinâmico na mensagem.
 
-   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_1.png){zoomable="yes"}
 
-1. Digite sua mensagem de texto no **[!UICONTROL Mensagem]** ou clique no botão **[!UICONTROL Abrir caixa de diálogo de personalização]** opção para definir o conteúdo e adicionar conteúdo dinâmico. [Saiba mais](../personalization/gs-personalization.md)
+1. Digite sua mensagem de texto no campo **[!UICONTROL Mensagem]** ou clique na opção **[!UICONTROL Abrir caixa de diálogo de personalização]** para definir o conteúdo e adicionar conteúdo dinâmico. [Saiba mais](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_2.png){zoomable="yes"}
 
 1. Por padrão, o rastreamento está habilitado para entregas. Você pode desabilitar essa opção na **[!UICONTROL seção Recursos opcionais]**.
 
-1. Clique em **[!UICONTROL Configurações]** para acessar opções avançadas relacionadas ao seu template do delivery. [Saiba mais](../advanced-settings/delivery-settings.md)
+1. Clique em **[!UICONTROL Configurações]** para acessar as opções avançadas relacionadas ao seu modelo de entrega. [Saiba mais](../advanced-settings/delivery-settings.md)
 
-1. Acesse o **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado. [Saiba mais](send-sms.md#preview-sms)
+1. Acesse o menu **[!UICONTROL Simular conteúdo]** para visualizar seu conteúdo personalizado. [Saiba mais](send-sms.md#preview-sms)
 
 1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização.
 

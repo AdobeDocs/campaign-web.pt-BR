@@ -5,8 +5,8 @@ description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 18%
+source-wordcount: '193'
+ht-degree: 17%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 18%
 
 Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
 
-[!DNL Adobe Campaign Web user interface] O permite:
+[!DNL Adobe Campaign Web user interface] permite a você:
 
 * [Pré-visualização do conteúdo e da personalização da mensagem](preview-content.md)
-* [Enviar provas](test-deliveries.md) para recipients ou assinantes específicos para teste e validação
-* [Verificar a renderização de email](email-rendering.md) em clientes populares de desktop, móveis e baseados na web
+* [Enviar provas](test-deliveries.md) para destinatários ou assinantes específicos para teste e validação
+* [Verificar a renderização de email](email-rendering.md) em clientes populares de desktop, dispositivos móveis e baseados na Web
 * [Pré-visualizar e testar suas páginas de aterrissagem](../landing-pages/create-lp.md#test-landing-page)
 
-Essas ações podem ser executadas usando o **[!UICONTROL Simular conteúdo]** que pode ser acessado na tela editar conteúdo do seu delivery - ou na guia [Email Designer](../email/get-started-email-designer.md).
+Essas ações podem ser executadas com o botão **[!UICONTROL Simular conteúdo]**, acessível na tela de edição de conteúdo da sua entrega - ou no [Designer de email](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >
->A simulação de conteúdo também está disponível no [resumo da entrega](../monitor/prepare-send.md) depois de clicar no link **[!UICONTROL Revisar e enviar]** botão.
+>A simulação de conteúdo também está disponível no [resumo da entrega](../monitor/prepare-send.md) depois de clicar no botão **[!UICONTROL Revisar e enviar]**.
 >
->Se estiver direcionando um público-alvo carregado de um arquivo, consulte [nesta seção](../audience/file-audience.md#preview--test-your-email-test) para saber como visualizar e testar seu delivery.
+>Se você estiver direcionando um público-alvo carregado de um arquivo, consulte [esta seção](../audience/file-audience.md#preview--test-your-email-test) para saber como visualizar e testar sua entrega.

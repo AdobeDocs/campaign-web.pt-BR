@@ -2,7 +2,8 @@
 audience: end-user
 title: Sobre a quarentena
 description: Entender o gerenciamento de endereços em quarentena
-source-git-commit: 9abf58c35fcf396e3003f9ecba728cd77df844a1
+exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
+source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 13%
@@ -13,7 +14,7 @@ ht-degree: 13%
 
 O Adobe Campaign gerencia endereços em quarentena (email, SMS, notificação por push).
 
-A quarentena se aplica somente a um **endereço de email**, um **número de telefone**, ou um **token do dispositivo**, mas não ao próprio perfil. Por exemplo, um perfil cujo endereço de email esteja em quarentena pode atualizar seu perfil e inserir um novo endereço, podendo então ser direcionado em ações de entrega novamente. Da mesma forma, se dois perfis tiverem o mesmo número de telefone, ambos serão afetados se o número estiver em quarentena.
+A quarentena se aplica somente a um **endereço de email**, um **número de telefone** ou um **token de dispositivo**, mas não ao próprio perfil. Por exemplo, um perfil cujo endereço de email esteja em quarentena pode atualizar seu perfil e inserir um novo endereço, podendo então ser direcionado em ações de entrega novamente. Da mesma forma, se dois perfis tiverem o mesmo número de telefone, ambos serão afetados se o número estiver em quarentena.
 
 
 >[!CAUTION]
@@ -22,7 +23,7 @@ A quarentena se aplica somente a um **endereço de email**, um **número de tele
 
 ## O que é quarentena?
 
-A quarentena é o caminho para **gerenciar os endereços inválidos nos deliveries**.
+A quarentena é a maneira de **gerenciar os endereços inválidos nas entregas**.
 
 Se um delivery tiver uma alta taxa de endereços inválidos, ele poderá ser considerado spam. Incluir na lista de bloqueios O gerenciamento desses endereços com quarentena evitará que você seja solicitado pelos provedores de internet a colocar esses endereços em quarentena. Isso é importante para sua reputação.
 
@@ -43,7 +44,7 @@ Muitos motivos podem enviar um endereço para quarentena:
 
 ## Onde encontrar os endereços em quarentena
 
-Você pode exibir todos os endereços em quarentena da sua instância no **[!UICONTROL Explorer]** > **[!UICONTROL Administração]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Gerenciamento de não entregues]** > **[!UICONTROL Não entregues e endereços]**. Esta seção lista os elementos em quarentena para os canais de email, SMS e notificação por push.
+Você pode exibir todos os endereços em quarentena de sua instância no **[!UICONTROL Explorer]** > **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**. Esta seção lista os elementos em quarentena para os canais de email, SMS e notificação por push.
 
 ![](assets/quarantine_location.png){zoomable="yes"}
 

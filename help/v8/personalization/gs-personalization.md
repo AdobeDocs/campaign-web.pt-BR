@@ -10,8 +10,8 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '671'
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -33,15 +33,15 @@ Você pode tornar o conteúdo da mensagem dinâmico inserindo construções Java
 
 * **Personalizar suas mensagens** para cada destinatário específico aproveitando dados de perfil, como nome, interesses, onde vive, o que comprou e muito mais. É possível selecionar qualquer campo disponível no banco de dados do editor de personalização relacionado ao destinatário, à mensagem ou à entrega. Esses atributos de personalização podem ser inseridos na linha de assunto ou no corpo das mensagens. A sintaxe a seguir insere a cidade do destinatário no conteúdo: &lt;%= recipient.location.city %>.
 
-  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **Criar conteúdo condicional** para adaptar suas entregas a cada destinatário e mostrar apenas conteúdo relevante para um determinado cliente, com base nas informações que você tem sobre ele. Isso permite exibir imagens e/ou blocos de texto específicos com base em condições. Por exemplo, adapte um banner de email com base na assinatura do destinatário de um serviço específico.
 
-  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
 * **Usar blocos de personalização** para economizar tempo e aproveitar o conteúdo personalizado facilmente reutilizável em suas mensagens. O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, é possível adicionar um logotipo, uma saudação ou um link para a mirror page de uma mensagem de email. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
 
-  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Acesso ao editor de expressão {#access}
 
@@ -51,15 +51,15 @@ Estes são alguns exemplos de como acessar o editor de expressão, dependendo do
 
 * *Acesso ao editor de expressão a partir do campo Nome do remetente*
 
-  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *Acesso ao editor de expressão a partir de um componente de texto de email*
 
-  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
 * *Acesso ao editor de expressão a partir de um link em um email*
 
-  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >

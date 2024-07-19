@@ -5,8 +5,8 @@ description: Saiba como definir e enviar provas
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 15%
+source-wordcount: '1124'
+ht-degree: 14%
 
 ---
 
@@ -33,18 +33,18 @@ Antes de enviar uma prova, defina um público-alvo para sua entrega. [Saiba mais
 Para começar a testar o conteúdo da mensagem:
 
 1. Edite o conteúdo do seu delivery.
-1. Clique em **[!UICONTROL Simular conteúdo]** botão.
-1. Clique em **[!UICONTROL Enviar prova]** botão para enviar provas.
+1. Clique no botão **[!UICONTROL Simular conteúdo]**.
+1. Clique no botão **[!UICONTROL Enviar prova]** para enviar provas.
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. Selecione os recipients da prova.
 
    Dependendo do canal de mensagem, as provas podem ser enviadas para os seguintes tipos de recipients:
 
-   * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são recipients adicionais específicos do banco de dados. Você também pode usar a variável [substituição do público alvo principal](#substitution-profiles) que envia a prova para um endereço de teste de email ou número de telefone e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
+   * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são destinatários adicionais específicos no banco de dados. Você também pode usar o modo [substituição do target principal](#substitution-profiles), que envia a prova para um endereço de teste de email ou número de telefone, e usar dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
 
-   * Para mensagens por push, é possível usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados na [!DNL Campaign] console. Saiba mais em [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * Para mensagens por push, você pode usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados no console [!DNL Campaign]. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    A configuração detalhada para cada modo está disponível abaixo.
 
@@ -70,87 +70,87 @@ Para começar a testar o conteúdo da mensagem:
 >title="Incluir perfis de teste no público-alvo principal"
 >abstract="Habilite essa opção para também enviar a mensagem final para os destinatários da prova."
 
-Os perfis de teste são recipients adicionais no banco de dados. Eles são criados a partir da variável **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]** menu. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
+Os perfis de teste são recipients adicionais no banco de dados. Eles são criados no menu **[!UICONTROL Gerenciamento de clientes]** > **[!UICONTROL Perfis]**. [Saiba mais](../audience/test-profiles.md#create-test-profiles)
 
 As etapas para enviar provas para perfis de teste são detalhadas abaixo.
 
-1. A partir do conteúdo do seu delivery, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Enviar prova]** botão.
+1. A partir do conteúdo da sua entrega, clique no botão **[!UICONTROL Simular conteúdo]** e no botão **[!UICONTROL Enviar prova]**.
 
-1. No **[!UICONTROL Modo]** selecione **[!UICONTROL Perfis de teste]** para direcionar recipients fictícios que receberão a prova ou o delivery de SMS.
+1. Na lista suspensa **[!UICONTROL Modo]**, escolha **[!UICONTROL Perfis de teste]** para direcionar destinatários fictícios que receberão a prova ou a entrega de SMS.
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
-1. Se você já tiver selecionado perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis são pré-selecionados como recipients de provas. Você pode limpar sua seleção e/ou adicionar outros recipients usando o **[!UICONTROL Adicionar perfil(s) de teste]** botão.
+1. Se você já tiver selecionado os perfis para [visualizar a mensagem](preview-content.md) na tela de simulação de conteúdo, esses perfis serão pré-selecionados como destinatários de provas. Você pode limpar sua seleção e/ou adicionar outros destinatários usando o botão **[!UICONTROL Adicionar perfil(s) de teste]**.
 
-1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa. Por exemplo, é possível definir uma regra para localizar todos os perfis de teste com **[!UICONTROL Cliente Potencial]** status. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
+1. Ao navegar pelo perfil de teste ou pelas listas de perfis, você pode usar filtros para refinar a pesquisa. Por exemplo, você pode definir uma regra para localizar todos os perfis de teste com o status **[!UICONTROL Prospecto]**. Saiba como adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
-1. Para enviar a mensagem final também aos recipients da prova, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
+1. Para enviar também a mensagem final aos recipients da prova, selecione a opção **[!UICONTROL Incluir população de teste no target principal]**.
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
-1. Depois que os perfis de teste forem selecionados, você poderá [enviar a prova](#send-test).
+1. Após selecionar os perfis de teste, você pode [enviar a prova](#send-test).
 
 ## Substituir dados do perfil {#substitution-profiles}
 
-Use a substituição de perfil para enviar provas para um endereço de email ou número de telefone específico, enquanto exibe dados de um perfil existente do [!DNL Adobe Campaign] banco de dados. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
+Use a substituição de perfil para enviar provas para um endereço de email ou número de telefone específico, ao exibir dados de um perfil existente do banco de dados do [!DNL Adobe Campaign]. Esse modo só poderá ser selecionado se o público-alvo da entrega tiver sido definido.
 
 Para substituir os dados do perfil do target principal, siga as etapas abaixo:
 
-1. A partir do conteúdo do seu delivery, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Enviar prova]** botão.
+1. A partir do conteúdo da sua entrega, clique no botão **[!UICONTROL Simular conteúdo]** e no botão **[!UICONTROL Enviar prova]**.
 
-1. No **[!UICONTROL Modo]** selecione **[!UICONTROL Substituir do público alvo principal]** para enviar uma prova para um endereço de email ou número de telefone específico ao exibir dados de um perfil existente.
+1. Na lista suspensa **[!UICONTROL Modo]**, escolha **[!UICONTROL Substituir do destino principal]** para enviar uma prova para um endereço de email ou número de telefone específico enquanto exibe dados de um perfil existente.
 
    >[!CAUTION]
    >
-   >Se você não selecionou um [público](../audience/about-recipients.md) para o seu delivery, a variável **[!UICONTROL Substituir do público alvo principal]** estará acinzentada e não será possível selecionar perfis de substituição.
+   >Se você não tiver selecionado um [público-alvo](../audience/about-recipients.md) para sua entrega, a opção **[!UICONTROL Substituir do público-alvo principal]** ficará esmaecida e você não poderá selecionar perfis de substituição.
 
-1. Clique em **[!UICONTROL Adicionar endereço]** e especifique o endereço de email ou número de telefone que receberá a prova.
+1. Clique no botão **[!UICONTROL Adicionar endereço]** e especifique o endereço de email ou o número de telefone que receberá a prova.
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Você pode inserir qualquer endereço de email ou número de telefone. Isso permite enviar provas para qualquer recipient, mesmo que ele não seja usuário do [!DNL Adobe Campaign].
+   >Você pode inserir qualquer endereço de email ou número de telefone. Isso permite enviar provas para qualquer destinatário, mesmo que ele não seja usuário do [!DNL Adobe Campaign].
 
-1. Selecione o perfil do target definido para o delivery a ser usado como substituto. Você também pode permitir [!DNL Adobe Campaign] selecione um perfil aleatório no target. Os dados de perfil do perfil selecionado serão exibidos na prova.
+1. Selecione o perfil do target definido para o delivery a ser usado como substituto. Você também pode deixar [!DNL Adobe Campaign] selecionar um perfil aleatório do público-alvo. Os dados de perfil do perfil selecionado serão exibidos na prova.
 
 1. Confirme o recipient e repita a operação para adicionar quantos endereços de email ou números de telefone forem necessários.
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
-1. Para enviar a mensagem final também aos recipients da prova, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
+1. Para enviar também a mensagem final aos recipients da prova, selecione a opção **[!UICONTROL Incluir população de teste no target principal]**.
 
-1. Depois que os perfis de substituição forem selecionados, você poderá [enviar a prova](#send-test).
+1. Após selecionar os perfis de substituição, você pode [enviar a prova](#send-test).
 
 ## Enviar provas para assinantes de aplicativos {#subscribers}
 
 Ao criar com notificações por push, as provas só podem ser enviadas aos assinantes do aplicativo. Para selecioná-los, siga as etapas abaixo.
 
-1. No conteúdo do delivery de push, clique no link **[!UICONTROL Simular conteúdo]** e o botão **[!UICONTROL Enviar prova]** botão.
+1. A partir do conteúdo da sua entrega por push, clique no botão **[!UICONTROL Simular conteúdo]** e no botão **[!UICONTROL Enviar prova]**.
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
-1. Se você já tiver selecionado assinantes para [pré-visualizar o delivery](preview-content.md) na tela content simulation, esses perfis são pré-selecionados como assinantes de teste.
+1. Se você já tiver selecionado assinantes para [pré-visualizar a entrega](preview-content.md) na tela de simulação de conteúdo, esses perfis serão pré-selecionados como assinantes de teste.
 
    Você pode limpar sua seleção e/ou adicionar mais assinantes usando o botão dedicado.
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
-1. Para enviar também a notificação por push final aos assinantes de teste, selecione o **[!UICONTROL Incluir população de teste no público alvo principal]** opção.
+1. Para enviar também a notificação por push final aos assinantes de teste, selecione a opção **[!UICONTROL Incluir população de teste no público alvo principal]**.
 
-1. Depois que os assinantes forem selecionados, você poderá [enviar a prova](#send-test).
+1. Após selecionar os assinantes, você pode [enviar a prova](#send-test).
 
 ## Enviar a prova {#send-test}
 
 Para enviar a prova aos recipients selecionados, siga as etapas abaixo.
 
-1. Clique em **[!UICONTROL Enviar prova]** botão.
+1. Clique no botão **[!UICONTROL Enviar prova]**.
 
 1. Confirme o envio.
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. Envie quantas provas forem necessárias até concluir o conteúdo do delivery.
 
@@ -162,12 +162,12 @@ Depois de concluído, você pode preparar e enviar o delivery para o target prin
 
 ## Acesso a provas enviadas {#access-test-deliveries}
 
-Depois que as provas forem enviadas, você poderá acessar os logs em **[!UICONTROL Simular conteúdo]** tela.
+Depois que as provas forem enviadas, você poderá acessar os logs na tela **[!UICONTROL Simular conteúdo]**.
 
 Esses logs permitem acessar todas as provas enviadas para o delivery selecionado e visualizar estatísticas específicas relacionadas ao envio. [Saiba como monitorar os logs de entrega](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
-Você também pode acessar provas enviadas pelo [lista de entrega](../msg/gs-messages.md), como qualquer delivery.
+Você também pode acessar provas enviadas na [lista de entrega](../msg/gs-messages.md), como qualquer entrega.
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

@@ -18,9 +18,9 @@ Ao criar um delivery de correspondência direta, o Adobe Campaign gera automatic
 
 Para criar deliveries de correspondência direta, você tem três opções:
 
-* **Fluxos de trabalho**: depois de adicionar uma atividade de canal de correspondência direta ao workflow e definir as configurações básicas, você pode criar o conteúdo dos deliveries de correspondência direta no menu do painel direito. Para obter instruções detalhadas sobre como configurar o fluxo de trabalho, consulte [esta página](../workflows/gs-workflow-creation.md).
-* **Campanhas**: depois de criar uma campanha, você pode criar um delivery de correspondência direta. Para obter mais informações sobre como configurar sua campanha, consulte [esta página](../campaigns/gs-campaigns.md).
-* **Entregas independentes**: envolva os clientes direta e instantaneamente com delivery individual de correspondência direta, sem a necessidade de workflows ou campanhas. [Saiba como criar um delivery](../msg/gs-deliveries.md)
+* **Fluxos de trabalho**: depois de adicionar uma atividade de canal de correspondência direta ao seu fluxo de trabalho e definir as configurações básicas, você pode criar o conteúdo de suas entregas de correspondência direta a partir do menu do painel direito. Para obter instruções detalhadas sobre como configurar o fluxo de trabalho, consulte [esta página](../workflows/gs-workflow-creation.md).
+* **Campanhas**: depois de criar uma campanha, você pode criar uma entrega de correspondência direta. Para obter mais informações sobre como configurar sua campanha, consulte [esta página](../campaigns/gs-campaigns.md).
+* **Entregas autônomas**: envolva os clientes direta e instantaneamente com entrega individual de correspondência direta, sem a necessidade de fluxos de trabalho ou campanhas. [Saiba como criar uma entrega](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

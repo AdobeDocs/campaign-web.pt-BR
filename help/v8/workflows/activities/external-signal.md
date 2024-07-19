@@ -29,23 +29,23 @@ ht-degree: 11%
 >title="Acionadores de término"
 >abstract="Acionadores de término"
 
-A variável **Sinal externo** a atividade é um **Controle de fluxo** atividade. Ela permite acionar a execução de um workflow a partir de outro workflow ou de uma chamada à API.
+A atividade **Sinal externo** é uma atividade **Controle de fluxo**. Ela permite acionar a execução de um workflow a partir de outro workflow ou de uma chamada à API.
 
 >[!NOTE]
 >
->Esta página apresenta as principais etapas para configurar uma **[!UICONTROL Sinal externo]** atividade na interface da Web do Campaign e acioná-la a partir de outro workflow ou chamada de API. Informações detalhadas sobre como acionar um workflow e suas práticas recomendadas e como trabalhar com APIs do Campaign estão disponíveis na [Documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>Esta página apresenta as principais etapas para configurar uma atividade **[!UICONTROL Sinal externo]** na interface de usuário da Web do Campaign e acioná-la a partir de outro fluxo de trabalho ou de uma chamada de API. Informações detalhadas sobre como acionar um fluxo de trabalho e suas práticas recomendadas, e como trabalhar com APIs do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
 
-Siga estas etapas para configurar o **Sinal externo** atividade e acionar sua execução:
+Siga estas etapas para configurar a atividade **Sinal externo** e acionar sua execução:
 
-1. Adicionar um **Sinal externo** atividade no seu workflow.
+1. Adicione uma atividade **Sinal externo** ao seu fluxo de trabalho.
 
-1. Conclua a configuração do workflow e inicie sua execução. A variável **[!UICONTROL Sinal externo]** A atividade é exibida como &quot;Pendente&quot;, aguardando para ser acionada.
+1. Conclua a configuração do workflow e inicie sua execução. A atividade **[!UICONTROL Sinal Externo]** é exibida como &quot;Pendente&quot;, aguardando para ser acionada.
 
    ![](../assets/external-signal-pending.png)
 
 1. Recupere as informações abaixo:
 
-   * A variável **nome interno do fluxo de trabalho**, que é exibido ao lado do rótulo.
+   * O nome interno **do fluxo de trabalho**, que é exibido ao lado de seu rótulo.
 
      +++Exibir exemplo
 
@@ -53,7 +53,7 @@ Siga estas etapas para configurar o **Sinal externo** atividade e acionar sua ex
 
 +++
 
-   * A variável **Nome da atividade de sinal externo**, que é exibido no do workflow **[!UICONTROL Opções de execução]**.
+   * O **nome da atividade de sinal externo**, que é exibido nas **[!UICONTROL Opções de execução]** do fluxo de trabalho.
 
      +++Exibir exemplo
 
@@ -61,11 +61,11 @@ Siga estas etapas para configurar o **Sinal externo** atividade e acionar sua ex
 
 +++
 
-1. Para acionar o workflow, é necessário executar o `PostEvent` Função JavaScript. Essa função permite transmitir variáveis com os valores de sua escolha e aproveitá-los no fluxo de trabalho acionado.
+1. Para acionar o fluxo de trabalho, é necessário executar a função JavaScript `PostEvent`. Essa função permite transmitir variáveis com os valores de sua escolha e aproveitá-los no fluxo de trabalho acionado.
 
-   A variável `PostEvent` A função pode ser executada de outro workflow ou de uma chamada à API.
+   A função `PostEvent` pode ser executada de outro fluxo de trabalho ou de uma chamada de API.
 
-   * Para acionar um **[!UICONTROL Sinal externo]** atividade de um workflow, execute a função PostEvent a partir do **[!UICONTROL Script de inicialização]** painel, que pode ser acessado no painel **[!UICONTROL Opções de execução]**. Para o **[!UICONTROL Código JavaScript]** execute a função do script de atividade.
+   * Para acionar uma atividade **[!UICONTROL Sinal externo]** de um fluxo de trabalho, execute a função PostEvent a partir do painel **[!UICONTROL Script de inicialização]**, que pode ser acessado a partir das **[!UICONTROL Opções de execução]** da atividade. Para a atividade **[!UICONTROL JavaScript code]**, execute a função do script da atividade.
 
      A sintaxe é a seguinte:
 
@@ -81,4 +81,4 @@ Siga estas etapas para configurar o **Sinal externo** atividade e acionar sua ex
 
 +++
 
-   * Para acionar um **[!UICONTROL Sinal externo]** atividade de uma chamada de API, siga as etapas detalhadas na Documentação da API do Campaign. [Saiba como usar o estático `PostEvent` método](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=pt-BR)
+   * Para acionar uma atividade **[!UICONTROL Sinal externo]** a partir de uma chamada à API, siga as etapas detalhadas na documentação da API do Campaign. [Saiba como usar o método estático `PostEvent`](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=pt-BR)
