@@ -2,7 +2,7 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ O novo recurso de **Trilha de auditoria** fornece um registro detalhado e cronol
 
 Agora você pode criar links com outra tabela na atividade de fluxo de trabalho **Enriquecimento**. Use a nova seção **Definição de link** nos parâmetros de atividade para criar um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, agora é possível criar um link para a tabela do país para atualizar essas informações em seus perfis. [Leia mais](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### Melhorias gerais {#improvements-24-5}
 
 * **Correspondência direta**: agora você pode aproveitar o editor de expressão para selecionar os atributos a serem exibidos nos arquivos de extração de correspondência direta. [Leia mais](../direct-mail/content-direct-mail.md)
 
 * **Gerenciamento de pastas**: agora é possível criar uma subpasta de um tipo diferente da pasta principal. [Leia mais](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Globalização**: como parte de nosso esforço contínuo para oferecer uma experiência de usuário unificada, harmonizamos a terminologia usada nos produtos e aplicativos da Adobe Experience Cloud. Isto afeta o termo alemão “Titel” que é alterado para “Label” quando se refere ao nome de um objeto. As mudanças serão implementadas progressivamente na interface e na documentação.
 
@@ -125,22 +114,15 @@ Observe que esse recurso está em **Disponibilidade limitada** (LA).
 ### Melhorias gerais {#improvements-24-4}
 
 As melhorias abaixo estão disponíveis para todos os clientes a partir da versão de abril.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * A atividade **Carregar arquivo** foi aprimorada com diversas seções que permitem fazer upload de um arquivo de amostra, gerenciar erros e rejeições e excluir arquivos enviados após a execução da atividade. [Leia mais](../workflows/activities/load-file.md)
 
 
 * Agora você pode **copiar/colar atividades** de um fluxo de trabalho para outro a partir de uma guia diferente do navegador. [Leia mais](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * Todas as atividades de fluxo de trabalho agora permitem gerenciar suas **opções de execução**. Isso permite definir o modo de execução e o comportamento da atividade em caso de erros. [Leia mais](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * A opção “Não ativar a transição se a população estiver vazia” na **Atividade Divisão** permite escolher se o fluxo de trabalho deve fazer a transição para a próxima atividade quando o resultado do segmento estiver vazio. [Leia mais](../workflows/activities/split.md)
-
-
 
 ## Notas de versão de março {#24-3-release}
 
