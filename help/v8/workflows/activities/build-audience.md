@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '392'
 ht-degree: 70%
 
 ---
@@ -23,7 +23,7 @@ Para definir o público-alvo, você pode:
 
 * Selecionar um público-alvo já existente, criado como lista no console do cliente.
 * Selecionar um público-alvo da Adobe Experience Platform.
-* Crie um novo público-alvo com o construtor do modelador de consultas definindo e combinando critérios de filtragem.
+* Crie um novo público-alvo com o modelador de consultas definindo e combinando critérios de filtragem.
 
 >[!NOTE]
 >
