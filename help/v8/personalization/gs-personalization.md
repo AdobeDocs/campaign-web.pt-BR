@@ -1,6 +1,6 @@
 ---
-title: Introdução a conteúdo dinâmico
-description: Saiba como tornar seu conteúdo dinâmico utilizando personalização, conteúdo condicional e blocos de conteúdo integrados.
+title: Como tornar seu conteúdo dinâmico?
+description: Saiba como tornar seu conteúdo dinâmico usando personalização e conteúdo condicional.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# Introdução a conteúdo dinâmico {#gs-dynamic-content}
+# Como tornar seu conteúdo dinâmico? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalização"
->abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. É possível personalizar suas mensagens para cada destinatário aproveitando os dados do perfil e criar conteúdo condicional para adaptar sua mensagem a cada um deles, mostrando apenas conteúdo que lhes seja relevante. Além disso, os blocos de personalização estão disponíveis para adicionar conteúdo personalizado predefinido em suas entregas."
+>abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. Você pode personalizar suas mensagens para cada recipient aproveitando os dados do perfil e criar conteúdo condicional para adaptar sua mensagem a cada recipient e mostrar apenas o conteúdo relevante."
 
 Como profissional de marketing, é fundamental direcionar o público-alvo que está genuinamente interessado em suas ofertas e engajá-lo com fornecimento de conteúdo eficaz e relevante. Dada a variedade diversificada de destinatários que você encontra, criar vários conteúdos de marketing para atrair pessoas diferentes, pode ser demorado e dispendioso. É aqui que o conteúdo dinâmico entra em cena.
 
@@ -38,10 +38,6 @@ Você pode tornar o conteúdo da mensagem dinâmico inserindo construções Java
 * **Criar conteúdo condicional** para adaptar suas entregas a cada destinatário e mostrar apenas conteúdo relevante para um determinado cliente, com base nas informações que você tem sobre ele. Isso permite exibir imagens e/ou blocos de texto específicos com base em condições. Por exemplo, adapte um banner de email com base na assinatura do destinatário de um serviço específico.
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **Usar blocos de personalização** para economizar tempo e aproveitar o conteúdo personalizado facilmente reutilizável em suas mensagens. O Campaign vem com um conjunto de blocos de personalização contendo uma renderização específica que você pode inserir nas entregas. Por exemplo, é possível adicionar um logotipo, uma saudação ou um link para a mirror page de uma mensagem de email. Os blocos de conteúdo estão disponíveis em uma entrada dedicada no editor de personalização.
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Acesso ao editor de expressão {#access}
 
@@ -64,35 +60,3 @@ Estes são alguns exemplos de como acessar o editor de expressão, dependendo do
 >[!NOTE]
 >
 >Além do editor de expressão, ao criar um email, você também pode aproveitar um construtor de conteúdo condicional dedicado. [Saiba como criar conteúdo condicional em emails](conditions.md)
-
-## Vamos nos aprofundar um pouco mais {#dive-deeper}
-
-Agora que você entende como tornar seu conteúdo dinâmico, é hora de se aprofundar nestas seções de documentação para começar a trabalhar com o recurso.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="Personalizar conteúdo" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>Adicionar personalização</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="Lead" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>Adicionar conteúdo condicional</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="Pouco frequente" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>Adicionar blocos de conteúdo integrados</strong></a>
-</div>
-<p></td>
-</tr></table>

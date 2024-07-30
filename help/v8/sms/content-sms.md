@@ -3,10 +3,10 @@ audience: end-user
 title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 78%
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Conteúdo de SMS"
->abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, blocos de conteúdo e conteúdo dinâmico. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
+>abstract="Crie o conteúdo dos deliveries de SMS e personalize-o com campos de personalização, fragmentos de expressão e conteúdo dinâmico. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
 1. Na página **[!UICONTROL Editar conteúdo]**, você pode personalizar o nome do remetente acessando o **[!UICONTROL campo Remetente]** e digitando o nome desejado.
 
-   Além disso, ao clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]**, é possível incluir campos de personalização, blocos de conteúdo e conteúdo dinâmico na mensagem.
+   Além disso, ao clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]**, você pode incluir campos de personalização, fragmentos de expressão e conteúdo dinâmico na mensagem.
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 

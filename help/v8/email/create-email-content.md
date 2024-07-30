@@ -3,10 +3,10 @@ audience: end-user
 title: Criar emails usando o Designer de email
 description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 71%
+source-wordcount: '620'
+ht-degree: 66%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Adicionar estruturas"
->abstract="As estruturas definem o layout do fragmento. Arraste e solte um componente **Estrutura** na tela para iniciar a criação do conteúdo do fragmento."
+>abstract="As estruturas definem o layout do fragmento de conteúdo. Arraste e solte um componente **Estrutura** na tela para iniciar a criação do conteúdo do fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 71%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definição de colunas do fragmento"
->abstract="O Designer de email permite definir facilmente o layout do fragmento definindo a estrutura da coluna."
+>title="Definição das colunas do fragmento de conteúdo"
+>abstract="O Designer de email permite definir facilmente o layout do fragmento de conteúdo definindo a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

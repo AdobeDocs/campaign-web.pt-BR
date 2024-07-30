@@ -3,7 +3,7 @@ audience: end-user
 title: Edição do conteúdo de email
 description: Saiba como editar o conteúdo de email na interface da Web do Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 50%
@@ -73,7 +73,7 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de Expressão para adicionar a [personalização](../personalization/personalize.md) usando vários atributos e blocos de conteúdo ou ofertas.
+1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de Expressão para adicionar a [personalização](../personalization/personalize.md) usando vários atributos e fragmentos de expressão ou ofertas.
 
 1. Se quiser anexar um arquivo ao email, clique no botão **[!UICONTROL Adicionar anexo]** e, em seguida, selecione um ou vários arquivos.
 
