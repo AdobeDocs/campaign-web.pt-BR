@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 44%
+source-wordcount: '1636'
+ht-degree: 43%
 
 ---
 
@@ -106,14 +106,6 @@ Para criar um link, siga estas etapas:
 Um exemplo de fluxo de trabalho usando links está disponível na seção [Exemplos](#link-example).
 
 ## Reconciliação dos dados {#reconciliation}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Reconciliação dos dados"
->abstract="A atividade do fluxo de trabalho Enriquecimento agora pode ser usada para reconciliar dados do esquema de banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como dados carregados usando uma atividade Carregar arquivo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
-
 
 A atividade **Enrichment** pode ser usada para reconciliar dados do esquema do banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como dados carregados por meio de uma atividade Load file. Esse tipo de link define uma reconciliação em direção a um registro exclusivo. O Adobe Campaign cria um link para uma tabela de target adicionando uma chave estrangeira nela para armazenar uma referência ao registro exclusivo.
 
