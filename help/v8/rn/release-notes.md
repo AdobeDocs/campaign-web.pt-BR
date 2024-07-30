@@ -2,7 +2,7 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Agora é possível enviar notificações por push avançadas. Uma notificação 
 ### Melhorias {#improvements-24-7}
 
 **Gerenciamento de pastas**: agora é possível gerenciar permissões e restrições em pastas.
-
 
 ## Notas de versão de junho {#24-6-release}
 
