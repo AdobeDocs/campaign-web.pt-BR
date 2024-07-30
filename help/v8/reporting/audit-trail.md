@@ -4,7 +4,7 @@ title: Trilha de auditoria
 description: Saiba como monitorar sua instância com a Trilha de auditoria do Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 # Trilha de auditoria{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
+>id="acw_homepage_welcome_rn4"
 >title="Trilha de auditoria"
 >abstract="O novo recurso de Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos realizados em sua instância do Adobe Campaign em tempo real. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
