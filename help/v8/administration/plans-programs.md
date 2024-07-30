@@ -3,7 +3,7 @@ audience: end-user
 title: Planos e programas
 description: Saiba como criar e configurar planos e programas no Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 # Planos e programas {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Planos e programas"
 >abstract="Agora você pode configurar a hierarquia de pastas para planos e programas de marketing na interface do usuário do Campaign Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
@@ -82,9 +82,9 @@ Você pode configurá-los:
 
 Há duas maneiras de vincular uma campanha a um programa:
 
-### Way #1 : Você já tem um programa e deseja criar uma campanha vinculada a ele
+### Way #1: Você já tem um programa e deseja criar uma campanha vinculada a ele
 
-Para vincular uma nova campanha ao seu programa, crie a campanha diretamente no programa:
+Para vincular uma nova campanha ao seu programa, crie uma campanha diretamente no programa:
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ As configurações de **[!UICONTROL Pasta]** serão automaticamente arquivadas c
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### Way #2 : você já tem uma campanha existente e deseja vinculá-la a um programa existente
+### Way #2: você já tem uma campanha existente e deseja vinculá-la a um programa existente
 
 Vá para o botão **[!UICONTROL Configurações]** da campanha que deseja vincular ao seu programa:
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -246,7 +246,7 @@ O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-c
 
 * **[!UICONTROL Total de Cliques]**: número total de cliques nos links nas entregas.
 
-* **[!UICONTROL Platform average]**: Essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para entregas enviadas nos seis meses anteriores. Somente as entregas com a mesma tipologia e no mesmo canal são consideradas. Provas são excluídas.
+* **[!UICONTROL Média da plataforma]**: essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para deliveries enviados nos seis meses anteriores. Somente as entregas com a mesma tipologia e no mesmo canal são consideradas. Provas são excluídas.
 
 +++
 

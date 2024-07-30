@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 99%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -37,9 +37,9 @@ Dois tipos de fragmentos estão disponíveis:
   >
   >**Fragmentos visuais** estão em disponibilidade limitada (LA). Esse recurso é restrito a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantado em nenhum outro ambiente.
 
-### Listas de seeds {#24-7-2}
+### Grupo de interceptação {#24-7-2}
 
-Uma lista de seeds (também conhecida como **Grupo de interceptação**) contém vários seed addresses. Ela é usada para incluir endereços específicos em suas entregas e direcionar perfis que não correspondem aos critérios de destino definidos. Dessa forma, os destinatários que não pertencem ao público-alvo da entrega podem recebê-la, assim como qualquer outro destinatário. Você pode usar seed addresses ao enviar provas ou para proteger sua lista de mala direta.
+Um **grupo de interceptação** é uma lista de seed addresses. Ela é usada para incluir endereços específicos em suas entregas e direcionar perfis que não correspondem aos critérios de destino definidos. Dessa forma, os destinatários que não pertencem ao público-alvo da entrega podem recebê-la, assim como qualquer outro destinatário. Você pode usar seed addresses ao enviar provas ou para proteger sua lista de mala direta. [Saiba mais](../audience/trap-group.md)
 
 ### Modelos de notificação por push avançada {#24-7-3}
 
@@ -47,7 +47,7 @@ Agora é possível enviar notificações por push avançadas. Uma notificação 
 
 >[!AVAILABILITY]
 >
->Esse recurso exige uma atualização para o Campaign v8.6.3 <!--or v8.7.2-->. Saiba mais nas [notas de versão](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes) do console do cliente do Campaign v8.
+>Esse recurso exige uma atualização para o Campaign v8.6.3 <!--or v8.7.2-->. Saiba mais nas [notas de versão](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} do console do cliente do Campaign v8.
 
 ### Melhorias {#improvements-24-7}
 

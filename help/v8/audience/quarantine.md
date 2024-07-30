@@ -3,7 +3,7 @@ audience: end-user
 title: Sobre a quarentena
 description: Entender o gerenciamento de endereços em quarentena
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 13%
@@ -33,7 +33,7 @@ A quarentena ajudará você a reduzir o custo de envio de SMS, excluindo número
 
 ## Por que um endereço é enviado para quarentena
 
-Muitos motivos podem enviar um endereço para quarentena:
+Vários motivos podem enviar um endereço para quarentena:
 
 - Para SMS, números de telefone incorretos
 - Para SMS, quando o perfil responder a uma mensagem SMS com uma palavra-chave como &quot;PARAR&quot;

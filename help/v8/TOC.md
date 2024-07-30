@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 94%
       + [Criar um público-alvo único](audience/one-time-audience.md)
       + [Carregar um público-alvo de email a partir de um arquivo](audience/file-audience.md)
       + [Definir um grupo de controle](audience/control-group.md)
+      + [Adicionar um grupo de interceptação](audience/trap-group.md)
    + Trabalhar com serviços de assinatura {#work-with-services}
       + [Criar e gerenciar serviços de assinatura](audience/manage-services.md)
       + [Gerenciar assinantes](audience/manage-subscribers.md)
