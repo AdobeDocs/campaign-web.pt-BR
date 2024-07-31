@@ -2,9 +2,9 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1939'
 ht-degree: 97%
 
 ---
@@ -44,6 +44,8 @@ Um **grupo de interceptação** é uma lista de seed addresses. Ela é usada par
 ### Modelos de notificação por push avançada {#24-7-3}
 
 Agora é possível enviar notificações por push avançadas. Uma notificação por push avançada é uma forma aprimorada de notificação em dispositivos móveis que vai além das mensagens de texto simples, incorporando elementos multimídia, como imagens, botões interativos ou outros conteúdos de mídia avançada. Com esta versão, um conjunto de modelos para notificações por push avançadas agora está disponível para seus aplicativos iOS e Android.
+
+[Saiba mais](../push/rich-push.md)
 
 >[!AVAILABILITY]
 >
