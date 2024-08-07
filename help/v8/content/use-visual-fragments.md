@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 9%
+ht-degree: 20%
 
 ---
 
@@ -26,7 +26,7 @@ Você pode usar um fragmento visual em uma [entrega de email](../email/get-start
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Opções de fragmentos"
->abstract="Esse painel fornece opções relacionadas ao fragmento selecionado. Ela permite escolher os dispositivos nos quais deseja que o fragmento seja exibido e abrir o conteúdo desse fragmento. Use a guia **[!UICONTROL Estilos]** para personalizar ainda mais o fragmento. Também é possível quebrar a herança com o fragmento visual original."
+>abstract="Esse painel fornece opções relacionadas ao fragmento selecionado. Ele permite que você escolha os dispositivos nos quais deseja que o fragmento seja exibido e abra o conteúdo deste fragmento. Use a guia **[!UICONTROL Estilos]** para personalizar ainda mais o fragmento. Também é possível quebrar a herança com o fragmento visual original."
 
 <!-- pas vu dans l'UI-->
 

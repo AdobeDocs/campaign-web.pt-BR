@@ -1,6 +1,6 @@
 ---
-title: Como tornar seu conteúdo dinâmico?
-description: Saiba como tornar seu conteúdo dinâmico usando personalização e conteúdo condicional.
+title: Como tornar o conteúdo dinâmico?
+description: Saiba como tornar o conteúdo dinâmico utilizando personalização e conteúdo condicional.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -12,22 +12,22 @@ exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Como tornar seu conteúdo dinâmico? {#gs-dynamic-content}
+# Como tornar o conteúdo dinâmico? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalização"
->abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. Você pode personalizar suas mensagens para cada recipient aproveitando os dados do perfil e criar conteúdo condicional para adaptar sua mensagem a cada recipient e mostrar apenas o conteúdo relevante."
+>abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. É possível personalizar as mensagens para cada destinatário aproveitando os dados do perfil e criar conteúdo condicional para adaptar cada mensagem, mostrando apenas o conteúdo relevante. "
 
 Como profissional de marketing, é fundamental direcionar o público-alvo que está genuinamente interessado em suas ofertas e engajá-lo com fornecimento de conteúdo eficaz e relevante. Dada a variedade diversificada de destinatários que você encontra, criar vários conteúdos de marketing para atrair pessoas diferentes, pode ser demorado e dispendioso. É aqui que o conteúdo dinâmico entra em cena.
 
 Os recursos de conteúdo dinâmico do Adobe Campaign Web permitem personalizar o conteúdo com base nas informações coletadas sobre os destinatários. Ao utilizar o conteúdo dinâmico, você garante que seus esforços de marketing sejam mais relevantes, evitando o anúncio de produtos ou serviços indesejados ou desnecessários. Essa abordagem torna o conteúdo mais atraente e aumenta a probabilidade de ele ser lido. Além disso, permite personalizar o conteúdo, fazendo com que os destinatários sintam que estão recebendo informações de uma pessoa em vez de uma máquina.
 
-## Como tornar seu conteúdo dinâmico? {#make-content-dyn}
+## Como tornar o conteúdo dinâmico? {#make-content-dyn}
 
 Você pode tornar o conteúdo da mensagem dinâmico inserindo construções JavaScript no editor de expressão do Campaign Web. No envio da mensagem, essas expressões são interpretadas pelo Adobe Campaign para entregar o conteúdo correto a cada um dos destinatários:
 

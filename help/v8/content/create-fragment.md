@@ -5,7 +5,7 @@ description: Saiba como criar fragmentos de conteúdo
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 8%
+ht-degree: 30%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="Definir seus próprios fragmentos de conteúdo"
->abstract="Defina as propriedades do fragmento e o tipo de fragmento que deseja criar. Em seguida, é possível usar o designer de email ou o editor de expressão para configurar o conteúdo do fragmento."
+>title="Defina seus próprios fragmentos de conteúdo"
+>abstract="Defina as propriedades do fragmento e o tipo de fragmento que você deseja criar. Você poderá usar o designer de email ou o editor de expressão para configurar o conteúdo do seu fragmento."
 
 <!-- pas vu dans l'UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Propriedades dos fragmentos"
->abstract="Insira o rótulo do fragmento. Se necessário, você pode definir opções adicionais, como o nome interno do fragmento, sua pasta e uma descrição."
+>abstract="Insira o rótulo do fragmento. Se necessário, é possível definir opções adicionais, como o nome interno do fragmento, sua pasta e uma descrição."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
@@ -48,7 +48,7 @@ Para criar um fragmento de conteúdo do zero, siga as etapas abaixo.
 
    ![](assets/fragments-list.png)
 
-1. Insira o rótulo do fragmento. Se necessário, você pode definir opções adicionais, como o nome interno do fragmento, sua pasta e uma descrição.
+1. Insira o rótulo do fragmento. Se necessário, é possível definir opções adicionais, como o nome interno do fragmento, sua pasta e uma descrição.
 
 1. Escolha o tipo de fragmento que deseja criar: **Fragmento visual** ou **Fragmento de expressão**. [Saiba mais sobre as diferenças entre fragmentos visuais e de expressão](fragments.md)
 
@@ -79,7 +79,7 @@ O fragmento de conteúdo agora está pronto para ser usado ao criar qualquer ent
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Salvar como fragmento"
->abstract="Para salvar um conteúdo como fragmento visual, selecione os elementos que deseja incluir no fragmento, incluindo campos de personalização e conteúdo dinâmico. Você só pode selecionar seções adjacentes entre si. Não é possível selecionar uma estrutura vazia ou outro fragmento de conteúdo. Esse conteúdo será um fragmento independente, adicionado à lista de fragmentos e acessível no menu dedicado. Você pode usar esse fragmento ao criar qualquer email ou modelo de conteúdo no Campaign."
+>abstract="Para salvar um conteúdo como fragmento visual, selecione os elementos que deseja incluir no fragmento, incluindo campos de personalização e conteúdo dinâmico. Você só pode selecionar seções adjacentes umas às outras. Não é possível selecionar uma estrutura vazia ou outro fragmento de conteúdo. Esse conteúdo será um fragmento independente, adicionado à lista de fragmentos e acessível no menu dedicado. Você pode usar esse fragmento ao criar qualquer email ou modelo de conteúdo no Campaign."
 
 <!--pas vu dans l'UI-->
 
@@ -95,7 +95,7 @@ Qualquer conteúdo de email pode ser salvo como fragmento visual para futura reu
 
    >[!CAUTION]
    >
-   >Você só pode selecionar seções adjacentes entre si. Não é possível selecionar uma estrutura vazia ou outro fragmento de conteúdo.
+   >Você só pode selecionar seções adjacentes umas às outras. Não é possível selecionar uma estrutura vazia ou outro fragmento de conteúdo.
 
    ![](assets/fragment-save-as-screen.png)
 

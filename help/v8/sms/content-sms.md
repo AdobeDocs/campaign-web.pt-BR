@@ -6,7 +6,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 64%
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Conteúdo de SMS"
->abstract="Crie o conteúdo dos deliveries de SMS e personalize-o com campos de personalização, fragmentos de expressão e conteúdo dinâmico. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
+>abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, fragmentos de expressão e conteúdo dinâmico. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"

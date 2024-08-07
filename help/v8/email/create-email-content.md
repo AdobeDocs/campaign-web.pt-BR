@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definição das colunas do fragmento de conteúdo"
+>title="Definição de colunas do fragmento de conteúdo"
 >abstract="O Designer de email permite definir facilmente o layout do fragmento de conteúdo definindo a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
