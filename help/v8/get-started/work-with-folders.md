@@ -4,9 +4,9 @@ title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
@@ -34,26 +34,27 @@ ht-degree: 12%
 
 ## Sobre pastas
 
-Pastas são objetos no Adobe Campaign que permitem organizar seus componentes e dados.
+Pastas são objetos no Adobe Campaign que permitem organizar os componentes e dados.
 
-Você pode criar, renomear, reordenar e mover pastas na árvore de navegação. Você também pode excluí-los de acordo com seus direitos.
+É possível criar, renomear, reordenar e mover pastas na árvore de navegação. Também é possível excluí-las de acordo com os direitos que você possui.
 
 ![](assets/folders.png){zoomable="yes"}
 
-Você pode configurar um tipo de pasta. Por exemplo: uma pasta de deliveries.
+É possível configurar um tipo de pasta. Por exemplo: uma pasta de entregas.
 O ícone da pasta será alterado de acordo com esse tipo.
 
 ## Criar uma nova pasta
 
-Para criar uma nova pasta na interface do usuário da Web do Adobe Campaign, siga estas etapas:
+Para criar uma nova pasta na interface web do Adobe Campaign, siga estas etapas:
 
-1. No **[!UICONTROL Explorer]**, vá para a pasta em que deseja criar sua nova pasta.
-No menu **[!UICONTROL ...]**, você tem **[!UICONTROL Criar nova pasta]**
+1. No **[!UICONTROL Explorer]**, vá até a pasta na qual deseja criar a nova pasta.
+ 
+No menu **[!UICONTROL ...]**, há a opção **[!UICONTROL Criar nova pasta]**
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Ao criar uma nova pasta, por padrão, o tipo de pasta é o tipo da pasta principal.
-No nosso exemplo, criamos uma pasta na pasta **[!UICONTROL Deliveries]**.
+Ao criar uma nova pasta, por padrão, o tipo de pasta é o mesmo da pasta principal.
+No nosso exemplo, criamos uma pasta na pasta **[!UICONTROL Entregas]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -63,9 +64,9 @@ No nosso exemplo, criamos uma pasta na pasta **[!UICONTROL Deliveries]**.
 
 Configure o tipo de pasta clicando no botão **[!UICONTROL Confirmar]**.
 
-Para criar uma pasta sem um tipo específico, escolha **[!UICONTROL Pasta genérica]** tipo.
+Para criar uma pasta sem um tipo específico, escolha o tipo **[!UICONTROL Pasta genérica]**.
 
-Você também pode [criar e gerenciar pastas no console do Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+Também é possível [criar e gerenciar pastas no console do Adobe Campaign](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 ## Excluir uma pasta
 

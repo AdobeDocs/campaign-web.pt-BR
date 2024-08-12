@@ -6,9 +6,9 @@ title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 93%
       + [Introdução às notificações por push](push/gs-push.md)
       + [Criar uma entrega de notificação por push](push/create-push.md)
       + Push avançado {#rich-push}
-         + [Criar uma entrega de push avançada do Android](push/rich-push.md)
-         + [Criar uma entrega de push avançada do iOS](push/rich-push-ios.md)
+         + [Criar uma entrega de push avançada para Android](push/rich-push.md)
+         + [Criar uma entrega de push avançada para iOS](push/rich-push-ios.md)
       + [Criar uma entrega por push](push/content-push.md)
       + [Visualizar e enviar uma entrega por push](push/send-push.md)
    + SMS {#sms}
@@ -79,9 +79,9 @@ ht-degree: 93%
       + [Introdução a alertas de entrega](msg/delivery-alerting.md)
       + [Painéis de alertas de entrega](msg/delivery-alerting-dashboards.md)
       + [Critérios de alertas de entrega](msg/delivery-alerting-criteria.md)
-+ Gerenciamento de conteúdo {#content}
-   + Criar conteúdo dinâmico {#dynamic-content}
-      + [Como tornar seu conteúdo dinâmico?](personalization/gs-personalization.md)
++ Gestão de conteúdo {#content}
+   + Criar conteúdo dinâmico {#dynamic-content}
+      + [Como tornar o conteúdo dinâmico?](personalization/gs-personalization.md)
       + [Adicionar personalização](personalization/personalize.md)
       + [Criar conteúdo condicional](personalization/conditions.md)
    + Reutilizar conteúdo {#manage-reusable-content}
@@ -89,9 +89,9 @@ ht-degree: 93%
       + Fragmentos de conteúdo {#fragments}
          + [Introdução aos fragmentos de conteúdo](content/fragments.md)
          + [Criar e editar fragmentos de conteúdo](content/create-fragment.md)
-         + [Usar fragmentos visuais em seus emails](content/use-visual-fragments.md)
+         + [Usar fragmentos visuais em emails](content/use-visual-fragments.md)
          + [Usar fragmentos de expressão no editor de expressão](content/use-expression-fragments.md)
-   + Criar emails {#email-design}
+   + Design de emails {#email-design}
       + [Introdução ao Designer de email](email/get-started-email-designer.md)
       + Começar a definir seu email {#start-design}
          + [Iniciar do zero](email/create-email-content.md)
