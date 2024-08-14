@@ -31,7 +31,7 @@ ht-degree: 50%
 >id="acw_deliveries_email_options"
 >title="Rastreamento de edições"
 >abstract="Por padrão, o rastreamento é habilitado para a entrega, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desabilitar essa opção aqui."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Adicionar links e rastrear mensagens"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Adicionar links e rastrear mensagens"
 
 A tela de email **[!UICONTROL Editar conteúdo]** permite:
 

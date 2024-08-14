@@ -5,7 +5,7 @@ description: Saiba como usar um grupo de cobertura para a entrega na interface d
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Grupo de interceptação"
->abstract="Você pode usar um grupo de cobertura para incluir endereços específicos nos deliveries para monitorar e verificar o processo de distribuição ao direcionar perfis que não correspondem aos critérios de destino definidos."
+>abstract="Você pode usar um grupo de cobertura para incluir endereços específicos nas suas entregas a fim de monitorar e verificar o processo de distribuição ao direcionar perfis que não correspondem aos critérios de direcionamento definidos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 Um **[!UICONTROL grupo de interceptação]** (também conhecido como **[!UICONTROL lista de propagação]**) é usado para incluir endereços específicos em suas entregas para monitorar e verificar o processo de distribuição ao direcionar perfis que não correspondem aos critérios de destino definidos. Dessa forma, os destinatários que estiverem fora do escopo de entrega podem recebê-lo, como qualquer outro destinatário target receberia.
