@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução ao Adobe Campaign Web
 description: Introdução ao Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 1b03dff0235d0aa8641a6f4ab8122845dd87b290
+source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 99%
+source-wordcount: '592'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign
 
 ## Sobre o console do cliente do Campaign {#ac-client}
 
-O console do cliente do Campaign é um aplicativo baseado na Web instalado no seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
+O console do cliente foi projetado para administradores e usuários avançados para executar suas tarefas. O console do cliente do Campaign é um aplicativo baseado na Web instalado no seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
 
 Os dados da campanha são armazenados no servidor de aplicativos. Os dados estão disponíveis tanto no console do cliente quanto na interface do Campaign Web. Por exemplo, se você criar um modelo de entrega usando o console do cliente, ele também estará disponível na interface do Campaign Web. E se você criar uma entrega de email na interface do Campaign Web, essa entrega também estará acessível no console do cliente.
 
