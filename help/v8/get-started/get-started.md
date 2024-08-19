@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução ao Adobe Campaign Web
 description: Introdução ao Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
+source-git-commit: 1b03dff0235d0aa8641a6f4ab8122845dd87b290
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Use o Campaign para:
 * **Integrar canais de email, móveis, online e offline à jornada do cliente**
 * **Automatizar a entrega de mensagens e ofertas relevantes e oportunas**
 
-## Conheça a interface do Campaign Web {#web}
+## Conheça a interface da Web do Campaign {#web}
 
 Inicialmente disponível somente por meio de um [console do cliente](#ac-client) avançado, o Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas, e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica o design e a entrega de campanhas de marketing e oferece consistência, juntamente com outras soluções da Adobe, incluindo a Adobe Experience Platform.
 
