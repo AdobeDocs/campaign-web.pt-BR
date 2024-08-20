@@ -3,10 +3,10 @@ audience: end-user
 title: Transição do Campaign Standard para o Adobe Campaign Web
 description: Conheça a interface do Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 448b002a284b05000da80fd165b300bc24178c78
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 82%
 
 ---
 
@@ -25,30 +25,28 @@ Temos o prazer de anunciar que usuários do Adobe Campaign Standard agora estão
 * Integração com a Adobe Experience Platform: o Managed Cloud Services v8 se conecta perfeitamente com a Adobe Experience Platform, permitindo que clientes possam aproveitar todo o potencial de seus dados e entregar campanhas personalizadas e impactantes em todos os canais.
 * Interface e experiência de usuário consistentes: não se preocupe, a transição para o Managed Cloud Services v8 não interromperá seu fluxo de trabalho. Você continuará aproveitando a interface e a experiência de usuário familiares, garantindo uma curva de aprendizado mínima para sua equipe.
 
-<!--
-As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
--->
-
 ## Principais recursos {#key-features}
 
-Vamos nos aprofundar nos principais recursos que o Campaign v8 oferecerá a você:
+Como usuário do Campaign v8, você terá acesso à nova interface do Campaign Web e ao console do v8. Os dados e as configurações são sincronizados de um ambiente para outro. Todos os dados e configurações disponíveis no console do cliente estão visíveis na interface do Campaign Web, por meio do painel Explorer à esquerda. [Saiba mais](../get-started/user-interface.md#user-interface-explorer)
+
+A interface da Web do Campaign foi projetada para que os profissionais de marketing criem e orquestrem campanhas com facilidade. Vamos detalhar quais recursos principais a interface da Web do Campaign v8 oferecerá:
 
 * Experiência moderna, amigável e unificada. [Saiba mais](../get-started/connect-to-campaign.md).
 * Novos recursos avançados e processos contínuos. [Saiba mais](../get-started/user-interface.md)
 * Novo modelador de consultas simplificado e intuitivo. [Saiba mais](../query/query-modeler-overview.md)
 * Recursos integrados de gerenciamento de campanhas em vários canais. [Saiba mais](../msg/gs-messages.md)
 * Atividades de fluxo de trabalho de campanha novas e reprojetadas. [Saiba mais](../workflows/gs-workflows.md)
-* Público-alvo com o modelador de consultas. [Saiba mais](../query/query-modeler-overview.md)
 * Fácil criação e gerenciamento de perfis. [Saiba mais](../audience/about-recipients.md)
 * Filtros predefinidos. [Saiba mais](../get-started/predefined-filters.md)
 * Conversor de HTML para design de email. [Saiba mais](../email/existing-content.md)
 * SMS com ofertas. [Saiba mais](../msg/offers.md)
 
-## Interface da web e do console {#console}
+O console do cliente do Campaign foi projetado para administradores e desenvolvedores configurarem e personalizarem o ambiente. Os principais recursos disponíveis no console do cliente do Campaign estão detalhados em [esta documentação](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 
-Como usuário do Campaign v8, você terá acesso à nova interface do Campaign Web e ao console do v8. Os dados e as configurações são sincronizados de um ambiente para outro. Todos os dados e configurações disponíveis no console do cliente estão visíveis na interface do Campaign Web, por meio do painel Explorer à esquerda. [Saiba mais](../get-started/user-interface.md#user-interface-explorer)
-
-Saiba mais sobre a compatibilidade de recursos e a interoperabilidade entre a interface do Campaign Web e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).
+>[!NOTE]
+>
+>Saiba mais sobre recursos compatíveis e não compatíveis e interoperabilidade entre a interface de usuário da Web do Campaign e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md)
+>
 
 ## Terminologia {#terminology}
 
@@ -61,16 +59,17 @@ A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standa
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Os recursos personalizados são **Esquemas**
+* Recursos e recursos personalizados são **Esquemas** e **Esquemas personalizados**
 * As mensagens são chamadas de **Entregas**
-* Usuários do produto são **Operadores**
 * As funções são configuradas com **Direitos nomeados**
 * Os grupos de segurança são **Grupos de operadores**.
 * As entidades organizacionais são gerenciadas por meio de **Permissões de pasta**
+* Os usuários do produto são **Operadores** no console do cliente
+* A preparação da entrega é a **Análise de entrega** no console do cliente
 
-## Novos recursos {#new-features}
+## Características específicas {#new-features}
 
-Com o objetivo de uma transição descomplicada para o Campaign v8, os recursos principais do Campaign Standard foram adicionados ao Campaign v8. Os recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target="_blank"}.
+Com o objetivo de uma transição descomplicada para o Campaign v8, os recursos principais do Campaign Standard foram adicionados ao Campaign v8. Eles estão detalhados em [esta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target="_blank"} e só estão disponíveis para usuários que estão fazendo a transição do Campaign Standard.
 
 * **Relatórios dinâmicos**: os relatórios dinâmicos fornecem relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=pt-BR){target="_blank"}.
 
