@@ -4,9 +4,9 @@ title: Introdução ao Adobe Campaign Web
 description: Introdução ao Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Use o Campaign para:
 * **Integrar canais de email, móveis, online e offline à jornada do cliente**
 * **Automatizar a entrega de mensagens e ofertas relevantes e oportunas**
 
-## Conheça a interface da Web do Campaign {#web}
+## Conheça a interface do Campaign Web {#web}
 
 Inicialmente disponível somente por meio de um [console do cliente](#ac-client) avançado, o Campaign agora oferece uma nova interface da web, com utilização e acessibilidade aprimoradas, e um novo design para melhorar significativamente a experiência do usuário. Essa nova interface moderna simplifica o design e a entrega de campanhas de marketing e oferece consistência, juntamente com outras soluções da Adobe, incluindo a Adobe Experience Platform.
 
@@ -53,7 +53,7 @@ Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign
 
 ## Sobre o console do cliente do Campaign {#ac-client}
 
-O console do cliente foi projetado para administradores e usuários avançados para executar suas tarefas. O console do cliente do Campaign é um aplicativo baseado na Web instalado no seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
+O console do cliente foi projetado para administradores e usuários avançados executarem suas tarefas. O console do cliente do Campaign é um aplicativo baseado na Web instalado no seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
 
 Os dados da campanha são armazenados no servidor de aplicativos. Os dados estão disponíveis tanto no console do cliente quanto na interface do Campaign Web. Por exemplo, se você criar um modelo de entrega usando o console do cliente, ele também estará disponível na interface do Campaign Web. E se você criar uma entrega de email na interface do Campaign Web, essa entrega também estará acessível no console do cliente.
 
