@@ -3,10 +3,10 @@ audience: end-user
 title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 31%
+source-wordcount: '347'
+ht-degree: 36%
 
 ---
 
@@ -18,33 +18,43 @@ ht-degree: 31%
 >title="Selecione um público-alvo já existente"
 >abstract="Navegue pela lista para selecionar um público-alvo já existente. Use o ícone “Mostrar filtros” para filtrar a lista ou selecione uma pasta específica."
 
-Esta seção explica como selecionar um público-alvo ao definir a população do target de um delivery. Ao definir o target principal de um delivery, você também pode:
-* [Criar uma audiência única](one-time-audience.md) usando o modelador de consultas.
-* [Carregar um público de um arquivo externo](file-audience.md) (somente para emails).
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Refinar público-alvo"
+>abstract="Essas regras só podem ser alteradas no console de desktop."
 
-Os públicos-alvo que podem ser direcionados em entregas podem ser acessados no menu esquerdo **Público-alvo**. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba mais sobre públicos-alvo](manage-audience.md)
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="Público-alvo adicional"
+>abstract="Essas regras só podem ser alteradas no console de desktop."
+
+Esta seção explica como selecionar uma público-alvo existente ao definir a população Direcionamento de um delivery. Ao definir as Direcionamento principais de uma delivery, também é possível:
+* [Crie uma público-alvo](one-time-audience.md) única vez usando o modelador de query.
+* [Carregue uma público-alvo de um arquivo](file-audience.md) externo (somente para emails).
+
+Audiences que podem ser direcionadas nos deliveries são acessíveis a partir do menu esquerdo público-alvo ****. Eles são originários de diversas fontes, como o console Cliente, Campaign Público-alvo workflows Web ou Adobe Experience Platform. [Saiba mais sobre públicos-alvo](manage-audience.md)
 
 Para selecionar um público-alvo existente para sua mensagem, siga as etapas abaixo:
 
-1. Na seção **Audience** do assistente de criação de delivery, clique no botão **[!UICONTROL Select audience]** e escolha **[!UICONTROL Select audience]**.
+1. **Na seção Público-alvo** do assistente de criação de delivery, clique na opção **[!UICONTROL Selecionar público-alvo botão]** e escolha **[!UICONTROL Selecionar público-alvo]**.
 
    ![](assets/create-audience.png){zoomable="yes"}
 
-1. Esta tela exibe todos os públicos-alvo existentes para a pasta atual.
+1. Esta tela exibe todos os públicos-alvo existentes, para a pasta atual.
 
    ![](assets/create-audience2.png){zoomable="yes"}
 
-   Para escolher um público-alvo do Adobe Experience Platform, navegue até `AEP Audiences folder` na seção de filtro da tela. [Saiba mais sobre os públicos da Adobe Experience Platform](manage-audience.md#monitor)
+   Para escolher um público-alvo de Adobe Experience Platform, navegue até a `AEP Audiences folder` seção de filtro da tela. [Saiba mais sobre públicos-alvo do Adobe Experience Platform](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable="yes"}
 
-1. A seção de filtro permite acessar opções de filtragem para refinar a lista de públicos-alvo. Para fazer isso, clique em **Adicionar regras** para acessar o modelador de consultas, que permite criar filtros avançados para a lista de públicos. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md)
+1. A seção de filtro permite acessar opções de filtragem para refinar os públicos-lista. Para fazer isso, clique **em Adicionar regras** para acessar o modelador de query, que permite criar filtros avançados para as lista de públicos-alvo. [Aprenda a usar o modelador de query](../query/query-modeler-overview.md)
 
-   Por exemplo, é possível definir uma regra para filtrar a origem dos públicos-alvo, conforme mostrado abaixo:
+   Por exemplo, você pode definir uma regra para filtrar na origem dos públicos-alvo, conforme mostrado abaixo:
 
    ![](assets/filter-on-aep-audience.png){zoomable="yes"}
 
-1. Clique em **Confirmar** para adicionar seu público-alvo como o público-alvo principal da entrega. Depois de concluído, você ainda poderá refinar o público-alvo usando o modelador de consultas clicando no botão **Editar regras**.
+1. Clique **em Confirmar** para adicionar sua público-alvo como a delivery principal Direcionamento. Depois de concluído, você ainda pode refinar os público-alvo usando o modelador query clicando nas **regras** Editar botão.
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
