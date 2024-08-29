@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução a mensagens e entregas no Adobe Campaign Web
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 42df1758c2d1a4eb78012c8aea8b25f1fdd50148
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
-    <td>
+    <td align="center">
     <a href="../email/create-email.md">
     <img alt="Email" src="assets/do-not-localize/email.jpg">
     </a>
@@ -30,7 +30,7 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
     </div>
     <p>
     </td>
-    <td>
+    <td align="center">
     <a href="../push/create-push.md">
       <img alt="Push" src="assets/do-not-localize/push.jpg">
     </a>
@@ -39,15 +39,24 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
     </div>
     <p>
     </td>
-    <td>
+    <td align="center">
     <a href="../sms/create-sms.md">
       <img alt="SMS" src="assets/do-not-localize/sms.jpg">
     </a>
+    </div>
     <div>
     <a href="../sms/create-sms.md"><strong>Criar mensagens SMS</strong></a>
     </div>
     <p>
     </td>
+    <td align="center">
+    <a href="../direct-mail/gs-direct-mail.md">
+      <img alt="Push" src="assets/do-not-localize/direct-mail.jpg">
+    </a>
+    <div>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>Criar mensagens de correspondência direta</strong></a>
+    </div>
+    <p>
+    </td>
     </tr>
-    </table>
-
+</table>
