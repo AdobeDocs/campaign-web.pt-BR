@@ -4,10 +4,10 @@ description: Conheça os novos recursos incluídos na próxima versão da interf
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 42%
 
 ---
 
@@ -17,37 +17,31 @@ A interface do Adobe Campaign Web está sempre fornecendo novos recursos, melhor
 
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**. Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md) na data do lançamento.
 
-## Notas de versão de julho {#24-7-release}
+## Notas de versão de agosto {#24-8-release}
 
-**Data de lançamento**: 30 a 31 de julho de 2024
+**Data de lançamento**: 3 de setembro de 2024
 
-Os seguintes recursos e melhorias estão disponíveis a partir da versão de julho.
+Os seguintes recursos e melhorias estão disponíveis a partir da versão de agosto.
 
-### Fragmentos de conteúdo {#24-7-1}
+* **Entrega externa** - Agora você pode definir Entregas externas e Modelos de entrega externa na interface do usuário da Web do Campaign. Com esse modo, as mensagens são geradas em um arquivo de entrada que pode ser compartilhado com o provedor externo. O modo External delivery é o modo padrão para o canal de mala direta.
 
-Agora você pode criar e usar fragmentos de conteúdo. Um fragmento de conteúdo é um componente reutilizável que pode ser referenciado em uma ou mais mensagens. Ao modificar um fragmento, todos os conteúdos que o usam serão atualizados. Essa funcionalidade permite pré-construir vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para montar rapidamente o conteúdo de mensagens em um processo de design aprimorado.
+* **Fragmentos visuais** - Agora você pode arquivar fragmentos de conteúdo visual.
 
-Dois tipos de fragmentos estão disponíveis:
+* **Distribuição de valores** - Ao acessar a lista de campos para personalização, agora é possível verificar como os valores são distribuídos para cada campo. Uma janela pop-up dedicada mostra o número e a porcentagem para cada valor.
 
-* **Fragmentos de expressão** são expressões predefinidas disponíveis em uma entrada dedicada no editor de expressão.
-* **Fragmentos visuais** são blocos visuais predefinidos que podem ser reutilizados em várias entregas de email ou em modelos de conteúdo. [Saiba mais](../content/fragments.md)
-
-  >[!AVAILABILITY]
-  >
-  >**Fragmentos visuais** estão em disponibilidade limitada (LA). Esse recurso é restrito a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantado em nenhum outro ambiente.
-
-### Listas de seeds {#24-7-2}
-
-Uma lista de seeds (também conhecida como **Grupo de interceptação**) contém vários seed addresses. Ela é usada para incluir endereços específicos em suas entregas e direcionar perfis que não correspondem aos critérios de destino definidos. Dessa forma, os destinatários que não pertencem ao público-alvo da entrega podem recebê-la, assim como qualquer outro destinatário. Você pode usar seed addresses ao enviar provas ou para proteger sua lista de mala direta.
-
-### Modelos de notificação por push avançada {#24-7-3}
-
-Agora é possível enviar notificações por push avançadas. Uma notificação por push avançada é uma forma aprimorada de notificação em dispositivos móveis que vai além das mensagens de texto simples, incorporando elementos multimídia, como imagens, botões interativos ou outros conteúdos de mídia avançada. Com esta versão, um conjunto de modelos para notificações por push avançadas agora está disponível para seus aplicativos iOS e Android.
+### Novos recursos em Disponibilidade limitada {#acs-24-8}
 
 >[!AVAILABILITY]
 >
->Esse recurso exige uma atualização para o Campaign v8.6.3 ou v8.7.2. Saiba mais nas [notas de versão do console do cliente do Campaign v8](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes)
+>Os seguintes recursos estão em Disponibilidade limitada (LA). Eles estão restritos a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+>
+>Consulte as seguintes páginas de documentação: [Transição do Campaign Standard para o Campaign v8](../rn/acs-migration.md) e [Recursos para usuários do Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR).
 
-### Melhorias {#improvements-24-7}
+* **Marcas para correspondência direta** - Os administradores técnicos agora podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso da página de destino ou as configurações de rastreamento de mensagens. Agora você pode criar essas marcas e vinculá-las a mensagens ou páginas de aterrissagem. Essa configuração é gerenciada em modelos.
 
-**Gerenciamento de pastas**: agora é possível gerenciar permissões e restrições em pastas.
+* **Landing pages reCaptcha** - Agora você pode usar o mecanismo Google reCAPTCHA para proteger sua landing page contra spam e abuso causado por bots. Isso não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site.
+
+* **Assinaturas com páginas de aterrissagem** - Agora é possível vincular uma página de aterrissagem a um serviço para que os perfis possam assinar um serviço específico ao validá-lo.
+
+
+
