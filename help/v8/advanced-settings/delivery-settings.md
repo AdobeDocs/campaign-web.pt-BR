@@ -4,10 +4,10 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 56%
+source-wordcount: '2787'
+ht-degree: 50%
 
 ---
 
@@ -288,7 +288,68 @@ Você também pode personalizar o rótulo das provas:
 * Por padrão, o assunto da prova tem o prefixo &#39;PROOF #&#39;, onde # é o número da prova. É possível alterar esse prefixo no campo **[!UICONTROL Rotular prefixo]**.
 
 
+
+
+## Configurações SMTP para entrega de email {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="Parâmetros SMTP"
+>abstract="Você pode adicionar parâmetros SMTP adicionais ao seu delivery de email."
+
+Você pode adicionar parâmetros SMTP adicionais ao seu delivery de email. Você pode fazer isso na guia SMTP das configurações de delivery.
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### Codificação de caracteres {#character-encoding}
+
+A seção **[!UICONTROL Codificação de caractere]** permite definir uma codificação específica. A codificação padrão é UTF-8, que funciona para a maioria dos caracteres. No entanto, alguns provedores de email podem não exibir caracteres especiais corretamente se não oferecerem suporte à codificação padrão UTF-8.
+
+Por exemplo, se você quiser enviar um email com caracteres japoneses, é melhor usar uma codificação que ofereça suporte especificamente a esses caracteres, para que o público-alvo no Japão possa ver tudo corretamente.
+
+Para fazer isso, ative a opção **[!UICONTROL Forçar a codificação usada para mensagens]** e selecione a codificação correta na lista que suporta seus caracteres especiais.
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### Rejeitar emails {#bounce-emails}
+
+A guia **[!UICONTROL SMTP]** das configurações de entrega também permite configurar a gestão de emails devolvidos.
+
+* **[!UICONTROL Endereço para erros]**: se você ativar a opção **[!UICONTROL Usar o endereço de erro padrão definido para a plataforma]**, os emails devolvidos serão recebidos na caixa de erro padrão da plataforma. Se não ativá-lo, você poderá definir um endereço de erro específico para o delivery.
+
+* **[!UICONTROL Endereço de devolução]**: você também pode definir outro endereço para o qual os emails devolvidos não processados serão encaminhados. Esse endereço permite investigar os motivos para a rejeição quando os emails não puderam ser qualificados automaticamente pelo aplicativo.
+
+Esses dois campos podem ser personalizados conforme descrito em [esta seção](../personalization/gs-personalization.md).
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### Cabeçalhos SMTP adicionais {#smtp-headers}
+
+Você pode adicionar **[!UICONTROL cabeçalhos SMTP]** à sua entrega de email, na guia SMTP das configurações de entrega.
+
+O script inserido nessa janela deve referenciar um cabeçalho por linha no seguinte formulário: name:value.
+
+Os valores são codificados automaticamente se necessário.
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>Adicionar um script para inserir cabeçalhos SMTP adicionais é apenas para usuários avançados. A sintaxe desse script deve estar em conformidade com os requisitos desse tipo de conteúdo: não há espaço não utilizado, nenhuma linha vazia etc.
+
+## Adição de variáveis {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variáveis"
 >abstract="Variáveis"
+
+Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento. Para fazer isso,
+navegue até a guia **[!UICONTROL Variáveis]**, conforme mostrado abaixo.
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+Clique no botão **[!UICONTROL Adicionar variáveis]** para inserir os detalhes da variável e clique em **[!UICONTROL Confirmar]** para salvar as alterações.
+
+![](assets/variables-add.png){zoomable="yes"}

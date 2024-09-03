@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 20%
+source-wordcount: '620'
+ht-degree: 19%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 20%
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Modelador de consulta"
 >abstract="Defina os critérios de filtragem para destinatários ou qualquer outra dimensão de direcionamento do banco de dados. Aproveite o público da Adobe Experience Platform para refinar ainda mais o seu público-alvo e maximizar o impacto da campanha."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Refinar público-alvo"
+>abstract="Essas regras só podem ser alteradas no console do cliente."
 
 A interface de usuário da Web do Adobe Campaign apresenta um modelador de consultas que simplifica o processo de filtragem do banco de dados com base em vários critérios. Ele garante total compatibilidade com as queries criadas no console do cliente, facilitando uma transição contínua para a interface do usuário da Web.
 
@@ -38,6 +43,12 @@ O modelador de consultas está disponível em todo contexto onde é preciso defi
 | **Filtrar dados de relatórios**: adicione uma regra para filtrar os dados exibidos nos relatórios. [Saiba como trabalhar com relatórios](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como recipients, listas de entregas, etc. [Saiba como filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Criar conteúdo condicional**: torne o conteúdo do email dinâmico criando condições que definem qual conteúdo deve ser exibido para destinatários diferentes, garantindo mensagens personalizadas e relevantes. [Saiba como criar conteúdo condicional](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+
+>[!NOTE]
+>
+>Ao acessar um objeto criado no console do cliente onde as regras foram aplicadas, como um público ou um filtro predefinido, a seção **[!UICONTROL Refinar destino]** poderá ser exibida. Isso significa que parâmetros adicionais foram configurados para refinar o target da regra. Esses parâmetros só podem ser modificados no console.
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Interface do modelador de consultas {#interface}
 
