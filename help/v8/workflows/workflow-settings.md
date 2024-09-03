@@ -3,7 +3,7 @@ audience: end-user
 title: Definir as configurações do workflow
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 31%
@@ -100,7 +100,7 @@ Quando o fluxo de trabalho é [associado a uma campanha](create-workflow.md), el
 
    * **[!UICONTROL Suspender o processo]**: o fluxo de trabalho é pausado automaticamente e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, retome o fluxo de trabalho usando os botões **[!UICONTROL Retomar]**.
    * **[!UICONTROL Ignorar]**: o status da tarefa que provocou o erro muda para **[!UICONTROL Falha]**, mas o fluxo de trabalho mantém o status **[!UICONTROL Iniciado]**. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Anular o processo]**: o fluxo de trabalho é automaticamente interrompido e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, reinicie o fluxo de trabalho usando os botões **[!UICONTROL Iniciar]**.
+   * **[!UICONTROL Interromper o processo]**: o fluxo de trabalho é automaticamente interrompido e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, reinicie o fluxo de trabalho usando os botões **[!UICONTROL Iniciar]**.
 
 * **[!UICONTROL Erros consecutivos]**: este campo fica disponível quando o valor **[!UICONTROL Ignorar]** é selecionado no campo **[!UICONTROL Em caso de erros]**. Você pode especificar quantos erros podem ser ignorados antes que o processo seja interrompido. Após esse número ser alcançado, o status do workflow será alterado para **[!UICONTROL Failed]**. Se o valor desse campo for 0, o workflow nunca será interrompido independentemente do número de erros.
 

@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 89%
 
 ---
 
@@ -51,23 +51,23 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
->[!TAB A versão de julho está disponível.]
+>[!TAB A versão de agosto está disponível!]
 
 Conheça os novos recursos e melhorias presentes na versão de julho de 2024 da interface web do Adobe Campaign.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Alerta de entrega]
+>[!TAB Distribuição de valores]
 
-O Alerta de entrega é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email com informações sobre suas execuções de entrega.
+Ao acessar a lista de campos para personalização, agora é possível verificar como os valores são distribuídos para cada campo.
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Planos e programas]
+>[!TAB Captcha em páginas de aterrissagem]
 
-O Adobe Campaign permite configurar uma hierarquia de pastas para planos e programas de marketing.
+Agora é possível adicionar captcha para proteger sua landing page contra spam e abuso causado por bots. Esse recurso está com disponibilidade limitada.
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

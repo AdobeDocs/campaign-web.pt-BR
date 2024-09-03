@@ -3,10 +3,10 @@ audience: end-user
 title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 36%
+source-wordcount: '323'
+ht-degree: 31%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 36%
 >id="acw_deliveries_email_audience_select"
 >title="Selecione um público-alvo já existente"
 >abstract="Navegue pela lista para selecionar um público-alvo já existente. Use o ícone “Mostrar filtros” para filtrar a lista ou selecione uma pasta específica."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="Refinar público-alvo"
->abstract="Essas regras só podem ser alteradas no console de desktop."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="Público-alvo adicional"
->abstract="Essas regras só podem ser alteradas no console de desktop."
 
 Esta seção explica como selecionar um público-alvo ao definir a população do target de um delivery. Ao definir o target principal de um delivery, você também pode:
 * [Criar uma audiência única](one-time-audience.md) usando o modelador de consultas.
@@ -58,4 +48,4 @@ Para selecionar um público-alvo existente para sua mensagem, siga as etapas aba
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não a receberam. [Saiba mais](control-group.md)
+1. Você também pode definir um grupo de controle para medir o impacto de suas campanhas. O grupo de controle não recebe a mensagem. Isso permite comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não a receberam. [Saiba mais](control-group.md)

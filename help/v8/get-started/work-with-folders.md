@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 54%
 
 ---
 
@@ -78,3 +78,33 @@ Para excluir uma pasta, selecione-a na árvore do **[!UICONTROL Explorer]** e cl
 Escolha **[!UICONTROL Excluir pasta]**.
 
 ![](assets/folder_delete.png){zoomable="yes"}
+
+## Distribuição de valores em uma pasta {#distribution-values-folder}
+
+A distribuição de valores ajuda a saber a porcentagem de um valor em uma coluna dentro de uma tabela.
+
+Para saber a distribuição de valores em uma pasta, proceda da seguinte maneira:
+
+Por exemplo, entre as entregas, queremos saber a distribuição de valores da coluna **Canal**.
+
+Para obter essas informações, vá para a pasta **[!UICONTROL Deliveries]** e clique no ícone **[!UICONTROL Configurar colunas]**.
+
+Na janela **[!UICONTROL Configurar colunas]**, clique no ícone **[!UICONTROL Informações]** da coluna que você deseja saber. Em seguida, clique no botão **[!UICONTROL Distribution of values]**.
+
+![](assets/values_deliveries.png){zoomable="yes"}
+
+Você obterá a porcentagem dos valores na coluna **[!UICONTROL Canal]**.
+
+![](assets/values_percentage.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> Para colunas com muitos valores, somente os primeiros vinte valores serão exibidos. Uma notificação **[!UICONTROL Carga parcial]** avisa você.
+
+Você também pode ter a distribuição de valores de um link.
+
+Na lista de atributos, clique no botão **+** ao lado do link desejado, conforme mostrado abaixo. Isso adiciona o link às **[!UICONTROL Colunas de saída]**. Agora você pode ter o ícone **[!UICONTROL Informações]**, que permite visualizar a distribuição de seus valores. Se você não quiser manter o link nas **[!UICONTROL Colunas de saída]**, clique no botão **[!UICONTROL Cancelar]**.
+
+![](assets/values_link.png){zoomable="yes"}
+
+Também é possível ter a distribuição de valores em um modelador de query. [Saiba mais aqui](../query/build-query.md#distribution-of-values-in-a-query).

@@ -2,10 +2,10 @@
 audience: end-user
 title: Criar fragmentos de conteúdo
 description: Saiba como criar fragmentos de conteúdo
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 30%
+source-wordcount: '1013'
+ht-degree: 27%
 
 ---
 
@@ -141,11 +141,23 @@ Para excluir um fragmento de conteúdo, siga estas etapas:
 >
 >Ao excluir um fragmento, os deliveries e os templates que o utilizam são atualizados: o fragmento é removido do conteúdo, mas ainda é referenciado. Para manter o conteúdo do fragmento nessas entregas e modelos, você deve interromper a herança antes de excluir o fragmento, [conforme detalhado nesta seção](use-visual-fragments.md#break-inheritance).
 
+### Arquivar um fragmento de conteúdo {#archive}
+
+Você pode limpar a lista de fragmentos dos fragmentos que não são mais relevantes para sua marca. Para fazer isso, clique no botão **[!UICONTROL Mais ações]** ao lado do fragmento desejado e selecione **[!UICONTROL Arquivar]**. O fragmento é removido da lista de fragmentos, o que impede que os usuários o usem em emails ou modelos futuros.
+
+Para acessar fragmentos arquivados, use o painel de filtragem para exibi-los. Para desarquivar um fragmento, clique no botão **[!UICONTROL Mais ações]** e selecione **[!UICONTROL Desarquivar]**.
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>Se você arquivar um fragmento usado em um conteúdo, esse conteúdo não será afetado.
+
 ### Duplicação de um fragmento de conteúdo {#duplicate-fragments}
 
 É possível duplicar facilmente um fragmento de conteúdo para criar um novo. Para duplicar um fragmento existente, siga estas etapas:
 
-1. Navegue até a lista de fragmentos e clique no botão **[!UICONTROL Mais ações]** ao lado do fragmento a ser excluído.
+1. Navegue até a lista de fragmentos e clique no botão **[!UICONTROL Mais ações]** ao lado do fragmento a ser duplicado.
 1. Clique em **Duplicar** e confirme.
 1. Insira o rótulo do novo fragmento e salve as alterações.
 

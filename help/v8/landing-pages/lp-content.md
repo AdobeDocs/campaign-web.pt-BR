@@ -3,10 +3,10 @@ title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
+source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 15%
+source-wordcount: '1226'
+ht-degree: 16%
 
 ---
 
@@ -135,6 +135,20 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
    Ao criar um email, se você definir um link do tipo **[!UICONTROL Página de aterrissagem]** para essa página de aterrissagem, será possível selecionar qualquer serviço na lista. É possível selecionar outros serviços ao definir outros links para essa landing page. [Saiba mais sobre como inserir links](../email/message-tracking.md)
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+
+1. Você pode enviar uma mensagem no envio da landing page. [Saiba mais aqui](#lp-message)
+
+### Enviar uma mensagem após o envio {#lp-message}
+
+>[!AVAILABILITY]
+>
+>Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
+
+Para enviar automaticamente uma mensagem de confirmação após o envio de uma landing page, siga estas etapas:
+1. Na seção **[!UICONTROL CHAMADA PARA AÇÃO]**, marque a opção **[!UICONTROL Enviar email de confirmação]**.
+1. Na lista suspensa associada, escolha o template de mensagem transacional que precisa ser enviado.
+
+![](assets/lp-confirmation.png){zoomable="yes"}
 
 ## Definir estilos de formulário de página de destino {#lp-form-styles}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 21%
+source-wordcount: '2210'
+ht-degree: 20%
 
 ---
 
@@ -27,6 +27,22 @@ Você pode adicionar dois tipos de elementos:
   Exemplo: *Recipients que assinaram o informativo &quot;Esportes&quot;**AND**que vivem em Nova York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
+
+## Distribuição de valores em um query {#distribution-values-query}
+
+A distribuição de valores ajuda a saber a porcentagem de um valor em um campo dentro de uma tabela. Conhecer a distribuição de valores em um query pode ajudá-lo a refinar sua segmentação.
+
+Para acessar o recurso, em sua query, clique no botão de seleção de atributo, conforme mostrado abaixo. Em seguida, clique no ícone **[!UICONTROL Informações]** ao lado do atributo selecionado. Você pode ter acesso ao botão **[!UICONTROL Distribuição de valores]**.
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> Para campos com muitos valores, somente os primeiros vinte valores serão exibidos. Uma notificação **[!UICONTROL Carga parcial]** avisa você.
+
+>[!NOTE]
+>
+> O recurso **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos.
 
 ## Adicionar componentes de filtragem {#filtering}
 
