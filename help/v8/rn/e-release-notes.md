@@ -4,10 +4,10 @@ description: Conheça os novos recursos incluídos na próxima versão da interf
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
+source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 44%
+source-wordcount: '346'
+ht-degree: 42%
 
 ---
 
@@ -42,4 +42,4 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de ago
 
 * **Captcha de páginas de aterrissagem** - Agora é possível adicionar captcha para proteger sua página de aterrissagem contra spam e abuso causado por bots. Isso não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site.
 
-* **APIs rest** - DESC. [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
+* **APIs Rest** - Como um usuário migrado de Campaign Standard, agora você pode usar APIs Rest para trabalhar com mensagens transacionais. [Leia mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
