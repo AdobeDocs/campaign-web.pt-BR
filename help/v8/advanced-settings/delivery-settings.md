@@ -4,9 +4,9 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
+source-git-commit: 78b44670f2a9c9f7cf235e64dff7d286864813da
 workflow-type: tm+mt
-source-wordcount: '2826'
+source-wordcount: '2801'
 ht-degree: 50%
 
 ---
@@ -343,9 +343,8 @@ Os valores são codificados automaticamente se necessário.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variáveis"
->abstract="Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas no conteúdo do delivery e nos fluxos de trabalho."
+>abstract="Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo do delivery e pelos fluxos de trabalho."
 
-Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas no conteúdo do delivery e nos fluxos de trabalho.
 
 Para adicionar uma variável, navegue até a guia **[!UICONTROL Variáveis]**, conforme mostrado abaixo.
 
