@@ -4,7 +4,7 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+source-git-commit: 78356629dc64702d81645b684350304f65b88597
 workflow-type: tm+mt
 source-wordcount: '2787'
 ht-degree: 50%
@@ -345,8 +345,7 @@ Os valores são codificados automaticamente se necessário.
 >title="Variáveis"
 >abstract="Variáveis"
 
-Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento. Para fazer isso,
-navegue até a guia **[!UICONTROL Variáveis]**, conforme mostrado abaixo.
+Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento. Para fazer isso, navegue até a guia **[!UICONTROL Variáveis]**, conforme mostrado abaixo.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
