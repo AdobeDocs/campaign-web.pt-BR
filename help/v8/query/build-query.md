@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2212'
 ht-degree: 20%
 
 ---
@@ -30,19 +30,17 @@ Você pode adicionar dois tipos de elementos:
 
 ## Distribuição de valores em um query {#distribution-values-query}
 
-A distribuição de valores ajuda a saber a porcentagem de um valor em um campo dentro de uma tabela. Conhecer a distribuição de valores em um query pode ajudá-lo a refinar sua segmentação.
+A distribuição de valores mostra a porcentagem de cada valor de um campo em uma tabela, de acordo com os parâmetros de consulta atuais. Conhecer a distribuição de valores em um query pode ajudar a refinar sua segmentação.
 
-Para acessar o recurso, em sua query, clique no botão de seleção de atributo, conforme mostrado abaixo. Em seguida, clique no ícone **[!UICONTROL Informações]** ao lado do atributo selecionado. Você pode ter acesso ao botão **[!UICONTROL Distribuição de valores]**.
+Para acessar essa opção, em sua query, clique no botão de seleção de atributo, conforme mostrado abaixo. Em seguida, clique no ícone **[!UICONTROL Informações]** ao lado do atributo selecionado. Você tem acesso ao botão **[!UICONTROL Distribuição de valores]**.
 
 ![](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Para campos com muitos valores, somente os primeiros vinte valores serão exibidos. Uma notificação **[!UICONTROL Carga parcial]** avisa você.
-
->[!NOTE]
+>* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesse caso, uma notificação **[!UICONTROL Partial load]** avisa você.
 >
-> O recurso **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos.
+>* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos.
 
 ## Adicionar componentes de filtragem {#filtering}
 
