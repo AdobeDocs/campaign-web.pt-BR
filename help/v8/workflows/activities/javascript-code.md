@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow de código JavaScript
 description: Saiba como usar a atividade de workflow de código do JavaScript
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: ea448ac526fddc5875103dbb7ca00b5982fe5596
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 30%
+source-wordcount: '944'
+ht-degree: 26%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transição de JavaScript"
->abstract="Se quiser adicionar várias transições de saída, clique no botão **[!UICONTROL Adicionar transições]**. Isso permite, por exemplo, acionar uma transição específica com base em uma condição específica definida na atividade Código JavaScript. Essa opção está disponível somente para atividades de código JavaScript **Avançadas**."
+>abstract="Ative a opção **[!UICONTROL Process errors]** para manter os erros que ocorrem durante a execução do script em uma transição de saída adicional."
 
 A atividade do **código JavaScript** é uma atividade de **gerenciamento de dados**. Use esta atividade para executar um script JavaScript no contexto de um workflow. Isso permite coletar informações do banco de dados ou executar outras operações complexas.
 
