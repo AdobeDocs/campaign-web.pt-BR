@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho AND-join
 description: Saiba como usar a atividade de fluxo de trabalho AND-join
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Essa atividade só acionará a transição de saída depois que todas as transi�
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Configure a atividade AND-join"
+>title="Opções de mesclagem"
 >abstract="Selecione de quais atividades deseja juntar. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter."
 
 Siga estas etapas para configurar a atividade **AND-join**:

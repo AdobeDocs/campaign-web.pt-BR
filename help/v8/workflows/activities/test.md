@@ -3,14 +3,24 @@ audience: end-user
 title: Usar a atividade de workflow Test
 description: Saiba como usar a atividade de workflow de teste
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 2%
+source-wordcount: '376'
+ht-degree: 3%
 
 ---
 
 # Teste {#test}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="Atividade de teste"
+>abstract="A atividade **Test** é uma atividade **Flow control**. Ela permite ativar transições com base em condições especificadas."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="Condições"
+>abstract="A atividade **Test** pode ter várias transições de saída. Durante a execução do workflow, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os workflows serão interrompidos nesse ponto."
 
 A atividade **Test** é uma atividade **Flow control**. Ela permite ativar transições com base em condições especificadas.
 

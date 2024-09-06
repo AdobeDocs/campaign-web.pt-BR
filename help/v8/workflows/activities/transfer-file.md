@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Transferir arquivo
 description: Saiba como usar a atividade de workflow Transferir arquivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 21%
+source-wordcount: '1246'
+ht-degree: 19%
 
 ---
 
@@ -36,36 +36,6 @@ ht-degree: 21%
 >id="acw_orchestration_transferfile_source"
 >title="Transferir origem do arquivo"
 >abstract="Insira o nome do arquivo desejado."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Excluir os arquivos de origem após a transferência"
->abstract="Apague os arquivos de origem após uma transferência bem-sucedida."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Exibir os logs de sessão"
->abstract="Exibe as informações relacionadas à operação de transferência nos logs do fluxo de trabalho."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Listar todos os arquivos"
->abstract="Essa opção indexa todos os arquivos presentes no servidor na variável de evento **vars.filenames**."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Historização de arquivos"
->abstract="Historização de arquivos"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Processar arquivos ausentes"
->abstract="Essa opção permite ativar uma transição de saída **Nenhum arquivo** após a atividade."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Processar erros"
->abstract="Essa opção permite ativar uma transição de saída **Erro** após a atividade."
 
 A atividade **Transferir arquivo** é uma atividade de **Gerenciamento de Dados**. Ele permite receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP.
 
@@ -122,6 +92,11 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
 
 ## Configurações de histórico {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Historização de arquivos"
+>abstract="Toda vez que uma atividade **[!UICONTROL Transferir arquivo]** é executada, ela armazena os arquivos carregados ou baixados em uma pasta dedicada. Uma pasta é criada para cada atividade Transfer file de um workflow. Por padrão, os arquivos são salvos no diretório de armazenamento padrão da pasta de instalação do Adobe Campaign (`/vars`) antes de serem processados. Para usar uma pasta específica, desative a opção **[!UICONTROL Usar um diretório de armazenamento padrão]** e insira o caminho do diretório."
+
 Toda vez que uma atividade **[!UICONTROL Transferir arquivo]** é executada, ela armazena os arquivos carregados ou baixados em uma pasta dedicada. Uma pasta é criada para cada atividade Transfer file de um workflow. Por padrão, os arquivos são salvos no diretório de armazenamento padrão da pasta de instalação do Adobe Campaign (`/vars`) antes de serem processados. Para usar uma pasta específica, desative a opção **[!UICONTROL Usar um diretório de armazenamento padrão]** e insira o caminho do diretório.
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 >Se a atividade não for executada novamente, a pasta correspondente não será verificada nem eliminada. Por isso, tenha cuidado ao transferir arquivos grandes.
 
 ## Opções avançadas de gerenciamento de &amp; erros {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Excluir os arquivos de origem após a transferência"
+>abstract="Apague os arquivos de origem após uma transferência bem-sucedida."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Exibir os logs de sessão"
+>abstract="Exibe as informações relacionadas à operação de transferência nos logs do fluxo de trabalho."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Listar todos os arquivos"
+>abstract="Essa opção indexa todos os arquivos presentes no servidor na variável de evento **vars.filenames**."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Processar arquivos ausentes"
+>abstract="Essa opção permite ativar uma transição de saída **Nenhum arquivo** após a atividade."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Processar erros"
+>abstract="Essa opção permite ativar uma transição de saída **Erro** após a atividade."
 
 1. Nas **[!UICONTROL Opções avançadas]**, opções adicionais estão disponíveis com base no tipo de atividade que você está configurando. Expanda as seções abaixo para obter mais informações.
 

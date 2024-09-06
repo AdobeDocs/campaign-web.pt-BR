@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Subscription services
 description: Saiba como usar a atividade de workflow de serviços de assinatura
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 18%
+source-wordcount: '1067'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Informações adicionais"
->abstract="Informações adicionais"
+>abstract="Especifique os dados e a origem da assinatura para cada registro. Você pode deixar essa seção vazia, nesse caso, nenhuma data ou origem será definida ao executar o workflow. Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil para o serviço, você poderá selecioná-la no campo **[!UICONTROL Data]**. No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. Você pode defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**."
 
 A atividade **Serviços de assinatura** é uma atividade de **Gerenciamento de Dados**. Ele permite criar ou excluir uma subscrição para um serviço de informações para a população especificada na transição.
 

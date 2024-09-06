@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 43%
+source-wordcount: '1705'
+ht-degree: 41%
 
 ---
 
@@ -16,26 +16,6 @@ ht-degree: 43%
 >id="acw_orchestration_enrichment"
 >title="Atividade de enriquecimento"
 >abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_data"
->title="Atividade de enriquecimento"
->abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ressoar com seu público-alvo."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="Definição de link"
->abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_reconciliation"
->title="Reconciliação de enriquecimento"
->abstract="reconciliação de enriquecimento"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer seu fluxo de trabalho. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
 
 A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ela permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação.
 
@@ -63,6 +43,16 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
 ## Adicionar dados de enriquecimento {#enrichment-add}
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Dados de enriquecimento"
+>abstract="Selecione os dados a serem usados para enriquecer seu fluxo de trabalho. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Atividade de enriquecimento"
+>abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ressoar com seu público-alvo."
+
 1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecer os dados.
 
    Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da target dimension ou um link de coleção. Cada um desses tipos é detalhado nos exemplos abaixo:
@@ -76,6 +66,11 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
    ![](../assets/workflow-enrichment1.png)
 
 ## Crie links entre tabelas {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Definição de link"
+>abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis."
 
 A seção **[!UICONTROL Definição de link]** permite criar um vínculo entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
@@ -106,6 +101,11 @@ Para criar um link, siga estas etapas:
 Um exemplo de fluxo de trabalho usando links está disponível na seção [Exemplos](#link-example).
 
 ## Reconciliação dos dados {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="Reconciliação"
+>abstract="A atividade **Enrichment** pode ser usada para reconciliar dados do esquema do banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como dados carregados por meio de uma atividade Load file. Esse tipo de link define uma reconciliação em direção a um registro exclusivo. O Adobe Campaign cria um link para uma tabela de target adicionando uma chave estrangeira nela para armazenar uma referência ao registro exclusivo."
 
 A atividade **Enrichment** pode ser usada para reconciliar dados do esquema do banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como dados carregados por meio de uma atividade Load file. Esse tipo de link define uma reconciliação em direção a um registro exclusivo. O Adobe Campaign cria um link para uma tabela de target adicionando uma chave estrangeira nela para armazenar uma referência ao registro exclusivo.
 
