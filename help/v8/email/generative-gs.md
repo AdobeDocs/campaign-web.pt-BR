@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução ao Assistente de IA no Adobe Campaign Web - Acelerador de conteúdo
 description: Introdução ao Assistente de IA no Adobe Campaign Web - Acelerador de conteúdo
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 10448255094e1be1f2c52b67d8f1f45d862f06df
+source-git-commit: 279450c78ba83ea9f914b57ff7ade450a6a9a5e5
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 20%
@@ -33,15 +33,16 @@ ht-degree: 20%
 >
 >Mergulhe na experiência prática com a [nossa demonstração interativa](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), criada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas capacidades.
 
+
+À medida que o setor de marketing se torna mais competitivo, as marcas buscam maneiras eficientes de gerar conteúdo impactante de maneira eficiente e rápida. O Assistente de IA no Adobe Campaign Web para aceleração de conteúdo, viabilizado pelo Microsoft Azure OpenAI e pelo Adobe Firefly, é o recurso de geração de conteúdo de IA do Adobe que revoluciona a forma como os profissionais de marketing criam conteúdo profissional e consistente com a marca em canais como email, SMS e push. Com modelos avançados de GenAI e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz com base no objetivo de marketing com conteúdo otimizado para estilos, layouts, tom e muito mais.
+
+O AI Assistant torna a criação e a execução de campanhas de marketing em canais como Email, SMS e Push intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados.
+
 >[!IMPORTANT]
 >
 >* Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](#generative-guardrails) relacionadas.
 >
 >* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web para aceleração de conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
-
-À medida que o setor de marketing se torna mais competitivo, as marcas buscam maneiras eficientes de gerar conteúdo impactante de maneira eficiente e rápida. O Assistente de IA no Adobe Campaign Web para aceleração de conteúdo, viabilizado pelo Microsoft Azure OpenAI e pelo Adobe Firefly, é o recurso de geração de conteúdo de IA do Adobe que revoluciona a forma como os profissionais de marketing criam conteúdo profissional e consistente com a marca em canais como email, SMS e push. Com modelos avançados de GenAI e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz com base no objetivo de marketing com conteúdo otimizado para estilos, layouts, tom e muito mais.
-
-O AI Assistant torna a criação e a execução de campanhas de marketing em canais como Email, SMS e Push intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados.
 
 ## Acesse o Acelerador de conteúdo do assistente de IA {#generative-access}
 
