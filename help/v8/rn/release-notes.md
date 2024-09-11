@@ -2,9 +2,9 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: c08c18d9e97401459c0f6855a1fda47cf2a01111
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '481'
 ht-degree: 59%
 
 ---
@@ -33,6 +33,7 @@ As versões da interface do usuário do Adobe Campaign Web operam em um modelo d
 <p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos</a> em tempo real, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../email/generative-gs.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>Data de disponibilidade: 12 de setembro</p>
 </td>
 </tr>
 </tbody>
