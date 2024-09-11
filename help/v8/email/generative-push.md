@@ -1,36 +1,25 @@
 ---
 audience: end-user
-title: Notificação por push com o Assistente de IA no Campaign
-description: Introdução ao Assistente de IA no Campaign
-badge: label="Beta"
-hide: true
-hidefromtoc: true
+title: Notificação por push com o Assistente de IA no Journey Optimizer para aceleração de conteúdo
+description: Introdução ao Assistente de IA no Journey Optimizer para aceleração de conteúdo
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
+source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 8%
+source-wordcount: '592'
+ht-degree: 1%
 
 ---
 
-# Geração de notificação por push com o Assistente de IA {#generative-push}
+# Geração de notificação por push com o Assistente de IA no Journey Optimizer - Acelerador de conteúdo  {#generative-push}
 
->[!BEGINSHADEBOX]
-
-**Índice**
-
-* [Introdução ao assistente de IA](generative-gs.md)
-* [Geração de email com o Assistente de IA](generative-content.md)
-* [Geração de SMS com o Assistente de IA](generative-sms.md)
-* Geração de notificação por push com o Assistente de IA
-
->[!ENDSHADEBOX]
-
-O Assistente de IA pode ajudá-lo a otimizar o impacto de suas entregas, sugerindo conteúdo diferente que tenha mais probabilidade de repercutir com seu público-alvo.
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](generative-gs.md#generative-guardrails) relacionadas.
+></br>
+>
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web para aceleração de conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
+
+O Assistente de IA do Journey Optimizer para aceleração de conteúdo pode ajudar você a otimizar o impacto de suas entregas, sugerindo conteúdo diferente que tenha mais probabilidade de repercutir com seu público-alvo.
 
 No exemplo a seguir, aproveitaremos o assistente de IA para criar mensagens atraentes e criar uma experiência do cliente mais envolvente.
 
@@ -38,21 +27,11 @@ No exemplo a seguir, aproveitaremos o assistente de IA para criar mensagens atra
 
    Para obter mais informações sobre como configurar a entrega por push, consulte [esta página](../push/create-push.md).
 
-1. Preencha os **[!UICONTROL detalhes Básicos]** da sua entrega. Depois de concluído, clique em **[!UICONTROL Editar conteúdo]**.
-
-1. Personalize sua notificação por push conforme necessário. [Saiba mais](../push/content-push.md)
-
 1. Acesse o menu **[!UICONTROL Mostrar assistente de IA]**.
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize novo conteúdo com base na sua entrega, nome de entrega e público selecionado.
-
-   >[!IMPORTANT]
-   >
-   > Seu prompt deve estar sempre vinculado ao conteúdo atual.
-
-   ![](assets/push-genai-3.png){zoomable="yes"}
+1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
@@ -60,17 +39,27 @@ No exemplo a seguir, aproveitaremos o assistente de IA para criar mensagens atra
 
    ![](assets/push-genai-2.png){zoomable="yes"}
 
-1. Selecione **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer contexto adicional ao Assistente de IA.
+1. Escolha qual campo você deseja gerar: **[!UICONTROL Título]**, **[!UICONTROL Mensagem]** e/ou **[!UICONTROL Imagem]**.
 
-1. Escolha qual campo você deseja gerar: **[!UICONTROL Título]**, **[!UICONTROL Subtítulo]** ou **[!UICONTROL Mensagem]**.
-
-1. Personalize seu prompt com as diferentes opções:
+1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
-   * **[!UICONTROL Idioma]**: selecione o idioma em que deseja que o conteúdo seja gerado.
    * **[!UICONTROL Tom]**: o tom do seu email deve repercutir na sua audiência. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
 
+   ![](assets/push-genai-3.png){zoomable="yes"}
+
+1. Escolha suas **[!UICONTROL configurações de imagem]**:
+
+   * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
+   * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
+   * **[!UICONTROL Iluminação]**: refere-se ao relâmpago presente em uma imagem, que molda sua atmosfera e realça elementos específicos.
+   * **[!UICONTROL Composição]**: refere-se à disposição dos elementos dentro do quadro de uma imagem
+
    ![](assets/push-genai-4.png){zoomable="yes"}
+
+1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer contexto adicional ao Assistente de IA ou selecione um ativo carregado anteriormente.
+
+   Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -83,6 +72,8 @@ No exemplo a seguir, aproveitaremos o assistente de IA para criar mensagens atra
    * **[!UICONTROL Refrase]**: o Assistente de IA pode reformular sua mensagem de diferentes maneiras, mantendo sua escrita atualizada e engajando públicos diversos.
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
+
+   Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 
