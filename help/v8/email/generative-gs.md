@@ -3,14 +3,14 @@ audience: end-user
 title: Introdução ao Assistente de IA - Acelerador de conteúdo
 description: Introdução ao Assistente de IA - Acelerador de conteúdo
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 20%
 
 ---
 
-# Introdução ao Assistente de IA - Acelerador de conteúdo  {#generative-gs}
+# Trabalhar com o assistente de IA - Acelerador de conteúdo  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
