@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução ao Assistente de IA - Acelerador de conteúdo
 description: Introdução ao Assistente de IA - Acelerador de conteúdo
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 20%
+source-wordcount: '838'
+ht-degree: 19%
 
 ---
 
@@ -53,14 +53,18 @@ O AI Assistant torna a criação e a execução de campanhas de marketing em can
 
 ## Acessar o Assistente de IA - Acelerador de conteúdo {#generative-access}
 
+O Assistente de IA - Acelerador de conteúdo para emails, notificações por push e SMS agora está em Disponibilidade Geral (GA) e disponível para todos os usuários. As permissões e as etapas necessárias para conceder acesso aos usuários são detalhadas abaixo.
+
 +++  Saiba como atribuir permissões relacionadas à geração de conteúdo
 
-1. **Criar Perfil de Produto** - Em [Admin Console](https://stage.adminconsole.adobe.com/), crie um perfil de produto com este padrão específico: `Campaign - <instance-name> - AIAssistant`
+1. **Criar Perfil de Produto** - Em [Admin Console](https://stage.adminconsole.adobe.com/), crie um perfil de produto com o seguinte padrão específico:
+   `Campaign - <instance-name> - AIAssistant`
 
 1. **Adicionar usuários** - Adicione o usuário necessário a esse perfil de produto,
 ou
-
    **Criar Grupo de Usuários** e adicionar esse grupo de usuários ao perfil de produto e adicionar usuários a esse perfil de produto.
+
+Saiba como definir permissões no Campaign em [esta seção](../get-started/permissions.md).
 
 +++
 
