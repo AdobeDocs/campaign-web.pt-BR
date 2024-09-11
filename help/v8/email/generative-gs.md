@@ -1,16 +1,23 @@
 ---
 audience: end-user
-title: Introdução ao Assistente de IA no Adobe Campaign Web - Acelerador de conteúdo
-description: Introdução ao Assistente de IA no Adobe Campaign Web - Acelerador de conteúdo
+title: Introdução ao Assistente de IA - Acelerador de conteúdo
+description: Introdução ao Assistente de IA - Acelerador de conteúdo
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '795'
 ht-degree: 20%
 
 ---
 
 # Introdução ao Assistente de IA - Acelerador de conteúdo  {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Acelerador de conteúdo do assistente de IA"
+>abstract="O AI Assistant torna a criação e a execução de campanhas de marketing em canais como Email, SMS e Push intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -44,7 +51,7 @@ O AI Assistant torna a criação e a execução de campanhas de marketing em can
 >
 >* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web para aceleração de conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
 
-## Acesse o Acelerador de conteúdo do assistente de IA {#generative-access}
+## Acessar o Assistente de IA - Acelerador de conteúdo {#generative-access}
 
 +++  Saiba como atribuir permissões relacionadas à geração de conteúdo
 

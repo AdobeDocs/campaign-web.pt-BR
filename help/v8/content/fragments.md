@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução aos fragmentos de conteúdo
 description: Saiba como criar com fragmentos de conteúdo
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 61%
@@ -13,7 +13,7 @@ ht-degree: 61%
 # Introdução aos fragmentos de conteúdo {#gs-fragments}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn2"
 >title="Fragmentos de conteúdo "
 >abstract="Agora você pode criar e usar fragmentos de conteúdo. Um fragmento de conteúdo é um componente reutilizável que pode ser referenciado em uma ou mais mensagens. Ao modificar um fragmento, todo conteúdo que o usa será atualizado."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
