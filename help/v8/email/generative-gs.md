@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Introdução ao Assistente de IA - Acelerador de conteúdo
-description: Introdução ao Assistente de IA - Acelerador de conteúdo
+title: Introdução ao Acelerador de conteúdo do Assistente de IA
+description: Introdução ao Acelerador de conteúdo do Assistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 19%
 
 ---
 
-# Trabalhar com o assistente de IA - Acelerador de conteúdo  {#generative-gs}
+# Trabalhar com o acelerador de conteúdo do assistente de IA  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -51,9 +51,9 @@ O AI Assistant torna a criação e a execução de campanhas de marketing em can
 >
 >* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web para aceleração de conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
 
-## Acessar o Assistente de IA - Acelerador de conteúdo {#generative-access}
+## Acesse o Acelerador de conteúdo do assistente de IA {#generative-access}
 
-O Assistente de IA - Acelerador de conteúdo para emails, notificações por push e SMS agora está em Disponibilidade Geral (GA) e disponível para todos os usuários. As permissões e as etapas necessárias para conceder acesso aos usuários são detalhadas abaixo.
+O Acelerador de conteúdo do assistente de IA para emails, notificações por push e SMS está agora em Disponibilidade geral (GA) e disponível para todos os usuários. As permissões e as etapas necessárias para conceder acesso aos usuários são detalhadas abaixo.
 
 +++  Saiba como atribuir permissões relacionadas à geração de conteúdo
 

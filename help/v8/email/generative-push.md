@@ -3,14 +3,14 @@ audience: end-user
 title: Notificação por push com o Assistente de IA para aceleração de conteúdo
 description: Introdução ao Assistente de IA para aceleração de conteúdo
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 1%
 
 ---
 
-# Geração de notificação por push com o Assistente de IA - Acelerador de conteúdo {#generative-push}
+# Geração de notificação por push com o Acelerador de conteúdo do assistente de IA {#generative-push}
 
 >[!IMPORTANT]
 >

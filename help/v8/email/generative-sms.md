@@ -3,14 +3,14 @@ audience: end-user
 title: SMS com o Assistente de IA para aceleração de conteúdo
 description: Introdução ao Assistente de IA para aceleração de conteúdo
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 2%
 
 ---
 
-# Geração de SMS com o Assistente de IA - Acelerador de conteúdo {#generative-sms}
+# Geração de SMS com o Acelerador de Conteúdo do Assistente de IA {#generative-sms}
 
 >[!IMPORTANT]
 >
