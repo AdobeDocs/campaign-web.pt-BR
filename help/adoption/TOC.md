@@ -6,8 +6,8 @@ description: Usuários do Campaign Standard que estão fazendo a transição par
 breadcrumb-title: Guia de adoção do Campaign
 source-git-commit: c635764e5a655d4a2f3e33f629e8d768a4d9089a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '56'
+ht-degree: 3%
 
 ---
 
