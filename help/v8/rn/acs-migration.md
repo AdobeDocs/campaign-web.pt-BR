@@ -3,20 +3,14 @@ audience: end-user
 title: Transição do Campaign Standard para o Adobe Campaign Web
 description: Conheça a interface do Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 448b002a284b05000da80fd165b300bc24178c78
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Transição do Campaign Standard para o Campaign v8 {#welcome}
-
-<!--
-We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
--->
-
-Damos as boas-vindas Adobe Campaign Managed Cloud Services v8!
+# Transição do Campaign Standard para o Campaign v8 {#acs-to-ac}
 
 Temos o prazer de anunciar que usuários do Adobe Campaign Standard agora estão qualificados para fazer a transição para o Adobe Campaign Managed Cloud Services v8. Essa transição traz muitos benefícios:
 
@@ -25,33 +19,39 @@ Temos o prazer de anunciar que usuários do Adobe Campaign Standard agora estão
 * Integração com a Adobe Experience Platform: o Managed Cloud Services v8 se conecta perfeitamente com a Adobe Experience Platform, permitindo que clientes possam aproveitar todo o potencial de seus dados e entregar campanhas personalizadas e impactantes em todos os canais.
 * Interface e experiência de usuário consistentes: não se preocupe, a transição para o Managed Cloud Services v8 não interromperá seu fluxo de trabalho. Você continuará aproveitando a interface e a experiência de usuário familiares, garantindo uma curva de aprendizado mínima para sua equipe.
 
-## Principais recursos {#key-features}
+**Como usuário Campaign Standard em transição para o Campaign v8, saiba como iniciar o [neste documento](../../adoption/home.md).**
 
-Como usuário do Campaign v8, você terá acesso à nova interface do Campaign Web e ao console do v8. Os dados e as configurações são sincronizados de um ambiente para outro. Todos os dados e configurações disponíveis no console do cliente estão visíveis na interface do Campaign Web, por meio do painel Explorer à esquerda. [Saiba mais](../get-started/user-interface.md#user-interface-explorer)
+<!--
+As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
 
-A interface do Campaign Web foi projetada para que os profissionais de marketing criem e orquestrem campanhas com facilidade. Vamos nos aprofundar nos principais recursos que a interface do Campaign Web v8 oferece:
 
-* Experiência moderna, amigável e unificada. [Saiba mais](../get-started/connect-to-campaign.md).
-* Novos recursos avançados e processos contínuos. [Saiba mais](../get-started/user-interface.md)
-* Novo modelador de consultas simplificado e intuitivo. [Saiba mais](../query/query-modeler-overview.md)
-* Recursos integrados de gerenciamento de campanhas em vários canais. [Saiba mais](../msg/gs-messages.md)
-* Atividades de fluxo de trabalho de campanha novas e reprojetadas. [Saiba mais](../workflows/gs-workflows.md)
-* Fácil criação e gerenciamento de perfis. [Saiba mais](../audience/about-recipients.md)
-* Filtros predefinidos. [Saiba mais](../get-started/predefined-filters.md)
-* Conversor de HTML para design de email. [Saiba mais](../email/existing-content.md)
-* SMS com ofertas. [Saiba mais](../msg/offers.md)
+## Key capabilities {#key-features}
 
-O console do cliente do Campaign foi projetado para que administradores e desenvolvedores configurem e personalizem os seus ambientes. Os principais recursos disponíveis no console do cliente do Campaign estão detalhados [nesta documentação](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
+As a Campaign v8 user, you have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
+
+Campaign web user interface is designed for marketers to easily build and orchestrate their campaigns. Let's dig deeper in what key capabilities Campaign v8 web user interface will offer you:
+
+* Modern, friendly, and unified experience. [Learn more](../get-started/connect-to-campaign.md).
+* New powerful capabilities and seamless processes. [Learn more](../get-started/user-interface.md)
+* New simplified and intuitive query modeler. [Learn more](../query/query-modeler-overview.md)
+* Built-in cross-channel campaign management capabilities. [Learn more](../msg/gs-messages.md)
+* New and redesigned campaign workflow activities. [Learn more](../workflows/gs-workflows.md)
+* Easy profile creation and management. [Learn more](../audience/about-recipients.md)
+* Predefined Filters. [Learn more](../get-started/predefined-filters.md)
+* HTML Converter for email design. [Learn more](../email/existing-content.md)
+* SMS with offers. [Learn more](../msg/offers.md)
+
+Campaign client console is designed for administrators and developers to confgure and customize their environment. Key capabilities available in Campaign client console are detailed in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 
 >[!NOTE]
 >
->Saiba mais sobre a compatibilidade de recursos e a interoperabilidade entre a interface do Campaign Web e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).
+>Learn more about supported and unsupported capabilities, and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md)
 >
 
-## Terminologia {#terminology}
+## Terminology {#terminology}
 
-A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standard. No entanto, existem algumas diferenças. Aqui estão alguns exemplos de diferenças de terminologia entre o Campaign Standard e o Campaign v8:
-
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few differences. Here are some examples of terminology differences between Campaign Standard and the Campaign v8:
+-->
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
@@ -59,29 +59,30 @@ A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standa
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Recursos e recursos personalizados são **Esquemas** e **Esquemas personalizados**
-* As mensagens são chamadas de **Entregas**
-* As funções são configuradas com **Direitos nomeados**
-* Os grupos de segurança são **Grupos de operadores**.
-* As entidades organizacionais são gerenciadas por meio de **Permissões de pasta**
-* Os usuários do produto são **Operadores** no console do cliente
-* A preparação da entrega é a **Análise de entrega** no console do cliente
-
-## Recursos específicos {#new-features}
-
-Com o objetivo de uma transição descomplicada para o Campaign v8, os recursos principais do Campaign Standard foram adicionados ao Campaign v8. Estão detalhados [nesta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target="_blank"} e só estão disponíveis para usuários em transição do Campaign Standard.
-
-* **Relatórios dinâmicos**: os relatórios dinâmicos fornecem relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=pt-BR){target="_blank"}.
-
-* **Marca centralizada**: cada empresa tem diretrizes técnicas e visuais da marca. Com o Adobe Campaign, é possível definir um conjunto de especificações para apresentar uma marca consistente aos seus clientes, de logotipos a aspectos técnicos, como remetente de email, URL ou domínios. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=pt-BR)
-
-* **APIs REST**: como usuário de migração do Campaign Stardard, você pode usar APIs REST para criar integrações para o Adobe Campaign e construir seu próprio ecossistema conectando o Adobe Campaign com o painel de tecnologias que você usa. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
-
-* **Páginas de destino**: algumas melhorias foram inseridas nas páginas de destino do Campaign v8 para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[ notas de versão](../rn/release-notes.md#new-24-4) e na [documentação](../landing-pages/get-started-lp.md) da página de destino.
-
-* **Fragmentos visuais** - Os fragmentos visuais são componentes visuais reutilizáveis que podem ser referenciados em uma ou mais entregas de email ou em modelos de conteúdo. Ao modificar um fragmento, todos os conteúdos que o usam serão atualizados. Essa funcionalidade permite pré-construir vários blocos de conteúdo personalizados que usuários de marketing podem usar para preparar rapidamente o conteúdo de mensagens em um processo de design aprimorado. [Saiba mais](../content/use-visual-fragments.md)
-
 <!--
+* Custom resources are **Schemas**
+* Messages are referred as **Deliveries**
+* Roles are configured with **Named Rights**
+* Security Groups are **Operator Groups**
+* Organizational units are managed through **Folder Permissions**
+* Product users are **Operators** in the client console
+* Delivery preparation is the **Delivery analysis** in the client console
+
+## Specific features {#new-features}
+
+For you to transition smoothly to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. They are detailed in [this documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}, and are only available to users transitioning from Campaign Standard.
+
+* **Dynamic Reporting**: Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
+
+* **Centralized branding**: Every company has brand visual and technical guidelines. With Adobe Campaign, you can define a set of specification to present a consistent brand to your customers, from logos to technical aspects, such as email sender, URL or domains. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+
+* **Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+
+* **Landing pages** - Some improvements have been brought to Campaign v8 landing pages to ensure feature parity with Campaign Standard. Learn more in the [release notes](../rn/release-notes.md#new-24-4) and the landing page [documentation](../landing-pages/get-started-lp.md).
+
+* **Visual fragments** - Visual fragments are reusable visual components that can be referenced in one or more email deliveries or in content templates. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process. [Learn more](../content/use-visual-fragments.md)
+
+ <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
 
 * Landing Pages: Landing pages are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles, and to set up a double opt-in mechanism, allowing you to to protect the platform from wrong or invalid email addresses, or spambots. [Learn more](../landing-pages/get-started-lp.md)
