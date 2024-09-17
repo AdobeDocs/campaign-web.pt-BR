@@ -2,14 +2,15 @@
 audience: end-user
 title: Criar uma entrega de notificação por push avançada do iOS
 description: Saiba como criar uma entrega de notificação por push avançada do iOS com o Adobe Campaign Web
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 15%
 
 ---
 
-# Criar uma entrega de push avançada do iOS {#rich-push}
+# Criar uma entrega de push avançada para iOS {#rich-push}
 
 >[!IMPORTANT]
 >
@@ -210,4 +211,3 @@ Depois de definir o conteúdo da mensagem, você pode usar assinantes de teste p
 | **[!UICONTROL Thread-id]** | Defina o identificador usado para agrupar notificações relacionadas. |
 | **[!UICONTROL Categoria]** | Defina o nome da ID da categoria que exibirá botões de ação. Essas notificações fornecem ao usuário uma maneira mais rápida de realizar tarefas diferentes em resposta a uma notificação sem abrir o aplicativo ou navegar até ele. |
 | **[!UICONTROL ID do conteúdo do Target]** | Defina um identificador usado para definir qual janela de aplicativo será apresentada quando a notificação for aberta. |
-

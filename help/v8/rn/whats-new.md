@@ -5,8 +5,8 @@ description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 

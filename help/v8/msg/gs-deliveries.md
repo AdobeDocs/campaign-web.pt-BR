@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Acessar deliveries
+title: Acessar entregas
 description: Saiba como acessar e gerenciar seus deliveries no Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
@@ -9,18 +9,18 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
-# Acessar deliveries {#work-with-deliveries}
+# Acessar entregas {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
 >abstract="Uma entrega é uma comunicação enviada para um público-alvo em um canal específico: email, SMS ou notificação por push. Nesta tela, você pode editar, duplicar e excluir as entregas existentes. Também é possível exibir relatórios de entregas concluídas. Clique no botão **Criar entrega** para adicionar uma nova entrega."
 
-## Acessar deliveries {#access}
+## Acessar entregas {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"

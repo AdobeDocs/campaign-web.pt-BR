@@ -4,8 +4,8 @@ description: Usuários do Campaign Standard que estão fazendo a transição par
 title: Guia de adoção do Adobe Campaign
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '319'
+ht-degree: 53%
 
 ---
 
