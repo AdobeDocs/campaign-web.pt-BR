@@ -3,10 +3,10 @@ audience: end-user
 title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
+source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -114,9 +114,7 @@ Agora você pode **importar e converter qualquer conteúdo HTML** no editor de e
 
 **SMS com ofertas**
 
-Além do email, a nova interface do Campaign Web também permite **integrar ofertas por meio de SMS**. Alcance o seu público-alvo em seus dispositivos móveis fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada da Web.
-
-Saiba mais [nesta seção](../msg/offers.md).
+Além do email, a nova interface do Campaign Web também permite **integrar ofertas por meio de SMS**. Alcance o seu público-alvo em seus dispositivos móveis fornecendo promoções e notificações oportunas. Aumente seus esforços de marketing aproveitando o poder das ofertas integradas por meio de SMS em nossa plataforma avançada de Web. Saiba mais [nesta seção](../msg/offers.md).
 
 ## Transição para a interface do Campaign Web
 
