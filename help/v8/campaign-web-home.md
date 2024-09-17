@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -59,13 +59,13 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!TAB Distribuição de valores]
 
-Ao acessar a lista de campos para personalização, agora é possível verificar como os valores são distribuídos para cada campo.
+Ao acessar a lista de campos para personalização, agora é possível verificar como os valores estão distribuídos para cada campo. 
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Captcha em páginas de aterrissagem]
+>[!TAB Captcha em páginas de destino]
 
-Agora é possível adicionar captcha para proteger sua landing page contra spam e abuso causado por bots. Esse recurso está com disponibilidade limitada.
+Agora, você pode adicionar um captcha para proteger a sua página de destino contra spam e abusos causados por bots. Esse recurso está em disponibilidade limitada no momento.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
