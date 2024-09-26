@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transição de JavaScript"
->abstract="Ative a opção **[!UICONTROL Process errors]** para manter os erros que ocorrem durante a execução do script em uma transição de saída adicional."
+>abstract="Ative a opção **[!UICONTROL Processar erros]** para manter os erros que ocorrem durante a execução do script em uma transição de saída adicional."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
 >title="Processar erros"
->abstract="erros de processo"
+>abstract="processar erros"
 
 A atividade do **código JavaScript** é uma atividade de **gerenciamento de dados**. Use esta atividade para executar um script JavaScript no contexto de um workflow. Isso permite coletar informações do banco de dados ou executar outras operações complexas.
 
@@ -62,7 +62,7 @@ Siga estas etapas para configurar a atividade **código JavaScript**:
 
    ![](../assets/javascript-config.png)
 
-1. Ative a opção **[!UICONTROL Process errors]** para manter os erros que ocorrem durante a execução do script em uma transição de saída adicional.
+1. Ative a opção **[!UICONTROL Processar erros]** para manter os erros que ocorrem durante a execução do script em uma transição de saída adicional.
 
 ## Atividades avançadas de código do JavaScript {#advanced}
 

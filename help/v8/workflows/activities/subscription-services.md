@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 16%
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Informações adicionais"
->abstract="Especifique os dados e a origem da assinatura para cada registro. Você pode deixar essa seção vazia, nesse caso, nenhuma data ou origem será definida ao executar o workflow. Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil para o serviço, você poderá selecioná-la no campo **[!UICONTROL Data]**. No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. Você pode defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**."
+>abstract="Especifique os dados e a origem da assinatura de cada registro. Você pode deixar essa seção vazia; nesse caso, nenhuma data ou origem será definida ao executar o fluxo de trabalho. Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil no serviço, será possível selecioná-la no campo **[!UICONTROL Data]**. No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. É possível defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**."
 
 A atividade **Serviços de assinatura** é uma atividade de **Gerenciamento de Dados**. Ele permite criar ou excluir uma subscrição para um serviço de informações para a população especificada na transição.
 
@@ -70,7 +70,7 @@ Siga estas etapas para configurar a atividade **Serviços de assinatura**:
 
    * Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil para o serviço, você poderá selecioná-la no campo **[!UICONTROL Data]**.
 
-   * No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. Você pode defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**.
+   * No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. É possível defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**.
 
    ![](../assets/workflow-subscription-service-additional.png)
 

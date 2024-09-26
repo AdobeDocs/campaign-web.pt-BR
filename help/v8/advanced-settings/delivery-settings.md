@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
 source-wordcount: '2852'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -295,7 +295,7 @@ Você também pode personalizar o rótulo das provas:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"
 >title="Parâmetros SMTP"
->abstract="Você pode adicionar parâmetros SMTP adicionais ao seu delivery de email."
+>abstract="É possível incluir parâmetros SMTP adicionais na entrega de email."
 
 Você pode adicionar parâmetros SMTP adicionais ao seu delivery de email. Você pode fazer isso na guia SMTP das configurações de delivery.
 
@@ -343,9 +343,9 @@ Os valores são codificados automaticamente se necessário.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variáveis"
->abstract="Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo do delivery e pelos fluxos de trabalho."
+>abstract="Você pode adicionar variáveis à entrega, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo da entrega e pelos fluxos de trabalho."
 
-Você pode adicionar variáveis ao seu delivery, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo do delivery e pelos fluxos de trabalho. As variáveis armazenadas são usadas para definir valores que permanecem constantes em todas as mensagens no delivery. Eles também podem ser configurados em templates do delivery.
+Você pode adicionar variáveis à entrega, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo do delivery e pelos fluxos de trabalho. As variáveis armazenadas são usadas para definir valores que permanecem constantes em todas as mensagens no delivery. Eles também podem ser configurados em templates do delivery.
 
 Para adicionar uma variável, navegue até a guia **[!UICONTROL Variáveis]**, conforme mostrado abaixo.
 

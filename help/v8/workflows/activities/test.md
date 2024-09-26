@@ -6,7 +6,7 @@ exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 3%
+ht-degree: 37%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test"
 >title="Atividade de teste"
->abstract="A atividade **Test** é uma atividade **Flow control**. Ela permite ativar transições com base em condições especificadas."
+>abstract="A atividade **Teste** é uma atividade de **Controle de fluxo**. Ela permite habilitar transições com base nas condições especificadas."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Condições"
->abstract="A atividade **Test** pode ter várias transições de saída. Durante a execução do workflow, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os workflows serão interrompidos nesse ponto."
+>abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução do fluxo de trabalho, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará com base na **[!UICONTROL condição padrão]**. Se nenhuma condição padrão for ativada, os fluxos de trabalho serão interrompidos nesse ponto."
 
-A atividade **Test** é uma atividade **Flow control**. Ela permite ativar transições com base em condições especificadas.
+A atividade **Teste** é uma atividade de **Controle de fluxo**. Ela permite habilitar transições com base nas condições especificadas.
 
 ## Configurar a atividade Test {#test-configuration}
 
@@ -40,7 +40,7 @@ Siga estas etapas para configurar a atividade **Test**:
 
 1. Você pode adicionar várias transições de saída a uma atividade **[!UICONTROL Test]**. Para fazer isso, clique no botão **[!UICONTROL Adicionar condição]** e configure o rótulo e a condição associada para cada transição.
 
-1. Durante a execução do workflow, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os workflows serão interrompidos nesse ponto.
+1. Durante a execução do fluxo de trabalho, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará com base na **[!UICONTROL condição padrão]**. Se nenhuma condição padrão for ativada, os fluxos de trabalho serão interrompidos nesse ponto.
 
 ## Exemplo {#example}
 

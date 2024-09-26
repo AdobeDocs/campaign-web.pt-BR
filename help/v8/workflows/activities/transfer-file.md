@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 19%
+ht-degree: 31%
 
 ---
 
@@ -95,9 +95,9 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="Historização de arquivos"
->abstract="Toda vez que uma atividade **[!UICONTROL Transferir arquivo]** é executada, ela armazena os arquivos carregados ou baixados em uma pasta dedicada. Uma pasta é criada para cada atividade Transfer file de um workflow. Por padrão, os arquivos são salvos no diretório de armazenamento padrão da pasta de instalação do Adobe Campaign (`/vars`) antes de serem processados. Para usar uma pasta específica, desative a opção **[!UICONTROL Usar um diretório de armazenamento padrão]** e insira o caminho do diretório."
+>abstract="Executar uma atividade **[!UICONTROL Transferir arquivo]** armazena os arquivos enviados ou baixados em uma pasta dedicada. Uma pasta é criada para cada atividade Transferir arquivo de um fluxo de trabalho. Por padrão, os arquivos são salvos no diretório de armazenamento padrão da pasta de instalação do Adobe Campaign (`/vars`) antes de serem processados. Para usar uma pasta específica, desative a opção **[!UICONTROL Usar um diretório de armazenamento padrão]** e insira o caminho do diretório."
 
-Toda vez que uma atividade **[!UICONTROL Transferir arquivo]** é executada, ela armazena os arquivos carregados ou baixados em uma pasta dedicada. Uma pasta é criada para cada atividade Transfer file de um workflow. Por padrão, os arquivos são salvos no diretório de armazenamento padrão da pasta de instalação do Adobe Campaign (`/vars`) antes de serem processados. Para usar uma pasta específica, desative a opção **[!UICONTROL Usar um diretório de armazenamento padrão]** e insira o caminho do diretório.
+Executar uma atividade **[!UICONTROL Transferir arquivo]** armazena os arquivos enviados ou baixados em uma pasta dedicada. Uma pasta é criada para cada atividade Transferir arquivo de um fluxo de trabalho. Por padrão, os arquivos são salvos no diretório de armazenamento padrão da pasta de instalação do Adobe Campaign (`/vars`) antes de serem processados. Para usar uma pasta específica, desative a opção **[!UICONTROL Usar um diretório de armazenamento padrão]** e insira o caminho do diretório.
 
 ![](../assets/workflow-transfer-file-historization.png)
 
@@ -113,7 +113,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 >
 >Se a atividade não for executada novamente, a pasta correspondente não será verificada nem eliminada. Por isso, tenha cuidado ao transferir arquivos grandes.
 
-## Opções avançadas de gerenciamento de &amp; erros {#advanced}
+## Opções avançadas e de gerenciamento de erros {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
