@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ As versões da interface do usuário do Adobe Campaign Web operam em um modelo d
 <table>
 <thead>
 <tr>
-<th><strong>Acelerador de conteúdo do assistente de IA</strong><br/></th>
+<th><strong>Acelerador de conteúdo do Assistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Depois de criar e adaptar sua mensagem, coloque-a em um novo patamar com o Assistente de IA no Adobe Campaign Web for Content Acceleration. Essa poderosa ferramenta permite otimizar o impacto do seu conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
-<p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos</a> em tempo real, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
+<p>Depois de criar e adaptar sua mensagem, leve-a a um novo patamar com o Assistente de IA no Adobe Campaign Web para Aceleração de Conteúdo. Essa ferramenta avançada permite otimizar o impacto do conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
+<p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos ao vivo</a>, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../email/generative-gs.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>Data de disponibilidade: 12 de setembro</p>
