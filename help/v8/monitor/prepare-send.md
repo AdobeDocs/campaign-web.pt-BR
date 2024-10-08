@@ -3,7 +3,7 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 10f8768b244b0138d055330d8d23f42076c83c49
+source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 38%
@@ -19,7 +19,7 @@ Depois de definir seu [conteúdo](../email/edit-content.md), [público-alvo](../
 
 Durante a preparação do delivery, a população do target é calculada e o conteúdo da mensagem é gerado para cada perfil incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas, imediatamente ou na data e hora programadas.
 
-As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 As principais etapas para preparar o envio estão listadas abaixo.
 
