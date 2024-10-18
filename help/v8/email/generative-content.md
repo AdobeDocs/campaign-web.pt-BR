@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Conteúdo gerativo
-description: Introdução ao Assistente de IA para aceleração de conteúdo
+description: Introdução ao Acelerador de conteúdo do Assistente de IA
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1577'
 ht-degree: 1%
 
 ---
@@ -17,20 +17,20 @@ ht-degree: 1%
 >Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA na Adobe Campaign Web para Aceleração de Conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Acelerador de Conteúdo do Assistente de IA na Web do Adobe Campaign. Para mais informações, entre em contato com o seu representante da Adobe.
 
 
-Depois de criar e personalizar seus emails, use o Assistente de IA no Adobe Campaign Web para aceleração de conteúdo no Campaign viabilizado pela IA gerativa para elevar seu conteúdo ao próximo nível.
+Depois de criar e personalizar seus emails, use o Acelerador de conteúdo do assistente de IA no Adobe Campaign Web in Campaign alimentado por IA generativa para elevar seu conteúdo ao próximo nível.
 
-O Assistente de IA do Adobe Campaign Web for Content Acceleration pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e até imagens especificamente adaptadas para repercutir com seu público-alvo. Isso otimiza suas campanhas de email para melhorar o engajamento.
+O Acelerador de conteúdo do assistente de IA na Web do Adobe Campaign pode ajudar você a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e até imagens especificamente adaptadas para repercutir com seu público-alvo. Isso otimiza suas campanhas de email para melhorar o engajamento.
 
-Com suas campanhas de email, você pode usar o assistente de IA para gerar email, texto ou imagens completos. Explore as guias abaixo para saber como usar o Assistente de IA no Adobe Campaign Web para aceleração de conteúdo no Campaign.
+Com suas campanhas de email, você pode usar o assistente de IA para gerar email, texto ou imagens completos. Explore as guias abaixo para saber como usar o Acelerador de conteúdo do assistente de IA no Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Geração de email completa]
 
-No exemplo a seguir, aproveitaremos o assistente de IA no Adobe Campaign Web for Content Acceleration para refinar um email existente, personalizando-o para um evento especial.
+No exemplo a seguir, aproveitaremos o Acelerador de conteúdo do assistente de IA no Adobe Campaign Web para refinar um email existente, personalizando-o para um evento especial.
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Editar conteúdo]**.
 
