@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,14 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!BEGINTABS]
 
+
+>[!TAB Versão de outubro de 2024]
+
+A versão de outubro está disponível, incluindo mensagens transacionais, contas externas e mais melhorias.
+
+[![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB Acelerador de conteúdo do Assistente de IA]
 
 ✨ Mergulhe fundo em uma experiência prática com a visualização ao vivo do recurso [Acelerador de conteúdo do Assistente de IA](../v8/email/generative-gs.md), projetado para permitir que você explore seus recursos em primeira mão e entenda totalmente seus recursos.
@@ -62,12 +70,6 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 Ao acessar a lista de campos para personalização, agora é possível verificar como os valores estão distribuídos para cada campo. 
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB Captcha em páginas de destino]
-
-Agora, você pode adicionar um captcha para proteger a sua página de destino contra spam e abusos causados por bots. Esse recurso está em disponibilidade limitada no momento.
-
-[![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
