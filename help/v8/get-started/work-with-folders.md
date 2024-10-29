@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -66,6 +66,20 @@ Configure o tipo de pasta clicando no botão **[!UICONTROL Confirmar]**.
 Para criar uma pasta sem um tipo específico, escolha o tipo **[!UICONTROL Pasta genérica]**.
 
 Também é possível [criar e gerenciar pastas no console do Adobe Campaign](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
+
+## Reordenar pastas {#reorder-folders}
+
+Você pode reordenar as pastas de acordo com suas necessidades. Para fazer isso, clique em **[!UICONTROL Reordenar pastas]**, conforme mostrado abaixo.
+
+No nosso exemplo, a pasta **Deliveries** contém 4 pastas.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+Você pode alterar a ordem das suas pastas **arrastando e soltando** ou usando **setas para cima e para baixo**.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## Excluir uma pasta {#delete-a-folder}
 
