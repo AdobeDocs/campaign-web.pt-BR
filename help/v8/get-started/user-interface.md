@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 94%
+source-wordcount: '2011'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 94%
 A nova interface do Adobe Campaign Web oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. A nova interface é integrada aos aplicativos e soluções da Adobe Experience Cloud.
 
 Saiba como se conectar ao Adobe Campaign e conheça as noções básicas de navegação da Experience Cloud [neste artigo](connect-to-campaign.md).
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ Os **indicadores principais de desempenho** permitem verificar a eficácia da pl
 A lista **Recentes** fornece atalhos para as entregas criadas e modificadas recentemente. Esta lista mostra o canal, status, proprietário, datas de criação e modificação. Clique no link **Mostrar mais** para carregar mais entregas.
 
 Você também pode acessar as principais páginas de ajuda do Adobe Campaign Web na seção **Aprendizado** da página.
+
+### Sobre o link {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="Sobre a página"
+>abstract="A página Sobre fornece detalhes sobre a instância do Adobe Campaign"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="Sobre a instância"
+>abstract="A seção Instância fornece informações importantes sobre o cliente do console, incluindo a versão e o número de build associado"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="Sobre a Web"
+>abstract="A seção Web exibe a versão da interface da Web do Campaign, com a data da última atualização, se disponível."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="Sobre pacotes instalados"
+>abstract="A seção Pacotes instalados lista todos os módulos, recursos e integrações presentes na instância."
+
+Na parte inferior da página, o link **[!UICONTROL Sobre]** fornece detalhes sobre a instância do Adobe Campaign. essas informações estão no modo somente leitura.
+
+![](assets/about-link.png){zoomable="yes"}
+
+A seção **Instância** fornece informações importantes sobre o cliente do console, incluindo a **versão** e o número de **compilação** associado.
+
+* A **versão** se refere à versão oficial que você está usando,
+* A **compilação** faz referência a uma iteração específica dessa versão.
+
+Os números de versão e de build são cruciais para a solução de problemas, pois ajudam a determinar exatamente quais recursos e correções estão presentes em seu ambiente.
+
+A seção **Web** exibe a versão da interface da Web do Campaign, com a data da última atualização, se disponível. Isso ajuda a rastrear alterações ou melhorias feitas na interface da Web do Campaign.
+
+A seção **Pacotes instalados** lista todos os módulos, recursos e integrações presentes na sua instância. Esses pacotes ampliam a funcionalidade da Adobe Campaign, permitindo que ela execute tarefas especializadas, como integrar com outras soluções de Adobe ou ativar workflows específicos. Dado o grande número de pacotes, você pode fazer uma pesquisa nesta seção para verificar rapidamente se um módulo específico está instalado em sua instância.
+
+![](assets/about.png){zoomable="yes"}
 
 ## Menu de navegação esquerdo {#user-interface-left-nav}
 
@@ -331,30 +370,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Editar atributos personalizados"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="Sobre"
->abstract="Sobre"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="Sobre a instância"
->abstract="Sobre a instância"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="Sobre a Web"
->abstract="Sobre a Web"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="Sobre pacotes"
->abstract="Sobre pacotes"
 
 <!--Schema-->
 
