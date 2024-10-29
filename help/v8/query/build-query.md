@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2227'
 ht-degree: 20%
 
 ---
@@ -41,6 +41,7 @@ Para acessar essa opção, em sua query, clique no botão de seleção de atribu
 >* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesse caso, uma notificação **[!UICONTROL Partial load]** avisa você.
 >
 >* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos.
+>* Você pode adicionar condições aos resultados usando os **[!Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adicionar componentes de filtragem {#filtering}
 

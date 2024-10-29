@@ -3,10 +3,10 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 4%
+source-wordcount: '1189'
+ht-degree: 3%
 
 ---
 
@@ -48,21 +48,27 @@ A barra de ferramentas localizada no canto superior direito da tela fornece opç
 
 ## Gerenciar atividades {#manage}
 
-Ao adicionar atividades, os botões de ação ficam disponíveis no painel de propriedades, permitindo que você execute várias operações. Você pode:
+Ao adicionar atividades, os botões de ação ficam disponíveis no painel de propriedades, permitindo que você execute várias operações.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+Você pode:
 
 * **Excluir** a atividade da tela.
 * **Desabilitar/Habilitar** a atividade. Quando o workflow é executado, as atividades desativadas e as atividades a seguir no mesmo caminho não são executadas e o workflow é interrompido.
-* **Copiar** a atividade. Consulte [esta seção](#copy).
-* Acesse os **Logs e tarefas** da atividade.
 * **Pausar/Retomar** a atividade. Quando o workflow é executado, ele é pausado na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Copiar** a atividade. Consulte [esta seção](#copy).
+* **Mover** uma atividade e todos os seus nós filhos para outra transição. Consulte [esta seção](#move)
+* Acesse as **Opções de execução** da atividade.
+* Acesse os **Logs e tarefas** da atividade.
 
 Várias atividades de **Direcionamento**, como **Combinar** ou **Desduplicação**, permitem processar a população restante e incluí-la em uma transição de saída adicional. Por exemplo, se você estiver usando uma atividade **Split**, o complemento consiste na população que não corresponde a nenhum dos subconjuntos definidos anteriormente. Para usar este recurso, ative a opção **Gerar complemento**.
 
 ![](assets/workflow-split-complement.png)
 
-## Copiar atividades {#copy}
+## Mover ou copiar atividades {#move-copy}
+
+### Atividades de copiar e colar {#copy}
 
 Você pode copiar atividades de workflow e colá-las em qualquer workflow. O workflow de destino pode estar em uma guia do navegador diferente.
 
@@ -79,6 +85,20 @@ Para copiar atividades, você tem duas opções:
 Para colar as atividades copiadas, clique no botão **+** em uma transição e selecione &quot;Colar atividade X&quot;.
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Mover atividades e seus nós filhos {#move}
+
+O Journey Optimizer permite mover uma atividade, juntamente com todo o conteúdo dos nós secundários (incluindo todas as transições e atividades dentro dela) para o final de outra transição no mesmo fluxo de trabalho.
+
+Esse processo desconecta a atividade e tudo o que está em sua transição de saída do local inicial, movendo-a para a nova transição de destino.
+
+Para mover uma atividade:
+
+1. Selecione a atividade que deseja mover.
+1. No painel de propriedades da atividade, clique no botão **Mover**.
+1. Selecione a transição em que deseja colocar a atividade e sua transição de saída e, em seguida, confirme.
+
+![](assets/activity-move.png)
 
 ## Opções de execução {#execution}
 

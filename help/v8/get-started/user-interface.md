@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: ht
-source-wordcount: '1762'
-ht-degree: 100%
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+workflow-type: tm+mt
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.
 ### Relatórios {#left-nav-reporting}
 
 * **Relatórios**: a entrada **Relatório** oferece um resumo geral consolidado das métricas de tráfego e engajamento de cada canal no ambiente do Campaign. Esses relatórios consistem em vários dispositivos, cada um oferecendo uma perspectiva distinta sobre a campanha ou o desempenho de entrega. Saiba mais [nesta seção](../reporting/global-reports.md).
+
+### Administração {#left-nav-admin}
+
+
+* **Trilha de auditoria** - A entrada **Trilha de auditoria** fornece aos usuários total visibilidade de todas as modificações feitas em entidades importantes na sua instância, normalmente aquelas que afetam significativamente uma operação suave da instância. [Saiba mais](../reporting/audit-trail.md)
+
+* **Contas externas** - Crie novas contas externas usando a Interface de Usuário da Web para atender às suas necessidades específicas e garantir transferências de dados sem interrupção. [Saiba mais](../administration/external-account.md)
+
+* **Esquemas** - Os campos personalizados são atributos adicionais adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. [Saiba mais](../administration/custom-fields.md)
+
+* **Alertas de Entrega** - O Alertas de Entrega é um sistema de gerenciamento de alertas que permite a grupos de usuários receber automaticamente notificações por email com informações sobre suas execuções de entrega. [Saiba mais](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="Mensagens transacionais"
->abstract="Mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="Propriedades de mensagens transacionais"
->abstract="Propriedades de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="Propriedades de email de mensagens transacionais"
->abstract="Propriedades de email de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="Propriedades de SMS de mensagens transacionais"
->abstract="Propriedades de SMS de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="Propriedades de push de mensagens transacionais"
->abstract="Propriedades de push de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Aplicativo móvel de mensagens transacionais"
->abstract="Aplicativo móvel de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="Evento de mensagens transacionais"
->abstract="Evento de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="Contexto de mensagens transacionais"
->abstract="Contexto de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="Conteúdo de mensagens transacionais"
->abstract="Conteúdo de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Personalização de mensagens transacionais"
->abstract="Personalização de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Logs de exclusão de mensagens transacionais"
->abstract="Logs de exclusão de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="Contexto de mensagens transacionais"
->abstract="Contexto de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="Histórico de eventos de mensagens transacionais"
->abstract="Histórico de eventos de mensagens transacionais"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="Pré-visualização do histórico de eventos de mensagens transacionais"
->abstract="Pré-visualização do histórico de eventos de mensagens transacionais"
 
 <!--about-->
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Programação da pasta"
 >abstract="Programação da pasta"
 
-## Sobre pastas
+## Sobre pastas {#about-folders}
 
 Pastas são objetos no Adobe Campaign que permitem organizar os componentes e dados.
 
@@ -43,7 +43,7 @@ Pastas são objetos no Adobe Campaign que permitem organizar os componentes e da
 É possível configurar um tipo de pasta. Por exemplo: uma pasta de entregas.
 O ícone da pasta será alterado de acordo com esse tipo.
 
-## Criar uma nova pasta
+## Criar uma nova pasta {#create-a-folder}
 
 Para criar uma nova pasta na interface web do Adobe Campaign, siga estas etapas:
 
@@ -53,8 +53,7 @@ No menu **[!UICONTROL ...]**, há a opção **[!UICONTROL Criar nova pasta]**
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Ao criar uma nova pasta, por padrão, o tipo de pasta é o mesmo da pasta principal.
-No nosso exemplo, criamos uma pasta na pasta **[!UICONTROL Entregas]**.
+Ao criar uma nova pasta, por padrão, o tipo de pasta é o tipo da pasta principal. No nosso exemplo, criamos uma pasta na pasta **[!UICONTROL Entregas]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -68,7 +67,7 @@ Para criar uma pasta sem um tipo específico, escolha o tipo **[!UICONTROL Pasta
 
 Também é possível [criar e gerenciar pastas no console do Adobe Campaign](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Excluir uma pasta
+## Excluir uma pasta {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -108,3 +107,11 @@ Na lista de atributos, clique no botão **+** ao lado do link desejado, conforme
 ![](assets/values_link.png){zoomable="yes"}
 
 Também é possível ver a distribuição de valores em um modelador de consulta. [Saiba mais aqui](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Filtrar os valores {#filter-values}
+
+Ao usar os **[!UICONTROL Filtros avançados]** na janela de distribuição de valores, você pode filtrar seus resultados com base em condições especificadas.
+
+No exemplo da lista de entrega acima, que mostra a distribuição por canal, você pode, por exemplo, filtrá-la para exibir apenas as entregas cujo status é **Concluído**.
+
+![](assets/values_filter.png){zoomable="yes"}
