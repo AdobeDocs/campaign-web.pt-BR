@@ -3,7 +3,7 @@ title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -145,7 +145,9 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 Para enviar automaticamente uma mensagem de confirmação após o envio de uma landing page, siga estas etapas:
+
 1. Na seção **[!UICONTROL CHAMADA PARA AÇÃO]**, marque a opção **[!UICONTROL Enviar email de confirmação]**.
+
 1. Na lista suspensa associada, escolha o template de mensagem transacional que precisa ser enviado.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}

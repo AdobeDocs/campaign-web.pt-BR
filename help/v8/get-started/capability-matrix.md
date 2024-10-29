@@ -3,10 +3,10 @@ audience: end-user
 title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2075'
+ht-degree: 99%
 
 ---
 
@@ -68,15 +68,17 @@ Todos os públicos-alvo criados no console do cliente do Campaign ou na Adobe Ex
 
 Conforme descrito na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html?lang=pt-BR#import-jobs){target="_blank"}, os processos de importação e exportação instantâneos não estão disponíveis na interface do Campaign Web.<!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## Mensagens transacionais {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-Atualmente, os recursos de mensagens transacionais que acompanham o pacote de produtos do Centro de mensagens não estão disponíveis na nova interface do Campaign Web.
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Navegue pela [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=pt-BR){target="_blank"} e saiba mais sobre os recursos de mensagens em tempo real, como:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* Criação e execução de mensagens em tempo real por email, SMS e push
-* Enriquecimento e personalização de mensagem
-* Relatórios e monitoramento de mensagens transacionais
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## Design de conteúdo {#content-capabilities}
 
@@ -155,7 +157,7 @@ A interface do Campaign Web não possui os recursos a seguir. Só estão dispon�
 
 ### Contas externas {#external}
 
-O Adobe Campaign inclui um conjunto de contas externas predefinidas para se conectar a sistemas externos. Como admin do sistema do Campaign, você pode criar e gerenciar contas externas somente no console do cliente.[Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=pt-BR){target="_blank"}
+O Adobe Campaign inclui um conjunto de contas externas predefinidas para se conectar a sistemas externos. Como administrador do sistema do Campaign, você pode criar e gerenciar contas externas. [Saiba mais](../administration/external-account.md)
 
 ### Criação e extensão de esquema {#schema}
 

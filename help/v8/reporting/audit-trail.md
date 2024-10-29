@@ -4,9 +4,9 @@ title: Trilha de auditoria
 description: Saiba como monitorar sua instância com a Trilha de auditoria do Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
 * **Conta externa** permite que você verifique modificações feitas em contas externas no Campaign V8, usadas por processos técnicos, como workflows técnicos ou workflows da campanha.
 
-  Para obter mais informações sobre a conta externa, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  Para obter mais informações sobre a conta externa, consulte esta [página](../administration/external-account.md).
 
 * **O mapeamento de entrega** permite monitorar atividades e modificações recentes feitas no mapeamento de entrega no Campaign V8.
 
