@@ -6,19 +6,27 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 2%
+source-wordcount: '580'
+ht-degree: 1%
 
 ---
 
 
 # Personalize seu conteúdo {#add-personalization}
 
-Você pode personalizar qualquer entrega usando o editor de expressão, que está acessível em campos com o ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**, como a linha de assunto, links de email e componentes de conteúdo de texto/botão. [Saiba como acessar o editor de expressão](gs-personalization.md/#access)
+O Personalization de conteúdo de delivery é um recurso essencial que permite personalizar mensagens para recipients individuais, tornando a comunicação mais relevante e envolvente.
 
-## Sintaxe do Personalization {#syntax}
+No Adobe Campaign, usando os [dados de perfil](#data-personalization), como o nome do perfil, o local ou as interações anteriores e as [variáveis específicas da sua entrega](#variables-personalization), você pode personalizar elementos dinamicamente, como texto, imagens e ofertas, na sua comunicação.
+
+A personalização do delivery não apenas melhora a experiência do usuário, mas também melhora as taxas de engajamento, resultando em mais conversão e satisfação do cliente.
+
+## Uso de dados de perfil para personalização {#data-personalization}
+
+Você pode personalizar qualquer entrega com dados de perfil usando o editor de expressão, que é acessível em campos com o ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**, como a linha de assunto, links de email e componentes de conteúdo de texto/botão. [Saiba como acessar o editor de expressão](gs-personalization.md/#access)
+
+### Sintaxe do Personalization {#syntax}
 
 As marcas Personalization seguem uma sintaxe específica: `<%= table.field %>`. Por exemplo, para inserir o sobrenome do destinatário da tabela de destinatários, use a sintaxe `<%= recipient.lastName %>`.
 
@@ -26,7 +34,7 @@ Durante o processo de preparação do delivery, o Adobe Campaign interpreta auto
 
 Ao fazer upload de contatos de um arquivo externo para um delivery de email independente, todos os campos no arquivo de entrada estão disponíveis para personalização. A sintaxe é a seguinte: `<%= dataSource.field %>`.
 
-## Adicionar tags de personalização {#add}
+### Adicionar tags de personalização {#add}
 
 Para adicionar tags de personalização em um delivery, siga estas etapas:
 
@@ -56,3 +64,20 @@ Para adicionar tags de personalização em um delivery, siga estas etapas:
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## Uso de variáveis para personalização {#variables-personalization}
+
+Você também pode usar variáveis para personalizar o delivery.
+Saiba mais sobre [adição de variáveis a uma entrega](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Por exemplo, temos a variável `deliveryType` definida como abaixo.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+Esta variável pode ser usada no conteúdo da entrega usando o ícone **[!UICONTROL Adicionar Personalization]** e a expressão `<%= variables.deliveryType %>` para o nosso exemplo.
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+Você pode verificar o uso da variável com o botão **[!UICONTROL Simular conteúdo]**.
+
+![](assets/variables-simulate.png){zoomable="yes"}
