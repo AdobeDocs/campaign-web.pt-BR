@@ -2,9 +2,9 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 42%
 
 ---
@@ -91,3 +91,5 @@ Os seguintes recursos e melhorias estarão disponíveis a partir da versão de o
 * **Informações de versão e sistema** - Agora você pode acessar detalhes sobre suas versões de instância, tanto para o console do cliente quanto para a Interface do Usuário da Web. Esta nova seção também lista todos os pacotes incorporados instalados no ambiente. [Saiba mais](../get-started/user-interface.md#user-interface-about)
 
 * **Listas** - Agora é possível reordenar facilmente os valores de uma lista. [Saiba mais](../get-started/work-with-folders.md)
+
+* **Entrega** - A variável Entrega agora pode ser acessada em campos de personalização. [Saiba mais](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
