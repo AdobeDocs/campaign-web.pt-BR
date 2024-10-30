@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 18%
+source-wordcount: '1018'
+ht-degree: 17%
 
 ---
 
@@ -47,6 +47,17 @@ Esse painel mostra todos os modelos de conteúdo disponíveis como uma lista. Vo
 
 Na lista, você pode editar, duplicar ou excluir modelos de conteúdo existentes. Use o botão na seção superior para criar um template de conteúdo.
 
+### Modelo de conteúdo no modo somente leitura {#template-readonly}
+
+Os direitos de acesso podem ser aplicados a modelos de conteúdo.
+
+Se você não tiver permissões de edição para um modelo de conteúdo específico, ele será exibido no **modo somente leitura**. Nesse caso, o botão **[!UICONTROL Editar conteúdo]** é substituído pelo botão **[!UICONTROL Exibir conteúdo]**, permitindo que você exiba o modelo sem fazer alterações.
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+Como mostrado abaixo, todos os ícones de recursos são desativados, limitando a interação somente para visualização.
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## Criar modelos de conteúdo {#create-content-templates}
 

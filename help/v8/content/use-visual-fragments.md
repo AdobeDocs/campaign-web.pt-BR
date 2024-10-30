@@ -4,10 +4,10 @@ title: Adicionar fragmentos visuais aos emails
 description: Saiba como adicionar fragmentos visuais aos emails
 badge: label="Disponibilidade limitada"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 18%
 
 ---
 
@@ -68,6 +68,18 @@ Para inserir um fragmento visual em um conteúdo de email, siga as etapas abaixo
    Você também pode excluir o fragmento do seu conteúdo ou duplicá-lo. Essas ações podem ser executadas diretamente no menu contextual exibido na parte superior do fragmento.
 
 1. Adicione quantos fragmentos visuais desejar e **[!UICONTROL Salve]** suas alterações.
+
+### Fragmento visual no modo somente leitura {#fragment-readonly}
+
+Os direitos de acesso podem ser aplicados a fragmentos visuais.
+
+Se você não tiver permissões de edição para um fragmento visual específico, o modelo de conteúdo será exibido no **modo somente leitura**. Nesse caso, o botão **[!UICONTROL Editar conteúdo]** é substituído pelo botão **[!UICONTROL Exibir conteúdo]**, permitindo que você visualize o fragmento sem fazer alterações.
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+Como mostrado abaixo, todos os ícones de recursos são desativados, limitando a interação somente para visualização.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Interromper herança {#break-inheritance}
 
