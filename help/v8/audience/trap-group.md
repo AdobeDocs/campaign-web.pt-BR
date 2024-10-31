@@ -3,20 +3,14 @@ audience: end-user
 title: Usar um grupo de cobertura
 description: Saiba como usar um grupo de cobertura para a entrega na interface do usuário da Web do Campaign
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 17%
+source-wordcount: '397'
+ht-degree: 10%
 
 ---
 
 # Usar um grupo de cobertura {#trap-group}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Grupo de interceptação"
->abstract="Você pode usar um grupo de cobertura para incluir endereços específicos nas suas entregas a fim de monitorar e verificar o processo de distribuição ao direcionar perfis que não correspondem aos critérios de direcionamento definidos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 Um **[!UICONTROL grupo de interceptação]** (também conhecido como **[!UICONTROL lista de propagação]**) é usado para incluir endereços específicos em suas entregas para monitorar e verificar o processo de distribuição ao direcionar perfis que não correspondem aos critérios de destino definidos. Dessa forma, os destinatários que estiverem fora do escopo de entrega podem recebê-lo, como qualquer outro destinatário target receberia.
 
