@@ -5,7 +5,7 @@ description: Saiba como criar uma mensagem transacional na interface da Web do C
 source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ Para criar um template de mensagem transacional, siga as etapas abaixo:
 
   ![](assets/transactional-template-configuration.png){zoomable="yes"}
 
-### Propriedades da mensagem transacional {#transactional-properties}
+### Propriedades de mensagem transacional {#transactional-properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
@@ -46,7 +46,7 @@ Para criar um template de mensagem transacional, siga as etapas abaixo:
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
 >title="Propriedades de email de mensagens transacionais"
->abstract="Preencha este formulário para configurar as propriedades do email de mensagens transacionais"
+>abstract="Preencha este formulário para configurar as propriedades de email de mensagens transacionais"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
@@ -56,7 +56,7 @@ Para criar um template de mensagem transacional, siga as etapas abaixo:
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
 >title="Propriedades de push de mensagens transacionais"
->abstract="Preencha este formulário para configurar as propriedades de push das mensagens transacionais"
+>abstract="Preencha este formulário para configurar as propriedades de push de mensagens transacionais"
 
 A seção **[!UICONTROL Propriedades]** de uma mensagem transacional ajudará você a configurar:
 
@@ -74,10 +74,10 @@ A seção **[!UICONTROL Propriedades]** de uma mensagem transacional ajudará vo
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="Aplicativo móvel de mensagens transacionais"
->abstract="Nesta seção, você pode selecionar o aplicativo para o qual deseja enviar a mensagem."
+>title="Aplicativo móvel para mensagens transacionais"
+>abstract="Nesta seção, você pode selecionar o aplicativo para o qual deseja enviar sua mensagem."
 
-Nesta seção, você pode selecionar o aplicativo para o qual deseja enviar a mensagem.
+Nesta seção, você pode selecionar o aplicativo para o qual deseja enviar sua mensagem.
 
 Ao clicar no ícone de pesquisa, você acessa o aplicativo móvel listado na instância do Adobe Campaign.
 
@@ -87,12 +87,12 @@ Ao clicar no ícone de pesquisa, você acessa o aplicativo móvel listado na ins
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
->title="Contexto de mensagem transacional"
+>title="Contexto de mensagens transacionais"
 >abstract="A amostra de contexto permite criar um evento de teste para visualizar a mensagem transacional recebida com a personalização do perfil."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="Contexto de mensagem transacional"
+>title="Contexto de mensagens transacionais"
 >abstract="A amostra de contexto permite criar um evento de teste para visualizar a mensagem transacional recebida com a personalização do perfil. "
 
 A amostra de contexto permite criar um evento de teste para visualizar a mensagem transacional recebida com a personalização do perfil.
@@ -105,7 +105,7 @@ O conteúdo do contexto depende da personalização necessária.
 
 ![](assets/transactional-context.png){zoomable="yes"}
 
-### Conteúdo do template de mensagem transacional {#transactional-content}
+### Conteúdo de modelo de mensagem transacional {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
@@ -177,10 +177,10 @@ Os acionadores agora podem enviar por push a sua mensagem transacional.
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="Evento de mensagem transacional"
->abstract="A configuração do tipo de evento vincula a mensagem ao evento do acionador."
+>title="Evento de mensagens transacionais"
+>abstract="A configuração do tipo de evento vincula a mensagem ao evento acionador."
 
-A configuração do tipo de evento vincula a mensagem ao evento do acionador.
+A configuração do tipo de evento vincula a mensagem ao evento acionador.
 
 Na interface do usuário da Web do Campaign, você pode selecionar um tipo de evento já criado ou criar diretamente seu tipo de evento nesta página de configuração.
 

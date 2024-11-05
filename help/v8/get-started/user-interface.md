@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -50,12 +50,12 @@ Você também pode acessar as principais páginas de ajuda do Adobe Campaign Web
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
 >title="Sobre a instância"
->abstract="A seção Instância fornece informações importantes sobre o cliente do console, incluindo a versão e o número de build associado"
+>abstract="A seção Instância fornece informações importantes sobre o cliente de console, incluindo a versão e o número de build associado"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
 >title="Sobre a Web"
->abstract="A seção Web exibe a versão da interface da Web do Campaign, com a data da última atualização, se disponível."
+>abstract="A seção Web exibe a versão da interface do Campaign Web, com a data da última atualização, se disponível."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"

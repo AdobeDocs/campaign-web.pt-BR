@@ -5,7 +5,7 @@ description: Saiba como monitorar uma mensagem transacional na interface da Web 
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -41,12 +41,12 @@ Você pode ver os detalhes lá.
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Histórico de eventos de mensagens transacionais"
->abstract="Você pode ter uma visualização dos eventos que acionam a mensagem transacional."
+>abstract="Você pode exibir os eventos que acionaram sua mensagem transacional."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="Pré-visualização do histórico de eventos de mensagens transacionais"
->abstract="Você pode ter uma visualização dos eventos que acionam a mensagem transacional."
+>title="Visualização do histórico de eventos de mensagens transacionais"
+>abstract="Você pode exibir os eventos que acionaram sua mensagem transacional."
 
 Você também pode ter uma visualização dos eventos que acionam a mensagem transacional.
 Para vê-los, acesse a seção **[!UICONTROL Histórico de eventos]**.

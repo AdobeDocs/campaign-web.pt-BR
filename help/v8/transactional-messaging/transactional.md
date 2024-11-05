@@ -5,7 +5,7 @@ description: Sobre mensagens transacionais com o Adobe Campaign Web
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="Mensagens transacionais"
->abstract="As mensagens transacionais são um módulo especializado no Adobe Campaign criado para lidar com mensagens acionadas."
+>abstract="Mensagens transacionais são um módulo especializado no Adobe Campaign desenvolvido para lidar com mensagens acionadas."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"

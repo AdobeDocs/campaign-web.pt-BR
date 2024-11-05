@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -141,7 +141,7 @@ O exemplo abaixo mostra um fluxo de trabalho configurado para criar um link entr
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="Apresentação da oferta"
->abstract="A atividade Enrichment permite adicionar ofertas a cada perfil."
+>abstract="A atividade Enriquecimento permite adicionar ofertas para cada perfil."
 
 A atividade **[!UICONTROL Enrichment]** permite adicionar ofertas para cada perfil.
 
