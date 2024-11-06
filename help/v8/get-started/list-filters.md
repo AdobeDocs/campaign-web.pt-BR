@@ -4,9 +4,9 @@ title: Procurar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ As listas são exibidas em colunas. É possível exibir informações adicionais
 
 Na tela **Configurar colunas**, adicione ou remova colunas e altere a ordem na qual elas são exibidas.
 
-Você pode alterar a ordem da sua lista **arrastando e soltando** ou usando as **setas para cima e para baixo** conforme mostrado abaixo:
+Você pode alterar a ordem da lista ao **arrastar e soltar** ou com as **setas para cima e para baixo** conforme mostrado abaixo:
 
 ![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 

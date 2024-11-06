@@ -4,9 +4,9 @@ description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

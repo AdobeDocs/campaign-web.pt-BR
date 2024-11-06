@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 42%
 
 As versões da interface do usuário do Adobe Campaign Web operam em um modelo de entrega contínua que permite uma abordagem à implantação de recursos mais dimensionável e em fases. Devido a isso, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
-As alterações e aprimoramentos disponíveis nas versões anteriores estão listadas [nesta página](release-notes-24.md).
+As alterações e as melhorias disponíveis nas versões anteriores estão listadas [nesta página](release-notes-24.md).
 
 ## Versão de outubro de 2024 {#24-10-release}
 
 **Data de lançamento**: 29 de outubro de 2024
 
-Os seguintes recursos e melhorias estarão disponíveis a partir da versão de outubro.
+Os seguintes recursos e melhorias estão disponíveis a partir da versão de outubro.
 
 ### Recursos
 
@@ -37,7 +37,7 @@ Os seguintes recursos e melhorias estarão disponíveis a partir da versão de o
 <tbody>
 <tr>
 <td>
-<p>Agora é possível configurar e gerenciar contas externas diretamente por meio da interface da Web do Adobe Campaign. Esse novo recurso facilita a configuração de diferentes tipos de contas externas, como emails de devolução (POP3) ou instâncias de execução.</p>
+<p>Agora é possível configurar e gerenciar contas externas diretamente na interface do Adobe Campaign Web. Esse novo recurso facilita a configuração de diferentes tipos de contas externas, como emails de rejeição (POP3) ou instâncias de execução.</p>
 <p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -54,7 +54,7 @@ Os seguintes recursos e melhorias estarão disponíveis a partir da versão de o
 <tbody>
 <tr>
 <td>
-<p>As mensagens transacionais (Centro de mensagens) agora estão disponíveis na interface da Web do Campaign. Este complemento foi projetado para acionar mensagens geradas por eventos acionados por sistemas de informações e pode ser: fatura, confirmação de pedido, confirmação de remessa, alteração de senha, notificação de indisponibilidade de produto, extrato de conta, criação de conta de site etc.</p>
+<p>As mensagens transacionais (Centro de mensagens) agora estão disponíveis na interface do Campaign Web. Este complemento foi desenvolvido para Acionar mensagens geradas de eventos disparados por sistemas de informação, podendo ser: fatura, confirmação de pedido, confirmação de envio, alteração de senha, notificação de indisponibilidade de produto, extrato de conta, criação de conta em site etc.</p>
 <p>Para obter mais informações, consulte a <a href="../transactional-messaging/transactional.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -79,17 +79,17 @@ Os seguintes recursos e melhorias estarão disponíveis a partir da versão de o
 
 ### Melhorias
 
-* **Atividades do fluxo de trabalho** - Agora é possível mover uma atividade e todos os seus nós filhos de uma transição para outra dentro de um fluxo de trabalho. Um botão **Mover** dedicado está disponível no painel de propriedades da atividade para realizar isso. [Saiba mais](../workflows/orchestrate-activities.md#move)
+* **Atividades do fluxo de trabalho**: agora é possível mover uma atividade e todos os seus nós secundários de uma transição para outra dentro de um fluxo de trabalho. Um botão **Mover** dedicado está disponível no painel de propriedades da atividade para realizar isso. [Saiba mais](../workflows/orchestrate-activities.md#move)
 
-* **Atividade de enriquecimento do fluxo de trabalho**
+* **Atividade de enriquecimento de fluxo de trabalho**
 
-   * Agora você pode definir um Alias e um Label ao criar um novo campo na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md#collection-settings)
+   * Agora é possível definir um alias e um rótulo ao criar um novo campo na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md#collection-settings)
    * Agora você pode adicionar ofertas para cada perfil na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md##add-offers)
 
 * **Distribuição de valores**: ao acessar a lista de campos para personalização, agora é possível verificar como os valores estão distribuídos para cada campo. Uma janela pop-up exclusiva mostra o número e a porcentagem para cada valor. [Saiba mais](../query/build-query.md#distribution-values-query)
 
-* **Informações de versão e sistema** - Agora você pode acessar detalhes sobre suas versões de instância, tanto para o console do cliente quanto para a Interface do Usuário da Web. Esta nova seção também lista todos os pacotes incorporados instalados no ambiente. [Saiba mais](../get-started/user-interface.md#user-interface-about)
+* **Informações de versão e sistema**: agora você pode acessar detalhes das versões da sua instância, tanto para o console do cliente quanto para a Interface da Web. Esta nova seção também lista todos os pacotes integrados instalados no seu ambiente. [Saiba mais](../get-started/user-interface.md#user-interface-about)
 
-* **Listas** - Agora é possível reordenar facilmente os valores de uma lista. [Saiba mais](../get-started/work-with-folders.md)
+* **Listas**: agora é possível reordenar facilmente os valores de uma lista. [Saiba mais](../get-started/work-with-folders.md)
 
-* **Entrega** - A variável Entrega agora pode ser acessada em campos de personalização. [Saiba mais](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* **Entrega**: a variável Entrega agora pode ser acessada em campos de personalização. [Saiba mais](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)

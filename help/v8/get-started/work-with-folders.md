@@ -4,9 +4,9 @@ title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ No menu **[!UICONTROL ...]**, há a opção **[!UICONTROL Criar nova pasta]**
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Ao criar uma nova pasta, por padrão, o tipo de pasta é o tipo da pasta principal. No nosso exemplo, criamos uma pasta na pasta **[!UICONTROL Entregas]**.
+Ao criar uma nova pasta, por padrão, o tipo de pasta é o mesmo da pasta principal. No nosso exemplo, criamos uma pasta na pasta **[!UICONTROL Entregas]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -70,13 +70,13 @@ Também é possível [criar e gerenciar pastas no console do Adobe Campaign](htt
 
 ## Reordenar pastas {#reorder-folders}
 
-Você pode reordenar as pastas de acordo com suas necessidades. Para fazer isso, clique em **[!UICONTROL Reordenar pastas]**, conforme mostrado abaixo.
+Você pode reordenar as pastas de acordo com as suas necessidades. Para fazer isso, clique em **[!UICONTROL Reordenar pastas]**, conforme mostrado abaixo.
 
-No nosso exemplo, a pasta **Deliveries** contém 4 pastas.
+No nosso exemplo, a pasta **Entregas** contém 4 pastas.
 
 ![](assets/folder-reorder.png){zoomable="yes"}
 
-Você pode alterar a ordem das suas pastas **arrastando e soltando** ou usando **setas para cima e para baixo**.
+Você pode alterar a ordem das pastas ao **arrastar e soltar** ou com as **setas para cima e para baixo**.
 
 ![](assets/folder-draganddrop.png){zoomable="yes"}
 
@@ -124,8 +124,8 @@ Também é possível ver a distribuição de valores em um modelador de consulta
 
 ### Filtrar os valores {#filter-values}
 
-Ao usar os **[!UICONTROL Filtros avançados]** na janela de distribuição de valores, você pode filtrar seus resultados com base em condições especificadas.
+Ao usar os **[!UICONTROL Filtros avançados]** na janela de distribuição de valores, você pode filtrar os resultados com base em condições especificadas.
 
-No exemplo da lista de entrega acima, que mostra a distribuição por canal, você pode, por exemplo, filtrá-la para exibir apenas as entregas cujo status é **Concluído**.
+No exemplo da lista de entrega acima, que mostra a distribuição por canal, você pode, por exemplo, filtrá-la para exibir apenas as entregas com o status **Concluído**.
 
 ![](assets/values_filter.png){zoomable="yes"}

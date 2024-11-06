@@ -4,9 +4,9 @@ title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -39,17 +39,17 @@ A lista **Recentes** fornece atalhos para as entregas criadas e modificadas rece
 
 Você também pode acessar as principais páginas de ajuda do Adobe Campaign Web na seção **Aprendizado** da página.
 
-### Sobre o link {#user-interface-about}
+### Link Sobre {#user-interface-about}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="Sobre a página"
+>title="Página Sobre"
 >abstract="A página Sobre fornece detalhes sobre a instância do Adobe Campaign"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Sobre a instância"
+>title="Sobre a Instância "
 >abstract="A seção Instância fornece informações importantes sobre o cliente de console, incluindo a versão e o número de build associado"
 
 >[!CONTEXTUALHELP]
@@ -62,20 +62,20 @@ Você também pode acessar as principais páginas de ajuda do Adobe Campaign Web
 >title="Sobre pacotes instalados"
 >abstract="A seção Pacotes instalados lista todos os módulos, recursos e integrações presentes na instância."
 
-Na parte inferior da página, o link **[!UICONTROL Sobre]** fornece detalhes sobre a instância do Adobe Campaign. essas informações estão no modo somente leitura.
+Na parte inferior da página, o link **[!UICONTROL Sobre]** fornece detalhes sobre a instância do Adobe Campaign. essas informações estão no modo de somente leitura.
 
 ![](assets/about-link.png){zoomable="yes"}
 
-A seção **Instância** fornece informações importantes sobre o cliente do console, incluindo a **versão** e o número de **compilação** associado.
+A seção **Instância** fornece informações importantes sobre o cliente de console, incluindo a **versão** e o número de **build** associado.
 
 * A **versão** se refere à versão oficial que você está usando,
-* A **compilação** faz referência a uma iteração específica dessa versão.
+* A **build** se refere a uma iteração específica dessa versão.
 
 Os números de versão e de build são cruciais para a solução de problemas, pois ajudam a determinar exatamente quais recursos e correções estão presentes em seu ambiente.
 
-A seção **Web** exibe a versão da interface da Web do Campaign, com a data da última atualização, se disponível. Isso ajuda a rastrear alterações ou melhorias feitas na interface da Web do Campaign.
+A seção **Web** exibe a versão da interface do Campaign Web, com a data da última atualização, se disponível. Isso ajuda a rastrear alterações ou melhorias feitas na interface do Campaign Web.
 
-A seção **Pacotes instalados** lista todos os módulos, recursos e integrações presentes na sua instância. Esses pacotes ampliam a funcionalidade da Adobe Campaign, permitindo que ela execute tarefas especializadas, como integrar com outras soluções de Adobe ou ativar workflows específicos. Dado o grande número de pacotes, você pode fazer uma pesquisa nesta seção para verificar rapidamente se um módulo específico está instalado em sua instância.
+A seção **Pacotes instalados** lista todos os módulos, recursos e integrações presentes na sua instância. Esses pacotes estendem a funcionalidade do Adobe Campaign, permitindo que ele execute tarefas especializadas, como a integração com outras soluções da Adobe ou a ativação de fluxos de trabalho específicos. Dado o grande número de pacotes, você pode fazer uma pesquisa nesta seção para verificar rapidamente se um módulo específico está instalado em sua instância.
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -155,13 +155,13 @@ Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.
 ### Administração {#left-nav-admin}
 
 
-* **Trilha de auditoria** - A entrada **Trilha de auditoria** fornece aos usuários total visibilidade de todas as modificações feitas em entidades importantes na sua instância, normalmente aquelas que afetam significativamente uma operação suave da instância. [Saiba mais](../reporting/audit-trail.md)
+* **Trilha de auditoria**: o registro **Trilha de auditoria** fornece visibilidade total de todas as modificações feitas em entidades importantes dentro da sua instância, normalmente aquelas que afetam bastante a operação da instância. [Saiba mais](../reporting/audit-trail.md)
 
-* **Contas externas** - Crie novas contas externas usando a Interface de Usuário da Web para atender às suas necessidades específicas e garantir transferências de dados sem interrupção. [Saiba mais](../administration/external-account.md)
+* **Contas externas**: crie novas contas externas usando a Interface da Web para atender às suas necessidades específicas e garantir transferências de dados perfeitas. [Saiba mais](../administration/external-account.md)
 
-* **Esquemas** - Os campos personalizados são atributos adicionais adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. [Saiba mais](../administration/custom-fields.md)
+* **Esquemas**: campos personalizados são outros atributos adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. [Saiba mais](../administration/custom-fields.md)
 
-* **Alertas de Entrega** - O Alertas de Entrega é um sistema de gerenciamento de alertas que permite a grupos de usuários receber automaticamente notificações por email com informações sobre suas execuções de entrega. [Saiba mais](../msg/delivery-alerting.md)
+* **Alertas de entrega**: é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email com informações sobre suas execuções de entrega. [Saiba mais](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
