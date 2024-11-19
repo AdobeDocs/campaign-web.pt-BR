@@ -3,10 +3,10 @@ audience: end-user
 title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: ht
-source-wordcount: '2075'
-ht-degree: 100%
+source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
+workflow-type: tm+mt
+source-wordcount: '2086'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 * **Calendário de marketing**. O calendário da campanha mostra todos os programas, planos, campanhas e entregas em uma linha do tempo global. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=pt-BR#campaign-calendar){target="_blank"}
 * **Programas e planos**. Cada campanha faz parte de um programa que, por sua vez, pertence a um plano. Na interface do Campaign Web, todas as campanhas são associadas por padrão a um plano e programa incorporados. Você só pode criar e gerenciar planos e programas no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=pt-BR#work-with-plan-and-program){target="_blank"}
 * **Gerenciamento de provedores, orçamento e custos**. Você pode configurar provedores de serviços envolvidos nos processos realizadas em suas campanhas, incluindo estruturas de custo, o que permite gerenciar seus orçamentos em cada programa e campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=pt-BR){target="_blank"}
-* **Marketing distribuído** (marketing central e local) O Adobe Campaign oferece um aplicativo de marketing distribuído para a implementação de campanhas cooperativas entre entidades centrais (sede, departamentos de marketing etc.) e entidades locais (pontos de vendas, agências regionais etc.). Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=pt-BR){target="_blank"}
+* **Marketing distribuído** (marketing central e local) O Adobe Campaign oferece um aplicativo de Marketing distribuído para implementar campanhas cooperativas entre entidades centrais (sede, departamentos de marketing etc.) e entidades locais (pontos de vendas, agências regionais etc.). Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=pt-BR){target="_blank"}
 * **Gerenciamento de recursos de marketing** (MRM), metas, simulações e controle de custos. O Adobe Campaign oferece um aplicativo de gerenciamento de recursos de marketing (MRM) que permite controlar ações de marketing de maneira colaborativa, fornecendo gerenciamento completo e rastreamento em tempo real das tarefas, orçamentos e recursos de marketing envolvidos. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=pt-BR){target="_blank"}
 * **Gerenciamento de tarefas**. Como parte do aplicativo MRM, as tarefas do Campaign podem ser criadas, atribuídas, rastreadas e monitoradas no painel da campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=pt-BR){target="_blank"}
 
@@ -176,6 +176,11 @@ O Gerenciamento de dados combina um conjunto de atividades para resolver problem
 A configuração do Campaign e a conexão com sistemas externos são restritas a usuários avançados e só estão disponíveis no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=pt-BR){target="_blank"}
 
 ## Aprovações {#approvals-capabilities}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_approval"
+>title="Gerenciamento de aprovações"
+>abstract="O gerenciamento de aprovações está disponível somente no console do cliente. "
 
 A interface do Campaign Web não permite o gerenciamento de aprovações de conteúdo, entregas, fluxos de trabalho, campanhas e públicos-alvo. Só estão disponíveis no console do cliente.
 
