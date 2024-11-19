@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: ht
-source-wordcount: '2011'
-ht-degree: 100%
+source-git-commit: e0954fa620d336c2e450638780f1f2fe673249f2
+workflow-type: tm+mt
+source-wordcount: '2023'
+ht-degree: 99%
 
 ---
 
@@ -361,14 +361,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Script de inicialização de execução"
 >abstract="Script de inicialização de execução"
 
-<!-- IDs -->
+<!-- Schema edit custom fields -->
 
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Editar atributos personalizados"
->abstract="Editar atributos personalizados"
+>title="Editar detalhe personalizado"
+>abstract="Editar detalhe personalizado"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="Propriedades do separador"
+>abstract="Propriedades do separador"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="Configurações do atributo"
+>abstract="Configurações do atributo"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="Geral"
+>abstract="Geral"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="Layout"
+>abstract="Layout"
 
 
 <!--Schema-->
