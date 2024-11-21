@@ -2,10 +2,11 @@
 audience: end-user
 title: Mensagens transacionais
 description: Sobre mensagens transacionais com o Adobe Campaign Web
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 9%
+ht-degree: 24%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Mensagens transacionais"
->abstract="As mensagens transacionais são um módulo especializado no Adobe Campaign criado para lidar com mensagens acionadas. Essas mensagens são geradas automaticamente em resposta a eventos provenientes de sistemas de informações."
+>abstract="Mensagens transacionais são um módulo especializado no Adobe Campaign desenvolvido para lidar com mensagens acionadas. Essas mensagens são geradas automaticamente em resposta a eventos provenientes de sistemas de informação."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 <!-- >>[!CONTEXTUALHELP]
@@ -27,7 +28,7 @@ ht-degree: 9%
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
 
-As mensagens transacionais são um módulo especializado no Adobe Campaign criado para lidar com mensagens acionadas. Essas mensagens são geradas automaticamente em resposta a eventos provenientes de sistemas de informações. Exemplos comuns de tais eventos incluem clicar em botões ou links, abandono de carrinho, solicitação de alertas de disponibilidade de produto, criação ou modificação de conta etc.
+Mensagens transacionais são um módulo especializado no Adobe Campaign desenvolvido para lidar com mensagens acionadas. Essas mensagens são geradas automaticamente em resposta a eventos provenientes de sistemas de informações. Exemplos comuns de tais eventos incluem clicar em botões ou links, abandono de carrinho, solicitação de alertas de disponibilidade de produto, criação ou modificação de conta etc.
 
 As mensagens transacionais são usadas para enviar:
 

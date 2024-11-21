@@ -1,10 +1,11 @@
 ---
 title: Conta externa
 description: Saiba como configurar contas externas
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 21%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Contas externas"
->abstract="Agora você pode se conectar a plataformas adicionais ou personalizar as conexões para se adequar ao seu fluxo de trabalho e criar facilmente novas contas externas para atender às suas necessidades específicas e garantir transferências de dados perfeitas."
+>abstract="Agora é possível se conectar a plataformas adicionais ou personalizar as conexões para se adequar ao seu fluxo de trabalho, bem como criar facilmente novas contas externas para suprir as suas necessidades específicas e garantir transferências de dados sem obstáculos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
