@@ -3,9 +3,9 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1629'
 ht-degree: 28%
 
 ---
@@ -23,11 +23,15 @@ A [!DNL Adobe Campaign] vem com quatro modelos para gerenciar os seguintes casos
 
 ## Acessar páginas de destino {#access-landing-pages}
 
-Para acessar a lista de páginas de aterrissagem, selecione **[!UICONTROL Gerenciamento de campanha]** > **[!UICONTROL Páginas de aterrissagem]** no menu esquerdo.
+Para acessar a lista de páginas de aterrissagem, selecione **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Páginas de aterrissagem]** no menu esquerdo.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-O inventário de **[!UICONTROL Páginas de aterrissagem]** exibe todos os itens criados. Você pode filtrá-los usando o botão **[!UICONTROL Mostrar filtros]**. Você pode restringir os resultados a uma [pasta](../get-started/permissions.md#folders) específica usando a lista suspensa ou adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
+O inventário de **[!UICONTROL Páginas de aterrissagem]** exibe todos os itens criados. Você pode filtrá-los usando o botão **[!UICONTROL Mostrar filtros]**.
+
+* Você pode filtrar pelos itens criados ou modificados.
+
+* Você pode restringir os resultados a uma [pasta](../get-started/permissions.md#folders) específica usando a lista suspensa ou adicionar regras usando o [modelador de consultas](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 

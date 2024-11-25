@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 33%
 
 ---
@@ -29,7 +29,7 @@ Vários serviços podem ser definidos em paralelo, por exemplo: boletins informa
 
 Para acessar os serviços de assinatura disponíveis para sua plataforma, siga as etapas abaixo.
 
-1. Navegue até o menu **[!UICONTROL Serviços de assinatura]** no painel de navegação esquerdo.
+1. Navegue até o menu **[!UICONTROL Serviços de assinatura]** no painel de navegação esquerdo, em **[!UICONTROL Gerenciamento de clientes]**.
 
    ![](assets/service-list.png){zoomable="yes"}
 
