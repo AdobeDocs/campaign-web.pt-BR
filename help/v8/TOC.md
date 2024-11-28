@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 98%
+source-wordcount: '773'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 98%
       + [Geração de email com IA](email/generative-content.md)
       + [Geração de SMS com IA](email/generative-sms.md)
       + [Geração de notificação por push com IA](email/generative-push.md)
+      + [Casos de uso do assistente de IA](email/generative-uc.md)
 + Página de destino {#landing-pages}
    + [Introdução às páginas de destino](landing-pages/get-started-lp.md)
    + [Crie e publique uma página de destino](landing-pages/create-lp.md)
