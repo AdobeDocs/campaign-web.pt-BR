@@ -180,7 +180,7 @@ A configuração do Campaign e a conexão com sistemas externos são restritas a
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_approval"
 >title="Gerenciamento de aprovações"
->abstract="O gerenciamento de aprovações está disponível somente no console do cliente. "
+>abstract="O Gerenciamento de aprovações só está disponível a partir do console do cliente.  "
 
 A interface do Campaign Web não permite o gerenciamento de aprovações de conteúdo, entregas, fluxos de trabalho, campanhas e públicos-alvo. Só estão disponíveis no console do cliente.
 
