@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: Interface do Adobe Campaign Web
 user-guide-description: Documentação do produto da interface do Adobe Campaign Web.
-title: Documentação do Adobe Campaign Web
+title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 97%
    + Mensagens transacionais {#transactional-messages}
       + [Introdução a mensagens transacionais](transactional-messaging/transactional.md)
       + [Criar uma mensagem transacional](transactional-messaging/create-transactional.md)
-      + [Validar a mensagem transacional](transactional-messaging/validate-transactional.md)
+      + [Validar sua mensagem transacional](transactional-messaging/validate-transactional.md)
       + [Monitorar mensagens transacionais](transactional-messaging/monitor-transactional.md)
    + [Adicionar ofertas às suas mensagens](msg/offers.md)
    + [Enviar mensagens a assinantes](msg/send-to-subscribers.md)
@@ -113,12 +113,12 @@ ht-degree: 97%
          + [Ajustar o alinhamento vertical e o preenchimento](email/alignment-and-padding.md)
          + [Definir o estilo dos links](email/styling-links.md)
          + [Adicionar atributos de estilo em linha](email/inline-styling.md)
-   + Acelerador de Conteúdo do Assistente de IA {#ai-assistant}
+   + Acelerador de conteúdo do Assistente de IA {#ai-assistant}
       + [Trabalho com o acelerador de conteúdo do Assistente de IA](email/generative-gs.md)
       + [Geração de email com IA](email/generative-content.md)
       + [Geração de SMS com IA](email/generative-sms.md)
       + [Geração de notificação por push com IA](email/generative-push.md)
-      + [Casos de uso do assistente de IA](email/generative-uc.md)
+      + [Casos de uso do Assistente de IA](email/generative-uc.md)
 + Página de destino {#landing-pages}
    + [Introdução às páginas de destino](landing-pages/get-started-lp.md)
    + [Crie e publique uma página de destino](landing-pages/create-lp.md)
