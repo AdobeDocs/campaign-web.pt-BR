@@ -3,13 +3,13 @@ title: Introdução ao Adobe Campaign v8 para profissionais de marketing
 description: Descubra a principal funcionalidade do Campaign v8. Ele é para profissionais de marketing que migram do Campaign Standard para o Campaign v8.
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
 source-wordcount: '2453'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
-
 
 # Introdução para profissionais de marketing {#acs-gs-marketers}
 
@@ -182,7 +182,7 @@ Links úteis:
    * Saiba como [agendar uma entrega independente](../../v8/msg/gs-deliveries.md#gs-schedule)
    * Saiba como [agendar uma entrega em um fluxo de trabalho](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
-* **ADICIONAR ofertas** - Você pode adicionar ofertas às suas entregas na interface da Web do Adobe Campaign. Essas ofertas estão disponíveis no menu Offers à esquerda, que permite acessar a lista de ofertas.  Saiba como [adicionar ofertas às suas mensagens](../../v8/msg/offers.md)
+* **Adicionar ofertas** - Você pode adicionar ofertas às suas entregas na interface de usuário da Web do Adobe Campaign. Essas ofertas estão disponíveis no menu Offers à esquerda, que permite acessar a lista de ofertas.  Saiba como [adicionar ofertas às suas mensagens](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >
@@ -316,7 +316,7 @@ No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de 
 
 ### Correspondência direta {#acs-gs-marketers-direct-mail}
 
-A correspondência direta é um canal offline que permite produzir arquivos para entregar cartas personalizadas em massa aos clientes, como cartões-postais, panfletos ou catálogos. Ao criar um delivery de correspondência direta, o Adobe Campaign gera automaticamente um arquivo de extração contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil.
+A correspondência direta é um canal offline que permite produzir arquivos para entregar cartas personalizadas em massa aos clientes, como cartões-postais, panfletos ou catálogos. Ao criar uma entrega de correspondência direta, o Adobe Campaign gera automaticamente um arquivo de extração contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil.
 
 No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de correspondência direta são semelhantes ao Campaign Standard.
 
