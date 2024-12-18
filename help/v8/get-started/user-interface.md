@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
 workflow-type: tm+mt
 source-wordcount: '2058'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -454,23 +454,23 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
->title="Propriedades do Target Mapping"
->abstract="Propriedades do Target Mapping"
+>title="Propriedades do target mapping"
+>abstract="Propriedades do target mapping"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
->title="Target Mapping mapping"
->abstract="Target Mapping mapping"
+>title="Mapeamento do target mapping"
+>abstract="Mapeamento do target mapping"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
->title="Lista de bloqueios do Target Mapping"
->abstract="Lista de bloqueios do Target Mapping"
+>title="Lista de bloqueios do target mapping"
+>abstract="Lista de bloqueios do target mapping"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
->title="Armazenamento do Target Mapping"
->abstract="Armazenamento de negação do Target Mapping"
+>title="Armazenamento do target mapping"
+>abstract="Armazenamento de bloqueios do target mapping"
 
 
 
