@@ -517,5 +517,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
->title="Valores da lista discriminada"
->abstract="Valores da lista discriminada"
+>title="Lista de valores de enumeração"
+>abstract="Lista de valores de enumeração"
