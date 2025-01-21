@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução aos fragmentos de conteúdo
 description: Saiba como criar com fragmentos de conteúdo
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 61%
+source-wordcount: '433'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 61%
 >id="acw_fragments_menu"
 >title="Defina seus próprios fragmentos de conteúdo"
 >abstract="Um fragmento de conteúdo é um componente reutilizável que pode ser referenciado em uma ou mais mensagens em campanhas. Esse recurso é usado para pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para montar conteúdos rapidamente em um processo de design aprimorado. Existem dois tipos de fragmentos de conteúdo: fragmentos visuais, disponíveis no designer de email, e fragmentos de expressão no editor de expressão."
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="Adicionar fragmentos de expressão"
+>abstract="Fragmentos de expressão são blocos de conteúdo predefinidos que contêm uma renderização específica que pode ser inserida em seus deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Você também pode criar seus próprios fragmentos de expressão para atender às suas necessidades."
 
 ## O que são fragmentos de conteúdo? {#what}
 
