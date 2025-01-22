@@ -3,7 +3,7 @@ audience: end-user
 title: Sobre fluxos de trabalho de somente leitura
 description: Saiba por que os fluxos de trabalho estão no modo somente leitura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Alguns workflows podem estar no modo somente leitura. Você pode vê-lo com:
 
-- A menção **[!UICONTROL ** Somente leitura **]** próxima ao botão **[!UICONTROL Configurações]**
+- A menção **[!UICONTROL Somente leitura]** próxima ao botão **[!UICONTROL Configurações]**
 - Os botões de ação não estão acessíveis
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
