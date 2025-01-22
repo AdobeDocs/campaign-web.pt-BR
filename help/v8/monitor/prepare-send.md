@@ -3,9 +3,9 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '889'
 ht-degree: 38%
 
 ---
@@ -136,14 +136,14 @@ Se a sua entrega estiver agendada ou não<!--TBC-->, duas ações podem ser exec
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Métricas enviadas"
+>title="Enviado"
 >abstract="Número total de mensagens processadas durante a análise de entrega."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/reports/kpis" text="Entenda os KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Métricas de erros"
+>title="Erros"
 >abstract="Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/reports/kpis" text="Entenda os KPIs"
 
