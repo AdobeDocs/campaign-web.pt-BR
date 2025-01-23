@@ -3,10 +3,10 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
+source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 99%
+source-wordcount: '2136'
+ht-degree: 98%
 
 ---
 
@@ -535,7 +535,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="Afinidade de IP"
->abstract="Afinidade de IP"
+>abstract="O gerenciamento de afinidades com endereços IP permite melhor controle do tráfego SMTP de saída, associando diferentes endereços IP a cada tipo de tráfego, dependendo da tipologia de sua ação de delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
