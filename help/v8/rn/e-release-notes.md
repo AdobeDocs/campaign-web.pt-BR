@@ -4,10 +4,10 @@ description: Conheça os novos recursos incluídos na próxima versão da interf
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
+source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 32%
+source-wordcount: '514'
+ht-degree: 28%
 
 ---
 
@@ -67,7 +67,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <tr>
 <td>
 <p>Agora você pode criar tipologias e regras de tipologia na Interface do usuário da Web do Adobe Campaign. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. As tipologias validam se seus deliveries sempre contêm elementos obrigatórios (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).</p>
-<p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <tr>
 <td>
 <p>Agora é possível criar enumerações diretamente por meio da interface da Web do Adobe Campaign. Uma enumeração é uma lista de valores sugeridos pelo sistema para preencher campos. Use enumerações para padronizar os valores desses campos, ajuda com a entrada de dados ou uso em queries.</p>
-<p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <tr>
 <td>
 <p>Agora você pode acessar opções técnicas na Interface do usuário da Web da Adobe Campaign e criar suas próprias opções personalizadas para atender às suas necessidades. Isso é particularmente útil ao trabalhar com atividades de workflow de código JavaScript para armazenar dados intermediários.</p>
-<p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -116,7 +116,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <tr>
 <td>
 <p>Agora é possível criar códigos JavaScript na Interface do usuário da Web do Adobe Campaign. Isso permite criar funções reutilizáveis que podem ser usadas em fluxos de trabalho, de modo semelhante a uma biblioteca.</p>
-<p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
    * Agora é possível selecionar campos personalizados adicionais para exibir na interface
    * Agora é possível definir regras para exibir campos personalizados do tipo link, como restringir valores da lista com base na entrada de outro campo
    * Agora é possível organizar os campos na interface com mais flexibilidade: os campos podem se estender por uma única coluna ou ser agrupados em subseções para melhorar a organização
-   * Agora é possível definir campos específicos como somente leitura.
+   * Agora você pode definir campos específicos como somente leitura
 
 * Filtros Recentes e Favoritos: para reutilizar rapidamente atributos usados com frequência, agora é possível adicioná-los aos favoritos. Isso garante que eles estejam prontamente acessíveis para tarefas futuras. Além dos favoritos, você também pode visualizar e usar os atributos selecionados mais recentemente.
 
