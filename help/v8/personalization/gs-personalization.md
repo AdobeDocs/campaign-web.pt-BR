@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,8 @@ Você pode tornar o conteúdo da mensagem dinâmico inserindo construções Java
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
+➡️ [Descubra este recurso no vídeo](#video)
+
 ## Acesso ao editor de expressão {#access}
 
 O Adobe Campaign Web fornece um editor de expressão onde é possível selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para o seu conteúdo. O editor de expressão está disponível para todos os canais, em todos os campos com o ícone de **[!UICONTROL Abrir caixa de diálogo de personalização]**, como o campo da linha de assunto ou links de email e componentes de conteúdo de texto/botão.
@@ -60,3 +62,9 @@ Estes são alguns exemplos de como acessar o editor de expressão, dependendo do
 >[!NOTE]
 >
 >Além do editor de expressão, ao criar um email, você também pode aproveitar um construtor de conteúdo condicional dedicado. [Saiba como criar conteúdo condicional em emails](conditions.md)
+
+## Vídeo tutorial {#video}
+
+Saiba como tornar o conteúdo da mensagem dinâmico por meio do editor de expressão para personalizar a sua mensagem ou adicionar um conteúdo condicional.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
