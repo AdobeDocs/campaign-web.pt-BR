@@ -4,10 +4,10 @@ description: Conheça os novos recursos incluídos na próxima versão da interf
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 28%
+source-wordcount: '511'
+ht-degree: 18%
 
 ---
 
@@ -51,7 +51,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <tbody>
 <tr>
 <td>
-<p>Agora você pode definir Entregas externas e Modelos de entrega externos na interface da Web do Campaign. Nesse modo, as mensagens são geradas em um arquivo de entrada que pode ser compartilhado com o provedor externo. O modo de entrega externa é o modo padrão para o canal de correspondência direta.</p>
+<p>Agora você pode definir deliveries externos e templates de delivery externos na interface da Web do Campaign. Nesse modo, as mensagens são compiladas em um arquivo de entrada, que pode ser compartilhado com seu provedor externo. Por padrão, o modo de delivery externo é usado para o canal de mala direta.</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <table>
 <thead>
 <tr>
-<th><strong>Controlar e filtrar o envio de delivery com tipologias</strong><br/></th>
+<th><strong>Criar regras de negócios (regras de tipologia)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar tipologias e regras de tipologia na Interface do usuário da Web do Adobe Campaign. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. As tipologias validam se seus deliveries sempre contêm elementos obrigatórios (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do público-alvo desejado (como clientes que não assinam, concorrentes ou clientes não fidelizados).</p>
+<p>Agora você pode criar tipologias e regras de tipologia na interface da Web do Adobe Campaign. Uma tipologia é uma coleção de regras de tipologia que ajudam a controlar, filtrar e priorizar os deliveries. As tipologias garantem que seus deliveries sempre contenham os elementos necessários (como um link de cancelamento de inscrição ou linha de assunto) e apliquem regras de filtragem para excluir grupos específicos do público-alvo (como clientes que não assinam, concorrentes ou clientes não fidelizados).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
