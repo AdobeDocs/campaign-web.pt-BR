@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 20%
+source-wordcount: '2242'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,7 @@ Para acessar essa opção, em sua query, clique no botão de seleção de atribu
 >
 >* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesse caso, uma notificação **[!UICONTROL Partial load]** avisa você.
 >
->* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos.
+>* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos. [Saiba como selecionar atributos](../get-started/attributes.md)
 >* Você pode adicionar condições aos resultados usando os **[!Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adicionar componentes de filtragem {#filtering}
@@ -62,7 +62,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 1. Clique no botão **+** no nó desejado e selecione **[!UICONTROL Condição personalizada]**. O painel de propriedades de condição personalizada é aberto no lado direito.
 
-1. No campo **Atributo**, selecione o atributo do banco de dados que você deseja usar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos de tabelas vinculadas.
+1. No campo **Atributo**, selecione o atributo do banco de dados que você deseja usar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos de tabelas vinculadas. [Saiba como selecionar atributos e adicioná-los aos favoritos](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

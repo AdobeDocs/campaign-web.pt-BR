@@ -3,9 +3,9 @@ audience: end-user
 title: Criar um delivery de correspondência direta
 description: Saiba como projetar seu delivery de correspondência direta com o Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '573'
 ht-degree: 21%
 
 ---
@@ -59,7 +59,7 @@ Para criar o conteúdo do arquivo de extração gerado pela entrega de correspon
 Na seção **[!UICONTROL Conteúdo]**, especifique as colunas a serem exibidas no arquivo de extração. Para fazer isso, siga estes passos:
 
 1. Clique no botão **[!UICONTROL Adicionar atributo]** para criar uma nova coluna.
-1. Escolha o atributo a ser exibido na coluna e confirme. Observe que você pode aproveitar o editor de expressão para selecionar o atributo a ser usado clicando no botão **[!UICONTROL Editar expressão]**.
+1. Escolha o atributo a ser exibido na coluna e confirme. Observe que você pode aproveitar o editor de expressão para selecionar o atributo a ser usado clicando no botão **[!UICONTROL Editar expressão]**. [Saiba como selecionar atributos e adicioná-los aos favoritos](../get-started/attributes.md)
 
    ![](assets/dm-add-attribute.png)
 

@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Web;página inicial;tópicos populares
-description: Central de ajuda do Campaign Web
+description: 'Central de ajuda do Campaign Web '
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: ht
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -52,24 +52,24 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 >[!BEGINTABS]
 
 
->[!TAB Versão de outubro de 2024]
+>[!TAB Versão de janeiro de 2025]
 
-A versão de outubro está disponível, incluindo mensagens transacionais, contas externas e mais melhorias.
+A versão de janeiro está disponível, incluindo mensagens transacionais, contas externas e mais melhorias.
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB Acelerador de conteúdo do Assistente de IA]
 
 ✨ Mergulhe fundo em uma experiência prática com a visualização ao vivo do recurso [Acelerador de conteúdo do Assistente de IA](../v8/email/generative-gs.md), projetado para permitir que você explore seus recursos em primeira mão e entenda totalmente seus recursos.
 
-[![imagem](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Botão Saiba mais](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Distribuição de valores]
+>[!TAB Perguntas frequentes]
 
-Ao acessar a lista de campos para personalização, agora é possível verificar como os valores estão distribuídos para cada campo. 
+As perguntas frequentes sobre a interface da Web do Campaign estão listadas em uma nova página dedicada.
 
-[![imagem](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
+[![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]

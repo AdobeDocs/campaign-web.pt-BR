@@ -3,7 +3,7 @@ title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -87,13 +87,12 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
    * **[!UICONTROL Inscrever-se, se marcado]**: os usuários precisam marcar a caixa para consentir (aceitar).
    * **[!UICONTROL Cancelar inscrição se marcado]**: os usuários precisam marcar a caixa para remover seu consentimento (recusar).
 
-   Se você selecionar **[!UICONTROL Campo]**, selecione um campo na lista de atributos e escolha entre as duas opções abaixo:
+   Se você selecionar **[!UICONTROL Campo]**, selecione um campo na [lista de atributos](../get-started/attributes.md) e escolha entre as duas opções abaixo:
 
    * **[!UICONTROL Sim, se marcado]**.<!--TBC-->
-
    * **[!UICONTROL Não se marcado]**.<!--TBC-->
 
-1. É possível excluir e adicionar quantos campos (como campos de texto, botões de opção, caixas de seleção, lista suspensa etc.) conforme necessário.
+1. É possível excluir e adicionar quantos campos (como campos de texto, botões de opção, caixas de seleção, lista suspensa etc.) forem necessários.
 
 1. Depois que todos os campos forem adicionados ou atualizados, clique em **[!UICONTROL Chamada para ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**. [Saiba como](#define-actions-on-form-submission)
 
@@ -164,7 +163,7 @@ Para enviar automaticamente uma mensagem de confirmação após o envio de uma l
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Expanda e edite qualquer outra seção correspondente a outros campos que você possa ter adicionado (botão de opção, lista suspensa, data e hora etc.) ao seu formulário.
+1. Expanda e edite qualquer outra seção correspondente a outros campos que você tenha adicionado (botão de opção, lista suspensa, data e hora, etc.) ao seu formulário.
 
 1. Expanda a seção **[!UICONTROL Chamada para ação]** para modificar a aparência do botão no formulário do componente. Por exemplo, você pode alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
 

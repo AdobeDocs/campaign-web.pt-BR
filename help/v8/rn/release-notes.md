@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 85%
 
 ---
 
@@ -20,25 +20,95 @@ As versões da interface do usuário do Adobe Campaign Web operam em um modelo d
 
 As alterações e as melhorias disponíveis nas versões anteriores estão listadas [nesta página](release-notes-24.md).
 
-## Versão de outubro de 2024 {#24-10-release}
+## Versão de janeiro de 2025 {#25-1-release}
 
-**Data de lançamento**: 29 de outubro de 2024
+**Data de lançamento**: 5 de fevereiro de 2025
 
-Os seguintes recursos e melhorias estão disponíveis a partir da versão de outubro.
+Os seguintes recursos e melhorias estão disponíveis a partir da versão de janeiro.
 
-### Recursos
+### Recursos {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Contas externas</strong><br/></th>
+<th><strong>Criar e usar fragmentos visuais</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível configurar e gerenciar contas externas diretamente na interface do Adobe Campaign Web. Esse novo recurso facilita a configuração de diferentes tipos de contas externas, como emails de rejeição (POP3) ou instâncias de execução.</p>
-<p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
+<p>Fragmentos visuais são blocos visuais predefinidos que podem ser reutilizados em várias entregas de email ou em modelos de conteúdo. Esse recurso agora está disponível para todos os clientes que estão na build 8.6.4 do servidor e posteriores.</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>Para obter mais informações, consulte a <a href="../content/use-visual-fragments.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Usar um sistema de terceiros para entregas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora, é possível definir entregas externas e modelos de entrega externa na interface do Campaign Web. Nesse modo, as mensagens são compiladas em um arquivo de saída, que pode ser compartilhado com o provedor externo. Por padrão, o modo de entrega externa é usado no canal de correspondência direta.</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>Para obter mais informações, consulte a <a href="../msg/send-external-deliveries.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Criar regras de negócios (regras de tipologia)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível criar tipologias e regras de tipologia na interface do Adobe Campaign Web. Uma tipologia é uma coleção de regras de tipologia que ajudam a controlar, filtrar e priorizar entregas. As tipologias garantem que as entregas sempre contenham os elementos necessários (como um link de cancelamento de inscrição ou uma linha de assunto) e aplicam regras de filtragem para excluir grupos específicos do público-alvo (como clientes que cancelaram sua assinatura, concorrentes ou clientes não fidelizados).</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Gerenciar enumerações</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível criar enumerações diretamente por meio da interface do Adobe Campaign Web. Uma enumeração é uma lista de valores sugeridos pelo sistema para preencher campos. Enumerações permitem padronizar os valores desses campos, ajudam na entrada de dados ou podem ser usadas em consultas.</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Criar opções personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível acessar as opções técnicas na interface do Adobe Campaign Web e criar suas próprias opções personalizadas para atender às suas necessidades. Isso é particularmente útil ao trabalhar com atividades de fluxo de trabalho de código JavaScript para armazenar dados intermediários.</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -48,48 +118,49 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de out
 <table>
 <thead>
 <tr>
-<th><strong>Mensagens transacionais</strong><br/></th>
+<th><strong>Definir e chamar códigos JavaScript</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As mensagens transacionais (Centro de mensagens) agora estão disponíveis na interface do Campaign Web. Este complemento foi desenvolvido para Acionar mensagens geradas de eventos disparados por sistemas de informação, podendo ser: fatura, confirmação de pedido, confirmação de envio, alteração de senha, notificação de indisponibilidade de produto, extrato de conta, criação de conta em site etc.</p>
-<p>Para obter mais informações, consulte a <a href="../transactional-messaging/transactional.md">documentação detalhada</a>.</p>
+<p>Agora é possível criar códigos JavaScript na interface do Adobe Campaign Web. Isso permite criar funções reutilizáveis que podem ser usadas em fluxos de trabalho, de modo semelhante a uma biblioteca.</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>Geração de página de aterrissagem com o Acelerador de conteúdo do assistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>O Acelerador de conteúdo do Assistente de IA agora está disponível com os deliveries da página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos.</p>
+<p>Para obter mais informações sobre o Acelerador de Conteúdo do Assistente de IA, consulte a <a href="../email/generative-gs.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### Melhorias
 
-* **Atividades do fluxo de trabalho**: agora é possível mover uma atividade e todos os seus nós secundários de uma transição para outra dentro de um fluxo de trabalho. Um botão **Mover** dedicado está disponível no painel de propriedades da atividade para realizar isso. [Saiba mais](../workflows/orchestrate-activities.md#move)
 
-* **Atividade de enriquecimento de fluxo de trabalho**
+### Melhorias {#25-1-improvements}
 
-   * Agora é possível definir um alias e um rótulo ao criar um novo campo na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md#collection-settings)
-   * Agora você pode adicionar ofertas para cada perfil na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md##add-offers)
+* Personalize a exibição de campos personalizados na interface:
 
-* **Distribuição de valores**: ao acessar a lista de campos para personalização, agora é possível verificar como os valores estão distribuídos para cada campo. Uma janela pop-up exclusiva mostra o número e a porcentagem para cada valor. [Saiba mais](../query/build-query.md#distribution-values-query)
+   * Agora é possível selecionar campos personalizados adicionais para exibição na interface
+   * Agora é possível definir regras para exibir campos personalizados do tipo link, como restringir valores de lista com base na entrada de outro campo
+   * Agora é possível organizar os campos na interface com mais flexibilidade: os campos podem se estender por uma única coluna ou ser agrupados em subseções para melhorar a organização
+   * Agora você pode definir campos específicos como somente leitura
 
-* **Informações de versão e sistema**: agora você pode acessar detalhes das versões da sua instância, tanto para o console do cliente quanto para a Interface da Web. Esta nova seção também lista todos os pacotes integrados instalados no seu ambiente. [Saiba mais](../get-started/user-interface.md#user-interface-about)
+* Filtros Recentes e Favoritos: para reutilizar rapidamente atributos usados com frequência, agora é possível adicioná-los aos favoritos. Isso garante que eles estejam prontamente acessíveis para tarefas futuras. Além dos favoritos, é possível também visualizar e usar os atributos selecionados mais recentemente.
 
-* **Listas**: agora é possível reordenar facilmente os valores de uma lista. [Saiba mais](../get-started/work-with-folders.md)
-
-* **Entrega**: a variável Entrega agora pode ser acessada em campos de personalização. [Saiba mais](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* Contas externas: o novo tipo **[!UICONTROL Roteamento]** está disponível para seleção ao criar uma nova conta externa. Ele permite configurar uma conta externa específica para usar em seus deliveries externos. [Saiba mais](../administration/external-account.md#routing)

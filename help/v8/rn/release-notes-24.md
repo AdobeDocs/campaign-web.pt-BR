@@ -2,9 +2,9 @@
 title: Notas de versão anteriores da interface do usuário do Campaign v8 Web
 description: Versões de 2024 da interface do usuário do Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
-source-wordcount: '2206'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # Notas de versão de 2024 {#2024-release}
 
 Esta página lista todas as alterações e melhorias disponíveis com as **versões de 2024**. As notas de versão mais recentes estão disponíveis [nesta página](release-notes.md).
+
+
+## Versão de outubro de 2024 {#24-10-release}
+
+**Data de lançamento**: 29 de outubro de 2024
+
+Os seguintes recursos e melhorias estão disponíveis a partir da versão de outubro.
+
+### Recursos
+
+<table>
+<thead>
+<tr>
+<th><strong>Contas externas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível configurar e gerenciar contas externas diretamente na interface do Adobe Campaign Web. Esse novo recurso facilita a configuração de diferentes tipos de contas externas, como emails de rejeição (POP3) ou instâncias de execução.</p>
+<p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Mensagens transacionais</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As mensagens transacionais (Centro de mensagens) agora estão disponíveis na interface do Campaign Web. Este complemento foi desenvolvido para Acionar mensagens geradas de eventos disparados por sistemas de informação, podendo ser: fatura, confirmação de pedido, confirmação de envio, alteração de senha, notificação de indisponibilidade de produto, extrato de conta, criação de conta em site etc.</p>
+<p>Para obter mais informações, consulte a <a href="../transactional-messaging/transactional.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Melhorias
+
+* **Atividades do fluxo de trabalho**: agora é possível mover uma atividade e todos os seus nós secundários de uma transição para outra dentro de um fluxo de trabalho. Um botão **Mover** dedicado está disponível no painel de propriedades da atividade para realizar isso. [Saiba mais](../workflows/orchestrate-activities.md#move)
+
+* **Atividade de enriquecimento de fluxo de trabalho**
+
+   * Agora é possível definir um alias e um rótulo ao criar um novo campo na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md#collection-settings)
+   * Agora você pode adicionar ofertas para cada perfil na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md##add-offers)
+
+* **Distribuição de valores**: ao acessar a lista de campos para personalização, agora é possível verificar como os valores estão distribuídos para cada campo. Uma janela pop-up exclusiva mostra o número e a porcentagem para cada valor. [Saiba mais](../query/build-query.md#distribution-values-query)
+
+* **Informações de versão e sistema**: agora você pode acessar detalhes das versões da sua instância, tanto para o console do cliente quanto para a Interface da Web. Esta nova seção também lista todos os pacotes integrados instalados no seu ambiente. [Saiba mais](../get-started/user-interface.md#user-interface-about)
+
+* **Listas**: agora é possível reordenar facilmente os valores de uma lista. [Saiba mais](../get-started/work-with-folders.md)
+
+* **Entrega**: a variável Entrega agora pode ser acessada em campos de personalização. [Saiba mais](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## Atualizações de setembro {#9-2024}

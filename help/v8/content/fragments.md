@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução aos fragmentos de conteúdo
 description: Saiba como criar com fragmentos de conteúdo
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 58%
+source-wordcount: '423'
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Dois tipos de fragmentos estão disponíveis:
 
   >[!AVAILABILITY]
   >
-  >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
+  >Esse recurso exige uma atualização do Campaign v8.6.4. Saiba mais nas [notas de versão do console do Campaign v8 Client](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Vamos nos aprofundar um pouco mais
 

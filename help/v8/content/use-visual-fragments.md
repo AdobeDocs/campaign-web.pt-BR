@@ -4,10 +4,10 @@ title: Adicionar fragmentos visuais aos emails
 description: Saiba como adicionar fragmentos visuais aos emails
 badge: label="Disponibilidade limitada"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 18%
+source-wordcount: '570'
+ht-degree: 14%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
+>Esse recurso exige uma atualização do Campaign v8.6.4. Saiba mais nas [notas de versão do console do Campaign v8 Client](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes).
 
-Você pode usar um fragmento visual em uma [entrega de email](../email/get-started-email-designer.md) ou em um [modelo de conteúdo](../email/use-email-templates.md). As etapas são detalhadas abaixo. [Saiba como criar e gerenciar fragmentos de conteúdo](fragments.md).
+Você pode usar um fragmento visual em uma [entrega de email](../email/get-started-email-designer.md) ou em um [modelo de conteúdo](../email/use-email-templates.md). As etapas são detalhadas abaixo.
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>Saiba como criar e gerenciar fragmentos de conteúdo no [esta seção](fragments.md).
 
 ## Usar um fragmento visual {#use-fragment}
 

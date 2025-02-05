@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow Extrair arquivo
 description: Saiba como usar a atividade de workflow Extrair arquivo
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '885'
 ht-degree: 18%
 
 ---
@@ -39,7 +39,7 @@ A seção **[!UICONTROL Arquivo a ser extraído]** permite configurar as proprie
 1. Especifique as colunas a serem apresentadas no arquivo extraído. Para fazer isso, siga estes passos:
 
    1. Clique na **[!UICONTROL Adicionar coluna de saída]**.
-   1. Escolha o atributo a ser exibido na coluna e confirme. Os atributos disponíveis dependem do targeting dimension do fluxo de trabalho.
+   1. Escolha o atributo a ser exibido na coluna e confirme. Os atributos disponíveis dependem do targeting dimension do fluxo de trabalho. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md)
    1. Após adicionar a coluna, você poderá alterar seu **[!UICONTROL Rótulo]** e modificar o **[!UICONTROL Atributo]** associado.
    1. Para aplicar uma transformação aos valores da coluna, selecione-a na lista suspensa. Por exemplo, você pode alternar todos os valores na coluna selecionada para letras maiúsculas.
 
