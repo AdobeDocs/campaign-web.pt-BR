@@ -2,7 +2,7 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,7 +145,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <tr>
 <td>
 <p>O Acelerador de conteúdo do Assistente de IA agora está disponível com os deliveries da página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos.</p>
-<p>Para obter mais informações sobre o Acelerador de Conteúdo do Assistente de IA, consulte a <a href="../email/generative-gs.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações sobre o Acelerador de Conteúdo do Assistente de IA, consulte a <a href="../email/generative-lp.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
