@@ -6,7 +6,7 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -121,7 +121,7 @@ O conteúdo do contexto depende da personalização necessária.
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
 >title="Contexto do evento"
->abstract="Esse menu fornece variáveis do evento de acionador que você pode aproveitar para personalizar o conteúdo da mensagem transacional."
+>abstract="Esse menu fornece variáveis do evento acionador que você pode aproveitar para personalizar o conteúdo da mensagem transacional."
 
 Trabalhar no conteúdo de uma mensagem transacional é como criar conteúdo de um delivery. Clique em **[!UICONTROL Abrir designer de email]** ou **[!UICONTROL Editar corpo de email]** e selecione um conteúdo de modelo ou importe seu código de HTML.
 

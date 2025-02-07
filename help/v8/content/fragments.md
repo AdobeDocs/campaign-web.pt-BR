@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 55%
+ht-degree: 65%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="Adicionar fragmentos de expressão"
->abstract="Fragmentos de expressão são blocos de conteúdo predefinidos que contêm uma renderização específica que pode ser inserida em seus deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Você também pode criar seus próprios fragmentos de expressão para atender às suas necessidades."
+>abstract="Fragmentos de expressão são blocos de conteúdo predefinidos contendo uma renderização específica que podem ser inseridos em suas entregas. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. É possível também criar seus próprios fragmentos de expressão para atender às suas necessidades."
 
 ## O que são fragmentos de conteúdo? {#what}
 
@@ -34,7 +34,7 @@ Um fragmento de conteúdo é um componente reutilizável que pode ser referencia
 
 Dois tipos de fragmentos estão disponíveis:
 
-* **Fragmentos de expressão** são expressões predefinidas disponíveis em uma entrada dedicada no editor de expressão. O Campaign vem com um conjunto de blocos de conteúdo predefinidos que contêm uma renderização específica que pode ser inserida em seus deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. Você também pode criar seus próprios fragmentos de expressão para atender às suas necessidades.
+* **Fragmentos de expressão** são expressões predefinidas disponíveis em uma entrada dedicada no editor de expressão. O Campaign vem com um conjunto de blocos de conteúdo predefinidos que contêm uma renderização específica que pode ser inserida em seus deliveries. Por exemplo, você pode adicionar um logotipo, uma mensagem de saudação ou um link para a mirror page da mensagem. É possível também criar seus próprios fragmentos de expressão para atender às suas necessidades.
 
 * **Fragmentos visuais** são blocos visuais predefinidos que podem ser reutilizados em várias [entregas de email](../email/get-started-email-designer.md) ou em [modelos de conteúdo](../email/use-email-templates.md).
 

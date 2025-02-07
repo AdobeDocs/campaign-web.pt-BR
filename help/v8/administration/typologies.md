@@ -10,7 +10,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
 source-wordcount: '1414'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -52,7 +52,7 @@ As principais etapas para aplicar tipologias às suas mensagens são as seguinte
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="Afinidade de IP"
->abstract="O gerenciamento de afinidades com endereços IP permite melhor controle do tráfego SMTP de saída, associando diferentes endereços IP a cada tipo de tráfego, dependendo da tipologia de sua ação de delivery."
+>abstract="O gerenciamento de afinidades com endereços IP habilita um melhor controle do tráfego SMTP de saída, associando diferentes endereços IP a cada tipo de tráfego, dependendo da tipologia da ação de entrega."
 
 Para criar uma tipologia, siga estas etapas:
 
