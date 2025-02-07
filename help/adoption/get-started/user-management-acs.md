@@ -3,7 +3,8 @@ title: Migração de usuários técnicos para o console do Adobe Developer
 description: Saiba como migrar o gerenciamento de acesso do usuário do Campaign Standard para o Campaign V8
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 3%
@@ -63,7 +64,7 @@ No Adobe Campaign Standard, o termo **Função de usuário** é chamado de **Dir
 
 ## Abordagem de migração da unidade organizacional
 
-No Adobe Campaign Standard, a **unidade organizacional** t está mapeada para o modelo de hierarquia **Pasta** existente no Campaign V8 para manter um controle de acesso semelhante. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+No Adobe Campaign Standard, a **unidade organizacional** t está mapeada para o modelo de hierarquia **Pasta** existente no Campaign V8 para manter um controle de acesso semelhante. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
@@ -73,7 +74,7 @@ No Adobe Campaign Standard, a **unidade organizacional** t está mapeada para o 
 
 No Campaign V8, **Programas** são representados como **Pastas**. O Campaign V8 permite a criação de pastas e a restrição de acesso a elas.
 
-Ao usar **Grupos** e **Direitos nomeados**, os **Operadores** podem receber acesso a **Pastas** específicas da hierarquia de navegação, com a capacidade de atribuir permissões de leitura, gravação e exclusão. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Ao usar **Grupos** e **Direitos nomeados**, os **Operadores** podem receber acesso a **Pastas** específicas da hierarquia de navegação, com a capacidade de atribuir permissões de leitura, gravação e exclusão. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 Como um **Programa** é tratado como uma **Pasta** no Campaign V8, seu acesso pode ser gerenciado da mesma forma que qualquer outra pasta. Após a migração, os administradores de Campaign Standard podem seguir estas etapas:
 
@@ -108,11 +109,3 @@ Veja abaixo uma lista de mapeamentos de grupos de segurança de Campaign Standar
 * gerentes de aplicativos Adobe Experience Manager
 
 * Conta de retransmissão
- 
-
-
- 
-
- 
-
-

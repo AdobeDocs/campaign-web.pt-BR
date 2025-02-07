@@ -22,7 +22,7 @@ Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agenda
 
 Com base em um [modelo de design](../email/create-email-templates.md) predefinido, o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Criar a entrega de email {#create-email}
 

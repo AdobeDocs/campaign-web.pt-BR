@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 71%
 
 O Designer de email permite definir a estrutura do email com facilidade. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode criar o corpo do seu email em segundos.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 Para começar a criar o conteúdo de email, siga as etapas abaixo.
 

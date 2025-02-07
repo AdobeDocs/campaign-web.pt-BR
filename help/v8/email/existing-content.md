@@ -6,7 +6,7 @@ exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ Você pode importar conteúdo de HTML existente no Designer de email. Esse conte
   >
   >Não há restrições na estrutura do arquivo .zip. No entanto, as referências devem ser relativas e se encaixar na estrutura de árvore da pasta .zip.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 Para importar um arquivo com conteúdo HTML, siga as etapas abaixo.
 

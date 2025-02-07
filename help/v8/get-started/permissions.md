@@ -21,7 +21,7 @@ De acordo com as permissões, um(a) operador(a) pode:
 * Acessar certos dados
 * Acessar certas ações (criar, modificar, excluir)
 
-O procedimento detalhado para configurar permissões no Adobe Campaign está disponível na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+O procedimento detalhado para configurar permissões no Adobe Campaign está disponível na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 ## Permissões de pastas {#folder-permissions}
 
@@ -43,6 +43,6 @@ Se a opção **[!UICONTROL Propagar]** estiver habilitada, todas as permissões 
 
 Se a opção **[!UICONTROL Pasta do sistema]** estiver habilitada, o acesso será permitido a todos os operadores, independentemente das permissões.
 
-Também é possível [gerenciar as permissões nas pastas do console do Adobe Campaign](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Também é possível [gerenciar as permissões nas pastas do console do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
 Todas as permissões na interface do Campaign Web são sincronizadas com as permissões do console do cliente do Campaign. 

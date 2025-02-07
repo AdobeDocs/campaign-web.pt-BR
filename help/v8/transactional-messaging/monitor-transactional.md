@@ -2,10 +2,11 @@
 audience: end-user
 title: Monitorar mensagens transacionais
 description: Saiba como monitorar uma mensagem transacional na interface da Web do Campaign
-source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
+exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 

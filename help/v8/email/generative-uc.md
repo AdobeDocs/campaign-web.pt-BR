@@ -1,7 +1,8 @@
 ---
 title: Assistente de IA para casos de uso do Acelerador de conteúdo
 description: Saiba mais sobre como usar o Assistente de IA para acelerador de conteúdo por meio de casos de uso
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
+exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
+source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%

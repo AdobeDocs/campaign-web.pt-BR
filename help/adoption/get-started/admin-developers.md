@@ -3,13 +3,13 @@ title: Introdução ao Adobe Campaign v8 para administradores e desenvolvedores.
 description: Este tutorial fornece uma visão geral da principal funcionalidade administrativa e de gerenciamento de dados do Campaign v8. Ele é direcionado para administradores e profissionais de marketing técnico que estão migrando do Campaign Standard para o Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 8%
 
 ---
-
 
 # Introdução para administradores e desenvolvedores {#acs-gs-admin}
 
@@ -73,9 +73,9 @@ O Adobe Campaign permite definir e gerenciar os direitos atribuídos aos usuári
 
 Como usuário do Campaign Standard em transição para o Campaign v8, suas permissões e direitos de acesso permanecem os mesmos. Os grupos de segurança foram movidos pelo Adobe para os grupos de operadores do Campaign v8 e suas permissões por unidades organizacionais foram migradas para permissões de pasta. Usuários do Campaign   use o Adobe ID para se conectar ao Campaign v8 e, em seguida, use o mesmo logon e senha do Campaign Standard.
 
-Campanha [pastas](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} são nós na árvore do explorador do console do cliente. Com base no tipo, eles contêm determinados tipos de dados. Os programas são materializados por pastas no Campaign v8. É possível criar pastas e gerenciar permissões para elas, a fim de restringir o acesso. [Saiba mais](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Campanha [pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} são nós na árvore do explorador do console do cliente. Com base no tipo, eles contêm determinados tipos de dados. Os programas são materializados por pastas no Campaign v8. É possível criar pastas e gerenciar permissões para elas, a fim de restringir o acesso. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
-Saiba mais na [documentação sobre permissões de usuário](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+Saiba mais na [documentação sobre permissões de usuário](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 
 ### Painel de controle do Campaign {#acs-gs-admin-cp}
@@ -277,7 +277,7 @@ Links úteis:
 
 O uso de modelos de entrega é um requisito no Campaign v8, como no Campaign Standard.
 
-Para um processo de design acelerado e aprimorado, crie modelos de delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas. Saiba como criar modelos de entrega na [interface da Web do Campaign](../../v8/msg/delivery-template.md). Veja também como criar modelos de entrega no console do cliente em [esta seção](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
+Para um processo de design acelerado e aprimorado, crie modelos de delivery para reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas. Essa funcionalidade permite padronizar a aparência criativa para ser mais rápido na execução e na inicialização de campanhas. Saiba como criar modelos de entrega na [interface da Web do Campaign](../../v8/msg/delivery-template.md). Veja também como criar modelos de entrega no console do cliente em [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
 
 ### Regras de tipologia {#acs-gs-admin-rules}
 
@@ -305,4 +305,3 @@ Como um usuário do Campaign Standard que está migrando para o Campaign v8, o s
 Observe que o Campaign também pode ser integrado ao Adobe Experience Manager 6.5. Para configurar esta integração, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
 * Se seu ambiente do Campaign Standard foi integrado com **Triggers**, você deve configurar essa integração no Campaign v8 conforme detalhado em [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
 * Se seu ambiente do Campaign Standard foi integrado ao **Adobe Target**, você deve configurar essa integração no Campaign v8 conforme detalhado em [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
-

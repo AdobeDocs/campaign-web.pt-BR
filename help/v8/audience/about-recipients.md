@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Além disso, os **[!UICONTROL perfis de teste]**, identificados como &quot;perfi
 
 Perfis e perfis de teste podem ser usados para testar seus deliveries antes que eles atinjam o público-alvo desejado. Ao fazer isso, você pode pré-visualizar o conteúdo e a personalização da mensagem, enviar provas de teste e validação, avaliar a renderização de email em várias plataformas e dispositivos e testar suas landing pages. [Saiba como visualizar e testar entregas](../preview-test/preview-test.md)
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Acessar a lista de perfis {#access}
 

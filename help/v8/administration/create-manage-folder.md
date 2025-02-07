@@ -31,4 +31,4 @@ Você configurará o tipo de pasta clicando no botão **[!UICONTROL Confirmar]**
 
 Para criar uma pasta sem um tipo específico, escolha o tipo **[!UICONTROL Pasta genérica]**.
 
-No console do Adobe Campaign, você tem o processo de criação e gerenciamento de uma pasta explicado [aqui](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/config/configuration/folders-and-views) e a possibilidade de configurar permissões em pastas. [Saiba mais](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+No console do Adobe Campaign, você tem o processo de criação e gerenciamento de uma pasta explicado [aqui](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/config/configuration/folders-and-views) e a possibilidade de configurar permissões em pastas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)

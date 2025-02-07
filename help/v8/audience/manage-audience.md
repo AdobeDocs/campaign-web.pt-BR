@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -42,7 +42,7 @@ Os públicos-alvo podem se originar de várias fontes. As colunas **[!UICONTROL 
 
 * **[!UICONTROL Adobe Experience Platform:]** esses públicos-alvo foram criados no Adobe Experience Platform e são integrados ao Campaign Web usando a integração Adobe Fontes e Destinos. Saiba como configurar essa integração na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
-  ➡️ [Descubra este recurso no vídeo](#video)
+  ➡️ [Conheça este recurso no vídeo](#video)
 
 Para obter mais informações sobre um público, abra-o na lista. As propriedades do público são exibidas junto com o número de perfis incluídos no público. Você pode atualizar a contagem de público a qualquer momento usando o botão **[!UICONTROL Calcular]**.
 

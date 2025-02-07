@@ -6,7 +6,7 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 Um grupo de controle é uma subpopulação excluída da entrega. Você pode definir um grupo de controle para evitar o envio de mensagens para uma parte do público-alvo e comparar o comportamento após o delivery com o público-alvo principal. Essa opção ajuda a medir o impacto da campanha.
 
-➡️ [Descubra este recurso no vídeo](create-audience.md#video)
+➡️ [Conheça este recurso no vídeo](create-audience.md#video)
 
 ## Habilitar grupo de controle{#add-a-control-group}
 

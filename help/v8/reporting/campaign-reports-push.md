@@ -80,7 +80,7 @@ A tabela **[!UICONTROL Estatísticas de execução]** detalha o sucesso da sua e
 
 * **[!UICONTROL Erros]**: Número total de erros acumulados durante as entregas e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (registro inválido, rejeição de mensagem, erro de carga, por exemplo). em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (registro inválido, rejeição de mensagem, erro de carga, por exemplo) em relação ao número de mensagens a serem entregues.
 
   Os tipos de erro de notificações por push estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 

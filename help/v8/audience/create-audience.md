@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Depois de criar o fluxo de trabalho, os públicos resultantes são automaticamen
 
 As colunas **[!UICONTROL Origin]** indicam as origens dos públicos-alvo: **[!UICONTROL Adobe Campaign]** públicos-alvo foram criados com o console do Adobe Campaign v8 ou a interface de usuário da Web, enquanto **[!UICONTROL Adobe Experience Platform:]** públicos-alvo foram criados no Adobe Experience Platform e integrados ao Campaign usando a integração de Fontes e Destinos do Adobe.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Criar seu primeiro público-alvo {#create}
 

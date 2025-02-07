@@ -1,11 +1,12 @@
 ---
 keywords: Campaign Classic;página inicial;tópicos populares
-description: Usuários do Campaign Standard que estão fazendo a transição para o Campaign v8, aprendam como começar.
+description: Usuários do Campaign Standard que estão fazendo a transição para o Campaign v8, saibam como começar.
 title: Guia de adoção do Adobe Campaign
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 53%
+ht-degree: 57%
 
 ---
 
@@ -93,4 +94,3 @@ Entenda as diferenças de experiência entre o Adobe Campaign Standard e o Adobe
 ## Recursos adicionais
 
 [Descrição de Produto do Adobe Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentação da interface da Web do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=pt-BR){target="_blank"} - [Documentação do Console do Cliente do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutorials do Console do Cliente](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - [[!DNL Adobe Campaign] guia de automação](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=pt-BR){target="_blank"} - [Painel de Controle do Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR){target="_blank"}
-

@@ -2,7 +2,8 @@
 audience: end-user
 title: Página de aterrissagem com o Acelerador de conteúdo do assistente de IA
 description: Introdução ao Acelerador de conteúdo do Assistente de IA
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
+source-git-commit: e7b93168c3827691049376ecd257d2c6df554007
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 1%

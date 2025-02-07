@@ -2,7 +2,8 @@
 audience: end-user
 title: Introdução a entregas externas
 description: Saiba como criar e enviar deliveries externos com o Adobe Campaign Web
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 7%

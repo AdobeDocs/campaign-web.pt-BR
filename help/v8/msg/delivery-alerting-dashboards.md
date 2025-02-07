@@ -53,7 +53,7 @@ Para criar um painel de delivery, siga estas etapas:
 
 1. No campo **Selecionar grupo de alertas**, especifique o **grupo de operadores** para receber os alertas enviados por este painel. Todos os membros do grupo de operadores selecionado receberão os alertas.
 
-   Saiba mais sobre permissões e grupos de operadores na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Saiba mais sobre permissões e grupos de operadores na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. Na seção **Critérios de alerta de entrega**, adicione os critérios que deseja usar para enviar alertas. Escolha entre critérios predefinidos ou crie seus próprios critérios para se alinhar às necessidades específicas. [Saiba como trabalhar com critérios](../msg/delivery-alerting-criteria.md)
 

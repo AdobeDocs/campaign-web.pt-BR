@@ -28,7 +28,7 @@ Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagen
 
 * A **[!UICONTROL Mensagem de dados]** é manipulada pelo aplicativo cliente. Essas mensagens são enviadas diretamente para o aplicativo móvel, que gera e exibe uma notificação do Android no dispositivo. As mensagens de dados contêm somente as variáveis personalizadas do aplicativo.
 
-* A **[!UICONTROL Mensagem de notificação]**, manipulada automaticamente pelo SDK do FCM. O FCM exibe automaticamente a mensagem nos dispositivos dos usuários em nome do aplicativo do cliente. As mensagens de notificação contêm um conjunto predefinido de parâmetros e opções, mas ainda podem ser personalizadas com variáveis de aplicativo personalizadas.
+* A **[!UICONTROL Mensagem de notificação]**, manipulada automaticamente pelo FCM SDK. O FCM exibe automaticamente a mensagem nos dispositivos dos usuários em nome do aplicativo do cliente. As mensagens de notificação contêm um conjunto predefinido de parâmetros e opções, mas ainda podem ser personalizadas com variáveis de aplicativo personalizadas.
 
 ![](assets/rich_push.png){zoomable="yes"}
 
