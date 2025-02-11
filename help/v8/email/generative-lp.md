@@ -3,14 +3,21 @@ audience: end-user
 title: Página de aterrissagem com o Acelerador de conteúdo do assistente de IA
 description: Introdução ao Acelerador de conteúdo do Assistente de IA
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: e7b93168c3827691049376ecd257d2c6df554007
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1549'
 ht-degree: 1%
 
 ---
 
 # Geração de página de aterrissagem com o Acelerador de conteúdo do assistente de IA {#generative-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Gerar páginas de aterrissagem com IA"
+>abstract="Agora você pode usar o Acelerador de conteúdo do Assistente de IA para criar entregas de página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
 
 >[!IMPORTANT]
 >

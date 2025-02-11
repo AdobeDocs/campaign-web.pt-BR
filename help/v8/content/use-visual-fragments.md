@@ -4,26 +4,28 @@ title: Adicionar fragmentos visuais aos emails
 description: Saiba como adicionar fragmentos visuais aos emails
 badge: label="Disponibilidade limitada"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '605'
 ht-degree: 14%
 
 ---
 
 # Adicionar fragmentos visuais aos emails {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Fragmentos visuais de email"
+>abstract="Agora você pode criar e usar fragmentos visuais. Esses são blocos visuais predefinidos que podem ser reutilizados em vários deliveries de email ou em modelos de conteúdo."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
 >[!AVAILABILITY]
 >
 >Esse recurso exige uma atualização do Campaign v8.6.4. Saiba mais nas [notas de versão do console do Campaign v8 Client](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes).
 
-Você pode usar um fragmento visual em uma [entrega de email](../email/get-started-email-designer.md) ou em um [modelo de conteúdo](../email/use-email-templates.md). As etapas são detalhadas abaixo.
+Na interface da Web do Campaign, os **Fragmentos visuais** são blocos visuais predefinidos que podem ser reutilizados em várias [entregas de email](../email/get-started-email-designer.md) ou em [modelos de conteúdo](../email/use-email-templates.md). Saiba como criar e gerenciar fragmentos de conteúdo no [esta seção](fragments.md).
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->Saiba como criar e gerenciar fragmentos de conteúdo no [esta seção](fragments.md).
 
 ## Usar um fragmento visual {#use-fragment}
 

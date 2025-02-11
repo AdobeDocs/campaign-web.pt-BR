@@ -3,14 +3,21 @@ audience: end-user
 title: Introdução a entregas externas
 description: Saiba como criar e enviar deliveries externos com o Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 7%
+source-wordcount: '518'
+ht-degree: 12%
 
 ---
 
 # Enviar deliveries externos {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Criar entregas externas"
+>abstract="Agora, é possível definir entregas externas e modelos de entrega externa na interface do Campaign Web. Nesse modo, as mensagens são compiladas em um arquivo de saída, que pode ser compartilhado com o provedor externo. Por padrão, o modo de entrega externa é usado no canal de correspondência direta."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
 
 O Adobe Campaign permite manipular deliveries criados fora do Campaign para fazer deliveries em massa de emails personalizados, mensagens SMS ou notificações por push (iOs e Android) por meio de um sistema externo.
 

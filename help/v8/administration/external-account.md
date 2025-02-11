@@ -2,25 +2,20 @@
 title: Gerenciar conta externa
 description: Saiba como configurar contas externas
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 18%
+source-wordcount: '686'
+ht-degree: 14%
 
 ---
 
 # Gerenciar contas externas {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Contas externas"
->abstract="Agora é possível se conectar a plataformas adicionais ou personalizar as conexões para se adequar ao seu fluxo de trabalho, bem como criar facilmente novas contas externas para suprir as suas necessidades específicas e garantir transferências de dados sem obstáculos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
-
 >[!AVAILABILITY]
 >
-> Observe que as contas externas estão disponíveis no momento apenas para emails de devolução (POP3), Roteamento e a instância de Execução, com tipos de conta adicionais a serem adicionados no futuro.
-> As contas externas não compatíveis criadas no console do Adobe Campaign estão visíveis na Interface do usuário da Web, mas não podem ser editadas ou acessadas.
+>* Atualmente, contas externas estão disponíveis apenas para emails de devolução (POP3), Roteamento e a Instância de execução. Outros tipos de conta serão adicionados no futuro.
+>
+>* As contas externas não compatíveis criadas no console do Adobe Campaign estão visíveis na Interface do usuário da Web, mas não podem ser editadas nem acessadas.
 
 O Adobe Campaign vem com um conjunto de contas externas pré-configuradas para fácil integração com vários sistemas. Se você precisar se conectar a plataformas adicionais ou personalizar as conexões para se adequar ao seu fluxo de trabalho, agora será possível criar facilmente novas contas externas usando a Interface do usuário da Web para atender às suas necessidades específicas e garantir transferências de dados perfeitas.
 

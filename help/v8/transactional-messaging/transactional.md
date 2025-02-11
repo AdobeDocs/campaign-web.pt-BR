@@ -3,10 +3,10 @@ audience: end-user
 title: Mensagens transacionais
 description: Sobre mensagens transacionais com o Adobe Campaign Web
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 24%
+source-wordcount: '245'
+ht-degree: 14%
 
 ---
 
@@ -16,12 +16,6 @@ ht-degree: 24%
 >id="acw_transacmessages"
 >title="Mensagens transacionais"
 >abstract="Mensagens transacionais são um módulo especializado no Adobe Campaign desenvolvido para lidar com mensagens acionadas."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Mensagens transacionais"
->abstract="Mensagens transacionais são um módulo especializado no Adobe Campaign desenvolvido para lidar com mensagens acionadas. Essas mensagens são geradas automaticamente em resposta a eventos provenientes de sistemas de informação."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
