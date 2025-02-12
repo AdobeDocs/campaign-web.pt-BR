@@ -6,11 +6,11 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '1549'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Geração de página de aterrissagem com o Acelerador de conteúdo do assistente de IA {#generative-lp}
+# Geração de página de destino com o Acelerador de conteúdo do Assistente de IA {#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
