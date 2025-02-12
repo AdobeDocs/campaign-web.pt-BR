@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <tbody>
 <tr>
 <td>
-<p>Agora, é possível definir entregas externas e modelos de entrega externa na interface do Campaign Web. Nesse modo, as mensagens são compiladas em um arquivo de saída, que pode ser compartilhado com o provedor externo. Por padrão, o modo de entrega externa é usado no canal de correspondência direta.</p>
+<p>Agora, é possível definir entregas externas e modelos de entrega externa na interface do Campaign Web. Nesse modo, as mensagens são compiladas em um arquivo de saída que pode ser compartilhado com o provedor externo. Por padrão, o modo de entrega externa é usado no canal de correspondência direta.</p>
 <img src="assets/do-not-localize/external-delivery.gif">
 <p>Para obter mais informações, consulte a <a href="../msg/send-external-deliveries.md">documentação detalhada</a>.</p>
 </td>
@@ -138,15 +138,15 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <table>
 <thead>
 <tr>
-<th><strong>Geração de página de aterrissagem com o Acelerador de conteúdo do assistente de IA</strong><br/></th>
+<th><strong>Geração de página de destino com o Acelerador de conteúdo do Assistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Acelerador de conteúdo do Assistente de IA agora está disponível com os deliveries da página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos.</p>
+<p>O Acelerador de conteúdo do Assistente de IA agora está disponível com as entregas da página de destino, o que habilita a geração de texto, imagens ou layouts de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Para obter mais informações sobre o Acelerador de Conteúdo do Assistente de IA, consulte a <a href="../email/generative-lp.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações sobre o Acelerador de conteúdo do Assistente de IA, consulte a <a href="../email/generative-lp.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -166,4 +166,4 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 
 * Filtros Recentes e Favoritos: para reutilizar rapidamente atributos usados com frequência, agora é possível adicioná-los aos favoritos. Isso garante que eles estejam prontamente acessíveis para tarefas futuras. Além dos favoritos, é possível também visualizar e usar os atributos selecionados mais recentemente.
 
-* Contas externas: o novo tipo **[!UICONTROL Roteamento]** está disponível para seleção ao criar uma nova conta externa. Ele permite configurar uma conta externa específica para usar em seus deliveries externos. [Saiba mais](../administration/external-account.md#routing)
+* Contas externas: o novo tipo **[!UICONTROL Roteamento]** está disponível para seleção ao criar uma nova conta externa. Ele permite configurar uma conta externa específica para usar nas entregas externas. [Saiba mais](../administration/external-account.md#routing)
