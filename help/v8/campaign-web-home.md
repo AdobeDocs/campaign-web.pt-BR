@@ -4,9 +4,9 @@ description: 'Central de ajuda do Campaign Web '
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!TAB Versão de janeiro de 2025]
 
-A versão de janeiro está disponível, incluindo mensagens transacionais, contas externas e mais melhorias.
+A versão de janeiro já está disponível, incluindo mensagens transacionais, contas externas e mais melhorias.
 
 [![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -67,7 +67,7 @@ A versão de janeiro está disponível, incluindo mensagens transacionais, conta
 
 >[!TAB Perguntas frequentes]
 
-As perguntas frequentes sobre a interface da Web do Campaign estão listadas em uma nova página dedicada.
+As perguntas frequentes sobre a interface da web do Campaign estão listadas em uma nova página dedicada.
 
 [![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 

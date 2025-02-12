@@ -3,7 +3,7 @@ title: Notas de versão anteriores da interface do usuário do Campaign v8 Web
 description: Versões de 2024 da interface do usuário do Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2506'
 ht-degree: 100%
 
