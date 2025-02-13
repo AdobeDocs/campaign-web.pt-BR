@@ -4,9 +4,9 @@ description: Saiba mais sobre as etapas necessárias para começar a usar o novo
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 29%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 Bem-vindo ao Adobe Campaign v8.
 
-Como usuário em transição do Campaign Standard para o Campaign v8, este guia de referência foi projetado para você. Ele ajuda você a se familiarizar com o novo ambiente do Campaign e orientar sobre as etapas necessárias para começar a usar sua função.
+Como um usuário que está fazendo a transição do Campaign Standard para o Campaign v8, este guia de referência foi projetado para você. Ele ajuda você a se familiarizar com o novo ambiente do Campaign e orientar sobre as etapas necessárias para começar a usar sua função.
 
 1. Comece aprendendo [as novidades do Adobe Campaign v8](#new).
 
@@ -59,7 +59,7 @@ Os principais aprimoramentos fornecidos com o Adobe Campaign v8 estão listados 
 
 ### Novos recursos no Adobe Campaign v8 {#ac-new-features}
 
-Como um usuário Campaign Standard em transição para o Adobe Campaign v8, os seguintes recursos estão disponíveis:
+Como usuário do Campaign Standard em transição para o Adobe Campaign v8, os seguintes recursos estão disponíveis:
 
 * **Push avançado**
 
@@ -93,7 +93,7 @@ Como um usuário Campaign Standard em transição para o Adobe Campaign v8, os s
 
   O Adobe Experience Manager as a Cloud Service oferece agilidade nativa em nuvem, permitindo que você acelere seu tempo de implantação e se adapte às necessidades empresariais em evolução. Essa integração não apenas aprimora seus recursos de gerenciamento de conteúdo, como também permite proporcionar experiências mais personalizadas e envolventes aos seus clientes em todos os pontos de contato.
 
-* **Assistente de IA - Acelerador de Conteúdo**
+* **Assistente de IA**
 
   O Assistente de IA do Campaign torna a criação e a execução de campanhas de marketing em canais como Email, SMS e Push intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados.
 
@@ -105,7 +105,7 @@ Como um usuário Campaign Standard em transição para o Adobe Campaign v8, os s
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Ele fornece uma variante de modelos de email e gera e gera novamente imagens. Saiba mais sobre o Assistente de IA - Acelerador de Conteúdo em [esta seção](../../v8/email/generative-content.md). O Adobe Campaign v8 tem um assistente de IA disponível para [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) e [Push](../../v8/email/generative-push.md).
+  Ele fornece uma variante de modelos de email e gera e gera novamente imagens. Saiba mais sobre o Assistente de IA em [esta seção](../../v8/email/generative-content.md). O Adobe Campaign v8 tem um assistente de IA disponível para [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) e [Push](../../v8/email/generative-push.md).
 
 * **Infraestrutura de SMS atualizada - SMS v2.0**
 
@@ -124,7 +124,7 @@ Como um usuário Campaign Standard em transição para o Adobe Campaign v8, os s
 
 O Adobe Campaign v8 está disponível como um Managed Cloud Services, fornecendo supervisão proativa, alertas oportunos e governança de serviços. O Adobe Managed Cloud Service oferece aos profissionais de marketing uma solução mais ágil, segura e escalável para o gerenciamento de campanha em vários canais, com baixo custo total de propriedade. A nova oferta combina os serviços com uma supervisão proativa e alertas oportunos.
 
-## Recursos de Campaign Standard adicionados na v8 {#ac-v8-added}
+## Recursos do Campaign Standard adicionados na v8 {#ac-v8-added}
 
 Com o objetivo de uma transição descomplicada para o Campaign v8, os recursos principais do Campaign Standard foram adicionados ao Campaign v8. Os recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target="_blank"}.
 

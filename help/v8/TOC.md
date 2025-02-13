@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
-workflow-type: ht
-source-wordcount: '798'
-ht-degree: 100%
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+workflow-type: tm+mt
+source-wordcount: '794'
+ht-degree: 99%
 
 ---
 
@@ -116,8 +116,8 @@ ht-degree: 100%
          + [Ajustar o alinhamento vertical e o preenchimento](email/alignment-and-padding.md)
          + [Definir o estilo dos links](email/styling-links.md)
          + [Adicionar atributos de estilo em linha](email/inline-styling.md)
-   + Acelerador de conteúdo do Assistente de IA {#ai-assistant}
-      + [Trabalho com o acelerador de conteúdo do Assistente de IA](email/generative-gs.md)
+   + Assistente de IA {#ai-assistant}
+      + [Trabalhar com o assistente de IA](email/generative-gs.md)
       + [Geração de email com IA](email/generative-content.md)
       + [Geração de SMS com IA](email/generative-sms.md)
       + [Geração de notificação por push com IA](email/generative-push.md)

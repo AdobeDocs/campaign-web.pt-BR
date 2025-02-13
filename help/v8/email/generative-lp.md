@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Página de aterrissagem com o Acelerador de conteúdo do assistente de IA
-description: Introdução ao Acelerador de conteúdo do Assistente de IA
+title: Página de aterrissagem com o Assistente de IA
+description: Introdução ao Assistente de IA
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
-# Geração de página de destino com o Acelerador de conteúdo do Assistente de IA {#generative-lp}
+# Geração de página de aterrissagem com o Assistente de IA{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Gerar páginas de aterrissagem com IA"
->abstract="Agora você pode usar o Acelerador de conteúdo do Assistente de IA para criar entregas de página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos."
+>abstract="Agora você pode usar o Assistente de IA para criar entregas de página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
@@ -24,19 +24,19 @@ ht-degree: 2%
 >Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Acelerador de Conteúdo do Assistente de IA na Web do Adobe Campaign. Para mais informações, entre em contato com o seu representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web. Para mais informações, entre em contato com o seu representante da Adobe.
 
-Transforme suas páginas de aterrissagem com o Acelerador de conteúdo do assistente de IA no Adobe Campaign Web, viabilizado pela IA gerativa.
+Transforme suas páginas de aterrissagem com o Assistente de IA no Adobe Campaign Web, viabilizado pela IA gerativa.
 
 Crie conteúdo impactante sem esforço, incluindo páginas completas, trechos de texto personalizados e visuais que repercutem com seu público-alvo, gerando mais engajamento e interação.
 
-Explore as guias abaixo para saber como usar o Acelerador de conteúdo do assistente de IA no Adobe Campaign Web.
+Explore as guias abaixo para saber como usar o Assistente de IA no Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Geração completa da página de aterrissagem]
 
-No exemplo a seguir, aproveitaremos o Acelerador de conteúdo do assistente de IA para refinar um modelo de página de aterrissagem existente.
+No exemplo a seguir, é possível usar o Assistente de IA para refinar um modelo de página de aterrissagem existente.
 
 1. Depois de criar e configurar sua página de aterrissagem, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -46,7 +46,7 @@ No exemplo a seguir, aproveitaremos o Acelerador de conteúdo do assistente de I
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Acelerador de Conteúdo do Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
+1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
@@ -99,7 +99,7 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 >[!TAB Geração somente texto]
 
-No exemplo a seguir, aproveitaremos o Acelerador de conteúdo do assistente de IA para aprimorar o conteúdo de nossa página de aterrissagem.
+No exemplo a seguir, aproveitaremos o Assistente de IA para aprimorar o conteúdo da página de aterrissagem.
 
 1. Depois de criar e configurar sua página de aterrissagem, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -109,7 +109,7 @@ No exemplo a seguir, aproveitaremos o Acelerador de conteúdo do assistente de I
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Acelerador de Conteúdo do Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
+1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
@@ -159,19 +159,19 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 >[!TAB Geração somente de imagem]
 
-No exemplo abaixo, aprenda a usar o Acelerador de conteúdo do assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
+No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
 
 1. Depois de criar e configurar sua página de aterrissagem, clique em **[!UICONTROL Editar conteúdo]**.
 
    Para obter mais informações sobre como configurar sua página de aterrissagem, consulte [esta página](../landing-pages/create-lp.md).
 
-1. Selecione o ativo que deseja alterar com o Acelerador de conteúdo do assistente de IA.
+1. Selecione o ativo que deseja alterar com o Assistente de IA.
 
 1. No menu à direita, selecione **[!UICONTROL Assistente do AI]**.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Acelerador de Conteúdo do Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
+1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
