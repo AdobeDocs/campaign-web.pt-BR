@@ -10,7 +10,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
 source-wordcount: '1414'
-ht-degree: 10%
+ht-degree: 25%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Tipologias e regras de tipologia"
->abstract="As tipologias permitem padronizar as práticas comerciais em todos os deliveries. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
+>abstract="As tipologias permitem padronizar práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
 
 ## Sobre tipologias
 
-As tipologias permitem padronizar as práticas comerciais em todos os deliveries. Uma **tipologia** é uma coleção de **regras de tipologia** que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação.
+As tipologias permitem padronizar práticas comerciais em todas as entregas. Uma **tipologia** é uma coleção de **regras de tipologia** que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação.
 
 As tipologias garantem que seus deliveries sempre contenham determinados elementos (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do target pretendido (como clientes que não assinam, concorrentes ou clientes não fidelizados).
 
@@ -47,7 +47,7 @@ As principais etapas para aplicar tipologias às suas mensagens são as seguinte
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Propriedades de tipologia"
->abstract="Defina as propriedades da tipologia e expanda a seção **[!UICONTROL Opções adicionais]** para acessar as configurações avançadas. Use o campo **[!UICONTROL Afinidade de IP]** para associar afinidades de IP a tipologias. Isso permite controlar melhor o tráfego SMTP de saída, definindo quais endereços IP específicos podem ser usados para cada afinidade."
+>abstract="Defina as propriedades da tipologia e expanda a seção **[!UICONTROL Opções adicionais]** para acessar as configurações avançadas. Use o campo **[!UICONTROL Afinidade de IP]** para associar afinidades de IP a tipologias. Isso permite controlar melhor o tráfego SMTP de saída, definindo quais endereços IP específicos podem ser usados para cada afinidade."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -79,7 +79,7 @@ A tipologia abre detalhes. Nessa tela, você pode fazer referência diretamente 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="Propriedades da regra de tipologia"
->abstract="Defina as propriedades da regra de tipologia. As regras de **Controle** verificam a qualidade e a validade da mensagem antes do envio, enquanto as regras de **Filtragem** excluem segmentos do público-alvo com base em critérios específicos.<br/><br/>Você também pode alterar a ordem de execução da regra para gerenciar a sequência em que as regras de tipologia serão executadas quando várias regras do mesmo tipo forem executadas durante a mesma fase de processamento de mensagens."
+>abstract="Defina as propriedades da regra de tipologia. As regras de **controle** analisam a qualidade e a validade da mensagem antes do envio, enquanto que as regras de **filtragem** excluem segmentos do público-alvo com base em critérios específicos.<br/><br/>Você também pode alterar a ordem de execução da regra para gerenciar a sequência em que as regras de tipologia serão executadas quando várias regras do mesmo tipo forem executadas durante a mesma fase de processamento de mensagens."
 
 Para criar uma regra de tipologia, navegue até o menu **[!UICONTROL Regras de negócio]** e selecione a guia **[!UICONTROL Regras de tipologia]**.
 
@@ -97,7 +97,7 @@ Defina as propriedades da regra de tipologia:
 
    * **Controle**: garante a qualidade e a validade da mensagem pré-envio (por exemplo, exibição de caracteres, comprimento do SMS, formato de endereço, redução de URL). Eles são criados usando uma interface de script para definir uma lógica complexa para verificações e modificações de conteúdo.
 
-   * As regras de **Filtragem** excluem segmentos do público-alvo com base em critérios específicos (por exemplo, idade, local, país, números de telefone). Essas regras estão vinculadas a uma targeting dimension.
+   * As regras de **filtragem** excluem segmentos do público-alvo com base em critérios específicos (por exemplo, idade, local, país, números de telefone). Essas regras estão vinculadas a uma targeting dimension.
 
    >[!NOTE]
    >
@@ -150,12 +150,12 @@ Defina as propriedades da regra de tipologia:
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filtragem"
->abstract="As regras de **Filtragem** excluem segmentos do público-alvo com base em critérios específicos (por exemplo, idade, local, país, números de telefone). Selecione a dimensão de direcionamento da regra de tipologia e clique no botão **[!UICONTROL Adicionar regras]** para acessar o modelador de consultas e criar a regra."
+>abstract="As regras de **filtragem** excluem segmentos do público-alvo com base em critérios específicos (por exemplo, idade, local, país, números de telefone). Selecione a dimensão de direcionamento da regra de tipologia e clique em **[!UICONTROL Adicionar regras]** para acessar o modelador de consultas e criar a regra."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="Código"
->abstract="As regras de **Controle** verificam a qualidade e a validade da mensagem pré-enviada (por exemplo, exibição de caracteres, comprimento do SMS, formato de endereço, redução de URL). Eles são criados usando o código JavaScript."
+>abstract="As regras de **controle** analisam a qualidade e a validade da mensagem antes do envio (por exemplo, exibição de caracteres, comprimento do SMS, formato de endereço, redução de URL). Elas são criadas usando código JavaScript."
 
 Após definir as propriedades da regra de tipologia, é possível criar o conteúdo da regra.
 

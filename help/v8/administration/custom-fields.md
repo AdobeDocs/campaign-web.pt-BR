@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Editar detalhes personalizados"
->abstract="Todos os campos personalizados exibidos na interface do esquema selecionado são exibidos. É possível alterar a ordem em que eles são exibidos na interface usando as setas para cima e para baixo e agrupar campos em subseções adicionando separadores. Para excluir um campo personalizado ou editar configurações, como condições de visibilidade, clique no botão de reticências."
+>abstract="Todos os campos personalizados da interface do esquema selecionado são exibidos. É possível alterar a ordem de exibição na interface usando as setas para cima e para baixo e agrupar os campos em subseções adicionando separadores. Para excluir um campo personalizado ou editar configurações como condições de visibilidade, clique no botão de reticências."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="Geral"
->abstract="Defina as configurações gerais do campo personalizado. Se nenhum rótulo for fornecido, o rótulo definido no esquema será exibido. Use o campo **Visible if** para definir uma condição usando uma expressão xtk que controle quando o campo é exibido. Você também pode marcar o campo como obrigatório ou somente leitura na interface."
+>abstract="Defina as configurações gerais do campo personalizado. Se nenhum rótulo for fornecido, o rótulo definido no esquema será exibido. Use o campo **Visível se** para definir uma condição usando uma expressão xtk que controla quando o campo é exibido. Você também pode marcar o campo como obrigatório ou somente leitura na interface."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
@@ -30,12 +30,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="Layout"
->abstract="Por padrão, os campos personalizados são exibidos na interface em duas colunas. Ative essa opção para exibir o campo personalizado na largura total da tela, em vez de duas colunas."
+>abstract="Por padrão, os campos personalizados são exibidos na interface em duas colunas. Ative essa opção para exibir o campo personalizado na largura total da tela, em vez de em duas colunas."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
 >title="Propriedades do separador"
->abstract="Especifique o nome a ser exibido na interface para a subseção."
+>abstract="Especifique o nome que será exibido na interface da subseção."
 
 <!-- NOT USED IN THE UI?-->
 >[!CONTEXTUALHELP]
@@ -118,7 +118,7 @@ Configurações disponíveis:
 
 +++
 
-* **[!UICONTROL Abranger duas colunas]**: por padrão, os campos personalizados são exibidos na interface em duas colunas. Ative essa opção para exibir o campo personalizado na largura total da tela, em vez de duas colunas.
+* **[!UICONTROL Abranger duas colunas]**: por padrão, os campos personalizados são exibidos na interface em duas colunas. Ative essa opção para exibir o campo personalizado na largura total da tela, em vez de em duas colunas.
 
 ## Organizar campos personalizados em subseções {#separator}
 

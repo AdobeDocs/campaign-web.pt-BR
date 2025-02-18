@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '2765'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -25,12 +25,12 @@ As configurações de entrega são **parâmetros técnicos de entrega** definido
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="As tipologias permitem padronizar as práticas comerciais em todos os deliveries. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
+>abstract="As tipologias permitem padronizar práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Configurações de tipologia para a entrega"
->abstract="As regras de tipologia permitem padronizar práticas comerciais em todos os deliveries. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
+>abstract="As regras de tipologia permitem padronizar práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
 
 As tipologias são conjuntos de **regras de tipologia** que são executadas durante a fase de preparação para aplicar facilmente várias regras de filtragem a uma entrega de uma vez. Eles permitem que os profissionais de marketing padronizem práticas comerciais em todos os deliveries, pois permitem controlar, filtrar e priorizar o envio de deliveries. [Saiba como criar tipologias e regras de tipologia](../administration/typologies.md)
 
