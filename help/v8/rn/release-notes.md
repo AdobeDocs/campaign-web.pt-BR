@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 74%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 As versões da interface do usuário do Adobe Campaign Web operam em um modelo de entrega contínua que permite uma abordagem à implantação de recursos mais dimensionável e em fases. Devido a isso, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 As alterações e as melhorias disponíveis nas versões anteriores estão listadas [nesta página](release-notes-24.md).
+
+## Versão de fevereiro de 25 {#25-2-release}
+
+**Data de lançamento**: 18 de fevereiro de 2025
+
+Os seguintes recursos e melhorias estarão disponíveis a partir da versão de fevereiro.
+
+### Recursos {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Criar regras de negócios (regras de tipologia)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode criar tipologias e regras de tipologia na Interface do usuário da Web do Adobe Campaign. As tipologias permitem controlar, filtrar e priorizar o envio de deliveries. As tipologias são usadas para validar que os deliveries sempre contêm componentes obrigatórios (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do seu público-alvo (como clientes que não assinam, concorrentes ou clientes não fidelizados).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>Para obter mais informações, consulte a <a href="../administration/typologies.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Direcionar mapeamentos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível criar target mappings na interface da Web do Campaign. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema. O target mapping permite definir o público-alvo: perfis, beneficiários de contrato, operadores, assinantes, clientes potenciais etc.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>Para obter mais informações, consulte a <a href="../administration/target-mappings.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Detalhes do esquema</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode acessar os detalhes de um esquema selecionando seu nome na lista. A edição de campos personalizados agora pode ser acessada pelo botão <b>Editar campos personalizados</b>, disponível nos detalhes do esquema.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>Para obter mais informações, consulte a <a href="../administration/schemas.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versão de janeiro de 2025 {#25-1-release}
 
@@ -62,25 +121,6 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Melhorias {#25-1-improvements}

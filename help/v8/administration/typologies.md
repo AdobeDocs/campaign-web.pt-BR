@@ -1,20 +1,16 @@
 ---
 audience: end-user
-title: Trabalhar com tipologias
+title: Trabalhar com regras de negócio (tipologias)
 description: Saiba como trabalhar com tipologias e regras de tipologia para controlar, filtrar e monitorar o envio de deliveries.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 25%
 
 ---
 
-# Trabalhar com tipologias {#typologies}
+# Trabalhar com regras de negócio (tipologias) {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"

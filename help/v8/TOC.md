@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [Versão antecipada](rn/e-release-notes.md)
    + [Versão mais recente](rn/release-notes.md)
    + Versões anteriores {#previous-release-notes}
+      + [Versões de 2025](rn/release-notes-25.md)
       + [Versões de 2024](rn/release-notes-24.md)
    + [Atualizações da documentação](rn/documentation-updates.md)
 + Introdução ao Adobe Campaign {#start}
@@ -227,10 +228,12 @@ ht-degree: 99%
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
 + Configuração {#conf}
+   + [Trabalhar com regras de negócio (tipologias)](administration/typologies.md)
+   + [Gerenciar target mappings](administration/target-mappings.md)
+   + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar contas externas](administration/external-account.md)
-   + [Trabalhar com tipologias](administration/typologies.md)
-   + [Gerenciar enumerações](administration/enumerations.md)
    + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
+   + [Configurar contas externas](administration/external-account.md)
+   + [Gerenciar enumerações](administration/enumerations.md)
    + [Trabalhar com códigos JavaScript](administration/javascript-codes.md)
 + [Documentação do Campaign v8 (console) >](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home)

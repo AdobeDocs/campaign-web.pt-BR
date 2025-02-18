@@ -3,9 +3,9 @@ audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ffe6c2b2f8b022876eb4b1754915b5753aab7c1a
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2003'
 ht-degree: 100%
 
 ---
@@ -361,12 +361,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Script de inicialização de execução"
 >abstract="Script de inicialização de execução"
 
-<!--Schema-->
-
->[!CONTEXTUALHELP]
->id="acw_schema"
->title="Esquema"
->abstract="Esquema"
+<!-- Schema creation -->
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_type"
@@ -412,32 +407,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Iniciar atualização do banco de dados"
 >abstract="Esquema"
-
-
-
-<!-- Target Mapping -->
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_list"
->title="Direcionar mapeamentos"
->abstract="Direcionar mapeamentos"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_properties"
->title="Propriedades do target mapping"
->abstract="Propriedades do target mapping"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_mapping"
->title="Mapeamento do target mapping"
->abstract="Mapeamento do target mapping"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_denylist"
->title="Lista de bloqueios do target mapping"
->abstract="Lista de bloqueios do target mapping"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_storage"
->title="Armazenamento do target mapping"
->abstract="Armazenamento de bloqueios do target mapping"
