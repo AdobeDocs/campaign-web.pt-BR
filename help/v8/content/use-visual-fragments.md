@@ -4,20 +4,14 @@ title: Adicionar fragmentos visuais aos emails
 description: Saiba como adicionar fragmentos visuais aos emails
 badge: label="Disponibilidade limitada"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '573'
 ht-degree: 14%
 
 ---
 
 # Adicionar fragmentos visuais aos emails {#use-visual-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Fragmentos visuais de email"
->abstract="Agora você pode criar e usar fragmentos visuais. Esses são blocos visuais predefinidos que podem ser reutilizados em vários deliveries de email ou em modelos de conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!AVAILABILITY]
 >

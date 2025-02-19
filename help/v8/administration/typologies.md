@@ -3,14 +3,21 @@ audience: end-user
 title: Trabalhar com regras de negócio (tipologias)
 description: Saiba como trabalhar com tipologias e regras de tipologia para controlar, filtrar e monitorar o envio de deliveries.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1449'
 ht-degree: 25%
 
 ---
 
 # Trabalhar com regras de negócio (tipologias) {#typologies}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Regras de negócios"
+>abstract="Agora você pode criar tipologias e regras de tipologia na Interface do usuário da Web do Adobe Campaign. As tipologias permitem controlar, filtrar e priorizar o envio de deliveries."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"

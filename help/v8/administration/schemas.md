@@ -1,19 +1,27 @@
 ---
 title: Trabalhar com esquemas
 description: Saiba como trabalhar com esquemas.
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
 # Trabalhar com esquemas {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Trabalhar com esquemas"
+>abstract="Agora você pode acessar os detalhes de um esquema selecionando seu nome na lista. A edição de campos personalizados também pode ser acessada pelo botão **Editar detalhes personalizados**."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Esquemas"
->abstract="**[!DNL Adobe Campaign]** usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Nessa tela, você pode exibir todos os esquemas existentes. Os filtros estão disponíveis para ajudar a refinar a lista, como exibir apenas esquemas editáveis."
+>abstract="**[!DNL Adobe Campaign]** usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Nesta tela, você pode visualizar todos os esquemas existentes e acessar os detalhes de um esquema selecionando seu nome na lista. Os filtros estão disponíveis para ajudar a refinar a lista, como exibir apenas esquemas editáveis."
 
 ## Sobre schemas {#about}
 
@@ -64,7 +72,7 @@ A guia **[!UICONTROL Dados]** fornece informações sobre os dados do esquema.
 
 ## Editar campos personalizados {#fields}
 
-Os campos personalizados são atributos adicionais adicionados a esquemas prontos para uso por meio do console do Adobe Campaign. Eles permitem personalizar esquemas ao incluir novos atributos para atender às necessidades da sua organização.
+Os campos personalizados são atributos adicionais adicionados a esquemas prontos para uso por meio do console do Adobe Campaign. Eles permitem que você personalize esquemas, incluindo novos atributos para atender às necessidades da sua organização.
 
 Campos personalizados podem ser exibidos em várias telas, como detalhes do perfil na interface da Web do Campaign. Você pode controlar quais campos estão visíveis e como eles aparecem na interface. Para fazer isso, clique no botão **[!UICONTROL Editar detalhes personalizados]** no menu **[!UICONTROL Esquemas]**.
 

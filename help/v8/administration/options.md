@@ -1,21 +1,15 @@
 ---
-title: Configurar  [!DNL Campaign] opções
+title: 'Configurar opções do  [!DNL Campaign] '
 description: Saiba como configurar as opções do Campaign e criar suas próprias opções personalizadas.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '383'
+ht-degree: 2%
 
 ---
 
 # Configurar opções do [!DNL Campaign] {#options}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Criar opções personalizadas"
->abstract="Agora você pode criar suas próprias opções técnicas personalizadas para atender às suas necessidades. Isso é particularmente útil ao trabalhar com atividades de fluxo de trabalho **JavaScript code** para armazenar dados intermediários."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
