@@ -1,7 +1,8 @@
 ---
 title: Gerenciar target mappings
 description: Saiba como gerenciar target mappings.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 5%
