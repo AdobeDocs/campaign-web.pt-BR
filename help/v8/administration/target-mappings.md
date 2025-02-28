@@ -5,7 +5,7 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Target Mappings"
->abstract="Agora é possível criar target mappings na interface da Web do Campaign. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema."
+>title="Target mappings"
+>abstract="Agora é possível criar target mappings na interface do Campaign Web. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
@@ -38,12 +38,12 @@ Para obter mais informações sobre os mapeamentos de destino incorporados forne
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
 >title="Propriedades do target mapping"
->abstract="A seção **[!UICONTROL Properties]** permite definir configurações genéricas para o target mapping e a população direcionada."
+>abstract="A seção **[!UICONTROL Propriedades]** permite definir configurações genéricas para o target mapping e a população de destino."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="Mapeamento do target mapping"
->abstract="A seção **[!UICONTROL Mapping]** permite identificar quais atributos do esquema do target mapping devem ser usados para os vários campos de endereço de entrega."
+>abstract="A seção **[!UICONTROL Mapeamento]** permite identificar quais atributos do esquema de target mapping você deve usar para os vários campos de endereço de entrega."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"

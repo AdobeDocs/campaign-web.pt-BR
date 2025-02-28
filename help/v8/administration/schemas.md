@@ -1,10 +1,11 @@
 ---
 title: Trabalhar com esquemas
 description: Saiba como trabalhar com esquemas.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 26%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Trabalhar com esquemas"
->abstract="Agora você pode acessar os detalhes de um esquema selecionando seu nome na lista. A edição de campos personalizados também pode ser acessada pelo botão **Editar detalhes personalizados**."
+>abstract="Agora é possível acessar os detalhes de um esquema selecionando seu nome na lista. Também é possível editar campos personalizados por meio do botão **Editar detalhes personalizados**."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 
@@ -21,11 +22,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Esquemas"
->abstract="**[!DNL Adobe Campaign]** usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Nesta tela, você pode visualizar todos os esquemas existentes e acessar os detalhes de um esquema selecionando seu nome na lista. Os filtros estão disponíveis para ajudar a refinar a lista, como exibir apenas esquemas editáveis."
+>abstract="O **[!DNL Adobe Campaign]** usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Nesta tela, você pode ver todos os esquemas existentes e acessar os detalhes de um esquema selecionando seu nome na lista. Os filtros estão disponíveis para ajudar a refinar a lista, por exemplo, para exibir apenas esquemas editáveis."
 
 ## Sobre schemas {#about}
 
-**[!DNL Adobe Campaign]** usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Um esquema é um documento XML vinculado a uma tabela de banco de dados que define:
+O **[!DNL Adobe Campaign]** usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Um esquema é um documento XML vinculado a uma tabela de banco de dados que define:
 
 * A estrutura da tabela SQL (nome da tabela, campos, relacionamentos).
 * A estrutura de dados XML (elementos, atributos, hierarquia, tipos, valores padrão, rótulos).
@@ -46,7 +47,7 @@ Os esquemas podem ser acessados no menu **[!UICONTROL Administração]** > **[!U
 
 ![](assets/schemas-list.png)
 
-Nessa tela, você pode exibir todos os esquemas existentes. Os filtros estão disponíveis para ajudar a refinar a lista, como exibir apenas esquemas editáveis.
+Nessa tela, você pode exibir todos os esquemas existentes. Os filtros estão disponíveis para ajudar a refinar a lista, por exemplo, para exibir apenas esquemas editáveis.
 
 Para abrir um esquema, selecione seu nome. Uma visualização detalhada do esquema é exibida.
 
