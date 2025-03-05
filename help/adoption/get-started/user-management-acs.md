@@ -4,10 +4,10 @@ description: Saiba como migrar o gerenciamento de acesso do usuário do Campaign
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 3%
+source-wordcount: '982'
+ht-degree: 2%
 
 ---
 
@@ -46,9 +46,13 @@ Tanto no Adobe Campaign Standard quanto no Campaign V8, os **grupos de seguranç
 
 ## Abordagem de migração de Funções de usuário para Direitos nomeados
 
+>[!CAUTION]
+>
+>Durante a migração do Adobe Campaign Standard para o Campaign V8, os usuários com a função **Modelo de Dados**, mas não **Administração**, terão acesso automático ao **Administração**, pois a criação de esquemas no Campaign V8 requer direitos de administração. Para evitar isso, remova a função de **Modelo de Dados** antes da migração.
+
 No Adobe Campaign Standard, o termo **Função de usuário** é chamado de **Direito nomeado** no Campaign V8. A tabela abaixo descreve a terminologia usada para **Direitos nomeados** no Campaign V8 correspondente a **Funções do usuário** no Campaign Standard.
 
-| **Campaign Standard Função de usuário** | **Campaign V8 com nome correto** | **Descrição**  |
+| **Função de Usuário do Campaign Standard** | **Campaign V8 com nome correto** | **Descrição**  |
 |----------|---------|---------|
 | Administração | Administração | O usuário com o direito de Administração tem acesso total à instância. |
 | Modelo de dados  | Administração | Direito de executar publicações e criar recursos personalizados. Funcionalidade relacionada à criação de esquema disponível para o Administrador no Campaign V8.  |
@@ -64,6 +68,12 @@ No Adobe Campaign Standard, o termo **Função de usuário** é chamado de **Dir
 
 ## Abordagem de migração da unidade organizacional
 
+>[!CAUTION]
+>
+>As unidades organizacionais na Adobe Campaign Standard sem **Todas (todas)** como um pai direto ou indireto não serão migradas para o Campaign V8.
+></br>
+>Os usuários em vários grupos de segurança recebem a unidade organizacional do grupo de segurança com a classificação mais alta. Se vários grupos tiverem unidades de nível superior paralelas, o logon é restrito no Campaign Standard, mas concede acesso mais amplo no Campaign v8 após a migração, o que pode aumentar os privilégios. Para evitar isso, evite atribuir usuários a grupos de segurança com unidades organizacionais paralelas.
+
 No Adobe Campaign Standard, a **unidade organizacional** t está mapeada para o modelo de hierarquia **Pasta** existente no Campaign V8 para manter um controle de acesso semelhante. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
@@ -76,7 +86,7 @@ No Campaign V8, **Programas** são representados como **Pastas**. O Campaign V8 
 
 Ao usar **Grupos** e **Direitos nomeados**, os **Operadores** podem receber acesso a **Pastas** específicas da hierarquia de navegação, com a capacidade de atribuir permissões de leitura, gravação e exclusão. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
-Como um **Programa** é tratado como uma **Pasta** no Campaign V8, seu acesso pode ser gerenciado da mesma forma que qualquer outra pasta. Após a migração, os administradores de Campaign Standard podem seguir estas etapas:
+Como um **Programa** é tratado como uma **Pasta** no Campaign V8, seu acesso pode ser gerenciado da mesma forma que qualquer outra pasta. Após a migração, os administradores do Campaign Standard podem seguir estas etapas:
 
 1. No Explorer, clique com o botão direito do mouse em qualquer pasta e selecione **[!UICONTROL Propriedades...]**.
 1. Navegue até a guia **[!UICONTROL Segurança]**.
@@ -84,23 +94,23 @@ Como um **Programa** é tratado como uma **Pasta** no Campaign V8, seu acesso po
 
 ## Mapeamento de perfil de produto para acessar APIs REST 
 
-Para acessar APIs transacionais da instância de execução no Campaign V8, é necessário um novo **Perfil de produto**, além dos perfis de produto **Administrador** e **Centro de Mensagens**. Este novo **Perfil de produto** será adicionado às contas técnicas existentes ou pré-criadas no Campaign Standard.
+Para acessar APIs transacionais da instância de execução no Campaign V8, é necessário um novo **Perfil de produto**, além dos perfis de produto **Administrador** e **Centro de Mensagens**. Este novo **Perfil de produto** será adicionado às contas técnicas existentes ou pré-criadas na Campaign Standard.
 
-Após a migração, os usuários do Campaign Standard devem revisar seus **mapeamentos de Perfil de Produto** e atribuir o **Perfil de Produto** apropriado se não quiserem vincular suas **contas técnicas** ao Perfil de Produto do **Administrador**. Para integrações futuras, recomendamos usar a **ID do locatário** do Campaign V8 na **URL REST** em vez da Campaign Standard anterior **ID do locatário**.
+Após a migração, os usuários do Campaign Standard devem examinar seus **mapeamentos de Perfil de Produto** e atribuir o **Perfil de Produto** apropriado se não quiserem vincular suas **contas técnicas** ao Perfil de Produto do **Administrador**. Para integrações futuras, recomendamos usar a **ID do Locatário** do Campaign V8 na **URL REST** em vez da **ID do Locatário** do Campaign Standard anterior.
 
-## Migração de acesso aos recursos integrados do Campaign para operadores de Campaign Standard
+## Migração de acesso aos recursos integrados do Campaign para operadores do Campaign Standard
 
 Os operadores migrados do Campaign Standard terão acesso de leitura a recursos integrados específicos no Campaign V8.
 
 ## Funções e grupos de segurança não migrados {#non-migrated-groups-roles}
 
-Veja abaixo uma lista das funções de Campaign Standard que não foram migradas:
+Veja abaixo uma lista de funções do Campaign Standard que não foram migradas:
 
 * Conta de Retransmissão Padrão 
 
 * Push do Centro de mensagens 
 
-Veja abaixo uma lista de mapeamentos de grupos de segurança de Campaign Standard que não foram migrados.
+Veja abaixo uma lista de mapeamentos de grupos de segurança do Campaign Standard que não foram migrados.
 
 * Agentes do Centro de mensagens
 
@@ -109,3 +119,5 @@ Veja abaixo uma lista de mapeamentos de grupos de segurança de Campaign Standar
 * gerentes de aplicativos Adobe Experience Manager
 
 * Conta de retransmissão
+
+Observe que as funções personalizadas criadas e atribuídas a usuários no Adobe Campaign Standard não serão migradas para o Campaign V8.
