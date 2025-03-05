@@ -4,9 +4,9 @@ title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Use a nova interface do Campaign Web para:
 * Monitorar o envio e medir os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
 
 
-**Geração de conteúdo com o Assistente de IA**
+**Geração de conteúdo com o assistente de IA**
 
 Diga adeus às complicações da criação manual de conteúdo e adote uma nova era de campanhas simplificadas com nosso designer de conteúdo inovador habilitado pelo Microsoft Azure OpenAI e Adobe Firefly.
 
-Redefina a entrega de conteúdo com nosso editor avançado de arrastar e soltar WYSIWYG, projetado para oferecer simplicidade e eficiência. Com integração perfeita com o AEM, recursos de conteúdo dinâmico e o inovador Assistente de IA, essa ferramenta completa torna a criação de deliveries intuitiva, eficiente e altamente personalizada.
+Redefina a entrega de conteúdo com nosso editor avançado de arrastar e soltar WYSIWYG, projetado para oferecer simplicidade e eficiência. Com integração perfeita com o AEM, recursos de conteúdo dinâmico e o inovador Assistente de IA, essa ferramenta completa torna a criação de entregas intuitiva, eficiente e altamente personalizada.
 
-Aproveite o potencial dos algoritmos avançados do Assistente de IA para criar conteúdo atraente e personalizado que impulsiona os resultados. Aumente as taxas de abertura, click-throughs e conversões com a geração inteligente de conteúdo orientada por IA. Saiba mais [nesta seção](../email/generative-gs.md).
+Aproveite o potencial dos algoritmos avançados do Assistente de IA para criar conteúdo atrativo e personalizado que impulsiona os resultados. Aumente as taxas de abertura, click-throughs e conversões com a geração inteligente de conteúdo orientada por IA. Saiba mais [nesta seção](../email/generative-gs.md).
 
 **Atividades de workflow de campanha novas e reprojetadas**
 

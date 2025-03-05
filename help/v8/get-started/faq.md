@@ -3,9 +3,9 @@ title: Como utilizar a ajuda contextual de IA no Campaign Web
 description: Insira suas perguntas nos popovers de ajuda do Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Para saber onde começar, visite [esta página](../get-started/get-started.md).
 
 +++ Quais são os novos recursos e funcionalidades na nova interface da web?
 
-A nova interface do Adobe Campaign v8 oferece consistência com a Adobe Experience Platform e foi projetada para eficiência de marketing. A nova tela de fluxo de trabalho fornece um espaço de trabalho intuitivo e avançado para composição de público-alvo, gerenciamento de fluxo de trabalho e design de conteúdo, além de casos de uso integrados com aplicativos nativos da Adobe Experience Platform, como Journey Optimizer e Real-Time CDP.  Desperte a criatividade, aumente a produtividade e personalize campanhas entre canais em escala com o AI Assistant, incorporado nativamente no designer de mensagens do WYSIWYG.
+A nova interface do Adobe Campaign v8 oferece consistência com a Adobe Experience Platform e foi projetada para eficiência de marketing. A nova tela de fluxo de trabalho fornece um espaço de trabalho intuitivo e avançado para composição de público-alvo, gerenciamento de fluxo de trabalho e design de conteúdo, além de casos de uso integrados com aplicativos nativos da Adobe Experience Platform, como Journey Optimizer e Real-Time CDP.  Desperte a criatividade, aumente a produtividade e personalize campanhas entre canais em escala com o Assistente de IA, incorporado nativamente no designer de mensagens WYSIWYG.
 
 Os profissionais de marketing podem usar IA generativa para a elaboração completa de emails em HTML e a geração de textos e imagens com refinamento e sugestões de variantes. Novos recursos e funcionalidades podem ser revisados [nesta página](../rn/whats-new.md). Para saber mais sobre a nova interface e vê-la em ação, visite [esta página](../get-started/user-interface.md). Além disso, você pode visitar os [Tutoriais](https://experienceleague.adobe.com/pt-br/docs/campaign-web-learn/tutorials/overview){target="_blank"} para saber mais sobre a nova interface por meio de um conjunto de vídeos tutoriais.
 

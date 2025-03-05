@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ As versões da interface do usuário do Adobe Campaign Web operam em um modelo d
 
 As alterações e as melhorias disponíveis nas versões anteriores estão listadas [nesta página](release-notes-24.md).
 
-## Versão de fevereiro de 25 {#25-2-release}
+## Versão de fevereiro de 2025 {#25-2-release}
 
 **Data de lançamento**: 18 de fevereiro de 2025
 
-Os seguintes recursos e melhorias estarão disponíveis a partir da versão de fevereiro.
+Os seguintes recursos e melhorias estão disponíveis a partir da versão de fevereiro.
 
 ### Recursos {#25-2-features}
 
@@ -37,7 +37,7 @@ Os seguintes recursos e melhorias estarão disponíveis a partir da versão de f
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar tipologias e regras de tipologia na Interface do usuário da Web do Adobe Campaign. As tipologias permitem controlar, filtrar e priorizar o envio de deliveries. As tipologias são usadas para validar que os deliveries sempre contêm componentes obrigatórios (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do seu público-alvo (como clientes que não assinam, concorrentes ou clientes não fidelizados).</p>
+<p>Agora é possível criar tipologias e regras de tipologia na interface do Adobe Campaign Web. Elas permitem controlar, filtrar e priorizar o envio de entregas. Tipologias são usadas para validar que as entregas sempre contenham componentes obrigatórios (como um link de cancelamento de assinatura ou uma linha de assunto) ou regras de filtragem para excluir grupos do seu público-alvo (como pessoas que cancelaram a assinatura, concorrentes ou clientes sem fidelização).</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Para obter mais informações, consulte a <a href="../administration/typologies.md">documentação detalhada</a>.</p>
 </td>
@@ -48,13 +48,13 @@ Os seguintes recursos e melhorias estarão disponíveis a partir da versão de f
 <table>
 <thead>
 <tr>
-<th><strong>Direcionar mapeamentos</strong><br/></th>
+<th><strong>Target mappings</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar target mappings na interface da Web do Campaign. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema. O target mapping permite definir o público-alvo: perfis, beneficiários de contrato, operadores, assinantes, clientes potenciais etc.</p>
+<p>Agora é possível criar target mappings na interface do Campaign Web. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema. O target mapping permite definir o público-alvo: perfis, beneficiários de contrato, operadores, assinantes, clientes potenciais etc.</p>
 <img src="assets/do-not-localize/target-mapping.gif">
 <p>Para obter mais informações, consulte a <a href="../administration/target-mappings.md">documentação detalhada</a>.</p>
 </td>
@@ -71,7 +71,7 @@ Os seguintes recursos e melhorias estarão disponíveis a partir da versão de f
 <tbody>
 <tr>
 <td>
-<p>Agora você pode acessar os detalhes de um esquema selecionando seu nome na lista. A edição de campos personalizados agora pode ser acessada pelo botão <b>Editar campos personalizados</b>, disponível nos detalhes do esquema.</p>
+<p>Agora é possível acessar os detalhes de um esquema selecionando seu nome na lista. A edição de campos personalizados agora pode ser acessada pelo botão <b>Editar campos personalizados</b>, disponível nos detalhes do esquema.</p>
 <img src="assets/do-not-localize/schemas.gif">
 <p>Para obter mais informações, consulte a <a href="../administration/schemas.md">documentação detalhada</a>.</p>
 </td>
@@ -177,15 +177,15 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <table>
 <thead>
 <tr>
-<th><strong>Geração de página de aterrissagem com o Assistente de IA</strong><br/></th>
+<th><strong>Geração de páginas de destino com o Assistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Assistente de IA agora está disponível com seus deliveries de página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos.</p>
+<p>O Assistente de IA agora está disponível para entregas de página de destino, permitindo gerar texto, imagens ou layouts de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Para obter mais informações sobre o Assistente de IA, consulte a <a href="../email/generative-lp.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações sobre o Assistente de IA, consulte a <a href="../email/generative-lp.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
