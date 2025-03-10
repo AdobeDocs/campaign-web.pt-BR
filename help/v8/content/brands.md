@@ -5,7 +5,7 @@ description: Saiba como criar e gerenciar as diretrizes da sua marca
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -104,6 +104,6 @@ Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes po
 
    ![](assets/brands_5.png)
 
-As diretrizes da sua marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do menu do assistente de IA, permitindo que ele gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o assistente de IA](gs-generative.md)
+As diretrizes da sua marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do menu do assistente de IA, permitindo que ele gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o assistente de IA](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
