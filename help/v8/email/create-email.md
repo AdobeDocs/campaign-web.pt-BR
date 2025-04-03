@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 52%
 
 ---
@@ -164,7 +164,7 @@ Informações adicionais sobre como visualizar um email e enviar provas estão d
 
    >[!NOTE]
    >
-   >O botão **[!UICONTROL Simular conteúdo]** está desabilitado em casos de uso específicos. As limitações estão detalhadas [nesta seção](#content-simulation-limitations).
+   >O botão **[!UICONTROL Simular conteúdo]** está desabilitado em contextos específicos. As limitações estão detalhadas [nesta seção](#content-simulation-limitations).
 
 1. No lado esquerdo, selecione os perfis que deseja usar para visualizar o email.
 
@@ -195,7 +195,7 @@ Informações adicionais sobre como visualizar um email e enviar provas estão d
 
    Você pode verificar o status do envio e acessar as provas enviadas a qualquer momento clicando no botão **[!UICONTROL Exibir provas]** na tela de conteúdo simulado.
 
-## Limitações da simulação de conteúdo {#content-simulation-limitations}
+### Limitações da simulação de conteúdo {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"

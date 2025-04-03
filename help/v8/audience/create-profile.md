@@ -44,7 +44,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="Outros"
->abstract="Esta seção fornece atributos incorporados adicionais. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
+>abstract="Esta seção fornece atributos integrados adicionais. Para modificar qualquer informação, faça as alterações diretamente no respectivo campo e clique no botão **Salvar** localizado no canto superior direito da tela."
 
 Para criar um perfil, siga estas etapas:
 
