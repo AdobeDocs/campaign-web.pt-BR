@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 57%
+source-wordcount: '1493'
+ht-degree: 52%
 
 ---
 
@@ -90,7 +90,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    >[!NOTE]
    >
-   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos de Experience Platform para o Adobe Campaign e enviar o delivery do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
@@ -162,6 +162,10 @@ Informações adicionais sobre como visualizar um email e enviar provas estão d
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >O botão **[!UICONTROL Simular conteúdo]** está desabilitado em casos de uso específicos. As limitações estão detalhadas [nesta seção](#content-simulation-limitations).
+
 1. No lado esquerdo, selecione os perfis que deseja usar para visualizar o email.
 
    O painel direito exibe uma visualização do email com base no perfil selecionado. Se você tiver adicionado vários perfis, é possível alternar entre eles para visualizar o email correspondente.
@@ -190,6 +194,37 @@ Informações adicionais sobre como visualizar um email e enviar provas estão d
    ![](assets/proof-sent.png){zoomable="yes"}
 
    Você pode verificar o status do envio e acessar as provas enviadas a qualquer momento clicando no botão **[!UICONTROL Exibir provas]** na tela de conteúdo simulado.
+
+## Limitações da simulação de conteúdo {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="A simulação de conteúdo não é suportada"
+>abstract="O botão **Simular conteúdo** está desabilitado porque a entrega multilíngue contém apenas uma localidade."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="A simulação de conteúdo não é suportada"
+>abstract="O botão **Simular conteúdo** está desabilitado porque não é compatível com entregas reconciliadas nesta fase."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="A simulação de conteúdo não é suportada"
+>abstract="O botão **Simular conteúdo** está desabilitado porque não tem suporte no modo Campaign Enterprise Full Federated Access (FFDA)."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="A simulação de conteúdo não é suportada"
+>abstract="O botão **Simular conteúdo** está desabilitado porque nenhum conteúdo foi carregado."
+
+Em alguns casos, não é possível executar a simulação de conteúdo, e o botão **[!UICONTROL Simular conteúdo]** está desabilitado.
+
+A simulação de conteúdo não é compatível nestes casos:
+
+<!--* When a multilingual delivery contains only one locale,-->
+* Com deliveries reconciliados,
+* Quando seu modelo de implantação do Campaign é [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* Quando nenhum arquivo tiver sido carregado.
 
 ## Enviar e monitorar o email {#prepare-send}
 
