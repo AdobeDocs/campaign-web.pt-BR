@@ -2,10 +2,10 @@
 title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,19 +19,19 @@ Você também pode usar o logon único (SSO) para se conectar ao Campaign. Norma
 
 Estas são as etapas básicas para fazer logon na Adobe Experience Cloud:
 
-1. Navegue até [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+1. Navegue até [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Faça logon usando sua Adobe ID ou Enterprise ID. Saiba mais sobre os tipos de identidade da Adobe [neste artigo](https://helpx.adobe.com/br/enterprise/using/identity.html){target="_blank"}.
+1. Faça logon usando sua Adobe ID ou Enterprise ID. Saiba mais sobre os tipos de identidade na Adobe em [este artigo](https://helpx.adobe.com/br/enterprise/using/identity.html).
 
    Depois de fazer logon na Experience Cloud, você pode acessar rapidamente todas as soluções e aplicativos.
 
-   ![](assets/exc-home.png){zoomable="yes"}
+   ![](assets/exc-home.png)
 
 1. Verifique se você está na organização correta.
 
-   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![](assets/exc-orgs.png)
 
-   Saiba mais sobre as organizações da Adobe Experience Cloud [neste artigo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre Organizações na Adobe Experience Cloud em [este artigo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
 
 
 ## Acesso ao Adobe Campaign {#access-to-campaign}
@@ -40,11 +40,11 @@ Para acessar o ambiente do Campaign, selecione **Campaign** na seção **Acesso 
 
 Se já estiver conectado a outra solução da Adobe Experience Cloud, você também poderá acessar o ambiente do Campaign por meio do alternador de soluções, na parte superior direita da tela.
 
-![](assets/solution-switcher.png){zoomable="yes"}
+![](assets/solution-switcher.png)
 
 Se você tiver acesso a vários ambientes, incluindo o Painel de controle do Campaign, clique no botão **Iniciar** da instância correta.
 
-![](assets/launch-campaign.png){zoomable="yes"}
+![](assets/launch-campaign.png)
 
 Agora você está conectado ao Campaign. Saiba como começar a usar a interface [nesta página](user-interface.md).
 
@@ -100,11 +100,11 @@ Navegue na barra superior da interface para:
 * compartilhar feedback sobre a interface do Campaign Web
 * alternar entre suas organizações
 * alternar entre as soluções e aplicativos da Adobe Experience Cloud
-* procurar ajuda sobre a [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}
+* procure ajuda sobre o [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR)
 * verificar as notificações do produto
 * editar o perfil da Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar para tema claro/escuro](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png)
 
 ## Navegadores compatíveis {#browsers}
 
@@ -134,17 +134,10 @@ Para alterar o idioma:
 1. Em seguida, clique no link de idioma exibido sob o seu endereço de email.
 1. Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente usado não esteja traduzido em seu idioma nativo.
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## Temas escuro e claro {#dark-theme}
 
 O Adobe Campaign está disponível em temas claros e escuros. Por padrão, a interface é habilitada no tema claro. Para mudar para o tema escuro, clique no ícone do seu perfil e use o botão **Tema escuro** para habilitá-lo/desabilitá-lo.
 
-As configurações de perfil do usuário e as preferências da conta estão detalhadas [nesta seção](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR#preferences){target="_blank"}.
+As configurações de perfil de usuário e as preferências da conta estão detalhadas em [esta seção](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR#preferences).
 
-Saiba mais sobre os componentes da interface central da Experience Cloud [nesta documentação](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre os Componentes da Interface Central do Experience Cloud em [esta documentação](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR).

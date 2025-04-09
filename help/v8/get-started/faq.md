@@ -1,11 +1,11 @@
 ---
-title: Como utilizar a ajuda contextual de IA no Campaign Web
-description: Insira suas perguntas nos popovers de ajuda do Campaign Web
+title: Perguntas frequentes
+description: Perguntas frequentes sobre a interface da Web do Campaign
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ A seção a seguir lista as perguntas frequentes sobre a nova interface do Campa
 
 +++ Qual versão do Adobe Campaign é necessária para acessar a nova interface da web?
 
-Para acessar a nova interface, é necessário o Adobe Campaign versão 8.6 e o [Adobe Identity Management System (IMS)](https://helpx.adobe.com/br/enterprise/using/identity.html){target="_blank"} é obrigatório. Informações adicionais sobre o IMS podem ser revisadas [aqui](https://experienceleague.adobe.com/pt-br/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"}. Para clientes no Adobe Campaign Managed Cloud Services que buscam informações adicionais sobre como atualizar para a nova versão, entre em contato com o gerente de transição atribuído.
+Para acessar a nova interface de usuário, é necessário o Adobe Campaign versão 8.6 e o [Adobe Identity Management System (IMS)](https://helpx.adobe.com/br/enterprise/using/identity.html){target="_blank"} é obrigatório. Informações adicionais sobre IMS podem ser revisadas [aqui](https://experienceleague.adobe.com/pt-br/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"}. Para clientes no Adobe Campaign Managed Cloud Services que buscam informações adicionais sobre como atualizar para a nova versão, entre em contato com o gerente de transição atribuído.
 
 +++
 
@@ -30,7 +30,7 @@ Para saber onde começar, visite [esta página](../get-started/get-started.md).
 
 A nova interface do Adobe Campaign v8 oferece consistência com a Adobe Experience Platform e foi projetada para eficiência de marketing. A nova tela de fluxo de trabalho fornece um espaço de trabalho intuitivo e avançado para composição de público-alvo, gerenciamento de fluxo de trabalho e design de conteúdo, além de casos de uso integrados com aplicativos nativos da Adobe Experience Platform, como Journey Optimizer e Real-Time CDP.  Desperte a criatividade, aumente a produtividade e personalize campanhas entre canais em escala com o Assistente de IA, incorporado nativamente no designer de mensagens WYSIWYG.
 
-Os profissionais de marketing podem usar IA generativa para a elaboração completa de emails em HTML e a geração de textos e imagens com refinamento e sugestões de variantes. Novos recursos e funcionalidades podem ser revisados [nesta página](../rn/whats-new.md). Para saber mais sobre a nova interface e vê-la em ação, visite [esta página](../get-started/user-interface.md). Além disso, você pode visitar os [Tutoriais](https://experienceleague.adobe.com/pt-br/docs/campaign-web-learn/tutorials/overview){target="_blank"} para saber mais sobre a nova interface por meio de um conjunto de vídeos tutoriais.
+Os profissionais de marketing podem usar IA generativa para a elaboração completa de emails em HTML e a geração de textos e imagens com refinamento e sugestões de variantes. Novos recursos e funcionalidades podem ser revisados [nesta página](../rn/whats-new.md). Para saber mais sobre a nova interface e vê-la em ação, visite [esta página](../get-started/user-interface.md). Além disso, você pode visitar os [Tutoriais](https://experienceleague.adobe.com/pt-br/docs/campaign-web-learn/tutorials/overview){target="_blank"} para saber mais sobre a nova interface por meio de um conjunto de vídeos de instruções.
 
 +++
 
