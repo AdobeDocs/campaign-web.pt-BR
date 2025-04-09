@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
+source-git-commit: bf7ee45a0702b66af6962453893cf9c50c140d54
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '639'
 ht-degree: 20%
 
 ---
@@ -51,6 +51,11 @@ O modelador de consultas está disponível em todo contexto onde é preciso defi
 >![](assets/target-warning.png){zoomable="yes"}
 
 ## Interface do modelador de consultas {#interface}
+
+>[!CONTEXTUALHELP]
+>id="acw_rule_builder_switch_button"
+>title="Nova experiência de usuário"
+>abstract="Use essa alternância para alternar entre o modelador de consulta clássico e a nova experiência do construtor de regras."
 
 O modelador de consultas fornece uma tela central onde você cria a consulta e um painel direito fornecendo informações sobre a consulta.
 
