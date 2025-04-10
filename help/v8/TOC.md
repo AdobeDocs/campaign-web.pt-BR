@@ -6,9 +6,9 @@ title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,19 +86,19 @@ ht-degree: 99%
       + [Introdução a alertas de entrega](msg/delivery-alerting.md)
       + [Painéis de alertas de entrega](msg/delivery-alerting-dashboards.md)
       + [Critérios de alertas de entrega](msg/delivery-alerting-criteria.md)
-+ Gestão de conteúdo {#content}
-   + Criar conteúdo dinâmico {#dynamic-content}
++ Gestão de conteúdo {#content}
+   + Criar conteúdo dinâmico {#dynamic-content}
       + [Como tornar o conteúdo dinâmico?](personalization/gs-personalization.md)
       + [Adicionar personalização](personalization/personalize.md)
       + [Criar conteúdo condicional](personalization/conditions.md)
    + Reutilizar conteúdo {#manage-reusable-content}
       + [Trabalho com modelos de conteúdo](email/create-email-templates.md)
-      + Fragmentos de conteúdo {#fragments}
+      + Fragmentos de conteúdo  {#fragments}
          + [Introdução aos fragmentos de conteúdo](content/fragments.md)
          + [Criar e editar fragmentos de conteúdo](content/create-fragment.md)
          + [Usar fragmentos visuais em emails](content/use-visual-fragments.md)
          + [Usar fragmentos de expressão no editor de expressão](content/use-expression-fragments.md)
-   + Design de emails {#email-design}
+   + Design de emails {#email-design}
       + [Introdução ao Designer de email](email/get-started-email-designer.md)
       + Começar a definir seu email {#start-design}
          + [Iniciar do zero](email/create-email-content.md)
@@ -125,7 +125,7 @@ ht-degree: 99%
       + [Geração de página de destino com IA](email/generative-lp.md)
       + [Casos de uso do Assistente de IA](email/generative-uc.md)
       + [Criar e gerenciar suas marcas (beta)](content/brands.md)
-+ Página de destino {#landing-pages}
++ Páginas de destino {#landing-pages}
    + [Introdução às páginas de destino](landing-pages/get-started-lp.md)
    + [Crie e publique uma página de destino](landing-pages/create-lp.md)
    + [Crie o conteúdo da página de destino](landing-pages/lp-content.md)
@@ -135,15 +135,15 @@ ht-degree: 99%
    + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
    + [Dimensões de direcionamento](audience/targeting-dimensions.md)
    + [Quarentena](audience/quarantine.md)
-   + Trabalho com perfis {#work-with-profiles}
+   + Trabalho com perfis {#work-with-profiles}
       + [Introdução a perfis](audience/about-recipients.md)
       + [Conheça os detalhes de perfis](audience/profile-view.md)
       + [Criar um perfil](audience/create-profile.md)
       + [Trabalhe com perfis de teste](audience/test-profiles.md)
-   + Trabalho com públicos-alvo{#audiences}
+   + Trabalhar com públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](audience/manage-audience.md)
       + [Criar públicos-alvo](audience/create-audience.md)
-   + Selecione os destinatários da entrega {#target-audiences}
+   + Selecionar os destinatários da entrega {#target-audiences}
       + [Introdução à seleção de público-alvo](audience/delivery-recipients.md)
       + [Selecione um público-alvo já existente](audience/add-audience.md)
       + [Criar um público-alvo único](audience/one-time-audience.md)
@@ -158,8 +158,8 @@ ht-degree: 99%
    + [Acesso e gerenciamento de suas campanhas](campaigns/manage-campaigns.md)
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
    + [Planos e programas](administration/plans-programs.md)
-+ Workflows {#wf}
-   + [Introdução a workflows](workflows/gs-workflows.md)
++ Fluxos de trabalho {#wf}
+   + [Introdução aos fluxos de trabalho](workflows/gs-workflows.md)
    + [Medidas de proteção e limitações](get-started/guardrails.md)
    + [Variáveis de evento do fluxo de trabalho](workflows/event-variables.md)
    + [Acessar e gerenciar fluxos de trabalho](workflows/access-monitor.md)
@@ -170,7 +170,7 @@ ht-degree: 99%
       + [Orquestrar atividades](workflows/orchestrate-activities.md)
       + [Definir as configurações do workflow](workflows/workflow-settings.md)
       + [Iniciar e monitorar fluxos de trabalho](workflows/start-monitor-workflows.md)
-   + Trabalhar com atividades de workflow {#design-workflows}
+   + Trabalhar com atividades de fluxo de trabalho {#design-workflows}
       + [Sobre atividades de fluxo de trabalho](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)
       + [Criar público-alvo](workflows/activities/build-audience.md)
@@ -212,7 +212,7 @@ ht-degree: 99%
       + [Relatório de entrega por push](reporting/push-report.md)
       + [Relatório de entrega de SMS](reporting/sms-report.md)
       + [Relatório de entrega de correspondência direta](reporting/direct-mail.md)
-   + Relatórios do Campaign {#campaign-report}
+   + Relatórios de campanha {#campaign-report}
       + [Introdução a relatórios de campanha](reporting/campaign-reports.md)
       + [Relatório de campanha por email](reporting/campaign-reports-email.md)
       + [Relatório de campanha por push](reporting/campaign-reports-push.md)
@@ -229,7 +229,7 @@ ht-degree: 99%
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
 + Configuração {#conf}
-   + [Trabalhar com regras de negócio (tipologias)](administration/typologies.md)
+   + [Trabalhar com regras de negócios (tipologias)](administration/typologies.md)
    + [Gerenciar target mappings](administration/target-mappings.md)
    + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
