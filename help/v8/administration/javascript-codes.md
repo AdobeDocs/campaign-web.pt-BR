@@ -2,10 +2,10 @@
 title: Trabalhar com códigos JavaScript
 description: Saiba como trabalhar com códigos JavaScript.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 4%
+source-wordcount: '479'
+ht-degree: 3%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 4%
 
 ## Sobre códigos JavaScript {#about}
 
-Os códigos JavaScript permitem criar funções reutilizáveis que podem ser usadas em workflows, de modo semelhante a uma biblioteca. Essas funções são armazenadas no menu **[!UICONTROL Administração]** > **[!UICONTROL Códigos JavaScript]** no painel de navegação esquerdo.
+Os códigos JavaScript permitem criar funções reutilizáveis que podem ser usadas em fluxos de trabalho, de modo semelhante a uma biblioteca. Essas funções são armazenadas no menu **[!UICONTROL Administração]** > **[!UICONTROL Códigos JavaScript]** no painel de navegação esquerdo.
 
-![](assets/javascript-list.png)
+![Interface da lista de códigos JavaScript mostrando as opções disponíveis](assets/javascript-list.png)
 
 Na lista de códigos JavaScript, é possível:
 
 * **Duplicar ou excluir um código**: clique no botão de reticências e selecione a ação desejada.
-* **Modificar um código**: clique no nome de um código para abrir suas propriedades. Faça as alterações e salve.
+* **Modificar um código**: clique no nome de um código para abrir suas propriedades, fazer suas alterações e salvar.
 * **Criar um novo código JavaScript**: clique no botão **[!UICONTROL Criar código JavaScript]**.
 
 >[!NOTE]
@@ -46,10 +46,10 @@ Para criar um código JavaScript, siga estas etapas:
 1. Defina as propriedades do código:
 
    * **[!UICONTROL Namespace]**: especifique o namespace relevante para seus recursos personalizados. Por padrão, o namespace é &quot;cus&quot;, mas pode variar dependendo da implementação.
-   * **[!UICONTROL Nome]**: o identificador exclusivo a ser usado para fazer referência ao código.
-   * **[!UICONTROL Rótulo]**: o rótulo descritivo a ser exibido na lista de códigos JavaScript.
+   * **[!UICONTROL Nome]**: o identificador exclusivo usado para fazer referência ao código.
+   * **[!UICONTROL Rótulo]**: o rótulo descritivo exibido na lista de códigos do JavaScript.
 
-   ![](assets/javascript-create.png)
+   ![Interface de criação do código JavaScript mostrando campos de namespace, nome e rótulo](assets/javascript-create.png)
 
    >[!NOTE]
    >
@@ -59,24 +59,24 @@ Para criar um código JavaScript, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Criar código]** para definir o código JavaScript. O painel esquerdo fornece dois menus que permitem usar funções predefinidas relacionadas a condições e formatação de data.
 
-   ![](assets/javascript-code.png)
+   ![Interface do editor de código JavaScript mostrando funções predefinidas](assets/javascript-code.png)
 
 1. Clique em **[!UICONTROL Confirmar]** para salvar seu código.
 
-1. Quando o código JavaScript estiver pronto, clique em **[!UICONTROL Criar]**.  O código JavaScript agora está disponível para uso em workflows.
+1. Quando o código JavaScript estiver pronto, clique em **[!UICONTROL Criar]**. O código JavaScript agora está disponível para uso em workflows.
 
 ## Usar um código JavaScript de um workflow {#workflow}
 
 ### Carregar bibliotecas de código do JavaScript {#library}
 
-Você pode fazer referência a códigos JavaScript em workflows para evitar a regravação de códigos para tarefas repetitivas. Para usar esses códigos, primeiro é necessário carregar a biblioteca correspondente no script de inicialização do workflow. Isso permite carregar todas as bibliotecas que contêm as funções que você deseja usar no fluxo de trabalho uma vez.
+Você pode fazer referência a códigos JavaScript em workflows para evitar a regravação de códigos para tarefas repetitivas. Para usar esses códigos, carregue a biblioteca correspondente no script de inicialização do fluxo de trabalho. Isso permite carregar todas as bibliotecas que contêm as funções que você deseja usar no fluxo de trabalho uma vez.
 
 Para carregar uma biblioteca, siga estas etapas:
 
 1. Abra um workflow e clique no botão **[!UICONTROL Configurações]**.
 1. Navegue até a seção **[!UICONTROL Script de inicialização]** e clique em **[!UICONTROL Criar código]**.
 
-   ![](assets/javascript-initialization.png)
+   ![Interface de script de inicialização de fluxo de trabalho mostrando a opção de criação de código](assets/javascript-initialization.png)
 
 1. Use a sintaxe abaixo no código para carregar uma biblioteca:
 
@@ -93,4 +93,4 @@ Para carregar uma biblioteca, siga estas etapas:
 
 Depois que a biblioteca do JavaScript for carregada, você poderá fazer referência às funções definidas no código JavaScript diretamente no fluxo de trabalho, normalmente usando uma atividade **[!UICONTROL JavaScript code]**.
 
-![](assets/javascript-function.png)
+![Interface de fluxo de trabalho mostrando o uso da função JavaScript](assets/javascript-function.png)

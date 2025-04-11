@@ -2,10 +2,10 @@
 title: Gerenciar enumerações
 description: Saiba como trabalhar com enumerações
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 34%
+source-wordcount: '672'
+ht-degree: 30%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 34%
 >title="Criar enumerações"
 >abstract="Agora é possível criar enumerações diretamente por meio da interface do Adobe Campaign Web. Uma enumeração é uma lista de valores sugeridos pelo sistema para preencher campos. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
@@ -39,7 +38,7 @@ Uma enumeração é uma lista de valores sugeridos pelo sistema para preencher c
 
 Os valores desse tipo de campo são definidos por meio do menu **[!UICONTROL Administração]** / **[!UICONTROL Enumerações]** no painel de navegação esquerdo.
 
-![](assets/enumeration-list.png)
+![Lista discriminada exibida no menu Administração](assets/enumeration-list.png)
 
 ## Criar uma lista discriminada {#create}
 
@@ -49,18 +48,18 @@ Para criar uma lista discriminada, siga estas etapas:
 
 1. Insira um **[!UICONTROL Rótulo]** e um **[!UICONTROL Nome interno]** para a enumeração.
 
-   ![](assets/enumeration-create.png)
+   ![Criar tela de enumeração mostrando campos de rótulo e nome interno](assets/enumeration-create.png)
 
 1. Selecione a enumeração **[!UICONTROL Type]**:
 
-   * **[!UICONTROL Enumerações]** fechadas têm uma lista fixa de valores que só podem ser modificados no menu **[!UICONTROL Enumerations]**.
+   * **[!UICONTROL Enumerações]** fechadas têm uma lista fixa de valores, que só podem ser modificados no menu **[!UICONTROL Enumerations]**.
    * As enumerações **[!UICONTROL Abertas]** permitem que os usuários adicionem novos valores diretamente nos campos com base nessa enumeração.
    * Enumerações **[!UICONTROL System]** estão associadas a campos do sistema.
    * As listas discriminadas de **[!UICONTROL emoticon]** são usadas para atualizar a lista de emoticons.
 
 1. Clique em **[!UICONTROL Criar]**. Os detalhes da lista discriminada são exibidos, permitindo adicionar valores à lista.
 
-   ![](assets/enumeration-details.png)
+   ![Tela de detalhes da enumeração mostrando opções para adicionar valores](assets/enumeration-details.png)
 
 1. Para adicionar um valor, clique no botão **[!UICONTROL Adicionar valor]** e configure-o conforme necessário:
 
@@ -68,35 +67,34 @@ Para criar uma lista discriminada, siga estas etapas:
    * **[!UICONTROL Nome interno]**: o nome interno do valor (para enumerações do sistema).
    * **[!UICONTROL U+ (nome interno)]** (enumerações de emoticons): o código unicode do emoticon (para enumerações de emoticons).
 
-   ![](assets/enumeration-emoticon.png)
+   ![Tela Adicionar valor mostrando campos para rótulo, nome interno e código unicode](assets/enumeration-emoticon.png)
 
-1. Salve as alterações. A enumeração agora é atualizada nas telas onde é usada.
+1. Salve as alterações. A enumeração é atualizada nas telas onde é usada.
 
 ## Caso de uso: adicionar valores predefinidos a uma enumeração {#uc}
 
 Por padrão, o campo &quot;Origem&quot; na tela de detalhes do perfil permite que os usuários insiram qualquer valor livremente.
 
-![](assets/enumeration-uc-profile.png)
+![Tela de detalhes do perfil mostrando o campo Origem](assets/enumeration-uc-profile.png)
 
-Cada vez que um usuário insere um valor para o campo, o valor é adicionado automaticamente à lista discriminada &quot;Origem&quot;, o que pode levar a valores redundantes, inconsistentes ou errôneos ao longo do tempo na lista de valores.
+Cada vez que um usuário insere um valor para o campo, o valor é automaticamente adicionado à lista discriminada &quot;Origem&quot;. Isso pode levar a valores redundantes, inconsistentes ou errôneos ao longo do tempo na lista de valores.
 
-![](assets/enumeration-uc-choice.png)
+![Lista discriminada de origem mostrando valores inseridos pelo usuário inconsistentes](assets/enumeration-uc-choice.png)
 
-Para garantir a consistência dos dados e orientar os usuários ao preencher o campo, é possível definir um conjunto de valores predefinidos. Siga estas etapas:
+Para garantir a consistência dos dados e orientar os usuários ao preencher o campo, defina um conjunto de valores predefinidos. Siga estas etapas:
 
 1. Vá para o menu **[!UICONTROL Enumerations]** e abra a lista discriminada &quot;Origin&quot;.
 
 2. Revise a lista de valores inseridos pelo usuário e limpe-a. Clique no botão de reticências ao lado de um valor para excluí-lo. Se a lista contiver muitas inconsistências, exclua toda a lista discriminada e recrie-a do zero.
 
-   ![](assets/enumeration-uc-clean.png)
+   ![Tela mostrando opções para limpar os valores inseridos pelo usuário](assets/enumeration-uc-clean.png)
 
 3. Adicione valores predefinidos. Para fazer isso, clique no botão **[!UICONTROL Adicionar valor]** e insira os valores predefinidos que os usuários devem selecionar.
 
-   ![](assets/enumeration-uc-create.png)
+   ![Tela mostrando valores predefinidos sendo adicionados à enumeração](assets/enumeration-uc-create.png)
 
-4. Para impor a consistência, alterne o tipo de enumeração para **[!UICONTROL Fechado]**, o que restringe os usuários aos valores predefinidos.
-Se for necessária flexibilidade, mantenha-a **[!UICONTROL Aberta]** para permitir novas entradas de usuário.
+4. Para impor a consistência, alterne o tipo de enumeração para **[!UICONTROL Fechado]**, o que restringe os usuários aos valores predefinidos. Se for necessária flexibilidade, mantenha-a **[!UICONTROL Aberta]** para permitir novas entradas de usuário.
 
 5. Retorne à tela de detalhes do perfil. O campo &quot;Origem&quot; agora exibe os valores predefinidos para seleção.
 
-   ![](assets/enumeration-uc-populated.png)
+   ![Tela de detalhes do perfil mostrando valores predefinidos no campo Origem](assets/enumeration-uc-populated.png)

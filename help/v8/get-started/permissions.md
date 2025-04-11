@@ -3,46 +3,45 @@ audience: end-user
 title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: f352f4e726eff50527d0b9a04d0506600c12b822
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 14%
 
 ---
 
-
 # Permissões {#permissions}
 
-Cada usuário no Adobe Campaign tem suas próprias permissões e restrições no aplicativo. O usuário pode fazer parte de um grupo de operadores e herdar as permissões do grupo.
+Cada usuário no Adobe Campaign tem permissões e restrições específicas no aplicativo. O usuário pode pertencer a um grupo de operadores e herdar as permissões do grupo.
 
-De acordo com as permissões, um(a) operador(a) pode:
+Com base em suas permissões, um operador pode:
 
-* Acessar certas funcionalidades
-* Acessar certos dados
-* Acessar certas ações (criar, modificar, excluir)
+* Acessar determinados recursos
+* Acessar determinados dados
+* Acessar determinadas ações (criar, modificar, excluir)
 
-O procedimento detalhado para configurar permissões no Adobe Campaign está disponível na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+Um procedimento detalhado para configurar permissões no Adobe Campaign está disponível na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 ## Permissões de pastas {#folder-permissions}
 
-De acordo com os direitos, existe a possibilidade de exibir e gerenciar as permissões de pastas nas **[!UICONTROL Configurações de pasta]**.
+Com base nos seus direitos, você pode exibir e gerenciar permissões em pastas nas **[!UICONTROL Configurações de pasta]**.
 
-Veja abaixo um exemplo de uma pasta de entrega:
+Veja abaixo um exemplo de uma pasta de delivery:
 
-![](assets/folder_settings.png){zoomable="yes"}
+![Exemplo de configurações de pasta no Adobe Campaign](assets/folder_settings.png){zoomable="yes"}
 
-Na seção **[!UICONTROL Segurança]** das **[!UICONTROL Configurações de pasta]**, é possível exibir e gerenciar (adicionar ou excluir) operadores ou grupos que podem acessar a pasta.
+Na seção **[!UICONTROL Segurança]** das **[!UICONTROL Configurações de pasta]**, você pode exibir e gerenciar (adicionar ou excluir) operadores ou grupos que podem acessar a pasta.
 
-![](assets/folder_security.png){zoomable="yes"}
+![Exemplo de configurações de segurança de pasta no Adobe Campaign](assets/folder_security.png){zoomable="yes"}
 
-É possível clicar diretamente nas permissões e alterá-las para **[!UICONTROL Permitir]** ou **[!UICONTROL Negar]**.
+Você pode clicar diretamente nas permissões e alterá-las para **[!UICONTROL Permitidas]** ou **[!UICONTROL Negadas]**.
 
-![](assets/folder_security_denied.png){zoomable="yes"}
+![Exemplo de permissões negadas nas configurações de segurança da pasta](assets/folder_security_denied.png){zoomable="yes"}
 
-Se a opção **[!UICONTROL Propagar]** estiver habilitada, todas as permissões definidas para uma pasta serão aplicadas às suas subpastas. Essas permissões podem ser sobrecarregadas para cada subpasta.
+Se a opção **[!UICONTROL Propagar]** estiver habilitada, todas as permissões definidas para uma pasta serão aplicadas a todas as suas subpastas. Essas permissões podem ser substituídas para cada subpasta.
 
-Se a opção **[!UICONTROL Pasta do sistema]** estiver habilitada, o acesso será permitido a todos os operadores, independentemente das permissões.
+Se a opção **[!UICONTROL Pasta do sistema]** for selecionada, o acesso será permitido a todos os operadores, independentemente de suas permissões.
 
 Também é possível [gerenciar as permissões nas pastas do console do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
-Todas as permissões na interface do Campaign Web são sincronizadas com as permissões do console do cliente do Campaign. 
+Todas as permissões na interface da Web do Campaign são sincronizadas com as permissões do Console do cliente do Campaign.

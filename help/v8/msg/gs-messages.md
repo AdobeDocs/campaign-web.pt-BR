@@ -3,20 +3,21 @@ audience: end-user
 title: Introdução a mensagens e entregas no Adobe Campaign Web
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 42df1758c2d1a4eb78012c8aea8b25f1fdd50148
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 38%
 
 ---
 
+
 # Introdução a mensagens{#gs-messages}
 
-Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir sua eficácia utilizando vários relatórios dedicados.
+Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS e notificações por push, e medir seu impacto usando vários relatórios dedicados.
 
-Essas mensagens são criadas e enviadas através de entregas e podem ser personalizadas para cada destinatário. Essas entregas podem ser independentes ou incluídas em workflows no contexto de uma campanha de marketing. Saiba como criar e gerenciar entregas no Adobe Campaign [nesta seção](gs-deliveries.md).
+Essas mensagens são projetadas e enviadas por meio de deliveries, e podem ser personalizadas para cada recipient. Esses deliveries podem ser independentes ou incluídos em workflows no contexto de uma campanha de marketing. Saiba como criar e gerenciar entregas no Adobe Campaign [nesta seção](gs-deliveries.md).
 
-O Adobe Campaign v8 vem com os seguintes canais de entrega: email, SMS, notificação por push e correspondência direta. Outros canais, como mensagens in-app ou marketing social no X (Twitter), ainda não são compatíveis.
+O Adobe Campaign v8 inclui os seguintes canais de entrega: email, SMS, notificação por push e correspondência direta. Outros canais, como mensagens no aplicativo ou marketing social com X (Twitter), ainda não são compatíveis.
 
 Navegue pelas seções abaixo para saber como criar e enviar mensagens.
 
@@ -24,7 +25,7 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
     <tr style="border: 0;">
     <td align="center">
     <a href="../email/create-email.md">
-    <img alt="Email" src="assets/do-not-localize/email.jpg">
+    <img alt="Seção Criar emails" src="assets/do-not-localize/email.jpg">
     </a>
     <div><a href="../email/create-email.md"><strong>Criar emails</strong>
     </div>
@@ -32,7 +33,7 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
     </td>
     <td align="center">
     <a href="../push/create-push.md">
-      <img alt="Push" src="assets/do-not-localize/push.jpg">
+      <img alt="Criar seção de notificações por push" src="assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/gs-push.md"><strong>Criar notificações por push</strong></a>
@@ -41,7 +42,7 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
     </td>
     <td align="center">
     <a href="../sms/create-sms.md">
-      <img alt="SMS" src="assets/do-not-localize/sms.jpg">
+      <img alt="Seção Criar mensagens SMS" src="assets/do-not-localize/sms.jpg">
     </a>
     </div>
     <div>
@@ -51,7 +52,7 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
     </td>
     <td align="center">
     <a href="../direct-mail/gs-direct-mail.md">
-      <img alt="Push" src="assets/do-not-localize/direct-mail.jpg">
+      <img alt="Seção Criar mensagens de correspondência direta" src="assets/do-not-localize/direct-mail.jpg">
     </a>
     <div>
     <a href="../direct-mail/gs-direct-mail.md"><strong>Criar mensagens de correspondência direta</strong></a>

@@ -3,16 +3,17 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 74%
+source-wordcount: '2106'
+ht-degree: 71%
 
 ---
 
+
 # Editar expressões {#expression}
 
-A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, cadeias de caracteres, campos numéricos, classificação etc.
+A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, sequências de caracteres, campos numéricos e classificação.
 
 >[!IMPORTANT]
 >
@@ -23,24 +24,24 @@ A edição de uma expressão envolve a inserção manual de condições para for
 O editor de expressão está disponível pelo botão **[!UICONTROL Editar expressão]** do modelador de consulta, disponível para os campos **[!UICONTROL Atributo]** e **[!UICONTROL Valor]** ao configurar uma condição personalizada.
 
 | Acesso pelo campo **Atributo** | Acesso do campo **Value** |
-|  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| --- | --- |
+| ![Editor de expressão para o campo Atributo](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Editor de expressão para o campo Valor](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 O editor de expressão fornece:
 
-* Um campo de entrada **(1)** no qual a expressão é definida.
-* A lista de **campos (2)** disponíveis que podem ser usados na expressão e que correspondem à dimensão de direcionamento da consulta.
+* Um **campo de entrada (1)** onde a expressão é definida.
+* Uma lista de **campos (2)** disponíveis que podem ser usados na expressão e correspondem à dimensão de direcionamento da consulta.
 * **Funções auxiliares (3)**, classificadas por categoria.
 
 Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
 
-![](assets/expression-editor.png){zoomable="yes"}
+![Interface do editor de expressão](assets/expression-editor.png){zoomable="yes"}
 
 Quando a expressão estiver pronta, clique no botão **[!UICONTROL Confirmar]**. A expressão é exibida no campo selecionado. Para editá-lo, abra o editor de expressão e faça as alterações desejadas.
 
-O exemplo abaixo mostra uma expressão configurada para o campo **[!UICONTROL Value]**. Para editá-lo, é necessário abrir o editor de expressão usando o botão **[!UICONTROL Editar expressão]**.
+O exemplo abaixo mostra uma expressão configurada para o campo **[!UICONTROL Value]**. Para editá-lo, abra o editor de expressão usando o botão **[!UICONTROL Editar expressão]**.
 
-![](assets/edit-expression-value.png){zoomable="yes"}
+![Exemplo de expressão de edição para o campo Value](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Funções de ajuda
 
@@ -48,330 +49,326 @@ A ferramenta de edição de query permite usar funções avançadas para fazer f
 
 ### Agregado
 
-As funções de agregação são usadas para realizar cálculos em um conjunto de valores.
+Funções agregadas executam cálculos em um conjunto de valores.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Nome</strong><br /> </td> 
-   <td> <strong>Descrição</strong><br /> </td> 
-   <td> <strong>Sintaxe</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Avg</strong><br /> </td> 
-   <td> Retorna a média de uma coluna do tipo número<br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Contagem</strong><br /> </td> 
-   <td> Conta os valores não nulos de uma coluna<br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>CountAll</strong><br /> </td> 
-   <td> Conta os valores retornados (todos os campos)<br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> Conta os valores não nulos distintos de uma coluna<br /> </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Max</strong><br /> </td> 
-   <td> Retorna o valor máximo de uma coluna, string ou coluna de tipo de data<br /> </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Min</strong><br /> </td> 
-   <td> Retorna o valor mínimo de uma coluna do tipo número, string ou dados<br /> </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>StdDev</strong><br /> </td> 
-   <td> Retorna o desvio padrão de uma coluna do tipo número, string ou dados<br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong>AgregaçãoDeCadeiaDeCaracteres</strong><br /> </td> 
-   <td> Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere no segundo argumento <br /> </td> 
-   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Sum</strong><br /> </td> 
-   <td> Retorna a soma dos valores de uma coluna do tipo número, string ou dados<br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Nome</strong></td>
+<td><strong>Descrição</strong></td>
+<td><strong>Sintaxe</strong></td>
+</tr>
+<tr>
+<td><strong>Avg</strong></td>
+<td>Retorna a média de uma coluna do tipo número</td>
+<td>Avg(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>Contagem</strong></td>
+<td>Conta os valores não nulos de uma coluna</td>
+<td>Count(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>CountAll</strong></td>
+<td>Conta os valores retornados (todos os campos)</td>
+<td>CountAll()</td>
+</tr>
+<tr>
+<td><strong>Countdistinct</strong></td>
+<td>Conta os valores não nulos distintos de uma coluna</td>
+<td>Countdistinct(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>Max</strong></td>
+<td>Retorna o valor máximo de uma coluna, cadeira de caracteres ou coluna de tipo de data</td>
+<td>Max(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>Min</strong></td>
+<td>Retorna o valor mínimo de uma coluna, cadeira de caracteres ou coluna de tipo de data</td>
+<td>Min(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>StdDev</strong></td>
+<td>Retorna o desvio padrão de uma coluna do tipo número, cadeira de caracteres ou dados</td>
+<td>StdDev(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>StringAgg</strong></td>
+<td>Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere do segundo argumento</td>
+<td>StringAgg(&lt;Value&gt;, &lt;String&gt;)</td>
+</tr>
+<tr>
+<td><strong>Sum</strong></td>
+<td>Retorna a soma dos valores de uma coluna do tipo número, cadeira de caracteres ou dados</td>
+<td>Sum(&lt;value&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 ### Data
 
-As funções de data são usadas para manipular valores de data ou hora.
+Funções de data manipulam valores de data ou hora.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Nome</strong><br /> </td> 
-   <td> <strong>Descrição</strong><br /> </td> 
-   <td> <strong>Sintaxe</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> Adiciona um número de dias a uma data<br /> </td> 
-   <td> AddDays(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> Adiciona um número de horas a uma data<br /> </td> 
-   <td> AddHours(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> Adiciona um número de minutos a uma data<br /> </td> 
-   <td> AddMinutes(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> Adiciona um número de meses a uma data<br /> </td> 
-   <td> AddMonths(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> Adiciona um número de segundos a uma data<br /> </td> 
-   <td> AddSeconds(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> Adiciona um número de anos a uma data<br /> </td> 
-   <td> AddYears(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Converte o carimbo de data/hora NTZ (carimbo de data/hora sem fuso horário) em TZ (carimbo de data/hora com fuso horário) aplicando a sessão definida TZ<br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Comparar duas datas<br/> </td> 
-   <td> DateCmp(&lt;data&gt;,&lt;data&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> Retorna somente a data (com a hora 00:00)*<br /> </td> 
-   <td> DateOnly(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> Retorna o número que representa o dia da data<br /> </td> 
-   <td> Day(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Retorna o número do dia no ano da data<br /> </td> 
-   <td> DayOfYear(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> Retorna a data correspondente à data atual menos n dias<br /> </td> 
-   <td> DaysAgo(&lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Retorna a data (inteiro aaaammdd) correspondente à data atual menos n dias<br /> </td> 
-   <td> DaysAgoInt(&lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> Número de dias entre duas datas<br /> </td> 
-   <td> DaysDiff(&lt;data final&gt;, &lt;data inicial&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> Retorna a idade em dias de uma data.<br /> </td> 
-   <td> DaysOld(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> Retorna a data atual do sistema do servidor.<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> Retorna a hora da data.<br /> </td> 
-   <td> Hour(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> Retorna o número de horas entre duas datas<br /> </td> 
-   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> Retorna os minutos da data<br /> </td> 
-   <td> Minute(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> Retorna o número de minutos entre duas datas<br /> </td> 
-   <td> MinutesDiff(&lt;data final&gt;, &lt;data inicial&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> Retorna o número que representa o mês da data<br /> </td> 
-   <td> Month(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> Retorna a data correspondente à data atual menos n meses<br /> </td> 
-   <td> MonthsAgo(&lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> Retorna o número de meses entre duas datas<br /> </td> 
-   <td> MonthsDiff(&lt;data final&gt;, &lt;data inicial&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> Retorna a idade em meses de uma data<br /> </td> 
-   <td> MonthsOld(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> Retorna a data mais antiga em um intervalo<br /> </td> 
-   <td> Mais antigo (&lt;data, data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> Retorna os segundos da data<br /> </td> 
-   <td> Second(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> Retorna o número de segundos entre duas datas<br /> </td> 
-   <td> SecondsDiff(&lt;data final&gt;, &lt;data inicial&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> Subtrai um número de dias a partir de uma data<br /> </td> 
-   <td> SubDays(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> Subtrai um número de horas a partir de uma data<br /> </td> 
-   <td> SubHours(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> Subtrai um número de minutos de uma data<br /> </td> 
-   <td> SubMinutes(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> Subtrai um número de meses a partir de uma data<br /> </td> 
-   <td> SubMonths(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> Subtrai um número de segundos a partir de uma data<br /> </td> 
-   <td> SubSeconds(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> Subtrai um número de anos a partir de uma data<br /> </td> 
-   <td> SubYears(&lt;data&gt;, &lt;número&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> Converte uma data + hora em uma data<br /> </td> 
-   <td> ToDate(&lt;data + hora&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> Converte uma string em uma data + hora<br /> </td> 
-   <td> ToDateTime(&lt;string&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Converte uma cadeia de caracteres em carimbo de data/hora<br /> </td> 
-   <td> ToTimestamp(&lt;cadeia de caracteres&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> Converter uma data + hora em fuso horário<br /> </td> 
-   <td> ToTimeZone(&lt;data&gt;,&lt;fuso horário&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> Arredonda uma data e hora para o segundo mais próximo<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;número de segundos&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> Arredonda uma data e hora para uma determinada precisão expressa em segundos<br /> </td> 
-   <td> TruncDateTZ(&lt;data&gt;, &lt;número de segundos&gt;, &lt;fuso horário&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> Arredonda uma data para o trimestre<br /> </td> 
-   <td> TruncQuarter(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> Arredonda a parte de horário para cima até o próximo segundo<br /> </td> 
-   <td> TruncTim(e&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Arredonda uma data para a semana<br /> </td> 
-   <td> TruncWeek(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> Arredonda uma data + hora para 1º de janeiro do ano<br /> </td> 
-   <td> TruncYear(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Retorna o número que representa o dia na semana da data (0=segunda-feira, 6=domingo)<br /> </td> 
-   <td> WeekDay(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Year</strong><br /> </td> 
-   <td> Retorna o número que representa o ano da data<br /> </td> 
-   <td> Year(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> Retorna o número que representa o ano e o mês da data.<br /> </td> 
-   <td> YearAndMonth(&lt;data&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>AnosAtrás</strong><br /> </td> 
-   <td> Retorna o número de anos entre uma determinada data e a data atual<br /> </td> 
-   <td> YearsAgo(&lt;data&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsDiff</strong><br /> </td> 
-   <td> Retorna o número de anos entre as duas datas<br /> </td> 
-   <td> YearsDiff(&lt;data final&gt;, &lt;data inicial&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> Retorna a idade em anos de uma data<br /> </td> 
-   <td> YearsOld(&lt;date&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Nome</strong></td>
+<td><strong>Descrição</strong></td>
+<td><strong>Sintaxe</strong></td>
+</tr>
+<tr>
+<td><strong>AddDays</strong></td>
+<td>Adiciona um número de dias a uma data</td>
+<td>AddDays(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddHours</strong></td>
+<td>Adiciona um número de horas a uma data</td>
+<td>AddHours(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMinutes</strong></td>
+<td>Adiciona um número de minutos a uma data</td>
+<td>AddMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMonths</strong></td>
+<td>Adiciona um número de meses a uma data</td>
+<td>AddMonths(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddSeconds</strong></td>
+<td>Adiciona um número de segundos a uma data</td>
+<td>AddSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddYears</strong></td>
+<td>Adiciona um número de anos a uma data</td>
+<td>AddYears(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>ConvertNTZ</strong></td>
+<td>Converte o carimbo de data e hora NTZ (carimbo de data e hora sem fuso horário) em TZ (carimbo de data e hora com fuso horário) usando a sessão definida TZ</td>
+<td>ConvertNTZ(&lt;date+time&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateCmp</strong></td>
+<td>Compara duas datas</td>
+<td>DateCmp(&lt;data&gt;, &lt;data&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateOnly</strong></td>
+<td>Retorna somente a data (com a hora 00:00)</td>
+<td>DateOnly(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Dia</strong></td>
+<td>Retorna o número que representa o dia da data</td>
+<td>Day(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DayOfYear</strong></td>
+<td>Retorna o número do dia no ano da data</td>
+<td>DayOfYear(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgo</strong></td>
+<td>Retorna a data correspondente à data atual menos n dias</td>
+<td>DaysAgo(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgoInt</strong></td>
+<td>Retorna a data (inteiro aaaammdd) correspondente à data atual menos n dias</td>
+<td>DaysAgoInt(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysDiff</strong></td>
+<td>Retorna o número de dias entre duas datas</td>
+<td>DaysDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysOld</strong></td>
+<td>Retorna a idade em dias de uma data.</td>
+<td>DaysOld(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>GetDate</strong></td>
+<td>Retorna a data atual do sistema do servidor.</td>
+<td>GetDate()</td>
+</tr>
+<tr>
+<td><strong>Hora</strong></td>
+<td>Retorna a hora da data.</td>
+<td>Hour(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>HoursDiff</strong></td>
+<td>Retorna o número de horas entre duas datas</td>
+<td>HoursDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Minuto</strong></td>
+<td>Retorna os minutos da data</td>
+<td>Minute(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MinutesDiff</strong></td>
+<td>Retorna o número de minutos entre duas datas</td>
+<td>MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Mês</strong></td>
+<td>Retorna o número que representa o mês da data</td>
+<td>Month(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsAgo</strong></td>
+<td>Retorna a data correspondente à data atual menos n meses</td>
+<td>MonthsAgo(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsDiff</strong></td>
+<td>Retorna o número de meses entre duas datas</td>
+<td>MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsOld</strong></td>
+<td>Retorna a idade em meses de uma data</td>
+<td>MonthsOld(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Oldest</strong></td>
+<td>Retorna a data mais antiga em um intervalo</td>
+<td>Oldest(&lt;data, data&gt;)</td>
+</tr>
+<tr>
+<td><strong>Second</strong></td>
+<td>Retorna os segundos da data</td>
+<td>Second(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>SecondsDiff</strong></td>
+<td>Retorna o número de segundos entre duas datas</td>
+<td>SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubDays</strong></td>
+<td>Subtrai um número de dias a partir de uma data</td>
+<td>SubDays(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubHours</strong></td>
+<td>Subtrai um número de horas a partir de uma data</td>
+<td>SubHours(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMinutes</strong></td>
+<td>Subtrai um número de minutos de uma data</td>
+<td>SubMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMonths</strong></td>
+<td>Subtrai um número de meses a partir de uma data</td>
+<td>SubMonths(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubSeconds</strong></td>
+<td>Subtrai um número de segundos a partir de uma data</td>
+<td>SubSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubYears</strong></td>
+<td>Subtrai um número de anos a partir de uma data</td>
+<td>SubYears(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDate</strong></td>
+<td>Converte uma data + hora em uma data</td>
+<td>ToDate(&lt;date + time&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDateTime</strong></td>
+<td>Converte uma cadeia de caracteres em uma data + hora</td>
+<td>ToDateTime(&lt;string&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimestamp</strong></td>
+<td>Converte uma cadeia de caracteres em um carimbo de data e hora</td>
+<td>ToTimestamp(&lt;string&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimeZone</strong></td>
+<td>Converte uma data + hora em um fuso horário</td>
+<td>ToTimeZone(&lt;data&gt;, &lt;fuso horário&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDate</strong></td>
+<td>Arredonda uma data e hora para o segundo mais próximo</td>
+<td>TruncDate(@lastModified, &lt;number of seconds&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDateTZ</strong></td>
+<td>Arredonda uma data e hora para uma determinada precisão expressa em segundos</td>
+<td>TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncQuarter</strong></td>
+<td>Arredonda uma data para o trimestre</td>
+<td>TruncQuarter(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncTime</strong></td>
+<td>Arredonda a parte de horário para cima até o próximo segundo</td>
+<td>TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncWeek</strong></td>
+<td>Arredonda uma data para a semana</td>
+<td>TruncWeek(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncYear</strong></td>
+<td>Arredonda uma data + hora para 1º de janeiro do ano</td>
+<td>TruncYear(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>WeekDay</strong></td>
+<td>Retorna um número que representa o dia da semana da data (0 = segunda-feira, 6 = domingo)</td>
+<td>WeekDay(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Ano</strong></td>
+<td>Retorna o número que representa o ano da data</td>
+<td>Year(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearAndMonth</strong></td>
+<td>Retorna o número que representa o ano e o mês da data.</td>
+<td>YearAndMonth(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsAgo</strong></td>
+<td>Retorna o número de anos entre uma determinada data e a data atual</td>
+<td>YearsAgo(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsDiff</strong></td>
+<td>Retorna o número de anos entre duas datas</td>
+<td>YearsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsOld</strong></td>
+<td>Retorna a idade em anos de uma data</td>
+<td>YearsOld(&lt;date&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 >[!NOTE]
 >
->Observe que a função **Dateonly** considera o fuso horário do servidor e não do operador.
+>Observe que a função **DateOnly** considera o fuso horário do servidor e não do operador.
+
 
 ### Geomarketing
 

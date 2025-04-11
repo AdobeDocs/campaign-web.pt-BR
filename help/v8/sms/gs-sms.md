@@ -3,12 +3,13 @@ audience: end-user
 title: Introdução às entregas de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 97%
 
 ---
+
 
 # Introdução às entregas de SMS {#sms}
 
@@ -27,7 +28,7 @@ O canal de SMS oferece três métodos para criar entregas de SMS:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lead" src="assets/do-not-localize/create_sms.png">
+<img alt="Criar uma entrega de SMS" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>Criar uma entrega de SMS</strong>
 </div>
@@ -35,7 +36,7 @@ O canal de SMS oferece três métodos para criar entregas de SMS:
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="Pouco frequente" src="assets/do-not-localize/design_sms.png">
+<img alt="Criar uma entrega de SMS" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>Criar uma entrega de SMS<strong></strong></a>
@@ -43,7 +44,7 @@ O canal de SMS oferece três métodos para criar entregas de SMS:
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="Validação" src="assets/do-not-localize/send_sms.png">
+<img alt="Enviar uma entrega de SMS" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>Enviar uma entrega de SMS</strong></a>
@@ -52,7 +53,7 @@ O canal de SMS oferece três métodos para criar entregas de SMS:
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="Validação" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="Relatório de entrega de SMS" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>Relatório de entrega de SMS</strong></a>

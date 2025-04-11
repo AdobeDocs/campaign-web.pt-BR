@@ -3,31 +3,31 @@ audience: end-user
 title: Introdução às notificações por push
 description: Saiba como criar e enviar notificações por push com o Adobe Campaign Web
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 26%
 
 ---
 
 # Introdução às notificações por push {#push}
 
-As notificações por push são essenciais para se comunicar com os usuários de aplicativos móveis, mesmo que eles não estejam usando ativamente seu aplicativo. Elas atendem a vários propósitos, como fornecer atualizações, promover ações específicas e notificar sobre ofertas. Observe que os usuários devem aceitar o recebimento dessas notificações.
+As notificações por push são essenciais para contatar os usuários de aplicativos móveis, mesmo que eles não estejam usando ativamente seu aplicativo. Elas atendem a vários propósitos, como fornecer atualizações, orientar ações específicas e notificar os usuários sobre ofertas. Observe que os usuários devem aceitar o para receber essas notificações.
 
 Para criar notificações por push, existem três opções:
 
-* **Workflows**: depois de adicionar uma atividade de canal de push ao seu workflow e definir as configurações básicas, você pode criar o conteúdo de suas notificações por push no menu do painel direito. Para obter instruções detalhadas sobre como configurar o fluxo de trabalho, consulte [esta página](../workflows/gs-workflows.md).
+* **Fluxos de trabalho**: depois de adicionar uma atividade de canal de push ao seu fluxo de trabalho e definir as configurações básicas, crie o conteúdo de suas notificações de push no menu do painel direito. Para obter instruções detalhadas sobre como configurar fluxos de trabalho, consulte [esta página](../workflows/gs-workflows.md).
 
-* **Campanhas**: após criar uma campanha, é possível criar uma entrega de notificações por push. Para obter mais informações sobre como configurar sua campanha, consulte [esta página](../campaigns/gs-campaigns.md).
+* **Campanhas**: depois de criar uma campanha, configure uma entrega de notificação por push. Para obter mais informações sobre como configurar campanhas, consulte [esta página](../campaigns/gs-campaigns.md).
 
-* **Entregas independentes**: engaje os clientes de forma direta e instantânea com a entrega individual de notificações por push, sem a necessidade de criar workflows ou campanhas.
+* **Entregas autônomas**: envolva os clientes direta e instantaneamente com entregas individuais de notificação por push, sem a necessidade de fluxos de trabalho ou campanhas.
 
 ![](../assets/do-not-localize/book.png) Saiba como configurar o canal de notificação por push na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=pt-BR){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="Lead" src="assets/do-not-localize/push_create.jpeg">
+<img alt="Criar uma entrega por push" src="assets/do-not-localize/push_create.jpeg">
 </a>
 <div><a href="create-push.md"><strong>Criação de uma entrega por push</strong>
 </div>
@@ -35,7 +35,7 @@ Para criar notificações por push, existem três opções:
 </td>
 <td>
 <a href="content-push.md">
-<img alt="Pouco frequente" src="assets/do-not-localize/push_design.jpeg">
+<img alt="Criar uma entrega por push" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
 <a href="content-push.md"><strong>Criar uma entrega por push<strong></strong></a>
@@ -43,7 +43,7 @@ Para criar notificações por push, existem três opções:
 <p></td>
 <td>
 <a href="send-push.md">
-<img alt="Validação" src="assets/do-not-localize/push_send.jpeg">
+<img alt="Enviar uma entrega por push" src="assets/do-not-localize/push_send.jpeg">
 </a>
 <div>
 <a href="send-push.md"><strong>Enviar uma entrega por push</strong></a>
@@ -52,7 +52,7 @@ Para criar notificações por push, existem três opções:
 </td>
 <td>
 <a href="send-push.md">
-<img alt="Validação" src="assets/do-not-localize/push_report.jpeg">
+<img alt="Relatório de entrega por push" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
 <a href="send-push.md"><strong>Relatório de entrega por push</strong></a>

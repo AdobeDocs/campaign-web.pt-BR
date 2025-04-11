@@ -3,9 +3,9 @@ audience: end-user
 title: Validar mensagens transacionais
 description: Saiba como validar uma mensagem transacional na interface da Web do Campaign
 exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
@@ -18,30 +18,30 @@ Durante ou depois de criar a mensagem transacional, talvez você queira validar 
 
 Siga estas etapas para simular o conteúdo da mensagem:
 
-* Verifique se o caminho de personalização no conteúdo da mensagem corresponde à sua amostra de contexto. No exemplo abaixo, para exibir o nome do perfil de teste, usamos o caminho *rtEvent.ctx.basicDetails.firstName*
+* Verifique se o caminho de personalização no conteúdo da mensagem corresponde à sua amostra de contexto. No exemplo abaixo, para exibir o nome do perfil de teste, use o caminho *rtEvent.ctx.basicDetails.firstName*.
 
-  Você pode alterar o conteúdo da mensagem ou da amostra de contexto para alinhá-los.
+  Você pode modificar o conteúdo da mensagem ou a amostra de contexto para alinhá-los.
 
-  ![](assets/validate-verification.png){zoomable="yes"}
+  ![Captura de tela mostrando a verificação dos caminhos de personalização no conteúdo da mensagem](assets/validate-verification.png){zoomable="yes"}
 
 * Clique no botão **[!UICONTROL Simular conteúdo]** para visualizar sua mensagem transacional com os dados inseridos na amostra de contexto.
 
-  ![](assets/validate-simulate.png){zoomable="yes"}
+  ![Captura de tela mostrando o botão Simular conteúdo e a funcionalidade de visualização](assets/validate-simulate.png){zoomable="yes"}
 
-  Após verificar seu conteúdo, clique no botão **[!UICONTROL Fechar]**.
+  Depois de revisar o conteúdo, clique no botão **[!UICONTROL Fechar]**.
 
-* Não se esqueça de clicar no botão **[!UICONTROL Republicar]** se você tiver feito alterações no conteúdo.
+* Clique no botão **[!UICONTROL Republicar]** se tiver feito alterações no conteúdo.
 
 ## Enviar prova
 
-Se quiser testar e experimentar a mensagem transacional como ela seria entregue pelo canal escolhido (como email, SMS ou notificação por push), você pode usar o recurso de prova.
+Para testar e experimentar a mensagem transacional como ela seria entregue por meio do canal escolhido, como email, SMS ou notificação por push, use o recurso de prova.
 
 Na [janela de conteúdo da simulação](#simulate-content), clique no botão **[!UICONTROL Enviar prova]**.
 
-![](assets/transactional-proof.png){zoomable="yes"}
+![Captura de tela mostrando o botão Enviar prova na janela de conteúdo da simulação](assets/transactional-proof.png){zoomable="yes"}
 
-Na nova janela exibida, digite o endereço de email (ou número de telefone, dependendo do canal) onde deseja receber a prova. Depois de inserir o endereço desejado, clique nos botões **[!UICONTROL Enviar prova]** e **[!UICONTROL Confirmar]**. Essa ação permite enviar uma amostra da mensagem transacional, garantindo que todas as personalizações, o conteúdo dinâmico e a formatação sejam exibidos corretamente para os usuários finais.
+Na nova janela exibida, digite o endereço de email ou o número de telefone, dependendo do canal, onde você deseja receber a prova. Depois de inserir o endereço desejado, clique nos botões **[!UICONTROL Enviar prova]** e **[!UICONTROL Confirmar]**. Essa ação envia um exemplo da mensagem transacional, garantindo que todas as personalizações, o conteúdo dinâmico e a formatação sejam exibidos corretamente para os usuários finais.
 
-![](assets/transactional-sendproof.png){zoomable="yes"}
+![Captura de tela mostrando a funcionalidade Enviar prova e o processo de confirmação](assets/transactional-sendproof.png){zoomable="yes"}
 
-Essa é uma etapa essencial para identificar possíveis problemas antes de publicar sua mensagem transacional.
+Essa etapa é essencial para identificar possíveis problemas antes de publicar sua mensagem transacional.
