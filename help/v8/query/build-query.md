@@ -3,43 +3,43 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 19%
+source-wordcount: '2310'
+ht-degree: 13%
 
 ---
 
+
 # Criar a primeira consulta {#build-query}
 
-Para começar a criar uma consulta, acesse o modelador de consultas do local de sua escolha, dependendo da ação que deseja executar. O modelador de Consulta é aberto com uma tela em branco. Clique no botão **+** para configurar o primeiro nó da consulta.
+Para começar a criar uma consulta, acesse o modelador de consultas do local de sua escolha, dependendo da ação que deseja executar. O modelador de consultas é aberto com uma tela em branco. Clique no botão **+** para configurar o primeiro nó da consulta.
 
 Você pode adicionar dois tipos de elementos:
 
-* **Os componentes de filtragem** (Condição personalizada, Selecionar público, Filtro predefinido) permitem que você crie suas próprias regras, selecione um público ou um filtro predefinido para refinar sua consulta. Elas são adicionadas no início da query e em transições pontilhadas. [Saiba como trabalhar com componentes de filtragem](#filtering)
+* **Os componentes de filtragem** (Condição personalizada, Selecionar público, Filtro predefinido) permitem que você crie suas próprias regras, selecione um público ou use um filtro predefinido para refinar sua consulta. Elas são adicionadas no início da query e em transições pontilhadas. [Saiba como trabalhar com componentes de filtragem](#filtering)
 
-  Exemplo: *Destinatários que assinaram o informativo &quot;Esportes&quot;*. *Recipients morando em Nova York*, *Recipients morando em São Francisco*
+  Exemplo: *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*, *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
 
-  ![](assets/query-add-component.png){zoomable="yes"}
+  ![Exemplo de adição de componentes de filtragem a uma consulta.](assets/query-add-component.png){zoomable="yes"}
 
 * **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama. Eles são adicionados em transições existentes antes de um componente de filtragem. [Saiba como trabalhar com operadores](#filtering)
 
   Exemplo: *Recipients que assinaram o informativo &quot;Esportes&quot;**AND**que vivem em Nova York **OR**San Francisco*.
 
-  ![](assets/query-add-operator.png){zoomable="yes"}
+  ![Descrição: Exemplo de adição de operadores de grupo a uma consulta.](assets/query-add-operator.png){zoomable="yes"}
 
-## Distribuição de valores em um query {#distribution-values-query}
+## Distribuição de valores em uma consulta {#distribution-values-query}
 
-A distribuição de valores mostra a porcentagem de cada valor de um campo em uma tabela, de acordo com os parâmetros de consulta atuais. Conhecer a distribuição de valores em um query pode ajudar a refinar sua segmentação.
+A distribuição de valores mostra a porcentagem de cada valor de um campo em uma tabela, com base nos parâmetros de consulta atuais. Conhecer a distribuição de valores em um query ajuda a refinar a segmentação.
 
-Para acessar essa opção, em sua query, clique no botão de seleção de atributo, conforme mostrado abaixo. Em seguida, clique no ícone **[!UICONTROL Informações]** ao lado do atributo selecionado. Você tem acesso ao botão **[!UICONTROL Distribuição de valores]**.
+Para acessar essa opção, em sua query, clique no botão de seleção de atributo, conforme mostrado abaixo. Em seguida, clique no ícone **[!UICONTROL Informações]** ao lado do atributo selecionado. Você pode acessar o botão **[!UICONTROL Distribuição de valores]**.
 
-![](assets/values_query.png){zoomable="yes"}
+![Descrição: acessando a opção de distribuição de valores em uma consulta.](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
->* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesse caso, uma notificação **[!UICONTROL Partial load]** avisa você.
->
+>* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesses casos, uma notificação **[!UICONTROL Carga parcial]** avisa você.
 >* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos. [Saiba como selecionar atributos](../get-started/attributes.md)
 >* Você pode adicionar condições aos resultados usando os **[!Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
 
@@ -64,34 +64,34 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 1. No campo **Atributo**, selecione o atributo do banco de dados que você deseja usar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados do Campaign, incluindo atributos de tabelas vinculadas. [Saiba como selecionar atributos e adicioná-los aos favoritos](../get-started/attributes.md)
 
-   ![](assets/query-custom-condition-fields.png){zoomable="yes"}
+   ![Selecionando atributos para uma condição personalizada em uma consulta.](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >O botão **Editar expressão** permite que você aproveite o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
+   >O botão **Editar expressão** permite usar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
 
 1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
    +++Lista de operadores disponíveis
 
    | Operador | Finalidade | Exemplo |
-   |  ---  |  ---  |  ---  |
-   | Igual a | Retorna um resultado idêntico aos dados inseridos na segunda coluna de valor. | Last name (@lastName) equal to &#39;Jones&#39;, retornará apenas destinatários cujo sobrenome seja Jones. |
-   | Diferente de | Retorna todos os valores não idênticos ao valor inserido. | Idioma (@language) a ser igual a &#39;English&#39; |
-   | Maior que | Retorna um valor maior que o valor digitado. | Age (@age) greater than 50</strong>, retornará todos os valores maiores que &#39;50&#39;, ou seja, &#39;51&#39;, &#39;52&#39; etc. |
-   | Menor que | Retorna um valor menor que o valor digitado. | Creation date (@created) before &#39;DaysAgo(100)&#39;</strong>, retornará todos os destinatários criados menos de 100 dias atrás. |
-   | Maior que ou igual a | Retorna todos os valores iguais ou maiores que o valor digitado. | Age (@age) greater than or equal to &#39;30&#39;</strong>, retornará todos os destinatários maiores de 30 anos ou mais. |
-   | Menor que ou igual a | Retorna todos os valores iguais ou inferiores ao valor inserido. | Age (@age) less than or equal to &#39;60&#39;</strong>, retornará todos os destinatários com 60 anos ou menos. |
+   |---|---|---|
+   | Igual a | Retorna um resultado idêntico aos dados inseridos na segunda coluna de valor. | Last name (@lastName) equal to &#39;Jones&#39; retornará apenas destinatários cujo sobrenome seja Jones. |
+   | Diferente de | Retorna todos os valores não idênticos ao valor inserido. | Idioma (@language) não é igual a &#39;English&#39;. |
+   | Maior que | Retorna um valor maior que o valor digitado. | Age (@age) greater than 50 retornará todos os valores maiores que &#39;50&#39;, como &#39;51&#39;, &#39;52&#39;. |
+   | Menor que | Retorna um valor menor que o valor digitado. | Creation date (@created) before &#39;DaysAgo(100)&#39; retornará todos os destinatários criados menos de 100 dias atrás. |
+   | Maior que ou igual a | Retorna todos os valores iguais ou maiores que o valor digitado. | Age (@age) greater than or equal to &#39;30&#39; retornará todos os destinatários maiores de 30 anos ou mais. |
+   | Menor que ou igual a | Retorna todos os valores iguais ou inferiores ao valor inserido. | Age (@age) less than or equal to &#39;60&#39; retornará todos os destinatários com 60 anos ou menos. |
    | Incluído em | Retorna resultados incluídos nos valores indicados. Esses valores devem ser separados por vírgula. | Birth date (@birthDate) is included in &#39;12/10/1979,12/10/1984&#39; retornará os destinatários nascidos entre essas datas. |
-   | Não está em | Funciona como o operador Is included in. Aqui, queremos excluir destinatários com base nos valores inseridos. | A data de nascimento (@birthDate) não está incluída em &#39;12/10/1979,12/10/1984&#39;. Ao contrário do exemplo anterior, os destinatários nascidos nessas datas não serão retornados. |
-   | Está vazio | Nesse caso, o resultado que estamos procurando corresponde a um valor vazio na segunda coluna de valor. | Mobile (@mobilePhone) is empty retorna todos os destinatários que não têm número de celular. |
+   | Não está em | Funciona como o operador Is included in. Aqui, os recipients são excluídos com base nos valores inseridos. | A data de nascimento (@birthDate) não está incluída em &#39;12/10/1979,12/10/1984&#39;. Os recipients nascidos nessas datas não serão retornados. |
+   | Está vazio | Retorna os resultados que correspondem a um valor vazio na segunda coluna de valor. | Mobile (@mobilePhone) is empty retorna todos os destinatários que não têm número de celular. |
    | Não está vazio | Funciona de forma inversa ao operador Is empty. Não é necessário inserir dados na segunda coluna de valor. | O email (@email) não está vazio. |
-   | Inicia com | Retorna os resultados iniciando com o valor inserido. | Account # (@account) starts with &#39;32010&#39;. |
-   | Não começa com | Retorna os resultados que não começam com o valor inserido | Account # (@account) não começa com &#39;20&#39; |
-   | Contém | Retorna os resultados contendo pelo menos o valor inserido. | Email domain (@domain) contains &#39;mail&#39;</strong> retornará todos os nomes de domínio que contêm &#39;mail&#39;. Assim, o domínio &quot;gmail.com&quot; também será retornado. |
-   | Não contém | Retorna resultados não contendo o valor digitado. | O domínio de email (@domain) não contém &#39;vo&#39;</strong>. Nesse caso, nomes de domínio que contêm &#39;vo&#39; não serão retornados. O nome de domínio &#39;voila.fr&#39; não aparecerá nos resultados. |
-   | Como | Like é muito semelhante ao operador Contains. Permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) como &#39;Jon%s&#39;. Aqui, o caractere curinga é usado como &quot;joker&quot; para localizar o nome &quot;Jones&quot;, o operador esqueceu a letra ausente entre o &#39;n&#39; e o &#39;s&#39;. |
-   | Not like | Like é muito semelhante ao operador Contains. Permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) diferente de &#39;Smi%h&#39;. Aqui, os destinatários que têm &#39;Smi%h&#39; como sobrenome não serão retornados. |
+   | Inicia com | Retorna resultados iniciando com o valor inserido. | Account # (@account) starts with &#39;32010&#39;. |
+   | Não começa com | Retorna resultados que não começam com o valor inserido. | Account # (@account) não começa com &#39;20&#39;. |
+   | Contém | Retorna resultados contendo pelo menos o valor inserido. | Email domain (@domain) contains &#39;mail&#39; retornará todos os nomes de domínio que contêm &#39;mail&#39;, como &#39;gmail.com&#39;. |
+   | Não contém | Retorna resultados não contendo o valor digitado. | O domínio de email (@domain) não contém &#39;vo&#39;. Nomes de domínio contendo &#39;vo&#39;, como &#39;voila.fr&#39;, não aparecerão nos resultados. |
+   | Como | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) como &#39;Jon%s&#39;. O caractere curinga atua como um &quot;joker&quot; para encontrar nomes como &quot;Jones&quot;. |
+   | Not like | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) diferente de &#39;Smi%h&#39;. Os destinatários que têm &#39;Smith&#39; como sobrenome não serão retornados. |
 
 +++
 
@@ -99,11 +99,11 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
    *Exemplo de consulta retornando todos os perfis com 21 anos ou mais:*
 
-   ![](assets/query-custom-condition.png){zoomable="yes"}
+   ![Exemplo de uma consulta direcionada a perfis com 21 anos ou mais.](assets/query-custom-condition.png){zoomable="yes"}
 
    Para atributos do tipo data, os valores predefinidos estão disponíveis usando a opção **[!UICONTROL Predefinições]**.
 
-   ![](assets/date-presets.png){zoomable="yes"}
+   ![Exemplo de uso de predefinições de data em uma consulta.](assets/date-presets.png){zoomable="yes"}
 
 #### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
@@ -119,15 +119,15 @@ Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 
 1. Navegue dentro da tabela **Marca** e selecione o atributo **Etiqueta**.
 
-   ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela da tabela Marca](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Defina o valor esperado para o atributo.
 
-   ![](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Exemplo de um valor esperado definido](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 Esta é uma amostra de consulta em que um link de tabela foi selecionado diretamente. Os valores disponíveis para esta tabela devem ser selecionados em um seletor dedicado.
 
-![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Exemplo de uma amostra de consulta](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -139,19 +139,19 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
 1. Selecione a tabela **Compras** e confirme.
 
-   ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+   ![Captura de tela da tabela Compra](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. Uma transição de saída é adicionada, permitindo criar subcondições.
 
-   ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+   ![Exemplo de transição de saída](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Selecione o atributo **Preço** e direcione compras de US$ 1000 ou mais
 
-   ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela do atributo Price](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Adicione subcondições para atender às suas necessidades. Aqui adicionamos uma condição aos perfis do público-alvo que compraram um produto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+   ![Exemplo de subcondições](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -161,11 +161,11 @@ As condições personalizadas permitem executar operações agregadas. Para faze
 
 1. Navegue dentro da tabela de coleção desejada e selecione o atributo no qual deseja executar uma operação agregada.
 
-   ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela da lista de atributos](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. No painel de propriedades, alterne a opção **Aggregate data** e selecione a função de agregação desejada.
 
-   ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela da opção Dados agregados](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 ### Selecionar um público-alvo {#audiences}
 
@@ -182,7 +182,7 @@ Para filtrar sua query usando um público existente, siga estas etapas:
 
    *Exemplo de consulta retornando todos os perfis que pertencem ao público-alvo do &quot;Festival Goers&quot;:*
 
-   ![](assets/query-audience.png){zoomable="yes"}
+   ![Captura de tela de um exemplo de consulta](assets/query-audience.png){zoomable="yes"}
 
 ### Usar um filtro predefinido {#predefined-filters}
 
@@ -199,7 +199,7 @@ Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
    *Exemplo de consulta retornando todos os perfis correspondentes ao filtro predefinido &quot;Clientes inativos&quot;:*
 
-   ![](assets/query-predefined-filter.png){zoomable="yes"}
+   ![Captura de tela de um exemplo de consulta](assets/query-predefined-filter.png){zoomable="yes"}
 
 ### Copiar e colar componentes {#copy}
 
@@ -221,7 +221,7 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
 
 1. Para colar o(s) componente(s), clique no botão + no final da transição desejada e selecione **Colar n itens**.
 
-   ![](assets/copy-paste.png){zoomable="yes"}
+   ![Exemplo de colagem de componentes](assets/copy-paste.png){zoomable="yes"}
 
 ## Combinar componentes de filtragem com operadores {#operators}
 
@@ -234,7 +234,7 @@ Sempre que um novo componente de filtragem é adicionado à consulta, ele é aut
 
 Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente está vinculado à condição de filtro predefinida com um operador **AND**, o que significa que os resultados da consulta incluem destinatários direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
 
-![](assets/query-operator.png){zoomable="yes"}
+![Exemplo de uma consulta](assets/query-operator.png){zoomable="yes"}
 
 Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado no painel **Grupo** que será aberto no lado direito.
 
@@ -244,13 +244,13 @@ Os operadores disponíveis são:
 * **OR (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
 * **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
 
-![](assets/query-operator-change.png){zoomable="yes"}
+![Exemplo de uma consulta](assets/query-operator-change.png){zoomable="yes"}
 
 Além disso, você pode criar grupos intermediários de componentes clicando no botão **+** em uma transição. Isso permite adicionar um operador nesse local específico para agrupar vários componentes e refinar sua consulta.
 
-No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos públicos &quot;VIP para recompensar&quot; ou &quot;Super VIP&quot;.
+No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos públicos &quot;VIP para premiar&quot; ou &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png){zoomable="yes"}
+![Exemplo de uma consulta](assets/query-intermediate-group.png){zoomable="yes"}
 
 ## Verificar e validar sua consulta
 
@@ -274,4 +274,5 @@ Quando a consulta estiver pronta, clique no botão **[!UICONTROL Confirmar]** no
 
 Você pode modificar sua query a qualquer momento abrindo-a. Lembre-se de que, ao abrir uma consulta existente, ela é exibida em uma exibição simplificada, sem a visibilidade dos botões **+**. Para adicionar novos elementos à consulta, selecione um componente ou operador na tela para exibir os botões **+**.
 
-![](assets/edit-audience.png){zoomable="yes"}
+![Exemplo de uma consulta](assets/edit-audience.png){zoomable="yes"}
+

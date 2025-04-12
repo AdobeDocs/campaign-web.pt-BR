@@ -3,10 +3,10 @@ audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 25%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 Os painéis de alerta de delivery permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas. Eles podem ser acessados pelo menu **Alertas de Entrega** no painel de navegação esquerdo, na guia **Painéis**.
 
-![](assets/alerting-dashboard-list.png)
+![Captura de tela mostrando a lista de painéis de alerta no menu Alerta de Entrega.](assets/alerting-dashboard-list.png)
 
 ## Criar um painel de entrega {#dashboards}
 
@@ -47,7 +47,7 @@ Para criar um painel de delivery, siga estas etapas:
 
 1. Navegue até o menu **Alertas de Entrega** no painel de navegação esquerdo e clique em **Criar painel de entrega**.
 
-   ![](assets/alerting-dashboard.png)
+   ![Captura de tela mostrando a opção Criar painel de entrega no menu Alerta de Entrega.](assets/alerting-dashboard.png)
 
 1. Nomeie seu painel no campo **Rótulo**. O campo **Nome interno** é preenchido automaticamente e é somente leitura.
 
@@ -57,9 +57,9 @@ Para criar um painel de delivery, siga estas etapas:
 
 1. Na seção **Critérios de alerta de entrega**, adicione os critérios que deseja usar para enviar alertas. Escolha entre critérios predefinidos ou crie seus próprios critérios para se alinhar às necessidades específicas. [Saiba como trabalhar com critérios](../msg/delivery-alerting-criteria.md)
 
-1. Os critérios têm valores de parâmetros padrão que definem como eles devem ser aplicados. Você pode alterar esses valores para atender às suas necessidades da seção **Parâmetros de critérios**.
+1. Os critérios têm valores de parâmetro padrão que definem como eles devem ser aplicados. Você pode alterar esses valores para atender às suas necessidades da seção **Parâmetros de critérios**.
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![Captura de tela mostrando a seção de parâmetros de critérios no painel de entrega.](assets/alerting-criteria-parameters.png)
 
    Por exemplo, por padrão, o parâmetro de critérios **Tamanho mínimo do público-alvo de entrega** está definido como 50, o que significa que um delivery será incluído no alerta enviado por esse painel somente se for direcionado a pelo menos 50 perfis. Você pode alterar esse parâmetro se quiser incluir deliveries com menos de 50 perfis.
 
@@ -81,9 +81,9 @@ Para criar um painel de delivery, siga estas etapas:
 
 1. Por padrão, os painéis de alerta são desativados, o que significa que os alertas de email vinculados a esse painel não são enviados. Para habilitar o painel imediatamente, alterne a opção **Habilitado** na seção **Geral**, ao lado do campo de seleção do grupo de alerta.
 
-   Você também pode salvar o painel e habilitá-lo posteriormente.
+   Você também pode salvar o painel e ativá-lo posteriormente.
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![Captura de tela mostrando a opção Habilitada nas configurações do painel de entrega.](assets/alerting-dashboard-enable.png)
 
 1. Para salvar o painel de alerta, clique no botão **Salvar**.
 
@@ -105,12 +105,12 @@ Agora, sempre que um delivery atender aos critérios definidos nesse painel, uma
 
 Todos os painéis de alertas criados podem ser acessados no menu **Alertas de Entrega**, na guia **Painéis**.
 
-![](assets/alerting-dashboard-list.png)
+![Captura de tela mostrando a lista de painéis de alerta no menu Alerta de Entrega.](assets/alerting-dashboard-list.png)
 
 Você pode duplicar ou excluir um painel usando o botão **Mais ações** localizado próximo ao seu nome.
 
 Para acessar uma exibição detalhada de um painel, clique no nome na lista. Nesta tela, você pode visualizar o alerta enviado mais recente. Todos os alertas enviados são listados no painel esquerdo. Clique em um item para acessar os alertas correspondentes enviados naquele momento específico.
 
-![](assets/alerting-dashboard-details.png)
+![Captura de tela mostrando a exibição detalhada de um painel de alerta.](assets/alerting-dashboard-details.png)
 
 Para editar o painel, clique no botão **Configurações** no canto superior direito e faça as alterações desejadas.

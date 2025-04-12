@@ -3,18 +3,16 @@ audience: end-user
 title: Adicionar ofertas em suas mensagens
 description: Saiba como adicionar e enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 35%
+source-wordcount: '795'
+ht-degree: 23%
 
 ---
 
-
 # Adicionar ofertas às suas mensagens {#offers-content}
 
-Você pode adicionar ofertas aos seus deliveries na interface da Web do Adobe Campaign. Essas ofertas estão disponíveis no menu esquerdo **Ofertas**, que permite acessar a lista de ofertas. Todas essas ofertas são somente leitura e devem ter sido criadas no console do cliente do Campaign, usando o módulo **[!UICONTROL Interação]**. Para obter mais informações sobre interação e como gerenciar um catálogo de ofertas no console, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
-
+Você pode adicionar ofertas aos seus deliveries na interface da Web do Adobe Campaign. Essas ofertas estão disponíveis no menu esquerdo **Ofertas**, que permite acessar a lista de ofertas. Todas essas ofertas são somente leitura e devem ser criadas no console do cliente do Campaign usando o módulo **[!UICONTROL Interaction]**. Para obter mais informações sobre interação e como gerenciar um catálogo de ofertas no console, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
 As etapas para enviar ofertas com um delivery são as seguintes:
 
@@ -39,13 +37,13 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
 
 1. Clique no botão **[!UICONTROL Configurar ofertas]** da tela de edição de conteúdo de entrega.
 
-   ![](assets/offer-setup.png){zoomable="yes"}
+   ![Captura de tela mostrando o botão de configuração da oferta na tela de edição de conteúdo da entrega](assets/offer-setup.png){zoomable="yes"}
 
 1. Configurar quais ofertas devem ser propostas para os destinatários.
 
    Primeiro, selecione o **[!UICONTROL Espaço de ofertas]** que corresponda ao seu ambiente de ofertas. Saiba como criar um espaço de ofertas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png){zoomable="yes"}
+   ![Captura de tela mostrando a seleção do espaço de ofertas no conteúdo de criação da oferta](assets/offer-create-content.png){zoomable="yes"}
 
 1. Para refinar a escolha de ofertas do mecanismo, selecione uma **[!UICONTROL Categoria de oferta]** específica em que as ofertas são classificadas.
 
@@ -55,7 +53,7 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
    >
    >Se nenhuma categoria for especificada, todas as ofertas contidas no ambiente serão consideradas pelo Mecanismo de oferta, a menos que um **[!UICONTROL Tema de oferta]** seja selecionado.
 
-1. (opcional) Insira um tema para filtrar categorias. Os temas são palavras-chave definidas upstream nas categorias. Elas funcionam como um filtro e permitem refinar o número de ofertas que serão apresentadas ao selecioná-las em um conjunto de categorias.
+1. (Opcional) Insira um tema para filtrar categorias. Os temas são palavras-chave definidas upstream nas categorias. Eles atuam como um filtro e refinam o número de ofertas a serem apresentadas ao selecioná-las em um conjunto de categorias.
 
 1. Use o campo **[!UICONTROL Propositions]** para especificar o número de ofertas que deseja inserir na entrega.
 
@@ -64,14 +62,14 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
    Essa opção permite ativar ou desativar a exclusão de recipients para os quais não há ofertas elegíveis suficientes:
 
    * Se a opção estiver ativada, os destinatários que não tiverem proposições suficientes serão excluídos da entrega.
-   * Se a opção estiver desabilitada, esses destinatários não serão excluídos, mas não poderão ter o número solicitado de proposições.
+   * Se a opção estiver desabilitada, esses recipients não serão excluídos, mas não poderão ter o número solicitado de apresentações.
 
 1. Se necessário, selecione a opção **[!UICONTROL Ocultar tudo se nenhuma oferta estiver selecionada]**.
 
    Essa opção permite escolher como a mensagem será processada caso uma das proposições não exista:
 
-   * Quando a opção estiver habilitada, a representação da proposição ausente não é exibida e nenhum conteúdo aparece na mensagem para essa proposição.
-   * Se a opção estiver desabilitada, a mensagem propriamente dita será cancelada durante o envio e os receipients não receberão nenhuma mensagem.
+   * Se a opção estiver ativada, a representação da proposta ausente não será exibida e nenhum conteúdo será exibido na mensagem para essa apresentação.
+   * Se a opção estiver desabilitada, a própria mensagem será cancelada durante o envio e os recipients não poderão mais receber mensagens.
 
 Depois de configurar as ofertas a serem propostas no delivery, você pode inseri-las no conteúdo do delivery.
 
@@ -87,9 +85,9 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Acesse a linha de assunto ou o conteúdo de qualquer delivery.
 
-1. Coloque o cursor do mouse onde deseja inserir a oferta e abra o editor de expressão usando o ícone de personalização.
+1. Coloque o cursor onde deseja inserir a oferta e abra o editor de expressão usando o ícone de personalização.
 
-   ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
+   ![Captura de tela mostrando o ícone de personalização usado para abrir o editor de expressão](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
 1. Selecione o menu **[!UICONTROL Propositions]**. As apresentações disponíveis são exibidas na lista.
 
@@ -99,7 +97,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Defina cada proposta usando os campos de personalização, funções de renderização ou atributos de oferta disponíveis.
 
-   ![](assets/offer-inserted.png){zoomable="yes"}
+   ![Captura de tela mostrando uma oferta inserida no conteúdo da entrega](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -107,6 +105,6 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
 1. Salve as alterações.
 
-1. Finalize o conteúdo, teste e envie seu delivery. [Saiba mais](gs-messages.md)
+1. Finalize o conteúdo, teste e envie seu delivery. [Saiba mais](gs-messages.md).
 
 Agora, quando um recipient recebe o delivery, a oferta certa é exibida para esse perfil específico.

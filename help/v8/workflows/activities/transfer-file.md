@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Transferir arquivo
 description: Saiba como usar a atividade de workflow Transferir arquivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 31%
+source-wordcount: '1253'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,7 @@ A atividade **Transferir arquivo** é uma atividade de **Gerenciamento de Dados*
 
 >[!NOTE]
 >
->Com a interface do usuário da Web do Campaign, consolidamos duas atividades em uma unindo os recursos de **transferência de arquivos** e **download da Web**. Essa consolidação não afeta a funcionalidade da atividade de forma alguma.
+>Com a interface do usuário da Web do Campaign, duas atividades foram consolidadas em uma única, mesclando os recursos de **transferência de arquivos** e **download da Web**. Essa consolidação não afeta a funcionalidade da atividade de forma alguma.
 
 Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquivo**.
 
@@ -49,10 +49,10 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
 
 1. Adicione uma atividade **Transferir arquivo** ao fluxo de trabalho e especifique o tipo de transferência a ser executado, dependendo do protocolo que deseja usar:
 
-   * Para protocolo HTTP, selecione **[!UICONTROL Download da Web]**. Isso permite executar um download de GET ou POST em um URL explícito, uma conta externa ou uma instância do Adobe Campaign.
+   * Para protocolo HTTP, selecione **[!UICONTROL Download da Web]**. Isso permite executar uma operação GET ou POST para baixar um arquivo em uma URL explícita, uma conta externa ou uma instância do Adobe Campaign.
    * Para outros protocolos servidor a servidor e ações relacionadas, selecione **[!UICONTROL Transferência de arquivos]**.
 
-1. Selecione a ação a ser executada com a atividade. As ações disponíveis dependem do tipo de transferência que você selecionou. Expanda as seções abaixo para obter mais informações.
+1. Selecione a ação a ser executada com a atividade. As ações disponíveis dependem do tipo de transferência selecionado. Expanda as seções abaixo para obter mais informações.
 
    +++Ações disponíveis com **atividades do tipo transferência de arquivos**
 
@@ -66,11 +66,11 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
    +++Ações disponíveis com **atividades do tipo download da Web**
 
    * **[!UICONTROL Transferência simples (GET)]**: recuperar um arquivo.
-   * **[!UICONTROL Transferir usando um formulário (POST)]**: Carregar um arquivo e parâmetros adicionais.
+   * **[!UICONTROL Transferir usando um formulário (POST)]**: carregar um arquivo e parâmetros adicionais.
 
 +++
 
-   ![](../assets/workflow-transfer-file-action.png)
+   ![Captura de tela mostrando as opções de ação de arquivo de transferência de fluxo de trabalho](../assets/workflow-transfer-file-action.png)
 
 1. Por padrão, para ações de upload de arquivo, a atividade usa o arquivo especificado na atividade anterior. Para usar um arquivo diferente, desative a opção **[!UICONTROL Usar arquivo da atividade anterior]** e clique no botão **[!UICONTROL Adicionar arquivo]**.
 
@@ -84,7 +84,7 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
    * **[!UICONTROL Configuração rápida]**: insira a URL do arquivo (ou pasta para ações de listagem de arquivos).
    * **[!UICONTROL Instância do Adobe Campaign]** (atividades do tipo download da Web): baixe um arquivo de um servidor de instâncias do Adobe Campaign.
 
-   ![](../assets/workflow-transfer-file-server.png)
+   ![Captura de tela mostrando as opções de configuração do servidor de arquivos de transferência de fluxo de trabalho](../assets/workflow-transfer-file-server.png)
 
 1. Para ações POST de download da Web, você pode passar parâmetros adicionais com a operação. Para fazer isso, clique no botão **[!UICONTROL Adicionar parâmetro]** e especifique o nome e o valor dos parâmetros. Você pode adicionar quantos parâmetros forem necessários.
 
@@ -99,31 +99,31 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
 
 Executar uma atividade **[!UICONTROL Transferir arquivo]** armazena os arquivos enviados ou baixados em uma pasta dedicada. Uma pasta é criada para cada atividade Transferir arquivo de um fluxo de trabalho. Por padrão, os arquivos são salvos no diretório de armazenamento padrão da pasta de instalação do Adobe Campaign (`/vars`) antes de serem processados. Para usar uma pasta específica, desative a opção **[!UICONTROL Usar um diretório de armazenamento padrão]** e insira o caminho do diretório.
 
-![](../assets/workflow-transfer-file-historization.png)
+![Captura de tela mostrando as configurações de historização de arquivos de transferência de fluxo de trabalho](../assets/workflow-transfer-file-historization.png)
 
-É importante poder limitar o tamanho dessa pasta para preservar o espaço físico no servidor. Para fazer isso, é possível definir um número máximo de arquivos ou o tamanho total da pasta da atividade. Por padrão, 100 arquivos e 50 MB são autorizados.
+É importante limitar o tamanho dessa pasta para preservar o espaço físico no servidor. Para fazer isso, defina um número máximo de arquivos ou o tamanho total da pasta da atividade. Por padrão, 100 arquivos e 50 MB são autorizados.
 
 Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira:
 
 * Somente os arquivos criados mais de 24 horas antes da execução da atividade são considerados.
-* Se o número de arquivos considerados for maior que o valor do campo **[!UICONTROL Número de arquivos]**, os arquivos mais antigos serão excluídos até que o número máximo de arquivos permitidos seja atingido.
-* Se o tamanho total dos arquivos considerados for maior que o valor do parâmetro **[!UICONTROL Tamanho máximo (em MB)]**, os arquivos mais antigos serão excluídos até que o Tamanho máximo (em MB) permitido seja atingido.
+* Se o número de arquivos considerados exceder o valor do campo **[!UICONTROL Número de arquivos]**, os arquivos mais antigos serão excluídos até que o número máximo de arquivos permitidos seja atingido.
+* Se o tamanho total dos arquivos considerados exceder o valor do parâmetro **[!UICONTROL Tamanho máximo (em MB)]**, os arquivos mais antigos serão excluídos até que o tamanho máximo permitido seja atingido.
 
 >[!CAUTION]
 >
->Se a atividade não for executada novamente, a pasta correspondente não será verificada nem eliminada. Por isso, tenha cuidado ao transferir arquivos grandes.
+>Se a atividade não for executada novamente, a pasta correspondente não será verificada nem removida. Tenha cuidado ao transferir arquivos grandes.
 
 ## Opções avançadas e de gerenciamento de erros {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Excluir os arquivos de origem após a transferência"
->abstract="Apague os arquivos de origem após uma transferência bem-sucedida."
+>abstract="Apagar os arquivos de origem após uma transferência bem-sucedida."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Exibir os logs de sessão"
->abstract="Exibe as informações relacionadas à operação de transferência nos logs do fluxo de trabalho."
+>abstract="As informações relacionadas à operação de transferência são exibidas nos logs de workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
@@ -144,7 +144,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 
    +++Opções adicionais para **[!UICONTROL atividades do tipo transferência de arquivos]**
 
-   * **[!UICONTROL Excluir os arquivos de origem após a transferência]**: apague os arquivos de origem após uma transferência bem-sucedida.
+   * **[!UICONTROL Excluir os arquivos de origem após a transferência]**: apagar os arquivos de origem após uma transferência bem-sucedida.
    * **[!UICONTROL Exibir os logs de sessão]**: quando esta opção é ativada, as informações relacionadas à operação de transferência são exibidas nos logs de fluxo de trabalho após a execução do fluxo de trabalho.
    * **[!UICONTROL Listar todos os arquivos]** (Ações de listagem de arquivos): esta opção indexa todos os arquivos presentes no servidor na variável de evento `vars.filenames`, na qual os nomes dos arquivos são separados pelos caracteres `n`. [Saiba como trabalhar com variáveis de evento](../event-variables.md)
 

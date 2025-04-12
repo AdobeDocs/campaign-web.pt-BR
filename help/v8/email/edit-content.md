@@ -3,10 +3,10 @@ audience: end-user
 title: Edição do conteúdo de email
 description: Saiba como editar o conteúdo de email na interface da Web do Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 50%
+source-wordcount: '647'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definir o conteúdo do email"
->abstract="A tela **Editar conteúdo** permite definir os elementos básicos da mensagem, como o endereço do remetente e a linha de assunto, executar ações adicionais, como adicionar anexos ou ofertas, e acessar o Designer de email para deixar a mensagem com uma aparência elegante."
+>abstract="A tela **Editar conteúdo** permite definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto, executar ações adicionais, como adicionar anexos ou ofertas, e acessar o Designer de email para dar uma aparência mais elegante à mensagem."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -35,9 +35,9 @@ ht-degree: 50%
 
 A tela de email **[!UICONTROL Editar conteúdo]** permite:
 
-* Definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto
-* Executar ações adicionais, como adicionar anexos ou configurar ofertas
-* Acesse o [Designer de email](get-started-email-designer.md#start-authoring) para começar a criar o conteúdo adequado do seu email
+* Defina elementos básicos da mensagem, como o endereço do remetente e a linha de assunto.
+* Executar ações adicionais, como adicionar anexos ou configurar ofertas.
+* Acesse o [Designer de email](get-started-email-designer.md#start-authoring) para começar a criar o conteúdo adequado de seu email.
 
 >[!NOTE]
 >
@@ -47,11 +47,11 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
 1. Clique no botão **[!UICONTROL Editar conteúdo]** da tela [painel de entrega de email](../email/create-email.md).
 
-   ![](assets/email-edit-content-button.png){zoomable="yes"}
+   ![Captura de tela mostrando o botão Editar conteúdo no painel de entrega de email.](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. A tela de edição de conteúdo de email é aberta.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
+   ![Captura de tela mostrando o painel de edição de conteúdo de email.](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -61,42 +61,41 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Para melhorar ainda mais a experiência do recipient, você pode adicionar o nome de uma pessoa, por exemplo &quot;Eve da Luma&quot;.
+   >Para melhorar ainda mais a experiência do recipient, você pode adicionar o nome de uma pessoa, por exemplo, &quot;Eve da Luma&quot;.
 
-1. O campo de endereço **[!UICONTROL Do email]** também é definido no modelo de email. Verifique se o domínio de endereço é o mesmo que o subdomínio que você delegou ao Adobe.
+1. O campo de endereço **[!UICONTROL Do email]** também é definido no modelo de email. Verifique se o domínio de endereço corresponde ao subdomínio que você delegou à Adobe.
 
    >[!NOTE]
    >
    >Você pode alterar a parte anterior a &#39;@&#39;, mas não o endereço do domínio.
 
-1. Expanda a seção **[!UICONTROL Responder para campos]**. O nome e os endereços do remetente são usados por padrão para respostas. No entanto, a Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um destinatário enviar uma resposta, o atendimento ao cliente poderá resolvê-lo.
+1. Expanda a seção **[!UICONTROL Responder para campos]**. O nome e os endereços do remetente são usados por padrão para respostas. No entanto, a Adobe recomenda o uso de um endereço real, como o atendimento ao cliente da sua marca. Nesse caso, se um recipient enviar uma resposta, a equipe de atendimento ao cliente poderá resolvê-lo.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
+   ![Captura de tela mostrando a seção Responder para campos no editor de conteúdo de email.](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de Expressão para adicionar a [personalização](../personalization/personalize.md) usando vários atributos e fragmentos de expressão ou ofertas.
+1. Defina a **[!UICONTROL Linha de assunto]** do email. Digite o assunto diretamente no campo dedicado ou abra o Editor de Expressão para adicionar a [personalização](../personalization/personalize.md) usando vários atributos, fragmentos de expressão ou ofertas.
 
-1. Se quiser anexar um arquivo ao email, clique no botão **[!UICONTROL Adicionar anexo]** e, em seguida, selecione um ou vários arquivos.
+1. Para anexar um arquivo ao email, clique no botão **[!UICONTROL Adicionar anexo]** e selecione um ou vários arquivos.
 
    >[!NOTE]
    >
-   >    Para evitar problemas de desempenho, é recomendável não incluir mais de um anexo por email.
+   >Para evitar problemas de desempenho, é recomendável não incluir mais de um anexo por email.
 
    <!--limitation on size + number of files?-->
 
 1. Para enviar ofertas com seu email, selecione-as usando o botão **[!UICONTROL Configurar ofertas]**.
 
-   É possível inseri-los no email usando os campos de personalização. [Saiba como enviar ofertas](../msg/offers.md)
+   Você pode inseri-los no email usando campos de personalização. [Saiba como enviar ofertas](../msg/offers.md)
 
-1. Clique no botão **[!UICONTROL Editar corpo do email]** para estruturar e projetar o conteúdo do email usando o [Designer de email](get-started-email-designer.md#start-authoring). Informações adicionais sobre como criar conteúdo de email estão disponíveis nessas seções:
+1. Clique no botão **[!UICONTROL Editar corpo do email]** para estruturar e projetar o conteúdo do email usando o [Designer de email](get-started-email-designer.md#start-authoring). Informações adicionais sobre como projetar conteúdo de email estão disponíveis nestas seções:
 
    * [Criar emails do zero](create-email-content.md)
-   * [Estilo do conteúdo](get-started-email-style.md)
+   * [Estilizar o conteúdo](get-started-email-style.md)
 
    >[!NOTE]
    >
    >Você também pode passar o mouse sobre a visualização do email e selecionar **[!UICONTROL Abrir designer de email]**.
 
-1. Por padrão, o rastreamento é ativado para a entrega. Você pode desabilitar essa opção na seção **[!UICONTROL Recursos opcionais]**. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
+1. Por padrão, o rastreamento é ativado para a entrega. Você pode desabilitar essa opção na seção **[!UICONTROL Recursos opcionais]**. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md).
 
-1. Depois que o conteúdo do email tiver sido definido, use o botão **[!UICONTROL Simular conteúdo]** para verificar como ele é exibido antes de enviá-lo. [Saiba como visualizar e testar seu email](../preview-test/preview-test.md)
-
+1. Depois que o conteúdo do email tiver sido definido, use o botão **[!UICONTROL Simular conteúdo]** para verificar como ele é exibido antes de enviá-lo. [Saiba como visualizar e testar seu email](../preview-test/preview-test.md).

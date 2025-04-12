@@ -4,10 +4,10 @@ title: Enviar usando ondas
 description: Saiba mais sobre as configurações de entrega no Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 42%
+source-wordcount: '803'
+ht-degree: 37%
 
 ---
 
@@ -56,7 +56,7 @@ Para enviar deliveries usando ondas, siga as etapas abaixo.
 
 Se você selecionar essa opção, todas as ondas terão o mesmo tamanho (exceto a última) e o atraso entre cada onda será sempre o mesmo.
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![Exemplo de ondas com o mesmo tamanho](assets/waves-same-size.png){zoomable="yes"}
 
 * Especifique o tamanho de todas as ondas nas quais você está dividindo o delivery. Você pode inserir uma porcentagem ou um valor numérico. Somente a última onda pode variar de tamanho, pois deve incluir o número restante de mensagens.
 
@@ -70,17 +70,17 @@ Usando ondas, você poderá restringir o número de mensagens a 20 por dia, que 
 
 Para fazer isso, selecione a opção **[!UICONTROL Schedule multiple waves of the same size]**. Insira **[!UICONTROL 20]** como o tamanho das ondas e **[!UICONTROL 1 dia]** no campo **[!UICONTROL Intervalo]**.
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![Exemplo de ondas para processamento da central de atendimento](assets/waves-call-center.png){zoomable="yes"}
 
 ## Agendar ondas de acordo com um calendário {#waves-calendar}
 
-Se você selecionar essa opção, será necessário definir o dia/hora de início de cada onda enviada, bem como o tamanho de cada onda.
+Se você selecionar essa opção, defina o dia/hora de início de cada onda enviada, bem como o tamanho de cada onda.
 
 * Nos campos **[!UICONTROL Start]**, especifique o atraso entre o início de duas ondas consecutivas.
 
 * Na coluna **[!UICONTROL Size]**, insira um número fixo ou uma porcentagem.
 
-Adicione quantas ondas desejar. Você pode reorganizá-los de acordo com suas necessidades.
+Adicione quantas ondas forem necessárias. Reordene-os de acordo com suas necessidades.
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ Adicione quantas ondas desejar. Você pode reorganizá-los de acordo com suas ne
 
 No exemplo abaixo, a primeira onda representa 25% do número total de mensagens incluídas no delivery e começa imediatamente. As próximas duas ondas completam a entrega e são definidas para começar em intervalos de seis horas.
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![Exemplo de ondas agendadas por calendário](assets/waves-calendar.png){zoomable="yes"}
 
 Um caso de uso comum para usar várias ondas de acordo com um calendário é durante o processo de aumento.
 
 Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
 
-Para evitar ser marcado como spam, você poderá aumentar progressivamente o volume enviado usando ondas. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
+Para evitar ser marcado como spam, aumente progressivamente o volume enviado usando ondas. Isso garante o desenvolvimento suave da fase de inicialização e reduz a taxa geral de endereços inválidos.
 
 Para fazer isso, use a opção **[!UICONTROL Schedule waves according to a calendar]**. Por exemplo, defina a primeira onda para 10%, a segunda para 15%, a terceira para 20% e assim por diante.
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![Exemplo de ondas para o processo de aumento](assets/waves-ramp-up.png){zoomable="yes"}

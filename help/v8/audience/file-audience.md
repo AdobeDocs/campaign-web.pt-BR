@@ -3,10 +3,10 @@ audience: end-user
 title: Carregar um público-alvo de email a partir de um arquivo
 description: Saiba como carregar perfis de um arquivo externo para criar seu público-alvo de email
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '691'
+ht-degree: 24%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 28%
 >title="Visualizar seu arquivo"
 >abstract="Verifique a visualização das colunas do arquivo externo. Essa tela mostra um máximo de 30 registros."
 
-A interface da Web do Adobe Campaign permite direcionar perfis armazenados em um arquivo externo. Após carregar os perfis, todos os campos do arquivo de entrada estarão disponíveis para uso na personalização da entrega [Saiba como personalizar o conteúdo](../personalization/personalize.md).
+A interface da Web do Adobe Campaign permite direcionar perfis armazenados em um arquivo externo. Depois que os perfis forem carregados, todos os campos do arquivo de entrada estarão disponíveis para uso na personalização da entrega [Saiba como personalizar o conteúdo](../personalization/personalize.md).
 
 Perfis do arquivo de entrada não são adicionados ao banco de dados. Eles são carregados e disponibilizados somente para esse delivery de email independente específico.
 
@@ -53,20 +53,20 @@ Para direcionar perfis de um arquivo em seus emails, siga estas etapas:
 1. Abra uma entrega de email existente ou [crie uma nova entrega de email](../email/create-email.md).
 1. Na seção **Público**, clique no botão **Selecionar público-alvo** e escolha **Selecionar do arquivo**.
 
-   ![](assets/select-from-file.png){zoomable="yes"}
+   ![Captura de tela mostrando a opção Selecionar do arquivo na seção Público-alvo](assets/select-from-file.png){zoomable="yes"}
 
 1. Selecione o arquivo local a ser carregado. O formato de arquivo deve estar alinhado com o [arquivo de exemplo](#sample-file).
 1. Visualize e verifique como os dados estão mapeados na seção central da tela.
 
-   ![](assets/select-from-file-map.png)
+   ![Captura de tela mostrando a visualização do mapeamento de dados na seção central](assets/select-from-file-map.png)
 
-1. Especifique a coluna que contém o endereço de email da lista suspensa **Campo de Endereço**. Também é possível selecionar a coluna lista de bloqueios se tiver essas informações no arquivo de entrada.
-1. Ajuste as configurações de coluna e como formatar os dados a partir das opções disponíveis.
+1. Especifique a coluna que contém o endereço de email da lista suspensa **Campo de Endereço**. Incluir na lista de bloqueios Você também pode selecionar a coluna pesquisar se tiver informações no arquivo de entrada.
+1. Ajuste as configurações de coluna e defina como formatar os dados usando as opções disponíveis.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
-Ao criar o conteúdo da mensagem, você pode adicionar personalização aproveitando os campos do arquivo de entrada. [Saiba como personalizar conteúdo](../personalization/personalize.md)
+Ao criar o conteúdo da mensagem, adicione personalização aproveitando os campos do arquivo de entrada. [Saiba como personalizar conteúdo](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable="yes"}
+![Captura de tela mostrando opções de personalização usando campos do arquivo de entrada](assets/select-external-perso.png){zoomable="yes"}
 
 ## Arquivo de amostra {#sample-file}
 
@@ -97,11 +97,11 @@ O Campaign Web permite visualizar e enviar provas ao usar um público-alvo carre
 
 1. Clique no botão **[!UICONTROL Simular conteúdo]** da tela de edição de conteúdo da entrega e clique no botão **[!UICONTROL Adicionar perfil(s) de teste]**.
 
-1. Os perfis contidos no arquivo carregado são exibidos. Selecione o(s) perfil(is) que deseja usar para visualizar seu conteúdo e clique em **[!UICONTROL Selecionar]**.
+1. Os perfis contidos no arquivo carregado são exibidos. Selecione os perfis que deseja usar para visualizar seu conteúdo e clique em **[!UICONTROL Selecionar]**.
 
 1. Uma pré-visualização do conteúdo do delivery é exibida no painel direito da tela. Os elementos personalizados são substituídos pelos dados do perfil selecionado no painel esquerdo. [Saiba mais sobre a visualização do conteúdo da entrega](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable="yes"}
+   ![Captura de tela mostrando a visualização do conteúdo de entrega com elementos personalizados](assets/file-upload-preview.png){zoomable="yes"}
 
 1. Para enviar provas, clique no botão **[!UICONTROL Enviar prova]**.
 
@@ -113,6 +113,6 @@ O Campaign Web permite visualizar e enviar provas ao usar um público-alvo carre
 
 1. Quando os perfis de prova forem adicionados e você estiver pronto para enviar as provas, clique no botão **[!UICONTROL Enviar prova]** e confirme o envio.
 
-   ![](assets/file-upload-test.png){zoomable="yes"}
+   ![Captura de tela mostrando o processo de envio de prova](assets/file-upload-test.png){zoomable="yes"}
 
-1. Você pode monitorar o envio da prova usando o botão **[!UICONTROL Exibir provas]** a qualquer momento. [Saiba mais sobre o monitoramento de provas](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Monitore o envio da prova usando o botão **[!UICONTROL Exibir provas]** a qualquer momento. [Saiba mais sobre o monitoramento de provas](../preview-test/test-deliveries.md#access-test-deliveries)

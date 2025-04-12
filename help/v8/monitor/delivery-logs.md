@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorar logs da entrega
 description: Saiba como monitorar logs da entrega
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 71%
+source-wordcount: '428'
+ht-degree: 55%
 
 ---
 
@@ -40,39 +40,37 @@ Todas as etapas de validação, avisos e erros são listados. Os ícones colorid
 * O ícone amarelo indica um erro de processamento não crítico.
 * O ícone vermelho indica um erro crítico que impede o envio do delivery. Erros críticos devem ser corrigidos para que o delivery seja enviado.
 
-![](assets/logs.png){zoomable="yes"}
-
+Guia Logs ![ mostrando etapas de validação, avisos e erros com ícones coloridos indicando tipos de mensagem.](assets/logs.png){zoomable="yes"}
 
 ## Entregas {#deliveries-tab}
 
 A guia **Logs de envio** contém o histórico de todas as ocorrências da entrega. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status da entrega para cada destinatário.
 
-![](assets/logs2.png){zoomable="yes"}
+Guia ![ Entregas mostrando um histórico das mensagens enviadas e seus status.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusões {#exclusion-tab}
 
 A guia **Logs excluídos** lista todas as mensagens excluídas do público-alvo e especifica o motivo da falha no envio.
 
-![](assets/logs3.png){zoomable="yes"}
+![Guia Exclusões listando as mensagens excluídas e os motivos para falhas de envio.](assets/logs3.png){zoomable="yes"}
 
 ## Causas da exclusão {#exclusion-causes-tab}
 
 A guia **Causas de exclusão** exibe, para cada causa possível, o número de mensagens que foram excluídas do destino.
 
-![](assets/logs4.png){zoomable="yes"}
+![Guia de causas de exclusão mostrando o número de mensagens excluídas para cada causa.](assets/logs4.png){zoomable="yes"}
 
 ## URLs rastreados {#tracked-urls-tab}
 
 A guia **URLs rastreadas** reagrupa as URLs contidas nas mensagens enviadas, incluindo o tipo de URL e a URL de origem.
 
-![](assets/logs5.png){zoomable="yes"}
+![Guia URLs rastreadas mostrando as URLs contidas nas mensagens enviadas, seus tipos e URLs de origem.](assets/logs5.png){zoomable="yes"}
 
 ## Rastreamento {#tracking-tab}
 
-A guia **Rastreamento** lista o histórico de rastreamento dessa entrega. Esta guia exibe os dados de rastreamento das mensagens enviadas, ou seja, todas as URLs sujeitas ao rastreamento pelo Adobe Campaign.
+A guia **Rastreamento** lista o histórico de rastreamento dessa entrega. Essa guia exibe dados de rastreamento das mensagens enviadas, incluindo todos os URLs sujeitos ao rastreamento por Adobe Campaign.
 
-
-![](assets/logs6.png){zoomable="yes"}
+![Guia Rastreamento mostrando o histórico de rastreamento e os dados das mensagens enviadas.](assets/logs6.png){zoomable="yes"}
 
 >[!NOTE]
 >

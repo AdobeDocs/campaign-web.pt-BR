@@ -3,10 +3,10 @@ audience: end-user
 title: Adicionar um pré-cabeçalho no Designer de email
 description: Saiba como criar conteúdo de email
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 47%
+source-wordcount: '249'
+ht-degree: 34%
 
 ---
 
@@ -29,19 +29,19 @@ Para definir o pré-cabeçalho do email, siga as etapas abaixo.
 
 1. No [Designer de email](create-email-content.md), adicione pelo menos um componente **[!UICONTROL Estrutura]** para começar a criar seu email.
 
-1. Clique no ícone **[!UICONTROL Árvore de navegação]** no painel esquerdo e selecione **[!UICONTROL Corpo]**.
+1. Clique no ícone da **[!UICONTROL árvore de navegação]** no painel esquerdo e selecione **[!UICONTROL Corpo]**.
 
-   ![](assets/preheader_body.png){zoomable="yes"}
+   ![Captura de tela mostrando o ícone da árvore de navegação e a seleção do corpo na interface do Designer de email.](assets/preheader_body.png){zoomable="yes"}
 
 1. Na guia **[!UICONTROL Configurações]**, digite algum texto para o pré-cabeçalho.
 
 1. Para personalizar ainda mais, clique no ícone **[!UICONTROL Adicionar personalização]** à esquerda do campo **[!UICONTROL Pré-cabeçalho]**.
 
-   ![](assets/preheader_body_settings.png){zoomable="yes"}
+   ![Captura de tela mostrando a guia Configurações e o ícone Adicionar personalização na interface do Designer de email.](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Na janela **[!UICONTROL Editar Personalization]**, você pode adicionar [campos de personalização](../personalization/personalize.md), [fragmentos de expressão](../content/use-expression-fragments.md) e [conteúdo condicional](../personalization/conditions.md) usando as entradas dedicadas à esquerda.
+1. Na janela **[!UICONTROL Editar Personalization]**, adicione [campos de personalização](../personalization/personalize.md), [fragmentos de expressão](../content/use-expression-fragments.md) e [conteúdo condicional](../personalization/conditions.md) usando as entradas dedicadas à esquerda.
 
-   ![](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![Captura de tela mostrando a janela Editar Personalization com opções para campos de personalização, fragmentos de expressão e conteúdo condicional.](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Confirmar]**.
 

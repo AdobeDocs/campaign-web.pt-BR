@@ -3,26 +3,25 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho AND-join
 description: Saiba como usar a atividade de fluxo de trabalho AND-join
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 45%
 
 ---
 
 # AND-join {#join}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A atividade **AND-join** permite sincronizar várias ramificações de execução de um fluxo de trabalho. Ela é acionada quando todas as atividades anteriores são concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a execução do fluxo de trabalho."
+>abstract="A atividade **AND-join** permite sincronizar várias ramificações de execução de um fluxo de trabalho. Ela é acionada quando todas as atividades anteriores são concluídas. Isso garante que determinadas atividades sejam concluídas antes de continuar a executar o workflow."
 
-A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ela permite sincronizar várias ramificações de execução de um fluxo de trabalho.
+A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ele sincroniza várias ramificações de execução de um fluxo de trabalho.
 
-Essa atividade só acionará a transição de saída depois que todas as transições de entrada estiverem ativadas, ou seja, depois que todas as atividades anteriores estiverem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar o fluxo de trabalho.
+Essa atividade aciona a transição de saída somente após todas as transições de entrada serem ativadas. Em outras palavras, é ativado depois que todas as atividades anteriores são concluídas. Isso garante que determinadas atividades sejam concluídas antes de continuar a executar o workflow.
 
-## Configurar a atividade AND-join{#and-join-configuration}
+## Configurar a atividade AND-join {#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
@@ -31,15 +30,15 @@ Essa atividade só acionará a transição de saída depois que todas as transi�
 
 Siga estas etapas para configurar a atividade **AND-join**:
 
-![](../assets/workflow-andjoin.png)
+![Captura de tela mostrando a interface de configuração para a atividade AND-join.](../assets/workflow-andjoin.png)
 
 1. Adicione várias atividades, como atividades de canal, para formar pelo menos duas ramificações de execução diferentes.
 1. Adicione uma atividade **AND-join** a qualquer uma das ramificações.
-1. Na seção **Opções de mesclagem**, marque todas as atividades anteriores que você deseja mesclar.
-1. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter. A transição de saída só pode conter uma das populações de transição de entrada.
+1. Na seção **Opções de mesclagem**, marque todas as atividades anteriores nas quais deseja ingressar.
+1. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada a ser mantida. A transição de saída só pode conter uma das populações de transição de entrada.
 
-## Exemplo{#and-join-example}
+## Exemplo {#and-join-example}
 
-O exemplo a seguir mostra duas ramificações de fluxo de trabalho com uma entrega de SMS e email. A AND-join será acionada quando ambas as transições de entrada estiverem habilitadas. As notificações por push serão enviadas somente após a conclusão de ambas as entregas.
+O exemplo a seguir mostra duas ramificações de fluxo de trabalho com uma entrega de SMS e email. O AND-join é acionado quando ambas as transições de entrada são ativadas. As notificações por push são enviadas somente após a conclusão de ambos os deliveries.
 
-![](../assets/workflow-andjoin-example.png){zoomable="yes"}
+![Exemplo de fluxo de trabalho com duas ramificações, mostrando a entrega de emails e SMS seguida de notificações por push.](../assets/workflow-andjoin-example.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios globais para o canal SMS
 description: Entender relatórios globais do canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 31%
+source-wordcount: '664'
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 Os relatórios globais fornecem aos usuários uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.
 
-Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relatórios]**. Você pode filtrar seus dados dependendo da data do relatório, pasta ou regras. [Saiba mais](global-reports.md)
+Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relatórios]**. Você pode filtrar seus dados dependendo da data, pasta ou regras do relatório. [Saiba mais](global-reports.md)
 
 ## Resumo da entrega {#delivery-summary-sms}
 
@@ -25,9 +25,9 @@ Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relat�
 >title="Visão geral da entrega de SMS"
 >abstract="Os KPIs da **Visão geral da entrega de SMS** oferecem um resumo abrangente da entrega de SMS, com insights detalhados e dados específicos. Esses KPIs fornecem informações abrangentes sobre o desempenho, a eficácia e os resultados da entrega."
 
-O relatório **[!UICONTROL Visão geral da entrega]** oferece KPIs (indicadores-chave de desempenho) abrangentes que fornecem insights detalhados sobre os padrões de interação de seus visitantes com cada entrega de SMS. As métricas a seguir são descritas abaixo.
+O relatório **[!UICONTROL Visão geral da entrega]** oferece KPIs (indicadores-chave de desempenho) abrangentes, que fornecem insights detalhados sobre os padrões de interação de seus visitantes com cada entrega de SMS. As métricas a seguir são descritas abaixo.
 
-![](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
+![Uma captura de tela do relatório Visão Geral da Entrega, mostrando os principais indicadores de desempenho para entrega de SMS.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
@@ -46,11 +46,11 @@ O relatório **[!UICONTROL Visão geral da entrega]** oferece KPIs (indicadores-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="População direcionada por SMS"
->abstract="O gráfico e a tabela **População direcionada** apresentam dados relacionados ao público-alvo de SMS, incluindo informações sobre mensagens a serem entregues e exclusões."
+>abstract="O gráfico e a tabela para a **População direcionada** apresentam dados relacionados ao seu público-alvo de SMS, incluindo informações sobre mensagens a serem entregues e exclusões."
 
 A tabela e o gráfico **[!UICONTROL Público-alvo]** apresentam dados relacionados aos seus destinatários para cada entrega de SMS enviada. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
+![Uma captura de tela do relatório Público-alvo direcionado, mostrando dados sobre destinatários e exclusões de entregas de SMS.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de Público-alvo direcionado.
 
@@ -58,7 +58,7 @@ A tabela e o gráfico **[!UICONTROL Público-alvo]** apresentam dados relacionad
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar regras: endereço em quarentena, em, em inclui na lista de bloqueios, etc.
+* incluir na lista de bloqueios **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar regras, como endereço ausente, em quarentena ou em um arquivo de pesquisa.
 
 +++
 
@@ -71,7 +71,7 @@ A tabela e o gráfico **[!UICONTROL Público-alvo]** apresentam dados relacionad
 
 A tabela **[!UICONTROL Estatísticas de entrega]** detalha o sucesso de cada entrega de SMS. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
+![Uma captura de tela do relatório de Estatísticas de Entrega, mostrando taxas de sucesso, erros e quarentenas para entregas de SMS.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
 +++Saiba mais sobre Estatísticas de entrega.
 
@@ -79,9 +79,9 @@ A tabela **[!UICONTROL Estatísticas de entrega]** detalha o sucesso de cada ent
 
 * **[!UICONTROL Success]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Erros / Devoluções]**: Número total de erros acumulados durante as entregas e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Errors / Bounces]**: Número total de erros acumulados durante os deliveries e o processamento automático de reassociação, em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (por exemplo, usuário desconhecido, domínio inválido), em relação ao número de mensagens a serem entregues.
 
   Os tipos de erro de SMS estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
@@ -98,7 +98,7 @@ O gráfico e a tabela **[!UICONTROL Causas da exclusão]** exibem os motivos que
 
 Os tipos de erro estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
+![Uma captura de tela do relatório Causas da Exclusão, mostrando os motivos para exclusões de entrega de SMS.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Taxa de transferência de entrega {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ Os tipos de erro estão listados na [documentação do Adobe Campaign v8 (consol
 >title="Taxa de transferência de entrega de SMS"
 >abstract="O relatório **Taxa de transferência de entrega** fornece insights abrangentes sobre a eficiência do sistema de entrega de mensagens SMS, com uma visão geral detalhada das taxas de sucesso e erros em um período especificado."
 
-![](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
+![Uma captura de tela do relatório Taxa de Transferência de Entrega, mostrando taxas de erro e sucesso para entregas de SMS ao longo do tempo.](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
 O relatório **[!UICONTROL Taxa de Transferência de Entrega]** oferece insights abrangentes sobre a eficácia do sistema de entrega de mensagens SMS, oferecendo um resumo detalhado das taxas de sucesso e erro em um período especificado.

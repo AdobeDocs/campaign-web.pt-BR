@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 38%
+source-wordcount: '1241'
+ht-degree: 30%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Atividade Carregar arquivo"
->abstract="A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para personalização ou para atualizar perfis ou qualquer outra tabela. "
+>abstract="A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para personalização ou para atualizar perfis ou qualquer outra tabela."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -27,7 +27,6 @@ ht-degree: 38%
 >title="Transição de saída do gerenciamento de rejeições para recusas"
 >abstract="Transição de saída do gerenciamento de rejeições para recusas"
 
-
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md) ou para atualizar perfis ou qualquer outra tabela.
 
 >[!NOTE]
@@ -37,9 +36,9 @@ Esta atividade pode ser usada com uma atividade [Reconciliation](reconciliation.
 
 ## Configurar a atividade de carregamento de arquivo {#load-configuration}
 
-A configuração da atividade **Carregar arquivo** envolve duas etapas. Primeiro, é necessário definir a estrutura de arquivo esperada fazendo upload de um arquivo de amostra. Depois disso, você poderá especificar a origem do arquivo cujos dados serão importados. Siga as etapas abaixo para configurar a atividade.
+A configuração da atividade **Carregar arquivo** envolve duas etapas. Primeiro, defina a estrutura de arquivo esperada fazendo upload de um arquivo de amostra. Depois disso, especifique a origem do arquivo cujos dados serão importados. Siga as etapas abaixo para configurar a atividade.
 
-![](../assets/workflow-load-file.png)
+![Captura de tela de configuração da atividade do arquivo de carregamento do fluxo de trabalho](../assets/workflow-load-file.png)
 
 ### Configurar o arquivo de amostra {#sample}
 
@@ -56,7 +55,7 @@ A configuração da atividade **Carregar arquivo** envolve duas etapas. Primeiro
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Remapeamento de valor da atividade Carregar arquivo"
->abstract="Use essa opção para mapear valores específicos dos arquivos carregados com novos valores. Por exemplo, se a coluna contiver valores “Verdadeiro”/“Falso”, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres “0”/“1”."
+>abstract="Use essa opção para mapear valores específicos dos arquivos carregados com novos valores. Por exemplo, se a coluna contiver valores &quot;Verdadeiro&quot;/&quot;Falso&quot;, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres &quot;0&quot;/&quot;1&quot;."
 
 Siga estas etapas para configurar o arquivo de amostra usado para definir a estrutura de arquivo esperada:
 
@@ -66,13 +65,13 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
 
    >[!NOTE]
    >
-   >Os dados do arquivo de amostra são usados para configurar a atividade, mas não são importados. Recomendamos usar um arquivo de amostra com poucos dados. O formato de arquivo deve estar alinhado com este [arquivo de exemplo](../../audience/file-audience.md#sample-file).
+   >Os dados do arquivo de amostra são usados para configurar a atividade, mas não são importados. Use um arquivo de amostra com poucos dados. O formato de arquivo deve estar alinhado com este [arquivo de exemplo](../../audience/file-audience.md#sample-file).
 
 1. Uma pré-visualização do arquivo de amostra é mostrada, exibindo no máximo 30 linhas.
 
 1. Na lista suspensa **[!UICONTROL Tipo de arquivo]**, especifique se o arquivo está usando colunas delimitadas ou colunas de largura fixa.
 
-   ![](../assets/workflow-load-file-sample.png)
+   ![Captura de tela de configuração de arquivo de exemplo](../assets/workflow-load-file-sample.png)
 
 1. Para tipos de arquivo de colunas delimitadas, use a seção **Colunas** para configurar as propriedades de cada coluna.
 
@@ -83,7 +82,7 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
    * **[!UICONTROL Largura]** (tipo de dados da cadeia de caracteres): número máximo de caracteres a serem exibidos na coluna.
    * **[!UICONTROL Transformação de Dados]** (tipo de dados de cadeia de caracteres): aplique a transformação aos valores contidos na coluna.
    * **[!UICONTROL Gerenciamento de espaço em branco]** (tipo de dados da cadeia de caracteres): especifique como gerenciar os espaços contidos na coluna.
-   * **[!UICONTROL Separadores]** (tipos de dados data, hora, número inteiro e número)*: especifique os caracteres a serem usados como separadores.
+   * **[!UICONTROL Separadores]** (tipos de dados data, hora, inteiro e número): especifique os caracteres a serem usados como separadores.
    * **[!UICONTROL Permitir NULLs]**: especifique como gerenciar valores vazios na coluna. A opção &quot;Adobe Campaign default&quot; gerará um erro se um valor vazio estiver presente.
    * **[!UICONTROL Processamento de erros]** (tipo de dados de cadeia de caracteres): especifique o comportamento em caso de erros em uma das linhas.
    * **[!UICONTROL Remapeamento de valores]**: essa opção permite mapear valores específicos com novos valores. Por exemplo, se a coluna contiver valores “Verdadeiro”/“Falso”, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres “0”/“1”.
@@ -107,12 +106,12 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Banco de dados de públicos-alvo"
->abstract="Se você estiver acessando uma atividade **[!UICONTROL Carregar arquivo]** que já foi configurada no console do cliente, uma seção **[!UICONTROL Banco de dados de destino]** adicional estará disponível se você tiver configurado a atividade para fazer upload do arquivo para um banco de dados externo."
+>abstract="Se você estiver acessando uma atividade de **[!UICONTROL Carregar arquivo]** que já foi configurada no console do cliente, uma seção adicional de **[!UICONTROL Banco de dados de destino]** estará disponível se você tiver configurado a atividade para carregar o arquivo para um banco de dados externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Comando Carregar arquivo"
->abstract="Permitir comandos arbitrários para pré-processamento é uma vulnerabilidade de segurança. Desabilite a opção de segurança XtkSecurity_Disable_Preproc para forçar o uso de uma lista predefinida de comandos."
+>abstract="Permitir comando arbitrário para pré-processamento é uma preocupação de segurança. Desative a opção de segurança XtkSecurity_Disable_Preproc para forçar o uso de uma lista predefinida de comandos."
 
 >[!CAUTION]
 >
@@ -130,7 +129,7 @@ Para definir o arquivo de destino para upload, siga estas etapas:
 
    * **[!UICONTROL Calculado]**: carregue o arquivo cujo nome está especificado no campo **[!UICONTROL Nome do arquivo]**. Clique no ícone **[!UICONTROL Abrir caixa de diálogo de personalização]** para usar o editor de expressão, incluindo variáveis de evento, para calcular o nome do arquivo.
 
-   ![](../assets/workflow-load-file-config.png)
+   ![Captura de tela de configuração do arquivo de destino](../assets/workflow-load-file-config.png)
 
    >[!NOTE]
    >
@@ -148,7 +147,6 @@ Para definir o arquivo de destino para upload, siga estas etapas:
 >title="Excluir arquivo após importação"
 >abstract="Ative a opção **Excluir arquivo após importação** para excluir o arquivo original do servidor após a importação."
 
-
 1. Na seção **Reject management**, especifique como a atividade deve se comportar em caso de erros:
 
    * No campo **[!UICONTROL Número de erros permitidos]**, especifique o número máximo de erros autorizados ao processar o arquivo a ser carregado. Por exemplo, se o valor for definido como &quot;20&quot;, a execução do workflow falhará se houver mais de 20 erros ao carregar o arquivo.
@@ -159,7 +157,7 @@ Para definir o arquivo de destino para upload, siga estas etapas:
 
 1. Para excluir o arquivo carregado do servidor após a execução do fluxo de trabalho, alterne a opção **[!UICONTROL Excluir arquivo após importação]**.
 
-   ![](../assets/workflow-load-file-options.png)
+   ![Captura de tela de configuração de opções adicionais](../assets/workflow-load-file-options.png)
 
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 

@@ -3,54 +3,50 @@ audience: end-user
 title: Sobre fluxos de trabalho de somente leitura
 description: Saiba por que os fluxos de trabalho estão no modo somente leitura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 13%
+source-wordcount: '246'
+ht-degree: 4%
 
 ---
 
 # Sobre fluxos de trabalho de somente leitura {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Este workflow é de somente leitura"
->abstract="Não é possível editar esse fluxo de trabalho devido aos seus direitos ou ao tipo de fluxo de trabalho."
+>
+Alguns workflows são somente leitura. Os workflows técnicos incorporados são sempre somente leitura, mas essa restrição também pode se aplicar a outros tipos de workflows.
 
-Alguns fluxos de trabalho estão no modo somente leitura. Os workflows técnicos incorporados são sempre somente leitura, mas essa obstrução também pode ser ativada em outros tipos de workflow.
-
-Os usuários do Campaign podem ter acesso restrito aos dados do Adobe Campaign. Um administrador do Campaign pode conceder a eles o direito de visualizar alguns recursos, mas não de editá-los ou modificá-los. As permissões do usuário em dados são fundamentais para garantir a segurança dos dados e do processo. Saiba mais sobre o gerenciamento de permissões no Campaign em [esta seção](../get-started/permissions.md)
+Os usuários do Campaign podem ter acesso restrito aos dados do Adobe Campaign. Um administrador do Campaign pode conceder a ele o direito de exibir determinados recursos, mas não de editá-los ou modificá-los. As permissões do usuário em dados são essenciais para garantir a segurança dos dados e do processo. Saiba mais sobre o gerenciamento de permissões no Campaign em [esta seção](../get-started/permissions.md).
 
 Quando um fluxo de trabalho está no modo somente leitura:
 
-* A menção **[!UICONTROL Somente leitura]** próxima ao botão **[!UICONTROL Configurações]**
-* Os botões de ação não estão acessíveis
+* A menção **[!UICONTROL Somente leitura]** aparece próxima ao botão **[!UICONTROL Configurações]**.
+* Os botões de ação não estão acessíveis.
 
-![](assets/readonly-workflow.png){zoomable="yes"}
+![Interface de fluxo de trabalho somente leitura mostrando o botão de configurações e os botões de ação desabilitados.](assets/readonly-workflow.png){zoomable="yes"}
 
-Os usuários não podem editar nada em um fluxo de trabalho somente leitura. não é permitido alterar as configurações das atividades.
+Os usuários não podem editar nada em um fluxo de trabalho somente leitura. Eles não têm permissão para alterar as configurações das atividades.
 
-![](assets/scheduler-readonly.png){zoomable="yes"}
+![Interface do agendador no modo somente leitura, mostrando opções de configurações desabilitadas.](assets/scheduler-readonly.png){zoomable="yes"}
 
 Os usuários não podem excluir o workflow.
 
-![](assets/readonly-rights.png){zoomable="yes"}
-
+![Interface mostrando direitos restritos para excluir fluxos de trabalho.](assets/readonly-rights.png){zoomable="yes"}
 
 ## Tipos de workflows somente leitura {#readonly-workflow-types}
 
-De acordo com o tipo de fluxo de trabalho, o modo somente leitura pode ser diferente.
+Dependendo do tipo de workflow, o modo somente leitura pode variar.
 
 ### Fluxos de trabalho da campanha {#readonly-campaign-wf}
 
-No caso de um workflow de campanha somente leitura, o usuário não consegue acessar o botão de monitoramento.
+Em um workflow de campanha somente leitura, o usuário não consegue acessar o botão de monitoramento.
 
-![](assets/readonly-campaign-workflow.png){zoomable="yes"}
+![Interface do fluxo de trabalho do Campaign no modo somente leitura, mostrando as opções de monitoramento desabilitadas.](assets/readonly-campaign-workflow.png){zoomable="yes"}
 
 ### Workflows técnicos {#readonly-tech-wf}
 
-Os workflows técnicos incorporados são somente leitura para todos os usuários do Campaign, até mesmo para o administrador. No entanto, os usuários podem **pausar** ou **parar**, se necessário. Essas são as únicas ações permitidas.
+Os workflows técnicos incorporados são somente leitura para todos os usuários do Campaign, incluindo administradores. No entanto, os usuários podem **pausar** ou **parar**, se necessário. Essas são as únicas ações permitidas.
 
-![](assets/readonly-technical-workflow.png){zoomable="yes"}
+![Interface de fluxo de trabalho técnico no modo somente leitura, mostrando opções para pausar ou parar fluxos de trabalho.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Saiba mais sobre fluxos de trabalho técnicos em [esta seção](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+Saiba mais sobre fluxos de trabalho técnicos em [esta seção](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

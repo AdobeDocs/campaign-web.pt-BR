@@ -2,20 +2,19 @@
 title: Campos personalizados
 description: Saiba como configurar campos personalizados e sua visibilidade na interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 22%
+source-wordcount: '1003'
+ht-degree: 20%
 
 ---
-
 
 # Configurar campos personalizados {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Editar detalhes personalizados"
->abstract="Todos os campos personalizados da interface do esquema selecionado são exibidos. É possível alterar a ordem de exibição na interface usando as setas para cima e para baixo e agrupar os campos em subseções adicionando separadores. Para excluir um campo personalizado ou editar configurações como condições de visibilidade, clique no botão de reticências."
+>abstract="Todos os campos personalizados da interface do esquema selecionado são exibidos. É possível alterar a ordem em que eles são exibidos na interface, usando as setas para cima e para baixo e agrupar campos em subseções adicionando separadores. Para excluir um campo personalizado ou editar configurações como condições de visibilidade, clique no botão de reticências."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -69,30 +68,30 @@ Para exibir campos personalizados na interface, siga estas etapas:
 
    Use o filtro **[!UICONTROL Editável]** no painel de filtros para identificar rapidamente esquemas com campos personalizados.
 
-   ![](assets/custom-fields-open.png)
+   ![Captura de tela mostrando o menu Esquemas e o filtro Editável no painel de navegação](assets/custom-fields-open.png)
 
-1. Selecione o nome do schema na lista para abri-lo. Uma exibição de esquema detalhada é exibida [Saiba mais sobre detalhes do esquema](../administration/schemas.md). Clique no botão **[!UICONTROL Editar detalhes personalizados]** para acessar campos personalizados. Neste exemplo, queremos adicionar campos ao esquema **[!UICONTROL Recipients]**.
+1. Selecione o nome do schema na lista para abri-lo. Uma visualização detalhada do esquema é exibida. [Saiba mais sobre detalhes do esquema](../administration/schemas.md). Clique no botão **[!UICONTROL Editar detalhes personalizados]** para acessar campos personalizados. Neste exemplo, campos são adicionados para o esquema **[!UICONTROL Recipients]**.
 
-   ![](assets/custom-fields-edit.png)
+   ![Captura de tela mostrando o botão Editar detalhes personalizados na exibição de esquema](assets/custom-fields-edit.png)
 
 1. A lista de campos personalizados exibidos na interface do esquema é exibida. Aqui, o campo &quot;ID do CRM&quot; está visível na tela de detalhes dos perfis e foi marcado como obrigatório.
 
    | Configuração de campos personalizados | Renderização na interface |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![Captura de tela mostrando a configuração de campos personalizados](assets/custom-fields-detail.png){zoomable="yes"} | ![Captura de tela mostrando a renderização do campo de ID do CRM na interface](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. Para adicionar um campo personalizado à interface, clique no botão de reticências e escolha uma das seguintes opções:
 
    * **[!UICONTROL Selecionar campos personalizados]**: selecione um ou vários campos personalizados para exibir na interface.
    * **[!UICONTROL Preencha automaticamente a lista de campos personalizados]**: adicione à interface todos os campos personalizados definidos para o esquema.
 
-   ![](assets/custom-fields-add.png)
+   ![Captura de tela mostrando as opções para adicionar campos personalizados](assets/custom-fields-add.png)
 
 1. Depois que os campos personalizados forem adicionados, você poderá:
 
    * **Reordenar campos**: use as setas para cima e para baixo.
    * **Tornar campos obrigatórios**: marque a caixa de seleção **Obrigatório**.
-   * **Editar configurações de campos**: clique no botão de reticências e escolha **[!UICONTROL Editar]**. [Saiba mais](#settings)
+   * **Editar configurações de campo**: clique no botão de reticências e escolha **[!UICONTROL Editar]**. [Saiba mais](#settings)
    * **Excluir campos**: clique no botão de reticências e escolha **[!UICONTROL Excluir]**.
    * **Organize os campos em subseções na interface**: clique no botão de reticências ao lado das setas para cima e para baixo e escolha **[!UICONTROL Adicionar separador]**. [Saiba mais](#separator)
 
@@ -100,7 +99,7 @@ Para exibir campos personalizados na interface, siga estas etapas:
 
 Para definir configurações específicas para cada campo personalizado, clique no botão de reticências ao lado do campo desejado e selecione **[!UICONTROL Editar]**.
 
-![](assets/custom-fields-settings.png)
+![Captura de tela mostrando o menu de configurações para campos personalizados](assets/custom-fields-settings.png)
 
 Configurações disponíveis:
 
@@ -117,7 +116,7 @@ Configurações disponíveis:
 
   +++Exibir exemplo
 
-  ![](assets/custom-fields-ref.png)
+  ![Captura de tela mostrando um exemplo de configurações de filtro para campos personalizados](assets/custom-fields-ref.png)
 
 +++
 
@@ -137,4 +136,4 @@ A interface do usuário da Web do Campaign permite adicionar separadores para ag
 
    | Configuração de campos personalizados | Renderização na interface |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![Captura de tela mostrando a configuração de um separador](assets/custom-fields-separator.png){zoomable="yes"} | ![Captura de tela mostrando a renderização de uma subseção na interface](assets/custom-fields-section.png){zoomable="yes"} |

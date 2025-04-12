@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 23%
+source-wordcount: '1677'
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 
 O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de email. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_1.png){zoomable="yes"}
+![Captura de tela do relatório de visão geral da entrega](assets/campaign_report_email_1.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -50,7 +50,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_2.png){zoomable="yes"}
+![Captura de tela da tabela Estatísticas iniciais de público-alvo de destino](assets/campaign_report_email_2.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -71,7 +71,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 
 A tabela **[!UICONTROL Estatísticas de execução]** detalha o sucesso da sua entrega. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_3.png){zoomable="yes"}
+![Captura de tela da tabela Estatísticas de execução detalhando o sucesso da entrega](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -96,7 +96,7 @@ A tabela **[!UICONTROL Estatísticas de execução]** detalha o sucesso da sua e
 
 A tabela **[!UICONTROL Estatísticas de reação]** contém os dados disponíveis para a atividade de destinatário para a entrega. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_4.png){zoomable="yes"}
+![Captura de tela da tabela de estatísticas de Reação contendo os dados disponíveis para a atividade de destinatário para a entrega](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -120,7 +120,7 @@ A tabela **[!UICONTROL Estatísticas de reação]** contém os dados disponívei
 
 A tabela **[!UICONTROL Fluxos de cliques gerados]** exibe dados relativos a como seus destinatários interagiram com sua entrega. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_5.png){zoomable="yes"}
+![Captura de tela da tabela de fluxos de clique gerados](assets/campaign_report_email_5.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -145,7 +145,7 @@ A tabela e o gráfico **[!UICONTROL Breakdown of errors per type]** contêm os d
 
 Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}
+![Captura de tela do Detalhamento de erros por gráfico de tipo e tabela](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -185,7 +185,7 @@ A tabela e o gráfico **[!UICONTROL Breakdown of errors per domain]** contêm os
 
 As métricas **[!UICONTROL Estatísticas de entrega]** fornecem KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_7.png){zoomable="yes"}
+![Captura de tela das métricas de estatísticas de entrega](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -211,7 +211,7 @@ As métricas **[!UICONTROL Estatísticas de entrega]** fornecem KPIs (indicadore
 
 A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_8.png){zoomable="yes"}
+![Captura de tela da tabela de taxas de abertura e click-through](assets/campaign_report_email_8.png){zoomable="yes"}
 
 +++ Saiba mais sobre Métricas de relatório de campanha de email.
 
@@ -236,7 +236,7 @@ A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados rel
 
 O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre as URLs com mais cliques durante uma entrega. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}
+![Captura de tela do relatório de fluxos de clique e URLs](assets/campaign_report_email_9.png){zoomable="yes"}
 
 +++ Saiba mais sobre Métricas de relatório de campanha de email.
 
@@ -259,7 +259,7 @@ O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-c
 
 O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis para o comportamento do recipient por link. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_10.png){zoomable="yes"}
+![Captura de tela do gráfico dos 10 links mais visitados](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -278,7 +278,7 @@ O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dad
 
 O gráfico **[!UICONTROL Breakdown of clicks over time]** contém os dados disponíveis para o comportamento do recipient por link.
 
-![](assets/campaign_report_email_11.png){zoomable="yes"}
+![Captura de tela do Detalhamento dos cliques ao longo do gráfico de tempo](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## Atividades do usuário {#user-activities-email}
 
@@ -289,7 +289,7 @@ O gráfico **[!UICONTROL Breakdown of clicks over time]** contém os dados dispo
 
 O relatório **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formato de um gráfico. As métricas para esse relatório são detalhadas abaixo.
 
-![](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
+![Captura de tela do relatório de atividades do usuário](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 

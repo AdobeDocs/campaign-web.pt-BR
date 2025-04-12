@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios globais para o canal de email
 description: Saiba mais sobre relatórios globais para o canal de email
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 27%
+source-wordcount: '1653'
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 Os relatórios globais fornecem aos usuários uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.
 
-Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relatórios]**. Você pode filtrar seus dados dependendo da data do relatório, pasta ou regras. [Saiba mais](global-reports.md)
+Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relatórios]**. Você pode filtrar seus dados dependendo da data, pasta ou regras do relatório. [Saiba mais](global-reports.md)
 
 ## Resumo da entrega {#delivery-summary-email}
 
@@ -25,9 +25,9 @@ Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relat�
 >title="Visão geral da entrega"
 >abstract="A **Visão geral da entrega** apresenta os principais indicadores de desempenho (KPIs) que oferecem insights detalhados sobre como seu público-alvo interage com as entregas de email e campanhas enviadas."
 
-A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de desempenho (KPIs), que fornecem insights detalhados sobre a interação de seus visitantes com cada entrega de email. As métricas estão descritas abaixo.
+A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de desempenho (KPIs), oferecendo insights detalhados sobre a interação dos visitantes com cada entrega de email. As métricas estão descritas abaixo.
 
-![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
+![Métricas de visão geral da entrega](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
@@ -53,7 +53,7 @@ A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de 
 
 A tabela e o gráfico para **[!UICONTROL Público-alvo]** exibem dados relacionados aos seus destinatários, com as métricas detalhadas fornecidas abaixo.
 
-![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
+![Métricas de público-alvo](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre métricas de Público-alvo direcionado.
 
@@ -61,7 +61,7 @@ A tabela e o gráfico para **[!UICONTROL Público-alvo]** exibem dados relaciona
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar regras: endereço em quarentena, em, em inclui na lista de bloqueios, etc.
+* incluir na lista de bloqueios **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar regras, como endereço ausente, em quarentena ou em.
 
 +++
 
@@ -74,7 +74,7 @@ A tabela e o gráfico para **[!UICONTROL Público-alvo]** exibem dados relaciona
 
 A tabela **[!UICONTROL Estatísticas de entrega]** fornece um detalhamento do sucesso de cada entrega de email, com as métricas detalhadas descritas abaixo.
 
-![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
+![Métricas de estatísticas de entrega](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Estatísticas de entrega.
 
@@ -95,9 +95,9 @@ A tabela **[!UICONTROL Estatísticas de entrega]** fornece um detalhamento do su
 >title="Causas da exclusão"
 >abstract="O gráfico e a tabela **Causas de exclusão** ilustram os motivos específicos das rejeições de mensagem durante a preparação da entrega, oferecendo um detalhamento por regra."
 
-![](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
+![Causas de métricas de exclusão](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
 
-O gráfico e a tabela de Exclusões ilustram os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
+O gráfico de exclusões e a tabela ilustram os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 
 Tipos de erro de email listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
@@ -108,7 +108,7 @@ Tipos de erro de email listados na [documentação do Adobe Campaign v8 (console
 >title="Taxa de transferência de entrega"
 >abstract="A **Taxa de transferência de entrega** fornece insights abrangentes sobre a taxa de transferência da entrega, destacando as taxas de sucesso e erro em um período especificado."
 
-![](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
+![Métricas de taxa de transferência de entrega](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
 
 O relatório Taxa de transferência de delivery fornece insights detalhados sobre a eficiência do processo de delivery, apresentando uma visão geral detalhada das taxas de sucesso e erro em um período especificado.
 
@@ -129,7 +129,7 @@ O relatório Taxa de transferência de delivery fornece insights detalhados sobr
 >title="Detalhamento de erros por tipo"
 >abstract="A tabela e o gráfico **Detalhamento de erros por tipo** fornece informações sobre vários tipos de erro encontrados durante o processo, incluindo erros de usuário desconhecido, caixa de entrada cheia, domínio inválido e outros."
 
-![](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
+![Detalhamento de erros por métricas de tipo](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
 A tabela e o gráfico **[!UICONTROL Detalhamento de erros por tipo]** apresentam os dados relacionados a possíveis erros ocorridos em vários domínios, com as métricas específicas fornecidas a seguir.
 
@@ -145,9 +145,9 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 
 * **[!UICONTROL Conta desabilitada]**: Tipo de erro gerado ao enviar uma entrega para indicar que o endereço não existe mais.
 
-* **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo IAP (Provedor de Acesso à Internet), por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
+* **[!UICONTROL Recusado]**: Tipo de erro gerado quando um endereço é rejeitado pelo Provedor de Acesso à Internet, por exemplo, ao seguir uma regra de segurança da aplicação (software antispam).
 
-* **[!UICONTROL Inacessível]**: Tipo de erro que ocorre na cadeia de caracteres de distribuição de mensagens: incidente na retransmissão SMTP, domínio temporariamente inacessível, etc
+* **[!UICONTROL Inacessível]**: Tipo de erro que ocorre na cadeia de caracteres de distribuição de mensagens, como um incidente na retransmissão SMTP ou domínio temporariamente inacessível.
 
 * **[!UICONTROL Não conectado]**: Tipo de erro para indicar que o celular do recipient está desligado ou sem rede no momento do envio.
 
@@ -160,7 +160,7 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 >title="Detalhamento de erros por domínio"
 >abstract="A tabela e o gráfico **Detalhamento de erros por domínio** apresentam os dados correspondentes a cada tipo de erro encontrado, categorizados por domínios específicos."
 
-![](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
+![Detalhamento de erros por métricas de domínio](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
 A tabela e o gráfico **[!UICONTROL Breakdown of errors per domain]** mostram os dados relacionados a possíveis erros em cada domínio. As métricas são comuns com a tabela e o gráfico **[!UICONTROL Breakdown of errors per type]** detalhados acima.
 
@@ -171,11 +171,11 @@ A tabela e o gráfico **[!UICONTROL Breakdown of errors per domain]** mostram os
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Estatísticas de entrega"
->abstract="Os principais indicadores de desempenho (KPIs) das **Estatísticas de entrega** fornecem uma visão geral abrangente do desempenho de suas entregas e campanhas, oferecendo insights sobre entregas bem-sucedidas, erros encontrados e engajamento do usuário."
+>abstract="Os **Indicadores-chave de desempenho (KPIs) das Estatísticas de entrega** fornecem uma visão geral abrangente do desempenho de suas entregas e campanhas, oferecendo insights sobre entregas bem-sucedidas, erros encontrados e engajamento do usuário."
 
-As métricas **[!UICONTROL Estatísticas de entrega]** oferecem KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre os dados associados a cada entrega de email. Mais detalhes sobre essas métricas são fornecidos abaixo.
+As métricas **[!UICONTROL Estatísticas de entrega]** oferecem KPIs (indicadores-chave de desempenho), fornecendo informações detalhadas sobre os dados associados a cada entrega de email. Mais detalhes sobre essas métricas são fornecidos abaixo.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
+![Métricas de rastreamento de estatísticas de entrega](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Estatísticas de entrega.
 
@@ -203,9 +203,9 @@ As métricas **[!UICONTROL Estatísticas de entrega]** oferecem KPIs (indicadore
 
 A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
+![Métricas de taxa de abertura e click-through](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Métricas de taxa de abertura e de click-through.
++++Saiba mais sobre Métricas de taxa de abertura e click-through.
 
 * **[!UICONTROL Enviado]**: Número total de mensagens enviadas.
 
@@ -227,9 +227,9 @@ A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados rel
 >title="Fluxos de clique e URLs"
 >abstract="O relatório **Fluxos de clique e URLs** utiliza indicadores principais de desempenho (KPIs) essenciais para fornecer insights detalhados sobre os URLs mais clicados durante uma entrega."
 
-O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-chave de desempenho) que fornecem insights detalhados sobre as URLs que receberam o maior número de cliques durante uma entrega. As métricas estão detalhadas abaixo.
+O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-chave de desempenho), oferecendo insights detalhados sobre as URLs que receberam o maior número de cliques durante uma entrega. As métricas estão detalhadas abaixo.
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
+![Métricas de fluxos de clique e URLs](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre URLs e métricas de fluxos de clique.
 
@@ -239,7 +239,7 @@ O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-c
 
 * **[!UICONTROL Total de Cliques]**: número total de cliques nos links nas entregas.
 
-* **[!UICONTROL Média da plataforma]**: essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques acumulados), é calculada para deliveries enviados nos seis meses anteriores. Somente as entregas com a mesma tipologia e no mesmo canal são consideradas. Provas são excluídas.
+* **[!UICONTROL Média da plataforma]**: essa taxa média, exibida em cada taxa (reatividade, cliques distintos e cliques cumulativos), é calculada para entregas enviadas nos seis meses anteriores. Somente as entregas com a mesma tipologia e no mesmo canal são consideradas. Provas são excluídas.
 +++
 
 ### Os 10 links mais visitados {#top10-global-report-email}
@@ -247,11 +247,11 @@ O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-c
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="Os 10 links mais visitados"
->abstract="O gráfico e a tabela **Os 10 links mais visitados** apresentam dados abrangentes sobre a interação do destinatário com cada link."
+>abstract="O gráfico e a tabela **Os 10 links mais visitados** apresentam dados abrangentes sobre a interação do recipient com cada link."
 
 O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis para o comportamento do recipient por link. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
+![As 10 métricas de links mais visitados](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre as 10 métricas de links mais visitadas.
 
@@ -270,7 +270,7 @@ O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dad
 
 O gráfico **[!UICONTROL Breakdown of clicks over time]** contém os dados disponíveis para o comportamento do recipient por link.
 
-![](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
+![Detalhamento dos cliques nas métricas de tempo](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
 
 ## Atividades do usuário {#user-activities-email}
 
@@ -281,7 +281,7 @@ O gráfico **[!UICONTROL Breakdown of clicks over time]** contém os dados dispo
 
 O relatório **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formato de um gráfico. As métricas para esse relatório são detalhadas abaixo.
 
-![](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
+![Métricas de atividades do usuário](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre métricas de Atividades do usuário.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal de correspondência direta
 description: Entender os relatórios de campanha do canal de correspondência direta
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 21%
+source-wordcount: '554'
+ht-degree: 19%
 
 ---
 
@@ -23,9 +23,9 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >title="Visão geral da entrega"
 >abstract="A **Visão geral da entrega** apresenta métricas principais de desempenho (KPIs) com informações detalhadas sobre as interações de visitantes com cada entrega de correspondência direta. As métricas estão descritas abaixo."
 
-A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de desempenho (KPIs), que fornecem insights detalhados sobre a interação de seus visitantes com cada entrega de correspondência direta. As métricas estão descritas abaixo.
+A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de desempenho (KPIs), oferecendo insights detalhados sobre a interação dos visitantes com cada entrega de correspondência direta. As métricas estão descritas abaixo.
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![Visão geral das métricas de entrega de campanha de correspondência direta](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
@@ -33,7 +33,7 @@ A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de 
 
 * **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Erros]**: Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Erros]**: Total de erros acumulados durante o processamento de entrega e retorno automático, em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Total de cliques]**: número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
@@ -46,9 +46,9 @@ A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de 
 >title="Estatísticas iniciais do público-alvo"
 >abstract="Os dados de destinatários e as informações da mensagem são exibidos na tabela **Estatísticas iniciais do público-alvo**, que reflete a análise de preparação da entrega."
 
-A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas são calculadas durante a preparação do delivery e mostram: o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
+A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relacionados aos seus destinatários. As métricas são calculadas durante a preparação do delivery e mostram o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![Estatísticas do público-alvo inicial para campanhas de correspondência direta](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Saiba mais sobre as métricas de Estatísticas iniciais de público-alvo.
 
@@ -56,7 +56,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* incluir na lista de bloqueios **[!UICONTROL Rejected by rules]**: Número total de endereços ignorados durante a análise ao aplicar regras: endereço em falta, em quarentena, no, etc.
+* **[!UICONTROL Rejeitado pelas regras]**: número total de endereços ignorados durante a análise ao aplicar regras, como endereços ausentes, endereços em quarentena ou endereços em uma inclui na lista de bloqueios.
 
 +++
 
@@ -67,7 +67,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 >title="Estatísticas de entrega"
 >abstract="A tabela **Estatísticas de execução** detalha o sucesso da entrega de correspondência direta e os erros que ocorreram."
 
-![](assets/direct-mail-campaign-exec.png)
+![Estatísticas de execução para campanhas de correspondência direta](assets/direct-mail-campaign-exec.png)
 
 A tabela **[!UICONTROL Estatísticas de execução]** fornece um detalhamento do sucesso de cada delivery de correspondência direta, com métricas detalhadas descritas abaixo.
 
@@ -77,9 +77,9 @@ A tabela **[!UICONTROL Estatísticas de execução]** fornece um detalhamento do
 
 * **[!UICONTROL Success]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Erros]**: Número total de erros acumulados durante as entregas e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Erros]**: Total de erros acumulados durante as entregas e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (usuário desconhecido, domínio inválido) em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (por exemplo, usuário desconhecido, domínio inválido), em relação ao número de mensagens a serem entregues.
 
 +++
 
@@ -90,7 +90,7 @@ A tabela **[!UICONTROL Estatísticas de execução]** fornece um detalhamento do
 >title="Fluxos de cliques gerados"
 >abstract="A tabela **Fluxos de clique gerados** mostra os dados disponíveis relativos a como seus destinatários interagiram com a entrega."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![Dados de fluxo de cliques para campanhas de correspondência direta](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 A tabela **Fluxos de cliques gerados** ilustra os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 

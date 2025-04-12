@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com regras de negócios (tipologias)
 description: Saiba como trabalhar com tipologias e regras de tipologia para controlar, filtrar e monitorar o envio de deliveries.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 27%
+source-wordcount: '1425'
+ht-degree: 15%
 
 ---
 
@@ -18,25 +18,24 @@ ht-degree: 27%
 >abstract="Agora é possível criar tipologias e regras de tipologia na interface do Adobe Campaign Web. As tipologias permitem controlar, filtrar e priorizar o envio de entregas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Tipologias e regras de tipologia"
->abstract="As tipologias permitem padronizar práticas comerciais em todas as entregas. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação."
+>abstract="As tipologias permitem padronizar as práticas comerciais em todos os deliveries. Uma tipologia é uma coleção de regras de tipologia que permitem controlar, filtrar e priorizar o envio de deliveries. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo de entrega durante a fase de preparação."
 
 ## Sobre tipologias
 
-As tipologias permitem padronizar práticas comerciais em todas as entregas. Uma **tipologia** é uma coleção de **regras de tipologia** que permitem controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo da entrega na fase de preparação.
+As tipologias permitem padronizar as práticas comerciais em todos os deliveries. Uma **tipologia** é uma coleção de **regras de tipologia** que permite controlar, filtrar e priorizar o envio de entregas. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo de entrega durante a fase de preparação.
 
-As tipologias garantem que seus deliveries sempre contenham determinados elementos (como um link de cancelamento de subscrição ou uma linha de assunto) ou regras de filtragem para excluir grupos do target pretendido (como clientes que não assinam, concorrentes ou clientes não fidelizados).
+As tipologias garantem que seus deliveries sempre contenham determinados elementos, como um link de cancelamento de subscrição ou uma linha de assunto, ou regras de filtragem para excluir grupos do público-alvo pretendido, como clientes que não assinam, concorrentes ou clientes que não são de fidelidade.
 
-As tipologias podem ser acessadas pelo menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio]**. Nessa tela, você pode acessar todas as tipologias e regras de tipologia existentes ou criar novas com base nas suas necessidades.
+As tipologias podem ser acessadas pelo menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio]**. Nessa tela, acesse todas as tipologias e regras de tipologia existentes ou crie novas com base nas suas necessidades.
 
-![](assets/business-rules-list.png)
+![Lista de regras de negócios na interface](assets/business-rules-list.png)
 
 >[!NOTE]
 >
->A lista de **[!UICONTROL Regras de tipologia]** exibe todas as regras existentes criadas até o momento na Interface do Usuário da Web ou no Console do Cliente. Entretanto, somente as regras **Controle** e **Filtragem** podem ser criadas na Interface do Usuário da Web. Para criar outros tipos de regras de tipologia, como regras de Pressão ou Capacidade, use o console do cliente do Campaign v8. [Saiba como criar regras de tipologia no console do cliente](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>A lista de **[!UICONTROL Regras de tipologia]** exibe todas as regras existentes criadas até o momento na Interface do Usuário da Web ou no Console do Cliente. Entretanto, somente as regras **Controle** e **Filtragem** podem ser criadas na Interface do Usuário da Web. Para criar outros tipos de regras de tipologia, como regras de Pressão ou Capacidade, use o console do cliente do Campaign v8. [Saiba como criar regras de tipologia no console do cliente](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 As principais etapas para aplicar tipologias às suas mensagens são as seguintes:
 
@@ -65,15 +64,15 @@ Para criar uma tipologia, siga estas etapas:
 
 1. Expanda a seção **[!UICONTROL Opções adicionais]** para definir configurações avançadas, como o nome interno da tipologia, a pasta de armazenamento e a descrição.
 
-   ![](assets/business-rules-typology.png)
+   ![Interface de criação de tipologia](assets/business-rules-typology.png)
 
    >[!NOTE]
    >
-   >O campo **[!UICONTROL Afinidade de IP]** permite associar afinidades de IP a tipologias. Isso permite controlar melhor o tráfego SMTP de saída, definindo quais endereços IP específicos podem ser usados para cada afinidade.  Você pode, por exemplo, usar uma afinidade por país ou subdomínio. Em seguida, é possível criar uma tipologia por país e vincular cada afinidade à tipologia correspondente.
+   >O campo **[!UICONTROL Afinidade de IP]** permite associar afinidades de IP a tipologias. Isso permite um melhor controle do tráfego SMTP de saída, definindo quais endereços IP específicos podem ser usados para cada afinidade. Você pode, por exemplo, usar uma afinidade por país ou subdomínio. Em seguida, é possível criar uma tipologia por país e vincular cada afinidade à tipologia correspondente.
 
 1. Clique em **[!UICONTROL Criar]** para confirmar a criação da tipologia.
 
-A tipologia abre detalhes. Nessa tela, você pode fazer referência diretamente às regras de tipologia existentes. Você também pode criar novas regras de tipologia e referenciá-las na tipologia posteriormente:
+Os detalhes da tipologia são abertos. Nessa tela, faça referência direta às regras de tipologia existentes ou crie novas regras de tipologia para fazer referência posteriormente:
 * [Saiba como criar uma regra de tipologia](#add-rules)
 * [Saiba como fazer referência a regras em uma tipologia](#add-rules)
 
@@ -82,7 +81,7 @@ A tipologia abre detalhes. Nessa tela, você pode fazer referência diretamente 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="Propriedades da regra de tipologia"
->abstract="Defina as propriedades da regra de tipologia. As regras de **controle** analisam a qualidade e a validade da mensagem antes do envio, enquanto que as regras de **filtragem** excluem segmentos do público-alvo com base em critérios específicos.<br/><br/>Você também pode alterar a ordem de execução da regra para gerenciar a sequência em que as regras de tipologia serão executadas quando várias regras do mesmo tipo forem executadas durante a mesma fase de processamento de mensagens."
+>abstract="Defina as propriedades da regra de tipologia. As regras de **controle** analisam a qualidade e a validade da mensagem antes do envio, enquanto que as regras de **filtragem** excluem segmentos do público-alvo com base em critérios específicos.<br/><br/>Também é possível alterar a ordem de execução da regra para gerenciar a sequência em que as regras de tipologia serão executadas quando várias regras do mesmo tipo forem executadas durante a mesma fase de processamento de mensagens."
 
 Para criar uma regra de tipologia, navegue até o menu **[!UICONTROL Regras de negócio]** e selecione a guia **[!UICONTROL Regras de tipologia]**.
 
@@ -94,45 +93,45 @@ Defina as propriedades da regra de tipologia:
 
 1. Insira um **[!UICONTROL Rótulo]** para a regra.
 
-   ![](assets/business-rules-control-rule.png)
+   ![Interface de criação da regra de controle](assets/business-rules-control-rule.png)
 
 1. Selecione o **[!UICONTROL Tipo]** da regra de tipologia:
 
-   * **Controle**: garante a qualidade e a validade da mensagem pré-envio (por exemplo, exibição de caracteres, comprimento do SMS, formato de endereço, redução de URL). Eles são criados usando uma interface de script para definir uma lógica complexa para verificações e modificações de conteúdo.
+   * **Controle**: garante a qualidade e a validade da mensagem pré-envio, como exibição de caracteres, comprimento de SMS, formato de endereço ou redução de URL. Essas regras são criadas usando uma interface de script para definir uma lógica complexa para verificações e modificações de conteúdo.
 
-   * As regras de **filtragem** excluem segmentos do público-alvo com base em critérios específicos (por exemplo, idade, local, país, números de telefone). Essas regras estão vinculadas a uma targeting dimension.
+   * **Filtragem**: exclui segmentos do público-alvo com base em critérios específicos, como idade, local, país ou números de telefone. Essas regras estão vinculadas a uma targeting dimension.
 
    >[!NOTE]
    >
-   >Por enquanto, somente as regras de tipologia **Controle** e **Filtragem** podem ser criadas a partir da Interface do Usuário da Web. Para criar outros tipos de regras, use o console do Cliente. [Saiba como criar regras de tipologia no console do cliente](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >Atualmente, somente as regras de tipologia **Controle** e **Filtragem** podem ser criadas a partir da Interface do Usuário da Web. Para criar outros tipos de regras, use o Console do cliente. [Saiba como criar regras de tipologia no console do cliente](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Selecione um **[!UICONTROL Canal]** para associar à regra.
 
-1. Desative a opção **[!UICONTROL Ativo]** se não quiser que a regra fique ativa logo após sua criação.
+1. Desative a opção **[!UICONTROL Ativo]** se não quiser que a regra fique ativa imediatamente após sua criação.
 
-1. Defina a regra **[!UICONTROL Ordem de execução]**.
+1. Defina a **[!UICONTROL Ordem de execução]** da regra.
 
-   Por padrão, a ordem das regras de tipologia é definida como 50. É possível adaptar esse valor para gerenciar a sequência em que as regras de tipologia serão executadas quando várias regras do mesmo tipo forem executadas durante a mesma fase de processamento de mensagens. Por exemplo, uma regra de filtragem com uma ordem de execução de 20 é executada antes de uma regra de filtragem com uma ordem de execução de 30.
+   Por padrão, a ordem das regras de tipologia é definida como 50. Adapte esse valor para gerenciar a sequência em que as regras de tipologia serão executadas quando várias regras do mesmo tipo forem executadas durante a mesma fase de processamento de mensagens. Por exemplo, uma regra de filtragem com uma ordem de execução de 20 é executada antes de uma regra de filtragem com uma ordem de execução de 30.
 
 1. Expanda a seção **[!UICONTROL Opções adicionais]** para acessar configurações avançadas, como o nome interno da regra, o armazenamento da pasta e a descrição.
 
-1. Para regras de controle, duas regras adicionais estão disponíveis nas opções adicionais. Eles permitem especificar quando a regra deve ser aplicada e seu nível de alerta:
+1. Para regras de controle, dois campos adicionais estão disponíveis nas opções adicionais. Especifique quando a regra deve ser aplicada e seu nível de alerta:
 
-   * **[!UICONTROL Fase]**: este campo permite que você especifique em qual ponto do ciclo de vida da entrega a regra será aplicada. Selecione o valor a ser aplicado na lista suspensa **[!UICONTROL Fase]**. Expanda a seção abaixo para obter mais detalhes sobre os valores possíveis.
+   * **[!UICONTROL Fase]**: especifique em qual ponto do ciclo de vida da entrega a regra será aplicada. Selecione o valor na lista suspensa **[!UICONTROL Fase]**. Expanda a seção abaixo para obter mais detalhes sobre os valores possíveis.
 
    +++Fases das regras de controle:
 
-   **[!UICONTROL No início do direcionamento]**: para evitar que a etapa de personalização seja executada em caso de erros, é possível aplicar a regra de controle aqui.
+   **[!UICONTROL No início do direcionamento]**: impedir que a etapa de personalização seja executada em caso de erros.
 
-   **[!UICONTROL Após o direcionamento]**: se você precisar saber o volume do destino para aplicar a regra de controle, selecione esta fase. Por exemplo, a regra de controle Check proof size se aplica após cada estágio do targeting: essa regra impede a personalização da mensagem se houver muitos recipients de prova.
+   **[!UICONTROL Após o direcionamento]**: selecione esta fase se precisar saber o volume do destino para aplicar a regra de controle. Por exemplo, a regra de controle **[!UICONTROL Verificar tamanho da prova]** se aplica após cada estágio do targeting. Essa regra impede a personalização da mensagem se houver muitos recipients de prova.
 
-   **[!UICONTROL No início da personalização]**: esta fase deve ser selecionada se o controle envolver a aprovação da personalização da mensagem. A personalização da mensagem é realizada durante a fase de análise.
+   **[!UICONTROL No início da personalização]**: selecione essa fase se o controle envolver a aprovação da personalização da mensagem. A personalização da mensagem é realizada durante a fase de análise.
 
-   **[!UICONTROL No final da análise]**:Quando uma verificação exige a personalização da mensagem para ser concluída, selecione esta fase.
+   **[!UICONTROL No final da análise]**: aplicar verificações que exigem a personalização completa da mensagem.
 
 +++
 
-   * **[!UICONTROL Nível]**: essas opções permitem especificar o nível de alerta para a regra. Expanda a seção abaixo para obter mais informações.
+   * **[!UICONTROL Nível]**: especifique o nível de alerta para a regra. Expanda a seção abaixo para obter mais informações.
 
    +++Níveis de regras de controle:
 
@@ -141,8 +140,6 @@ Defina as propriedades da regra de tipologia:
    **[!UICONTROL Aviso]**: exibir um aviso nos logs de preparação.
 
    **[!UICONTROL Informações]**: exibir informações nos logs de preparação.
-
-   <!--**[!UICONTROL Status]**:-->
 
    **[!UICONTROL Detalhado]**: exibir informações nos logs do servidor.
 
@@ -153,24 +150,24 @@ Defina as propriedades da regra de tipologia:
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filtragem"
->abstract="As regras de **filtragem** excluem segmentos do público-alvo com base em critérios específicos (por exemplo, idade, local, país, números de telefone). Selecione a dimensão de direcionamento da regra de tipologia e clique em **[!UICONTROL Adicionar regras]** para acessar o modelador de consultas e criar a regra."
+>abstract="As regras de **Filtragem** excluem segmentos do público-alvo com base em critérios específicos, como idade, local, país ou números de telefone. Selecione a dimensão de direcionamento da regra de tipologia e clique em **[!UICONTROL Adicionar regras]** para acessar o modelador de consultas e criar a regra."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="Código"
->abstract="As regras de **controle** analisam a qualidade e a validade da mensagem antes do envio (por exemplo, exibição de caracteres, comprimento do SMS, formato de endereço, redução de URL). Elas são criadas usando código JavaScript."
+>abstract="As regras de **Controle** verificam a qualidade e a validade da mensagem pré-enviada, como exibição de caracteres, comprimento de SMS, formato de endereço ou redução de URL. Essas regras são criadas usando o código JavaScript."
 
-Após definir as propriedades da regra de tipologia, é possível criar o conteúdo da regra.
+Depois que as propriedades da regra de tipologia forem definidas, crie o conteúdo da regra.
 
-* Para **Regras de controle**, clique no botão **Editar código** e insira a lógica da regra usando o JavaScript. No exemplo abaixo, estamos criando uma regra para exibir um aviso nos logs se o target estiver vazio.
+* Para **Regras de controle**, clique no botão **Editar código** e insira a lógica da regra usando o JavaScript. No exemplo abaixo, uma regra é criada para exibir um aviso nos logs se o target estiver vazio.
 
-  ![](assets/business-rules-code.png)
+  ![Editor de código de regra de controle](assets/business-rules-code.png)
 
 * Para **Regras de filtragem**, selecione a targeting dimension e clique no botão **[!UICONTROL Adicionar regras]** para definir os critérios de filtragem usando o [modelador de consultas](../query/query-modeler-overview.md).
 
-  ![](assets/business-rules-query.png)
+  ![Modelador de consulta de regra de filtragem](assets/business-rules-query.png)
 
-Quando a regra estiver pronta, clique no botão **[!UICONTROL Criar]** para criar a regra de tipologia. Agora você pode fazer referência à regra em uma tipologia para aplicá-la a mensagens.
+Quando a regra estiver pronta, clique no botão **[!UICONTROL Criar]** para criar a regra de tipologia. Referencie a regra em uma tipologia para aplicá-la a mensagens.
 
 ## Regras de tipologia de referência em uma tipologia {#add-rules}
 
@@ -180,11 +177,11 @@ Para referenciar uma ou várias regras em uma tipologia, siga estas etapas:
 
 1. Selecione a guia **[!UICONTROL Regras de tipologia]** e clique no botão **[!UICONTROL Adicionar regra de tipologia]**.
 
-   ![](assets/business-rules-reference.png)
+   ![Adicionar interface de regras de tipologia](assets/business-rules-reference.png)
 
 1. Selecione uma ou várias regras de tipologia para associar à tipologia e confirmar.
 
-   ![](assets/business-rules-typology-save.png)
+   ![Salvar interface de regras de tipologia](assets/business-rules-typology-save.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -192,8 +189,8 @@ Agora você pode aplicar a tipologia a mensagens. Depois de concluído, todas as
 
 ## Aplicar tipologias a mensagens {#message}
 
-Para aplicar uma tipologia a uma mensagem ou a um template de mensagem, é necessário selecionar a tipologia nas configurações da mensagem. [Saiba como definir as configurações de entrega](../advanced-settings/delivery-settings.md#typology)
+Para aplicar uma tipologia a uma mensagem ou a um template de mensagem, selecione a tipologia nas configurações de mensagem. [Saiba como definir as configurações de entrega](../advanced-settings/delivery-settings.md#typology)
 
-![](assets/business-rules-apply.png)
+![Aplicar tipologia à interface de mensagens](assets/business-rules-apply.png)
 
-Depois de concluído, as regras de tipologia incluídas na tipologia são executadas para verificar a validade do delivery durante a preparação da mensagem. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo do delivery.
+Depois de aplicadas, as regras de tipologia incluídas na tipologia são executadas para verificar a validade do delivery durante a preparação da mensagem. Os perfis que correspondem aos critérios em uma regra de tipologia são excluídos dos públicos-alvo do delivery.

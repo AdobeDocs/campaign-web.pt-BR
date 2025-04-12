@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 45%
+source-wordcount: '608'
+ht-degree: 32%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 45%
 >title="Envio de relatórios"
 >abstract="A guia **Envio** no relatório fornece insights aprofundados sobre as interações dos visitantes com as suas entregas e os possíveis erros que possam ter encontrado."
 
-A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua entrega de SMS, fornecendo insights extensos e dados específicos. Ela fornece informações abrangentes sobre o desempenho, a eficácia e os resultados da sua entrega.
+A **visão geral da entrega de SMS** fornece um resumo detalhado da sua entrega de SMS, oferecendo insights abrangentes e dados específicos. Ele inclui informações abrangentes sobre o desempenho, a eficácia e os resultados do seu delivery.
 
 ## Resumo da entrega {#delivery-summary}
 
@@ -28,9 +28,9 @@ A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua 
 >title="Visão geral da entrega de SMS"
 >abstract="A **Visão geral da entrega de SMS** oferece uma visão geral abrangente da sua entrega de SMS, fornecendo insights extensos e dados específicos. Ela fornece informações abrangentes sobre o desempenho, a eficácia e os resultados da sua entrega."
 
-O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre taxas de sucesso e erro e como seus visitantes se envolvem com suas mensagens SMS.
+O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que oferecem informações detalhadas sobre taxas de sucesso e erro, bem como sobre como seus visitantes se envolvem com suas mensagens SMS.
 
-![](assets/reporting_sms_3.png){zoomable="yes"}
+![Descrição: a imagem mostra o relatório de visão geral da entrega, que inclui KPIs como taxas de sucesso, taxas de erro e envolvimento do visitante.](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -51,9 +51,9 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 >title="População direcionada por SMS"
 >abstract="O gráfico e a tabela **População direcionada** exibem dados relativos ao público-alvo de SMS: mensagens a serem entregues e exclusões."
 
-O gráfico e a tabela **População direcionada** exibem dados relativos ao seu público-alvo. As métricas estão detalhadas abaixo.
+O gráfico e a tabela **População direcionada** exibem dados relacionados ao seu público-alvo. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_sms_4.png){zoomable="yes"}
+![Descrição: a imagem mostra o gráfico e a tabela de população direcionada, que inclui métricas como mensagens a serem entregues e exclusões.](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -61,7 +61,6 @@ O gráfico e a tabela **População direcionada** exibem dados relativos ao seu 
 
 * **[!UICONTROL Exclusões]**: número e taxa de porcentagem de perfis que foram excluídos da análise.
 +++
-
 
 ### Estatísticas gerais {#sms-delivery-overall}
 
@@ -72,7 +71,7 @@ O gráfico e a tabela **População direcionada** exibem dados relativos ao seu 
 
 O relatório **Estatísticas gerais** apresenta dados para as mensagens SMS enviadas. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_sms_5.png){zoomable="yes"}
+![Descrição: a imagem mostra o relatório Estatísticas gerais, que inclui métricas como taxas de sucesso, erros e quarentenas.](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de delivery de SMS.
 
@@ -92,7 +91,7 @@ O relatório **Estatísticas gerais** apresenta dados para as mensagens SMS envi
 
 O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png){zoomable="yes"}
+![Descrição: a imagem mostra o gráfico e a tabela de Exclusões, que detalham os motivos para excluir perfis de usuário do recebimento de mensagens.](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Taxa de transferência de entrega {#delivery-throughput}
 
@@ -101,6 +100,6 @@ O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os motivos que impedira
 >title="Taxa de transferência de entrega de SMS"
 >abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência da entrega em um período especificado.  A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
 
-Este relatório apresenta informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
+Este relatório fornece informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
-![](assets/reporting_sms_2.png){zoomable="yes"}
+![Descrição: A imagem mostra o relatório Taxa de transferência de entrega, que inclui métricas como o número de mensagens enviadas por hora em um período especificado.](assets/reporting_sms_2.png){zoomable="yes"}

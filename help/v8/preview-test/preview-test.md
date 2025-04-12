@@ -3,9 +3,9 @@ audience: end-user
 title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 17%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 17%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=pt-BR" text="Enviar provas"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=pt-BR#test-landing-page" text="Páginas de destino de teste"
 
-Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
+Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem. Essa etapa garante a precisão e elimina erros nas configurações de conteúdo e personalização.
 
 [!DNL Adobe Campaign Web user interface] permite a você:
 
@@ -28,9 +28,9 @@ Depois que o conteúdo do delivery for definido, você poderá usar perfis e per
 * [Verificar a renderização de email](email-rendering.md) em clientes populares de desktop, dispositivos móveis e baseados na Web
 * [Pré-visualizar e testar suas páginas de aterrissagem](../landing-pages/create-lp.md#test-landing-page)
 
-Essas ações podem ser executadas com o botão **[!UICONTROL Simular conteúdo]**, acessível na tela de edição de conteúdo da sua entrega - ou no [Designer de email](../email/get-started-email-designer.md).
+Execute estas ações usando o botão **[!UICONTROL Simular conteúdo]**, que pode ser acessado na tela de edição de conteúdo da sua entrega ou no [Designer de email](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png){zoomable="yes"}
+![Botão Simular conteúdo na tela editar conteúdo da sua entrega](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >

@@ -3,10 +3,10 @@ title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 16%
+source-wordcount: '1248'
+ht-degree: 12%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Usar componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções, use o componente de Formulário."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Definir as configurações da página principal"
->abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da landing page que consta em um email ou site."
+>abstract="A página principal é exibida imediatamente aos usuários depois que eles clicam no link para a página de aterrissagem, como por meio de um email ou site."
 
 É possível editar o conteúdo de qualquer página da sua landing page.
 
@@ -32,9 +32,9 @@ Você também pode definir [estilos para sua página de aterrissagem](#lp-form-s
 
 Para projetar ainda mais o conteúdo da landing page:
 
-* Você pode usar os mesmos componentes que os usados para criar um email. [Saiba mais](../email/content-components.md#add-content-components)
+* Use os mesmos componentes que os usados para criar um email. [Saiba mais](../email/content-components.md#add-content-components)
 
-* Você pode adicionar conteúdo condicional às suas landing pages, da mesma forma que faria para um email. [Saiba mais](../personalization/conditions.md#condition-condition-builder)
+* Adicione conteúdo condicional às landing pages da mesma forma que para um email. [Saiba mais](../personalization/conditions.md#condition-condition-builder)
 
   >[!AVAILABILITY]
   >
@@ -52,7 +52,7 @@ Para projetar ainda mais o conteúdo da landing page:
 >title="O que acontece ao clicar no botão"
 >abstract="Defina o que acontecerá depois que as pessoas enviarem o formulário da página de destino."
 
-Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, edite o componente **[!UICONTROL Formulário]**. Para fazer isso, siga as etapas abaixo.
+Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, edite o componente **[!UICONTROL Formulário]**. Siga as etapas abaixo.
 
 1. O componente de Formulário **[!UICONTROL Formulário]** específico da página de aterrissagem já é exibido na tela para o modelo selecionado.
 
@@ -62,15 +62,15 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
 1. Selecione-o. A guia **[!UICONTROL Conteúdo do formulário]** é exibida na paleta direita para permitir que você edite os diferentes campos do formulário.
 
-   ![](assets/lp-form-component.png){zoomable="yes"}
+   ![Componente de formulário exibido na tela](assets/lp-form-component.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Alterne para a guia **[!UICONTROL Estilos]** a qualquer momento para editar os estilos do conteúdo do componente de formulário. [Saiba mais](#lp-form-styles)
 
-1. Expanda o primeiro campo de texto, se houver, ou adicione um usando o botão **[!UICONTROL Adicionar]**. Na seção **[!UICONTROL Campo de texto 1]**, você pode editar o tipo de campo, o campo de banco de dados a ser atualizado, o rótulo e o texto que será exibido dentro do campo antes que os usuários insiram um valor.
+1. Expanda o primeiro campo de texto, se houver, ou adicione um usando o botão **[!UICONTROL Adicionar]**. Na seção **[!UICONTROL Campo de texto 1]**, edite o tipo de campo, o campo de banco de dados a ser atualizado, o rótulo e o texto exibido dentro do campo antes que os usuários insiram um valor.
 
-   ![](assets/lp-form-text-field.png){zoomable="yes"}
+   ![Configurações do campo de texto no componente de formulário](assets/lp-form-text-field.png){zoomable="yes"}
 
 1. Marque a opção **[!UICONTROL Tornar campo de formulário obrigatório]**, se necessário. Nesse caso, a landing page só poderá ser enviada se o usuário tiver preenchido esse campo.
 
@@ -80,7 +80,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
 1. Expanda a caixa de seleção, se houver, ou adicione uma usando o botão **[!UICONTROL Adicionar]**. Selecione se essa caixa de seleção deve atualizar um serviço ou um campo do banco de dados.
 
-   ![](assets/lp-form-checkbox.png){zoomable="yes"}
+   ![Configurações da caixa de seleção no componente de formulário](assets/lp-form-checkbox.png){zoomable="yes"}
 
    Se você selecionar **[!UICONTROL Assinatura e serviços]**, selecione um [serviço](../audience/manage-services.md) na lista e escolha entre as duas opções abaixo:
 
@@ -89,39 +89,39 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    Se você selecionar **[!UICONTROL Campo]**, selecione um campo na [lista de atributos](../get-started/attributes.md) e escolha entre as duas opções abaixo:
 
-   * **[!UICONTROL Sim, se marcado]**.<!--TBC-->
-   * **[!UICONTROL Não se marcado]**.<!--TBC-->
+   * **[!UICONTROL Sim, se marcado]**.
+   * **[!UICONTROL Não se marcado]**.
 
-1. É possível excluir e adicionar quantos campos (como campos de texto, botões de opção, caixas de seleção, lista suspensa etc.) forem necessários.
+1. Exclua e adicione quantos campos (como campos de texto, botões de opção, caixas de seleção, listas suspensas etc.) forem necessários.
 
 1. Depois que todos os campos forem adicionados ou atualizados, clique em **[!UICONTROL Chamada para ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**. [Saiba como](#define-actions-on-form-submission)
 
-   ![](assets/lp-call-to-action.png){zoomable="yes"}
+   ![Configurações de chamada para ação no componente de formulário](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Salve seu conteúdo para voltar para as [propriedades da página de aterrissagem](create-lp.md#create-landing-page).
 
 ### Definir ações no envio de formulário {#define-actions-on-form-submission}
 
-1. Defina o que acontecerá ao clicar no botão:
+1. Defina o que acontece ao clicar no botão:
 
-   * **[!UICONTROL Página de confirmação]**: por padrão, o usuário será redirecionado para a página **[!UICONTROL de confirmação]** definida para a página de aterrissagem atual.
+   * **[!UICONTROL Página de confirmação]**: por padrão, o usuário é redirecionado para a página **[!UICONTROL Confirmação]** definida para a página de aterrissagem atual.
 
-   * **[!UICONTROL URL de redirecionamento]**: digite a URL da página para a qual os usuários serão redirecionados.
+   * **[!UICONTROL URL de redirecionamento]**: digite a URL da página para a qual os usuários são redirecionados.
 
-   * **[!UICONTROL Página de aterrissagem]**: você pode selecionar outra página de aterrissagem para a qual os usuários serão redirecionados. Configure a landing page selecionada de acordo.
+   * **[!UICONTROL Página de aterrissagem]**: selecione outra página de aterrissagem para a qual os usuários serão redirecionados. Configure a landing page selecionada de acordo.
 
 1. Para fazer atualizações adicionais ao enviar o formulário, selecione **[!UICONTROL Atualizações adicionais]** e selecione o item que deseja atualizar:
-   * Um [serviço](../audience/manage-services.md) de assinatura - nesse caso, defina se você deseja aceitar ou recusar usuários ao enviar o formulário. Ao criar um email, se você definir um link do tipo **[!UICONTROL Página de aterrissagem]** para esta página de aterrissagem, o serviço selecionado será usado automaticamente. [Saiba mais sobre como inserir links](../email/message-tracking.md)
+   * Uma assinatura [serviço](../audience/manage-services.md) - defina se você deseja aceitar ou recusar os usuários ao enviar o formulário. Ao criar um email, se você definir um link do tipo **[!UICONTROL Página de aterrissagem]** para essa página de aterrissagem, o serviço selecionado será usado automaticamente. [Saiba mais sobre como inserir links](../email/message-tracking.md)
 
      >[!NOTE]
      >
      >Se quiser usar vários serviços com esta página de aterrissagem, use a opção **[!UICONTROL Serviço da URL]** descrita abaixo.
 
-   * O canal - o email endereçado usado ao preencher o formulário.
-   * Todos os canais - ao enviar o formulário, os usuários entrarão ou não (dependendo do modelo selecionado) em/de todas as comunicações da sua marca em todos os canais.
+   * O canal - o endereço de email usado ao preencher o formulário.
+   * Todos os canais - ao enviar o formulário, os usuários optam por entrar ou sair (dependendo do modelo selecionado) de/para todas as comunicações da sua marca em todos os canais.
    * Um campo do banco de dados - selecione um campo na lista de atributos e defina se ele deve ser definido como Verdadeiro ou Falso ao enviar o formulário.
 
-   ![](assets/lp-form-additionnal-updates.png){zoomable="yes"}
+   ![Configurações de atualizações adicionais no componente de formulário](assets/lp-form-additionnal-updates.png){zoomable="yes"}
 
 1. Selecione a opção **[!UICONTROL Serviço da URL]** para permitir que a landing page seja usada para vários serviços, tornando-a dinâmica. Defina se deseja aceitar ou recusar os usuários ao enviar o formulário.
 
@@ -129,13 +129,13 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
    >
    >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
-   ![](assets/lp-form-service-from-url.png){zoomable="yes"}
+   ![Serviço das configurações de URL no componente de formulário](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Ao criar um email, se você definir um link do tipo **[!UICONTROL Página de aterrissagem]** para essa página de aterrissagem, será possível selecionar qualquer serviço na lista. É possível selecionar outros serviços ao definir outros links para essa landing page. [Saiba mais sobre como inserir links](../email/message-tracking.md)
 
-   ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+   ![Link de email para configurações da página de aterrissagem](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-1. Você pode enviar uma mensagem no envio da landing page. [Saiba mais aqui](#lp-message)
+1. Envie uma mensagem no envio da landing page. [Saiba mais aqui](#lp-message)
 
 ### Enviar uma mensagem após o envio {#lp-message}
 
@@ -143,13 +143,13 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 >
 >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
-Para enviar automaticamente uma mensagem de confirmação após o envio de uma landing page, siga estas etapas:
+Para enviar uma mensagem de confirmação automaticamente após o envio de uma landing page, siga estas etapas:
 
 1. Na seção **[!UICONTROL CHAMADA PARA AÇÃO]**, marque a opção **[!UICONTROL Enviar email de confirmação]**.
 
 1. Na lista suspensa associada, escolha o template de mensagem transacional que precisa ser enviado.
 
-![](assets/lp-confirmation.png){zoomable="yes"}
+![Configurações de email de confirmação no componente de formulário](assets/lp-confirmation.png){zoomable="yes"}
 
 ## Definir estilos de formulário de página de destino {#lp-form-styles}
 
@@ -157,18 +157,18 @@ Para enviar automaticamente uma mensagem de confirmação após o envio de uma l
 
 1. A seção **[!UICONTROL Campo de texto]** é expandida por padrão. Ela permite editar a aparência dos campos de texto, como a fonte do rótulo, a posição do rótulo, a cor de fundo do campo ou a borda do campo.
 
-   ![](assets/lp-text-styles.png){zoomable="yes"}
+   ![Configurações de estilo do campo de texto](assets/lp-text-styles.png){zoomable="yes"}
 
-1. Expanda a seção **[!UICONTROL Caixa de seleção]** para definir a aparência das caixas de seleção e o texto correspondente. Por exemplo, é possível ajustar a família e o tamanho da fonte ou a cor da borda da caixa de seleção.
+1. Expanda a seção **[!UICONTROL Caixa de seleção]** para definir a aparência das caixas de seleção e o texto correspondente. Por exemplo, ajuste a família e o tamanho da fonte ou a cor da borda da caixa de seleção.
 
-   ![](assets/lp-checkbox-style.png){zoomable="yes"}
+   ![Configurações de estilo da caixa de seleção](assets/lp-checkbox-style.png){zoomable="yes"}
 
 1. Expanda e edite qualquer outra seção correspondente a outros campos que você tenha adicionado (botão de opção, lista suspensa, data e hora, etc.) ao seu formulário.
 
-1. Expanda a seção **[!UICONTROL Chamada para ação]** para modificar a aparência do botão no formulário do componente. Por exemplo, você pode alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
+1. Expanda a seção **[!UICONTROL Chamada para ação]** para modificar a aparência do botão no formulário do componente. Por exemplo, alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
 
-   ![](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![Configurações de estilo de chamada para ação](assets/lp-call-to-action-style.png){zoomable="yes"}
 
-   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse, usando o botão **[!UICONTROL Simular conteúdo]**. [Saiba mais](create-lp.md#test-landing-page)
+   Visualize algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse, usando o botão **[!UICONTROL Simular conteúdo]**. [Saiba mais](create-lp.md#test-landing-page)
 
 1. Salve as alterações.

@@ -3,10 +3,10 @@ audience: end-user
 title: Criar emails usando o Designer de email
 description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 72%
+source-wordcount: '652'
+ht-degree: 54%
 
 ---
 
@@ -32,7 +32,6 @@ ht-degree: 72%
 >title="Adicionar estruturas"
 >abstract="As estruturas definem o layout do modelo. Arraste e solte um componente **Estrutura** na tela para iniciar a criação do conteúdo do modelo."
 
-
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Definição de colunas de email"
@@ -53,7 +52,7 @@ ht-degree: 72%
 >title="Definição de colunas de modelo"
 >abstract="O Designer de email permite definir facilmente o layout do modelo definindo a estrutura da coluna."
 
-O Designer de email permite definir a estrutura do email com facilidade. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode criar o corpo do seu email em segundos.
+O Designer de email permite definir a estrutura do email com facilidade. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você projeta o corpo do email em segundos.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -61,7 +60,7 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 1. Na página inicial do [Email Designer](get-started-email-designer.md#start-authoring), selecione a opção **[!UICONTROL Design do zero]**.
 
-   ![](assets/email_designer-from-scratch.png){zoomable="yes"}
+   ![Captura de tela mostrando a página inicial do Designer de email com a opção &quot;Criar do zero&quot; realçada.](assets/email_designer-from-scratch.png){zoomable="yes"}
 
 1. Comece a criar seu conteúdo de email arrastando e soltando **[!UICONTROL Estruturas]** na tela para definir o layout do seu email.
 
@@ -71,9 +70,9 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 1. Adicione quantas **[!UICONTROL Estruturas]** forem necessárias e edite suas configurações no painel dedicado à direita.
 
-   ![](assets/email_designer_structure_components.png){zoomable="yes"}
+   ![Captura de tela mostrando o painel de componentes da estrutura no Designer de email.](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Você pode selecionar o componente **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+1. Selecione o componente **[!UICONTROL coluna n:n]** para definir um número de colunas (entre 3 e 10). Defina a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    >[!NOTE]
    >
@@ -81,34 +80,34 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 1. Na seção **[!UICONTROL Componentes]**, arraste e solte quantos elementos forem necessários em uma ou mais estruturas. [Saiba mais sobre componentes de conteúdo](content-components.md)
 
-1. Cada componente pode ser personalizado ainda mais com as guias **[!UICONTROL Configurações]** ou **[!UICONTROL Estilo]** à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
+1. Personalize cada componente usando as guias **[!UICONTROL Configurações]** ou **[!UICONTROL Estilo]** à direita. Por exemplo, altere o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png){zoomable="yes"}
+   ![Captura de tela mostrando as opções de personalização de estilo no Designer de Email.](assets/email_designer-styles.png){zoomable="yes"}
 
-1. Insira campos de personalização para personalizar seu conteúdo de email com base nos dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
+1. Insira campos de personalização para personalizar seu conteúdo de email com base nos dados do perfil. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
 1. Adicione links ao seu conteúdo.
 
-   Clique na guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que serão rastreadas. Você pode modificar o **[!UICONTROL Tipo de Acompanhamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Categorias]**, se necessário.
+   Clique na guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que serão rastreadas. Modifique o **[!UICONTROL Tipo de Acompanhamento]** ou **[!UICONTROL Rótulo]** e adicione **[!UICONTROL Categorias]**, se necessário.
 
 [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
 
-   ![](assets/email_designer-links.png){zoomable="yes"}
+   ![Captura de tela mostrando a guia de links no Designer de email.](assets/email_designer-links.png){zoomable="yes"}
 
-1. Se necessário, é possível personalizar ainda mais o email clicando em **[!UICONTROL Alternar para o editor de código]** no menu avançado. Isso permite editar o código-fonte do email, por exemplo, para adicionar rastreamento ou tags de HTML personalizadas. [Saiba mais sobre o editor de código](code-content.md)
+1. Se necessário, personalize seu email clicando em **[!UICONTROL Alternar para o editor de código]** no menu avançado. Isso permite editar o código fonte do email, por exemplo, para adicionar rastreamento ou tags personalizadas do HTML. [Saiba mais sobre o editor de código](code-content.md)
 
    >[!CAUTION]
    >
    >Não é possível reverter para o designer visual desse email após alternar para o editor de código.
 
-1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar a renderização do email. Você pode escolher exibir no desktop ou em um dispositivo móvel. [Saiba mais sobre como visualizar seu email](../preview-test/preview-test.md)
+1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar a renderização do email. Escolha a exibição para desktop ou dispositivos móveis. [Saiba mais sobre como visualizar seu email](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png){zoomable="yes"}
+   ![Captura de tela mostrando as opções de simulação no Designer de email.](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. Quando o email estiver pronto, clique em **[!UICONTROL Salvar]**.
 
 ## Vídeo tutorial {#video}
 
-Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, além de personalizá-lo e testá-lo.
+Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

@@ -2,10 +2,10 @@
 title: Conheça os detalhes de perfis
 description: Saiba como explorar os detalhes de um perfil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 8%
 
 ---
 
@@ -22,14 +22,14 @@ As informações no perfil são organizadas da seguinte maneira:
 
 * A guia **[!UICONTROL Detalhes]** permite navegar pelos atributos incorporados e personalizados do perfil. Para editar um atributo, faça as alterações no campo desejado e clique no botão **[!UICONTROL Salvar]**. Informações detalhadas sobre os atributos dos perfis estão disponíveis na seção [Criar um perfil](create-profile.md).
 
-  ![](assets/profile-details.png){zoomable="yes"}
+  ![Captura de tela mostrando a guia de detalhes do perfil, incluindo atributos incorporados e personalizados.](assets/profile-details.png){zoomable="yes"}
 
-* A guia **[!UICONTROL Assinaturas]** fornece informações sobre os serviços aos quais o perfil está inscrito. [Saiba mais sobre os serviços de assinatura](manage-services.md)
+* A guia **[!UICONTROL Assinaturas]** fornece o insight para os serviços aos quais o perfil está inscrito. [Saiba mais sobre os serviços de assinatura](manage-services.md)
 
-  ![](assets/profile-subscriptions.png){zoomable="yes"}
+  ![Captura de tela mostrando a guia assinaturas, listando os serviços aos quais o perfil está inscrito.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* Além disso, o botão **[!UICONTROL Logs]**, localizado no canto superior direito da tela, permite exibir o histórico das interações do perfil por meio de envio, exclusão e logs de rastreamento. [Saiba mais sobre logs de entrega](../monitor/delivery-logs.md)
+* Além disso, o botão **[!UICONTROL Logs]**, localizado no canto superior direito da tela, permite visualizar o histórico das interações do perfil por meio de envio, exclusão e logs de rastreamento. [Saiba mais sobre logs de entrega](../monitor/delivery-logs.md)
 
   Nesses logs, você também pode revisar as ofertas apresentadas ao perfil selecionado na guia **[!UICONTROL Propositions]**. [Saiba mais sobre ofertas](../msg/offers.md)
 
-  ![](assets/profile-logs.png){zoomable="yes"}
+  ![Captura de tela mostrando a guia de logs, incluindo envio, exclusão e logs de rastreamento, bem como a guia de propostas para revisão de ofertas.](assets/profile-logs.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega por push
 description: Saiba como acessar e usar relatórios do delivery por push
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 38%
+source-wordcount: '567'
+ht-degree: 32%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 38%
 >title="Envio de relatórios"
 >abstract="A guia **Envio** no relatório fornece insights aprofundados sobre as interações dos visitantes com as suas entregas e os possíveis erros que possam ter encontrado."
 
-O **Relatório de entrega por push** fornece uma visão geral completa do canal por push, oferecendo insights abrangentes e dados específicos. Ele oferece informações abrangentes sobre o desempenho, a eficácia e os resultados de cada delivery.
+O **Relatório de entrega por push** fornece uma visão geral completa do canal por push, oferecendo insights abrangentes e dados específicos. Ele fornece informações abrangentes sobre o desempenho, a eficácia e os resultados de cada delivery.
 
 ## Resumo por push {#push-summary}
 
@@ -30,17 +30,14 @@ O **Relatório de entrega por push** fornece uma visão geral completa do canal 
 
 O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre como seus visitantes se envolvem com suas mensagens de push.
 
-![](assets/reporting_push_3.png){zoomable="yes"}
+![Esta captura de tela mostra o relatório Visão geral da entrega, que fornece KPIs sobre a participação do visitante com mensagens por push.](assets/reporting_push_3.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de delivery por push.
 
 * **[!UICONTROL Total enviado]**: número total de mensagens processadas durante a preparação da entrega.
-
 * **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
-
 * **[!UICONTROL Cliques]**: número total de destinatários que interagiram com a mensagem de push.
-
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante uma entrega, impedindo que ela fosse enviada aos perfis.
+* **[!UICONTROL Erros]**: Número total de erros ocorridos durante uma entrega, impedindo que ela seja enviada aos perfis.
 
 +++
 
@@ -53,12 +50,11 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 O gráfico e a tabela **População direcionada** exibem dados relativos ao seu público-alvo: mensagens a serem entregues e exclusões. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_push_4.png){zoomable="yes"}
+![Esta captura de tela mostra o gráfico e a tabela de população direcionada, que exibe dados sobre mensagens a serem entregues e exclusões.](assets/reporting_push_4.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de delivery por push.
 
 * **[!UICONTROL Para entregar]**: número total de mensagens processadas durante a preparação da entrega.
-
 * **[!UICONTROL Exclusões]**: número de perfis excluídos da análise.
 
 +++
@@ -72,14 +68,12 @@ O gráfico e a tabela **População direcionada** exibem dados relativos ao seu 
 
 O relatório **Estatísticas gerais** apresenta dados para as notificações por push enviadas: êxito, erros e quarentenas. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_push_5.png){zoomable="yes"}
+![Esta captura de tela mostra o relatório Estatísticas gerais, que apresenta dados sobre êxito, erros e quarentenas para notificações por push enviadas.](assets/reporting_push_5.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de delivery por push.
 
 * **[!UICONTROL Êxito]**: número de mensagens processadas com êxito.
-
 * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante a entrega, impedindo que as mensagens sejam enviadas para determinados perfis.
-
 * **[!UICONTROL Nova quarentena]**: número de perfis que foram excluídos e adicionados à quarentena.
 
 +++
@@ -93,8 +87,7 @@ O relatório **Estatísticas gerais** apresenta dados para as notificações por
 
 O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
-
-![](assets/reporting_push_6.png){zoomable="yes"}
+![Esta captura de tela mostra o gráfico e a tabela de Exclusões, que mostram os motivos que impedem que perfis de usuários excluídos recebam mensagens.](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Taxa de transferência de entrega {#delivery-throughput}
 
@@ -105,4 +98,4 @@ O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que 
 
 O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de toda a plataforma em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
-![](assets/reporting_push_2.png){zoomable="yes"}
+![Esta captura de tela mostra o relatório Taxa de transferência de entrega, que fornece detalhes sobre a velocidade de entrega de mensagens da plataforma em um período especificado.](assets/reporting_push_2.png){zoomable="yes"}

@@ -3,12 +3,13 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2071'
-ht-degree: 41%
+source-wordcount: '2043'
+ht-degree: 31%
 
 ---
+
 
 # Enriquecimento {#enrichment}
 
@@ -17,22 +18,19 @@ ht-degree: 41%
 >title="Atividade de enriquecimento"
 >abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação."
 
+A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ele aprimora os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação.
 
-A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ela permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação.
+Os dados de enriquecimento podem vir de:
 
-Os dados de Enriquecimento podem vir:
+* **A mesma tabela de trabalho** que a segmentada em seu fluxo de trabalho:
+   * Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual.
 
-* **Da mesma tabela de trabalho** como o direcionado para o seu fluxo de trabalho:
+* **Outra tabela de trabalho**:
+   * Direcione um grupo de clientes e adicione os campos &quot;Valor&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;.
 
-  *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*.
+Após adicionar os dados de enriquecimento ao workflow, eles poderão ser usados em atividades subsequentes para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades. Ele também pode ser usado para criar mensagens e campanhas de marketing personalizadas que repercutem no público-alvo.
 
-* **De outra tabela de trabalho**:
-
-  *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
-
-Após adicionar os dados de enriquecimento ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade de **Enriquecimento** para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir no público-alvo.
-
-Por exemplo, você pode adicionar à tabela de trabalho do fluxo de trabalho as informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou a quantidade gasta nessas compras.
+Por exemplo, você pode adicionar informações relacionadas às compras dos clientes à tabela de workflow e usar esses dados para personalizar emails com a compra mais recente ou o valor gasto nessas compras.
 
 ## Adicionar uma atividade Enrichment {#enrichment-configuration}
 
@@ -40,7 +38,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
 1. Adicione atividades como **Criar público-alvo** e **Combinar**.
 1. Adicione uma atividade **Enriquecimento**
-1. Se várias transições tiverem sido configuradas no seu fluxo de trabalho, você poderá usar o campo **[!UICONTROL Conjunto principal]** para definir qual transição deverá ser usada como conjunto principal para enriquecer com dados.
+1. Se várias transições forem configuradas no seu fluxo de trabalho, use o campo **[!UICONTROL Conjunto principal]** para definir qual transição deve ser usada como o conjunto principal para enriquecimento.
 
 ## Adicionar dados de enriquecimento {#enrichment-add}
 
@@ -52,40 +50,40 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Atividade de enriquecimento"
->abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades adicionadas após a atividade Enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de ressoar com seu público-alvo."
+>abstract="Depois que os dados de enriquecimento são adicionados ao workflow, eles podem ser usados em atividades subsequentes para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que repercutem com seu público-alvo."
 
-1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecer os dados. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md)
+1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecimento. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
 
-   Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da target dimension ou um link de coleção. Cada um desses tipos é detalhado nos exemplos abaixo:
+   Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da target dimension ou um link de coleção. Cada tipo é detalhado nos exemplos abaixo:
    * [Atributo único de enriquecimento](#single-attribute)
-   * [Link da coleção](#collection-link)
+   * [Link de coleção](#collection-link)
 
    >[!NOTE]
    >
-   >O **botão Editar expressão** na tela de seleção de atributo permite criar expressões avançadas para selecionar o atributo. [Saiba como trabalhar com o editor de expressão](../../query/expression-editor.md)
+   >O **botão Editar expressão** na tela de seleção de atributo permite criar expressões avançadas para selecionar o atributo. [Saiba como trabalhar com o editor de expressão](../../query/expression-editor.md).
 
-   ![](../assets/workflow-enrichment1.png)
+   ![Captura de tela mostrando a tela de seleção de dados de enriquecimento](../assets/workflow-enrichment1.png)
 
 ## Crie links entre tabelas {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definição de link"
->abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis."
+>abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo contendo o número da conta, o país e o email dos destinatários, você deverá criar um link para a tabela do país para atualizar essas informações em seus perfis."
 
-A seção **[!UICONTROL Definição de link]** permite criar um vínculo entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis.
+A seção **[!UICONTROL Definição de link]** permite criar um vínculo entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo contendo o número da conta, o país e o email dos destinatários, você deverá criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
 Há vários tipos de links disponíveis:
 
-* Link simples de cardinalidade **[!UICONTROL 1]**: cada registro do conjunto principal pode ser associado a um e a somente um registro dos dados vinculados.
-* Link simples de cardinalidade **[!UICONTROL 0 ou 1]**: cada registro do conjunto principal pode ser associado a 0 ou 1 registro dos dados vinculados, mas não a mais de um.
-* **[!UICONTROL N link de coleção de cardinalidade]**: cada registro do conjunto principal pode ser associado a 0, 1 ou mais registros (N) dos dados vinculados.
+* Link simples de cardinalidade **[!UICONTROL 1]**: cada registro do conjunto principal está associado a um e a somente um registro dos dados vinculados.
+* Link simples de cardinalidade **[!UICONTROL 0 ou 1]**: cada registro do conjunto principal está associado a 0 ou 1 registro dos dados vinculados, mas não a mais de um.
+* **[!UICONTROL N link de coleção de cardinalidade]**: cada registro do conjunto principal está associado a 0, 1 ou mais registros (N) dos dados vinculados.
 
 Para criar um link, siga estas etapas:
 
 1. Na seção **[!UICONTROL Definição de link]**, clique no botão **[!UICONTROL Adicionar link]**.
 
-   ![](../assets/workflow-enrichment-link.png)
+   ![Captura de tela mostrando a seção de definição de link](../assets/workflow-enrichment-link.png)
 
 1. Na lista suspensa **Tipo de relação**, escolha o tipo de link que deseja criar.
 
@@ -178,7 +176,7 @@ Se quiser exibir somente as ofertas da atividade de enriquecimento, defina o nú
 
    ![](../assets/offers-propositions.png)
 
-   Vá em **[!UICONTROL Funções de renderização]** e escolha **[!UICONTROL renderização de HTML]** ou **[!UICONTROL Renderização de texto]** de acordo com suas necessidades.
+   Acesse **[!UICONTROL Funções de renderização]** e escolha **[!UICONTROL Renderização do HTML]** ou **[!UICONTROL Renderização do texto]** de acordo com suas necessidades.
 
    ![](../assets/offers-rendering.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Combinar
 description: Saiba como usar a atividade de fluxo de trabalho Combinar
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 87%
+source-wordcount: '950'
+ht-degree: 35%
 
 ---
 
@@ -15,75 +15,75 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Atividade de combinar"
->abstract="A atividade **Combinar** permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir uma parte delas ou manter apenas dados comuns a vários públicos-alvo."
+>abstract="A atividade **Combinar** permite executar a segmentação na população de entrada. É possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets."
 
-A atividade **Combinar** é uma atividade **de Direcionamento**. Essa atividade permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários públicos-alvo. Estes são os tipos de segmentação disponíveis:
+A atividade **Combinar** é uma atividade **de Direcionamento**. Essa atividade permite executar a segmentação na população de entrada. É possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets. Estes são os tipos de segmentação disponíveis:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
-* A **União** permite reagrupar o resultado de várias atividades em um só público-alvo.
-* A **Interseção** permite manter somente os elementos comuns às diferentes populações de entrada na atividade.
-* A **Exclusão** permite excluir elementos de uma população de acordo com determinados critérios.
+* A **União** reagrupa o resultado de várias atividades em um único público-alvo.
+* A **Interseção** mantém apenas os elementos comuns aos diferentes preenchimentos de entrada na atividade.
+* A **Exclusão** exclui elementos de uma população de acordo com determinados critérios.
 
 ## Configurar a atividade Combinar {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
 >title="Opções de mesclagem de interseção"
->abstract="A Interseção permite manter somente os elementos comuns às diferentes populações de entrada na atividade. Na seção Conjuntos para unir, marque todas as atividades anteriores que você deseja unir."
+>abstract="A interseção mantém somente os elementos comuns aos diferentes preenchimentos de entrada na atividade. Na seção Sets to join, marque todas as atividades anteriores que deseja unir."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_merging_options"
 >title="Opções de mesclagem de exclusão"
->abstract="A Exclusão permite excluir elementos de uma população de acordo com determinados critérios. Na seção Conjuntos para unir, marque todas as atividades anteriores que você deseja unir."
+>abstract="A exclusão exclui elementos de uma população de acordo com determinados critérios. Na seção Sets to join, marque todas as atividades anteriores que deseja unir."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Selecione o tipo de segmentação"
->abstract="Selecione como combinar os públicos-alvo. A **união** permite reagrupar o resultado de várias atividades em um único público-alvo. A **intersecção** permite manter somente os elementos comuns às diferentes populações de entrada na atividade. A **Exclusão** permite excluir elementos de uma população de acordo com determinados critérios. "
+>abstract="Selecione como combinar os públicos-alvo. A **União** reagrupa o resultado de várias atividades em um único público-alvo. A **Interseção** mantém apenas os elementos comuns aos diferentes preenchimentos de entrada na atividade. A **Exclusão** exclui elementos de uma população de acordo com determinados critérios."
 
-Siga estas etapas comuns para começar a configurar a atividade **Combinar**:
+Siga estas etapas comuns para configurar a atividade **Combinar**:
 
 ![](../assets/workflow-combine.png)
 
-1. Adicione várias atividades, por exemplo, **Criar público-alvo**, para formar pelo menos duas ramificações de execução diferentes.
+1. Adicione várias atividades, como **Criar público-alvo** atividades, para formar pelo menos duas ramificações de execução diferentes.
 1. Adicione uma atividade **Combinar** a qualquer uma das ramificações anteriores.
 1. Selecione o tipo de segmentação: [união](#union), [interseção](#intersection) ou [exclusão](#exclusion).
 1. Clique em **Continuar**.
-1. Na seção **Conjuntos para unir**, marque todas as atividades anteriores que deseja unir.
+1. Na seção **Conjuntos para ingressar**, marque todas as atividades anteriores nas quais deseja ingressar.
 
 ## União {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Opções de reconciliação"
->abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas. A opção **Chaves** está ativada por padrão, o que significa que a atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Use a opção **Uma seleção de colunas** para definir a lista de colunas nas quais a reconciliação de dados será aplicada."
+>abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas. Por padrão, a opção **Chaves** está ativada, o que significa que a atividade mantém apenas um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Use a opção **Uma seleção de colunas** para definir a lista de colunas nas quais a reconciliação de dados será aplicada."
 
-Na atividade **Combinar**, você pode configurar uma **União**. Para isso, você precisa selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
+Na atividade **Combine**, configure uma **Union** selecionando o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
 
-* **Somente chaves**: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
-* **Uma seleção de colunas**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados é aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a união.
+* **Somente chaves**: este é o modo padrão. A atividade mantém apenas um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
+* **Uma seleção de colunas**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados é aplicada. Primeiro, selecione o conjunto principal (os dados de origem) e, em seguida, as colunas a serem usadas para a associação.
 
 ## Interseção {#combine-intersection}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Opções de reconciliação de interseção"
->abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas. A opção **Chaves** está ativada por padrão, o que significa que a atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Use a opção **Uma seleção de colunas** para definir a lista de colunas nas quais a reconciliação de dados será aplicada."
+>abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas. Por padrão, a opção **Chaves** está ativada, o que significa que a atividade mantém apenas um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Use a opção **Uma seleção de colunas** para definir a lista de colunas nas quais a reconciliação de dados será aplicada."
 
-Na atividade **Combinar**, você pode configurar uma **Interseção**. Para isso, você precisa seguir as etapas adicionais abaixo:
+Na atividade **Combinar**, configure uma **Interseção** seguindo estas etapas adicionais:
 
 1. Selecione o **Tipo de reconciliação** para definir como as duplicatas são tratadas. Consulte a seção [União](#union).
-1. Marque a opção **Gerar complemento** se desejar processar a população restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Será adicionada uma transição de saída adicional à atividade.
+1. Marque a opção **Gerar complemento** se desejar processar o público restante. O complemento contém a união dos resultados de todas as atividades de entrada menos a interseção. Em seguida, uma transição de saída adicional é adicionada à atividade.
 
 ## Regras de  {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido à mesma dimensão de direcionamento como público-alvo principal. Para fazer isso, clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
+>abstract="Quando necessário, manipule tabelas de entrada. Para excluir um target de outra dimensão, retorne esse target à mesma targeting dimension que o target principal. Clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
@@ -93,29 +93,29 @@ Na atividade **Combinar**, você pode configurar uma **Interseção**. Para isso
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido à mesma dimensão de direcionamento como público-alvo principal. Para fazer isso, clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
+>abstract="Quando necessário, manipule tabelas de entrada. Para excluir um target de outra dimensão, retorne esse target à mesma targeting dimension que o target principal. Clique em Adicionar uma regra na seção Regras de exclusão e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="Complemento de geração de combinação"
 >abstract="Ative a opção Gerar complemento para processar a população restante em uma transição adicional."
 
-Na atividade **Combinar**, é possível configurar uma **Exclusão**. Para isso, você precisa seguir as etapas adicionais abaixo:
+Na atividade **Combinar**, configure uma **Exclusão** seguindo estas etapas adicionais:
 
 1. Na seção **Conjuntos para unir**, selecione o **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
-1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido à mesma dimensão de direcionamento como público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união.
-1. Marque a opção **Gerar complemento** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
+1. Quando necessário, manipule tabelas de entrada. Para excluir um target de outra dimensão, retorne esse target à mesma targeting dimension que o target principal. Clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união.
+1. Marque a opção **Gerar complemento** se desejar processar o público restante. Consulte a seção [Interseção](#intersection).
 
-## Exemplos{#combine-examples}
+## Exemplos {#combine-examples}
 
-No exemplo a seguir, estamos usando uma atividade **Combine** e adicionamos uma **union** para recuperar todos os perfis das duas consultas: pessoas entre 18 e 27 anos e pessoas entre 34 e 40 anos.
+No exemplo a seguir, uma atividade **Combine** usa uma **Union** para recuperar todos os perfis das duas consultas: pessoas entre 18 e 27 anos e pessoas entre 34 e 40 anos.
 
 ![](../assets/workflow-union-example.png)
 
-O exemplo a seguir mostra a **interseção** entre duas atividades de consulta. Ela está sendo usada aqui para recuperar perfis com idade entre 18 e 27 anos cujo endereço de email foi fornecido.
+O exemplo a seguir mostra a **Interseção** entre duas atividades de consulta. Ele recupera perfis entre 18 e 27 anos e cujo endereço de email foi fornecido.
 
 ![](../assets/workflow-intersection-example.png)
 
-O exemplo de **exclusão** a seguir mostra duas consultas configuradas para filtrar perfis com idade entre 18 e 27 anos e que possuem um domínio de email Adobe. Os perfis com um domínio de email inválido são excluídos do primeiro conjunto.
+O exemplo **Exclusão** a seguir mostra duas consultas configuradas para filtrar perfis com idade entre 18 e 27 anos e que têm um domínio de email Adobe. Os perfis com um domínio de email do Adobe são excluídos do primeiro conjunto.
 
 ![](../assets/workflow-exclusion-example.png)

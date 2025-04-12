@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 70%
+source-wordcount: '414'
+ht-degree: 62%
 
 ---
 
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
-![](../assets/workflow-audience.png)
+![Captura de tela mostrando a interface de configuração de público do fluxo de trabalho.](../assets/workflow-audience.png)
 
 1. Adicione uma atividade **Criar público-alvo**.
 1. Defina um rótulo.
@@ -56,7 +56,7 @@ Siga estas etapas para configurar a atividade **Criar público-alvo**:
 Para criar sua própria query, siga estas etapas:
 
 1. Selecione **Crie sua própria (consulta)**.
-1. Escolha a **Dimensão de direcionamento**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions)
+1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions)
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 
@@ -70,8 +70,8 @@ Para selecionar um público-alvo existente, siga estas etapas:
 
 >[!ENDTABS]
 
-## Exemplos{#build-audience-examples}
+## Exemplos {#build-audience-examples}
 
 Este é um exemplo de um fluxo de trabalho com duas atividades de **Criar público-alvo**. A primeira é direcionada ao público-alvo dos jogadores de pôquer, seguida de uma entrega por email. A segunda é direcionada ao público-alvo de clientes VIP, seguida de uma entrega de SMS.
 
-![](../assets/workflow-audience-example.png)
+![Captura de tela mostrando um exemplo de fluxo de trabalho com duas atividades de criação de público-alvo direcionadas a públicos-alvo diferentes.](../assets/workflow-audience-example.png)

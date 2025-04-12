@@ -3,10 +3,10 @@ audience: end-user
 title: Criar uma entrega de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 30%
+source-wordcount: '739'
+ht-degree: 24%
 
 ---
 
@@ -18,13 +18,12 @@ ht-degree: 30%
 >abstract="Selecione um modelo de notificação por push para iniciar a entrega por push. Os modelos de entrega permitem reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas e entregas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR" text="Usar modelos de entrega"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Propriedades da entrega por push"
->abstract="Defina as propriedades da entrega por push. Insira o rótulo do push e use as **Opções adicionais** para configurar o nome interno, a pasta de entrega e o código. Você também pode inserir uma descrição personalizada."
+>abstract="Defina as propriedades da entrega por push. Insira o rótulo do push e use as **Opções Adicionais** para configurar o nome interno, a pasta de entrega e o código. Você também pode inserir uma descrição personalizada."
 
-Você pode criar um delivery de notificação por push independente ou criar uma notificação por push no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery push independente (único). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão os detalhes em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Você pode criar um delivery de notificação por push independente ou criar uma notificação por push no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery push independente (único). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão detalhadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 ## Criar uma entrega por push {#create-push-delivery}
 
@@ -36,7 +35,7 @@ Para criar um novo delivery por push independente, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Criar entrega]** para confirmar.
 
-   ![](assets/push_create_1.png){zoomable="yes"}
+   ![Captura de tela mostrando a criação de uma entrega por push](assets/push_create_1.png){zoomable="yes"}
 
 ## Definir as configurações de entrega {#configure-push-settings}
 
@@ -54,7 +53,6 @@ Defina as configurações de delivery conforme detalhado abaixo:
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
 +++
 
-
 ## Selecionar o público-alvo da entrega por push {#create-audience-push}
 
 >[!CONTEXTUALHELP]
@@ -63,26 +61,25 @@ Defina as configurações de delivery conforme detalhado abaixo:
 >abstract="Para definir o público-alvo da mensagem, primeiro selecione o aplicativo associado à entrega por push. Por padrão, sua notificação por push é enviada a todos os assinantes do aplicativo. É possível definir um público-alvo específico clicando em **Selecionar público-alvo**. Se necessário, adicione um grupo de controle para medir o impacto da sua entrega."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Definir um grupo de controle"
 
-
 Primeiro, selecione o aplicativo e, depois, refine o público-alvo de notificação por push, conforme detalhado abaixo:
 
 1. Na seção **[!UICONTROL Público-alvo]**, selecione o aplicativo que deseja usar para esta entrega. Por padrão, sua notificação por push é enviada a todos os assinantes do aplicativo. Você pode refinar para um público-alvo específico clicando no botão **[!UICONTROL Selecionar público-alvo]**.
 
-   ![](assets/push_create_2.png){zoomable="yes"}
+   ![Captura de tela mostrando a seleção de público para entrega por push](assets/push_create_2.png){zoomable="yes"}
 
 1. Selecione um público existente ou crie seu próprio público para refinar a população do target para o delivery de push. Para notificação por push, a [dimensão de destino](../audience/about-recipients.md#targeting-dimensions) padrão é o **Aplicativo do assinante** (nms:appSubscriptionRcp), que está vinculado à tabela de destinatários.
 
-   Saiba como selecionar um público existente [nesta página](../audience/add-audience.md)
+   Saiba como selecionar um público existente [nesta página](../audience/add-audience.md).
 
-   Saiba como criar um novo público-alvo [nesta página](../audience/one-time-audience.md)
+   Saiba como criar um novo público-alvo [nesta página](../audience/one-time-audience.md).
 
-1. Ative a opção **[!UICONTROL Habilitar grupo de controle]** para definir um grupo de controle e medir o impacto da sua entrega. As mensagens não são enviadas para esse grupo de controle, para que você possa comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não receberam. [Saiba mais](../audience/control-group.md)
+1. Ative a opção **[!UICONTROL Habilitar grupo de controle]** para definir um grupo de controle e medir o impacto da sua entrega. As mensagens não são enviadas para esse grupo de controle, portanto, você pode comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não receberam. [Saiba mais](../audience/control-group.md).
 
 ## Definir o conteúdo da notificação por push {#create-content-push}
 
-Para definir o conteúdo de sua notificação, clique em **[!UICONTROL Editar conteúdo]**. [Saiba mais](content-push.md)
+Para definir o conteúdo de sua notificação, clique em **[!UICONTROL Editar conteúdo]**. [Saiba mais](content-push.md).
 
-![](assets/push_create_5.png){zoomable="yes"}
+![Captura de tela mostrando a edição de conteúdo para entrega por push](assets/push_create_5.png){zoomable="yes"}
 
 Nesta tela, você também pode [simular seu conteúdo](../preview-test/preview-test.md) e [configurar ofertas](../msg/offers.md).
 
@@ -100,12 +97,12 @@ Para programar uma entrega por push independente para uma data e hora específic
 
 Após iniciar o delivery, a mensagem será enviada automaticamente na data e hora exatas definidas para o recipient.
 
-![](assets/push_create_3.png){zoomable="yes"}
+![Captura de tela mostrando as opções de agendamento para entrega por push](assets/push_create_3.png){zoomable="yes"}
 
-Saiba mais sobre o agendamento de entrega em [esta seção](../msg/gs-deliveries.md#gs-schedule)
+Saiba mais sobre o agendamento de entrega em [esta seção](../msg/gs-deliveries.md#gs-schedule).
 
 ## Configurações avançadas de entrega {#adv-push}
 
-Clique em **[!UICONTROL Definir configurações de entrega]** para acessar opções avançadas relacionadas ao seu modelo de entrega. [Saiba mais](../advanced-settings/delivery-settings.md)
+Clique em **[!UICONTROL Definir configurações de entrega]** para acessar opções avançadas relacionadas ao seu modelo de entrega. [Saiba mais](../advanced-settings/delivery-settings.md).
 
-![](assets/push_create_4.png){zoomable="yes"}
+![Captura de tela mostrando as configurações avançadas para entrega por push](assets/push_create_4.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios globais para o canal de push
 description: Entender os relatórios globais do canal de push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 25%
+source-wordcount: '600'
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 Os relatórios globais fornecem aos usuários uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.
 
-Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relatórios]**. Você pode filtrar seus dados dependendo da data do relatório, pasta ou regras. [Saiba mais](global-reports.md)
+Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relatórios]**. Você pode filtrar seus dados dependendo da data, pasta ou regras do relatório. [Saiba mais](global-reports.md)
 
 ## Resumo da entrega {#delivery-summary-push}
 
@@ -27,7 +27,7 @@ Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Relat�
 
 O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre como seus visitantes se envolvem com cada entrega de notificação por push. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![Métricas de visão geral da entrega, mostrando KPIs relacionados ao desempenho da notificação por push.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de visão geral de delivery.
 
@@ -50,7 +50,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 A tabela e o gráfico **[!UICONTROL Público-alvo]** apresentam dados relacionados aos seus destinatários para cada entrega de notificação por push enviada. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![Métricas de público-alvo direcionadas, mostrando dados relacionados a destinatários e exclusões para notificações por push.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de Público-alvo direcionado.
 
@@ -58,7 +58,7 @@ A tabela e o gráfico **[!UICONTROL Público-alvo]** apresentam dados relacionad
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar regras: endereço em quarentena, em, em inclui na lista de bloqueios, etc.
+* **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar as regras: endereço em quarentena, em incluído na lista de bloqueios e motivos semelhantes.
 
 +++
 
@@ -71,7 +71,7 @@ A tabela e o gráfico **[!UICONTROL Público-alvo]** apresentam dados relacionad
 
 A tabela **[!UICONTROL Estatísticas de entrega]** detalha o sucesso de cada entrega de notificação por push. As métricas estão detalhadas abaixo.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![Métricas de estatísticas de entrega, mostrando taxas de sucesso, erros e quarentenas para notificações por push.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Saiba mais sobre Estatísticas de entrega.
 
@@ -81,7 +81,7 @@ A tabela **[!UICONTROL Estatísticas de entrega]** detalha o sucesso de cada ent
 
 * **[!UICONTROL Erros / Devoluções]**: Número total de erros acumulados durante as entregas e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (registro inválido, rejeição de mensagem, erro de carga, por exemplo) em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (registro inválido, rejeição de mensagem, erro de carga e motivos semelhantes) em relação ao número de mensagens a serem entregues.
 
   Os tipos de erro de notificações por push estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
@@ -105,6 +105,6 @@ Os tipos de erro de notificações por push estão listados na [documentação d
 >title="Relatório de taxa de transferência de entrega"
 >abstract="O relatório de **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência de entrega de notificações por push em toda a plataforma no período especificado."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![Métricas de taxa de transferência de entrega, mostrando taxas de erro e sucesso para notificações por push durante um período especificado.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 O relatório **[!UICONTROL Taxa de transferência de entrega]** oferece insights abrangentes sobre a eficácia do sistema de entrega de notificações por push, oferecendo um resumo detalhado das taxas de sucesso e erro em um período especificado.

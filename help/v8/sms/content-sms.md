@@ -3,10 +3,10 @@ audience: end-user
 title: Criação de uma entrega de SMS
 description: Saiba como criar uma entrega de SMS
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 71%
+source-wordcount: '275'
+ht-degree: 37%
 
 ---
 
@@ -15,28 +15,28 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Conteúdo de SMS"
->abstract="Crie o conteúdo das entregas de SMS e personalize-o com campos de personalização, fragmentos de expressão e conteúdo dinâmico. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
+>abstract="Crie o conteúdo dos deliveries de SMS e personalize-o com campos de personalização, fragmentos de expressão e conteúdo dinâmico. Para começar a redigir a mensagem, clique em **Editar conteúdo**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="Conteúdo da mensagem de SMS"
->abstract="Defina o conteúdo do seu SMS. Para redigir a mensagem, clique no campo **Mensagem** e insira o conteúdo da mensagem. Use o Editor de expressão para adicionar dados personalizados e conteúdo dinâmico. Você também pode personalizar o nome do remetente. Por padrão, o rastreamento é habilitado para todas as entregas de SMS, para que você possa medir quando os destinatários clicam em links."
+>abstract="Defina o conteúdo do seu SMS. Para redigir a mensagem, clique no campo **Mensagem** e insira o conteúdo da mensagem. Use o Editor de expressão para adicionar dados personalizados e conteúdo dinâmico. Você também pode personalizar o nome do remetente. Por padrão, o rastreamento é ativado para todos os deliveries de SMS, permitindo medir quando os recipients clicam em links."
 
 Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
 1. Na página da entrega, clique no botão **[!UICONTROL Editar conteúdo]** para criar o conteúdo de SMS.
 
-1. Na página **[!UICONTROL Editar conteúdo]**, você pode personalizar o nome do remetente acessando o **[!UICONTROL campo Remetente]** e digitando o nome desejado.
+1. Na página **[!UICONTROL Editar conteúdo]**, personalize o nome do remetente acessando o **[!UICONTROL campo Remetente]** e inserindo o nome preferencial.
 
-   Além disso, ao clicar em **[!UICONTROL Abrir caixa de diálogo de personalização]**, você pode incluir campos de personalização, fragmentos de expressão e conteúdo dinâmico na mensagem.
+   Além disso, clique em **[!UICONTROL Abrir caixa de diálogo de personalização]** para incluir campos de personalização, fragmentos de expressão e conteúdo dinâmico na mensagem.
 
-   ![](assets/sms_content_1.png){zoomable="yes"}
+   ![Captura de tela mostrando a página Editar conteúdo com opções para personalizar o nome do remetente e adicionar campos de personalização](assets/sms_content_1.png){zoomable="yes"}
 
 1. Digite sua mensagem de texto no campo **[!UICONTROL Mensagem]** ou clique na opção **[!UICONTROL Abrir caixa de diálogo de personalização]** para definir o conteúdo e adicionar conteúdo dinâmico. [Saiba mais](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable="yes"}
+   ![Captura de tela mostrando o campo Mensagem com opções para adicionar conteúdo dinâmico](assets/sms_content_2.png){zoomable="yes"}
 
-1. Por padrão, o rastreamento está habilitado para entregas. Você pode desabilitar essa opção na **[!UICONTROL seção Recursos opcionais]**.
+1. Por padrão, o rastreamento está habilitado para entregas. Desabilite esta opção na **[!UICONTROL seção de recursos opcionais]**, se necessário.
 
 1. Clique em **[!UICONTROL Configurações]** para acessar as opções avançadas relacionadas ao seu modelo de entrega. [Saiba mais](../advanced-settings/delivery-settings.md)
 
@@ -44,4 +44,4 @@ Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
 1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização.
 
-Agora é possível revisar e enviar uma mensagem de SMS para o público-alvo.
+Revise e envie sua mensagem SMS para o público-alvo.

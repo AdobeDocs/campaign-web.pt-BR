@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 41%
+source-wordcount: '2449'
+ht-degree: 38%
 
 ---
 
@@ -30,11 +30,11 @@ O **Relatório de entrega de email** oferece insights abrangentes e dados espec�
 
 O gráfico **[!UICONTROL População inicial do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas são calculadas durante a preparação do delivery e mostram: o público inicial, o número de mensagens a serem enviadas e o número de recipients excluídos.
 
-![](assets/reporting_email_1.png){zoomable="yes"}
+![Captura de tela de um gráfico mostrando os dados](assets/reporting_email_1.png){zoomable="yes"}
 
 Passe o mouse sobre uma parte do gráfico para exibir o número exato.
 
-![](assets/reporting_email_1.1.png){zoomable="yes"}
+![Captura de tela de um gráfico com o mouse sobre uma parte para exibir o número exato](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -54,7 +54,7 @@ Passe o mouse sobre uma parte do gráfico para exibir o número exato.
 
 O gráfico **[!UICONTROL Estatísticas de entrega]** detalha o sucesso da sua entrega. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_2.png){zoomable="yes"}
+![Captura de tela de um gráfico que mostra os detalhes das estatísticas de entrega](assets/reporting_email_2.png){zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório da campanha de email.
 
@@ -77,7 +77,7 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** detalha o sucesso da sua en
 
 O gráfico e a tabela **[!UICONTROL Causas da exclusão]** mostram o detalhamento por regra de mensagens rejeitadas durante a preparação da entrega. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Captura de tela do gráfico e da tabela Causas da exclusão](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -106,7 +106,7 @@ O gráfico e a tabela **[!UICONTROL Causas da exclusão]** mostram o detalhament
 
 Este relatório apresenta informações detalhadas sobre a taxa de transferência de delivery de toda a plataforma em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 
-![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Captura de tela da taxa de transferência de entrega](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## Estatísticas de transmissão {#broadcast-statistics}
@@ -118,7 +118,7 @@ Este relatório apresenta informações detalhadas sobre a taxa de transferênci
 
 A tabela **[!UICONTROL Estatísticas de transmissão]** contém os dados disponíveis para possíveis erros encontrados com cada domínio. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Captura de tela das estatísticas de transmissão](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -155,7 +155,7 @@ A tabela e o gráfico **[!UICONTROL Detalhamento de erros por tipo]** contêm os
 
 Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Captura de tela da divisão de erros por tipo](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -189,11 +189,11 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 
 A tabela e o gráfico **[!UICONTROL Breakdown of errors per domain]** exibem os dados disponíveis para possíveis erros encontrados em cada domínio.
 
-![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Captura de tela do detalhamento de erros por domínio](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Clique no ícone ao lado do nome de cada domínio para ver os detalhes.
 
-![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Captura de tela do Detalhamento de erros por domínio com os detalhes de cada domínio](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 As métricas disponíveis são as mesmas do [Detalhamento de erros por tipo](#email-delivery-breakdown-type) descrito acima.
 
@@ -216,7 +216,7 @@ As métricas disponíveis são as mesmas do [Detalhamento de erros por tipo](#em
 
 O relatório **[!UICONTROL Estatísticas de entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre os dados disponíveis para emails enviados. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
+![Captura de tela das estatísticas de entrega](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -244,7 +244,7 @@ O relatório **[!UICONTROL Estatísticas de entrega]** fornece KPIs (indicadores
 
 A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
 
-![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
+![Captura de tela da tabela de taxas de abertura e click-through](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -269,7 +269,7 @@ A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados rel
 
 O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre os URLs mais clicados durante uma entrega.
 
-![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
+![Captura de tela do relatório de fluxos de clique e URLs](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -294,7 +294,7 @@ O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores princi
 
 O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis sobre o comportamento do destinatário em cada link.
 
-![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![Captura de tela do gráfico dos 10 links mais visitados](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -315,7 +315,7 @@ O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dad
 
 O gráfico **[!UICONTROL Breakdown of clicks over time]** contém os dados disponíveis para o comportamento do recipient por link.
 
-![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
+![Captura de tela do Detalhamento dos cliques ao longo do gráfico de tempo](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## Atividades do usuário {#user-activities-email}
 
@@ -326,7 +326,7 @@ O gráfico **[!UICONTROL Breakdown of clicks over time]** contém os dados dispo
 
 O relatório **[!UICONTROL Atividades do usuário]** mostra o detalhamento de aberturas e cliques no formato de um gráfico. Você pode escolher o período para direcionar os dados: último dia ou hora ou 30 minutos.
 
-![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
+![Captura de tela do relatório de atividades do usuário](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -345,7 +345,7 @@ O relatório **[!UICONTROL Atividades do usuário]** mostra o detalhamento de ab
 
 O gráfico **[!UICONTROL Estatísticas de rastreamento]** fornece estatísticas sobre aberturas e cliques. Você tem a opção de selecionar o intervalo de tempo específico para direcionar os dados.
 
-![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
+![Captura de tela do gráfico de estatísticas de rastreamento](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++Saiba mais sobre Métricas de relatório de delivery de email.
 
@@ -368,7 +368,7 @@ O relatório **Detalhamento por dispositivo** mostra o detalhamento de aberturas
 
 Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e dispositivos móveis. O segundo exibe o número exato e a porcentagem de cada tipo de dispositivo.
 
-![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
+![Captura de tela do relatório de Detalhamento por dispositivo](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### Detalhamento de aberturas por sistema operacional {#breakdown-opens-os}
@@ -382,7 +382,7 @@ O relatório **Detalhamento por SO** mostra o detalhamento de aberturas por sist
 
 Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e sistemas operacionais móveis. O segundo exibe o número e a porcentagem exatos de cada sistema operacional.
 
-![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
+![Captura de tela do relatório de Detalhamento por SO](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Detalhamento de aberturas por navegador {#breakdown-opens-browser}
 
@@ -395,7 +395,7 @@ O relatório **Detalhamento por navegador** mostra o detalhamento de aberturas p
 
 Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas referentes a aberturas em um computador e sistemas operacionais móveis. O segundo exibe o número e a porcentagem exatos de cada navegador.
 
-![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
+![Captura de tela do Detalhamento de aberturas por relatório do navegador](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## Hotclicks {#hotclicks}
@@ -407,4 +407,4 @@ Para cada categoria, dois gráficos são usados. O primeiro exibe estatísticas 
 
 Este relatório mostra o conteúdo da mensagem (HTML e/ou texto) com a porcentagem de cliques nos links, em cada link. Blocos de personalização, links de mirror pages, de ofertas e de cancelamento de inscrição são considerados no total de cliques acumulados, mas não são exibidos no relatório.
 
-![](assets/reporting11.png){zoomable="yes"}
+![Captura de tela do relatório de Hotclicks](assets/reporting11.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal push
 description: Entender os relatórios de campanha do canal push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 18%
+source-wordcount: '533'
+ht-degree: 15%
 
 ---
 
@@ -23,8 +23,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 
 O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de notificação por push. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
-
+![Métricas de resumo de entrega exibidas no relatório de Visão geral da entrega](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
@@ -32,7 +31,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 * **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Erros]**: Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Erros]**: Número total de erros acumulados durante o processamento de entrega e retorno automático, em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Total de cliques]**: número total de recipients distintos que clicaram em um delivery pelo menos uma vez.
 
@@ -40,16 +39,14 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 ### Estatísticas iniciais do público-alvo {#delivery-summary-push-initial-target}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Estatísticas iniciais do público-alvo"
->abstract="A tabela **Estatísticas iniciais do público-alvo** exibe dados relativos aos destinatários"
+>abstract="A tabela **Estatísticas iniciais do público-alvo** exibe os dados relativos aos seus destinatários."
 
 A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-target.png){zoomable="yes"}
-
+![Estatísticas iniciais de público alvo exibidas no relatório](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
@@ -57,7 +54,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* incluir na lista de bloqueios **[!UICONTROL Rejected by rules]**: Número total de endereços ignorados durante a análise ao aplicar regras: endereço em falta, em quarentena, no, etc.
+* **[!UICONTROL Rejected by rules]**: Número total de endereços ignorados durante a análise ao aplicar regras, como endereço ausente, em quarentena ou em durante a inclui na lista de bloqueios.
 
 +++
 
@@ -70,7 +67,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 
 A tabela **[!UICONTROL Estatísticas de execução]** detalha o sucesso da sua entrega. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
+![Estatísticas de execução exibidas no relatório](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
@@ -78,9 +75,9 @@ A tabela **[!UICONTROL Estatísticas de execução]** detalha o sucesso da sua e
 
 * **[!UICONTROL Success]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Erros]**: Número total de erros acumulados durante as entregas e o processamento automático de reassociação em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Erros]**: Número total de erros acumulados durante as entregas e o processamento automático de reassociação, em relação ao número de mensagens a serem entregues.
 
-* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (registro inválido, rejeição de mensagem, erro de carga, por exemplo) em relação ao número de mensagens a serem entregues.
+* **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (registro inválido, rejeição de mensagem ou erro de carga, por exemplo), em relação ao número de mensagens a serem entregues.
 
   Os tipos de erro de notificações por push estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
@@ -95,7 +92,7 @@ A tabela **[!UICONTROL Estatísticas de execução]** detalha o sucesso da sua e
 
 A tabela **[!UICONTROL Fluxos de cliques gerados]** exibe dados relativos a como seus destinatários interagiram com sua entrega. As métricas estão detalhadas abaixo.
 
-![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![Fluxos de cliques gerados exibidos no relatório](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++Saiba mais sobre métricas de relatório de campanha por push.
 
