@@ -2,17 +2,20 @@
 title: Dimensões de direcionamento
 description: Saiba mais sobre dimensões de direcionamento no Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 9%
+source-wordcount: '408'
+ht-degree: 15%
 
 ---
 
 # Dimensões de direcionamento {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_orchestration_build_audience_dimension"
+>title="Selecione a dimensão de direcionamento"
+>abstract="O targeting dimension permite definir o público alvo da operação: recipients, beneficiários de contrato, operadores, assinantes e muito mais. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
+
 O targeting dimension, também conhecido como target mapping, é o tipo de dados manipulado por uma operação. Ele define a população direcionada, como perfis, beneficiários de contrato, operadores ou assinantes.
 
 ## Dimensões de direcionamento de workflows {#workflow}

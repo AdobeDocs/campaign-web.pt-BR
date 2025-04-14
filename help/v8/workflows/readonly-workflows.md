@@ -3,17 +3,20 @@ audience: end-user
 title: Sobre fluxos de trabalho de somente leitura
 description: Saiba por que os fluxos de trabalho estão no modo somente leitura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 11%
 
 ---
 
 # Sobre fluxos de trabalho de somente leitura {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_wf_read_only_canvas"
+>title="Este workflow é de somente leitura"
+>abstract="Não é possível editar esse fluxo de trabalho devido aos seus direitos ou ao tipo de fluxo de trabalho."
+
 Alguns workflows são somente leitura. Os workflows técnicos incorporados são sempre somente leitura, mas essa restrição também pode se aplicar a outros tipos de workflows.
 
 Os usuários do Campaign podem ter acesso restrito aos dados do Adobe Campaign. Um administrador do Campaign pode conceder a ele o direito de exibir determinados recursos, mas não de editá-los ou modificá-los. As permissões do usuário em dados são essenciais para garantir a segurança dos dados e do processo. Saiba mais sobre o gerenciamento de permissões no Campaign em [esta seção](../get-started/permissions.md).

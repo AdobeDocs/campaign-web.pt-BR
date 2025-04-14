@@ -2,23 +2,29 @@
 title: 'Configurar opções do  [!DNL Campaign] '
 description: Saiba como configurar as opções do Campaign e criar suas próprias opções personalizadas.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '431'
+ht-degree: 5%
 
 ---
 
 # Configurar opções do [!DNL Campaign] {#options}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Opções"
+>abstract="Opções"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Criar opção"
+>abstract="Criar opção"
 
 O Adobe Campaign Web inclui opções técnicas que permitem configurar o aplicativo mais especificamente. Algumas dessas opções são incorporadas, enquanto outras podem ser adicionadas manualmente, conforme necessário.
 
 >[!IMPORTANT]\
-As opções integradas são pré-configuradas e só devem ser modificadas por usuários avançados. Em caso de dúvidas ou solicitações, entre em contato com o representante da Adobe.
+>As opções integradas são pré-configuradas e só devem ser modificadas por usuários avançados. Em caso de dúvidas ou solicitações, entre em contato com o representante da Adobe.
 
 ## Acessar opções do Campaign {#access}
 
@@ -28,7 +34,7 @@ Opções disponíveis no menu **[!UICONTROL Administração]** / **[!UICONTROL O
 [Lista de opções exibida no menu Administração/Opções]
 
 >[!NOTE]\
-Embora o local do menu de opções seja diferente entre o console do Adobe Campaign e a interface do usuário da Web, a lista é idêntica e funciona como um espelho. Para obter mais detalhes sobre as opções disponíveis, consulte a lista de opções na [documentação do Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Embora o local do menu de opções seja diferente entre o console do Adobe Campaign e a interface do usuário da Web, a lista é idêntica e funciona como um espelho. Para obter mais detalhes sobre as opções disponíveis, consulte a lista de opções na [documentação do Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 Na lista de opções, é possível:
 

@@ -3,22 +3,34 @@ audience: end-user
 title: Introdução aos públicos-alvo
 description: Saiba como trabalhar com públicos no Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 5%
+source-wordcount: '371'
+ht-degree: 19%
 
 ---
 
 # Introdução aos públicos-alvo {#monitor-manage}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Propriedades"
+>abstract="Aqui você pode encontrar um resumo das propriedades do público-alvo, como sua origem ou sua pasta de armazenamento. Clique no link na seção **Último fluxo de trabalho** para abrir o fluxo de trabalho que foi usado para criar o público-alvo."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Tamanho do público-alvo"
+>abstract="Aqui você pode encontrar o número total de perfis no público-alvo. Clique no botão **Calcular** para atualizar e recalcular os resultados do público-alvo."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Direcionamento"
+>abstract="Direcionamento"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Erro de público-alvo"
+>abstract="Os dados de público-alvo não estão disponíveis. Aguarde o fim da execução do fluxo de trabalho."
 
 O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. A lista de públicos-alvo disponíveis para uso no Campaign Web pode ser acessada no menu **[!UICONTROL Públicos-alvo]**.
 

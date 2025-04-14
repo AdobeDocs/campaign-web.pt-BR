@@ -3,17 +3,20 @@ audience: end-user
 title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 12%
+source-wordcount: '381'
+ht-degree: 18%
 
 ---
 
-# Selecione um público-alvo existente {#add-audience}
+# Selecione um público-alvo já existente {#add-audience}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_deliveries_email_audience_select"
+>title="Selecione um público-alvo já existente"
+>abstract="Navegue pela lista para selecionar um público-alvo já existente. Use o ícone “Mostrar filtros” para filtrar a lista ou selecione uma pasta específica."
+
 Esta seção explica como selecionar um público-alvo ao definir a população do target de um delivery. Ao definir o target principal de um delivery, você também pode:
 * [Criar uma audiência única](one-time-audience.md) usando o modelador de consultas.
 * [Carregar um público de um arquivo externo](file-audience.md) (somente para emails).

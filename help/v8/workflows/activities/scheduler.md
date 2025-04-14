@@ -3,17 +3,20 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 13%
+source-wordcount: '505'
+ht-degree: 27%
 
 ---
 
 # Scheduler {#scheduler}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_orchestration_scheduler"
+>title="Atividade Scheduler"
+>abstract="A atividade **Scheduler** permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
+
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho.
 
 ## Práticas recomendadas {#scheduler-best-practices}
@@ -24,9 +27,15 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite
 
 ## Configuração de atividade do scheduler {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Validade do Scheduler"
+>abstract="É possível definir um período de validade para o Scheduler. Pode ser permanente (padrão) ou pode ser válido até uma data específica."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Opções do Scheduler"
+>abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
 
 Siga estas etapas para configurar a atividade **Scheduler**:
 
@@ -52,7 +61,7 @@ Siga estas etapas para configurar a atividade **Scheduler**:
    * **Período de validade**: o fluxo de trabalho é executado de acordo com a frequência especificada, até uma data específica. Especifique datas de início e término.
 
 >[!NOTE]\
-Para iniciar o fluxo de trabalho imediatamente, clique em **Executar tarefa pendente** na barra de ações superior do agendador. Esse botão só estará disponível quando o workflow tiver sido iniciado.
+>Para iniciar o fluxo de trabalho imediatamente, clique em **Executar tarefa pendente** na barra de ações superior do agendador. Esse botão só estará disponível quando o workflow tiver sido iniciado.
 
 ## Exemplo {#scheduler-example}
 
