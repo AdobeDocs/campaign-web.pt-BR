@@ -13,9 +13,8 @@ ht-degree: 40%
 # Personalizar o plano de fundo do email {#backgrounds}
 
 >[!CONTEXTUALHELP]
->id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
+>
+Ao definir planos de fundo com o Designer de email, a Adobe recomenda o seguinte:
 
 1. Aplique uma cor de fundo ao corpo do email se isso for necessário para o design.
 1. Definir as cores do plano de fundo no nível da coluna na maioria dos casos.

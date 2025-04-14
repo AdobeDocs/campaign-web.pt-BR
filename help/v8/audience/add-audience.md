@@ -13,10 +13,8 @@ ht-degree: 12%
 # Selecione um público-alvo existente {#add-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
-
+>
+Esta seção explica como selecionar um público-alvo ao definir a população do target de um delivery. Ao definir o target principal de um delivery, você também pode:
 * [Criar uma audiência única](one-time-audience.md) usando o modelador de consultas.
 * [Carregar um público de um arquivo externo](file-audience.md) (somente para emails).
 

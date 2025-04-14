@@ -13,9 +13,8 @@ ht-degree: 13%
 # Scheduler {#scheduler}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_scheduler"
->title="Scheduler activity"
->abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+>
+A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho.
 
 ## Práticas recomendadas {#scheduler-best-practices}
 
@@ -25,15 +24,9 @@ ht-degree: 13%
 
 ## Configuração de atividade do scheduler {#scheduler-configuration}
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_validity"
->title="Scheduler validity"
->abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
+[!CONTEXTUALHELP]
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
->title="Scheduler options"
->abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
+[!CONTEXTUALHELP]
 
 Siga estas etapas para configurar a atividade **Scheduler**:
 
