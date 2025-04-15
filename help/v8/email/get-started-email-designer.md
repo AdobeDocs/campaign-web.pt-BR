@@ -3,10 +3,10 @@ audience: end-user
 title: Edição do conteúdo de email
 description: Saiba como começar a criar conteúdo usando o Designer de email na interface do Campaign Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 45%
+source-wordcount: '409'
+ht-degree: 61%
 
 ---
 
@@ -31,7 +31,9 @@ The Email Designer allows you to create email content and email content template
 
 Ao enviar emails, considere que os recipients podem encaminhá-los, o que às vezes pode causar problemas na renderização do email. Isso é particularmente verdadeiro ao usar classes CSS que podem não ser suportadas pelo provedor de email usado para encaminhamento. Por exemplo, se você usar a classe CSS &quot;is-desktop-hidden&quot; para ocultar uma imagem em dispositivos móveis, ela pode não ser renderizada corretamente.
 
-Para minimizar esses problemas de renderização, mantenha sua estrutura de design de email a mais simples possível. Use um único design que funcione bem para dispositivos móveis e de desktop, e evite usar classes CSS complexas ou outros elementos de design que podem não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você ajuda a garantir que seus emails sejam renderizados de forma consistente, independentemente de como são visualizados ou encaminhados pelos destinatários.
+Para minimizar esses problemas de renderização, recomendamos manter a estrutura de design do email a mais simples possível. Tente usar um único design que funcione bem em dispositivos móveis e desktops e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao usar imagens em seus emails, evite imagens com mais de 2 MB ou use links de imagem codificados.
+
+Ao seguir essas práticas recomendadas, você ajudará a garantir que seus emails sejam corretamente renderizados de forma consistente, independentemente de como são visualizados ou encaminhados pelos destinatários.
 
 ## Comece a criar seu conteúdo {#start-authoring}
 
