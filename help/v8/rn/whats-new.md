@@ -4,7 +4,7 @@ title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
 ht-degree: 100%
 
