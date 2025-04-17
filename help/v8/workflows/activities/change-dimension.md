@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Alterar dimensão
 description: Saiba como usar a atividade de workflow de alteração de dimensão
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 21%
@@ -22,7 +22,7 @@ ht-degree: 21%
 >title="Atividade Mudar dimensão"
 >abstract="Essa atividade permite alterar o targeting dimension à medida que você constrói um público-alvo. Ela desloca o eixo dependendo do modelo de dados e da dimensão de entrada. Por exemplo, você pode alternar da dimensão &quot;contratos&quot; para a dimensão &quot;clientes&quot;."
 
-A atividade **Change dimension** é uma atividade **Targeting**. Essa atividade permite alterar o targeting dimension à medida que você constrói seu fluxo de trabalho. Ela desloca o eixo dependendo do modelo de dados e da dimensão de entrada. [Saiba mais sobre targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).
+A atividade **Change dimension** é uma atividade **Targeting**. Essa atividade permite alterar o targeting dimension à medida que você constrói seu fluxo de trabalho. Ela desloca o eixo dependendo do modelo de dados e da dimensão de entrada. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions).
 
 Por exemplo, você pode alternar o targeting dimension de um fluxo de trabalho de &quot;Recipients&quot; para &quot;Aplicativo de assinante&quot; para enviar notificações por push aos recipients direcionados.
 

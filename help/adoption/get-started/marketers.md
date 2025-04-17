@@ -4,7 +4,7 @@ description: Descubra a principal funcionalidade do Campaign v8. Ele é para pro
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 18%
@@ -17,7 +17,7 @@ Este guia fornece uma visão geral das principais funcionalidades do Campaign v8
 
 Você pode acessar o Adobe Campaign v8 por meio do console do cliente ou da interface da Web. A interface da Web permite criar, gerenciar e executar as principais ações de marketing. A nova interface do Adobe Campaign Web oferece uma experiência de usuário moderna e intuitiva para simplificar o design e a entrega da campanha de marketing. [Saiba mais](../../v8/get-started/user-interface.md).
 
-Com a migração, todos os seus dados do Campaign Standard são importados no Campaign v8, garantindo uma transição tranquila com o mínimo de interrupção nas operações em andamento.
+Com a migração, todos os seus dados do Campaign Standard são importados para o Campaign v8, garantindo uma transição tranquila com o mínimo de interrupção nas operações em andamento.
 
 Você pode continuar a usar suas credenciais existentes para fazer logon e se conectar à nova instância do Adobe Campaign v8. Depois de conectado, você pode encontrar todos os perfis e workflows que estão sendo migrados, permitindo que continue trabalhando nas campanhas.
 
@@ -70,7 +70,7 @@ Saiba como criar e gerenciar públicos-alvo, como selecionar públicos-alvo para
 
 Consulte [Introdução aos públicos-alvo](../../v8/audience/manage-audience.md){target="_blank"} para obter mais informações.
 
-Como no Campaign Standard, você pode adicionar um grupo de controle ao delivery. Você pode definir um grupo de controle para evitar o envio de mensagens para uma parte do público-alvo e comparar o comportamento após o delivery com o público-alvo principal. Essa opção ajuda a medir o impacto da campanha.
+Como no Campaign Standard, você pode adicionar um grupo de controle ao seu delivery. Você pode definir um grupo de controle para evitar o envio de mensagens para uma parte do público-alvo e comparar o comportamento após o delivery com o público-alvo principal. Essa opção ajuda a medir o impacto da campanha.
 Saiba como [definir um grupo de controle](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
@@ -85,7 +85,7 @@ Saiba como [definir um grupo de controle](../../v8/audience/control-group.md){ta
 
 ### Gerenciar assinaturas {#acs-gs-marketers-sub}
 
-É possível gerenciar e criar serviços, como boletins informativos, e verificar as assinaturas ou cancelamentos de assinaturas desses serviços. As principais etapas são globalmente as mesmas do Campaign Standard. Saiba mais nas páginas abaixo:
+É possível gerenciar e criar serviços, como boletins informativos, e verificar as assinaturas ou cancelamentos de assinaturas desses serviços. Globalmente, as principais etapas são as mesmas do Campaign Standard. Saiba mais nas páginas abaixo:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -208,7 +208,7 @@ No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de 
 
 1. **Projetar e definir conteúdo**
 
-   O Designer de email do Campaign v8 é semelhante ao disponível no Campaign Standard. Lembrando que o Campaign Standard[editor de email herdado foi descontinuado](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} há alguns anos. Você já deve ter feito a transição para o Campaign Email Designer para criar e personalizar seu conteúdo de email.
+   O Designer de email do Campaign v8 é semelhante ao disponível no Campaign Standard. Lembrando que o [editor de email herdado do Campaign Standard foi descontinuado](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} há alguns anos. Você já deve ter feito a transição para o Campaign Email Designer para criar e personalizar seu conteúdo de email.
 
    Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email no vídeo a seguir:
 
@@ -309,7 +309,7 @@ No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de 
 
 >[!AVAILABILITY]
 >
->* O Adobe Campaign v8 é compatível com o Android e o iOS Push Channel. Para a transição de fluxos de trabalho e entregas existentes usando o Canal por push, conecte-se com seu Gerente de transição do Adobe Campaign. Saiba mais sobre [Configuração de canal](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+>* O Adobe Campaign v8 é compatível com o Android e o iOS Push Channel. Para a transição de fluxos de trabalho e entregas existentes usando o Canal por push, conecte-se com seu Gerente de transição do Adobe Campaign. Saiba mais sobre a [Configuração de canal](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 >
 >* Observe que o SDK V4 para aplicativos móveis foi [descontinuado no Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} há alguns anos. Você já deve ter feito a transição para o Adobe Experience Platform SDK, que é o mesmo usado no Campaign v8.
 > 
@@ -333,7 +333,7 @@ Observe que o canal No aplicativo não está disponível no Campaign v8. Se prec
 
 A interface do usuário da Web do Adobe Campaign v8 vem com uma experiência de usuário recriada para landing pages. O Campaign permite criar, projetar e compartilhar landing pages. As páginas de destino permitem direcionar usuários para formulários online onde é possível atualizar dados, aceitar ou recusar o recebimento de comunicações ou assinar um serviço específico, como um informativo.
 
-Como usuário Campaign Standard em transição para o Campaign v8, suas páginas de aterrissagem existentes foram migradas para a interface do usuário da Web do Campaign. Você pode acessar a mesma variedade de recursos.
+Como usuário do Campaign Standard que está fazendo a transição para o Campaign v8, suas páginas de aterrissagem existentes foram migradas para a interface do usuário da Web do Campaign. Você pode acessar a mesma variedade de recursos.
 
 Saiba mais sobre landing pages nas seguintes seções:
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 32%
 
 ---
@@ -32,7 +32,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 ![Descrição: a imagem mostra o relatório de visão geral da entrega, que inclui KPIs como taxas de sucesso, taxas de erro e envolvimento do visitante.](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++Saiba mais sobre métricas de relatório de delivery de SMS.
++++Saiba mais sobre as métricas de relatório do delivery de SMS.
 
 * **[!UICONTROL Total enviado]**: porcentagem e número total de mensagens processadas durante a preparação da entrega.
 
@@ -55,7 +55,7 @@ O gráfico e a tabela **População direcionada** exibem dados relacionados ao s
 
 ![Descrição: a imagem mostra o gráfico e a tabela de população direcionada, que inclui métricas como mensagens a serem entregues e exclusões.](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++Saiba mais sobre métricas de relatório de delivery de SMS.
++++Saiba mais sobre as métricas de relatório do delivery de SMS.
 
 * **[!UICONTROL A entregar]**: número total e taxa percentual de mensagens processadas durante a preparação da entrega.
 
@@ -73,7 +73,7 @@ O relatório **Estatísticas gerais** apresenta dados para as mensagens SMS envi
 
 ![Descrição: a imagem mostra o relatório Estatísticas gerais, que inclui métricas como taxas de sucesso, erros e quarentenas.](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++Saiba mais sobre métricas de relatório de delivery de SMS.
++++Saiba mais sobre as métricas de relatório do delivery de SMS.
 
 * **[!UICONTROL Êxito]**: número e taxa de porcentagem de mensagens processadas com êxito.
 

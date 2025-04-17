@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 22%
@@ -27,7 +27,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 ![Captura de tela do relatório de visão geral da entrega](assets/campaign_report_email_1.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Mensagens a serem entregues]**: número total de mensagens processadas durante a preparação da entrega.
 
@@ -52,7 +52,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 
 ![Captura de tela da tabela Estatísticas iniciais de público-alvo de destino](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Público-alvo inicial]**: número total de destinatários direcionados.
 
@@ -73,7 +73,7 @@ A tabela **[!UICONTROL Estatísticas de execução]** detalha o sucesso da sua e
 
 ![Captura de tela da tabela Estatísticas de execução detalhando o sucesso da entrega](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
@@ -98,7 +98,7 @@ A tabela **[!UICONTROL Estatísticas de reação]** contém os dados disponívei
 
 ![Captura de tela da tabela de estatísticas de Reação contendo os dados disponíveis para a atividade de destinatário para a entrega](assets/campaign_report_email_4.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Aberturas exclusivas]**: número total de destinatários direcionados que abriram uma mensagem pelo menos uma vez.
 
@@ -122,7 +122,7 @@ A tabela **[!UICONTROL Fluxos de cliques gerados]** exibe dados relativos a como
 
 ![Captura de tela da tabela de fluxos de clique gerados](assets/campaign_report_email_5.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Cliques únicos]**: número total de destinatários únicos que clicaram em um delivery pelo menos uma vez.
 
@@ -147,7 +147,7 @@ Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter 
 
 ![Captura de tela do Detalhamento de erros por gráfico de tipo e tabela](assets/campaign_report_email_6.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Usuário desconhecido]**: Tipo de erro gerado durante a entrega para indicar que o endereço de email é inválido.
 
@@ -187,7 +187,7 @@ As métricas **[!UICONTROL Estatísticas de entrega]** fornecem KPIs (indicadore
 
 ![Captura de tela das métricas de estatísticas de entrega](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Mensagem(ns) a ser(em) entregue(s)]**: Número de mensagens processadas com êxito em relação ao número de mensagens a serem entregues.
 
@@ -261,7 +261,7 @@ O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dad
 
 ![Captura de tela do gráfico dos 10 links mais visitados](assets/campaign_report_email_10.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Cliques]**: número total de cliques nos links nas entregas.
 

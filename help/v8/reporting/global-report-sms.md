@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios globais para o canal SMS
 description: Entender relatórios globais do canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 23%
@@ -73,7 +73,7 @@ A tabela **[!UICONTROL Estatísticas de entrega]** detalha o sucesso de cada ent
 
 ![Uma captura de tela do relatório de Estatísticas de Entrega, mostrando taxas de sucesso, erros e quarentenas para entregas de SMS.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++Saiba mais sobre Estatísticas de entrega.
++++Saiba mais sobre Métricas de estatísticas de delivery.
 
 * **[!UICONTROL Total de mensagens]**: número total de mensagens a serem entregues após a preparação da entrega.
 

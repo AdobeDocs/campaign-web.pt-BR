@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios globais para o canal de correspondência direta
 description: Saiba mais sobre Relatórios globais para o canal de correspondência direta
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 27%
@@ -81,7 +81,7 @@ A tabela e o gráfico para **[!UICONTROL Público-alvo]** exibem dados relaciona
 
 O gráfico e a tabela **[!UICONTROL Estatísticas de entrega]** fornecem um detalhamento do sucesso de cada entrega de correspondência direta, com métricas detalhadas descritas abaixo.
 
-+++Saiba mais sobre Estatísticas de entrega.
++++Saiba mais sobre Métricas de estatísticas de delivery.
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 

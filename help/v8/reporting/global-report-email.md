@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios globais para o canal de email
 description: Saiba mais sobre relatórios globais para o canal de email
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 23%
@@ -76,7 +76,7 @@ A tabela **[!UICONTROL Estatísticas de entrega]** fornece um detalhamento do su
 
 ![Métricas de estatísticas de entrega](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Estatísticas de entrega.
++++Saiba mais sobre Métricas de estatísticas de delivery.
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
@@ -135,7 +135,7 @@ A tabela e o gráfico **[!UICONTROL Detalhamento de erros por tipo]** apresentam
 
 Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-+++Saiba mais sobre Detalhamento de erros por tipo de métrica.
++++Saiba mais sobre o Detalhamento de erros por tipo de métrica.
 
 * **[!UICONTROL Usuário desconhecido]**: Tipo de erro gerado durante a entrega para indicar que o endereço de email é inválido.
 
@@ -177,7 +177,7 @@ As métricas **[!UICONTROL Estatísticas de entrega]** oferecem KPIs (indicadore
 
 ![Métricas de rastreamento de estatísticas de entrega](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Estatísticas de entrega.
++++Saiba mais sobre Métricas de estatísticas de delivery.
 
 * **[!UICONTROL Mensagens a serem entregues]**: número total de mensagens processadas durante a preparação da entrega.
 
@@ -205,7 +205,7 @@ A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados rel
 
 ![Métricas de taxa de abertura e click-through](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Métricas de taxa de abertura e click-through.
++++Saiba mais sobre métricas de taxa de abertura e click-through.
 
 * **[!UICONTROL Enviado]**: Número total de mensagens enviadas.
 
@@ -283,7 +283,7 @@ O relatório **[!UICONTROL Atividades do usuário]** mostra o detalhamento de ab
 
 ![Métricas de atividades do usuário](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre métricas de Atividades do usuário.
++++Saiba mais sobre as métricas de Atividades do usuário.
 
 * **[!UICONTROL Total de Cliques]**: número total de cliques nos links nas entregas.
 

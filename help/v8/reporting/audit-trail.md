@@ -4,7 +4,7 @@ title: Trilha de auditoria
 description: Saiba como monitorar sua instância com a Trilha de auditoria do Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -22,9 +22,9 @@ Na Interface do Usuário da Web do Adobe Campaign, o recurso **[!UICONTROL Trilh
 
 O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log detalhado de ações e eventos que ocorrem na instância do Adobe Campaign em tempo real. Ele oferece um método conveniente para acessar um registro cronológico de dados, abordando queries, como o status dos workflows, os indivíduos mais recentes para modificá-los ou as atividades executadas pelos usuários na instância.
 
-+++ Saiba mais sobre entidades disponíveis da Trilha de auditoria
++++ Saiba mais sobre entidades disponíveis de Trilha de auditoria
 
-* **A trilha de auditoria do esquema do Source** permite monitorar atividades e modificações recentes feitas em seus esquemas no console do cliente do Campaign V8.
+* **A trilha de auditoria do esquema do Source** permite monitorar atividades e modificações recentes feitas em seus esquemas no console do cliente do Campaign v8.
 
   Para obter informações detalhadas sobre schemas, consulte a [Documentação do Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
@@ -41,7 +41,7 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
   Para obter mais informações sobre fluxos de trabalho, consulte esta [página](../workflows/gs-workflows.md).
 
-* A **Trilha de auditoria de opção** permite monitorar atividades e modificações recentes feitas em suas opções no Campaign V8.
+* A **Trilha de auditoria de opção** permite monitorar atividades e modificações recentes feitas em suas opções no Campaign v8.
 
   Para obter mais informações sobre opções, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
@@ -49,15 +49,15 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
   Para obter mais informações sobre entregas, consulte esta [página](../msg/gs-deliveries.md).
 
-* **Conta externa** permite que você verifique modificações feitas em contas externas no Campaign V8, usadas por processos técnicos, como workflows técnicos ou workflows da campanha.
+* **Conta externa** permite que você verifique modificações feitas em contas externas no Campaign v8, usadas por processos técnicos, como workflows técnicos ou workflows da campanha.
 
   Para obter mais informações sobre contas externas, consulte esta [página](../administration/external-account.md).
 
-* **O mapeamento de entrega** permite monitorar atividades e modificações recentes feitas no mapeamento de entrega no Campaign V8.
+* **O mapeamento de entrega** permite monitorar atividades e modificações recentes feitas no mapeamento de entrega no Campaign v8.
 
   Para obter mais informações sobre mapeamento de entrega, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* O **Aplicativo Web** permite verificar as modificações feitas em formulários Web no Campaign V8, usados para criar páginas com campos de entrada e seleção e que podem incluir dados do banco de dados.
+* O **Aplicativo Web** permite verificar as modificações feitas em formulários Web no Campaign v8, usados para criar páginas com campos de entrada e seleção e que podem incluir dados do banco de dados.
 
   Para obter mais informações sobre aplicativos Web, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
@@ -65,7 +65,7 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
   Para obter mais informações sobre ofertas, consulte esta [página](../msg/offers.md).
 
-* **Operador** permite monitorar atividades e modificações recentes feitas aos seus Operadores no Campaign V8.
+* **Operador** permite monitorar atividades e modificações recentes feitas aos seus Operadores no Campaign v8.
 
   Para obter mais informações sobre operadores, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 

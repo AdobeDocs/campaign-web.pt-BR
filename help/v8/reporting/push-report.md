@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega por push
 description: Saiba como acessar e usar relatórios do delivery por push
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '566'
 ht-degree: 32%
 
 ---
@@ -32,7 +32,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 ![Esta captura de tela mostra o relatório Visão geral da entrega, que fornece KPIs sobre a participação do visitante com mensagens por push.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++Saiba mais sobre métricas de relatório de delivery por push.
++++Saiba mais sobre Métricas de relatório de delivery por push.
 
 * **[!UICONTROL Total enviado]**: número total de mensagens processadas durante a preparação da entrega.
 * **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
@@ -52,7 +52,7 @@ O gráfico e a tabela **População direcionada** exibem dados relativos ao seu 
 
 ![Esta captura de tela mostra o gráfico e a tabela de população direcionada, que exibe dados sobre mensagens a serem entregues e exclusões.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++Saiba mais sobre métricas de relatório de delivery por push.
++++Saiba mais sobre Métricas de relatório de delivery por push.
 
 * **[!UICONTROL Para entregar]**: número total de mensagens processadas durante a preparação da entrega.
 * **[!UICONTROL Exclusões]**: número de perfis excluídos da análise.
@@ -70,7 +70,7 @@ O relatório **Estatísticas gerais** apresenta dados para as notificações por
 
 ![Esta captura de tela mostra o relatório Estatísticas gerais, que apresenta dados sobre êxito, erros e quarentenas para notificações por push enviadas.](assets/reporting_push_5.png){zoomable="yes"}
 
-+++Saiba mais sobre métricas de relatório de delivery por push.
++++Saiba mais sobre Métricas de relatório de delivery por push.
 
 * **[!UICONTROL Êxito]**: número de mensagens processadas com êxito.
 * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante a entrega, impedindo que as mensagens sejam enviadas para determinados perfis.

@@ -3,7 +3,7 @@ audience: end-user
 title: Gerenciar ativos com o Adobe Experience Manager as a Cloud Service
 description: Saiba como gerenciar conteúdo com o Adobe Experience Manager as a Cloud Service
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 5%
@@ -86,7 +86,7 @@ Quando o template do Experience Manager estiver disponível na Adobe Campaign We
 
 1. Se você adicionou conteúdo personalizado ao seu modelo do Experience Manager, clique em **[!UICONTROL Simular conteúdo]** para visualizar como ele aparecerá na mensagem usando perfis de teste.
 
-[Saiba mais sobre perfis de pré-visualização e teste](../preview-test/preview-content.md)
+[Saiba mais sobre perfis de visualização e teste](../preview-test/preview-content.md)
 
 1. Ao visualizar a pré-visualização da mensagem, todos os elementos personalizados são substituídos automaticamente pelos dados correspondentes do perfil de teste selecionado.
 

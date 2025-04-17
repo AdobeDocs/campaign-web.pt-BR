@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de correspondência direta
 description: Saiba como acessar e usar relatórios de correspondência direta
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 20%
 
 ---
@@ -67,7 +67,7 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** fornece uma visão geral do
 
 ![Gráfico de estatísticas de entrega mostrando taxas de sucesso, erros e quarentenas.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++Saiba mais sobre métricas de relatório da campanha de correspondência direta.
++++Saiba mais sobre as métricas de relatório da campanha de correspondência direta.
 
 * **[!UICONTROL Mensagem enviada]**: Número total de mensagens a serem entregues após a preparação da entrega.
 * **[!UICONTROL Êxito]**: número de mensagens processadas com êxito em comparação ao número de mensagens a serem entregues.

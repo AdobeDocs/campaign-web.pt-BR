@@ -3,10 +3,10 @@ audience: end-user
 title: Selecione um público-alvo existente
 description: Saiba como selecionar um público-alvo
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 

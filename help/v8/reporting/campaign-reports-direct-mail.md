@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de campanha para o canal de correspondência direta
 description: Entender os relatórios de campanha do canal de correspondência direta
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 19%
@@ -71,7 +71,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 
 A tabela **[!UICONTROL Estatísticas de execução]** fornece um detalhamento do sucesso de cada delivery de correspondência direta, com métricas detalhadas descritas abaixo.
 
-+++Saiba mais sobre Estatísticas de entrega.
++++Saiba mais sobre Métricas de estatísticas de delivery.
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 38%
+source-wordcount: '2448'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +56,7 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** detalha o sucesso da sua en
 
 ![Captura de tela de um gráfico que mostra os detalhes das estatísticas de entrega](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório da campanha de email.
++++Saiba mais sobre Métricas de relatório de campanha de email.
 
 * **[!UICONTROL Mensagem enviada]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
