@@ -4,9 +4,9 @@ description: Saiba como migrar o gerenciamento de acesso do usuário do Campaign
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
+source-git-commit: cc1f89fe5a67898e0905bd2823f73aa8b9424164
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1020'
 ht-degree: 2%
 
 ---
@@ -68,13 +68,15 @@ No Adobe Campaign Standard, o termo **Função de usuário** é chamado de **Dir
 
 ## Abordagem de migração da unidade organizacional
 
->[!CAUTION]
->
->As unidades organizacionais na Adobe Campaign Standard sem **Todas (todas)** como um pai direto ou indireto não serão migradas para o Campaign V8.
-></br>
->Os usuários em vários grupos de segurança recebem a unidade organizacional do grupo de segurança com a classificação mais alta. Se vários grupos tiverem unidades de nível superior paralelas, o logon é restrito no Campaign Standard, mas concede acesso mais amplo no Campaign v8 após a migração, o que pode aumentar os privilégios. Para evitar isso, evite atribuir usuários a grupos de segurança com unidades organizacionais paralelas.
+### Observações de cuidado
 
-No Adobe Campaign Standard, a **unidade organizacional** t está mapeada para o modelo de hierarquia **Pasta** existente no Campaign V8 para manter um controle de acesso semelhante. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+As unidades organizacionais na Adobe Campaign Standard sem **Todas (todas)** como um pai direto ou indireto não serão migradas para o Campaign V8.
+
+Os usuários em vários grupos de segurança recebem a unidade organizacional do grupo de segurança com a classificação mais alta. Se vários grupos tiverem unidades organizacionais paralelas de nível superior, o sistema selecionará a unidade organizacional para o usuário no Campaign Standard e o usuário só terá acesso à unidade organizacional selecionada pelo sistema e seus filhos. No Campaign v8 após a migração, o usuário teria acesso a **todas as unidades organizacionais atribuídas e seus filhos**, possivelmente aumentando os privilégios. Para evitar isso, evite atribuir usuários a grupos de segurança com unidades organizacionais paralelas. <!--Know more about parallel organizational unit assignment here (link to ' Parallel Organizational Unit Assignment' section)-->
+
+### Unidades organizacionais e gerenciamento de pastas
+
+No Adobe Campaign Standard, a **unidade organizacional** está mapeada para o modelo de hierarquia **Pasta** existente no Campaign V8 para manter um controle de acesso semelhante. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
