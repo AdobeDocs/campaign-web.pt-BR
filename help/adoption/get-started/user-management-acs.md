@@ -4,9 +4,9 @@ description: Saiba como migrar o gerenciamento de acesso do usuário do Campaign
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
+source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1403'
 ht-degree: 2%
 
 ---
@@ -178,4 +178,6 @@ Veja abaixo uma lista de mapeamentos de grupos de segurança do Campaign Standar
 
 * Conta de retransmissão
 
-Observe que as funções personalizadas criadas e atribuídas a usuários no Adobe Campaign Standard não serão migradas para o Campaign v8.
+>[!NOTE]
+>
+>As funções personalizadas criadas e atribuídas a usuários no Adobe Campaign Standard não serão migradas para o Adobe Campaign v8.
