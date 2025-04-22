@@ -2,10 +2,10 @@
 title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2024 da interface do usuário do Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
-source-wordcount: '2502'
-ht-degree: 100%
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+workflow-type: tm+mt
+source-wordcount: '2501'
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de out
 <tbody>
 <tr>
 <td>
-<p>Depois de criar e personalizar sua mensagem, melhore-a ainda mais com o Assistente de IA no Adobe Campaign Web. Essa ferramenta avançada permite otimizar o impacto do conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
+<p>Depois de criar e adaptar sua mensagem, coloque-a em um novo patamar com o Assistente de IA na Web do Adobe Campaign. Essa ferramenta avançada permite otimizar o impacto do conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
 <p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos ao vivo</a>, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../email/generative-gs.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -272,7 +272,7 @@ As melhorias abaixo estão disponíveis para todos os clientes a partir da vers�
 
 >[!AVAILABILITY]
 >
->Esta versão está disponível para todos os usuários a partir do [Campaign (console) v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR). Saiba mais sobre as versões e atualizações do console do cliente do Adobe Campaign na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=pt-BR){target="_blank"}.
+>Esta versão está disponível para todos os usuários a partir do [Campaign (console) v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR). Saiba mais sobre as versões e atualizações do console do cliente do Adobe Campaign na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=pt-BR){target="_blank"}.
 
 **Data de lançamento**: 19 a 20 de março de 2024
 

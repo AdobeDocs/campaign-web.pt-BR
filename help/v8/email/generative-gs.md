@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Introdução ao assistente de IA
+title: Introdução ao Assistente de IA
 description: Introdução ao Assistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 8%
+source-wordcount: '732'
+ht-degree: 6%
 
 ---
 
@@ -42,9 +42,9 @@ O AI Assistant simplifica a criação e a execução de campanhas de marketing e
 >
 >* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web. Para mais informações, entre em contato com o seu representante da Adobe.
 
-## Acessar o assistente de IA {#generative-access}
+## Acessar o assistente do AI {#generative-access}
 
-O Assistente de IA para emails, notificações por push e SMS agora está em Disponibilidade Geral (GA) e disponível para todos os usuários. As permissões e as etapas necessárias para conceder acesso aos usuários são detalhadas abaixo.
+O Assistente de IA para emails, notificações por push e SMS agora está em Disponibilidade geral (GA) e disponível para todos os usuários. As permissões e as etapas necessárias para conceder acesso aos usuários são detalhadas abaixo.
 
 +++ Saiba como atribuir permissões relacionadas à geração de conteúdo
 
@@ -68,7 +68,7 @@ As diretrizes gerais para o uso do Assistente de IA no Adobe Campaign Web para g
 * O tamanho máximo para os recursos de marca carregados é de 50 MB. Arquivos maiores ou imagens numerosas podem aumentar o tempo de processamento.
 * Use [modelos de email integrados](../email/create-email-templates.md), modelos específicos da marca ou modelos personalizados para criar conteúdo de email usando o Assistente de IA. São recomendados modelos de e-mail com até 8 a 10 imagens.
 * Relate quaisquer saídas problemáticas usando os ícones de miniatura, miniatura ou sinalizador ao selecionar variantes.
-* O uso do Assistente de IA está sujeito às Diretrizes de usuário da IA geradora da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* O uso do AI Assistant está sujeito às Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Como parte do compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica o Content Credentials quando o conteúdo ou um projeto que inclui um ativo gerado pela Firefly é baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 As seguintes limitações se aplicam ao Assistente de IA no Adobe Campaign Web:

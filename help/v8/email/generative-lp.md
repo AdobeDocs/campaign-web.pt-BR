@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Página de aterrissagem com o Assistente de IA
+title: Página de aterrissagem com o assistente de IA
 description: Introdução ao Assistente de IA
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 3%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
-# Geração de páginas de destino com o Assistente de IA{#generative-lp}
+# Geração de página de aterrissagem com o Assistente de IA{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Gerar páginas de destino com IA"
->abstract="Agora é possível usar o Assistente de IA para criar entregas de página de destino, o que habilita a geração de texto, imagens ou layouts de página completos."
+>abstract="Agora você pode usar o AI Assistant para criar deliveries de página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!IMPORTANT]
@@ -23,7 +23,7 @@ ht-degree: 3%
 >Antes de começar a usar este recurso, leia as [Medidas de Proteção e Limitações](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web. Para mais informações, entre em contato com o seu representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA na Web do Adobe Campaign. Para mais informações, entre em contato com o seu representante da Adobe.
 
 Transforme suas páginas de aterrissagem com o Assistente de IA no Adobe Campaign Web, viabilizado pela IA gerativa.
 
@@ -35,7 +35,7 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Adobe Campaig
 
 >[!TAB Geração completa da página de aterrissagem]
 
-No exemplo a seguir, aprenda a usar o Assistente de IA para refinar um modelo de página de aterrissagem existente.
+No exemplo a seguir, saiba como usar o Assistente de IA para refinar um modelo de página de aterrissagem existente.
 
 1. Depois de criar e configurar sua página de aterrissagem, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -56,7 +56,7 @@ No exemplo a seguir, aprenda a usar o Assistente de IA para refinar um modelo de
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
-   * **[!UICONTROL Tom]**: o tom da sua página de aterrissagem deve repercutir no seu público. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
+   * **[!UICONTROL Tom]**: o tom da sua página de aterrissagem deve repercutir no seu público. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
 
    ![Captura de tela mostrando as opções de configuração de texto.](assets/lp_full_gen_3.png){zoomable="yes"}
 
@@ -97,7 +97,7 @@ Quando a landing page estiver pronta, publique-a para disponibilizá-la para uso
 
 >[!TAB Geração somente texto]
 
-No exemplo a seguir, saiba como usar o Assistente de IA para aprimorar o conteúdo da página de aterrissagem.
+No exemplo a seguir, saiba como usar o AI Assistant para aprimorar o conteúdo da sua landing page.
 
 1. Depois de criar e configurar sua página de aterrissagem, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -118,7 +118,7 @@ No exemplo a seguir, saiba como usar o Assistente de IA para aprimorar o conteú
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
-   * **[!UICONTROL Tom]**: o tom da sua página de aterrissagem deve repercutir no seu público. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
+   * **[!UICONTROL Tom]**: o tom da sua página de aterrissagem deve repercutir no seu público. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
    * **Comprimento do texto**: use o controle deslizante para selecionar o comprimento desejado do texto.
 
    ![Captura de tela mostrando as opções de configuração de texto.](assets/lp-text-genai-3.png){zoomable="yes"}
@@ -153,7 +153,7 @@ Quando a landing page estiver pronta, publique-a para disponibilizá-la para uso
 
 >[!TAB Geração somente de imagem]
 
-No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
+No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
 
 1. Depois de criar e configurar sua página de aterrissagem, clique em **[!UICONTROL Editar conteúdo]**.
 

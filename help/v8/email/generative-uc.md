@@ -2,9 +2,9 @@
 title: Casos de uso do Assistente de IA
 description: Saiba mais sobre como usar o Assistente de IA por meio de casos de uso
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -55,9 +55,9 @@ Depois de definir o conteúdo, o público-alvo e o cronograma, prepare a entrega
 
    * **[!UICONTROL Resumir]**: para obter informações mais longas, use o Assistente de IA para criar resumos concisos que sejam mais fáceis de serem resumidos pelos destinatários de email.
 
-   * **[!UICONTROL Refrase]**: o Assistente de IA pode apresentar sua mensagem de diferentes maneiras, ajudando a manter o conteúdo atualizado para uma variedade de públicos.
+   * **[!UICONTROL Refrase]**: o AI Assistant pode apresentar sua mensagem de diferentes maneiras, ajudando a manter o conteúdo atualizado para uma variedade de públicos-alvo.
 
-   * **[!UICONTROL Usar linguagem mais simples]**: simplifique a linguagem com o Assistente de IA para garantir que a mensagem seja clara e acessível a todos os leitores.
+   * **[!UICONTROL Usar linguagem mais simples]**: simplifique o idioma com o Assistente de IA para garantir que a mensagem seja clara e acessível a todos os leitores.
 
    Além disso, ajuste o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu conteúdo.
 

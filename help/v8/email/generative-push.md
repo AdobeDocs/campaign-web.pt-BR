@@ -3,10 +3,10 @@ audience: end-user
 title: Notificação por push com o Assistente de IA
 description: Introdução ao Assistente de IA
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 O Assistente de IA ajuda a otimizar o impacto de suas entregas, sugerindo conteúdo diferente que repercuta com seu público-alvo.
 
-No exemplo a seguir, o Assistente de IA é aproveitado para criar mensagens atraentes e criar uma experiência do cliente mais envolvente.
+No exemplo a seguir, o Assistente de IA é aproveitado para criar mensagens atraentes e proporcionar uma experiência do cliente mais envolvente.
 
 1. Depois de criar e configurar a entrega de notificação por push, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -57,7 +57,7 @@ No exemplo a seguir, o Assistente de IA é aproveitado para criar mensagens atra
 
    ![Captura de tela mostrando as opções de configuração de imagem](assets/push-genai-4.png){zoomable="yes"}
 
-1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca com conteúdo que forneça contexto adicional ao Assistente de IA ou selecione um ativo carregado anteriormente.
+1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que forneça contexto adicional ao Assistente de IA ou selecione um ativo carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Alterne os ativos que deseja incluir na geração.
 

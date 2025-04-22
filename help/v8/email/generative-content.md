@@ -3,9 +3,9 @@ audience: end-user
 title: Conteúdo gerativo
 description: Introdução ao Assistente de IA
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1525'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ No exemplo a seguir, use o Assistente de IA no Adobe Campaign Web para refinar u
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
-   * **[!UICONTROL Refrase]**: o Assistente de IA reformula sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e engajada para públicos-alvo diversos.
+   * **[!UICONTROL Refrase]**: o Assistente de IA reformula sua mensagem de maneiras diferentes, mantendo sua escrita atualizada e envolvente para públicos-alvo diversos.
    * **[!UICONTROL Usar linguagem mais simples]**: simplifique sua linguagem para garantir clareza e acessibilidade para um público-alvo maior.
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
@@ -147,7 +147,7 @@ Ao definir seu conteúdo, público-alvo e programação, prepare sua entrega de 
 
 >[!TAB Geração de imagem]
 
-No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
+No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
 
 1. Depois de criar e configurar o delivery de email, clique em **[!UICONTROL Editar conteúdo]**.
 

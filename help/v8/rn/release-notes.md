@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 56%
+source-wordcount: '836'
+ht-degree: 53%
 
 ---
 
@@ -175,13 +175,13 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <table>
 <thead>
 <tr>
-<th><strong>Geração de páginas de destino com o Assistente de IA</strong><br/></th>
+<th><strong>Geração de página de aterrissagem com o Assistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Assistente de IA agora está disponível para entregas de página de destino, permitindo gerar texto, imagens ou layouts de página completos.</p>
+<p>O Assistente de IA agora está disponível com seus deliveries de página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif" alt="Ilustração do uso do Assistente de IA para geração de páginas de aterrissagem na interface do usuário da Web do Adobe Campaign">
 <p>Para obter mais informações sobre o Assistente de IA, consulte a <a href="../email/generative-lp.md">documentação detalhada</a>.</p>
 </td>
