@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1264'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md) ou para atualizar perfis ou qualquer outra tabela.
 
 >[!NOTE]
->Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). É possível carregar arquivos com um tamanho máximo de 50 MB.
+>Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Com o console Interface de usuário da Web, é possível carregar arquivos até um tamanho máximo de 50 MB. No console do cliente, a atividade Data Loading tem um limite de 150 MB. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Esta atividade pode ser usada com uma atividade [Reconciliation](reconciliation.md) para vincular dados não identificados aos recursos existentes. Por exemplo, a atividade **Carregar arquivo** pode ser colocada antes de uma atividade **Reconciliação** se você importar dados não padrão para o banco de dados.
 
