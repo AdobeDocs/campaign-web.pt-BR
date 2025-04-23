@@ -3,10 +3,10 @@ audience: end-user
 title: 'Matriz de recursos da interface web e do console do cliente do Campaign '
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 50%
+source-wordcount: '2072'
+ht-degree: 45%
 
 ---
 
@@ -103,12 +103,18 @@ As regras de tipologia podem ser selecionadas para uma entrega ou um modelo de e
 
 Use os links fornecidos para explorar a documentação do Campaign v8 (console do cliente) e saber mais sobre as regras de tipologia:
 
-* Criação de regras de controle. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=pt-BR){target="_blank"}
+<!--
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+-->
 * Criação de regras de fadiga/pressão. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR){target="_blank"}
-* Criação de regras de filtragem. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=pt-BR){target="_blank"}
-* Gerenciamento de regras de tipologia. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=pt-BR){target="_blank"}
+<!--
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+-->
 * Simulação de campanha. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=pt-BR){target="_blank"}
-* Codificação JavaScript para criação de regras de tipologia. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR#use-cases-on-pressure-rules){target="_blank"}
+<!--
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+-->
 
 ## Fluxos de trabalho {#wf-capabilities}
 
@@ -116,10 +122,13 @@ O Campaign Web traz uma nova interface reformulada da tela do fluxo de trabalho 
 
 Observe que os seguintes recursos só estão disponíveis no console do cliente do Campaign:
 
-* Script em workflows
+<!--
+* Scripting in workflows
+-->
+
 * Atividades de ETL: Exportar, Editar esquema, Carregamento de dados, Extrair dados, Código SQL
 
-Saiba mais sobre as atividades de fluxo de trabalho disponíveis na documentação de fluxo de trabalho do Adobe Campaign v8 (console), acessando [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre atividades de fluxo de trabalho disponíveis na documentação do fluxo de trabalho do Adobe Campaign v8 (console) [aqui](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=pt-BR){target="_blank"}.
 
 ## Gestão de ofertas {#offer-capabilities}
 
@@ -164,7 +173,7 @@ A criação, modificação e extensão de esquemas são restritas a usuários av
 
 ### Recursos de gerenciamento de dados de workflow {#data}
 
-O Gerenciamento de dados combina um conjunto de atividades para resolver problemas complexos de direcionamento, oferecendo ferramentas mais eficientes e flexíveis, como Carregamento de dados, Extração (arquivo), Atualização de dados, Edição de esquema ou Workflows técnicos de importação/exportação. [Descubra os recursos de gerenciamento de dados de workflows no console do cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=pt-BR#data-management){target="_blank"}
+O Gerenciamento de dados combina um conjunto de atividades para resolver problemas complexos de direcionamento, oferecendo ferramentas mais eficientes e flexíveis, como Carregamento de dados, Extração (arquivo), Atualização de dados, Edição de esquema ou Workflows técnicos de importação/exportação. [Descubra os recursos de gerenciamento de dados de fluxos de trabalho no console do cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=pt-BR#data-management){target="_blank"}
 
 >[!NOTE]
 >
