@@ -6,7 +6,7 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 61%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 61%
 
 Após criar um email no Adobe Campaign, é necessário definir seu conteúdo.
 
-O Designer de email permite criar emails atraentes e personalizados por meio de uma interface intuitiva de arrastar e soltar. Esteja você iniciando do zero, importando conteúdo existente ou aproveitando modelos existentes, projete e refine todo o conteúdo para cada email, seja ele promocional ou transacional.
+O Designer de email permite criar emails atrativos e personalizados por meio de uma interface intuitiva de arrastar e soltar. Quer você esteja começando do zero, importando um conteúdo já existente ou usando modelos, é possível criar e refinar todo o conteúdo para cada email, seja promocional ou transacional.
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
@@ -23,13 +23,13 @@ The Email Designer allows you to create email content and email content template
 
 * Use os recursos de design de email do [!DNL Campaign] para criar emails responsivos com facilidade. [Saiba mais](create-email-content.md)
 
-* Melhorar a experiência dos clientes criando emails personalizados com base em seus atributos de perfil. [Saiba mais](../personalization/personalize.md)
+* Melhore a experiência de clientes criando emails personalizados com base em seus atributos de perfil. [Saiba mais](../personalization/personalize.md)
 
 * Configure campos de conteúdo condicional para criar personalizações dinâmicas com base no perfil do destinatário. [Saiba mais](../personalization/conditions.md)
 
 ## Práticas recomendadas de design de emails {#best-practices}
 
-Ao enviar emails, considere que os recipients podem encaminhá-los, o que às vezes pode causar problemas na renderização do email. Isso é particularmente verdadeiro ao usar classes CSS que podem não ser suportadas pelo provedor de email usado para encaminhamento. Por exemplo, se você usar a classe CSS &quot;is-desktop-hidden&quot; para ocultar uma imagem em dispositivos móveis, ela pode não ser renderizada corretamente.
+Ao enviar emails, é importante levar em consideração que os destinatários podem encaminhá-los, o que às vezes pode causar problemas na renderização do email. Isso ocorre principalmente ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento. Por exemplo, se você usar a classe CSS “is-desktop-hidden” para ocultar uma imagem em dispositivos móveis, ela pode não ser renderizada corretamente.
 
 Para minimizar esses problemas de renderização, recomendamos manter a estrutura de design do email a mais simples possível. Tente usar um único design que funcione bem em dispositivos móveis e desktops e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao usar imagens em seus emails, evite imagens com mais de 2 MB ou use links de imagem codificados.
 
@@ -43,8 +43,8 @@ No painel de entrega de email, passe pela tela [Editar conteúdo](edit-content.m
 
 * **Desenvolver ou colar código HTML** diretamente no Designer de email. Saiba como desenvolver o código de seu próprio conteúdo [nesta seção](code-content.md).
 
-* **Importar conteúdo HTML já existente** de um arquivo ou de uma pasta ZIP. Saiba como importar conteúdo de email [nesta seção](existing-content.md).
+* **Importar conteúdo HTML já existente** de um arquivo ou de uma pasta ZIP. Saiba como importar um conteúdo de email [nesta seção](existing-content.md).
 
 * **Selecionar um conteúdo já existente** de uma lista de modelos integrados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](create-email-templates.md).
 
-  ![Opções disponíveis na interface do Email Designer para criar conteúdo de email](assets/email_designer_create_options.png){zoomable="yes"}
+  ![Opções disponíveis na interface do Designer de email para criar conteúdo de email](assets/email_designer_create_options.png){zoomable="yes"}

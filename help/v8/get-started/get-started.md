@@ -6,7 +6,7 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 28%
 >title="Introdução"
 >abstract="A nova interface do Adobe Campaign Web oferece uma experiência de usuário integrada, intuitiva e consistente."
 
-O Adobe Campaign fornece uma plataforma para projetar experiências de clientes entre canais, além de um ambiente para a orquestração visual de campanhas, o gerenciamento de interação em tempo real e a execução entre canais.
+O Adobe Campaign fornece uma plataforma para projetar experiências de clientes em vários canais e um ambiente para orquestração de campanhas visuais, gerenciamento de interações em tempo real e a execução entre canais.
 
-O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para vários canais de marketing, como email, notificações por push, SMS e correspondência direta. Ele oferece recursos avançados de ETL e gerenciamento de dados para ajudar a criar e preparar a campanha perfeita. Seu mecanismo de orquestração permite programas de marketing multitoque avançados com foco principal em jornadas orientadas por lote. Ele também inclui um servidor de mensagens escalável em tempo real, que permite que as equipes de marketing enviem mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para comunicações, como redefinições de senha, confirmações de pedidos, recibos eletrônicos e muito mais.
+O Adobe Campaign v8 é uma ferramenta de criação de campanhas de última geração desenvolvida para vários canais de marketing, como email, notificações por push, SMS e correspondência direta. Ele oferece recursos avançados de ETL e gerenciamento de dados para ajudar a criar e preparar a campanha perfeita. Seu mecanismo de orquestração permite programas avançados de marketing de vários pontos de contato com foco principal em jornadas orientadas por lote. Também inclui um servidor de mensagens expansível em tempo real que permite que equipes de marketing enviem mensagens predefinidas com base em um conteúdo abrangente de qualquer sistema de TI para comunicar assuntos como redefinições de senhas, confirmações de pedidos, recibos eletrônicos e muito mais.
 
 Use o Campaign para:
 
-* **Impulsione** a personalização e o envolvimento por meio de uma única visualização acessível do cliente.
-* **Integre** canais de email, móveis, online e offline à jornada do cliente.
-* **Automatize** a entrega de mensagens e ofertas relevantes e oportunas.
+* **Impulsionar** a personalização e o engajamento por meio de uma única exibição acessível do cliente.
+* **Integrar** canais de email, dispositivos móveis, online e offline na jornada do cliente.
+* **Automatizar** a entrega de mensagens e ofertas relevantes e oportunas.
 
 ## Conheça a interface do Campaign Web {#web}
 
-Inicialmente disponível apenas por meio de um [console do cliente](#ac-client) avançado, o Campaign agora oferece uma nova interface da Web com usabilidade, acessibilidade e um novo design aprimorados para melhorar significativamente sua experiência de usuário. Essa interface moderna simplifica o design e o delivery da campanha de marketing e oferece consistência com outras soluções da Adobe, incluindo o Adobe Experience Platform.
+Inicialmente disponível apenas por meio de um [console de cliente](#ac-client) avançado, o Campaign agora oferece uma nova interface web com usabilidade e acessibilidade aprimoradas, além de um novo design para melhorar bastante a experiência do usuário. Essa interface moderna simplifica o design e a entrega de campanhas de marketing e oferece consistência com outras soluções da Adobe, incluindo a Adobe Experience Platform.
 
-![Captura de tela da tela inicial da interface da Web do Adobe Campaign](assets/home.png){zoomable="yes"}
+![Captura de tela da página inicial da interface do Adobe Campaign Web](assets/home.png){zoomable="yes"}
 
-Esta nova interface de usuário da Web atende principalmente às necessidades de **profissionais de negócios**. As tarefas de administração típicas não estão disponíveis nesta versão inicial, mas serão abordadas nas versões subsequentes. Observe que nem todas as funcionalidades ou opções disponíveis no console do cliente estão acessíveis na nova interface do usuário. Novos casos de uso, opções e recursos serão introduzidos em versões futuras.
+Esta nova interface web atende principalmente às necessidades de **profissionais de negócios**. Tarefas administrativas típicas não estão disponíveis nesta versão inicial, mas serão abordadas nas próximas versões. Observe que nem todas as funcionalidades ou opções disponíveis no console do cliente estão atualmente acessíveis na nova interface. Novos casos de uso, opções e recursos estarão disponíveis em versões futuras.
 
-Como administrador ou usuário especialista, se precisar acessar recursos do Campaign v8 que não estão disponíveis na interface do usuário do Campaign Web, conecte-se ao [console do cliente](#ac-client).
+Como admin ou usuário especialista, se você precisar acessar recursos do Campaign v8 que não estão disponíveis na interface do Campaign Web, conecte-se ao [console do cliente](#ac-client).
 
 Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign.md).
 
@@ -53,11 +53,11 @@ Saiba como se conectar ao Adobe Campaign Web [nesta página](connect-to-campaign
 
 ## Sobre o console do cliente do Campaign {#ac-client}
 
-O console do cliente foi projetado para administradores e usuários avançados executarem suas tarefas. O console do cliente do Campaign é um aplicativo baseado em navegador instalado em seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
+O console do cliente foi projetado para administradores e usuários avançados executarem suas tarefas. O console do cliente do Campaign é um aplicativo baseado em navegador instalado no seu sistema. Ele usa a API de serviços da Web para se conectar ao servidor de aplicativos do Campaign.
 
-Os dados da campanha são armazenados no servidor de aplicativos. Os dados podem ser acessados pelo console do cliente e pela interface do usuário da Web do Campaign. Por exemplo, se você criar um template de delivery usando o console do cliente, ele também estará disponível na interface do usuário da Web do Campaign. Da mesma forma, se você criar um delivery de email na interface do usuário da Web do Campaign, esse delivery poderá ser acessado no console do cliente.
+Os dados da campanha são armazenados no servidor de aplicativos. Os dados são acessíveis tanto por meio do console do cliente como da interface do Campaign Web. Por exemplo, se você criar um modelo de entrega usando o console do cliente, ele também estará disponível na interface do Campaign Web. Da mesma forma, se você criar uma entrega de email na interface do Campaign Web, essa entrega poderá ser acessada por meio do console do cliente.
 
-Alguns objetos só podem ser criados e gerenciados no console do cliente. Esses objetos podem ser visíveis e usados na interface da Web do Campaign, mas não podem ser criados ou modificados nesse ambiente. Todos os objetos e componentes do Campaign estão disponíveis na visualização do Explorer, acessível na navegação à esquerda.
+Alguns objetos só podem ser criados e gerenciados no console do cliente. Esses objetos são visíveis e podem ser usados na interface do Campaign Web, mas não é possível criá-los ou modificá-los neste ambiente. Todos os objetos e componentes da campanha estão disponíveis na exibição do Explorer, acessível na navegação à esquerda.
 
 Para obter mais informações sobre como usar o Campaign v8 com seu console do cliente, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR){target="_blank"}.
 
