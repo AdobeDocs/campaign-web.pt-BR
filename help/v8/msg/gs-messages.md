@@ -4,20 +4,20 @@ title: Introdução a mensagens e entregas no Adobe Campaign Web
 description: Saiba como trabalhar com entregas e enviar mensagens usando o Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 
 # Introdução a mensagens{#gs-messages}
 
-Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS e notificações por push, e medir seu impacto usando vários relatórios dedicados.
+O Adobe Campaign permite enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir seu impacto utilizando vários relatórios dedicados.
 
-Essas mensagens são projetadas e enviadas por meio de deliveries, e podem ser personalizadas para cada recipient. Esses deliveries podem ser independentes ou incluídos em workflows no contexto de uma campanha de marketing. Saiba como criar e gerenciar entregas no Adobe Campaign [nesta seção](gs-deliveries.md).
+Essas mensagens são projetadas e enviadas através de entregas e podem ser personalizadas para cada destinatário. As entregas podem ser independentes ou incluídas em fluxos de trabalho no contexto de uma campanha de marketing. Saiba como criar e gerenciar entregas no Adobe Campaign [nesta seção](gs-deliveries.md).
 
-O Adobe Campaign v8 inclui os seguintes canais de entrega: email, SMS, notificação por push e correspondência direta. Outros canais, como mensagens no aplicativo ou marketing social com X (Twitter), ainda não são compatíveis.
+O Adobe Campaign v8 inclui os seguintes canais de entrega: email, SMS, notificação por push e correspondência direta. Outros canais, como mensagens in-app ou marketing social no X (Twitter), ainda não são compatíveis.
 
 Navegue pelas seções abaixo para saber como criar e enviar mensagens.
 
@@ -33,7 +33,7 @@ Navegue pelas seções abaixo para saber como criar e enviar mensagens.
     </td>
     <td align="center">
     <a href="../push/create-push.md">
-      <img alt="Criar seção de notificações por push" src="assets/do-not-localize/push.jpg">
+      <img alt="Seção Criar notificações por push" src="assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/gs-push.md"><strong>Criar notificações por push</strong></a>

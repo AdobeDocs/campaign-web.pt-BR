@@ -4,49 +4,49 @@ title: Procurar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # Procurar e filtrar listas {#list-screens}
 
-A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. Você pode personalizar a exibição da lista e filtrar essas listas, conforme detalhado abaixo.
+A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. É possível personalizar a exibição das listas e filtrá-las como detalhado abaixo.
 
 ## Personalizar telas de lista {#custom-lists}
 
 As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no ícone de **Configurar coluna para um layout personalizado** no canto superior direito da lista.
 
-[A captura de tela mostra o ícone Configurar coluna usado para personalizar o layout das colunas da lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[A captura de tela mostra o ícone de “Configurar coluna” usado para personalizar o layout das colunas da lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Na tela **Configurar colunas**, adicione ou remova colunas e altere a ordem na qual elas são exibidas.
 
 Você pode alterar a ordem da lista ao **arrastar e soltar** ou com as **setas para cima e para baixo** conforme mostrado abaixo:
 
-[A captura de tela demonstra como reordenar as colunas da lista usando os botões de arrastar e soltar ou de seta.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[A captura de tela demonstra como reordenar as colunas da lista, usando arrastar e soltar, ou os botões de seta.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Por exemplo, para estas configurações:
 
-[A captura de tela exibe um exemplo de configurações de coluna na tela Configurar colunas.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[A captura de tela exibe um exemplo de configurações das colunas na tela “Configurar colunas”.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 A lista mostrará as seguintes colunas:
 
-[A captura de tela mostra a lista resultante com colunas definidas de acordo com as configurações de exemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[A captura de tela mostra a lista resultante, com colunas definidas de acordo com as configurações do exemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Classificação de dados {#sort-lists}
 
-Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (Para cima ou Para baixo), indicando que a lista está classificada nessa coluna.
+Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo), indicando que a lista está ordenada nessa coluna. 
 
-Para colunas numéricas ou de data, a seta **Para cima** indica que a lista está classificada em ordem crescente, enquanto a seta **Para baixo** indica uma ordem decrescente. Para strings ou colunas alfanuméricas, os valores são listados em ordem alfabética.
+Para colunas numéricas ou de datas, a seta para **cima** indica que a lista está ordenada em ordem crescente, enquanto a seta para **baixo** indica ela está em ordem decrescente. Para strings ou colunas alfanuméricas, os valores são listados em ordem alfabética.
 
 ## Filtros {#list-built-in-filters}
 
-Para encontrar itens mais rapidamente, use a barra de pesquisa ou os filtros integrados e personalizados para adaptar a lista com base em critérios contextuais.
+Para encontrar itens mais rapidamente, você pode usar a barra de pesquisa ou os filtros personalizados integrados para adaptar a lista com base em critérios contextuais.
 
-[A captura de tela mostra as opções de filtro disponíveis para refinar o modo de exibição de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[A captura de tela mostra as opções de filtro disponíveis para refinar a exibição de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Informações detalhadas sobre como usar filtros e criar seus próprios filtros personalizados estão disponíveis em [esta seção](../query/filter.md).
+Informações detalhadas sobre como usar filtros e criar os seus próprios filtros personalizados estão disponíveis [nesta seção](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}

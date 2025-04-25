@@ -4,9 +4,9 @@ title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -36,45 +36,45 @@ ht-degree: 25%
 
 Pastas são objetos no Adobe Campaign que permitem organizar os componentes e dados.
 
-É possível criar, renomear, reordenar e mover pastas na árvore de navegação. Você também pode excluí-los com base nos seus direitos.
+É possível criar, renomear, reordenar e mover pastas na árvore de navegação. Também é possível excluí-las com base nos seus direitos.
 
-![Interface de pastas mostrando a organização da pasta](assets/folders.png){zoomable="yes"}
+![Interface de pastas, mostrando a organização das pastas](assets/folders.png){zoomable="yes"}
 
-É possível configurar um tipo de pasta. Por exemplo, uma pasta de deliveries. O ícone de pasta muda de acordo com seu tipo.
+É possível configurar um tipo de pasta. Por exemplo: uma pasta de entregas. O ícone de pasta muda de acordo com o tipo.
 
 ## Criar uma nova pasta {#create-a-folder}
 
 Para criar uma nova pasta na interface web do Adobe Campaign, siga estas etapas:
 
-1. No **[!UICONTROL Explorer]**, vá para a pasta onde deseja criar sua nova pasta. No menu **[!UICONTROL ...]**, selecione **[!UICONTROL Criar nova pasta]**.
+1. No **[!UICONTROL Explorer]**, acesse a pasta na qual você deseja criar a nova pasta.  No menu **[!UICONTROL ...]**, selecione **[!UICONTROL Criar nova pasta]**.
 
-![Opção Criar nova pasta no menu Explorer](assets/folder_create.png){zoomable="yes"}
+![Opção de criar nova pasta no menu do Explorer](assets/folder_create.png){zoomable="yes"}
 
-Ao criar uma nova pasta, o tipo de pasta assume como padrão o tipo da pasta principal. Neste exemplo, uma pasta é criada na pasta **[!UICONTROL Deliveries]**.
+Ao criar uma nova pasta, o tipo de pasta assume como padrão o tipo da pasta principal. Neste exemplo, uma pasta é criada na pasta **[!UICONTROL Entregas]**.
 
-![Nova pasta criada na pasta Deliveries](assets/folder_new.png){zoomable="yes"}
+![Nova pasta criada na pasta “Entregas”](assets/folder_new.png){zoomable="yes"}
 
-1. Altere o tipo de pasta clicando no ícone de tipo de pasta, se necessário, e selecione o tipo desejado na lista apresentada, conforme mostrado abaixo:
+1. Para alterar o tipo de pasta, clique no ícone de tipo de pasta (se necessário) e selecione o tipo desejado na lista apresentada, conforme mostrado abaixo:
 
 ![Interface de seleção de tipo de pasta](assets/folder_type.png){zoomable="yes"}
 
-Configure o tipo de pasta clicando no botão **[!UICONTROL Confirmar]**.
+Para configurar o tipo de pasta, clique em **[!UICONTROL Confirmar]**.
 
-Para criar uma pasta sem um tipo específico, selecione o tipo **[!UICONTROL Pasta genérica]**.
+Se quiser criar uma pasta sem nenhum tipo específico, escolha o tipo **[!UICONTROL Pasta genérica]**.
 
 Também é possível [criar e gerenciar pastas no console do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 ## Reordenar pastas {#reorder-folders}
 
-Você pode reordenar pastas de acordo com suas necessidades. Para fazer isso, clique em **[!UICONTROL Reordenar pastas]**, conforme mostrado abaixo.
+Você pode reordenar as pastas com base nas suas necessidades. Para isso, clique em **[!UICONTROL Reordenar pastas]**, conforme mostrado abaixo.
 
-Neste exemplo, a pasta **Deliveries** contém quatro subpastas.
+Neste exemplo, a pasta **Entregas** contém quatro subpastas.
 
-![Reordenar interface de pastas mostrando a hierarquia de pastas](assets/folder-reorder.png){zoomable="yes"}
+![Interface de reordenar pastas, mostrando a hierarquia de pastas](assets/folder-reorder.png){zoomable="yes"}
 
-Você pode alterar a ordem das pastas **arrastando e soltando** ou usando **setas para cima e para baixo**.
+Para alterar a ordem das pastas, é possível **arrastar e soltar** ou utilizar as **setas para cima e para baixo**.
 
-![Funcionalidade de arrastar e soltar para reordenação de pastas](assets/folder-draganddrop.png){zoomable="yes"}
+![Funcionalidade de arrastar e soltar para reordenar pastas](assets/folder-draganddrop.png){zoomable="yes"}
 
 ## Excluir uma pasta {#delete-a-folder}
 
@@ -84,42 +84,42 @@ Você pode alterar a ordem das pastas **arrastando e soltando** ou usando **seta
 
 Para excluir uma pasta, selecione-a na árvore do **[!UICONTROL Explorer]** e clique no menu **[!UICONTROL ...]**. Escolha **[!UICONTROL Excluir pasta]**.
 
-![Opção Excluir pasta no menu Explorer](assets/folder_delete.png){zoomable="yes"}
+![Opção de excluir pasta no menu do Explorer](assets/folder_delete.png){zoomable="yes"}
 
 ## Distribuição de valores em uma pasta {#distribution-values-folder}
 
-A distribuição de valores ajuda você a entender a porcentagem de um valor em uma coluna dentro de uma tabela.
+A distribuição de valores ajuda a entender a porcentagem de um valor em uma coluna dentro de uma tabela.
 
-Para visualizar a distribuição de valores em uma pasta, proceda conforme explicado abaixo.
+Para ver a distribuição de valores de uma pasta, siga o procedimento descrito abaixo.
 
-Por exemplo, entre as entregas, talvez você queira saber a distribuição de valores na coluna **Canal**.
+Por exemplo, entre as entregas, queremos saber qual é a distribuição dos valores da coluna **Canal**.
 
-Para obter essas informações, vá para a pasta **[!UICONTROL Deliveries]** e clique no ícone **[!UICONTROL Configurar colunas]**.
+Para obter essas informações, acesse a pasta **[!UICONTROL Entregas]** e clique no ícone **[!UICONTROL Configurar colunas]**.
 
-Na janela **[!UICONTROL Configurar colunas]**, clique no ícone **[!UICONTROL Informações]** relacionado à coluna que você deseja analisar. Em seguida, clique no botão **[!UICONTROL Distribuição de valores]**.
+Na janela **[!UICONTROL Configurar colunas]**, clique no ícone **[!UICONTROL Informações]** correspondente à coluna que você deseja analisar. Em seguida, clique em **[!UICONTROL Distribuição de valores]**.
 
-![Interface de distribuição de valores para entregas](assets/values_deliveries.png){zoomable="yes"}
+![Interface de distribuição de valores de entregas](assets/values_deliveries.png){zoomable="yes"}
 
-Você verá a porcentagem de valores na coluna **[!UICONTROL Canal]**.
+Você verá a porcentagem dos valores na coluna **[!UICONTROL Canal]**.
 
-![Distribuição percentual de valores na coluna Canal](assets/values_percentage.png){zoomable="yes"}
+![Distribuição percentual de valores na coluna “Canal”](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Para colunas com muitos valores, somente os primeiros vinte valores são exibidos. Uma notificação **[!UICONTROL Carga parcial]** avisa você.
+>Para colunas com muitos valores, somente os primeiros 20 serão exibidos. Uma notificação de **[!UICONTROL carregamento parcial]** serve como aviso.
 
-Também é possível visualizar a distribuição de valores para um link.
+Também é possível ver a distribuição de valores de um link.
 
-Na lista de atributos, clique no botão **+** ao lado do link desejado, conforme mostrado abaixo. Isso adiciona o link às **[!UICONTROL Colunas de saída]**. Agora você pode acessar o ícone **[!UICONTROL Informações]**, permitindo exibir a distribuição de seus valores. Para não manter o link nas **[!UICONTROL Colunas de saída]**, clique no botão **[!UICONTROL Cancelar]**.
+Na lista de atributos, clique no botão **+** ao lado do link desejado, conforme mostrado abaixo. Isso adiciona o link às **[!UICONTROL Colunas de saída]**. Agora é possível acessar o ícone **[!UICONTROL Informações]** para visualizar a distribuição dos valores. Caso não queira manter o link nas **[!UICONTROL Colunas de saída]**, clique em **[!UICONTROL Cancelar]**.
 
-![Distribuição de valores para um link em Colunas de saída](assets/values_link.png){zoomable="yes"}
+![Distribuição de valores de um link em “Colunas de saída”](assets/values_link.png){zoomable="yes"}
 
-Também é possível visualizar a distribuição de valores em um modelador de query. [Saiba mais aqui](../query/build-query.md#distribution-of-values-in-a-query).
+Também é possível ver a distribuição de valores em um modelador de consultas. [Saiba mais aqui](../query/build-query.md#distribution-of-values-in-a-query).
 
 ### Filtrar os valores {#filter-values}
 
-Ao usar os **[!UICONTROL Filtros avançados]** na janela de distribuição de valores, você pode filtrar os resultados com base nas condições especificadas.
+Por usar os **[!UICONTROL Filtros avançados]** na janela de distribuição de valores, é possível filtrar os resultados com base em condições específicas.
 
-No exemplo da lista acima, que mostra a distribuição por canal, você pode filtrar para exibir somente deliveries com o status **Concluído**.
+No exemplo da lista de entregas acima, que mostra a distribuição por canal, é possível filtrá-la para exibir apenas as entregas com o status **Concluído**.
 
 ![Filtros avançados aplicados à distribuição de valores](assets/values_filter.png){zoomable="yes"}
