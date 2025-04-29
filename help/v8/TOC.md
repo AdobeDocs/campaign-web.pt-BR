@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 99%
+source-wordcount: '822'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 99%
       + [Criar uma entrega de correspondência direta](direct-mail/create-direct-mail.md)
       + [Criar o arquivo de extração](direct-mail/content-direct-mail.md)
       + [Visualizar e enviar uma entrega de correspondência direta](direct-mail/send-direct-mail.md)
+   + Central de atendimento {#call-center}
+      + [Introdução às entregas da central de atendimento](call-center/gs-call-center.md)
+      + [Criar e enviar uma entrega da central de atendimento](call-center/create-call-center.md)
    + Mensagens transacionais {#transactional-messages}
       + [Introdução a mensagens transacionais](transactional-messaging/transactional.md)
       + [Criar uma mensagem transacional](transactional-messaging/create-transactional.md)
@@ -109,7 +112,7 @@ ht-degree: 99%
          + [Usar componentes de conteúdo](email/content-components.md)
          + [Adicionar links e rastrear mensagens](email/message-tracking.md)
          + [Adicionar um link para a mirror page](email/mirror-page.md)
-         + [Adicionar um pré-cabeçalho](email/preheader.md)
+         + [Adicionar metadados](email/metadata.md)
          + [Gerar a versão de texto](email/text-version-email.md)
       + Estilizar o conteúdo {#style}
          + [Introdução ao estilo de email](email/get-started-email-style.md)
