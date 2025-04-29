@@ -3,10 +3,10 @@ audience: end-user
 title: Selecionar atributos e adicioná-los aos favoritos
 description: Saiba como trabalhar com atributos e acessar facilmente os atributos favoritos e os usados recentemente.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: c0c9c5da3369e55269411b7348004006cd3c139e
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -29,15 +29,15 @@ A interface também fornece uma ferramenta de distribuição de valores, que per
 
 O menu **[!UICONTROL Favoritos e Recentes]** no seletor de atributos fornece uma exibição organizada dos atributos adicionados aos favoritos, juntamente com uma lista de atributos usados recentemente. Os atributos favoritos aparecem por primeiro, seguidos pelos usados recentemente, o que facilita a localização dos atributos necessários.
 
-![Menu de atributos favoritos e recentes, mostrando atributos favoritos e usados recentemente.](assets/attributes-favorites.png)
+![Menu de atributos favoritos e recentes, mostrando atributos favoritos e usados recentemente.](assets/attributes-favorite.png)
 
-Para adicionar um atributo aos favoritos, passe o mouse sobre o seu botão de informações e selecione o ícone de estrela. O atributo será adicionado automaticamente à lista de favoritos. Para remover um atributo dos favoritos, clique no ícone de estrela novamente.
+Para adicionar um atributo aos favoritos, clique no botão expandir e selecione **[!UICONTROL Adicionar aos favoritos]**. O atributo será adicionado automaticamente à lista de favoritos. Para remover um atributo dos favoritos, clique no ícone de estrela novamente.
 
 Usuários podem adicionar até 20 atributos aos favoritos. Atributos favoritos e recentes são associados a cada usuário dentro de uma organização, garantindo acessibilidade em diferentes computadores e proporcionando uma experiência contínua em todos os dispositivos.
 
 ## Identificação da distribuição de valores em uma tabela {#distribution}
 
-O botão **Distribuição de valores**, disponível no painel de informações de um atributo, permite que os usuários analisem a distribuição de valores desse atributo na tabela. Esse recurso é útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
+O botão **Distribuição de Valores**, disponível ao clicar no botão expandir ao lado do atributo, permite que os usuários analisem a distribuição de valores para esse atributo na tabela. Esse recurso é útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
 
 ![Interface da ferramenta de distribuição de valores, mostrando contagens e porcentagens de valores de atributos.](assets/attributes-distribution-values.png)
 

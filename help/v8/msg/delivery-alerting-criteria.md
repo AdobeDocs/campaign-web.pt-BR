@@ -3,10 +3,10 @@ audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 21%
+source-wordcount: '712'
+ht-degree: 18%
 
 ---
 
@@ -61,11 +61,6 @@ Os critérios de alerta predefinidos estão disponíveis na interface da Web do 
 >title="Frequência do critério"
 >abstract="Controle a frequência de alertas por dia para cada entrega que atende ao critério."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Criar um critério de alerta"
->abstract="Para criar filtros de entrega, crie um novo filtro predefinido no console do Campaign v8 pelo nó **Administração** > **Configuração** > **Filtros Predefinidos**."
-
 Para criar um novo critério, siga estas etapas:
 
 1. Navegue até o menu **Alertas de Entrega** no painel de navegação esquerdo e selecione a guia **Critérios**.
@@ -79,7 +74,7 @@ Para criar um novo critério, siga estas etapas:
 
    >[!NOTE]
    >
-   >Se nenhum dos filtros predefinidos for adequado às suas necessidades, entre em contato com o administrador para criar seu próprio filtro. Informações detalhadas sobre como criar filtros predefinidos no console do Campaign estão disponíveis na [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}.
+   >Se nenhum dos filtros predefinidos atender às suas necessidades, você poderá criar os seus próprios filtros no menu **Gerenciamento de Clientes** > **Filtros predefinidos**. [Leia mais](../get-started/predefined-filters.md)
    >
    >Esta operação deve ser executada somente por usuários avançados.
 

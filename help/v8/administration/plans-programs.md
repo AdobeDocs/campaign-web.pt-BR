@@ -3,9 +3,9 @@ audience: end-user
 title: Planos e programas
 description: Saiba como criar e configurar planos e programas no Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -38,9 +38,13 @@ Para gerenciar as **[!UICONTROL Opções personalizadas]**:
 
 1. Navegue até **[!UICONTROL Esquemas]**.
 1. Escolha os esquemas **[!UICONTROL Editáveis]** nos filtros.
-1. Clique no ícone **[!UICONTROL Editar detalhes personalizados]**.
+1. Clique no schema.
 
 ![Captura de tela mostrando a edição de detalhes personalizados para um plano](assets/plan_edit.png){zoomable="yes"}
+
+1. Clique no botão **[!UICONTROL Edição de tela]**.
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 Configure as opções personalizadas:
 
@@ -64,9 +68,13 @@ Para gerenciar as **[!UICONTROL Opções personalizadas]**:
 
 1. Navegue até **[!UICONTROL Esquemas]**.
 1. Escolha os esquemas **[!UICONTROL Editáveis]** nos filtros.
-1. Clique no ícone **[!UICONTROL Editar detalhes personalizados]**.
+1. Clique no schema.
 
 ![Captura de tela mostrando a edição de detalhes personalizados para um programa](assets/program_edit.png){zoomable="yes"}
+
+1. Clique no botão **[!UICONTROL Edição de tela]**.
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 Configure as opções personalizadas:
 

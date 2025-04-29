@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 13%
+source-wordcount: '2780'
+ht-degree: 10%
 
 ---
 
@@ -15,19 +15,48 @@ ht-degree: 13%
 
 Para começar a criar uma consulta, acesse o modelador de consultas do local de sua escolha, dependendo da ação que deseja executar. O modelador de consultas é aberto com uma tela em branco. Clique no botão **+** para configurar o primeiro nó da consulta.
 
+>[!IMPORTANT]
+>
+>Uma interface totalmente nova para o modelador de Consulta está disponível. O novo construtor de regras permite criar a consulta com mais facilidade graças à interface simplificada. Para alternar para essa experiência, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
+>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
+
 Você pode adicionar dois tipos de elementos:
 
 * **Os componentes de filtragem** (Condição personalizada, Selecionar público, Filtro predefinido) permitem que você crie suas próprias regras, selecione um público ou use um filtro predefinido para refinar sua consulta. Elas são adicionadas no início da query e em transições pontilhadas. [Saiba como trabalhar com componentes de filtragem](#filtering)
 
   Exemplo: *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*, *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
 
-  ![Exemplo de adição de componentes de filtragem a uma consulta.](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
+![Exemplo de adição de componentes de filtragem a uma consulta.](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB Novo Construtor de regras]
+
+![Exemplo de adição de componentes de filtragem a uma consulta.](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama. Eles são adicionados em transições existentes antes de um componente de filtragem. [Saiba como trabalhar com operadores](#filtering)
 
-  Exemplo: *Recipients que assinaram o informativo &quot;Esportes&quot;**AND**que vivem em Nova York **OR**San Francisco*.
+  Exemplo: *Recipients que são Super VIP **AND** VIP para premiar **OR** VIP Demo, **EXCEPT** recipients com menos de 21 anos e acima de 45.
 
-  ![Descrição: Exemplo de adição de operadores de grupo a uma consulta.](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
+![Descrição: Exemplo de adição de operadores de grupo a uma consulta.](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB Novo construtor de regras]
+
+![Exemplo de adição de componentes de filtragem a uma consulta.](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## Distribuição de valores em uma consulta {#distribution-values-query}
 
@@ -99,11 +128,31 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
    *Exemplo de consulta retornando todos os perfis com 21 anos ou mais:*
 
-   ![Exemplo de uma consulta direcionada a perfis com 21 anos ou mais.](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   Para atributos do tipo data, os valores predefinidos estão disponíveis usando a opção **[!UICONTROL Predefinições]**.
+>[!TAB Modelador de consulta clássico]
 
-   ![Exemplo de uso de predefinições de data em uma consulta.](assets/date-presets.png){zoomable="yes"}
+![Exemplo de uma consulta direcionada a perfis com 21 anos ou mais.](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB Novo construtor de regras]
+
+![Exemplo de uma consulta direcionada a perfis com 21 anos ou mais.](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+Para atributos do tipo data, os valores predefinidos estão disponíveis usando a opção **[!UICONTROL Predefinições]**.
+
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
+![Exemplo de uso de predefinições de data em uma consulta.](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB Novo construtor de regras]
+
+![Exemplo de uso de predefinições de data em uma consulta.](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
@@ -165,7 +214,17 @@ As condições personalizadas permitem executar operações agregadas. Para faze
 
 1. No painel de propriedades, alterne a opção **Aggregate data** e selecione a função de agregação desejada.
 
-   ![Captura de tela da opção Dados agregados](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
+![Captura de tela da opção Dados agregados](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB Novo construtor de regras]
+
+![Captura de tela da opção Dados agregados](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### Selecionar um público-alvo {#audiences}
 
@@ -176,6 +235,10 @@ As condições personalizadas permitem executar operações agregadas. Para faze
 
 Para filtrar sua query usando um público existente, siga estas etapas:
 
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
 1. Clique no botão **+** no nó desejado e escolha **[!UICONTROL Selecionar público-alvo]**.
 
 1. O painel de propriedades **Selecionar público-alvo** é aberto no lado direito. Escolha o público-alvo que deseja usar para filtrar o query.
@@ -183,6 +246,18 @@ Para filtrar sua query usando um público existente, siga estas etapas:
    *Exemplo de consulta retornando todos os perfis que pertencem ao público-alvo do &quot;Festival Goers&quot;:*
 
    ![Captura de tela de um exemplo de consulta](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB Novo construtor de regras]
+
+1. Clique no botão **Expandir** ao lado do botão **[!UICONTROL Adicionar condição]** e escolha **[!UICONTROL Selecionar público-alvo]**.
+
+1. O painel de propriedades **Selecionar público-alvo** é aberto no lado direito. Escolha o público-alvo que deseja usar para filtrar o query.
+
+   *Exemplo de consulta retornando todos os perfis que pertencem ao público-alvo da &quot;Coffee Works&quot;:*
+
+   ![Captura de tela de um exemplo de consulta](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### Usar um filtro predefinido {#predefined-filters}
 
@@ -193,6 +268,10 @@ Para filtrar sua query usando um público existente, siga estas etapas:
 
 Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
 1. Clique no botão **+** no nó desejado e selecione **[!UICONTROL Filtro predefinido]**.
 
 1. O painel de propriedades **Filtro predefinido** é aberto no lado direito. Selecione um filtro predefinido na lista de filtros personalizados ou nos favoritos.
@@ -201,6 +280,18 @@ Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
    ![Captura de tela de um exemplo de consulta](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB Novo construtor de regras]
+
+1. Clique no botão **Expandir** ao lado do botão **[!UICONTROL Adicionar condição]** e selecione **[!UICONTROL Filtro predefinido]**.
+
+1. O painel de propriedades **Filtro predefinido** é aberto no lado direito. Selecione um filtro predefinido na lista de filtros personalizados ou nos favoritos.
+
+   *Exemplo de consulta retornando todos os perfis correspondentes ao filtro predefinido &quot;Clientes inativos&quot;:*
+
+   ![Captura de tela de um exemplo de consulta](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### Copiar e colar componentes {#copy}
 
 O modelador de query permite copiar um ou vários componentes de filtragem e colá-los no final de uma transição. Essa operação pode ser executada na tela de consulta atual ou em qualquer tela na instância.
@@ -208,6 +299,11 @@ O modelador de query permite copiar um ou vários componentes de filtragem e col
 >[!NOTE]
 >
 >A seleção copiada é mantida enquanto você estiver trabalhando na instância. Se você fizer logoff e logon novamente, sua seleção não estará mais disponível para colagem.
+
+>[!IMPORTANT]
+>
+>No momento, é impossível copiar e colar componentes na experiência do Construtor de novas regras. Para seguir estas próximas etapas, clique no botão **[!UICONTROL Voltar à experiência clássica]** na parte superior para usar o modelador de Consulta Clássica.
+
 
 Para copiar e colar componentes de filtragem, siga estas etapas:
 
@@ -232,7 +328,11 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
 
 Sempre que um novo componente de filtragem é adicionado à consulta, ele é automaticamente vinculado ao outro componente por um operador **AND**. Isso significa que os resultados dos dois componentes de filtragem são combinados.
 
-Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente está vinculado à condição de filtro predefinida com um operador **AND**, o que significa que os resultados da consulta incluem destinatários direcionados pelo filtro predefinido &quot;Madridians&quot; E pertencentes ao público &quot;Discount hunters&quot;.
+Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo na segunda transição. O componente está vinculado à condição de filtro predefinida com um operador **AND**, o que significa que os resultados da consulta incluem destinatários direcionados pelo filtro predefinido &quot;Assinantes do Boletim Informativo - MADRID&quot; E pertencentes ao público-alvo &quot;Compradores (Todos os Tempos)&quot;.
+
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
 
 ![Exemplo de uma consulta](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ Os operadores disponíveis são:
 
 ![Exemplo de uma consulta](assets/query-operator-change.png){zoomable="yes"}
 
-Além disso, você pode criar grupos intermediários de componentes clicando no botão **+** em uma transição. Isso permite adicionar um operador nesse local específico para agrupar vários componentes e refinar sua consulta.
+Além disso, você pode criar grupos intermediários de componentes agrupando componentes em um mesmo grupo e vinculando-os. Dessa forma, o operador AND será colocado por padrão, e você poderá alterá-lo para o operador desejado.
+
+>[!TAB Novo construtor de regras]
+
+![Exemplo de uma consulta](assets/ruleb-9.png){zoomable="yes"}
+
+Para alterar o operador usado para vincular as condições do filtro, clique nele, ele será alterado para OR, EXCETO e, em seguida, de volta para AND e selecione o operador desejado.
+
+Os operadores disponíveis são:
+
+* **AND (Interseção)**: combina resultados que correspondem a todos os componentes de filtragem nas transições de saída.
+* **OR (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
+* **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
+
+![Exemplo de uma consulta](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos públicos &quot;VIP para premiar&quot; ou &quot;Super VIP&quot;.
 
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
 ![Exemplo de uma consulta](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB Novo construtor de regras]
+
+![Exemplo de uma consulta no novo construtor de regras](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Verificar e validar sua consulta
 
@@ -272,7 +398,19 @@ Depois de criar a consulta na tela, você pode verificá-la usando o painel **Pr
 
 Quando a consulta estiver pronta, clique no botão **[!UICONTROL Confirmar]** no canto superior direito para salvá-la.
 
+
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
 Você pode modificar sua query a qualquer momento abrindo-a. Lembre-se de que, ao abrir uma consulta existente, ela é exibida em uma exibição simplificada, sem a visibilidade dos botões **+**. Para adicionar novos elementos à consulta, selecione um componente ou operador na tela para exibir os botões **+**.
 
 ![Exemplo de uma consulta](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB Novo Construtor de regras]
+
+Você pode modificar sua consulta a qualquer momento abrindo-a e, para isso, clique no botão **[!UICONTROL Adicionar condição]** no canto superior esquerdo.
+
+![Exemplo de uma consulta no novo construtor de regras](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

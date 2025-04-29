@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 71%
+source-wordcount: '2192'
+ht-degree: 68%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 71%
 
 A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, sequências de caracteres, campos numéricos e classificação.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >A seção abaixo fornece informações sobre como trabalhar com o editor de expressão para criar regras. Lembre-se de que a sintaxe usada para criar regras é diferente da usada para adicionar personalização.
+
+>[!IMPORTANT]
+>
+>Uma interface totalmente nova para o modelador de consultas está disponível. Para alternar para essa nova experiência do construtor de regras, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
+>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Trabalhar com o editor de expressão {#edit}
 
@@ -41,7 +46,17 @@ Quando a expressão estiver pronta, clique no botão **[!UICONTROL Confirmar]**.
 
 O exemplo abaixo mostra uma expressão configurada para o campo **[!UICONTROL Value]**. Para editá-lo, abra o editor de expressão usando o botão **[!UICONTROL Editar expressão]**.
 
+>[!BEGINTABS]
+
+>[!TAB Modelador de consulta clássico]
+
 ![Exemplo de expressão de edição para o campo Value](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB Novo construtor de regras]
+
+![Exemplo de expressão de edição para o campo Value](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Funções de ajuda
 

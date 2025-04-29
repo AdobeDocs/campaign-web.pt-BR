@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução aos públicos-alvo
 description: Saiba como trabalhar com públicos no Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 19%
+source-wordcount: '388'
+ht-degree: 18%
 
 ---
 
@@ -45,6 +45,8 @@ Os públicos-alvo podem se originar de várias fontes. A coluna **[!UICONTROL Or
   ➡️ [Conheça este recurso no vídeo](#video)
 
 Para obter informações adicionais sobre um público, abra-o na lista. As propriedades do público são exibidas, juntamente com o número de perfis incluídos no público. Atualize a contagem de público a qualquer momento usando o botão **[!UICONTROL Calcular]**.
+
+Para visualizar o Esquema temporário de um público-alvo, clique no botão **[!UICONTROL Visualização do esquema]** na seção Propriedades.
 
 A guia **[!UICONTROL Data]** permite visualizar os perfis que fazem parte do público-alvo. Personalize esta visualização adicionando mais colunas ou use filtros avançados para refinar os dados exibidos.
 

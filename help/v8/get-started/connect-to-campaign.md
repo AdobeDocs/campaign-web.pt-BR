@@ -2,10 +2,10 @@
 title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,14 @@ Atualmente, o Adobe Campaign Web está disponível nos seguintes idiomas:
 * Coreano - KR
 * Chinês simplificado - CHS
 * Chinês tradicional - CHT
+
+Além disso, a formatação específica do local (como datas, horas, calendários, números) também pode estar disponível em variantes dos idiomas compatíveis com a interface do usuário do:
+
+* Inglês (Israel)
+* Inglês (Reino Unido)
+* Espanhol (México)
+* Espanhol (América Latina)
+* Francês (Canadá)
 
 O idioma padrão do Campaign Web é determinado pelo idioma preferencial especificado no perfil de usuário. Ele não está relacionado ao idioma do servidor do Campaign e do console do cliente.
 
