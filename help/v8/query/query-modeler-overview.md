@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 18%
+source-wordcount: '888'
+ht-degree: 14%
 
 ---
 
@@ -54,10 +54,16 @@ O modelador de consultas está disponível em todo contexto onde é preciso defi
 
 O modelador de consulta fornece uma tela central onde você cria a consulta e um painel direito que fornece informações sobre a consulta.
 
+>[!IMPORTANT]
+>
+>Uma interface totalmente nova para o modelador de Consulta está disponível. O novo construtor de regras permite criar a consulta com mais facilidade graças à interface simplificada. Para alternar para essa experiência, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
+>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Nova experiência de usuário"
->abstract="Use essa alternância para alternar entre o modelador de consulta clássico e a nova experiência do construtor de regras."
+>title="Nova experiência do construtor de regras"
+>abstract="Use essa alternância para alternar entre o modelador de Consulta Clássica e a experiência do Novo construtor de regras. O novo construtor de regras permite criar a consulta com mais facilidade, graças à interface simplificada e intuitiva."
 
 ![Imagem mostrando a interface do modelador de consultas](assets/query-interface.png){zoomable="yes"}
 
@@ -65,13 +71,31 @@ O modelador de consulta fornece uma tela central onde você cria a consulta e um
 
 A tela central do modelador de consultas é onde você adiciona e combina os diferentes componentes para criar sua consulta. [Saiba como criar uma consulta](build-query.md)
 
-A barra de ferramentas localizada no canto superior direito da tela fornece opções para manipular facilmente os componentes de consulta e navegar pela tela:
+>[!BEGINTABS]
+
+>[!TAB Modelador de Consulta Clássica]
+
+A barra de ferramentas localizada no canto inferior direito da tela fornece opções para manipular facilmente os componentes de consulta e navegar pela tela:
 
 * **Modo de seleção múltipla**: selecione vários componentes de filtragem para copiá-los e colá-los no local de sua escolha.
 * **Girar**: Alternar a tela verticalmente.
 * **Ajustar à tela**: adapte o nível de zoom da tela à sua tela.
 * **Menos zoom** / **Mais zoom**: Menos zoom ou mais zoom na tela.
 * **Exibir mapa**: abra um instantâneo da tela mostrando sua localização atual.
+
+>[!TAB Nova experiência do construtor de regras]
+
+A barra de ferramentas localizada no canto superior direito da tela fornece opções para manipular facilmente os componentes de consulta e navegar pela tela:
+
+* **Mover seleção para cima**: move o componente uma linha para cima.
+* **Mover seleção para baixo**: move o componente uma linha para baixo.
+* **Seleção de grupo**: coloque dois componentes em um grupo.
+* **Desagrupar seleção**: Separe os componentes de um único grupo.
+* **Expandir tudo**: expandir todos os grupos.
+* **Recolher tudo**: Recolher todos os grupos.
+* **Remover tudo**: remover todos os grupos e componentes.
+
+>[!ENDTABS]
 
 ### O painel de propriedades Regra {#rule-properties}
 

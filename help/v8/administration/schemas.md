@@ -2,10 +2,10 @@
 title: Trabalhar com esquemas
 description: Saiba como trabalhar com esquemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 24%
+source-wordcount: '513'
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Trabalhar com esquemas"
->abstract="Agora é possível acessar os detalhes de um esquema selecionando seu nome na lista. Também é possível editar campos personalizados por meio do botão **Editar detalhes personalizados**."
+>abstract="Agora é possível acessar os detalhes de um esquema selecionando seu nome na lista. A edição de campos personalizados também pode ser acessada pelo botão **Edição de tela**."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
@@ -73,8 +73,10 @@ A guia **[!UICONTROL Dados]** fornece informações sobre os dados do esquema.
 
 Os campos personalizados são atributos adicionais adicionados a esquemas prontos para uso por meio do console do Adobe Campaign. Eles permitem que você personalize esquemas, incluindo novos atributos para atender às necessidades da sua organização.
 
-Campos personalizados podem ser exibidos em várias telas, como detalhes do perfil na interface da Web do Campaign. Você pode controlar quais campos estão visíveis e como eles aparecem na interface. Para fazer isso, clique no botão **[!UICONTROL Editar detalhes personalizados]** no menu **[!UICONTROL Esquemas]**.
+Campos personalizados podem ser exibidos em várias telas, como detalhes do perfil na interface da Web do Campaign. Você pode controlar quais campos estão visíveis e como eles aparecem na interface. Para fazer isso, clique no botão **[!UICONTROL Edição de tela]** no menu **[!UICONTROL Esquemas]**.
 
 ![Tela de campos personalizados mostrando atributos editáveis](assets/schemas-custom.png)
+
+Clique em **[!UICONTROL Visualizar]** para exibir os campos personalizados em uma tela de exemplo.
 
 Para obter informações detalhadas sobre como editar campos personalizados em um esquema, consulte esta seção: [Configurar campos personalizados](../administration/custom-fields.md).

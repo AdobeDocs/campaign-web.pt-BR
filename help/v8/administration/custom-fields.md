@@ -2,9 +2,9 @@
 title: Campos personalizados
 description: Saiba como configurar campos personalizados e sua visibilidade na interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '988'
 ht-degree: 20%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Editar detalhes personalizados"
+>title="Edição de tela"
 >abstract="Todos os campos personalizados da interface do esquema selecionado são exibidos. É possível alterar a ordem em que eles são exibidos na interface, usando as setas para cima e para baixo e agrupar campos em subseções adicionando separadores. Para excluir um campo personalizado ou editar configurações como condições de visibilidade, clique no botão de reticências."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ Para exibir campos personalizados na interface, siga estas etapas:
 
    ![Captura de tela mostrando o menu Esquemas e o filtro Editável no painel de navegação](assets/custom-fields-open.png)
 
-1. Selecione o nome do schema na lista para abri-lo. Uma visualização detalhada do esquema é exibida. [Saiba mais sobre detalhes do esquema](../administration/schemas.md). Clique no botão **[!UICONTROL Editar detalhes personalizados]** para acessar campos personalizados. Neste exemplo, campos são adicionados para o esquema **[!UICONTROL Recipients]**.
+1. Selecione o nome do schema na lista para abri-lo. Uma visualização detalhada do esquema é exibida. [Saiba mais sobre detalhes do esquema](../administration/schemas.md). Clique no botão **[!UICONTROL Edição de tela]** para acessar campos personalizados. Neste exemplo, campos são adicionados para o esquema **[!UICONTROL Recipients]**.
 
-   ![Captura de tela mostrando o botão Editar detalhes personalizados na exibição de esquema](assets/custom-fields-edit.png)
+   ![Captura de tela mostrando o botão Definição de tela na exibição de esquema](assets/custom-fields-edit.png)
 
-1. A lista de campos personalizados exibidos na interface do esquema é exibida. Aqui, o campo &quot;ID do CRM&quot; está visível na tela de detalhes dos perfis e foi marcado como obrigatório.
+   A lista de campos personalizados exibidos na interface do esquema é exibida.
 
-   | Configuração de campos personalizados | Renderização na interface |
-   |  ---  |  ---  |
-   | ![Captura de tela mostrando a configuração de campos personalizados](assets/custom-fields-detail.png){zoomable="yes"} | ![Captura de tela mostrando a renderização do campo de ID do CRM na interface](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. Clique no botão **[!UICONTROL Visualizar]** para exibir os campos personalizados em uma tela de exemplo.
+
+   ![](assets/custom-fields-edit2.png)
+
+   Aqui, o campo &quot;Valor&quot; foi marcado como obrigatório.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. Para adicionar um campo personalizado à interface, clique no botão de reticências e escolha uma das seguintes opções:
 
@@ -89,7 +93,7 @@ Para exibir campos personalizados na interface, siga estas etapas:
 
 1. Depois que os campos personalizados forem adicionados, você poderá:
 
-   * **Reordenar campos**: use as setas para cima e para baixo.
+   * **Reordenar campos**: use as setas para cima e para baixo ou mova os campos usando a função arrastar e soltar.
    * **Tornar campos obrigatórios**: marque a caixa de seleção **Obrigatório**.
    * **Editar configurações de campo**: clique no botão de reticências e escolha **[!UICONTROL Editar]**. [Saiba mais](#settings)
    * **Excluir campos**: clique no botão de reticências e escolha **[!UICONTROL Excluir]**.
