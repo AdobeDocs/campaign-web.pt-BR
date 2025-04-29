@@ -3,10 +3,10 @@ audience: end-user
 title: Edição do conteúdo de email
 description: Saiba como editar o conteúdo de email na interface da Web do Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 20%
+source-wordcount: '687'
+ht-degree: 19%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 20%
 >title="Rastreamento de edições"
 >abstract="Por padrão, o rastreamento é habilitado para a entrega, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desabilitar essa opção aqui."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Adicionar links e rastrear mensagens"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="Adicionar idiomas"
+>abstract="Nesta guia, você encontrará uma lista de idiomas nos quais o delivery será enviado. Você pode adicionar mais idiomas clicando no botão Adicionar idioma ou duplicando outro idioma por meio dessa guia."
 
 A tela de email **[!UICONTROL Editar conteúdo]** permite:
 
