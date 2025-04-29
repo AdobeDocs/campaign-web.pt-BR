@@ -3,7 +3,7 @@ audience: end-user
 title: Adicionar metadados ao seu conteúdo de email
 description: Saiba como melhorar a legibilidade e a acessibilidade do seu conteúdo de email com metadados
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 929151c9907a6a508fef37ef1da9157f8a52d9eb
+source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 21%
@@ -37,12 +37,12 @@ Para definir essas configurações, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Corpo]**, na **[!UICONTROL Árvore de navegação]** à esquerda ou na parte superior do painel direito.
 
-   ![](assets/email_body.png)
+   ![](assets/email_body.png){width="90%"}
 
 1. Na guia **[!UICONTROL Configurações]**, digite algum texto dentro dos campos **[!UICONTROL Pré-cabeçalho]**, **[!UICONTROL Título do documento]** e/ou **[!UICONTROL Idioma do documento]**.
 
 1. Você também pode clicar no ícone de personalização ao lado de cada campo para personalizar o conteúdo de atributos de perfil, públicos, atributos contextuais e muito mais. [Saiba mais sobre a personalização](../personalization/gs-personalization.md)
 
-   ![](assets/email_body_settings.png)
+   ![](assets/email_body_settings.png){width="70%"}
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações.
