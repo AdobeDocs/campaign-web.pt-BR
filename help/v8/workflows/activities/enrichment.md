@@ -45,7 +45,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer seu fluxo de trabalho. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer seu fluxo de trabalho. É possível selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão de destino, ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"

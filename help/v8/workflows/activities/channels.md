@@ -46,7 +46,7 @@ Comece a criar seu workflow com as atividades relevantes:
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
->title="Atividade Email"
+>title="Atividade email"
 >abstract="A atividade Email facilita o envio de emails dentro do fluxo de trabalho, permitindo mensagens recorrentes e únicas. Ele automatiza o processo de envio de emails para um público-alvo calculado dentro do mesmo fluxo de trabalho. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
@@ -66,7 +66,7 @@ Comece a criar seu workflow com as atividades relevantes:
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
->title="Atividade Correspondência direta"
+>title="Atividade correspondência direta"
 >abstract="A atividade Correspondência direta facilita o envio de correspondência direta no seu fluxo de trabalho, permitindo mensagens individuais e recorrentes. Ele automatiza o processo de geração do arquivo de extração exigido pelos provedores de mala direta. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:

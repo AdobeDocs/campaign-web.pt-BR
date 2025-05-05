@@ -6,7 +6,7 @@ exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 30%
+ht-degree: 37%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Condições"
->abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução do fluxo de trabalho, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará com base na **[!UICONTROL condição padrão]**. Se nenhuma condição padrão for ativada, o workflow será interrompido nesse ponto."
+>abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução do fluxo de trabalho, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará com base na **[!UICONTROL condição padrão]**. Se nenhuma condição padrão for ativada, o fluxo de trabalho é interrompido neste ponto."
 
 A atividade **Teste** é uma atividade de **Controle de fluxo**. Ela permite habilitar transições com base nas condições especificadas.
 
@@ -41,7 +41,7 @@ Siga estas etapas para configurar a atividade **Test**:
 
 1. Adicione várias transições de saída a uma atividade **[!UICONTROL Test]**. Para fazer isso, clique no botão **[!UICONTROL Adicionar condição]** e configure o rótulo e a condição associada para cada transição.
 
-1. Durante a execução do fluxo de trabalho, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará com base na **[!UICONTROL condição padrão]**. Se nenhuma condição padrão for ativada, o workflow será interrompido nesse ponto.
+1. Durante a execução do fluxo de trabalho, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, o fluxo de trabalho continuará com base na **[!UICONTROL condição padrão]**. Se nenhuma condição padrão for ativada, o fluxo de trabalho é interrompido neste ponto.
 
 ## Exemplo {#example}
 

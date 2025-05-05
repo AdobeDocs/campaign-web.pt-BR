@@ -15,7 +15,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="Atividade Scheduler"
->abstract="A atividade **Scheduler** permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
+>abstract="A atividade **Scheduler** permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
 
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho.
 

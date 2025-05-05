@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
@@ -198,23 +198,23 @@ Informações adicionais sobre como visualizar um email e enviar provas estão d
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
->title="A simulação de conteúdo não é suportada"
+>title="A simulação de conteúdo não é compatível"
 >abstract="O botão **Simular conteúdo** está desabilitado porque a entrega multilíngue contém apenas uma localidade."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
->title="A simulação de conteúdo não é suportada"
+>title="A simulação de conteúdo não é compatível"
 >abstract="O botão **Simular conteúdo** está desabilitado porque não é compatível com entregas reconciliadas nesta fase."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_ffda"
->title="A simulação de conteúdo não é suportada"
->abstract="O botão **Simular conteúdo** está desabilitado porque não tem suporte no modo Campaign Enterprise Full Federated Access (FFDA)."
+>title="A simulação de conteúdo não é compatível"
+>abstract="O botão **Simular conteúdo** está desabilitado porque não é compatível no modo corporativo do Full Federated Access (FFDA) do Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_no_file"
->title="A simulação de conteúdo não é suportada"
->abstract="O botão **Simular conteúdo** está desabilitado porque nenhum conteúdo foi carregado."
+>title="A simulação de conteúdo não é compatível"
+>abstract="O botão **Simular conteúdo** está desabilitado porque nenhum conteúdo foi enviado."
 
 Em alguns casos, não é possível executar a simulação de conteúdo, e o botão **[!UICONTROL Simular conteúdo]** está desabilitado.
 

@@ -15,7 +15,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A atividade **AND-join** permite sincronizar várias ramificações de execução de um fluxo de trabalho. Ela é acionada quando todas as atividades anteriores são concluídas. Isso garante que determinadas atividades sejam concluídas antes de continuar a executar o workflow."
+>abstract="A atividade **AND-join** permite sincronizar várias ramificações de execução de um fluxo de trabalho. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso garante que determinadas atividades sejam concluídas antes de continuar a executar o workflow."
 
 A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ele sincroniza várias ramificações de execução de um fluxo de trabalho.
 

@@ -50,7 +50,7 @@ O modelador de consultas está disponível em todo contexto onde é preciso defi
 >
 >![Imagem mostrando um aviso sobre refinamento de destinos](assets/target-warning.png){zoomable="yes"}
 
-## Interface do modelador de consultas {#interface}
+## Interface do modelador de consulta {#interface}
 
 O modelador de consulta fornece uma tela central onde você cria a consulta e um painel direito que fornece informações sobre a consulta.
 
