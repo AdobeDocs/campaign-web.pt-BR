@@ -148,7 +148,7 @@ Depois de definir o conteúdo da mensagem, você pode usar assinantes de teste p
 
 1. Selecione o **[!UICONTROL Tipo de link]** da URL que você adicionou ao campo **[!UICONTROL Ação de clique]**:
 
-   * **[!UICONTROL URL da Web]**L: URLs da Web direcionam usuários para conteúdo online. Ao clicar em, eles solicitam que o navegador da Web padrão do dispositivo abra e navegue até o URL designado.
+   * **[!UICONTROL URL da Web]**&#x200B;L: URLs da Web direcionam usuários para conteúdo online. Ao clicar em, eles solicitam que o navegador da Web padrão do dispositivo abra e navegue até o URL designado.
 
    * **[!UICONTROL Deeplink]**: deep links são URLs que direcionam os usuários para seções específicas dentro de um aplicativo, mesmo que ele esteja fechado. Quando clicada, uma caixa de diálogo pode ser exibida, permitindo que os usuários escolham entre vários aplicativos capazes de manipular o link.
 

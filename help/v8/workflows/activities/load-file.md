@@ -87,7 +87,7 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
    * **[!UICONTROL Processamento de erros]** (tipo de dados de cadeia de caracteres): especifique o comportamento em caso de erros em uma das linhas.
    * **[!UICONTROL Remapeamento de valores]**: essa opção permite mapear valores específicos com novos valores. Por exemplo, se a coluna contiver valores “Verdadeiro”/“Falso”, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres “0”/“1”.
 
-+++
+   +++
 
 1. Na seção **Formatação**, especifique como o arquivo está formatado para garantir que os dados sejam importados corretamente.
 

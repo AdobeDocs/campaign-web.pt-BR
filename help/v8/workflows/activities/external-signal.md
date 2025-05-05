@@ -51,7 +51,7 @@ Siga estas etapas para configurar a atividade **Sinal externo** e acionar sua ex
 
      ![A captura de tela mostra o nome interno do fluxo de trabalho ao lado de seu rótulo.](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * O **nome da atividade de sinal externo**, que é exibido nas **[!UICONTROL Opções de execução]** do fluxo de trabalho.
 
@@ -59,7 +59,7 @@ Siga estas etapas para configurar a atividade **Sinal externo** e acionar sua ex
 
      ![A captura de tela mostra o nome da atividade de Sinal Externo nas opções de Execução.](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. Para acionar o fluxo de trabalho, execute a função JavaScript `PostEvent`. Essa função permite transmitir variáveis com os valores de sua escolha e usá-los no workflow acionado.
 
@@ -79,6 +79,6 @@ Siga estas etapas para configurar a atividade **Sinal externo** e acionar sua ex
 
    ![A captura de tela mostra um exemplo de acionamento da atividade de Sinal Externo usando a função PostEvent.](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * Para acionar uma atividade **[!UICONTROL Sinal externo]** a partir de uma chamada à API, siga as etapas detalhadas na documentação da API do Campaign. [Saiba como usar o método estático `PostEvent`](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=pt-BR).

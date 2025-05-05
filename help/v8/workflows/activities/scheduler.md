@@ -60,7 +60,8 @@ Siga estas etapas para configurar a atividade **Scheduler**:
    * **Permanente (nunca expira)**: o fluxo de trabalho é executado de acordo com a frequência especificada, sem limites para o intervalo de tempo ou o número de iterações.
    * **Período de validade**: o fluxo de trabalho é executado de acordo com a frequência especificada, até uma data específica. Especifique datas de início e término.
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Para iniciar o fluxo de trabalho imediatamente, clique em **Executar tarefa pendente** na barra de ações superior do agendador. Esse botão só estará disponível quando o workflow tiver sido iniciado.
 
 ## Exemplo {#scheduler-example}
