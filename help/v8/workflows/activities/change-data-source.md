@@ -23,7 +23,7 @@ Nos fluxos de trabalho, os dados transportados de uma atividade para outra por m
 
 Em alguns casos, os dados não estão disponíveis no banco de dados atual ou não são eficientes o suficiente para executar operações unitárias. Portanto, talvez seja necessário forçar o fluxo de trabalho a usar um banco de dados diferente para executar essas operações adicionando uma atividade **[!UICONTROL Alterar fonte de dados]**.
 
-Informações detalhadas sobre a arquitetura do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
+Informações detalhadas sobre a arquitetura do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=pt-BR).
 
 >[!IMPORTANT]
 >

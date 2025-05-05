@@ -111,13 +111,13 @@ Como usuário do Campaign Standard em transição para o Adobe Campaign v8, os s
 
   A simplicidade e a facilidade de uso do SMS fazem dele um canal de comunicação muito valioso, além de sua robustez e compatibilidade incomparável em bilhões de terminais.
 
-  O Adobe Campaign v8 vem com uma nova infraestrutura que melhora o envio de SMS. [Saiba mais sobre as novas configurações de SMS](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  O Adobe Campaign v8 vem com uma nova infraestrutura que melhora o envio de SMS. [Saiba mais sobre as novas configurações de SMS](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Infraestrutura de push atualizada**
 
   O Adobe Campaign v8 está introduzindo nosso mais recente serviço de notificação por push, alimentado por uma estrutura robusta criada em uma tecnologia moderna de ponta. Este serviço foi projetado para desbloquear novos níveis de escalabilidade, garantindo que suas notificações possam alcançar um público maior com eficiência contínua. Com nossa infraestrutura aprimorada e nossos processos otimizados, você pode esperar maior escala e confiabilidade, permitindo que você interaja e se conecte com seus usuários de aplicativos móveis como nunca.
 
-  [Saiba mais sobre a infraestrutura de push atualizada](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Saiba mais sobre a infraestrutura de push atualizada](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -229,4 +229,4 @@ Acesse o guia de referência relevante para sua função e descubra a nova exper
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/release-notes/deprecated-features).-->
