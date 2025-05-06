@@ -2,7 +2,7 @@
 title: Gerenciar target mappings
 description: Saiba como gerenciar target mappings.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 # Gerenciar target mappings {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="Target mappings"
 >abstract="Agora é possível criar target mappings na interface do Campaign Web. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
@@ -30,7 +30,7 @@ Os mapeamentos de destino podem ser acessados no menu **[!UICONTROL Administraç
 
 ![Tela da lista de mapeamentos de público alvo mostrando os mapeamentos disponíveis](assets/target-mappings-list.png)
 
-Para obter mais informações sobre os mapeamentos de destino incorporados fornecidos com o Adobe Campaign, consulte a [documentação do console do cliente do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre os target mappings integrados fornecidos com o Adobe Campaign, consulte a [documentação do console do cliente do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR){target="_blank"}.
 
 ## Criar um target mapping {#create-mapping}
 
@@ -84,7 +84,7 @@ Para criar um novo target mapping, acesse o menu **[!UICONTROL Administração]*
 
    1. **[!UICONTROL Logs de rastreamento]**: ative a opção **[!UICONTROL Gerar um esquema para rastreamento]** para gerar um esquema de armazenamento para logs de rastreamento.
 
-   +++
++++
 
 1. Use a seção **[!UICONTROL Mapping]** para identificar quais atributos do esquema do target mapping devem ser usados para cada campo de endereço de entrega. Para cada campo, selecione o atributo desejado a ser mapeado. Também é possível criar uma expressão para identificar o campo. Por exemplo, aplique uma função inferior ao atributo address.
 
