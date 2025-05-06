@@ -3,20 +3,14 @@ audience: end-user
 title: Página de aterrissagem com o assistente de IA
 description: Introdução ao Assistente de IA
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1463'
 ht-degree: 1%
 
 ---
 
 # Geração de página de aterrissagem com o Assistente de IA{#generative-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Gerar páginas de destino com IA"
->abstract="Agora você pode usar o AI Assistant para criar deliveries de página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!IMPORTANT]
 >

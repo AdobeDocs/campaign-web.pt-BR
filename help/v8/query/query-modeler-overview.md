@@ -3,14 +3,20 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '926'
 ht-degree: 14%
 
 ---
 
 # Trabalhar com o modelador de consultas {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Novo Construtor de regras"
+>abstract="Um novo construtor de regras agora está disponível para ajudar você a definir condições complexas em uma interface do usuário aprimorada. Você pode alternar do construtor de regras antigo para o novo, conforme necessário."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
