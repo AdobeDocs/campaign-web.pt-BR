@@ -2,10 +2,14 @@
 audience: end-user
 title: Conheça a interface
 description: Interface do Adobe Campaign Web
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1521'
 ht-degree: 100%
 
 ---
@@ -156,7 +160,7 @@ Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.
 
 * **Esquemas**: campos personalizados são outros atributos adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. [Saiba mais](../administration/custom-fields.md).
 
-* **Alertas de entrega**: é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email com informações sobre suas execuções de entrega. [Saiba mais](../msg/delivery-alerting.md).
+<!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
 ## Saiba mais {#learn-more}
 

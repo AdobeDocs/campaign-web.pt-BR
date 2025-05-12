@@ -2,8 +2,12 @@
 audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 22%
@@ -77,7 +81,7 @@ Para criar um painel de delivery, siga estas etapas:
    * **Taxa de transferência mínima esperada (em mensagens enviadas por hora)**: somente entregas com uma taxa de transferência inferior ao valor especificado são consideradas para as entregas com critério de taxa de transferência baixa.
    * **Taxa mínima de processamento necessária para o critério &#39;Entregas em andamento&#39;**: somente as entregas com uma porcentagem de mensagens processadas maior que a porcentagem especificada são consideradas.
 
-   +++
++++
 
 1. Por padrão, os painéis de alerta são desativados, o que significa que os alertas de email vinculados a esse painel não são enviados. Para habilitar o painel imediatamente, alterne a opção **Habilitado** na seção **Geral**, ao lado do campo de seleção do grupo de alerta.
 
