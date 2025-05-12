@@ -4,9 +4,9 @@ title: Selecionar atributos e adicioná-los aos favoritos
 description: Saiba como trabalhar com atributos e acessar facilmente os atributos favoritos e os usados recentemente.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Usuários podem adicionar até 20 atributos aos favoritos. Atributos favoritos e
 
 ## Identificação da distribuição de valores em uma tabela {#distribution}
 
-O botão **Distribuição de Valores**, disponível ao clicar no botão expandir ao lado do atributo, permite que os usuários analisem a distribuição de valores para esse atributo na tabela. Esse recurso é útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
+O botão **Distribuição de valores**, disponível ao clicar no botão expandir ao lado do atributo, permite que os usuários analisem a distribuição de valores para esse atributo dentro da tabela. Esse recurso é útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
 
 ![Interface da ferramenta de distribuição de valores, mostrando contagens e porcentagens de valores de atributos.](assets/attributes-distribution-values.png)
 

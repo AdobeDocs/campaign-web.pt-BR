@@ -4,24 +4,24 @@ title: Introdução às entregas de correspondência direta
 description: Saiba como criar e enviar entregas de correspondência direta com o Adobe Campaign Web
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 
 # Introdução às entregas de correspondência direta {#gs-direct-mail}
 
-A correspondência direta é um canal offline que permite produzir arquivos para entregar cartas personalizadas em massa aos clientes, como cartões-postais, panfletos ou catálogos.
+A correspondência direta é um canal offline que permite produzir arquivos para entregar cartas personalizadas em massa aos clientes, como cartões-postais, panfletos ou catálogos. 
 
-Ao criar um delivery de correspondência direta, o Adobe Campaign gera um arquivo de extração contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil. Esse arquivo é enviado para o servidor de sua escolha, tornando-o acessível ao provedor de correspondência direta escolhido, que lida com o processo de correspondência real.
+Ao criar uma entrega de correspondência direta, o Adobe Campaign gera automaticamente um arquivo de extração contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil. Esse arquivo é enviado ao servidor de sua escolha, tornando-o acessível ao provedor de correspondência direta selecionado, que lida com o processamento da mala direta.
 
-Para criar deliveries de correspondência direta, você tem três opções:
+Existem três opções para criar entregas de correspondência direta:
 
-* **Fluxos de trabalho**: depois de adicionar uma atividade de canal de correspondência direta ao seu fluxo de trabalho e definir as configurações básicas, crie o conteúdo de suas entregas de correspondência direta a partir do menu do painel direito. Para obter instruções detalhadas sobre como configurar fluxos de trabalho, consulte [esta página](../workflows/gs-workflow-creation.md).
-* **Campanhas**: depois de criar uma campanha, você pode criar uma entrega de correspondência direta. Para obter mais informações sobre como configurar sua campanha, consulte [esta página](../campaigns/gs-campaigns.md).
-* **Entregas autônomas**: envolva os clientes direta e instantaneamente com entrega individual de correspondência direta, sem a necessidade de fluxos de trabalho ou campanhas. [Saiba como criar uma entrega](../msg/gs-deliveries.md)
+* **Fluxos de trabalho**: depois de adicionar uma atividade de canal de correspondência direta ao seu fluxo de trabalho e definir as configurações básicas, crie o conteúdo das suas entregas de correspondência direta no menu do painel direito. Para obter instruções detalhadas sobre como configurar fluxos de trabalho, consulte [esta página](../workflows/gs-workflow-creation.md).
+* **Campanhas**: após criar uma campanha, é possível criar uma entrega de correspondência direta. Para obter mais informações sobre como configurar sua campanha, consulte [esta página](../campaigns/gs-campaigns.md).
+* **Entregas independentes**: engaje os clientes direta e instantaneamente com uma entrega individual de correspondência direta, sem a necessidade de fluxos de trabalho ou campanhas. [Saiba como criar uma entrega](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">
