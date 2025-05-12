@@ -8,7 +8,7 @@ breadcrumb-title: Interface do Campaign Web
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 96%
          + [Definir o estilo dos links](email/styling-links.md)
          + [Adicionar atributos de estilo em linha](email/inline-styling.md)
    + Assistente de IA {#ai-assistant}
-      + [Trabalhar com o assistente de IA](email/generative-gs.md)
+      + [Trabalhar com o Assistente de IA](email/generative-gs.md)
       + [Geração de email com IA](email/generative-content.md)
       + [Geração de SMS com IA](email/generative-sms.md)
       + [Geração de notificação por push com IA](email/generative-push.md)
