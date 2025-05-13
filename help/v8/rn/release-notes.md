@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -20,10 +20,28 @@ As versões da interface do usuário do Adobe Campaign Web operam em um modelo d
 
 As alterações e melhorias disponíveis em versões anteriores estão listadas nas versões de [2024](release-notes-24.md) e [2025](release-notes-25.md).
 
+## Atualizações de maio de 2025 {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Pontuação de alinhamento da marca (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O recurso de pontuação de alinhamento da marca oferece feedback claro diretamente no designer de email, ajudando você a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível no Beta.</p>
+<p>Para obter mais informações, consulte a <a href="../content/brands-score.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Versão de abril de 2025 {#25-4-release}
 
 **Data de lançamento**: 29 de abril de 2025
-
 
 ### Novos recursos {#25-4-features}
 
