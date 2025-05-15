@@ -122,7 +122,7 @@ Configurações disponíveis:
 
   ![Captura de tela mostrando um exemplo de configurações de filtro para campos personalizados](assets/custom-fields-ref.png)
 
-+++
+  +++
 
 * **[!UICONTROL Abranger duas colunas]**: por padrão, os campos personalizados são exibidos na interface em duas colunas. Ative essa opção para exibir o campo personalizado na largura total da tela, em vez de em duas colunas.
 
