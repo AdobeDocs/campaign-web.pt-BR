@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Adicionar metadados ao seu conteúdo do email
+title: Adicionar metadados ao conteúdo do email
 description: Saiba como melhorar a legibilidade e a acessibilidade do seu conteúdo de email com metadados
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
-# Adicionar metadados ao seu conteúdo do email {#email-metadata}
+# Adicionar metadados ao conteúdo do email {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

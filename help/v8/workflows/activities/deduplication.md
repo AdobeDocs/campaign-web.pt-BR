@@ -6,7 +6,7 @@ exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 19%
+ht-degree: 41%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Campos para identificar duplicatas"
->abstract="Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos para os quais valores idênticos permitem a identificação de duplicatas, como endereço de email, nome e sobrenome. A ordem dos campos especifica os que devem ser processados primeiro."
+>abstract="Na seção **Campos para identificar duplicatas**, clique em **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos especifica os que devem ser processados primeiro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
->title="Atividade Desduplicação"
->abstract="A atividade **Deduplication** exclui duplicatas nos resultados das atividades de entrada. Ele é usado principalmente após as atividades de direcionamento e antes das atividades que usam dados direcionados."
+>title="Atividade de desduplicação"
+>abstract="A atividade de **desduplicação** exclui duplicatas dos resultados das atividades de entrada. Ela é usada principalmente após atividades de direcionamento e antes de atividades que usam dados direcionados."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Gerar um complemento"
->abstract="Você pode gerar uma transição de saída adicional com a população restante excluída como duplicatas. Para fazer isso, ative a opção **Gerar complemento**."
+>abstract="É possível gerar uma transição de saída adicional com a população restante, que foi excluída como duplicata. Para fazer isso, ative a opção **Gerar complemento**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
@@ -42,7 +42,7 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
 
 1. Adicione uma atividade **Deduplication** ao seu fluxo de trabalho.
 
-1. Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos para os quais valores idênticos permitem a identificação de duplicatas, como endereço de email, nome e sobrenome. A ordem dos campos especifica os que devem ser processados primeiro. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
+1. Na seção **Campos para identificar duplicatas**, clique em **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos especifica os que devem ser processados primeiro. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
 
 1. Na seção **Configurações de desduplicação**, selecione o número de **Duplicatas exclusivas a serem mantidas**. O valor padrão para esse campo é 1. O valor 0 mantém todas as duplicatas.
 

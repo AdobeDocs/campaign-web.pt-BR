@@ -6,13 +6,13 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 17%
+ht-degree: 40%
 
 ---
 
 # Atividades de email, SMS, Push, Correspondência direta {#channel}
 
-O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS, correspondência direta e push. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente.
+O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS, correspondência direta e push. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente.
 
 Por exemplo, crie uma campanha de email de boas-vindas que inclua uma série de mensagens em diferentes canais, como email, SMS, push e correspondência direta. Você também pode enviar um email de acompanhamento depois que um cliente concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
 
@@ -47,27 +47,27 @@ Comece a criar seu workflow com as atividades relevantes:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Atividade email"
->abstract="A atividade Email facilita o envio de emails dentro do fluxo de trabalho, permitindo mensagens recorrentes e únicas. Ele automatiza o processo de envio de emails para um público-alvo calculado dentro do mesmo fluxo de trabalho. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Email facilita o envio de emails dentro do fluxo de trabalho, permitindo mensagens recorrentes e únicas. Ela automatiza o processo de envio de emails para um público-alvo calculado no mesmo fluxo de trabalho. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Atividade de SMS"
->abstract="A atividade SMS facilita o envio de mensagens SMS no fluxo de trabalho, permitindo mensagens únicas e recorrentes. Ele automatiza o processo de envio de SMS para um público-alvo calculado dentro do mesmo workflow. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade SMS facilita o envio de mensagens SMS no fluxo de trabalho, permitindo mensagens únicas e recorrentes. Ela automatiza o processo de envio de SMS a um público-alvo calculado no mesmo fluxo de trabalho. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Atividade push para iOS"
->abstract="A atividade Push para iOS simplifica o processo de envio de notificações por push para iOS como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push do iOS para um público-alvo predefinido no mesmo fluxo de trabalho. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Push para iOS simplifica o processo de envio de notificações por push para iOS como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push para iOS a um público-alvo predefinido no mesmo fluxo de trabalho. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Atividade push para Android"
->abstract="A atividade Push para Android simplifica o processo de envio de notificações por push para Android como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push do Android para um público-alvo predefinido no mesmo fluxo de trabalho. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Push para Android simplifica o processo de envio de notificações por push para Android como parte do fluxo de trabalho. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push para Android a um público-alvo predefinido no mesmo fluxo de trabalho. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Atividade correspondência direta"
->abstract="A atividade Correspondência direta facilita o envio de correspondência direta no seu fluxo de trabalho, permitindo mensagens individuais e recorrentes. Ele automatiza o processo de geração do arquivo de extração exigido pelos provedores de mala direta. Você pode combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Correspondência direta facilita o envio de correspondência direta no seu fluxo de trabalho, permitindo mensagens individuais e recorrentes. Ela automatiza o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente."
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 

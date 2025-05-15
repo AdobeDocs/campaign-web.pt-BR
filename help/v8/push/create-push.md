@@ -6,7 +6,7 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Propriedades da entrega por push"
->abstract="Defina as propriedades da entrega por push. Insira o rótulo do push e use as **Opções Adicionais** para configurar o nome interno, a pasta de entrega e o código. Você também pode inserir uma descrição personalizada."
+>abstract="Defina as propriedades da entrega por push. Insira o rótulo do push e use as **Opções adicionais** para configurar o nome interno, a pasta de entrega e o código. Você também pode inserir uma descrição personalizada."
 
 Você pode criar um delivery de notificação por push independente ou criar uma notificação por push no contexto de um workflow da campanha. As etapas abaixo detalham o procedimento para um delivery push independente (único). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão detalhadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -51,8 +51,7 @@ Defina as configurações de delivery conforme detalhado abaixo:
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
-
-   +++
++++
 
 ## Selecionar o público-alvo da entrega por push {#create-audience-push}
 

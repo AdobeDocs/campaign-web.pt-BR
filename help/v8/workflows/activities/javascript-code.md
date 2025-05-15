@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 23%
+ht-degree: 32%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Código JavaScript"
->abstract="A atividade **Código JavaScript** permite executar um código JavaScript no contexto de um fluxo de trabalho. Isso permite executar ações ou coletar informações do banco de dados. Use atividades de código JavaScript **Simple** para executar um trecho de código durante a execução do fluxo de trabalho. **Avançado** As atividades de código JavaScript permitem que você execute operações mais complexas executando dois trechos de código diferentes sequencialmente. Na primeira vez que o workflow é iniciado, a primeira chamada é executada. Cada vez que o fluxo de trabalho é executado novamente, o código definido na segunda chamada é executado."
+>abstract="A atividade **Código JavaScript** permite executar um código JavaScript no contexto de um fluxo de trabalho. Isso permite realizar ações ou coletar informações do banco de dados. Use atividades de código JavaScript **simples** para executar um trecho de código na execução do fluxo de trabalho. As atividades de código JavaScript **Avançadas** permitem realizar operações mais complexas, executando dois trechos de código diferentes sequencialmente. Na primeira vez que o fluxo de trabalho é iniciado, a primeira chamada é executada. Cada vez que o fluxo de trabalho é executado novamente, o código definido na segunda chamada é executado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="Trecho de JavaScript"
->abstract="Defina o script a ser executado durante a execução da atividade. Se você estiver configurando uma atividade do JavaScript **Avançada**, edite dois trechos de código: o primeiro código de chamada a ser executado durante a primeira execução do fluxo de trabalho e o próximo código de chamada a ser executado durante as execuções subsequentes do fluxo de trabalho."
+>abstract="Defina o script a ser executado durante a execução da atividade. Se estiver configurando uma atividade JavaScript **Avançada**, edite dois trechos de código: o primeiro código de chamada a ser executado durante a primeira execução do fluxo de trabalho e o próximo código de chamada a ser executado durante as execuções subsequentes do fluxo de trabalho."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"

@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Criar e gerenciar serviços"
->abstract="Use o Adobe Campaign para criar e monitorar seus serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços. As assinaturas aplicam-se somente a entregas por email e SMS."
+>abstract="Use o Adobe Campaign para criar e monitorar serviços, como informativos, além de verificar as assinaturas ou o seu cancelamento. As assinaturas aplicam-se somente a entregas por email e SMS."
 
 Use o Adobe Campaign Web para gerenciar e criar seus serviços, como boletins informativos, e para verificar as assinaturas ou cancelamentos de assinaturas desses serviços.
 
@@ -149,12 +149,12 @@ Agora você pode selecionar essas mensagens ao [criar um serviço de assinatura]
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Contagem de assinantes"
->abstract="Clique em **Calcular** para obter o número total de assinantes deste serviço."
+>abstract="Clique em **Calcular** para obter o número total de assinantes deste serviço."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
 >title="Número total de assinantes"
->abstract="O Indicador principal de desempenho (KPI) fornece uma visão abrangente da base de assinantes, mostrando a contagem total de indivíduos que assinaram esse serviço."
+>abstract="O Indicador principal de desempenho (KPI) fornece uma visão abrangente da base de assinantes, mostrando a contagem total de pessoas que assinaram esse serviço."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
@@ -164,7 +164,7 @@ Agora você pode selecionar essas mensagens ao [criar um serviço de assinatura]
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evolução geral das assinaturas"
->abstract="Este gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução dos números e a porcentagem de fidelidade."
+>abstract="Este gráfico mostra o detalhamento por período, incluindo assinaturas, cancelamentos de assinaturas, a evolução em números e a porcentagem de fidelidade."
 
 Para medir a eficácia de seus serviços de assinatura para canais de SMS e email, acesse os logs e relatórios de um determinado serviço.
 

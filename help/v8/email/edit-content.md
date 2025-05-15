@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definir o conteúdo do email"
->abstract="A tela **Editar conteúdo** permite definir elementos básicos da mensagem, como o endereço do remetente e a linha de assunto, executar ações adicionais, como adicionar anexos ou ofertas, e acessar o Designer de email para dar uma aparência mais elegante à mensagem."
+>abstract="A tela **Editar conteúdo** permite definir os elementos básicos da mensagem, como o endereço do remetente e o assunto, realizar ações adicionais, como adicionar anexos ou ofertas, e acessar o Designer de email para deixar a mensagem com uma aparência elegante."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -36,7 +36,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Adicionar idiomas"
->abstract="Nesta guia, você encontrará uma lista de idiomas nos quais o delivery será enviado. Você pode adicionar mais idiomas clicando no botão Adicionar idioma ou duplicando outro idioma por meio dessa guia."
+>abstract="Nesta guia, você encontrará uma lista de idiomas para o envio da entrega. É possível adicionar mais idiomas clicando no botão Adicionar idioma ou duplicando outro idioma por meio dessa guia."
 
 A tela de email **[!UICONTROL Editar conteúdo]** permite:
 
@@ -129,7 +129,7 @@ Para criar variantes de idioma, siga estas etapas:
 
    >[!IMPORTANT]
    >
-   >O botão **[!UICONTROL Adicionar idioma]** só estará disponível se a dimensão de destino contiver o esquema Idioma. Para saber mais sobre esquemas e dimensões do Target, consulte a [documentação detalhada](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >O botão **[!UICONTROL Adicionar idioma]** só estará disponível se a dimensão de destino contiver o esquema Idioma. Para saber mais sobre esquemas e dimensões do Target, consulte a [documentação detalhada](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Para criar variantes de idioma, siga estas etapas:
 
    >[!NOTE]
    >
-   >Os idiomas disponíveis nessa lista dependem dos valores que foram definidos pelo atributo Language (valores como: sistema, usuário, dbenum etc.) Saiba mais sobre o gerenciamento de enumeração nesta [seção](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Os idiomas disponíveis nessa lista dependem dos valores que foram definidos pelo atributo Language (valores como: sistema, usuário, dbenum etc.) Saiba mais sobre o gerenciamento de enumeração nesta [seção](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

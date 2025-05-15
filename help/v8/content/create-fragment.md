@@ -6,7 +6,7 @@ exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ O fragmento de conteúdo agora está pronto para ser usado ao criar qualquer ent
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Salvar como fragmento"
->abstract="Para salvar o conteúdo como um fragmento visual, selecione os elementos a serem incluídos no fragmento, incluindo campos de personalização e conteúdo dinâmico. Somente as seções adjacentes podem ser selecionadas. Estruturas vazias ou outros fragmentos de conteúdo não podem ser selecionados. O conteúdo se tornará um fragmento independente, adicionado à lista de fragmentos e acessível no menu dedicado. Esse fragmento pode ser usado ao criar qualquer email ou template de conteúdo no Campaign."
+>abstract="Para salvar o conteúdo como um fragmento visual, selecione os elementos que serão incluídos no fragmento, incluindo campos de personalização e conteúdo dinâmico. Somente as seções adjacentes podem ser selecionadas. Estruturas vazias ou outros fragmentos de conteúdo não podem ser selecionados. Esse conteúdo se tornará um fragmento independente, será adicionado à lista de fragmentos e ficará acessível no menu dedicado. Esse fragmento pode ser usado ao criar qualquer email ou modelo de conteúdo no Campaign."
 
 <!--pas vu dans l'UI-->
 

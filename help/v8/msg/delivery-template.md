@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Modelos de entrega"
->abstract="Para acelerar e melhorar o processo de design, crie modelos de delivery para reutilizar conteúdo e configurações personalizados em suas campanhas. Essa funcionalidade padroniza a aparência criativa, permitindo a execução e o lançamento mais rápidos de campanhas."
+>abstract="Para acelerar e aprimorar o processo de design, crie modelos de entrega para reutilizar conteúdo e configurações personalizados em suas campanhas. Essa funcionalidade padroniza a aparência criativa, permitindo a execução e a inicialização mais rápidas de campanhas."
 
-Para acelerar e melhorar o processo de design, crie modelos de delivery para reutilizar conteúdo e configurações personalizados em suas campanhas. Essa funcionalidade padroniza a aparência criativa, permitindo a execução e o lançamento mais rápidos de campanhas.
+Para acelerar e aprimorar o processo de design, crie modelos de entrega para reutilizar conteúdo e configurações personalizados em suas campanhas. Essa funcionalidade padroniza a aparência criativa, permitindo a execução e a inicialização mais rápidas de campanhas.
 
 Um modelo inclui:
 
@@ -42,7 +42,7 @@ Um modelo inclui:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Trabalho com modelos de entrega"
->abstract="Use modelos de entrega para criar e salvar configurações de entrega para uso futuro em suas campanhas. Crie templates do delivery do zero, duplique um template existente ou converta um delivery em um template."
+>abstract="Use modelos de entrega para criar e salvar configurações de entrega para uso futuro em suas campanhas. Crie modelos de entrega do zero, duplique um modelo já existente ou converta uma entrega em um modelo."
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Gerenciamento de Campanha]** > **[!UICONTROL Entregas]** no menu esquerdo e navegue até a guia **Modelos**.
 

@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Criar e gerenciar landing pages"
->abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de aterrissagem para direcionar seus usuários para páginas da Web online, onde você pode gerenciar casos de uso de aquisição, assinatura/cancelamento de assinatura e de inclui na lista de bloqueios, com base em modelos integrados."
+>abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de destino para direcionar usuários a páginas da web nas quais é possível gerenciar casos de uso de aquisição, assinatura, cancelamento de assinatura e listas de bloqueio, utilizando como base os modelos integrados."
 
 A interface do usuário da Web do Campaign permite criar, projetar e publicar páginas de aterrissagem. Após a publicação, é possível inserir um link para o formulário em um delivery. Quando os recipients clicam nesse link, eles são direcionados para a página de aterrissagem correspondente.
 
@@ -55,12 +55,12 @@ O inventário de **[!UICONTROL Páginas de aterrissagem]** exibe todos os itens 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Defina o conteúdo de cada página"
->abstract="Ajuste o conteúdo de cada página que faz parte dessa página de aterrissagem, como o próprio formulário, a página de confirmação exibida ao enviar o formulário ou a página para a qual os usuários são direcionados caso ocorra um erro."
+>abstract="Ajuste o conteúdo de cada página que faz parte desta página de destino, como o próprio formulário, a página de confirmação que é exibida ao enviar o formulário ou a página para a qual os usuários são direcionados em caso de erros."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Agendar a landing page"
->abstract="Defina uma data de início e uma data de término para a landing page. Quando a página chegar ao final do período de validade, o formulário não estará mais disponível. A página **Expiração** será exibida em seu lugar."
+>title="Criar cronograma para a página de destino"
+>abstract="Defina uma data inicial e uma data final para a página de destino. Quando a página chegar ao final do período de validade, o formulário não estará mais disponível. A página **Expiração** será exibida em seu lugar."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"

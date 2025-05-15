@@ -6,26 +6,26 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
-# Trabalhar com o assistente de IA {#generative-gs}
+# Trabalhar com o Assistente de IA {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Assistente de IA"
->abstract="Depois de criar e personalizar o delivery, use o Assistente de IA para aprimorar o conteúdo. Esse recurso simplifica a personalização e a melhoria do conteúdo, permitindo que você ajuste o conteúdo descrevendo o que deseja gerar."
+>abstract="Depois de criar e personalizar a entrega, use o Assistente de IA para aprimorar o conteúdo. Esse recurso simplifica a personalização e o aprimoramento de conteúdo, permitindo ajustá-lo a partir da descrição do que deseja gerar."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Definição do contexto com o assistente de IA no Campaign"
->abstract="Para usar o conteúdo selecionado como entrada para a geração de conteúdo, ative a opção **Aprimorar com conteúdo atual**. Você também pode fazer upload dos ativos da sua marca e usá-los como fonte de conteúdo. Se você não usar o conteúdo selecionado, o upload e a seleção dos ativos da marca são obrigatórios."
+>abstract="Para usar o conteúdo selecionado como uma entrada para a geração de conteúdo, ative a opção **Aprimorar com conteúdo atual**. Você também pode fazer upload dos ativos da sua marca e usá-los como fonte de conteúdo. Se você não usar o conteúdo selecionado, será obrigatório fazer o upload e escolher os ativos da marca."
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Termos da IA generativa da Adobe"
->abstract="O acesso a esse recurso depende do seu acordo com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. Revise qualquer saída desse recurso para precisão e verifique se ele é apropriado para seu caso de uso."
+>abstract="O acesso a esse recurso depende de você aceitar as Diretrizes do usuário de IA generativa da Adobe Experience Cloud. Analise todos resultados deste recurso quanto à precisão e certifique-se de que sejam apropriados ao seu caso de uso."
 >additional-url="https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Diretrizes do usuário da IA generativa da Adobe"
 
 >[!INFO]
@@ -69,7 +69,7 @@ As diretrizes gerais para o uso do Assistente de IA no Adobe Campaign Web para g
 * Use [modelos de email integrados](../email/create-email-templates.md), modelos específicos da marca ou modelos personalizados para criar conteúdo de email usando o Assistente de IA. São recomendados modelos de e-mail com até 8 a 10 imagens.
 * Relate quaisquer saídas problemáticas usando os ícones de miniatura, miniatura ou sinalizador ao selecionar variantes.
 * O uso do AI Assistant está sujeito às Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Como parte do compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica o Content Credentials quando o conteúdo ou um projeto que inclui um ativo gerado pela Firefly é baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html).
+* Como parte do compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica o Content Credentials quando o conteúdo ou um projeto que inclui um ativo gerado pela Firefly é baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 As seguintes limitações se aplicam ao Assistente de IA no Adobe Campaign Web:
 

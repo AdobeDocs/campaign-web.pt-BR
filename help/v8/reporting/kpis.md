@@ -5,7 +5,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 27%
+ht-degree: 38%
 
 ---
 
@@ -36,7 +36,7 @@ As métricas são calculadas para deliveries enviados nos sete dias anteriores p
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Entregue"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens processadas com êxito e a porcentagem de mensagens entregues com êxito em comparação ao número total de mensagens enviadas."
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens processadas com sucesso e a porcentagem de mensagens entregues com sucesso em comparação ao número total de mensagens enviadas."
 
 O número de mensagens entregues reflete a taxa de capacidade de entrega. Nunca pode ser 100% pelos seguintes motivos: alguns endereços ou números de telefone podem estar errados, os bloqueadores de spam em provedores de email podem rejeitar suas mensagens ou podem ocorrer problemas de entrega.
 
@@ -55,7 +55,7 @@ Contagem de mensagens para as quais o campo &quot;seed address&quot; é igual a 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Aberturas"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens abertas e a porcentagem de mensagens abertas em comparação ao número total de mensagens entregues com êxito."
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todas as mensagens abertas e a porcentagem de mensagens abertas em comparação ao número total de mensagens entregues com sucesso."
 
 O total de aberturas é calculado rastreando o número total de vezes que uma mensagem é aberta, independentemente de quantos recipients individuais geram essas aberturas. Esse indicador só está disponível para emails.
 
@@ -72,7 +72,7 @@ O Adobe Campaign detecta a abertura da mensagem quando o destinatário faz o dow
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Cliques"
->abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os URLs clicados nas mensagens e a porcentagem de cliques em comparação ao número total de mensagens entregues com êxito."
+>abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os URLs clicados nas mensagens e a porcentagem de cliques em comparação ao número total de mensagens entregues com sucesso."
 
 Adicione URLs no conteúdo da mensagem para redirecionar os recipients para uma página específica. A taxa de cliques mede o número e a porcentagem de recipients que clicaram em um link na mensagem.
 
@@ -144,7 +144,7 @@ O indicador **Erros** mostra os seguintes KPIs para cada canal:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Enviado"
->abstract="Essa métrica mostra, para o canal de correspondência direta, a soma de todas as mensagens enviadas e a porcentagem de mensagens enviadas ao provedor, em comparação ao número total de mensagens preparadas durante a fase de preparação do delivery."
+>abstract="Essa métrica mostra, para o canal de correspondência direta, a soma de todas as mensagens enviadas e a porcentagem de mensagens enviadas ao provedor, em comparação com o número total de mensagens preparadas durante a fase de preparo da entrega."
 
 Durante a fase de preparação, o arquivo de extração de correspondência direta é gerado, mas as informações relacionadas aos recipients (logs do delivery) não são atualizadas. O status de um delivery muda de Pending delivery para Sent quando o usuário do Campaign confirma o envio do delivery. Em seguida, o delivery é definido como Finished.
 

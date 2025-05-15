@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 29%
+ht-degree: 40%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="Propriedades de entrega de SMS"
->abstract="As propriedades incluem os parâmetros de delivery comuns que ajudam a nomear e classificar o delivery. Se o delivery usar um schema estendido, campos específicos de Opções personalizadas estarão disponíveis."
+>abstract="As propriedades incluem os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. Se a entrega usa um esquema estendido, campos de opções personalizadas específicos estarão disponíveis."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Defina o público-alvo do SMS"
->abstract="Crie um novo público ou selecione um já existente clicando no botão **Selecionar público-alvo**. Se necessário, adicione um grupo de controle para medir o impacto da sua entrega."
+>abstract="Crie um novo público-alvo ou selecione um existente clicando em **Selecionar público-alvo**. Se necessário, adicione um grupo de controle para medir o impacto da sua entrega."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Definir um grupo de controle"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Seleção de modelo de SMS"
->abstract="Selecione um modelo predefinido para iniciar a entrega do SMS. Os templates de deliveries permitem reutilizar conteúdo e configurações personalizados em suas campanhas e deliveries."
+>abstract="Selecione um modelo predefinido para iniciar a entrega do SMS. Os modelos de entrega permitem reutilizar o conteúdo e as configurações personalizadas em campanhas e entregas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR" text="Usar modelos de entrega"
 
 Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo explicam o procedimento para uma entrega de SMS independente (única). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão explicadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
@@ -49,8 +49,7 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
-
-   +++
++++
 
 1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público já existente ou criar o seu próprio. [Saiba mais sobre públicos](../audience/about-recipients.md).
 

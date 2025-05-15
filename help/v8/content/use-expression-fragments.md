@@ -6,7 +6,7 @@ exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 16%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Fragmentos"
->abstract="Todos os fragmentos de expressão criados na sandbox atual são exibidos nesta lista. Para usar um fragmento, clique no botão + para adicionar a ID do fragmento no editor."
+>abstract="Todos os fragmentos de expressão criados na sandbox atual são exibidos nesta lista. Para usar um fragmento, clique no botão + para adicionar a ID do fragmento ao editor."
 
 <!-- pas vu dans l'UI-->
 

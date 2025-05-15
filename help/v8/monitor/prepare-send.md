@@ -6,7 +6,7 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ Ao definir seu [conteúdo](../email/edit-content.md), [público-alvo](../audienc
 
 Durante a preparação do delivery, a população do target é calculada e o conteúdo da mensagem é gerado para cada perfil incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas imediatamente ou na data e hora programadas.
 
-As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=pt-BR){target="_blank"}.
+As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 As principais etapas para preparar o envio estão listadas abaixo.
 
@@ -126,7 +126,7 @@ Se a sua entrega estiver agendada ou não<!--TBC-->, duas ações podem ser exec
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Cliques"
->abstract="O número de recipients que clicaram pelo menos uma vez no email. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de cliques distintos em comparação com o número de mensagens entregues."
+>abstract="O número de destinatários que clicaram pelo menos uma vez no email. Esse indicador é atualizado a cada 5 minutos. A porcentagem exibida é a proporção do número de cliques distintos em comparação com o número de mensagens entregues."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/reports/kpis" text="Entenda os KPIs"
 
 >[!CONTEXTUALHELP]

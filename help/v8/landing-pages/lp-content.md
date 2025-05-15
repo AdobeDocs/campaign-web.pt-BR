@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Usar componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções, use o componente de Formulário."
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir conteúdo específico que permite aos usuários selecionar e enviar suas escolhas, use o componente de formulário."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Definir as configurações da página principal"
->abstract="A página principal é exibida imediatamente aos usuários depois que eles clicam no link para a página de aterrissagem, como por meio de um email ou site."
+>abstract="A página principal é exibida imediatamente após os usuários clicarem no link para a página de destino, como a partir de um email ou de um site."
 
 É possível editar o conteúdo de qualquer página da sua landing page.
 

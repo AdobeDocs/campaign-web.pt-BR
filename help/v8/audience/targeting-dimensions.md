@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Selecione a dimensão de direcionamento"
->abstract="O targeting dimension permite definir o público alvo da operação: recipients, beneficiários de contrato, operadores, assinantes e muito mais. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
+>abstract="A dimensão de direcionamento permite definir a população alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
 
 O targeting dimension, também conhecido como target mapping, é o tipo de dados manipulado por uma operação. Ele define a população direcionada, como perfis, beneficiários de contrato, operadores ou assinantes.
 
@@ -44,4 +44,4 @@ Use outros target mappings integrados em workflows e deliveries, conforme listad
 | Arquivo externo | Entrega por meio de um arquivo contendo todas as informações necessárias | Nenhum schema vinculado, nenhum target inserido |
 | Aplicativos de assinante | Perfis inscritos em um aplicativo | nms:appSubscriptionRcp |
 
-Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR#new-mapping){target="_blank"}.
+Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

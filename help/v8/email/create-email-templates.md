@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -86,7 +86,7 @@ Depois de salvo, você poderá usar este modelo ao criar qualquer [email](../ema
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Definir as propriedades do modelo"
->abstract="Defina as propriedades do seu template de conteúdo de email para recuperá-lo facilmente quando necessário."
+>abstract="Defina as propriedades do modelo de conteúdo de email para recuperá-las facilmente quando necessário."
 
 Para criar um novo modelo de conteúdo no painel de modelos de conteúdo, siga estas etapas:
 

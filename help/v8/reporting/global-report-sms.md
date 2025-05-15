@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** oferece KPIs (indicadores-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="População direcionada por SMS"
->abstract="O gráfico e a tabela para a **População direcionada** apresentam dados relacionados ao seu público-alvo de SMS, incluindo informações sobre mensagens a serem entregues e exclusões."
+>abstract="O gráfico e a tabela **População direcionada** apresentam dados relacionados ao público-alvo de SMS, incluindo informações sobre mensagens a serem entregues e exclusões."
 
 A tabela e o gráfico **[!UICONTROL Público-alvo]** apresentam dados relacionados aos seus destinatários para cada entrega de SMS enviada. As métricas estão detalhadas abaixo.
 
@@ -83,7 +83,7 @@ A tabela **[!UICONTROL Estatísticas de entrega]** detalha o sucesso de cada ent
 
 * **[!UICONTROL Novas quarentenas]**: Número total de endereços colocados em quarentena após uma entrega com falha (por exemplo, usuário desconhecido, domínio inválido), em relação ao número de mensagens a serem entregues.
 
-  Os tipos de erro de SMS estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#sms-quarantines){target="_blank"}.
+  Os tipos de erro de SMS estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ A tabela **[!UICONTROL Estatísticas de entrega]** detalha o sucesso de cada ent
 
 O gráfico e a tabela **[!UICONTROL Causas da exclusão]** exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber seus deliveries de SMS.
 
-Os tipos de erro estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#email-error-types){target="_blank"}.
+Os tipos de erro estão listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ![Uma captura de tela do relatório Causas da Exclusão, mostrando os motivos para exclusões de entrega de SMS.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

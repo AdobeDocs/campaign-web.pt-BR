@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Novo Construtor de regras"
->abstract="Um novo construtor de regras agora está disponível para ajudar você a definir condições complexas em uma interface do usuário aprimorada. Você pode alternar do construtor de regras antigo para o novo, conforme necessário."
+>abstract="Um novo construtor de regras agora está disponível para ajudar você a definir condições complexas em uma interface aprimorada. Você pode alternar do construtor de regras antigo para o novo, conforme necessário."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
@@ -69,7 +69,7 @@ O modelador de consulta fornece uma tela central onde você cria a consulta e um
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="Nova experiência do construtor de regras"
->abstract="Use essa alternância para alternar entre o modelador de Consulta Clássica e a experiência do Novo construtor de regras. O novo construtor de regras permite criar a consulta com mais facilidade, graças à interface simplificada e intuitiva."
+>abstract="Use esse botão de alternância para alternar entre o modelador de consultas clássico e a nova experiência do construtor de regras. O novo construtor de regras permite criar a consulta com mais facilidade, graças à interface simplificada e intuitiva."
 
 ![Imagem mostrando a interface do modelador de consultas](assets/query-interface.png){zoomable="yes"}
 

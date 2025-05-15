@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 30%
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md) ou para atualizar perfis ou qualquer outra tabela.
 
 >[!NOTE]
->Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Com o console Interface de usuário da Web, é possível carregar arquivos até um tamanho máximo de 50 MB. No console do cliente, a atividade Data Loading tem um limite de 150 MB. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=pt-BR){target="_blank"}
+>Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Com o console Interface de usuário da Web, é possível carregar arquivos até um tamanho máximo de 50 MB. No console do cliente, a atividade Data Loading tem um limite de 150 MB. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Esta atividade pode ser usada com uma atividade [Reconciliation](reconciliation.md) para vincular dados não identificados aos recursos existentes. Por exemplo, a atividade **Carregar arquivo** pode ser colocada antes de uma atividade **Reconciliação** se você importar dados não padrão para o banco de dados.
 
@@ -55,7 +55,7 @@ A configuração da atividade **Carregar arquivo** envolve duas etapas. Primeiro
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Remapeamento de valor da atividade Carregar arquivo"
->abstract="Use essa opção para mapear valores específicos dos arquivos carregados com novos valores. Por exemplo, se a coluna contiver valores &quot;Verdadeiro&quot;/&quot;Falso&quot;, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres &quot;0&quot;/&quot;1&quot;."
+>abstract="Use essa opção para mapear valores específicos dos arquivos carregados com novos valores. Por exemplo, se a coluna contiver valores “Verdadeiro”/“Falso”, é possível adicionar um mapeamento para substituir automaticamente esses valores por caracteres “0”/“1”."
 
 Siga estas etapas para configurar o arquivo de amostra usado para definir a estrutura de arquivo esperada:
 
@@ -87,7 +87,7 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
    * **[!UICONTROL Processamento de erros]** (tipo de dados de cadeia de caracteres): especifique o comportamento em caso de erros em uma das linhas.
    * **[!UICONTROL Remapeamento de valores]**: essa opção permite mapear valores específicos com novos valores. Por exemplo, se a coluna contiver valores “Verdadeiro”/“Falso”, você poderá adicionar um mapeamento para substituir automaticamente esses valores por caracteres “0”/“1”.
 
-   +++
++++
 
 1. Na seção **Formatação**, especifique como o arquivo está formatado para garantir que os dados sejam importados corretamente.
 
@@ -106,12 +106,12 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Banco de dados de públicos-alvo"
->abstract="Se você estiver acessando uma atividade de **[!UICONTROL Carregar arquivo]** que já foi configurada no console do cliente, uma seção adicional de **[!UICONTROL Banco de dados de destino]** estará disponível se você tiver configurado a atividade para carregar o arquivo para um banco de dados externo."
+>abstract="Se estiver acessando uma atividade **[!UICONTROL Carregar arquivo]** que já foi configurada no console do cliente, uma seção **[!UICONTROL Banco de dados de destino]** adicional estará disponível se a atividade foi configurada para fazer upload do arquivo para um banco de dados externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Comando Carregar arquivo"
->abstract="Permitir comando arbitrário para pré-processamento é uma preocupação de segurança. Desative a opção de segurança XtkSecurity_Disable_Preproc para forçar o uso de uma lista predefinida de comandos."
+>abstract="Permitir comandos arbitrários para pré-processamento é uma vulnerabilidade de segurança. Desabilite a opção de segurança XtkSecurity_Disable_Preproc para forçar o uso de uma lista predefinida de comandos."
 
 >[!CAUTION]
 >

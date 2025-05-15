@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 17%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Propriedades do fluxo de trabalho"
->abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a seção **Opções adicionais** para definir mais configurações, como o nome interno do fluxo de trabalho, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor para que, se ocorrer um erro, os operadores sejam alertados."
+>abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a seção **Opções adicionais** para definir mais configurações, como o nome interno do fluxo de trabalho, sua pasta, fuso horário e grupo de supervisores. É altamente recomendável selecionar um grupo supervisor para que os operadores sejam alertados se ocorrer um erro."
 
 Ao criar ou organizar atividades de workflow na tela, acesse as configurações avançadas relacionadas ao workflow. Por exemplo, defina um fuso horário específico para o workflow, gerencie como o workflow deve se comportar em caso de erro ou gerencie o atraso após o qual o histórico do workflow é removido.
 
@@ -55,7 +55,7 @@ Quando o fluxo de trabalho estiver [associado a uma campanha](create-workflow.md
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Configurações de segmentação"
->abstract="Nesta seção, é possível selecionar o targeting dimension para direcionar perfis no fluxo de trabalho e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser habilitada em um fluxo de trabalho de produção."
+>abstract="Nesta seção, é possível selecionar a dimensão de direcionamento para direcionar perfis no fluxo de trabalho e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser habilitada em um fluxo de trabalho de produção."
 
 * **[!UICONTROL Dimensão de direcionamento]**: selecione a dimensão de direcionamento a ser usada para direcionar perfis, como recipients, beneficiários de contrato, operadores, assinantes e outros. [Saiba mais sobre dimensões de direcionamento](../audience/targeting-dimensions.md).
 
@@ -68,7 +68,7 @@ Quando o fluxo de trabalho estiver [associado a uma campanha](create-workflow.md
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Configurações de execução"
->abstract="Nesta seção, você pode definir configurações relacionadas à execução do workflow, como o número de dias que o histórico do workflow é mantido."
+>abstract="Nesta seção, é possível definir configurações relacionadas à execução do fluxo de trabalho, como o número de dias no qual o histórico do fluxo de trabalho será mantido."
 
 * **[!UICONTROL Histórico em dias]**: especifica o número de dias após o qual o histórico deve ser limpo. O histórico contém elementos relacionados ao workflow, como logs, tarefas e eventos (objetos técnicos vinculados à operação do workflow). O valor padrão é de 30 dias para modelos de fluxo de trabalho prontos para uso. A limpeza do histórico é executada pelo workflow técnico Database cleanup, que é executado diariamente.
 

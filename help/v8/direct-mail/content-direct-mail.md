@@ -6,7 +6,7 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Conteúdo do arquivo de extração"
->abstract="Clique no botão **Editar conteúdo** para iniciar a criação do arquivo de extração exigido pelo seu provedor de correspondência direta. Isso permite definir as propriedades do arquivo, como rótulo e formato, e especificar as colunas que deseja incluir no arquivo."
+>abstract="Clique no botão **Editar conteúdo** para iniciar a criação do arquivo de extração exigido pelo seu provedor de correspondência direta. Isso permite definir as propriedades do arquivo, como rótulo e formato, e especificar as colunas que deseja incluir nele."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="Propriedades do arquivo"
->abstract="Configure as propriedades do arquivo de extração, como nome e formato. Você pode personalizar o nome do arquivo usando atributos do banco de dados usando o editor de expressão."
+>abstract="Configure as propriedades do arquivo de extração, como nome e formato. É possível personalizar o nome do arquivo usando atributos do banco de dados com o editor de expressão."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Conteúdo"
->abstract="Nesta seção, especifique as colunas a serem exibidas no arquivo de extração. Depois de concluído, você pode visualizar o arquivo de extração usando o botão **Simular conteúdo**."
+>abstract="Nesta seção, especifique as colunas a serem exibidas no arquivo de extração. Depois de concluído, é possível visualizar o arquivo de extração usando o botão **Simular conteúdo**."
 
 Para criar o conteúdo do arquivo de extração gerado pela entrega de correspondência direta, clique no botão **[!UICONTROL Editar conteúdo]** na página de entrega e configure as propriedades e o conteúdo do arquivo.
 

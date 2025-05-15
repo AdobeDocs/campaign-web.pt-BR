@@ -9,7 +9,7 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 50%
+ht-degree: 54%
 
 ---
 
@@ -102,9 +102,9 @@ Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-l
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Definir uma data e hora de contato"
->abstract="Defina a data e a hora exata do envio da sua entrega. Ao escolher a hora mais apropriada para sua mensagem de marketing, você pode maximizar as taxas de abertura."
+>abstract="Defina a data e a hora exata do envio da sua entrega. Ao escolher o horário mais apropriado para a mensagem de marketing, é possível maximizar as taxas de abertura."
 
-Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher a hora mais apropriada para sua mensagem de marketing, você pode maximizar as taxas de abertura.
+Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher o horário mais apropriado para a mensagem de marketing, é possível maximizar as taxas de abertura.
 
 Para agendar o envio de uma entrega, abra a entrega e navegue até a seção **[!UICONTROL Agendar]**. Use o botão de alternância **[!UICONTROL Habilitar agendamento]** para ativá-lo e defina a data e a hora desejada para o envio. Depois que você envia o delivery, o envio real começa na data de contato definida.
 

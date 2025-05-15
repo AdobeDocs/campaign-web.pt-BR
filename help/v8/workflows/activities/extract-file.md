@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extrair arquivo"
->abstract="A atividade **Extrair arquivo** permite exportar dados do Adobe Campaign como um arquivo externo. Os dados podem ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transfer file."
+>abstract="A atividade **Extrair arquivo** permite exportar dados do Adobe Campaign como um arquivo externo. Os dados podem então ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transferir arquivo."
 
-A atividade **Extrair arquivo** é uma atividade de **Gerenciamento de dados**. Use esta atividade para exportar dados do Adobe Campaign na forma de um arquivo externo. Os dados podem ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transfer file.
+A atividade **Extrair arquivo** é uma atividade de **Gerenciamento de dados**. Use esta atividade para exportar dados do Adobe Campaign na forma de um arquivo externo. Os dados podem então ser exportados para um local de servidor, como SFTP, armazenamento na nuvem ou servidor de campanha, usando uma atividade Transferir arquivo.
 
 Para configurar a atividade **Extrair arquivo**, adicione uma atividade **Extrair arquivo** no seu fluxo de trabalho e, em seguida, siga as etapas abaixo.
 

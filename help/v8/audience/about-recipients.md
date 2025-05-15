@@ -4,8 +4,8 @@ description: Saiba como monitorar e gerenciar perfis na Web do Campaign.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 11%
+source-wordcount: '439'
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfis"
->abstract="Um perfil é um registro direcionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível exibir os detalhes dos perfis, com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos dos perfis."
+>abstract="Um perfil é um registro que foi direcionado para receber mensagens enviadas pelo Adobe Campaign. Nessa lista, é possível exibir os detalhes dos perfis, com base nas suas permissões. Use as opções de filtro para navegar nesta lista. É possível editar e atualizar um pequeno conjunto de atributos dos perfis."
 
 ## O que é um perfil? {#what}
 
@@ -46,4 +46,4 @@ Para excluir um perfil, selecione a opção correspondente no menu **[!UICONTROL
 
 Saiba como acessar, gerenciar e explorar perfis usando a interface da Web do Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448369?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

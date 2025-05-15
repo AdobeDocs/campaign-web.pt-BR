@@ -6,7 +6,7 @@ exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -41,12 +41,12 @@ Pesquise a mensagem e clique nela para exibir os detalhes.
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Histórico de eventos de mensagens transacionais"
->abstract="Você pode exibir os eventos que acionam a mensagem transacional."
+>abstract="É possível ver os eventos que acionam a mensagem transacional."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="Visualização do histórico de eventos de mensagens transacionais"
->abstract="Você pode exibir os eventos que acionam a mensagem transacional."
+>abstract="É possível ver os eventos que acionam a mensagem transacional."
 
 Você pode exibir os eventos que acionam a mensagem transacional. Para acessá-las, vá para a seção **[!UICONTROL Histórico de eventos]**.
 

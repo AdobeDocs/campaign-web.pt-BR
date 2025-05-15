@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
@@ -50,7 +50,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Atividade de enriquecimento"
->abstract="Depois que os dados de enriquecimento são adicionados ao workflow, eles podem ser usados em atividades subsequentes para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que repercutem com seu público-alvo."
+>abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades subsequentes para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que condizem com o seu público-alvo."
 
 1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecimento. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
 
@@ -69,9 +69,9 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definição de link"
->abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo contendo o número da conta, o país e o email dos destinatários, você deverá criar um link para a tabela do país para atualizar essas informações em seus perfis."
+>abstract="Crie um link entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, é preciso criar um link para a tabela do país para atualizar essas informações em seus perfis."
 
-A seção **[!UICONTROL Definição de link]** permite criar um vínculo entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, se carregar dados de um arquivo contendo o número da conta, o país e o email dos destinatários, você deverá criar um link para a tabela do país para atualizar essas informações em seus perfis.
+A seção **[!UICONTROL Definição de link]** permite criar um vínculo entre os dados da tabela de trabalho e o banco de dados do Adobe Campaign. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, é preciso criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
 Há vários tipos de links disponíveis:
 

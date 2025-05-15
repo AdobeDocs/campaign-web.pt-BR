@@ -6,7 +6,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="Gerar transição de saída"
->abstract="Use esta opção se quiser adicionar uma transição após a atividade **Salvar público-alvo**."
+>abstract="Use essa opção se quiser adicionar uma transição após a atividade **Salvar público-alvo**."
 
 A atividade **Salvar público-alvo** é uma atividade **de Direcionamento**. Esta atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em um fluxo de trabalho. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados pelo menu **Públicos-alvo**.
 

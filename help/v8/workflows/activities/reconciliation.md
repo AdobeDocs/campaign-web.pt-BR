@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 22%
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Atividade de reconciliação"
->abstract="A atividade **Reconciliation** é uma atividade **Targeting** que define o vínculo entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho. Por exemplo, a atividade de **Reconciliação** pode ser inserida após uma atividade **Carregar arquivo** para importar dados não padrão para o banco de dados. Nesse caso, a atividade **Reconciliation** define o vínculo entre os dados no banco de dados do Adobe Campaign e os dados na tabela externa."
+>abstract="A Atividade de **reconciliação** é uma Atividade de **direcionamento** que define o vínculo entre os dados no banco de dados do Adobe Campaign e os dados em uma tabela de trabalho. Por exemplo, a atividade de **Reconciliação** pode ser inserida após uma atividade **Carregar arquivo** para importar dados não padrão para o banco de dados. Nesse caso, a Atividade de **reconciliação** define o vínculo entre os dados no banco de dados do Adobe Campaign e os dados na tabela externa."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -48,7 +48,7 @@ Embora a atividade **Enrichment** defina dados adicionais a serem processados no
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="Dimensão de direcionamento"
->abstract="Selecione a nova dimensão de direcionamento. Uma dimensão define a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes e muito mais. Por padrão, a dimensão de direcionamento atual é selecionada."
+>abstract="Selecione a nova dimensão de direcionamento. Uma dimensão define a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes, etc. Por padrão, a dimensão de direcionamento atual é selecionada."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
@@ -76,7 +76,7 @@ Siga estas etapas para configurar a atividade **Reconciliação**:
 
 1. Adicione uma atividade de **Reconciliação** ao seu fluxo de trabalho. Essa atividade deve seguir uma transição que contém uma população cujo targeting dimension não é diretamente proveniente do Adobe Campaign.
 
-1. Selecione a nova dimensão de direcionamento. Uma dimensão define a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes e muito mais. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions).
+1. Selecione a nova dimensão de direcionamento. Uma dimensão define a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes, etc. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Selecione os campos a serem usados para a reconciliação. É possível usar um ou mais critérios de reconciliação.
 

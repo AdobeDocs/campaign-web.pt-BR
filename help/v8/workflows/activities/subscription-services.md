@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="Atividade Serviços de assinatura"
->abstract="A atividade Subscription services permite que vários perfis realizem a subscrição ou o cancelamento de subscrição de um serviço em uma única ação."
+>abstract="A Atividade serviços de assinatura permite que vários perfis sejam inscritos ou removidos de um serviço em uma única ação."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Parâmetros gerais do serviço de assinatura"
->abstract="Escolha o serviço desejado e escolha a ação a ser executada (assinatura ou cancelamento de assinatura). Ative a opção **Enviar mensagem de confirmação** para notificar a população que a assinatura do serviço selecionado foi realizada ou cancelada."
+>abstract="Escolha o serviço desejado e escolha a ação a ser executada (assinatura ou cancelamento de assinatura). Ative a opção **Enviar mensagem de confirmação** para notificar a população sobre sua assinatura ou sobre o cancelamento da mesma no serviço selecionado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Informações adicionais"
->abstract="Especifique os dados e a origem da assinatura de cada registro. Você pode deixar essa seção vazia; nesse caso, nenhuma data ou origem será definida ao executar o fluxo de trabalho. Se os dados de entrada contiverem uma coluna indicando a data de assinatura do perfil para o serviço, você poderá selecioná-la no campo **[!UICONTROL Data]**. No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. É possível defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**."
+>abstract="Especifique os dados e a origem da assinatura de cada registro. Você pode deixar essa seção vazia; nesse caso, nenhuma data ou origem será definida ao executar o fluxo de trabalho. Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil no serviço, será possível selecioná-la no campo **[!UICONTROL Data]**. No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. É possível defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**."
 
 A atividade **Serviços de assinatura** é uma atividade de **Gerenciamento de Dados**. Ele permite criar ou excluir uma subscrição para um serviço de informações para a população especificada na transição.
 

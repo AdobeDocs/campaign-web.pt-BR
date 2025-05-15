@@ -6,7 +6,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1569'
-ht-degree: 42%
+ht-degree: 43%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="Notificação silenciosa para iOS"
->abstract="O modo Push silencioso permite que uma notificação &quot;silenciosa&quot; seja enviada a um aplicativo móvel. O usuário não está ciente da chegada da notificação. Ele é transferido diretamente para o aplicativo."
+>abstract="O modo Push silencioso permite que uma notificação “silenciosa” seja enviada a um aplicativo móvel. O usuário não está ciente da chegada da notificação. Ele é transferido diretamente para o aplicativo."
 
 Depois que o delivery por push for criado, defina o conteúdo. Os parâmetros e as configurações dependem do sistema operacional móvel: Android ou iOS. Navegue pelas guias abaixo para saber como compor sua mensagem para cada sistema operacional.
 

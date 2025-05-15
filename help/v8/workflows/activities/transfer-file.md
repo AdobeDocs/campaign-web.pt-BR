@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -61,14 +61,14 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
    * **[!UICONTROL Teste para ver se o arquivo existe]**: verifique se um determinado arquivo está presente no servidor. Gera duas transições de saída após a atividade: &quot;File exists&quot; e &quot;File does not exist&quot;.
    * **[!UICONTROL Lista de arquivos]**: lista todos os arquivos disponíveis no servidor.
 
-   +++
++++
 
    +++Ações disponíveis com **atividades do tipo download da Web**
 
    * **[!UICONTROL Transferência simples (GET)]**: recuperar um arquivo.
    * **[!UICONTROL Transferir usando um formulário (POST)]**: carregar um arquivo e parâmetros adicionais.
 
-   +++
++++
 
    ![Captura de tela mostrando as opções de ação de arquivo de transferência de fluxo de trabalho](../assets/workflow-transfer-file-action.png)
 
@@ -118,12 +118,12 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Excluir os arquivos de origem após a transferência"
->abstract="Apagar os arquivos de origem após uma transferência bem-sucedida."
+>abstract="Apague os arquivos de origem após uma transferência bem-sucedida."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Exibir os logs de sessão"
->abstract="As informações relacionadas à operação de transferência são exibidas nos logs de workflow."
+>abstract="As informações relacionadas à operação de transferência são exibidas nos logs de fluxo de trabalho."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
@@ -148,7 +148,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
    * **[!UICONTROL Exibir os logs de sessão]**: quando esta opção é ativada, as informações relacionadas à operação de transferência são exibidas nos logs de fluxo de trabalho após a execução do fluxo de trabalho.
    * **[!UICONTROL Listar todos os arquivos]** (Ações de listagem de arquivos): esta opção indexa todos os arquivos presentes no servidor na variável de evento `vars.filenames`, na qual os nomes dos arquivos são separados pelos caracteres `n`. [Saiba como trabalhar com variáveis de evento](../event-variables.md)
 
-   +++
++++
 
    +++Opções adicionais para **[!UICONTROL atividades do tipo download da Web]**
 

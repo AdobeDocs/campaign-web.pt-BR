@@ -6,7 +6,7 @@ exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="Atividade de espera"
->abstract="A atividade **Wait** é usada para atrasar a transição de uma atividade para outra."
+>abstract="A Atividade **aguardar** é usada para atrasar a transição de uma atividade para outra."
 
 A atividade **Aguardar** é uma atividade de **Controle de fluxo**. Ele permite que um determinado período transcorra entre a execução de duas atividades. Por exemplo, ele pode ser usado para aguardar vários dias após uma atividade de delivery de email e depois analisar as aberturas e os cliques gerados durante esse período antes de executar operações de acompanhamento, como enviar um email de lembrete ou criar um público-alvo.
 
