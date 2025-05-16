@@ -4,9 +4,9 @@ title: Introdução ao canal da central de atendimento
 description: Aprenda a criar e enviar entregas para central de atendimento com o Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Canal da central de atendimento"
->abstract="O canal da central de atendimento agora está disponível na interface do Campaign Web. Este canal se refere a um método de comunicação usado para gerenciar e rastrear comunicações feitas por uma central de atendimento."
+>abstract="O canal da central de atendimento já está disponível na interface do usuário da web do Campaign. Esse canal refere-se a um método de comunicação usado para gerenciar e rastrear comunicações tratadas por meio de uma central de atendimento."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 O canal da central de atendimento permite exportar listas de contatos direcionadas para campanhas de telefone de saída diretamente da interface do Adobe Campaign Web. Use-o para coordenar chamadas por meio de equipes internas ou centros de contato externos.

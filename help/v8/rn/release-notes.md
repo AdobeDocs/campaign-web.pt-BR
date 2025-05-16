@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ As alterações e melhorias disponíveis em versões anteriores estão listadas 
 <table>
 <thead>
 <tr>
-<th><strong>Pontuação de alinhamento da marca (Beta)</strong><br/></th>
+<th><strong>Pontuação de alinhamento da marca (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O recurso de pontuação de alinhamento da marca oferece feedback claro diretamente no designer de email, ajudando você a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível no Beta.</p>
+<p>O recurso de pontuação de alinhamento da marca fornece um feedback claro diretamente no designer de email, ajudando a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível na versão beta.</p>
 <p>Para obter mais informações, consulte a <a href="../content/brands-score.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -56,7 +56,7 @@ Os seguintes recursos estão disponíveis para todos os usuários a partir da ve
 <tbody>
 <tr>
 <td>
-<p>O canal da central de atendimento agora está disponível na interface do Campaign Web. Este canal se refere a um método de comunicação usado para gerenciar e rastrear comunicações ou interações realizadas por meio de uma central de atendimento, normalmente, chamadas telefônicas feitas por agentes para clientes ou clientes potenciais.</p>
+<p>O canal da central de atendimento já está disponível na interface do usuário da web do Campaign. Este canal se refere a um método de comunicação usado para gerenciar e rastrear comunicações ou interações realizadas por meio de uma central de atendimento, normalmente, chamadas telefônicas feitas por agentes para clientes ou clientes potenciais.</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>Para obter mais informações, consulte a <a href="../call-center/gs-call-center.md">documentação detalhada</a>.</p>
 </td>
