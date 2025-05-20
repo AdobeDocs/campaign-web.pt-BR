@@ -14,7 +14,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Novo Construtor de regras"
+>title="Novo construtor de regras"
 >abstract="Um novo construtor de regras agora está disponível para ajudar você a definir condições complexas em uma interface aprimorada. Você pode alternar do construtor de regras antigo para o novo, conforme necessário."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
