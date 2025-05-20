@@ -50,9 +50,7 @@ Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. 
 Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Adobe Campaign Web. Para obter uma lista abrangente das principais funcionalidades e recursos das atualizações de versão, consulte [esta página](rn/whats-new.md).
 
 >[!BEGINTABS]
-
-
->Versão de [!TAB maio de 2025]
+>[!TAB Versão de  maio de 2025]
 
 A versão de maio já está disponível, incluindo o canal da central de atendimento, o novo construtor de regras e mais melhorias.
 
