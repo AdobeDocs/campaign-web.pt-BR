@@ -3,10 +3,10 @@ audience: end-user
 title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ Na seção **[!UICONTROL Segurança]** das **[!UICONTROL Configurações da p
 Clique diretamente nas permissões e altere-as para **[!UICONTROL Permitido]** ou **[!UICONTROL Negado]**.
 
 ![Exemplo de permissões negadas nas configurações de segurança de pasta](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Você não deve ser capaz de criar um objeto para o qual você não tem pelo menos uma pasta com direitos de gravação.
+>
+>Você não precisa ser um administrador para criar fragmentos, mas deve ter direitos de gravação em pelo menos uma pasta de &quot;Fragmento visual de conteúdo&quot;. Caso contrário, você não poderá criar um fragmento visual.
 
 Se a opção **[!UICONTROL Propagar]** estiver habilitada, todas as permissões definidas para uma pasta serão aplicadas a todas as suas subpastas. Essas permissões podem ser substituídas em cada subpasta.
 

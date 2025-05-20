@@ -3,10 +3,10 @@ audience: end-user
 title: Criar uma entrega da central de atendimento
 description: Saiba como criar uma entrega de call center com o Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 3%
+source-wordcount: '756'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ Agora, é necessário definir o público-alvo que será direcionado para o arqui
 >
 >Os recipients da central de atendimento devem conter pelo menos seus nomes e número de telefone. Quaisquer recipients com informações incompletas serão excluídos dos deliveries da central de atendimento.
 >
->Para saber como configurar grupos de controle, consulte esta [página](../audience/control-group.md)
+>Para saber como configurar grupos de controle, consulte esta [página](../audience/control-group.md).
 
 ## Editar o conteúdo{#edit-content}
 
@@ -72,7 +72,7 @@ Agora, vamos editar o conteúdo do arquivo de extração que será gerado pelo d
 
    ![Captura de tela mostrando a edição de conteúdo para uma entrega da central de atendimento](assets/cc-content0.png){zoomable="yes"}
 
-1. Especifique o campo **[!UICONTROL Nome do arquivo]**. Para saber como personalizar o nome do arquivo, consulte esta [página](../personalization/personalize.md).
+1. Especifique o **[!UICONTROL Nome do arquivo]**. Para saber como personalizar o nome do arquivo, consulte esta [página](../personalization/personalize.md).
 
 1. Selecione um **[!UICONTROL Formato de arquivo]**: **Texto**, **Texto usando colunas de largura fixa**, **CSV (Excel)** ou **XML**.
 
@@ -120,7 +120,7 @@ As principais etapas para visualizar e enviar o arquivo de extração são as se
 
 1. Clique em **[!UICONTROL Enviar]** para continuar com o processo de envio final e, em seguida, confirme.
 
-Depois que a entrega é enviada, o arquivo de extração é gerado automaticamente e exportado para o local especificado na conta externa **[!UICONTROL Roteamento]** selecionada nas [configurações avançadas](../advanced-settings/delivery-settings.md) do modelo de entrega.
+Depois que a entrega é enviada, o arquivo de extração é gerado automaticamente e exportado para o local especificado na conta externa **[!UICONTROL Roteamento]** selecionada nas [configurações avançadas](../advanced-settings/delivery-settings.md) do modelo de entrega. Você também pode visualizar o arquivo clicando no botão **Visualizar arquivo**, na seção **Conteúdo** da tela.
 
 Acompanhe seus KPIs (indicadores principais de desempenho) na página de entrega e os dados do menu **[!UICONTROL Logs]**.
 
