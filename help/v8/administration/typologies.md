@@ -134,7 +134,7 @@ Defina as propriedades da regra de tipologia:
 
    **[!UICONTROL No final da análise]**: aplicar verificações que exigem a personalização completa da mensagem.
 
-+++
+   +++
 
    * **[!UICONTROL Nível]**: especifique o nível de alerta para a regra. Expanda a seção abaixo para obter mais informações.
 
@@ -148,7 +148,7 @@ Defina as propriedades da regra de tipologia:
 
    **[!UICONTROL Detalhado]**: exibir informações nos logs do servidor.
 
-+++
+   +++
 
 ### Criar o conteúdo da regra {#build}
 
