@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com regras de negócios (tipologias)
 description: Saiba como trabalhar com tipologias e regras de tipologia para controlar, filtrar e monitorar o envio de deliveries.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 29%
@@ -134,7 +134,7 @@ Defina as propriedades da regra de tipologia:
 
    **[!UICONTROL No final da análise]**: aplicar verificações que exigem a personalização completa da mensagem.
 
-   +++
++++
 
    * **[!UICONTROL Nível]**: especifique o nível de alerta para a regra. Expanda a seção abaixo para obter mais informações.
 
@@ -148,7 +148,7 @@ Defina as propriedades da regra de tipologia:
 
    **[!UICONTROL Detalhado]**: exibir informações nos logs do servidor.
 
-   +++
++++
 
 ### Criar o conteúdo da regra {#build}
 

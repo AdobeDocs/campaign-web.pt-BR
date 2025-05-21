@@ -3,7 +3,7 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 17%

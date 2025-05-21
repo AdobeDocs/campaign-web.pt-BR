@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 27%
