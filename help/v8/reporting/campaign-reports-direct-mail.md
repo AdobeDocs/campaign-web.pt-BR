@@ -3,7 +3,7 @@ audience: end-user
 title: Relatórios de campanha para o canal de correspondência direta
 description: Entender os relatórios de campanha do canal de correspondência direta
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 19%

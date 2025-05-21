@@ -3,7 +3,7 @@ audience: end-user
 title: Criar um delivery de notificação por push avançado
 description: Saiba como criar uma entrega de notificação por push avançada do Android com o Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '3379'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >* Esse recurso exige a atualização para o Campaign v8.6.3 <!--or v8.7.2-->. Saiba mais nas [notas de versão](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} do console do cliente do Campaign v8.
 >
->* Antes de criar uma Notificação por push avançada, primeiro é necessário configurar o conector V2. Consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} para obter o procedimento detalhado.
+>* Antes de criar uma Notificação por push avançada, primeiro é necessário configurar o conector V2. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} para obter o procedimento detalhado.
 
 
 Com o Firebase Cloud Messaging, você pode escolher entre dois tipos de mensagens:
@@ -148,7 +148,7 @@ Depois de definir o conteúdo da mensagem, você pode usar assinantes de teste p
 
 1. Selecione o **[!UICONTROL Tipo de link]** da URL que você adicionou ao campo **[!UICONTROL Ação de clique]**:
 
-   * **[!UICONTROL URL da Web]**&#x200B;L: URLs da Web direcionam usuários para conteúdo online. Ao clicar em, eles solicitam que o navegador da Web padrão do dispositivo abra e navegue até o URL designado.
+   * **[!UICONTROL URL da Web]**L: URLs da Web direcionam usuários para conteúdo online. Ao clicar em, eles solicitam que o navegador da Web padrão do dispositivo abra e navegue até o URL designado.
 
    * **[!UICONTROL Deeplink]**: deep links são URLs que direcionam os usuários para seções específicas dentro de um aplicativo, mesmo que ele esteja fechado. Quando clicada, uma caixa de diálogo pode ser exibida, permitindo que os usuários escolham entre vários aplicativos capazes de manipular o link.
 

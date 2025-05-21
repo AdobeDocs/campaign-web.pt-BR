@@ -3,7 +3,7 @@ audience: end-user
 title: Personalizar o plano de fundo do email
 description: Saiba como personalizar o plano de fundo do email
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 44%

@@ -3,7 +3,7 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 26%
