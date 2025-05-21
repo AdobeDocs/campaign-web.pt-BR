@@ -37,7 +37,7 @@ Primeiro, é necessário configurar o canal externo personalizado. Estas são as
 1. Crie uma nova conta externa de roteamento.
 1. Crie um novo template do delivery associado ao novo canal.
 
-Para obter mais detalhes, consulte a [documentação do Console do Cliente](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Para obter mais detalhes, consulte a [documentação do Console do Cliente](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=pt-BR)
 
 ## Criar a entrega{#create-delivery}
 
