@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Geração de página de aterrissagem com o Assistente de IA{#generative-lp}
+# Geração de páginas de destino com o Assistente de IA{#generative-lp}
 
 >[!IMPORTANT]
 >

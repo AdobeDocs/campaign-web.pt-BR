@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ No botão **[!UICONTROL ...]**, selecione **[!UICONTROL Criar nova pasta]**.
 ![Captura de tela mostrando a opção Criar nova pasta sob o ... botão](assets/folder_create.png){zoomable="yes"}
 
 Ao criar uma nova pasta, o tipo de pasta assume como padrão o tipo da pasta principal.\
-Neste exemplo, uma pasta é criada na pasta **[!UICONTROL Deliveries]**.
+Neste exemplo, uma pasta é criada na pasta **[!UICONTROL Entregas]**.
 
 ![Captura de tela mostrando uma nova pasta criada na pasta Deliveries](assets/folder_new.png){zoomable="yes"}
 
@@ -27,7 +27,7 @@ Você pode alterar o tipo de pasta clicando no ícone Tipo de pasta e selecionan
 
 ![Captura de tela mostrando a lista de tipos de pastas disponíveis para seleção](assets/folder_type.png){zoomable="yes"}
 
-Configure o tipo de pasta clicando no botão **[!UICONTROL Confirmar]**.
+Para configurar o tipo de pasta, clique em **[!UICONTROL Confirmar]**.
 
 Para criar uma pasta sem um tipo específico, selecione o tipo **[!UICONTROL Pasta genérica]**.
 

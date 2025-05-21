@@ -30,4 +30,4 @@ O estilo se aplica ao elemento selecionado.
 
 >[!NOTE]
 >
->Se os elementos derivados não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.
+>Se os elementos filhos não tiverem atributos de estilo específicos definidos, o estilo do elemento pai será herdado.

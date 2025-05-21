@@ -84,7 +84,7 @@ Para criar um novo target mapping, acesse o menu **[!UICONTROL Administração]*
 
    1. **[!UICONTROL Logs de rastreamento]**: ative a opção **[!UICONTROL Gerar um esquema para rastreamento]** para gerar um esquema de armazenamento para logs de rastreamento.
 
-   +++
++++
 
 1. Use a seção **[!UICONTROL Mapping]** para identificar quais atributos do esquema do target mapping devem ser usados para cada campo de endereço de entrega. Para cada campo, selecione o atributo desejado a ser mapeado. Também é possível criar uma expressão para identificar o campo. Por exemplo, aplique uma função inferior ao atributo address.
 

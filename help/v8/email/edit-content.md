@@ -129,7 +129,7 @@ Para criar variantes de idioma, siga estas etapas:
 
    >[!IMPORTANT]
    >
-   >O botão **[!UICONTROL Adicionar idioma]** só estará disponível se a dimensão de destino contiver o esquema Idioma. Para saber mais sobre esquemas e dimensões do Target, consulte a [documentação detalhada](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >O botão **[!UICONTROL Adicionar idioma]** só estará disponível se a dimensão de destino contiver o esquema Idioma. Para saber mais sobre esquemas e dimensões do Target, consulte a [documentação detalhada](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Para criar variantes de idioma, siga estas etapas:
 
    >[!NOTE]
    >
-   >Os idiomas disponíveis nessa lista dependem dos valores que foram definidos pelo atributo Language (valores como: sistema, usuário, dbenum etc.) Saiba mais sobre o gerenciamento de enumeração nesta [seção](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Os idiomas disponíveis nessa lista dependem dos valores que foram definidos pelo atributo Language (valores como: sistema, usuário, dbenum etc.) Saiba mais sobre o gerenciamento de enumeração nesta [seção](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

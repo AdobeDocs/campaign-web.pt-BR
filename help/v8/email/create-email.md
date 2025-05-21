@@ -89,7 +89,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    >[!NOTE]
    >
-   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
@@ -252,4 +252,4 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 Saiba como criar uma entrega por email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454010/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

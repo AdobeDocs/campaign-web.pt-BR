@@ -6,13 +6,13 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
 # Introdução a relatórios de campanha {#campaign-reports}
 
-Os **Relatórios de campanha** fornecem uma visão geral abrangente da sua **campanha**, incorporando todas as informações relevantes sobre as diferentes entregas incluídas. Esses relatórios oferecem uma análise detalhada do desempenho de cada delivery por canal, incluindo taxas de sucesso, envolvimento do público-alvo e outras métricas principais. Eles ajudam a avaliar a eficácia e o impacto gerais da campanha.
+Os **relatórios de campanha** fornecem uma visão geral abrangente da sua **campanha**, incorporando todas as informações relevantes sobre as diferentes entregas incluídas. Esses relatórios oferecem uma análise detalhada do desempenho de cada delivery por canal, incluindo taxas de sucesso, envolvimento do público-alvo e outras métricas principais. Eles ajudam a avaliar a eficácia e o impacto gerais da campanha.
 
 A lista completa de relatórios e métricas associadas para cada canal está disponível nas seguintes páginas:
 

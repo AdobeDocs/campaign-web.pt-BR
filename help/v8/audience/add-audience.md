@@ -6,7 +6,7 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ Esta seção explica como selecionar um público-alvo ao definir a população d
 * [Criar uma audiência única](one-time-audience.md) usando o modelador de consultas.
 * [Carregar um público de um arquivo externo](file-audience.md) (somente para emails).
 
-Os públicos-alvo que podem ser direcionados em entregas podem ser acessados no menu esquerdo **Público-alvo**. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba mais sobre públicos-alvo](manage-audience.md)
+Os públicos-alvo que podem ser direcionados em entregas podem ser acessados no menu esquerdo **Público-alvo**. Eles são originários de várias fontes, como o console do cliente, os workflows de público-alvo da Web do Campaign ou o Adobe Experience Platform. [Saiba mais sobre públicos-alvo](manage-audience.md).
 
 Para selecionar um público-alvo existente para sua mensagem, siga as etapas abaixo:
 

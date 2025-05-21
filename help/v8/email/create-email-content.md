@@ -5,7 +5,7 @@ description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 54%
 
 ---
@@ -110,4 +110,4 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453570/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

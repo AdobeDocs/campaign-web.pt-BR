@@ -154,7 +154,7 @@ Para configurar a conta externa **[!UICONTROL Instância de execução]**:
 
 * **[!UICONTROL Método]** - Escolha entre o serviço Web ou o FDA (Federated Data Access — Acesso a Dados Federados).
 
-  Para FDA, selecione a conta FDA. Observe que a conexão do Campaign com sistemas externos é restrita a usuários avançados e está disponível somente no console do cliente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/connect/fda#_blank)
+  Para FDA, selecione a conta FDA. Observe que a conexão do Campaign com sistemas externos é restrita a usuários avançados e está disponível somente no console do cliente. [Saiba mais](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Criar fluxo de trabalho de arquivamento]** - Para cada instância de execução registrada no Centro de Mensagens, independentemente de haver uma ou várias instâncias, crie um fluxo de trabalho de arquivamento separado para cada conta externa associada à instância de execução.
 
@@ -206,7 +206,7 @@ Para se conectar ao console do Adobe Campaign usando uma Adobe ID, você deve co
 
 ### Serviço de armazenamento simples Amazon (S3) {#amazon-simple-storage-service--s3--external-account}
 
-O conector do Serviço de Armazenamento Simples da Amazon (S3) pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de workflow. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+O conector do Serviço de Armazenamento Simples da Amazon (S3) pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de workflow. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Captura de tela mostrando os campos de configuração da conta externa S3 do Serviço de Armazenamento Simples da Amazon.](assets/external-AWS.png)
 
@@ -237,7 +237,7 @@ Para saber onde encontrar a ID da chave de acesso e a chave de acesso secreta, c
 
 ### Armazenamento Azure Blob {#azure-blob-external-account}
 
-A conta externa **[!UICONTROL Armazenamento Azure Blob]** pode ser usada para importar ou exportar dados para a Adobe Campaign usando uma atividade de fluxo de trabalho **[!UICONTROL Transferir arquivo]**. Para obter mais informações, consulte [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+A conta externa **[!UICONTROL Armazenamento Azure Blob]** pode ser usada para importar ou exportar dados para a Adobe Campaign usando uma atividade de fluxo de trabalho **[!UICONTROL Transferir arquivo]**. Para obter mais informações, consulte [esta seção](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Captura de tela mostrando os campos de configuração da conta externa do Armazenamento Azure Blob.](assets/external-azure.png)
 
@@ -257,7 +257,7 @@ Para configurar a **[!UICONTROL conta externa do Azure]** para funcionar com a A
 
 ## Hadoop
 
-A conta externa do Hadoop permite conectar a instância do Campaign ao banco de dados externo do Hadoop. Você pode saber mais sobre o Hadoop na [documentação do console do Campaign V7](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+A conta externa do Hadoop permite conectar a instância do Campaign ao banco de dados externo do Hadoop. Você pode saber mais sobre o Hadoop na [documentação do console do Campaign V7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Captura de tela mostrando a configuração da conta externa do Hadoop.](assets/external-hadoop.png)
 

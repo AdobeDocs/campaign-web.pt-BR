@@ -51,8 +51,7 @@ Defina as configurações de delivery conforme detalhado abaixo:
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
-
-   +++
++++
 
 ## Selecionar o público-alvo da entrega por push {#create-audience-push}
 

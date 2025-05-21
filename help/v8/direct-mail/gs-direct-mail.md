@@ -4,7 +4,7 @@ title: Introdução às entregas de correspondência direta
 description: Saiba como criar e enviar entregas de correspondência direta com o Adobe Campaign Web
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 

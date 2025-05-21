@@ -31,7 +31,7 @@ Os esquemas desempenham um papel fundamental em:
 
 Cada entidade no Adobe Campaign tem um esquema dedicado, garantindo a consistência e a organização dos dados.
 
-Informações detalhadas sobre esquemas estão disponíveis na [documentação do console do Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Informações detalhadas sobre esquemas estão disponíveis na [documentação do console do Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Acessar esquemas na Interface do Usuário da Web {#access}
 

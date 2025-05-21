@@ -16,7 +16,7 @@ Em mensagens transacionais, um evento aciona o envio de uma mensagem personaliza
 
 ## Criar um modelo de mensagem transacional {#transactional-template}
 
-Na interface do usuário da Web do Campaign, a primeira etapa na configuração de mensagens transacionais é a criação do template ou a criação direta da mensagem. Isso é diferente da [configuração de mensagens transacionais no console do cliente](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/real-time/transactional).
+Na interface do usuário da Web do Campaign, a primeira etapa na configuração de mensagens transacionais é a criação do template ou a criação direta da mensagem. Isso é diferente da [configuração de mensagens transacionais no console do cliente](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Um template de mensagem transacional pode ser usado para pré-visualizar o conteúdo de delivery recebido pelo perfil antes que ele atinja o público final. Por exemplo, um administrador pode definir e configurar os templates, deixando-os prontos para uso pelos usuários de marketing.
 
@@ -66,7 +66,7 @@ A seção **[!UICONTROL Propriedades]** de uma mensagem transacional ajuda a con
 * A **[!UICONTROL Pasta de execução]**, onde a mensagem é armazenada após a execução.
 * O **[!UICONTROL Código de entrega]**, que é um código que ajuda a reconhecer a mensagem para relatórios, se necessário.
 * A **[!UICONTROL Descrição]**.
-* A **[!UICONTROL Nature]**, que é a natureza da entrega, conforme listada na enumeração *deliveryNature*. [Saiba mais sobre enumerações](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* A **[!UICONTROL Nature]**, que é a natureza da entrega, conforme listada na enumeração *deliveryNature*. [Saiba mais sobre enumerações](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![Captura de tela mostrando a seção de propriedades de um modelo de mensagem transacional.](assets/template-properties.png){zoomable="yes"}
 

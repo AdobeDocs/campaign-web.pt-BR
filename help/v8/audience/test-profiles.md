@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 15%
 
 ---
@@ -23,7 +23,7 @@ Os perfis de teste são usados para enviar provas e validar o conteúdo e as con
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=pt-BR){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 As etapas para enviar provas para perfis de teste estão detalhadas em [esta seção](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ O perfil de teste que você acabou de criar está pronto para ser usado para env
 
 Saiba como criar e gerenciar perfis de teste usando a interface da Web do Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442900?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

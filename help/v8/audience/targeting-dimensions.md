@@ -44,4 +44,4 @@ Use outros target mappings integrados em workflows e deliveries, conforme listad
 | Arquivo externo | Entrega por meio de um arquivo contendo todas as informações necessárias | Nenhum schema vinculado, nenhum target inserido |
 | Aplicativos de assinante | Perfis inscritos em um aplicativo | nms:appSubscriptionRcp |
 
-Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR#new-mapping){target="_blank"}.
+Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

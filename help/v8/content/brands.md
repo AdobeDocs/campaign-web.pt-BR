@@ -25,7 +25,7 @@ No [!DNL Adobe Campaign Web], os usuários podem inserir e organizar manualmente
 
 Para acessar o menu **[!UICONTROL Marcas]** no [!DNL Adobe Campaign Web], os usuários devem receber os perfis de produto **[!UICONTROL Administrador (administrador)]** e **[!UICONTROL Kit de marcas]** para criar e gerenciar marcas. Para acesso somente leitura, os usuários precisam do perfil de produto [!UICONTROL Assistente de IA].
 
-[Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Saiba mais](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Saiba como atribuir permissões relacionadas à marca
 

@@ -5,7 +5,7 @@ description: Saiba como definir um grupo de controle para suas mensagens na inte
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 22%
 
 ---
