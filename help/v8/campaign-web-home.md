@@ -3,7 +3,7 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: 'Central de ajuda do Campaign Web '
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 89%
@@ -50,9 +50,11 @@ Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. 
 Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Adobe Campaign Web. Para obter uma lista abrangente das principais funcionalidades e recursos das atualizações de versão, consulte [esta página](rn/whats-new.md).
 
 >[!BEGINTABS]
->[!TAB Versão de  maio de 2025]
 
-A versão de maio já está disponível, incluindo o canal da central de atendimento, o novo construtor de regras e mais melhorias.
+
+>Versão de [!TAB maio de 2025]
+
+A versão de maio já está disponível, incluindo o novo Canal personalizado, a pontuação de alinhamento da marca e o aprimoramento das regras de tipologia.
 
 [![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
