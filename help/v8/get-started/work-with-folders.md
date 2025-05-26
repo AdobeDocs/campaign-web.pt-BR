@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '626'
+source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
+workflow-type: tm+mt
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 100%
 >id="acw_folder_schedule"
 >title="Programação da pasta"
 >abstract="Programação da pasta"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoritos"
+>abstract="Favoritos"
 
 ## Sobre pastas {#about-folders}
 
