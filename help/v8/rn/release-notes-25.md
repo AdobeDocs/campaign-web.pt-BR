@@ -2,7 +2,7 @@
 title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2025 da interface do Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: a0ca24df649cc5bdca6d58a6519ffb03b2234cb4
+source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 98%
@@ -31,7 +31,7 @@ Os seguintes recursos estão disponíveis para todos os usuários a partir da ve
 <tr>
 <td>
 <p>O canal da central de atendimento já está disponível na interface do usuário da web do Campaign. Este canal se refere a um método de comunicação usado para gerenciar e rastrear comunicações ou interações realizadas por meio de uma central de atendimento, normalmente, chamadas telefônicas feitas por agentes para clientes ou clientes potenciais.</p>
-<p>Observação: os relatórios não estão disponíveis na interface do usuário da Web para o canal da central de atendimento. Você deve navegar até o Console do cliente para acessar os relatórios.</p></td>
+<p>Observação: os relatórios não estão disponíveis na interface do usuário da Web para o canal da central de atendimento. Você deve navegar até o Console do cliente para acessar os relatórios.</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>Para obter mais informações, consulte a <a href="../call-center/gs-call-center.md">documentação detalhada</a>.</p>
 </td>
