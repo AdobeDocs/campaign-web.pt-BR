@@ -3,7 +3,7 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2025 da interface do Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 100%
 
