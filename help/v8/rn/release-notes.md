@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -50,8 +50,8 @@ Os seguintes recursos estão disponíveis para todos os usuários a partir da ve
 <tbody>
 <tr>
 <td>
-<p>Agora você pode, diretamente da interface do usuário da Web do Adobe Campaign, orquestrar e executar deliveries com base em canais externos personalizados. Esses deliveries podem ser independentes ou fazer parte de um fluxo de trabalho. A criação do canal externo personalizado integrado a terceiros é realizada no console.</p>
-<p>Observação: os relatórios não estão disponíveis na interface do usuário da Web para o canal personalizado. Você deve navegar até o Console do cliente para acessar os relatórios.</p>
+<p>Agora é possível, diretamente da interface da web do Adobe Campaign, orquestrar e executar entregas com base em canais externos personalizados. Essas entregas podem ser autônomas ou fazer parte de um fluxo de trabalho. A criação do canal externo personalizado integrado a terceiros é realizada no console.</p>
+<p>Observação: os relatórios não estão disponíveis na interface da web para o canal personalizado. É necessário navegar até o Console do cliente para acessar os relatórios.</p>
 <p>Para obter mais informações, consulte a <a href="../call-center/gs-custom-channel.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>

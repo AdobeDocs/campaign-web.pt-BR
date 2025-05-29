@@ -6,9 +6,9 @@ title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

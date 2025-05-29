@@ -4,9 +4,9 @@ description: 'Central de ajuda do Campaign Web '
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,9 @@ Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. 
 Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Adobe Campaign Web. Para obter uma lista abrangente das principais funcionalidades e recursos das atualizações de versão, consulte [esta página](rn/whats-new.md).
 
 >[!BEGINTABS]
->[!TAB Versão de  maio de 2025]
+
+
+>[!TAB Versão de maio de 2025]
 
 A versão de maio já está disponível, incluindo o novo Canal personalizado, a pontuação de alinhamento da marca e o aprimoramento das regras de tipologia.
 
@@ -59,7 +61,7 @@ A versão de maio já está disponível, incluindo o novo Canal personalizado, a
 
 >[!TAB Assistente de IA]
 
-✨ Mergulhe em uma experiência prática com nossa visualização de recursos ao vivo do [Assistente de IA](../v8/email/generative-gs.md), projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.
+✨Mergulhe fundo em uma experiência prática com a visualização ao vivo do recurso [Assistente de IA](../v8/email/generative-gs.md), que ajuda a explorar e a entender completamente as suas funcionalidades.
 
 [![Botão Saiba mais](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

@@ -4,9 +4,9 @@ title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Clique diretamente nas permissões e altere-as para **[!UICONTROL Permitido]**�
 
 >[!NOTE]
 >
->Você não deve ser capaz de criar um objeto para o qual você não tem pelo menos uma pasta com direitos de gravação.
+>Você não deve ser capaz de criar um objeto para o qual não tem pelo menos uma pasta com direitos de gravação.
 >
->Você não precisa ser um administrador para criar fragmentos, mas deve ter direitos de gravação em pelo menos uma pasta de &quot;Fragmento visual de conteúdo&quot;. Caso contrário, você não poderá criar um fragmento visual.
+>Não é necessário ser administrador para criar fragmentos, mas é preciso ter direitos de gravação em pelo menos uma pasta de &quot;Fragmento visual de conteúdo&quot;. Caso contrário, não será possível criar um fragmento visual.
 
 Se a opção **[!UICONTROL Propagar]** estiver habilitada, todas as permissões definidas para uma pasta serão aplicadas a todas as suas subpastas. Essas permissões podem ser substituídas em cada subpasta.
 
