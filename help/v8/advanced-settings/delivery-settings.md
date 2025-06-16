@@ -4,15 +4,23 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2800'
 ht-degree: 51%
 
 ---
 
 
 # Definir as configurações de entrega {#del-settings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="Configurações de entrega de SMS"
+>abstract="Os parâmetros de delivery de SMS são configurações técnicas que se aplicam ao delivery de SMS. Você pode definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são restritas apenas a usuários especialistas."
+
+
 
 As configurações de entrega são **parâmetros técnicos de entrega** definidos no modelo de entrega. Eles podem ser sobrecarregados para cada delivery. Essas configurações estão disponíveis no botão **Configurações**, disponível ao editar uma entrega ou um modelo de entrega.
 
@@ -103,13 +111,13 @@ O campo **[!UICONTROL Importância do destinatário]** é uma fórmula usada par
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre os mapeamentos de destino](../audience/targeting-dimensions.md).
 
-No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=pt-BR){target="_blank"}
+No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Entrega {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Configurações da entrega"
+>title="Configurações globais para a entrega"
 >abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. Você pode alterar os modos de entrega e rotina, ativar a cópia oculta (CCO) de email, enviar por meio de ondas, bem como escolher o formato das mensagens de email enviadas. Essas opções são restritas apenas a usuários especialistas."
 
 Os parâmetros de **[!UICONTROL Entrega]** são configurações técnicas que se aplicam à sua entrega.
@@ -159,7 +167,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=pt-BR#external-account-ac){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Tentativas {#retries}
 
