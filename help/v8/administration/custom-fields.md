@@ -2,10 +2,10 @@
 title: Campos personalizados
 description: Saiba como configurar campos personalizados e sua visibilidade na interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
+source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 23%
+source-wordcount: '1017'
+ht-degree: 22%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 23%
 >title="Configurações de atributo"
 >abstract="Configurações de atributo"
 
-Os campos personalizados são atributos adicionais adicionados a esquemas prontos para uso por meio do console do Adobe Campaign. Eles permitem que você personalize esquemas, incluindo novos atributos para atender às necessidades da sua organização. Saiba como estender um esquema na [documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=pt-BR){target="_blank"}.
+Os campos personalizados são atributos adicionais adicionados a esquemas prontos para uso por meio do console do Adobe Campaign. Eles permitem que você personalize esquemas, incluindo novos atributos para atender às necessidades da sua organização. Saiba como estender um esquema na [documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
 Campos personalizados podem ser exibidos em várias telas, como detalhes do perfil na interface da Web do Campaign. Os administradores podem controlar quais campos ficam visíveis e como eles são exibidos. Essas alterações se aplicam a todos os usuários do Campaign.
 
@@ -60,7 +60,13 @@ Campos personalizados estão disponíveis para os seguintes esquemas:
 * Seed addresses (nms)
 * Entregas (nms)
 
-## Adicionar campos personalizados à interface {#add}
+## Adicionar campos personalizados à interface {#add-custom}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_screen_definition"
+>title="Definição de tela"
+>abstract="Defina a lista de campos personalizados a serem editados para o esquema e suas propriedades. Clique no botão **Visualizar** para exibir os campos personalizados em uma tela de exemplo."
+
 
 Para exibir campos personalizados na interface, siga estas etapas:
 
@@ -122,7 +128,7 @@ Configurações disponíveis:
 
   ![Captura de tela mostrando um exemplo de configurações de filtro para campos personalizados](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL Abranger duas colunas]**: por padrão, os campos personalizados são exibidos na interface em duas colunas. Ative essa opção para exibir o campo personalizado na largura total da tela, em vez de em duas colunas.
 
