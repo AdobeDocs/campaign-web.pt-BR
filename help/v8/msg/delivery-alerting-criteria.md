@@ -2,15 +2,12 @@
 audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
+badge: label="Disponibilidade limitada"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 24%
+source-wordcount: '743'
+ht-degree: 26%
 
 ---
 
@@ -26,6 +23,10 @@ A interface da Web do Campaign fornece critérios de alerta predefinidos, como e
 Os critérios de alerta podem ser acessados no menu **Alertas de Entrega**, no painel de navegação esquerdo, na guia **Critérios**.
 
 ![Lista de critérios de alerta exibidos no menu Alerta de Entrega](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 ## Critérios de alerta predefinidos {#ootb-criteria}
 

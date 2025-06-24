@@ -2,15 +2,12 @@
 audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
+badge: label="Disponibilidade limitada"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1146'
+ht-degree: 24%
 
 ---
 
@@ -24,6 +21,10 @@ ht-degree: 22%
 Os painéis de alerta de delivery permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas. Eles podem ser acessados pelo menu **Alertas de Entrega** no painel de navegação esquerdo, na guia **Painéis**.
 
 ![Captura de tela mostrando a lista de painéis de alerta no menu Alerta de Entrega.](assets/alerting-dashboard-list.png)
+
+>[!AVAILABILITY]
+>
+>Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 ## Criar um painel de entrega {#dashboards}
 
@@ -75,13 +76,13 @@ Para criar um painel de delivery, siga estas etapas:
    * **Período de monitoramento antes e depois da data de contato (em horas)**: Número de horas antes e depois da hora atual. Somente os deliveries com uma data de contato nesse intervalo de tempo são considerados. Esse parâmetro se aplica a todos os critérios. Por padrão, o valor desse campo é definido como 24 horas.
    * **Taxa máxima de erros de rejeição temporária**: uma notificação é enviada para todas as entregas com uma taxa de erro de rejeição temporária maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
    * **Taxa máxima de erros de rejeição permanente**: uma notificação é enviada para todas as entregas com uma taxa de erro de rejeição permanente maior que o valor especificado. Por padrão, o valor desse campo é definido como 0,05 (5%).
-   * **Limite de tempo mínimo para entrega no status ‘Início pendente’ (em minutos)**: uma notificação é enviada para todas as entregas com um status Início pendente por mais tempo do que a duração especificada neste campo. O status Início pendente significa que as mensagens ainda não foram consideradas pelo sistema.
+   * **Limite de tempo mínimo para entrega no status &#39;Início pendente&#39; (em minutos)**: uma notificação é enviada para todas as entregas com um status de Início pendente por mais tempo do que a duração especificada neste campo. O status de Início pendente significa que as mensagens ainda não foram consideradas pelo sistema.
    * **Tempo mínimo necessário para o cálculo da taxa de transferência (em minutos)**: somente entregas iniciadas (com status Em andamento) por mais do que a duração especificada são consideradas para as Entregas com critério de taxa de transferência baixa.
    * **Porcentagem máxima de mensagens processadas para o cálculo da taxa de transferência**: somente entregas com uma porcentagem de mensagens processadas inferior à porcentagem especificada são consideradas para as entregas com critério de taxa de transferência baixa.
    * **Taxa de transferência mínima esperada (em mensagens enviadas por hora)**: somente entregas com uma taxa de transferência inferior ao valor especificado são consideradas para as entregas com critério de taxa de transferência baixa.
    * **Taxa mínima de processamento necessária para o critério &#39;Entregas em andamento&#39;**: somente as entregas com uma porcentagem de mensagens processadas maior que a porcentagem especificada são consideradas.
 
-   +++
++++
 
 1. Por padrão, os painéis de alerta são desativados, o que significa que os alertas de email vinculados a esse painel não são enviados. Para habilitar o painel imediatamente, alterne a opção **Habilitado** na seção **Geral**, ao lado do campo de seleção do grupo de alerta.
 
