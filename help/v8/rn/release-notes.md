@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 45%
 
 ---
 
@@ -20,45 +20,22 @@ As versões da interface do usuário do Adobe Campaign Web operam em um modelo d
 
 As alterações e melhorias disponíveis em versões anteriores estão listadas nas versões de [2024](release-notes-24.md) e [2025](release-notes-25.md).
 
-## Versão de maio de 2025 {#25-5-release}
+## Versão de junho de 2025 {#25-6-release}
 
-Os seguintes recursos estão disponíveis para todos os usuários a partir da versão de maio.
+### Melhorias {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Pontuação de alinhamento da marca (beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O recurso de pontuação de alinhamento da marca fornece um feedback claro diretamente no designer de email, ajudando a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível na versão beta.</p>
-<p>Para obter mais informações, consulte a <a href="../content/brands-score.md">documentação detalhada</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* O relatório Delivery Summary agora está disponível para canais Call Center e Custom. [Saiba mais](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>Canal personalizado para entregas externas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível, diretamente da interface da web do Adobe Campaign, orquestrar e executar entregas com base em canais externos personalizados. Essas entregas podem ser autônomas ou fazer parte de um fluxo de trabalho. A criação do canal externo personalizado integrado a terceiros é realizada no console.</p>
-<p>Observação: os relatórios não estão disponíveis na interface da web para o canal personalizado. É necessário navegar até o Console do cliente para acessar os relatórios.</p>
-<p>Para obter mais informações, consulte a <a href="../call-center/gs-custom-channel.md">documentação detalhada</a>.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Ao configurar um delivery de SMS, agora você tem acesso aos parâmetros de SMS específicos. Esses são os mesmos parâmetros disponíveis no Console do cliente. [Saiba mais](../advanced-settings/delivery-settings.md#sms-tab)
 
-### Melhorias {#25-5-improvements}
+* Suas pastas favoritas agora aparecem na parte superior do painel esquerdo na página do Explorer, tornando-as mais fáceis de acessar. [Saiba mais](../get-started/work-with-folders.md#favorite-folders)
 
-A tela de criação de regras de tipologia foi atualizada para facilitar a seleção do tipo de regra.
+* O Construtor de regras agora é compatível com arrastar e soltar, permitindo reorganizar os componentes da consulta de maneira mais eficiente. [Saiba mais](../query/build-query.md#drag-and-drop)
+
+* A &quot;condição humana&quot; no Construtor de regras foi aprimorada. Esta é a versão escrita e em linguagem simples das regras, exibida na parte inferior da tela:
+
+   * Os atributos agora são realçados e o schema associado é exibido.
+   * Você pode clicar nesses elementos para exibir informações mais detalhadas.
+   * Agora você pode copiar a condição humana usando o botão correspondente.
+
+* O acesso às pastas &quot;Workflows técnicos&quot; e &quot;Objetos criados automaticamente&quot; agora é restrito para impedir que sejam visualizados. [Saiba mais](../get-started/work-with-folders.md#about-folders)

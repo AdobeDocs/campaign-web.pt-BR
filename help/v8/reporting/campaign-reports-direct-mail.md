@@ -3,16 +3,18 @@ audience: end-user
 title: Relatórios de campanha para o canal de correspondência direta
 description: Entender os relatórios de campanha do canal de correspondência direta
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '574'
 ht-degree: 19%
 
 ---
 
-# Relatórios de campanha para o canal de correspondência direta {#campaign-reports-direct-mail}
+# Relatórios de campanha para canais de entrega externos {#campaign-reports-direct-mail}
 
-Cada relatório de campanha é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Para o canal de correspondência direta, os relatórios e as métricas são detalhados abaixo. Saiba como acessar seus relatórios de campanha em [esta página](campaign-reports.md).
+Cada relatório de campanha é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Para canais de entrega externos, os relatórios e as métricas são detalhados abaixo. Saiba como acessar seus relatórios de campanha em [esta página](campaign-reports.md).
+
+O relatório a seguir é descrito no contexto de correspondência direta. Também está disponível para a central de atendimento e canais externos personalizados.
 
 ## Resumo da entrega {#delivery-summary-direct}
 

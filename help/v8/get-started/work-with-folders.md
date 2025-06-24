@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="Segurança da pasta"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Restrições da pasta"
->abstract="Restrições da pasta"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Programação da pasta"
 >abstract="Programação da pasta"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Favoritos"
->abstract="Favoritos"
 
 ## Sobre pastas {#about-folders}
 
@@ -46,6 +36,16 @@ Pastas são objetos no Adobe Campaign que permitem organizar os componentes e da
 ![Interface de pastas, mostrando a organização das pastas](assets/folders.png){zoomable="yes"}
 
 É possível configurar um tipo de pasta. Por exemplo: uma pasta de entregas. O ícone de pasta muda de acordo com o tipo.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restrições da pasta"
+>abstract="As pastas Objects created automatically e Technical workflows são restritas e não podem ser visualizadas no painel lateral esquerdo."
+
+>[!IMPORTANT]
+>
+>As pastas **[!UICONTROL Objetos criados automaticamente]** e **[!UICONTROL Fluxos de trabalho técnicos]** são restritos e não podem ser exibidos no painel esquerdo.
+
 
 ## Criar uma nova pasta {#create-a-folder}
 
@@ -80,6 +80,19 @@ Neste exemplo, a pasta **Entregas** contém quatro subpastas.
 Para alterar a ordem das pastas, é possível **arrastar e soltar** ou utilizar as **setas para cima e para baixo**.
 
 ![Funcionalidade de arrastar e soltar para reordenar pastas](assets/folder-draganddrop.png){zoomable="yes"}
+
+### Pastas favoritas {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoritos"
+>abstract="Suas pastas favoritas serão exibidas na parte superior da guia esquerda."
+
+As pastas que foram marcadas como &quot;Favorito&quot; serão sempre mostradas na parte superior da guia à esquerda.
+
+Você pode adicionar pastas como favoritas clicando no botão estrela no canto superior direito ao visualizar uma pasta.
+
+![Captura de tela do local das pastas favoritas](assets/folders-favorite.png){zoomable="yes"}
 
 ## Excluir uma pasta {#delete-a-folder}
 

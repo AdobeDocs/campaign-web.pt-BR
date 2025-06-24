@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2863'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ Para começar a criar uma consulta, acesse o modelador de consultas do local de 
 >[!IMPORTANT]
 >
 >Uma interface totalmente nova para o modelador de Consulta está disponível. O novo construtor de regras permite criar a consulta com mais facilidade graças à interface simplificada. Para alternar para essa experiência, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
->![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Você pode adicionar dois tipos de elementos:
 
@@ -70,7 +70,7 @@ Para acessar essa opção, em sua query, clique no botão de seleção de atribu
 >
 >* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesses casos, uma notificação **[!UICONTROL Carga parcial]** avisa você.
 >* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos. [Saiba como selecionar atributos](../get-started/attributes.md)
->* Você pode adicionar condições aos resultados usando os **[ !Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
+>* Você pode adicionar condições aos resultados usando os **[!Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adicionar componentes de filtragem {#filtering}
 
@@ -122,7 +122,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
    | Curtir | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) como &#39;Jon%s&#39;. O caractere curinga atua como um &quot;joker&quot; para encontrar nomes como &quot;Jones&quot;. |
    | Not like | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) diferente de &#39;Smi%h&#39;. Os destinatários que têm &#39;Smith&#39; como sobrenome não serão retornados. |
 
-   +++
++++
 
 1. No campo **Value**, defina o valor esperado. Você também pode usar o editor de expressão da Web do Campaign para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no botão **Editar expressão**. [Saiba como editar expressões](expression-editor.md)
 
@@ -318,6 +318,18 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
 1. Para colar o(s) componente(s), clique no botão + no final da transição desejada e selecione **Colar n itens**.
 
    ![Exemplo de colagem de componentes](assets/copy-paste.png){zoomable="yes"}
+
+## Arrastar e soltar componentes {#drag-and-drop}
+
+>[!IMPORTANT]
+>
+>Esse recurso só está disponível para a nova experiência do construtor de regras.
+
+Ao adicionar componentes ao query, você pode movê-los para cima e para baixo usando o recurso arrastar e soltar.
+
+À esquerda de cada componente, você pode clicar nos pontos e mantê-los pressionados para arrastar o componente para cima e para baixo, dependendo de onde deseja colocar e agrupar os componentes.
+
+![Gif mostrando como arrastar e soltar os componentes no novo construtor de regras](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## Combinar componentes de filtragem com operadores {#operators}
 

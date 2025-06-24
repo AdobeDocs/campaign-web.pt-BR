@@ -4,23 +4,15 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
 workflow-type: tm+mt
-source-wordcount: '2800'
-ht-degree: 51%
+source-wordcount: '3324'
+ht-degree: 44%
 
 ---
 
 
 # Definir as configurações de entrega {#del-settings}
-
-
->[!CONTEXTUALHELP]
->id="acw_sms_delivery_settings"
->title="Configurações de entrega de SMS"
->abstract="Os parâmetros de delivery de SMS são configurações técnicas que se aplicam ao delivery de SMS. Você pode definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são restritas apenas a usuários especialistas."
-
-
 
 As configurações de entrega são **parâmetros técnicos de entrega** definidos no modelo de entrega. Eles podem ser sobrecarregados para cada delivery. Essas configurações estão disponíveis no botão **Configurações**, disponível ao editar uma entrega ou um modelo de entrega.
 
@@ -111,7 +103,7 @@ O campo **[!UICONTROL Importância do destinatário]** é uma fórmula usada par
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre os mapeamentos de destino](../audience/targeting-dimensions.md).
 
-No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=pt-BR){target="_blank"}
+No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Entrega {#delivery}
 
@@ -167,7 +159,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=pt-BR#external-account-ac){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Tentativas {#retries}
 
@@ -287,8 +279,62 @@ Você também pode personalizar o rótulo das provas:
 * Use o **[!UICONTROL Manter o código de entrega da prova]** para associar à prova o mesmo código de entrega que o definido para a entrega com a qual ela está relacionada.
 * Por padrão, o assunto da prova tem o prefixo &#39;PROOF #&#39;, onde # é o número da prova. É possível alterar esse prefixo no campo **[!UICONTROL Rotular prefixo]**.
 
+## Configurações de SMS (canal SMS) {#sms-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="Configurações de entrega de SMS"
+>abstract="Os parâmetros de delivery de SMS são configurações técnicas que se aplicam ao delivery de SMS. Você pode definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são restritas apenas a usuários especialistas."
+
+Os parâmetros de delivery de SMS são configurações técnicas que se aplicam ao delivery de SMS. Você pode definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são restritas apenas a usuários especialistas.
+
+* **[!UICONTROL Endereço do remetente]**
+
+  O campo é limitado a 21 caracteres pela especificação SMPP, mas alguns provedores podem permitir valores mais longos. Observe também que restrições muito rigorosas podem ser aplicadas em alguns países (comprimento, conteúdo, caracteres permitidos...), portanto, talvez seja necessário verificar novamente se o conteúdo inserido aqui é legal. Tenha cuidado especial ao usar campos personalizados.
 
 
+  Esse campo opcional permite substituir o endereço do remetente (oADC). Seu conteúdo é colocado no campo *source_addr* da PDU SUBMIT_SM.
+
+  Embora a especificação SMPP limite esse campo para 21 caracteres, alguns provedores podem oferecer suporte a valores mais longos. Esteja ciente de que determinados países impõem regulamentos rigorosos sobre endereços de remetente (relativos a comprimento, conteúdo, caracteres permitidos, etc.), portanto, sempre verifique se sua entrada está em conformidade com os requisitos locais. Tenha cuidado extra ao trabalhar com campos personalizados.
+
+  Se esse campo ficar vazio, o valor do campo de número do Source definido na conta externa será usado. Se ambos os valores estiverem vazios, o campo *source_addr* ficará vazio.
+
+* **[!UICONTROL Tipo de serviço]**:
+
+  Esse parâmetro é passado para o provedor como está.
+
+* **[!UICONTROL ID de serviço ou programa]**
+
+  >[!NOTE]
+  >
+  >O uso deste campo é desencorajado. Os parâmetros SMPP opcionais, disponíveis no Console do cliente, fornecem uma implementação muito mais flexível.
+  >
+  >Este campo não pode ser usado simultaneamente com parâmetros SMPP opcionais.
+
+  Em combinação com a configuração correspondente da conta externa, permite enviar um parâmetro opcional com cada MT. Esse campo define a parte do valor do TLV.
+
+* **[!UICONTROL Modo de transmissão]**
+
+  Esse campo define o tipo de SMS a ser enviado: se é uma mensagem normal ou flash e se deve ser armazenada no dispositivo móvel ou no cartão SIM. Essa configuração é transmitida no campo opcional dest_addr_subunit na PDU SUBMIT_SM.
+
+   * **Flash** define o valor como 1. Envia um SMS flash que é exibido imediatamente na tela e não é armazenado.
+   * **Normal** define o valor como 0. Envia um SMS padrão.
+   * **Salvo no dispositivo móvel** define o valor como 2. Instrui o dispositivo a armazenar o SMS na memória interna.
+   * **Salvo no terminal** define o valor como 3. Instrui o dispositivo a armazenar o SMS no cartão SIM.
+
+* **[!UICONTROL Prioridade, Tipo de comunicação]**
+
+  Esses campos são ignorados pelo conector SMPP estendido.
+
+* **[!UICONTROL Número máximo de SMS por mensagem]**
+
+  Essa configuração só terá efeito se a opção Message payload estiver desabilitada (consulte as configurações da conta externa para obter mais detalhes). Se a mensagem exigir mais SMS do que esse valor, um erro será acionado.
+
+  Embora o protocolo SMS permita que as mensagens sejam divididas em até 255 partes, alguns dispositivos móveis podem ter dificuldades para remontar mensagens com mais de 10 partes (o limite depende do modelo do dispositivo). Para obter confiabilidade, é melhor limitar as mensagens a 5 partes ou menos.
+
+  Observe que devido a como as mensagens personalizadas funcionam no Adobe Campaign, os tamanhos das mensagens podem variar. Um número alto de mensagens longas pode resultar em custos de envio maiores, portanto, usar um limite sensato ajuda a controlar as despesas.
+
+  Definir esse valor como 0 desativa o limite.
 
 ## Configurações SMTP para entrega de email {#smtp}
 

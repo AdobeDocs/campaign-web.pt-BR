@@ -3,16 +3,18 @@ audience: end-user
 title: Relatórios de correspondência direta
 description: Saiba como acessar e usar relatórios de correspondência direta
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 20%
+source-wordcount: '696'
+ht-degree: 19%
 
 ---
 
-# Relatório de entrega de correspondência direta {#direct-mail-report}
+# Relatório de entrega externa {#direct-mail-report}
 
-O **Relatório de entrega por correspondência direta** fornece informações e dados abrangentes específicos sobre sua entrega por correspondência direta. Ele inclui informações detalhadas sobre o desempenho, a eficácia e os resultados de deliveries individuais, oferecendo uma visão geral completa.
+O **Relatório de entrega externo** fornece informações e dados abrangentes específicos para a sua entrega externa. Ele inclui informações detalhadas sobre o desempenho, a eficácia e os resultados de deliveries individuais, oferecendo uma visão geral completa.
+
+O relatório a seguir é descrito no contexto de correspondência direta. Também está disponível para a central de atendimento e canais externos personalizados.
 
 ## Resumo da entrega {#delivery-summary-direct-mail}
 
@@ -82,7 +84,7 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** fornece uma visão geral do
 >title="Causas de exclusão de entrega"
 >abstract="O gráfico **Causas de exclusão** ilustra a distribuição de mensagens rejeitadas durante a preparação para a entrega, categorizada por cada regra."
 
-O gráfico **[!UICONTROL Causas da exclusão]** fornece uma análise dos motivos da rejeição da mensagem durante a preparação da entrega. Esse detalhamento é organizado por várias regras, oferecendo uma visualização detalhada dos fatores que contribuem para a exclusão de mensagens. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#email-error-types){_blank}.
+O gráfico **[!UICONTROL Causas da exclusão]** fornece uma análise dos motivos da rejeição da mensagem durante a preparação da entrega. Esse detalhamento é organizado por várias regras, oferecendo uma visualização detalhada dos fatores que contribuem para a exclusão de mensagens. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Gráfico de causas de exclusão mostrando a distribuição de mensagens rejeitadas por regra.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
