@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas à Web do Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 22%
@@ -43,12 +43,12 @@ O modelador de consultas está disponível em todo contexto onde é preciso defi
 
 | Uso | Exemplo |
 |  ---  |  ---  |
-| **Definir públicos-alvo**: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo adaptados às suas necessidades. [Saiba como criar públicos-alvo](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagem mostrando como acessar a interface de criação de público-alvo] |
-| **Personalizar atividades do fluxo de trabalho**: aplique regras nas atividades do fluxo de trabalho, como **Divisão** e **Reconciliação**, para alinhar-se aos seus requisitos específicos. [Saiba mais sobre atividades de fluxo de trabalho](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagem mostrando como acessar opções de personalização de fluxo de trabalho] |
-| **Filtros predefinidos**: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, quer você esteja trabalhando com listas de dados ou formando o público-alvo para uma entrega. [Saiba como trabalhar com filtros predefinidos](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagem mostrando como acessar filtros predefinidos] |
-| **Filtrar dados de relatórios**: adicione regras para filtrar os dados exibidos nos relatórios. [Saiba como trabalhar com relatórios](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagem mostrando como filtrar dados em relatórios] |
-| **Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como destinatários ou listas de entregas. [Saiba como filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagem mostrando como personalizar filtros de lista] |
-| **Criar conteúdo condicional**: torne o conteúdo do email dinâmico criando condições que definem qual conteúdo deve ser exibido para destinatários diferentes, garantindo mensagens personalizadas e relevantes. [Saiba como criar conteúdo condicional](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} [Imagem mostrando como criar conteúdo condicional] |
+| **Definir públicos-alvo**: especifique a população que deseja direcionar em suas mensagens ou fluxos de trabalho e crie facilmente novos públicos-alvo adaptados às suas necessidades. [Saiba como criar públicos-alvo](../audience/one-time-audience.md) | ![Imagem mostrando como acessar a interface de criação de público-alvo](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Personalizar atividades do fluxo de trabalho**: aplique regras nas atividades do fluxo de trabalho, como **Divisão** e **Reconciliação**, para alinhar-se aos seus requisitos específicos. [Saiba mais sobre atividades de fluxo de trabalho](../workflows/activities/about-activities.md) | ![Imagem mostrando como acessar opções de personalização de fluxo de trabalho](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Filtros predefinidos**: crie filtros predefinidos que servem como atalhos durante várias operações de filtragem, quer você esteja trabalhando com listas de dados ou formando o público-alvo para uma entrega. [Saiba como trabalhar com filtros predefinidos](../get-started/predefined-filters.md) | ![Imagem mostrando como acessar filtros predefinidos](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Filtrar dados de relatórios**: adicione regras para filtrar os dados exibidos nos relatórios. [Saiba como trabalhar com relatórios](../reporting/gs-reports.md) | ![Imagem que mostra como filtrar dados nos relatórios](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Personalizar listas**: crie regras personalizadas para filtrar os dados exibidos em listas como destinatários ou listas de entregas. [Saiba como filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![Imagem mostrando como personalizar filtros de lista](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Criar conteúdo condicional**: torne o conteúdo do email dinâmico criando condições que definem qual conteúdo deve ser exibido para destinatários diferentes, garantindo mensagens personalizadas e relevantes. [Saiba como criar conteúdo condicional](../personalization/conditions.md) | ![Imagem mostrando como criar conteúdo condicional](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ O modelador de consulta fornece uma tela central onde você cria a consulta e um
 >[!IMPORTANT]
 >
 >Uma interface totalmente nova para o modelador de Consulta está disponível. O novo construtor de regras permite criar a consulta com mais facilidade graças à interface simplificada. Para alternar para essa experiência, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
->![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
