@@ -2,9 +2,9 @@
 title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2025 da interface do Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # Notas de versão de 2025 {#2025-release}
 
 Esta página lista todas as alterações e melhorias disponíveis com as **versões de 2025**. As notas de versão mais recentes estão disponíveis [nesta página](release-notes.md).
+
+## Versão de maio de 2025 {#25-5-release}
+
+Os seguintes recursos estão disponíveis para todos os usuários a partir da versão de maio.
+
+<table>
+<thead>
+<tr>
+<th><strong>Pontuação de alinhamento da marca (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O recurso de pontuação de alinhamento da marca fornece um feedback claro diretamente no designer de email, ajudando a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível na versão beta.</p>
+<p>Para obter mais informações, consulte a <a href="../content/brands-score.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal personalizado para entregas externas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível, diretamente da interface da web do Adobe Campaign, orquestrar e executar entregas com base em canais externos personalizados. Essas entregas podem ser autônomas ou fazer parte de um fluxo de trabalho. A criação do canal externo personalizado integrado a terceiros é realizada no console.</p>
+<p>Observação: os relatórios não estão disponíveis na interface da web para o canal personalizado. É necessário navegar até o Console do cliente para acessar os relatórios.</p>
+<p>Para obter mais informações, consulte a <a href="../call-center/gs-custom-channel.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias {#25-5-improvements}
+
+A tela de criação de regras de tipologia foi atualizada para facilitar a seleção do tipo de regra.
 
 ## Versão de abril de 2025 {#25-4-release}
 
