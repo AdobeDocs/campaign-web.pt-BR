@@ -1,5 +1,5 @@
 ---
-title: Adicionar CSS personalizado ao seu conteúdo de email
+title: Adicionar CSS personalizado ao conteúdo do email
 description: Saiba como adicionar CSS personalizado ao seu conteúdo de email diretamente no Designer de email no Adobe Campaign
 feature: Email Design
 topic: Content Management
@@ -8,19 +8,20 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, editor, resumo, email
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Adicionar CSS personalizado ao seu conteúdo de email {#email-metadata}
+# Adicionar CSS personalizado ao conteúdo do email {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
 >title="Insira seu próprio CSS"
->abstract="Para obter mais flexibilidade e controle sobre a aparência do conteúdo, você pode adicionar CSS personalizado diretamente no Designer de email para aplicar estilos avançados e específicos."
+>abstract="Para maior flexibilidade e controle sobre a aparência do conteúdo, é possível adicionar CSS personalizado diretamente no Designer de email para aplicar estilos avançados e específicos."
 
 Ao criar seus emails, você pode adicionar seu próprio CSS personalizado diretamente no [Designer de email](get-started-email-designer.md). Esse recurso permite aplicar estilos avançados e específicos para obter mais flexibilidade e controle sobre a aparência do conteúdo.
 
@@ -253,4 +254,3 @@ Se o CSS personalizado não for aplicado, considere as opções abaixo.
     }
     ```
     -->
-

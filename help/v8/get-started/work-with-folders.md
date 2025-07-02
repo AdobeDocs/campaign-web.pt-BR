@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Pastas são objetos no Adobe Campaign que permitem organizar os componentes e da
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="Restrições da pasta"
->abstract="As pastas Objects created automatically e Technical workflows são restritas e não podem ser visualizadas no painel lateral esquerdo."
+>abstract="As pastas Objetos criados automaticamente e Fluxos de trabalho técnicos são restritas e não podem ser visualizadas no painel lateral esquerdo."
 
 >[!IMPORTANT]
 >

@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
 source-wordcount: '3159'
-ht-degree: 45%
+ht-degree: 47%
 
 ---
 
@@ -103,14 +103,14 @@ O campo **[!UICONTROL Importância do destinatário]** é uma fórmula usada par
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre os mapeamentos de destino](../audience/targeting-dimensions.md).
 
-No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=pt-BR){target="_blank"}
+No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Entrega {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Configurações globais para a entrega"
->abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. Você pode alterar os modos de entrega e rotina, ativar a cópia oculta (CCO) de email, enviar por meio de ondas, bem como escolher o formato das mensagens de email enviadas. Essas opções são restritas apenas a usuários especialistas."
+>abstract="Os parâmetros de entrega são configurações técnicas que se aplicam à sua entrega. Você pode alterar os modos de entrega e rotina, ativar a cópia oculta (CCO) de email, enviar por meio de ondas, bem como escolher o formato das mensagens de email enviadas. Essas opções são reservadas apenas a usuários especialistas."
 
 Os parâmetros de **[!UICONTROL Entrega]** são configurações técnicas que se aplicam à sua entrega.
 
@@ -159,7 +159,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=pt-BR#external-account-ac){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Tentativas {#retries}
 
@@ -197,7 +197,7 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validade das configurações"
->abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.<br>O campo **Limite da validade dos recursos** é usado para recursos enviados por upload, como mirror page ou imagens. Quando o limite for atingido, os recursos não estarão mais disponíveis."
+>abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data inicial e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.<br>O campo **Limite da validade dos recursos** é usado para recursos enviados por upload, como mirror page ou imagens. Quando o limite for atingido, os recursos não estarão mais disponíveis."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
@@ -207,7 +207,7 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Duração da entrega"
->abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido."
+>abstract="O campo **Delivery duration** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data inicial e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido."
 
 <!--
 >[!CONTEXTUALHELP]
@@ -218,7 +218,7 @@ Você pode selecionar outro modo de aprovação no campo apropriado. Os modos di
 
 ### Período de validade {#validity-period}
 
-O campo **[!UICONTROL Delivery duration]** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data de início e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
+O campo **[!UICONTROL Delivery duration]** permite inserir o limite de novas tentativas de entrega globais. Isso significa que o Adobe Campaign envia as mensagens começando na data inicial e, em seguida, para mensagens que retornam somente um erro, tentativas regulares e configuráveis são executadas até que o limite de validade seja atingido.
 
 Você também poderá optar por especificar datas. Para fazer isso, selecione **[!UICONTROL Explicitly set validity dates]**. Nesse caso, as datas de entrega e limite de validade também permitem especificar o tempo. O tempo atual é usado por padrão, mas você poderá modificar isso diretamente no campo de entrada.
 
@@ -284,9 +284,9 @@ Você também pode personalizar o rótulo das provas:
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
 >title="Configurações de entrega de SMS"
->abstract="Os parâmetros de delivery de SMS são configurações técnicas que se aplicam ao delivery de SMS. Você pode definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são restritas apenas a usuários especialistas."
+>abstract="Os parâmetros de entrega de SMS são configurações técnicas que se aplicam à entrega de SMS. É possível definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são reservadas apenas a usuários especialistas."
 
-Os parâmetros de delivery de SMS são configurações técnicas que se aplicam ao delivery de SMS. Você pode definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são restritas apenas a usuários especialistas.
+Os parâmetros de entrega de SMS são configurações técnicas que se aplicam à entrega de SMS. É possível definir o endereço do remetente, parâmetros de serviço, modo de transmissão e muito mais. Essas opções são reservadas apenas a usuários especialistas.
 
 <!--
 
