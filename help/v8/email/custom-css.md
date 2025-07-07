@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: css, editor, resumo, email
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -41,14 +41,13 @@ Para adicionar CSS personalizado ao seu conteúdo de email, siga as etapas abaix
 
 1. Clique no botão **[!UICONTROL Adicionar CSS personalizado]**.
 
-1. Insira seu código CSS na área de texto dedicada que aparece. Verifique se o CSS personalizado é válido e segue a sintaxe apropriada. [Saiba mais](#use-valid-css)
-
-   ![Inserir CSS personalizado na área de texto dedicada](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >O botão **[!UICONTROL Adicionar CSS personalizado]** só está disponível quando **[!UICONTROL Corpo]** é selecionado. No entanto, você pode aplicar estilos CSS personalizados a todos os componentes dentro do conteúdo.
 
+1. Insira seu código CSS na área de texto dedicada que aparece. Verifique se o CSS personalizado é válido e segue a sintaxe apropriada. [Saiba mais](#use-valid-css)
+
+   ![Inserir CSS personalizado na área de texto dedicada](assets/email-body-custom-css.png){width="65%"}
 
 1. Salve seu CSS personalizado e verifique se o CSS personalizado foi aplicado corretamente ao conteúdo. Se esse não for o caso, verifique a seção [Solução de problemas](#troubleshooting).
 
@@ -68,8 +67,9 @@ Você pode inserir qualquer string CSS válida na área de texto **[!UICONTROL A
 >
 >Evite usar CSS que possa quebrar involuntariamente o layout ou a funcionalidade do conteúdo.
 
-+++ Exemplos de uma CSS válida
++++ Exemplos de CSS
 
+Abaixo estão exemplos de CSS válido.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -220,7 +220,7 @@ Por exemplo:
 
 +++
 
-## Medidas de proteção
+## Grades de Proteção - Conteúdo importado
 
 Se você quiser usar o CSS personalizado com o conteúdo importado para o Designer de email, considere o seguinte:
 
@@ -237,20 +237,30 @@ Se o CSS personalizado não for aplicado, considere as opções abaixo.
 
 * Verifique se o CSS é válido e está livre de erros de sintaxe (como chaves ausentes, nomes de propriedades incorretos). [Saiba como](#use-valid-css)
 
-* Verifique se o CSS está sendo adicionado à marca `<style>` com o atributo `data-name="global-custom"` e se `data-disabled` não está aplicado a `global-custom`. [Saiba mais](#implementation)
+* Verifique se o CSS está sendo adicionado à tag `<style>` com o atributo `data-name="global-custom"`.
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* Verifique se a marca de estilo `global-custom` tem o atributo `data-disabled` definido como `true`. Se esse for o caso, o CSS personalizado não será aplicado.
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++Por exemplo:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* Certifique-se de que o CSS não seja substituído por outras regras CSS.
+
+   * Use as ferramentas de desenvolvedor do navegador para inspecionar o conteúdo e verificar se o CSS está direcionando os seletores corretos.
+
+   * Considere adicionar `!important` às suas declarações para garantir que elas tenham prioridade.
+
++++ Por exemplo:
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
