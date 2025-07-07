@@ -33,7 +33,7 @@ Com base em um [modelo de design](../email/create-email-templates.md) predefinid
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="Defina as propriedades do email"
->abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. As configurações adicionais são opcionais. Se a entrega for baseada em um schema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
+>abstract="As propriedades são os parâmetros de entrega comuns que ajudam a nomear e classificar a entrega. As configurações adicionais são opcionais. Se a entrega for baseada em um esquema estendido definido no console do Adobe Campaign v8, alguns campos de **Opções personalizadas** estarão disponíveis."
 
 Você pode gerar uma entrega de email independente ou criar um email no contexto de um fluxo de trabalho de campanha. As etapas abaixo detalham o procedimento para um delivery de email independente (único). Saiba mais sobre as etapas de criação de entrega no Adobe Campaign em [esta página](../msg/gs-deliveries.md).
 
@@ -62,7 +62,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Se tiver estendido seu schema com campos personalizados específicos, será possível acessá-los na seção **[!UICONTROL Opções personalizadas]**.
+   >Se tiver estendido seu esquema com campos personalizados específicos, será possível acessá-los na seção **[!UICONTROL Opções personalizadas]**.
 
    ![Captura de tela mostrando a configuração das propriedades de email](assets/email-properties.png){zoomable="yes"}
 
@@ -74,7 +74,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 >id="acw_deliveries_email_audience"
 >title="Selecione um público-alvo para a entrega"
 >abstract="Selecione o melhor público-alvo para a sua mensagem de marketing. É possível escolher um público-alvo existente (já definido em uma instância do Campaign v8 ou na Adobe Experience Platform), criar um novo usando o modelador de consulta ou fazer upload de um arquivo que contenha o público-alvo. Os grupos de controle não estão habilitados para a opção **Selecionar do arquivo** e vice-versa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecione os públicos-alvo principais"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=pt-BR" text="Selecionar os públicos-alvo principais"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=pt-BR" text="Definir um grupo de controle"
 
 Nesse caso de uso, você enviará o email para um público-alvo existente.
@@ -89,7 +89,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    >[!NOTE]
    >
-   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
@@ -252,4 +252,4 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 Saiba como criar uma entrega por email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454010/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
