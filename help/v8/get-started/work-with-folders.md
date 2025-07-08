@@ -4,9 +4,9 @@ title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Pastas são objetos no Adobe Campaign que permitem organizar os componentes e da
 
 >[!IMPORTANT]
 >
->As pastas **[!UICONTROL Objetos criados automaticamente]** e **[!UICONTROL Fluxos de trabalho técnicos]** são restritos e não podem ser exibidos no painel esquerdo.
+>As pastas **[!UICONTROL Objetos criados automaticamente]** e **[!UICONTROL Fluxos de trabalho técnicos]** são restritas e não podem ser visualizadas no painel lateral esquerdo.
 
 
 ## Criar uma nova pasta {#create-a-folder}
@@ -88,9 +88,9 @@ Para alterar a ordem das pastas, é possível **arrastar e soltar** ou utilizar 
 >title="Favoritos"
 >abstract="Suas pastas favoritas serão exibidas na parte superior da guia esquerda."
 
-As pastas que foram marcadas como &quot;Favorito&quot; serão sempre mostradas na parte superior da guia à esquerda.
+As pastas que foram adicionadas aos “Favoritos” serão sempre exibidas na parte superior da guia à esquerda.
 
-Você pode adicionar pastas como favoritas clicando no botão estrela no canto superior direito ao visualizar uma pasta.
+Adicione pastas como favoritas clicando no botão de estrela do canto superior direito ao visualizar uma pasta.
 
 ![Captura de tela do local das pastas favoritas](assets/folders-favorite.png){zoomable="yes"}
 

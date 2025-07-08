@@ -3,9 +3,9 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2024 da interface do usuário do Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de ago
 * **Captcha em páginas de destino**: agora, você pode adicionar um captcha para proteger a sua página de destino contra spam e abusos causados por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. [Saiba mais](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notas de versão de julho {#24-7-release}
@@ -182,7 +182,7 @@ Agora é possível criar planos e programas para organizar suas campanhas. Ao de
 
 >[!AVAILABILITY]
 >
->O recurso a seguir está na disponibilidade limitada (DL). Ele é restrito aos clientes que estão migrando o **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantado em nenhum outro ambiente.
+>Os seguintes recursos estão em disponibilidade limitada. Eles são restritos a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
 
 * **Alerta de entrega**
 

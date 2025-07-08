@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -24,18 +24,18 @@ As alterações e melhorias disponíveis em versões anteriores estão listadas 
 
 ### Melhorias {#25-6-improvements}
 
-* O relatório Delivery Summary agora está disponível para canais Call Center e Custom. [Saiba mais](../reporting/direct-mail.md)
+* O relatório Resumo da entrega agora está disponível para os canais Central de atendimento e Personalizado. [Saiba mais](../reporting/direct-mail.md)
 
-* Ao configurar um delivery de SMS, agora você tem acesso aos parâmetros de SMS específicos. Esses são os mesmos parâmetros disponíveis no Console do cliente. [Saiba mais](../advanced-settings/delivery-settings.md#sms-tab)
+* Ao configurar uma entrega de SMS, agora você tem acesso aos parâmetros de SMS específicos. Esses são os mesmos parâmetros disponíveis no Console do cliente. [Saiba mais](../advanced-settings/delivery-settings.md#sms-tab)
 
-* Suas pastas favoritas agora aparecem na parte superior do painel esquerdo na página do Explorer, tornando-as mais fáceis de acessar. [Saiba mais](../get-started/work-with-folders.md#favorite-folders)
+* Suas pastas favoritas agora aparecem na parte superior do painel esquerdo da página Explorer, o que as torna mais fáceis de acessar. [Saiba mais](../get-started/work-with-folders.md#favorite-folders)
 
-* O Construtor de regras agora é compatível com arrastar e soltar, permitindo reorganizar os componentes da consulta de maneira mais eficiente. [Saiba mais](../query/build-query.md#drag-and-drop)
+* O Construtor de regras agora permite arrastar e soltar, possibilitando reorganizar os componentes da consulta de maneira mais eficiente. [Saiba mais](../query/build-query.md#drag-and-drop)
 
 * A &quot;condição humana&quot; no Construtor de regras foi aprimorada. Esta é a versão escrita e em linguagem simples das regras, exibida na parte inferior da tela:
 
-   * Os atributos agora são realçados e o schema associado é exibido.
-   * Você pode clicar nesses elementos para exibir informações mais detalhadas.
-   * Agora você pode copiar a condição humana usando o botão correspondente.
+   * Os atributos agora são realçados e o esquema associado é exibido.
+   * É possível clicar nesses elementos para exibir informações mais detalhadas.
+   * Agora é possível copiar a condição humana usando o botão correspondente.
 
-* O acesso às pastas &quot;Workflows técnicos&quot; e &quot;Objetos criados automaticamente&quot; agora é restrito para impedir que sejam visualizados. [Saiba mais](../get-started/work-with-folders.md#about-folders)
+* O acesso às pastas “Fluxos de trabalho técnicos” e “Objetos criados automaticamente” agora é restrito para impedir a visualização. [Saiba mais](../get-started/work-with-folders.md#about-folders)
