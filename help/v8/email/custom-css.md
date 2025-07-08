@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css, editor, resumo, email
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '692'
 ht-degree: 7%
 
 ---
@@ -138,9 +138,9 @@ Abaixo estão exemplos de CSS válido.
 
 +++
 
-+++ Exemplos de CSS inválido
-
 Se um CSS inválido for inserido, uma mensagem de erro será exibida, indicando que o CSS não pode ser salvo. Abaixo estão exemplos de CSS inválido.
+
++++ Exemplos de CSS inválido
 
 O uso de `<style>` tags não é aceito:
 
@@ -208,17 +208,19 @@ Seu CSS personalizado é adicionado ao final da seção `<head>` como parte de u
 
 O CSS personalizado não é interpretado ou validado pelo painel **[!UICONTROL Configurações]** do Email Designer. Ela é totalmente independente e só pode ser modificada por meio da opção **[!UICONTROL Adicionar CSS personalizado]**.
 
-Se a marca de estilo `global-custom` tiver o atributo `data-disabled` definido como `true`, o CSS personalizado não será aplicado.
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ Ver exemplo
++++ See sample
 
-Por exemplo:
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## Grades de Proteção - Conteúdo importado
 
@@ -247,7 +249,7 @@ Se o CSS personalizado não for aplicado, considere as opções abaixo.
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * Certifique-se de que o CSS não seja substituído por outras regras CSS.
 
