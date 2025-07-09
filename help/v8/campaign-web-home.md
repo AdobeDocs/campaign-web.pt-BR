@@ -50,9 +50,7 @@ Temos o prazer de apresentar a nova versão da interface do Adobe Campaign Web. 
 Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Adobe Campaign Web. Para obter uma lista abrangente das principais funcionalidades e recursos das atualizações de versão, consulte [esta página](rn/whats-new.md).
 
 >[!BEGINTABS]
-
-
->Atualizações de [!TAB 25 de julho]
+>[!TAB Atualizações de  25 de julho]
 
 Agora novos recursos e melhorias estão disponíveis na interface do usuário da Web do Campaign. Para aproveitar esses aprimoramentos, atualize seu ambiente do Campaign para a versão 8.8. Para obter uma visão geral completa, consulte as notas de versão.
 
