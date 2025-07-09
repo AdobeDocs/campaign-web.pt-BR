@@ -47,7 +47,7 @@ Agora você pode usar esse template para enviar seus deliveries.
 
 >[!TAB Adobe Campaign V8]
 
-Para criar um template do delivery, você pode duplicar um template incorporado, converter um delivery existente em um template ou criar um template do delivery do zero. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
+Para criar um template do delivery, você pode duplicar um template incorporado, converter um delivery existente em um template ou criar um template do delivery do zero. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=pt-BR)
 
 Depois que o modelo for criado, você pode vinculá-lo a uma marca. Para fazer isso:
 
