@@ -70,7 +70,7 @@ A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standa
 
 ## Recursos específicos {#new-features}
 
-Para garantir uma transição tranquila para o Campaign v8, os principais recursos do Campaign Standard foram adicionados ao Campaign v8. Esses recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-cloud/campaign/campaign-standard-migration-home){target=&quot;_blank} e estão disponíveis somente para usuários que estão migrando do Campaign Standard.
+Para garantir uma transição tranquila para o Campaign v8, os principais recursos do Campaign Standard foram adicionados ao Campaign v8. Esses recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-cloud/campaign/campaign-standard-migration-home){target=_blank} e estão disponíveis somente para usuários que estão migrando do Campaign Standard.
 
 * **Relatórios dinâmicos**: fornecem relatórios personalizáveis em tempo real para medir o impacto das atividades de marketing. Inclui acesso a dados de perfil para análise demográfica por dimensões como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. [Saiba mais](../reporting/dynamic-reporting/get-started-reporting.md).
 
