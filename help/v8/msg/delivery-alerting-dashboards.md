@@ -2,12 +2,11 @@
 audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
-badge: label="Disponibilidade limitada"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 24%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 Os painéis de alerta de delivery permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas. Eles podem ser acessados pelo menu **Alertas de Entrega** no painel de navegação esquerdo, na guia **Painéis**.
 
 ![Captura de tela mostrando a lista de painéis de alerta no menu Alerta de Entrega.](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 ## Criar um painel de entrega {#dashboards}
 
@@ -82,7 +77,7 @@ Para criar um painel de delivery, siga estas etapas:
    * **Taxa de transferência mínima esperada (em mensagens enviadas por hora)**: somente entregas com uma taxa de transferência inferior ao valor especificado são consideradas para as entregas com critério de taxa de transferência baixa.
    * **Taxa mínima de processamento necessária para o critério &#39;Entregas em andamento&#39;**: somente as entregas com uma porcentagem de mensagens processadas maior que a porcentagem especificada são consideradas.
 
-   +++
++++
 
 1. Por padrão, os painéis de alerta são desativados, o que significa que os alertas de email vinculados a esse painel não são enviados. Para habilitar o painel imediatamente, alterne a opção **Habilitado** na seção **Geral**, ao lado do campo de seleção do grupo de alerta.
 

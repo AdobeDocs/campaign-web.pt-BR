@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com serviços de assinatura
 description: Saiba como acessar, criar e gerenciar serviços de assinatura na Web do Adobe Campaign
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 30%
+source-wordcount: '1127'
+ht-degree: 29%
 
 ---
 
@@ -87,10 +87,6 @@ Para criar um serviço de assinatura, siga as etapas abaixo.
 1. Clique em **[!UICONTROL Salvar e examinar]**. O novo serviço foi adicionado à lista **[!UICONTROL Serviços de assinatura]**.
 
 1. Selecione as landing pages de assinatura e cancelamento de assinatura padrão associadas a esse serviço.
-
-   >[!AVAILABILITY]
-   >
-   >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
    ![Captura de tela mostrando as configurações padrão da página de aterrissagem de um serviço de assinatura](assets/service-create-default-lp.png){zoomable="yes"}
 

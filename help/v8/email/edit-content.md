@@ -3,7 +3,7 @@ audience: end-user
 title: Edição do conteúdo de email
 description: Saiba como editar o conteúdo de email na interface da Web do Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 24%
@@ -113,7 +113,7 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
 
 1. Depois que o conteúdo do email tiver sido definido, use o botão **[!UICONTROL Simular conteúdo]** para verificar como ele é exibido antes de enviá-lo. [Saiba como visualizar e testar seu email](../preview-test/preview-test.md).
 
-## Configurar um delivery multilíngue
+## Configurar um delivery multilíngue {#multilingual-delivery}
 
 Na interface do usuário da Web do Campaign, você pode configurar seus deliveries de email como multilíngues, o que permite enviar mensagens com base no idioma preferencial de um perfil. Quando nenhuma preferência é definida, a mensagem é enviada no idioma padrão.
 
@@ -129,7 +129,7 @@ Para criar variantes de idioma, siga estas etapas:
 
    >[!IMPORTANT]
    >
-   >O botão **[!UICONTROL Adicionar idioma]** só estará disponível se a dimensão de destino contiver o esquema Idioma. Para saber mais sobre esquemas e dimensões do Target, consulte a [documentação detalhada](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >O botão **[!UICONTROL Adicionar idioma]** só estará disponível se a dimensão de destino contiver o esquema Idioma. Para saber mais sobre esquemas e dimensões do Target, consulte a [documentação detalhada](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Para criar variantes de idioma, siga estas etapas:
 
    >[!NOTE]
    >
-   >Os idiomas disponíveis nessa lista dependem dos valores que foram definidos pelo atributo Language (valores como: sistema, usuário, dbenum etc.) Saiba mais sobre o gerenciamento de enumeração nesta [seção](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Os idiomas disponíveis nessa lista dependem dos valores que foram definidos pelo atributo Language (valores como: sistema, usuário, dbenum etc.) Saiba mais sobre o gerenciamento de enumeração nesta [seção](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

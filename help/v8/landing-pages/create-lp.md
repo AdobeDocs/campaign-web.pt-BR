@@ -3,10 +3,10 @@ title: Criar uma landing page
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 26%
+source-wordcount: '1643'
+ht-degree: 25%
 
 ---
 
@@ -116,10 +116,6 @@ Para criar uma landing page, siga estas etapas:
 
    * A opção **[!UICONTROL Autorizar ausência de ID]** permite que qualquer visitante acesse a página de aterrissagem. Desmarcar essa opção impede que visitantes anônimos a usem, o que significa que somente usuários identificados podem acessar e enviar o formulário.
 
-     >[!AVAILABILITY]
-     >
-     >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
-
      Para os modelos **[!UICONTROL Aquisição]** e **[!UICONTROL Assinatura]**, esta opção é selecionada por padrão. Para os modelos **[!UICONTROL Unsubscription]** e **[!UICONTROL Incluir na lista de bloqueios]**, essa opção é desmarcada por padrão e não pode ser modificada.
 
 1. Uma landing page pode ter páginas subsequentes. Para adicionar páginas, navegue pela seção **[!UICONTROL Páginas]** e clique no botão **[!UICONTROL Editar conteúdo]** para cada página que você deseja criar para esta página de aterrissagem. O conteúdo de cada página já está pré-preenchido. Edite-as conforme necessário. [Saiba mais](lp-content.md).
@@ -133,10 +129,6 @@ Para criar uma landing page, siga estas etapas:
    ![Captura de tela mostrando as opções de armazenamento para a página de aterrissagem.](assets/lp-storage.png){zoomable="yes"}
 
 1. Crie **[!UICONTROL Dados adicionais]** para armazenar dados internos quando a landing page estiver sendo enviada. Esses dados não estão visíveis para usuários que visitam a página. Somente valores constantes são considerados.
-
-   >[!AVAILABILITY]
-   >
-   >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
    ![Captura de tela mostrando a seção de dados adicionais.](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Para criar uma landing page, siga estas etapas:
 Depois de definir todas as configurações e [criar](lp-content.md) todas as páginas, você pode [testar](#test-landing-page) e [publicar](#publish-landing-page) sua página de aterrissagem, conforme detalhado abaixo.
 
 ## Proteger a página de aterrissagem com um captcha {#captcha}
-
->[!AVAILABILITY]
->
->Esse recurso está na disponibilidade limitada (DL). É restrito a clientes que usam o **Adobe Campaign v8.7.2 atualizado com a última versão de correção** e não pode ser implantado em nenhum outro ambiente.
 
 Configurar um captcha ajuda a proteger sua landing page contra spam e abuso.
 

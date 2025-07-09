@@ -2,12 +2,11 @@
 audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
-badge: label="Disponibilidade limitada"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 8%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
@@ -17,11 +16,7 @@ Os alertas de delivery são um sistema de gerenciamento de alertas que permite q
 
 As notificações são personalizadas com base em critérios de alerta específicos definidos pela interface da Web do Adobe Campaign.
 
-Para obter mais informações sobre o gerenciamento de falhas de entrega, consulte a [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
-
->[!AVAILABILITY]
->
->Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
+Para obter mais informações sobre o gerenciamento de falhas de entrega, consulte a [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Conteúdo de notificação por email {#content}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Transição do Campaign Standard para o Adobe Campaign Web
 description: Conheça a interface do Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 99%
 
 ---
 
@@ -70,13 +70,13 @@ A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standa
 
 ## Recursos específicos {#new-features}
 
-Para garantir uma transição tranquila para o Campaign v8, os principais recursos do Campaign Standard foram adicionados ao Campaign v8. Esses recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target=&quot;_blank} e estão disponíveis somente para usuários que estão migrando do Campaign Standard.
+Para garantir uma transição tranquila para o Campaign v8, os principais recursos do Campaign Standard foram adicionados ao Campaign v8. Esses recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-cloud/campaign/campaign-standard-migration-home){target=&quot;_blank} e estão disponíveis somente para usuários que estão migrando do Campaign Standard.
 
-* **Relatórios dinâmicos**: fornecem relatórios personalizáveis em tempo real para medir o impacto das atividades de marketing. Inclui acesso a dados de perfil para análise demográfica por dimensões como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=pt-BR){target="_blank"}.
+* **Relatórios dinâmicos**: fornecem relatórios personalizáveis em tempo real para medir o impacto das atividades de marketing. Inclui acesso a dados de perfil para análise demográfica por dimensões como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. [Saiba mais](../reporting/dynamic-reporting/get-started-reporting.md).
 
-* **Marcas centralizadas**: o Adobe Campaign permite que as empresas definam as diretrizes técnicas e visuais da marca. Os usuários podem apresentar uma marca consistente aos clientes, desde logotipos a aspectos técnicos, como remetente de email, URL ou domínios. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=pt-BR).
+* **Marcas centralizadas**: o Adobe Campaign permite que as empresas definam as diretrizes técnicas e visuais da marca. Os usuários podem apresentar uma marca consistente aos clientes, desde logotipos a aspectos técnicos, como remetente de email, URL ou domínios. [Saiba mais](../administration/branding/branding-gs.md).
 
-* **APIs REST**: os usuários que migraram do Campaign Standard podem usar as APIs REST para criar integrações com o Adobe Campaign e produzir ecossistemas, conectando o Adobe Campaign a outras tecnologias. [Saiba mais](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
+* **APIs REST**: os usuários que migraram do Campaign Standard podem usar as APIs REST para criar integrações com o Adobe Campaign e produzir ecossistemas, conectando o Adobe Campaign a outras tecnologias. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
 * **Páginas de destino**: as páginas de destino do Campaign v8 incluem melhorias para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[ notas de versão](../rn/release-notes.md#new-24-4) e na [documentação](../landing-pages/get-started-lp.md) da página de destino.
 

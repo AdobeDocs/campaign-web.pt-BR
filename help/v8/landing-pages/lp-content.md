@@ -3,10 +3,10 @@ title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 16%
+source-wordcount: '1161'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,6 @@ Para projetar ainda mais o conteúdo da landing page:
 * Use os mesmos componentes que os usados para criar um email. [Saiba mais](../email/content-components.md#add-content-components)
 
 * Adicione conteúdo condicional às landing pages da mesma forma que para um email. [Saiba mais](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 ## Usar o componente de formulário {#use-form-component}
 
@@ -94,9 +90,9 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
 1. Exclua e adicione quantos campos (como campos de texto, botões de opção, caixas de seleção, listas suspensas etc.) forem necessários.
 
-1. Depois que todos os campos forem adicionados ou atualizados, clique em **[!UICONTROL Chamada para ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**. [Saiba como](#define-actions-on-form-submission)
+1. Depois que todos os campos forem adicionados ou atualizados, clique em **[!UICONTROL Call to action]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**. [Saiba como](#define-actions-on-form-submission)
 
-   ![Configurações de chamada para ação no componente de formulário](assets/lp-call-to-action.png){zoomable="yes"}
+   ![Configurações do Call to action no componente de formulário](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Salve seu conteúdo para voltar para as [propriedades da página de aterrissagem](create-lp.md#create-landing-page).
 
@@ -125,10 +121,6 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
 1. Selecione a opção **[!UICONTROL Serviço da URL]** para permitir que a landing page seja usada para vários serviços, tornando-a dinâmica. Defina se deseja aceitar ou recusar os usuários ao enviar o formulário.
 
-   >[!AVAILABILITY]
-   >
-   >Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
-
    ![Serviço das configurações de URL no componente de formulário](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Ao criar um email, se você definir um link do tipo **[!UICONTROL Página de aterrissagem]** para essa página de aterrissagem, será possível selecionar qualquer serviço na lista. É possível selecionar outros serviços ao definir outros links para essa landing page. [Saiba mais sobre como inserir links](../email/message-tracking.md)
@@ -138,10 +130,6 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 1. Envie uma mensagem no envio da landing page. [Saiba mais aqui](#lp-message)
 
 ### Enviar uma mensagem após o envio {#lp-message}
-
->[!AVAILABILITY]
->
->Esse recurso está na disponibilidade limitada (DL). É restrita aos clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não pode ser implantada em nenhum outro ambiente.
 
 Para enviar uma mensagem de confirmação automaticamente após o envio de uma landing page, siga estas etapas:
 
@@ -165,9 +153,9 @@ Para enviar uma mensagem de confirmação automaticamente após o envio de uma l
 
 1. Expanda e edite qualquer outra seção correspondente a outros campos que você tenha adicionado (botão de opção, lista suspensa, data e hora, etc.) ao seu formulário.
 
-1. Expanda a seção **[!UICONTROL Chamada para ação]** para modificar a aparência do botão no formulário do componente. Por exemplo, alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
+1. Expanda a seção **[!UICONTROL Call to action]** para modificar a aparência do botão no formulário do componente. Por exemplo, alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
 
-   ![Configurações de estilo de chamada para ação](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![configurações de estilo do Call to action](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    Visualize algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse, usando o botão **[!UICONTROL Simular conteúdo]**. [Saiba mais](create-lp.md#test-landing-page)
 
