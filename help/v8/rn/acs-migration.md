@@ -76,7 +76,7 @@ Para garantir uma transição tranquila para o Campaign v8, os principais recurs
 
 * **Marcas centralizadas**: o Adobe Campaign permite que as empresas definam as diretrizes técnicas e visuais da marca. Os usuários podem apresentar uma marca consistente aos clientes, desde logotipos a aspectos técnicos, como remetente de email, URL ou domínios. [Saiba mais](../administration/branding/branding-gs.md).
 
-* **APIs REST**: os usuários que migraram do Campaign Standard podem usar as APIs REST para criar integrações com o Adobe Campaign e produzir ecossistemas, conectando o Adobe Campaign a outras tecnologias. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
+* **APIs REST**: os usuários que migraram do Campaign Standard podem usar as APIs REST para criar integrações com o Adobe Campaign e produzir ecossistemas, conectando o Adobe Campaign a outras tecnologias. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
 
 * **Páginas de destino**: as páginas de destino do Campaign v8 incluem melhorias para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[ notas de versão](../rn/release-notes.md#new-24-4) e na [documentação](../landing-pages/get-started-lp.md) da página de destino.
 
