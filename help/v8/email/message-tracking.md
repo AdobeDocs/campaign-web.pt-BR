@@ -3,10 +3,10 @@ audience: end-user
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '568'
+ht-degree: 21%
 
 ---
 
@@ -31,10 +31,6 @@ Para inserir links no seu conteúdo de email, siga estas etapas:
    ![Captura de tela mostrando a interface para inserir links na ferramenta de rastreamento de mensagens](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Link externo]**: insira um link para uma URL externa.
-
-     >[!AVAILABILITY]
-     >
-     >Os seguintes recursos (link para **[!UICONTROL Página de aterrissagem]**, **[!UICONTROL Link de assinatura]** e **[!UICONTROL Link de cancelamento de assinatura]**) estão em Disponibilidade Limitada (DL). Eles estão restritos a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
 
    * **[!UICONTROL Página de aterrissagem]**: insira um link para uma página de aterrissagem. Se você selecionar uma página de aterrissagem dinâmica (com a opção **[!UICONTROL Serviço da URL]** selecionada), será possível selecionar qualquer serviço da lista. [Saiba mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
