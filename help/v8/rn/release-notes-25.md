@@ -3,9 +3,9 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2025 da interface do Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1604'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Os seguintes recursos estão em Disponibilidade limitada (LA). Eles são restritos a clientes que migram **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente. Eles exigem uma atualização do servidor do Campaign para a v8.7.4.
 >
->Consulte as seguintes páginas de documentação: [Transição do Campaign Standard para o Campaign v8](../rn/acs-migration.md) e [Recursos para usuários do Campaign Standard](https://experienceleague.adobe.com/pt-br/docs/experience-cloud/campaign/campaign-standard-migration-home).
+>Consulte as seguintes páginas de documentação: [Transição do Campaign Standard para o Campaign v8](../rn/acs-migration.md) e [Recursos para usuários do Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR).
 
 * **Criação de entrega multilíngue**: agora você pode enviar várias entregas de email em diferentes idiomas na Interface do Adobe Campaign Web. O recurso de entrega multilíngue permite escolher o idioma padrão da entrega, bem como os diferentes idiomas nos quais a entrega pode ser enviada. Você também pode visualizar essas entregas nos idiomas escolhidos. Para obter mais informações, consulte a [documentação detalhada](../email/edit-content.md).
 

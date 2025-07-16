@@ -6,9 +6,9 @@ title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,7 +210,7 @@ ht-degree: 97%
    + [Listas de filtros](query/filter.md)
 + Relatórios {#reports}
    + [Trilha de auditoria](reporting/audit-trail.md)
-   + [Indicadores-chave de desempenho](reporting/kpis.md)
+   + [Indicadores principais de desempenho](reporting/kpis.md)
    + Relatórios padrão {#standard-reports}
       + [Introdução aos relatórios](reporting/gs-reports.md)
       + [Exportar seus relatórios](reporting/export-reports.md)
@@ -233,8 +233,8 @@ ht-degree: 97%
          + [Relatório global de SMS](reporting/global-report-sms.md)
          + [Relatório global de correspondência direta](reporting/global-report-direct.md)
    + Relatórios dinâmicos {#dynamic-reporting}
-      + [Introdução a relatórios dinâmicos](reporting/dynamic-reporting/get-started-reporting.md)
-      + Sobre relatórios {#about-reporting}
+      + [Introdução aos relatórios dinâmicos](reporting/dynamic-reporting/get-started-reporting.md)
+      + Sobre os relatórios {#about-reporting}
          + [Sobre relatórios dinâmicos](reporting/dynamic-reporting/about-dynamic-reports.md)
          + [Interface de relatórios](reporting/dynamic-reporting/reporting-interface.md)
          + [Lista de componentes](reporting/dynamic-reporting/list-of-components.md)
@@ -263,8 +263,8 @@ ht-degree: 97%
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
 + Configuração {#conf}
-   + Marca {#branding}
-      + [Sobre a marca](administration/branding/branding-gs.md)
+   + Identidade visual {#branding}
+      + [Sobre identidade visual](administration/branding/branding-gs.md)
       + [Configurar uma marca](administration/branding/branding-configure.md)
       + [Atribuir uma marca](administration/branding/branding-assign.md)
    + [Trabalhar com regras de negócios (tipologias)](administration/typologies.md)
