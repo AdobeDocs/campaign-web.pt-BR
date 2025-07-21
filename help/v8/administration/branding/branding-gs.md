@@ -6,9 +6,9 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
+source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '332'
 ht-degree: 18%
 
 ---
@@ -30,7 +30,7 @@ Os administradores técnicos podem criar e gerenciar várias marcas no Adobe Cam
 
 Você pode adicionar novas entidades da organização no Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio ser usado pela Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com seu contato técnico da Adobe. Saiba mais sobre a configuração de subdomínio [nesta página](https://experienceleague.adobe.com/pt-br/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio ser usado pela Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com seu contato técnico da Adobe. Saiba mais sobre a configuração de subdomínio [nesta página](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
