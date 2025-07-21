@@ -4,14 +4,18 @@ description: Analise o sucesso de suas campanhas em relatórios dinâmicos incor
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '291'
 ht-degree: 14%
 
 ---
 
 # Introdução aos relatórios dinâmicos {#get-started-reporting}
+
+>[!AVAILABILITY]
+>
+>Esse recurso só está disponível sob demanda. Para obter acesso, entre em contato com o representante da Adobe.
 
 O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques.
 
