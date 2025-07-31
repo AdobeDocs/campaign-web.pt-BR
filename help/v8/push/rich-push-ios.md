@@ -3,9 +3,9 @@ audience: end-user
 title: Criar uma entrega de notificação por push avançada do iOS
 description: Saiba como criar uma entrega de notificação por push avançada do iOS com o Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1625'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Antes de criar uma Notificação por push avançada, é necessário configurar o conector V2. Consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para obter o procedimento detalhado.
+>Antes de criar uma Notificação por push avançada, é necessário configurar o conector V2. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para obter o procedimento detalhado.
 
 ## Definir o conteúdo da notificação {#push-message}
 
@@ -203,6 +203,7 @@ Depois de definir o conteúdo da mensagem, use assinantes de teste para pré-vis
 | Parâmetro | Descrição |
 |-----------|-------------|
 | **[!UICONTROL Conteúdo mutável]** | Habilite esta opção para permitir que o aplicativo móvel baixe conteúdo de mídia. |
+| **[!UICONTROL Conteúdo disponível]** | Ative essa opção para permitir que sua notificação acione atualizações em segundo plano em dispositivos iOS, mesmo quando o aplicativo não estiver aberto ativamente. Isso garante que conteúdo como mensagens ou atualizações de dados possam ser processados e armazenados na caixa de entrada do aplicativo, sem exigir interação do usuário. Quando selecionado, o sinalizador `content-available: 1` é adicionado à carga `aps` em conformidade com os padrões do Serviço de Notificação por Push (APNS) da Apple. |
 | **[!UICONTROL Pontuação de relevância]** | Defina uma pontuação de relevância de 0 a 100. O sistema usa essa opção para classificar notificações no resumo de notificações. |
 | **[!UICONTROL Nível de interrupção]** | <ul><li>**Ativo**: definido por padrão, o sistema apresenta a notificação imediatamente, ativa a tela e pode reproduzir um som. As notificações não interrompem os modos de foco.</li><li>**Passivo**: o sistema adiciona a notificação à lista de notificações sem ativar a tela ou reproduzir um som. As notificações não interrompem os modos de foco.</li><li>**Sensível ao tempo**: o sistema apresenta a notificação imediatamente, ativa a tela, pode reproduzir um som e interrompe os modos de foco. Esse nível não requer permissão especial da Apple.</li><li>**Crítico**: o sistema apresenta a notificação imediatamente, ativa a tela e ignora os modos de foco e a opção de mudo. Observe que esse nível requer permissão especial da Apple.</li></ul> |
 | **[!UICONTROL Thread-id]** | Defina o identificador usado para agrupar notificações relacionadas. |

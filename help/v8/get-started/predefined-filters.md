@@ -2,10 +2,10 @@
 title: Trabalhar com filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos no Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
@@ -131,7 +131,9 @@ Nesta lista, é possível criar um novo filtro conforme detalhado acima e realiz
 * Duplicar um filtro predefinido.
 * Excluir um filtro predefinido.
 
-Você também pode adicionar um filtro predefinido aos favoritos para acessá-lo rapidamente ao criar públicos-alvo. Saiba mais [nesta seção](#fav-filter).
+Também é possível editar ou excluir um filtro predefinido diretamente do construtor de regras. Na janela de seleção de filtro predefinida, use o botão **Mais ações**. Você pode excluir o filtro ou editá-lo. Você pode alterar o rótulo, adicionar uma descrição e adicioná-la como um favorito.
+
+![Edição de filtros predefinidos](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

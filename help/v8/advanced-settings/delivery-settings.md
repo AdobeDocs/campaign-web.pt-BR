@@ -4,10 +4,10 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
+source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 47%
+source-wordcount: '3449'
+ht-degree: 43%
 
 ---
 
@@ -103,7 +103,7 @@ O campo **[!UICONTROL Importância do destinatário]** é uma fórmula usada par
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre os mapeamentos de destino](../audience/targeting-dimensions.md).
 
-No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=pt-BR){target="_blank"}
+No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Entrega {#delivery}
 
@@ -159,7 +159,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=pt-BR#external-account-ac){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Tentativas {#retries}
 
@@ -340,6 +340,29 @@ Os parâmetros de entrega de SMS são configurações técnicas que se aplicam �
 
   Definir esse valor como 0 desativa o limite.
 
+* **[!UICONTROL Parâmetros SMPP opcionais (TLV)]**
+
+  Você pode especificar campos extras para enviar como parâmetros SMPP opcionais (TLV). Esses campos extras são enviados com cada MT e os campos personalizados permitem ter valores diferentes para cada MT.
+A tabela lista os parâmetros opcionais a serem enviados com cada mensagem. As colunas contêm as seguintes informações:
+
+   * **Rótulo**: este é um rótulo opcional de forma livre. Ele não é transmitido ao provedor. Você pode fornecer uma descrição textual do parâmetro.
+   * **Marca**: o valor da marca em formato decimal (por exemplo, 12345) ou hexadecimal com o prefixo 0x (por exemplo, 0x12ab). As tags podem ficar entre 0 e 65535. Peça ao provedor de serviços SMPP as tags que ele aceita.
+   * **Valor**: valor a ser enviado no parâmetro opcional. Este é um campo personalizado.
+   * **Formato**: codificação usada para o parâmetro. Você pode selecionar qualquer codificação de texto compatível ou os formatos binários mais comuns. Peça o formato necessário ao provedor de serviços SMPP.
+   * **Comprimento máximo**: número máximo de bytes para este parâmetro. Isso é ignorado para campos binários, pois os campos binários têm um tamanho fixo.
+
+  **Usando formatos binários para TLV**
+
+  O Campaign oferece suporte ao envio de TLV em formato binário. O binário está limitado ao envio de números.
+
+  Como os campos personalizados sempre geram texto, o campo personalizado deve conter uma representação decimal do número (qualquer string pode ser usada, desde que contenha apenas dígitos). Os valores podem ser assinados ou não, o mecanismo de personalização apenas os converte para a representação binária correta.
+
+  Ao usar formatos binários, os valores especiais &#39;&#39; (cadeia de caracteres vazia), &#39;null&#39; e &#39;undefined&#39; desativam completamente o campo sem gerar um erro. Nesses 3 casos especiais, a tag não é passada. Isso permite transmitir um TLV específico somente para algumas mensagens ao usar JavaScript cuidadosamente criado no campo de personalização.
+
+  >[!NOTE]
+  >
+  >Os formatos binários são sempre codificados na forma big-endian.
+
 ## Configurações SMTP para entrega de email {#smtp}
 
 >[!CONTEXTUALHELP]
@@ -377,7 +400,7 @@ Esses dois campos podem ser personalizados conforme descrito em [esta seção](.
 
 Você pode adicionar **[!UICONTROL cabeçalhos SMTP]** à sua entrega de email, na guia SMTP das configurações de entrega.
 
-O script inserido nessa janela deve referenciar um cabeçalho por linha no seguinte formulário: name:value.
+O script inserido nesta janela deve referenciar um cabeçalho por linha no seguinte formulário: name:value.
 
 Os valores são codificados automaticamente se necessário.
 
