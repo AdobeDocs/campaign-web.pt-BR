@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
-source-wordcount: '909'
-ht-degree: 100%
+source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 100%
       + [Introdução a alertas de entrega](msg/delivery-alerting.md)
       + [Painéis de alertas de entrega](msg/delivery-alerting-dashboards.md)
       + [Critérios de alertas de entrega](msg/delivery-alerting-criteria.md)
-+ Gestão de conteúdo {#content}
++ Gerenciamento de conteúdo {#content}
    + Criar conteúdo dinâmico {#dynamic-content}
       + [Como tornar o conteúdo dinâmico?](personalization/gs-personalization.md)
       + [Adicionar personalização](personalization/personalize.md)
@@ -108,7 +108,7 @@ ht-degree: 100%
          + [Iniciar do zero](email/create-email-content.md)
          + [Importar o conteúdo do email](email/existing-content.md)
          + [Desenvolver o seu próprio conteúdo](email/code-content.md)
-         + [Usar templates de conteúdo de email](email/use-email-templates.md)
+         + [Usar modelos de conteúdo de email](email/use-email-templates.md)
       + Projetar o conteúdo {#design-content}
          + [Usar componentes de conteúdo](email/content-components.md)
          + [Adicionar links e rastrear mensagens](email/message-tracking.md)
@@ -122,6 +122,8 @@ ht-degree: 100%
          + [Definir o estilo dos links](email/styling-links.md)
          + [Adicionar atributos de estilo em linha](email/inline-styling.md)
          + [Adicionar CSS personalizado](email/custom-css.md)
+         + [Gerenciar conteúdo no modo escuro](email/dark-mode.md)
+      + [Criar conteúdo acessível](email/accessible-content.md)
    + Assistente de IA {#ai-assistant}
       + [Trabalhar com o Assistente de IA](email/generative-gs.md)
       + [Geração de email com IA](email/generative-content.md)
@@ -173,9 +175,9 @@ ht-degree: 100%
    + [Sobre fluxos de trabalho de somente leitura](workflows/readonly-workflows.md)
    + Criar e executar seu primeiro fluxo de trabalho {#create-workflow}
       + [Princípios básicos da criação de fluxos de trabalho](workflows/gs-workflow-creation.md)
-      + [Criar o workflow](workflows/create-workflow.md)
+      + [Criar o fluxo de trabalho](workflows/create-workflow.md)
       + [Orquestrar atividades](workflows/orchestrate-activities.md)
-      + [Definir as configurações do workflow](workflows/workflow-settings.md)
+      + [Definir as configurações do fluxo de trabalho](workflows/workflow-settings.md)
       + [Iniciar e monitorar fluxos de trabalho](workflows/start-monitor-workflows.md)
    + Trabalhar com atividades de fluxo de trabalho {#design-workflows}
       + [Sobre atividades de fluxo de trabalho](workflows/activities/about-activities.md)
