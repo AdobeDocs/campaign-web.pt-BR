@@ -19,12 +19,12 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="Propriedades"
->abstract="Defina as propriedades da lista discriminada, como nome, nome interno e tipo. As listas discriminadas **[!UICONTROL fechadas]** têm uma lista fixa de valores que só podem ser modificados no menu **[!UICONTROL Listas discriminadas]**. As listas discriminadas **[!UICONTROL abertas]** permitem que os usuários adicionem novos valores diretamente nos campos com base nessa lista discriminada. As listas discriminadas de **[!UICONTROL sistema]** estão associadas a campos do sistema. As listas discriminadas de **[!UICONTROL emoticon]** são usadas para atualizar a lista de emoticons."
+>abstract="Defina as propriedades da enumeração, como nome, nome interno e tipo. As enumerações **[!UICONTROL fechadas]** têm uma lista fixa de valores que só podem ser modificados no menu **[!UICONTROL Listas discriminadas]**. As enumerações **[!UICONTROL abertas]** permitem que os usuários adicionem novos valores diretamente nos campos com base nessa lista discriminada. As enumerações de **[!UICONTROL sistema]** estão associadas a campos do sistema. As enumerações de **[!UICONTROL emoticon]** são usadas para atualizar a lista de emoticons."
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
->title="Valores de lista discriminada"
->abstract="Para adicionar um valor à lista discriminada, clique no botão **[!UICONTROL Adicionar valor]** e configure-o conforme necessário."
+>title="Valores de enumeração"
+>abstract="Para adicionar um valor à enumeração, clique no botão **[!UICONTROL Adicionar valor]** e configure-o conforme necessário."
 
 ## O que são listas discriminadas? {#about}
 
@@ -49,7 +49,7 @@ Para criar uma lista discriminada, siga estas etapas:
    * **[!UICONTROL Enumerações]** fechadas têm uma lista fixa de valores, que só podem ser modificados no menu **[!UICONTROL Enumerations]**.
    * As enumerações **[!UICONTROL Abertas]** permitem que os usuários adicionem novos valores diretamente nos campos com base nessa enumeração.
    * Enumerações **[!UICONTROL System]** estão associadas a campos do sistema.
-   * As listas discriminadas de **[!UICONTROL emoticon]** são usadas para atualizar a lista de emoticons.
+   * As enumerações de **[!UICONTROL emoticon]** são usadas para atualizar a lista de emoticons.
 
 1. Clique em **[!UICONTROL Criar]**. Os detalhes da lista discriminada são exibidos, permitindo adicionar valores à lista.
 
