@@ -7,8 +7,8 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -113,13 +113,13 @@ A seção **Gerenciamento de campanhas** fornece acesso a campanhas de marketin
 
   ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [Captura de tela mostrando o botão Mais ações com opções para excluir ou duplicar uma entrega.]
 
-* **Workflows** - Nessa tela, é possível acessar a lista completa de workflows e modelos de workflows. É possível verificar o status, as datas da última/próxima execução e criar um novo workflow ou um novo modelo de workflow. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar fluxos de trabalho que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
+* **Workflows** - Nessa tela, é possível acessar a lista completa de fluxos de trabalho e modelos de fluxos de trabalho. É possível verificar o status, as datas da última/próxima execução e criar um novo fluxo de trabalho ou um novo modelo de fluxo de trabalho. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar fluxos de trabalho que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 
 ### Gerenciamento de conteúdo {#user-interface-content-management}
 
 A seção **Gerenciamento de conteúdo** permite exibir seus modelos e fragmentos de conteúdo.
 
-* **Modelos de conteúdo**: para um processo de design acelerado e aprimorado, você pode criar modelos independentes e reutilizar facilmente o conteúdo personalizado no [!DNL Adobe Campaign]. Disponível apenas para emails, essa funcionalidade permite que os usuários orientados por conteúdo trabalhem em modelos independentes para que a equipe de marketing possa reutilizá-los e adaptá-los em suas próprias campanhas de email. Saiba mais [nesta seção](../email/create-email-templates.md).
+* **Modelos de conteúdo**: para um processo de design acelerado e aprimorado, você pode criar modelos independentes e reutilizar facilmente o conteúdo personalizado no [!DNL Adobe Campaign]. Disponível apenas para emails, essa funcionalidade permite que os usuários orientados por conteúdo trabalhem em modelos independentes para que a equipe de marketing possa reutilizá-los e adaptá-los em suas próprias campanhas de email. Saiba mais [nesta seção](../content/create-email-templates.md).
 
 * **Fragmentos** - Um fragmento é um componente reutilizável que pode ser referenciado em uma ou mais entregas em campanhas. Ao modificar um fragmento, todos os conteúdos que o usam serão atualizados. [Aprenda a trabalhar com fragmentos](../content/fragments.md).
 

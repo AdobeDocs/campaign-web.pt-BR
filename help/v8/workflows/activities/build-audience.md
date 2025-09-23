@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 62%
+source-wordcount: '454'
+ht-degree: 57%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará no fluxo de trabalho. Ao enviar mensagens no contexto de um fluxo de trabalho, o público-alvo da mensagem não é definido na atividade canal, mas na atividade **Criar público-alvo**.
 
-Para definir o público-alvo, você pode:
+Para definir a população que servirá de público-alvo, você pode:
 
 * Selecionar um público-alvo já existente, criado como lista no console do cliente.
 * Selecionar um público-alvo da Adobe Experience Platform.
@@ -56,7 +56,8 @@ Siga estas etapas para configurar a atividade **Criar público-alvo**:
 Para criar sua própria query, siga estas etapas:
 
 1. Selecione **Crie sua própria (consulta)**.
-1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions)
+1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#targeting)
+1. Escolha a **Dimensão do filtro** clicando no ícone ao lado da targeting dimension. A dimensão de filtro permite aplicar filtros ao público-alvo fazendo referência a critérios relacionados sem alterar a dimensão de direcionamento principal. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#filtering)
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 

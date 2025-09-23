@@ -4,9 +4,9 @@ description: Encontre aqui perguntas comuns relacionadas aos relatórios dinâmi
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Solução de problemas{#troubleshooting}
 
 Você pode encontrar nesta seção perguntas comuns relacionadas aos relatórios dinâmicos.
+
+## Quais idiomas os relatórios dinâmicos estão disponíveis no? {#langages}
+
+Atualmente, os relatórios dinâmicos estão disponíveis somente em inglês.
 
 ## Para Aberturas únicas e Cliques únicos, a contagem na linha agregada não corresponde àquelas em linhas individuais {#unique-open-clicks-no-match}
 

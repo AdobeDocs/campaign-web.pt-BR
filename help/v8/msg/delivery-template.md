@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 19%
@@ -35,7 +35,7 @@ Um modelo inclui:
 
 >[!NOTE]
 >
->Os modelos de entrega são diferentes dos [modelos de conteúdo](../email/create-email-templates.md), que permitem reutilizar somente o conteúdo de seus emails e começar a criar conteúdo com um dos modelos de email de exemplo fornecidos prontos para uso.
+>Os modelos de entrega são diferentes dos [modelos de conteúdo](../content/create-email-templates.md), que permitem reutilizar somente o conteúdo de seus emails e começar a criar conteúdo com um dos modelos de email de exemplo fornecidos prontos para uso.
 
 ## Acessar e gerenciar modelos de entrega {#access-manage-templates}
 

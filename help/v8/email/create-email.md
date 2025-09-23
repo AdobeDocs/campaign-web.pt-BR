@@ -3,7 +3,7 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 45%
@@ -19,7 +19,7 @@ ht-degree: 45%
 
 Saiba como criar seu primeiro email direcionado. Nesse caso de uso, você agendará uma data específica para o envio de um email para membros do programa de fidelidade de nível prata e ouro.
 
-Com base em um [modelo de design](../email/create-email-templates.md) predefinido, o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
+Com base em um [modelo de design](../content/create-email-templates.md) predefinido, o email também apresenta conteúdo personalizado com base nos atributos do perfil do cliente.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -47,7 +47,7 @@ Para criar um novo delivery de email independente, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Os templates são configurações de entrega predefinidas salvas para uso futuro. [Saiba mais](../msg/delivery-template.md)
+   >Os modelos são configurações de entrega predefinidas salvas para uso futuro. [Saiba mais](../msg/delivery-template.md)
 
    ![Captura de tela mostrando a seleção do canal e do modelo de email](assets/channel-template.png){zoomable="yes"}
 
@@ -89,7 +89,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    >[!NOTE]
    >
-   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
@@ -117,7 +117,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso 
 
 1. Para criar o conteúdo do email, clique no botão **[!UICONTROL Editar corpo do email]**.
 
-   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](create-email-templates.md).
+   Escolha o método a ser usado para criar o conteúdo de email. Neste exemplo, use um [modelo de conteúdo predefinido](../content/create-email-templates.md).
 
    ![Captura de tela mostrando a seleção de um modelo de conteúdo predefinido](assets/select-template.png){zoomable="yes"}
 
@@ -252,4 +252,4 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 Saiba como criar uma entrega por email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454010/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
