@@ -10,7 +10,7 @@ ht-degree: 6%
 
 # Conta externa do Hadoop {#external-hadoop}
 
-A conta externa do Hadoop permite conectar a instância do Campaign ao banco de dados externo do Hadoop. Você pode saber mais sobre o Hadoop na [documentação do console do Campaign V7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+A conta externa do Hadoop permite conectar a instância do Campaign ao banco de dados externo do Hadoop. Você pode saber mais sobre o Hadoop na [documentação do console do Campaign V7](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Captura de tela mostrando a configuração da conta externa do Hadoop.](assets/external-hadoop.png)
 
