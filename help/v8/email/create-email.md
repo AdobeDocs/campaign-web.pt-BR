@@ -252,4 +252,4 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 Saiba como criar uma entrega por email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3454010/?quality=12&captions=por_br)
