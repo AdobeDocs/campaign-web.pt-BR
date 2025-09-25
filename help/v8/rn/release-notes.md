@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -159,7 +159,7 @@ Os seguintes recursos estarão disponíveis a partir da versão de setembro.
 
 ### Melhorias {#25-9-improvements}
 
-* Um conjunto de novos operadores foi adicionado ao configurar uma condição usando o recurso de conteúdo condicional do Designer de email.
+* Um conjunto de novos operadores foi adicionado ao configurar uma condição por meio do recurso de conteúdo condicional do designer de email.
 * A dimensão do filtro agora está disponível na atividade de fluxo de trabalho **Criar público**. Para exibi-lo ou alterá-lo, clique no ícone ao lado do targeting dimension. [Saiba mais](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
