@@ -4,9 +4,9 @@ description: Saiba mais sobre as etapas necessárias para começar a usar o novo
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 29%
 
 ---
@@ -111,13 +111,13 @@ Como usuário do Campaign Standard em transição para o Adobe Campaign v8, os s
 
   A simplicidade e a facilidade de uso do SMS fazem dele um canal de comunicação muito valioso, além de sua robustez e compatibilidade incomparável em bilhões de terminais.
 
-  O Adobe Campaign v8 vem com uma nova infraestrutura que melhora o envio de SMS. [Saiba mais sobre as novas configurações de SMS](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  O Adobe Campaign v8 vem com uma nova infraestrutura que melhora o envio de SMS. [Saiba mais sobre as novas configurações de SMS](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Infraestrutura de push atualizada**
 
   O Adobe Campaign v8 está introduzindo nosso mais recente serviço de notificação por push, alimentado por uma estrutura robusta criada em uma tecnologia moderna de ponta. Este serviço foi projetado para desbloquear novos níveis de escalabilidade, garantindo que suas notificações possam alcançar um público maior com eficiência contínua. Com nossa infraestrutura aprimorada e nossos processos otimizados, você pode esperar maior escala e confiabilidade, permitindo que você interaja e se conecte com seus usuários de aplicativos móveis como nunca.
 
-  [Saiba mais sobre a infraestrutura de push atualizada](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Saiba mais sobre a infraestrutura de push atualizada](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -142,8 +142,6 @@ Com o objetivo de uma transição descomplicada para o Campaign v8, os recursos 
 
 A maioria dos conceitos é semelhante entre o Adobe Campaign v8 e o Adobe Campaign Standard. No entanto, há algumas diferenças, conforme descrito abaixo.
 
-### Alterações de terminologia {#terminology-changes}
-
 Abaixo estão algumas diferenças de terminologia entre o Campaign Standard e o Campaign v8.
 
 * Os recursos personalizados são **Esquemas**
@@ -161,7 +159,8 @@ Além disso, como usuário existente do Campaign, observe que alguns conceitos f
 * A Visualização de email agora está disponível através do botão **Simular conteúdo**. [Saiba mais](../../v8/preview-test/preview-test.md)
 * As listas agora são **Públicos-alvo**. [Saiba mais](../../v8/audience/gs-audiences-recipients.md).
 
-## Nova experiência de usuário
+
+## Nova experiência do usuário
 
 Acesse o guia de referência relevante para sua função e descubra a nova experiência de usuário com o Adobe Campaign v8.
 
@@ -209,7 +208,7 @@ Acesse o guia de referência relevante para sua função e descubra a nova exper
   <tr>
     <td>
       <li>Criar campanhas de marketing
-      <li>Criação de workflows
+      <li>Criação de fluxos de trabalho
       <li>Testar e executar campanhas
       <li>Implantar campanhas multicanal
       <li>Otimizar campanhas
@@ -229,4 +228,4 @@ Acesse o guia de referência relevante para sua função e descubra a nova exper
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
