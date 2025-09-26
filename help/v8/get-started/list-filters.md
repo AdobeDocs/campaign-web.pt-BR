@@ -3,10 +3,10 @@ audience: end-user
 title: Procurar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
+source-git-commit: f5ef0f8d7c3396bdd031e5b3b7c690f90adc0e86
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,21 +18,21 @@ A maioria dos links do menu de navegação esquerdo exibe listas de objetos, com
 
 As listas são exibidas em colunas. É possível exibir informações adicionais alterando a configuração da coluna. Para fazer isso, clique no ícone de **Configurar coluna para um layout personalizado** no canto superior direito da lista.
 
-[A captura de tela mostra o ícone de “Configurar coluna” usado para personalizar o layout das colunas da lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![A captura de tela mostra o ícone de “Configurar coluna” usado para personalizar o layout das colunas da lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 Na tela **Configurar colunas**, adicione ou remova colunas e altere a ordem na qual elas são exibidas.
 
 Você pode alterar a ordem da lista ao **arrastar e soltar** ou com as **setas para cima e para baixo** conforme mostrado abaixo:
 
-[A captura de tela demonstra como reordenar as colunas da lista, usando arrastar e soltar, ou os botões de seta.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![A captura de tela demonstra como reordenar as colunas da lista, usando arrastar e soltar, ou os botões de seta.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 Por exemplo, para estas configurações:
 
-[A captura de tela exibe um exemplo de configurações das colunas na tela “Configurar colunas”.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![A captura de tela exibe um exemplo de configurações das colunas na tela “Configurar colunas”.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 A lista mostrará as seguintes colunas:
 
-[A captura de tela mostra a lista resultante, com colunas definidas de acordo com as configurações do exemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![A captura de tela mostra a lista resultante, com colunas definidas de acordo com as configurações do exemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Classificação de dados {#sort-lists}
 
@@ -44,7 +44,7 @@ Para colunas numéricas ou de datas, a seta para **cima** indica que a lista est
 
 Para encontrar itens mais rapidamente, você pode usar a barra de pesquisa ou os filtros personalizados integrados para adaptar a lista com base em critérios contextuais.
 
-[A captura de tela mostra as opções de filtro disponíveis para refinar a exibição de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![A captura de tela mostra as opções de filtro disponíveis para refinar a exibição de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 Informações detalhadas sobre como usar filtros e criar os seus próprios filtros personalizados estão disponíveis [nesta seção](../query/filter.md).
 
