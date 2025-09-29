@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: email, design, acessibilidade
-source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
+source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 0%
@@ -24,10 +25,7 @@ O [!DNL Adobe Campaign] [Designer de email](create-email-content.md), que permit
 De acordo com isso, as práticas recomendadas para criar conteúdo acessível com o [!DNL Adobe Campaign] estão listadas abaixo.
 
 Esta página trata de tornar o seu conteúdo acessível a todos os seus destinatários, para garantir que pessoas com deficiência possam ler, entender e interagir com seus emails e landing pages criadas com o [!DNL Adobe Campaign].
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## Garantir a legibilidade do texto {#text-readability}
 
 Use a guia **[!UICONTROL Estilos]** do componente **[!UICONTROL Texto]** para garantir que o texto seja legível, por exemplo, usando contraste de cores adequado e fontes simples. [Saiba mais](content-components.md#text)
