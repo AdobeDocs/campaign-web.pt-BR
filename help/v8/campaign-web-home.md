@@ -4,9 +4,9 @@ description: 'Central de ajuda do Campaign Web '
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!TAB Versão de setembro de 2025]
 
-A versão de setembro está disponível. Agora, novos recursos e melhorias estão disponíveis na interface da Web do Campaign, incluindo o Canal personalizado para entregas de API, criação de conta externa e Bloqueio de conteúdo de email. Para obter uma visão geral completa, consulte as notas de versão.
+A versão de setembro está disponível. Novos recursos e aprimoramentos estão disponíveis agora na interface web do Campaign, incluindo o Canal personalizado para entregas de API, a Criação de conta externa e o Bloqueio de conteúdo de email. Para obter uma visão geral completa, consulte as notas de versão.
 
 [![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

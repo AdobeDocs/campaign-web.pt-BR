@@ -6,9 +6,9 @@ title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -277,7 +277,7 @@ ht-degree: 98%
    + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
-      + [Integração da solução da Adobe](administration/integration-external-account.md)
+      + [Integração de soluções da Adobe](administration/integration-external-account.md)
       + [Específico da campanha](administration/external-account.md)
       + [Banco de dados externo](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)

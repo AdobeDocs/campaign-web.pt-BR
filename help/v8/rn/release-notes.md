@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ As alterações e melhorias disponíveis em versões anteriores estão listadas 
 
 _23 de setembro de 2025_
 
-Os seguintes recursos estarão disponíveis a partir da versão de setembro.
+Os seguintes recursos estão disponíveis a partir da versão de setembro.
 
 <table>
 <thead>
@@ -35,7 +35,7 @@ Os seguintes recursos estarão disponíveis a partir da versão de setembro.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode, diretamente da interface do usuário da Web do Adobe Campaign, orquestrar e executar deliveries com base em canais de API personalizados. Essas entregas podem ser autônomas ou fazer parte de um fluxo de trabalho. A configuração do canal de API personalizado é executada no console.</p>
+<p>Agora é possível orquestrar e executar entregas com base em canais de API personalizados diretamente da interface do Adobe Campaign Web. Essas entregas podem ser autônomas ou fazer parte de um fluxo de trabalho. A configuração do canal de API personalizado é realizada no console.</p>
 <p>Para obter mais informações, consulte a <a href="../call-center/gs-custom-channel.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -67,7 +67,7 @@ Os seguintes recursos estarão disponíveis a partir da versão de setembro.
 <tbody>
 <tr>
 <td>
-<p>O Campaign agora permite bloquear o conteúdo em modelos de email, bloqueando todo o modelo ou estruturas e componentes específicos. Isso permite evitar edições ou exclusões não intencionais, dando a você maior controle sobre a personalização do modelo e melhorando a eficiência e a confiabilidade de suas campanhas de email.</p>
+<p>O Campaign agora permite bloquear conteúdo em modelos de email ao bloquear todo o modelo ou estruturas e componentes específicos. Isso permite evitar edições ou exclusões não intencionais, dando a você maior controle sobre a personalização do modelo e melhorando a eficiência e a confiabilidade de suas campanhas de email.</p>
 <p>Para obter mais informações, consulte a <a href="../content/content-locking.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -160,7 +160,7 @@ Os seguintes recursos estarão disponíveis a partir da versão de setembro.
 ### Melhorias {#25-9-improvements}
 
 * Um conjunto de novos operadores foi adicionado ao configurar uma condição por meio do recurso de conteúdo condicional do designer de email.
-* A dimensão do filtro agora está disponível na atividade de fluxo de trabalho **Criar público**. Para exibi-lo ou alterá-lo, clique no ícone ao lado do targeting dimension. [Saiba mais](../workflows/activities/build-audience.md#build-audience-configuration).
+* A dimensão de filtros agora está disponível na atividade de fluxo de trabalho **Criar público-alvo**. Para exibi-lo ou alterá-lo, clique no ícone ao lado da dimensão de direcionamento. [Saiba mais](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
