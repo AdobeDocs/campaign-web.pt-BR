@@ -276,7 +276,7 @@ ht-degree: 98%
    + [Gerenciar target mappings](administration/target-mappings.md)
    + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
       + [Integração de soluções da Adobe](administration/integration-external-account.md)
