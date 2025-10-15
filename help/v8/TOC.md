@@ -6,9 +6,9 @@ title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 98%
       + [Enriquecer mensagens transacionais com dados de perfil](transactional-messaging/profile-enrichment.md)
    + [Enviar entregas externas](msg/send-external-deliveries.md)
    + [Adicionar ofertas às suas mensagens](msg/offers.md)
-   + [Configurar um delivery multilíngue](msg/multilingual.md)
+   + [Configurar uma entrega multilíngue](msg/multilingual.md)
    + [Enviar mensagens a assinantes](msg/send-to-subscribers.md)
    + [Definir as configurações de entrega](advanced-settings/delivery-settings.md)
    + Visualizar e testar a entrega {#preview-test}
@@ -276,7 +276,7 @@ ht-degree: 98%
    + [Gerenciar target mappings](administration/target-mappings.md)
    + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
       + [Integração de soluções da Adobe](administration/integration-external-account.md)
