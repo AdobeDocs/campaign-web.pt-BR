@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Definir as configurações do workflow
+title: Definir as configurações do fluxo de trabalho
 description: Saiba como definir configurações de fluxo de trabalho com o Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 26%
+source-wordcount: '1083'
+ht-degree: 25%
 
 ---
 
-# Definir as configurações do workflow {#workflow-settings}
+# Definir as configurações do fluxo de trabalho {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
@@ -97,8 +97,13 @@ Quando o fluxo de trabalho estiver [associado a uma campanha](create-workflow.md
    * **[!UICONTROL Ignorar]**: o status da tarefa que provocou o erro muda para **[!UICONTROL Falha]**, mas o fluxo de trabalho mantém o status **[!UICONTROL Iniciado]**. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
    * **[!UICONTROL Interromper o processo]**: o fluxo de trabalho é automaticamente interrompido e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, reinicie o fluxo de trabalho usando os botões **[!UICONTROL Iniciar]**.
 
-* **[!UICONTROL Erros consecutivos]**: este campo fica disponível quando o valor **[!UICONTROL Ignorar]** é selecionado no campo **[!UICONTROL Em caso de erros]**. Especifique o número de erros que podem ser ignorados antes que o processo seja interrompido. Após esse número ser alcançado, o status do workflow será alterado para **[!UICONTROL Failed]**. Se o valor desse campo for 0, o workflow nunca será interrompido independentemente do número de erros.
+* **[!UICONTROL Erros consecutivos]**: este campo fica disponível quando o valor **[!UICONTROL Ignorar]** é selecionado no campo **[!UICONTROL Em caso de erros]**. Especifique o número de erros que podem ser ignorados antes que o processo seja interrompido. Após esse número ser alcançado, o status do fluxo de trabalho será alterado para **[!UICONTROL Failed]**. Se o valor desse campo for 0, o fluxo de trabalho nunca será interrompido independentemente do número de erros.
 
 ## Script de inicialização {#initialization-script}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initialization"
+>title="Script de inicialização"
+>abstract="Esta seção permite que você defina o código JavaScript que é executado no início do fluxo de trabalho. Ele pode ser usado para inicializar variáveis, definir parâmetros ou preparar dados antes da execução de qualquer atividade de workflow."
 
 O **script de Inicialização** permite inicializar variáveis ou modificar propriedades da atividade. Clique no botão **Editar código** e digite o trecho de código a ser executado. O script é chamado quando o workflow é executado. Consulte a seção relacionada a [variáveis de evento](../workflows/event-variables.md).

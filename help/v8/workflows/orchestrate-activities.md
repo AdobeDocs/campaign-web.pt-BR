@@ -3,9 +3,9 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1302'
 ht-degree: 3%
 
 ---
@@ -106,7 +106,12 @@ Todas as atividades permitem gerenciar as opções de execução. Selecione uma 
 
 ![Painel de opções de execução](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Propriedades
+### Propriedades {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="Propriedades da atividade"
+>abstract="Esta seção permite definir como e onde uma atividade é executada. Você pode definir a ação de execução, limitar a duração da execução, escolher um fuso horário, atribuir afinidade de máquina, gerenciar o comportamento assíncrono e especificar o que acontece em caso de erro."
 
 O campo **Execution** permite que você defina a ação a ser executada quando a tarefa for iniciada.
 
@@ -118,11 +123,21 @@ O campo **Afinidade** permite forçar a execução de um fluxo de trabalho ou de
 
 O campo **Behavior** permite definir o procedimento a ser seguido se tarefas assíncronas forem usadas.
 
-### Gerenciamento de erros
+### Gerenciamento de erros {#execution-options}
 
-O campo **Em caso de erro** permite especificar a ação a ser executada se a atividade encontrar um erro.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="Script de inicialização"
+>abstract="Esta seção permite definir o que acontece se uma atividade falhar. Você pode escolher ações como interromper o fluxo de trabalho, ir para a próxima atividade ou acionar um processo personalizado de tratamento de erros."
 
-### Script de inicialização
+O campo **Em caso de erro** permite especificar a ação a ser executada se a atividade encontrar um erro. Consulte esta [seção](workflow-settings.md#error-settings).
+
+### Script de inicialização {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="Script de inicialização"
+>abstract="Esta seção permite que você adicione o JavaScript que é executado quando a atividade começa. Use-a para inicializar variáveis, definir parâmetros ou preparar dados específicos para a execução dessa atividade."
 
 O **script de Inicialização** permite inicializar variáveis ou modificar propriedades da atividade. Clique no botão **Editar código** e digite o trecho de código a ser executado. O script é chamado quando a atividade é executada. Consulte a seção relacionada a [variáveis de evento](../workflows/event-variables.md).
 
