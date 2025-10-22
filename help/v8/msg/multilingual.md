@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Configurar um delivery multilíngue
+title: Configurar uma entrega multilíngue
 description: Saiba como configurar um delivery multilíngue
 source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# Configurar um delivery multilíngue {#multilingual-delivery}
+# Configurar uma entrega multilíngue {#multilingual-delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
