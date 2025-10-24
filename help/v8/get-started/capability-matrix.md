@@ -3,10 +3,10 @@ audience: end-user
 title: 'Matriz de recursos da interface web e do console do cliente do Campaign '
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
-workflow-type: ht
-source-wordcount: '2072'
-ht-degree: 100%
+source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+workflow-type: tm+mt
+source-wordcount: '2134'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Os trabalhos de importação e exportação únicos descritos na [documentação
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=pt-BR){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -88,7 +88,7 @@ Com essa nova interface, você pode gerenciar a sincronização de modelos de em
 Observe que, por enquanto, os recursos a seguir não estão disponíveis na interface do Campaign Web. Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses recursos.
 
 * **Criação de blocos de personalização individuais**. Além dos blocos de personalização padrão, você pode criar blocos personalizados no console do cliente. Esse recurso não está disponível na interface do Campaign Web. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=pt-BR#create-custom-personalization-blocks){target="_blank"}
-* **Conteúdo de formulários personalizados**. O módulo de gestão de conteúdo permite criar e gerenciar formulários para ajudar seus usuários a criar conteúdo no Campaign. Esse recurso só está disponível com o console do cliente. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=pt-BR){target="_blank"}
+* **Conteúdo de formulários personalizados**. O módulo de gerenciamento de conteúdo permite criar e gerenciar formulários para ajudar seus usuários a criar conteúdo no Campaign. Esse recurso só está disponível com o console do cliente. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=pt-BR){target="_blank"}
 * **AMP para emails**. O formato do AMP para email permite que você inclua componentes AMP em suas mensagens e melhore a experiência de email com conteúdo relevante e prático. Esse recurso só está disponível no console do cliente. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html?lang=pt-BR){target="_blank"}
 <!--
 * Content from a URL`*`
@@ -104,16 +104,16 @@ Regras de tipologia podem ser selecionadas para uma entrega ou um modelo de entr
 Use os links fornecidos para explorar a documentação do Campaign v8 (console do cliente) e saber mais sobre as regras de tipologia:
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=pt-BR){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
 * Criação de regras de fadiga/pressão. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/pressure-rules){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=pt-BR){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=pt-BR){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * Simulação de campanha. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/campaign-simulations){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## Fluxos de trabalho {#wf-capabilities}
@@ -130,9 +130,9 @@ Observe que os seguintes recursos só estão disponíveis no console do cliente 
 
 Saiba mais sobre as atividades de fluxo de trabalho disponíveis na documentação do fluxo de trabalho do Adobe Campaign v8 (console) [aqui](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=pt-BR){target="_blank"}.
 
-## Gestão de ofertas {#offer-capabilities}
+## Gerenciamento de ofertas {#offer-capabilities}
 
-Você pode enviar ofertas em suas entregas criadas na interface do Adobe Campaign Web. Essas ofertas devem ter sido criadas no console do cliente usando o módulo **[!UICONTROL Interação]**. O design da oferta, as regras de elegibilidade e o gestão de oferta estão disponíveis somente no console do cliente do Campaign. [Saiba mais](../msg/offers.md)
+Você pode enviar ofertas em suas entregas criadas na interface do Adobe Campaign Web. Essas ofertas devem ter sido criadas no console do cliente usando o módulo **[!UICONTROL Interação]**. O design da oferta, as regras de elegibilidade e o gerenciamento de ofertas estão disponíveis somente no console do cliente do Campaign. [Saiba mais](../msg/offers.md)
 
 Aprenda a gerenciar um catálogo de oferta na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=pt-BR){target="_blank"}.
 
@@ -171,9 +171,9 @@ O Adobe Campaign inclui um conjunto de contas externas predefinidas para se cone
 
 A criação, modificação e extensão de esquemas são restritas a usuários avançados. Esses recursos só estão disponíveis no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=pt-BR){target="_blank"}
 
-### Recursos de gerenciamento de dados de workflow {#data}
+### Recursos de gerenciamento de dados de fluxo de trabalho {#data}
 
-O Gerenciamento de dados combina um conjunto de atividades para resolver problemas complexos de direcionamento, oferecendo ferramentas mais eficientes e flexíveis, como Carregamento de dados, Extração (arquivo), Atualização de dados, Edição de esquema ou Workflows técnicos de importação/exportação. [Descubra os recursos de gerenciamento de dados de fluxos de trabalho no console do cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=pt-BR#data-management){target="_blank"}
+O Gerenciamento de dados combina um conjunto de atividades para resolver problemas complexos de segmentação, oferecendo ferramentas mais eficientes e flexíveis, como Carregamento de dados, Extração (arquivo), Atualização de dados, Edição de esquema ou Fluxos de trabalho técnicos de importação/exportação. [Descubra os recursos de gerenciamento de dados de fluxos de trabalho no console do cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=pt-BR#data-management){target="_blank"}
 
 >[!NOTE]
 >
@@ -212,3 +212,9 @@ Navegue pelos links fornecidos para a documentação do Campaign v8 (console do 
 * [Mapa de calor do fluxo de trabalho](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=pt-BR){target="_blank"}
 * [Monitoramento de desempenho](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR){target="_blank"}
 * [Monitoramento da capacidade de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=pt-BR){target="_blank"}
+
+## Gerenciamento de fuso horário {#timezone-management}
+
+A interface do usuário da Web do Adobe Campaign exibe todos os valores de data e hora com base no **fuso horário local do navegador da Web do usuário**. Esse comportamento pode resultar em diferenças ao comparar carimbos de data e hora entre a interface do usuário da Web e o console do cliente.
+
+Consulte esta [página](../administration/timezone-management.md) para saber mais sobre as diferenças entre os fusos horários da **Interface do Usuário da Web**, **Console do Cliente** e **execução do fluxo de trabalho**.
