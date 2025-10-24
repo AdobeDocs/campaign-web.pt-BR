@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow Alterar fonte de dados
 description: Saiba como usar a atividade de workflow Alterar fonte de dados
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 13%
+source-wordcount: '380'
+ht-degree: 12%
 
 ---
 
@@ -23,11 +23,15 @@ Nos fluxos de trabalho, os dados transportados de uma atividade para outra por m
 
 Em alguns casos, os dados não estão disponíveis no banco de dados atual ou não são eficientes o suficiente para executar operações unitárias. Portanto, talvez seja necessário forçar o fluxo de trabalho a usar um banco de dados diferente para executar essas operações adicionando uma atividade **[!UICONTROL Alterar fonte de dados]**.
 
-Informações detalhadas sobre a arquitetura do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=pt-BR).
+Informações detalhadas sobre a arquitetura do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
 >Observe que as atividades **[!UICONTROL Alterar Dimensão]** e **[!UICONTROL Alterar Fonte de Dados]** não devem ser adicionadas em uma linha. Se você precisar usar ambas as atividades consecutivamente, inclua uma atividade **[!UICONTROL Enriquecimento]** entre elas. Isso garante a execução adequada e evita possíveis conflitos ou erros.
+
+>[!NOTE]
+>
+>A atividade **Change Data Source** pode processar no máximo um milhão de registros por execução. Entre em contato com seu representante da Adobe se precisar aumentar esse limite.
 
 <!--
 

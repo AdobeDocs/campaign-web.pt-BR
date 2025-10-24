@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 18%
+source-wordcount: '405'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ Os administradores técnicos podem criar e gerenciar várias marcas no Adobe Cam
 
 Você pode adicionar novas entidades da organização no Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio ser usado pela Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com seu contato técnico da Adobe. Saiba mais sobre a configuração de subdomínio [nesta página](https://experienceleague.adobe.com/pt-br/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio ser usado pela Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com seu contato técnico da Adobe. Saiba mais sobre a configuração de subdomínio [nesta página](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -39,3 +39,13 @@ Você pode adicionar novas entidades da organização no Campaign ou criar um no
 1. **Criar um modelo de entrega** - Quando a nova marca estiver disponível, a prática recomendada é criar pelo menos um novo modelo de entrega em branco que faça referência a essa nova marca. [Saiba mais](branding-assign.md).
 
 1. **Verificar diretrizes de capacidade de entrega** - Antes de começar a usar o novo domínio, a estratégia deve ser discutida com a equipe de capacidade de entrega da Adobe. Eles ajudarão a definir as práticas recomendadas, se uma nova afinidade deve ser criada para dividir os IPs entre domínios, por exemplo, e/ou se um plano de aumento deve ser definido.
+
+## Nota de compatibilidade {#compatibility-note}
+
+O novo modelo de identidade visual centralizada não é compatível com a configuração de [identidade visual herdada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} que foi usada anteriormente no Console do Cliente.
+
+Na abordagem herdada, os clientes implementaram a identidade visual estendendo o formulário extAccount e usando a guia **Marca**.
+
+![](assets/branding-legacy.png)
+
+Se o ambiente existente usar essa configuração herdada, ele não poderá ser migrado diretamente para o novo modelo de marca centralizada. É necessária uma reimplementação completa das configurações da marca para a adoção do novo sistema.

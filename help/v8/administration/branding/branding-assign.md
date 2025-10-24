@@ -1,15 +1,15 @@
 ---
-title: Marca
+title: Identidade visual
 description: Descubra como atribuir sua marca
 audience: administration
 context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 19%
+source-wordcount: '617'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 ## Vincular uma marca a um modelo {#linking-a-brand-to-a-template}
 
-Para usar os parâmetros definidos para uma marca, ela deve estar vinculada a um template do delivery. Para fazer isso, é necessário criar ou editar um template.
+Para usar os parâmetros definidos para uma marca, ela deve estar vinculada a um template do delivery. Para fazer isso, é necessário criar ou editar um modelo.
 
 Seu modelo será vinculado à marca. No editor de email, elementos como **Endereço de email do remetente padrão**, **Nome do remetente padrão** ou **logotipo** usarão os dados da marca configurada.
 
@@ -41,7 +41,7 @@ Depois que o modelo for criado, você pode vinculá-lo a uma marca. Para fazer i
 
    ![](assets/branding_assign_web_3.png)
 
-1. Confirme a seleção e salve o template.
+1. Confirme a seleção e salve o modelo.
 
 Agora você pode usar esse template para enviar seus deliveries.
 
@@ -126,3 +126,27 @@ Para criar um novo delivery independente, siga as etapas abaixo.
 1. Personalize ainda mais seus deliveries. Para obter mais informações sobre como criar um email, consulte a seção [Design e enviar emails](../../email/create-email.md).
 
 >[!ENDTABS]
+
+## Verificar identidade visual associada a mensagens transacionais {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>Esta seção se aplica somente a mensagens transacionais (Centro de Mensagens).
+>
+>Embora os recursos transacionais estejam disponíveis na interface da Web do Campaign, as etapas de verificação abaixo devem ser executadas no console do cliente do Campaign v8 (instância de controle).
+
+Os deliveries transacionais sincronizados das instâncias de execução em tempo real (RT) para a instância de controle não replicam propriedades como roteamento ou marca. Esses deliveries sincronizados são gerados semanalmente a partir do mesmo modelo para trazer de volta os indicadores de delivery na instância de controle.
+
+Por causa disso, a instância de controle exibe a marca padrão. As configurações de marca e roteamento reais usadas durante a execução da mensagem são definidas no template de mensagem transacional na instância de controle.
+
+Para verificar qual marca foi usada para uma mensagem transacional:
+
+1. Identifique o nome interno do modelo transacional publicado em Tempo Real (por exemplo, `TransactionalMessaging4768`).
+
+   ![](assets/branding-transactional.png)
+
+1. Na instância de controle, pesquise por esse nome interno em **Modelos de mensagem transacional**.
+
+   ![](assets/branding-transactional2.png)
+
+1. Abra o modelo para exibir a marca e outras propriedades relacionadas.

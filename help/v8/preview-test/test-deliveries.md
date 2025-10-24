@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar provas
 description: Saiba como definir e enviar provas
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1193'
 ht-degree: 13%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
->title="Público alvo de prova adicional"
+>title="Público-alvo adicional da prova"
 >abstract="Público alvo de prova adicional."
 
 Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-lo e testá-lo enviando provas para perfis de teste. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
@@ -49,7 +49,7 @@ Para começar a testar o conteúdo da mensagem:
 
    * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são destinatários adicionais específicos no banco de dados. Você também pode usar o modo [substituição do target principal](#substitution-profiles), que envia a prova para um endereço de teste de email ou número de telefone, e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
 
-   * Para mensagens por push, você pode usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados no console [!DNL Campaign]. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=pt-BR){target="_blank"}
+   * Para mensagens por push, você pode usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados no console [!DNL Campaign]. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    A configuração detalhada para cada modo está disponível abaixo.
 
@@ -109,7 +109,7 @@ Para substituir os dados do perfil do target principal, siga as etapas abaixo:
 
    >[!CAUTION]
    >
-   >Se você não tiver selecionado um [público-alvo](../audience/about-recipients.md) para sua entrega, a opção **[!UICONTROL Substituir do público-alvo principal]** ficará esmaecida e você não poderá selecionar perfis de substituição.
+   >Se você não tiver selecionado um [público-alvo](../audience/about-recipients.md) para sua entrega, a opção **[!UICONTROL Substituir do público-alvo principal]** ficará esmaecida e você não poderá selecionar perfis de substituição. Além disso, mesmo que um público-alvo seja selecionado para deliveries do tipo recorrentes, essa opção ainda estará esmaecida, pois o delivery principal é um template.
 
 1. Clique no botão **[!UICONTROL Adicionar endereço]** e especifique o endereço de email ou o número de telefone que receberá a prova.
 
