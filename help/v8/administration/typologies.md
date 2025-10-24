@@ -3,9 +3,9 @@ audience: end-user
 title: Trabalhar com regras de negócios (tipologias)
 description: Saiba como trabalhar com tipologias e regras de tipologia para controlar, filtrar e monitorar o envio de deliveries.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1506'
 ht-degree: 29%
 
 ---
@@ -45,7 +45,7 @@ As tipologias podem ser acessadas pelo menu **[!UICONTROL Administração]** > *
 As principais etapas para aplicar tipologias às suas mensagens são as seguintes:
 
 1. [Criar uma tipologia](#typology).
-1. [Criar regras de tipologia](#typology-rules).
+1. [Criar regras de tipologia](#typology-rule).
 1. [Regras de tipologia de referência na tipologia](#add-rules).
 1. [Aplicar a tipologia a uma mensagem](#message).
 
@@ -104,7 +104,7 @@ Para criar uma regra de tipologia, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Criar regra de tipologia]** e siga as etapas detalhadas abaixo.
 
-[Criar regra de tipologia](assets/business-rules-create-typo.png)
+   ![Criar regra de tipologia](assets/business-rules-create-typo.png)
 
 ### Definir as propriedades principais da regra {#properties}
 
@@ -118,7 +118,7 @@ Para criar uma regra de tipologia, siga estas etapas:
 >title="Código"
 >abstract="As regras de **controle** analisam a qualidade e a validade da mensagem antes do envio, tendo como exemplo: exibição de caracteres, comprimento do SMS, formato de endereço e redução de URL. Essas regras são criadas usando código JavaScript."
 
-Essas são as principais propriedades ao criar uma nova regra de tipologia.
+Estas são as principais propriedades que serão definidas ao criar uma nova regra de tipologia:
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ Essas são as principais propriedades ao criar uma nova regra de tipologia.
 
 1. Insira um **[!UICONTROL Rótulo]** para a regra.
 
-[Criar regra de controle](assets/business-rules-create-typo1.png)
+   ![Criar regra de controle](assets/business-rules-create-typo1.png)
 
-1. Expanda a seção **[!UICONTROL Opções adicionais]** para acessar configurações avançadas, como o nome interno da regra, o armazenamento da pasta e a descrição. Você também pode especificar quando a regra deve ser aplicada e seu nível de alerta. Expanda as seções abaixo para obter mais informações.
+1. A seção **[!UICONTROL Opções adicionais]** permite acessar configurações avançadas, como o nome interno da regra, o armazenamento da pasta e a descrição. Você também pode especificar quando a regra deve ser aplicada e seu nível de alerta. Expanda as seções abaixo para obter mais informações.
 
-   +++Fases:
+   +++Fases
 
    Especificar em qual ponto do ciclo de vida do delivery a regra será aplicada. Selecione o valor na lista suspensa **[!UICONTROL Fase]**:
 
@@ -144,17 +144,17 @@ Essas são as principais propriedades ao criar uma nova regra de tipologia.
 
    +++
 
-   +++Nível:
+   +++Nível
 
    Especifique o nível de alerta para a regra:
 
-   * **[!UICONTROL Erro]**: parar a preparação da mensagem.
+   * **[!UICONTROL Erro]**: parar a preparação da mensagem
 
-   * **[!UICONTROL Aviso]**: exibir um aviso nos logs de preparação.
+   * **[!UICONTROL Aviso]**: exibir um aviso nos logs de preparação
 
-   * **[!UICONTROL Informações]**: exibir informações nos logs de preparação.
+   * **[!UICONTROL Informações]**: exibir informações nos logs de preparação
 
-   * **[!UICONTROL Detalhado]**: exibir informações nos logs do servidor.
+   * **[!UICONTROL Detalhado]**: exibir informações nos logs do servidor
 
    +++
 
@@ -169,7 +169,7 @@ Essas são as principais propriedades ao criar uma nova regra de tipologia.
 
 1. Insira um **[!UICONTROL Rótulo]** para a regra.
 
-[Criar regra de filtragem](assets/business-rules-create-typo2.png)
+   ![Criar regra de filtragem](assets/business-rules-create-typo2.png)
 
 1. Expanda a seção **[!UICONTROL Opções adicionais]** para acessar configurações avançadas, como o nome interno da regra, o armazenamento da pasta e a descrição.
 
@@ -185,7 +185,7 @@ Essas são as principais propriedades ao criar uma nova regra de tipologia.
 
 Agora, vamos definir os parâmetros adicionais. Nesta tela, você ainda pode alterar as propriedades principais definidas anteriormente.
 
-[Criar regra de filtragem adicional](assets/business-rules-create-typo2.png)
+![Criar regra de filtragem adicional](assets/business-rules-create-typo3.png)
 
 1. Desative a opção **[!UICONTROL Ativo]** se não quiser que a regra fique ativa imediatamente após sua criação.
 
