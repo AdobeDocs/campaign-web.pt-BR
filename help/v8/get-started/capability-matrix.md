@@ -4,9 +4,9 @@ title: 'Matriz de recursos da interface web e do console do cliente do Campaign 
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Os trabalhos de importação e exportação únicos descritos na [documentação
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=pt-BR){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -104,16 +104,16 @@ Regras de tipologia podem ser selecionadas para uma entrega ou um modelo de entr
 Use os links fornecidos para explorar a documentação do Campaign v8 (console do cliente) e saber mais sobre as regras de tipologia:
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=pt-BR){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
 * Criação de regras de fadiga/pressão. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/pressure-rules){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=pt-BR){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=pt-BR){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * Simulação de campanha. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/campaign-simulations){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## Fluxos de trabalho {#wf-capabilities}
@@ -215,6 +215,6 @@ Navegue pelos links fornecidos para a documentação do Campaign v8 (console do 
 
 ## Gerenciamento de fuso horário {#timezone-management}
 
-A interface do usuário da Web do Adobe Campaign exibe todos os valores de data e hora com base no **fuso horário local do navegador da Web do usuário**. Esse comportamento pode resultar em diferenças ao comparar carimbos de data e hora entre a interface do usuário da Web e o console do cliente.
+A interface da web do Adobe Campaign exibe todos os valores de data e hora com base no **fuso horário local do navegador da web do usuário**. Esse comportamento pode resultar em diferenças ao comparar carimbos de data e hora entre a interface da web e o console do cliente.
 
-Consulte esta [página](../administration/timezone-management.md) para saber mais sobre as diferenças entre os fusos horários da **Interface do Usuário da Web**, **Console do Cliente** e **execução do fluxo de trabalho**.
+Consulte esta [página](../administration/timezone-management.md) para saber mais sobre as diferenças entre os fusos horários da **interface da web**, do **console do cliente** e da **execução do fluxo de trabalho**.
