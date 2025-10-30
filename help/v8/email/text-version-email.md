@@ -22,7 +22,7 @@ Se preferir usar conteúdo diferente para a versão de texto simples, siga as et
 
    ![Captura de tela mostrando a guia de texto sem formatação na interface do Designer de email.](assets/text_version_3.png){zoomable="yes"}
 
-1. Use o botão **[!UICONTROL Sincronizar com HTML]** para desabilitar a sincronização.
+1. Use o botão de alternância **[!UICONTROL Sincronizar com HTML]** para desabilitar a sincronização.
 
    ![Captura de tela mostrando a opção Sincronizar com o HTML na guia Texto sem formatação.](assets/text_version_1.png){zoomable="yes"}
 

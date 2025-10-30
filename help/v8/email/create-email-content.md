@@ -5,8 +5,8 @@ description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 54%
+source-wordcount: '650'
+ht-degree: 51%
 
 ---
 
@@ -72,7 +72,7 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
    ![Captura de tela mostrando o painel de componentes da estrutura no Designer de email.](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Selecione o componente **[!UICONTROL coluna n:n]** para definir um número de colunas (entre 3 e 10). Defina a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+1. Selecione o componente **[!UICONTROL n:n coluna]** para definir o número de colunas de sua escolha (entre 3 e 10). Defina a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
    >
    >Não é possível reverter para o designer visual desse email após alternar para o editor de código.
 
-1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar a renderização do email. Escolha a exibição para desktop ou dispositivos móveis. [Saiba mais sobre como visualizar seu email](../preview-test/preview-test.md)
+1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar o e-mail rendering. Escolha a exibição para desktop ou dispositivos móveis. [Saiba mais sobre como visualizar seu email](../preview-test/preview-test.md)
 
    ![Captura de tela mostrando as opções de simulação no Designer de email.](assets/email_designer-simulate.png){zoomable="yes"}
 
@@ -110,4 +110,4 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453570/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

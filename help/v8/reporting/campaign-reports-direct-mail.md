@@ -29,7 +29,7 @@ A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de 
 
 ![Visão geral das métricas de entrega de campanha de correspondência direta](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Métricas de visão geral de delivery.
++++Saiba mais sobre Métricas de visão geral do delivery.
 
 * **[!UICONTROL Mensagens a serem entregues]**: número total de mensagens processadas durante a preparação da entrega.
 
@@ -52,7 +52,7 @@ A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados
 
 ![Estatísticas do público-alvo inicial para campanhas de correspondência direta](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Saiba mais sobre as métricas de Estatísticas iniciais de público-alvo.
++++Saiba mais sobre Métricas de estatísticas de público-alvo inicial.
 
 * **[!UICONTROL Público-alvo inicial]**: número total de destinatários direcionados.
 

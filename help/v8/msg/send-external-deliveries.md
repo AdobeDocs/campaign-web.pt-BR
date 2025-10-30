@@ -6,7 +6,7 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,7 @@ Depois que a conta externa específica for configurada, crie o delivery externo.
 
    Há três opções:
 
-   * **Em um fluxo de trabalho**: adicione uma atividade de canal externo (email, SMS ou push) ao seu fluxo de trabalho. Para obter instruções detalhadas sobre como configurar fluxos de trabalho, consulte [esta página](../workflows/gs-workflow-creation.md).
+   * **Em um fluxo de trabalho**: adicione uma atividade de canal externo (email, SMS ou push) ao seu fluxo de trabalho. Para obter instruções detalhadas sobre como configurar fluxos de trabalho, consulte [esta página](../workflows/gs-workflow-creation.md).
    * **Em uma campanha**: depois de criar uma campanha, você pode criar uma entrega externa de email, SMS ou canal de push. Para obter mais informações sobre como configurar sua campanha, consulte [esta página](../campaigns/gs-campaigns.md).
    * **Entrega independente**: envolva os clientes direta e instantaneamente com uma entrega externa individual. [Saiba como criar uma entrega](../msg/gs-deliveries.md)
 

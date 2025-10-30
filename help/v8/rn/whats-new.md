@@ -4,9 +4,9 @@ title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
-source-wordcount: '1311'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,10 +38,10 @@ Saiba como fazer logon na Adobe Experience Cloud e se conectar ao Campaign [nest
 
 A interface do Adobe Campaign Web fornece um ambiente gráfico abrangente que permite criar processos complexos que podem ajudar a gerenciar suas campanhas de marketing com facilidade. Ela vem com:
 
-* Nova interface da tela de workflow para criar e gerenciar seus processos
+* Nova interface da tela de fluxo de trabalho para criar e gerenciar seus processos
 * Conteúdo dinâmico para oferecer experiências altamente direcionadas e personalizadas para seu público-alvo
 * Integração nativa com públicos-alvo da Adobe Experience Platform
-* Gerenciamento de modelos para workflows, entregas, campanhas e conteúdo
+* Gerenciamento de modelos para fluxos de trabalho, entregas, campanhas e conteúdo
 
 Saiba mais sobre a nova interface da web [nesta página](../get-started/user-interface.md).
 
@@ -49,8 +49,8 @@ Saiba mais sobre a nova interface da web [nesta página](../get-started/user-int
 
 O Adobe Campaign Web apresenta um eficiente modelador de consultas que simplifica o processo de filtragem de bancos de dados para selecionar destinos específicos com base em vários critérios. Você pode usar o modelador de consultas para:
 
-* Definir públicos-alvo para suas mensagens ou workflows e criar facilmente novos públicos-alvo adaptados às suas necessidades
-* Aplicar regras em atividades de workflow, como Divisão e Reconciliação, para alinhar-se aos requisitos específicos
+* Definir públicos-alvo para suas mensagens ou fluxos de trabalho e criar facilmente novos públicos-alvo adaptados às suas necessidades
+* Aplicar regras em atividades de fluxo de trabalho, como Divisão e Reconciliação, para alinhar-se aos requisitos específicos
 * Criar filtros predefinidos que servem como atalhos durante diversas operações de filtragem, seja trabalhando com listas de dados ou formando o público-alvo para uma entrega
 * Adicionar uma regra para filtrar os dados exibidos nos relatórios.
 * Criar regras personalizadas para filtrar os dados exibidos em listas como destinatários, listas de entregas e muito mais
@@ -60,7 +60,7 @@ Saiba mais [nesta seção](../query/query-modeler-overview.md).
 
 **Recursos integrados de gerenciamento de campanhas em vários canais**
 
-Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados. Ao adicionar vários workflows e entregas específicos à campanha, você pode criar experiências personalizadas em vários canais, garantindo que cada touchpoint corresponda ao público-alvo desejado.
+Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e medir a eficácia usando vários relatórios dedicados. Ao adicionar vários fluxos de trabalho e entregas específicos à campanha, você pode criar experiências personalizadas em vários canais, garantindo que cada touchpoint corresponda ao público-alvo desejado.
 
 Use a nova interface do Campaign Web para:
 
@@ -69,7 +69,7 @@ Use a nova interface do Campaign Web para:
 * Enviar campanhas entre canais, incluindo SMS e notificações por push – [Saiba mais](../workflows/activities/channels.md)
 * Definir os públicos-alvo com o modelador de consulta - [Saiba mais](../audience/about-recipients.md)
 * Visualizar, testar e enviar suas mensagens - [Saiba mais](../monitor/prepare-send.md)
-* Monitorar o envio e medir os resultados com relatórios internos - [Saiba mais](../reporting/delivery-reports.md)
+* Monitorar o envio e medir os resultados com relatórios integrados - [Saiba mais](../reporting/delivery-reports.md)
 
 
 **Geração de conteúdo com o assistente de IA**
@@ -80,7 +80,7 @@ Redefina a entrega de conteúdo com nosso editor avançado de arrastar e soltar 
 
 Aproveite o potencial dos algoritmos avançados do Assistente de IA para criar conteúdo atrativo e personalizado que impulsiona os resultados. Aumente as taxas de abertura, click-throughs e conversões com a geração inteligente de conteúdo orientada por IA. Saiba mais [nesta seção](../email/generative-gs.md).
 
-**Atividades de workflow de campanha novas e reprojetadas**
+**Atividades de fluxo de trabalho de campanha novas e reprojetadas**
 
 Maximize suas campanhas de marketing com um **conjunto ainda maior de atividades de fluxo de trabalho**. Descubra novas possibilidades de automação e otimização para criar jornadas do cliente mais dinâmicas e personalizadas. Da segmentação avançada aos acionadores condicionais, nossas atividades adicionais de fluxo de trabalho permitem fornecer mensagens direcionadas e promover um melhor desempenho da campanha. Saiba mais [nesta seção](../workflows/gs-workflows.md).
 
@@ -156,6 +156,6 @@ As limitações abaixo se aplicam a esta versão:
 * Os KPIs do painel de entrega são atualizados a cada 5 minutos. - mas a preparação da Entrega é em tempo real.
 * As Notificações da Adobe Experience Cloud e a Ajuda unificada disponíveis na barra superior ainda não estão integradas.
 
-Ao trabalhar na interface do Campaign Web com workflows criados ou modificados no console do cliente do Campaign, medidas de proteção específicas e limitações serão aplicadas. Elas são listadas [nesta seção](../get-started/guardrails.md).
+Ao trabalhar na interface do Campaign Web com fluxos de trabalho criados ou modificados no console do cliente do Campaign, medidas de proteção específicas e limitações serão aplicadas. Elas são listadas [nesta seção](../get-started/guardrails.md).
 
 Saiba mais sobre a compatibilidade de recursos e a interoperabilidade entre a interface do Campaign Web e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).

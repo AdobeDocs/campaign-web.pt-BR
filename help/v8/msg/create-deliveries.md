@@ -57,9 +57,9 @@ Para criar uma entrega em um fluxo de trabalho, siga estas etapas:
 
    ![Captura de tela mostrando a adição de uma atividade de entrega em um fluxo de trabalho](assets/add-delivery-in-wf.png){zoomable="yes"}
 
-1. Inicie o workflow e verifique os logs.
+1. Inicie o fluxo de trabalho e verifique os logs.
 
-Também é possível adicionar entregas em uma campanha sem criar um workflow. Para fazer isso, navegue até a guia **[!UICONTROL Entregas]** da campanha e clique no botão **[!UICONTROL Criar entrega]**.
+Também é possível adicionar entregas em uma campanha sem criar um fluxo de trabalho. Para fazer isso, navegue até a guia **[!UICONTROL Entregas]** da campanha e clique no botão **[!UICONTROL Criar entrega]**.
 
 ![Captura de tela mostrando a criação de uma entrega em uma campanha](assets/new-campaign-delivery.png){zoomable="yes"}
 

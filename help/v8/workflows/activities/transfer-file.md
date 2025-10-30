@@ -54,7 +54,7 @@ Siga as etapas detalhadas abaixo para configurar a atividade **Transferir arquiv
 
 1. Selecione a ação a ser executada com a atividade. As ações disponíveis dependem do tipo de transferência selecionado. Expanda as seções abaixo para obter mais informações.
 
-   +++Ações disponíveis com **atividades do tipo transferência de arquivos**
+   +++Ações disponíveis com **Atividades do tipo transferência de arquivos**
 
    * **[!UICONTROL Download de arquivo]**: baixar um arquivo do servidor.
    * **[!UICONTROL Carregamento de arquivo]**: carregar um arquivo no servidor.
@@ -142,7 +142,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 
 1. Nas **[!UICONTROL Opções avançadas]**, opções adicionais estão disponíveis com base no tipo de atividade que você está configurando. Expanda as seções abaixo para obter mais informações.
 
-   +++Opções adicionais para **[!UICONTROL atividades do tipo transferência de arquivos]**
+   +++Opções adicionais para atividades do tipo **[!UICONTROL Transferência de arquivos]**
 
    * **[!UICONTROL Excluir os arquivos de origem após a transferência]**: apagar os arquivos de origem após uma transferência bem-sucedida.
    * **[!UICONTROL Exibir os logs de sessão]**: quando esta opção é ativada, as informações relacionadas à operação de transferência são exibidas nos logs de fluxo de trabalho após a execução do fluxo de trabalho.
@@ -150,7 +150,7 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
 
    +++
 
-   +++Opções adicionais para **[!UICONTROL atividades do tipo download da Web]**
+   +++Opções adicionais para atividades do tipo **[!UICONTROL Download da Web]**
 
    * **[!UICONTROL Seguir redirecionamentos]**: o redirecionamento de arquivo permite usar substituições para direcionar a entrada ou saída de dados para um dispositivo de tipo diferente.
    * **[!UICONTROL Adicionar os cabeçalhos HTTP ao arquivo]**: em alguns casos, talvez você queira adicionar outros cabeçalhos HTTP a um arquivo. Normalmente, esses cabeçalhos serão usados para fornecer informações adicionais para fins de solução de problemas, para [Compartilhamento de recursos entre origens (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) ou para definir diretivas específicas de armazenamento em cache.

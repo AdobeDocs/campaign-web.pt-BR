@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Utilização da atividade de workflow Divisão
-description: Saiba como usar a atividade de workflow Divisão
+title: Utilização da atividade de fluxo de trabalho Divisão
+description: Saiba como usar a atividade de fluxo de trabalho Divisão
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
@@ -64,7 +64,7 @@ A atividade **Split** é uma atividade de **Direcionamento** que segmenta as pop
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
-1. Adicione uma atividade de **Divisão** ao seu workflow.
+1. Adicione uma atividade de **Divisão** ao seu fluxo de trabalho.
 
 1. O painel de configuração da atividade é aberto com um subconjunto padrão. Clique em **Adicionar segmento** para adicionar quantos subconjuntos desejar e segmentar a população recebida.
 

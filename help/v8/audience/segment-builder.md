@@ -25,7 +25,7 @@ A paleta, localizada no lado esquerdo, contém todos os elementos que você pode
 
 A paleta é dividida em duas guias:
 
-* **Atributos**: esta guia fornece acesso a todos os campos disponíveis do esquema. A lista de campos depende do schema de direcionamento definido no template de email.
+* **Atributos**: esta guia fornece acesso a todos os campos disponíveis do esquema. A lista de campos depende do esquema de direcionamento definido no modelo de email.
 
 * **Públicos-alvo**: essa guia permite filtrar usando um dos públicos-alvo existentes definidos no console do Campaign Classic ou no Adobe Experience Platform. Saiba como monitorar e gerenciar públicos-alvo no [nesta seção](manage-audience.md).
 

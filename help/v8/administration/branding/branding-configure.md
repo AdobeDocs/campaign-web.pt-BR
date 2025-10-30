@@ -1,5 +1,5 @@
 ---
-title: Marca
+title: Identidade visual
 description: Saiba como configurar sua marca
 audience: administration
 context-tags: branding,overview;branding,main

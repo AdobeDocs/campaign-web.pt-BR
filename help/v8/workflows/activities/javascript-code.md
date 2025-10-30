@@ -112,7 +112,7 @@ Para isso, siga estas etapas:
        vars.channel = "sms";
    ```
 
-1. Inicie o workflow. A variável &quot;channel&quot; é criada com o valor &quot;email&quot; ou &quot;sms&quot;, dependendo do número de perfis direcionados pela atividade **Criar público-alvo**.
+1. Inicie o fluxo de trabalho. A variável &quot;channel&quot; é criada com o valor &quot;email&quot; ou &quot;sms&quot;, dependendo do número de perfis direcionados pela atividade **Criar público-alvo**.
 
 ### Acione transições com base no valor de uma variável {#example2}
 

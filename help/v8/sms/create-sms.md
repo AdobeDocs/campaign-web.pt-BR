@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -49,7 +49,6 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
-
    +++
 
 1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público já existente ou criar o seu próprio. [Saiba mais sobre públicos](../audience/about-recipients.md).

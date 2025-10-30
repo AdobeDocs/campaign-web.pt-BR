@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de fev
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar target mappings na interface do Campaign Web. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema. O target mapping permite definir o público-alvo: perfis, beneficiários de contratos, operadores, assinantes, clientes em potencial e muito mais.</p>
+<p>Agora é possível criar target mappings na interface do Campaign Web. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema. O target mapping permite definir o público-alvo: perfis, beneficiários de contratos, operadores, assinantes, clientes potenciais e muito mais.</p>
 <p>Para obter mais informações, consulte a <a href="../administration/typologies.md">documentação detalhada</a>.</p>
 </td>
 </tr>

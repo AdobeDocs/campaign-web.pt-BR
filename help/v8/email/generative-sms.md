@@ -6,7 +6,7 @@ exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Antes de começar a usar este recurso, leia as [Medidas de Proteção e Limitações](generative-gs.md#generative-guardrails) relacionadas.
->&#x200B;></br>
+>></br>
 >
 >Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Campaign Web. Para mais informações, entre em contato com o seu representante da Adobe.
 

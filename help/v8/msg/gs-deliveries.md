@@ -69,9 +69,9 @@ Para excluir uma entrega da lista de entregas, siga estas etapas:
 
 ![Excluindo uma entrega da interface da lista de entrega](assets/delete-delivery-from-list.png)
 
-Todas as entregas estão disponíveis nessas listas, mas as entregas criadas em um workflow não podem ser excluídas nelas. Para excluir um delivery criado no contexto de um workflow, exclua a atividade de delivery do workflow.
+Todas as entregas estão disponíveis nessas listas, mas as entregas criadas em um fluxo de trabalho não podem ser excluídas nelas. Para excluir um delivery criado no contexto de um workflow, exclua a atividade de delivery do workflow.
 
-Para excluir uma entrega de um workflow, siga estas etapas:
+Para excluir uma entrega de um fluxo de trabalho, siga estas etapas:
 
 1. Selecione a atividade de delivery.
 1. Clique no ícone **[!UICONTROL Excluir]** no painel direito.

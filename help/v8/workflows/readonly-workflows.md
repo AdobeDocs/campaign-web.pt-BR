@@ -14,7 +14,7 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
->title="Este workflow é de somente leitura"
+>title="Este fluxo de trabalho é de somente leitura"
 >abstract="Não é possível editar esse fluxo de trabalho devido aos seus direitos ou ao tipo de fluxo de trabalho."
 
 Alguns workflows são somente leitura. Os workflows técnicos incorporados são sempre somente leitura, mas essa restrição também pode se aplicar a outros tipos de workflows.
@@ -46,10 +46,10 @@ Em um workflow de campanha somente leitura, o usuário não consegue acessar o b
 
 ![Interface do fluxo de trabalho do Campaign no modo somente leitura, mostrando as opções de monitoramento desabilitadas.](assets/readonly-campaign-workflow.png){zoomable="yes"}
 
-### Workflows técnicos {#readonly-tech-wf}
+### Fluxos de trabalho técnicos {#readonly-tech-wf}
 
 Os workflows técnicos incorporados são somente leitura para todos os usuários do Campaign, incluindo administradores. No entanto, os usuários podem **pausar** ou **parar**, se necessário. Essas são as únicas ações permitidas.
 
 ![Interface de fluxo de trabalho técnico no modo somente leitura, mostrando opções para pausar ou parar fluxos de trabalho.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Saiba mais sobre fluxos de trabalho técnicos em [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Saiba mais sobre fluxos de trabalho técnicos em [esta seção](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

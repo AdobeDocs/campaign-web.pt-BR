@@ -5,8 +5,8 @@ description: Saiba como criar um delivery de notificação por push com o Adobe 
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 30%
+source-wordcount: '738'
+ht-degree: 28%
 
 ---
 
@@ -51,7 +51,6 @@ Defina as configurações de delivery conforme detalhado abaixo:
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
-
    +++
 
 ## Selecionar o público-alvo da entrega por push {#create-audience-push}
@@ -68,7 +67,7 @@ Primeiro, selecione o aplicativo e, depois, refine o público-alvo de notificaç
 
    ![Captura de tela mostrando a seleção de público para entrega por push](assets/push_create_2.png){zoomable="yes"}
 
-1. Selecione um público existente ou crie seu próprio público para refinar a população do target para o delivery de push. Para notificação por push, a [dimensão de destino](../audience/about-recipients.md#targeting-dimensions) padrão é o **Aplicativo do assinante** (nms:appSubscriptionRcp), que está vinculado à tabela de destinatários.
+1. Selecione um público existente ou crie seu próprio público para refinar a população do target para o delivery de push. Para notificação por push, a [dimensão de destino](../audience/about-recipients.md#targeting-dimensions) padrão é **Aplicativo do assinante** (nms:appSubscriptionRcp), que está vinculado à tabela de destinatários.
 
    Saiba como selecionar um público existente [nesta página](../audience/add-audience.md).
 

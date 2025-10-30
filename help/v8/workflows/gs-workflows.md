@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Introdução a workflows
-description: Saiba como começar a usar os workflows
+title: Introdução a fluxos de trabalho
+description: Saiba como começar a usar os fluxos de trabalho
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
 
-# Introdução a workflows {#workflows}
+# Introdução a fluxos de trabalho {#workflows}
 
 ## O que é um fluxo de trabalho?
 
@@ -39,10 +39,10 @@ Agora que você entende o que são fluxos de trabalho e seus recursos no Adobe C
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="access-monitor.md">
-<img alt="Acessar e gerenciar workflows" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="Acessar e gerenciar fluxos de trabalho" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Acessar e gerenciar workflows</strong></a>
+<a href="access-monitor.md"><strong>Acessar e gerenciar fluxos de trabalho</strong></a>
 </div>
 <p>
 </td>

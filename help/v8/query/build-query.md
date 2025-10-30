@@ -18,7 +18,7 @@ Para começar a criar uma consulta, acesse o modelador de consultas do local de 
 >[!IMPORTANT]
 >
 >Uma interface totalmente nova para o modelador de Consulta está disponível. O novo construtor de regras permite criar a consulta com mais facilidade graças à interface simplificada. Para alternar para essa experiência, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
->&#x200B;>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Você pode adicionar dois tipos de elementos:
 
@@ -70,7 +70,7 @@ Para acessar essa opção, em sua query, clique no botão de seleção de atribu
 >
 >* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesses casos, uma notificação **[!UICONTROL Carga parcial]** avisa você.
 >* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos. [Saiba como selecionar atributos](../get-started/attributes.md)
->* Você pode adicionar condições aos resultados usando os **[ !Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
+>* Você pode adicionar condições aos resultados usando os **[!Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adicionar componentes de filtragem {#filtering}
 
@@ -178,7 +178,7 @@ Esta é uma amostra de consulta em que um link de tabela foi selecionado diretam
 
 ![Exemplo de uma amostra de consulta](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 Para um link **1-N**, você pode definir subcondições para refinar sua consulta, como mostrado no exemplo abaixo.
 
@@ -202,7 +202,7 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
    ![Exemplo de subcondições](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Trabalhar com dados agregados {#aggregate}
 

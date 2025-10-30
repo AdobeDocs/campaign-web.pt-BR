@@ -13,7 +13,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
->title="Indicadores-chave de desempenho"
+>title="Indicadores principais de desempenho"
 >abstract="A seção **Indicadores-chave de desempenho** permite verificar a eficiência da plataforma por meio de KPIs comuns."
 
 <!-- à enlever? -->

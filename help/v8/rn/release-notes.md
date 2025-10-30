@@ -3,9 +3,9 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

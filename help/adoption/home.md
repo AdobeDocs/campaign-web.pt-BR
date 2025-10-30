@@ -20,7 +20,7 @@ Temos o prazer de anunciar que usuários do Adobe Campaign Standard agora estão
 * Integração com a Adobe Experience Platform: o Managed Cloud Services v8 se conecta perfeitamente com a Adobe Experience Platform, permitindo que clientes possam aproveitar todo o potencial de seus dados e entregar campanhas personalizadas e impactantes em todos os canais.
 * Interface e experiência de usuário consistentes: não se preocupe, a transição para o Managed Cloud Services v8 não interromperá seu fluxo de trabalho. Você continuará aproveitando a interface e a experiência de usuário familiares, garantindo uma curva de aprendizado mínima para sua equipe.
 
-Como um Campaign Standard de transição para o Campaign v8, esta documentação ajuda você a começar.
+Como um Campaign Standard em transição para o Campaign v8, esta documentação ajuda você a começar.
 
 >[!BEGINTABS]
 
@@ -93,4 +93,4 @@ Entenda as diferenças de experiência entre o Adobe Campaign Standard e o Adobe
 
 ## Recursos adicionais
 
-[Descrição de Produto do Adobe Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentação da interface da Web do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=pt-BR){target="_blank"} - [Documentação do Console do Cliente do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutorials do Console do Cliente](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - [[!DNL Adobe Campaign] guia de automação](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=pt-BR){target="_blank"} - [Painel de Controle do Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR){target="_blank"}
+[Descrição de produto do Adobe Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentação da interface do usuário da Web do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Documentação do console do cliente do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutoriais do console do cliente](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - [[!DNL Adobe Campaign] guia de automação](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=pt-BR){target="_blank"} - [Painel de controle do Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR){target="_blank"}

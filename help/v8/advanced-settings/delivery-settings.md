@@ -103,7 +103,7 @@ O campo **[!UICONTROL Importância do destinatário]** é uma fórmula usada par
 
 Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre os mapeamentos de destino](../audience/targeting-dimensions.md).
 
-No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=pt-BR){target="_blank"}
+No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Entrega {#delivery}
 
@@ -159,7 +159,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=pt-BR#external-account-ac){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Tentativas {#retries}
 

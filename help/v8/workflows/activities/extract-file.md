@@ -62,7 +62,7 @@ A seção de formato **[!UICONTROL Destino]** permite configurar como o arquivo 
 
 1. Clique no botão **[!UICONTROL Formato de extração]** para acessar opções específicas relacionadas ao formato selecionado. Expanda a seção abaixo para obter mais informações.
 
-+++ Opções de formato de extração disponíveis
+   +++ Opções de formato de extração disponíveis
 
    * **[!UICONTROL Usar a primeira linha como cabeçalho da coluna]** (Formato de texto/CSV (Excel)): ative esta opção para usar a primeira coluna como cabeçalho.
    * **[!UICONTROL Separador de coluna]** (formato de texto): especifique o caractere a ser usado como separador de coluna no arquivo de saída.
@@ -73,7 +73,7 @@ A seção de formato **[!UICONTROL Destino]** permite configurar como o arquivo 
    * **[!UICONTROL Formato de número]**: especifique como os números devem ser formatados no arquivo de saída.
    * **[!UICONTROL Exportar rótulos em vez de valores internos de enumerações]**: ative esta opção se exportar valores de enumeração e quiser recuperar rótulos de coluna, que são mais fáceis de entender, em vez de IDs internas.
 
-+++
+   +++
 
    ![Captura de tela mostrando as opções de configuração do arquivo a ser extraído.](../assets/extract-file-format.png)
 

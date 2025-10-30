@@ -29,7 +29,7 @@ A **[!UICONTROL Visão geral da entrega]** fornece insights detalhados sobre as 
 
 ![Gráfico de métricas de visão geral da entrega mostrando os principais indicadores de desempenho para entrega de correspondência direta.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Métricas de visão geral de delivery.
++++Saiba mais sobre Métricas de visão geral do delivery.
 
 * **[!UICONTROL Mensagens a serem entregues]**: número total de mensagens processadas durante a preparação da entrega.
 * **[!UICONTROL Direcionado]**: número de perfis de usuário qualificados como perfis de destino para mensagens de correspondência direta.
@@ -84,11 +84,11 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** fornece uma visão geral do
 >title="Causas de exclusão de entrega"
 >abstract="O gráfico **Causas de exclusão** ilustra a distribuição de mensagens rejeitadas durante a preparação para a entrega, categorizada por cada regra."
 
-O gráfico **[!UICONTROL Causas da exclusão]** fornece uma análise dos motivos da rejeição da mensagem durante a preparação da entrega. Esse detalhamento é organizado por várias regras, oferecendo uma visualização detalhada dos fatores que contribuem para a exclusão de mensagens. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#email-error-types){_blank}.
+O gráfico **[!UICONTROL Causas da exclusão]** fornece uma análise dos motivos da rejeição da mensagem durante a preparação da entrega. Esse detalhamento é organizado por várias regras, oferecendo uma visualização detalhada dos fatores que contribuem para a exclusão de mensagens. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Gráfico de causas de exclusão mostrando a distribuição de mensagens rejeitadas por regra.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Saiba mais sobre Causas de métricas de exclusão.
++++Saiba mais sobre Causas das métricas de exclusão.
 
 * **[!UICONTROL Endereço em quarentena]**: Tipo de erro gerado quando um endereço é colocado em quarentena.
 * **[!UICONTROL Endereço não especificado]**: Tipo de erro gerado quando um endereço não existe.

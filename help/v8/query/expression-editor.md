@@ -22,7 +22,7 @@ A edição de uma expressão envolve a inserção manual de condições para for
 >[!IMPORTANT]
 >
 >Uma interface totalmente nova para o modelador de consultas está disponível. Para alternar para essa nova experiência do construtor de regras, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
->![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Trabalhar com o editor de expressão {#edit}
 

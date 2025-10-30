@@ -35,7 +35,7 @@ Por padrão, cada campanha na lista exibe informações sobre seu status atual, 
 
 Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens).
 
-Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use a seção **Data de início - término**:
+Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use a seção **Data inicial - final**:
 
 ![Descrição: o painel de filtros mostra opções para filtrar campanhas por datas de início e término](assets/campaign-filter-on-dates.png)
 
@@ -48,7 +48,7 @@ Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de fi
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
->title="Lista de workflows em uma campanha"
+>title="Lista de fluxos de trabalho em uma campanha"
 >abstract="A guia **Fluxo de trabalho** lista todos os fluxos de trabalho vinculados à campanha atual. "
 
 Na guia **Procurar** da lista de campanhas, clique em um nome de campanha para exibir seus detalhes.
@@ -61,7 +61,7 @@ No painel de campanha, use os botões **Logs** e **Reports** para monitorar sua 
 
 Para cada campanha, o painel mostra duas guias principais: Workflows e Deliveries.
 
-* A guia **Workflows** lista todos os workflows associados à campanha. Essa guia também permite criar um novo workflow dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
+* A guia **Workflows** lista todos os workflows associados à campanha. Essa guia também permite criar um novo fluxo de trabalho dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
 * A guia **Deliveries** lista todas as entregas criadas na campanha atual. Você também pode criar uma nova entrega dentro da campanha. Consulte esta [seção](create-campaigns.md#create-campaigns).
 
@@ -99,10 +99,10 @@ Um template de campanha pode armazenar as seguintes informações:
 
 * A campanha **Configurações**
 * A campanha **Agenda**
-* Templates de workflow
+* Modelos de fluxo de trabalho
 * Modelos de entrega
 
-Para criar um template de campanha, siga as etapas abaixo:
+Para criar um modelo de campanha, siga as etapas abaixo:
 
 1. Clique no menu **[!UICONTROL Campanhas]**, navegue até a guia **Modelos** e clique no botão **[!UICONTROL Criar modelo]**.
 1. Selecione o **Modelo** para usar. Isso permite basear o novo modelo em um modelo criado anteriormente.

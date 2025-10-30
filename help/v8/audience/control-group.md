@@ -40,7 +40,7 @@ Para adicionar um grupo de controle a uma entrega, ative o botão de alternânci
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Modo de extração"
->abstract="Um grupo de controle é um conjunto de perfis excluídos da entrega. Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis do público-alvo."
+>abstract="Um grupo de controle é um conjunto de perfis excluídos da entrega. Para definir um grupo de controle, você pode optar por extrair, aleatoriamente ou com base em uma classificação, uma porcentagem ou um número fixo de perfis da população de destino."
 
 ### Criar um grupo de controle {#build-extract-target}
 

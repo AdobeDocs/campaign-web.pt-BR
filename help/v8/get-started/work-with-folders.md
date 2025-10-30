@@ -4,9 +4,9 @@ title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

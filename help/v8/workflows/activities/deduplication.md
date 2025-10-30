@@ -59,7 +59,7 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
    * **Valores não vazios**: mantém os registros para os quais a expressão não está vazia.
    * **Seguindo uma lista de valores**: define uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão e, em seguida, adicione os valores à tabela apropriada. Para definir um novo campo, clique no botão **Add** localizado acima da lista de valores.
 
-1. Marque a opção **Generate complement** para explorar a população restante. O complemento consiste de todas as duplicatas. Em seguida, uma transição adicional é adicionada à atividade.
+1. Marque a opção **Generate complement** para explorar a população restante. O complemento consiste de todos os duplicados. Em seguida, uma transição adicional é adicionada à atividade.
 
 ## Exemplo {#deduplication-example}
 

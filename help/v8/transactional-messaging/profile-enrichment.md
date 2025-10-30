@@ -5,7 +5,7 @@ description: Saiba como criar uma mensagem transacional na interface da Web do C
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 6%
 >
 >Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura. Seu servidor deve ser atualizado para a versão 8.8.2 ou posterior.
 >
->No momento, esse recurso está disponível apenas para emails.
+>No momento, este recurso só está disponível para emails.
 
-Esse recurso permite personalizar mensagens transacionais vinculando campos do banco de dados do Adobe Campaign ao conteúdo da mensagem. Você pode selecionar target mappings, colunas de enriquecimento e uma chave de reconciliação para garantir uma personalização precisa e em tempo real, mantendo os limites de desempenho.
+Esse recurso permite personalizar mensagens transacionais vinculando campos do banco de dados do Adobe Campaign ao conteúdo da mensagem. Você pode selecionar target mappings, colunas de enriquecimento e uma chave de reconciliação para garantir uma personalização em tempo real e precisa, mantendo os limites de desempenho.
 
 * As mensagens transacionais baseadas em evento usam dados contidos no próprio evento.
 * As mensagens transacionais baseadas em perfil usam dados contidos no banco de dados do Adobe Campaign.

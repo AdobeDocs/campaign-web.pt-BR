@@ -29,7 +29,7 @@ A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de 
 
 ![Métricas de visão geral da entrega](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Métricas de visão geral de delivery.
++++Saiba mais sobre Métricas de visão geral do delivery.
 
 * **[!UICONTROL Mensagens a serem entregues]**: número total de mensagens processadas durante a preparação da entrega.
 
@@ -55,7 +55,7 @@ A tabela e o gráfico para **[!UICONTROL Público-alvo]** exibem dados relaciona
 
 ![Métricas de público-alvo](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre métricas de Público-alvo direcionado.
++++Saiba mais sobre Métricas de público-alvo direcionado.
 
 * **[!UICONTROL Público-alvo]**: número total de destinatários direcionados.
 
@@ -99,7 +99,7 @@ A tabela **[!UICONTROL Estatísticas de entrega]** fornece um detalhamento do su
 
 O gráfico de exclusões e a tabela ilustram os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 
-Tipos de erro de email listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#email-error-types){target="_blank"}.
+Tipos de erro de email listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ## Taxa de transferência de entrega {#delivery-throughput}
 
@@ -133,9 +133,9 @@ O relatório Taxa de transferência de delivery fornece insights detalhados sobr
 
 A tabela e o gráfico **[!UICONTROL Detalhamento de erros por tipo]** apresentam os dados relacionados a possíveis erros ocorridos em vários domínios, com as métricas específicas fornecidas a seguir.
 
-Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR){target="_blank"}.
+Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-+++Saiba mais sobre o Detalhamento de erros por tipo de métrica.
++++Saiba mais sobre Detalhamento de erros por tipo de métrica.
 
 * **[!UICONTROL Usuário desconhecido]**: Tipo de erro gerado durante a entrega para indicar que o endereço de email é inválido.
 
@@ -205,7 +205,7 @@ A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados rel
 
 ![Métricas de taxa de abertura e click-through](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre métricas de taxa de abertura e click-through.
++++Saiba mais sobre Métricas de taxa de abertura e de click-through.
 
 * **[!UICONTROL Enviado]**: Número total de mensagens enviadas.
 
@@ -283,7 +283,7 @@ O relatório **[!UICONTROL Atividades do usuário]** mostra o detalhamento de ab
 
 ![Métricas de atividades do usuário](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre as métricas de Atividades do usuário.
++++Saiba mais sobre Métricas de atividades do usuário.
 
 * **[!UICONTROL Total de Cliques]**: número total de cliques nos links nas entregas.
 

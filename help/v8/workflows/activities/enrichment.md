@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -32,7 +32,7 @@ Após adicionar os dados de enriquecimento ao workflow, eles poderão ser usados
 
 Por exemplo, você pode adicionar informações relacionadas às compras dos clientes à tabela de workflow e usar esses dados para personalizar emails com a compra mais recente ou o valor gasto nessas compras.
 
-## Adicionar uma atividade Enrichment {#enrichment-configuration}
+## Adicionar uma atividade de enriquecimento {#enrichment-configuration}
 
 Siga estas etapas para configurar a atividade **Enriquecimento**:
 

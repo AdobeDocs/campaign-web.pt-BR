@@ -10,7 +10,7 @@ ht-degree: 18%
 
 ---
 
-# Criar o workflow {#create-first-workflow}
+# Criar o fluxo de trabalho {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -43,7 +43,7 @@ Seu fluxo de trabalho agora é criado e está disponível na lista de fluxos de 
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
->title="Templates de workflow"
+>title="Modelos de fluxo de trabalho"
 >abstract="Os modelos de fluxo de trabalho contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novos fluxos de trabalho."
 
 >[!CONTEXTUALHELP]

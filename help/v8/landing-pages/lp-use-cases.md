@@ -167,7 +167,7 @@ Você pode permitir que seus clientes cancelem a assinatura de um serviço usand
 
    ![Captura de tela mostrando a interface da caixa de seleção de cancelamento de assinatura.](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
-1. Expanda a seção **[!UICONTROL Chamada para ação]** e selecione a opção **[!UICONTROL Atualizações adicionais]**. Selecione o serviço e marque a opção **[!UICONTROL Recusar]**.
+1. Expanda a seção **[!UICONTROL Call to action]** e selecione a opção **[!UICONTROL Atualizações adicionais]**. Selecione o serviço e marque a opção **[!UICONTROL Recusar]**.
 
    ![Captura de tela mostrando a interface do call-to-action para cancelamento de assinatura.](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
@@ -189,7 +189,7 @@ Incluir na lista de bloqueios Você pode configurar uma **[!UICONTROL página de
 
 1. Selecione a **[!UICONTROL página de Inclui na lista de bloqueios]** para editar seu conteúdo.
 
-1. Expanda a seção **[!UICONTROL Chamada para ação]** e selecione a opção **[!UICONTROL Atualizações adicionais]**.
+1. Expanda a seção **[!UICONTROL Call to action]** e selecione a opção **[!UICONTROL Atualizações adicionais]**.
 
 1. Na lista suspensa correspondente, selecione **[!UICONTROL Canal (email)]** para permitir que seus destinatários recusem apenas comunicações por email. Você também pode selecionar **[!UICONTROL Por todos os canais]** para excluí-los de todas as comunicações em todos os canais.
 

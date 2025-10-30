@@ -133,7 +133,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
 Para enviar uma mensagem de confirmação automaticamente após o envio de uma landing page, siga estas etapas:
 
-1. Na seção **[!UICONTROL CHAMADA PARA AÇÃO]**, marque a opção **[!UICONTROL Enviar email de confirmação]**.
+1. Na seção **[!UICONTROL CALL TO ACTION]**, marque a opção **[!UICONTROL Enviar email de confirmação]**.
 
 1. Na lista suspensa associada, escolha o template de mensagem transacional que precisa ser enviado.
 

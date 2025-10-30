@@ -7,7 +7,7 @@ exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 >[!AVAILABILITY]
 >
->Esse recurso só está disponível sob demanda. Para obter acesso, entre em contato com o representante da Adobe.
+>Este recurso só está disponível sob demanda. Para obter acesso, entre em contato com o representante da Adobe.
 
 O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques.
 

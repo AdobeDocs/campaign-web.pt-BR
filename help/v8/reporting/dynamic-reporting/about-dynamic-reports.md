@@ -1,5 +1,5 @@
 ---
-title: Introdução a relatórios dinâmicos
+title: Introdução aos relatórios dinâmicos
 description: Com relatórios dinâmicos, arraste e solte variáveis e dimensões em seu ambiente de forma livre e analise o sucesso de suas campanhas.
 level: Beginner
 audience: end-user
@@ -11,9 +11,9 @@ ht-degree: 19%
 
 ---
 
-# Introdução a relatórios dinâmicos {#about-dynamic-reports}
+# Introdução aos relatórios dinâmicos {#about-dynamic-reports}
 
-O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques. Com a interface de arrastar e soltar, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients.
+O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. Com a interface de arrastar e soltar, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients.
 
 ## Acesso aos relatórios dinâmicos {#accessing-dynamic-reports}
 

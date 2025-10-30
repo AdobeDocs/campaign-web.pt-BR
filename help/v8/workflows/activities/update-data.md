@@ -75,6 +75,6 @@ A seção **Opções avançadas** permite especificar opções adicionais para l
 
 As duas últimas opções permitem executar ações específicas:
 
-* **Gerar uma transição de saída**: cria uma transição de saída que será ativada no final da execução. A atualização normalmente sinaliza o final de um workflow para construção do target e, portanto, a opção não é ativada por padrão.
+* **Gerar uma transição de saída**: cria uma transição de saída que será ativada no final da execução. A atualização normalmente sinaliza o final de um fluxo de trabalho de segmentação e, portanto, a opção não é ativada por padrão.
 
 * **Gerar uma transição de saída para as rejeições**: cria uma transição de saída contendo registros que não foram processados corretamente após a atualização (por exemplo, se houver uma duplicata). A atualização geralmente marca o final de um workflow para construção do target e a opção não é ativada por padrão.

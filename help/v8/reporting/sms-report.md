@@ -32,7 +32,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 ![Descrição: a imagem mostra o relatório de visão geral da entrega, que inclui KPIs como taxas de sucesso, taxas de erro e envolvimento do visitante.](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++Saiba mais sobre as métricas de relatório do delivery de SMS.
++++Saiba mais sobre métricas de relatório de entrega de SMS.
 
 * **[!UICONTROL Total enviado]**: porcentagem e número total de mensagens processadas durante a preparação da entrega.
 
@@ -55,7 +55,7 @@ O gráfico e a tabela **População direcionada** exibem dados relacionados ao s
 
 ![Descrição: a imagem mostra o gráfico e a tabela de população direcionada, que inclui métricas como mensagens a serem entregues e exclusões.](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++Saiba mais sobre as métricas de relatório do delivery de SMS.
++++Saiba mais sobre métricas de relatório de entrega de SMS.
 
 * **[!UICONTROL A entregar]**: número total e taxa percentual de mensagens processadas durante a preparação da entrega.
 
@@ -73,7 +73,7 @@ O relatório **Estatísticas gerais** apresenta dados para as mensagens SMS envi
 
 ![Descrição: a imagem mostra o relatório Estatísticas gerais, que inclui métricas como taxas de sucesso, erros e quarentenas.](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++Saiba mais sobre as métricas de relatório do delivery de SMS.
++++Saiba mais sobre métricas de relatório de entrega de SMS.
 
 * **[!UICONTROL Êxito]**: número e taxa de porcentagem de mensagens processadas com êxito.
 
@@ -89,7 +89,7 @@ O relatório **Estatísticas gerais** apresenta dados para as mensagens SMS envi
 >title="Exclusões de SMS"
 >abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem."
 
-O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#sms-quarantines){_blank}.
+O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![Descrição: a imagem mostra o gráfico e a tabela de Exclusões, que detalham os motivos para excluir perfis de usuário do recebimento de mensagens.](assets/reporting_sms_6.png){zoomable="yes"}
 

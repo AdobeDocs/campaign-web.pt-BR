@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Alinhamento à marca
+title: Alinhamento da marca
 description: Saiba como criar, validar e gerenciar conteúdo na marca usando a pontuação da marca.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
@@ -10,7 +10,7 @@ ht-degree: 5%
 
 ---
 
-# Alinhamento à marca {#brands-score}
+# Alinhamento da marca {#brands-score}
 
 >[!AVAILABILITY]
 >

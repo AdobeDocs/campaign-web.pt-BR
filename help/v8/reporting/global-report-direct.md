@@ -29,7 +29,7 @@ A **[!UICONTROL Visão geral da entrega]** apresenta as principais métricas de 
 
 ![Esta imagem mostra as métricas de visão geral da entrega para entregas de correspondência direta.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre Métricas de visão geral de delivery.
++++Saiba mais sobre Métricas de visão geral do delivery.
 
 * **[!UICONTROL Mensagens a serem entregues]**: número total de mensagens processadas durante a preparação da entrega.
 
@@ -57,7 +57,7 @@ A tabela e o gráfico para **[!UICONTROL Público-alvo]** exibem dados relaciona
 
 ![Esta imagem mostra as métricas de público-alvo direcionadas para entregas de correspondência direta.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++Saiba mais sobre métricas de Público-alvo direcionado.
++++Saiba mais sobre Métricas de público-alvo direcionado.
 
 * **[!UICONTROL Público-alvo]**: número total de destinatários direcionados.
 
@@ -109,7 +109,7 @@ O gráfico e a tabela **[!UICONTROL Estatísticas de entrega]** fornecem um deta
 
 O gráfico e a tabela de Exclusões ilustram os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 
-+++Saiba mais sobre Causas de métricas de exclusão.
++++Saiba mais sobre Causas das métricas de exclusão.
 
 * **[!UICONTROL Endereço em quarentena]**: Tipo de erro gerado quando um endereço é colocado em quarentena.
 

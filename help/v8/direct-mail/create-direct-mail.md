@@ -6,7 +6,7 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -34,7 +34,6 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
    * **[!UICONTROL Código de entrega]**: organize suas entregas usando sua própria convenção de nomeação.
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
-
    +++
 
 1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público-alvo existente ou criar o seu próprio.

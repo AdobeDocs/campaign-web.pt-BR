@@ -4,7 +4,7 @@ title: Transição do Campaign Standard para o Adobe Campaign Web
 description: Conheça a interface do Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
 

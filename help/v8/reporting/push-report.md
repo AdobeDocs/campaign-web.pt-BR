@@ -32,7 +32,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 
 ![Esta captura de tela mostra o relatório Visão geral da entrega, que fornece KPIs sobre a participação do visitante com mensagens por push.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório de delivery por push.
++++Saiba mais sobre Métricas de relatório de push delivery.
 
 * **[!UICONTROL Total enviado]**: número total de mensagens processadas durante a preparação da entrega.
 * **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
@@ -52,7 +52,7 @@ O gráfico e a tabela **População direcionada** exibem dados relativos ao seu 
 
 ![Esta captura de tela mostra o gráfico e a tabela de população direcionada, que exibe dados sobre mensagens a serem entregues e exclusões.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório de delivery por push.
++++Saiba mais sobre Métricas de relatório de push delivery.
 
 * **[!UICONTROL Para entregar]**: número total de mensagens processadas durante a preparação da entrega.
 * **[!UICONTROL Exclusões]**: número de perfis excluídos da análise.
@@ -70,7 +70,7 @@ O relatório **Estatísticas gerais** apresenta dados para as notificações por
 
 ![Esta captura de tela mostra o relatório Estatísticas gerais, que apresenta dados sobre êxito, erros e quarentenas para notificações por push enviadas.](assets/reporting_push_5.png){zoomable="yes"}
 
-+++Saiba mais sobre Métricas de relatório de delivery por push.
++++Saiba mais sobre Métricas de relatório de push delivery.
 
 * **[!UICONTROL Êxito]**: número de mensagens processadas com êxito.
 * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante a entrega, impedindo que as mensagens sejam enviadas para determinados perfis.
@@ -85,7 +85,7 @@ O relatório **Estatísticas gerais** apresenta dados para as notificações por
 >title="Exclusões de push"
 >abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem."
 
-O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#push-error-types){_blank}.
+O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 ![Esta captura de tela mostra o gráfico e a tabela de Exclusões, que mostram os motivos que impedem que perfis de usuários excluídos recebam mensagens.](assets/reporting_push_6.png){zoomable="yes"}
 

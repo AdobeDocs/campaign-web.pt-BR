@@ -45,7 +45,7 @@ Os workflows podem ter vários status:
 
 Informações detalhadas sobre como iniciar e monitorar a execução do fluxo de trabalho estão disponíveis em [esta página](start-monitor-workflows.md).
 
-## Templates de workflow {#templates}
+## Modelos de fluxo de trabalho {#templates}
 
 A guia **[!UICONTROL Modelos]** lista todos os modelos de fluxo de trabalho disponíveis.
 

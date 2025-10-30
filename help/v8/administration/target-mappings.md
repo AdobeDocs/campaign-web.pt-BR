@@ -4,7 +4,7 @@ description: Saiba como gerenciar target mappings.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '806'
 ht-degree: 16%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 ## Sobre target mappings {#about}
 
-Cada canal de comunicação usa um target mapping padrão para direcionar seus recipients. Por exemplo, por padrão, os modelos de delivery de email e SMS são direcionados a **[!UICONTROL Recipients]**. O target mapping, portanto, usa os campos da tabela **nms:recipient.** Para notificações por push, o target mapping padrão é **Aplicativos do assinante (nms:appSubscriptionRcp)**, que está vinculado à tabela de destinatários.
+Cada canal de comunicação usa um target mapping padrão para direcionar seus recipients. Por exemplo, por padrão, os modelos de delivery de email e SMS são direcionados a **[!UICONTROL Recipients]**. O target mapping, portanto, usa os campos da tabela **nms:recipient**. Para notificações por push, o target mapping padrão é **Aplicativos do assinante (nms:appSubscriptionRcp)**, que está vinculado à tabela de destinatários.
 
 Os mapeamentos de destino podem ser acessados no menu **[!UICONTROL Administração]** > **[!UICONTROL Mapeamentos de destino]**. Nessa tela, você pode acessar detalhes sobre cada target mapping ou criar novos target mappings para atender às suas necessidades.
 

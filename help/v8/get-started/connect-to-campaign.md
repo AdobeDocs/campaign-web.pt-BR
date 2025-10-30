@@ -3,7 +3,7 @@ title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
->title="Este workflow é de somente leitura"
+>title="Este fluxo de trabalho é de somente leitura"
 >abstract="Você não tem permissões para editar este fluxo de trabalho. Se necessário, entre em contato com a sua administração para obter acesso."
 
 O controle de acesso pode restringir o acesso a objetos e dados de listas principais, como entregas, destinatários ou fluxos de trabalho. Essas restrições aplicam-se também à árvore de navegação do Explorer. Além disso, você precisa de permissões para criar, excluir, duplicar e editar objetos na interface.
@@ -124,7 +124,7 @@ Atualmente, o Adobe Campaign Web está disponível nos seguintes idiomas:
 * Chinês simplificado - CHS
 * Chinês tradicional - CHT
 
-Além disso, a formatação específica do local (como datas, horas, calendários, números) também pode estar disponível em variantes dos idiomas compatíveis com a interface:
+Além disso, a formatação específica da localidade (como datas, horas, calendários, números) também pode estar disponível em variantes dos idiomas compatíveis com a interface:
 
 * Inglês (Israel)
 * Inglês (Reino Unido)
@@ -143,7 +143,7 @@ Para alterar o idioma:
 
 ## Temas escuro e claro {#dark-theme}
 
-O Adobe Campaign está disponível em temas claros e escuros. Por padrão, a interface é habilitada no tema claro. Para mudar para o tema escuro, clique no ícone do perfil e use o botão **Tema escuro** para habilitá-lo ou desabilitá-lo.
+O Adobe Campaign está disponível em temas claros e escuros. Por padrão, a interface é habilitada no tema claro. Para mudar para o tema escuro, clique no ícone do perfil e use o botão de alternância **Tema escuro** para habilitá-lo ou desabilitá-lo.
 
 As configurações de perfil do usuário e as preferências da conta estão detalhadas [nesta seção](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR#preferences){target="_blank"}.
 

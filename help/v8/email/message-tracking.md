@@ -20,7 +20,7 @@ Ao criar uma mensagem, você pode adicionar links ao seu conteúdo.
 
 >[!NOTE]
 >
->Quando o rastreamento é ativado, todos os links incluídos no conteúdo da mensagem são rastreados.
+>Quando o rastreamento é habilitado, todos os links incluídos no conteúdo da mensagem são rastreados.
 
 Para inserir links no seu conteúdo de email, siga estas etapas:
 

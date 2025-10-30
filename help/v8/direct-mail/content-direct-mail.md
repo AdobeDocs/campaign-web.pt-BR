@@ -37,7 +37,7 @@ Para criar o conteúdo do arquivo de extração gerado pela entrega de correspon
 
 1. Expanda a seção **[!UICONTROL Formato de extração]** para acessar opções específicas relacionadas ao formato do arquivo de extração. Os valores disponíveis dependem do formato selecionado.
 
-+++ Opções de formato de extração disponíveis
+   +++ Opções de formato de extração disponíveis
 
    * **[!UICONTROL Usar a primeira linha como cabeçalho da coluna]** (Formato de texto/CSV (Excel)): ative esta opção para usar a primeira coluna como cabeçalho.
    * **[!UICONTROL Separador de coluna]** (formato de texto): especifique o caractere a ser usado como separador de coluna no arquivo de extração.
@@ -48,7 +48,7 @@ Para criar o conteúdo do arquivo de extração gerado pela entrega de correspon
    * **[!UICONTROL Formato de número]**: especifique como os números devem ser formatados no arquivo de extração.
    * **[!UICONTROL Exportar rótulos em vez de valores internos de enumerações]**: ative esta opção se exportar valores de enumeração e quiser recuperar rótulos de coluna, que são mais fáceis de entender, em vez de IDs internas.
 
-+++
+   +++
 
 1. Ative a opção **[!UICONTROL Quantidade solicitada]** para restringir o número de destinatários da sua entrega.
 

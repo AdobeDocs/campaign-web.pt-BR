@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ Use outros target mappings integrados em workflows e deliveries, conforme listad
 | Arquivo externo | Entrega por meio de um arquivo contendo todas as informações necessárias | Nenhum esquema vinculado, nenhum target inserido |
 | Aplicativos de assinante | Perfis inscritos em um aplicativo | nms:appSubscriptionRcp |
 
-Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR#new-mapping){target="_blank"}.
+Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
 
 ## Dimensões de filtro {#filtering}
 

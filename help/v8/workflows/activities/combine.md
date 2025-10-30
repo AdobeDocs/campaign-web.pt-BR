@@ -75,8 +75,8 @@ Na atividade **Combine**, configure uma **Union** selecionando o **Tipo de recon
 
 Na atividade **Combinar**, configure uma **Interseção** seguindo estas etapas adicionais:
 
-1. Selecione o **Tipo de reconciliação** para definir como as duplicatas são tratadas. Consulte a seção [União](#union).
-1. Marque a opção **Gerar complemento** se desejar processar o público restante. O complemento contém a união dos resultados de todas as atividades de entrada menos a interseção. Em seguida, uma transição de saída adicional é adicionada à atividade.
+1. Selecione o **Tipo de reconciliação** para definir como os duplicados são tratados. Consulte a seção [União](#union).
+1. Marque a opção **Gerar complemento** se desejar processar a população restante. O complemento contém a união dos resultados de todas as atividades de entrada menos a interseção. Em seguida, uma transição de saída adicional é adicionada à atividade.
 
 ## Regras de  {#combine-exclusion}
 
@@ -104,7 +104,7 @@ Na atividade **Combinar**, configure uma **Exclusão** seguindo estas etapas adi
 
 1. Na seção **Conjuntos para unir**, selecione o **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
 1. Quando necessário, manipule as tabelas de entrada. Para excluir um público-alvo de outra dimensão, retorne esse público-alvo à mesma dimensão de direcionamento que o público-alvo principal. Clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união.
-1. Marque a opção **Gerar complemento** se desejar processar o público restante. Consulte a seção [Interseção](#intersection).
+1. Marque a opção **Gerar complemento** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
 
 ## Exemplos {#combine-examples}
 
