@@ -138,7 +138,7 @@ Para configurar a conta externa do **[!UICONTROL HTTP]**, preencha os seguintes 
    * Senha
    * Chave pública
 
-Se você estiver usando a autenticação de **[!UICONTROL Chave pública]**, no menu **[!UICONTROL Autenticação de {PublicKey]**, insira os valores necessários para:
+Se você estiver usando a autenticação de **[!UICONTROL Chave pública]**, no menu **[!UICONTROL Autenticação de &lbrace;PublicKey]**, insira os valores necessários para:
 
 * **[!UICONTROL Senha]**: a senha que protege a chave privada, se aplicável.
 

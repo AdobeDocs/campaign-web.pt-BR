@@ -71,8 +71,8 @@ No Adobe Campaign Standard, o termo **Função de usuário** é chamado de **Dir
 >[!IMPORTANT]
 >
 >As unidades organizacionais na Adobe Campaign Standard sem **Todas (todas)** como um pai direto ou indireto não serão migradas para o Campaign v8.
->></br>
->>Os usuários em vários grupos de segurança recebem a unidade organizacional do grupo de segurança com a classificação mais alta. Se vários grupos tiverem unidades organizacionais paralelas de nível superior, o sistema selecionará a unidade organizacional para o usuário no Campaign Standard e o usuário só terá acesso à unidade organizacional selecionada pelo sistema e seus filhos. No Campaign v8 após a migração, o usuário teria acesso a **todas as unidades organizacionais atribuídas e seus filhos**, possivelmente aumentando os privilégios. Para evitar isso, evite atribuir usuários a grupos de segurança com unidades organizacionais paralelas. Saiba mais sobre [atribuição de unidade organizacional paralela](#parallel-assignments).
+>&#x200B;></br>
+>&#x200B;>Os usuários em vários grupos de segurança recebem a unidade organizacional do grupo de segurança com a classificação mais alta. Se vários grupos tiverem unidades organizacionais paralelas de nível superior, o sistema selecionará a unidade organizacional para o usuário no Campaign Standard e o usuário só terá acesso à unidade organizacional selecionada pelo sistema e seus filhos. No Campaign v8 após a migração, o usuário teria acesso a **todas as unidades organizacionais atribuídas e seus filhos**, possivelmente aumentando os privilégios. Para evitar isso, evite atribuir usuários a grupos de segurança com unidades organizacionais paralelas. Saiba mais sobre [atribuição de unidade organizacional paralela](#parallel-assignments).
 
 
 No Adobe Campaign Standard, a **unidade organizacional** está mapeada para o modelo de hierarquia **Pasta** existente no Campaign v8 para manter um controle de acesso semelhante. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
