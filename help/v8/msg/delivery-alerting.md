@@ -16,7 +16,7 @@ Os alertas de delivery são um sistema de gerenciamento de alertas que permite q
 
 As notificações são personalizadas com base em critérios de alerta específicos definidos pela interface da Web do Adobe Campaign.
 
-Para obter mais informações sobre o gerenciamento de falhas de entrega, consulte a [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Para obter mais informações sobre o gerenciamento de falhas de entrega, consulte a [documentação do Adobe Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Conteúdo de notificação por email {#content}
 

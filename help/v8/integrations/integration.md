@@ -19,7 +19,7 @@ Você pode conectar seu ambiente do Campaign com soluções e aplicativos da Ado
 
 O Adobe Campaign inclui vários conectores que permitem a comunicação com aplicativos externos, conexão com mecanismos de banco de dados e compartilhamento e sincronização de dados. O Adobe configura essas conexões.
 
-Saiba quais soluções e aplicativos podem ser conectados ao Campaign, juntamente com os casos de uso associados, na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}.
+Saiba quais soluções e aplicativos podem ser conectados ao Campaign, juntamente com os casos de uso associados, na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=pt-BR){target="_blank"}.
 
 Além disso, com a nova interface de usuário da Web do Campaign, você pode conectar seu ambiente do Adobe Experience Manager as a Cloud Service para obter os seguintes casos de uso:
 
