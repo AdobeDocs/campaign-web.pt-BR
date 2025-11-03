@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 0%
          + [Definir o estilo dos links](email/styling-links.md)
          + [Adicionar atributos de estilo em linha](email/inline-styling.md)
          + [Adicionar CSS personalizado](email/custom-css.md)
+         + [Gerenciar conteúdo no modo escuro](email/dark-mode.md)
       + [Criar conteúdo acessível](email/accessible-content.md)
    + Assistente de IA {#ai-assistant}
       + [Trabalhar com o Assistente de IA](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 0%
    + [Trabalhar com outras soluções da Adobe](integrations/integration.md)
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
+   + [Trabalhar com o GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuração {#conf}
    + Identidade visual {#branding}
       + [Sobre identidade visual](administration/branding/branding-gs.md)
@@ -276,7 +278,7 @@ ht-degree: 0%
    + [Gerenciar target mappings](administration/target-mappings.md)
    + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + [Gerenciamento de fuso horário](administration/timezone-management.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
@@ -285,6 +287,7 @@ ht-degree: 0%
       + [Banco de dados externo](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Transferir dados](administration/transfer-external-account.md)
+      + [Conta externa do CRM](administration/external-crm.md)
    + [Gerenciar enumerações](administration/enumerations.md)
    + [Trabalhar com códigos JavaScript](administration/javascript-codes.md)
 + [Documentação do Campaign v8 (console) >](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home)

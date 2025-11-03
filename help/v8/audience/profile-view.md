@@ -2,10 +2,10 @@
 title: Conheça os detalhes de perfis
 description: Saiba como explorar os detalhes de um perfil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 8%
+source-wordcount: '246'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,10 @@ As informações no perfil são organizadas da seguinte maneira:
 * A guia **[!UICONTROL Assinaturas]** fornece o insight para os serviços aos quais o perfil está inscrito. [Saiba mais sobre os serviços de assinatura](manage-services.md)
 
   ![Captura de tela mostrando a guia assinaturas, listando os serviços aos quais o perfil está inscrito.](assets/profile-subscriptions.png){zoomable="yes"}
+
+* É possível exibir guias personalizadas, como compras, definindo links de coleção na definição da tela do schema Recipients. [Saiba mais sobre links de coleção](../administration/schemas.md#collection-lists)
+
+  ![Captura de tela mostrando a guia personalizada](assets/schemas-collection4.png){zoomable="yes"}
 
 * Além disso, o botão **[!UICONTROL Logs]**, localizado no canto superior direito da tela, permite visualizar o histórico das interações do perfil por meio de envio, exclusão e logs de rastreamento. [Saiba mais sobre logs de entrega](../monitor/delivery-logs.md)
 

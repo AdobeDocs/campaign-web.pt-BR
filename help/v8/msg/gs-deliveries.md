@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 38%
+source-wordcount: '486'
+ht-degree: 36%
 
 ---
 
@@ -35,11 +35,13 @@ Para abrir um delivery, clique no nome na lista. A entrega é aberta, permitindo
 
 ![Tela de detalhes da entrega mostrando parâmetros e relatórios](assets/delivery-details.png)
 
->[!NOTE]
->
->Se você abrir uma entrega criada no console do cliente, a seção **[!UICONTROL Destino adicional]** poderá ser exibida para o público-alvo. Isso indica que vários targets foram configurados para este delivery. Esses parâmetros só podem ser modificados no console.
->
->![Mensagem de aviso sobre a configuração de destino adicional](assets/target-warning-audience.png){zoomable="yes"}
+Se você abrir um delivery criado no console do cliente, duas novas seções poderão ser exibidas para o público-alvo. Esses parâmetros só podem ser modificados no console.
+
+* **[!UICONTROL Destino adicional]**: indica que vários destinos foram configurados para esta entrega.
+
+* **[!UICONTROL Destino de prova adicional]**: indica que uma condição dinâmica foi definida para destinos de prova nesta entrega.
+
+![Mensagem de aviso sobre a configuração de destino adicional](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Duplicação de uma entrega {#delivery-duplicate}
 

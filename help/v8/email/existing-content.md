@@ -3,7 +3,7 @@ audience: end-user
 title: Importar o conteúdo do email
 description: Saiba como importar conteúdo de email
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 29%
@@ -46,9 +46,9 @@ Para importar um arquivo com conteúdo do HTML, siga as etapas abaixo.
 
    ![Captura de tela mostrando a guia do conversor de HTML e o botão Converter.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
+   >[!NOTE]
+   >
+   >Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
 1. Personalize o arquivo importado conforme necessário com as funcionalidades de Designer de email. [Saiba mais](content-components.md)
 
@@ -56,4 +56,4 @@ Para importar um arquivo com conteúdo do HTML, siga as etapas abaixo.
 
 Saiba como criar um email carregando o HTML, torná-lo compatível com o Designer de email e convertê-lo em um modelo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447037/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
