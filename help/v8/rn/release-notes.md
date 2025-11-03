@@ -2,7 +2,7 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -22,7 +22,7 @@ As alterações e melhorias disponíveis em versões anteriores estão listadas 
 
 ## Versão de outubro de 2025 {#25-10-updates}
 
-_28 de outubro de 2025_
+_3 de novembro de 2025_
 
 <table>
 <thead>
