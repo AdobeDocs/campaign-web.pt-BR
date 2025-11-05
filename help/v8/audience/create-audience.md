@@ -3,7 +3,7 @@ audience: end-user
 title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
+source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 13%
@@ -108,4 +108,4 @@ Se preferir não substituir os resultados do público existente, configure as at
 
 Saiba como criar e gerenciar públicos-alvo, selecionar públicos-alvo para uma entrega e definir grupos de controle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453207?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
