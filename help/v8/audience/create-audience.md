@@ -3,10 +3,10 @@ audience: end-user
 title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 15%
+source-wordcount: '1015'
+ht-degree: 13%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 15%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
+## Sobre a criação de público-alvo
+
 O Campaign Web permite criar novos públicos-alvo em uma tela de fluxo de trabalho visual. Além de criar um público-alvo simples do zero, você também pode aproveitar as atividades do fluxo de trabalho para refinar seu público-alvo. Por exemplo, é possível combinar vários públicos-alvo em um, enriquecer o público-alvo com atributos externos ou dividi-lo em vários públicos-alvo com base em regras de sua escolha.
 
 Depois de criar o fluxo de trabalho, os públicos resultantes são automaticamente armazenados no banco de dados do Campaign junto com os existentes. Esses públicos-alvo podem ser direcionados em workflows ou deliveries independentes.
@@ -30,6 +32,14 @@ Depois de criar o fluxo de trabalho, os públicos resultantes são automaticamen
 A coluna **[!UICONTROL Origem]** indica as origens dos públicos-alvo: os públicos-alvo do **[!UICONTROL Adobe Campaign]** são criados no console do Adobe Campaign v8 ou na Interface do Usuário da Web, enquanto os públicos-alvo do **[!UICONTROL Adobe Experience Platform:]** são criados no Adobe Experience Platform e integrados ao Campaign usando a integração de Fontes e Destinos do Adobe.
 
 ➡️ [Conheça este recurso no vídeo](#video)
+
+## Permissões para grupos de operadores personalizados
+
+Ao criar um novo público-alvo, um fluxo de trabalho é criado e armazenado automaticamente na pasta **[!UICONTROL Profiles and Targets]** / **[!UICONTROL Jobs]** / **[!UICONTROL Targeting workflows]**.
+
+Se você estiver atribuído a um grupo de operadores personalizado e encontrar um erro &quot;Você não tem direitos&quot; ao criar públicos, será necessário garantir que seu grupo de operadores tenha as permissões necessárias para essa pasta.
+
+Para resolver isso, um administrador deve adicionar seu grupo de operadores personalizado à seção de segurança da pasta no console do Campaign. [Saiba como gerenciar permissões em pastas](../get-started/permissions.md#folder-permissions)
 
 ## Criar seu primeiro público-alvo {#create}
 
@@ -98,4 +108,4 @@ Se preferir não substituir os resultados do público existente, configure as at
 
 Saiba como criar e gerenciar públicos-alvo, selecionar públicos-alvo para uma entrega e definir grupos de controle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453207?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
