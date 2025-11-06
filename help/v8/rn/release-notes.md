@@ -2,7 +2,7 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -88,7 +88,7 @@ _3 de novembro de 2025_
 <tr>
 <td>
 <p>A Designer de email agora oferece a capacidade de alternar para a exibição no modo escuro, onde você pode definir configurações personalizadas específicas. Observe que a renderização final depende do cliente de email do recipient e que nem todos os clientes de email são compatíveis com o modo escuro.</p>
-<p>Para obter mais informações, consulte a <a href="../email/accessible-content.md#dark-mode">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../email/dark-mode.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
