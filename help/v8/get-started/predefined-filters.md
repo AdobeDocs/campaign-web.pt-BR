@@ -2,7 +2,7 @@
 title: Trabalhar com filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos no Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: a12ddf56a72e62ec8f4d668f686672dcdc195a09
+source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
@@ -87,7 +87,7 @@ Ao criar um filtro predefinido, habilite a opção de **Salvar como favorito** p
 
 Ao ser salvo como favorito, o filtro fica disponível a todos na seção **Filtros favoritos** da lista de criação de filtros, conforme mostrado abaixo:
 
-![Seção de filtros favoritos](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
+![Seção de filtros favoritos](assets/predefined-filters-favorite.png){zoomable="yes"}
 
 ## Usar um filtro predefinido {#use-predefined-filter}
 
