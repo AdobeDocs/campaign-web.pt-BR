@@ -6,9 +6,9 @@ title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -278,7 +278,7 @@ ht-degree: 99%
    + [Gerenciar target mappings](administration/target-mappings.md)
    + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + [Gerenciamento de fuso horário](administration/timezone-management.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
