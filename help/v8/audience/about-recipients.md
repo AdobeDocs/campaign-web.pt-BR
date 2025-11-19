@@ -46,4 +46,4 @@ Para excluir um perfil, selecione a opção correspondente no menu **[!UICONTROL
 
 Saiba como acessar, gerenciar e explorar perfis usando a interface da Web do Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448369?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
