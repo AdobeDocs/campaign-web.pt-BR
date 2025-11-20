@@ -99,7 +99,7 @@ A tabela **[!UICONTROL Estatísticas de entrega]** fornece um detalhamento do su
 
 O gráfico de exclusões e a tabela ilustram os motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 
-Tipos de erro de email listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+Tipos de erro de email listados na [documentação do Adobe Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#email-error-types){target="_blank"}.
 
 ## Taxa de transferência de entrega {#delivery-throughput}
 
@@ -133,7 +133,7 @@ O relatório Taxa de transferência de delivery fornece insights detalhados sobr
 
 A tabela e o gráfico **[!UICONTROL Detalhamento de erros por tipo]** apresentam os dados relacionados a possíveis erros ocorridos em vários domínios, com as métricas específicas fornecidas a seguir.
 
-Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR){target="_blank"}.
 
 +++Saiba mais sobre Detalhamento de erros por tipo de métrica.
 
