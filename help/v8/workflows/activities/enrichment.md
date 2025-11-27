@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 36%
+source-wordcount: '2043'
+ht-degree: 37%
 
 ---
 
@@ -52,12 +52,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >title="Atividade de enriquecimento"
 >abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades subsequentes para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que condizem com o seu público-alvo."
 
-<!-- /NEO-92684 -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_settings"
->title="Configurações de enriquecimento"
->abstract="Configurações de enriquecimento: targeting dimension, atributos e opções adicionais."
 
 1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecimento. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
 

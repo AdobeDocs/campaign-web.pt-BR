@@ -6,14 +6,21 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 54%
+source-wordcount: '939'
+ht-degree: 53%
 
 ---
 
-# Criação de uma entrega {#create-delivery}
+# Criar uma entrega {#create-delivery}
+
+<!-- /NEO-92684 / DOCAC-13767-->
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_profile_enrichment_settings"
+>title="Habilitar enriquecimento de perfil"
+>abstract="Selecione os campos para enriquecimento do perfil."
 
 Você pode criar entregas independentes a partir do menu **[!UICONTROL Entregas]** à esquerda ou criar entregas no contexto de um fluxo de trabalho, incluído ou não em uma campanha.
 
