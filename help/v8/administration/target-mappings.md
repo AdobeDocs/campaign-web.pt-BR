@@ -2,7 +2,7 @@
 title: Gerenciar target mappings
 description: Saiba como gerenciar target mappings.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 # Gerenciar target mappings {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
+>id="acw_homepage_welcome_rn4"
 >title="Target mappings"
 >abstract="Agora é possível criar target mappings na interface do Campaign Web. Os target mappings definem como diferentes canais de entrega (email, SMS, notificações por push) se vinculam aos campos de dados de um esquema."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
