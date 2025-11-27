@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 13%
 
 ---
 
@@ -125,7 +125,10 @@ Para criar um novo delivery independente, siga as etapas abaixo.
 
 1. Personalize ainda mais seus deliveries. Para obter mais informações sobre como criar um email, consulte a seção [Design e enviar emails](../../email/create-email.md).
 
+1. Você também pode adicionar informações da Marca com os campos de personalização. Navegue até **[!UICONTROL Marca]** e selecione os blocos de personalização relacionados à marca que deseja inserir (como nome da marca, URL do logotipo, URL do site, informações do remetente etc.).
+
 >[!ENDTABS]
+
 
 ## Verificar identidade visual associada a mensagens transacionais {#check-branding-transactional}
 

@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 29%
 
 ---
 
@@ -60,3 +60,29 @@ Uma **[!UICONTROL Marca]** é definida pelas seguintes características:
   Use o menu **[!UICONTROL Parâmetros de URL Adicionais]** para criar parâmetros adicionais como pares de valor-chave junto com suas condições de aplicabilidade. Cada nome de parâmetro deve ser exclusivo e não vazio, e cada valor de parâmetro deve ser não vazio. A condição de aplicabilidade pode estar vazia, mas nenhum desses valores pode incluir tags JST.
 
   Esses parâmetros serão aplicados às URLs rastreadas que correspondem a qualquer nome de domínio especificado na **[!UICONTROL Lista de Nomes de Domínio]**, que pode incluir expressões regulares.
+
+  **Exemplo:** Uma URL rastreada como `https://www.example.com` se tornará `https://www.example.com/?age=21&deliveryName=DM101` quando os parâmetros adicionais `age=21` e `deliveryName=DM101` estiverem configurados para esse domínio.
+
+## Configurar identidade visual para mensagens transacionais {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>Esta seção se aplica somente a mensagens transacionais (Centro de Mensagens).
+>
+>Embora os recursos transacionais estejam disponíveis na interface do usuário da Web do Campaign, as etapas abaixo devem ser executadas no console do cliente do Campaign v8 (instância de controle).
+
+Se você estiver usando mensagens transacionais (Centro de mensagens) com marca, será necessária uma configuração adicional.
+
+### Fórmulas de rastreamento para instâncias em tempo real
+
+Quando a identidade visual é ativada em uma instância de controle em tempo real (RT), opções específicas de rastreamento são usadas para gerenciar fórmulas de rastreamento. Essas fórmulas são configuradas centralmente na instância de Controle RT, em vez de individualmente em cada instância de Execução RT.
+
+As opções a seguir definem as fórmulas de rastreamento usadas pelos deliveries de RT:
+
+* **`NmsTracking_RT_ClickFormula`**: especifica a fórmula usada para rastreamento de cliques em instâncias RT
+
+* **`NmsTracking_RT_OpenFormula`**: especifica a fórmula usada para rastreamento aberto em instâncias RT
+
+Se sua implementação exigir fórmulas de rastreamento personalizadas para mensagens transacionais, use a opção abaixo:
+
+* **`Branding_RT_ListXtkOptions_toPublish`**: liste aqui os nomes de opção XTK para suas fórmulas personalizadas (separadas por vírgulas). Isso garante que os deliveries de RT possam aplicar as fórmulas de rastreamento personalizadas.
