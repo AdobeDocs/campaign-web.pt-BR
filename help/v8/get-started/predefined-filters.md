@@ -2,10 +2,10 @@
 title: Trabalhar com filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos no Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
+source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 100%
 >title="Criar um critério de alerta"
 >abstract="Você pode criar seus próprios filtros de entrega no menu Gerenciamento de clientes > Filtros predefinidos."
 
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-select"
+>title="Salvar filtro"
+>abstract="Selecione um filtro predefinido existente. Filtros predefinidos são filtros personalizados criados e salvos para uso futuro. Eles atuam como atalhos durante as operações de filtragem com o modelador de consultas. Por exemplo, eles podem ser usados ao filtrar uma lista de dados ou criar o público-alvo de uma entrega."
+
 Filtros predefinidos são filtros personalizados criados e salvos para uso futuro. Eles atuam como atalhos durante as operações de filtragem com o modelador de consultas. Por exemplo, eles podem ser usados ao filtrar uma lista de dados ou criar o público-alvo de uma entrega.
 
 Você pode usar os filtros integrados já existentes para acessar um subconjunto específico dos seus dados ou criar e salvar os seus próprios filtros predefinidos.
@@ -43,6 +48,11 @@ Você pode usar os filtros integrados já existentes para acessar um subconjunto
 >id="acw_predefined-filters-rules"
 >title="Criar as regras de filtro predefinidas"
 >abstract="Para definir as condições de filtragem do filtro personalizado, clique no botão “Criar regra”."
+
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-save"
+>title="Salvar filtro"
+>abstract="Essa tela permite salvar a regra como um filtro predefinido. Você pode criar um novo filtro predefinido ou substituir um filtro existente. Para salvar o filtro como favorito, alterne a opção **[!UICONTROL Filtro favorito]**. Você também pode habilitar a opção **[!UICONTROL Filtro compartilhado]** para tornar o filtro acessível a outros usuários."
 
 ### Criar um filtro no modelador de consulta {#create-from-rule-builder}
 
