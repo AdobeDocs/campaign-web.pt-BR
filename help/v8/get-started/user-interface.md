@@ -7,9 +7,9 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -165,3 +165,12 @@ Saiba como criar e enviar ofertas por email e SMS [nesta seção](../msg/offers.
 ## Saiba mais {#learn-more}
 
 Saiba como procurar, pesquisar e filtrar listas disponíveis no ambiente do Campaign [nesta página](list-filters.md).
+
+
+
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_notification"
+>title="Entrega contínua"
+>abstract="Entrega contínua"
