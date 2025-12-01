@@ -3,10 +3,10 @@ audience: end-user
 title: Novidades na interface do Campaign Web
 description: Conheça o novo recurso incluído na interface do Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1311'
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Diga adeus às complicações da criação manual de conteúdo e adote uma nova 
 
 Redefina a entrega de conteúdo com nosso editor avançado de arrastar e soltar WYSIWYG, projetado para oferecer simplicidade e eficiência. Com integração perfeita com o AEM, recursos de conteúdo dinâmico e o inovador Assistente de IA, essa ferramenta completa torna a criação de entregas intuitiva, eficiente e altamente personalizada.
 
-Aproveite o potencial dos algoritmos avançados do Assistente de IA para criar conteúdo atrativo e personalizado que impulsiona os resultados. Aumente as taxas de abertura, click-throughs e conversões com a geração inteligente de conteúdo orientada por IA. Saiba mais [nesta seção](../email/generative-gs.md).
+Aproveite o potencial dos algoritmos avançados do Assistente de IA para criar conteúdo atrativo e personalizado que impulsiona os resultados. Aumente as taxas de abertura, click-throughs e conversões com a geração inteligente de conteúdo orientada por IA. Saiba mais [nesta seção](../content/generative-gs.md).
 
 **Atividades de fluxo de trabalho de campanha novas e reprojetadas**
 

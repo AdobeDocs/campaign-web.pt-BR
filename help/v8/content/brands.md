@@ -3,9 +3,9 @@ audience: end-user
 title: Gerenciar marca
 description: Saiba como criar e gerenciar as diretrizes da sua marca
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ No [!DNL Adobe Campaign Web], os usuários podem inserir e organizar manualmente
 
 Para acessar o menu **[!UICONTROL Marcas]** no [!DNL Adobe Campaign Web], os usuários devem receber os perfis de produto **[!UICONTROL Administrador (administrador)]** e **[!UICONTROL Kit de marcas]** para criar e gerenciar marcas. Para acesso somente leitura, os usuários precisam do perfil de produto [!UICONTROL Assistente de IA].
 
-[Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Saiba mais](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Saiba como atribuir permissões relacionadas à marca
 
@@ -92,7 +92,7 @@ Os usuários podem inserir os detalhes manualmente ou fazer upload de um documen
 
    ![Opções de menu avançadas no painel Marcas](assets/brands-6.png)
 
-As diretrizes de marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do Assistente de IA. Isso permite que o Assistente de IA gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o Assistente de IA](../email/generative-gs.md)
+As diretrizes de marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do Assistente de IA. Isso permite que o Assistente de IA gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o Assistente de IA](../content/generative-gs.md)
 
 ![Menu do assistente de IA com o menu suspenso Marca](assets/brands_6.png)
 
@@ -241,11 +241,20 @@ Para personalizar seu **[!UICONTROL Estilo de Redação]**:
 
 1. Na guia **[!UICONTROL Estilo de Escrita]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz, exceção ou exclusão.
 
-1. Insira sua diretriz, exceção ou exclusão e clique em **[!UICONTROL Adicionar]**.
+1. Insira sua diretriz, exceção ou exclusão. Você também pode incluir **[!UICONTROL Exemplos]** para ilustrar melhor como ele deve ser aplicado.
 
    ![](assets/brands-3.png)
 
-1. Selecione uma de suas diretrizes ou exclusões para atualizar ou excluir.
+1. Especifique o **[!UICONTROL contexto de uso]** para sua diretriz, exceção ou exclusão:
+
+   * **[!UICONTROL Tipo de canal]**: escolha onde esta diretriz, exceção ou exclusão deve ser aplicada. Por exemplo, talvez você queira que um estilo de escrita específico apareça apenas em E-mail, Celular, Impressões ou outros canais de comunicação.
+
+   * **[!UICONTROL Tipo de elemento]**: especifique a qual elemento de conteúdo a regra se aplica. Isso pode incluir elementos como Títulos, Botões, Links ou outros componentes no conteúdo.
+
+   ![](assets/brands-16.png)
+
+1. Depois de configurar sua diretriz, exceção ou exclusão, clique em **[!UICONTROL Adicionar]**.
+1. Se necessário, selecione uma de suas diretrizes ou exclusões para atualizar ou excluir.
 
 1. Clique no ![texto alternativo de imagem de mergulho](assets/do-not-localize/Smock_Edit_18_N.svg "Editar") para editar seu exemplo ou no ícone ![Texto alternativo da imagem de mergulho](assets/do-not-localize/Smock_Delete_18_N.svg "Excluir")para excluí-lo.
 
@@ -298,9 +307,19 @@ Para personalizar seu **[!UICONTROL conteúdo visual]**:
 
 1. Na guia **[!UICONTROL Visual content]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz, exclusão ou exemplo.
 
-1. Insira sua diretriz, exclusão ou exemplo e clique em **[!UICONTROL Adicionar]**.
+1. Insira sua diretriz, exclusão ou exemplo.
 
    ![Adicionar exclusão ou botão de exemplo](assets/brands-4.png)
+
+1. Especifique o **[!UICONTROL contexto de uso]** para sua diretriz ou exclusão:
+
+   * **[!UICONTROL Tipo de canal]**: escolha onde esta diretriz, exceção ou exclusão deve ser aplicada. Por exemplo, talvez você queira que um estilo de escrita específico apareça apenas em E-mail, Celular, Impressões ou outros canais de comunicação.
+
+   * **[!UICONTROL Tipo de elemento]**: especifique a qual elemento de conteúdo a regra se aplica. Isso pode incluir elementos como Títulos, Botões, Links ou outros componentes no conteúdo.
+
+     ![Adicionar conteúdo de uso](assets/brands-17.png)
+
+1. Depois de configurar sua diretriz, exceção ou exclusão, clique em **[!UICONTROL Adicionar]**.
 
 1. Para adicionar uma imagem mostrando o uso correto, selecione **[!UICONTROL Exemplo]** e clique em **[!UICONTROL Selecionar imagem]**. Você também pode adicionar uma imagem mostrando o uso incorreto como exemplo de exclusão.
 

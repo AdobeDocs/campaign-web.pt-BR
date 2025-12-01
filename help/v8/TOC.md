@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 98%
 
 ---
 
@@ -129,12 +129,12 @@ ht-degree: 100%
          + [Gerenciar conteúdo no modo escuro](email/dark-mode.md)
       + [Criar conteúdo acessível](email/accessible-content.md)
    + Assistente de IA {#ai-assistant}
-      + [Trabalhar com o Assistente de IA](email/generative-gs.md)
-      + [Geração de email com IA](email/generative-content.md)
-      + [Geração de SMS com IA](email/generative-sms.md)
-      + [Geração de notificação por push com IA](email/generative-push.md)
-      + [Geração de página de destino com IA](email/generative-lp.md)
-      + [Casos de uso do Assistente de IA](email/generative-uc.md)
+      + [Trabalhar com o Assistente de IA](content/generative-gs.md)
+      + [Práticas recomendadas de solicitação de IA](content/ai-assistant-prompting-guide.md)
+      + [Geração de conteúdo completo com IA](content/generative-full-content.md)
+      + [Geração de texto com IA](content/generative-text.md)
+      + [Geração de imagens com IA](content/generative-image.md)
+      + [Casos de uso do Assistente de IA](content/generative-uc.md)
       + Marcas {#ai-assistant}
          + [Criar e gerenciar suas marcas](content/brands.md)
          + [Avaliar a pontuação de alinhamento da sua marca](content/brands-score.md)
