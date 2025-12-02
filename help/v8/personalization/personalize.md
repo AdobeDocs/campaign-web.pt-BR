@@ -3,10 +3,11 @@ title: Personalizar seu conteúdo no Campaign
 description: Saiba como personalizar seu conteúdo no Adobe Campaign Web
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 4%
@@ -28,7 +29,7 @@ A personalização da entrega melhora a experiência do usuário e as taxas de e
 
 ## Uso de dados de perfil para personalização {#data-personalization}
 
-Personalize qualquer entrega com dados de perfil usando o editor de expressão, que pode ser acessado em campos com o ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**, como a linha de assunto, links de email e componentes de conteúdo de texto/botão. [Saiba como acessar o editor de expressão](gs-personalization.md/#access).
+Personalize qualquer entrega com dados de perfil usando o editor de expressão, que pode ser acessado em campos com o ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**, como a linha de assunto, links de email e componentes de conteúdo de texto/botão. [Saiba como acessar o editor de expressão](gs-personalization.md#access).
 
 ### Sintaxe do Personalization {#syntax}
 
@@ -42,7 +43,7 @@ Ao fazer upload de contatos de um arquivo externo para um delivery de email inde
 
 Para adicionar tags de personalização em um delivery, siga estas etapas:
 
-1. Abra o editor de expressão usando o ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**, que é acessível a partir de campos de edição de tipo de texto, como a linha de assunto ou o corpo do SMS. [Saiba como acessar o editor de expressão](gs-personalization.md/#access).
+1. Abra o editor de expressão usando o ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**, que é acessível a partir de campos de edição de tipo de texto, como a linha de assunto ou o corpo do SMS. [Saiba como acessar o editor de expressão](gs-personalization.md#access).
 
    ![Captura de tela mostrando como acessar a caixa de diálogo de personalização](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
