@@ -2,10 +2,10 @@
 audience: end-user
 title: Configurar uma entrega multilíngue
 description: Saiba como configurar um delivery multilíngue
-source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
+source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 9%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
@@ -15,6 +15,11 @@ ht-degree: 9%
 >id="acw_deliveries_email_multilingual"
 >title="Adicionar idiomas"
 >abstract="Nesta guia, você encontrará uma lista de idiomas para o envio da entrega. É possível adicionar mais idiomas clicando no botão Adicionar idioma ou duplicando outro idioma por meio dessa guia."
+
+[!CONTEXTUALHELP]
+>id=&quot;acw_multilingual_file_upload&quot;
+>title=&quot;Importar variantes de idioma&quot;
+>abstract=&quot;Use esta caixa de diálogo para adicionar uma variante de idioma importando um arquivo CSV. O arquivo preenche automaticamente todos os campos disponíveis para o idioma selecionado. Você pode arrastar e soltar o arquivo ou escolhê-lo no computador antes de confirmar.&quot;
 
 Na interface da Web do Campaign, você pode configurar seus deliveries como multilíngues, o que permite enviar mensagens com base no idioma preferencial de um perfil. Quando nenhuma preferência é definida, a mensagem é enviada no idioma padrão.
 
