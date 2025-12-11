@@ -6,9 +6,9 @@ title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Criar conteúdo acessível](email/accessible-content.md)
    + Assistente de IA {#ai-assistant}
       + [Trabalhar com o Assistente de IA](content/generative-gs.md)
-      + [Práticas recomendadas de solicitação de IA](content/ai-assistant-prompting-guide.md)
+      + [Práticas recomendadas de prompts de IA](content/ai-assistant-prompting-guide.md)
       + [Geração de conteúdo completo com IA](content/generative-full-content.md)
       + [Geração de texto com IA](content/generative-text.md)
       + [Geração de imagens com IA](content/generative-image.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
    + [Gerenciar target mappings](administration/target-mappings.md)
    + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + [Gerenciamento de fuso horário](administration/timezone-management.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
