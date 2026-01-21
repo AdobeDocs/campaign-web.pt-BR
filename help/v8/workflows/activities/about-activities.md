@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 20%
 
 ---
 
@@ -58,6 +58,11 @@ O Adobe Campaign Web permite automatizar e executar campanhas de marketing em v�
 >id="acw_orchestration_end"
 >title="Finalizar atividade"
 >abstract="A atividade **Fim** permite marcar graficamente o final de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="Sinal externo"
+>abstract="o espaço reservado para a seção sinal externo nos parâmetros de atividade End. Disponível somente para campanhas orquestradas. NÃO DELETE"
 
 As atividades a seguir são específicas para organizar e executar fluxos de trabalho. Sua principal tarefa é coordenar as outras atividades:
 
