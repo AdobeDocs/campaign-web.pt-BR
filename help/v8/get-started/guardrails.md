@@ -3,7 +3,7 @@ title: Medidas de proteção e limitações nos fluxos de trabalho da interface 
 description: Medidas de proteção e limitações ao trabalhar com fluxos de trabalho na interface do Campaign Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 

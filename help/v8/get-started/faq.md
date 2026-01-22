@@ -3,9 +3,9 @@ title: Perguntas frequentes
 description: Perguntas frequentes sobre a interface do Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '782'
+ht-degree: 100%
 
 ---
 

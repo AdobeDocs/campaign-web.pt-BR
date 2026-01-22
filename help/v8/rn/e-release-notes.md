@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de fev
 <table>
 <thead>
 <tr>
-<th><strong>Target mappings</strong><br/></th>
+<th><strong>Direcionar mapeamentos</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -26,7 +26,7 @@ ht-degree: 100%
    + [Atualizações da documentação](rn/documentation-updates.md)
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
-   + [Conexão com o Campaign](get-started/connect-to-campaign.md)
+   + [Conectar ao Campaign](get-started/connect-to-campaign.md)
    + [Conheça a interface](get-started/user-interface.md)
    + [Procurar e filtrar listas](get-started/list-filters.md)
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)
@@ -55,12 +55,12 @@ ht-degree: 100%
       + [Criar uma entrega de notificação por push](push/create-push.md)
       + Push avançado {#rich-push}
          + [Criar uma entrega de push avançada para Android](push/rich-push.md)
-         + [Criar uma entrega de push avançada para iOS](push/rich-push-ios.md)
+         + [Criar uma entrega por push avançada para iOS](push/rich-push-ios.md)
       + [Criar uma entrega por push](push/content-push.md)
       + [Visualizar e enviar uma entrega por push](push/send-push.md)
    + SMS {#sms}
       + [Introdução às entregas de SMS](sms/gs-sms.md)
-      + [Criar uma entrega de SMS](sms/create-sms.md)
+      + [Crie uma entrega de SMS.](sms/create-sms.md)
       + [Criar uma entrega de SMS](sms/content-sms.md)
       + [Visualizar e enviar uma entrega de SMS](sms/send-sms.md)
    + Correspondência direta {#direct-mail}
@@ -202,7 +202,7 @@ ht-degree: 100%
       + [Reconciliação](workflows/activities/reconciliation.md)
       + [Salvar público-alvo](workflows/activities/save-audience.md)
       + [Scheduler](workflows/activities/scheduler.md)
-      + [Divisão](workflows/activities/split.md)
+      + [Split](workflows/activities/split.md)
       + [Serviços de assinatura](workflows/activities/subscription-services.md)
       + [Teste](workflows/activities/test.md)
       + [Transferir arquivo](workflows/activities/transfer-file.md)

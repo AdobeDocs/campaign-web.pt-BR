@@ -3,7 +3,7 @@ title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ A Experience Cloud é a família integrada de aplicativos, produtos e serviços 
 
 ## Fazer logon na Adobe Experience Cloud {#sign-in-to-exc}
 
-Você também pode usar o logon único (SSO) para se conectar ao Campaign. Normalmente, admins da Experience Cloud são responsáveis por conceder acesso a aplicativos e serviços. Siga as etapas no convite para a Experience Cloud enviado por email.
+Também é possível usar o logon único (SSO) para se conectar ao Campaign. Normalmente, admins da Experience Cloud são responsáveis por conceder acesso a aplicativos e serviços. Siga as etapas no convite para a Experience Cloud enviado por email.
 
 Para fazer logon na Adobe Experience Cloud, siga estas etapas básicas:
 

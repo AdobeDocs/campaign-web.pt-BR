@@ -4,9 +4,9 @@ title: Princípios básicos da criação de fluxos de trabalho
 description: Conheça os princípios básicos dos fluxos de trabalho no Adobe Campaign Web
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 

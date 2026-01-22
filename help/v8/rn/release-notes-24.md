@@ -56,7 +56,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de out
 </table>
 
 
-### Melhorias
+### Aprimoramentos
 
 * **Atividades do fluxo de trabalho**: agora é possível mover uma atividade e todos os seus nós filhos de uma transição para outra dentro de um fluxo de trabalho. Um botão **Mover** dedicado está disponível no painel de propriedades da atividade para realizar isso. [Saiba mais](../workflows/orchestrate-activities.md#move)
 
@@ -122,7 +122,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de ago
 * **Captcha em páginas de destino**: agora, você pode adicionar um captcha para proteger a sua página de destino contra spam e abusos causados por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. [Saiba mais](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notas de versão de julho {#24-7-release}
@@ -158,7 +158,7 @@ Agora é possível enviar notificações por push avançadas. Uma notificação 
 >
 >Esse recurso exige a atualização para o Campaign v8.6.3 <!--or v8.7.2-->. Saiba mais nas [notas de versão](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} do console do cliente do Campaign v8.
 
-### Melhorias {#improvements-24-7}
+### Aprimoramentos {#improvements-24-7}
 
 **Gerenciamento de pastas**: agora é possível gerenciar permissões e restrições em pastas.
 
@@ -173,7 +173,7 @@ Os seguintes recursos e melhorias estão disponíveis para todos os usuários a 
 
 Agora é possível criar planos e programas para organizar suas campanhas. Ao definir uma hierarquia de pastas, você pode organizar suas campanhas em programas e os programas em planos. [Leia mais](../administration/plans-programs.md)
 
-### Melhorias {#improvements-24-6}
+### Aprimoramentos {#improvements-24-6}
 
 * **Reconciliação na atividade de enriquecimento**: a atividade de **enriquecimento** agora pode ser usada para reconciliar dados do esquema do banco de dados do Campaign com dados de outro esquema ou de um esquema temporário, como dados carregados usando uma atividade Carregar arquivo. Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign. [Leia mais](../workflows/activities/enrichment.md)
 
@@ -237,7 +237,7 @@ Os seguintes recursos estão disponíveis para todos os usuários a partir da ve
 
 **Modelos de notificação por push avançada**
 
-Agora é possível enviar notificações por push avançadas via Android. A notificação por push avançada é uma forma aprimorada de notificação em dispositivos móveis que vai além de simples mensagens de texto, incorporando elementos multimídia, como imagens, botões interativos ou outros conteúdos de mídia avançada. [Leia mais](../push/rich-push.md)
+Agora é possível enviar notificações por push avançadas via Android. A notificação por push avançada é uma forma aprimorada de notificação em dispositivos móveis que vai além das mensagens de texto simples, incorporando elementos multimídia, como imagens, botões interativos ou outros conteúdos de mídia avançada. [Leia mais](../push/rich-push.md)
 
 Observe que esse recurso está em **Disponibilidade limitada** (LA).
 
@@ -250,7 +250,7 @@ Observe que esse recurso está em **Disponibilidade limitada** (LA).
 >
 >Consulte as seguintes páginas de documentação: [Transição do Campaign Standard para o Campaign v8](../rn/acs-migration.md) e [Recursos para usuários do Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR).
 
-* **Marca**: como usuário migrado do Campaign Standard, seus administradores técnicos agora podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso da página de destino ou as configurações de rastreamento de mensagens. Você pode criar essas marcas e vinculá-las a mensagens ou páginas de destino. Essa configuração é gerenciada nos modelos. [Leia mais](../administration/branding/branding-gs.md)
+* **Identidade visual**: como um usuário migrado do Campaign Standard, os administradores técnicos podem agora definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso da página de destino ou as configurações de rastreamento de mensagens. Você pode criar essas marcas e vinculá-las a mensagens ou páginas de destino. Essa configuração é gerenciada nos modelos. [Leia mais](../administration/branding/branding-gs.md)
 
 * **APIs REST**: como um usuário migrado do Campaign Standard, você pode usar as APIs REST para criar integrações com o Adobe Campaign e criar seu próprio ecossistema, conectando o Adobe Campaign ao painel de tecnologias que você usa. [Leia mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR)
 

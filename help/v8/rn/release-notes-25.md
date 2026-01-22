@@ -150,7 +150,7 @@ Os seguintes recursos estão disponíveis a partir da versão de setembro.
 </table-->
 
 
-### Melhorias {#25-9-improvements}
+### Aprimoramentos {#25-9-improvements}
 
 * Um conjunto de novos operadores foi adicionado ao configurar uma condição por meio do recurso de conteúdo condicional do designer de email.
 * A dimensão de filtros agora está disponível na atividade de fluxo de trabalho **Criar público-alvo**. Para exibi-lo ou alterá-lo, clique no ícone ao lado da dimensão de direcionamento. [Saiba mais](../workflows/activities/build-audience.md#build-audience-configuration).
@@ -190,7 +190,7 @@ Os seguintes recursos estão disponíveis a partir da versão de julho.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -334,14 +334,14 @@ Consulte as [notas de versão](https://experienceleague.adobe.com/docs/campaign/
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=pt-BR){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -368,14 +368,14 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=pt-BR) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
-### Melhorias {#25-7-improvements}
+### Aprimoramentos {#25-7-improvements}
 
 * Agora é possível calcular o público-alvo diretamente em cada condição e grupo no construtor de regras. Clique no número resultante para visualizar a lista detalhada de registros. [Saiba mais](../query/build-query.md#validate-query)
 
@@ -397,7 +397,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 ## Versão de junho de 2025 {#25-6-release}
 
-### Melhorias {#25-6-improvements}
+### Aprimoramentos {#25-6-improvements}
 
 * O relatório Resumo da entrega agora está disponível para os canais Central de atendimento e Personalizado. [Saiba mais](../reporting/direct-mail.md)
 
@@ -454,7 +454,7 @@ Os seguintes recursos estão disponíveis para todos os usuários a partir da ve
 </tbody>
 </table>
 
-### Melhorias {#25-5-improvements}
+### Aprimoramentos {#25-5-improvements}
 
 A tela de criação de regras de tipologia foi atualizada para facilitar a seleção do tipo de regra.
 
@@ -518,7 +518,7 @@ Você também pode exibir, atualizar e gerenciar contas externas existentes.</p>
 </tbody>
 </table>
 
-### Melhorias {#25-4-improvements}
+### Aprimoramentos {#25-4-improvements}
 
 **Melhorias gerais na interface**
 
@@ -585,7 +585,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de fev
 <table>
 <thead>
 <tr>
-<th><strong>Target mappings</strong><br/></th>
+<th><strong>Direcionar mapeamentos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -729,7 +729,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 </table>
 
 
-### Melhorias {#25-1-improvements}
+### Aprimoramentos {#25-1-improvements}
 
 * Personalize a exibição de campos personalizados na interface:
 
