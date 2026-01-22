@@ -26,7 +26,7 @@ ht-degree: 9%
 >id="acw_landingpages_templates"
 >title="Copie o URL com cuidado"
 >abstract="Ao criar uma página de destino, quatro modelos prontos para uso permitem implementar diferentes casos de uso: adicionar ou atualizar um perfil no banco de dados do Campaign, assinar um serviço para os clientes, cancelar a assinatura de um serviço ou recusar usuários."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=pt-BR#create-landing-page" text="Criar uma landing page"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=pt-BR#create-landing-page" text="Criar uma página de destino"
 
 Para usar adequadamente a landing page, referencie-a como um link em uma mensagem usando a opção dedicada. Não é possível copiar e colar o link exibido no painel de delivery publicado diretamente nos seus deliveries ou em uma página da Web. Em vez disso, use o recurso **Simular conteúdo** para testá-lo.
 
@@ -110,7 +110,7 @@ Se optarem por receber seu boletim informativo, serão inscritos no serviço cor
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Definir a landing page da sua assinatura"
+>title="Definir a página de destino da sua assinatura"
 >abstract="Uma página de assinatura permite que seus clientes assinem um serviço."
 
 Um dos casos de uso mais comuns consiste em convidar seus clientes a [assinar um serviço](../audience/manage-services.md) (como um boletim informativo ou um evento) por meio de uma página de aterrissagem. Siga as etapas abaixo.

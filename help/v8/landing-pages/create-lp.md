@@ -1,5 +1,5 @@
 ---
-title: Criar uma landing page
+title: Criar uma página de destino
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
@@ -11,11 +11,11 @@ ht-degree: 25%
 ---
 
 
-# Criar e publicar landing pages {#create-lp}
+# Criar e publicar páginas de destino {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
->title="Criar e gerenciar landing pages"
+>title="Criar e gerenciar páginas de destino"
 >abstract="O Adobe Campaign permite criar, projetar e compartilhar páginas de destino para direcionar usuários a páginas da web nas quais é possível gerenciar casos de uso de aquisição, assinatura, cancelamento de assinatura e listas de bloqueio, utilizando como base os modelos integrados."
 
 A interface do usuário da Web do Campaign permite criar, projetar e publicar páginas de aterrissagem. Após a publicação, é possível inserir um link para o formulário em um delivery. Quando os recipients clicam nesse link, eles são direcionados para a página de aterrissagem correspondente.
@@ -45,12 +45,12 @@ O inventário de **[!UICONTROL Páginas de aterrissagem]** exibe todos os itens 
 
 É possível duplicar ou excluir uma landing page. Clique nas reticências ao lado de uma landing page para selecionar a ação desejada.
 
-## Criar uma landing page {#create-landing-page}
+## Criar uma página de destino {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Definir as propriedades da landing page"
->abstract="Preencha os campos de propriedades, como o rótulo, e modifique o esquema, se necessário. Além disso, você pode editar o nome interno, alterar a pasta onde a landing page está armazenada e fornecer uma descrição."
+>title="Definir as propriedades da página de destino"
+>abstract="Preencha os campos de propriedades, como o rótulo, e modifique o esquema, se necessário. Além disso, você pode editar o nome interno, alterar a pasta onde a página de destino está armazenada e fornecer uma descrição."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
@@ -132,7 +132,7 @@ Para criar uma landing page, siga estas etapas:
 
    ![Captura de tela mostrando a seção de dados adicionais.](assets/lp-additional-data.png){zoomable="yes"}
 
-1. Você pode definir uma data inicial e uma data final para sua landing page. Selecione **[!UICONTROL Habilitar agendamento]** e defina as datas.
+1. Você pode definir uma data inicial e uma data final para sua página de destino. Selecione **[!UICONTROL Habilitar agendamento]** e defina as datas.
 
    ![Captura de tela mostrando as opções de agendamento para a página de aterrissagem.](assets/lp-schedule.png){zoomable="yes"}
 
@@ -170,12 +170,12 @@ Para verificar as configurações de captcha, clique no botão **[!UICONTROL Rev
 >O widget captcha no Adobe Campaign v8 é o ALTCHA operando no modo flutuante. Ela aparece durante a validação e desaparece quando o processo é concluído.
 
 
-## Testar a landing page {#test-landing-page}
+## Testar a página de destino {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simular a landing page"
->abstract="Você pode ver uma pré-visualização da landing page na interface do Campaign Web ou abri-la em uma nova guia do navegador da web."
+>title="Simular a página de destino"
+>abstract="Você pode ver uma pré-visualização da página de destino na interface do Campaign Web ou abri-la em uma nova guia do navegador da web."
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
