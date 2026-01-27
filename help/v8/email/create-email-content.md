@@ -112,4 +112,4 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453570/?captions=por_br&quality=12)
