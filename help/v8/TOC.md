@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [Do Campaign Standard ao v8](rn/acs-migration.md)
    + [Ajuda contextual habilitada por IA](get-started/using-ai.md)
    + [Perguntas frequentes](get-started/faq.md)
-+ Mensagens e entregas {#msg}
+   + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
    + [Acessar entregas](msg/gs-deliveries.md)
    + [Criar uma entrega](msg/create-deliveries.md)
@@ -45,11 +45,12 @@ ht-degree: 100%
    + Emails {#email}
       + [Criar seu primeiro email](email/create-email.md)
       + [Configurar conteúdo de email](email/edit-content.md)
+      + [Criar experimentos de conteúdo](email/ab-testing.md)
       + Enviar e monitorar o email {#monitor}
          + [Preparar e enviar um email](monitor/prepare-send.md)
          + [Enviar usando várias ondas](advanced-settings/send-using-waves.md)
          + [Monitorar logs de entrega](monitor/delivery-logs.md)
-         + [Agendar o envio de uma entrega](monitor/schedule-sending.md)
+         + [Agendar o envio de um delivery](monitor/schedule-sending.md)
    + Notificações por push {#push}
       + [Introdução às notificações por push](push/gs-push.md)
       + [Criar uma entrega de notificação por push](push/create-push.md)
@@ -137,7 +138,8 @@ ht-degree: 100%
       + [Casos de uso do Assistente de IA](content/generative-uc.md)
       + Marcas {#ai-assistant}
          + [Criar e gerenciar suas marcas](content/brands.md)
-         + [Avaliar a pontuação de alinhamento da sua marca](content/brands-score.md)
+         + [Personalizar sua marca](content/brands-personalize.md)
+         + [Avaliar seu conteúdo](content/brands-score.md)
 + Páginas de destino {#landing-pages}
    + [Introdução às páginas de destino](landing-pages/get-started-lp.md)
    + [Crie e publique uma página de destino](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 100%
    + [Introdução às campanhas](campaigns/gs-campaigns.md)
    + [Acesso e gerenciamento de suas campanhas](campaigns/manage-campaigns.md)
    + [Criar sua primeira campanha](campaigns/create-campaigns.md)
+   + [Configurar e gerenciar o processo de aprovação](campaigns/campaign-approvals.md)
    + [Planos e programas](administration/plans-programs.md)
 + Fluxos de trabalho {#wf}
    + [Introdução aos fluxos de trabalho](workflows/gs-workflows.md)
@@ -190,6 +193,7 @@ ht-degree: 100%
       + [Alterar fonte de dados](workflows/activities/change-data-source.md)
       + [Mudar dimensão](workflows/activities/change-dimension.md)
       + [Combinar](workflows/activities/combine.md)
+      + [Entrega contínua](workflows/activities/continuous-delivery.md)
       + [Desduplicação](workflows/activities/deduplication.md)
       + [Email, SMS, push, correspondência direta](workflows/activities/channels.md)
       + [Enriquecimento](workflows/activities/enrichment.md)
@@ -268,6 +272,7 @@ ht-degree: 100%
    + [Trabalhar com outras soluções da Adobe](integrations/integration.md)
    + [Gerenciar ativos com o Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gerenciar modelos com o Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
+   + [Gerenciar cópias de idioma com o Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Trabalhar com o GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuração {#conf}
    + Identidade visual {#branding}

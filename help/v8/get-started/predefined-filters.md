@@ -2,10 +2,10 @@
 title: Trabalhar com filtros predefinidos
 description: Saiba como criar e gerenciar filtros predefinidos no Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -67,11 +67,11 @@ Você pode usar os filtros integrados já existentes para acessar um subconjunto
 
    ![Salvar interface de detalhes dos filtros](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   Você pode salvar o filtro como favorito, se necessário. Saiba mais [nesta seção](#fav-filter).
+   Você pode salvar o filtro como favorito, se necessário. Saiba mais em [esta seção](#fav-filter). Você também pode habilitar a opção **[!UICONTROL Filtro compartilhado]** para tornar o filtro acessível a outros usuários. Saiba mais [nesta seção](#share-filter).
 
 1. Clique em **Confirmar** para salvar as alterações.
 
-Seu filtro personalizado agora está disponível na lista **Filtros predefinidos** e acessível a todos os usuários e usuárias do Campaign.
+Seu filtro personalizado agora está disponível na lista **Filtros predefinidos**.
 
 ### Criar um filtro na lista de filtros {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ Crie um filtro na entrada **Filtros predefinidos** do menu esquerdo. Siga estas 
 
    ![Interface de novo filtro salvo](assets/new-filter.png){zoomable="yes"}
 
-O filtro é adicionado à lista de filtros predefinidos. Você pode salvar o filtro como favorito, se necessário. Saiba mais [nesta seção](#fav-filter).
+O filtro é adicionado à lista de filtros predefinidos. Você pode salvar o filtro como favorito, se necessário. Saiba mais em [esta seção](#fav-filter). Você também pode compartilhar o filtro com outros usuários habilitando a opção **[!UICONTROL Filtro compartilhado]**. Saiba mais [nesta seção](#share-filter).
 
 ## Salvar o filtro como favorito {#fav-filter}
 
@@ -98,6 +98,14 @@ Ao criar um filtro predefinido, habilite a opção de **Salvar como favorito** p
 Ao ser salvo como favorito, o filtro fica disponível a todos na seção **Filtros favoritos** da lista de criação de filtros, conforme mostrado abaixo:
 
 ![Seção de filtros favoritos](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## Compartilhar um filtro predefinido {#share-filter}
+
+Por padrão, os filtros predefinidos criados são privados e visíveis somente para você. Para tornar um filtro acessível a outros operadores em sua organização, habilite a opção **[!UICONTROL Filtro compartilhado]**.
+
+![Opção de filtro compartilhado](assets/predefined-filters-shared.png){zoomable="yes"}
+
+Os filtros compartilhados aparecem na lista de filtros predefinida para todos os usuários, permitindo que eles usem esses filtros em seus próprios workflows e queries.
 
 ## Usar um filtro predefinido {#use-predefined-filter}
 
@@ -121,6 +129,8 @@ Por exemplo, para criar um público-alvo a partir de um filtro predefinido, siga
 
    ![Interface da lista de filtros predefinidos](assets/build-audience-filter-list.png){zoomable="yes"}
 
+   Também é possível editar ou excluir um filtro predefinido usando o botão ![](../content/assets/do-not-localize/Smock_More_18_N.svg).
+
 1. Verifique as propriedades da regra desse filtro e confirme.
 
    Agora o filtro é usado como uma consulta na atividade de **Consulta**.
@@ -141,7 +151,7 @@ Nesta lista, é possível criar um novo filtro conforme detalhado acima e realiz
 * Duplicar um filtro predefinido.
 * Excluir um filtro predefinido.
 
-Também é possível editar ou excluir um filtro predefinido diretamente do construtor de regras. Na janela de seleção de filtros predefinidos, use o botão **Mais ações**. Você pode excluir ou editar o filtro. Você pode alterar o rótulo, adicionar uma descrição e adicioná-lo aos favoritos.
+Também é possível editar ou excluir um filtro predefinido diretamente do construtor de regras. Na janela de seleção de filtros predefinidos, use o botão **Mais ações**. Você pode excluir ou editar o filtro. Você pode alterar o rótulo, adicionar uma descrição, adicioná-la como um favorito ou alternar a opção **[!UICONTROL Filtro compartilhado]** para controlar quem pode acessar o filtro.
 
 ![Edição de filtros predefinidos](assets/filter-edit.png){zoomable="yes"}
 

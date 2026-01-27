@@ -2,21 +2,15 @@
 audience: end-user
 title: Enriquecimento de perfil em mensagens transacionais
 description: Saiba como criar uma mensagem transacional na interface da Web do Campaign
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 13%
+source-wordcount: '464'
+ht-degree: 11%
 
 ---
 
 
 # Enriquecer mensagens transacionais com dados de perfil{#profile-enrichment}
-
->[!AVAILABILITY]
->
->Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura. Seu servidor deve ser atualizado para a versão 8.8.2 ou posterior.
->
->No momento, este recurso só está disponível para emails.
 
 Esse recurso permite personalizar mensagens transacionais vinculando campos do banco de dados do Adobe Campaign ao conteúdo da mensagem. Você pode selecionar target mappings, colunas de enriquecimento e uma chave de reconciliação para garantir uma personalização em tempo real e precisa, mantendo os limites de desempenho.
 
@@ -30,6 +24,12 @@ Para configurar o enriquecimento de perfil, siga estas etapas principais:
 1. Defina as configurações de enriquecimento, [leia mais](#settings-enrichment)
 1. Defina o conteúdo, [leia mais](#content-enrichment)
 1. Validar e enviar, [leia mais](#send-enrichment)
+
+>[!NOTE]
+>
+>Seu servidor deve ser atualizado para a versão 8.8.2 ou posterior.
+>
+>No momento, esse recurso só está disponível para emails, SMS e notificações por push.
 
 ## Criar a mensagem transacional{#create-enrichment}
 

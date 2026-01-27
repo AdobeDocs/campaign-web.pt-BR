@@ -3,9 +3,9 @@ audience: end-user
 title: Criar uma entrega de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 28%
 
 ---
@@ -52,6 +52,8 @@ Defina as configurações de delivery conforme detalhado abaixo:
    * **[!UICONTROL Descrição]**: forneça uma descrição da entrega.
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
    +++
+
+1. Você pode configurar sua notificação por push como um delivery multilíngue para enviar mensagens com base no idioma preferencial de um perfil. [Saiba mais](../msg/multilingual.md).
 
 ## Selecionar o público-alvo da entrega por push {#create-audience-push}
 

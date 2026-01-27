@@ -3,10 +3,10 @@ audience: end-user
 title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '206'
+ht-degree: 16%
 
 ---
 
@@ -26,6 +26,7 @@ Depois que o conteúdo do delivery for definido, você poderá usar perfis e per
 * [Pré-visualização do conteúdo e da personalização da mensagem](preview-content.md)
 * [Enviar provas](test-deliveries.md) para destinatários ou assinantes específicos para teste e validação
 * [Verificar a renderização de email](email-rendering.md) em clientes populares de desktop, dispositivos móveis e baseados na Web
+* [Valide a qualidade do conteúdo](../content/brands-score.md#validate-quality) para avaliar a legibilidade, a eficácia do CTA, a qualidade da linha de assunto e muito mais
 * [Pré-visualizar e testar suas páginas de aterrissagem](../landing-pages/create-lp.md#test-landing-page)
 
 Execute estas ações usando o botão **[!UICONTROL Simular conteúdo]**, que pode ser acessado na tela de edição de conteúdo da sua entrega ou no [Designer de email](../email/get-started-email-designer.md).

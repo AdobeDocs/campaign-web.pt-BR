@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '214'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
@@ -29,4 +29,5 @@ Aprenda a criar, gerenciar e monitorar campanhas nas seguintes seções:
 
 * [Acesso e gerenciamento de suas campanhas](manage-campaigns.md)
 * [Criar sua primeira campanha](create-campaigns.md)
+* [Configurar e gerenciar o processo de aprovação](campaign-approvals.md)
 * [Navegar pelos relatórios de campanha](../reporting/campaign-reports.md).

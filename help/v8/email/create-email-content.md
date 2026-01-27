@@ -3,10 +3,10 @@ audience: end-user
 title: Criar emails usando o Designer de email
 description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 51%
+source-wordcount: '673'
+ht-degree: 49%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 51%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definir as colunas da landing page"
->abstract="O Designer de email permite definir facilmente o layout da landing page definindo a estrutura da coluna."
+>title="Definir as colunas da página de destino"
+>abstract="O Designer de email permite definir facilmente o layout da página de destino definindo a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
@@ -104,10 +104,12 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
    ![Captura de tela mostrando as opções de simulação no Designer de email.](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. Você também pode validar a qualidade do conteúdo para avaliar a legibilidade, a eficácia do CTA, a qualidade da linha de assunto e muito mais. [Saiba mais sobre a validação de qualidade do conteúdo](../content/brands-score.md#validate-quality)
+
 1. Quando o email estiver pronto, clique em **[!UICONTROL Salvar]**.
 
 ## Vídeo tutorial {#video}
 
 Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453570/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

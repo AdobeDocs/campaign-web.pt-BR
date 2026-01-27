@@ -3,14 +3,14 @@ audience: end-user
 title: Criar uma entrega de SMS
 description: Saiba como criar e enviar SMS com o Adobe Campaign Web
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 39%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
-# Criar uma entrega de SMS {#create-sms}
+# Crie uma entrega de SMS. {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
@@ -60,6 +60,8 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
    Saiba como criar um novo público-alvo [nesta página](../audience/one-time-audience.md).
 
 1. Ative a opção **[!UICONTROL Habilitar grupo de controle]** para definir um grupo de controle e medir o impacto da sua entrega. As mensagens não são enviadas para esse grupo de controle, portanto, você pode comparar o comportamento da população que recebeu a mensagem com o comportamento dos contatos que não receberam. [Saiba mais](../audience/control-group.md)
+
+1. Você pode configurar seu delivery de SMS como um delivery multilíngue para enviar mensagens com base no idioma preferencial de um perfil. [Saiba mais](../msg/multilingual.md).
 
 1. Clique em **[!UICONTROL Editar conteúdo]** para começar a criar o conteúdo da sua mensagem SMS. [Saiba mais](content-sms.md)
 

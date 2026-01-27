@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 45%
+source-wordcount: '1648'
+ht-degree: 44%
 
 ---
 
@@ -89,7 +89,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    >[!NOTE]
    >
-   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
@@ -152,6 +152,8 @@ Saiba mais sobre o agendamento de entrega em [esta seção](../msg/gs-deliveries
 Antes de enviar um email, você pode visualizá-lo e testá-lo para garantir que ele atenda às suas expectativas.
 
 Nesse caso de uso, você pré-visualiza o email e envia provas para endereços de email específicos enquanto representa alguns dos perfis direcionados.
+
+Você também pode validar a qualidade do conteúdo para verificar a legibilidade, a eficácia do CTA, a qualidade da linha de assunto e muito mais. [Saiba mais sobre a validação de qualidade do conteúdo](../content/brands-score.md#validate-quality)
 
 Informações adicionais sobre como visualizar um email e enviar provas estão disponíveis em [esta seção](../preview-test/preview-test.md).
 
@@ -252,4 +254,4 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 Saiba como criar uma entrega por email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454010/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
