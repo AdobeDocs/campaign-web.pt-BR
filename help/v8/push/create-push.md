@@ -3,7 +3,7 @@ audience: end-user
 title: Criar uma entrega de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 28%
@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="Modelo de notificação por push"
 >abstract="Selecione um modelo de notificação por push para iniciar a entrega por push. Os modelos de entrega permitem reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas e entregas."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR" text="Usar modelos de entrega"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Usar modelos de entrega"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
