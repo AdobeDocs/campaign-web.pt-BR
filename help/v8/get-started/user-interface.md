@@ -140,7 +140,7 @@ Na seção **Gerenciamento de clientes**, é possível ver seus perfis, públic
 >id="acw_offers_list"
 >title="Ofertas"
 >abstract="Navegue pelas listas de ofertas e modelos de ofertas que foram criados no console usando o módulo **Interação**. Essas listas são somente leitura."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="Adicionar ofertas à uma entrega"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/offers" text="Adicionar ofertas à uma entrega"
 
 A seção **Gestão de decisões** permite ver as ofertas e os modelos de ofertas. Essas listas são somente leitura.
 

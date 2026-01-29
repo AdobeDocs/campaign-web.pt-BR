@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="Modelo de notificação por push"
 >abstract="Selecione um modelo de notificação por push para iniciar a entrega por push. Os modelos de entrega permitem reutilizar facilmente o conteúdo e as configurações personalizadas em suas campanhas e entregas."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Usar modelos de entrega"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/delivery-template" text="Usar modelos de entrega"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
