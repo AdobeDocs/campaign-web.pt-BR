@@ -27,7 +27,7 @@ ht-degree: 37%
 >id="acw_deliveries_sms_template_selection"
 >title="Seleção de modelo de SMS"
 >abstract="Selecione um modelo predefinido para iniciar a entrega do SMS. Os modelos de entrega permitem reutilizar o conteúdo e as configurações personalizadas em campanhas e entregas."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/delivery-template" text="Usar modelos de entrega"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Usar modelos de entrega"
 
 Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo explicam o procedimento para uma entrega de SMS independente (única). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão explicadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
