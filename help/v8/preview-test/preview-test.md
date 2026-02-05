@@ -3,10 +3,10 @@ audience: end-user
 title: Sobre a pré-visualização e o teste do delivery
 description: Saiba como visualizar e testar deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 15%
+source-wordcount: '206'
+ht-degree: 16%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 15%
 >id="acw_deliveries_simulate"
 >title="Visualizar e testar o conteúdo"
 >abstract="Após definir o conteúdo, é possível usar perfis e perfis de teste para visualizá-lo e testá-lo."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="Enviar provas"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=pt-BR#test-landing-page" text="Páginas de destino de teste"
 
 Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem. Essa etapa garante a precisão e elimina erros nas configurações de conteúdo e personalização.

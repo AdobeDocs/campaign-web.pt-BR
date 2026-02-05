@@ -3,20 +3,14 @@ audience: end-user
 title: Trabalhar com regras de negócios (tipologias)
 description: Saiba como trabalhar com tipologias e regras de tipologia para controlar, filtrar e monitorar o envio de deliveries.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 29%
+source-wordcount: '1475'
+ht-degree: 27%
 
 ---
 
 # Trabalhar com regras de negócios (tipologias) {#typologies}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Regras de negócios"
->abstract="Agora é possível criar tipologias e regras de tipologia na interface do Adobe Campaign Web. As tipologias permitem controlar, filtrar e priorizar o envio de entregas."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -211,7 +205,7 @@ Para referenciar uma ou várias regras em uma tipologia, siga estas etapas:
 
    ![Salvar interface de regras de tipologia](assets/business-rules-typology-save.png)
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 Agora você pode aplicar a tipologia a mensagens. Depois de concluído, todas as regras de tipologia selecionadas serão executadas para executar as verificações definidas.
 
