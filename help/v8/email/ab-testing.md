@@ -2,7 +2,8 @@
 audience: end-user
 title: Criar experimentos de conteúdo
 description: Saiba como criar experimentos de conteúdo no Adobe Campaign Web
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 2%

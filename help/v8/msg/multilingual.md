@@ -2,7 +2,8 @@
 audience: end-user
 title: Configurar uma entrega multilíngue
 description: Saiba como configurar um delivery multilíngue
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 4%
@@ -256,4 +257,3 @@ Durante o delivery, o Campaign substitui esses espaços reservados pelos dados r
 | Incompatibilidade de maiúsculas e minúsculas do nome da coluna | Os nomes das colunas não correspondem exatamente | Os nomes das colunas fazem distinção entre maiúsculas e minúsculas - use os nomes exatos mostrados acima (por exemplo, `badge`, não `Badge` ou `BADGE`) |
 
 >As práticas recomendadas estão listadas nesta [seção](#csv-best-practices). A estrutura da coluna está detalhada nesta [seção](#csv-columns).
-

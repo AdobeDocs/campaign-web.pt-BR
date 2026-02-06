@@ -16,7 +16,7 @@ ht-degree: 16%
 >id="acw_deliveries_simulate"
 >title="Visualizar e testar o conteúdo"
 >abstract="Após definir o conteúdo, é possível usar perfis e perfis de teste para visualizá-lo e testá-lo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html?lang=pt-BR" text="Enviar provas"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Enviar provas"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=pt-BR#test-landing-page" text="Páginas de destino de teste"
 
 Depois que o conteúdo do delivery for definido, você poderá usar perfis e perfis de teste para pré-visualizá-lo e testá-lo antes de enviar a mensagem. Essa etapa garante a precisão e elimina erros nas configurações de conteúdo e personalização.
