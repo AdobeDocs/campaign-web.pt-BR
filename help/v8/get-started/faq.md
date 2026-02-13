@@ -2,10 +2,10 @@
 title: Perguntas frequentes
 description: Perguntas frequentes sobre a interface do Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Para acessar a nova interface, você precisa ter o Adobe Campaign v8.6 e se cone
 
 +++ Isso significa que o suporte para o Adobe Campaign Classic v7 está sendo encerrado?
 
-O Adobe Campaign Classic v7 terá suporte até 31 de março de 2027. Acesse a página [Produtos e períodos de suporte técnico](https://helpx.adobe.com/br/support/programs/eol-matrix.html){target="_blank"}.
+Visite a página [Produtos e períodos de suporte técnico](https://helpx.adobe.com/br/support/programs/eol-matrix.html){target="_blank"} para conhecer as datas de fim de suporte do Adobe Campaign Classic v7.
 
 +++
 
