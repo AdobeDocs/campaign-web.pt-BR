@@ -2,7 +2,7 @@
 title: Conheça os detalhes de perfis
 description: Saiba como explorar os detalhes de um perfil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 7%
@@ -28,7 +28,7 @@ As informações no perfil são organizadas da seguinte maneira:
 
   ![Captura de tela mostrando a guia assinaturas, listando os serviços aos quais o perfil está inscrito.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* É possível exibir guias personalizadas, como compras, definindo links de coleção na definição da tela do schema Recipients. [Saiba mais sobre links de coleção](../administration/schemas.md#collection-lists)
+* É possível exibir guias personalizadas, como compras, definindo links de coleção na definição da tela do schema Recipients. [Saiba mais sobre links de coleção](../administration/schemas-collection-lists.md)
 
   ![Captura de tela mostrando a guia personalizada](assets/schemas-collection4.png){zoomable="yes"}
 

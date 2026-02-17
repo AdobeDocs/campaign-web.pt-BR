@@ -2,8 +2,8 @@
 title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2024 da interface do usuário do Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de ago
 * **Captcha em páginas de destino**: agora, você pode adicionar um captcha para proteger a sua página de destino contra spam e abusos causados por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. [Saiba mais](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notas de versão de julho {#24-7-release}
@@ -201,7 +201,7 @@ O novo recurso de **Trilha de auditoria** fornece um registro detalhado e cronol
 
 ### Campos personalizados {#24-5-2}
 
-**Os campos personalizados** são outros atributos adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Na interface do Campaign Web, esses campos personalizados agora ficam visíveis em diversas telas. Por exemplo, os detalhes de um perfil ou de um perfil de teste. Na interface web, você não pode criar campos personalizados, mas agora pode modificar a forma como eles são exibidos. [Leia mais](../administration/custom-fields.md)
+**Os campos personalizados** são outros atributos adicionados aos esquemas prontos para uso por meio do console do Adobe Campaign. Na interface do Campaign Web, esses campos personalizados agora ficam visíveis em diversas telas. Por exemplo, os detalhes de um perfil ou de um perfil de teste. Na interface web, você não pode criar campos personalizados, mas agora pode modificar a forma como eles são exibidos. [Leia mais](../administration/schemas-custom-fields.md)
 
 ### Crie links entre tabelas {#24-5-3}
 
