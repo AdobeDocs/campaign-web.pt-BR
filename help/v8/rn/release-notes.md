@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 42%
+source-wordcount: '274'
+ht-degree: 46%
 
 ---
 
@@ -66,7 +66,7 @@ _17 de fevereiro de 2026_
 <tr>
 <td>
 <p>O inventário da campanha agora inclui uma visualização de Linha do tempo que permite visualizar e gerenciar campanhas ao longo do tempo: alterne entre lista e linha do tempo, navegue por semana, mês ou dia, use o botão Hoje para ir até a data atual e abra os detalhes da campanha (status, workflows, deliveries) em um painel direito, com os mesmos filtros e pesquisa como a visualização da lista.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>Para obter mais informações, consulte a <a href="../campaigns/manage-campaigns.md#timeline">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -82,16 +82,16 @@ _17 de fevereiro de 2026_
 <tr>
 <td>
 <p>Agora você pode criar e gerenciar esquemas diretamente da interface do usuário da Web do Campaign. Esse recurso permite criar novas tabelas, estender esquemas existentes e criar formulários personalizados. Você pode definir estruturas de dados personalizadas para atender às suas necessidades comerciais específicas sem precisar acessar o Console do cliente.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../administration/schemas.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Aprimoramentos {#26-2-improvements}
+### Melhoria {#26-2-improvements}
 
 * As diretrizes da marca agora incluem uma seção de Cores que define padrões para o sistema de cores da sua marca, garantindo um uso consistente das cores primária, secundária, de ênfase e neutra em todas as experiências.
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [Saiba mais](../content/brands-personalize.md)
 
 
 
