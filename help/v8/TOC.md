@@ -5,9 +5,9 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
+source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '975'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
    + [Versão antecipada](rn/e-release-notes.md)
    + [Versão mais recente](rn/release-notes.md)
    + Versões anteriores {#previous-release-notes}
+      + [Versões de 2026](rn/release-notes-26.md)
       + [Versões de 2025](rn/release-notes-25.md)
       + [Versões de 2024](rn/release-notes-24.md)
    + [Atualizações da documentação](rn/documentation-updates.md)
@@ -283,7 +284,7 @@ ht-degree: 97%
    + [Gerenciar target mappings](administration/target-mappings.md)
    + [Trabalhar com esquemas](administration/schemas.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + [Gerenciamento de fuso horário](administration/timezone-management.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
