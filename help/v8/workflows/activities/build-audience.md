@@ -56,7 +56,7 @@ Siga estas etapas para configurar a atividade **Criar público-alvo**:
 Para criar sua própria query, siga estas etapas:
 
 1. Selecione **Crie sua própria (consulta)**.
-1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#targeting)
+1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o target é selecionado dos destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#targeting)
 1. Escolha a **Dimensão do filtro** clicando no ícone ao lado da targeting dimension. A dimensão de filtro permite aplicar filtros ao público-alvo fazendo referência a critérios relacionados sem alterar a dimensão de direcionamento principal. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#filtering)
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)

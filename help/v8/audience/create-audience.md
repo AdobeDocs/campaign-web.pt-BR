@@ -108,4 +108,4 @@ Se preferir não substituir os resultados do público existente, configure as at
 
 Saiba como criar e gerenciar públicos-alvo, selecionar públicos-alvo para uma entrega e definir grupos de controle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453207?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
