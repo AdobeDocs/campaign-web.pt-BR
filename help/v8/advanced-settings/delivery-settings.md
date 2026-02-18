@@ -159,7 +159,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=pt-BR#external-account-ac){target="_blank"}.
 
 ## Tentativas {#retries}
 
