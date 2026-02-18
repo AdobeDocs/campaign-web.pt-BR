@@ -89,6 +89,7 @@ _17 de fevereiro de 2026_
 </table>
 
 <!-->
+
 ### Melhoria {#26-2-improvements}
 
 * As diretrizes da marca agora incluem uma seção de Cores que define padrões para o sistema de cores da sua marca, garantindo um uso consistente das cores primária, secundária, de ênfase e neutra em todas as experiências.

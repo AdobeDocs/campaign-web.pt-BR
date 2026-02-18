@@ -251,6 +251,7 @@ Para personalizar seu **[!UICONTROL conteúdo visual]**:
 Agora você pode personalizar ainda mais sua marca ou [publicar sua marca](#create-brand-kit).
 
 <!-->
+
 ## Cores {#colors}
 
 A seção **[!UICONTROL Cores]** define os padrões do sistema de cores da sua marca, descrevendo como as cores são selecionadas, organizadas e aplicadas entre experiências. Ela garante o uso consistente das cores primária, secundária, de destaque e neutra para manter uma identidade de marca coesa, acessível e reconhecível.
