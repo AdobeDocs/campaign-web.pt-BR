@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -88,10 +88,11 @@ _17 de fevereiro de 2026_
 </tbody>
 </table>
 
+<!-->
 ### Melhoria {#26-2-improvements}
 
 * As diretrizes da marca agora incluem uma seção de Cores que define padrões para o sistema de cores da sua marca, garantindo um uso consistente das cores primária, secundária, de ênfase e neutra em todas as experiências.
-  [Saiba mais](../content/brands-personalize.md)
+  [Saiba mais](../content/brands-personalize.md)—>
 
 
 

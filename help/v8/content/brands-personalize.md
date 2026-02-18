@@ -5,9 +5,9 @@ description: Saiba como personalizar as diretrizes da sua marca
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
-source-git-commit: 3426490deea7dc8653b30f29c530ecc21b52f7b6
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Para criar um kit de marca abrangente que garanta a consistência em todo o seu 
 * **[!UICONTROL Sobre a marca]** estabelece a identidade e os valores principais da sua marca.
 * **[!UICONTROL O estilo de escrita]** define o idioma e os padrões de conteúdo.
 * **[!UICONTROL O conteúdo visual]** define as diretrizes de imagem e design.
-* **[!UICONTROL Cores]** gerencia o sistema de cores e o uso da sua marca.
+  <!--* **[!UICONTROL Colors]** manages your brand's color system and usage.-->
 
 Após a configuração, é possível usar as diretrizes da marca para validar a qualidade do conteúdo e o alinhamento da marca. [Saiba mais sobre a validação de qualidade do conteúdo](brands-score.md#validate-quality)
 
@@ -250,6 +250,7 @@ Para personalizar seu **[!UICONTROL conteúdo visual]**:
 
 Agora você pode personalizar ainda mais sua marca ou [publicar sua marca](#create-brand-kit).
 
+<!-->
 ## Cores {#colors}
 
 A seção **[!UICONTROL Cores]** define os padrões do sistema de cores da sua marca, descrevendo como as cores são selecionadas, organizadas e aplicadas entre experiências. Ela garante o uso consistente das cores primária, secundária, de destaque e neutra para manter uma identidade de marca coesa, acessível e reconhecível.
@@ -346,4 +347,4 @@ Para personalizar suas **[!UICONTROL Cores]**:
 1. Clique em **[!UICONTROL Adicionar grupo]** para definir cores adicionais para sua marca ou para adicionar um grupo de escala de cores.
 
 Agora você pode personalizar ainda mais sua marca ou [publicar sua marca](brands.md#create-brand-kit).
-
+—>
