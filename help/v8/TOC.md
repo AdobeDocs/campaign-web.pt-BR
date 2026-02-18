@@ -5,10 +5,10 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 97%
+source-wordcount: '998'
+ht-degree: 95%
 
 ---
 
@@ -282,9 +282,16 @@ ht-degree: 97%
       + [Atribuir uma marca](administration/branding/branding-assign.md)
    + [Trabalhar com regras de negócios (tipologias)](administration/typologies.md)
    + [Gerenciar target mappings](administration/target-mappings.md)
-   + [Trabalhar com esquemas](administration/schemas.md)
+   + Trabalhar com esquemas {#schemas}
+      + [Sobre schemas](administration/schemas.md)
+      + [Acessar e configurar schemas](administration/schemas-browse-access.md)
+      + [Configurar colunas da lista](administration/schemas-list-columns.md)
+      + [Editar campos personalizados](administration/schemas-custom-fields.md)
+      + [Adicionar listas de coleções](administration/schemas-collection-lists.md)
+      + [Criar e publicar esquemas](administration/schemas-create-publish.md)
+      + [Trabalhar com formulários personalizados](administration/schemas-custom-forms.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + [Gerenciamento de fuso horário](administration/timezone-management.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)
