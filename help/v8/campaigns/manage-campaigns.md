@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 26%
@@ -29,7 +29,7 @@ Para acessar e gerenciar suas campanhas, clique no menu **[!UICONTROL Campanhas]
 
 A guia **[!UICONTROL Procurar]** fornece informações sobre o status atual das campanhas, as datas de início e término, a data de criação, a última vez que foram modificadas, etc. É possível personalizar as colunas exibidas clicando no ícone **Configurar coluna para um layout personalizado** localizado no canto superior direito da lista. Isso permite adicionar ou remover colunas e reordenar informações na lista de campanhas.
 
-### Pesquisar e filtrar o inventário {#search}
+### Pesquisar e filtrar o inventário {#search-and-filter}
 
 Uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. [Saiba mais](../get-started/user-interface.md#list-screens). Por exemplo, você pode filtrar pelo cronograma da campanha. Abra o painel de filtro e use a seção **Data inicial - final**:
 

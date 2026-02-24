@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade Transferir arquivo
 description: Saiba como usar a atividade de workflow Transferir arquivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 29%
@@ -155,6 +155,8 @@ Toda vez que a atividade é executada, a pasta é verificada da seguinte maneira
    * **[!UICONTROL Seguir redirecionamentos]**: o redirecionamento de arquivo permite usar substituições para direcionar a entrada ou saída de dados para um dispositivo de tipo diferente.
    * **[!UICONTROL Adicionar os cabeçalhos HTTP ao arquivo]**: em alguns casos, talvez você queira adicionar outros cabeçalhos HTTP a um arquivo. Normalmente, esses cabeçalhos serão usados para fornecer informações adicionais para fins de solução de problemas, para [Compartilhamento de recursos entre origens (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) ou para definir diretivas específicas de armazenamento em cache.
    * **[!UICONTROL Ignorar o código de retorno HTTP]**: códigos de retorno HTTP, também conhecidos como códigos de status HTTP, indicam o resultado de uma solicitação HTTP.
+
+   +++
 
 1. A opção **[!UICONTROL Process errors]** permite ativar uma transição de saída &quot;Error&quot; após a atividade se ocorrer algum erro durante a transferência.
 
