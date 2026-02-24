@@ -33,7 +33,7 @@ A principal diferença está na interface do usuário. Abaixo, uma comparação 
 
 No vídeo abaixo, aprenda a acessar e navegar na interface da Web do Campaign e personalizar as listas de inventário.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453427?captions=por_br&quality=12&learn=on){transcript=true}
 
 Para obter mais detalhes, consulte a documentação abaixo:
 
@@ -54,13 +54,13 @@ No Adobe Campaign, um perfil é um registro armazenado no banco de dados, que se
 
 1. Saiba como acessar, gerenciar e explorar perfis usando a interface da Web do Campaign neste vídeo:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448369?captions=por_br&quality=12&learn=on){transcript=true}
 
    Saiba mais na documentação [Introdução aos perfis](../../v8/audience/about-recipients.md).
 
 1. Saiba como criar e gerenciar perfis de teste no Campaign v8
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442900?captions=por_br&quality=12&learn=on){transcript=true}
 
 ### Gerenciar públicos {#acs-gs-marketers-audiences}
 
@@ -68,7 +68,7 @@ Públicos são conjuntos de perfis que compartilham comportamentos e/ou caracter
 
 Saiba como criar e gerenciar públicos-alvo, como selecionar públicos-alvo para um delivery e definir grupos de controle neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453207?captions=por_br&quality=12&learn=on){transcript=true}
 
 Consulte [Introdução aos públicos-alvo](../../v8/audience/manage-audience.md){target="_blank"} para obter mais informações.
 
@@ -146,7 +146,7 @@ A interface do usuário do workflow foi totalmente reimaginada na interface do u
 
 Entenda como os fluxos de trabalho funcionam e como criar um fluxo de trabalho de direcionamento neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453977?captions=por_br&quality=12&learn=on){transcript=true}
 
 Obtenha mais detalhes com a [Documentação de fluxo de trabalho](../../v8/workflows/gs-workflows.md).
 
@@ -202,7 +202,7 @@ Links úteis:
 
 Saiba como criar uma entrega de email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454010?captions=por_br&quality=12&learn=on){transcript=true}
 
 Saiba como criar seu primeiro email direcionado na [Criar sua primeira documentação de email](../../v8/email/create-email.md)
 
@@ -214,13 +214,13 @@ No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de 
 
    Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email no vídeo a seguir:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453570?captions=por_br&quality=12&learn=on){transcript=true}
 
    O Designer de email permite criar emails atrativos e personalizados por meio de uma interface intuitiva de arrastar e soltar. Saiba mais na [documentação do Email Designer](../../v8/email/get-started-email-designer.md)
 
    Saiba como criar um email carregando o HTML, como torná-lo compatível com o Designer de email e como convertê-lo em um modelo neste vídeo:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447037?captions=por_br&quality=12&learn=on){transcript=true}
 
    Um fragmento de conteúdo é um componente reutilizável que pode ser referenciado em uma ou mais mensagens. Saiba mais sobre [Fragmentos de conteúdo](../../v8/content/fragments.md) para simplificar a criação de sua entrega de email.
 
@@ -230,7 +230,7 @@ No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de 
 
    Saiba como pré-visualizar o conteúdo e a personalização da mensagem de email, enviar deliveries de teste (provas) e verificar a renderização de email em clientes populares de desktop, móveis e baseados na Web, neste vídeo:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450342?captions=por_br&quality=12&learn=on){transcript=true}
 
 1. **Enviar email e verificar logs**
 
@@ -320,7 +320,7 @@ No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de 
 
 A correspondência direta é um canal offline que permite produzir arquivos para entregar cartas personalizadas em massa aos clientes, como cartões-postais, panfletos ou catálogos. Ao criar uma entrega de correspondência direta, o Adobe Campaign gera automaticamente um arquivo de extração contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451788/?captions=por_br&learn=on)
 
 No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de correspondência direta são semelhantes ao Campaign Standard.
 
@@ -328,7 +328,7 @@ No Campaign v8, as etapas detalhadas para criar, testar e enviar um delivery de 
 1. [Definir o arquivo de extração](../../v8/direct-mail/content-direct-mail.md)
 1. [Visualizar e enviar](../../v8/direct-mail/send-direct-mail.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453570?captions=por_br&quality=12&learn=on){transcript=true}
 
 ### Canal no aplicativo {#acs-gs-marketers-in-app}
 
