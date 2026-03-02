@@ -2,10 +2,11 @@
 audience: end-user
 title: Conteúdo gerativo
 description: Saiba como gerar imagens com o Assistente de IA
-source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
+exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
+source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 1%
+source-wordcount: '1200'
+ht-degree: 2%
 
 ---
 
@@ -53,6 +54,7 @@ Saiba como criar prompts eficazes e definir configurações de imagem para gerar
 
 1. Personalize seu prompt usando a opção **[!UICONTROL Configurações de imagem]**:
 
+   * **[!UICONTROL Modelo gerativo]**: selecione entre o **[!UICONTROL modelo Adobe]** pronto para uso, o **[!UICONTROL modelo Parceiro]** para recursos especializados ou os **[!UICONTROL modelos personalizados]** treinados nos ativos da sua marca. [Saiba mais](generative-models.md)
    * **[!UICONTROL Taxa de proporção]**: determine a largura e a altura do ativo. Escolha entre taxas comuns, como 16:9, 4:3, 3:2 ou 1:1, ou insira um tamanho personalizado.
    * **[!UICONTROL Tipo de conteúdo]**: categorize a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: controle o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) cria uma aparência mais suave, enquanto uma configuração mais alta (10) torna a imagem mais vibrante.
@@ -124,6 +126,7 @@ Depois de acessar o Assistente de IA, você pode ajustar as configurações de g
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
+   * **[!UICONTROL Modelo gerativo]**: selecione entre o **[!UICONTROL modelo Adobe]** pronto para uso, o **[!UICONTROL modelo Parceiro]** para recursos especializados ou os **[!UICONTROL modelos personalizados]** treinados nos ativos da sua marca. [Saiba mais](generative-models.md)
    * **[!UICONTROL Tipo de conteúdo]**: categorize a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: controle o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) cria uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) torna a imagem mais vibrante e visualmente poderosa.
    * **[!UICONTROL Iluminação]**: Ajuste a iluminação na imagem para moldar sua atmosfera e destacar elementos específicos.
