@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 20%
+ht-degree: 24%
 
 ---
 
@@ -62,7 +62,7 @@ O Adobe Campaign Web permite automatizar e executar campanhas de marketing em v�
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="Sinal externo"
->abstract="o espaço reservado para a seção sinal externo nos parâmetros de atividade End. Disponível somente para campanhas orquestradas. NÃO DELETE"
+>abstract="Espaço reservado da seção de sinais externos nos parâmetros da atividade final. Disponível somente para campanhas orquestradas. NÃO EXCLUIR"
 
 As atividades a seguir são específicas para organizar e executar fluxos de trabalho. Sua principal tarefa é coordenar as outras atividades:
 

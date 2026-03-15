@@ -7,7 +7,7 @@ exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn6"
->title="Gerenciamento de aprovação de campanha"
->abstract="Agora é possível coordenar a validação das partes interessadas antes de enviar os deliveries. Exigir aprovações de gerentes de marketing, analistas de dados ou outras equipes para controle de qualidade."
+>title="Gerenciamento de aprovação da campanha"
+>abstract="Agora é possível coordenar a validação das partes interessadas antes de enviar as entregas. Exigir aprovações de gerentes de marketing, analistas de dados ou outras equipes para manter o controle de qualidade."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!IMPORTANT]

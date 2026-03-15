@@ -6,7 +6,7 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Experimentos de conteúdo - Teste A/B"
->abstract="Agora você pode definir várias variantes de entrega para testar qual tem melhor desempenho. Varie o conteúdo, o assunto ou o remetente entre elementos de email para determinar os resultados ideais."
+>abstract="Agora você pode definir múltiplas variantes de entrega para testar qual tem o melhor desempenho. Varie o conteúdo, o assunto ou o remetente entre elementos de email para definir os resultados ideais."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 ## Sobre experimentos de conteúdo {#about-content-experiment}

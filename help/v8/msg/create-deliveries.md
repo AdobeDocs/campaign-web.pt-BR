@@ -9,7 +9,7 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Habilitar enriquecimento de perfil"
->abstract="Selecione os campos para enriquecimento do perfil. Somente campos com um índice podem ser selecionados como chaves de reconciliação. Os campos incompatíveis ficam esmaecidos."
+>abstract="Selecione os campos para enriquecimento do perfil. Somente campos com um índice podem ser selecionados como chaves de reconciliação. Os campos não compatíveis estão esmaecidos."
 
 Você pode criar entregas independentes a partir do menu **[!UICONTROL Entregas]** à esquerda ou criar entregas no contexto de um fluxo de trabalho, incluído ou não em uma campanha.
 

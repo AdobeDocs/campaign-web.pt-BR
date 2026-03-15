@@ -6,7 +6,7 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
 source-wordcount: '1287'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -111,7 +111,7 @@ Todas as atividades permitem gerenciar as opções de execução. Selecione uma 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="Propriedades da atividade"
->abstract="Esta seção permite definir as configurações de execução de uma atividade, incluindo a ação a ser executada, a duração máxima, o fuso horário, a afinidade da máquina e o comportamento assíncrono."
+>abstract="Esta seção permite configurar as opções de execução de uma atividade, incluindo a ação a ser realizada, a duração máxima, o fuso horário, a afinidade de máquina e o comportamento assíncrono."
 
 O campo **Execution** permite que você defina a ação a ser executada quando a tarefa for iniciada.
 
@@ -137,7 +137,7 @@ O campo **Em caso de erro** permite especificar a ação a ser executada se a at
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="Script de inicialização"
->abstract="Esta seção permite que você adicione o JavaScript que é executado quando a atividade começa. Use-a para inicializar variáveis, definir parâmetros ou preparar dados específicos para a execução dessa atividade."
+>abstract="Esta seção permite que você adicione o JavaScript que é executado quando a atividade começa. Use-o para inicializar variáveis, definir parâmetros ou preparar dados específicos para a execução dessa atividade."
 
 O **script de Inicialização** permite inicializar variáveis ou modificar propriedades da atividade. Clique no botão **Editar código** e digite o trecho de código a ser executado. O script é chamado quando a atividade é executada. Consulte a seção relacionada a [variáveis de evento](../workflows/event-variables.md).
 
