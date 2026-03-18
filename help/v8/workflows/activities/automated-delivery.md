@@ -16,4 +16,4 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Atividade de entrega automatizada"
->abstract="A atividade de **Entrega automatizada** permite criar, configurar e executar ações de entrega no fluxo de trabalho. Você pode criar um novo delivery a partir de um template, selecionar um delivery explícito existente que foi criado separadamente ou usar um delivery especificado na transição de entrada. Configure recipients e conteúdo e escolha a ação de execução."
+>abstract="A atividade de **Entrega automatizada** permite criar, configurar e executar ações de entrega no fluxo de trabalho. Você pode criar um novo delivery a partir de um template, selecionar um delivery explícito existente que foi criado separadamente ou usar um delivery especificado na transição de entrada. Configure recipients e conteúdo e escolha a ação de execução.
