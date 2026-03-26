@@ -2,10 +2,10 @@
 title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+source-git-commit: 304e3771ee55777d2eaf7a6c83ee4af3c97aa3b6
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 42%
+source-wordcount: '568'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,42 @@ ht-degree: 42%
 
 As versões da interface do usuário do Adobe Campaign Web operam em um modelo de entrega contínua que permite uma abordagem à implantação de recursos mais dimensionável e em fases. Devido a isso, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
-## Atualização de março de 2026 {#26-3-release}
+## Versão de março de 2026 {#26-3-release}
+
+### Novos recursos {#26-3-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Criação de esquema (GA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O recurso de criação de esquema agora está disponível para todos os clientes (GA). Esse recurso permite criar e gerenciar esquemas diretamente na interface do usuário da Web do Campaign. Você pode criar novas tabelas, estender esquemas existentes e criar formulários personalizados. Você pode definir estruturas de dados personalizadas para atender às suas necessidades comerciais específicas sem precisar acessar o Console do cliente.</p>
+<p>Para obter mais informações, consulte a <a href="../administration/schemas.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Temas no Designer de email (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os temas fornecem uma experiência de criação aprimorada para emails, permitindo definir estilos de tema reutilizáveis que se ajustem às diretrizes da sua marca. Agora é possível usar variáveis de tema em fragmentos, garantindo um estilo consistente em seus modelos de email. Esse recurso permite criar emails mais rapidamente com módulos predefinidos que abstraem elementos de conteúdo, como títulos, descrições, imagens e links, enquanto mantêm a consistência da marca.</p>
+<p>Observação: esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
+<p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -38,55 +73,18 @@ As versões da interface do usuário do Adobe Campaign Web operam em um modelo d
 </tbody>
 </table>
 
-## Versão de fevereiro de 2026 {#26-2-release}
-
-_17 de fevereiro de 2026_
-
-### Novos recursos {#26-2-features}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Delivery scheduling compute process</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
-<th><strong>Exibição da linha do tempo no inventário da campanha</strong><br/></th> 
+<th><strong>Atividade de entrega automatizada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O inventário da campanha agora inclui uma visualização de Linha do tempo que permite visualizar e gerenciar campanhas ao longo do tempo: alterne entre lista e linha do tempo, navegue por semana, mês ou dia, use o botão Hoje para ir até a data atual e abra os detalhes da campanha (status, workflows, deliveries) em um painel direito, com os mesmos filtros e pesquisa como a visualização da lista.</p>
-<p>Para obter mais informações, consulte a <a href="../campaigns/manage-campaigns.md#timeline">documentação detalhada</a>.</p>
+<p>A atividade de fluxo de trabalho <strong>Entrega automatizada</strong> agora está disponível na paleta de fluxo de trabalho. Você pode usá-lo para criar ou executar ações de delivery (preparar, enviar uma prova, preparar e iniciar etc.) diretamente no seu fluxo de trabalho. Selecione um delivery existente criado fora do workflow para reutilizá-lo em cada execução ou crie um novo delivery a partir de um template sempre que a atividade for executada.</p>
+<p><img src="assets/do-not-localize/workflow-automated-delivery.gif"/></p>
+<p>Para obter mais informações, consulte a <a href="../workflows/activities/automated-delivery.md">documentação detalhada.</p>
 </td>
 </tr>
 </tbody>
@@ -95,26 +93,23 @@ _17 de fevereiro de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Criação de esquema (LA)</strong><br/></th> 
+<th><strong>Várias ramificações de fluxo de trabalho e Atividade de junção</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar e gerenciar esquemas diretamente da interface do usuário da Web do Campaign. Esse recurso permite criar novas tabelas, estender esquemas existentes e criar formulários personalizados. Você pode definir estruturas de dados personalizadas para atender às suas necessidades comerciais específicas sem precisar acessar o Console do cliente.</p>
-<p>Observação: esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
-<p>Para obter mais informações, consulte a <a href="../administration/schemas.md">documentação detalhada</a>.</p>
+
+<p>Agora há suporte para <strong>Várias ramificações</strong>. Em vez de usar uma <strong>Bifurcação</strong>, você pode clicar em <strong>Adicionar ramificação</strong> na barra de ferramentas. A atividade <strong>AND-join</strong> também foi aprimorada. Agora é uma atividade genérica <strong>Join</strong> que permite escolher entre as opções de associação AND e OR.</p>
+<p><img src="assets/do-not-localize/workflow-branches-join.gif"/></p>
+<p>Para obter mais informações, consulte as páginas de documentação de <a href="../workflows/orchestrate-activities.md#toolbar">Orquestrar atividades</a> e <a href="../workflows/activities/join.md">Ingressar</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+### Aprimoramentos {#26-3-improvements}
 
-### Improvement {#26-2-improvements}
-
-* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
-
-
-
+* A atividade de fluxo de trabalho **Start** foi adicionada para melhorar a compatibilidade com o Console do Cliente. Essa atividade é opcional e não é inserida por padrão em novos workflows. No entanto, ele é adicionado automaticamente aos workflows existentes.
+  [Saiba mais](../workflows/activities/about-activities.md#flow-control)
+* O campo de seleção de fuso horário nas configurações de **Agenda** de uma entrega foi movido para baixo do campo **Data de contato**. [Saiba mais](../msg/create-deliveries.md#gs-schedule)
