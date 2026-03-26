@@ -3,20 +3,14 @@ audience: end-user
 title: Usar uma atividade de workflow Delivery contínuo
 description: Saiba como usar a atividade de workflow Delivery contínuo
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 26%
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
 # Entrega contínua {#continuous-delivery}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Atividade de entrega contínua"
->abstract="Agora você pode adicionar novos destinatários a uma entrega existente. Esse tipo de entrega evita a necessidade de criar uma nova entrega a cada vez, tornando o processo mais eficiente para alertas ou notificações de baixo volume que são enviados conforme necessário."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 A atividade de **Entrega contínua** permite adicionar novos destinatários a uma entrega existente. Esse tipo de entrega evita a necessidade de criar uma nova entrega a cada vez, tornando o processo mais eficiente para alertas ou notificações de baixo volume que são enviados conforme necessário.
 
@@ -45,5 +39,6 @@ A atividade de delivery contínuo gera automaticamente uma transição de saída
 ## Tópicos relacionados {#related}
 
 * [Sobre atividades de fluxo de trabalho](about-activities.md)
+* [Entrega automatizada](automated-delivery.md)
 * [Atividades de email, SMS, Push, Correspondência direta](channels.md)
 * [Modelos de entrega](../../msg/delivery-template.md)

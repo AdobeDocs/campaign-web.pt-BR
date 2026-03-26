@@ -3,10 +3,10 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: 'Central de ajuda do Campaign Web '
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 98%
+source-wordcount: '530'
+ht-degree: 84%
 
 ---
 
@@ -52,9 +52,15 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 >[!BEGINTABS]
 
 
->[!TAB Versão de fevereiro de 2026]
+>[!TAB Versão de março de 2026]
 
-A versão de fevereiro está disponível. Agora há novos recursos e aprimoramentos disponíveis na interface web do Campaign. Para obter uma visão geral completa, consulte as notas de versão.
+A versão de março está disponível. Agora novos recursos e melhorias estão disponíveis na interface do usuário da Web do Campaign. Os destaques incluem:
+
+* **Criação de esquema (GA)** - Crie e gerencie esquemas diretamente na interface do usuário da Web do Campaign.
+* **Temas no Email Designer (LA)** - Aplique estilos e variáveis de tema reutilizáveis para manter o conteúdo de email consistente com sua marca.
+* **Melhorias no fluxo de trabalho** - As atividades **Entrega automatizada** e **Início** agora estão disponíveis e a **Ingressar** agora oferece suporte à opção OR. Agora, também é possível adicionar várias ramificações aos fluxos de trabalho.
+
+Para obter uma visão geral completa, consulte as notas de versão.
 
 [![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
