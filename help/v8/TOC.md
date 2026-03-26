@@ -5,9 +5,9 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: 'Documentação do Adobe Campaign Web '
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1011'
 ht-degree: 95%
 
 ---
@@ -115,6 +115,7 @@ ht-degree: 95%
          + [Iniciar do zero](email/create-email-content.md)
          + [Importar o conteúdo do email](email/existing-content.md)
          + [Desenvolver o seu próprio conteúdo](email/code-content.md)
+         + [Aplicar temas ao conteúdo do email](email/apply-email-themes.md)
       + Projetar o conteúdo {#design-content}
          + [Usar componentes de conteúdo](email/content-components.md)
          + [Adicionar links e rastrear mensagens](email/message-tracking.md)
@@ -190,7 +191,7 @@ ht-degree: 95%
       + [Iniciar e monitorar fluxos de trabalho](workflows/start-monitor-workflows.md)
    + Trabalhar com atividades de fluxo de trabalho {#design-workflows}
       + [Sobre atividades de fluxo de trabalho](workflows/activities/about-activities.md)
-      + [And-join](workflows/activities/and-join.md)
+      + [Entrega automatizada](workflows/activities/automated-delivery.md)
       + [Criar público-alvo](workflows/activities/build-audience.md)
       + [Alterar fonte de dados](workflows/activities/change-data-source.md)
       + [Mudar dimensão](workflows/activities/change-dimension.md)
@@ -204,6 +205,7 @@ ht-degree: 95%
       + [Bifurcação](workflows/activities/fork.md)
       + [Consulta incremental](workflows/activities/incremental-query.md)
       + [Código JavaScript](workflows/activities/javascript-code.md)
+      + [Associar-se](workflows/activities/join.md)
       + [Carregar arquivo](workflows/activities/load-file.md)
       + [Reconciliação](workflows/activities/reconciliation.md)
       + [Salvar público-alvo](workflows/activities/save-audience.md)
@@ -292,7 +294,7 @@ ht-degree: 95%
       + [Criar e publicar esquemas](administration/schemas-create-publish.md)
       + [Trabalhar com formulários personalizados](administration/schemas-custom-forms.md)
    + [Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + [Gerenciamento de fuso horário](administration/timezone-management.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)

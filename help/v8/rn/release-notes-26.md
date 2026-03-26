@@ -1,16 +1,95 @@
 ---
 title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2026 da interface do Campaign Web
-source-git-commit: abec861b2c542644b90d3385fb5cf1d785ae7b70
+exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 20%
+source-wordcount: '746'
+ht-degree: 22%
 
 ---
 
 # Notas de versão de 2026 {#2026-release}
 
 Esta página lista todas as alterações e melhorias disponíveis com as **versões de 2026**. As notas de versão mais recentes estão disponíveis em [esta página](release-notes.md).
+
+## Versão de fevereiro de 2026 {#26-2-release}
+
+_17 de fevereiro de 2026_
+
+### Novos recursos {#26-2-features}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Delivery scheduling compute process</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Exibição da linha do tempo no inventário da campanha</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O inventário da campanha agora inclui uma visualização de Linha do tempo que permite visualizar e gerenciar campanhas ao longo do tempo: alterne entre lista e linha do tempo, navegue por semana, mês ou dia, use o botão Hoje para ir até a data atual e abra os detalhes da campanha (status, workflows, deliveries) em um painel direito, com os mesmos filtros e pesquisa como a visualização da lista.</p>
+<p>Para obter mais informações, consulte a <a href="../campaigns/manage-campaigns.md#timeline">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Criação de esquema (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode criar e gerenciar esquemas diretamente da interface do usuário da Web do Campaign. Esse recurso permite criar novas tabelas, estender esquemas existentes e criar formulários personalizados. Você pode definir estruturas de dados personalizadas para atender às suas necessidades comerciais específicas sem precisar acessar o Console do cliente.</p>
+<p>Observação: esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
+<p>Para obter mais informações, consulte a <a href="../administration/schemas.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+
+### Improvement {#26-2-improvements}
+
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
 
 ## Versão de janeiro de 2026 {#26-1-release}
 
@@ -90,7 +169,7 @@ _27 de janeiro de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Atividade de delivery contínua</strong><br/></th> 
+<th><strong>Atividade de entrega contínua</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
@@ -106,7 +185,7 @@ _27 de janeiro de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Gerenciamento de aprovação de campanha</strong><br/></th> 
+<th><strong>Gerenciamento de aprovação da campanha</strong><br/></th> 
 </tr>
 </thead>
 <tbody>

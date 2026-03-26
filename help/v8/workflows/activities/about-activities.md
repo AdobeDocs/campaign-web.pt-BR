@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 24%
+source-wordcount: '617'
+ht-degree: 22%
 
 ---
 
@@ -60,16 +60,26 @@ O Adobe Campaign Web permite automatizar e executar campanhas de marketing em v�
 >abstract="A atividade **Fim** permite marcar graficamente o final de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_start"
+>title="Finalizar atividade"
+>abstract="A atividade **Start** permite marcar graficamente o início de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="Sinal externo"
 >abstract="Espaço reservado da seção de sinais externos nos parâmetros da atividade final. Disponível somente para campanhas orquestradas. NÃO EXCLUIR"
 
 As atividades a seguir são específicas para organizar e executar fluxos de trabalho. Sua principal tarefa é coordenar as outras atividades:
 
-* [And-join](and-join.md): sincroniza várias ramificações de execução de um fluxo de trabalho.
-* **Fim**: marca graficamente o fim de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional.
 * [Sinal externo](external-signal.md): acione a execução de um fluxo de trabalho a partir de outro fluxo de trabalho ou de uma chamada de API.
 * [Bifurcação](fork.md): crie transições de saída para iniciar várias atividades simultaneamente.
+* [Ingressar](join.md): sincroniza várias ramificações de execução de um fluxo de trabalho.
 * [Agendador](scheduler.md): agendar quando o fluxo de trabalho será iniciado.
+* **Início** e **Fim**: marca graficamente o início e o fim de um fluxo de trabalho. Eles são opcionais e não têm impacto funcional por conta própria.
+
+  >[!NOTE]
+  >
+  >Observe que a atividade **Start** é adicionada automaticamente a todos os fluxos de trabalho criados antes da versão 26.3. Ele não é inserido por padrão em novos workflows.
+
 * [Test](test.md): habilitar transições com base em condições especificadas.
 * [Aguardar](wait.md): pausar temporariamente a execução de uma parte de um fluxo de trabalho.

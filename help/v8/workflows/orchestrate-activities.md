@@ -3,10 +3,10 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 10%
+source-wordcount: '1321'
+ht-degree: 9%
 
 ---
 
@@ -39,6 +39,7 @@ Para remover uma atividade, selecione-a na tela e clique no ícone **Excluir** n
 A barra de ferramentas, localizada no canto superior direito da tela, fornece opções para manipular facilmente as atividades e navegar nela:
 
 * **Modo de seleção múltipla**: selecione várias atividades para excluí-las todas de uma vez ou copie-as e cole-as. Consulte [esta seção](#copy).
+* **Adicionar ramificação**: clique no botão **+** na barra de ferramentas para criar uma ramificação de execução separada na tela. O resultado é equivalente a usar uma [Bifurcação](activities/fork.md) para caminhos paralelos, mas o diagrama é graficamente mais claro.
 * **Girar**: Alternar a tela verticalmente.
 * **Ajustar à tela**: adapte o nível de zoom da tela à sua tela.
 * **Menos zoom** / **Menos zoom**: Menos zoom ou mais zoom na tela.

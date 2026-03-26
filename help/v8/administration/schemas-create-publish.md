@@ -2,9 +2,9 @@
 title: Criar e publicar esquemas
 description: Saiba como criar, estender e publicar esquemas.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 ## Criar e gerenciar esquemas {#create-schemas}
 
 Você pode criar novos esquemas, estender esquemas existentes e acessar bancos de dados externos.
-
->[!NOTE]
->
->Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será lançado globalmente em uma versão futura.
 
 ### Criar ou estender um esquema {#create-new}
 

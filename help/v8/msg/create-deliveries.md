@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 55%
+source-wordcount: '983'
+ht-degree: 48%
 
 ---
 
@@ -113,11 +113,18 @@ Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-l
 
 Você pode definir a data e a hora exata para enviar suas mensagens. Ao escolher o horário mais apropriado para a mensagem de marketing, é possível maximizar as taxas de abertura.
 
-Para agendar o envio de uma entrega, abra a entrega e navegue até a seção **[!UICONTROL Agendar]**. Use o botão de alternância **[!UICONTROL Habilitar agendamento]** para ativá-lo e defina a data e a hora desejada para o envio. Depois que você envia o delivery, o envio real começa na data de contato definida.
+Para agendar o envio de um delivery, siga estas etapas:
+
+1. Abra a entrega e navegue até a seção **[!UICONTROL Agendamento]**.
+1. Use o botão de alternância **[!UICONTROL Habilitar agendamento]** para ativá-lo.
+1. No campo **[!UICONTROL Data de contato]**, clique no ícone de calendário e defina a data e a hora desejadas para envio.
+1. No campo **[!UICONTROL Fuso horário]**, use o menu suspenso para selecionar o fuso horário desejado.
+
+Depois que você envia o delivery, o envio real começa na data de contato definida.
 
 ![Captura de tela mostrando a interface de agendamento para uma entrega](assets/schedule.png){zoomable="yes"}
 
-Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Essa opção exige que você confirme o envio antes que a entrega seja enviada na data e hora programadas. Se precisar enviar a entrega automaticamente na data e hora programadas, desabilite essa opção.
+Por padrão, a opção **[!UICONTROL Ativar confirmação antes de enviar]** está habilitada. Esta opção requer que você confirme o envio antes que o delivery seja enviado na data agendada e se precisar enviar o delivery automaticamente na data e hora agendadas, você poderá desativar esta option.me.
 
 Saiba mais sobre as etapas para enviar uma entrega programada [nesta seção](../monitor/prepare-send.md#schedule-the-send).
 
