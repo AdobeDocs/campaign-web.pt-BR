@@ -3,7 +3,7 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 68%
@@ -22,7 +22,7 @@ A edição de uma expressão envolve a inserção manual de condições para for
 >[!IMPORTANT]
 >
 >Uma interface totalmente nova para o modelador de consultas está disponível. Para alternar para essa nova experiência do construtor de regras, pressione o botão de alternância no canto superior direito. Você pode voltar para o modelador de Query clássico a qualquer momento que desejar simplesmente pressionando o botão de alternância de volta para desativar a nova interface. Você pode aplicar os mesmos princípios que o modelador de consultas nessa nova interface.
->&#x200B;>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Imagem mostrando a alternância para a nova interface do construtor de regras](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Trabalhar com o editor de expressão {#edit}
 
@@ -502,7 +502,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>CriptografiaAEM</strong><br /> </td> 
    <td> Cadeia de caracteres criptografada fornecida no argumento <br /> </td> 
-   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -524,11 +524,13 @@ Esta tabela contém as funções restantes disponíveis.
    <td> Retorna o valor 3 se o valor 1 for igual ao valor 2. Caso contrário, retorna o valor 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <!--
+<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+-->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Retorna o valor 1 (só pode ser usado como parâmetro da função case)<br /> </td> 
@@ -696,7 +698,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica se o memorando contém a string aprovada como um parâmetro<br /> </td> 
-   <td> MemoContains(&lt;memorando&gt;, &lt;string&gt;)<br /></td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>ValorDoNó</strong><br /> </td> 
@@ -716,7 +718,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Retorna a string concluída à direita<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /></td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
@@ -761,7 +763,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Retorna a chave externa (texto) de um link passado como um parâmetro se os outros dois parâmetros forem iguais<br /> </td> 
-   <td> VirtualLinkStr(&lt;string&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -792,7 +794,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Partições do resultado de um query em uma tabela<br /> </td> 
+   <td> Partições do resultado de uma consulta em uma tabela<br /> </td> 
    <td> PartitionBy(&lt;valor 1&gt;)<br /> </td>  
   </tr> 
   <tr> 

@@ -3,7 +3,7 @@ title: Criar uma página de destino
 description: Saiba como configurar e publicar uma landing page no Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 25%
@@ -74,9 +74,11 @@ O inventário de **[!UICONTROL Páginas de aterrissagem]** exibe todos os itens 
 >title="Definir opções de armazenamento"
 >abstract="A seção de pré-carregamento permite indicar como localizar o registro a ser atualizado no banco de dados."
 
-<!--The main steps to create landing pages are as follows:
+<!--
+The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png){zoomable="yes"}-->
+![](assets/lp-creation-process.png){zoomable="yes"}
+-->
 
 Para criar uma landing page, siga estas etapas:
 

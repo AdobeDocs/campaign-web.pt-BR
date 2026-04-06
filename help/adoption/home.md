@@ -3,10 +3,10 @@ keywords: Campaign Classic;página inicial;tópicos populares
 description: Usuários do Campaign Standard que estão fazendo a transição para o Campaign v8, saibam como começar.
 title: Guia de adoção do Adobe Campaign
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -89,8 +89,9 @@ Entenda as diferenças de experiência entre o Adobe Campaign Standard e o Adobe
       <strong>Developer resources</strong><br/><a href="../v8/dev/datamodel.md">Campaign v8 datamodel</a> - <a href="../v8/dev/schemas.md">Schemas</a> - <a href="../v8/dev/api.md">APIs</a>
     </td>
   </tr>
-</table> -->
+</table> 
+-->
 
 ## Recursos adicionais
 
-[Descrição de produto do Adobe Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentação da interface do usuário da Web do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=pt-BR){target="_blank"} - [Documentação do console do cliente do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutoriais do console do cliente](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - [[!DNL Adobe Campaign] guia de automação](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=pt-BR){target="_blank"} - [Painel de controle do Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR){target="_blank"}
+[Descrição de produto do Adobe Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentação da interface do usuário da Web do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Documentação do console do cliente do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutoriais do console do cliente](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - [[!DNL Adobe Campaign] guia de automação](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=pt-BR){target="_blank"} - [Painel de controle do Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=pt-BR){target="_blank"}

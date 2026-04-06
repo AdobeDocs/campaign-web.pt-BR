@@ -2,7 +2,7 @@
 title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2026 da interface do Campaign Web
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 22%
@@ -19,7 +19,8 @@ _17 de fevereiro de 2026_
 
 ### Novos recursos {#26-2-features}
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Delivery scheduling compute process</strong><br/></th> 
@@ -33,9 +34,11 @@ _17 de fevereiro de 2026_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
@@ -49,7 +52,8 @@ _17 de fevereiro de 2026_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 <table>
 <thead>
@@ -89,7 +93,8 @@ _17 de fevereiro de 2026_
 ### Improvement {#26-2-improvements}
 
 * Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
+[Learn more](../content/brands-personalize.md)
+-->
 
 ## Versão de janeiro de 2026 {#26-1-release}
 

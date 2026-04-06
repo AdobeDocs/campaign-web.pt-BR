@@ -3,10 +3,10 @@ audience: end-user
 title: Criar públicos-alvo
 description: Saiba como criar públicos-alvo no Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 13%
 [!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Audience settings"
->abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."
+-->
 
 ## Sobre a criação de público-alvo
 
@@ -108,4 +109,4 @@ Se preferir não substituir os resultados do público existente, configure as at
 
 Saiba como criar e gerenciar públicos-alvo, selecionar públicos-alvo para uma entrega e definir grupos de controle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453207?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
