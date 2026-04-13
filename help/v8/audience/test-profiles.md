@@ -23,7 +23,7 @@ Os perfis de teste são usados para enviar provas e validar o conteúdo e as con
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=pt-BR){target="_blank"}.-->
 
 As etapas para enviar provas para perfis de teste estão detalhadas em [esta seção](../preview-test/test-deliveries.md#test-profiles).
 
