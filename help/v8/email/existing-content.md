@@ -56,4 +56,4 @@ Para importar um arquivo com conteúdo do HTML, siga as etapas abaixo.
 
 Saiba como criar um email carregando o HTML, torná-lo compatível com o Designer de email e convertê-lo em um modelo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447037/?captions=por_br&quality=12)
