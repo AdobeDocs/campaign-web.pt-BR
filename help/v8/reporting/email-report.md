@@ -75,7 +75,7 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** detalha o sucesso da sua en
 >title="Causas de exclusão de entrega"
 >abstract="O gráfico e a tabela **Causas de exclusão** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega."
 
-O gráfico e a tabela **[!UICONTROL Causas da exclusão]** mostram o detalhamento por regra de mensagens rejeitadas durante a preparação da entrega. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#email-error-types){_blank}.
+O gráfico e a tabela **[!UICONTROL Causas da exclusão]** mostram o detalhamento por regra de mensagens rejeitadas durante a preparação da entrega. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Captura de tela do gráfico e da tabela Causas da exclusão](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -137,7 +137,7 @@ A tabela **[!UICONTROL Estatísticas de transmissão]** contém os dados dispon�
 * **[!UICONTROL Cancelamentos de assinatura]**: Porcentagem do número de cliques em um link de cancelamento de assinatura em comparação ao número de mensagens processadas com êxito.
 +++
 
-## Não entregues {#non-deliverables-email}
+## Não entregáveis {#non-deliverables-email}
 
 ### Detalhamento de erros por tipo {#email-delivery-breakdown-type}
 
@@ -153,7 +153,7 @@ A tabela **[!UICONTROL Estatísticas de transmissão]** contém os dados dispon�
 
 A tabela e o gráfico **[!UICONTROL Detalhamento de erros por tipo]** contêm os dados disponíveis para o tipo de erro. As métricas estão detalhadas abaixo.
 
-Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=pt-BR){target="_blank"}.
+Os erros exibidos nesse relatório acionam o processo de quarentena. Para obter mais informações sobre o gerenciamento de quarentena, consulte a [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 ![Captura de tela da divisão de erros por tipo](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 

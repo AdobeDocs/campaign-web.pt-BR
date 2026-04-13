@@ -36,13 +36,13 @@ Use outros target mappings integrados em workflows e deliveries, conforme listad
 |-----------------------|-------------------------------------------------------|-------------------------|
 | Destinatários | Perfis/recipients (tabela de recipients integrada) | nms:recipient |
 | Visitantes | Visitantes cujos perfis foram coletados por meio de referência (marketing viral, por exemplo) | mns:visitor |
-| Assinaturas | Perfis inscritos em um serviço de informação, como um boletim informativo | nms:subscription |
+| Subscrições | Perfis inscritos em um serviço de informação, como um boletim informativo | nms:subscription |
 | Assinaturas do visitante | Visitantes inscritos em um serviço de informação | nms:visitorSub |
 | Operadores | Operadores do Adobe Campaign | nms:operator |
 | Arquivo externo | Entrega por meio de um arquivo contendo todas as informações necessárias | Nenhum esquema vinculado, nenhum target inserido |
 | Aplicativos de assinante | Perfis inscritos em um aplicativo | nms:appSubscriptionRcp |
 
-Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=pt-BR#new-mapping){target="_blank"}.
+Além disso, crie novos target mappings com base nas necessidades específicas. Execute esta operação somente no console do cliente. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
 
 ## Dimensões de filtro {#filtering}
 

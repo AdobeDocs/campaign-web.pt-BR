@@ -88,7 +88,7 @@ Essas métricas são baseadas na tabela Consolidated tracking (`nms:trackingStat
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
->title="Assinaturas"
+>title="Subscrições"
 >abstract="Esta métrica mostra, para o canal selecionado, a soma de todas as assinaturas de um serviço e a porcentagem de assinaturas em comparação com o número total de mensagens entregues com sucesso."
 
 Os recipients podem optar por receber comunicações por email e SMS.
@@ -105,7 +105,7 @@ O indicador **Assinaturas** mostra os seguintes KPIs para cada canal:
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="Unsubscriptions"
+>title="Cancelamentos de assinatura"
 >abstract="Essa métrica mostra, para o canal selecionado, a soma de todos os cancelamentos de assinatura de um serviço e a porcentagem de cancelamentos de assinatura em comparação ao número total de mensagens entregues com sucesso."
 
 Os recipients devem poder recusar o email e o SMS por meio de um link de cancelamento de subscrição dedicado no conteúdo do email ou respondendo PARAR a um SMS.
@@ -143,7 +143,7 @@ O indicador **Erros** mostra os seguintes KPIs para cada canal:
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
->title="Enviado"
+>title="Enviada"
 >abstract="Essa métrica mostra, para o canal de correspondência direta, a soma de todas as mensagens enviadas e a porcentagem de mensagens enviadas ao provedor, em comparação com o número total de mensagens preparadas durante a fase de preparo da entrega."
 
 Durante a fase de preparação, o arquivo de extração de correspondência direta é gerado, mas as informações relacionadas aos recipients (logs do delivery) não são atualizadas. O status de um delivery muda de Pending delivery para Sent quando o usuário do Campaign confirma o envio do delivery. Em seguida, o delivery é definido como Finished.

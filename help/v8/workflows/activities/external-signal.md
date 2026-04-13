@@ -33,7 +33,7 @@ A atividade **Sinal externo** é uma atividade **Controle de fluxo**. Ele permit
 
 >[!NOTE]
 >
->Esta página explica as etapas principais para configurar uma atividade **[!UICONTROL Sinal externo]** na interface de usuário da Web do Campaign e acioná-la a partir de outro fluxo de trabalho ou de uma chamada de API. Informações detalhadas sobre como acionar um fluxo de trabalho, práticas recomendadas e como trabalhar com APIs do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>Esta página explica as etapas principais para configurar uma atividade **[!UICONTROL Sinal externo]** na interface de usuário da Web do Campaign e acioná-la a partir de outro fluxo de trabalho ou de uma chamada de API. Informações detalhadas sobre como acionar um fluxo de trabalho, práticas recomendadas e como trabalhar com APIs do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Siga estas etapas para configurar a atividade **Sinal externo** e acionar sua execução:
 

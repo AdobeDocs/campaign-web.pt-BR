@@ -6,7 +6,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 26%
 >title="Programação de campanha"
 >abstract="Defina ou modifique a programação da campanha."
 
-Para acessar e gerenciar suas campanhas, clique no menu **[!UICONTROL Campanhas]** na navegação à esquerda. Duas guias estarão disponíveis:
+Para acessar e gerenciar suas campanhas, clique no menu **[!UICONTROL Campanhas]** na navegação à esquerda. Duas guias estão disponíveis:
 
 * A guia **Procurar** lista todas as campanhas existentes. É possível clicar em uma campanha para abrir seu painel ou criar uma nova campanha clicando no botão **Criar campanha**. Consulte esta [seção](create-campaigns.md#create-campaigns).
 

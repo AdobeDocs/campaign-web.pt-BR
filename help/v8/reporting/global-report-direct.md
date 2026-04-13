@@ -63,7 +63,7 @@ A tabela e o gráfico para **[!UICONTROL Público-alvo]** exibem dados relaciona
 
 * **[!UICONTROL Mensagem a ser entregue]**: Número total de mensagens a serem entregues após a preparação da entrega.
 
-* incluir na lista de bloqueios **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar regras, como endereço ausente, em quarentena ou em um arquivo de pesquisa.
+* **[!UICONTROL Exclusão]**: número total de endereços ignorados durante a análise ao aplicar regras, como endereço ausente, em quarentena ou em um arquivo de pesquisa.
 
 +++
 
@@ -117,7 +117,7 @@ O gráfico e a tabela de Exclusões ilustram os motivos que impediram os perfis 
 
 * **[!UICONTROL Endereço de má qualidade]**: Tipo de erro gerado quando a classificação de qualidade do endereço postal é muito baixa.
 
-* incluir na lista de bloqueios incluir na lista de bloqueios **[!UICONTROL Endereço solicitado]**: Tipo de erro gerado quando o destinatário foi solicitado quando a entrega foi realizada.
+* **[!UICONTROL Endereço solicitado]**: Tipo de erro gerado quando o destinatário foi solicitado quando a entrega foi realizada.
 
 * **[!UICONTROL Duplo]**: Tipo de erro gerado quando o destinatário foi excluído porque seus valores de chave não eram exclusivos.
 

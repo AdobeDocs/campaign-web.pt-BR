@@ -10,11 +10,11 @@ ht-degree: 13%
 
 ---
 
-# Query incremental {#incremental-query}
+# Consulta incremental {#incremental-query}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
->title="Query incremental"
+>title="Consulta incremental"
 >abstract="A atividade **Consulta incremental** é uma atividade de **Direcionamento** que permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
 
 >[!CONTEXTUALHELP]
@@ -53,7 +53,7 @@ Siga estas etapas para configurar a atividade **Consulta incremental**:
 
 1. Na seção **[!UICONTROL Público-alvo]**, escolha a **Dimensão de direcionamento** e clique em **[!UICONTROL Continuar]**.
 
-   O targeting dimension define o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o público-alvo é selecionado entre os destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions)
+   O targeting dimension define o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o target é selecionado dos destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/about-recipients.md#targeting-dimensions)
 
 1. Use o modelador de consultas para definir sua consulta, de modo semelhante a como você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 

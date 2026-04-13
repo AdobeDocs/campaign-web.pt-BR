@@ -40,11 +40,11 @@ Os públicos-alvo podem se originar de várias fontes. A coluna **[!UICONTROL Or
 
 * **[!UICONTROL Adobe Campaign]**: esses públicos-alvo foram criados na [Interface do Usuário da Web do Adobe Campaign](create-audience.md) ou no [console do cliente Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=pt-BR){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** esses públicos-alvo foram criados no Adobe Experience Platform e são integrados ao Campaign Web usando a integração Fontes e Destinos do Adobe. Saiba como configurar essa integração na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** esses públicos-alvo foram criados no Adobe Experience Platform e são integrados ao Campaign Web usando a integração Fontes e Destinos do Adobe. Saiba como configurar essa integração na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
   ➡️ [Conheça este recurso no vídeo](#video)
 
-Para obter informações adicionais sobre um público, abra-o na lista. As propriedades do público são exibidas, juntamente com o número de perfis incluídos no público. Atualize a contagem de público a qualquer momento usando o botão **[!UICONTROL Calcular]**.
+Para obter informações adicionais sobre um público, abra-o na lista. As propriedades do público são exibidas, juntamente com o número de perfis incluídos no público. Atualize o contagem de público-alvo a qualquer momento usando o botão **[!UICONTROL Calcular]**.
 
 Para visualizar o Esquema temporário de um público-alvo, clique no botão **[!UICONTROL Visualização do esquema]** na seção Propriedades.
 
@@ -60,4 +60,4 @@ Saiba como criar um destino para usar um público-alvo do Experience Platform na
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Informações detalhadas sobre como configurar a integração de Fontes e Destinos do Adobe estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+Informações detalhadas sobre como configurar a integração de Fontes e Destinos do Adobe estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
