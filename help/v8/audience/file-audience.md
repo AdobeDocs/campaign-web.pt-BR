@@ -60,7 +60,7 @@ Para direcionar perfis de um arquivo em seus emails, siga estas etapas:
 
    ![Captura de tela mostrando a visualização do mapeamento de dados na seção central](assets/select-from-file-map.png)
 
-1. Especifique a coluna que contém o endereço de email da lista suspensa **Campo de Endereço**. Incluir na lista de bloqueios Você também pode selecionar a coluna pesquisar se tiver informações no arquivo de entrada.
+1. Especifique a coluna que contém o endereço de email da lista suspensa **Campo de Endereço**. Você também pode selecionar a coluna pesquisar se tiver informações no arquivo de entrada.
 1. Ajuste as configurações de coluna e defina como formatar os dados usando as opções disponíveis.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 

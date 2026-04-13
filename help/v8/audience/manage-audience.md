@@ -44,7 +44,7 @@ Os públicos-alvo podem se originar de várias fontes. A coluna **[!UICONTROL Or
 
   ➡️ [Conheça este recurso no vídeo](#video)
 
-Para obter informações adicionais sobre um público, abra-o na lista. As propriedades do público são exibidas, juntamente com o número de perfis incluídos no público. Atualize a contagem de público a qualquer momento usando o botão **[!UICONTROL Calcular]**.
+Para obter informações adicionais sobre um público, abra-o na lista. As propriedades do público são exibidas, juntamente com o número de perfis incluídos no público. Atualize o contagem de público-alvo a qualquer momento usando o botão **[!UICONTROL Calcular]**.
 
 Para visualizar o Esquema temporário de um público-alvo, clique no botão **[!UICONTROL Visualização do esquema]** na seção Propriedades.
 

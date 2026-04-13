@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1648'
 ht-degree: 44%
 
 ---
@@ -173,10 +173,7 @@ Informações adicionais sobre como visualizar um email e enviar provas estão d
 
    ![Captura de tela mostrando a visualização de email com base em perfis selecionados](assets/preview.png){zoomable="yes"}
 
-   <!--
-Além disso, o botão **[!UICONTROL Renderizar email]** permite a visualização do email usando vários dispositivos ou provedores de email. Saiba como visualizar renderização de email
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. Para enviar provas, clique no botão **[!UICONTROL Enviar provas]** e escolha o modo que deseja usar.
 

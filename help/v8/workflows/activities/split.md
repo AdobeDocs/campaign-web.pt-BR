@@ -10,7 +10,7 @@ ht-degree: 72%
 
 ---
 
-# Divisão {#split}
+# Split {#split}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
@@ -107,7 +107,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
    * Quando a caixa não está marcada, a atividade de divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no target da primeira guia com critérios correspondentes.
    * Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos.
 
-A atividade agora está configurada. Na execução do workflow, a população segmenta nos diferentes subconjuntos na ordem em que foram adicionados à atividade.
+A atividade está configurada agora. Na execução do workflow, a população segmenta nos diferentes subconjuntos na ordem em que foram adicionados à atividade.
 
 ## Exemplo {#split-example}
 

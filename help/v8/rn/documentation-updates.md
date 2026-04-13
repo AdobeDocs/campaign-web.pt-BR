@@ -4,9 +4,8 @@ title: Atualizações da documentação do Adobe Campaign Web
 description: Atualizações da documentação do Adobe Campaign Web
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
-hidefromtoc: true
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 100%
 

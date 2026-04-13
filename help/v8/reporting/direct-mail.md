@@ -84,7 +84,7 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** fornece uma visão geral do
 >title="Causas de exclusão de entrega"
 >abstract="O gráfico **Causas de exclusão** ilustra a distribuição de mensagens rejeitadas durante a preparação para a entrega, categorizada por cada regra."
 
-O gráfico **[!UICONTROL Causas da exclusão]** fornece uma análise dos motivos da rejeição da mensagem durante a preparação da entrega. Esse detalhamento é organizado por várias regras, oferecendo uma visualização detalhada dos fatores que contribuem para a exclusão de mensagens. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=pt-BR#email-error-types){_blank}.
+O gráfico **[!UICONTROL Causas da exclusão]** fornece uma análise dos motivos da rejeição da mensagem durante a preparação da entrega. Esse detalhamento é organizado por várias regras, oferecendo uma visualização detalhada dos fatores que contribuem para a exclusão de mensagens. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Gráfico de causas de exclusão mostrando a distribuição de mensagens rejeitadas por regra.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -93,7 +93,7 @@ O gráfico **[!UICONTROL Causas da exclusão]** fornece uma análise dos motivos
 * **[!UICONTROL Endereço em quarentena]**: Tipo de erro gerado quando um endereço é colocado em quarentena.
 * **[!UICONTROL Endereço não especificado]**: Tipo de erro gerado quando um endereço não existe.
 * **[!UICONTROL Endereço de má qualidade]**: Tipo de erro gerado quando a classificação de qualidade do endereço postal é muito baixa.
-* incluir na lista de bloqueios incluir na lista de bloqueios **[!UICONTROL Endereço solicitado]**: Tipo de erro gerado quando o destinatário foi solicitado durante a entrega.
+* **[!UICONTROL Endereço solicitado]**: Tipo de erro gerado quando o destinatário foi solicitado durante a entrega.
 * **[!UICONTROL Duplo]**: Tipo de erro gerado quando o destinatário foi excluído devido a valores de chave não exclusivos.
 * **[!UICONTROL Grupo de controle]**: o endereço do destinatário faz parte do grupo de controle.
 * **[!UICONTROL Tamanho do público alvo limitado]**: o tamanho máximo de entrega foi atingido para o destinatário.

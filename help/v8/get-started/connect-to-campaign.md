@@ -3,7 +3,7 @@ title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 

@@ -20,7 +20,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="Sobre conteúdos"
->abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma landing page."
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"

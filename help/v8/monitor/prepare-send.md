@@ -131,7 +131,7 @@ Se a sua entrega estiver agendada ou não<!--TBC-->, duas ações podem ser exec
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Enviado"
+>title="Enviada"
 >abstract="Número total de mensagens processadas durante a análise de entrega."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/reports/kpis" text="Entenda os KPIs"
 

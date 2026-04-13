@@ -15,9 +15,9 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Logs de entrega"
->abstract="Os logs de entrega mostram os detalhes do envio. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques."
+>abstract="Os logs de entrega mostram os detalhes do envio. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques."
 
-Depois que a entrega estiver preparada e você clicar no botão **Enviar**, navegue até os logs de entrega para verificar os dados de avisos, erros, status, exclusões e rastreamento. Esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o público-alvo que foi excluído e o motivo, e as informações de rastreamento, como aberturas e cliques.
+Depois que a entrega estiver preparada e você clicar no botão **Enviar**, navegue até os logs de entrega para verificar os dados de avisos, erros, status, exclusões e rastreamento. Esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 
 Para visualizar os logs, acesse o painel da entrega e clique no botão **Logs**.
 
