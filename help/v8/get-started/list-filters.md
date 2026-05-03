@@ -5,7 +5,7 @@ description: Saiba como procurar e filtrar listas no Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: f5ef0f8d7c3396bdd031e5b3b7c690f90adc0e86
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ A lista mostrará as seguintes colunas:
 
 ## Classificação de dados {#sort-lists}
 
-Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo), indicando que a lista está ordenada nessa coluna. 
+Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Uma seta é exibida (para cima ou para baixo), indicando que a lista está ordenada nessa coluna.
 
 Para colunas numéricas ou de datas, a seta para **cima** indica que a lista está ordenada em ordem crescente, enquanto a seta para **baixo** indica ela está em ordem decrescente. Para strings ou colunas alfanuméricas, os valores são listados em ordem alfabética.
 

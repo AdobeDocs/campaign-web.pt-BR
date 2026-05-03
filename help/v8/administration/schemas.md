@@ -1,15 +1,15 @@
 ---
-title: Sobre schemas
+title: Sobre esquemas
 description: Saiba como trabalhar com esquemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 6%
+source-wordcount: '319'
+ht-degree: 24%
 
 ---
 
-# Sobre schemas {#schemas}
+# Sobre esquemas {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Esquemas"
->abstract="O Adobe Campaign usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Nesta tela, você pode exibir todos os esquemas existentes, acessar detalhes do esquema, configurar formulários personalizados e criar ou estender esquemas diretamente da Interface do Usuário da Web."
+>abstract="O Adobe Campaign usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Nesta tela, é possível exibir todos os esquemas, acessar detalhes do esquema, configurar formulários personalizados e criar ou estender esquemas diretamente da interface do usuário da Web."
 
 O **[!DNL Adobe Campaign]** usa esquemas baseados em XML para definir a estrutura física e lógica dos dados no aplicativo. Um esquema é um documento XML vinculado a uma tabela de banco de dados que define:
 
