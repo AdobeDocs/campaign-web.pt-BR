@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Web;página inicial;tópicos populares
-description: 'Central de ajuda do Campaign Web '
+description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '547'
+ht-degree: 100%
 
 ---
 
@@ -54,11 +54,11 @@ Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Ado
 
 >[!TAB Versão de março de 2026]
 
-A versão de março está disponível. Agora novos recursos e melhorias estão disponíveis na interface do usuário da Web do Campaign. Os destaques incluem:
+A versão de março já está disponível. Novos recursos e melhorias já estão disponíveis na interface do Campaign Web. Os destaques incluem:
 
-* **Criação de esquema (GA)** - Crie e gerencie esquemas diretamente na interface do usuário da Web do Campaign.
-* **Temas no Email Designer (LA)** - Aplique estilos e variáveis de tema reutilizáveis para manter o conteúdo de email consistente com sua marca.
-* **Melhorias no fluxo de trabalho** - As atividades **Entrega automatizada** e **Início** agora estão disponíveis e a **Ingressar** agora oferece suporte à opção OR. Agora, também é possível adicionar várias ramificações aos fluxos de trabalho.
+* **Criação de esquemas (GA)** - Crie e gerencie esquemas diretamente na interface do Campaign Web.
+* **Temas do designer de email (LA)** - Aplique estilos e variáveis de tema reutilizáveis para manter o conteúdo de email consistente com sua marca.
+* **Melhorias no fluxo de trabalho** - As atividades **Entrega automatizada** e **Iniciar** agora estão disponíveis, e a atividade **Associação** agora oferece suporte à opção OR. Agora, também é possível adicionar várias ramificações aos fluxos de trabalho.
 
 Para obter uma visão geral completa, consulte as notas de versão.
 
@@ -90,11 +90,11 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Tela de fluxo de trabalho reformulada</strong><br/>Saiba como criar workflows para organizar todos os processos e tarefas, aumentando a velocidade e escala de cada aspecto de suas campanhas de marketing.</div><br/>
+    <div><strong>Tela de fluxo de trabalho reformulada</strong><br/>Saiba como criar fluxos de trabalho para organizar todos os processos e tarefas, aumentando a velocidade e escala de cada aspecto de suas campanhas de marketing.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Conheça o Designer de email</strong><br/>Saiba como começar a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código. 
+    <div><strong>Conheça o Designer de email</strong><br/>Saiba como começar a partir de um modelo ou use o novo Designer de email do Adobe Campaign para criar emails sem precisar escrever uma única linha de código.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
@@ -116,22 +116,22 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introdução</strong><br/><a href="get-started/user-interface.md">Interface</a> – <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> – <a href="get-started/permissions.md">Acesso e permissões</a>
+      <strong>Introdução</strong><br/><a href="get-started/user-interface.md">Interface</a> - <a href="get-started/connect-to-campaign.md">Conectar ao Campaign</a> - <a href="get-started/permissions.md">Acesso e permissões</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanha</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
+      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanhas</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Pré-visualização e teste</a> 
+      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> - <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Visualizar e testar</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consulta</a>
+      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consultas</a>
     </td>
   </tr>
 </table>

@@ -3,8 +3,8 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2025 da interface do Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '3052'
+workflow-type: ht
+source-wordcount: '3136'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ _3 de novembro de 2025_
 <tbody>
 <tr>
 <td>
-<p>Agora você pode enviar várias mensagens transacionais, notificações por push e mensagens SMS em diferentes idiomas na Interface do Adobe Campaign Web. O recurso de entrega multilíngue permite escolher o idioma padrão da entrega, bem como os diferentes idiomas nos quais a entrega pode ser enviada. Você também pode visualizar essas entregas nos idiomas escolhidos. </p>
+<p>Agora você pode enviar várias mensagens transacionais, notificações por push e mensagens SMS em diferentes idiomas na Interface do Adobe Campaign Web. O recurso de entrega multilíngue permite escolher o idioma padrão da entrega, bem como os diferentes idiomas nos quais a entrega pode ser enviada. Você também pode visualizar essas entregas nos idiomas escolhidos.</p>
 <p>Observação: esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
 <p>Para obter mais informações, consulte a <a href="../msg/multilingual.md">documentação detalhada</a>.</p>
 </td>
@@ -47,7 +47,7 @@ _3 de novembro de 2025_
 <tbody>
 <tr>
 <td>
-<p>Esse recurso permite personalizar mensagens transacionais vinculando campos do banco de dados do Adobe Campaign ao conteúdo da mensagem. Você pode selecionar target mappings, colunas de enriquecimento e uma chave de reconciliação para garantir uma personalização em tempo real e precisa, mantendo os limites de desempenho.</p>
+<p>Esse recurso permite personalizar mensagens transacionais vinculando campos do banco de dados do Adobe Campaign ao conteúdo da mensagem. Você pode selecionar mapeamentos de destino, colunas de enriquecimento e uma chave de reconciliação para garantir uma personalização precisa e em tempo real, mantendo os limites de desempenho.</p>
 <p>Observação: esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura. No momento, este recurso só está disponível para emails.</p>
 <p>Para obter mais informações, consulte a <a href="../transactional-messaging/profile-enrichment.md">documentação detalhada</a>.</p>
 </td>
@@ -151,7 +151,7 @@ Os seguintes recursos estão disponíveis a partir da versão de setembro.
 <tbody>
 <tr>
 <td>
-<p>Como administrador do Campaign, agora você pode configurar novas conexões com sistemas externos à partir da interface do Campaign Web. Você também pode exibir, atualizar e gerenciar contas externas existentes.</p>
+<p>Como administrador do Campaign, agora você pode configurar novas conexões com sistemas externos por meio da interface do Campaign Web. Você também pode exibir, atualizar e gerenciar contas externas existentes.</p>
 <p>Para obter mais informações, consulte a <a href="../administration/create-external-account.md">documentação detalhada</a>.</p>
 </td>
 </tr>

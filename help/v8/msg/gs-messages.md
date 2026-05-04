@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Introdução a mensagens e entregas no Adobe Campaign Web
-description: Saiba como trabalhar com deliveries e enviar mensagens com a interface do usuário da Web do Adobe Campaign
+description: Saiba como trabalhar com entregas e enviar mensagens usando a interface do Adobe Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
 
 # Introdução a mensagens{#gs-messages}
 
-Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push, [WhatsApp](../whatsapp/get-started-whatsapp.md) e correspondência direta, e medir seu impacto usando vários relatórios dedicados.
+Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push, mensagens do [WhatsApp](../whatsapp/get-started-whatsapp.md) e correspondência direta, e avaliar o impacto por meio de diversos relatórios específicos.
 
 Essas mensagens são projetadas e enviadas através de entregas e podem ser personalizadas para cada destinatário. As entregas podem ser independentes ou incluídas em fluxos de trabalho no contexto de uma campanha de marketing. Saiba como criar e gerenciar entregas no Adobe Campaign [nesta seção](gs-deliveries.md).
 

@@ -7,8 +7,8 @@ robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
-workflow-type: tm+mt
-source-wordcount: '1525'
+workflow-type: ht
+source-wordcount: '1564'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Além disso, é possível acessar as principais páginas de ajuda do Adobe Campa
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Sobre a instância "
+>title="Sobre a instância"
 >abstract="A seção Instância fornece informações importantes sobre seu cliente de console, incluindo a versão e o número de build associado."
 
 >[!CONTEXTUALHELP]
@@ -92,7 +92,7 @@ Navegue pelos links à esquerda para acessar os recursos do Adobe Campaign Web. 
 >title="Explorer"
 >abstract="O menu **Explorer** exibe todos os componentes e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8, verifique as permissões associadas e crie pastas e subpastas neste menu."
 
-O menu **Explorer** exibe todos os recursos e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, fluxos de trabalho e campanhas. 
+O menu **Explorer** exibe todos os recursos e objetos do Campaign com a mesma hierarquia de pastas que a do console do cliente. Navegue por todos os componentes, pastas e esquemas do Campaign v8 e crie entregas, fluxos de trabalho e campanhas.
 
 Os itens exibidos no **Explorer** dependem das permissões de usuário. Também é possível adicionar pastas e subpastas caso você tenha os direitos adequados. Saiba mais sobre permissões [nesta seção](permissions.md).
 

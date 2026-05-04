@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: 'Matriz de recursos da interface web e do console do cliente do Campaign '
+title: Matriz de recursos da interface web e do console do cliente do Campaign
 description: Lista de recursos compatíveis com a interface web do Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '2134'
+workflow-type: ht
+source-wordcount: '2548'
 ht-degree: 100%
 
 ---
@@ -190,7 +190,7 @@ A configuração do Campaign e a conexão com sistemas externos são restritas a
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_approval"
 >title="Gerenciamento de aprovações"
->abstract="O Gerenciamento de aprovações só está disponível a partir do console do cliente.  "
+>abstract="O Gerenciamento de aprovações só está disponível a partir do console do cliente. "
 
 A interface web do Campaign não permite o gerenciamento de aprovações de conteúdo, entregas, fluxos de trabalho, campanhas e destinos. Esses recursos só estão disponíveis no console do cliente.
 

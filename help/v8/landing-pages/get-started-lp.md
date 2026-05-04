@@ -5,9 +5,9 @@ description: Saiba mais sobre as páginas de destino no Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -62,10 +62,10 @@ Os principais recursos das páginas de destino estão listados abaixo:
 </td>
 <td>
 <a href="lp-use-cases.md">
-<img alt="Casos de uso da página de aterrissagem e modelos integrados" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Casos de uso de páginas de destino e modelos integrados" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-use-cases.md"><strong>Casos de uso da página de aterrissagem</strong></a>
+<a href="lp-use-cases.md"><strong>Casos de uso de página de destino</strong></a>
 </div>
 <p>
 </td>
