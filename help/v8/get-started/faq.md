@@ -77,6 +77,6 @@ Atualmente, todos os recursos estarão disponíveis no console, caso não esteja
 
 +++ Existem medidas de proteção ou limitações para a nova interface da web?
 
-As medidas de proteção e limitações do Campaign v8 estão listadas [aqui](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Além disso, há medidas de proteção específicas que se aplicam aos fluxos de trabalho na interface web. É possível consultá-las [nesta página](../get-started/guardrails.md). Consulte também [Adobe Campaign Managed Cloud Services | Descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+As medidas de proteção e limitações do Campaign v8 estão listadas [aqui](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Além disso, há medidas de proteção específicas que se aplicam aos fluxos de trabalho na interface web. É possível consultá-las [nesta página](../get-started/guardrails.md). Consulte também [Adobe Campaign Managed Cloud Services | Descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 +++
