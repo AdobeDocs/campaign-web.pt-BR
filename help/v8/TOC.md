@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: Interface do Adobe Campaign Web
 user-guide-description: Documentação do produto da interface do Adobe Campaign Web.
-title: 'Documentação do Adobe Campaign Web '
+title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 + [Documentação da interface do Adobe Campaign Web](campaign-web-home.md)
 + Notas de versão {#release-notes}
    + [Novidades](rn/whats-new.md)
-   + {hide-from-toc}[Lançamento antecipado](rn/e-release-notes.md)
+   + {hide-from-toc}[Versão antecipada](rn/e-release-notes.md)
    + [Versão mais recente](rn/release-notes.md)
    + Versões anteriores {#previous-release-notes}
       + [Versões de 2026](rn/release-notes-26.md)
@@ -28,7 +28,7 @@ ht-degree: 93%
 + Introdução ao Adobe Campaign {#start}
    + [Introdução](get-started/get-started.md)
    + [Conectar ao Campaign](get-started/connect-to-campaign.md)
-   + {hide-from-toc}[Descobrir a interface](get-started/user-interface.md)
+   + {hide-from-toc}[Conheça a interface](get-started/user-interface.md)
    + [Procurar e filtrar listas](get-started/list-filters.md)
    + [Trabalhar com filtros predefinidos](get-started/predefined-filters.md)
    + [Trabalhar com pastas](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 93%
    + [Permissões](get-started/permissions.md)
    + [Console do cliente e do Campaign Web](get-started/capability-matrix.md)
    + [Do Campaign Standard ao v8](rn/acs-migration.md)
-   + {hide-from-toc}[Ajuda contextual fornecida por IA](get-started/using-ai.md)
+   + {hide-from-toc}[Ajuda contextual habilitada por IA](get-started/using-ai.md)
    + [Perguntas frequentes](get-started/faq.md)
 + Mensagens e entregas {#msg}
    + [Introdução a mensagens](msg/gs-messages.md)
@@ -51,7 +51,7 @@ ht-degree: 93%
          + [Preparar e enviar um email](monitor/prepare-send.md)
          + [Enviar usando várias ondas](advanced-settings/send-using-waves.md)
          + [Monitorar logs de entrega](monitor/delivery-logs.md)
-         + [Agendar o envio de um delivery](monitor/schedule-sending.md)
+         + [Agendar o envio de uma entrega](monitor/schedule-sending.md)
    + Notificações por push {#push}
       + [Introdução às notificações por push](push/gs-push.md)
       + [Criar uma entrega de notificação por push](push/create-push.md)
@@ -73,7 +73,7 @@ ht-degree: 93%
    + Central de atendimento {#call-center}
       + [Introdução às entregas da central de atendimento](call-center/gs-call-center.md)
       + [Criar e enviar uma entrega da central de atendimento](call-center/create-call-center.md)
-   + {hide-from-toc}[Introdução ao WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[Começar a usar o WhatsApp](whatsapp/get-started-whatsapp.md)
    + {hide-from-toc}[Criar uma entrega do WhatsApp](whatsapp/create-whatsapp.md)
    + [Canais personalizados](call-center/gs-custom-channel.md)
    + Mensagens transacionais {#transactional-messages}
@@ -106,7 +106,7 @@ ht-degree: 93%
          + [Trabalho com modelos de conteúdo](content/create-email-templates.md)
          + [Usar modelos de conteúdo de email](content/use-email-templates.md)
          + [Bloquear conteúdo em modelos de email](content/content-locking.md)
-      + Fragmentos de conteúdo  {#fragments}
+      + Fragmentos de conteúdo {#fragments}
          + [Introdução aos fragmentos de conteúdo](content/fragments.md)
          + [Criar e editar fragmentos de conteúdo](content/create-fragment.md)
          + [Usar fragmentos visuais em emails](content/use-visual-fragments.md)
@@ -143,7 +143,7 @@ ht-degree: 93%
       + Marcas {#ai-assistant}
          + [Criar e gerenciar suas marcas](content/brands.md)
          + [Personalizar sua marca](content/brands-personalize.md)
-         + [Criar e gerenciar modelos geradores](content/generative-models.md)
+         + [Criar e gerenciar modelos generativos](content/generative-models.md)
          + [Avaliar seu conteúdo](content/brands-score.md)
 + Páginas de destino {#landing-pages}
    + [Introdução às páginas de destino](landing-pages/get-started-lp.md)
@@ -206,7 +206,7 @@ ht-degree: 93%
       + [Bifurcação](workflows/activities/fork.md)
       + [Consulta incremental](workflows/activities/incremental-query.md)
       + [Código JavaScript](workflows/activities/javascript-code.md)
-      + [Associar-se](workflows/activities/join.md)
+      + [Associação](workflows/activities/join.md)
       + [Carregar arquivo](workflows/activities/load-file.md)
       + [Reconciliação](workflows/activities/reconciliation.md)
       + [Salvar público-alvo](workflows/activities/save-audience.md)
@@ -287,15 +287,15 @@ ht-degree: 93%
    + [Trabalhar com regras de negócios (tipologias)](administration/typologies.md)
    + [Gerenciar target mappings](administration/target-mappings.md)
    + Trabalhar com esquemas {#schemas}
-      + [Sobre schemas](administration/schemas.md)
-      + [Acessar e configurar schemas](administration/schemas-browse-access.md)
+      + [Sobre esquemas](administration/schemas.md)
+      + [Acessar e configurar esquemas](administration/schemas-browse-access.md)
       + [Configurar colunas da lista](administration/schemas-list-columns.md)
       + [Editar campos personalizados](administration/schemas-custom-fields.md)
-      + [Adicionar listas de coleções](administration/schemas-collection-lists.md)
+      + [Adicionar listas de coleção](administration/schemas-collection-lists.md)
       + [Criar e publicar esquemas](administration/schemas-create-publish.md)
       + [Trabalhar com formulários personalizados](administration/schemas-custom-forms.md)
    + {hide-from-toc}[Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
    + [Gerenciamento de fuso horário](administration/timezone-management.md)
    + Contas externas {#external-accounts}
       + [Criar contas externas](administration/create-external-account.md)

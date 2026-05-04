@@ -3,8 +3,8 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2024 da interface do usuário do Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '2532'
+workflow-type: ht
+source-wordcount: '2612'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de ago
 
 >[!AVAILABILITY]
 >
->Os seguintes recursos estão em Disponibilidade limitada (LA). Eles estão restritos a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+>Os seguintes recursos estão em Disponibilidade limitada (LA). Eles são restritos a clientes que migram **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
 >
 >Consulte as seguintes páginas de documentação: [Transição do Campaign Standard para o Campaign v8](../rn/acs-migration.md) e [Recursos para usuários do Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target="_blank"}.
 
@@ -122,7 +122,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de ago
 * **Captcha em páginas de destino**: agora, você pode adicionar um captcha para proteger a sua página de destino contra spam e abusos causados por bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. [Saiba mais](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 -->
 
 
@@ -247,7 +247,7 @@ Observe que esse recurso está em **Disponibilidade limitada** (LA).
 
 >[!AVAILABILITY]
 >
->Os seguintes recursos estão em Disponibilidade limitada (LA). Eles estão restritos a clientes que estão migrando **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
+>Os seguintes recursos estão em Disponibilidade limitada (LA). Eles são restritos a clientes que migram **do Adobe Campaign Standard para o Adobe Campaign v8** e não podem ser implantados em nenhum outro ambiente.
 >
 >Consulte as seguintes páginas de documentação: [Transição do Campaign Standard para o Campaign v8](../rn/acs-migration.md) e [Recursos para usuários do Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR).
 
@@ -300,6 +300,6 @@ Agora é possível usar a opção **Gerar todos os subconjuntos na mesma tabela*
 
 ### Modelador de consulta {#24-3-query-modeler}
 
-* O modelador de consultas agora está disponível para uso no Designer de email. Isso permite criar condições ao criar conteúdo condicional. 
-* Os valores predefinidos agora estão disponíveis para atributos do tipo de data ao criar uma condição personalizada. 
-* Os operadores não podem mais ser adicionados em uma nova transição no diagrama. Eles só podem ser adicionados a uma transição já existente antes de filtrar os componentes para agrupá-los. 
+* O modelador de consultas agora está disponível para uso no Designer de email. Isso permite criar condições ao criar conteúdo condicional.
+* Os valores predefinidos agora estão disponíveis para atributos do tipo de data ao criar uma condição personalizada.
+* Os operadores não podem mais ser adicionados em uma nova transição no diagrama. Eles só podem ser adicionados a uma transição já existente antes de filtrar os componentes para agrupá-los.

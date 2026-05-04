@@ -3,9 +3,9 @@ title: Perguntas frequentes
 description: Perguntas frequentes sobre a interface do Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
-workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '865'
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ Visite a página [Produtos e períodos de suporte técnico](https://helpx.adobe.
 
 +++
 
-+++ Atualmente, estou no Adobe Campaign Standard – qual é o meu caminho para acessar a nova interface?
++++ Atualmente, estou no Adobe Campaign Standard: qual caminho devo seguir para acessar a nova interface?
 
-Para acessar a nova interface, é preciso estar no Adobe Campaign v8.6. A primeira etapa é possuir a licença da SKU Avançada ou Empresarial do Managed Cloud Services. Fale com seu ponto de contato da Adobe. Se você já estiver no Managed Cloud Services avançado ou corporativo, entre em contato com o(a) gerente de transição para programar a transição para a v8. Saiba mais no [Guia de adoção](../../adoption/home.md) dedicado.
+Para acessar a nova interface, é necessário estar na versão 8.6 do Adobe Campaign. A primeira etapa é obter uma licença para SKUs no Managed Cloud Services avançado ou corporativo. Fale com seu ponto de contato da Adobe. Se você já estiver no Managed Cloud Services avançado ou corporativo, entre em contato com o(a) gerente de transição para programar a transição para a v8. Saiba mais no [Guia de adoção](../../adoption/home.md) dedicado.
 
 +++
 
@@ -77,6 +77,6 @@ Atualmente, todos os recursos estarão disponíveis no console, caso não esteja
 
 +++ Existem medidas de proteção ou limitações para a nova interface da web?
 
-As medidas de proteção e limitações do Campaign v8 estão listadas [aqui](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}.  Além disso, há medidas de proteção específicas que se aplicam aos fluxos de trabalho na interface web. É possível consultá-las [nesta página](../get-started/guardrails.md). Consulte também [Adobe Campaign Managed Cloud Services | Descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+As medidas de proteção e limitações do Campaign v8 estão listadas [aqui](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Além disso, há medidas de proteção específicas que se aplicam aos fluxos de trabalho na interface web. É possível consultá-las [nesta página](../get-started/guardrails.md). Consulte também [Adobe Campaign Managed Cloud Services | Descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 +++
