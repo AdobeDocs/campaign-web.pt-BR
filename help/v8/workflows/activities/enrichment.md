@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Enriquecimento
 description: Saiba como usar a atividade de fluxo de trabalho Enriquecimento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 37%
+source-wordcount: '2064'
+ht-degree: 36%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 37%
 >abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação."
 
 A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ele aprimora os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação.
+
+>[!NOTE]
+>
+>A atividade **Criar público-alvo** também permite que você adicione **dados adicionais**. Consulte [Usar a atividade Criar público-alvo](build-audience.md#build-audience-configuration).
 
 Os dados de enriquecimento podem vir de:
 
