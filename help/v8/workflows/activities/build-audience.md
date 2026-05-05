@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Criar público-alvo
 description: Saiba como usar a atividade de fluxo de trabalho Criar público-alvo
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 57%
+source-wordcount: '514'
+ht-degree: 53%
 
 ---
 
@@ -38,7 +38,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Público-alvo"
->abstract="Selecione o público-alvo assim como faz ao criar uma nova entrega. "
+>abstract="Selecione o público-alvo assim como faz ao criar uma nova entrega."
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
@@ -60,6 +60,7 @@ Para criar sua própria query, siga estas etapas:
 1. Escolha a **Dimensão do filtro** clicando no ícone ao lado da targeting dimension. A dimensão de filtro permite aplicar filtros ao público-alvo fazendo referência a critérios relacionados sem alterar a dimensão de direcionamento principal. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#filtering)
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
+1. Use a seção **Enrichment data** para aprimorar os dados direcionados com informações adicionais do banco de dados, por exemplo, referências de contrato ou assinaturas de boletim informativo. Esses dados são armazenados com o público na **tabela de trabalho** do fluxo de trabalho e estão disponíveis para as atividades seguintes. Você pode adicionar atributos de enriquecimento únicos, links de coleção ou expressões. Para obter etapas e exemplos detalhados, consulte [Adicionar dados de enriquecimento](enrichment.md#enrichment-add).
 
 >[!TAB Ler público-alvo]
 
@@ -67,7 +68,7 @@ Para selecionar um público-alvo existente, siga estas etapas:
 
 1. Selecione **Ler público-alvo**.
 1. Clique em **Continuar**.
-1. Selecione seu público, da mesma forma que você usa um público ao criar um novo delivery. Consulte esta [seção](../../audience/add-audience.md).
+1. Selecione o público-alvo assim como faz ao criar uma nova entrega. Consulte esta [seção](../../audience/add-audience.md).
 
 >[!ENDTABS]
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com atividades de fluxo de trabalho
 description: Saiba como usar as atividades de fluxo de trabalho
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 22%
+source-wordcount: '629'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ Todas as atividades estão detalhadas nas seções abaixo:
 
 Essas atividades são específicas para direcionamento. Eles permitem criar um ou mais públicos-alvo de direcionamento definindo um público-alvo e dividindo ou combinando esses públicos-alvo usando operações de interseção, união ou exclusão.
 
-* [Criar público-alvo](build-audience.md): defina sua população de destino. Selecione um público existente ou use o modelador de consultas para definir sua própria consulta.
+* [Criar público-alvo](build-audience.md): defina sua população de destino. Selecione um público existente ou use o modelador de consultas para definir sua própria consulta. Você também pode configurar **Dados de enriquecimento** (disponíveis para consultas).
 * [Alterar fonte de dados](change-data-source.md): altere a fonte de dados da tabela de trabalho do seu fluxo de trabalho.
 * [Alterar dimensão](change-dimension.md): altere a targeting dimension ao criar seu fluxo de trabalho.
 * [Combinar](combine.md): executar segmentação na população de entrada. Use uma união, uma interseção ou uma exclusão.
@@ -46,7 +46,7 @@ Essas atividades são específicas para manipular e enriquecer dados de populaç
 * [Transferir arquivo](transfer-file.md): receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP.
 * [Código JavaScript](javascript-code.md): execute um trecho de código JavaScript no contexto de um fluxo de trabalho.
 * [Serviços de assinatura](subscription-services.md): assine ou cancele a assinatura de vários perfis para ou de um serviço em uma única ação.
-* [Atualizar dados](update-data.md): execute atualizações em massa nos campos do banco de dados. Várias opções permitem personalizar a atualização de dados.
+* [Atualizar dados](update-data.md): execute atualizações em massa nos campos do banco de dados. Várias opções permitem personalizar a atualização dos dados.
 
 ## Atividades do canal {#channel}
 
@@ -61,7 +61,7 @@ O Adobe Campaign Web permite automatizar e executar campanhas de marketing em v�
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
->title="Finalizar atividade"
+>title="Atividade de término"
 >abstract="A atividade **Start** permite marcar graficamente o início de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional."
 
 >[!CONTEXTUALHELP]

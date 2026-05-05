@@ -3,10 +3,10 @@ audience: end-user
 title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: a84d816e87bcbe05837c502b7e3c4e8d898752fe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 17%
+source-wordcount: '363'
+ht-degree: 16%
 
 ---
 
@@ -40,8 +40,7 @@ Os workflows podem ter vários status:
 * **[!UICONTROL Rascunho]**: o fluxo de trabalho foi criado e salvo.
 * **[!UICONTROL Em andamento]**: o fluxo de trabalho está em execução atualmente.
 * **[!UICONTROL Concluído]**: a execução do fluxo de trabalho foi concluída.
-* **[!UICONTROL Pausado]**: fluxo de trabalho pausado.
-* **[!UICONTROL Erro]**: o fluxo de trabalho encontrou um erro. Abra o workflow e acesse os logs e as tarefas para identificar o erro e resolvê-lo. [Saiba como monitorar logs e tarefas](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Pausado]**: o fluxo de trabalho foi pausado manual ou automaticamente após encontrar um erro. Se o workflow foi pausado devido a um erro, abra-o e acesse os logs e tarefas para identificar o problema e resolvê-lo. [Saiba como monitorar logs e tarefas](start-monitor-workflows.md#logs-tasks)
 
 Informações detalhadas sobre como iniciar e monitorar a execução do fluxo de trabalho estão disponíveis em [esta página](start-monitor-workflows.md).
 

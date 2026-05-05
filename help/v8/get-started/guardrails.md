@@ -2,9 +2,9 @@
 title: Medidas de proteção e limitações nos fluxos de trabalho da interface do Campaign Web
 description: Medidas de proteção e limitações ao trabalhar com fluxos de trabalho na interface do Campaign Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 21c2b9735c465f582516b9b4c07126a4ba620583
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,14 @@ As atividades de fluxo de trabalho que ainda não são compatíveis com a interf
 | --- | --- |
 | ![Captura de tela que mostra as limitações de atividades no console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Captura de tela que mostra as limitações de atividades na interface web](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
-Quando uma atividade de **Consulta** ou **Enriquecimento** é configurada com dados adicionais no console, os dados de enriquecimento são levados em consideração no Campaign Web e transmitidos para a transição de saída, mas não podem ser editados.
+<!--
+When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![Captura de tela que mostra as limitações de opções no console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Captura de tela que mostra as limitações de opções na interface web](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+
+-->
 
 No console, a atividade **Enriquecimento** pode executar a reconciliação e o enriquecimento. Se você tiver ajustado as configurações de reconciliação da atividade de **Enriquecimento** no console do cliente, ela será exibida como uma atividade de **Reconciliação** na interface web do Campaign.
 
