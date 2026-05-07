@@ -2,10 +2,10 @@
 title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
+source-git-commit: ff5aee62c18b435addba10fa982b385be23931e7
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 95%
 
 ---
 
@@ -86,7 +86,7 @@ Agora você está conectado ao Campaign. Saiba como começar a usar a interface 
 
 O controle de acesso pode restringir o acesso a objetos e dados de listas principais, como entregas, destinatários ou fluxos de trabalho. Essas restrições aplicam-se também à árvore de navegação do Explorer. Além disso, você precisa de permissões para criar, excluir, duplicar e editar objetos na interface.
 
-Todas as permissões no Campaign Web são sincronizadas com as permissões do console do cliente do Campaign. Somente admins do Campaign podem definir e modificar permissões de usuário. 
+Todas as permissões no Campaign Web são sincronizadas com as permissões do console do cliente do Campaign. Somente admins do Campaign podem definir e modificar permissões de usuário.
 
 Ao navegar pela interface do Campaign Web, você pode acessar dados, objetos e recursos, dependendo das suas permissões. Por exemplo, caso não possua permissões de acesso a uma pasta, você não poderá vê-la. Suas permissões também afetam objetos e o gerenciamento de dados. Sem permissões de gravação para uma pasta específica, não é possível criar uma entrega nessa pasta, mesmo que você possa vê-la na interface.
 
@@ -94,16 +94,18 @@ Para aprender a exibir e gerenciar permissões, [consulte esta página](permissi
 
 ## Navegação superior da Adobe Experience Cloud {#top-bar}
 
-Navegue na barra superior da interface para:
+A barra superior da interface fornece acesso rápido aos principais recursos do Experience Cloud.
+
+![Captura de tela mostrando a barra de navegação superior da Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+
+Use a barra superior para:
 
 * Compartilhar feedback sobre a interface do Campaign Web.
 * Alternar entre suas organizações.
 * Alternar entre as soluções e os aplicativos da Adobe Experience Cloud.
 * Procurar ajuda na [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}.
-* Verificar as notificações do produto.
-* Editar seu perfil da Adobe e gerenciar configurações, como [atualizar seu idioma favorito](#language-pref) ou [alternar entre o tema claro e escuro](#dark-theme).
-
-![Captura de tela mostrando a barra de navegação superior da Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+* Exibir as notificações do produto.
+* Edite seu perfil do Adobe e gerencie configurações, como [atualizando seu idioma preferido](#language-pref) ou [alternando entre temas claros e escuros](#dark-theme).
 
 ## Navegadores compatíveis {#browsers}
 
