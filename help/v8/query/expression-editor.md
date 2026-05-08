@@ -3,9 +3,9 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 469165c375718dfe71fe7eac8e5711db1731843b
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2199'
 ht-degree: 68%
 
 ---
@@ -502,7 +502,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>CriptografiaAEM</strong><br /> </td> 
    <td> Cadeia de caracteres criptografada fornecida no argumento <br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -525,12 +525,12 @@ Esta tabela contém as funções restantes disponíveis.
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
   <!--
-<tr> 
+  <tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
--->
+  -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Retorna o valor 1 (só pode ser usado como parâmetro da função case)<br /> </td> 
