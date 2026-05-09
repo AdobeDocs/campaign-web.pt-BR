@@ -138,5 +138,5 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
 
 ## Recursos adicionais
 
-* [Descrição de produto do Adobe Campaign](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Descrição de produto do Adobe Campaign](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=pt-BR){target="_blank"}

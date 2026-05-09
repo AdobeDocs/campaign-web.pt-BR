@@ -52,4 +52,4 @@ Os workflows técnicos incorporados são somente leitura para todos os usuários
 
 ![Interface de fluxo de trabalho técnico no modo somente leitura, mostrando opções para pausar ou parar fluxos de trabalho.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Saiba mais sobre fluxos de trabalho técnicos em [esta seção](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Saiba mais sobre fluxos de trabalho técnicos em [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

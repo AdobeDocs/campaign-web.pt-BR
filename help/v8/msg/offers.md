@@ -41,7 +41,7 @@ Para selecionar as ofertas a serem adicionadas ao delivery, siga as etapas abaix
 
 1. Configurar quais ofertas devem ser propostas para os destinatários.
 
-   Primeiro, selecione o **[!UICONTROL Espaço de ofertas]** que corresponda ao seu ambiente de ofertas. Saiba como criar um espaço de ofertas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
+   Primeiro, selecione o **[!UICONTROL Espaço de ofertas]** que corresponda ao seu ambiente de ofertas. Saiba como criar um espaço de ofertas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=pt-BR){target="_blank"}.
 
    ![Captura de tela mostrando a seleção do espaço de ofertas no conteúdo de criação da oferta](assets/offer-create-content.png){zoomable="yes"}
 
@@ -101,7 +101,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=pt-BR){target="_blank"}.
 
 1. Salve as alterações.
 

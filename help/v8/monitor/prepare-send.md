@@ -18,7 +18,7 @@ Ao definir seu [conteúdo](../email/edit-content.md), [público-alvo](../audienc
 
 Durante a preparação do delivery, a população do target é calculada e o conteúdo da mensagem é gerado para cada perfil incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas imediatamente ou na data e hora programadas.
 
-As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
+As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=pt-BR){target="_blank"}.
 
 As principais etapas para preparar o envio estão listadas abaixo.
 
