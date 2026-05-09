@@ -3,7 +3,7 @@ audience: end-user
 title: Selecionar atributos e adicioná-los aos favoritos
 description: Saiba como trabalhar com atributos e acessar facilmente os atributos favoritos e os usados recentemente.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%

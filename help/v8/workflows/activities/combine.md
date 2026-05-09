@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de fluxo de trabalho Combinar
 description: Saiba como usar a atividade de fluxo de trabalho Combinar
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Atividade de combinar"
->abstract="A atividade **Combinar** permite executar a segmentação na população de entrada. É possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários públicos-alvo. "
+>abstract="A atividade **Combinar** permite executar a segmentação na população de entrada. É possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários públicos-alvo."
 
-A atividade **Combinar** é uma atividade **de Direcionamento**. Essa atividade permite executar a segmentação na população de entrada. É possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets. Estes são os tipos de segmentação disponíveis:
+A atividade **Combinar** é uma atividade **de Direcionamento**. Essa atividade permite executar a segmentação na população de entrada. É possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários públicos-alvo. Estes são os tipos de segmentação disponíveis:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
 * A **União** reagrupa o resultado de várias atividades em um único público-alvo.
-* A **Interseção** mantém apenas os elementos comuns aos diferentes preenchimentos de entrada na atividade.
+* A **interseção** mantém somente os elementos comuns às diferentes populações de entrada na atividade.
 * A **Exclusão** apaga elementos de uma população de acordo com determinados critérios.
 
 ## Configurar a atividade Combinar {#combine-configuration}

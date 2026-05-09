@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade do workflow Carregar arquivo
 description: Saiba como usar a atividade de workflow Carregar arquivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 36%
 
 ---

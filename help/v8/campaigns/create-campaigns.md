@@ -3,10 +3,10 @@ audience: end-user
 title: Criar campanhas com o Adobe Campaign Web
 description: Saiba como criar campanhas entre canais com o Adobe Campaign Web
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: f1fe8e08401f6ad98ab6920c9ae33fa6336c209d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 36%
+source-wordcount: '455'
+ht-degree: 40%
 
 ---
 
@@ -60,7 +60,7 @@ Você também pode exibir os relatórios dedicados clicando no botão **Relatór
 
 A campanha começa quando a data de início é atingida. Desde que a data de início não seja atingida, a campanha terá o status **[!UICONTROL Rascunho]**. Quando a data de início é atingida, ela muda para **[!UICONTROL Em andamento]**. Ao atingir a data de término, a campanha será definida como **[!UICONTROL Concluída]**.
 
-As datas de início e término são exibidas na lista de campanhas e podem ser usadas como filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
+As datas inicial e final são exibidas na lista de campanhas e podem ser usadas como um filtro. Consulte esta [seção](manage-campaigns.md#access-campaigns).
 
 >[!NOTE]
 >

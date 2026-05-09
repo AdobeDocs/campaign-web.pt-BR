@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios globais para o canal de email
 description: Saiba mais sobre relatórios globais para o canal de email
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 26%
+source-wordcount: '1689'
+ht-degree: 27%
 
 ---
 
@@ -249,7 +249,7 @@ O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-c
 >title="Os 10 links mais visitados"
 >abstract="O gráfico e a tabela **Os 10 links mais visitados** apresentam dados abrangentes sobre a interação do destinatário com cada link."
 
-O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis para o comportamento do recipient por link. As métricas estão detalhadas abaixo.
+O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis sobre o comportamento do destinatário em cada link. As métricas estão detalhadas abaixo.
 
 ![As 10 métricas de links mais visitados](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 

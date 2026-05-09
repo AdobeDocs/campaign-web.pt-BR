@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 44%
+source-wordcount: '1695'
+ht-degree: 45%
 
 ---
 
@@ -133,7 +133,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso 
 
 ## Agendar o envio {#schedule}
 
-Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais em [esta página](../workflows/activities/scheduler.md). As etapas abaixo se aplicam apenas aos deliveries independentes.
+Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais [nesta página](../workflows/activities/scheduler.md). As etapas abaixo se aplicam apenas aos deliveries independentes.
 
 1. Navegue até a seção **[!UICONTROL Agendamento]** das propriedades de entrega.
 

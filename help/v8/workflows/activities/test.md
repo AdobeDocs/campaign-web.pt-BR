@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade de workflow Test
 description: Saiba como usar a atividade de workflow de teste
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 37%

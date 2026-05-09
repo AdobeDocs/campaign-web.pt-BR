@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal push
 description: Entender os relatórios de campanha do canal push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 17%
+source-wordcount: '545'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >title="Visão geral da entrega"
 >abstract="O relatório **Visão geral da entrega** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega de notificações por push."
 
-O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de notificação por push. As métricas estão detalhadas abaixo.
+O relatório **[!UICONTROL Visão geral da entrega]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega de notificações por push. As métricas estão detalhadas abaixo.
 
 ![Métricas de resumo de entrega exibidas no relatório de Visão geral da entrega](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 >title="Estatísticas iniciais do público-alvo"
 >abstract="A tabela **Estatísticas iniciais do público-alvo** exibe dados relativos aos destinatários."
 
-A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
+A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe dados relativos aos destinatários. As métricas estão detalhadas abaixo.
 
 ![Estatísticas iniciais de público alvo exibidas no relatório](assets/campaign-reporting-push-target.png){zoomable="yes"}
 

@@ -10,9 +10,9 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalização"
->abstract="O editor de personalização permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para seu conteúdo. É possível personalizar as mensagens para cada destinatário aproveitando os dados do perfil e criar conteúdo condicional para adaptar cada mensagem ao respectivo destinatário, mostrando apenas o conteúdo relevante. "
+>abstract="O editor de personalização permite selecionar, organizar, personalizar e validar todos os dados para criar uma experiência personalizada para seu conteúdo. É possível personalizar as mensagens para cada destinatário aproveitando os dados do perfil e criar conteúdo condicional para adaptar cada mensagem ao respectivo destinatário, mostrando apenas o conteúdo relevante."
 
 Como profissional de marketing, é fundamental focar em clientes que estejam genuinamente interessados em suas ofertas e envolvê-los com um conteúdo eficaz e relevante. Dada a variedade diversificada de destinatários que você encontra, criar vários conteúdos de marketing para atrair pessoas diferentes pode ser um processo demorado e trabalhoso. É aqui que o conteúdo dinâmico se torna essencial.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Criar uma entrega de notificação por push
 description: Saiba como criar um delivery de notificação por push com o Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 28%
+source-wordcount: '779'
+ht-degree: 32%
 
 ---
 
@@ -65,7 +65,7 @@ Defina as configurações de delivery conforme detalhado abaixo:
 
 Primeiro, selecione o aplicativo e, depois, refine o público-alvo de notificação por push, conforme detalhado abaixo:
 
-1. Na seção **[!UICONTROL Público-alvo]**, selecione o aplicativo que deseja usar para esta entrega. Por padrão, sua notificação por push é enviada a todos os assinantes do aplicativo. Você pode refinar para um público-alvo específico clicando no botão **[!UICONTROL Selecionar público-alvo]**.
+1. Na seção **[!UICONTROL Público-alvo]**, selecione o aplicativo que deseja usar para esta entrega. Por padrão, sua notificação por push é enviada a todos os assinantes do aplicativo. É possível definir um público-alvo específico clicando em **[!UICONTROL Selecionar público-alvo]**.
 
    ![Captura de tela mostrando a seleção de público para entrega por push](assets/push_create_2.png){zoomable="yes"}
 
@@ -87,7 +87,7 @@ Nesta tela, você também pode [simular seu conteúdo](../preview-test/preview-t
 
 ## Agendar o envio do delivery {#schedule-push}
 
-Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais em [esta página](../workflows/activities/scheduler.md). As etapas abaixo se aplicam apenas aos deliveries independentes.
+Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais [nesta página](../workflows/activities/scheduler.md). As etapas abaixo se aplicam apenas aos deliveries independentes.
 
 Para programar uma entrega por push independente para uma data e hora específicas, siga estas etapas:
 

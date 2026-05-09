@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow de código JavaScript
 description: Saiba como usar a atividade de workflow de código do JavaScript
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '966'
 ht-degree: 32%
 
 ---

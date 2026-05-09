@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow de desduplicação
 description: Saiba como usar a atividade de workflow de desduplicação
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 41%
+source-wordcount: '582'
+ht-degree: 43%
 
 ---
 

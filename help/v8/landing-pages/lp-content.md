@@ -3,9 +3,9 @@ title: Definir conteúdo específico da página de destino
 description: Saiba como criar conteúdo específico de landing page no Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1170'
 ht-degree: 11%
 
 ---
@@ -88,7 +88,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
    * **[!UICONTROL Sim, se marcado]**.
    * **[!UICONTROL Não se marcado]**.
 
-1. Exclua e adicione quantos campos (como campos de texto, botões de opção, caixas de seleção, listas suspensas etc.) forem necessários.
+1. Exclua e adicione quantos campos (como campos de texto, botões de opção, caixas de seleção, listas suspensas etc.) conforme necessário.
 
 1. Depois que todos os campos forem adicionados ou atualizados, clique em **[!UICONTROL Call to action]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**. [Saiba como](#define-actions-on-form-submission)
 
@@ -151,7 +151,7 @@ Para enviar uma mensagem de confirmação automaticamente após o envio de uma l
 
    ![Configurações de estilo da caixa de seleção](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Expanda e edite qualquer outra seção correspondente a outros campos que você tenha adicionado (botão de opção, lista suspensa, data e hora, etc.) ao seu formulário.
+1. Expanda e edite qualquer outra seção correspondente a outros campos que você possa ter adicionado (botão de opção, lista suspensa, data e hora etc.) ao seu formulário.
 
 1. Expanda a seção **[!UICONTROL Call to action]** para modificar a aparência do botão no formulário do componente. Por exemplo, alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
 

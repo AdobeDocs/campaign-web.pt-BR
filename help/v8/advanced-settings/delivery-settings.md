@@ -4,10 +4,10 @@ title: Definir configurações de entrega
 description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3449'
-ht-degree: 43%
+source-wordcount: '3516'
+ht-degree: 44%
 
 ---
 
@@ -101,7 +101,7 @@ O campo **[!UICONTROL Importância do destinatário]** é uma fórmula usada par
 >title="Configurações do público-alvo da entrega"
 >abstract="Selecione um **target mapping** entre os disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. Também é possível definir os parâmetros de exclusão da entrega."
 
-Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes etc. [Saiba mais sobre os mapeamentos de destino](../audience/targeting-dimensions.md).
+Nesta seção, você pode selecionar uma **mapeamento de público-alvo** entre aquelas disponíveis. Os target mappings são definidos no console do Adobe Campaign v8. O target mapping é o tipo de dados que uma operação está tratando. Ele permite definir a população direcionada: recipients, beneficiários de contrato, operadores, assinantes, etc. [Saiba mais sobre os mapeamentos de público-alvo](../audience/targeting-dimensions.md).
 
 No campo **[!UICONTROL Exclusão]**, você pode optar por excluir perfis que não desejam mais ser contatados ou que estão em quarentena. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
@@ -370,7 +370,7 @@ A tabela lista os parâmetros opcionais a serem enviados com cada mensagem. As c
 >title="Parâmetros SMTP"
 >abstract="É possível incluir parâmetros SMTP adicionais na entrega de email."
 
-Você pode adicionar parâmetros SMTP adicionais ao seu delivery de email. Você pode fazer isso na guia SMTP das configurações de delivery.
+É possível incluir parâmetros SMTP adicionais na entrega de email. Você pode fazer isso na guia SMTP das configurações de delivery.
 
 ![](assets/smtp_tab.png){zoomable="yes"}
 
@@ -418,7 +418,7 @@ Os valores são codificados automaticamente se necessário.
 >title="Variáveis"
 >abstract="Você pode adicionar variáveis à entrega, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo da entrega e pelos fluxos de trabalho."
 
-Você pode adicionar variáveis à entrega, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo do delivery e pelos fluxos de trabalho. As variáveis armazenadas são usadas para definir valores que permanecem constantes em todas as mensagens no delivery. Eles também podem ser configurados em templates do delivery.
+Você pode adicionar variáveis à entrega, o que pode ser útil para rastreamento e personalização. Essas variáveis podem ser acessadas pelo conteúdo da entrega e pelos fluxos de trabalho. As variáveis armazenadas são usadas para definir valores que permanecem constantes em todas as mensagens no delivery. Eles também podem ser configurados em templates do delivery.
 
 Para adicionar uma variável, navegue até a guia **[!UICONTROL Variáveis]**, conforme mostrado abaixo.
 

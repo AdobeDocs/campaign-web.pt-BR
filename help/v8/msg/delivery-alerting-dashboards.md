@@ -3,10 +3,10 @@ audience: end-user
 title: Alerta de entrega
 description: Saiba como trabalhar com alertas de delivery.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1130'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 >title="Painéis de alertas de entrega"
 >abstract="O Alerta de entrega é um sistema de gerenciamento de alertas que permite que grupos de usuários recebam automaticamente notificações por email com informações sobre suas execuções de entrega. Os painéis de alerta de entrega permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas."
 
-Os painéis de alerta de delivery permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas. Eles podem ser acessados pelo menu **Alertas de Entrega** no painel de navegação esquerdo, na guia **Painéis**.
+Os painéis de alerta de entrega permitem especificar quem receberá alertas de email, escolher e configurar os critérios de alerta a serem usados para enviar esses alertas e acessar o histórico de todas as notificações enviadas. Eles podem ser acessados pelo menu **Alertas de Entrega** no painel de navegação esquerdo, na guia **Painéis**.
 
 ![Captura de tela mostrando a lista de painéis de alerta no menu Alerta de Entrega.](assets/alerting-dashboard-list.png)
 

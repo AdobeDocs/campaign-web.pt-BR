@@ -3,10 +3,10 @@ audience: end-user
 title: Criar um delivery de notificação por push avançado
 description: Saiba como criar uma entrega de notificação por push avançada do Android com o Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3379'
-ht-degree: 5%
+source-wordcount: '3472'
+ht-degree: 6%
 
 ---
 

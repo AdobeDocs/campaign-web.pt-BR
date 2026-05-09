@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução às campanhas
 description: Saiba como começar com as campanhas entre canais
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 25%
+source-wordcount: '1002'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ Para acessar e gerenciar suas campanhas, clique no menu **[!UICONTROL Campanhas]
 
 ## Estoque de campanhas {#inventory}
 
-A guia **[!UICONTROL Procurar]** fornece informações sobre o status atual das campanhas, as datas de início e término, a data de criação, a última vez que foram modificadas, etc. É possível personalizar as colunas exibidas clicando no ícone **Configurar coluna para um layout personalizado** localizado no canto superior direito da lista. Isso permite adicionar ou remover colunas e reordenar informações na lista de campanhas.
+A guia **[!UICONTROL Procurar]** fornece informações sobre o status atual das campanhas, as datas de início e término, a data de criação, a última vez que foram modificadas, etc. Você pode personalizar as colunas exibidas clicando no ícone **Configurar coluna para um layout personalizado** localizado no canto superior direito da lista. Isso permite adicionar ou remover colunas e reordenar informações na lista de campanhas.
 
 ### Pesquisar e filtrar o inventário {#search-and-filter}
 
@@ -35,7 +35,7 @@ Uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na
 
 ![Descrição: o painel de filtros mostra opções para filtrar campanhas por datas de início e término](assets/campaign-filter-on-dates.png)
 
-### Exibição da linha do tempo {#timeline}
+### Visualização da linha do tempo {#timeline}
 
 Por padrão, a tela da campanha mostra a **Exibição de lista** (inventário). Você pode alternar para **exibição da Linha do Tempo** a qualquer momento usando a opção de exibição. Ambas as exibições mostram as mesmas campanhas e compartilham os mesmos filtros e pesquisa: quando você altera filtros ou pesquisa em uma exibição, a outra exibição reflete a mesma seleção.
 
@@ -61,7 +61,7 @@ A visualização da Linha do tempo ajuda você a visualizar e gerenciar suas cam
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Lista de fluxos de trabalho em uma campanha"
->abstract="A guia **Fluxo de trabalho** lista todos os fluxos de trabalho vinculados à campanha atual. "
+>abstract="A guia **Fluxo de trabalho** lista todos os fluxos de trabalho vinculados à campanha atual."
 
 Na guia **Procurar** da lista de campanhas, clique em um nome de campanha para exibir seus detalhes.
 

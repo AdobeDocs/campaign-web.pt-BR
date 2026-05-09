@@ -3,10 +3,10 @@ title: Campos personalizados
 description: Saiba como configurar campos personalizados e sua visibilidade na interface.
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 27%
+source-wordcount: '1043'
+ht-degree: 28%
 
 ---
 

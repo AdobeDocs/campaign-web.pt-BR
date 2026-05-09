@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade do fluxo de trabalho Query incremental
 description: Saiba como usar a atividade de workflow Query incremental
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '717'
 ht-degree: 13%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Consulta incremental"
->abstract="A atividade **Consulta incremental** é uma atividade de **Direcionamento** que permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
+>abstract="A atividade **Consulta incremental** é uma atividade de **Direcionamento** que permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Isso permite direcionar somente elementos novos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"

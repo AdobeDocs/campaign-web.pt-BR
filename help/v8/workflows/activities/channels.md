@@ -3,9 +3,9 @@ audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
 description: Saiba como adicionar uma atividade de workflow de delivery (Email, Push, SMS, WhatsApp, Correspondência direta)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '995'
 ht-degree: 40%
 
 ---

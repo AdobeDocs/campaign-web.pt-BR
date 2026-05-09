@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Subscription services
 description: Saiba como usar a atividade de workflow de serviços de assinatura
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
@@ -66,9 +66,9 @@ Siga estas etapas para configurar a atividade **Serviços de assinatura**:
 
 1. Para notificar os destinatários que a assinatura do serviço selecionado foi realizada ou cancelada, ative a opção **[!UICONTROL Enviar mensagem de confirmação]**. O conteúdo dessa notificação é definido em um template do delivery associado ao serviço de informação.
 
-1. Se você estiver usando dados de uma transição de entrada, uma seção de **[!UICONTROL Informações adicionais]** será exibida, permitindo especificar os dados e a origem da assinatura para cada registro. Você pode deixar essa seção vazia, nesse caso, nenhuma data ou origem será definida ao executar o workflow.
+1. Se você estiver usando dados de uma transição de entrada, uma seção de **[!UICONTROL Informações adicionais]** será exibida, permitindo especificar os dados e a origem da assinatura para cada registro. Você pode deixar essa seção vazia; nesse caso, nenhuma data ou origem será definida ao executar o fluxo de trabalho.
 
-   * Se os dados de entrada contiverem uma coluna indicando a data de assinatura do perfil para o serviço, você poderá selecioná-la no campo **[!UICONTROL Data]**.
+   * Se os dados de entrada tiverem uma coluna indicando a data de assinatura do perfil no serviço, será possível selecioná-la no campo **[!UICONTROL Data]**.
 
    * No campo **[!UICONTROL Caminho de origem]**, defina a origem da assinatura. É possível defini-la como um dos campos dos dados de entrada ou como um valor constante de sua escolha marcando a opção **[!UICONTROL Definir uma constante como origem]**.
 

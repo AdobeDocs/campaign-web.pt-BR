@@ -2,10 +2,10 @@
 title: Dimensões de filtragem e direcionamento
 description: Saiba mais sobre direcionamento e dimensões de filtragem na interface do usuário da Web do Adobe Campaign
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 18%
+source-wordcount: '587'
+ht-degree: 15%
 
 ---
 
@@ -46,7 +46,7 @@ Além disso, crie novos target mappings com base nas necessidades específicas. 
 
 ## Dimensões de filtro {#filtering}
 
-A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes, etc. A dimensão de filtro permite aplicar filtros a essa população fazendo referência a dados relacionados sem alterar o targeting dimension principal. Por exemplo, você pode selecionar o público com base em critérios específicos, como titulares de contratos ou assinantes de boletins informativos.
+O targeting dimension permite definir o público alvo da operação: recipients, beneficiários de contrato, operadores, assinantes etc. A dimensão de filtro permite aplicar filtros a essa população fazendo referência a dados relacionados sem alterar o targeting dimension principal. Por exemplo, você pode selecionar o público com base em critérios específicos, como titulares de contratos ou assinantes de boletins informativos.
 
 As dimensões de filtro estão disponíveis somente na atividade **Compilar Público-alvo**.
 

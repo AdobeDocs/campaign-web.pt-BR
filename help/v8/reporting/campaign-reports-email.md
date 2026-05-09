@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal de email
 description: Saiba mais sobre os relatórios de campanha do canal de email
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 22%
+source-wordcount: '1707'
+ht-degree: 25%
 
 ---
 
@@ -48,7 +48,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 >title="Estatísticas iniciais do público-alvo"
 >abstract="A tabela Estatísticas iniciais do público-alvo exibe os dados relativos aos destinatários."
 
-A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
+A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe dados relativos aos destinatários. As métricas estão detalhadas abaixo.
 
 ![Captura de tela da tabela Estatísticas iniciais de público-alvo de destino](assets/campaign_report_email_2.png){zoomable="yes"}
 
@@ -234,7 +234,7 @@ A tabela **[!UICONTROL Taxa de abertura e de click-through]** exibe os dados rel
 >title="Fluxos de clique e URLs"
 >abstract="O relatório **Fluxos de clique e URLs** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre os URLs mais clicados durante uma entrega."
 
-O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre as URLs com mais cliques durante uma entrega. As métricas estão detalhadas abaixo.
+O relatório **[!UICONTROL Fluxos de clique e URLs]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre os URLs mais clicados durante uma entrega. As métricas estão detalhadas abaixo.
 
 ![Captura de tela do relatório de fluxos de clique e URLs](assets/campaign_report_email_9.png){zoomable="yes"}
 
@@ -257,7 +257,7 @@ O relatório **[!UICONTROL URLs and click streams]** fornece KPIs (indicadores-c
 >title="Os 10 links mais visitados"
 >abstract="O gráfico e a tabela **Os 10 links mais visitados** contêm os dados disponíveis relativos ao comportamento do destinatário em cada link."
 
-O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis para o comportamento do recipient por link. As métricas estão detalhadas abaixo.
+O gráfico e a tabela **[!UICONTROL Os 10 links mais visitados]** contêm os dados disponíveis sobre o comportamento do destinatário em cada link. As métricas estão detalhadas abaixo.
 
 ![Captura de tela do gráfico dos 10 links mais visitados](assets/campaign_report_email_10.png){zoomable="yes"}
 

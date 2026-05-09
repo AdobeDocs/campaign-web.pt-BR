@@ -3,10 +3,10 @@ audience: end-user
 title: Trabalhar com regras de negócios (tipologias)
 description: Saiba como trabalhar com tipologias e regras de tipologia para controlar, filtrar e monitorar o envio de deliveries.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 28%
+source-wordcount: '1500'
+ht-degree: 29%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="Filtragem"
->abstract=" Dois tipos de regras de tipologia estão disponíveis: as regras de <br/><br/>**controle** que garantem a qualidade e a validade da mensagem antes do envio, como, por exemplo: exibição de caracteres, comprimento de SMS, formato de endereço ou redução de URL. As regras de <br/><br/>**filtragem** que excluem segmentos do público-alvo com base em critérios específicos, como idade, local, país ou números de telefone. "
+>abstract=" Dois tipos de regras de tipologia estão disponíveis: as regras de <br/><br/>**controle** que garantem a qualidade e a validade da mensagem antes do envio, como, por exemplo: exibição de caracteres, comprimento de SMS, formato de endereço ou redução de URL. As regras de <br/><br/>**filtragem** que excluem segmentos do público-alvo com base em critérios específicos, como idade, local, país ou números de telefone."
 
 ## Sobre tipologias
 
