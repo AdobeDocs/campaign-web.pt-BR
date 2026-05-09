@@ -112,4 +112,4 @@ O perfil de teste que você acabou de criar está pronto para ser usado para env
 
 Saiba como criar e gerenciar perfis de teste usando a interface da Web do Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442900?captions=por_br&quality=12)
