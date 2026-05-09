@@ -3,9 +3,9 @@ audience: end-user
 title: Criar emails usando o Designer de email
 description: Saiba como criar o conteúdo de um email do zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 49%
 
 ---
@@ -90,7 +90,7 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
    Clique na guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que serão rastreadas. Modifique o **[!UICONTROL Tipo de Acompanhamento]** ou **[!UICONTROL Rótulo]** e adicione **[!UICONTROL Categorias]**, se necessário.
 
-[Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
+   [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
 
    ![Captura de tela mostrando a guia de links no Designer de email.](assets/email_designer-links.png){zoomable="yes"}
 
@@ -112,4 +112,4 @@ Para começar a criar o conteúdo de email, siga as etapas abaixo.
 
 Saiba como navegar no Designer de email. Saiba como estruturar e projetar um email do zero, personalizar e testar seu email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453570/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

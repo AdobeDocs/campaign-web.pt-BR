@@ -3,10 +3,10 @@ audience: end-user
 title: Usar componentes de conteúdo do Designer de email
 description: Saiba como usar componentes de conteúdo em seus emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 35%
+source-wordcount: '1402'
+ht-degree: 34%
 
 ---
 
@@ -160,7 +160,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 
 1. Clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos. Você também pode optar por **[!UICONTROL Importar sua mídia]**.
 
-   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=pt-BR).
+   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    ![Captura de tela mostrando a opção de navegação para componentes de imagem no Designer de Email.](assets/email_designer_28.png){zoomable="yes"}
 

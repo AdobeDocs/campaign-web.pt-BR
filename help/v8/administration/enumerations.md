@@ -2,10 +2,10 @@
 title: Gerenciar enumerações
 description: Saiba como trabalhar com enumerações
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 26%
+source-wordcount: '646'
+ht-degree: 29%
 
 ---
 
@@ -47,7 +47,7 @@ Para criar uma lista discriminada, siga estas etapas:
 1. Selecione a enumeração **[!UICONTROL Type]**:
 
    * **[!UICONTROL Enumerações]** fechadas têm uma lista fixa de valores, que só podem ser modificados no menu **[!UICONTROL Enumerations]**.
-   * As enumerações **[!UICONTROL Abertas]** permitem que os usuários adicionem novos valores diretamente nos campos com base nessa enumeração.
+   * As enumerações **[!UICONTROL abertas]** permitem que os usuários adicionem novos valores diretamente nos campos com base nessa lista discriminada.
    * Enumerações **[!UICONTROL System]** estão associadas a campos do sistema.
    * As enumerações de **[!UICONTROL emoticon]** são usadas para atualizar a lista de emoticons.
 

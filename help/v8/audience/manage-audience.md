@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução aos públicos-alvo
 description: Saiba como trabalhar com públicos no Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 25%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 
@@ -40,7 +40,7 @@ Os públicos-alvo podem se originar de várias fontes. A coluna **[!UICONTROL Or
 
 * **[!UICONTROL Adobe Campaign]**: esses públicos-alvo foram criados na [Interface do Usuário da Web do Adobe Campaign](create-audience.md) ou no [console do cliente Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=pt-BR){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** esses públicos-alvo foram criados no Adobe Experience Platform e são integrados ao Campaign Web usando a integração Fontes e Destinos do Adobe. Saiba como configurar essa integração na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** esses públicos-alvo foram criados no Adobe Experience Platform e são integrados ao Campaign Web usando a integração Fontes e Destinos do Adobe. Saiba como configurar essa integração na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
   ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -60,4 +60,4 @@ Saiba como criar um destino para usar um público-alvo do Experience Platform na
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Informações detalhadas sobre como configurar a integração de Fontes e Destinos do Adobe estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+Informações detalhadas sobre como configurar a integração de Fontes e Destinos do Adobe estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.

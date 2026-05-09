@@ -2,9 +2,9 @@
 title: 'Configurar opções do  [!DNL Campaign] '
 description: Saiba como configurar as opções do Campaign e criar suas próprias opções personalizadas.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '447'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Opções disponíveis no menu **[!UICONTROL Administração]** / **[!UICONTROL O
 [Lista de opções exibida no menu Administração/Opções]
 
 >[!NOTE]
->Embora o local do menu de opções seja diferente entre o console do Adobe Campaign e a interface do usuário da Web, a lista é idêntica e funciona como um espelho. Para obter mais detalhes sobre as opções disponíveis, consulte a lista de opções na [documentação do Campaign v7](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Embora o local do menu de opções seja diferente entre o console do Adobe Campaign e a interface do usuário da Web, a lista é idêntica e funciona como um espelho. Para obter mais detalhes sobre as opções disponíveis, consulte a lista de opções na [documentação do Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 Na lista de opções, é possível:
 

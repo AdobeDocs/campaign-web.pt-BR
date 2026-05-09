@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar seu primeiro email
 description: Saiba como enviar seu primeiro email com a interface da Web do Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 44%
+source-wordcount: '1695'
+ht-degree: 45%
 
 ---
 
@@ -89,7 +89,7 @@ Instruções adicionais sobre como trabalhar com públicos-alvo estão disponív
 
    >[!NOTE]
    >
-   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=pt-BR){target="_blank"}.
+   >Os públicos disponíveis na lista são originários da instância do Campaign v8 ou da Adobe Experience Platform se a integração Destino/Source tiver sido configurada na instância. Essa integração permite enviar segmentos do Experience Platform para o Adobe Campaign e enviar a entrega do Campaign e os logs de rastreamento para o Adobe Experience Platform. Saiba como trabalhar com o Campaign e o Adobe Experience Platform na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Depois que o público-alvo é selecionado, você pode refinar o público-alvo aplicando regras adicionais.
 
@@ -133,7 +133,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo. Nesse caso 
 
 ## Agendar o envio {#schedule}
 
-Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais em [esta página](../workflows/activities/scheduler.md). As etapas abaixo se aplicam apenas aos deliveries independentes.
+Quando uma entrega é enviada no contexto de um fluxo de trabalho, você deve usar a atividade **Scheduler**. Saiba mais [nesta página](../workflows/activities/scheduler.md). As etapas abaixo se aplicam apenas aos deliveries independentes.
 
 1. Navegue até a seção **[!UICONTROL Agendamento]** das propriedades de entrega.
 
@@ -254,4 +254,4 @@ Após revisar e testar seu email, você pode iniciar sua preparação e envio.
 
 Saiba como criar uma entrega por email do zero, definir o público-alvo, criar o conteúdo, simular a pré-visualização e enviar uma prova.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454010/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

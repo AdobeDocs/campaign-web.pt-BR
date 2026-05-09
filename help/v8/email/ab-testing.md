@@ -3,10 +3,10 @@ audience: end-user
 title: Criar experimentos de conteúdo
 description: Saiba como criar experimentos de conteúdo no Adobe Campaign Web
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 3%
+source-wordcount: '1170'
+ht-degree: 8%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
 >title="Experimentos de conteúdo"
->abstract="Os experimentos de conteúdo permitem definir várias variantes de delivery de teste A/B para medir qual tem melhor desempenho para o público-alvo. Você pode variar o conteúdo do delivery, o assunto ou o remetente para testar diferentes versões e determinar qual variante produz os melhores resultados."
+>abstract="Os experimentos de conteúdo permitem definir várias variantes de delivery de teste A/B para medir qual tem melhor desempenho para o público-alvo. Você pode variar o conteúdo da entrega, o assunto ou o remetente para testar diferentes versões e determinar qual variante produz os melhores resultados."
 
 ## Sobre experimentos de conteúdo {#about-content-experiment}
 
-Os experimentos de conteúdo na Adobe Campaign Web permitem definir várias variantes de delivery de teste A/B para medir qual tem o melhor desempenho para o público-alvo. Você pode variar o conteúdo do delivery, o assunto ou o remetente para testar diferentes versões e determinar qual variante produz os melhores resultados.
+Os experimentos de conteúdo no Adobe Campaign Web permitem definir diversas variantes de entrega para testes A/B, a fim de avaliar qual delas apresenta melhor desempenho para o seu público-alvo. Você pode variar o conteúdo da entrega, o assunto ou o remetente para testar diferentes versões e determinar qual variante produz os melhores resultados.
 
 Você pode realizar testes A/B em vários elementos de email, como:
 

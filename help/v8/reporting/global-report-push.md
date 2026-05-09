@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios globais para o canal de push
 description: Entender os relatórios globais do canal de push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 23%
+source-wordcount: '624'
+ht-degree: 22%
 
 ---
 

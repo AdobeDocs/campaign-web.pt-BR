@@ -3,9 +3,9 @@ audience: end-user
 title: Importar o conteúdo do email
 description: Saiba como importar conteúdo de email
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 29%
 
 ---
@@ -56,4 +56,4 @@ Para importar um arquivo com conteúdo do HTML, siga as etapas abaixo.
 
 Saiba como criar um email carregando o HTML, torná-lo compatível com o Designer de email e convertê-lo em um modelo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447037/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

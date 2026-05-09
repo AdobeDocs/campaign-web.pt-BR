@@ -3,9 +3,9 @@ audience: end-user
 title: Usar a atividade de workflow do Scheduler
 description: Saiba como usar a atividade de workflow do Scheduler
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '510'
 ht-degree: 27%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 27%
 >title="Atividade scheduler"
 >abstract="A atividade **Scheduler** permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
 
-A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho.
+A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ela permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho.
 
 ## Práticas recomendadas {#scheduler-best-practices}
 

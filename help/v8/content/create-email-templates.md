@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 13%
+source-wordcount: '1096'
+ht-degree: 14%
 
 ---
 
@@ -104,7 +104,7 @@ Para criar um novo modelo de conteúdo no painel de modelos de conteúdo, siga e
 
    * [Crie o conteúdo do zero](../email/create-email-content.md) por meio da interface do Designer de Email.
    * [Codifique ou copie e cole o HTML bruto](../email/code-content.md) diretamente no Designer de email.
-   * [Importe conteúdo existente do HTML](../email/existing-content.md) de um arquivo ou de uma pasta .zip.
+   * [Importar conteúdo HTML já existente](../email/existing-content.md) de um arquivo ou de uma pasta ZIP.
    * Use conteúdo existente de uma lista de modelos incorporados ou personalizados. As etapas para usar um modelo de conteúdo em um email estão descritas em [esta seção](use-email-templates.md).
 
    ![Opções de email do Designer para criar modelos](assets/email_designer-templates.png){zoomable="yes"}

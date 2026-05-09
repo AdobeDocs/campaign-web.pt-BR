@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorar logs da entrega
 description: Saiba como monitorar logs da entrega
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 55%
+source-wordcount: '429'
+ht-degree: 58%
 
 ---
 
@@ -38,15 +38,15 @@ Todas as etapas de validação, avisos e erros são listados. Os ícones colorid
 
 * O ícone cinza indica uma mensagem informativa.
 * O ícone amarelo indica um erro de processamento não crítico.
-* O ícone vermelho indica um erro crítico que impede o envio do delivery. Erros críticos devem ser corrigidos para que o delivery seja enviado.
+* O ícone vermelho indica um erro crítico que impede o envio da entrega. Erros críticos devem ser corrigidos para que o delivery seja enviado.
 
-Guia Logs ![&#x200B; mostrando etapas de validação, avisos e erros com ícones coloridos indicando tipos de mensagem.](assets/logs.png){zoomable="yes"}
+Guia Logs ![ mostrando etapas de validação, avisos e erros com ícones coloridos indicando tipos de mensagem.](assets/logs.png){zoomable="yes"}
 
 ## Entregas {#deliveries-tab}
 
 A guia **Logs de envio** contém o histórico de todas as ocorrências da entrega. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status da entrega para cada destinatário.
 
-Guia ![&#x200B; Entregas mostrando um histórico das mensagens enviadas e seus status.](assets/logs2.png){zoomable="yes"}
+Guia ![ Entregas mostrando um histórico das mensagens enviadas e seus status.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusões {#exclusion-tab}
 

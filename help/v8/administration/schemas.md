@@ -2,10 +2,10 @@
 title: Sobre esquemas
 description: Saiba como trabalhar com esquemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 24%
+ht-degree: 32%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Criação de esquema"
->abstract="Agora você pode criar e gerenciar esquemas diretamente da interface do usuário da Web do Campaign. Você pode criar novas tabelas, estender esquemas existentes e criar formulários personalizados."
+>abstract="Agora você pode criar e gerenciar esquemas diretamente da interface do Campaign Web. Você pode criar novas tabelas, estender esquemas existentes e criar formulários personalizados."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]

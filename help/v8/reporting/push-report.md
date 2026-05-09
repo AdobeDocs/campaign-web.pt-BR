@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega por push
 description: Saiba como acessar e usar relatórios do delivery por push
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 32%
+source-wordcount: '579'
+ht-degree: 39%
 
 ---
 
@@ -85,7 +85,7 @@ O relatório **Estatísticas gerais** apresenta dados para as notificações por
 >title="Exclusões de push"
 >abstract="O gráfico e a tabela **Exclusões** exibem os vários motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem."
 
-O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que impediram os perfis de usuário, que foram excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os vários motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 ![Esta captura de tela mostra o gráfico e a tabela de Exclusões, que mostram os motivos que impedem que perfis de usuários excluídos recebam mensagens.](assets/reporting_push_6.png){zoomable="yes"}
 

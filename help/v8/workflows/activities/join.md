@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de workflow Ingressar
 description: Saiba como usar a atividade de workflow Ingressar
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 20%
+source-wordcount: '489'
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Várias ramificações de fluxo de trabalho e Atividade de junção"
+>title="Várias ramificações de fluxo de trabalho e atividade Associação"
 >abstract="Agora há suporte para várias ramificações. Em vez de usar uma bifurcação, clique em Adicionar ramificação na barra de ferramentas. A atividade AND-join também foi aprimorada. Agora é uma atividade Join genérica que permite escolher entre as opções de join AND e OR."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 

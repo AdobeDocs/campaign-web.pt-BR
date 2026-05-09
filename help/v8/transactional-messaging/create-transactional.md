@@ -3,9 +3,9 @@ audience: end-user
 title: Criar mensagens transacionais
 description: Saiba como criar uma mensagem transacional na interface da Web do Campaign
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 18%
 
 ---
@@ -16,7 +16,7 @@ Em mensagens transacionais, um evento aciona o envio de uma mensagem personaliza
 
 ## Criar um modelo de mensagem transacional {#transactional-template}
 
-Na interface do usuário da Web do Campaign, a primeira etapa na configuração de mensagens transacionais é a criação do template ou a criação direta da mensagem. Isso é diferente da [configuração de mensagens transacionais no console do cliente](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/real-time/transactional).
+Na interface do usuário da Web do Campaign, a primeira etapa na configuração de mensagens transacionais é a criação do template ou a criação direta da mensagem. Isso é diferente da [configuração de mensagens transacionais no console do cliente](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Um template de mensagem transacional pode ser usado para pré-visualizar o conteúdo de delivery recebido pelo perfil antes que ele atinja o público final. Por exemplo, um administrador pode definir e configurar os templates, deixando-os prontos para uso pelos usuários de marketing.
 

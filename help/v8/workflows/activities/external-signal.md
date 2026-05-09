@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de sinal externo
 description: Saiba como usar a atividade de workflow de sinal externo
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 10%
+source-wordcount: '411'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,7 @@ A atividade **Sinal externo** é uma atividade **Controle de fluxo**. Ele permit
 
 >[!NOTE]
 >
->Esta página explica as etapas principais para configurar uma atividade **[!UICONTROL Sinal externo]** na interface de usuário da Web do Campaign e acioná-la a partir de outro fluxo de trabalho ou de uma chamada de API. Informações detalhadas sobre como acionar um fluxo de trabalho, práticas recomendadas e como trabalhar com APIs do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>Esta página explica as etapas principais para configurar uma atividade **[!UICONTROL Sinal externo]** na interface de usuário da Web do Campaign e acioná-la a partir de outro fluxo de trabalho ou de uma chamada de API. Informações detalhadas sobre como acionar um fluxo de trabalho, práticas recomendadas e como trabalhar com APIs do Campaign estão disponíveis na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Siga estas etapas para configurar a atividade **Sinal externo** e acionar sua execução:
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Relatórios de entrega de email
 description: Saiba como acessar e usar relatórios do delivery de email
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2448'
+source-wordcount: '2481'
 ht-degree: 39%
 
 ---
@@ -75,7 +75,7 @@ O gráfico **[!UICONTROL Estatísticas de entrega]** detalha o sucesso da sua en
 >title="Causas de exclusão de entrega"
 >abstract="O gráfico e a tabela **Causas de exclusão** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega."
 
-O gráfico e a tabela **[!UICONTROL Causas da exclusão]** mostram o detalhamento por regra de mensagens rejeitadas durante a preparação da entrega. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+O gráfico e a tabela **[!UICONTROL Causas de exclusão]** mostram o detalhamento por regra das mensagens rejeitadas durante a preparação da entrega. As regras de exclusão são detalhadas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Captura de tela do gráfico e da tabela Causas da exclusão](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 

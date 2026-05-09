@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução ao Assistente de IA
 description: Introdução ao Assistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 21%
+source-wordcount: '887'
+ht-degree: 24%
 
 ---
 
@@ -107,7 +107,7 @@ As diretrizes gerais para o uso do Assistente de IA no Adobe Campaign Web para g
 * Use [modelos de email integrados](../content/create-email-templates.md), modelos específicos da marca ou modelos personalizados para criar conteúdo de email usando o Assistente de IA. São recomendados modelos de e-mail com até 8 a 10 imagens.
 * Relate quaisquer saídas problemáticas usando os ícones de miniatura, miniatura ou sinalizador ao selecionar variantes.
 * O uso do AI Assistant está sujeito às Diretrizes de usuário da IA gerativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Como parte do compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica o Content Credentials quando o conteúdo ou um projeto que inclui um ativo gerado pela Firefly é baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html).
+* Como parte do compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica o Content Credentials quando o conteúdo ou um projeto que inclui um ativo gerado pela Firefly é baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 As seguintes limitações se aplicam ao Assistente de IA no Adobe Campaign Web:
 

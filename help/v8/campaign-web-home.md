@@ -3,8 +3,8 @@ keywords: Campaign Web;página inicial;tópicos populares
 description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 100%
 
@@ -138,5 +138,5 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
 
 ## Recursos adicionais
 
-* [Descrição de produto do Adobe Campaign](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Descrição de produto do Adobe Campaign](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=pt-BR){target="_blank"}

@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '986'
 ht-degree: 48%
 
 ---
@@ -36,7 +36,7 @@ Para criar uma entrega independente, siga estas etapas:
 
    ![Captura de tela mostrando o botão Criar Entrega no menu Entregas](assets/create-a-delivery.png){zoomable="yes"}
 
-1. Escolha um canal para a entrega. 
+1. Escolha um canal para a entrega.
 1. Defina o público do delivery para o target principal e o grupo de controle. [Saiba mais sobre públicos](../audience/about-recipients.md).
 
    ![Captura de tela mostrando a interface de seleção de público](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de entrega por SMS
 description: Saiba como acessar e usar relatórios do delivery de sms
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 32%
+source-wordcount: '620'
+ht-degree: 31%
 
 ---
 
@@ -98,7 +98,7 @@ O gráfico e a tabela **[!UICONTROL Exclusões]** exibem os motivos que impedira
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="Taxa de transferência de entrega de SMS"
->abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência da entrega em um período especificado.  A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
+>abstract="O relatório **Taxa de transferência de entrega** apresenta informações detalhadas sobre a taxa de transferência da entrega em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora."
 
 Este relatório fornece informações detalhadas sobre a taxa de transferência do delivery em um período especificado. A principal métrica usada para medir a velocidade de entrega de mensagens é o número de mensagens enviadas por hora.
 

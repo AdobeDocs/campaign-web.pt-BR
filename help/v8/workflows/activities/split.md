@@ -3,10 +3,10 @@ audience: end-user
 title: Utilização da atividade de fluxo de trabalho Divisão
 description: Saiba como usar a atividade de fluxo de trabalho Divisão
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 72%
+source-wordcount: '1076'
+ht-degree: 74%
 
 ---
 
@@ -82,7 +82,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
    1. Abra o subconjunto para exibir suas propriedades.
 
-   1. Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o modelador de consultas. Por exemplo, inclua perfis da população recebida cujo endereço de email exista no banco de dados. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md).
+   1. Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o modelador de consultas. Por exemplo, inclua perfis da população recebida cujo endereço de email já exista no banco de dados. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md).
 
    1. Para limitar o número de perfis selecionados pelo subconjunto, ative a opção **[!UICONTROL Habilitar limite]**, e especifique o número ou as porcentagens da população a serem incluídas.
 
@@ -104,7 +104,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
 1. A opção **[!UICONTROL Enable overlapping of output populations]** permite gerenciar populações pertencentes a vários subconjuntos:
 
-   * Quando a caixa não está marcada, a atividade de divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no target da primeira guia com critérios correspondentes.
+   * Quando a caixa não está marcada, a atividade de divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes.
    * Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos.
 
 A atividade está configurada agora. Na execução do workflow, a população segmenta nos diferentes subconjuntos na ordem em que foram adicionados à atividade.

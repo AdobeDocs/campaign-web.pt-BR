@@ -3,10 +3,10 @@ audience: end-user
 title: Relatórios de campanha para o canal SMS
 description: Entender os relatórios de campanha do canal SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 17%
+source-wordcount: '532'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ Cada relatório de campanha é dividido em widgets diferentes detalhando o suces
 >title="Visão geral da entrega"
 >abstract="O relatório **Visão geral da entrega** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega por SMS."
 
-O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-chave de desempenho) que fornecem informações detalhadas sobre como seus visitantes se envolvem com a entrega de SMS. As métricas estão detalhadas abaixo.
+O relatório **[!UICONTROL Visão geral da entrega]** fornece indicadores principais de desempenho (KPIs) com informações detalhadas sobre o engajamento de visitantes com a entrega por SMS. As métricas estão detalhadas abaixo.
 
 ![Relatório de visão geral da entrega mostrando métricas de SMS](assets/campaign_report_sms_1.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ O relatório **[!UICONTROL Visão geral da entrega]** fornece KPIs (indicadores-
 >title="Estatísticas iniciais do público-alvo"
 >abstract="A tabela **Estatísticas iniciais do público-alvo** exibe dados relativos aos destinatários."
 
-A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe os dados relativos aos seus destinatários. As métricas estão detalhadas abaixo.
+A tabela **[!UICONTROL Estatísticas iniciais do público-alvo]** exibe dados relativos aos destinatários. As métricas estão detalhadas abaixo.
 
 ![Tabela inicial de estatísticas de público-alvo de destino mostrando os dados do destinatário](assets/campaign_report_sms_2.png){zoomable="yes"}
 

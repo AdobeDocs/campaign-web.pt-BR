@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: modo escuro, email, cor, editor
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 10%
 
 ---
@@ -63,7 +63,7 @@ Se você definir configurações personalizadas de modo escuro ou não no Email 
 
 ### Clientes que aplicam seu próprio modo escuro {#default-support}
 
-Alguns clientes de email aplicam sistematicamente seu próprio modo escuro padrão para todos os emails recebidos. Cores, planos de fundo, imagens etc. são automaticamente ajustadas com as configurações do modo escuro específicas do cliente de email, o que significa que nenhuma modificação externa é possível.
+Alguns clientes de email aplicam sistematicamente seu próprio modo escuro padrão para todos os emails recebidos. Cores, planos de fundo, imagens etc. são ajustados automaticamente com as configurações de modo escuro específicas do cliente de email, o que significa que nenhuma modificação externa é possível.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
