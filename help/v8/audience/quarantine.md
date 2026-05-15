@@ -3,10 +3,13 @@ audience: end-user
 title: Sobre a quarentena
 description: Entender o gerenciamento de endereços em quarentena
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/HRR7lWqh4GbMQiZ-Wm7EHr60452-HusFd0e4cG2G11E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: 431
+ht-degree: 2%
 
 ---
 
@@ -24,13 +27,13 @@ A quarentena se aplica somente a um **endereço de email**, um **número de tele
 
 A quarentena é o método usado para **gerenciar endereços inválidos nas entregas**.
 
-Se um delivery tiver uma alta taxa de endereços inválidos, ele poderá ser considerado spam. Incluir na lista de bloqueios O gerenciamento desses endereços com quarentena ajuda a impedir que sejam migrados por provedores de internet. Isso é importante para manter sua reputação.
+Se um delivery tiver uma alta taxa de endereços inválidos, ele poderá ser considerado spam. O gerenciamento desses endereços com quarentena ajuda a impedir que sejam migrados por provedores de internet. Isso é importante para manter sua reputação.
 
 Quando um endereço é colocado em quarentena no Adobe Campaign, o perfil é automaticamente excluído do público-alvo durante a análise do delivery.
 
 A quarentena reduz os custos de envio de SMS, excluindo números de telefone incorretos dos deliveries.
 
-Saiba mais sobre quarentenas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
+Saiba mais sobre quarentenas na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
 
 ## Por que um endereço é enviado para quarentena {#quarantines-why}
 
@@ -38,10 +41,10 @@ Vários motivos podem enviar um endereço para quarentena:
 
 * Para SMS, números de telefone incorretos
 * Para SMS, quando o perfil responde a uma mensagem SMS com uma palavra-chave, como &quot;PARAR&quot;
-* Para emails, quando a mensagem é relatada como spam. A mensagem é redirecionada automaticamente para uma caixa de entrada técnica gerenciada pela Adobe. Incluir na lista de bloqueios Em seguida, o endereço de email do usuário é enviado automaticamente para quarentena com o status.
+* Para emails, quando a mensagem é relatada como spam. A mensagem é redirecionada automaticamente para uma caixa de entrada técnica gerenciada pela Adobe. Em seguida, o endereço de email do usuário é enviado automaticamente para quarentena com o status.
 * Um endereço de email pode ser colocado em quarentena, por exemplo, quando a caixa de entrada estiver cheia, se o endereço não existir ou se o servidor de email não estiver disponível.
 
-Saiba mais sobre falhas de entrega na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
+Saiba mais sobre falhas de entrega na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 
 ## Onde encontrar os endereços em quarentena {#quarantines-where}
 
@@ -57,4 +60,4 @@ Para cada delivery, você pode verificar o Relatório de resumo do delivery. Ele
 
 ![Relatório de resumo de entrega mostrando endereços em quarentena](assets/quarantine_delivery.png){zoomable="yes"}
 
-Você pode explorar mais opções para gerenciar endereços em quarentena no console do Adobe Campaign. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).
+Você pode explorar mais opções para gerenciar endereços em quarentena no console do Adobe Campaign. [Saiba mais](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).

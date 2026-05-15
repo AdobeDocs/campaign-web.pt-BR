@@ -4,10 +4,14 @@ title: Configurar e gerenciar o processo de aprovação
 description: Saiba como gerenciar aprovações de campanhas de marketing no Campaign Web
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/Gpk7fY-VSFdgvgJo2STGjJ8-mHBkVZnp8cD-bFZrWpU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 5%
+source-wordcount: 696
+ht-degree: 10%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 5%
 >
 >As aprovações só estão disponíveis para remessas criadas dentro de uma campanha. Isso não se aplica a deliveries autônomos ou deliveries criados em workflows fora de um contexto de campanha.
 
-O processo de aprovação ajuda a coordenar vários participantes e garante o controle de qualidade antes que os deliveries sejam enviados. Use aprovações quando sua organização exigir a validação de equipes diferentes, como gerentes de marketing que revisam conteúdo ou analistas de dados que validam públicos-alvo.
+O processo de aprovação ajuda a coordenar as diversas partes interessadas e garante o controle de qualidade antes do envio das entregas. Utilize o processo de aprovação quando sua organização precisar da validação de diferentes equipes, como gerentes de marketing que precisam revisar conteúdo ou analistas de dados que precisam validar públicos-alvo.
 
 Quando as aprovações estiverem habilitadas, você deverá enviar conteúdo ou público alvo para aprovação. Os revisores designados recebem notificações por email solicitando validação e podem aprovar ou rejeitar diretamente da interface da Web. Os deliveries não podem ser enviados até que todas as aprovações necessárias sejam concedidas. Você pode ativar:
 

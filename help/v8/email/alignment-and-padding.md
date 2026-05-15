@@ -3,9 +3,11 @@ audience: end-user
 title: Ajustar o alinhamento vertical e o preenchimento no Designer de email
 description: Saiba como ajustar o alinhamento vertical e o preenchimento
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/5KgmbJc0yXRXl8-jCKBR7evxfcVHEcvQtdMxU-rV28s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: 204
 ht-degree: 35%
 
 ---
