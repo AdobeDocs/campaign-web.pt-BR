@@ -2,9 +2,12 @@
 title: Medidas de proteção e limitações nos fluxos de trabalho da interface do Campaign Web
 description: Medidas de proteção e limitações ao trabalhar com fluxos de trabalho na interface do Campaign Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: 382
 ht-degree: 100%
 
 ---

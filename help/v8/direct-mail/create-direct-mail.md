@@ -3,10 +3,13 @@ audience: end-user
 title: Criar uma entrega de correspondência direta
 description: Saiba como criar um delivery de correspondência direta com o Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 22%
+source-wordcount: 504
+ht-degree: 24%
 
 ---
 
@@ -36,7 +39,7 @@ Para criar um novo delivery de correspondência direta independente, siga estas 
    * **[!UICONTROL Natureza]**: especifique a natureza da entrega para fins de classificação.
    +++
 
-1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público-alvo existente ou criar o seu próprio.
+1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público já existente ou criar o seu próprio.
 
    * [Saiba como selecionar um público existente](../audience/add-audience.md)
    * [Saiba como criar um novo público-alvo](../audience/one-time-audience.md)

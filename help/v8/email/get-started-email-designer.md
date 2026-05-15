@@ -3,13 +3,17 @@ audience: end-user
 title: Edição do conteúdo de email
 description: Saiba como começar a criar conteúdo usando o Designer de email na interface do Campaign Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: ht
-source-wordcount: '415'
+TQID: https://experienceleague.adobe.com/E13LxJL9krN2GR4LP2HdvRgxpEohILuNDwUz8YkeNVQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 415
 ht-degree: 100%
 
 ---
-
 
 # Introdução ao Designer de email {#get-started-email-designer}
 

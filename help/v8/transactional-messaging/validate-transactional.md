@@ -3,9 +3,14 @@ audience: end-user
 title: Validar mensagens transacionais
 description: Saiba como validar uma mensagem transacional na interface da Web do Campaign
 exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/YWPUl-Uc62k2YII-60Thm6B2ZuXDMPNjVogjTWKyeTY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 293
 ht-degree: 1%
 
 ---

@@ -3,9 +3,22 @@ audience: end-user
 title: Transição do Campaign Standard para o Adobe Campaign Web
 description: Conheça a interface do Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: ht
-source-wordcount: '587'
+TQID: https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 619
 ht-degree: 100%
 
 ---
@@ -34,12 +47,12 @@ A interface do Campaign Web foi projetada para que profissionais de marketing po
 * **Experiência moderna, intuitiva e unificada**. [Saiba mais](../get-started/connect-to-campaign.md).
 * **Novos recursos avançados e processos contínuos**. [Saiba mais](../get-started/user-interface.md).
 * **Modelador de consulta simplificado e intuitivo**. [Saiba mais](../query/query-modeler-overview.md).
-* **Recursos integrados de gerenciamento de campanhas entre canais**.  [Saiba mais](../msg/gs-messages.md).
+* **Recursos integrados de gerenciamento de campanhas entre canais**. [Saiba mais](../msg/gs-messages.md).
 * **Atividades de fluxo de trabalho de campanha redesenhadas**. [Saiba mais](../workflows/gs-workflows.md).
 * **Fácil criação e gerenciamento de perfis**. [Saiba mais](../audience/about-recipients.md).
 * **Filtros predefinidos**. [Saiba mais](../get-started/predefined-filters.md).
 * **Conversor de HTML para design de email**. [Saiba mais](../email/existing-content.md).
-* **SMS com ofertas**.  [Saiba mais](../msg/offers.md).
+* **SMS com ofertas**. [Saiba mais](../msg/offers.md).
 
 O console do cliente do Campaign foi projetado para que admins e desenvolvedores configurem e personalizem seus ambientes. Os principais recursos disponíveis no console do cliente do Campaign estão detalhados [nesta documentação](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 

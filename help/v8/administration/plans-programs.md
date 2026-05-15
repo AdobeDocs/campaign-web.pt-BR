@@ -3,10 +3,18 @@ audience: end-user
 title: Planos e programas
 description: Saiba como criar e configurar planos e programas no Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 3%
+source-wordcount: 522
+ht-degree: 6%
 
 ---
 
@@ -17,7 +25,7 @@ O Adobe Campaign permite configurar uma hierarquia de pastas para planos e progr
 Para organizar melhor esses componentes, a Adobe recomenda a seguinte hierarquia: Planejar `>` Programas `>` Campanhas.
 
 * Um **plano** pode conter vários programas. Define objetivos estratégicos para um período específico.
-* Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e páginas de aterrissagem.
+* Um **programa** pode conter outros programas, assim como campanhas, fluxos de trabalho e páginas de destino.
 * Uma **campanha** pode conter entregas, fluxos de trabalho e páginas de aterrissagem.
 
 ## Criar e configurar um plano {#create-plan}

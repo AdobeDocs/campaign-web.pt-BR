@@ -2,10 +2,16 @@
 title: Gerenciar conta externa
 description: Saiba como configurar contas externas
 exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 29%
+source-wordcount: 743
+ht-degree: 36%
 
 ---
 
@@ -43,17 +49,17 @@ Para saber onde encontrar a ID da chave de acesso e a chave de acesso secreta, c
 
 ## Armazenamento Azure Blob {#azure-blob-external-account}
 
-A conta externa **[!UICONTROL Armazenamento Azure Blob]** pode ser usada para importar ou exportar dados para a Adobe Campaign usando uma atividade de fluxo de trabalho **[!UICONTROL Transferir arquivo]**. Para obter mais informações, consulte [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+A conta externa **[!UICONTROL Azure Blob Storage]** pode ser usada para importar ou exportar dados para o Adobe Campaign usando uma atividade de fluxo de trabalho **[!UICONTROL Transferir arquivo]**. Para obter mais informações, consulte [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
-![Captura de tela mostrando os campos de configuração da conta externa do Armazenamento Azure Blob.](assets/external-azure.png)
+![Captura de tela mostrando os campos de configuração da conta externa do Azure Blob Storage.](assets/external-azure.png)
 
-Para configurar a **[!UICONTROL conta externa do Azure]** para funcionar com a Adobe Campaign, você precisa fornecer os seguintes detalhes:
+Para configurar a **[!UICONTROL conta externa do Azure]** para funcionar com o Adobe Campaign, você precisa fornecer os seguintes detalhes:
 
 * **[!UICONTROL Server]**
 
-  URL do seu servidor de armazenamento Azure Blob.
+  URL do servidor de armazenamento Azure Blob.
 
-* **[!UICONTROL Encryption]**
+* **[!UICONTROL Criptografia]**
 
   Tipo de criptografia escolhida entre **[!UICONTROL None]** ou **[!UICONTROL SSL]**.
 

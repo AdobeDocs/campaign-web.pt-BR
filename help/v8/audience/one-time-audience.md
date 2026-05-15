@@ -3,9 +3,14 @@ audience: end-user
 title: Criar um público-alvo único para uma entrega
 description: Saiba como criar um público-alvo único para uma entrega.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: 251
 ht-degree: 13%
 
 ---
@@ -22,7 +27,7 @@ Para criar um novo público-alvo único para um delivery, siga estas etapas:
 
 1. Na seção **Público**, do assistente de criação de entrega, clique no botão **[!UICONTROL Selecionar público-alvo]**.
 
-   [Captura de tela mostrando a seção Público-alvo do assistente de criação de entrega com o botão Selecionar público-alvo realçado](assets/segment-builder0.png){zoomable="yes"}
+   [Captura de tela mostrando a seção Público-alvo do assistente de criação de delivery com o botão Select audience realçado](assets/segment-builder0.png){zoomable="yes"}
 
 1. Selecione **Criar o seu próprio** para abrir o modelador de consultas. O modelador de query permite definir o público-alvo filtrando os dados contidos no banco de dados. [Saiba como usar o modelador de consultas](../query/query-modeler-overview.md).
 

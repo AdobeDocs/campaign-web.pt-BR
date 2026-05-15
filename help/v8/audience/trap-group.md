@@ -3,9 +3,14 @@ audience: end-user
 title: Usar um grupo de cobertura
 description: Saiba como usar um grupo de cobertura para a entrega na interface do usuário da Web do Campaign
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 429
 ht-degree: 4%
 
 ---
@@ -47,13 +52,13 @@ Para configurar um **[!UICONTROL grupo de interceptação]**, vá para as config
 
 Ao escolher **Selecionar perfis de teste**, use o botão **Adicionar perfil(s) de teste** como mostrado abaixo:
 
-[Adicionar captura de tela do botão de perfil de teste](assets/trap-no-test-profile.png){zoomable="yes"}
+[Captura de tela do botão Adicionar perfil de teste](assets/trap-no-test-profile.png){zoomable="yes"}
 
 Ao clicar no botão, você pode acessar os perfis de teste para adicionar ao seu **[!UICONTROL grupo de interceptação]**. Selecione os que deseja usar.
 
 Você também pode criar novos perfis de teste. [Saiba mais](#create-seed)
 
-[Selecionar captura de tela da interface de perfis de teste](assets/trap-select-test-profiles.png){zoomable="yes"}
+[Captura de tela Selecionar interface dos perfis de teste](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 Depois de confirmar seus perfis de teste, verifique se o número correto aparece em **[!UICONTROL Grupo de interceptação]**.
 
@@ -63,18 +68,18 @@ Depois de confirmar seus perfis de teste, verifique se o número correto aparece
 
 Com a opção **[!UICONTROL Criar condição]**, crie uma consulta para definir os perfis de teste que deseja usar:
 
-[Criar captura de tela da interface de condição](assets/trap-create-condition.png){zoomable="yes"}
+[Captura de tela Criar interface de condição](assets/trap-create-condition.png){zoomable="yes"}
 
 Sua consulta é exibida em **[!UICONTROL Grupo de interceptação]**.
 
-[Captura de tela para exibição da consulta do grupo de interceptação](assets/trap-custom.png){zoomable="yes"}
+[Captura de tela de exibição da consulta do grupo de interceptação](assets/trap-custom.png){zoomable="yes"}
 
 ## Criar um novo perfil de teste {#create-seed}
 
 Você pode criar um novo **[!UICONTROL perfil de teste]** a partir da pasta **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Gerenciamento de Campanhas]** > **[!UICONTROL Membros de propagação]**.
 
-[Criar captura de tela de navegação do perfil de teste](assets/trap-create.png){zoomable="yes"}
+[Captura de tela Criar navegação do perfil de teste](assets/trap-create.png){zoomable="yes"}
 
 Defina todas as configurações para seu **[!UICONTROL perfil de teste]** da mesma maneira que você faria para qualquer perfil:
 
-[Testar captura de tela de configuração de perfil](assets/trap-create-contact.png){zoomable="yes"}
+[Captura de tela da configuração do perfil de teste](assets/trap-create-contact.png){zoomable="yes"}

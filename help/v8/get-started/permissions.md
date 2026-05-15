@@ -3,9 +3,14 @@ audience: end-user
 title: Gerenciamento de permissões na interface do Campaign Web
 description: Saiba mais sobre permissões na interface do Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
-workflow-type: ht
-source-wordcount: '296'
+TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 318
 ht-degree: 100%
 
 ---
@@ -50,4 +55,4 @@ Se a opção **[!UICONTROL Pasta do sistema]** for selecionada, o acesso será
 
 Também é possível [gerenciar as permissões de pastas no console do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
-Todas as permissões na interface do Campaign Web são sincronizadas com as permissões do console do cliente do Campaign. 
+Todas as permissões na interface do Campaign Web são sincronizadas com as permissões do console do cliente do Campaign.

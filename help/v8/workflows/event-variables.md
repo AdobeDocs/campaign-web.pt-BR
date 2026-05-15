@@ -3,10 +3,15 @@ audience: end-user
 title: Variáveis de evento do fluxo de trabalho
 description: Saiba como aproveitar variáveis de evento em seus workflows.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 9%
+source-wordcount: 370
+ht-degree: 11%
 
 ---
 
@@ -22,7 +27,7 @@ Cada tipo de **objeto** está associado a uma categoria de **variáveis** que po
 
 * **As variáveis de instância** (`instance.vars.xxx`) são comparáveis às variáveis globais. Eles são compartilhados por todas as atividades.
 * **As variáveis de tarefa** (`task.vars.xxx`) são comparáveis com as variáveis locais. São utilizadas somente pela tarefa atual. Essas variáveis são usadas por atividades persistentes para manter os dados e, às vezes, são usadas para trocar dados entre os diferentes scripts da mesma atividade.
-* **As variáveis de evento** (`vars.xxx`) habilitam a troca de dados entre as tarefas primárias de um processo de fluxo de trabalho. Essas variáveis são passadas pela tarefa que ativou a tarefa em andamento. Eles são passados para as atividades seguintes. **As variáveis de evento** são as variáveis usadas com mais frequência e devem ser usadas em detrimento de variáveis de instância.
+* **As variáveis de evento** (`vars.xxx`) habilitam a troca de dados entre as tarefas primárias de um processo de fluxo de trabalho. Essas variáveis são passadas pela tarefa que ativou a tarefa em andamento. Então, elas são passadas para as atividades seguintes. **As variáveis de evento** são as variáveis usadas com mais frequência e devem ser usadas em detrimento de variáveis de instância.
 
 >[!NOTE]
 >
