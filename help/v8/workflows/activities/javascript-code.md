@@ -4,8 +4,10 @@ title: Usar a atividade de workflow de código JavaScript
 description: Saiba como usar a atividade de workflow de código do JavaScript
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 TQID: https://experienceleague.adobe.com/zqJ-brqwxUX9X45oLRQLkE6VDJo2AdhG2qEWEn45hPg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 966

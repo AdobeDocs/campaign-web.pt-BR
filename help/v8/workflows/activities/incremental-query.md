@@ -4,8 +4,10 @@ title: Usar a atividade do fluxo de trabalho Query incremental
 description: Saiba como usar a atividade de workflow Query incremental
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 TQID: https://experienceleague.adobe.com/TsjFvMucie8cVAB7FlWiVq9BhMoS5oGQhKQkg5CYKDQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 717
