@@ -6,7 +6,7 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
 >title="Experimentos de conteúdo"
->abstract="Os experimentos de conteúdo permitem definir várias variantes de delivery de teste A/B para medir qual tem melhor desempenho para o público-alvo. Você pode variar o conteúdo da entrega, o assunto ou o remetente para testar diferentes versões e determinar qual variante produz os melhores resultados."
+>abstract="Os experimentos de conteúdo permitem definir múltiplas variantes de entrega de teste A/B para medir qual tem melhor desempenho para o público-alvo. Você pode variar o conteúdo da entrega, o assunto ou o remetente para testar diferentes versões e determinar qual variante produz os melhores resultados."
 
 ## Sobre experimentos de conteúdo {#about-content-experiment}
 

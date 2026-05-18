@@ -6,7 +6,7 @@ exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 10%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Atividade de entrega automatizada"
->abstract="A atividade **Entrega automatizada** é usada para automação: crie ou reutilize uma entrega no seu fluxo de trabalho e escolha a ação que será executada (preparar, preparar e iniciar, enviar prova etc.). Você pode selecionar um delivery explícito existente criado fora do workflow ou criar um novo delivery a partir de um template sempre que a atividade for executada."
+>abstract="A atividade **Entrega Automatizada** é usada para automação: crie ou reutilize uma entrega no fluxo de trabalho e, em seguida, escolha uma ação para executar (preparar, preparar e iniciar, enviar prova, etc.). É possível selecionar uma entrega explícita já existente criada fora do fluxo de trabalho ou criar uma nova entrega a partir de um modelo sempre que a atividade for executada."
 
 A atividade de **Entrega automatizada** permite criar, configurar e executar ações de entrega diretamente no fluxo de trabalho. Use-a quando quiser executar um delivery predefinido em uma programação ou como parte de um fluxo automatizado, ou quando quiser gerar um novo delivery a partir de um modelo sempre que a atividade for executada.
 
@@ -52,7 +52,7 @@ Ao configurar a atividade, você escolhe de onde o delivery vem. Duas opções e
 
 >[!NOTE]
 >
->As opções **Especificado na transição** e **Calculado por script**, usadas para casos de uso avançados, só podem ser configuradas no Console do Cliente. Consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>As opções **Especificado na transição** e **Calculado por script**, usadas para casos de uso avançados, só podem ser configuradas no Console do Cliente. Consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
 ## Selecionar a ação a ser executada {#action-to-execute}
 
