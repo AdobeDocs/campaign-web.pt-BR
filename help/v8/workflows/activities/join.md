@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 23%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Várias ramificações de fluxo de trabalho e atividade Associação"
->abstract="Agora há suporte para várias ramificações. Em vez de usar uma bifurcação, clique em Adicionar ramificação na barra de ferramentas. A atividade AND-join também foi aprimorada. Agora é uma atividade Join genérica que permite escolher entre as opções de join AND e OR."
+>abstract="Agora há suporte para várias ramificações. Em vez de usar uma bifurcação, clique em Adicionar ramificação na barra de ferramentas. A atividade AND-join também foi aprimorada. Agora é uma atividade de Join genérica que permite escolher entre as opções de join AND e OR."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=pt-BR" text="Consulte as notas de versão"
 
 >[!CONTEXTUALHELP]
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="Atividade de ingresso"
->abstract="A atividade **Ingressar** permite mesclar várias transições de entrada. Escolha se deseja continuar quando todas as transições de entrada estiverem concluídas (E) ou quando qualquer transição de entrada estiver concluída (OU)."
+>abstract="A atividade **Join** permite mesclar várias transições de entrada. Escolha se deseja continuar quando todas as transições de entrada estiverem concluídas (AND) ou quando qualquer transição de entrada estiver concluída (OR)."
 
 A atividade de **Ingresso** é uma atividade de **Controle de fluxo**. Ele sincroniza várias ramificações de execução de um fluxo de trabalho.
 Você pode escolher como as transições de entrada são avaliadas:
@@ -38,7 +38,7 @@ Quando **AND** é selecionado, essa atividade dispara sua transição de saída 
 
 Quando **OR** é selecionado, a execução continua assim que uma das transições de entrada selecionadas é ativada. Ele não espera por cada ramificação.
 
-## Configurar a atividade de associação {#join-configuration}
+## Configurar a atividade Join {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
