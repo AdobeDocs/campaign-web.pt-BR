@@ -16,10 +16,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 100%
+source-wordcount: 570
+ht-degree: 96%
 
 ---
 
@@ -60,18 +60,13 @@ O console do cliente do Campaign foi projetado para que admins e desenvolvedores
 >
 >Saiba mais sobre os recursos compatíveis e incompatíveis e a interoperabilidade entre a interface do Campaign Web e o console do cliente do Campaign [nesta página](../get-started/capability-matrix.md).
 
-## Terminologia {#terminology}
-
-A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standard. No entanto, há algumas diferenças de terminologia. Os exemplos incluem:
-
 <!--
+## Terminology {#terminology}
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
 * The delivery preparation is the **Delivery analysis**. [Learn more](../monitor/prepare-send.md).
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
--->
-
-<!--
 * Custom resources are **Schemas**
 * Messages are referred to as **Deliveries**
 * Roles are configured with **Named Rights**
@@ -83,7 +78,7 @@ A maioria dos conceitos são semelhantes entre o Campaign v8 e o Campaign Standa
 
 ## Recursos específicos {#new-features}
 
-Para garantir uma transição tranquila para o Campaign v8, os principais recursos do Campaign Standard foram adicionados ao Campaign v8. Esses recursos são detalhados [nesta documentação](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=pt-BR){target=&quot;_blank} e estão disponíveis somente para usuários que estão migrando do Campaign Standard.
+Para garantir uma transição tranquila para o Campaign v8, os principais recursos do Campaign Standard foram adicionados ao Campaign v8:
 
 * **Relatórios dinâmicos**: fornecem relatórios personalizáveis em tempo real para medir o impacto das atividades de marketing. Inclui acesso a dados de perfil para análise demográfica por dimensões como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. [Saiba mais](../reporting/dynamic-reporting/get-started-reporting.md).
 
@@ -91,7 +86,7 @@ Para garantir uma transição tranquila para o Campaign v8, os principais recurs
 
 * **APIs REST**: os usuários que migraram do Campaign Standard podem usar as APIs REST para criar integrações com o Adobe Campaign e produzir ecossistemas, conectando o Adobe Campaign a outras tecnologias. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR){target="_blank"}.
 
-* **Páginas de destino**: as páginas de destino do Campaign v8 incluem melhorias para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[ notas de versão](../rn/release-notes.md#new-24-4) e na [documentação](../landing-pages/get-started-lp.md) da página de destino.
+* **Páginas de destino**: as páginas de destino do Campaign v8 incluem melhorias para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[&#x200B; notas de versão](../rn/release-notes.md#new-24-4) e na [documentação](../landing-pages/get-started-lp.md) da página de destino.
 
 * **Fragmentos visuais**: os fragmentos visuais são componentes visuais reutilizáveis que podem ser referenciados em uma ou mais entregas de email ou em modelos de conteúdo. Modificar um fragmento atualiza todo o conteúdo que o utiliza. Essa funcionalidade permite que usuários de marketing pré-criem vários blocos de conteúdo personalizados para produzir mensagens rapidamente com um processo de design avançado. [Saiba mais](../content/use-visual-fragments.md).
 

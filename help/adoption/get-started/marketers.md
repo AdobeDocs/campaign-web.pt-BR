@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2877
+source-wordcount: 2803
 ht-degree: 17%
 
 ---
@@ -216,7 +216,7 @@ Links úteis:
 >
 >* Os links de rastreamento, links de URL de mirror page, links de subscrição/cancelamento de subscrição funcionam como no Campaign Standard.
 >
->Consulte também as seguintes seções: [Rastreamento e monitoramento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Identidade visual](https://experienceleague.adobe.com/pt-br/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} no Adobe Campaign.
+>Consulte também as seguintes seções: [Rastreamento e monitoramento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Identidade visual](../../v8/administration/branding/branding-gs.md) no Adobe Campaign.
 
 ### Entrega por email {#acs-gs-marketers-email}
 
@@ -398,11 +398,11 @@ A Adobe Campaign fornece um conjunto de [ferramentas de relatório](https://expe
 
 O conjunto de ferramentas de relatórios do Adobe Campaign fornece insights valiosos sobre a eficácia de seus esforços de marketing, permitindo otimizar suas campanhas para obter o máximo impacto. Saiba mais na [documentação sobre relatórios](../../v8/reporting/gs-reports.md).
 
-Além disso, alinhado à experiência do Adobe Campaign Standard, o Dynamic Reporting está disponível no Campaign v8 para seus deliveries de email. Ele fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. Saiba mais na [documentação do Dynamic Reporting](https://experienceleague.adobe.com/pt-br/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+Além disso, alinhado à experiência do Adobe Campaign Standard, o Dynamic Reporting está disponível no Campaign v8 para seus deliveries de email. Ele fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. Saiba mais na [documentação de Dynamic Reporting](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
 
 >[!AVAILABILITY]
 >
->* [Relatórios dinâmicos](https://experienceleague.adobe.com/pt-br/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} podem ser usados para relatórios de entregas de email, campanhas com entregas de email e mensagens transacionais. A análise demográfica por dimensão de Perfil também está disponível.
+>* [Relatórios dinâmicos](../../v8/reporting/dynamic-reporting/get-started-reporting.md) podem ser usados para relatórios de entregas de email, campanhas com entregas de email e mensagens transacionais. A análise demográfica por dimensão de Perfil também está disponível.
 >
 > * O [relatório da interface da Web do Adobe Campaign](../../v8/reporting/campaign-reports.md) também está disponível para todos os usuários na transição do Adobe Campaign Standard para o Adobe Campaign v8.
 
