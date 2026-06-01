@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1564
 ht-degree: 100%
@@ -127,7 +127,7 @@ A seção **Gerenciamento de campanhas** fornece acesso a campanhas de marketin
 
   Use o botão **Mais ações** para excluir ou duplicar uma entrega.
 
-  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [Captura de tela mostrando o botão Mais ações com opções para excluir ou duplicar uma entrega.]
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%"} [Captura de tela mostrando o botão Mais ações com opções para excluir ou duplicar uma entrega.]
 
 * **Workflows** - Nessa tela, é possível acessar a lista completa de fluxos de trabalho e modelos de fluxos de trabalho. É possível verificar o status, as datas da última/próxima execução e criar um novo fluxo de trabalho ou um novo modelo de fluxo de trabalho. É possível filtrar a lista com os mesmos critérios de outros objetos. Além disso, é possível filtrar fluxos de trabalho que pertencem ou não a uma campanha. Saiba mais sobre fluxos de trabalho [nesta seção](../workflows/gs-workflows.md).
 

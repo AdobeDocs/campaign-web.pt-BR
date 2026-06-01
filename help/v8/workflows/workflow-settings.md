@@ -6,9 +6,9 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
+source-wordcount: 1070
 ht-degree: 28%
 
 ---
@@ -24,7 +24,7 @@ Ao criar ou organizar atividades de workflow na tela, acesse as configurações 
 
 Essas configurações são pré-definidas no template selecionado ao criar o workflow, mas podem ser editadas conforme necessário para esse workflow específico.
 
-![Interface do botão de configurações do fluxo de trabalho](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![Interface do botão de configurações do fluxo de trabalho](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## Propriedades do fluxo de trabalho {#properties}
 
@@ -35,7 +35,7 @@ Essas configurações são pré-definidas no template selecionado ao criar o wor
 
 A seção **[!UICONTROL Propriedades]** fornece configurações genéricas que podem ser definidas ao criar um fluxo de trabalho. Para acessar as propriedades de um fluxo de trabalho existente, clique no botão **[!UICONTROL Configurações]** disponível na barra de ações acima da tela do fluxo de trabalho.
 
-![Interface de configurações do fluxo de trabalho](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![Interface de configurações do fluxo de trabalho](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 Essas propriedades incluem:
 

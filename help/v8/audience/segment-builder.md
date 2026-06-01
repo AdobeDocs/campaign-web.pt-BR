@@ -3,9 +3,9 @@ audience: end-user
 title: Crie um público com o construtor de regras do Campaign
 description: Saiba como trabalhar com o construtor de regras
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '624'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ O construtor de regras permite que você defina a população direcionada pelo d
 
 A paleta, localizada no lado esquerdo, contém todos os elementos que você pode filtrar para criar seu público-alvo. Use a barra de pesquisa para localizar elementos rapidamente. Mova os blocos gráficos contidos na paleta para a tela central para configurá-los e levá-los em consideração.
 
-![A interface da paleta mostrando opções e guias de filtragem](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![A interface da paleta mostrando opções e guias de filtragem](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 A paleta é dividida em duas guias:
 
@@ -37,13 +37,13 @@ A paleta é dividida em duas guias:
 
 A tela é a zona central onde você pode configurar e combinar regras com base nos elementos adicionados da paleta. Para adicionar uma nova regra, arraste um bloco da paleta e solte-o na tela. As opções específicas do contexto são apresentadas com base no tipo de dados que está sendo adicionado.
 
-![A interface da tela mostrando as opções de configuração da regra](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![A interface da tela mostrando as opções de configuração da regra](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## O painel de propriedades da regra
 
 No lado direito, o painel **Propriedades da regra** permite executar as ações listadas abaixo.
 
-![O painel de propriedades da regra mostrando as ações disponíveis](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![O painel de propriedades da regra mostrando as ações disponíveis](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **Exibir resultados:** Exibe a lista de perfis segmentados pelo público-alvo.
 * **Visualização de código**: mostra uma versão baseada em código da audiência no SQL.
