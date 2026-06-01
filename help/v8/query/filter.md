@@ -4,14 +4,12 @@ title: Listas de filtros
 description: Saiba como filtrar listas da Web do Adobe Campaign usando filtros incorporados e personalizados.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 416
-ht-degree: 0%
+source-wordcount: 337
+ht-degree: 1%
 
 ---
 
@@ -30,7 +28,7 @@ Para aplicar filtros a uma lista, clique no botão **[!UICONTROL Mostrar filtros
 
 O painel Filtros é aberto, exibindo os filtros disponíveis para a lista selecionada. Por exemplo, você pode filtrar campanhas com base no status, datas de início e término ou pasta de armazenamento, enquanto a lista de serviços de assinatura pode ser filtrada com base no canal e na pasta de armazenamento.
 
-![Painel de filtros mostrando os filtros disponíveis para listas](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Painel de filtros mostrando os filtros disponíveis para listas](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 Para filtrar uma lista com base em seus próprios critérios, crie um filtro personalizado. Para fazer isso, navegue até a parte inferior do painel de filtros e clique no botão **Adicionar regras**. [Saiba como criar filtros personalizados](#custom).
 
@@ -46,6 +44,6 @@ Filtros personalizados permitem refinar listas com base em seus próprios crité
 
    O exemplo abaixo mostra um filtro personalizado projetado para exibir na lista de campanhas campanhas SMS executadas por operadores dos departamentos Running ou Yoga.
 
-   ![Exemplo de filtro personalizado mostrando campanhas de SMS filtradas por departamento](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![Exemplo de filtro personalizado mostrando campanhas de SMS filtradas por departamento](assets/filters-sample.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 1. Após configurar o filtro personalizado, clique em **[!UICONTROL Confirmar]** para aplicá-lo à lista.

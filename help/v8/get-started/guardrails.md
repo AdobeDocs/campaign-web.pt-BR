@@ -3,9 +3,8 @@ title: Medidas de proteção e limitações nos fluxos de trabalho da interface 
 description: Medidas de proteção e limitações ao trabalhar com fluxos de trabalho na interface do Campaign Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 382
 ht-degree: 100%
@@ -29,14 +28,14 @@ As atividades de fluxo de trabalho que ainda não são compatíveis com a interf
 
 | Console | Web |
 | --- | --- |
-| ![Captura de tela que mostra as limitações de atividades no console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Captura de tela que mostra as limitações de atividades na interface web](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Captura de tela que mostra as limitações de atividades no console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Captura de tela que mostra as limitações de atividades na interface web](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 <!--
 When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 -->
 
@@ -44,7 +43,7 @@ No console, a atividade **Enriquecimento** pode executar a reconciliação e o e
 
 | Console | Web |
 | --- | --- |
-| ![Captura de tela que mostra a atividade de enriquecimento no console](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Captura de tela que mostra a atividade de enriquecimento na interface web](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Captura de tela que mostra a atividade de enriquecimento no console](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Captura de tela que mostra a atividade de enriquecimento na interface web](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 ## Tela de fluxo de trabalho {#wkf-canvas}
 
@@ -52,10 +51,10 @@ Ao criar um novo fluxo de trabalho na interface do Campaign Web, a tela permite 
 
 | Console | Web |
 | --- | --- |
-| ![Captura de tela que mostra os vários pontos de entrada no console](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Captura de tela que mostra os vários pontos de entrada na interface web](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Captura de tela que mostra os vários pontos de entrada no console](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Captura de tela que mostra os vários pontos de entrada na interface web](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 O posicionamento dos nós é atualizado sempre que uma atividade é adicionada ou removida. Se você criar um fluxo de trabalho no console, modificá-lo por meio da interface web do Campaign e reabri-lo no console, será possível observar alguns pequenos erros de posicionamento. Isso não afeta os processos e as tarefas do fluxo de trabalho.
 
 | Fluxo de trabalho inicial | Alteração do posicionamento |
 | --- | --- |
-| ![Captura de tela que mostra o posicionamento inicial do fluxo de trabalho](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Captura de tela que mostra as alterações do posicionamento após modificações](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Captura de tela que mostra o posicionamento inicial do fluxo de trabalho](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Captura de tela que mostra as alterações do posicionamento após modificações](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" zoomable="yes"} |
