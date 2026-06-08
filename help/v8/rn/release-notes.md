@@ -3,19 +3,13 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 610
+ht-degree: 100%
 
 ---
 
@@ -34,13 +28,13 @@ _29 de abril de 2026_
 
 ### Melhoria {#26-4-improvement}
 
-A seção **Enrichment data** agora está disponível na atividade de fluxo de trabalho **Build audience** (tipo de consulta). Você pode exibir, adicionar, editar e remover **dados adicionais** diretamente da interface do usuário da Web do Campaign. Como na atividade **Enrichment**, você pode adicionar atributos de enriquecimento único, links de coleção e expressões.
+A seção **Dados de enriquecimento** já está disponível na atividade de fluxo de trabalho **Criar público-alvo** (tipo de consulta). Você pode exibir, adicionar, editar e remover **dados adicionais** diretamente da interface web do Campaign. Como na atividade de **Enriquecimento**, você pode adicionar atributos de enriquecimento único, links de coleção e expressões.
 
 [Saiba mais](../workflows/activities/build-audience.md)
 
 ## Versão de março de 2026 {#26-3-release}
 
-_24 de março_ de 2026_
+24 de _março_ de 2026
 
 ### Novos recursos {#26-3-features}
 
@@ -132,6 +126,6 @@ _24 de março_ de 2026_
 
 ### Aprimoramentos {#26-3-improvements}
 
-* A atividade de fluxo de trabalho **Iniciar** foi adicionada para melhorar a compatibilidade com o Console do cliente. Esta atividade é opcional e não é incluída por padrão nos novos fluxos de trabalho. No entanto, ela é adicionada automaticamente aos fluxos de trabalho existentes.
+* A atividade de fluxo de trabalho **Iniciar** foi adicionada para melhorar a compatibilidade com o Console do cliente. Essa atividade é opcional e não é inserida por padrão em novos fluxos de trabalho. No entanto, ela é adicionada automaticamente aos fluxos de trabalho existentes.
   [Saiba mais](../workflows/activities/about-activities.md#flow-control)
 * O campo de seleção de fuso horário nas configurações de **Programação** de uma entrega foi movido para baixo do campo **Data de contato**. [Saiba mais](../msg/create-deliveries.md#gs-schedule)

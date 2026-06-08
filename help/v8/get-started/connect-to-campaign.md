@@ -3,15 +3,12 @@ title: Conectar-se à interface web do Adobe Campaign
 description: Saiba como se conectar à interface do Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 964
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +97,7 @@ Para aprender a exibir e gerenciar permissões, [consulte esta página](permissi
 
 ## Navegação superior da Adobe Experience Cloud {#top-bar}
 
-A barra superior da interface fornece acesso rápido aos principais recursos do Experience Cloud.
+A barra superior da interface fornece acesso rápido aos principais recursos da Experience Cloud.
 
 ![Captura de tela mostrando a barra de navegação superior da Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
@@ -110,8 +107,8 @@ Use a barra superior para:
 * Alternar entre suas organizações.
 * Alternar entre as soluções e os aplicativos da Adobe Experience Cloud.
 * Procurar ajuda na [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}.
-* Exibir as notificações do produto.
-* Edite seu perfil do Adobe e gerencie configurações, como [atualizando seu idioma preferido](#language-pref) ou [alternando entre temas claros e escuros](#dark-theme).
+* Visualizar as notificações do produto.
+* Editar seu perfil da Adobe e gerenciar configurações, como [atualizar seu idioma preferido](#language-pref) ou [alternar entre os temas claro e escuro](#dark-theme).
 
 ## Navegadores compatíveis {#browsers}
 
