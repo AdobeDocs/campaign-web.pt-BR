@@ -12,8 +12,8 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 547
+workflow-type: ht
+source-wordcount: 506
 ht-degree: 100%
 
 ---
@@ -98,7 +98,7 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Tela de fluxo de trabalho reformulada</strong><br/>Saiba como criar fluxos de trabalho para organizar todos os processos e tarefas, aumentando a velocidade e escala de cada aspecto de suas campanhas de marketing.</div><br/>
+    <div><strong>Tela de fluxo de trabalho reformulada</strong><br/>Saiba como criar workflows para organizar todos os processos e tarefas, aumentando a velocidade e escala de cada aspecto de suas campanhas de marketing.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
@@ -124,22 +124,22 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introdução</strong><br/><a href="get-started/user-interface.md">Interface</a> - <a href="get-started/connect-to-campaign.md">Conectar ao Campaign</a> - <a href="get-started/permissions.md">Acesso e permissões</a>
+      <strong>Introdução</strong><br/><a href="get-started/user-interface.md">Interface</a> – <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> – <a href="get-started/permissions.md">Acesso e permissões</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanhas</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
+      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanha</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> - <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Visualizar e testar</a> 
+      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Pré-visualização e teste</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consultas</a>
+      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consulta</a>
     </td>
   </tr>
 </table>
