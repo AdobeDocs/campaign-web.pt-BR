@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6581a2d6ab44b711ed6aea6736d60f932a7ce315
+source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 45%
 
 ---
@@ -42,11 +42,7 @@ _16 de junho de 2026_
 
 * As atividades de fluxo de trabalho **Desduplicação** e **Fim** agora oferecem suporte a várias transições de entrada. Quando
 mais de uma transição de entrada está disponível, use a seção **Conjuntos para ingressar** na atividade
-propriedades para selecionar quais transições conectar. Saiba mais nestas páginas: [Eliminação de Duplicação](../workflows/activities/deduplication.md),
-
-<!--
-[End](../workflows/activities/end.md)
--->
+propriedades para selecionar quais transições conectar. Saiba mais nestas páginas: [Desduplicação](../workflows/activities/deduplication.md), [Fim](../workflows/activities/end.md)
 
 * Parâmetros avançados agora estão expostos na seção **Enrichment data** das atividades de fluxo de trabalho **Build audience** (tipo de consulta) e **Enrichment**. Esses parâmetros permitem ajustar como os dados de enriquecimento são criados, incluindo agrupamento, desduplicação, tratamento da chave primária e dados de evento de entrada. [Saiba mais](../workflows/activities/enrichment.md)
 
