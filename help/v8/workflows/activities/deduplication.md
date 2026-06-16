@@ -6,10 +6,10 @@ exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: bf9d5d07ffca9c79821559e7fc75a930728e2f5a
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 43%
+source-wordcount: 769
+ht-degree: 33%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Atividade de desduplicação"
->abstract="A atividade de **desduplicação** exclui duplicatas dos resultados das atividades de entrada. Ela é usada principalmente após atividades de direcionamento e antes de atividades que usam dados direcionados."
+>abstract="A atividade de **desduplicação** exclui duplicatas dos resultados das atividades de entrada. Ela é usada principalmente após atividades de direcionamento e antes de atividades que usam dados direcionados. Quando mais de uma transição de entrada estiver disponível, use a seção **Conjuntos para ingressar** para selecionar quais transições se conectar à atividade."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_sets"
+>title="Conjuntos para unir"
+>abstract="Verifique as atividades anteriores que deseja conectar como transições de entrada da atividade **Desduplicação**. As atividades selecionadas são conectadas à **Eliminação de Duplicação**. Esta seção é exibida somente quando mais de uma transição de entrada está disponível para ser conectada à atividade."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -37,6 +42,8 @@ ht-degree: 43%
 
 A atividade **Deduplication** é uma atividade **Targeting**. Essa atividade exclui duplicatas nos resultados das atividades de entrada, como perfis duplicados na lista de recipients. A atividade **Deduplication** geralmente é usada após as atividades de direcionamento e antes das atividades que usam dados direcionados.
 
+A atividade suporta várias transições de entrada. Quando mais de uma transição de entrada estiver disponível, use a seção **Conjuntos para ingressar** nas propriedades da atividade para selecionar quais transições se conectar à atividade. As transições selecionadas são vinculadas à **Eliminação de Duplicação** na tela de fluxo de trabalho.
+
 ## Configurar a atividade de desduplicação {#deduplication-configuration}
 
 Siga estas etapas para configurar a atividade **Desduplicação**:
@@ -44,6 +51,12 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
 ![Processo de configuração de eliminação de duplicação do fluxo de trabalho](../assets/workflow-deduplication.png)
 
 1. Adicione uma atividade **Deduplication** ao seu fluxo de trabalho.
+
+1. Na seção **Conjuntos para ingressar**, verifique as atividades anteriores que você deseja conectar como transições de entrada da atividade **Eliminação de Duplicação**. As atividades selecionadas são vinculadas à **Eliminação de Duplicação** na tela do fluxo de trabalho. Use o campo **Conjunto principal** para definir a transição de entrada de referência. Os registros dos outros conjuntos são comparados com o conjunto principal para identificar duplicatas.
+
+   >[!NOTE]
+   >
+   >Essa seção é exibida somente quando mais de uma transição de entrada está disponível.
 
 1. Na seção **Campos para identificar duplicatas**, clique em **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos especifica os que devem ser processados primeiro. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
 
