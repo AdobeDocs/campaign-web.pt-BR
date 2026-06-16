@@ -10,10 +10,10 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2064
-ht-degree: 36%
+source-wordcount: 2327
+ht-degree: 32%
 
 ---
 
@@ -28,7 +28,7 @@ A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ele aprim
 
 >[!NOTE]
 >
->A atividade **Criar público-alvo** também permite que você adicione **dados adicionais**. Consulte [Usar a atividade Criar público-alvo](build-audience.md#build-audience-configuration).
+>A atividade (tipo de consulta) **Criar público-alvo** também dá suporte a **dados de enriquecimento**. Consulte [Saiba mais](build-audience.md#build-audience-configuration).
 
 Os dados de enriquecimento podem vir de:
 
@@ -62,19 +62,50 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >title="Atividade de enriquecimento"
 >abstract="Depois que os dados de enriquecimento tiverem sido adicionados ao fluxo de trabalho, eles poderão ser usados nas atividades subsequentes para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que condizem com o seu público-alvo."
 
+A seção **Enrichment data** está disponível nas atividades **Enrichment** e **Build audience** (tipo de consulta). Ele permite aprimorar os dados direcionados com informações adicionais do banco de dados, por exemplo, referências de contrato ou assinaturas de boletim informativo. Esses dados são armazenados com o público na **tabela de trabalho** do fluxo de trabalho e estão disponíveis para as atividades seguintes. Você pode adicionar atributos de enriquecimento únicos, links de coleção ou expressões e acessar opções avançadas.
 
+Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecimento. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
 
-1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecimento. [Saiba como selecionar atributos e adicioná-los aos favoritos](../../get-started/attributes.md).
+Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da target dimension ou um link de coleção. Cada tipo é detalhado nos exemplos abaixo:
 
-   Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da target dimension ou um link de coleção. Cada tipo é detalhado nos exemplos abaixo:
-   * [Atributo único de enriquecimento](#single-attribute)
-   * [Link de coleção](#collection-link)
+* [Atributo único de enriquecimento](#single-attribute)
+* [Link de coleção](#collection-link)
 
-   >[!NOTE]
-   >
-   >O **botão Editar expressão** na tela de seleção de atributo permite criar expressões avançadas para selecionar o atributo. [Saiba como trabalhar com o editor de expressão](../../query/expression-editor.md).
+>[!NOTE]
+>
+>O **botão Editar expressão** na tela de seleção de atributo permite criar expressões avançadas para selecionar o atributo. [Saiba como trabalhar com o editor de expressão](../../query/expression-editor.md).
 
-   ![Captura de tela mostrando a tela de seleção de dados de enriquecimento](../assets/workflow-enrichment1.png)
+![Captura de tela mostrando a tela de seleção de dados de enriquecimento](../assets/workflow-enrichment1.png)
+
+Depois de adicionar pelo menos um atributo de enriquecimento, clique em **[!UICONTROL Parâmetros avançados]** para configurar como os dados de enriquecimento serão compilados, incluindo dados de agrupamento, eliminação de duplicatas, tratamento de chaves primárias e eventos de entrada. Essas opções espelham o Console do cliente e se destinam a cenários avançados de fluxo de trabalho.
+
+![Captura de tela mostrando os parâmetros avançados de enriquecimento](../assets/workflow-query-advanced-parameters.png)
+
+>[!NOTE]
+>
+>As opções disponíveis diferem entre as atividades **Criar público** e **Enriquecimento**.
+
+As seguintes opções estão disponíveis para cada atividade:
+
++++ Criar atividade de público (tipo de consulta)
+
+* **[!UICONTROL Manter todos os dados adicionais do conjunto principal]**: mantém colunas adicionais do conjunto de entrada principal na transição de saída.
+* **[!UICONTROL Agrupar dados por elemento de targeting dimension]**: agrupa o resultado para que cada registro direcionado apareça apenas uma vez.
+* **[!UICONTROL Remover linhas duplicadas (DISTINCT)]**: remove linhas duplicadas do conjunto de resultados.
+* **[!UICONTROL Desabilitar adição automática das chaves primárias da targeting dimension]**: impede que a atividade adicione automaticamente chaves primárias da targeting dimension ao resultado.
+* **[!UICONTROL Desabilitar a filtragem automática de 0 registros de ID]**: mantém registros cujo valor de identificador é 0 em vez de filtrá-los automaticamente.
+* **[!UICONTROL Usar dados do evento de entrada]**: usa dados da transição de entrada como a entrada de trabalho da atividade.
+
++++
+
++++ Atividade de enriquecimento
+
+* **[!UICONTROL Agrupar dados por elemento de targeting dimension]**: agrupa o resultado para que cada registro direcionado apareça apenas uma vez.
+* **[!UICONTROL Remover linhas duplicadas (DISTINCT)]**: remove linhas duplicadas do conjunto de resultados.
+* **[!UICONTROL Desabilitar a filtragem automática de 0 registros de ID]**: mantém registros cujo valor de identificador é 0 em vez de filtrá-los automaticamente.
+* **[!UICONTROL Adicionar um identificador para cada linha do resultado]**: adiciona um identificador exclusivo para cada linha de saída.
+
++++
 
 ## Crie links entre tabelas {#create-links}
 

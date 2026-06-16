@@ -6,10 +6,10 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 53%
+source-wordcount: 518
+ht-degree: 52%
 
 ---
 
@@ -63,7 +63,7 @@ Para criar sua própria query, siga estas etapas:
 1. Escolha a **Dimensão do filtro** clicando no ícone ao lado da targeting dimension. A dimensão de filtro permite aplicar filtros ao público-alvo fazendo referência a critérios relacionados sem alterar a dimensão de direcionamento principal. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#filtering)
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
-1. Use a seção **Enrichment data** para aprimorar os dados direcionados com informações adicionais do banco de dados, por exemplo, referências de contrato ou assinaturas de boletim informativo. Esses dados são armazenados com o público na **tabela de trabalho** do fluxo de trabalho e estão disponíveis para as atividades seguintes. Você pode adicionar atributos de enriquecimento únicos, links de coleção ou expressões. Para obter etapas e exemplos detalhados, consulte [Adicionar dados de enriquecimento](enrichment.md#enrichment-add).
+1. Use a seção **Enrichment data** para aprimorar os dados direcionados com informações adicionais do banco de dados, por exemplo, referências de contrato ou assinaturas de boletim informativo. Esses dados são armazenados com o público na **tabela de trabalho** do fluxo de trabalho e estão disponíveis para as atividades seguintes. Você pode adicionar atributos de enriquecimento únicos, links de coleção ou expressões e acessar opções avançadas. Para obter etapas e exemplos detalhados, consulte [Adicionar dados de enriquecimento](enrichment.md#enrichment-add).
 
 >[!TAB Ler público-alvo]
 

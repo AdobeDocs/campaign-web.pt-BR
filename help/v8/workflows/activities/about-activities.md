@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 25%
+source-wordcount: 583
+ht-degree: 19%
 
 ---
 
@@ -66,19 +66,9 @@ O Adobe Campaign Web permite automatizar e executar campanhas de marketing em v�
 ## Atividades de controle de fluxo {#flow-control}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="Finalizar atividade"
->abstract="A atividade **Fim** permite marcar graficamente o final de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="Atividade de término"
 >abstract="A atividade **Iniciar** permite marcar graficamente o início de um fluxo de trabalho. Essa atividade não tem impacto funcional e, portanto, é opcional."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_signal"
->title="Sinal externo"
->abstract="Espaço reservado da seção de sinais externos nos parâmetros da atividade final. Disponível somente para campanhas orquestradas. NÃO EXCLUIR"
 
 As atividades a seguir são específicas para organizar e executar fluxos de trabalho. Sua principal tarefa é coordenar as outras atividades:
 
@@ -86,7 +76,7 @@ As atividades a seguir são específicas para organizar e executar fluxos de tra
 * [Bifurcação](fork.md): crie transições de saída para iniciar várias atividades simultaneamente.
 * [Ingressar](join.md): sincroniza várias ramificações de execução de um fluxo de trabalho.
 * [Agendador](scheduler.md): agendar quando o fluxo de trabalho será iniciado.
-* **Início** e **Fim**: marca graficamente o início e o fim de um fluxo de trabalho. Eles são opcionais e não têm impacto funcional por conta própria.
+* **Início** e [Fim](end.md): marca graficamente o início e o fim de um fluxo de trabalho. Eles são opcionais e não têm impacto funcional por conta própria.
 
   >[!NOTE]
   >
