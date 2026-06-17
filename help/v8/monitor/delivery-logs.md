@@ -4,12 +4,11 @@ title: Monitorar logs da entrega
 description: Saiba como monitorar logs da entrega
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 58%
+source-wordcount: 456
+ht-degree: 54%
 
 ---
 
@@ -23,6 +22,10 @@ ht-degree: 58%
 Depois que a entrega estiver preparada e você clicar no botão **Enviar**, navegue até os logs de entrega para verificar os dados de avisos, erros, status, exclusões e rastreamento. Esses logs podem ser acessados diretamente do painel de mensagens. Eles mostram os detalhes do envio, o target que foi excluído e o motivo, bem como as informações de rastreamento, como aberturas e cliques.
 
 Para visualizar os logs, acesse o painel da entrega e clique no botão **Logs**.
+
+>[!TIP]
+>
+>Cada guia de log pode ser exportada como um arquivo CSV usando o botão **Exportar linhas carregadas como CSV** acima da lista. Saiba mais em [Exportar dados da lista](../get-started/list-filters.md#export-list).
 
 As seguintes guias estão disponíveis:
 
@@ -43,13 +46,13 @@ Todas as etapas de validação, avisos e erros são listados. Os ícones colorid
 * O ícone amarelo indica um erro de processamento não crítico.
 * O ícone vermelho indica um erro crítico que impede o envio da entrega. Erros críticos devem ser corrigidos para que o delivery seja enviado.
 
-Guia Logs ![&#x200B; mostrando etapas de validação, avisos e erros com ícones coloridos indicando tipos de mensagem.](assets/logs.png){zoomable="yes"}
+Guia Logs ![ mostrando etapas de validação, avisos e erros com ícones coloridos indicando tipos de mensagem.](assets/logs.png){zoomable="yes"}
 
 ## Entregas {#deliveries-tab}
 
 A guia **Logs de envio** contém o histórico de todas as ocorrências da entrega. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status da entrega para cada destinatário.
 
-Guia ![&#x200B; Entregas mostrando um histórico das mensagens enviadas e seus status.](assets/logs2.png){zoomable="yes"}
+Guia ![ Entregas mostrando um histórico das mensagens enviadas e seus status.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusões {#exclusion-tab}
 
