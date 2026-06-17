@@ -8,16 +8,16 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 325
-ht-degree: 100%
+source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
+workflow-type: tm+mt
+source-wordcount: 433
+ht-degree: 72%
 
 ---
 
 # Procurar e filtrar listas {#list-screens}
 
-A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. É possível personalizar a exibição das listas e filtrá-las como detalhado abaixo.
+A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. Você pode personalizar a exibição da lista, filtrar essas listas e exportar dados da lista como arquivos CSV, conforme detalhado abaixo.
 
 ## Personalizar telas de lista {#custom-lists}
 
@@ -52,6 +52,18 @@ Para encontrar itens mais rapidamente, você pode usar a barra de pesquisa ou os
 ![A captura de tela mostra as opções de filtro disponíveis para refinar a exibição de lista.](assets/filter.png){zoomable="yes"}{width="70%"}
 
 Informações detalhadas sobre como usar filtros e criar os seus próprios filtros personalizados estão disponíveis [nesta seção](../query/filter.md).
+
+## Exportar dados da lista {#export-list}
+
+Você pode exportar dados de qualquer tela de lista, incluindo logs de rastreamento. Para exportar uma lista, siga estas etapas:
+
+1. Abra a lista que deseja exportar.
+1. Ajuste as colunas exibidas e aplique a pesquisa ou os filtros desejados. A exportação leva em conta as colunas exibidas na tela e qualquer pesquisa ou filtro ativo.
+1. Role para baixo para exibir mais linhas, se necessário. Somente as linhas atualmente carregadas na lista são exportadas.
+1. Clique no botão **Exportar linhas carregadas como CSV** acima da lista. O arquivo é salvo na pasta de download padrão do navegador.
+
+![A captura de tela mostra a exportação de uma lista.](assets/filter-export.png){zoomable="yes"}
+
 
 <!--
 ## Use advanced attributes {#adv-attributes}
