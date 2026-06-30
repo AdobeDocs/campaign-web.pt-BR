@@ -4,20 +4,18 @@ title: Procurar e filtrar listas
 description: Saiba como procurar e filtrar listas no Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 433
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Procurar e filtrar listas {#list-screens}
 
-A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. Você pode personalizar a exibição da lista, filtrar essas listas e exportar dados da lista como arquivos CSV, conforme detalhado abaixo.
+A maioria dos links do menu de navegação esquerdo exibe listas de objetos, como a lista de **Entregas** ou **Campanhas**. Algumas dessas telas de lista são de somente leitura. Você pode personalizar a exibição das listas, filtrá-las e exportar os dados das listas como arquivos CSV, conforme detalhado a seguir.
 
 ## Personalizar telas de lista {#custom-lists}
 
@@ -55,12 +53,12 @@ Informações detalhadas sobre como usar filtros e criar os seus próprios filtr
 
 ## Exportar dados da lista {#export-list}
 
-Você pode exportar dados de qualquer tela de lista, incluindo logs de rastreamento. Para exportar uma lista, siga estas etapas:
+É possível exportar dados de qualquer tela de lista, incluindo registros de rastreamento. Para exportar uma lista, siga estas etapas:
 
-1. Abra a lista que deseja exportar.
-1. Ajuste as colunas exibidas e aplique a pesquisa ou os filtros desejados. A exportação leva em conta as colunas exibidas na tela e qualquer pesquisa ou filtro ativo.
-1. Role para baixo para exibir mais linhas, se necessário. Somente as linhas atualmente carregadas na lista são exportadas.
-1. Clique no botão **Exportar linhas carregadas como CSV** acima da lista. O arquivo é salvo na pasta de download padrão do navegador.
+1. Abra a lista que você deseja exportar.
+1. Ajuste as colunas exibidas e aplique a pesquisa ou os filtros desejados. A exportação leva em consideração as colunas exibidas na tela e quaisquer pesquisas ou filtros ativos.
+1. Role a página para baixo para exibir mais linhas, se necessário. Apenas as linhas atualmente carregadas na lista são exportadas.
+1. Clique no botão **Exportar linhas carregadas como CSV** acima da lista. O arquivo é salvo na pasta padrão de downloads do navegador.
 
 ![A captura de tela mostra a exportação de uma lista.](assets/filter-export.png){zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2026 da interface do Campaign Web
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -219,11 +219,11 @@ _27 de janeiro de 2026_
 <tbody>
 <tr>
 <td>
-<p>O recurso Delivery multilíngue agora está disponível para todos os clientes (GA). Esse recurso permite enviar várias mensagens em diferentes idiomas na Interface do usuário da Web do Adobe Campaign. Você pode escolher o idioma padrão do delivery, bem como os diferentes idiomas nos quais o delivery pode ser enviado. Você também pode visualizar esses deliveries nos idiomas escolhidos. 
+<p>O recurso Entrega multilíngue já está disponível para todos os clientes (GA). Esse recurso permite enviar várias mensagens em diferentes idiomas na interface de usuário da Web do Adobe Campaign. Você pode escolher o idioma padrão da sua entrega, bem como os diferentes idiomas nos quais ela pode ser enviada. Também é possível visualizar essas entregas nos idiomas escolhidos. 
 <p>Para obter mais informações, consulte a <a href="../msg/multilingual.md">documentação detalhada</a>.</p>
 <p>As seguintes melhorias foram realizadas nas notificações por push multilíngues:</p>
 <ul>
-<li>Agora é possível preencher rapidamente todas as variantes de idioma fazendo upload de um arquivo CSV com seu conteúdo multilíngue. <a href="../msg/multilingual.md#csv-upload">Leia mais</a>
+<li>Agora você pode preencher rapidamente todas as variantes de idioma fazendo o upload de um arquivo CSV contendo seu conteúdo multilíngue. <a href="../msg/multilingual.md#csv-upload">Leia mais</a>
 </li>
 <li>Agora há suporte para notificações por push avançadas.</li>
 </td>
