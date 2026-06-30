@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 19%
+source-wordcount: 648
+ht-degree: 18%
 
 ---
 
@@ -48,7 +48,7 @@ Para criar o conteúdo do arquivo de extração gerado pela entrega de correspon
    * **[!UICONTROL Separador de coluna]** (formato de texto): especifique o caractere a ser usado como separador de coluna no arquivo de extração.
    * **[!UICONTROL Delimitador de cadeia de caracteres]** (Formato de texto): especifique como delimitar cadeias de caracteres no arquivo de extração.
    * **[!UICONTROL Fim da linha]** (Formato de texto): especifique como delimitar o fim das linhas no arquivo de extração.
-   * **[!UICONTROL Codificação]**: escolha a codificação do arquivo de extração.
+   * **[!UICONTROL Codificação]**: escolha a codificação do arquivo de extração. A codificação padrão é **Latin-1 (1252)**. Ao criar entregas de correspondência direta direcionadas a destinatários em idiomas CJK (japonês, coreano, chinês simplificado, chinês tradicional), selecione **UTF-8 (65001)**. O Latin-1 não pode representar caracteres CJK e resultará em uma visualização de arquivo vazia.
    * **[!UICONTROL Formato de data e separadores]**: especifique como as datas devem ser formatadas no arquivo de extração.
    * **[!UICONTROL Formato de número]**: especifique como os números devem ser formatados no arquivo de extração.
    * **[!UICONTROL Exportar rótulos em vez de valores internos de enumerações]**: ative esta opção se exportar valores de enumeração e quiser recuperar rótulos de coluna, que são mais fáceis de entender, em vez de IDs internas.
