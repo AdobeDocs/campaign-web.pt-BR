@@ -9,7 +9,7 @@ product_v2:
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 33%
+ht-degree: 42%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Atividade de desduplicação"
->abstract="A atividade de **desduplicação** exclui duplicatas dos resultados das atividades de entrada. Ela é usada principalmente após atividades de direcionamento e antes de atividades que usam dados direcionados. Quando mais de uma transição de entrada estiver disponível, use a seção **Conjuntos para ingressar** para selecionar quais transições se conectar à atividade."
+>abstract="A atividade de **desduplicação** exclui duplicatas dos resultados das atividades de entrada. Ela é usada principalmente após atividades de direcionamento e antes de atividades que usam dados direcionados. Quando houver mais de uma transição de entrada disponível, use a seção **Conjuntos para unificação** para selecionar quais transições serão conectadas à atividade."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
->title="Conjuntos para unir"
->abstract="Verifique as atividades anteriores que deseja conectar como transições de entrada da atividade **Desduplicação**. As atividades selecionadas são conectadas à **Eliminação de Duplicação**. Esta seção é exibida somente quando mais de uma transição de entrada está disponível para ser conectada à atividade."
+>title="Conjuntos para unificação"
+>abstract="Verifique as atividades anteriores que deseja conectar como transições de entrada da atividade **Desduplicação**. As atividades selecionadas são então conectadas à **Desduplicação**. Esta seção é exibida somente quando mais de uma transição de entrada está disponível para ser conectada à atividade."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
