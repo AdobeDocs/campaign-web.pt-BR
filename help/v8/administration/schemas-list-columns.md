@@ -1,14 +1,20 @@
 ---
 title: Configurar colunas da lista padrão
 description: Saiba como configurar quais colunas são exibidas por padrão nas exibições de lista.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 3%
 
 ---
 
 # Configurar colunas da lista {#list-columns}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="Configuração da lista de inventário"
+>abstract="Configure quais colunas são exibidas por padrão nas exibições de lista. Cada coluna mostra seu rótulo e o atributo correspondente."
 
 A seção **[!UICONTROL Configuração da lista de inventário]** permite configurar quais colunas são exibidas por padrão nos modos de exibição de lista. Cada coluna mostra seu rótulo e o atributo correspondente.
 
