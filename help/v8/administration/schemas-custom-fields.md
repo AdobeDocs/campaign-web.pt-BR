@@ -15,7 +15,7 @@ ht-degree: 8%
 >id="acw_schema_detail_screen_configuration"
 >title="Configuração detalhada da tela"
 >abstract="Configure quais campos personalizados serão exibidos nas telas de detalhes e organize-os em seções. Adicione listas de coleções para mostrar dados relacionados em telas de perfil."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="Adicionar listas de coleção"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=pt-BR" text="Adicionar listas de coleção"
 
 Os campos personalizados são atributos adicionais adicionados a esquemas prontos para uso por meio do console do Adobe Campaign. Eles permitem que você personalize esquemas, incluindo novos atributos para atender às necessidades da sua organização.
 
