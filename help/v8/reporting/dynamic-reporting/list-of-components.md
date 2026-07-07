@@ -1,12 +1,12 @@
 ---
 title: Lista de componentes
-description: Encontre aqui a lista de todos os componentes disponíveis em     Relatórios dinâmicos, bem como suas definições.
+description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
 level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '764'
 ht-degree: 2%
 
 ---
