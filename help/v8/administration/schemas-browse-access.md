@@ -1,14 +1,20 @@
 ---
 title: Procurar e acessar esquemas
 description: Saiba como procurar e acessar esquemas na interface.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
+source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
 
-# Acessar e configurar schemas {#access}
+# Acessar e configurar esquemas {#access}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_action_data"
+>title="Ações em dados"
+>abstract="Configure as ações disponíveis para as telas de detalhes e de lista do esquema. Habilite **[!UICONTROL Somente leitura]** para definir a tela de detalhes como somente leitura e remover ações da lista. Habilitar **[!UICONTROL Não permitir exclusão]** para remover a ação de exclusão das telas de detalhes e listas."
 
 Os esquemas podem ser acessados no menu **[!UICONTROL Administração]** > **[!UICONTROL Esquemas]**.
 
