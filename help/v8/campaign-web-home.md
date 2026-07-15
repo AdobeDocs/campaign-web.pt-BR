@@ -4,16 +4,12 @@ description: Central de ajuda do Campaign Web
 title: Documentação do produto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e6737eef2f3566d5a62f36e54ae02d81fbb1716c
-workflow-type: ht
-source-wordcount: 523
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
+workflow-type: tm+mt
+source-wordcount: 707
 ht-degree: 100%
 
 ---
@@ -93,7 +89,7 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="get-started/get-started.md#web"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>Conheça a nova interface</strong><br/>Explore a nova interface e a experiência de navegação do Adobe Campaign Web integrada à Adobe Experience Platform.</div>
     </td>
     <td>
@@ -110,7 +106,7 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="get-started/get-started.md#web"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
@@ -124,28 +120,28 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introdução</strong><br/><a href="get-started/user-interface.md">Interface</a> – <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> – <a href="get-started/permissions.md">Acesso e permissões</a>
+      <strong>Introdução</strong><br/><a href="get-started/get-started.md#web">Interface</a> - <a href="get-started/connect-to-campaign.md">Conectar ao Campaign</a> - <a href="get-started/permissions.md">Acesso e permissões</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanha</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
+      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanhas</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Pré-visualização e teste</a> 
+      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> - <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Visualizar e testar</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consulta</a>
+      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consultas</a>
     </td>
   </tr>
 </table>
 
 ## Recursos adicionais
 
-* [Descrição de produto do Adobe Campaign](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Descrição de produto do Adobe Campaign](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Documentação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=pt-BR){target="_blank"}
 * [Pixels de rastreamento de email e orientação da CNIL](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
