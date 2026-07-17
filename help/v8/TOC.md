@@ -5,8 +5,9 @@ user-guide-description: Documentação do produto da interface do Adobe Campaign
 title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
-workflow-type: ht
+nudge: true
+source-git-commit: 293bf499d4021160420bd9698cecf594919de9c3
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
