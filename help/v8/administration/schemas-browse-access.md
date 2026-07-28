@@ -2,19 +2,14 @@
 title: Procurar e acessar esquemas
 description: Saiba como procurar e acessar esquemas na interface.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 3%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
 # Acessar e configurar esquemas {#access}
-
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="Ações em dados"
->abstract="Configure as ações disponíveis para as telas de detalhes e de lista do esquema. Habilite **[!UICONTROL Somente leitura]** para definir a tela de detalhes como somente leitura e remover ações da lista. Habilitar **[!UICONTROL Não permitir exclusão]** para remover a ação de exclusão das telas de detalhes e listas."
 
 Os esquemas podem ser acessados no menu **[!UICONTROL Administração]** > **[!UICONTROL Esquemas]**.
 
@@ -65,5 +60,7 @@ Para acessar a definição da tela:
 Na definição da tela, é possível:
 
 * [Configurar colunas de lista padrão](schemas-list-columns.md) - Configure quais colunas são exibidas por padrão nos modos de exibição de lista.
+* [Adicionar filtros personalizados](schemas-custom-filters.md) - Adicione campos de filtro de acesso rápido no painel de filtros de um modo de exibição de lista.
 * [Editar campos personalizados](schemas-custom-fields.md) - Configure quais campos personalizados serão exibidos em telas de detalhes e organize-os em seções.
 * [Adicionar listas de coleções](schemas-collection-lists.md) - Adicione listas de coleções para mostrar dados relacionados em telas de perfil.
+* [Controlar ações nos dados](schemas-action-data.md) - Restringir ações de criação, edição e exclusão para esquemas personalizados.

@@ -4,18 +4,17 @@ title: Criar fluxos de trabalho com o Adobe Campaign Web
 description: Saiba como criar fluxos de trabalho com o Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 10%
+source-wordcount: 1720
+ht-degree: 8%
 
 ---
 
 # Orquestrar atividades {#orchestrate}
 
-Depois de [criar um fluxo de trabalho](create-workflow.md), seja no menu de fluxo de trabalho ou em uma campanha, você pode começar a orquestrar as diferentes tarefas que ele realiza. Para fazer isso, uma tela visual é fornecida, permitindo que você crie um diagrama de workflow. Neste diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial.
+Depois de [criar um fluxo de trabalho](create-workflow.md), seja no menu de fluxo de trabalho ou em uma campanha, você pode começar a orquestrar as diferentes tarefas que ele realiza. Para fazer isso, uma tela visual é fornecida, permitindo que você crie um diagrama de workflow. Neste diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial. Barras de rolagem horizontais e verticais são exibidas ao redor da tela, permitindo navegar em fluxos de trabalho grandes arrastando diretamente para a área que deseja visualizar.
 
 ## Adicionar atividades {#add}
 
@@ -31,7 +30,7 @@ Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido
 
 Repita esse processo para adicionar quantas atividades forem necessárias, dependendo das tarefas que seu workflow realiza. Você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no botão **+** na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
 
-Para remover uma atividade, selecione-a na tela e clique no ícone **Excluir** nas propriedades da atividade.
+Para remover uma atividade, selecione-a na tela e clique no ícone **Excluir** nas propriedades da atividade. Consulte [Excluir e desconectar atividades](#delete) para obter as opções disponíveis.
 
 >[!TIP]
 >
@@ -39,7 +38,7 @@ Para remover uma atividade, selecione-a na tela e clique no ícone **Excluir** n
 
 ## A barra de ferramentas {#toolbar}
 
-A barra de ferramentas, localizada no canto superior direito da tela, fornece opções para manipular facilmente as atividades e navegar nela:
+A barra de ferramentas, localizada no canto superior direito da tela, fornece opções para manipular facilmente as atividades e navegar na tela.
 
 * **Modo de seleção múltipla**: selecione várias atividades para excluí-las todas de uma vez ou copie-as e cole-as. Consulte [esta seção](#copy).
 * **Adicionar ramificação**: clique no botão **+** na barra de ferramentas para criar uma ramificação de execução separada na tela. O resultado é equivalente a usar uma [Bifurcação](activities/fork.md) para caminhos paralelos, mas o diagrama é graficamente mais claro.
@@ -58,7 +57,7 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 
 Você pode:
 
-* **Excluir** a atividade da tela.
+* **Excluir** a atividade da tela. Consulte [esta seção](#delete-activity).
 * **Desabilitar/Habilitar** a atividade. Quando o workflow é executado, as atividades desativadas e as atividades a seguir no mesmo caminho não são executadas e o workflow é interrompido.
 * **Pausar/Retomar** a atividade. Quando o workflow é executado, ele é pausado na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
 * **Copiar** a atividade. Consulte [esta seção](#copy).
@@ -103,6 +102,58 @@ Para mover uma atividade:
 1. Selecione a transição em que deseja colocar a atividade e sua transição de saída e, em seguida, confirme.
 
 ![Mover atividade e nós filhos](assets/activity-move.png)
+
+## Excluir e desconectar atividades {#delete}
+
+### Excluir uma atividade {#delete-activity}
+
+Para excluir uma atividade, selecione-a na tela e clique no ícone **Excluir** nas propriedades da atividade. Uma caixa de diálogo de confirmação é exibida.
+
+* Se a atividade não estiver conectada a nenhuma outra atividade, confirme para excluí-la.
+
+  ![Excluir atividade simples](assets/workflow-delete.png)
+
+* Se a atividade estiver conectada a uma ou mais atividades subsequentes, escolha como manipulá-las:
+
+  ![Excluir atividade múltipla](assets/workflow-delete2.png)
+
+  * **Excluir todas as atividades subsequentes**: remove a atividade e todas as atividades que a seguem no mesmo caminho.
+  * **Excluir apenas esta atividade**: remove apenas a atividade selecionada e reconecta o caminho restante. Essa opção só estará disponível quando a atividade tiver um único sucessor.
+  * **Excluir e criar uma nova ramificação**: remove a atividade selecionada, mas mantém suas atividades subsequentes, movendo-as para uma ramificação nova e separada.
+
+Clique em **Excluir** para confirmar sua escolha ou em **Cancelar** para fechar a caixa de diálogo sem excluir nada.
+
+### Desconectar uma transição {#disconnect-transition}
+
+Você pode desconectar duas atividades sem excluir nenhuma delas. As atividades colocadas após a transição desconectada não são excluídas: elas são movidas para uma nova ramificação separada do fluxo de trabalho.
+
+Isso permite reorganizar um diagrama de workflow, por exemplo, para separar temporariamente um grupo de atividades que você deseja manter, sem precisar excluí-las e recriá-las.
+
+Você pode fazer isso em uma única transição:
+
+1. Selecione a transição que deseja desconectar.
+
+1. Clique no ícone **Desconectar** nas propriedades de transição.
+
+   ![Ícone Desconectar no painel de propriedades de transição](assets/workflow-transition.png)
+
+   Esse ícone só está disponível quando a transição leva a uma atividade downstream. Uma caixa de diálogo de confirmação é exibida.
+
+1. Clique em **Desconectar** para confirmar ou em **Cancelar** para fechar a caixa de diálogo sem desconectar nada.
+
+   ![Caixa de diálogo de confirmação para desconectar a transição](assets/workflow-transition2.png)
+
+Se a atividade de origem tiver várias transições de saída (por exemplo, uma atividade **Split** com várias ramificações de resultados ou uma atividade **Fork**), você poderá remover qualquer uma delas individualmente no painel de propriedades da própria atividade:
+
+1. Selecione a atividade e localize a transição que deseja remover na seção **Segmento**.
+
+1. Clique no ícone de lixeira ao lado dessa transição. Uma caixa de diálogo de confirmação é exibida.
+
+   ![Ícone de lixeira ao lado de um resultado de segmento](assets/workflow-transition3.png)
+
+1. Clique em **Remover** para confirmar ou em **Cancelar** para fechar a caixa de diálogo sem remover nada.
+
+   ![Caixa de diálogo de confirmação Remover transição](assets/workflow-transition4.png)
 
 ## Opções de execução {#execution}
 
@@ -155,9 +206,9 @@ Para isso, foram adicionadas as seguintes atividades:
 
 * Uma atividade **[!UICONTROL Fork]** que divide o fluxo de trabalho em três caminhos (um para cada conjunto de clientes),
 * **[!UICONTROL Crie atividades de público-alvo]** para direcionar os três conjuntos de clientes:
-   * Clientes com um email,
-   * Clientes pertencentes ao público-alvo pré-existente &quot;Interessado em máquinas de café&quot;,
-   * Clientes pertencentes ao público-alvo pré-existente &quot;VIP para premiar&quot;.
+  * Clientes com um email,
+  * Clientes pertencentes ao público-alvo pré-existente &quot;Interessado em máquinas de café&quot;,
+  * Clientes pertencentes ao público-alvo pré-existente &quot;VIP para premiar&quot;.
 * Uma atividade **[!UICONTROL Combine]** que agrupa clientes com um email e aqueles interessados em máquinas de café,
 * Uma atividade **[!UICONTROL Combine]** que exclui clientes do VIP,
 * Uma atividade de **[!UICONTROL Entrega de email]** que envia um email para os clientes resultantes.

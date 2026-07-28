@@ -2,16 +2,37 @@
 title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2026 da interface do Campaign Web
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: ht
-source-wordcount: '1204'
-ht-degree: 100%
+source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 98%
 
 ---
 
 # Notas de versão de 2026 {#2026-release}
 
 Esta página lista todas as alterações e melhorias disponíveis nas **versões de 2026**. As notas de versão mais recentes estão disponíveis [nesta página](release-notes.md).
+
+## Versão de junho de 2026 {#26-6-release}
+
+_16 de junho de 2026_
+
+### Aprimoramentos {#26-6-improvements}
+
+<!--
+* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
+-->
+
+* Agora é possível exportar dados de qualquer tela de listas, incluindo logs de rastreamento. Encontre sua lista e simplesmente clique no botão de exportação. A exportação inclui as linhas carregadas no momento e leva em conta as colunas exibidas na tela e em quaisquer pesquisas ou filtros ativos. [Saiba mais](../get-started/list-filters.md)
+
+* As atividades de fluxo de trabalho **Desduplicação** e **Fim** agora oferecem suporte a várias transições de entrada. Quando mais de uma transição de entrada estiver disponível, use a seção **Conjuntos para ingressar** na atividade
+para selecionar quais transições conectar. Saiba mais nestas páginas: [Desduplicação](../workflows/activities/deduplication.md), [Fim](../workflows/activities/end.md)
+
+* Parâmetros avançados agora estão expostos na seção **Dados de enriquecimento** das atividades de fluxo de trabalho **Criar público-alvo** (tipo de consulta) e **Enriquecimento**. Esses parâmetros permitem ajustar com precisão como os dados de enriquecimento são criados, incluindo agrupamento, desduplicação, tratamento da chave primária e dados do evento de entrada. [Saiba mais](../workflows/activities/enrichment.md)
+
+<!--
+* Delivery templates now allow you to define a time zone in the Schedule settings.
+-->
 
 ## Versão de abril de 2026 {#26-4-release}
 

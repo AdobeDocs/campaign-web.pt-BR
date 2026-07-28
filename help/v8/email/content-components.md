@@ -4,14 +4,12 @@ title: Usar componentes de conteúdo do Designer de email
 description: Saiba como usar componentes de conteúdo em seus emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 34%
+source-wordcount: 1517
+ht-degree: 30%
 
 ---
 
@@ -116,7 +114,7 @@ Use o componente **[!UICONTROL Texto]** para inserir texto no email e ajustar o 
    * **[!UICONTROL Criar lista]**: adicionar listas de marcadores ou números ao texto.
    * **[!UICONTROL Definir cabeçalho]**: adicione até seis níveis de cabeçalho ao texto.
    * **Tamanho da fonte**: selecione o tamanho da fonte do texto em pixels.
-   * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto.
+   * **[!UICONTROL Editar imagem]**: adicione uma imagem ao seu componente de texto da biblioteca do Adobe Experience Manager Assets, do seu computador ou reutilize uma imagem disponível na sua instância do Adobe Campaign. [Saiba mais](#image)
    * **[!UICONTROL Mostrar o código-fonte]**: exibir o código-fonte do texto. Ele não pode ser modificado.
    * **[!UICONTROL Duplicar]**: adicione uma cópia do seu componente de texto.
    * **[!UICONTROL Excluir]**: exclua o componente de texto selecionado do seu email.
@@ -153,27 +151,53 @@ Use o componente **[!UICONTROL HTML]** para copiar e colar partes do HTML existe
 
 ## Imagem {#image}
 
->[!IMPORTANT]
->
->O acesso ao menu do Assets é limitado aos usuários com uma licença ativa do Adobe Experience Manager as a Cloud Service. Se você não tiver essa licença, o menu do Assets não estará disponível.
-
-Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do seu computador no email.
+Use o componente **[!UICONTROL Imagem]** para inserir uma imagem no email.
 
 1. No menu **[!UICONTROL Conteúdo]**, arraste e solte a **[!UICONTROL Imagem]** em um componente de **[!UICONTROL Estrutura]**.
 
    ![Captura de tela que mostra como arrastar e soltar um componente de imagem no Designer de email.](assets/email_designer_9.png){zoomable="yes"}
 
-1. Clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos. Você também pode optar por **[!UICONTROL Importar sua mídia]**.
+1. Escolha uma das seguintes opções para adicionar a imagem:
 
-   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=pt-BR).
+   ![Captura de tela mostrando as opções de componentes de imagem no Designer de email.](assets/email_designer_28.png){zoomable="yes"}
 
-   ![Captura de tela mostrando a opção de navegação para componentes de imagem no Designer de Email.](assets/email_designer_28.png){zoomable="yes"}
+   +++**[!UICONTROL Procurar]**
 
-1. Navegue pelas pastas para localizar o ativo específico necessário ou use a barra de pesquisa para localizá-lo com eficiência.
+   Escolha essa opção para selecionar uma imagem da biblioteca do Adobe Experience Manager Assets.
 
-   Depois de encontrar o ativo que você está procurando, clique em **[!UICONTROL Selecionar]**.
+   >[!IMPORTANT]
+   >
+   >Essa opção requer uma licença ativa do Adobe Experience Manager as a Cloud Service.
+
+   Navegue pelas pastas para localizar o ativo específico necessário ou use a barra de pesquisa para localizá-lo com eficiência. Depois de encontrar o ativo, clique em **[!UICONTROL Selecionar]**.
 
    ![Captura de tela mostrando o processo de seleção de ativos no Designer de email.](assets/email_designer_29.png){zoomable="yes"}
+
+   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
+
+   +++
+
+   +++**[!UICONTROL Importar]**
+
+   Selecione esta opção para carregar uma nova imagem do seu computador. O arquivo é carregado como um recurso público na sua instância do Adobe Campaign.
+
+   +++
+
+   +++**[!UICONTROL Importar recurso público]**
+
+   Escolha essa opção para selecionar uma imagem já disponível em sua instância do Adobe Campaign, como um arquivo importado anteriormente no Designer de email ou como um recurso público do Console do cliente.
+
+   ![Captura de tela mostrando o processo de seleção de recursos públicos no Designer de email.](assets/email_designer_30.png){zoomable="yes"}
+
+   Procure o recurso por nome. Também é possível usar filtros e reorganizar colunas.
+
+   >[!NOTE]
+   >
+   >As restrições de segurança são as mesmas do Console do cliente: você só pode selecionar recursos aos quais tem acesso com base nos direitos do usuário.
+
+   Selecione o recurso e clique em **[!UICONTROL Confirmar]**.
+
+   +++
 
 1. Clique no componente recém-adicionado e configure as propriedades da imagem usando a guia **[!UICONTROL Configurações]**:
 
