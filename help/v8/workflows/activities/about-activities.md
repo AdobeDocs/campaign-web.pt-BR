@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 18%
+source-wordcount: 597
+ht-degree: 19%
 
 ---
 
@@ -52,11 +52,7 @@ Essas atividades são específicas para direcionamento. Eles permitem criar um o
 
 Essas atividades são específicas para manipular e enriquecer dados de população.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_data_loading_rdbms"
->title="Atividade de carregamento de dados (RDBMS)"
->abstract="A atividade **Data loading (RDBMS)** é uma atividade de **Data management**. Use essa atividade para carregar dados diretamente de um banco de dados relacional externo no seu fluxo de trabalho, sem alternar para o console do cliente. Os dados extraídos estão disponíveis em todo o fluxo de trabalho e podem ser usados para direcionamento, enriquecimento ou processamento adicional de dados."
-
+* [Carregamento de dados (RDBMS)](data-loading-rdbms.md): carregue dados diretamente de um banco de dados relacional externo no seu fluxo de trabalho.
 * [Extrair arquivo](extract-file.md): exporte dados do Adobe Campaign para outro sistema como um arquivo externo.
 * [Carregar arquivo](load-file.md): trabalhar com perfis e dados armazenados em um arquivo externo.
 * [Transferir arquivo](transfer-file.md): receber ou enviar arquivos, testar a presença de arquivos ou listar arquivos em um servidor. O protocolo usado pode ser o protocolo servidor para servidor ou o protocolo HTTP.

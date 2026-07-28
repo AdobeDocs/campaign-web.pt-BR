@@ -6,62 +6,111 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
+source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 29%
+source-wordcount: '809'
+ht-degree: 4%
 
 ---
 
 # Configurar marcas {#branding-configure}
 
+Os administradores técnicos podem criar e gerenciar várias marcas diretamente na interface do usuário da Web. Isso permite definir todos os elementos que compõem a identidade da sua marca, incluindo logotipos e até mesmo configurações de rastreamento de email.
+
+>[!NOTE]
+>
+>Esse recurso exige o pacote de marcas na sua instância. Entre em contato com seu representante da Adobe se você não visualizar o menu **Identidade visual**.
+
+## Criar ou editar uma marca {#create-edit-brand}
+
+>[!CONTEXTUALHELP]
+>id="acw_branding_create"
+>title="Criar uma marca"
+>abstract="Clique em **Criar marca** para definir uma nova identidade de marca. Preencha os detalhes da marca nas guias de configuração e clique em **Criar marca** para salvar. A marca fica disponível para ser vinculada a templates de delivery e deliveries independentes."
+
+Para criar uma nova marca, siga estas etapas:
+
+1. Navegue até **[!UICONTROL Administração > Identidade Visual]** no menu esquerdo ou até **[!UICONTROL Administração > Plataforma > Identidade Visual]** no **[!UICONTROL Explorer]**.
+
+1. Clique no botão **[!UICONTROL Criar marca]** acima da lista.
+
+   ![Captura de tela mostrando a criação da marca](assets/branding-create.png)
+
+1. Preencha os detalhes da marca nas diferentes seções. Cada campo é descrito na seção [Atributos da marca](#brand-attributes) abaixo.
+
+   ![Captura de tela mostrando os campos de criação de marca](assets/branding-create2.png)
+
+1. Clique em **[!UICONTROL Criar marca]** para salvar. A marca agora está disponível para ser vinculada a templates de delivery e deliveries independentes. [Saiba como atribuir uma marca](branding-assign.md).
+
+Para editar uma marca existente, selecione-a na lista, atualize os campos e salve as alterações.
+
+## Atributos da marca {#brand-attributes}
+
+Uma **[!UICONTROL Marca]** está configurada em quatro seções: **[!UICONTROL Identidade]**, **[!UICONTROL Configurações de marca]**, **[!UICONTROL Parâmetros de cabeçalho de email]** e **[!UICONTROL Parâmetros de rastreamento de URL]**.
+
+### Identidade {#identity}
+
+A seção **[!UICONTROL Identidade]** permite definir e personalizar sua marca.
+
+![Captura de tela mostrando a guia Identidade ao criar uma marca](assets/branding-create3.png)
+
+Esta seção contém os seguintes campos:
+
+* **[!UICONTROL Marca]**: o nome da sua marca. Este campo é obrigatório.
+* **[!UICONTROL Rótulo]**: o rótulo visível na interface.
+* **[!UICONTROL ID]**: o identificador interno gerado automaticamente. Você pode alterá-lo. Somente letras, dígitos e sublinhados são permitidos. Caracteres especiais são substituídos por sublinhados.
+* **[!UICONTROL URL do logotipo]**: a URL da imagem do logotipo da marca.
+* **[!UICONTROL URL do site]** e **[!UICONTROL Rótulo do site]**: a URL do site e o rótulo associados à marca.
+
+
+### Configurações da marca {#brand-configs}
+
+Na seção **[!UICONTROL Configurações de marca]**, você define os protocolos de subdomínio e URL usados para rastreamento e acesso à página de aterrissagem.
+
+![Captura de tela mostrando a guia Configurações da marca](assets/branding-create4.png)
+
+Esta seção contém os seguintes campos:
+
+* **[!UICONTROL Subdomínio da marca]**: a URL do subdomínio específico dessa marca, solicitado para delegação da Adobe.
+* **[!UICONTROL Protocolo de URL de Rastreamento]**, **[!UICONTROL Protocolo de URL de mirror page]** e **[!UICONTROL Protocolo de URL de aplicativo]**: o protocolo usado para cada tipo de URL (por exemplo, **Seguro (https)**).
+
+>[!NOTE]
+>
+>A configuração de rastreamento, espelhamento e servidores de aplicativos é armazenada em contas externas separadas associadas ao roteamento. Essas configurações são aplicadas durante o provisionamento e não devem ser modificadas. Para exibir URLs, acesse a guia **[!UICONTROL Prefixos de marca]** da sua conta externa.
+
+### Parâmetros de cabeçalho de email {#header-param}
+
+Os **[!UICONTROL Parâmetros de cabeçalho de email]** permitem que você personalize o que os destinatários verão na seção de cabeçalho de suas campanhas.
+
+![Captura de tela mostrando a guia Parâmetros de cabeçalho com campos de cabeçalho de email](assets/branding-create5.png)
+
+Esta seção contém os seguintes campos:
+
+* **[!UICONTROL Remetente (endereço de email)]**: o endereço de email da marca.
+* **[!UICONTROL Remetente (nome)]**: o nome da marca.
+* **[!UICONTROL Responder para (endereço de email)]**: o endereço de email ao qual o cliente pode responder.
+* **[!UICONTROL Responder para (nome)]**: o nome de exibição das respostas.
+* **[!UICONTROL Erro (endereço de email)]**: o endereço de email a ser usado em caso de erro.
+
+<!--
 >[!IMPORTANT]
 >
->As marcas não podem ser criadas ou modificadas pelos usuários finais: essas operações têm de ser efetuadas pelo administrador técnico do Adobe Campaign. Para receber qualquer solicitação, entre em contato com o Atendimento ao cliente da Adobe.
+>After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
+-->
 
-No Adobe Campaign V8, as Marcas podem ser encontradas no menu **[!UICONTROL Administração > Plataforma > Marca]**.
+### Parâmetros de rastreamento de URL {#tracking-param}
 
-Uma **[!UICONTROL Marca]** é definida pelas seguintes características:
+Na seção **[!UICONTROL Parâmetros de rastreamento de URL]**, é possível aprimorar o rastreamento de URL definindo parâmetros adicionais para integração com ferramentas de análise da Web, como Adobe Analytics e Google Analytics.
 
-* Uma **[!UICONTROL identidade]** que define e personaliza sua marca. Esta seção contém os seguintes campos:
+![Captura de tela mostrando parâmetros de rastreamento de URL na guia Parâmetros de cabeçalho](assets/branding-create6.png)
 
-   * **[!UICONTROL Rótulo]** visível na interface
-   * **[!UICONTROL ID]**
-   * **[!UICONTROL Nome da marca]**
-   * **[!UICONTROL URL do site]** e **[!UICONTROL Rótulo do site]** da marca
-   * **[!UICONTROL Logotipo da marca]**
+Esta seção contém os seguintes campos:
 
-  ![](assets/branding_1.png)
+* **[!UICONTROL Parâmetros de URL adicionais]**: adicione parâmetros como pares de valores chave junto com suas condições de aplicabilidade. Cada nome de parâmetro deve ser exclusivo e não vazio, e cada valor de parâmetro deve ser não vazio. A condição de aplicabilidade pode estar vazia, mas nenhum desses valores pode incluir tags JST.
 
-* **[!UICONTROL Parâmetros de cabeçalho de emails enviados]** que personaliza o que os recipients das campanhas verão. Esta seção contém os seguintes campos:
+* **[!UICONTROL Lista de permissões de nomes de domínio]**: adicione nomes de domínio ou expressões regulares para corresponder a URLs nas quais os parâmetros de rastreamento serão anexados.
 
-   * **[!UICONTROL Remetente (endereço de email)]** com o endereço de email da marca.
-   * **[!UICONTROL Remetente (nome)]** com o nome da marca.
-   * **[!UICONTROL Responder a (endereço de email)]** com o endereço de email ao qual o cliente pode responder.
-   * **[!UICONTROL Responder a (nome)]** com o nome da marca.
-   * **[!UICONTROL Erro (endereço de email)]** com o endereço de email que será usado em caso de erro.
-
-  >[!IMPORTANT]
-  >
-  >Após atualizar os parâmetros de cabeçalho dos emails, caso o nome e o endereço de email do remetente não tiverem sido alterados no email criado a partir do modelo, verifique as configurações avançadas do modelo.
-
-  ![](assets/branding_2.png)
-
-* As **[!UICONTROL Configurações de marca]** definem os servidores usados para rastreamento também para acesso à página de aterrissagem. Esta seção contém os seguintes campos:
-
-   * **[!UICONTROL Subdomínio da marca]** refere-se à URL do subdomínio designado específica para essa marca, solicitada para delegação da Adobe.
-
-  Observe que a configuração para rastreamento, espelhamento e servidores de aplicativos é armazenada em contas externas separadas associadas ao roteamento. Essas configurações são aplicadas durante o provisionamento e não devem ser modificadas. Para exibir URLs, acesse a guia **[!UICONTROL Prefixos de marca]** da sua conta externa.
-
-  ![](assets/branding_3.png)
-
-* O menu **[!UICONTROL Configurações de URL de rastreamento]** permite que você aprimore o rastreamento de URL definindo parâmetros adicionais para integração com ferramentas de análise da Web, como Adobe Analytics e Google Analytics.
-
-  Use o menu **[!UICONTROL Parâmetros de URL Adicionais]** para criar parâmetros adicionais como pares de valor-chave junto com suas condições de aplicabilidade. Cada nome de parâmetro deve ser exclusivo e não vazio, e cada valor de parâmetro deve ser não vazio. A condição de aplicabilidade pode estar vazia, mas nenhum desses valores pode incluir tags JST.
-
-  Esses parâmetros serão aplicados às URLs rastreadas que correspondem a qualquer nome de domínio especificado na **[!UICONTROL Lista de Nomes de Domínio]**, que pode incluir expressões regulares.
-
-  **Exemplo:** Uma URL rastreada como `https://www.example.com` se tornará `https://www.example.com/?age=21&deliveryName=DM101` quando os parâmetros adicionais `age=21` e `deliveryName=DM101` estiverem configurados para esse domínio.
+**Exemplo:** Uma URL rastreada como `https://www.luma.com` se tornará `https://www.luma.com/?age=21&deliveryName=DM101` quando os parâmetros adicionais `age=21` e `deliveryName=DM101` estiverem configurados para esse domínio.
 
 ## Configurar identidade visual para mensagens transacionais {#branding-transactional-config}
 

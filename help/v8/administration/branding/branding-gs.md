@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 14%
+source-wordcount: '448'
+ht-degree: 24%
 
 ---
 
@@ -17,16 +17,11 @@ ht-degree: 14%
 
 >[!AVAILABILITY]
 >
->Esse recurso só está disponível sob demanda para novas implementações. Para obter acesso, entre em contato com o representante da Adobe.
-
-
->[!IMPORTANT]
->
->As marcas não podem ser criadas ou modificadas pelos usuários finais: essas operações têm de ser efetuadas pelo administrador técnico do Adobe Campaign. Para receber qualquer solicitação, entre em contato com o Atendimento ao cliente da Adobe.
+>Este recurso está disponível somente sob demanda para novas implementações. Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 Todas as empresas têm diretrizes de marca que definem os elementos visuais e os detalhes técnicos. O Adobe Campaign ajuda você a gerenciar essas diretrizes de maneira central para que possa apresentar uma imagem de marca consistente aos seus clientes em tudo o que você faz, desde logotipos em emails até URLs e domínios usados em suas campanhas.
 
-Os administradores técnicos podem criar e gerenciar várias marcas no Adobe Campaign. Isso permite definir todos os elementos que compõem a identidade da sua marca, incluindo logotipos e até mesmo configurações de rastreamento de email. Depois de criadas, essas marcas podem ser facilmente vinculadas aos seus deliveries.
+Os administradores técnicos podem criar e gerenciar várias marcas diretamente na interface do usuário da Web. Isso permite definir todos os elementos que compõem a identidade da sua marca, incluindo logotipos e até mesmo configurações de rastreamento de email. Depois de criadas, essas marcas podem ser facilmente vinculadas aos seus deliveries. [Saiba como criar e configurar uma marca](branding-configure.md).
 
 Você pode adicionar novas entidades da organização no Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
@@ -42,10 +37,10 @@ Você pode adicionar novas entidades da organização no Campaign ou criar um no
 
 ## Nota de compatibilidade {#compatibility-note}
 
-O novo modelo de identidade visual centralizada não é compatível com a configuração de [identidade visual herdada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} que foi usada anteriormente no Console do Cliente.
+O novo modelo de identidade visual centralizada não é compatível com a configuração de [identidade visual herdada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=pt-BR#configuring-multibranding){target="_blank"} que foi usada anteriormente no Console do Cliente.
 
 Na abordagem herdada, os clientes implementaram a identidade visual estendendo o formulário extAccount e usando a guia **Marca**.
 
-![](assets/branding-legacy.png)
+![Captura de tela mostrando a criação da marca.](assets/branding-legacy.png)
 
-Se o ambiente existente usar essa configuração herdada, ele não poderá ser migrado diretamente para o novo modelo de marca centralizada. É necessária uma reimplementação completa das configurações da marca para a adoção do novo sistema.
+Se o ambiente existente usar essa configuração legada, ele não poderá ser migrado diretamente para o novo modelo de identidade visual centralizada. É necessária uma reimplementação completa das configurações de identidade visual para a adoção do novo sistema.

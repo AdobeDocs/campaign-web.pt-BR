@@ -9,10 +9,10 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 5%
+source-wordcount: 592
+ht-degree: 4%
 
 ---
 
@@ -83,3 +83,17 @@ No exemplo abaixo, uma opção personalizada chamada `sampleOption` é criada co
 1. O valor atualizado agora está visível no menu **[!UICONTROL Opções]**.
 
    ![Menu Opções exibindo o valor atualizado da opção personalizada](assets/options-sample-updated.png)
+
+## Restringir o endereço de email do remetente para entregas {#restrict-sender-address}
+
+Por padrão, os profissionais de marketing podem digitar qualquer endereço no campo **[!UICONTROL Do email]** de uma entrega de email. Para restringir esse campo a uma lista predefinida de endereços, crie ou edite a opção `NmsDelivery_senderAddressMask` interna e defina seu valor como uma lista separada por vírgulas dos endereços de remetente permitidos, por exemplo `abc@adobe.com,bcd@adobe.com`.
+
+![Opção para restringir valores no menu De](assets/option-restrict-from.png)
+
+Depois que esta opção tiver um valor, o campo **[!UICONTROL Do email]** se tornará uma lista suspensa contendo apenas esses endereços, em vez de um campo de texto livre. Se a opção não existir ou seu valor estiver vazio, o campo permanecerá como texto livre, como antes.
+
+![Valores disponíveis em um email](assets/option-restrict-from2.png)
+
+Essa restrição é global. Ela se aplica a todas as marcas e modelos de entrega e não aceita campos de personalização, somente endereços estáticos.
+
+Para obter mais informações sobre o campo **[!UICONTROL Do email]**, consulte [Configurar o conteúdo do email](../email/edit-content.md#edit-content).
