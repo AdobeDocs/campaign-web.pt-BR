@@ -25,7 +25,7 @@ Os administradores técnicos podem criar e gerenciar várias marcas diretamente 
 
 Você pode adicionar novas entidades da organização no Campaign ou criar um novo tipo de email que deve ser enviado em um subdomínio diferente. Para fazer isso, siga as etapas abaixo:
 
-1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio ser usado pela Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com seu contato técnico da Adobe. Saiba mais sobre a configuração de subdomínio [nesta página](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configurar um novo subdomínio** - Para qualquer novo subdomínio ser usado pela Adobe, a primeira etapa será configurá-lo. Você pode fazer isso por meio do [Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR) ou entrar em contato com seu contato técnico da Adobe. Saiba mais sobre a configuração de subdomínio [nesta página](https://experienceleague.adobe.com/pt-br/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ Você pode adicionar novas entidades da organização no Campaign ou criar um no
 
 ## Nota de compatibilidade {#compatibility-note}
 
-O novo modelo de identidade visual centralizada não é compatível com a configuração de [identidade visual herdada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} que foi usada anteriormente no Console do Cliente.
+O novo modelo de identidade visual centralizada não é compatível com a configuração de [identidade visual herdada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=pt-BR#configuring-multibranding){target="_blank"} que foi usada anteriormente no Console do Cliente.
 
 Na abordagem herdada, os clientes implementaram a identidade visual estendendo o formulário extAccount e usando a guia **Marca**.
 
