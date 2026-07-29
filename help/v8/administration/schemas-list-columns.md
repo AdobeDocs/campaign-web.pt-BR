@@ -15,7 +15,7 @@ ht-degree: 13%
 >id="acw_schema_inventory_list_configuration"
 >title="Configuração da lista de inventário"
 >abstract="Configure quais colunas são exibidas por padrão nas exibições de lista. Cada coluna mostra seu rótulo e o atributo correspondente. Adicione filtros personalizados para exibir campos de filtro de acesso rápido no painel de filtros da exibição de lista."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Adicionar filtros personalizados"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=pt-BR" text="Adicionar filtros personalizados"
 
 A seção **[!UICONTROL Configuração da lista de inventário]** permite configurar quais colunas são exibidas por padrão nos modos de exibição de lista. Cada coluna mostra seu rótulo e o atributo correspondente.
 
