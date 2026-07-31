@@ -10,9 +10,9 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: 510
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA. Para mais informações, entre em contato com o seu representante da Adobe.
+>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de poder usar a opção Gerar conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
 
 O recurso de análise de conteúdo fornece ferramentas abrangentes de avaliação para medir o desempenho de suas campanhas com as diretrizes de sua marca e manter padrões de qualidade de conteúdo em todas as comunicações:
 

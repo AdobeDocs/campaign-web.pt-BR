@@ -25,7 +25,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1589
 ht-degree: 29%
@@ -67,14 +67,14 @@ Os principais aprimoramentos fornecidos com o Adobe Campaign v8 estão listados 
 
   O Adobe Campaign v8 aproveita tecnologias avançadas de banco de dados em escala de nuvem, resultando em melhorias significativas no desempenho e na eficiência. Essa arquitetura reprojetada oferece vários benefícios importantes:
 
-   * *Escala*: o sistema agora oferece suporte a um aumento substancial nos recursos de processamento, com a taxa de transferência do processamento em lote atingindo até **20 milhões de operações por hora**. Com essa nova arquitetura, perfis ainda maiores podem ser gerenciados com desempenho previsível.
-   * *Velocidade*: o sistema foi aprimorado para qualquer atividade de marketing: segmentação, preparação de entrega ou taxa de transferência para mensagens transacionais que agora é de **1 milhões por hora**.
+  * *Escala*: o sistema agora oferece suporte a um aumento substancial nos recursos de processamento, com a taxa de transferência do processamento em lote atingindo até **20 milhões de operações por hora**. Com essa nova arquitetura, perfis ainda maiores podem ser gerenciados com desempenho previsível.
+  * *Velocidade*: o sistema foi aprimorado para qualquer atividade de marketing: segmentação, preparação de entrega ou taxa de transferência para mensagens transacionais que agora é de **1 milhões por hora**.
 
   Os serviços em nuvem totalmente gerenciados fornecem ao usuário:
 
-   * Exploração de dados em tempo real: acesse e analise dados instantaneamente para obter insights rápidos e tomar decisões mais informadas.
+  * Exploração de dados em tempo real: acesse e analise dados instantaneamente para obter insights rápidos e tomar decisões mais informadas.
 
-   * Criação rápida de público-alvo: crie facilmente públicos-alvo direcionados em minutos para obter uma segmentação de campanha mais eficiente.
+  * Criação rápida de público-alvo: crie facilmente públicos-alvo direcionados em minutos para obter uma segmentação de campanha mais eficiente.
 
   Em geral, a arquitetura robusta do Adobe Campaign v8 fornece uma base poderosa para gerenciar campanhas de marketing extensas e complexas com velocidade e eficiência aprimoradas.
 
@@ -92,9 +92,9 @@ Como usuário do Campaign Standard em transição para o Adobe Campaign v8, os s
 
   Você pode adaptar suas notificações com base no sistema do cliente:
 
-   * Para modelos do [Android](../../v8/push/rich-push.md)
+  * Para modelos do [Android](../../v8/push/rich-push.md)
 
-   * Para modelos de [iOs](../../v8/push/rich-push.md)
+  * Para modelos de [iOs](../../v8/push/rich-push.md)
 
   As notificações por push são uma ferramenta essencial para envolver os usuários de aplicativos móveis, permitindo que você os acesse mesmo quando eles não estiverem usando ativamente seu aplicativo.
 
@@ -104,29 +104,29 @@ Como usuário do Campaign Standard em transição para o Adobe Campaign v8, os s
 
   Estes são os principais recursos ativados por essa integração:
 
-   * *Gerenciamento de ativos*: no Adobe Campaign v8, o designer de email fornece um seletor para acessar e gerenciar ativos. Esse recurso simplifica a integração de elementos do Adobe Experience Manager na entrega, tornando o gerenciamento de conteúdo mais eficiente. [Saiba mais sobre o Gerenciamento de ativos](../../v8/integrations/aem-assets.md)
+  * *Gerenciamento de ativos*: no Adobe Campaign v8, o designer de email fornece um seletor para acessar e gerenciar ativos. Esse recurso simplifica a integração de elementos do Adobe Experience Manager na entrega, tornando o gerenciamento de conteúdo mais eficiente. [Saiba mais sobre o Gerenciamento de ativos](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *Importação de modelo de email*: o Adobe Campaign v8 permite procurar e importar modelos de email do Adobe Experience Manager diretamente para o Campaign. [Saiba mais sobre a importação de modelo de email](../../v8/integrations/aem-content.md)
+  * *Importação de modelo de email*: o Adobe Campaign v8 permite procurar e importar modelos de email do Adobe Experience Manager diretamente para o Campaign. [Saiba mais sobre a importação de modelo de email](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   O Adobe Experience Manager as a Cloud Service oferece agilidade nativa em nuvem, permitindo que você acelere seu tempo de implantação e se adapte às necessidades empresariais em evolução. Essa integração não apenas aprimora seus recursos de gerenciamento de conteúdo, como também permite proporcionar experiências mais personalizadas e envolventes aos seus clientes em todos os pontos de contato.
 
-* **Assistente de IA**
+* **Gerar conteúdo**
 
-  O Assistente de IA do Campaign torna a criação e a execução de campanhas de marketing em canais como Email, SMS e Push intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados.
+  Campanha Gerar conteúdo torna a criação e a execução de campanhas de marketing em canais como Email, SMS e Push intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  O Assistente de IA revoluciona a maneira como você cria conteúdo profissional e consistente com a marca em todos os canais. Com modelos avançados de GenAI e profunda compreensão das diretrizes da sua marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz com base no objetivo de marketing, com conteúdo otimizado para estilos, layouts, tom e muito mais.
+  Gerar conteúdo revoluciona a maneira como você cria conteúdo profissional e consistente com a marca em todos os canais. Com modelos avançados de GenAI e profunda compreensão das diretrizes da sua marca, a ferramenta Gerar conteúdo gera automaticamente conteúdo personalizado, envolvente e eficaz com base no objetivo de marketing, com conteúdo otimizado para estilos, layouts, tom e muito mais.
 
-  O AI Assistant torna a criação e a execução de campanhas de marketing intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados.
+  Gerar conteúdo torna a criação e a execução de campanhas de marketing intuitivas, simples e sem complicações, economizando tempo, melhorando a eficiência e obtendo melhores resultados.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Ele fornece uma variante de modelos de email e gera e gera novamente imagens. Saiba mais sobre o Assistente de IA em [esta seção](../../v8/content/generative-full-content.md). O Adobe Campaign v8 tem um assistente de IA disponível para [Email](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) e [Push](../../v8/content/generative-full-content.md).
+  Ele fornece uma variante de modelos de email e gera e gera novamente imagens. Saiba mais sobre Gerar Conteúdo em [esta seção](../../v8/content/generative-full-content.md). O Adobe Campaign v8 tem a opção Gerar conteúdo disponível para [Email](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) e [Push](../../v8/content/generative-full-content.md).
 
 * **Infraestrutura de SMS atualizada - SMS v2.0**
 

@@ -1,5 +1,5 @@
 ---
-title: Guia de prompt de conteúdo do Assistente de IA
+title: Gerar guia de prompt de conteúdo
 description: Saiba como criar prompts eficazes para a geração de conteúdo habilitado por IA usando a estrutura CO-STAR para criar conteúdo de marketing alinhado à marca e de alta conversão.
 role: User
 level: Intermediate
@@ -19,21 +19,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2111
-ht-degree: 1%
+source-wordcount: 2054
+ht-degree: 0%
 
 ---
 
-# Práticas recomendadas de solicitações do Assistente de IA {#ai-assistant-prompting-guide}
+# Práticas recomendadas para gerar prompt de conteúdo {#ai-assistant-prompting-guide}
 
 Este guia ajuda a estruturar suas solicitações, comunicar a intenção com clareza e garantir que a IA produza mensagens que se alinhem às diretrizes da sua marca, às necessidades do público-alvo e às metas das campanhas.
-Saiba como escrever prompts eficazes que permitem que o AI Assistant gere conteúdo de marketing de alta qualidade e sob marca, adaptado aos seus objetivos.
+Saiba como escrever prompts eficazes que permitem que a IA gere conteúdo de marketing de alta qualidade e sob marca, adaptado aos seus objetivos.
 
 ## Usar a estrutura CO-STAR {#costar-framework}
 
-Para obter melhores resultados com o Assistente de IA, organize seus prompts usando a estrutura CO-STAR. Essa abordagem estruturada garante que a IA entenda exatamente o que você precisa.
+Para obter melhores resultados com Gerar conteúdo, organize seus prompts usando a estrutura CO-STAR. Essa abordagem estruturada garante que a IA entenda exatamente o que você precisa.
 
 | Componente | O que significa | Por que é importante |
 |-|-|-|

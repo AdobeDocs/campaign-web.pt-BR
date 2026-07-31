@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
-source-wordcount: 3032
-ht-degree: 100%
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 3030
+ht-degree: 98%
 
 ---
 
@@ -526,13 +526,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * As seguintes melhorias agora estão disponíveis na página de destino:
 
-   * Agora você pode fazer referência a uma página de destino de assinatura/cancelamento de assinatura padrão ao configurar um serviço. Ao criar um email, se você definir um link para essa página de destino, os usuários que enviarem o formulário da página de destino automaticamente assinarão ou cancelarão a assinatura desse serviço. [Leia mais](../audience/manage-services.md#create-service)
-   * Uma nova opção na configuração da página de destino permite que visitantes anônimos acessem-na. Se você desmarcar esta opção, apenas usuários identificados poderão acessar e enviar o formulário. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
-   * Uma nova opção na configuração da página de destino permite armazenar dados internos adicionais quando a página de destino está sendo enviada. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
-   * Uma nova opção permite utilizar uma página de destino para diversos serviços, tornando-a dinâmica. Ao adicionar um link a um email, se você selecionar uma página de destino dinâmica, poderá selecionar qualquer serviço. Se você selecionar uma página de destino que tenha um serviço específico associado, esse serviço será utilizado automaticamente (não será possível selecionar outro). [Leia mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * O conteúdo condicional agora é compatível com páginas de destino. [Leia mais](../landing-pages/lp-content.md)
-   * É possível vincular uma página de destino a um serviço e enviar uma mensagem de confirmação quando os usuários a validarem. [Saiba mais](../landing-pages/lp-content.md#lp-message)
-   * É possível adicionar captcha para proteger a página de destino contra spam e abusos de bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. [Saiba mais](../landing-pages/create-lp.md#captcha)
+  * Agora você pode fazer referência a uma página de destino de assinatura/cancelamento de assinatura padrão ao configurar um serviço. Ao criar um email, se você definir um link para essa página de destino, os usuários que enviarem o formulário da página de destino automaticamente assinarão ou cancelarão a assinatura desse serviço. [Leia mais](../audience/manage-services.md#create-service)
+  * Uma nova opção na configuração da página de destino permite que visitantes anônimos acessem-na. Se você desmarcar esta opção, apenas usuários identificados poderão acessar e enviar o formulário. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
+  * Uma nova opção na configuração da página de destino permite armazenar dados internos adicionais quando a página de destino está sendo enviada. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
+  * Uma nova opção permite utilizar uma página de destino para diversos serviços, tornando-a dinâmica. Ao adicionar um link a um email, se você selecionar uma página de destino dinâmica, poderá selecionar qualquer serviço. Se você selecionar uma página de destino que tenha um serviço específico associado, esse serviço será utilizado automaticamente (não será possível selecionar outro). [Leia mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * O conteúdo condicional agora é compatível com páginas de destino. [Leia mais](../landing-pages/lp-content.md)
+  * É possível vincular uma página de destino a um serviço e enviar uma mensagem de confirmação quando os usuários a validarem. [Saiba mais](../landing-pages/lp-content.md#lp-message)
+  * É possível adicionar captcha para proteger a página de destino contra spam e abusos de bots. Esse mecanismo não é intrusivo para os clientes, pois não requer nenhuma interação deles e se baseia em interações com seu site. [Saiba mais](../landing-pages/create-lp.md#captcha)
 
 ## Versão de junho de 2025 {#25-6-release}
 
@@ -548,9 +548,9 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * A &quot;condição humana&quot; no Construtor de regras foi aprimorada. Esta é a versão escrita e em linguagem simples das regras, exibida na parte inferior da tela:
 
-   * Os atributos agora são realçados e o esquema associado é exibido.
-   * É possível clicar nesses elementos para exibir informações mais detalhadas.
-   * Agora é possível copiar a condição humana usando o botão correspondente.
+  * Os atributos agora são realçados e o esquema associado é exibido.
+  * É possível clicar nesses elementos para exibir informações mais detalhadas.
+  * Agora é possível copiar a condição humana usando o botão correspondente.
 
 * O acesso às pastas “Fluxos de trabalho técnicos” e “Objetos criados automaticamente” agora é restrito para impedir a visualização. [Saiba mais](../get-started/work-with-folders.md#about-folders)
 
@@ -853,15 +853,15 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <table>
 <thead>
 <tr>
-<th><strong>Geração de páginas de destino com o Assistente de IA</strong><br/></th>
+<th><strong>Geração de página de aterrissagem com Gerar conteúdo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Assistente de IA agora está disponível para entregas de página de destino, permitindo gerar texto, imagens ou layouts de página completos.</p>
+<p>Gerar conteúdo agora está disponível com os deliveries da página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Para obter mais informações sobre o Assistente de IA, consulte a <a href="../content/generative-full-content.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações sobre Gerar Conteúdo, consulte a <a href="../content/generative-full-content.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -872,10 +872,10 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 
 * Personalize a exibição de campos personalizados na interface:
 
-   * Agora é possível selecionar campos personalizados adicionais para exibição na interface
-   * Agora é possível definir regras para exibir campos personalizados do tipo link, como restringir valores de lista com base na entrada de outro campo
-   * Agora é possível organizar os campos na interface com mais flexibilidade: os campos podem se estender por uma única coluna ou ser agrupados em subseções para melhorar a organização
-   * Agora você pode definir campos específicos como somente leitura
+  * Agora é possível selecionar campos personalizados adicionais para exibição na interface
+  * Agora é possível definir regras para exibir campos personalizados do tipo link, como restringir valores de lista com base na entrada de outro campo
+  * Agora é possível organizar os campos na interface com mais flexibilidade: os campos podem se estender por uma única coluna ou ser agrupados em subseções para melhorar a organização
+  * Agora você pode definir campos específicos como somente leitura
 
 * Filtros Recentes e Favoritos: para reutilizar rapidamente atributos usados com frequência, agora é possível adicioná-los aos favoritos. Isso garante que eles estejam prontamente acessíveis para tarefas futuras. Além dos favoritos, é possível também visualizar e usar os atributos selecionados mais recentemente.
 

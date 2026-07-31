@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 100%
+source-wordcount: 523
+ht-degree: 94%
 
 ---
 
@@ -73,9 +73,9 @@ Para obter uma visão geral completa, consulte as notas de versão.
 [![Botão Saiba mais](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB Assistente de IA]
+>[!TAB Gerar conteúdo]
 
-✨Mergulhe fundo em uma experiência prática com a visualização ao vivo do recurso [Assistente de IA](../v8/content/generative-gs.md), que ajuda a explorar e a entender completamente as suas funcionalidades.
+✨ Mergulhe em uma experiência prática com a nossa pré-visualização do recurso [Gerar conteúdo](../v8/content/generative-gs.md) ao vivo, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente seus recursos.
 
 [![Botão Saiba mais](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -124,22 +124,22 @@ As perguntas frequentes sobre a interface da web do Campaign estão listadas em 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introdução</strong><br/><a href="get-started/get-started.md#web">Interface</a> - <a href="get-started/connect-to-campaign.md">Conectar ao Campaign</a> - <a href="get-started/permissions.md">Acesso e permissões</a>
+      <strong>Introdução</strong><br/><a href="get-started/get-started.md#web">Interface</a> – <a href="get-started/connect-to-campaign.md">Conectar-se ao Campaign</a> – <a href="get-started/permissions.md">Acesso e permissões</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanhas</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
+      <strong>Experiência do cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizar com fluxos de trabalho</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestração de campanha</a> - <a href="personalization/gs-personalization.md">Conteúdo dinâmico</a> - <a href="reporting/gs-reports.md">Relatórios e análises</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> - <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Visualizar e testar</a> 
+      <strong>Enviar mensagens</strong><br/><a href="msg/gs-deliveries.md">Criar uma entrega</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Notificações por push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelos de entrega</a> - <a href="preview-test/preview-test.md">Pré-visualização e teste</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consultas</a>
+      <strong>Perfis e públicos-alvo</strong><br/><a href="audience/gs-audiences-recipients.md">Introdução</a> - <a href="audience/create-audience.md">Criar públicos-alvo</a> - <a href="audience/test-profiles.md">Perfis de teste</a> - <a href="audience/manage-services.md">Serviços de assinatura</a> - <a href="query/query-modeler-overview.md">Modelador de consulta</a>
     </td>
   </tr>
 </table>

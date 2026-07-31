@@ -17,10 +17,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,8 +77,8 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de out
 
 * **Atividade de enriquecimento de fluxo de trabalho**
 
-   * Agora é possível definir um alias e um rótulo ao criar um novo campo na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md#collection-settings)
-   * Agora você pode adicionar ofertas para cada perfil na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md##add-offers)
+  * Agora é possível definir um alias e um rótulo ao criar um novo campo na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md#collection-settings)
+  * Agora você pode adicionar ofertas para cada perfil na atividade **Enriquecimento**. [Saiba mais](../workflows/activities/enrichment.md##add-offers)
 
 * **Distribuição de valores**: ao acessar a lista de campos para personalização, agora é possível verificar como os valores estão distribuídos para cada campo. Uma janela pop-up exclusiva mostra o número e a porcentagem para cada valor. [Saiba mais](../query/build-query.md#distribution-values-query)
 
@@ -94,13 +94,13 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de out
 <table>
 <thead>
 <tr>
-<th><strong>Assistente de IA</strong><br/></th>
+<th><strong>Gerar conteúdo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Depois de criar e personalizar sua mensagem, melhore-a ainda mais com o Assistente de IA no Adobe Campaign Web. Essa ferramenta avançada permite otimizar o impacto do conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
+<p>Depois de criar e adaptar sua mensagem, você a leva para o próximo nível com Gerar conteúdo na Adobe Campaign Web. Essa ferramenta avançada permite otimizar o impacto do conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
 <p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos ao vivo</a>, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../content/generative-gs.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -274,11 +274,11 @@ Observe que esse recurso está em **Disponibilidade limitada** (LA).
 
 * **Páginas de destino**: as seguintes melhorias nas páginas de destino estão disponíveis apenas para usuários em transição do Campaign Standard:
 
-   * Agora você pode fazer referência a uma página de destino de assinatura/cancelamento de assinatura padrão ao configurar um serviço. Ao criar um email, se você definir um link para essa página de destino, os usuários que enviarem o formulário da página de destino automaticamente assinarão ou cancelarão a assinatura desse serviço. [Leia mais](../audience/manage-services.md#create-service)
-   * Uma nova opção na configuração da página de destino permite que visitantes anônimos acessem-na. Se você desmarcar esta opção, apenas usuários identificados poderão acessar e enviar o formulário. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
-   * Uma nova opção na configuração da página de destino permite armazenar dados internos adicionais quando a página de destino está sendo enviada. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
-   * Uma nova opção permite utilizar uma página de destino para diversos serviços, tornando-a dinâmica. Ao adicionar um link a um email, se você selecionar uma página de destino dinâmica, poderá selecionar qualquer serviço. Se você selecionar uma página de destino que tenha um serviço específico associado, esse serviço será utilizado automaticamente (não será possível selecionar outro). [Leia mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * O conteúdo condicional agora é compatível com páginas de destino. [Leia mais](../landing-pages/lp-content.md)
+  * Agora você pode fazer referência a uma página de destino de assinatura/cancelamento de assinatura padrão ao configurar um serviço. Ao criar um email, se você definir um link para essa página de destino, os usuários que enviarem o formulário da página de destino automaticamente assinarão ou cancelarão a assinatura desse serviço. [Leia mais](../audience/manage-services.md#create-service)
+  * Uma nova opção na configuração da página de destino permite que visitantes anônimos acessem-na. Se você desmarcar esta opção, apenas usuários identificados poderão acessar e enviar o formulário. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
+  * Uma nova opção na configuração da página de destino permite armazenar dados internos adicionais quando a página de destino está sendo enviada. [Leia mais](../landing-pages/create-lp.md#create-landing-page)
+  * Uma nova opção permite utilizar uma página de destino para diversos serviços, tornando-a dinâmica. Ao adicionar um link a um email, se você selecionar uma página de destino dinâmica, poderá selecionar qualquer serviço. Se você selecionar uma página de destino que tenha um serviço específico associado, esse serviço será utilizado automaticamente (não será possível selecionar outro). [Leia mais](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * O conteúdo condicional agora é compatível com páginas de destino. [Leia mais](../landing-pages/lp-content.md)
 
 ### Melhorias gerais {#improvements-24-4}
 

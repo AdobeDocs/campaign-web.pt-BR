@@ -7,10 +7,10 @@ hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 53%
+ht-degree: 33%
 
 ---
 
@@ -27,5 +27,5 @@ Esta página lista todas as atualizações da documentação do Adobe Campaign W
 
 **Data: 1.º de dezembro de 2025**
 
-* Guia de documentação do Assistente de IA reorganizado com páginas consolidadas para [geração de conteúdo completo](../content/generative-full-content.md), [geração de texto](../content/generative-text.md) e [geração de imagens](../content/generative-image.md)
-* Adição do [Guia de práticas recomendadas de prompts do Assistente do AI](../content/ai-assistant-prompting-guide.md) para ajudar os usuários a criarem prompts eficazes
+* Guia reorganizado da documentação Gerar conteúdo com páginas consolidadas para [geração de conteúdo completo](../content/generative-full-content.md), [geração de texto](../content/generative-text.md) e [geração de imagem](../content/generative-image.md)
+* Adição do [Guia de práticas recomendadas de prompt de Gerar conteúdo](../content/ai-assistant-prompting-guide.md) para ajudar os usuários a criar prompts eficazes

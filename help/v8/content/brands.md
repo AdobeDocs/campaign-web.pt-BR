@@ -10,7 +10,7 @@ feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 542
 ht-degree: 2%
@@ -75,7 +75,7 @@ Os usuários podem inserir os detalhes manualmente ou fazer upload de um documen
 
    ![](assets/brands-15.png)
 
-1. Após a configuração, clique em **[!UICONTROL Salvar]** e em **[!UICONTROL Publicar]** para disponibilizar a diretriz de marca no Assistente de IA.
+1. Depois de configurado, clique em **[!UICONTROL Salvar]** e em **[!UICONTROL Publicar]** para disponibilizar a diretriz da marca em Gerar conteúdo.
 
 1. Para fazer modificações na sua marca publicada, clique em **[!UICONTROL Editar marca]**.
 
@@ -97,7 +97,7 @@ Os usuários podem inserir os detalhes manualmente ou fazer upload de um documen
 
    ![Opções de menu avançadas no painel Marcas](assets/brands-6.png)
 
-As diretrizes de marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do Assistente de IA. Isso permite que o Assistente de IA gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o Assistente de IA](../content/generative-gs.md)
+As diretrizes da sua marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do menu Gerar conteúdo. Isso permite que a IA gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre como Gerar Conteúdo](../content/generative-gs.md)
 
 Você também pode usar as diretrizes da marca para avaliar a qualidade do conteúdo e o alinhamento da marca. [Saiba mais sobre a validação de qualidade do conteúdo](brands-score.md#validate-quality)
 
