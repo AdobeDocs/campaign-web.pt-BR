@@ -6,10 +6,10 @@ title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 nudge: true
-source-git-commit: 68812d0fd77a150e21c40bbae2bb930ddf84a8a0
+source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 96%
       + [Adicionar CSS personalizado](email/custom-css.md)
       + [Gerenciar conteúdo no modo escuro](email/dark-mode.md)
     + [Criar conteúdo acessível](email/accessible-content.md)
-  + Assistente de IA {#ai-assistant}
-    + [Trabalhar com o Assistente de IA](content/generative-gs.md)
+  + Gerar conteúdo {#ai-assistant}
+    + [Trabalhar com a opção Gerar conteúdo](content/generative-gs.md)
     + [Práticas recomendadas de prompts de IA](content/ai-assistant-prompting-guide.md)
     + [Geração de conteúdo completo com IA](content/generative-full-content.md)
     + [Geração de texto com IA](content/generative-text.md)
     + [Geração de imagens com IA](content/generative-image.md)
-    + [Casos de uso do Assistente de IA](content/generative-uc.md)
+    + [Gerar casos de uso de conteúdo](content/generative-uc.md)
     + Marcas {#ai-assistant}
       + [Criar e gerenciar suas marcas](content/brands.md)
       + [Personalizar sua marca](content/brands-personalize.md)
@@ -306,7 +306,7 @@ ht-degree: 96%
     + [Criar e publicar esquemas](administration/schemas-create-publish.md)
     + [Trabalhar com formulários personalizados](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurar campos personalizados](administration/custom-fields.md)
-  + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
   + [Gerenciamento de fuso horário](administration/timezone-management.md)
   + Contas externas {#external-accounts}
     + [Criar contas externas](administration/create-external-account.md)

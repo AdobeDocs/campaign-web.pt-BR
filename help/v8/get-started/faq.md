@@ -3,14 +3,12 @@ title: Perguntas frequentes
 description: Perguntas frequentes sobre a interface do Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 865
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +30,7 @@ Para saber onde começar, visite [esta página](../get-started/get-started.md).
 
 +++ Quais são os novos recursos e funcionalidades na nova interface da web?
 
-A nova interface do Adobe Campaign v8 oferece consistência com a Adobe Experience Platform e foi projetada para eficiência de marketing. A nova tela de fluxo de trabalho fornece um espaço de trabalho intuitivo e avançado para composição de público-alvo, gerenciamento de fluxo de trabalho e design de conteúdo, além de casos de uso integrados com aplicativos nativos da Adobe Experience Platform, como o Journey Optimizer e a Real-Time CDP. Desperte a criatividade, aumente a produtividade e personalize campanhas entre canais em escala com o Assistente de IA, incorporado nativamente no designer de mensagens WYSIWYG.
+A nova interface do Adobe Campaign v8 oferece consistência com a Adobe Experience Platform e foi projetada para eficiência de marketing. A nova tela de fluxo de trabalho fornece um espaço de trabalho intuitivo e avançado para composição de público-alvo, gerenciamento de fluxo de trabalho e design de conteúdo, além de casos de uso integrados com aplicativos nativos da Adobe Experience Platform, como o Journey Optimizer e a Real-Time CDP. Desperte a criatividade, aumente a produtividade e personalize campanhas entre canais em escala com o Generate Content, incorporado nativamente no designer de mensagens do WYSIWYG.
 
 Profissionais de marketing podem usar a IA generativa para ideação completa de emails em HTML, geração de texto e imagem com refinamento e sugestões de variantes. Novos recursos e funcionalidades podem ser revisados [nesta página](../rn/whats-new.md). Para saber mais sobre a nova interface e vê-la em ação, visite [esta página](../get-started/user-interface.md). Além disso, acesse os [Tutoriais](https://experienceleague.adobe.com/pt-br/docs/campaign-web-learn/tutorials/overview){target="_blank"} para saber mais sobre a nova interface por meio de uma série de vídeos instrutivos.
 

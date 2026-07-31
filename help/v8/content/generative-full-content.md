@@ -1,52 +1,49 @@
 ---
 audience: end-user
 title: Conteúdo gerativo
-description: Saiba como gerar experiências completas de conteúdo com o Assistente de IA no Journey Optimizer.
+description: Saiba como gerar experiências completas de conteúdo usando IA no Journey Optimizer.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1626
+source-wordcount: 1620
 ht-degree: 2%
 
 ---
 
-# Gerar conteúdo completo com o Assistente de IA {#generative-full-content}
+# Gerar conteúdo completo {#generative-full-content}
 
 >[!IMPORTANT]
 >
 >Antes de começar a usar este recurso, leia as [Medidas de Proteção e Limitações](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Campaign Web. Para mais informações, entre em contato com o seu representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar a IA para gerar conteúdo na Adobe Campaign Web. Para mais informações, entre em contato com o seu representante da Adobe.
 
-Use o Assistente de IA na Web do Adobe Campaign para gerar experiências completas de conteúdo em seus canais de email, páginas de aterrissagem e notificação por push. O Assistente de IA ajuda você a otimizar o impacto de seus deliveries, criando conteúdo abrangente que repercuta com seu público-alvo.
+Use a IA no Adobe Campaign Web para gerar experiências completas de conteúdo em seus canais de email, páginas de aterrissagem e notificação por push. A IA ajuda você a otimizar o impacto de seus deliveries, criando conteúdo abrangente que repercuta com seu público.
 
 ## Para email e landing page {#email-web-channels}
 
-O AI Assistant pode produzir experiências completas de conteúdo para seus deliveries de email e landing pages, gerando texto e imagens. Essa funcionalidade robusta ajuda você a criar conteúdo atraente na marca que se conecta com seu público-alvo em todos os pontos de contato digitais.
+Use a IA para produzir experiências completas de conteúdo para seus deliveries de email e landing pages, gerando texto e imagens. Essa funcionalidade robusta ajuda você a criar conteúdo atraente na marca que se conecta com seu público-alvo em todos os pontos de contato digitais.
 
 ### Acessar e configurar {#access-configure}
 
-Antes de começar a criar conteúdo com o Assistente de IA, será necessário configurar o delivery e abrir o editor de conteúdo. Use as etapas abaixo para preparar seu espaço de trabalho e acessar o painel Assistente de IA.
+Antes de começar a criar conteúdo com IA, será necessário configurar o delivery e abrir o editor de conteúdo. Use as etapas abaixo para preparar seu espaço de trabalho e acessar o painel Gerar conteúdo.
 
 1. Criar e configurar o delivery:
 
    * **Email**: depois de criar e configurar sua entrega de email, clique em **[!UICONTROL Editar conteúdo]**. [Saiba mais](../email/create-email-content.md)
    * **Página de aterrissagem**: depois de criar e configurar sua página de aterrissagem, clique em **[!UICONTROL Editar conteúdo]**. [Saiba mais](../landing-pages/create-lp.md)
 
-1. Personalize seu layout conforme necessário e acesse o menu do **[!UICONTROL Assistente de IA]**.
+1. Personalize o layout conforme necessário e acesse o menu **[!UICONTROL Gerar conteúdo]**.
 
-   ![Painel do Assistente de IA mostrando a seleção da marca e o campo de prompt](assets/full-email-1.png){zoomable="yes"}
+   ![Painel Gerar conteúdo mostrando a seleção de marca e o campo de prompt](assets/full-email-1.png){zoomable="yes"}
 
-### Gerar conteúdo {#generate-content}
+### Gerar conteúdo completo {#generate-content}
 
-Com o AI Assistant aberto, agora é possível definir as configurações de geração para criar conteúdo que corresponda às suas metas de marca e campanha. Personalize parâmetros de texto e imagem, adicione ativos de marca e forneça prompts para orientar a IA na geração de variações relevantes para seu público.
+Com a opção Gerar conteúdo aberta, agora é possível definir as configurações de geração para criar conteúdo que corresponda às metas da sua marca e campanha. Personalize parâmetros de texto e imagem, adicione ativos de marca e forneça prompts para orientar a IA na geração de variações relevantes para seu público.
 
 1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
 
@@ -62,7 +59,7 @@ Com o AI Assistant aberto, agora é possível definir as configurações de gera
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
    * **[!UICONTROL Idiomas]**: escolha o idioma do conteúdo gerado.
-   * **[!UICONTROL Tone]**: verifique se o tom do seu email está de acordo com o seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA adapta a mensagem de acordo.
+   * **[!UICONTROL Tone]**: verifique se o tom do seu email está de acordo com o seu público-alvo. Quer você queira soar informativo, divertido ou persuasivo, a IA adapta a mensagem de acordo.
 
      ![Captura de tela mostrando as opções de configurações de texto na Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
@@ -74,7 +71,7 @@ Com o AI Assistant aberto, agora é possível definir as configurações de gera
    * **[!UICONTROL Iluminação]**: modifique a iluminação na imagem para moldar sua atmosfera e destacar elementos específicos.
    * **[!UICONTROL Composição]**: organizar elementos dentro do quadro da imagem.
 
-1. No menu **[!UICONTROL Conteúdo de referência]**, clique em **[!UICONTROL Carregar arquivo]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um que tenha sido carregado anteriormente.
+1. No menu **[!UICONTROL Conteúdo de referência]**, clique em **[!UICONTROL Carregar arquivo]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer IA de contexto adicional ou selecione um carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Conteúdo de referência carregado]**. Basta alternar os ativos que deseja incluir na geração.
 
@@ -100,7 +97,7 @@ Depois de gerar variações de conteúdo, você pode ajustar os resultados para 
 
    * **[!UICONTROL Refrase]**: reescreva a mensagem preservando seu significado. Essa opção ajuda a gerar texto alternativo, melhorar o fluxo ou ajustar o estilo sem alterar a mensagem principal.
 
-   * **[!UICONTROL Usar linguagem mais simples]**: use o AI Assistant para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
+   * **[!UICONTROL Usar uma linguagem mais simples]**: use a IA para editar/refinar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
 
    * **[!UICONTROL Traduzir]**: simplifique seu idioma para garantir clareza e acessibilidade para um público-alvo maior.
 
@@ -122,11 +119,11 @@ Depois de gerar variações de conteúdo, você pode ajustar os resultados para 
 
 ## Para canais móveis {#mobile-channels}
 
-O Assistente de IA também oferece suporte à geração de conteúdo para notificações por push em dispositivos móveis, permitindo que você crie títulos, mensagens e imagens envolventes para seus aplicativos móveis. Isso ajuda a manter uma comunicação consistente e de alta qualidade em todos os pontos de contato do cliente, incluindo dispositivos móveis.
+Gerar conteúdo também oferece suporte à geração de conteúdo para notificações por push de dispositivos móveis, permitindo que você crie títulos, mensagens e imagens envolventes para seus aplicativos móveis. Isso ajuda a manter uma comunicação consistente e de alta qualidade em todos os pontos de contato do cliente, incluindo dispositivos móveis.
 
 ### Acessar e configurar {#mobile-access-configure}
 
-Para usar o Assistente de IA para notificações por push, primeiro configure a entrega por push e abra o editor de conteúdo. As etapas abaixo guiarão você pela preparação do delivery e acesso às ferramentas do Assistente de IA.
+Para usar a IA para gerar conteúdo para notificações por push, primeiro configure a entrega por push e abra o editor de conteúdo. As etapas abaixo guiarão você pela preparação do delivery e pelo acesso às ferramentas Gerar conteúdo.
 
 1. Depois de criar e configurar a entrega de notificação por push, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -134,13 +131,13 @@ Para usar o Assistente de IA para notificações por push, primeiro configure a 
 
 1. Personalize sua notificação por push conforme necessário. [Saiba mais](../push/content-push.md)
 
-1. Acesse o menu **[!UICONTROL Mostrar assistente de IA]**.
+1. Acesse o menu **[!UICONTROL Mostrar conteúdo gerado]**.
 
-   ![Captura de tela mostrando o menu Mostrar Assistente de IA](assets/push-genai-1.png){zoomable="yes"}
+   ![Captura de tela mostrando o menu Mostrar Gerar Conteúdo](assets/push-genai-1.png){zoomable="yes"}
 
-### Gerar conteúdo {#mobile-generate-content}
+### Gerar conteúdo completo {#mobile-generate-content}
 
-Depois de acessar o Assistente de IA para notificações por push, você pode definir as configurações de geração para criar conteúdo móvel atraente. Defina suas preferências de texto e imagem, selecione ativos da marca e use prompts para gerar variações de notificação por push que envolvam seus usuários móveis.
+Depois de acessar Gerar conteúdo para notificações por push, você pode definir as configurações de geração para criar conteúdo móvel atraente. Defina suas preferências de texto e imagem, selecione ativos da marca e use prompts para gerar variações de notificação por push que envolvam seus usuários móveis.
 
 1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
 
@@ -148,7 +145,7 @@ Depois de acessar o Assistente de IA para notificações por push, você pode de
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar sua entrega. [Saiba mais sobre as práticas recomendadas do prompt](ai-assistant-prompting-guide.md)
 
-   ![Assistente de IA com campo de prompt e opções](assets/push-genai-2.png){zoomable="yes"}
+   ![Gerar conteúdo com campo de prompt e opções](assets/push-genai-2.png){zoomable="yes"}
 
 1. Escolha qual campo você deseja gerar: **[!UICONTROL Título]**, **[!UICONTROL Subtítulo]**, **[!UICONTROL Mensagem]** e/ou **[!UICONTROL Imagem]**.
 
@@ -156,7 +153,7 @@ Depois de acessar o Assistente de IA para notificações por push, você pode de
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
    * **[!UICONTROL Idiomas]**: escolha o idioma do conteúdo gerado.
-   * **[!UICONTROL Tom]**: o tom das suas notificações por push deve repercutir no seu público-alvo. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
+   * **[!UICONTROL Tom]**: o tom das suas notificações por push deve repercutir no seu público-alvo. Quer você queira soar informativo, divertido ou persuasivo, a IA pode adaptar a mensagem de acordo.
 
      ![Painel de configurações de texto para notificações por push](assets/push-genai-3.png){zoomable="yes"}
 
@@ -169,7 +166,7 @@ Depois de acessar o Assistente de IA para notificações por push, você pode de
 
      ![Configurações de imagem para notificações por push](assets/push-genai-4.png){zoomable="yes"}
 
-1. No menu **[!UICONTROL Conteúdo de referência]**, clique em **[!UICONTROL Carregar arquivo]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um que tenha sido carregado anteriormente.
+1. No menu **[!UICONTROL Conteúdo de referência]**, clique em **[!UICONTROL Carregar arquivo]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer IA de contexto adicional ou selecione um carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Conteúdo de referência carregado]**. Basta alternar os ativos que deseja incluir na geração.
 
@@ -210,6 +207,6 @@ Ao definir seu conteúdo, público-alvo e agendamento, prepare sua entrega por p
 
 ## Vídeo tutorial {#video}
 
-Saiba como usar o Assistente de IA para gerar conteúdo de email, texto e imagens completos.
+Saiba como usar a IA para gerar conteúdo de email, texto e imagens completos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)
