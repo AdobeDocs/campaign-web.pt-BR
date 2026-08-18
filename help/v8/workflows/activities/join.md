@@ -43,7 +43,7 @@ Quando **OR** é selecionado, a execução continua assim que uma das transiçõ
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="Opções de mesclagem"
->abstract="Selecione de quais atividades deseja juntar. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter."
+>abstract="Selecione quais atividades deseja juntar. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter."
 
 Siga estas etapas para configurar a atividade **Ingressar**:
 
