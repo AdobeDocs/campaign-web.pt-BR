@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1326
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -85,13 +85,13 @@ Use a nova interface do Campaign Web para:
 * Monitorar o envio e medir os resultados com relatórios integrados - [Saiba mais](../reporting/delivery-reports.md)
 
 
-**Geração de conteúdo com Gerar conteúdo**
+**Geração de conteúdo com o recurso Gerar conteúdo**
 
 Diga adeus às complicações da criação manual de conteúdo e adote uma nova era de campanhas simplificadas com nosso designer de conteúdo inovador habilitado pelo Microsoft Azure OpenAI e Adobe Firefly.
 
-Redefina a entrega de conteúdo com nosso editor avançado de arrastar e soltar WYSIWYG, projetado para oferecer simplicidade e eficiência. Com integração perfeita com o AEM, recursos de conteúdo dinâmico e a revolucionária ferramenta Generate Content, essa ferramenta completa torna a criação de deliveries intuitiva, eficiente e altamente personalizada.
+Redefina a entrega de conteúdo com nosso editor avançado de arrastar e soltar WYSIWYG, projetado para oferecer simplicidade e eficiência. Com integração perfeita com o AEM, recursos de conteúdo dinâmico e o inovador Gerar conteúdo, essa ferramenta completa torna a criação de entregas intuitiva, eficiente e altamente personalizada.
 
-Aproveite o potencial dos algoritmos avançados de IA para criar conteúdo atraente e personalizado que impulsiona os resultados. Aumente as taxas de abertura, click-throughs e conversões com a geração inteligente de conteúdo orientada por IA. Saiba mais [nesta seção](../content/generative-gs.md).
+Aproveite o potencial dos algoritmos avançados de IA para criar conteúdo atrativo e personalizado que impulsiona os resultados. Aumente as taxas de abertura, click-throughs e conversões com a geração inteligente de conteúdo orientada por IA. Saiba mais [nesta seção](../content/generative-gs.md).
 
 **Atividades de fluxo de trabalho de campanha novas e reprojetadas**
 

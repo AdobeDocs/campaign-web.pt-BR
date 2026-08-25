@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 3030
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 3118
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar e personalizar suas próprias marcas para definir claramente sua identidade visual e verbal em todas as comunicações. Com a pontuação de alinhamento à marca, você pode receber feedback em tempo real sobre a conformidade do seu conteúdo com o tom, o estilo e as diretrizes da marca, o que ajuda a manter o alinhamento à marca em todas as mensagens enviadas.
+<p>Agora, você pode criar e personalizar as suas próprias marcas para definir claramente a sua identidade visual e verbal nas comunicações. Com a pontuação de alinhamento à marca, você pode receber feedback em tempo real sobre a conformidade do seu conteúdo em relação ao tom, ao estilo e às diretrizes da sua marca, o que ajuda a manter o alinhamento à marca em todas as mensagens enviadas.
 </p>
 <p>Para obter mais informações, consulte a <a href="../content/brands.md">documentação detalhada</a>.</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>Agora é possível acessar o recurso Relatórios dinâmicos, que permite gerar relatórios totalmente personalizáveis e em tempo real para medir o impacto das suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. Os relatórios dinâmicos também estão disponíveis para entregas de email e mensagens transacionais multilíngues.</p>
-<p>Esse recurso só está disponível sob demanda. Para obter acesso, entre em contato com o(a) representante da Adobe. Seu servidor deve estar atualizado com a versão 8.8.1, no mínimo. Consulte as <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR" target="_blank">notas de versão</a> do Console do cliente.
+<p>Este recurso só está disponível sob demanda. Para obter acesso, entre em contato com o(a) representante da Adobe. O seu servidor precisa ser atualizado para a versão 8.8.1, no mínimo. Consulte as <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR" target="_blank">notas de versão</a> do Console do cliente.
 <p>Para obter mais informações, consulte a <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>Agora, os seus administradores técnicos podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca. Isso inclui o logotipo da marca, o domínio do URL de acesso da página de destino ou as configurações de rastreamento de mensagens. Você pode criar essas marcas e vinculá-las a mensagens ou páginas de destino. Essa configuração é gerenciada nos modelos. As opções de identidade visual estão disponíveis para todos os canais, incluindo SMS e correspondência direta.</p>
-<p>Esse recurso só está disponível sob demanda para novas implementações. Para obter acesso, entre em contato com o(a) representante da Adobe. Seu servidor deve estar atualizado com a versão 8.8.1, no mínimo. Consulte as <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR" target="_blank">notas de versão</a> do Console do cliente.
+<p>Este recurso está disponível somente sob demanda para novas implementações. Para obter acesso, entre em contato com o(a) representante da Adobe. O seu servidor precisa ser atualizado para a versão 8.8.1, no mínimo. Consulte as <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=pt-BR" target="_blank">notas de versão</a> do Console do cliente.
 <p>Para obter mais informações, consulte a <a href="../administration/branding/branding-gs.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -649,8 +649,8 @@ Os seguintes recursos estão disponíveis para todos os usuários a partir da ve
 <tbody>
 <tr>
 <td>
-<p>Como admin do Campaign, agora você pode configurar novas conexões com sistemas externos a partir da interface do Campaign Web.
-Você também pode visualizar, atualizar e gerenciar contas externas existentes.</p>
+<p>Como administrador do Campaign, agora você pode configurar novas conexões com sistemas externos por meio da interface do Campaign Web.
+Você também pode exibir, atualizar e gerenciar contas externas existentes.</p>
 <p>Para obter mais informações, consulte a <a href="../administration/external-account.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -853,15 +853,15 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de jan
 <table>
 <thead>
 <tr>
-<th><strong>Geração de página de aterrissagem com Gerar conteúdo</strong><br/></th>
+<th><strong>Geração de página de destino com Gerar conteúdo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Gerar conteúdo agora está disponível com os deliveries da página de aterrissagem, permitindo gerar texto, imagens ou layouts de página completos.</p>
+<p>O recurso Gerar conteúdo agora está disponível para entregas de página de destino, permitindo gerar texto, imagens ou layouts de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Para obter mais informações sobre Gerar Conteúdo, consulte a <a href="../content/generative-full-content.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações sobre o recurso Gerar conteúdo, consulte a <a href="../content/generative-full-content.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Os seguintes recursos e melhorias estão disponíveis a partir da versão de out
 <tbody>
 <tr>
 <td>
-<p>Depois de criar e adaptar sua mensagem, você a leva para o próximo nível com Gerar conteúdo na Adobe Campaign Web. Essa ferramenta avançada permite otimizar o impacto do conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
+<p>Depois de criar e personalizar sua mensagem, melhore-a ainda mais com o recurso Gerar conteúdo no Adobe Campaign Web. Essa ferramenta avançada permite otimizar o impacto do conteúdo gerando uma variedade de textos envolventes, títulos principais e imagens visualmente atraentes.</p>
 <p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos ao vivo</a>, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../content/generative-gs.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
