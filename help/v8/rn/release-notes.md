@@ -3,19 +3,13 @@ title: Notas de versão da interface do Campaign Web v8
 description: Conheça os novos recursos que acompanham a versão mais recente da interface do Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d6b9b9c9905d840e65ac0aa267a665997c6e6b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 330
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +41,7 @@ _18 de agosto de 2026_
 <tbody>
 <tr>
 <td>
-<p>A atividade de fluxo de trabalho <strong>Aprovação</strong>, anteriormente disponível apenas no Console do cliente, agora está disponível na Interface do usuário da Web do Campaign. Atribua a tarefa a um grupo ou operador individual, personalize o título da notificação e a mensagem e defina as respostas possíveis (por exemplo, Sim/Não) como ramificações de saída.</p>
+<p>A atividade de fluxo de trabalho <strong>Aprovação</strong>, anteriormente disponível apenas no Console do cliente, agora está disponível na interface do usuário do Campaign Web. Atribua a tarefa a um grupo ou operador individual, personalize o título da notificação e a mensagem e defina as respostas possíveis (por exemplo, Sim/Não) como ramificações de saída.</p>
 </td>
 </tr>
 </tbody>
@@ -55,11 +49,11 @@ _18 de agosto de 2026_
 
 ### Aprimoramentos {#26-8-improvements}
 
-* **Abre o rastreamento**: agora é possível habilitar ou desabilitar o rastreamento aberto diretamente da Interface do Usuário da Web do Campaign. Isso ajuda você a cumprir as normas de proteção de dados.
-* **Exibição da lista de programas**: os programas agora estão listados em uma exibição dedicada, semelhante a campanhas, entregas e fluxos de trabalho. Você pode procurar programas existentes e criar novos diretamente nesta visualização.
-* **Configuração de esquema personalizado**: na seção **Dados de ação**, agora você pode proibir a ação **Duplicar** nos registros de um esquema personalizado.
+* **Abre o rastreamento**: agora você pode habilitar ou desabilitar a abertura de rastreamento diretamente na interface do usuário do Campaign Web. Isso ajuda você a cumprir os regulamentos de proteção dos dados.
+* **Exibição da lista de programas**: os programas agora estão listados em uma exibição dedicada, semelhante a campanhas, entregas e fluxos de trabalho. Você pode procurar programas existentes e criar novos diretamente nessa exibição.
+* **Configuração de esquema personalizado**: na seção **Dados da ação**, agora é possível desativar a ação **Duplicar** nos registros de um esquema personalizado.
   <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
-* **Filtros personalizados**: no editor de esquemas, os filtros personalizados agora oferecem suporte às condições de filtragem em links diretos e você pode substituir o rótulo padrão de qualquer atributo usando as novas **Configurações de filtro personalizado**.
+* **Filtros personalizados**: no editor de esquema, os filtros personalizados agora oferecem suporte às condições de filtragem em links diretos, e você pode substituir o rótulo padrão de qualquer atributo usando as novas **Configurações de filtro personalizado**.
 * **Validação de esquema**: agora é possível validar a estrutura de um esquema diretamente do editor de esquema, usando o novo botão **Validar**.
 * **Segurança da pasta**: a opção **Renomear** agora está disponível para uma pasta quando o usuário tem o direito de acesso **Inserir** ou **Editar**.
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->

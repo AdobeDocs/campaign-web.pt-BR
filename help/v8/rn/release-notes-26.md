@@ -3,9 +3,9 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2026 da interface do Campaign Web
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2025'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 Esta página lista todas as alterações e melhorias disponíveis nas **versões de 2026**. As notas de versão mais recentes estão disponíveis [nesta página](release-notes.md).
 
-## Versão de julho de 26 {#26-7-release}
+## Versão de julho de 2026 {#26-7-release}
 
 _28 de julho de 2026_
 
@@ -28,7 +28,7 @@ _28 de julho de 2026_
 <tbody>
 <tr>
 <td>
-<p>Agora é possível gerenciar ofertas de ponta a ponta diretamente na interface do usuário da Web do Campaign. Configure ambientes de oferta e espaços de oferta, crie seu catálogo de ofertas e categorias, crie ofertas com regras de elegibilidade e pesos de prioridade, e aprove-os e implante-os para uso em seus deliveries. As configurações avançadas permanecem disponíveis no Console do cliente.</p>
+<p>Agora você pode gerenciar ofertas de ponta a ponta diretamente pela Interface do usuário do Campaign Web. Configure ambientes e espaços de oferta, crie seu catálogo de oferta e categorias, crie ofertas com regras de elegibilidade e pesos de prioridade, bem como aprove e implante as ofertas para uso em suas entregas. As configurações avançadas permanecem disponíveis no Console do cliente.</p>
 <p>Para obter mais informações, consulte a <a href="../offers/gs-offer-management.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -44,7 +44,7 @@ _28 de julho de 2026_
 <tbody>
 <tr>
 <td>
-<p>Agora, os administradores técnicos podem criar e configurar marcas diretamente na interface do usuário da Web do Campaign, sem usar o console do cliente. Todas as configurações da marca, incluindo identidade, subdomínio e protocolos, parâmetros de cabeçalho de email e parâmetros de rastreamento de URL, agora estão disponíveis na interface do usuário da Web.</p>
+<p>Agora, os administradores técnicos podem criar e configurar marcas diretamente na interface do usuário do Campaign Web, sem usar o Console do cliente. Todas as configurações da marca, incluindo identidade, subdomínio e protocolos, parâmetros de cabeçalho de email e parâmetros de rastreamento de URL, agora estão disponíveis na interface da Web.</p>
 <p>Para obter mais informações, consulte a <a href="../administration/branding/branding-configure.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -60,7 +60,7 @@ _28 de julho de 2026_
 <tbody>
 <tr>
 <td>
-<p>Ao adicionar imagens a seus emails, agora você pode selecionar <strong>recursos públicos</strong>. Isso permite escolher uma imagem já disponível em sua instância do Adobe Campaign, como um arquivo importado anteriormente no Designer de email ou um recurso público carregado do console do cliente.</p>
+<p>Ao adicionar imagens a seus emails, agora você pode selecionar <strong>recursos públicos</strong>. Isso permite escolher uma imagem já disponível em sua instância do Adobe Campaign, como um arquivo importado anteriormente no Designer de email ou um recurso público carregado do Console do cliente.</p>
 <p>Para obter mais informações, consulte a <a href="../email/content-components.md#image">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -70,13 +70,13 @@ _28 de julho de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Atividade de workflow do carregamento de dados (RDBMS)</strong><br/></th>
+<th><strong>Atividade de fluxo de trabalho Carregamento de dados (RDBMS)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A atividade <strong>Data loading (RDBMS)</strong> agora está disponível na interface do usuário da Web do Campaign. Use esta atividade para carregar dados diretamente de um banco de dados relacional externo em seu fluxo de trabalho. Os dados extraídos estão disponíveis em todo o fluxo de trabalho e podem ser usados para direcionamento, enriquecimento ou processamento adicional de dados.</p>
+<p>A atividade <strong>Carregamento de dados (RDBMS)</strong> agora está disponível na interface do usuário do Campaign Web. Use essa atividade para carregar dados diretamente de um banco de dados relacional externo em seu fluxo de trabalho. Os dados extraídos estão disponíveis em todo o fluxo de trabalho e podem ser usados para direcionamento, enriquecimento ou processamento de dados adicional.</p>
 <p>Para obter mais informações, consulte a <a href="../workflows/activities/data-loading-rdbms.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -92,7 +92,7 @@ _28 de julho de 2026_
 <tbody>
 <tr>
 <td>
-<p>As páginas dinâmicas do JavaScript (JSSP) permitem construir páginas do lado do servidor que geram conteúdo dinâmico quando acessados por meio de um URL, como APIs personalizadas, exportações ou lógica de aplicativo da Web. Agora você pode criar, modificar, duplicar e excluir essas páginas diretamente da interface do usuário da Web do Campaign.</p>
+<p>As páginas JavaScript dinâmicas (JSSP) permitem criar páginas do lado do servidor que geram conteúdo dinâmico quando acessadas por um URL, como APIs personalizadas, exportações ou lógica de aplicativo web. Agora você pode criar, modificar, duplicar e excluir essas páginas diretamente da interface do usuário do Campaign Web.</p>
 <p>Para obter mais informações, consulte a <a href="../administration/dynamic-javascript-pages.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -101,18 +101,18 @@ _28 de julho de 2026_
 
 ### Aprimoramentos {#26-7-improvements}
 
-* As seguintes melhorias foram realizadas na **configuração de esquema personalizada**:
+* As seguintes melhorias foram realizadas na **configuração de esquema personalizado**:
   * A nova seção **Dados de ação** permite restringir as ações disponíveis nos registros de um esquema personalizado, independentemente das regras de segurança configuradas em pastas individuais. [Leia mais](../administration/schemas-action-data.md)
-  * **Filtros personalizados** foram adicionados à seção **Configuração da lista de inventário**. Eles permitem escolher quais atributos são exibidos como campos de acesso rápido no painel Filtros da exibição de lista. [Leia mais](../administration/schemas-custom-filters.md)
+  * **Filtros personalizados** foram adicionados à seção **Configuração da lista de inventário**. Eles permitem escolher quais atributos são exibidos como campos de acesso rápido no painel de filtros da visualização de lista. [Leia mais](../administration/schemas-custom-filters.md)
 
-* As seguintes melhorias foram realizadas nos **fluxos de trabalho**:
-  * A exclusão de uma atividade de workflow agora é mais flexível: quando a atividade tem atividades subsequentes, você pode optar por excluir todas elas, excluir apenas a atividade selecionada ou excluí-la enquanto mantém suas atividades subsequentes em uma nova ramificação. [Leia mais](../workflows/orchestrate-activities.md#delete-activity)
-  * Agora é possível desconectar uma transição entre duas atividades de workflow sem excluir nenhuma delas. Isso permite reorganizar um diagrama de workflow, por exemplo, para separar temporariamente um grupo de atividades que você deseja manter, sem precisar excluí-las e recriá-las. [Leia mais](../workflows/orchestrate-activities.md#disconnect-transition)
-  * Agora, barras de rolagem horizontais e verticais são exibidas ao redor da tela do fluxo de trabalho, permitindo navegar em fluxos de trabalho grandes arrastando-os diretamente para a área que deseja visualizar. [Leia mais](../workflows/orchestrate-activities.md)
-  * Ao salvar ou iniciar/reiniciar um fluxo de trabalho, um aviso será exibido se outro usuário tiver modificado o fluxo de trabalho na interface do usuário da Web ou no console do cliente desde que você o abriu. Você pode optar por substituir as outras alterações pela sua, recarregar o fluxo de trabalho para obter a versão mais recente ou cancelar.
+* As seguintes melhorias foram feitas nos **fluxos de trabalho**:
+  * A exclusão de uma atividade de fluxo de trabalho agora é mais flexível. Quando a atividade tem atividades subsequentes, você pode escolher entre excluir todas, excluir apenas a atividade selecionada ou excluí-la mantendo suas atividades subsequentes em uma nova ramificação. [Leia mais](../workflows/orchestrate-activities.md#delete-activity)
+  * Agora você pode desconectar uma transição entre duas atividades de fluxo de trabalho sem excluir nenhuma delas. Isso permite reorganizar um diagrama de fluxo de trabalho, por exemplo, para separar temporariamente um grupo de atividades que você deseja manter, sem precisar excluí-las e recriá-las. [Leia mais](../workflows/orchestrate-activities.md#disconnect-transition)
+  * Agora, barras de rolagem horizontais e verticais são exibidas ao redor da tela de fluxo de trabalho, permitindo navegar por fluxos de trabalho grandes arrastando diretamente para a área que deseja visualizar. [Leia mais](../workflows/orchestrate-activities.md)
+  * Ao salvar ou iniciar/reiniciar um fluxo de trabalho, um aviso será exibido se outro usuário tiver modificado o fluxo de trabalho na interface da Web ou no Console do cliente desde que você o abriu. Você pode optar por substituir as outras alterações pela sua, recarregar o fluxo de trabalho para obter a versão mais recente ou cancelar.
 
 * **Endereço de email do remetente**: agora é possível restringir o campo **De email** de suas entregas a uma lista predefinida de endereços, usando a opção **NmsDelivery_senderAddressMask**. [Leia mais](../administration/options.md#restrict-sender-address)
-* **Mensagens de erro de logon** foram aprimoradas: quando uma tentativa de logon falha, a interface do usuário da Web agora exibe uma mensagem de erro mais específica para vários cenários (por exemplo, quando o usuário não tem uma zona de segurança atribuída ou seu endereço IP é restrito).
+* **Mensagens de erro de logon** foram aprimoradas: quando uma tentativa de logon falha, a interface da Web agora exibe uma mensagem de erro mais específica para vários cenários (por exemplo, quando o usuário não tem uma zona de segurança atribuída ou seu endereço IP é restrito).
 
 ## Versão de junho de 2026 {#26-6-release}
 
@@ -126,7 +126,7 @@ _16 de junho de 2026_
 
 * Agora é possível exportar dados de qualquer tela de listas, incluindo logs de rastreamento. Encontre sua lista e simplesmente clique no botão de exportação. A exportação inclui as linhas carregadas no momento e leva em conta as colunas exibidas na tela e em quaisquer pesquisas ou filtros ativos. [Saiba mais](../get-started/list-filters.md)
 
-* As atividades de fluxo de trabalho **Desduplicação** e **Fim** agora oferecem suporte a várias transições de entrada. Quando mais de uma transição de entrada estiver disponível, use a seção **Conjuntos para ingressar** na atividade
+* As atividades de fluxo de trabalho **Desduplicação** e **Fim** agora oferecem suporte a várias transições de entrada. Quando houver mais de uma transição de entrada disponível, use a seção **Conjuntos para unir** nas propriedades da atividade
 para selecionar quais transições conectar. Saiba mais nestas páginas: [Desduplicação](../workflows/activities/deduplication.md), [Fim](../workflows/activities/end.md)
 
 * Parâmetros avançados agora estão expostos na seção **Dados de enriquecimento** das atividades de fluxo de trabalho **Criar público-alvo** (tipo de consulta) e **Enriquecimento**. Esses parâmetros permitem ajustar com precisão como os dados de enriquecimento são criados, incluindo agrupamento, desduplicação, tratamento da chave primária e dados do evento de entrada. [Saiba mais](../workflows/activities/enrichment.md)

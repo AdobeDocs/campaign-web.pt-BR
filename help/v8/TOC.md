@@ -7,9 +7,9 @@ description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -135,12 +135,12 @@ ht-degree: 95%
       + [Gerenciar conteúdo no modo escuro](email/dark-mode.md)
     + [Criar conteúdo acessível](email/accessible-content.md)
   + Gerar conteúdo {#ai-assistant}
-    + [Trabalhar com a opção Gerar conteúdo](content/generative-gs.md)
+    + [Trabalhar com o recurso Gerar conteúdo](content/generative-gs.md)
     + [Práticas recomendadas de prompts de IA](content/ai-assistant-prompting-guide.md)
     + [Geração de conteúdo completo com IA](content/generative-full-content.md)
     + [Geração de texto com IA](content/generative-text.md)
     + [Geração de imagens com IA](content/generative-image.md)
-    + [Gerar casos de uso de conteúdo](content/generative-uc.md)
+    + [Casos de uso do recurso Gerar conteúdo](content/generative-uc.md)
     + Marcas {#ai-assistant}
       + [Criar e gerenciar suas marcas](content/brands.md)
       + [Personalizar sua marca](content/brands-personalize.md)
@@ -152,11 +152,11 @@ ht-degree: 95%
   + [Crie o conteúdo da página de destino](landing-pages/lp-content.md)
   + [Aprenda com casos de uso](landing-pages/lp-use-cases.md)
 + Gerenciamento de ofertas {#offers}
-  + [Introdução ao gerenciamento de ofertas](offers/gs-offer-management.md)
+  + [Começar a usar o gerenciamento de ofertas](offers/gs-offer-management.md)
   + [Revisar configurações do ambiente de oferta](offers/offer-environment.md)
   + [Criar e gerenciar espaços de oferta](offers/offer-space.md)
   + [Criar e publicar uma oferta](offers/create-offer.md)
-  + [Adicionar uma lista editável ao schema de ofertas](offers/offer-editable-list.md)
+  + [Adicionar uma lista editável ao esquema de oferta](offers/offer-editable-list.md)
 + Perfis e públicos-alvo {#audiences}
   + [Introdução a perfis e públicos-alvo](audience/gs-audiences-recipients.md)
   + [Dimensões de direcionamento](audience/targeting-dimensions.md)
@@ -306,7 +306,7 @@ ht-degree: 95%
     + [Criar e publicar esquemas](administration/schemas-create-publish.md)
     + [Trabalhar com formulários personalizados](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurar campos personalizados](administration/custom-fields.md)
-  + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
   + [Gerenciamento de fuso horário](administration/timezone-management.md)
   + Contas externas {#external-accounts}
     + [Criar contas externas](administration/create-external-account.md)
