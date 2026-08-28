@@ -57,4 +57,4 @@ Ainda não há uma maneira de inspecionar um Content Credential diretamente no d
 ## Recursos adicionais
 
 * [Trabalhar com o recurso Gerar conteúdo](generative-gs.md)
-* [Transparência do conteúdo de IA gerativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Transparência do conteúdo de IA gerativa](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
