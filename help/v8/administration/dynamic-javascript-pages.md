@@ -2,15 +2,12 @@
 title: Trabalhar com páginas dinâmicas do JavaScript
 description: Saiba como trabalhar com páginas dinâmicas do JavaScript.
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 392
-ht-degree: 1%
+ht-degree: 29%
 
 ---
 
@@ -18,17 +15,17 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_list"
->title="Páginas JavaScript dinâmicas"
->abstract="As páginas dinâmicas do JavaScript (JSSP) permitem construir páginas do lado do servidor que geram conteúdo dinâmico quando acessados por meio de um URL, como APIs personalizadas, exportações ou lógica de aplicativo da Web. Nessa lista, você pode criar, modificar, duplicar ou excluir uma página dinâmica do JavaScript."
+>title="Páginas dinâmicas do JavaScript"
+>abstract="As páginas JavaScript dinâmicas (JSSP) permitem criar páginas do lado do servidor que geram conteúdo dinâmico quando acessadas por meio de um URL, como APIs, exportações ou lógica de aplicativo Web personalizada. Nesta lista, você pode criar, modificar, duplicar ou excluir uma página JavaScript dinâmica."
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_create"
 >title="Criar página JavaScript dinâmica"
->abstract="Defina um namespace, nome e rótulo para sua página dinâmica do JavaScript e grave o conteúdo usando o código JavaScript. Depois de criado, o namespace e o nome não podem ser modificados."
+>abstract="Defina um namespace, nome e rótulo para sua página JavaScript dinâmica e grave o conteúdo usando código JavaScript. Depois de criado, o namespace e o nome não podem ser modificados."
 
 ## Sobre páginas dinâmicas do JavaScript {#about}
 
-As páginas dinâmicas do JavaScript (JSSP) permitem construir páginas do lado do servidor que geram conteúdo dinâmico quando acessados por meio de um URL, como APIs personalizadas, exportações ou lógica de aplicativo da Web. Essas páginas são armazenadas no menu **[!UICONTROL Administração]** > **[!UICONTROL Páginas do Dynamic JavaScript]**, no painel de navegação esquerdo.
+As páginas JavaScript dinâmicas (JSSP) permitem criar páginas do lado do servidor que geram conteúdo dinâmico quando acessadas por um URL, como APIs personalizadas, exportações ou lógica de aplicativo web. Essas páginas são armazenadas no menu **[!UICONTROL Administração]** > **[!UICONTROL Páginas do Dynamic JavaScript]**, no painel de navegação esquerdo.
 
 ![Interface de lista de páginas do Dynamic JavaScript mostrando as opções disponíveis](assets/dynamic-javascript-pages.png)
 
