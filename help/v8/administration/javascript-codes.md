@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 535
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="Códigos em JavaScript"
->abstract="Os códigos JavaScript são funções reutilizáveis que podem ser usadas em workflows, de modo semelhante a uma biblioteca. Nessa lista, é possível criar, modificar, duplicar ou excluir um código JavaScript."
+>abstract="Os códigos JavaScript são funções reutilizáveis que podem ser usadas em fluxos de trabalho, de modo semelhante a uma biblioteca. Nessa lista, é possível criar, modificar, duplicar ou excluir um código JavaScript."
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"

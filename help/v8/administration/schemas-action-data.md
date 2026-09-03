@@ -4,7 +4,7 @@ description: Saiba como restringir ações de criação, edição e exclusão em
 source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_schema_action_data"
 >title="Dados de ações"
->abstract="Configure as ações disponíveis para as telas de detalhes e de lista do esquema. Habilite **[!UICONTROL Somente leitura]** para definir a tela de detalhes como somente leitura e remover ações da lista. Habilitar **[!UICONTROL Não permitir exclusão]** para remover a ação de exclusão das telas de detalhes e listas."
+>abstract="Configure as ações disponíveis para as telas de detalhes e de lista do esquema. Habilite **[!UICONTROL Somente leitura]** para definir a tela de detalhes como somente leitura e remover ações da lista. Habilite **[!UICONTROL Não permitir exclusão]** para remover a ação de exclusão das telas de detalhes e listas."
 
 A seção **[!UICONTROL Dados de ação]** permite restringir as ações disponíveis nos registros de um esquema personalizado, independentemente das [regras de segurança](../get-started/work-with-folders.md) configuradas em pastas individuais. Essa restrição se aplica no nível do schema, em todas as pastas, para cada usuário, incluindo administradores.
 

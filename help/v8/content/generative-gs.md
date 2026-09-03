@@ -15,7 +15,7 @@ ht-degree: 20%
 
 ---
 
-# Trabalhar com a opção Gerar conteúdo {#generative-gs}
+# Trabalhar com o recurso Gerar conteúdo {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
