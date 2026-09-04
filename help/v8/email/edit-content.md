@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 35%
+source-wordcount: 734
+ht-degree: 33%
 
 ---
 
@@ -113,7 +113,7 @@ Para configurar ou editar o conteúdo de um email, siga as etapas abaixo.
    * [Criar emails do zero](create-email-content.md)
    * [Estilizar o conteúdo](get-started-email-style.md)
 
-1. Por padrão, o rastreamento é habilitado para a entrega. Você pode desabilitar essa opção na seção **[!UICONTROL Recursos opcionais]**. [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
+1. Por padrão, o rastreamento é habilitado para a entrega. Você pode desabilitá-lo ou configurar o rastreamento de abertura na guia **[!UICONTROL Configurações]** > **[!UICONTROL Rastreamento]** da entrega. [Saiba mais](../advanced-settings/delivery-settings.md#tracking-tab). [Saiba como adicionar links e gerenciar o rastreamento](message-tracking.md)
 
 1. Depois que o conteúdo do email tiver sido definido, use o botão **[!UICONTROL Simular conteúdo]** para verificar como ele é exibido antes de enviá-lo. Você também pode validar a qualidade do conteúdo para avaliar a legibilidade, a eficácia do CTA e a qualidade geral. [Saiba mais sobre a validação de qualidade do conteúdo](../content/brands-score.md#validate-quality)
 

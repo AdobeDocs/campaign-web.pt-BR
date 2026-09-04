@@ -8,9 +8,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 278
 ht-degree: 50%
 
 ---
@@ -41,7 +41,7 @@ Para projetar o conteúdo de um delivery de SMS, siga estas etapas:
 
    ![Captura de tela mostrando o campo Mensagem com opções para adicionar conteúdo dinâmico](assets/sms_content_2.png){zoomable="yes"}
 
-1. Por padrão, o rastreamento está habilitado para entregas. Desabilite esta opção na **[!UICONTROL seção de recursos opcionais]**, se necessário.
+1. Por padrão, o rastreamento está habilitado para entregas. Desabilite esta opção na guia **[!UICONTROL Configurações]** > **[!UICONTROL Rastreamento]** da entrega, se necessário. [Saiba mais](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. Clique em **[!UICONTROL Configurações]** para acessar as opções avançadas relacionadas ao seu modelo de entrega. [Saiba mais](../advanced-settings/delivery-settings.md)
 

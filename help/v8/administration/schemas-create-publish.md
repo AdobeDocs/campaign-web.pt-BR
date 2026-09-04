@@ -2,10 +2,10 @@
 title: Criar e publicar esquemas
 description: Saiba como criar, estender e publicar esquemas.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +35,15 @@ O schema é criado e a estrutura do schema gerada é exibida.
 Por padrão, o schema está vazio. Agora é necessário adicionar os campos que deseja incluir no esquema usando o editor de esquemas:
 
 1. Clique no ícone de lápis na seção **[!UICONTROL Conteúdo]** da tela de detalhes do esquema.
-2. Adicione os elementos necessários e salve. Este é um exemplo de estrutura de esquema personalizada:
+1. Adicione os elementos necessários. Este é um exemplo de estrutura de esquema personalizada:
 
    ![Caixa de diálogo de criação do esquema](assets/schemas-create3.png)
 
-O sistema valida automaticamente a estrutura XML e gera o schema.
+1. Clique no botão **[!UICONTROL Verificar]** para verificar a estrutura XML do esquema antes de salvar. Os erros identificados são exibidos na parte inferior da tela, por exemplo, &quot;Formato XML inválido&quot;.
+
+   ![Erros da caixa de diálogo de criação de esquema](assets/schemas-create3bis.png)
+
+1. Corrija os erros e salve as alterações para gerar o esquema.
 
 ### Definir a edição de tela {#define-attributes}
 
