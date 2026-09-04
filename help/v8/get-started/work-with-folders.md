@@ -53,7 +53,7 @@ As ações disponíveis em uma pasta dependem dos direitos que lhe foram concedi
 
 Entre em contato com o administrador se você não tiver direitos em uma pasta. Consulte esta [seção](permissions.md#folder-permissions) para saber como as permissões de pasta são gerenciadas.
 
-Direitos nomeados como **[!UICONTROL Inserir pastas]**, **[!UICONTROL Editar pastas]** e **[!UICONTROL Excluir pasta]** também determinam quais ações de pasta estão disponíveis para um operador. Consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Direitos nomeados como **[!UICONTROL Inserir pastas]**, **[!UICONTROL Editar pastas]** e **[!UICONTROL Excluir pasta]** também determinam quais ações de pasta estão disponíveis para um operador. Consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=pt-BR#use-named-rights){target="_blank"}.
 
 ## Criar uma nova pasta {#create-a-folder}
 

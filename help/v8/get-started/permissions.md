@@ -55,6 +55,6 @@ Se a opção **[!UICONTROL Pasta do sistema]** for selecionada, o acesso será
 
 Consulte esta [seção](work-with-folders.md#folder-access-rights) para saber como esses direitos afetam as ações disponíveis para você em uma pasta.
 
-Os direitos nomeados também determinam quais ações de pasta estão disponíveis para um operador. Consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Os direitos nomeados também determinam quais ações de pasta estão disponíveis para um operador. Consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=pt-BR#use-named-rights){target="_blank"}.
 
 Todas as permissões na interface do Campaign Web são sincronizadas com as permissões do console do cliente do Campaign.
