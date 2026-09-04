@@ -1,10 +1,10 @@
 ---
 title: Controlar ações em dados
 description: Saiba como restringir ações de criação, edição e exclusão em registros de esquema personalizados.
-source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 13%
+source-wordcount: '423'
+ht-degree: 12%
 
 ---
 
@@ -33,15 +33,17 @@ Para configurar dados de ação, siga as etapas abaixo:
 
    ![Seção de dados de ação na definição de tela](assets/schemas-action-data1.png)
 
-1. Selecione uma ou ambas as opções disponíveis:
+1. Selecione uma ou mais das opções disponíveis:
 
    * **[!UICONTROL Somente leitura]**: a tela de detalhes se torna somente leitura para todos os usuários. Nenhuma ação de criação, duplicação, atualização ou exclusão está disponível na lista, e as ações de exclusão e duplicação estão ocultas na tela de detalhes. Selecionar essa opção é semelhante à configuração de uma visualização: os usuários ainda podem abrir registros e reutilizá-los, por exemplo, ao direcionar um delivery, mas não podem modificá-los.
 
    * **[!UICONTROL Não permitir exclusão]**: a ação de exclusão é removida da tela de detalhes e da lista, em todas as pastas. Outras ações, como criar, duplicar e atualizar, permanecem disponíveis.
 
+   * **[!UICONTROL Não permitir duplicação]**: a ação duplicada é removida da tela de detalhes e da lista, em todas as pastas. Outras ações, como criar, excluir e atualizar, permanecem disponíveis.
+
      >[!NOTE]
      >
-     >Habilitar **[!UICONTROL Somente leitura]** também abrange automaticamente a exclusão, portanto, a opção **[!UICONTROL Não permitir exclusão]** ficará desabilitada enquanto **[!UICONTROL Somente leitura]** estiver selecionado.
+     >A habilitação de **[!UICONTROL Somente leitura]** também abrange automaticamente a exclusão e a duplicação. Portanto, as opções **[!UICONTROL Não permitir exclusão]** e **[!UICONTROL Não permitir duplicação]** são desabilitadas enquanto **[!UICONTROL Somente leitura]** é selecionado.
 
 1. Clique em **[!UICONTROL Save]**.
 

@@ -6,9 +6,9 @@ title: Documentação do Adobe Campaign Web
 description: Documentação do Campaign Web
 breadcrumb-title: Interface do Campaign Web
 nudge: true
-source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 99%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 99%
     + [Iniciar e monitorar fluxos de trabalho](workflows/start-monitor-workflows.md)
   + Trabalhar com atividades de fluxo de trabalho {#design-workflows}
     + [Sobre atividades de fluxo de trabalho](workflows/activities/about-activities.md)
+    + [Aprovação](workflows/activities/approval.md)
     + [Entrega automatizada](workflows/activities/automated-delivery.md)
     + [Criar público-alvo](workflows/activities/build-audience.md)
     + [Alterar fonte de dados](workflows/activities/change-data-source.md)
@@ -307,7 +308,7 @@ ht-degree: 99%
     + [Criar e publicar esquemas](administration/schemas-create-publish.md)
     + [Trabalhar com formulários personalizados](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurar campos personalizados](administration/custom-fields.md)
-  + [Configurar opções do  [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurar opções do  [!DNL Campaign] ](administration/options.md)
   + [Gerenciamento de fuso horário](administration/timezone-management.md)
   + Contas externas {#external-accounts}
     + [Criar contas externas](administration/create-external-account.md)

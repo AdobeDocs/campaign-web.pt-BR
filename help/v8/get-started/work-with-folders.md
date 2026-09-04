@@ -4,12 +4,11 @@ title: Trabalhar com pastas
 description: Saiba como gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 735
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 837
+ht-degree: 88%
 
 ---
 
@@ -49,6 +48,11 @@ Pastas são objetos no Adobe Campaign que permitem organizar os componentes e da
 >
 >As pastas **[!UICONTROL Objetos criados automaticamente]** e **[!UICONTROL Fluxos de trabalho técnicos]** são restritas e não podem ser visualizadas no painel lateral esquerdo.
 
+As ações disponíveis em uma pasta dependem dos direitos que lhe foram concedidos. A caixa de diálogo **[!UICONTROL Configurações de pasta]** pode ser aberta no **modo somente leitura** e algumas ações ou seções podem não estar disponíveis, dependendo dos seus direitos.
+
+Entre em contato com o administrador se você não tiver direitos em uma pasta. Consulte esta [seção](permissions.md#folder-permissions) para saber como as permissões de pasta são gerenciadas.
+
+Direitos nomeados como **[!UICONTROL Inserir pastas]**, **[!UICONTROL Editar pastas]** e **[!UICONTROL Excluir pasta]** também determinam quais ações de pasta estão disponíveis para um operador. Consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
 
 ## Criar uma nova pasta {#create-a-folder}
 

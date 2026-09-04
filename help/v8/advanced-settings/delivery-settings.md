@@ -5,17 +5,12 @@ description: Saiba como definir as configurações de entrega no Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3516
+source-wordcount: 3646
 ht-degree: 44%
 
 ---
@@ -154,6 +149,19 @@ Para emails, você também pode alterar os **[!UICONTROL formatos de email]** da
 
 * **[!UICONTROL Enviar todas as mensagens no formato de texto]**: o email é enviado no formato de texto. O formato HTML não será enviado, mas usado somente para a mirror page quando o recipient clicar no email.
 
+## Rastreamento {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="Rastreamento de edições"
+>abstract="Por padrão, o rastreamento é habilitado para a entrega, o que significa que todos os links incluídos no conteúdo da mensagem são rastreados. Você pode desabilitar essa opção aqui."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Adicionar links e rastrear mensagens"
+
+Essa guia está disponível quando um schema de log de rastreamento é configurado para o delivery e o modo de delivery não é externo.
+
+* **[!UICONTROL Ativar rastreamento]**: ativar ou desativar o rastreamento para a entrega. Quando desativado, nenhum dado de rastreamento de clique ou abertura é coletado.
+* **[!UICONTROL Abre o rastreamento]** (canal de email): habilite ou desabilite o rastreamento de aberturas de mensagens usando o pixel de rastreamento. Esta opção só está disponível quando **[!UICONTROL Ativar rastreamento]** está habilitada. Isso ajuda você a cumprir as regulamentações de proteção de dados, como a CNIL ou o GDPR.
+
 ## Análise da web {#web-analytics}
 
 >[!CONTEXTUALHELP]
@@ -167,7 +175,7 @@ Também é possível definir as tags compartilhadas com a ferramenta de análise
 
 >[!NOTE]
 >
->Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=pt-BR#external-account-ac){target="_blank"}.
+>Os recursos do Web Analytics são configurados no console do Campaign Client. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Tentativas {#retries}
 
@@ -329,10 +337,10 @@ Os parâmetros de entrega de SMS são configurações técnicas que se aplicam �
 
   Esse campo define o tipo de SMS a ser enviado: se é uma mensagem normal ou flash e se deve ser armazenada no dispositivo móvel ou no cartão SIM. Essa configuração é transmitida no campo opcional dest_addr_subunit na PDU SUBMIT_SM.
 
-   * **Flash** define o valor como 1. Envia um SMS flash que é exibido imediatamente na tela e não é armazenado.
-   * **Normal** define o valor como 0. Envia um SMS padrão.
-   * **Salvo no dispositivo móvel** define o valor como 2. Instrui o dispositivo a armazenar o SMS na memória interna.
-   * **Salvo no terminal** define o valor como 3. Instrui o dispositivo a armazenar o SMS no cartão SIM.
+  * **Flash** define o valor como 1. Envia um SMS flash que é exibido imediatamente na tela e não é armazenado.
+  * **Normal** define o valor como 0. Envia um SMS padrão.
+  * **Salvo no dispositivo móvel** define o valor como 2. Instrui o dispositivo a armazenar o SMS na memória interna.
+  * **Salvo no terminal** define o valor como 3. Instrui o dispositivo a armazenar o SMS no cartão SIM.
 
 * **[!UICONTROL Prioridade, Tipo de comunicação]**
 
@@ -351,13 +359,13 @@ Os parâmetros de entrega de SMS são configurações técnicas que se aplicam �
 * **[!UICONTROL Parâmetros SMPP opcionais (TLV)]**
 
   Você pode especificar campos extras para enviar como parâmetros SMPP opcionais (TLV). Esses campos extras são enviados com cada MT e os campos personalizados permitem ter valores diferentes para cada MT.
-A tabela lista os parâmetros opcionais a serem enviados com cada mensagem. As colunas contêm as seguintes informações:
+  A tabela lista os parâmetros opcionais a serem enviados com cada mensagem. As colunas contêm as seguintes informações:
 
-   * **Rótulo**: este é um rótulo opcional de forma livre. Ele não é transmitido ao provedor. Você pode fornecer uma descrição textual do parâmetro.
-   * **Marca**: o valor da marca em formato decimal (por exemplo, 12345) ou hexadecimal com o prefixo 0x (por exemplo, 0x12ab). As tags podem ficar entre 0 e 65535. Peça ao provedor de serviços SMPP as tags que ele aceita.
-   * **Valor**: valor a ser enviado no parâmetro opcional. Este é um campo personalizado.
-   * **Formato**: codificação usada para o parâmetro. Você pode selecionar qualquer codificação de texto compatível ou os formatos binários mais comuns. Peça o formato necessário ao provedor de serviços SMPP.
-   * **Comprimento máximo**: número máximo de bytes para este parâmetro. Isso é ignorado para campos binários, pois os campos binários têm um tamanho fixo.
+  * **Rótulo**: este é um rótulo opcional de forma livre. Ele não é transmitido ao provedor. Você pode fornecer uma descrição textual do parâmetro.
+  * **Marca**: o valor da marca em formato decimal (por exemplo, 12345) ou hexadecimal com o prefixo 0x (por exemplo, 0x12ab). As tags podem ficar entre 0 e 65535. Peça ao provedor de serviços SMPP as tags que ele aceita.
+  * **Valor**: valor a ser enviado no parâmetro opcional. Este é um campo personalizado.
+  * **Formato**: codificação usada para o parâmetro. Você pode selecionar qualquer codificação de texto compatível ou os formatos binários mais comuns. Peça o formato necessário ao provedor de serviços SMPP.
+  * **Comprimento máximo**: número máximo de bytes para este parâmetro. Isso é ignorado para campos binários, pois os campos binários têm um tamanho fixo.
 
   **Usando formatos binários para TLV**
 
