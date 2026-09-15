@@ -9,10 +9,8 @@ exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 4%
-
+ht-degree: 10%
 ---
-
 # Configurar marcas {#branding-configure}
 
 Os administradores técnicos podem criar e gerenciar várias marcas diretamente na interface do usuário da Web. Isso permite definir todos os elementos que compõem a identidade da sua marca, incluindo logotipos e até mesmo configurações de rastreamento de email.
@@ -26,7 +24,7 @@ Os administradores técnicos podem criar e gerenciar várias marcas diretamente 
 >[!CONTEXTUALHELP]
 >id="acw_branding_create"
 >title="Criar uma marca"
->abstract="Clique em **Criar marca** para definir uma nova identidade de marca. Preencha os detalhes da marca nas guias de configuração e clique em **Criar marca** para salvar. A marca fica disponível para ser vinculada a templates de delivery e deliveries independentes."
+>abstract="Clique em **Criar marca** para definir uma nova identidade de marca. Preencha os detalhes da marca nas guias de configuração e clique em **Criar marca** para salvar. A marca fica disponível para ser vinculada a modelos de entrega e entregas independentes."
 
 Para criar uma nova marca, siga estas etapas:
 
