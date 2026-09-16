@@ -175,7 +175,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir uma imagem no email.
 
    ![Captura de tela mostrando o processo de seleção de ativos no Designer de email.](assets/email_designer_29.png){zoomable="yes"}
 
-   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
+   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=pt-BR).
 
    +++
 

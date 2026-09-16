@@ -112,7 +112,7 @@ As diretrizes gerais para o uso da IA para gerar conteúdo no Adobe Campaign Web
 * Use [modelos de email internos](../content/create-email-templates.md), modelos específicos da marca ou modelos personalizados para criar seu conteúdo de email usando IA. São recomendados modelos de e-mail com até 8 a 10 imagens.
 * Relate quaisquer saídas problemáticas usando os ícones de miniatura, miniatura ou sinalizador ao selecionar variantes.
 * O uso de Gerar conteúdo está sujeito às Diretrizes de usuário da IA gerada da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Como parte do compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica o Content Credentials quando o conteúdo ou um projeto que inclui um ativo gerado pela Firefly é baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html).
+* Como parte do compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica o Content Credentials quando o conteúdo ou um projeto que inclui um ativo gerado pela Firefly é baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html).
 
 As seguintes limitações se aplicam à Geração de conteúdo no Adobe Campaign Web:
 
