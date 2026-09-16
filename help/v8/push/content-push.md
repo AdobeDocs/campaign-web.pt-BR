@@ -6,13 +6,12 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1653'
 ht-degree: 42%
-
 ---
-
 # Criar uma entrega por push {#content-push}
 
 >[!CONTEXTUALHELP]
@@ -53,7 +52,7 @@ Com o Firebase Cloud Messaging, escolha entre dois tipos de mensagens:
 * A **[!UICONTROL Mensagem de dados]** é manipulada pelo aplicativo cliente. Essas mensagens são enviadas diretamente para o aplicativo móvel, que gera e exibe uma notificação do Android no dispositivo. As mensagens de dados contêm somente as variáveis personalizadas do aplicativo.
 
   Para definir o conteúdo, personalizar dados e adicionar conteúdo dinâmico, clique no campo **[!UICONTROL Mensagem]** e use o editor de expressão. Acesse este editor para personalizar suas mensagens.
-No menu **[!UICONTROL Variáveis de aplicativo]**, suas variáveis de aplicativo são adicionadas automaticamente. Essas variáveis permitem definir o comportamento da notificação. Por exemplo, configure uma tela de aplicativo específica para ser exibida quando o usuário ativar a notificação.
+  No menu **[!UICONTROL Variáveis de aplicativo]**, suas variáveis de aplicativo são adicionadas automaticamente. Essas variáveis permitem definir o comportamento da notificação. Por exemplo, configure uma tela de aplicativo específica para ser exibida quando o usuário ativar a notificação.
 
   ![Descrição: Exemplo de definição de conteúdo para uma mensagem de dados em notificações do Android](assets/push_content_4.png){zoomable="yes"}
 

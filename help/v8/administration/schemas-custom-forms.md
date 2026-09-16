@@ -1,13 +1,12 @@
 ---
 title: Trabalhar com formulários personalizados
 description: Saiba como criar, editar e gerenciar registros em esquemas personalizados usando formulários de entrada de dados.
-source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
+exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
-
+source-wordcount: '442'
+ht-degree: 2%
 ---
-
 # Trabalhar com formulários personalizados {#custom-forms}
 
 Formulários personalizados são interfaces de entrada de dados que permitem gerenciar registros em esquemas personalizados diretamente da Interface do Usuário da Web. Cada formulário personalizado corresponde a um esquema personalizado específico e fornece uma exibição de lista para procurar registros e uma exibição de detalhes para criar, editar e excluir registros.

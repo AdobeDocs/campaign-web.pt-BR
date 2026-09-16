@@ -6,15 +6,15 @@ exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 TQID: https://experienceleague.adobe.com/EY2zw8-EfxmTKS3kCcigZY5f-piIO7S2s-gT8knFbeY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # Testar o e-mail rendering {#email-rendering}
 
 Antes de enviar o email, verifique se a sua mensagem é exibida de forma ideal para os destinatários em vários clientes e dispositivos da Web.

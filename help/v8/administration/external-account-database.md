@@ -5,15 +5,15 @@ exl-id: 8f41312e-422f-4be1-b874-1b143c500912
 TQID: https://experienceleague.adobe.com/3UXLVWPQ0AxtloNmhumWXdi4VOVbHqveeZdkGlxhlQQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 3911
+source-wordcount: '3911'
 ht-degree: 1%
-
 ---
-
 # Contas do banco de dados externo {#external-accounts}
 
 Use uma conta externa do tipo External database para conectar o Adobe Campaign a um banco de dados de terceiros.

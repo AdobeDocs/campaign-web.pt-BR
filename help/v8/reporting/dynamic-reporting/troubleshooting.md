@@ -8,9 +8,7 @@ source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 3%
-
 ---
-
 # Solução de problemas{#troubleshooting}
 
 Você pode encontrar nesta seção perguntas comuns relacionadas aos relatórios dinâmicos.
@@ -199,16 +197,16 @@ A discrepância entre o número do cabeçalho da coluna e a soma de todas as lin
 
   Por exemplo:
 
-   * Se um perfil A abrir um email em três dias diferentes, a análise por dia mostrará A em três linhas, mas no cabeçalho, A contará como 1.
+  * Se um perfil A abrir um email em três dias diferentes, a análise por dia mostrará A em três linhas, mas no cabeçalho, A contará como 1.
 
-   * Se o perfil A clicar em três links diferentes em um email no mesmo dia, o detalhamento por URL de rastreamento mostrará A em três linhas, mas no cabeçalho, A contará como 1. O mesmo se aplica aos detalhamentos por dispositivo e navegador.
+  * Se o perfil A clicar em três links diferentes em um email no mesmo dia, o detalhamento por URL de rastreamento mostrará A em três linhas, mas no cabeçalho, A contará como 1. O mesmo se aplica aos detalhamentos por dispositivo e navegador.
 
 * **Métricas abertas**: a contagem de Aberturas é determinada agregando o total de eventos Abertos reais e de eventos de cliques únicos (por ID de destinatário), exceto casos em que um evento aberto não ocorreu, pois um link de email não pode ser clicado sem um evento aberto.
 
   Por exemplo:
 
-   * Quando o perfil A abre um email rastreado (com o URL U1), ele é registrado como um evento aberto com o URL anotado como nulo. Clicar no U1 mais tarde gera um evento de clique. Embora o clique de A em U1 seja contado como um evento aberto também, não há evento aberto específico para U1. Portanto, A é contado apenas uma vez na contagem aberta exclusiva.
+  * Quando o perfil A abre um email rastreado (com o URL U1), ele é registrado como um evento aberto com o URL anotado como nulo. Clicar no U1 mais tarde gera um evento de clique. Embora o clique de A em U1 seja contado como um evento aberto também, não há evento aberto específico para U1. Portanto, A é contado apenas uma vez na contagem aberta exclusiva.
 
-   * Um perfil R abre um email no dia 1, registra um evento aberto e clica em um link. Nos próximos dois dias, R reabre o email e clica no link novamente, gerando um evento de clique a cada dia. Embora o engajamento de R seja rastreado diariamente no número de abertura, R é contado apenas uma vez no cabeçalho da coluna, com foco em engajamentos exclusivos.
+  * Um perfil R abre um email no dia 1, registra um evento aberto e clica em um link. Nos próximos dois dias, R reabre o email e clica no link novamente, gerando um evento de clique a cada dia. Embora o engajamento de R seja rastreado diariamente no número de abertura, R é contado apenas uma vez no cabeçalho da coluna, com foco em engajamentos exclusivos.
 
 * **Evento negado**: em Relatórios, evento negado significa tentativas de entrega que foram marcadas inicialmente como bem-sucedidas, mas que falharam após novas tentativas. Eles são indicados por uma contagem de -1. Para evitar confusão, essas contagens negativas são excluídas dos números da métrica de entrega exibidos. Como resultado, o total de todas as linhas para a métrica de entrega pode não corresponder ao número do cabeçalho da coluna.

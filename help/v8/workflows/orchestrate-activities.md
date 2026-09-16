@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1720
-ht-degree: 8%
-
+source-wordcount: '1720'
+ht-degree: 10%
 ---
-
 # Orquestrar atividades {#orchestrate}
 
 Depois de [criar um fluxo de trabalho](create-workflow.md), seja no menu de fluxo de trabalho ou em uma campanha, você pode começar a orquestrar as diferentes tarefas que ele realiza. Para fazer isso, uma tela visual é fornecida, permitindo que você crie um diagrama de workflow. Neste diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial. Barras de rolagem horizontais e verticais são exibidas ao redor da tela, permitindo navegar em fluxos de trabalho grandes arrastando diretamente para a área que deseja visualizar.
@@ -128,7 +127,7 @@ Clique em **Excluir** para confirmar sua escolha ou em **Cancelar** para fechar 
 
 Você pode desconectar duas atividades sem excluir nenhuma delas. As atividades colocadas após a transição desconectada não são excluídas: elas são movidas para uma nova ramificação separada do fluxo de trabalho.
 
-Isso permite reorganizar um diagrama de workflow, por exemplo, para separar temporariamente um grupo de atividades que você deseja manter, sem precisar excluí-las e recriá-las.
+Isso permite reorganizar um diagrama de fluxo de trabalho, por exemplo, para separar temporariamente um grupo de atividades que você deseja manter, sem precisar excluí-las e recriá-las.
 
 Você pode fazer isso em uma única transição:
 

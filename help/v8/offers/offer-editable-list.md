@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Adicionar uma lista editável ao schema de ofertas
+title: Adicionar uma lista editável ao esquema de oferta
 description: Saiba como expor um link de coleção personalizado como uma lista editável diretamente na tela de detalhes da oferta.
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 1%
-
+source-wordcount: '449'
+ht-degree: 5%
 ---
-
-# Adicionar uma lista editável ao schema de ofertas {#offer-editable-list}
+# Adicionar uma lista editável ao esquema de oferta {#offer-editable-list}
 
 Ao [estender o [!DNL nms:offer] esquema](../administration/schemas.md) com um link de coleção personalizado, como um conjunto de segmentos vinculados a uma oferta, você pode expô-lo como uma lista editável diretamente na seção **[!UICONTROL Opções personalizadas]** da oferta. Em vez de gerenciar os registros relacionados por meio de uma tela separada, a coleção é renderizada como uma lista nos detalhes da oferta e você pode criar novos registros relacionados em linha por meio de uma caixa de diálogo dedicada.
 

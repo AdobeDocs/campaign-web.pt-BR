@@ -6,15 +6,15 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: '1517'
 ht-degree: 30%
-
 ---
-
 # Usar componentes de conteúdo {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -175,7 +175,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir uma imagem no email.
 
    ![Captura de tela mostrando o processo de seleção de ativos no Designer de email.](assets/email_designer_29.png){zoomable="yes"}
 
-   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=pt-BR).
+   Para saber mais sobre como carregar e adicionar ativos no Adobe Experience Manager, consulte a [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    +++
 

@@ -6,15 +6,15 @@ exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 506
+workflow-type: tm+mt
+source-wordcount: '506'
 ht-degree: 100%
-
 ---
-
 # Selecionar atributos e adicioná-los aos favoritos {#folders}
 
 A interface do Campaign Web permite selecionar atributos do banco de dados em vários locais, dependendo da ação que está sendo realizada. Por exemplo, é possível selecionar atributos ao definir colunas de saída para uma entrega de correspondência direta ou um arquivo para extração. Da mesma forma, é possível selecionar atributos ao usar o modelador de consulta para criar regras, filtros ou públicos-alvo.

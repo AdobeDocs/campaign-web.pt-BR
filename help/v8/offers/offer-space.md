@@ -5,15 +5,15 @@ description: Saiba como criar, configurar, implantar e visualizar espaços de of
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 0%
-
+source-wordcount: '921'
+ht-degree: 1%
 ---
-
 # Criar e gerenciar espaços de oferta {#offer-space}
 
 Um **espaço de ofertas** define onde e como uma oferta é exposta a um contato: qual canal ela usa (email, correspondência direta, SMS, Web de entrada etc.), quais campos de conteúdo a oferta pode usar e como a representação final é criada. Um único ambiente pode conter vários espaços de oferta — um para cada ponto de exposição.

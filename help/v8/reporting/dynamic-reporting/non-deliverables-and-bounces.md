@@ -6,11 +6,9 @@ level: Intermediate
 exl-id: 325a03dc-1b28-4418-921f-64c029fa8989
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 4%
-
+source-wordcount: '128'
+ht-degree: 6%
 ---
-
 # Não entregáveis e rejeições{#non-deliverables-and-bounces}
 
 O relatório **[!UICONTROL Não entregues e rejeitados]** fornece detalhes sobre todos os erros encontrados durante uma entrega.

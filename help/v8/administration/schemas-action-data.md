@@ -4,10 +4,8 @@ description: Saiba como restringir ações de criação, edição e exclusão em
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 12%
-
+ht-degree: 13%
 ---
-
 # Controlar ações em dados {#action-data}
 
 >[!CONTEXTUALHELP]

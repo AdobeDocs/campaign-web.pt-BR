@@ -7,9 +7,7 @@ source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 24%
-
 ---
-
 # Trabalhar com o construtor de regras {#segment-builder}
 
 O construtor de regras permite que você defina a população direcionada pelo delivery filtrando os dados contidos no banco de dados. Use-a para criar um público-alvo a partir de um fluxo de trabalho usando uma atividade **[!UICONTROL Criar público-alvo]** ou diretamente ao criar uma entrega para criar um público-alvo único.

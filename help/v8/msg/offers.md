@@ -6,15 +6,15 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '805'
 ht-degree: 23%
-
 ---
-
 # Adicionar ofertas às suas mensagens {#offers-content}
 
 Você pode adicionar ofertas às suas entregas diretamente da interface do usuário da Web do Campaign. Essas ofertas estão disponíveis no menu esquerdo **Ofertas**, que permite acessar a lista de ofertas.
@@ -110,7 +110,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=pt-BR){target="_blank"}.
+   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Salve as alterações.
 

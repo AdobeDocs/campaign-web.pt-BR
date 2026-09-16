@@ -6,28 +6,28 @@ exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 TQID: https://experienceleague.adobe.com/19ACKL1Wbosl3o2plsBkdlOZQtjK1meaH3k-UBoQ8UE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 3%
-
 ---
-
 # Gerenciar ativos com [!DNL Adobe Experience Manager Assets as a Cloud Service]{#aem-assets}
 
 ## Introdução ao [!DNL Adobe Experience Manager Assets as a Cloud Service] {#get-started-assets-essentials}
 
-O [!DNL Adobe Experience Manager Assets as a Cloud Service] é uma plataforma colaborativa integrada projetada para simplificar seu fluxo de trabalho criativo e centralizar ativos digitais para proporcionar uma entrega de experiência contínua. Ele simplifica a organização, a marcação e a recuperação de ativos de produção aprovados, garantindo a consistência da marca em todas as equipes. Com sua interface fácil de usar, o [!DNL Assets as Cloud Service] permite que você acesse e compartilhe instantaneamente ativos nos aplicativos Adobe Creative e Experience Cloud.
+O [!DNL Adobe Experience Manager Assets as a Cloud Service] é uma plataforma colaborativa integrada projetada para simplificar seu fluxo de trabalho criativo e centralizar ativos digitais para proporcionar uma entrega de experiência contínua. Ele simplifica a organização, a marcação e a recuperação de ativos de produção aprovados, garantindo a consistência da marca em todas as equipes. Com sua interface amigável, o [!DNL Assets as Cloud Service] permite que você acesse e compartilhe instantaneamente ativos nos aplicativos do Adobe Creative e da Experience Cloud.
 
-Saiba mais em [documentação do Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=pt-BR){target="_blank"}.
+Saiba mais em [documentação do Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html){target="_blank"}.
 
 ## Fazer upload e inserir ativos{#add-asset}
 
 Para importar arquivos para [!DNL Assets as Cloud Service], procure ou crie a pasta onde os arquivos serão armazenados. Em seguida, insira-os no conteúdo do email.
 
-Para obter mais informações sobre como carregar ativos, consulte a [documentação do Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como carregar ativos, consulte a [documentação do Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
 
 1. Na sua página inicial, acesse o menu avançado e selecione [!DNL Experience Manager Assets].
 
@@ -51,11 +51,11 @@ Para obter mais informações sobre como carregar ativos, consulte a [documenta�
 
 1. Para acessar o menu de gerenciamento avançado de ativos, selecione o ativo que você acabou de fazer upload.
 
-   Para saber mais sobre como gerenciar ativos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=pt-BR).
+   Para saber mais sobre como gerenciar ativos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
    ![Captura de tela mostrando o menu de gerenciamento avançado de ativos no Adobe Experience Manager Assets](assets/assets_4.png){zoomable="yes"}
 
-1. Para editar ainda mais seus ativos com o Adobe Photoshop Express, clique duas vezes no ativo. Em seguida, no menu à direita, selecione o ícone **[!UICONTROL Editar modo]**. [Saiba mais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=pt-BR#edit-using-express){target="_blank"}.
+1. Para editar ainda mais seus ativos com o Adobe Photoshop Express, clique duas vezes no ativo. Em seguida, no menu à direita, selecione o ícone **[!UICONTROL Editar modo]**. [Saiba mais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. Em [!DNL Adobe Campaign], selecione o menu **[!UICONTROL Seletor de ativos]** no painel esquerdo do designer de email.
 

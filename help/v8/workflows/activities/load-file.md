@@ -6,16 +6,17 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 TQID: https://experienceleague.adobe.com/-7DovWUpzIiPRL7E-qtcD5wZ6EHg1BUA9VwJwNQo9A4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: '1281'
 ht-degree: 36%
-
 ---
-
 # Carregar arquivo {#load-file}
 
 >[!CONTEXTUALHELP]
@@ -36,7 +37,7 @@ ht-degree: 36%
 A atividade **Carregar arquivo** é uma atividade de **gerenciamento de dados**. Use esta atividade para trabalhar com perfis e dados armazenados em um arquivo externo. Perfis e dados não são adicionados ao banco de dados, mas todos os campos no arquivo de entrada estão disponíveis para [personalização](../../personalization/gs-personalization.md) ou para atualizar perfis ou qualquer outra tabela.
 
 >[!NOTE]
->Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Com o console Interface de usuário da Web, é possível carregar arquivos até um tamanho máximo de 50 MB. No console do cliente, a atividade Data Loading tem um limite de 150 MB. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=pt-BR){target="_blank"}
+>Os formatos de arquivo compatíveis são: texto (TXT) e valor separado por vírgula (CSV). Com o console Interface de usuário da Web, é possível carregar arquivos até um tamanho máximo de 50 MB. No console do cliente, a atividade Data Loading tem um limite de 150 MB. [Saiba mais](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Esta atividade pode ser usada com uma atividade [Reconciliation](reconciliation.md) para vincular dados não identificados aos recursos existentes. Por exemplo, a atividade **Carregar arquivo** pode ser colocada antes de uma atividade **Reconciliação** se você importar dados não padrão para o banco de dados.
 

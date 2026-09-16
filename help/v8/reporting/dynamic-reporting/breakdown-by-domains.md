@@ -6,11 +6,9 @@ audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '236'
 ht-degree: 2%
-
 ---
-
 # Detalhamento por domínios{#breakdown-by-domains}
 
 Este relatório contém os dados de desempenho de cada domínio representado no público-alvo de uma entrega de email. Se for um relatório de campanha ou de programa, os dados de desempenho estão disponíveis para vários públicos-alvo. Esses dados permitem analisar o comportamento de cada domínio em reação a eventos específicos. Por exemplo, exibição de link, URL de inclui na lista de bloqueios etc.

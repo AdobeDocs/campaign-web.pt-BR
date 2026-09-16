@@ -6,13 +6,12 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: '504'
 ht-degree: 24%
-
 ---
-
 # Criar uma entrega de correspondência direta {#create-direct-mail}
 
 Você pode criar um delivery de correspondência direta independente ou criar um delivery de correspondência direta no contexto de um fluxo de trabalho da campanha. As etapas abaixo detalham o procedimento para um delivery de mala direta independente (único). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão detalhadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).

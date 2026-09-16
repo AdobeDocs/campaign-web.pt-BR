@@ -9,11 +9,9 @@ level: Beginner
 hide: true
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '248'
 ht-degree: 1%
-
 ---
-
 # Introdução a mensagens do WhatsApp {#get-started-whatsapp}
 
 Você pode enviar mensagens do WhatsApp da **interface da Web do Adobe Campaign** usando a [API da nuvem](https://developers.facebook.com/docs/whatsapp/cloud-api/) da Meta. Use o WhatsApp em deliveries independentes, em workflows de campanha ou em campanhas de marketing internas, junto com seus outros canais.
@@ -29,9 +27,9 @@ Você pode enviar mensagens do WhatsApp da **interface da Web do Adobe Campaign*
 Integrar WhatsApp requer o seguinte:
 
 * Conta do Meta Business Manager
-* [Conta Comercial do WhatsApp com nome de remetente e número de telefone verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [Conta comercial do WhatsApp com nome do remetente e número de telefone verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Token de autorização do usuário com permissões apropriadas](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [Modelos do Meta aprovados](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [Modelos aprovados do Meta](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 Você também precisa confirmar o seguinte antes de continuar:
 

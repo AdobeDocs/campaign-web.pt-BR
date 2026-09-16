@@ -6,17 +6,18 @@ exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+    internal-label: Content and assets
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: '542'
 ht-degree: 2%
-
 ---
-
 # Criar e gerenciar suas marcas {#brands}
 
 As diretrizes da marca são um conjunto abrangente de regras e padrões que definem a identidade visual e verbal de uma marca. Eles servem como referência para garantir uma representação de marca consistente em todos os canais de marketing e comunicação.
@@ -25,7 +26,7 @@ No [!DNL Adobe Campaign Web], os usuários podem inserir e organizar manualmente
 
 ## Acessar marcas {#generative-access}
 
-Para acessar o menu **[!UICONTROL Marcas]** no [!DNL Adobe Campaign Web], os usuários devem receber os perfis de produto **[!UICONTROL Administrador (administrador)]** e **[!UICONTROL Kit de marcas]** para criar e gerenciar marcas. Para acesso somente leitura, os usuários precisam do perfil de produto [!UICONTROL Assistente de IA]. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Para acessar o menu **[!UICONTROL Marcas]** no [!DNL Adobe Campaign Web], os usuários devem receber os perfis de produto **[!UICONTROL Administrador (administrador)]** e **[!UICONTROL Kit de marcas]** para criar e gerenciar marcas. Para acesso somente leitura, os usuários precisam do perfil de produto [!UICONTROL Assistente de IA]. [Saiba mais](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Saiba como atribuir permissões relacionadas à marca
 

@@ -6,15 +6,15 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 24%
-
 ---
-
 # Entrega contínua {#continuous-delivery}
 
 A atividade de **Entrega contínua** permite adicionar novos destinatários a uma entrega existente. Esse tipo de entrega evita a necessidade de criar uma nova entrega a cada vez, tornando o processo mais eficiente para alertas ou notificações de baixo volume que são enviados conforme necessário.

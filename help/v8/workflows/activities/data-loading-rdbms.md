@@ -5,15 +5,15 @@ description: Saiba como usar a atividade de workflow RDBMS (Data loading)
 exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 18%
-
 ---
-
 # Carregamento de dados (RDBMS) {#data-loading-rdbms}
 
 >[!CONTEXTUALHELP]
@@ -24,7 +24,7 @@ ht-degree: 18%
 A atividade de **carregamento de dados (RDBMS)** é uma atividade de **gerenciamento de dados**. Use essa atividade para carregar dados diretamente de um banco de dados relacional externo em seu fluxo de trabalho. Os dados extraídos estão disponíveis em todo o fluxo de trabalho e podem ser usados para direcionamento, enriquecimento ou processamento de dados adicional.
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=pt-BR){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]

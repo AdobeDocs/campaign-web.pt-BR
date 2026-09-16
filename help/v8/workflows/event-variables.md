@@ -6,15 +6,15 @@ exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '370'
 ht-degree: 11%
-
 ---
-
 # Variáveis de evento do fluxo de trabalho {#event-variables}
 
 Algumas atividades de workflow permitem editar scripts no editor de expressão para executar ações específicas, como recuperar dados de atividades anteriores, condições de criação ou calcular nomes de arquivo com base em variáveis de evento.
@@ -31,7 +31,7 @@ Cada tipo de **objeto** está associado a uma categoria de **variáveis** que po
 
 >[!NOTE]
 >
->Informações adicionais sobre scripts e os objetos e variáveis expostos no Adobe Campaign estão disponíveis na documentação do Campaign v8 (console do cliente) em [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>Informações adicionais sobre scripts e os objetos e variáveis expostos no Adobe Campaign estão disponíveis na documentação do Campaign v8 (console do cliente) em [esta seção](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
 >Observe que, embora esse recurso ofereça insights valiosos, podem existir discrepâncias, pois ele se aplica especificamente ao console do cliente em vez da interface da Web do Campaign.
 

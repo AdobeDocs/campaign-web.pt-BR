@@ -6,13 +6,12 @@ exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: '534'
 ht-degree: 8%
-
 ---
-
 # Agendar o envio de uma entrega {#schedule-sending}
 
 Você pode agendar o envio de um delivery. As etapas dependem se é um delivery independente (one-shot) ou se você está trabalhando no contexto de um workflow da campanha.

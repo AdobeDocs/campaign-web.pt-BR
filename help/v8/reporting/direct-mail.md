@@ -6,16 +6,17 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 TQID: https://experienceleague.adobe.com/1HplEC3KMsKLbAMeYgCLlFo5oIJI2gJUhksr2mmOv5o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '710'
 ht-degree: 19%
-
 ---
-
 # Relatório de entrega externa {#direct-mail-report}
 
 O **Relatório de entrega externo** fornece informações e dados abrangentes específicos para a sua entrega externa. Ele inclui informações detalhadas sobre o desempenho, a eficácia e os resultados de deliveries individuais, oferecendo uma visão geral completa.

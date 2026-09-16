@@ -7,24 +7,31 @@ exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 TQID: https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 1%
-
 ---
-
 # Trilha de auditoria {#audit-trail}
 
 Na Interface do Usuário da Web do Adobe Campaign, o recurso **[!UICONTROL Trilha de auditoria]** fornece aos usuários total visibilidade de todas as modificações feitas em entidades importantes na sua instância, normalmente aquelas que afetam significativamente a operação suave da instância.
@@ -44,20 +51,20 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
 * A **trilha de auditoria do fluxo de trabalho** permite acompanhar atividades e alterações recentes feitas nos fluxos de trabalho, incluindo seus estados atuais, como:
 
-   * Start
-   * Pause
-   * Parar
-   * Restart
-   * Limpeza, que é igual ao histórico de Expurgação da ação
-   * Simular, que é igual à ação Iniciar no modo de simulação
-   * Wakeup, que é igual à ação Executar tarefas pendentes agora
-   * Interrupção incondicional
+  * Start
+  * Pause
+  * Parar
+  * Restart
+  * Limpeza, que é igual ao histórico de Expurgação da ação
+  * Simular, que é igual à ação Iniciar no modo de simulação
+  * Wakeup, que é igual à ação Executar tarefas pendentes agora
+  * Interrupção incondicional
 
   Para obter mais informações sobre fluxos de trabalho, consulte esta [página](../workflows/gs-workflows.md).
 
 * A **Trilha de auditoria de opção** permite monitorar atividades e modificações recentes feitas em suas opções no Campaign v8.
 
-  Para obter mais informações sobre opções, consulte esta [página](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Para obter mais informações sobre opções, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Trilha de auditoria de entrega** permite que você verifique as atividades e as últimas modificações feitas em suas entregas.
 
@@ -69,11 +76,11 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
 * **O mapeamento de entrega** permite monitorar atividades e modificações recentes feitas no mapeamento de entrega no Campaign v8.
 
-  Para obter mais informações sobre mapeamento de entrega, consulte esta [página](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Para obter mais informações sobre mapeamento de entrega, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * O **Aplicativo Web** permite verificar as modificações feitas em formulários Web no Campaign v8, usados para criar páginas com campos de entrada e seleção e que podem incluir dados do banco de dados.
 
-  Para obter mais informações sobre aplicativos Web, consulte esta [página](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/content/webapps).
+  Para obter mais informações sobre aplicativos Web, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
 * A **Oferta** permite que você verifique as atividades e as últimas modificações feitas em suas ofertas.
 
@@ -81,7 +88,7 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
 * **Operador** permite monitorar atividades e modificações recentes feitas aos seus Operadores no Campaign v8.
 
-  Para obter mais informações sobre operadores, consulte esta [página](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Para obter mais informações sobre operadores, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 

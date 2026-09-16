@@ -5,15 +5,15 @@ description: Saiba como criar, configurar, aprovar e implantar uma oferta no Cam
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 2%
-
+source-wordcount: '1057'
+ht-degree: 3%
 ---
-
 # Criar e publicar uma oferta {#create-offer}
 
 Uma **oferta** é uma proposta individual com seu próprio período de qualificação, filtro de direcionamento, peso e conteúdo. As ofertas são organizadas no catálogo de ofertas por meio de **categorias** e são apresentadas aos recipients por meio de um **espaço de ofertas**.
@@ -66,7 +66,7 @@ Esta seção permite controlar quando e para quem a oferta pode ser apresentada.
 
 >[!NOTE]
 >
->O mecanismo de Oferta classifica as ofertas elegíveis diminuindo o peso e retorna as propostas com maior peso primeiro. A lógica de seleção — chamada de **arbitragem** — também leva em conta as regras de qualificação e os pesos configurados na categoria principal e no ambiente. Saiba mais sobre o princípio de arbitragem na [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=pt-BR){target="_blank"}.
+>O mecanismo de Oferta classifica as ofertas elegíveis diminuindo o peso e retorna as propostas com maior peso primeiro. A lógica de seleção — chamada de **arbitragem** — também leva em conta as regras de qualificação e os pesos configurados na categoria principal e no ambiente. Saiba mais sobre o princípio de arbitragem na [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 ### Definição do conteúdo {#content}
 
@@ -136,5 +136,5 @@ Quando uma oferta está ativa, a modificação de qualquer configuração altera
 
 Quando a oferta estiver ativa, ela poderá ser selecionada em qualquer delivery direcionado ao espaço de ofertas correspondente. Saiba como configurar ofertas em uma entrega no [Adicionar ofertas às suas mensagens](../msg/offers.md).
 
-Para obter a integração completa de entrega de saída, incluindo como a chamada do mecanismo é criada e como o rastreamento é aplicado aos links de oferta, consulte as [ofertas de documentação do Campaign v8 em entregas de saída](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=pt-BR){target="_blank"}.
+Para obter a integração completa de entrega de saída, incluindo como a chamada do mecanismo é criada e como o rastreamento é aplicado aos links de oferta, consulte as [ofertas de documentação do Campaign v8 em entregas de saída](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}.
 

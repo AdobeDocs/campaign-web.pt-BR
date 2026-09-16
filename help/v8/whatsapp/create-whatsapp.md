@@ -10,11 +10,9 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '472'
 ht-degree: 3%
-
 ---
-
 
 # Criar uma mensagem de WhatsApp {#create-whatsapp}
 
@@ -83,7 +81,7 @@ Seu modelo do WhatsApp deve ser aprovado pela Meta antes do uso. A aprovação g
 
 1. Escolha Marketing como sua **Categoria do modelo**:
 
-   [Saiba mais sobre as categorias de modelo](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [Saiba mais sobre Categorias de modelo](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
    ![](assets/whatsapp-design-1.png)
 

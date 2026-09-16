@@ -6,15 +6,15 @@ exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 TQID: https://experienceleague.adobe.com/iJ6Y5vUUQbBE-X5B8WVVkjBCiaO2v4PLWoRjp5-uEhU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 1%
-
 ---
-
 # Pré-visualizar e enviar um delivery de correspondência direta {#send-direct-mail}
 
 Depois de configurar o arquivo de extração para o delivery de correspondência direta, use perfis de teste para pré-visualizá-lo. Se houver conteúdo personalizado incluído, examine como esse conteúdo aparece nas colunas usando os dados do perfil de teste. Isso garante que o conteúdo do arquivo seja renderizado corretamente e que os elementos personalizados sejam incorporados adequadamente.

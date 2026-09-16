@@ -6,13 +6,12 @@ exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 TQID: https://experienceleague.adobe.com/tBeOFkGoxZ-QYEt6dse2-1KSiE318onNSEtGTYzTCO8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '291'
 ht-degree: 29%
-
 ---
-
 # Importar o conteúdo do email {#existing-content}
 
 >[!CONTEXTUALHELP]
@@ -59,4 +58,4 @@ Para importar um arquivo com conteúdo do HTML, siga as etapas abaixo.
 
 Saiba como criar um email carregando o HTML, torná-lo compatível com o Designer de email e convertê-lo em um modelo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447037/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
