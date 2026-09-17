@@ -6,17 +6,18 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2327
+source-wordcount: '2370'
 ht-degree: 32%
-
 ---
-
 # Enriquecimento {#enrichment}
 
 >[!CONTEXTUALHELP]
@@ -33,10 +34,10 @@ A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ele aprim
 Os dados de enriquecimento podem vir de:
 
 * **A mesma tabela de trabalho** que a segmentada em seu fluxo de trabalho:
-   * Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual.
+  * Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual.
 
 * **Outra tabela de trabalho**:
-   * Direcione um grupo de clientes e adicione os campos &quot;Valor&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;.
+  * Direcione um grupo de clientes e adicione os campos &quot;Valor&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;.
 
 Após adicionar os dados de enriquecimento ao workflow, eles poderão ser usados em atividades subsequentes para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades. Ele também pode ser usado para criar mensagens e campanhas de marketing personalizadas que repercutem no público-alvo.
 

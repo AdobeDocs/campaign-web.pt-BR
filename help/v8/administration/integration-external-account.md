@@ -5,26 +5,26 @@ exl-id: 99648377-112b-428a-8faf-5268d730f19a
 TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 213
+source-wordcount: '213'
 ht-degree: 52%
-
 ---
-
 # Contas externas da Integração de soluções da Adobe {#integration-external-account}
 
 Dependendo do tipo de conta externa da Integração de soluções da Adobe que você selecionou, siga as etapas abaixo para definir as configurações de conexão e conta para uma integração perfeita com os serviços da Adobe.
 
 ## Adobe Experience Cloud
 
-Para se conectar ao console do Adobe Campaign usando uma Adobe ID, você deve configurar a conta externa do Adobe Experience Cloud (MAC).
+Para se conectar ao console do Adobe Campaign usando uma Adobe ID, você deve configurar a conta externa da Adobe Experience Cloud (MAC).
 
 ![Captura de tela mostrando os campos de configuração da conta externa do Adobe Experience Cloud MAC.](assets/external-MAC.png)
 
-Para configurar a conta externa do **[!UICONTROL Adobe Experience Cloud]**, preencha os seguintes campos:
+Para configurar a conta externa da **[!UICONTROL Adobe Experience Cloud]**, preencha os seguintes campos:
 
 * **[!UICONTROL IMS server]**
 

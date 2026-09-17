@@ -6,14 +6,12 @@ audience: end-user
 exl-id: d79f8a07-2322-4bc7-9d74-446db24a8d70
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 19%
-
+source-wordcount: '201'
+ht-degree: 33%
 ---
-
 # Introdução aos relatórios dinâmicos {#about-dynamic-reports}
 
-O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. Com a interface de arrastar e soltar, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos recipients.
+O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques. Com a interface de arrastar e soltar, você pode explorar dados, determinar o desempenho de suas campanhas de email em relação aos segmentos de clientes mais importantes e medir seu impacto nos destinatários.
 
 ## Acesso aos relatórios dinâmicos {#accessing-dynamic-reports}
 
@@ -25,7 +23,7 @@ Alguns relatórios não podem estar disponíveis imediatamente após um delivery
 
 Os relatórios dinâmicos são divididos em duas categorias:
 
-* **Modelos**, que podem ser modificados copiando-os com a opção **Salvar como** (**Projeto > Salvar como..**) no modelo.
+* **Modelos**, que podem ser modificados copiando-os com a opção **Salvar como** (**Projeto > Salvar como...**) no modelo.
 * **Relatórios personalizados** (identificados em azul), que podem ser criados diretamente clicando no botão **Criar novo projeto** na página inicial de **Relatórios**.
 
 ![](assets/dynamic_report_overview.png)

@@ -10,22 +10,26 @@ exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1687
+source-wordcount: '1690'
 ht-degree: 1%
-
 ---
-
 # Criar conteúdo acessível {#accessible-content}
 
 A [Lei Europeia da Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} é uma diretiva destinada a reforçar o mercado interno de produtos e serviços acessíveis, eliminando os obstáculos causados pelas diferentes regras nacionais entre os Estados-Membros.
@@ -60,8 +64,8 @@ Para fontes e texto, siga as diretrizes abaixo:
 
 **Contraste de cores**
 
-* Mantenha uma taxa de contraste de pelo menos 4,5:1 entre o texto e o plano de fundo.
-* Para textos grandes (≥ 24px ou bold 18px), verifique se há pelo menos um contraste de 3:1.
+* Mantenha uma relação de contraste de pelo menos 4.5:1 entre o texto e o plano de fundo.
+* Para textos grandes (≥ 24px ou bold 18px), garanta pelo menos um contraste de 3:1.
 * Evite texto cinza-claro ou pastel em planos de fundo brancos.
 * Não confie apenas na cor para transmitir significado, mas em vez disso use sublinhados, ícones etc.
 
@@ -339,40 +343,40 @@ Fornecer navegação pelo teclado e suporte de foco permite que as pessoas que n
 
 * Foco pelo teclado
 
-   * Verifique se todos os elementos interativos (como botões, caixas de seleção, links) têm `tabindex="0"` para que sejam incluídos na ordem de tabulação natural.
+  * Verifique se todos os elementos interativos (como botões, caixas de seleção, links) têm `tabindex="0"` para que sejam incluídos na ordem de tabulação natural.
 
-   * Permitir a navegação usando as teclas Tab e setas (^ ↓ ← →), que deve destacar visivelmente o elemento focado.
+  * Permitir a navegação usando as teclas Tab e setas (^ ↓ ← →), que deve destacar visivelmente o elemento focado.
 
 * Estilo de foco personalizado
 
-   * Aplique estilos claros e distinguíveis para focalizar elementos acionáveis:
+  * Aplique estilos claros e distinguíveis para focalizar elementos acionáveis:
 
-     +++Exemplo (CSS)
+    +++Exemplo (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * Garantir que os indicadores de foco atendam aos padrões de aparência de foco da WCAG 2.2, incluindo:
+  * Garantir que os indicadores de foco atendam aos padrões de aparência de foco da WCAG 2.2, incluindo:
 
-      * Área mínima: 2 contornos de espessura de pixel CSS.
+    * Área mínima: 2 contornos de espessura de pixel CSS.
 
-      * Taxa de contraste: ≥ 3:1 entre o estado focalizado e desfocado.
+    * Relação de contraste: ≥ 3:1 entre estado focado e desfocado.
 
 * Suporte para ativação de teclado
 
-   * Verifique se as caixas de seleção e os botões respondem às teclas Enter e Space.
+  * Verifique se as caixas de seleção e os botões respondem às teclas Enter e Space.
 
-   * Validar a interação usando apenas o teclado:
+  * Validar a interação usando apenas o teclado:
 
-      * Enter ou Space deve alternar as caixas de seleção.
+    * Enter ou Space deve alternar as caixas de seleção.
 
-      * Enter ou Space deve acionar botões.
+    * Enter ou Space deve acionar botões.

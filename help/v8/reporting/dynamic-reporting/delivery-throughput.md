@@ -6,11 +6,9 @@ audience: end-user
 exl-id: cf086a57-dd70-41bc-a039-4070cecc3a66
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '90'
 ht-degree: 4%
-
 ---
-
 # Taxa de transferência de entrega{#delivery-throughput}
 
 Este relatório contém dados relacionados à taxa de transferência de delivery de um ou vários envios. Ele fornece:

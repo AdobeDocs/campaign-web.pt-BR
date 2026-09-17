@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 2%
-
 ---
-
 # Lista de componentes {#list-of-components}
 
 Observe que, se dois componentes não forem compatíveis, a célula exibirá o valor **Nenhum**.

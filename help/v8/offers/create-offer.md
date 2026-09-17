@@ -5,15 +5,15 @@ description: Saiba como criar, configurar, aprovar e implantar uma oferta no Cam
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 2%
-
+source-wordcount: '1057'
+ht-degree: 3%
 ---
-
 # Criar e publicar uma oferta {#create-offer}
 
 Uma **oferta** é uma proposta individual com seu próprio período de qualificação, filtro de direcionamento, peso e conteúdo. As ofertas são organizadas no catálogo de ofertas por meio de **categorias** e são apresentadas aos recipients por meio de um **espaço de ofertas**.

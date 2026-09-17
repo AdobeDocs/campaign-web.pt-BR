@@ -7,11 +7,9 @@ description: Usuários do Campaign Standard, aprendam como começar a usar o Cam
 breadcrumb-title: Guia de adoção de campanha
 source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 32%
-
+source-wordcount: '87'
+ht-degree: 45%
 ---
-
 
 # Guia de adoção do Adobe Campaign {#acs-to-ac}
 
@@ -20,5 +18,5 @@ ht-degree: 32%
 + [Introdução para profissionais de marketing](get-started/marketers.md)
 + [Introdução para administrador/desenvolvedor](get-started/admin-developers.md)
 + [Gerenciamento de acesso do usuário](get-started/user-management-acs.md)
-+ [&lt; Voltar à documentação do Campaign v8 (web)](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/campaign-web-home)
++ [&lt; Voltar à documentação do Campaign v8 (Web)](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/campaign-web-home)
 + [&lt; Voltar à documentação do Campaign v8 (console)](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home)

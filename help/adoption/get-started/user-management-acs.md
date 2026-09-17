@@ -7,27 +7,36 @@ exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
 TQID: https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: '1485'
 ht-degree: 3%
-
 ---
-
 # Gerenciamento de acesso do usuário do Campaign Standard para o Campaign v8 {#user-management-acs}
 
 O Adobe Campaign Standard e o Adobe Campaign v8 permitem que os usuários definam e gerenciem permissões para usuários/operadores diferentes. Essas permissões consistem em direitos específicos que concedem aos usuários acesso a vários recursos do produto. No entanto, os dois produtos usam abordagens e implementações distintas para gerenciar o acesso do usuário.
@@ -88,7 +97,8 @@ No Adobe Campaign Standard, o termo **Função de usuário** é chamado de **Dir
 >[!IMPORTANT]
 >
 >As unidades organizacionais na Adobe Campaign Standard sem **Todas (todas)** como um pai direto ou indireto não serão migradas para o Campaign v8.
-></br>>Os usuários em vários grupos de segurança recebem a unidade organizacional do grupo de segurança com a classificação mais alta. Se vários grupos tiverem unidades organizacionais paralelas de nível superior, o sistema selecionará a unidade organizacional para o usuário no Campaign Standard e o usuário só terá acesso à unidade organizacional selecionada pelo sistema e seus filhos. No Campaign v8 após a migração, o usuário teria acesso a **todas as unidades organizacionais atribuídas e seus filhos**, possivelmente aumentando os privilégios. Para evitar isso, evite atribuir usuários a grupos de segurança com unidades organizacionais paralelas. Saiba mais sobre [atribuição de unidade organizacional paralela](#parallel-assignments).
+></br>
+>Os usuários em vários grupos de segurança recebem a unidade organizacional do grupo de segurança com a classificação mais alta. Se vários grupos tiverem unidades organizacionais paralelas de nível superior, o sistema selecionará a unidade organizacional para o usuário no Campaign Standard e o usuário só terá acesso à unidade organizacional selecionada pelo sistema e seus filhos. No Campaign v8 após a migração, o usuário teria acesso a **todas as unidades organizacionais atribuídas e seus filhos**, possivelmente aumentando os privilégios. Para evitar isso, evite atribuir usuários a grupos de segurança com unidades organizacionais paralelas. Saiba mais sobre [atribuição de unidade organizacional paralela](#parallel-assignments).
 
 
 No Adobe Campaign Standard, a **unidade organizacional** está mapeada para o modelo de hierarquia **Pasta** existente no Campaign v8 para manter um controle de acesso semelhante. [Saiba mais sobre o gerenciamento de pastas](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/admin/permissions/folder-permissions)

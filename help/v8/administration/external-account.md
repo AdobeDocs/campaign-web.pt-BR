@@ -4,11 +4,9 @@ description: Saiba como configurar contas externas
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # Contas externas específicas de campanha {#external-account}
 
 Siga as etapas abaixo para definir as configurações da conta com base no tipo de conta externa selecionada.
@@ -30,10 +28,10 @@ Para configurar a conta externa de **[!UICONTROL Emails rejeitados (POP3)]**, pr
 * **[!UICONTROL Senha]** - Senha da conta de usuário.
 
 * **[!UICONTROL Criptografia]** - Tipo de criptografia escolhida, incluindo:
-   * Por padrão (POP3 se porta 110, POP3S se porta 995).
-   * POP3 que alterna para SSL após enviar um STARTTLS.
-   * POP3 não seguro (porta 110 por padrão).
-   * POP3 seguro acima do SSL (porta 995 por padrão).
+  * Por padrão (POP3 se porta 110, POP3S se porta 995).
+  * POP3 que alterna para SSL após enviar um STARTTLS.
+  * POP3 não seguro (porta 110 por padrão).
+  * POP3 seguro acima do SSL (porta 995 por padrão).
 
 * **[!UICONTROL Função]** - Selecione **[!UICONTROL Email de entrada]** para configurar a conta para receber emails de entrada ou **[!UICONTROL Roteador SOAP]** para lidar com solicitações SOAP.
 
@@ -45,11 +43,11 @@ Para configurar um POP3 externo usando o Microsoft OAuth 2.0, marque a opção M
 
 * **[!UICONTROL Locatário do Azure]**
 
-  A ID do Azure (ou a ID do diretório (locatário)) pode ser encontrada na lista suspensa Essentials da visão geral do seu aplicativo no portal do Azure.
+  A Azure ID (ou a ID do diretório (locatário)) pode ser encontrada na lista suspensa Essentials da visão geral do aplicativo no portal da Azure.
 
 * **[!UICONTROL ID do Azure Client]**
 
-  A ID do cliente (ou a ID do aplicativo (cliente)) pode ser encontrada na lista suspensa do Essentials da visão geral do seu aplicativo no portal do Azure.
+  A ID do cliente (ou a ID do aplicativo (cliente)) pode ser encontrada no menu suspenso do Essentials, na visão geral do aplicativo, no portal do Azure.
 
 * **[!UICONTROL Segredo do Azure Client]**
 
@@ -57,7 +55,7 @@ Para configurar um POP3 externo usando o Microsoft OAuth 2.0, marque a opção M
 
 * **[!UICONTROL URL de redirecionamento do Azure]**
 
-  A URL de redirecionamento pode ser encontrada no menu Autenticação do seu aplicativo no portal do Azure. Ele deve terminar com a seguinte sintaxe nl/jsp/oauth.jsp, por exemplo: `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+  O URL de redirecionamento pode ser encontrado no menu Authentication do seu aplicativo no portal do Azure. Ele deve terminar com a seguinte sintaxe nl/jsp/oauth.jsp, por exemplo: `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
 O acesso à Internet é necessário para a configuração e para usar o botão Testar conexão no console do cliente. Após a configuração, o processo do InMail pode se comunicar com os servidores da Microsoft sem Internet.
 

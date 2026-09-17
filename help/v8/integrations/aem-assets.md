@@ -6,20 +6,20 @@ exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 TQID: https://experienceleague.adobe.com/19ACKL1Wbosl3o2plsBkdlOZQtjK1meaH3k-UBoQ8UE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 3%
-
 ---
-
 # Gerenciar ativos com [!DNL Adobe Experience Manager Assets as a Cloud Service]{#aem-assets}
 
 ## Introdução ao [!DNL Adobe Experience Manager Assets as a Cloud Service] {#get-started-assets-essentials}
 
-O [!DNL Adobe Experience Manager Assets as a Cloud Service] é uma plataforma colaborativa integrada projetada para simplificar seu fluxo de trabalho criativo e centralizar ativos digitais para proporcionar uma entrega de experiência contínua. Ele simplifica a organização, a marcação e a recuperação de ativos de produção aprovados, garantindo a consistência da marca em todas as equipes. Com sua interface fácil de usar, o [!DNL Assets as Cloud Service] permite que você acesse e compartilhe instantaneamente ativos nos aplicativos Adobe Creative e Experience Cloud.
+O [!DNL Adobe Experience Manager Assets as a Cloud Service] é uma plataforma colaborativa integrada projetada para simplificar seu fluxo de trabalho criativo e centralizar ativos digitais para proporcionar uma entrega de experiência contínua. Ele simplifica a organização, a marcação e a recuperação de ativos de produção aprovados, garantindo a consistência da marca em todas as equipes. Com sua interface amigável, o [!DNL Assets as Cloud Service] permite que você acesse e compartilhe instantaneamente ativos nos aplicativos do Adobe Creative e da Experience Cloud.
 
 Saiba mais em [documentação do Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=pt-BR){target="_blank"}.
 

@@ -7,17 +7,18 @@ exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 TQID: https://experienceleague.adobe.com/2iCdY2zsGGy6us4VqszVNGpB1LeVmtZ2D1jKImBUuMA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 266
+workflow-type: tm+mt
+source-wordcount: '268'
 ht-degree: 100%
-
 ---
-
 # Introdução às páginas de destino {#get-sarted-lp}
 
 O [!DNL Adobe Campaign] permite criar, desenvolver e compartilhar páginas de destino.
@@ -38,7 +39,7 @@ Os principais recursos das páginas de destino estão listados abaixo:
 * Aproveite os recursos de design de conteúdo do [!DNL Adobe Campaign] para criar **páginas de destino responsivas** com facilidade. [Saiba mais](lp-content.md)
 * Configure **fluxos de aceitação e recusa** de forma rápida e descomplicada. [Saiba mais](lp-use-cases.md)
 * Crie serviços de assinatura para permitir que os usuários **assinem um serviço**. [Saiba mais](lp-use-cases.md#lp-subscription)
-* Ofereça aos seus destinatários a **opção de cancelar a assinatura** para não receber mais suas comunicações. [Saiba mais](lp-use-cases.md#lp-unsubscription)
+* Forneça aos destinatários a **capacidade de cancelar inscrição** de recebimento de comunicações. [Saiba mais](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">

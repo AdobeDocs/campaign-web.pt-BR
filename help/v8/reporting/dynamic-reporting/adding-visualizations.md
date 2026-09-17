@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
-
 ---
-
 # Adicionar visualizações{#adding-visualizations}
 
 A guia **Visualizações** permite arrastar e soltar itens de visualização, como área, rosca e gráfico. As visualizações fornecem representações gráficas de seus dados.

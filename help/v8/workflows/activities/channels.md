@@ -6,15 +6,15 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: '995'
 ht-degree: 40%
-
 ---
-
 # Email, SMS, WhatsApp, Push, Atividades de correspondência direta {#channel}
 
 O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS, WhatsApp, correspondência direta e push. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente.
@@ -38,13 +38,13 @@ Comece a criar seu workflow com as atividades relevantes:
 
 * Antes de inserir uma atividade de canal, defina o público. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. Ao enviar mensagens no contexto de um workflow de campanha, o público-alvo da mensagem não é definido na atividade de canal, mas em uma atividade dedicada, como:
 
-   * Uma atividade **Build audience**. [Saiba mais](build-audience.md).
+  * Uma atividade **Build audience**. [Saiba mais](build-audience.md).
 
-     ![Captura de tela mostrando a adição de uma entrega em um fluxo de trabalho](../../msg/assets/add-delivery-in-wf.png)
+    ![Captura de tela mostrando a adição de uma entrega em um fluxo de trabalho](../../msg/assets/add-delivery-in-wf.png)
 
-   * Uma atividade **Load file** seguida de uma atividade **Reconciliation**. [Saiba mais](load-file.md).
+  * Uma atividade **Load file** seguida de uma atividade **Reconciliation**. [Saiba mais](load-file.md).
 
-     ![Captura de tela mostrando os critérios de reconciliação do fluxo de trabalho](../assets/workflow-reconciliation-criteria.png)
+    ![Captura de tela mostrando os critérios de reconciliação do fluxo de trabalho](../assets/workflow-reconciliation-criteria.png)
 
 * Para enviar uma entrega recorrente, inicie o fluxo de trabalho com uma atividade **Scheduler**. Use uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
 

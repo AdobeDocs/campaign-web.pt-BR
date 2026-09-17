@@ -6,15 +6,15 @@ exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 TQID: https://experienceleague.adobe.com/iN7Hiu3GYci7bOZvVUsg6H-ZfpziQcZbvkvFg-gBcbE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 301
+source-wordcount: '301'
 ht-degree: 15%
-
 ---
-
 # Monitorar mensagens transacionais
 
 Depois de publicar e enviar a mensagem transacional, você pode acessar os relatórios e logs relacionados a ela.

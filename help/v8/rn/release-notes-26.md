@@ -3,12 +3,10 @@ title: Notas de versão anteriores da interface do Campaign v8 Web
 description: Versões de 2026 da interface do Campaign Web
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 100%
-
 ---
-
 # Notas de versão de 2026 {#2026-release}
 
 Esta página lista todas as alterações e melhorias disponíveis nas **versões de 2026**. As notas de versão mais recentes estão disponíveis [nesta página](release-notes.md).
@@ -86,7 +84,7 @@ _28 de julho de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Páginas JavaScript dinâmicas</strong><br/></th>
+<th><strong>Páginas dinâmicas do JavaScript</strong><br/></th>
 </tr>
 </thead>
 <tbody>

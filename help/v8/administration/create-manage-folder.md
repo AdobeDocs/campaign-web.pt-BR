@@ -5,14 +5,12 @@ description: Saiba como criar e gerenciar uma pasta no Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 19%
-
+source-wordcount: '205'
+ht-degree: 42%
 ---
-
 # Criar e gerenciar uma pasta
 
-No Adobe Campaign, é possível criar novas pastas para gerenciar a árvore de navegação. No **[!UICONTROL Explorer]**, vá para a pasta onde deseja criar sua nova pasta.
+No Adobe Campaign, é possível criar novas pastas para gerenciar a árvore de navegação. No **[!UICONTROL Explorer]**, acesse a pasta na qual você deseja criar a nova pasta.
 
 No botão **[!UICONTROL ...]**, selecione **[!UICONTROL Criar nova pasta]**.
 

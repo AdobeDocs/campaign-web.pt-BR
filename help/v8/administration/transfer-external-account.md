@@ -5,16 +5,17 @@ exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '743'
 ht-degree: 36%
-
 ---
-
 # Contas externas de Dados de Transferência {#transfer-external-account}
 
 ## Serviço de armazenamento simples Amazon (S3) {#amazon-simple-storage-service--s3--external-account}
@@ -95,9 +96,9 @@ Para configurar a conta externa **[!UICONTROL SFTP]**, preencha os seguintes cam
 
   Escolha o método para autenticar com o servidor SFTP. As opções incluem:
 
-   * **[!UICONTROL Senha]**: autenticar usando a senha da conta.
+  * **[!UICONTROL Senha]**: autenticar usando a senha da conta.
 
-   * **[!UICONTROL Chave pública]**: faça a autenticação usando um par de chaves SSH (chave privada e pública).
+  * **[!UICONTROL Chave pública]**: faça a autenticação usando um par de chaves SSH (chave privada e pública).
 
 Se a autenticação **[!UICONTROL Chave pública]** for selecionada, os seguintes campos precisarão ser preenchidos:
 
@@ -141,8 +142,8 @@ Para configurar a conta externa do **[!UICONTROL HTTP]**, preencha os seguintes 
 
   Selecione o tipo de autenticação da conexão. As opções incluem:
 
-   * Senha
-   * Chave pública
+  * Senha
+  * Chave pública
 
 Se você estiver usando a autenticação de **[!UICONTROL Chave pública]**, no menu **[!UICONTROL Autenticação de &lbrace;PublicKey]**, insira os valores necessários para:
 
@@ -180,7 +181,7 @@ Para configurar a conta externa do **[!UICONTROL FTP]**, preencha os seguintes c
 
   Selecione o tipo de criptografia para a conexão. As opções incluem:
 
-   * Por padrão
-   * POP3 + STARTTLS
-   * POP3 não seguro
-   * POP3 seguro
+  * Por padrão
+  * POP3 + STARTTLS
+  * POP3 não seguro
+  * POP3 seguro

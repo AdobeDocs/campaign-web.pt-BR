@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 206
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 98%
 ---
-
 # Introdução às notificações por push {#push}
 
 As notificações por push são essenciais para se comunicar com usuários de aplicativos móveis, mesmo que não estejam usando ativamente seu aplicativo. Elas atendem a vários propósitos, como fornecer atualizações, promover ações específicas e notificar os usuários sobre ofertas. Observe que os usuários devem aceitar o recebimento dessas notificações.

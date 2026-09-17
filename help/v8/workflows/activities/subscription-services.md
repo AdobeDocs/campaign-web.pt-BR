@@ -6,15 +6,15 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: '1135'
 ht-degree: 28%
-
 ---
-
 # Serviços de assinatura {#subscription-services}
 
 >[!CONTEXTUALHELP]
@@ -111,8 +111,8 @@ O fluxo de trabalho abaixo mostra como importar um arquivo contendo perfis e atu
   ```
 
   Como você pode ter notado, a operação é especificada no arquivo como &quot;sub&quot; ou &quot;unsub&quot;. O sistema espera que um valor **Booliano** ou **Integer** reconheça a operação a ser executada: &quot;0&quot; para cancelar a assinatura e &quot;1&quot; para assinar. Para atender a esse requisito:
-   * O **Tipo de dados** da coluna &quot;operação&quot; está definido como inteiro.
-   * Um **Remapeamento de valor** deve ser executado para corresponder os valores &quot;sub&quot; e &quot;unsub&quot; com os valores &quot;1&quot; e &quot;0&quot;.
+  * O **Tipo de dados** da coluna &quot;operação&quot; está definido como inteiro.
+  * Um **Remapeamento de valor** deve ser executado para corresponder os valores &quot;sub&quot; e &quot;unsub&quot; com os valores &quot;1&quot; e &quot;0&quot;.
 
   ![Captura de tela da interface de mapeamento do serviço de assinatura de fluxo de trabalho.](../assets/workflow-subscription-service-uc2-mapping.png)
 

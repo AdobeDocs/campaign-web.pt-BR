@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Introdução a canais personalizados
+title: Primeiros passos com canais personalizados
 description: Saiba como criar e enviar entregas de canal personalizadas com o Adobe Campaign Web
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 2%
-
+source-wordcount: '740'
+ht-degree: 3%
 ---
-
-# Introdução a canais personalizados {#gs-custom-channel}
+# Primeiros passos com canais personalizados {#gs-custom-channel}
 
 Você pode, diretamente da interface do usuário da Web do Adobe Campaign, orquestrar e executar deliveries com base em canais personalizados integrados com terceiros. A configuração do canal personalizado é executada no Console do cliente.
 

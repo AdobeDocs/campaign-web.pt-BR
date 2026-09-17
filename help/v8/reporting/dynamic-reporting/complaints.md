@@ -6,11 +6,9 @@ level: Intermediate
 exl-id: dbbced99-85b3-4f88-b0cd-1fe1abc6bca8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 18%
-
+source-wordcount: '90'
+ht-degree: 17%
 ---
-
 # Reclamações{#complaints}
 
 O relatório **[!UICONTROL Reclamações]** identifica as entregas que receberam mais declarações como spam.

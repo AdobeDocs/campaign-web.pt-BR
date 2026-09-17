@@ -5,11 +5,9 @@ description: Saiba como criar uma mensagem transacional na interface da Web do C
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '470'
 ht-degree: 11%
-
 ---
-
 # Enriquecer mensagens transacionais com dados de perfil{#profile-enrichment}
 
 Esse recurso permite personalizar mensagens transacionais vinculando campos do banco de dados do Adobe Campaign ao conteúdo da mensagem. Você pode selecionar target mappings, colunas de enriquecimento e uma chave de reconciliação para garantir uma personalização em tempo real e precisa, mantendo os limites de desempenho.

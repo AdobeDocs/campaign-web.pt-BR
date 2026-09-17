@@ -9,9 +9,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 3%
-
 ---
-
 # Criação de uma dimensão de perfil{#creating-a-custom-profile-dimension}
 
 Os relatórios também podem ser criados e gerenciados com base nos dados do perfil criados durante a extensão do schema do recipient.

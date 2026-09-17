@@ -6,15 +6,15 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 TQID: https://experienceleague.adobe.com/UMmuuMnex1ZqWjUZxNOrUi-g3dtevPO7l7sLXo5Zp1c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: '363'
 ht-degree: 1%
-
 ---
-
 # Visualizar o conteúdo da mensagem {#preview-content}
 
 Use o recurso de simulação de conteúdo do [!DNL Campaign] para visualizar o conteúdo da sua mensagem antes de enviá-la. Esse recurso permite controlar a personalização e verificar como a mensagem é exibida aos recipients.

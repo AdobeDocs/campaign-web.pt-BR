@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 10%
-
 ---
-
 # Criar experimentos de conteúdo {#content-experiment}
 
 >[!CONTEXTUALHELP]
@@ -159,13 +157,13 @@ Ao criar experimentos de conteúdo, considere estas recomendações:
 * **Testar um elemento de cada vez**: para obter resultados mais claros, teste variações de um único elemento (por exemplo, somente linha de assunto ou somente conteúdo) em vez de vários elementos simultaneamente.
 
 * **Escolha a duração apropriada**: permita tempo suficiente para significância estatística:
-   * Para testes de taxa aberta: 12 a 24 horas geralmente são suficientes
-   * Para testes de taxa de cliques: 24 a 48 horas ou mais podem ser necessárias
-   * Públicos-alvo maiores podem exigir menos tempo; públicos-alvo menores podem precisar de mais tempo
+  * Para testes de taxa aberta: 12 a 24 horas geralmente são suficientes
+  * Para testes de taxa de cliques: 24 a 48 horas ou mais podem ser necessárias
+  * Públicos-alvo maiores podem exigir menos tempo; públicos-alvo menores podem precisar de mais tempo
 
 * **Dimensione seu público adequadamente**:
-   * Verifique se o público-alvo do experimento (a porcentagem alocada para o teste) é grande o suficiente para produzir resultados significativos
-   * Diretriz geral: Mínimo de 1.000 recipients por tratamento para resultados confiáveis
+  * Verifique se o público-alvo do experimento (a porcentagem alocada para o teste) é grande o suficiente para produzir resultados significativos
+  * Diretriz geral: Mínimo de 1.000 recipients por tratamento para resultados confiáveis
 
 * **Testar regularmente, mas não excessivamente**: realize experimentos em campanhas importantes, mas evite testar cada envio individual para concentrar os recursos em decisões impactantes.
 

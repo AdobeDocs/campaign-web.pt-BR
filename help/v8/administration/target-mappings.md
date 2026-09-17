@@ -5,19 +5,21 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '781'
 ht-degree: 13%
-
 ---
-
 # Gerenciar target mappings {#target-mappings}
 
 >[!CONTEXTUALHELP]
@@ -105,16 +107,16 @@ Depois que o target mapping for criado, duas seções adicionais serão exibidas
 
   ![Seção de armazenamento mostrando opções de tabela para logs](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL Esquema de mensagem]**: identifica o esquema a ser usado para armazenar os logs de envio.
-   * **[!UICONTROL Mensagens excluídas]**: especifica como gerenciar o armazenamento de logs de entrega e exclusão.
+  * **[!UICONTROL Esquema de mensagem]**: identifica o esquema a ser usado para armazenar os logs de envio.
+  * **[!UICONTROL Mensagens excluídas]**: especifica como gerenciar o armazenamento de logs de entrega e exclusão.
 
-      * **[!UICONTROL Armazenar exclusões e mensagens na mesma tabela]**
-      * **[!UICONTROL Armazenar somente mensagens]**: não armazenar exclusões.
-      * **[!UICONTROL Armazenar exclusões e mensagens em tabelas separadas]**: selecione o esquema a ser usado para armazenar logs de exclusão no campo **[!UICONTROL Esquema de rejeição]**.
+    * **[!UICONTROL Armazenar exclusões e mensagens na mesma tabela]**
+    * **[!UICONTROL Armazenar somente mensagens]**: não armazenar exclusões.
+    * **[!UICONTROL Armazenar exclusões e mensagens em tabelas separadas]**: selecione o esquema a ser usado para armazenar logs de exclusão no campo **[!UICONTROL Esquema de rejeição]**.
 
-   * **[!UICONTROL Logs de rastreamento]**: escolha onde armazenar os logs de rastreamento e a fonte de tráfego padrão.
-   * **[!UICONTROL Campos adicionais]**: especifique uma lista de campos adicionais a serem armazenados nos logs de entrega. Esses campos podem armazenar permanentemente informações sobre membros individuais do destino (por exemplo, `recipient/@firstName`) ou armazenar dados adicionais calculados durante o fluxo de trabalho (por exemplo, `[targetData/@offeCode]`).
+  * **[!UICONTROL Logs de rastreamento]**: escolha onde armazenar os logs de rastreamento e a fonte de tráfego padrão.
+  * **[!UICONTROL Campos adicionais]**: especifique uma lista de campos adicionais a serem armazenados nos logs de entrega. Esses campos podem armazenar permanentemente informações sobre membros individuais do destino (por exemplo, `recipient/@firstName`) ou armazenar dados adicionais calculados durante o fluxo de trabalho (por exemplo, `[targetData/@offeCode]`).
 
-     Para fazer isso, selecione **[!UICONTROL Adicionar campo]**. Identifique as informações a serem salvas no campo **[!UICONTROL Source]** e o atributo a ser usado nos logs de envio para salvar essas informações no campo **[!UICONTROL Destino]**.
+    Para fazer isso, selecione **[!UICONTROL Adicionar campo]**. Identifique as informações a serem salvas no campo **[!UICONTROL Source]** e o atributo a ser usado nos logs de envio para salvar essas informações no campo **[!UICONTROL Destino]**.
 
-     ![Seção de campos adicionais mostrando opções para armazenar dados extras](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![Seção de campos adicionais mostrando opções para armazenar dados extras](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

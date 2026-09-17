@@ -6,11 +6,9 @@ audience: end-user
 exl-id: bccd04f1-d4f2-474c-89eb-c0b1087a3946
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 6%
-
 ---
-
 # Fluxos de clique e URLs{#urls-and-click-streams}
 
 Os **Fluxos de clique e URLs** mostram os URLs que foram mais clicados durante uma entrega ou várias entregas se estiverem vinculados a uma campanha ou programa.

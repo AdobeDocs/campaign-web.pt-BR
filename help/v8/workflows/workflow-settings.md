@@ -6,13 +6,12 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: '1087'
 ht-degree: 28%
-
 ---
-
 # Definir as configurações do fluxo de trabalho {#workflow-settings}
 
 >[!CONTEXTUALHELP]
@@ -44,10 +43,10 @@ Essas propriedades incluem:
 * A **[!UICONTROL Pasta]** onde o fluxo de trabalho deve ser salvo.
 * O **[!UICONTROL Fuso horário]** padrão a ser usado em todas as atividades do fluxo de trabalho. Por padrão, o fuso horário do workflow é aquele definido para o operador atual do Campaign.
 Os valores possíveis são:
-   * **Fuso horário do servidor** para usar o fuso horário do servidor de aplicativos do Adobe Campaign.
-   * **Fuso horário do operador** para usar o fuso horário do operador do Adobe Campaign que executa o fluxo de trabalho, conforme definido no perfil do operador no console do cliente.
-   * **Fuso horário do banco de dados** para usar o fuso horário do servidor de banco de dados.
-   * Um fuso horário específico.
+  * **Fuso horário do servidor** para usar o fuso horário do servidor de aplicativos do Adobe Campaign.
+  * **Fuso horário do operador** para usar o fuso horário do operador do Adobe Campaign que executa o fluxo de trabalho, conforme definido no perfil do operador no console do cliente.
+  * **Fuso horário do banco de dados** para usar o fuso horário do servidor de banco de dados.
+  * Um fuso horário específico.
 * Quando um fluxo de trabalho falha, os operadores pertencentes ao grupo de operadores selecionado no campo **[!UICONTROL Supervisor(es)]** são notificados por email.
 * Insira uma **[!UICONTROL Descrição]** do fluxo de trabalho.
 
@@ -96,9 +95,9 @@ Quando o fluxo de trabalho estiver [associado a uma campanha](create-workflow.md
 
 * **[!UICONTROL Gerenciamento de erros]**: este campo permite que você defina as ações a serem tomadas se uma tarefa de fluxo de trabalho tiver erros. Há três opções possíveis:
 
-   * **[!UICONTROL Suspender o processo]**: o fluxo de trabalho é pausado automaticamente e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, retome o fluxo de trabalho usando os botões **[!UICONTROL Retomar]**.
-   * **[!UICONTROL Ignorar]**: o status da tarefa que provocou o erro muda para **[!UICONTROL Falha]**, mas o fluxo de trabalho mantém o status **[!UICONTROL Iniciado]**. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Interromper o processo]**: o fluxo de trabalho é automaticamente interrompido e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, reinicie o fluxo de trabalho usando os botões **[!UICONTROL Iniciar]**.
+  * **[!UICONTROL Suspender o processo]**: o fluxo de trabalho é pausado automaticamente e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, retome o fluxo de trabalho usando os botões **[!UICONTROL Retomar]**.
+  * **[!UICONTROL Ignorar]**: o status da tarefa que provocou o erro muda para **[!UICONTROL Falha]**, mas o fluxo de trabalho mantém o status **[!UICONTROL Iniciado]**. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL Interromper o processo]**: o fluxo de trabalho é automaticamente interrompido e seu status muda para **[!UICONTROL Falha]**. Quando o problema for resolvido, reinicie o fluxo de trabalho usando os botões **[!UICONTROL Iniciar]**.
 
 * **[!UICONTROL Erros consecutivos]**: este campo fica disponível quando o valor **[!UICONTROL Ignorar]** é selecionado no campo **[!UICONTROL Em caso de erros]**. Especifique o número de erros que podem ser ignorados antes que o processo seja interrompido. Após esse número ser alcançado, o status do fluxo de trabalho será alterado para **[!UICONTROL Failed]**. Se o valor desse campo for 0, o fluxo de trabalho nunca será interrompido independentemente do número de erros.
 
