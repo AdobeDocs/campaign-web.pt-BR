@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
+source-wordcount: '3041'
 ht-degree: 10%
 ---
 # Criar a primeira consulta {#build-query}
@@ -155,9 +155,11 @@ Para atributos do tipo data, os valores predefinidos estão disponíveis usando 
 
 >[!ENDTABS]
 
-#### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
+### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
 As condições personalizadas permitem consultar tabelas vinculadas à tabela usada atualmente pela regra. Isso inclui tabelas com um link de cardinalidade 1-1 ou tabelas de coleção (link 1-N).
+
+#### Link 1-1
 
 Para um link **1-1**, navegue até a tabela vinculada, selecione o atributo desejado e defina o valor esperado.
 
@@ -169,63 +171,51 @@ Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 
 1. Navegue dentro da tabela **Marca** e selecione o atributo **Etiqueta**.
 
-   ![Captura de tela da tabela Marca](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela da tabela Marca](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Defina o valor esperado para o atributo.
 
-   ![Exemplo de um valor esperado definido](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela da tabela Marca](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 Esta é uma amostra de consulta em que um link de tabela foi selecionado diretamente. Os valores disponíveis para esta tabela devem ser selecionados em um seletor dedicado.
 
-![Exemplo de uma amostra de consulta](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Captura de tela da tabela Marca](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-Para um link **1-N**, você pode definir subcondições para refinar sua consulta, como mostrado no exemplo abaixo.
+#### Link 1-N
 
-+++Exemplo de consulta
+Para um link **1-N**, você pode definir condições de duas maneiras:
 
-Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao produto BrewMaster, para um valor total de pelo menos 100$.
+* **Selecione a própria coleção**, como **Compras**. Isso cria uma condição **[!UICONTROL exists como]**, na qual você pode adicionar subcondições.
 
-1. Selecione a tabela **Compras** e confirme.
+  +++Exemplo de consulta
 
-   ![Captura de tela da tabela Compra](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao produto BrewMaster, por mais de 100$.
 
-1. Uma transição de saída é adicionada, permitindo criar subcondições.
+  1. Selecione a tabela **Compras** e confirme.
 
-   ![Exemplo de transição de saída](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. Clique em **[!UICONTROL Adicionar condição]** para definir as subcondições a serem aplicadas à tabela selecionada.
 
-1. Selecione o atributo **Preço** e direcione compras de US$ 1000 ou mais
+     ![Captura de tela da tabela Compra](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Captura de tela do atributo Price](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. Adicione subcondições para atender às suas necessidades.
 
-1. Adicione subcondições para atender às suas necessidades. Aqui adicionamos uma condição aos perfis do público-alvo que compraram um produto BrewMaster.
+     ![Captura de tela da tabela Compra](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Exemplo de subcondições](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **Selecione um atributo da coleção**, como **Preço** em **Compras**. Você recebe três opções para definir a condição.
 
-#### Trabalhar com dados agregados {#aggregate}
+  ![Captura de tela mostrando as opções de condição da coleção](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-As condições personalizadas permitem executar operações agregadas. Para fazer isso, você precisa selecionar diretamente um atributo de uma tabela de coleção:
+  * **[!UICONTROL Padrão]**: a opção recomendada para a maioria dos casos de uso. Cria automaticamente uma condição **[!UICONTROL exists such as]** para a coleção. É equivalente a selecionar a coleção diretamente com o método descrito acima e produzir o mesmo resultado. Por exemplo, selecionar o atributo **Preço** de **Compras** cria uma condição **Compras existe, como**. Em seguida, você pode definir o operador e o valor, como **igual a** `0`.
 
-1. Navegue dentro da tabela de coleção desejada e selecione o atributo no qual deseja executar uma operação agregada.
+  * **[!UICONTROL Aggregate]**: aplica uma função de agregação ao atributo de coleção selecionado. Por exemplo, selecione **Count** para criar uma condição como **Count(Price) igual a 0**. Você pode usar a condição adicional para refinar os registros incluídos na agregação.
 
-   ![Captura de tela da lista de atributos](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL Avançado]**: usa uma junção direta com o elemento de coleção. O atributo selecionado é avaliado diretamente, por exemplo **Price (purchases/@price)**. Use essa opção para uma única condição no elemento de coleção.
 
-1. No painel de propriedades, alterne a opção **Aggregate data** e selecione a função de agregação desejada.
-
->[!BEGINTABS]
-
->[!TAB Modelador de consulta clássico]
-
-![Captura de tela da opção Dados agregados](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB Novo construtor de regras]
-
-![Captura de tela da opção Dados agregados](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  A opção **[!UICONTROL Padrão]** está selecionada por padrão. Use **[!UICONTROL Aggregate]** quando precisar contar ou agregar registros de coleção, ou **[!UICONTROL Advanced]** quando precisar de uma associação direta a um atributo de coleção.
 
 ### Selecionar um público-alvo {#audiences}
 

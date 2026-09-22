@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 5%
 ---
 # Planos e programas {#plan-and-programs}
@@ -97,8 +97,6 @@ Há duas maneiras de vincular uma campanha a um programa:
 ### Way #1: Você já tem um programa e deseja criar uma campanha vinculada a ele
 
 Para vincular uma nova campanha ao seu programa, crie a campanha diretamente no programa.
-
-![Captura de tela mostrando a criação de uma campanha em um programa](assets/program_campaign_create.png){zoomable="yes"}
 
 As configurações de **[!UICONTROL Pasta]** serão preenchidas automaticamente com o caminho para o seu programa.
 

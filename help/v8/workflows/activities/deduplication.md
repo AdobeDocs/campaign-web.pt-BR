@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 42%
+source-wordcount: '835'
+ht-degree: 36%
 ---
 # Desduplicação {#deduplication}
 
@@ -69,10 +69,16 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
 
 1. Selecione o **Método de desduplicação** a ser usado:
 
-   * **Seleção aleatória**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
-   * **Usando uma expressão**: mantém os registros nos quais o valor da expressão inserida é o menor ou o maior.
-   * **Valores não vazios**: mantém os registros para os quais a expressão não está vazia.
-   * **Seguindo uma lista de valores**: define uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão e, em seguida, adicione os valores à tabela apropriada. Para definir um novo campo, clique no botão **Add** localizado acima da lista de valores.
+   * **[!UICONTROL Seleção aleatória]**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
+   * **[!UICONTROL Usando uma expressão]**: mantém os registros para os quais a expressão especificada tem o menor ou o maior valor. Insira a **[!UICONTROL Expression]** e escolha a ordem **[!UICONTROL Sort]**: **[!UICONTROL Ascendente (menores valores primeiro)]** ou **[!UICONTROL Descendente (maiores valores primeiro)]**.
+   * **[!UICONTROL Valor não vazio]**: mantém os registros para os quais a expressão não está vazia.
+   * **[!UICONTROL Seguindo uma lista de valores]**: define a prioridade do registro ao corresponder um ou mais valores para um atributo ou expressão. Clique em **[!UICONTROL Adicionar atributo]** para adicionar um atributo. Para cada atributo:
+
+     * No campo **[!UICONTROL Atributo]**, selecione o atributo ou crie uma expressão.
+     * Clique em **[!UICONTROL Adicionar valor]** para criar a lista ordenada de valores a serem priorizados.
+     * Use o menu suspenso **[!UICONTROL Classificar por outros valores]** para escolher como classificar os valores que não estão na lista, por exemplo **[!UICONTROL Indiferente (aleatório)]**.
+
+     Quando vários atributos são definidos, o primeiro é usado como o principal critério de classificação e os atributos a seguir atuam como desempates, em ordem.
 
 1. Marque a opção **Generate complement** para explorar a população restante. O complemento consiste de todos os duplicados. Em seguida, uma transição adicional é adicionada à atividade.
 

@@ -2,10 +2,10 @@
 title: Procurar e acessar esquemas
 description: Saiba como procurar e acessar esquemas na interface.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 3%
 ---
 # Acessar e configurar esquemas {#access}
 
@@ -62,3 +62,5 @@ Na definição da tela, é possível:
 * [Editar campos personalizados](schemas-custom-fields.md) - Configure quais campos personalizados serão exibidos em telas de detalhes e organize-os em seções.
 * [Adicionar listas de coleções](schemas-collection-lists.md) - Adicione listas de coleções para mostrar dados relacionados em telas de perfil.
 * [Controlar ações nos dados](schemas-action-data.md) - Restringir ações de criação, edição e exclusão para esquemas personalizados.
+
+Para esquemas que possibilitam uma ou mais entradas na navegação à esquerda, como **nms:delivery** ou **xtk:workflow**, a definição de tela também exibe uma seção **[!UICONTROL Acesso à navegação lateral]**. Marque a caixa de seleção **[!UICONTROL Remover acesso ao menu por]** correspondente a uma entrada de menu para ocultá-la da navegação à esquerda, para todos os usuários na instância, independentemente de seus direitos de acesso individuais. Alguns esquemas alimentam várias entradas de menu: por exemplo, **nms:delivery** é compartilhado pelas **[!UICONTROL Entregas]** e **[!UICONTROL Mensagens transacionais]** entradas, portanto, uma caixa de seleção é exibida para cada uma delas.

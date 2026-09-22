@@ -5,14 +5,14 @@ description: Saiba como usar a atividade de workflow de aprovação
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 3%
+ht-degree: 8%
 ---
 # Aprovação {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_approval"
 >title="Atividade de aprovação"
->abstract="A atividade **Approval** requer a participação de um operador. Atribua a tarefa a um grupo ou operador individual, personalize o título da notificação e a mensagem e defina as respostas possíveis como ramificações de saída."
+>abstract="A atividade **Aprovação** requer a participação de um operador. Atribua a tarefa a um grupo ou operador individual, personalize o título e a mensagem da notificação e defina as possíveis respostas como ramificações de saída."
 
 A atividade de fluxo de trabalho **Aprovação** permite atribuir uma tarefa a um grupo ou a um operador individual, personalizar o título e a mensagem do email de notificação e definir as respostas possíveis (por exemplo, Sim/Não) como ramificações de saída.
 

@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 13%
+source-wordcount: '918'
+ht-degree: 11%
 ---
 # Gerenciar target mappings {#target-mappings}
 
@@ -64,6 +64,21 @@ Para criar um novo target mapping, acesse o menu **[!UICONTROL Administração]*
 1. Na seção **[!UICONTROL Propriedades]**, digite um **[!UICONTROL Rótulo]** para o target mapping.
 
 1. Expanda a seção **[!UICONTROL Opções adicionais]** para definir configurações avançadas, como o nome interno, a pasta de armazenamento e a descrição do target mapping.
+
+1. Habilite a opção **[!UICONTROL Target mapping para aplicativos móveis]** se estiver direcionando destinatários de aplicativos móveis.
+
+   ![Tela de propriedades de Target mappings mostrando opções de população](assets/target-mappings-properties0.png)
+
+   Em seguida, é possível:
+
+   * Deixe o campo **[!UICONTROL Schema of existing subscriber applications]** vazio. O Adobe Campaign gera automaticamente o esquema de armazenamento necessário para você, com base no template do recipient. Você pode usar **[!UICONTROL Especificar campos adicionais]** para adicionar campos personalizados ao esquema gerado.
+   * Selecione um esquema de aplicativo de assinante existente. Nesse caso, **[!UICONTROL Especificar campos adicionais]** está desabilitado, pois o esquema já existe, e os campos **[!UICONTROL Dimensão do filtro]** e **[!UICONTROL Dimensão de direcionamento]** são automaticamente preenchidos com base no esquema selecionado.
+
+   Os target mappings móveis sempre usam seus próprios schemas de armazenamento dedicados, com os logs de exclusão armazenados separadamente. A opção **[!UICONTROL Exclusões]**, descrita na seção **[!UICONTROL Armazenamento]** abaixo, não se aplica aos mapeamentos de destino para dispositivos móveis.
+
+   >[!NOTE]
+   >
+   >O sufixo do esquema não pode conter espaços.
 
 1. Selecione a população do target. É possível:
 
