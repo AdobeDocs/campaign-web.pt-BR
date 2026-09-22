@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 52%
+source-wordcount: '528'
+ht-degree: 50%
 ---
 # Criar público-alvo {#build-audience}
 
@@ -58,11 +58,11 @@ Siga estas etapas para configurar a atividade **Criar público-alvo**:
 Para criar sua própria query, siga estas etapas:
 
 1. Selecione **Crie sua própria (consulta)**.
-1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o target é selecionado dos destinatários. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#targeting)
+1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir o público alvo da operação, como recipients, beneficiários de contrato, operadores ou assinantes. Por padrão, o target é a dimensão de recipients. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#targeting)
 1. Escolha a **Dimensão do filtro** clicando no ícone ao lado da targeting dimension. A dimensão de filtro permite aplicar filtros ao público-alvo fazendo referência a critérios relacionados sem alterar a dimensão de direcionamento principal. [Saiba mais sobre dimensões de direcionamento](../../audience/targeting-dimensions.md#filtering)
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
-1. Use a seção **Enrichment data** para aprimorar os dados direcionados com informações adicionais do banco de dados, por exemplo, referências de contrato ou assinaturas de boletim informativo. Esses dados são armazenados com o público na **tabela de trabalho** do fluxo de trabalho e estão disponíveis para as atividades seguintes. Você pode adicionar atributos de enriquecimento únicos, links de coleção ou expressões e acessar opções avançadas. Para obter etapas e exemplos detalhados, consulte [Adicionar dados de enriquecimento](enrichment.md#enrichment-add).
+1. Use a seção **Enrichment data** para aprimorar os dados direcionados com informações adicionais do banco de dados, por exemplo, referências de contrato ou assinaturas de boletim informativo. Esses dados são armazenados com o público na **tabela de trabalho** do fluxo de trabalho e estão disponíveis para as atividades seguintes. Você pode adicionar atributos de enriquecimento únicos, links de coleção, expressões ou campos de um banco de dados externo e acessar opções avançadas. Para obter etapas e exemplos detalhados, consulte [Adicionar dados de enriquecimento](enrichment.md#enrichment-add) e [Enriquecer com dados do banco de dados externo](enrichment.md#external-data).
 
 >[!TAB Ler público-alvo]
 

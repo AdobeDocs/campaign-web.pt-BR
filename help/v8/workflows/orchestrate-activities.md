@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 10%
+source-wordcount: '1791'
+ht-degree: 9%
 ---
 # Orquestrar atividades {#orchestrate}
 
@@ -48,6 +48,12 @@ A barra de ferramentas, localizada no canto superior direito da tela, fornece op
 * **Exibir mapa**: abra um instantâneo da tela mostrando sua localização.
 
 ![Opções da barra de ferramentas para a tela do fluxo de trabalho](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## Salvar ou descartar suas alterações {#save-cancel}
+
+Use o botão **[!UICONTROL Salvar]**, na parte superior da tela, para salvar as alterações feitas no fluxo de trabalho.
+
+Assim que você fizer uma alteração, o botão **[!UICONTROL Cancelar]** também ficará disponível ao lado de **[!UICONTROL Salvar]**. Clique nele para descartar todas as alterações não salvas e restaurar o fluxo de trabalho para sua última versão salva. Como essa ação não pode ser desfeita, uma mensagem de confirmação será exibida antes que as alterações sejam descartadas.
 
 ## Gerenciar atividades {#manage}
 

@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 26%
+source-wordcount: '1012'
+ht-degree: 18%
 ---
 # Carregar um público-alvo de email a partir de um arquivo {#audience-from-file}
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
 A interface da Web do Adobe Campaign permite direcionar perfis armazenados em um arquivo externo. Depois que os perfis forem carregados, todos os campos do arquivo de entrada estarão disponíveis para uso na personalização da entrega [Saiba como personalizar o conteúdo](../personalization/personalize.md).
 
-Perfis do arquivo de entrada não são adicionados ao banco de dados. Eles são carregados e disponibilizados somente para esse delivery de email independente específico.
+Você pode optar por carregar perfis apenas para esse delivery de email independente específico, sem adicioná-los ao banco de dados ou importá-los e reconciliá-los no banco de dados. [Saiba mais](#upload).
 
 >[!NOTE]
 >
@@ -66,7 +66,61 @@ Para direcionar perfis de um arquivo em seus emails, siga estas etapas:
    ![Captura de tela mostrando a visualização do mapeamento de dados na seção central](assets/select-from-file-map.png)
 
 1. Especifique a coluna que contém o endereço de email da lista suspensa **Campo de Endereço**. Você também pode selecionar a coluna pesquisar se tiver informações no arquivo de entrada.
-1. Ajuste as configurações de coluna e defina como formatar os dados usando as opções disponíveis.
+1. Na seção **[!UICONTROL Colunas]**, expanda uma coluna para ajustar suas configurações e definir como formatar os dados usando as opções disponíveis. Para cada coluna que você deseja usar para reconciliação, use **[!UICONTROL Selecionar campo de destino]** para mapeá-lo para um atributo de esquema de destinatário.
+
+1. Use a opção **[!UICONTROL Do not import the recipients into the database]** para controlar se os perfis do arquivo são importados e reconciliados no banco de dados. Se você optar por importá-los, uma seção **[!UICONTROL Mapeamento de campo e reconciliação]** será exibida. Configure os seguintes parâmetros:
+
+   ![Captura de tela mostrando a visualização do mapeamento de dados na seção central](assets/select-from-file-map2.png)
+
+   +++**[!UICONTROL Operação]**
+
+   Escolha a ação a ser executada no banco de dados:
+
+   * **[!UICONTROL Atualizar ou inserir]**: atualiza o registro se ele existir no banco de dados, caso contrário, o criará.
+   * **[!UICONTROL Insert]**: insere registros no banco de dados.
+   * **[!UICONTROL Atualização]**: atualiza somente registros existentes.
+   * **[!UICONTROL Somente reconciliação]**: procura o registro no banco de dados, mas não executa uma atualização.
+   * **[!UICONTROL Excluir]**: exclui registros do banco de dados.
+
+   +++
+
+   +++**[!UICONTROL Gerenciamento de duplicatas]**
+
+   Escolha como tratar um registro que existe no arquivo e no banco de dados:
+
+   * **[!UICONTROL Atualização]** (padrão): atualiza o registro.
+   * **[!UICONTROL Rejeitar entidade]**: a exclui e registra um erro.
+   * **[!UICONTROL Ignorar]**: exclui-o sem manter um rastreamento.
+
+   +++
+
+   +++**[!UICONTROL Gerenciamento de duplicatas]**
+
+   Escolha como lidar com um registro que aparece mais de uma vez no próprio arquivo:
+
+   * **[!UICONTROL Atualização]** (padrão): não elimina duplicatas; o último registro correspondente tem prioridade.
+   * **[!UICONTROL Reject entity]**: exclui os registros extras e registra um erro.
+   * **[!UICONTROL Ignorar]**: exclui os registros extras sem manter um rastreamento.
+
+   +++
+
+   +++**[!UICONTROL Tipo de rejeição]**
+
+   Escolha como tratar um erro de nível de campo durante a reconciliação:
+
+   * **[!UICONTROL Ignorar e registrar aviso]**: importa todos os outros campos e registra o erro.
+   * **[!UICONTROL Reject parent element]**: rejeita o registro inteiro.
+   * **[!UICONTROL Rejeitar todos os elementos]**: para a importação e rejeita tudo.
+
+   +++
+
+   +++**[!UICONTROL Campos de chave de reconciliação]**
+
+   Na seção **[!UICONTROL Colunas]**, você mapeou algumas colunas para um campo de destino. Aqui, selecione qual desses campos mapeados deve ser usado para identificar um registro.
+
+   +++
+
+1. Na seção **[!UICONTROL Formatação]**, especifique a codificação, o delimitador de cadeia de caracteres e o separador de colunas usados pelo arquivo.
 1. Clique em **Confirmar** assim que as configurações estiverem corretas.
 
 Ao criar o conteúdo da mensagem, adicione personalização aproveitando os campos do arquivo de entrada. [Saiba como personalizar conteúdo](../personalization/personalize.md)
@@ -86,14 +140,12 @@ Ao carregar um arquivo externo para direcionar perfis em seus deliveries, verifi
 * A primeira linha do arquivo é o cabeçalho da coluna.
 * Alinhe o formato de arquivo com o arquivo de amostra abaixo:
 
-  ```javascript
-  {
+  ```
   lastname,firstname,city,birthdate,email,denylist
   Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
   Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
   Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
   Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-  }
   ```
 
 ## Pré-visualizar e testar o email {#test}
