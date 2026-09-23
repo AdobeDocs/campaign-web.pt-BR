@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 39%
+source-wordcount: '574'
+ht-degree: 38%
 ---
 # Crie uma entrega de SMS. {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 >abstract="Selecione um modelo predefinido para iniciar a entrega do SMS. Os modelos de entrega permitem reutilizar o conteúdo e as configurações personalizadas em campanhas e entregas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=pt-BR" text="Usar modelos de entrega"
 
-Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo explicam o procedimento para uma entrega de SMS independente (única). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão explicadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Você pode criar um delivery de SMS independente ou criar um SMS no contexto de um workflow da campanha. As etapas abaixo explicam o procedimento para uma entrega de SMS independente (única). Se você estiver trabalhando no contexto de um fluxo de trabalho de campanha, as etapas de criação serão explicadas em [esta seção](../workflows/activities/channels.md#create-a-delivery-in-a-workflow).
 
 Para criar um novo delivery de SMS independente, siga estas etapas:
 
@@ -55,6 +55,8 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para direcionar um público já existente ou criar o seu próprio. [Saiba mais sobre públicos](../audience/about-recipients.md).
 
+   Além do target mapping padrão **[!UICONTROL Destinatários]**, as entregas de SMS também podem direcionar **[!UICONTROL Visitantes]** ou **[!UICONTROL Assinaturas de visitantes]**. [Saiba mais sobre dimensões de direcionamento](../audience/targeting-dimensions.md#targeting).
+
    ![Captura de tela mostrando o botão Selecionar público-alvo](assets/sms_create_2.png){zoomable="yes"}
 
    Saiba como selecionar um público existente [nesta página](../audience/add-audience.md).
@@ -71,7 +73,7 @@ Para criar um novo delivery de SMS independente, siga estas etapas:
 
    Nesta tela, você também pode [simular seu conteúdo](../preview-test/preview-test.md) e [configurar ofertas](../msg/offers.md).
 
-1. Para programar sua entrega para uma data e hora específicas, ative a opção **[!UICONTROL Habilitar agendamento]**. Após iniciar o delivery, a mensagem será enviada automaticamente na data e hora exatas que você definir para o recipient. Saiba mais sobre o agendamento de entrega em [esta seção](../msg/gs-deliveries.md#gs-schedule).
+1. Para programar sua entrega para uma data e hora específicas, ative a opção **[!UICONTROL Habilitar agendamento]**. Após iniciar o delivery, a mensagem será enviada automaticamente na data e hora exatas que você definir para o recipient. Saiba mais sobre o agendamento de entrega em [esta seção](../msg/create-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >

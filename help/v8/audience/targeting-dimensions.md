@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 15%
@@ -43,7 +43,7 @@ Use outros target mappings integrados em workflows e deliveries, conforme listad
 | Nome | Use para entregar para | Esquema |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | Destinatários | Perfis/recipients (tabela de recipients integrada) | nms:recipient |
-| Visitantes | Visitantes cujos perfis foram coletados por meio de referência (marketing viral, por exemplo) | mns:visitor |
+| Visitantes | Visitantes cujos perfis foram coletados por meio de referência (marketing viral, por exemplo) | nms:visitor |
 | Subscrições | Perfis inscritos em um serviço de informação, como um boletim informativo | nms:subscription |
 | Assinaturas do visitante | Visitantes inscritos em um serviço de informação | nms:visitorSub |
 | Operadores | Operadores do Adobe Campaign | nms:operator |

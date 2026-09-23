@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 12%
@@ -69,7 +69,7 @@ O envio de provas é crucial para garantir a qualidade e a eficácia do delivery
 
    ![Enviando entrega de SMS](assets/sms_send_5.png){zoomable="yes"}
 
-   Se a entrega do SMS estiver agendada, clique no botão **[!UICONTROL Enviar como agendado]**. Saiba mais sobre o agendamento de entrega em [esta seção](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Se a entrega do SMS estiver agendada, clique no botão **[!UICONTROL Enviar como agendado]**. Saiba mais sobre o agendamento de entrega em [esta seção](../msg/create-deliveries.md#gs-schedule).
 
 1. Confirme a ação de envio clicando no botão **[!UICONTROL Enviar]**.
 
