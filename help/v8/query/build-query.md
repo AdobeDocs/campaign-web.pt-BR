@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '3041'
 ht-degree: 10%
@@ -71,7 +71,7 @@ Para acessar essa opção, em sua query, clique no botão de seleção de atribu
 >
 >* Para campos com muitos valores, somente os primeiros vinte valores são exibidos. Nesses casos, uma notificação **[!UICONTROL Carga parcial]** avisa você.
 >* A opção **[!UICONTROL Distribuição de valores]** está acessível em todos os seletores de atributos. [Saiba como selecionar atributos](../get-started/attributes.md)
->* Você pode adicionar condições aos resultados usando os **[ !Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-the-values).
+>* Você pode adicionar condições aos resultados usando os **[!Afiltros avançados]**. [Saiba mais aqui](../get-started/work-with-folders.md#filter-values).
 
 ## Adicionar componentes de filtragem {#filtering}
 
