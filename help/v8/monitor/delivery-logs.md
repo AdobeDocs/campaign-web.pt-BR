@@ -3,11 +3,15 @@ audience: end-user
 title: Monitorar logs da entrega
 description: Saiba como monitorar logs da entrega
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
+TQID: 'https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 54%
@@ -46,13 +50,13 @@ Todas as etapas de validação, avisos e erros são listados. Os ícones colorid
 * O ícone amarelo indica um erro de processamento não crítico.
 * O ícone vermelho indica um erro crítico que impede o envio da entrega. Erros críticos devem ser corrigidos para que o delivery seja enviado.
 
-Guia Logs ![&#x200B; mostrando etapas de validação, avisos e erros com ícones coloridos indicando tipos de mensagem.](assets/logs.png){zoomable="yes"}
+Guia Logs ![ mostrando etapas de validação, avisos e erros com ícones coloridos indicando tipos de mensagem.](assets/logs.png){zoomable="yes"}
 
 ## Entregas {#deliveries-tab}
 
 A guia **Logs de envio** contém o histórico de todas as ocorrências da entrega. A lista de mensagens enviadas com os status é armazenada aqui. Assim, você pode exibir o status da entrega para cada destinatário.
 
-Guia ![&#x200B; Entregas mostrando um histórico das mensagens enviadas e seus status.](assets/logs2.png){zoomable="yes"}
+Guia ![ Entregas mostrando um histórico das mensagens enviadas e seus status.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusões {#exclusion-tab}
 

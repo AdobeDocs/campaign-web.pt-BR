@@ -6,10 +6,17 @@ feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 4%
@@ -77,14 +84,14 @@ Os ambientes de oferta e espaços de oferta são acessados por meio do **[!UICON
 
 Alguns recursos de ofertas ainda não estão expostos na interface da Web e ainda devem ser configurados no console do cliente:
 
-* **Simulação de oferta** — O módulo **Simulação** que permite testar a distribuição de ofertas antes do envio. Consulte [Simulação de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=pt-BR#offer-simulation){target="_blank"}.
+* **Simulação de oferta** — O módulo **Simulação** que permite testar a distribuição de ofertas antes do envio. Consulte [Simulação de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}.
 
 * Gerenciamento de **Filtros predefinidos** — Regras de filtros reutilizáveis que podem ser referenciadas a partir de qualquer oferta. Consulte [Gerenciar filtros predefinidos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
 
-* **Rastreamento de oferta** — Configuração do rastreamento para apresentações de oferta para alimentar o histórico de apresentações. Consulte [Rastrear apresentações de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=pt-BR){target="_blank"}.
+* **Rastreamento de oferta** — Configuração do rastreamento para apresentações de oferta para alimentar o histórico de apresentações. Consulte [Rastrear apresentações de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
 
 * **Funções do operador** — atribuição de direitos de Gerente de ofertas/Gerente de entregas. Consulte [Operadores do módulo de Interação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
 
-* **Práticas recomendadas de interação e regras de arbitragem**. Consulte [Práticas recomendadas de interação de campanha](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=pt-BR){target="_blank"}.
+* **Práticas recomendadas de interação e regras de arbitragem**. Consulte [Práticas recomendadas de interação de campanha](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 * **Relatórios** — Os relatórios de oferta e proposta dedicados ainda não estão disponíveis na interface do usuário da Web.

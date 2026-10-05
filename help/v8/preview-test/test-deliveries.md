@@ -3,14 +3,18 @@ audience: end-user
 title: Enviar provas
 description: Saiba como definir e enviar provas
 exl-id: b2677579-c95d-443d-b207-466af364c208
-TQID: https://experienceleague.adobe.com/ihLIbOoruy21sAEFjbSIwxXm96vOMz9FfiNegHLrmVo
+TQID: 'https://experienceleague.adobe.com/ihLIbOoruy21sAEFjbSIwxXm96vOMz9FfiNegHLrmVo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 14%
@@ -54,7 +58,7 @@ Para começar a testar o conteúdo da mensagem:
 
    * Para SMS e emails, você pode usar [perfis de teste](#test-profiles), que são destinatários adicionais específicos no banco de dados. Você também pode usar o modo [substituição do target principal](#substitution-profiles), que envia a prova para um endereço de teste de email ou número de telefone, e usa dados de personalização de um perfil existente. Isso permite experimentar a mensagem da mesma maneira que os recipients, fornecendo uma representação precisa do conteúdo que o perfil receberá.
 
-   * Para mensagens por push, você pode usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados no console [!DNL Campaign]. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=pt-BR){target="_blank"}
+   * Para mensagens por push, você pode usar [assinantes](#subscribers), que são assinantes fictícios adicionados ao banco de dados. Eles são criados no console [!DNL Campaign]. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    A configuração detalhada para cada modo está disponível abaixo.
 

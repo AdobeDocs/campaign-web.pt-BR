@@ -4,10 +4,14 @@ description: Saiba como criar prompts eficazes para a geração de conteúdo hab
 role: User
 level: Intermediate
 exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
-TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
+TQID: 'https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -28,7 +32,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '2109'
 ht-degree: 0%
@@ -136,19 +140,19 @@ Essas solicitações não são compatíveis e devem ser tratadas por meio de out
 
 Antes de gerar o conteúdo, verifique o seguinte:
 
-&check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
+&amp;check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
 
-&check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
+&amp;check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
 
-&check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
+&amp;check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
 
-&check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
+&amp;check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
 
-&check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
+&amp;check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
 
-&check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
+&amp;check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
 
-&check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
+&amp;check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
 
 ## Escreva objetivos de marketing eficazes {#marketing-objectives}
 
@@ -158,11 +162,11 @@ Ao criar objetivos de marketing, verifique se eles são claros, acionáveis e me
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
+&amp;check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
 
-&check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
+&amp;check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
 
-&check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
+&amp;check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
 
 **Exemplos a serem evitados:**
 
@@ -179,11 +183,11 @@ Use esta fórmula para ajudá-lo a escrever objetivos efetivos: **Ação + Produ
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
+&amp;check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
 
-&check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
+&amp;check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
 
-&check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
+&amp;check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
 
 **Exemplos a serem evitados:**
 

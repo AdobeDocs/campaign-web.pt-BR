@@ -7,20 +7,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-TQID: https://experienceleague.adobe.com/t7jTgugTG9NOGwqQ9OMcRCrLcr83sTI5cu-O-iYQsRk
+TQID: 'https://experienceleague.adobe.com/t7jTgugTG9NOGwqQ9OMcRCrLcr83sTI5cu-O-iYQsRk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 4%
@@ -34,7 +40,7 @@ A integração do Adobe Experience Manager permite criar deliveries de email mul
 Antes de criar um delivery de email multilíngue, verifique se você tem:
 
 * Acesso a uma instância do Adobe Experience Manager configurada para integração com a interface da Web do Adobe Campaign.
-* Conteúdo do Adobe Experience Manager com cópias de idioma já criado e aprovado. Saiba mais sobre o Assistente de Cópia de Idioma na [documentação do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Conteúdo do Adobe Experience Manager com cópias de idioma já criado e aprovado. Saiba mais sobre o Assistente de Cópia de Idioma na [documentação do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Modelo de entrega de email configurado para receber conteúdo do Adobe Experience Manager. Consulte as etapas detalhadas na seção [Habilitar modo multilíngue](#enable-multilingual).
 
 ## Criar seu delivery multilíngue

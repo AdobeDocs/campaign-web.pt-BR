@@ -2,7 +2,14 @@
 title: Gerenciar conta externa
 description: Saiba como configurar contas externas
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
@@ -103,6 +110,6 @@ Para configurar a conta externa **[!UICONTROL Instância de execução]**:
 
 * **[!UICONTROL Método]** - Escolha entre o serviço Web ou o FDA (Federated Data Access — Acesso a Dados Federados).
 
-  Para FDA, selecione a conta FDA. Observe que a conexão do Campaign com sistemas externos é restrita a usuários avançados e está disponível somente no console do cliente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/connect/fda#_blank)
+  Para FDA, selecione a conta FDA. Observe que a conexão do Campaign com sistemas externos é restrita a usuários avançados e está disponível somente no console do cliente. [Saiba mais](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Criar fluxo de trabalho de arquivamento]** - Para cada instância de execução registrada no Centro de Mensagens, independentemente de haver uma ou várias instâncias, crie um fluxo de trabalho de arquivamento separado para cada conta externa associada à instância de execução.

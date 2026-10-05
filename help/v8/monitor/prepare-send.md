@@ -3,11 +3,15 @@ audience: end-user
 title: Preparar e enviar um email
 description: Saiba como preparar e enviar um email com a interface da Web do Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-TQID: https://experienceleague.adobe.com/C6e0KNg-R2nMDbliQtciQ8-SHRscbxaC91ol0L-cFfM
+TQID: 'https://experienceleague.adobe.com/C6e0KNg-R2nMDbliQtciQ8-SHRscbxaC91ol0L-cFfM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 33%
@@ -20,7 +24,7 @@ Ao definir seu [conteúdo](../email/edit-content.md), [público-alvo](../audienc
 
 Durante a preparação do delivery, a população do target é calculada e o conteúdo da mensagem é gerado para cada perfil incluído no target. Quando a preparação for concluída, as mensagens estarão prontas para serem enviadas imediatamente ou na data e hora programadas.
 
-As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=pt-BR){target="_blank"}.
+As regras de validação usadas durante a preparação da entrega são descritas na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 As principais etapas para preparar o envio estão listadas abaixo.
 

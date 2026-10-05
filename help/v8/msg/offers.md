@@ -3,14 +3,18 @@ audience: end-user
 title: Adicionar ofertas em suas mensagens
 description: Saiba como adicionar e enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
+TQID: 'https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 23%
@@ -110,7 +114,7 @@ Para inserir uma oferta usando o editor de expressão, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=pt-BR){target="_blank"}.
+   >O número de apresentações disponíveis depende da maneira como a chamada do mecanismo é configurada e sua ordem depende da prioridade das ofertas. Saiba mais na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Salve as alterações.
 
