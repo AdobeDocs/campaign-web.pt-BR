@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 980797ae8e315192d95957fcfd5dbdb68bb6ab32
 workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 99%
 ---
 # Console do cliente do Campaign e Campaign Web {#capabilities-matrix}
 
@@ -78,7 +78,7 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 
 * **Calendário de marketing**. O calendário da campanha mostra todos os programas, planos, campanhas e entregas em uma linha do tempo global. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=pt-BR#campaign-calendar){target="_blank"}
 * **Programas e planos**. Cada campanha faz parte de um programa que, por sua vez, pertence a um plano. Na interface do Campaign Web, todas as campanhas são associadas por padrão a um plano e programa integrados. Só é possível criar e gerenciar planos e programas no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=pt-BR#work-with-plan-and-program){target="_blank"}
-* **Gerenciamento de provedores, orçamento e custos**. Você pode configurar provedores de serviços envolvidos nos processos realizadas em suas campanhas, incluindo estruturas de custo, o que permite gerenciar seus orçamentos em cada programa e campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=pt-BR){target="_blank"}
+* **Gerenciamento de provedores, orçamento e custos**. Você pode configurar provedores de serviços envolvidos nos processos realizadas em suas campanhas, incluindo estruturas de custo, o que permite gerenciar seus orçamentos em cada programa e campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
 * **Marketing distribuído** (marketing central e local) O Adobe Campaign oferece um aplicativo de marketing distribuído para implementar campanhas cooperativas entre entidades centrais (sede, departamentos de marketing e outros) e entidades locais (pontos de vendas, agências regionais e outros). Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=pt-BR){target="_blank"}
 * **Gerenciamento de recursos de marketing** (MRM), metas, simulações e controle de custos. O Adobe Campaign oferece um aplicativo de gerenciamento de recursos de marketing (MRM) que permite controlar ações de marketing de forma colaborativa, fornecendo gerenciamento completo e monitoramento em tempo real das tarefas, orçamentos e recursos de marketing envolvidos. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=pt-BR){target="_blank"}
 * **Gerenciamento de tarefas**. Como parte do aplicativo MRM, as tarefas do Campaign podem ser criadas, atribuídas, rastreadas e monitoradas no painel da campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=pt-BR){target="_blank"}
