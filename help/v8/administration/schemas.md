@@ -66,4 +66,4 @@ A interface de schemas permite:
 >
 >Você precisa ter direitos de administrador para gerenciar esquemas.
 
-Informações detalhadas sobre esquemas estão disponíveis na [documentação do console do Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Informações detalhadas sobre esquemas estão disponíveis na [documentação do console do Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.

@@ -67,7 +67,7 @@ Esta seção permite controlar quando e para quem a oferta pode ser apresentada.
   >
   >As interseções do período de qualificação com a categoria principal são consideradas: mesmo que o agendamento da própria oferta seja mais amplo, a oferta só será apresentada, enquanto a categoria principal também será elegível.
 
-* **[!UICONTROL Filtros no destino]** — Clique em **[!UICONTROL Criar filtro]** para abrir o construtor de regras e restringir a oferta a um público específico. Deixe o filtro em branco para tornar a oferta elegível para todo o público-alvo do ambiente. Para reutilizar um **filtro predefinido** declarado no nível da plataforma, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}. Filtros predefinidos são criados no console do cliente.
+* **[!UICONTROL Filtros no destino]** — Clique em **[!UICONTROL Criar filtro]** para abrir o construtor de regras e restringir a oferta a um público específico. Deixe o filtro em branco para tornar a oferta elegível para todo o público-alvo do ambiente. Para reutilizar um **filtro predefinido** declarado no nível da plataforma, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=pt-BR){target="_blank"}. Filtros predefinidos são criados no console do cliente.
 
 * **[!UICONTROL Gerenciamento do peso da oferta]** — Clique em **[!UICONTROL Exibir peso da oferta]** e em **[!UICONTROL Adicionar peso]** para influenciar a prioridade da oferta quando várias ofertas estiverem qualificadas ao mesmo tempo. Cada peso tem uma data de início, uma data de término e um filtro opcional.
 

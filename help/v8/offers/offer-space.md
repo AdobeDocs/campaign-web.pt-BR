@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Um **espaço de ofertas** define onde e como uma oferta é exposta a um contato: qual canal ela usa (email, correspondência direta, SMS, Web de entrada etc.), quais campos de conteúdo a oferta pode usar e como a representação final é criada. Um único ambiente pode conter vários espaços de oferta — um para cada ponto de exposição.
 
-Um espaço de ofertas não é um canal por si só. Ele representa um local específico onde a oferta é exibida em um canal. Dois banners na mesma página da Web normalmente correspondem a dois espaços de oferta diferentes. Para obter o modelo conceitual completo, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
+Um espaço de ofertas não é um canal por si só. Ele representa um local específico onde a oferta é exibida em um canal. Dois banners na mesma página da Web normalmente correspondem a dois espaços de oferta diferentes. Para obter o modelo conceitual completo, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=pt-BR){target="_blank"}.
 
 ## Criar ou modificar um espaço de oferta{#create-offer-space}
 
@@ -79,19 +79,19 @@ Esta seção permite controlar como as propostas geradas por meio deste espaço 
 
 * **[!UICONTROL Status]** sobre aceitação — Status aplicado quando o destinatário interage com a oferta (normalmente **[!UICONTROL Accepted]**).
 
-Os valores de status disponíveis correspondem à lista usada pelo Console do cliente. Para obter mais informações, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"} na documentação do console.
+Os valores de status disponíveis correspondem à lista usada pelo Console do cliente. Para obter mais informações, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=pt-BR#offer-proposition-statuses){target="_blank"} na documentação do console.
 
 <!--
 >[!NOTE]
 >
->Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
+>Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=pt-BR#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
 -->
 
 ### Definir configurações avançadas {#advanced}
 
-Esta seção permite que você defina a **[!UICONTROL Identificação de destino]**. Clique em **[!UICONTROL Adicionar]** e selecione um ou vários atributos de **[!UICONTROL Destinatário]** ou clique em **[!UICONTROL Editar expressão]** para definir uma expressão personalizada. Esta configuração é opcional para um espaço de ofertas básico. Para obter referência e comportamento completos, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
+Esta seção permite que você defina a **[!UICONTROL Identificação de destino]**. Clique em **[!UICONTROL Adicionar]** e selecione um ou vários atributos de **[!UICONTROL Destinatário]** ou clique em **[!UICONTROL Editar expressão]** para definir uma expressão personalizada. Esta configuração é opcional para um espaço de ofertas básico. Para obter referência e comportamento completos, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=pt-BR){target="_blank"}.
 
-Os espaços de oferta criados no **canal da Web de entrada** também exigem que o site seja configurado para exibir a oferta e chamar o mecanismo de Oferta. Essa integração é realizada no Console do Cliente — consulte [Apresentar ofertas em tempo real](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"} e [Configurar a integração do mecanismo de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"} na documentação do Campaign v8.
+Os espaços de oferta criados no **canal da Web de entrada** também exigem que o site seja configurado para exibir a oferta e chamar o mecanismo de Oferta. Essa integração é realizada no Console do Cliente — consulte [Apresentar ofertas em tempo real](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html?lang=pt-BR){target="_blank"} e [Configurar a integração do mecanismo de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html?lang=pt-BR){target="_blank"} na documentação do Campaign v8.
 
 ## Implantar o espaço de oferta {#deploy}
 

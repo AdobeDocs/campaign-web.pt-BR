@@ -77,7 +77,7 @@ A seção **[!UICONTROL Propriedades]** de uma mensagem transacional ajuda a con
 * A **[!UICONTROL Pasta de execução]**, onde a mensagem é armazenada após a execução.
 * O **[!UICONTROL Código de entrega]**, que é um código que ajuda a reconhecer a mensagem para relatórios, se necessário.
 * A **[!UICONTROL Descrição]**.
-* A **[!UICONTROL Nature]**, que é a natureza da entrega, conforme listada na enumeração *deliveryNature*. [Saiba mais sobre enumerações](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* A **[!UICONTROL Nature]**, que é a natureza da entrega, conforme listada na enumeração *deliveryNature*. [Saiba mais sobre enumerações](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![Captura de tela mostrando a seção de propriedades de um modelo de mensagem transacional.](assets/template-properties.png){zoomable="yes"}
 
