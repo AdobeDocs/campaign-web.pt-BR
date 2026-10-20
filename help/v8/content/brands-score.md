@@ -26,7 +26,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de poder usar a opção Gerar conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
+>Você deve concordar com o [contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de poder usar a opção Gerar conteúdo. Para mais informações, entre em contato com o seu representante da Adobe.
 
 O recurso de análise de conteúdo fornece ferramentas abrangentes de avaliação para medir o desempenho de suas campanhas com as diretrizes de sua marca e manter padrões de qualidade de conteúdo em todas as comunicações:
 
