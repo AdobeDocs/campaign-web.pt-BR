@@ -23,7 +23,7 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 14f1be5428c2174b63543c11cd2c64a69e33fdd4
+source-git-commit: 1848b3a9b756587f0ec5a4e9cef5731675f4e1ae
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 86%
@@ -41,8 +41,6 @@ As páginas de destino permitem direcionar seus usuários para formulários onli
 >As páginas de destino criadas na interface do Campaign Web são diferentes dos formulários web criados no console do cliente. Não é possível exibir ou editar formulários web criados no console do cliente na interface do Campaign Web.
 >
 >Saiba mais sobre formulários web na [documentação do Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=pt-BR){target="_blank"}.
-
->[!NOTE]
 >
 >As landing pages criadas na interface da Web do Campaign não são compatíveis com campos de entrada ocultos ou JavaScript personalizados. Para calcular e armazenar valores que não são exibidos para os visitantes, crie o formulário como um aplicativo web no console do cliente.
 
