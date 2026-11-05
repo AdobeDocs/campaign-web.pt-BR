@@ -18,10 +18,10 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 38%
+source-wordcount: '846'
+ht-degree: 36%
 ---
 # Enviar usando ondas {#send-using-waves}
 
@@ -61,6 +61,8 @@ Para enviar deliveries usando ondas, siga as etapas abaixo.
    >Certifique-se de que as últimas ondas não excedam o prazo do delivery, definido na guia [Validity](delivery-settings.md#validity), caso contrário, algumas mensagens podem não ser enviadas. Uma regra de controle de tipologia específica, **[!UICONTROL Wave scheduling check]**, garante que a última onda seja planejada antes do limite da validade da entrega. Saiba mais sobre regras de controle na [documentação do Campaign v8 (console do cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=pt-BR).
    >
    >Você também deverá permitir tempo suficiente para novas tentativas ao configurar as últimas ondas. [Saiba mais](delivery-settings.md#retries)
+   >
+   >As ondas são programadas a partir da data de contato da entrega. Se a entrega começar após o tempo planejado de algumas ondas, essas ondas serão enviadas juntas, em vez de serem espaçadas.
 
 1. Para monitorar seus envios, vá para os [logs do delivery](../monitor/delivery-logs.md). Você pode ver as entregas que já foram enviadas nas ondas processadas (status **[!UICONTROL Sent]**) e as entregas a serem enviadas nas ondas restantes (status **[!UICONTROL Pending]**).
 
