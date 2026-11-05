@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 4ac71499967647b9e0b51b504669e917c157cf62
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 36%
+source-wordcount: '794'
+ht-degree: 34%
 ---
 # Contas externas de Dados de Transferência {#transfer-external-account}
 
@@ -71,6 +71,10 @@ Para configurar a **[!UICONTROL conta externa do Azure]** para funcionar com o A
 * **[!UICONTROL Access key]**
 
   Para saber onde encontrar sua **[!UICONTROL Chave de acesso]**, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >O Azure Blob Storage filtra os arquivos por prefixo de nome, não por padrão. Um asterisco (`*`) à direita em uma máscara de arquivo foi removido, portanto, `TEST_EXPORT_AZURE_*` corresponde a todos os arquivos que iniciam com `TEST_EXPORT_AZURE_`. Os caracteres após o asterisco, como em `TEST_EXPORT_AZURE_*.csv`, não são suportados. [Saiba mais na documentação do Microsoft](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
 
 ## SFTP
 
