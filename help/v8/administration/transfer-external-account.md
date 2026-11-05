@@ -15,16 +15,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 4ac71499967647b9e0b51b504669e917c157cf62
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 36%
+source-wordcount: '794'
+ht-degree: 34%
 ---
 # Contas externas de Dados de Transferência {#transfer-external-account}
 
 ## Serviço de armazenamento simples Amazon (S3) {#amazon-simple-storage-service--s3--external-account}
 
-O conector do Serviço de Armazenamento Simples da Amazon (S3) pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de fluxo de trabalho. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+O conector do Serviço de Armazenamento Simples da Amazon (S3) pode ser usado para importar ou exportar dados para o Adobe Campaign. Ele pode ser configurado em uma atividade de fluxo de trabalho. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Captura de tela mostrando os campos de configuração da conta externa S3 do Serviço de Armazenamento Simples da Amazon.](assets/external-AWS.png)
 
@@ -54,7 +54,7 @@ Para saber onde encontrar a ID da chave de acesso e a chave de acesso secreta, c
 
 ## Armazenamento Azure Blob {#azure-blob-external-account}
 
-A conta externa **[!UICONTROL Azure Blob Storage]** pode ser usada para importar ou exportar dados para o Adobe Campaign usando uma atividade de fluxo de trabalho **[!UICONTROL Transferir arquivo]**. Para obter mais informações, consulte [esta seção](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+A conta externa **[!UICONTROL Azure Blob Storage]** pode ser usada para importar ou exportar dados para o Adobe Campaign usando uma atividade de fluxo de trabalho **[!UICONTROL Transferir arquivo]**. Para obter mais informações, consulte [esta seção](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Captura de tela mostrando os campos de configuração da conta externa do Azure Blob Storage.](assets/external-azure.png)
 
@@ -71,6 +71,10 @@ Para configurar a **[!UICONTROL conta externa do Azure]** para funcionar com o A
 * **[!UICONTROL Access key]**
 
   Para saber onde encontrar sua **[!UICONTROL Chave de acesso]**, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >O Azure Blob Storage filtra os arquivos por prefixo de nome, não por padrão. Um asterisco (`*`) à direita em uma máscara de arquivo foi removido, portanto, `TEST_EXPORT_AZURE_*` corresponde a todos os arquivos que iniciam com `TEST_EXPORT_AZURE_`. Os caracteres após o asterisco, como em `TEST_EXPORT_AZURE_*.csv`, não são suportados. [Saiba mais na documentação do Microsoft](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
 
 ## SFTP
 
@@ -149,7 +153,7 @@ Para configurar a conta externa do **[!UICONTROL HTTP]**, preencha os seguintes 
   * Senha
   * Chave pública
 
-Se você estiver usando a autenticação de **[!UICONTROL Chave pública]**, no menu **[!UICONTROL Autenticação de &lbrace;PublicKey]**, insira os valores necessários para:
+Se você estiver usando a autenticação de **[!UICONTROL Chave pública]**, no menu **[!UICONTROL Autenticação de {PublicKey]**, insira os valores necessários para:
 
 * **[!UICONTROL Senha]**: a senha que protege a chave privada, se aplicável.
 
