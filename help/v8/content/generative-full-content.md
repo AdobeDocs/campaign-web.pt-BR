@@ -217,4 +217,4 @@ Ao definir seu conteúdo, público-alvo e agendamento, prepare sua entrega por p
 
 Saiba como usar a IA para gerar conteúdo de email, texto e imagens completos.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505097?captions=por_br)

@@ -89,4 +89,4 @@ Veja alguns exemplos de como acessar o editor de expressão dependendo do conte�
 
 Saiba como tornar o conteúdo da mensagem dinâmico por meio do editor de expressão para personalizar a sua mensagem ou adicionar um conteúdo condicional.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505241?captions=por_br&quality=12)
