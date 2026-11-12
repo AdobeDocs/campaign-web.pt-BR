@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
+source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '777'
 ht-degree: 2%
 ---
 # Diferenças entre o Campaign Standard e o Campaign v8 {#acs-v8-differences}
@@ -50,9 +50,9 @@ As etapas para criar e enviar mensagens são semelhantes nos dois produtos, conf
 |---|---|
 | O canal no aplicativo não está disponível no Campaign v8. | [Canal no aplicativo](marketers.md#acs-gs-marketers-in-app) |
 | Para fazer a transição de workflows e deliveries por push existentes, entre em contato com o Gerente de transição da Adobe Campaign. | [Notificações por push](marketers.md#acs-gs-marketers-push) |
-| No Campaign Standard, um perfil de teste pode ser marcado como uma **Trap** para receber o envio final. No Campaign v8, habilite a opção para incluir perfis de teste no público-alvo principal do delivery. | [Testar entregas](../../v8/preview-test/test-deliveries.md) |
+| No Campaign Standard, um perfil de teste pode ser marcado como uma **Trap** para receber o envio final. No Campaign v8, adicione um **Grupo de interceptação** nas configurações de Público-alvo da entrega. | [Grupo de interceptação](../../v8/audience/trap-group.md) |
 | As landing pages criadas na interface da Web do Campaign não são compatíveis com campos de entrada ocultos ou JavaScript personalizados. | [Páginas de destino](../../v8/landing-pages/get-started-lp.md) |
-| No Campaign Standard, a transição de saída de uma atividade de correspondência direta também carregava o arquivo gerado. No Campaign v8, ele carrega somente a população direcionada. Para enviar o arquivo a um servidor, adicione uma atividade **Extração de dados** e depois uma atividade **Transferência de arquivos**. | [Correspondência direta](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| No Campaign Standard, a transição de saída de uma atividade de correspondência direta também carregava o arquivo gerado. No Campaign v8, ele carrega somente a população direcionada. Para enviar o arquivo a um servidor, adicione uma atividade **Extração de dados** e depois uma atividade **Transferência de arquivos**. | [Correspondência direta](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Públicos, fluxos de trabalho e entregas {#data-and-workflows}
 
@@ -63,7 +63,6 @@ Essas diferenças afetam os públicos-alvo e os fluxos de trabalho migrados do C
 | Os públicos-alvo são transformados durante a transição. Por exemplo, os públicos-alvo criados com a atividade Query se tornam filtros predefinidos e os públicos-alvo do tipo file se tornam públicos-alvo do tipo List sem dimensões. | [Gerenciar públicos-alvo](marketers.md#acs-gs-marketers-audiences) |
 | Os logs históricos de workflows executados no Campaign Standard não são migrados. | [Criar um fluxo de trabalho](marketers.md#acs-gs-marketers-wf) |
 | No Campaign Standard, você pode selecionar o período de agregação de um email recorrente. Essa opção não está disponível no Campaign v8. | [Atividades de canal](../../v8/workflows/activities/channels.md) |
-| No Campaign Standard, a atividade **Transferência de arquivos** pode classificar arquivos alfanumericamente. Essa opção não está disponível no Campaign v8. | [Transferir arquivo](../../v8/workflows/activities/transfer-file.md) |
 | Os relatórios dinâmicos abrangem entregas de email, campanhas com entregas de email e mensagens transacionais. | [Relatórios](marketers.md#acs-gs-marketers-reporting) |
 
 ## Acesso e segurança {#access}
@@ -86,10 +85,7 @@ Essas diferenças afetam os deliveries enviados do Campaign Standard antes da tr
 |---|---|
 | As mirror pages dos deliveries enviados do Campaign Standard antes da transição não estão disponíveis. As mirror pages dos deliveries enviados do Campaign v8 funcionam como de costume. | [Mirror pages](../../v8/email/mirror-page.md) |
 | Os dados de rastreamento de deliveries transacionais em tempo real enviados do Campaign Standard antes da transição não são capturados no Campaign v8. Os links dessas mensagens ainda são redirecionados. | [Monitorar mensagens transacionais](../../v8/transactional-messaging/monitor-transactional.md) |
-| As configurações de URL rastreado de deliveries de rascunho não são mantidas. Após a transição, os links de rastreamento, mirror page e subscrição seguem o padrão do Campaign v8 e os links são rastreados por padrão. | [Adicionar links e rastrear mensagens](../../v8/email/message-tracking.md) |
 | As unidades geográficas não estão disponíveis. O controle de acesso com base em unidades geográficas é perdido. | [Controle de acesso](../../v8/get-started/connect-to-campaign.md#access-control) |
-| As informações de entidades **Criado por** e **Modificado por** não estão disponíveis após a transição. | [Trilha de auditoria](admin-developers.md#acs-gs-admin-audit-trail) |
-| Os URLs do subdomínio de marca são ajustados para o padrão do Campaign v8. As configurações de marca não padrão não são migradas e são fornecidas por meio da marca padrão. | [Identidade visual](../../v8/administration/branding/branding-gs.md) |
 
 ## APIs e integrações {#apis-and-integrations}
 
