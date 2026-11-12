@@ -52,7 +52,7 @@ As etapas para criar e enviar mensagens são semelhantes nos dois produtos, conf
 | Para fazer a transição de workflows e deliveries por push existentes, entre em contato com o Gerente de transição da Adobe Campaign. | [Notificações por push](marketers.md#acs-gs-marketers-push) |
 | No Campaign Standard, um perfil de teste pode ser marcado como uma **Trap** para receber o envio final. No Campaign v8, adicione um **Grupo de interceptação** nas configurações de Público-alvo da entrega. | [Grupo de interceptação](../../v8/audience/trap-group.md) |
 | As landing pages criadas na interface da Web do Campaign não são compatíveis com campos de entrada ocultos ou JavaScript personalizados. | [Páginas de destino](../../v8/landing-pages/get-started-lp.md) |
-| No Campaign Standard, a transição de saída de uma atividade de correspondência direta também carregava o arquivo gerado. No Campaign v8, ele carrega somente a população direcionada. Para enviar o arquivo a um servidor, adicione uma atividade **Extração de dados** e depois uma atividade **Transferência de arquivos**. | [Correspondência direta](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| No Campaign Standard, a transição de saída de uma atividade de correspondência direta também carregava o arquivo gerado. No Campaign v8, ele carrega somente a população direcionada. Para enviar o arquivo a um servidor, adicione uma atividade **Extração de dados** e depois uma atividade **Transferência de arquivos**. | [Correspondência direta](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Públicos, fluxos de trabalho e entregas {#data-and-workflows}
 
