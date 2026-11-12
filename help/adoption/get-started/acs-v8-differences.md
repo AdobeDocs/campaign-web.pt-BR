@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '649'
 ht-degree: 2%
 ---
 # Diferenças entre o Campaign Standard e o Campaign v8 {#acs-v8-differences}
@@ -52,7 +52,7 @@ As etapas para criar e enviar mensagens são semelhantes nos dois produtos, conf
 | Para fazer a transição de workflows e deliveries por push existentes, entre em contato com o Gerente de transição da Adobe Campaign. | [Notificações por push](marketers.md#acs-gs-marketers-push) |
 | No Campaign Standard, um perfil de teste pode ser marcado como uma **Trap** para receber o envio final. No Campaign v8, adicione um **Grupo de interceptação** nas configurações de Público-alvo da entrega. | [Grupo de interceptação](../../v8/audience/trap-group.md) |
 | As landing pages criadas na interface da Web do Campaign não são compatíveis com campos de entrada ocultos ou JavaScript personalizados. | [Páginas de destino](../../v8/landing-pages/get-started-lp.md) |
-| No Campaign Standard, a transição de saída de uma atividade de correspondência direta também carregava o arquivo gerado. No Campaign v8, ele carrega somente a população direcionada. Para enviar o arquivo a um servidor, adicione uma atividade **Extração de dados** e depois uma atividade **Transferência de arquivos**. | [Correspondência direta](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| No Campaign Standard, a transição de saída de uma atividade de correspondência direta também carregava o arquivo gerado. No Campaign v8, ele carrega somente a população direcionada. Para enviar o arquivo a um servidor, adicione uma atividade **Extração de dados** e depois uma atividade **Transferência de arquivos**. | [Correspondência direta](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Públicos, fluxos de trabalho e entregas {#data-and-workflows}
 
@@ -77,16 +77,6 @@ Os grupos de segurança, as funções e as unidades organizacionais do Campaign 
 | O acesso a APIs transacionais a partir da instância de execução requer um novo perfil de produto. | [Mapeamento de perfil de produto](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | As solicitações de privacidade podem chegar ao Campaign Standard e ao Campaign v8 durante o período em que o ambiente do Campaign Standard permanece ativo. | [Privacidade e consentimento](admin-developers.md#privacy-and-consent) |
 
-## Administração, rastreamento e mirror pages {#admin-tracking}
-
-Essas diferenças afetam os deliveries enviados do Campaign Standard antes da transição e as informações administrativas que não são transferidas para o Campaign v8.
-
-| O que muda | Saiba mais |
-|---|---|
-| As mirror pages dos deliveries enviados do Campaign Standard antes da transição não estão disponíveis. As mirror pages dos deliveries enviados do Campaign v8 funcionam como de costume. | [Mirror pages](../../v8/email/mirror-page.md) |
-| Os dados de rastreamento de deliveries transacionais em tempo real enviados do Campaign Standard antes da transição não são capturados no Campaign v8. Os links dessas mensagens ainda são redirecionados. | [Monitorar mensagens transacionais](../../v8/transactional-messaging/monitor-transactional.md) |
-| As unidades geográficas não estão disponíveis. O controle de acesso com base em unidades geográficas é perdido. | [Controle de acesso](../../v8/get-started/connect-to-campaign.md#access-control) |
-
 ## APIs e integrações {#apis-and-integrations}
 
 Essas diferenças afetam as integrações que chamam o Campaign por meio da REST API e as integrações com outras soluções e ferramentas da Adobe.
@@ -95,5 +85,4 @@ Essas diferenças afetam as integrações que chamam o Campaign por meio da REST
 |---|---|
 | Os valores de PKEY são alterados após a migração. Se você armazenar PKEYs fora do Campaign, siga os hrefs retornados pela API. | [REST APIs](admin-developers.md#acs-gs-admin-apis) |
 | Alguns campos de perfil migrados, como fuso horário e `ccpaOptOut`, são retornados somente pela API `profileAndServicesExt/profile`. | [REST APIs](admin-developers.md#acs-gs-admin-apis) |
-| As integrações do Dreamweaver e do Adobe Experience Platform Data Connector do Campaign Standard não estão disponíveis no Campaign v8. | [Trabalhar com o Campaign e outras soluções da Adobe](../../v8/integrations/integration.md) |
 | O Adobe migra suas configurações do Adobe Analytics e do Audience Manager. Você deve configurar os Triggers e as integrações do Adobe Target novamente. | [Gerenciar integrações do Adobe Campaign](admin-developers.md#acs-gs-integrations) |
