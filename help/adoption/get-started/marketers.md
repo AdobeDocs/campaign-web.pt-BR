@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2849'
 ht-degree: 16%
 ---
 # Introdução para profissionais de marketing {#acs-gs-marketers}
@@ -231,7 +231,7 @@ Links úteis:
 >
 >* Os deliveries que estão em um dos seguintes status foram migrados como deliveries cancelados: Para Cancelados / Nova tentativa em andamento.
 >
->* Os links de rastreamento, links de URL de mirror page, links de subscrição/cancelamento de subscrição funcionam como no Campaign Standard.
+>* Os links de rastreamento, links de URL de mirror page e links de subscrição/unsubscription de deliveries enviados pelo Campaign v8 seguem o padrão do Campaign v8.
 >
 >Consulte também as seguintes seções: [Rastreamento e monitoramento](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Identidade visual](../../v8/administration/branding/branding-gs.md) no Adobe Campaign.
 
@@ -375,7 +375,7 @@ Observe que o canal No aplicativo não está disponível no Campaign v8. Se prec
 
 A interface do usuário da Web do Adobe Campaign v8 vem com uma experiência de usuário recriada para landing pages. O Campaign permite criar, projetar e compartilhar landing pages. As páginas de destino permitem direcionar usuários para formulários online onde é possível atualizar dados, aceitar ou recusar o recebimento de comunicações ou assinar um serviço específico, como um informativo.
 
-Como usuário do Campaign Standard que está fazendo a transição para o Campaign v8, suas páginas de aterrissagem existentes foram migradas para a interface do usuário da Web do Campaign. Você pode acessar a mesma variedade de recursos.
+Como usuário do Campaign Standard em transição para o Campaign v8, suas páginas de aterrissagem existentes foram migradas para a interface do usuário da Web do Campaign. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 Saiba mais sobre landing pages nas seguintes seções:
 

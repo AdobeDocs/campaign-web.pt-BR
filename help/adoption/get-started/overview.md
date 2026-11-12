@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 28%
 ---
 # Do Campaign Standard ao v8 {#ac-acs}
@@ -57,6 +57,8 @@ Como um usuário que está fazendo a transição do Campaign Standard para o Cam
 1. Comece aprendendo [as novidades do Adobe Campaign v8](#new).
 
 1. Em seguida, compreenda [as diferenças de experiência entre o Adobe Campaign Standard e o Adobe Campaign v8 de acordo com sua função](#experiences).
+
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
 
 ## Novidades {#new}
 
@@ -171,7 +173,7 @@ Com o objetivo de uma transição descomplicada para o Campaign v8, os recursos 
 
 * **APIs REST**: como usuário de migração do Campaign Stardard, você pode usar APIs REST para criar integrações para o Adobe Campaign e construir seu próprio ecossistema conectando o Adobe Campaign com o painel de tecnologias que você usa. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=pt-BR){target="_blank"}
 
-* **Páginas de destino**: algumas melhorias foram inseridas nas páginas de destino do Campaign v8 para garantir a paridade de recursos com o Campaign Standard. Saiba mais nas[&#x200B; notas de versão](../../v8/rn/release-notes.md#new-24-4) e na [documentação](../../v8/landing-pages/get-started-lp.md) da página de destino.
+* **Páginas de aterrissagem** - Foram trazidas melhorias para as páginas de aterrissagem do Campaign v8 para alinhá-las ao Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> Saiba mais nas[&#x200B; notas de versão](../../v8/rn/release-notes.md#new-24-4) e na [documentação](../../v8/landing-pages/get-started-lp.md) da página de destino.
 
 * **Fragmentos visuais** - Os fragmentos visuais são componentes visuais reutilizáveis que podem ser referenciados em uma ou mais entregas de email ou em modelos de conteúdo. Ao modificar um fragmento, todos os conteúdos que o usam serão atualizados. Essa funcionalidade permite pré-construir vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para montar rapidamente o conteúdo de mensagens em um processo de design aprimorado. [Saiba mais](../../v8//content/use-visual-fragments.md)
 
@@ -195,6 +197,8 @@ Além disso, como usuário existente do Campaign, observe que alguns conceitos f
 * A análise da entrega agora é a **preparação da entrega**. Quando precisar iniciar a preparação da mensagem, clique no botão **Preparar**. [Saiba mais](../../v8/monitor/prepare-send.md).
 * A Visualização de email agora está disponível através do botão **Simular conteúdo**. [Saiba mais](../../v8/preview-test/preview-test.md)
 * As listas agora são **Públicos-alvo**. [Saiba mais](../../v8/audience/gs-audiences-recipients.md).
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## Nova experiência do usuário
