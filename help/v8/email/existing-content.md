@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '330'
+ht-degree: 26%
 ---
 # Importar o conteúdo do email {#existing-content}
 
@@ -31,6 +31,10 @@ Você pode importar conteúdo existente do HTML para o Designer de email. Esse c
 >[!NOTE]
 >
 >Não há restrições na estrutura do arquivo .zip. No entanto, as referências devem ser relativas e se encaixar na estrutura de árvore da pasta .zip.
+
+>[!IMPORTANT]
+>
+>Não use a marca HTML `<base>` no seu conteúdo de email. Por motivos de segurança, essa tag não é compatível e pode impedir que o conteúdo seja carregado no editor de conteúdo. Em vez disso, use URLs absolutos para seus links e recursos externos.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 

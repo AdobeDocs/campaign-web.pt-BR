@@ -15,42 +15,42 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 81%
 ---
 # Conexão com o Adobe Campaign {#connect-to-campaign}
 
-A Experience Cloud é a família integrada de aplicativos, produtos e serviços de marketing digital da Adobe. Com sua interface intuitiva, você pode acessar rapidamente os aplicativos em nuvem, recursos do produto e serviços. Saiba como se conectar à Adobe Experience Cloud e acessar a interface do Adobe Campaign Web nesta página.
+[!DNL Adobe CX Enterprise] é a família integrada de aplicativos de marketing digital, produtos e serviços da Adobe. Com sua interface intuitiva, você pode acessar rapidamente os aplicativos em nuvem, recursos do produto e serviços. Saiba como se conectar ao [!DNL CX Enterprise] e acessar a interface da Web do Adobe Campaign nesta página.
 
-## Fazer logon na Adobe Experience Cloud {#sign-in-to-exc}
+## Entrar no [!DNL Adobe CX Enterprise] {#sign-in-to-exc}
 
-Também é possível usar o logon único (SSO) para se conectar ao Campaign. Normalmente, admins da Experience Cloud são responsáveis por conceder acesso a aplicativos e serviços. Siga as etapas no convite para a Experience Cloud enviado por email.
+Também é possível usar o logon único (SSO) para se conectar ao Campaign. Normalmente, os administradores do [!DNL CX Enterprise] concedem acesso a aplicativos e serviços. Siga as etapas no convite por email para [!DNL CX Enterprise].
 
-Para fazer logon na Adobe Experience Cloud, siga estas etapas básicas:
+Para entrar no [!DNL Adobe CX Enterprise], siga estas etapas básicas:
 
-1. Navegue até [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+1. Navegue até [[!DNL Adobe CX Enterprise]](https://experience.adobe.com/){target="_blank"}.
 
 1. Faça logon usando sua Adobe ID ou Enterprise ID. Saiba mais sobre os tipos de identidade da Adobe [neste artigo](https://helpx.adobe.com/br/enterprise/using/identity.html){target="_blank"}.
 
-   Depois de fazer logon na Experience Cloud, você pode acessar rapidamente todas as soluções e aplicativos.
+   Depois de entrar no [!DNL CX Enterprise], você pode acessar rapidamente todas as soluções e aplicativos.
 
-   ![Captura de tela mostrando a página inicial da Adobe Experience Cloud](assets/exc-home.png){zoomable="yes"}
+   ![Captura de tela mostrando a página inicial do Adobe CX Enterprise](assets/exc-home.png){zoomable="yes"}
 
 1. Verifique se você está na organização correta.
 
-   ![Captura de tela mostrando a seleção da organização na Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
+   ![Captura de tela mostrando a seleção da organização no Adobe CX Enterprise](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
-   Saiba mais sobre organizações na Adobe Experience Cloud [neste artigo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre organizações em [!DNL Adobe CX Enterprise] em [este artigo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR){target="_blank"}.
 
 ## Acesso ao Adobe Campaign {#access-to-campaign}
 
-Para acessar o ambiente do Campaign, selecione **Campaign** na seção **Acesso rápido** da página inicial da Adobe Experience Cloud.
+Para acessar o ambiente do Campaign, selecione **Campanha** na seção **Acesso rápido** da home page [!DNL Adobe CX Enterprise].
 
-Se você já estiver conectado a outra solução da Adobe Experience Cloud, navegue até seu ambiente do Campaign no seletor de soluções no canto superior direito da tela.
+Se você já estiver conectado a outra solução do [!DNL Adobe CX Enterprise], navegue até o ambiente do Campaign a partir do alternador de soluções na parte superior direita da tela.
 
-![Captura de tela mostrando o alternador de soluções na Adobe Experience Cloud](assets/solution-switcher.png){zoomable="yes"}
+![Captura de tela mostrando o alternador de soluções no Adobe CX Enterprise](assets/solution-switcher.png){zoomable="yes"}
 
 Se você tiver acesso a vários ambientes, incluindo o Painel de controle do Campaign, clique no botão **Iniciar** da instância correta.
 
@@ -103,17 +103,17 @@ Ao navegar pela interface do Campaign Web, você pode acessar dados, objetos e r
 
 Para aprender a exibir e gerenciar permissões, [consulte esta página](permissions.md).
 
-## Navegação superior da Adobe Experience Cloud {#top-bar}
+## Navegação superior de [!DNL Adobe CX Enterprise] {#top-bar}
 
-A barra superior da interface fornece acesso rápido aos principais recursos da Experience Cloud.
+A barra superior da interface fornece acesso rápido aos recursos principais do [!DNL CX Enterprise].
 
-![Captura de tela mostrando a barra de navegação superior da Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+![Captura de tela mostrando a barra de navegação superior do Adobe CX Enterprise](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
 Use a barra superior para:
 
 * Compartilhar feedback sobre a interface do Campaign Web.
 * Alternar entre suas organizações.
-* Alternar entre as soluções e os aplicativos da Adobe Experience Cloud.
+* Alternar entre aplicativos e soluções do [!DNL Adobe CX Enterprise].
 * Procurar ajuda na [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=pt-BR){target="_blank"}.
 * Visualizar as notificações do produto.
 * Editar seu perfil da Adobe e gerenciar configurações, como [atualizar seu idioma preferido](#language-pref) ou [alternar entre os temas claro e escuro](#dark-theme).

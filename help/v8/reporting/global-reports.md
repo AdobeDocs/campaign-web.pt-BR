@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 27%
+source-wordcount: '509'
+ht-degree: 18%
 ---
 # Introdução a relatórios globais {#global-report-gs}
 
@@ -65,3 +65,52 @@ Para acessar e gerenciar os relatórios globais, siga estas etapas:
 1. Nas **[!UICONTROL URLs e fluxos de cliques]**, escolha os **[!UICONTROL Links Mais Visitados]** ou o **[!UICONTROL Período]**.
 
    As opções **[!UICONTROL Exibir por]** permitem filtrar URLs, Rótulos ou Categorias.
+
+## Relatórios para o canal LINE {#line-reports}
+
+Os relatórios disponíveis para o canal LINE estão descritos abaixo.
+
+### Visão geral da entrega {#line-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_deliveries_overview"
+>title="Visão geral do delivery LINE"
+>abstract="Exibir mensagens a serem entregues, mensagens entregues e erros de entrega do LINE."
+
+O relatório **[!UICONTROL Visão geral da entrega]** exibe as mensagens a serem entregues, as mensagens entregues e os erros de entrega do LINE.
+
+### Público-alvo {#line-targeted-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_targeted_audience"
+>title="Público alvo do LINE"
+>abstract="Visualize o público-alvo direcionado pela entrega LINE e os resultados da entrega resultantes."
+
+O gráfico e a tabela **[!UICONTROL Público-alvo]** exibem o público-alvo direcionado pela entrega LINE e os resultados da entrega resultantes.
+
+### Estatísticas de entrega {#line-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_delivery_stats"
+>title="Estatísticas de entrega LINE"
+>abstract="Visualize os principais resultados do delivery para mensagens LINE, incluindo mensagens a serem entregues, mensagens entregues e erros de delivery."
+
+O gráfico e a tabela **[!UICONTROL Estatísticas de entrega]** exibem os principais resultados de entrega de mensagens LINE, incluindo mensagens a serem entregues, mensagens entregues e erros de entrega.
+
+### Causas da exclusão {#line-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_exclusions"
+>title="Causas de exclusão do LINE"
+>abstract="Visualizar por que os perfis direcionados foram excluídos da entrega LINE, como elegibilidade, validação ou regras de configuração."
+
+O gráfico e a tabela **[!UICONTROL Causas da exclusão]** exibem por que os perfis direcionados foram excluídos da entrega LINE, como elegibilidade, validação ou regras de configuração.
+
+### Taxa de transferência de entrega {#line-delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_line"
+>title="Taxa de transferência de entrega LINE"
+>abstract="Visualize a taxa de envio de mensagens LINE ao longo do tempo."
+
+O relatório **[!UICONTROL Taxa de transferência de entrega]** exibe a taxa de envio de mensagens LINE ao longo do tempo.

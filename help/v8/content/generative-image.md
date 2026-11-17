@@ -17,9 +17,9 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1255'
 ht-degree: 2%
 ---
 # Gerar imagens {#generative-image}
@@ -32,6 +32,10 @@ ht-degree: 2%
 >Você deve concordar com um [contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar a IA para gerar conteúdo na Adobe Campaign Web. Para mais informações, entre em contato com o seu representante da Adobe.
 
 Use a IA no Adobe Campaign Web para criar conteúdo visual atraente que aprimore suas mensagens de email, páginas de aterrissagem e notificações por push. A IA ajuda a gerar e otimizar imagens, garantindo que seu conteúdo seja visualmente envolvente e alinhado à sua marca.
+
+>[!IMPORTANT]
+>
+>Os links para imagens geradas pela IA são temporários e não podem ser usados para fornecer imagens aos recipients. Ao salvar o delivery, as imagens geradas são salvas na instância do Campaign e os links são substituídos. Salve o delivery antes de enviá-lo.
 
 ## Para emails e landing pages {#email-web-channels}
 

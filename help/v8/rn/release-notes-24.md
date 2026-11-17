@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # Notas de versão de 2024 {#2024-release}
 
@@ -241,7 +241,7 @@ Agora você pode criar links com outra tabela na atividade de fluxo de trabalho 
 
 * **Gerenciamento de pastas**: agora é possível criar uma subpasta de um tipo diferente da pasta principal. [Leia mais](../get-started/permissions.md#folders)
 
-* **Globalização**: como parte de nosso esforço contínuo para oferecer uma experiência de usuário unificada, harmonizamos a terminologia usada nos produtos e aplicativos da Adobe Experience Cloud. Isto afeta o termo alemão “Titel” que é alterado para “Label” quando se refere ao nome de um objeto. As mudanças serão implementadas progressivamente na interface e na documentação.
+* **Globalização** - Como parte de nosso esforço contínuo para fornecer uma experiência de usuário unificada, harmonizamos a terminologia usada nos produtos e aplicativos [!DNL Adobe CX Enterprise]. Isto afeta o termo alemão “Titel” que é alterado para “Label” quando se refere ao nome de um objeto. As mudanças serão implementadas progressivamente na interface e na documentação.
 
 
 ## Notas da versão de abril {#april-24-4-release}
