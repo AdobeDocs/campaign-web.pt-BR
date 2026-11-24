@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 25%
+source-wordcount: '380'
+ht-degree: 19%
 ---
 # Introdução a relatórios de entrega {#reports}
 
@@ -68,3 +68,28 @@ Para exibir e gerenciar relatórios, siga estas etapas:
    As opções **[!UICONTROL Exibir por]** permitem filtrar URLs, Rótulos ou Categorias.
 
    ![Exibir por opções para filtrar URLs, rótulos ou categorias](assets/manage_delivery_report_5.png){zoomable="yes"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_deliveries_overview"
+>title="Visão geral do delivery LINE"
+>abstract="Exibir mensagens a serem entregues, mensagens entregues e erros de entrega para a entrega LINE."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_targeted_population"
+>title="População direcionada LINE"
+>abstract="O gráfico e a tabela **Targeted population** exibem dados relativos ao público-alvo do LINE: mensagens a serem entregues e exclusões."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_overall_stats"
+>title="Estatísticas gerais do LINE"
+>abstract="O relatório **Estatísticas gerais** apresenta dados para as mensagens LINE enviadas: êxito e erros."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_exclusions"
+>title="Exclusões LINE"
+>abstract="O gráfico e a tabela **Exclusões** exibem os motivos que impediram os perfis excluídos de receber a mensagem LINE."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_line"
+>title="Taxa de transferência de entrega LINE"
+>abstract="O relatório **Taxa de transferência de entrega** apresenta a velocidade de entrega de suas mensagens LINE em um período especificado."
