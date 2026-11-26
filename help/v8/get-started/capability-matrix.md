@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Console do cliente do Campaign e Campaign Web {#capabilities-matrix}
 
@@ -78,19 +78,19 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 
 * **Calendário de marketing**. O calendário da campanha mostra todos os programas, planos, campanhas e entregas em uma linha do tempo global. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=pt-BR#campaign-calendar){target="_blank"}
 * **Programas e planos**. Cada campanha faz parte de um programa que, por sua vez, pertence a um plano. Na interface do Campaign Web, todas as campanhas são associadas por padrão a um plano e programa integrados. Só é possível criar e gerenciar planos e programas no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=pt-BR#work-with-plan-and-program){target="_blank"}
-* **Gerenciamento de provedores, orçamento e custos**. Você pode configurar provedores de serviços envolvidos nos processos realizadas em suas campanhas, incluindo estruturas de custo, o que permite gerenciar seus orçamentos em cada programa e campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
+* **Gerenciamento de provedores, orçamento e custos**. Você pode configurar provedores de serviços envolvidos nos processos realizadas em suas campanhas, incluindo estruturas de custo, o que permite gerenciar seus orçamentos em cada programa e campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
 * **Marketing distribuído** (marketing central e local) O Adobe Campaign oferece um aplicativo de marketing distribuído para implementar campanhas cooperativas entre entidades centrais (sede, departamentos de marketing e outros) e entidades locais (pontos de vendas, agências regionais e outros). Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=pt-BR){target="_blank"}
 * **Gerenciamento de recursos de marketing** (MRM), metas, simulações e controle de custos. O Adobe Campaign oferece um aplicativo de gerenciamento de recursos de marketing (MRM) que permite controlar ações de marketing de forma colaborativa, fornecendo gerenciamento completo e monitoramento em tempo real das tarefas, orçamentos e recursos de marketing envolvidos. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=pt-BR){target="_blank"}
 * **Gerenciamento de tarefas**. Como parte do aplicativo MRM, as tarefas do Campaign podem ser criadas, atribuídas, rastreadas e monitoradas no painel da campanha. Esse recurso só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=pt-BR){target="_blank"}
 
 ## Canais de comunicação {#channels-capabilities}
 
-A interface do Campaign Web permite criar, projetar e enviar **emails**, **SMS**, **notificações por push**, **correspondência direta** e medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, no momento os seguintes canais **não** estão disponíveis: in-app, LINE, Central de atendimento/Canal personalizado, Marketing social no X (Twitter).
+Com a interface de usuário da Web do Campaign, você pode criar, projetar e enviar **emails**, **SMS**, **notificações por push**, **correspondência direta**, **LINE** mensagens, **entregas da central de atendimento** e **entregas do canal personalizado**, além de medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, os seguintes canais estão atualmente **não** disponíveis: marketing social no aplicativo com X (Twitter).
 
-Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses canais.
+Alguns recursos de canal estão disponíveis somente no console do cliente:
 
-* **Mensagens LINE**. LINE é um aplicativo para mensagens instantâneas, chamadas de voz e vídeo gratuitas, disponível para todos os dispositivos móveis e PC. O Adobe Campaign permite enviar mensagens LINE somente a partir do console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=pt-BR){target="_blank"}
-* **Central de atendimento e canais personalizados**. A central de atendimento e outros canais personalizados podem ser implementados em seu ambiente do Campaign. Esses canais só podem ser disponibilizados por meio do console do cliente. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=pt-BR#other-channels){target="_blank"}
+* **Relatórios da central de atendimento**. Os relatórios não estão disponíveis na interface da Web para o canal da central de atendimento. Use o console do cliente para acessá-las. [Saiba mais](../call-center/gs-call-center.md)
+* **Configuração de canal personalizada**. Você cria deliveries para canais personalizados na interface da Web, mas configura o próprio canal personalizado no console do cliente. [Saiba mais](../call-center/gs-custom-channel.md)
 * **Marketing social** com o X (Twitter). Você interage com seus clientes via X (Twitter) publicando mensagens e enviando mensagens diretas. Esse recurso, que acompanha o complemento de marketing social, só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=pt-BR){target="_blank"}
 
 ## Páginas de destino e aplicativos web {#Webapps-capabilities}
@@ -120,7 +120,7 @@ Os processos de importação e exportação únicos descritos na [documentação
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=pt-BR){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -153,16 +153,16 @@ Regras de tipologia podem ser selecionadas para uma entrega ou um modelo de entr
 Use os links fornecidos para explorar a documentação do Campaign v8 (console do cliente) e saber mais sobre as regras de tipologia:
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=pt-BR){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
 * Criação de regras de fadiga/pressão. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/pressure-rules){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=pt-BR){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=pt-BR){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * Simulação de campanha. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign/automation/campaign-optimization/campaign-simulations){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=pt-BR#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## Fluxos de trabalho {#wf-capabilities}

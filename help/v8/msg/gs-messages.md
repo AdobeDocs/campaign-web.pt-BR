@@ -14,18 +14,18 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 74%
 ---
 # Introdução a mensagens{#gs-messages}
 
-Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push, mensagens do [WhatsApp](../whatsapp/get-started-whatsapp.md) e correspondência direta, e avaliar o impacto por meio de diversos relatórios específicos.
+Com o Adobe Campaign, você pode enviar campanhas entre canais, incluindo emails, SMS, notificações por push e correspondência direta, e medir seu impacto usando vários relatórios dedicados.
 
 Essas mensagens são projetadas e enviadas através de entregas e podem ser personalizadas para cada destinatário. As entregas podem ser independentes ou incluídas em fluxos de trabalho no contexto de uma campanha de marketing. Saiba como criar e gerenciar entregas no Adobe Campaign [nesta seção](gs-deliveries.md).
 
-O Adobe Campaign v8 inclui os seguintes canais de entrega: email, SMS, notificação por push e correspondência direta. Outros canais, como mensagens in-app ou marketing social no X (Twitter), ainda não são compatíveis.
+O Adobe Campaign v8 inclui os seguintes canais de entrega: email, SMS, notificação por push, correspondência direta, LINE, call center e canais personalizados. Outros canais, como mensagens in-app ou marketing social no X (Twitter), ainda não são compatíveis.
 
 Navegue pelas seções abaixo para saber como criar e enviar mensagens.
 

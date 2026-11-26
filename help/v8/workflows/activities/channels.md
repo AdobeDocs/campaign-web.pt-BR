@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Usar uma atividade de fluxo de trabalho de entrega
-description: Saiba como adicionar uma atividade de workflow de delivery (Email, Push, SMS, WhatsApp, Correspondência direta)
+description: Saiba como adicionar uma atividade de workflow de delivery (Email, Push, SMS, Direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: 'https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM'
 product_v2:
@@ -14,14 +14,14 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 40%
+source-wordcount: '987'
+ht-degree: 41%
 ---
-# Email, SMS, WhatsApp, Push, Atividades de correspondência direta {#channel}
+# Atividades de email, SMS, Push, Correspondência direta {#channel}
 
-O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS, WhatsApp, correspondência direta e push. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente.
+O Adobe Campaign Web permite automatizar e executar campanhas de marketing em canais de email, SMS, correspondência direta e push. É possível combinar atividades de canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que acionam ações com base no comportamento e nos dados do cliente.
 
 Por exemplo, crie uma campanha de email de boas-vindas que inclua uma série de mensagens em diferentes canais, como email, SMS, push e correspondência direta. Você também pode enviar um email de acompanhamento depois que um cliente concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
 
@@ -34,7 +34,6 @@ Usando atividades de canal, crie campanhas abrangentes e personalizadas que envo
 >* [Criar entrega de SMS independente](../../sms/create-sms.md)
 >* [Criar entrega por push autônoma](../../push/create-push.md)
 >* [Criar entrega autônoma de correspondência direta](../../direct-mail/create-direct-mail.md)
->* [Criar entrega independente do WhatsApp](../../whatsapp/create-whatsapp.md)
 
 ## Pré-requisitos {#channel-activity-prereq}
 
@@ -81,7 +80,7 @@ Comece a criar seu workflow com as atividades relevantes:
 
 Para configurar um delivery no contexto de um workflow, siga as etapas abaixo:
 
-1. Adicione uma atividade de canal: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL WhatsApp]**, **[!UICONTROL Notificação por push (Android)]**, **[!UICONTROL Notificação por push (iOS)]** ou **[!UICONTROL Correspondência direta]**.
+1. Adicione uma atividade de canal: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]**, **[!UICONTROL Notificação por push (iOS)]** ou **[!UICONTROL Correspondência direta]**.
 
 1. Selecione o **Tipo de entrega**: única ou recorrente.
 
