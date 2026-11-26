@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Console do cliente do Campaign e Campaign Web {#capabilities-matrix}
 
@@ -85,12 +85,12 @@ Use os links fornecidos para navegar pela documentação do Campaign v8 (console
 
 ## Canais de comunicação {#channels-capabilities}
 
-A interface do Campaign Web permite criar, projetar e enviar **emails**, **SMS**, **notificações por push**, **correspondência direta** e medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, no momento os seguintes canais **não** estão disponíveis: in-app, LINE, Central de atendimento/Canal personalizado, Marketing social no X (Twitter).
+Com a interface de usuário da Web do Campaign, você pode criar, projetar e enviar **emails**, **SMS**, **notificações por push**, **correspondência direta**, **LINE** mensagens, **entregas da central de atendimento** e **entregas do canal personalizado**, além de medir seu impacto usando vários relatórios dedicados, conforme detalhado [nesta seção](../msg/gs-messages.md). No entanto, os seguintes canais estão atualmente **não** disponíveis: marketing social no aplicativo com X (Twitter).
 
-Use os links fornecidos para navegar pela documentação do Campaign v8 (console do cliente) e saber mais sobre esses canais.
+Alguns recursos de canal estão disponíveis somente no console do cliente:
 
-* **Mensagens LINE**. LINE é um aplicativo para mensagens instantâneas, chamadas de voz e vídeo gratuitas, disponível para todos os dispositivos móveis e PC. O Adobe Campaign permite enviar mensagens LINE somente a partir do console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=pt-BR){target="_blank"}
-* **Central de atendimento e canais personalizados**. A central de atendimento e outros canais personalizados podem ser implementados em seu ambiente do Campaign. Esses canais só podem ser disponibilizados por meio do console do cliente. [Saiba mais na documentação do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=pt-BR#other-channels){target="_blank"}
+* **Relatórios da central de atendimento**. Os relatórios não estão disponíveis na interface da Web para o canal da central de atendimento. Use o console do cliente para acessá-las. [Saiba mais](../call-center/gs-call-center.md)
+* **Configuração de canal personalizada**. Você cria deliveries para canais personalizados na interface da Web, mas configura o próprio canal personalizado no console do cliente. [Saiba mais](../call-center/gs-custom-channel.md)
 * **Marketing social** com o X (Twitter). Você interage com seus clientes via X (Twitter) publicando mensagens e enviando mensagens diretas. Esse recurso, que acompanha o complemento de marketing social, só está disponível no console do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=pt-BR){target="_blank"}
 
 ## Páginas de destino e aplicativos web {#Webapps-capabilities}
